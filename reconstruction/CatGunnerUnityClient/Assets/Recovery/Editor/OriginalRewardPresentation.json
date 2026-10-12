@@ -1,0 +1,5485 @@
+{
+  "rotations": [
+    {
+      "component": 141631,
+      "originalGo": 16016,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyCheck",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyCheck_empty",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_list",
+          "ordinal": 0
+        },
+        {
+          "name": "Check_Reward (2)",
+          "ordinal": 0
+        },
+        {
+          "name": "GetAble_obj",
+          "ordinal": 0
+        },
+        {
+          "name": "Glow",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 16016
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "81b090e094d22b969d28b70d69c1ee0b",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "updateType": 0,
+        "isSpeedBased": 0,
+        "hasOnStart": 0,
+        "hasOnPlay": 0,
+        "hasOnUpdate": 0,
+        "hasOnStepComplete": 0,
+        "hasOnComplete": 0,
+        "hasOnTweenCreated": 0,
+        "hasOnRewind": 0,
+        "onStart": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onPlay": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onUpdate": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onStepComplete": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onComplete": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onTweenCreated": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onRewind": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "targetIsSelf": 1,
+        "targetGO": {
+          "fileID": 0
+        },
+        "tweenTargetIsTargetGO": 1,
+        "delay": 0,
+        "duration": 1,
+        "easeType": 1,
+        "easeCurve": {
+          "serializedVersion": 2,
+          "m_Curve": [
+            {
+              "serializedVersion": 3,
+              "time": 0,
+              "value": 0,
+              "inSlope": 0,
+              "outSlope": 0,
+              "weightedMode": 0,
+              "inWeight": 0,
+              "outWeight": 0
+            },
+            {
+              "serializedVersion": 3,
+              "time": 1,
+              "value": 1,
+              "inSlope": 0,
+              "outSlope": 0,
+              "weightedMode": 0,
+              "inWeight": 0,
+              "outWeight": 0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "loopType": 2,
+        "loops": -1,
+        "id": null,
+        "isRelative": 0,
+        "isFrom": 0,
+        "isIndependentUpdate": 0,
+        "autoKill": 1,
+        "autoGenerate": 1,
+        "isActive": 1,
+        "isValid": 1,
+        "target": {
+          "fileID": 106433
+        },
+        "animationType": 4,
+        "targetType": 11,
+        "forcedTargetType": 0,
+        "autoPlay": 1,
+        "useTargetAsV3": 0,
+        "endValueFloat": 0,
+        "endValueV3": {
+          "x": 0,
+          "y": 0,
+          "z": -180
+        },
+        "endValueV2": {
+          "x": 0,
+          "y": 0
+        },
+        "endValueColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "endValueString": null,
+        "endValueRect": {
+          "serializedVersion": 2,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "endValueTransform": {
+          "fileID": 0
+        },
+        "optionalBool0": 0,
+        "optionalBool1": 0,
+        "optionalFloat0": 0,
+        "optionalInt0": 0,
+        "optionalRotationMode": 0,
+        "optionalScrambleMode": 0,
+        "optionalShakeRandomnessMode": 0,
+        "optionalString": null
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 16016
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.96247274,
+          "w": -0.27137855
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1.2,
+          "y": 1.2,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [],
+        "m_Father": {
+          "fileID": 108340
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 148.50737
+        },
+        "m_AnchorMin": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_AnchorMax": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_AnchoredPosition": {
+          "x": 0.11869812,
+          "y": -27
+        },
+        "m_SizeDelta": {
+          "x": 284.699,
+          "y": 306.9031
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 133455,
+      "originalGo": 22838,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyCheck",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyCheck_empty",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_list",
+          "ordinal": 0
+        },
+        {
+          "name": "Check_Reward (1)",
+          "ordinal": 0
+        },
+        {
+          "name": "GetAble_obj",
+          "ordinal": 0
+        },
+        {
+          "name": "Glow",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 22838
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "81b090e094d22b969d28b70d69c1ee0b",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "updateType": 0,
+        "isSpeedBased": 0,
+        "hasOnStart": 0,
+        "hasOnPlay": 0,
+        "hasOnUpdate": 0,
+        "hasOnStepComplete": 0,
+        "hasOnComplete": 0,
+        "hasOnTweenCreated": 0,
+        "hasOnRewind": 0,
+        "onStart": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onPlay": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onUpdate": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onStepComplete": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onComplete": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onTweenCreated": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onRewind": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "targetIsSelf": 1,
+        "targetGO": {
+          "fileID": 0
+        },
+        "tweenTargetIsTargetGO": 1,
+        "delay": 0,
+        "duration": 1,
+        "easeType": 1,
+        "easeCurve": {
+          "serializedVersion": 2,
+          "m_Curve": [
+            {
+              "serializedVersion": 3,
+              "time": 0,
+              "value": 0,
+              "inSlope": 0,
+              "outSlope": 0,
+              "weightedMode": 0,
+              "inWeight": 0,
+              "outWeight": 0
+            },
+            {
+              "serializedVersion": 3,
+              "time": 1,
+              "value": 1,
+              "inSlope": 0,
+              "outSlope": 0,
+              "weightedMode": 0,
+              "inWeight": 0,
+              "outWeight": 0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "loopType": 2,
+        "loops": -1,
+        "id": null,
+        "isRelative": 0,
+        "isFrom": 0,
+        "isIndependentUpdate": 0,
+        "autoKill": 1,
+        "autoGenerate": 1,
+        "isActive": 1,
+        "isValid": 1,
+        "target": {
+          "fileID": 116039
+        },
+        "animationType": 4,
+        "targetType": 11,
+        "forcedTargetType": 0,
+        "autoPlay": 1,
+        "useTargetAsV3": 0,
+        "endValueFloat": 0,
+        "endValueV3": {
+          "x": 0,
+          "y": 0,
+          "z": -180
+        },
+        "endValueV2": {
+          "x": 0,
+          "y": 0
+        },
+        "endValueColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "endValueString": null,
+        "endValueRect": {
+          "serializedVersion": 2,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "endValueTransform": {
+          "fileID": 0
+        },
+        "optionalBool0": 0,
+        "optionalBool1": 0,
+        "optionalFloat0": 0,
+        "optionalInt0": 0,
+        "optionalRotationMode": 0,
+        "optionalScrambleMode": 0,
+        "optionalShakeRandomnessMode": 0,
+        "optionalString": null
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 22838
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.96247274,
+          "w": -0.27137855
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1.2,
+          "y": 1.2,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [],
+        "m_Father": {
+          "fileID": 113901
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 148.50737
+        },
+        "m_AnchorMin": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_AnchorMax": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_AnchoredPosition": {
+          "x": 0.11869812,
+          "y": -27
+        },
+        "m_SizeDelta": {
+          "x": 284.699,
+          "y": 306.9031
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 135531,
+      "originalGo": 28412,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyCheck",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyCheck_empty",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_list",
+          "ordinal": 0
+        },
+        {
+          "name": "Check_Reward (4)",
+          "ordinal": 0
+        },
+        {
+          "name": "GetAble_obj",
+          "ordinal": 0
+        },
+        {
+          "name": "Glow",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 28412
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "81b090e094d22b969d28b70d69c1ee0b",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "updateType": 0,
+        "isSpeedBased": 0,
+        "hasOnStart": 0,
+        "hasOnPlay": 0,
+        "hasOnUpdate": 0,
+        "hasOnStepComplete": 0,
+        "hasOnComplete": 0,
+        "hasOnTweenCreated": 0,
+        "hasOnRewind": 0,
+        "onStart": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onPlay": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onUpdate": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onStepComplete": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onComplete": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onTweenCreated": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onRewind": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "targetIsSelf": 1,
+        "targetGO": {
+          "fileID": 0
+        },
+        "tweenTargetIsTargetGO": 1,
+        "delay": 0,
+        "duration": 1,
+        "easeType": 1,
+        "easeCurve": {
+          "serializedVersion": 2,
+          "m_Curve": [
+            {
+              "serializedVersion": 3,
+              "time": 0,
+              "value": 0,
+              "inSlope": 0,
+              "outSlope": 0,
+              "weightedMode": 0,
+              "inWeight": 0,
+              "outWeight": 0
+            },
+            {
+              "serializedVersion": 3,
+              "time": 1,
+              "value": 1,
+              "inSlope": 0,
+              "outSlope": 0,
+              "weightedMode": 0,
+              "inWeight": 0,
+              "outWeight": 0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "loopType": 2,
+        "loops": -1,
+        "id": null,
+        "isRelative": 0,
+        "isFrom": 0,
+        "isIndependentUpdate": 0,
+        "autoKill": 1,
+        "autoGenerate": 1,
+        "isActive": 1,
+        "isValid": 1,
+        "target": {
+          "fileID": 114404
+        },
+        "animationType": 4,
+        "targetType": 11,
+        "forcedTargetType": 0,
+        "autoPlay": 1,
+        "useTargetAsV3": 0,
+        "endValueFloat": 0,
+        "endValueV3": {
+          "x": 0,
+          "y": 0,
+          "z": -180
+        },
+        "endValueV2": {
+          "x": 0,
+          "y": 0
+        },
+        "endValueColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "endValueString": null,
+        "endValueRect": {
+          "serializedVersion": 2,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "endValueTransform": {
+          "fileID": 0
+        },
+        "optionalBool0": 0,
+        "optionalBool1": 0,
+        "optionalFloat0": 0,
+        "optionalInt0": 0,
+        "optionalRotationMode": 0,
+        "optionalScrambleMode": 0,
+        "optionalShakeRandomnessMode": 0,
+        "optionalString": null
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 28412
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.96247274,
+          "w": -0.27137855
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1.2,
+          "y": 1.2,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [],
+        "m_Father": {
+          "fileID": 112592
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 148.50737
+        },
+        "m_AnchorMin": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_AnchorMax": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_AnchoredPosition": {
+          "x": 0.11869812,
+          "y": -27
+        },
+        "m_SizeDelta": {
+          "x": 284.699,
+          "y": 306.9031
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 141734,
+      "originalGo": 18607,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyCheck",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyCheck_empty",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_list",
+          "ordinal": 0
+        },
+        {
+          "name": "Check_Reward",
+          "ordinal": 0
+        },
+        {
+          "name": "GetAble_obj",
+          "ordinal": 0
+        },
+        {
+          "name": "Glow",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 18607
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "81b090e094d22b969d28b70d69c1ee0b",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "updateType": 0,
+        "isSpeedBased": 0,
+        "hasOnStart": 0,
+        "hasOnPlay": 0,
+        "hasOnUpdate": 0,
+        "hasOnStepComplete": 0,
+        "hasOnComplete": 0,
+        "hasOnTweenCreated": 0,
+        "hasOnRewind": 0,
+        "onStart": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onPlay": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onUpdate": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onStepComplete": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onComplete": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onTweenCreated": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onRewind": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "targetIsSelf": 1,
+        "targetGO": {
+          "fileID": 0
+        },
+        "tweenTargetIsTargetGO": 1,
+        "delay": 0,
+        "duration": 1,
+        "easeType": 1,
+        "easeCurve": {
+          "serializedVersion": 2,
+          "m_Curve": [
+            {
+              "serializedVersion": 3,
+              "time": 0,
+              "value": 0,
+              "inSlope": 0,
+              "outSlope": 0,
+              "weightedMode": 0,
+              "inWeight": 0,
+              "outWeight": 0
+            },
+            {
+              "serializedVersion": 3,
+              "time": 1,
+              "value": 1,
+              "inSlope": 0,
+              "outSlope": 0,
+              "weightedMode": 0,
+              "inWeight": 0,
+              "outWeight": 0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "loopType": 2,
+        "loops": -1,
+        "id": null,
+        "isRelative": 0,
+        "isFrom": 0,
+        "isIndependentUpdate": 0,
+        "autoKill": 1,
+        "autoGenerate": 1,
+        "isActive": 1,
+        "isValid": 1,
+        "target": {
+          "fileID": 105132
+        },
+        "animationType": 4,
+        "targetType": 11,
+        "forcedTargetType": 0,
+        "autoPlay": 1,
+        "useTargetAsV3": 0,
+        "endValueFloat": 0,
+        "endValueV3": {
+          "x": 0,
+          "y": 0,
+          "z": -180
+        },
+        "endValueV2": {
+          "x": 0,
+          "y": 0
+        },
+        "endValueColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "endValueString": null,
+        "endValueRect": {
+          "serializedVersion": 2,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "endValueTransform": {
+          "fileID": 0
+        },
+        "optionalBool0": 0,
+        "optionalBool1": 0,
+        "optionalFloat0": 0,
+        "optionalInt0": 0,
+        "optionalRotationMode": 0,
+        "optionalScrambleMode": 0,
+        "optionalShakeRandomnessMode": 0,
+        "optionalString": null
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 18607
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.96247274,
+          "w": -0.27137855
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1.2,
+          "y": 1.2,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [],
+        "m_Father": {
+          "fileID": 109545
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 148.50737
+        },
+        "m_AnchorMin": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_AnchorMax": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_AnchoredPosition": {
+          "x": 0.11869812,
+          "y": -27
+        },
+        "m_SizeDelta": {
+          "x": 284.699,
+          "y": 306.9031
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 126027,
+      "originalGo": 31197,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyCheck",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyCheck_empty",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_list",
+          "ordinal": 0
+        },
+        {
+          "name": "Check_Reward (5)",
+          "ordinal": 0
+        },
+        {
+          "name": "GetAble_obj",
+          "ordinal": 0
+        },
+        {
+          "name": "Glow",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 31197
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "81b090e094d22b969d28b70d69c1ee0b",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "updateType": 0,
+        "isSpeedBased": 0,
+        "hasOnStart": 0,
+        "hasOnPlay": 0,
+        "hasOnUpdate": 0,
+        "hasOnStepComplete": 0,
+        "hasOnComplete": 0,
+        "hasOnTweenCreated": 0,
+        "hasOnRewind": 0,
+        "onStart": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onPlay": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onUpdate": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onStepComplete": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onComplete": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onTweenCreated": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onRewind": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "targetIsSelf": 1,
+        "targetGO": {
+          "fileID": 0
+        },
+        "tweenTargetIsTargetGO": 1,
+        "delay": 0,
+        "duration": 1,
+        "easeType": 1,
+        "easeCurve": {
+          "serializedVersion": 2,
+          "m_Curve": [
+            {
+              "serializedVersion": 3,
+              "time": 0,
+              "value": 0,
+              "inSlope": 0,
+              "outSlope": 0,
+              "weightedMode": 0,
+              "inWeight": 0,
+              "outWeight": 0
+            },
+            {
+              "serializedVersion": 3,
+              "time": 1,
+              "value": 1,
+              "inSlope": 0,
+              "outSlope": 0,
+              "weightedMode": 0,
+              "inWeight": 0,
+              "outWeight": 0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "loopType": 2,
+        "loops": -1,
+        "id": null,
+        "isRelative": 0,
+        "isFrom": 0,
+        "isIndependentUpdate": 0,
+        "autoKill": 1,
+        "autoGenerate": 1,
+        "isActive": 1,
+        "isValid": 1,
+        "target": {
+          "fileID": 113474
+        },
+        "animationType": 4,
+        "targetType": 11,
+        "forcedTargetType": 0,
+        "autoPlay": 1,
+        "useTargetAsV3": 0,
+        "endValueFloat": 0,
+        "endValueV3": {
+          "x": 0,
+          "y": 0,
+          "z": -180
+        },
+        "endValueV2": {
+          "x": 0,
+          "y": 0
+        },
+        "endValueColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "endValueString": null,
+        "endValueRect": {
+          "serializedVersion": 2,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "endValueTransform": {
+          "fileID": 0
+        },
+        "optionalBool0": 0,
+        "optionalBool1": 0,
+        "optionalFloat0": 0,
+        "optionalInt0": 0,
+        "optionalRotationMode": 0,
+        "optionalScrambleMode": 0,
+        "optionalShakeRandomnessMode": 0,
+        "optionalString": null
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 31197
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.96247274,
+          "w": -0.27137855
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1.2,
+          "y": 1.2,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [],
+        "m_Father": {
+          "fileID": 116308
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 148.50737
+        },
+        "m_AnchorMin": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_AnchorMax": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_AnchoredPosition": {
+          "x": 0.11869812,
+          "y": -27
+        },
+        "m_SizeDelta": {
+          "x": 284.699,
+          "y": 306.9031
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 148614,
+      "originalGo": 9820,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyCheck",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyCheck_empty",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_list",
+          "ordinal": 0
+        },
+        {
+          "name": "Check_Reward (3)",
+          "ordinal": 0
+        },
+        {
+          "name": "GetAble_obj",
+          "ordinal": 0
+        },
+        {
+          "name": "Glow",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 9820
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "81b090e094d22b969d28b70d69c1ee0b",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "updateType": 0,
+        "isSpeedBased": 0,
+        "hasOnStart": 0,
+        "hasOnPlay": 0,
+        "hasOnUpdate": 0,
+        "hasOnStepComplete": 0,
+        "hasOnComplete": 0,
+        "hasOnTweenCreated": 0,
+        "hasOnRewind": 0,
+        "onStart": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onPlay": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onUpdate": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onStepComplete": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onComplete": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onTweenCreated": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onRewind": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "targetIsSelf": 1,
+        "targetGO": {
+          "fileID": 0
+        },
+        "tweenTargetIsTargetGO": 1,
+        "delay": 0,
+        "duration": 1,
+        "easeType": 1,
+        "easeCurve": {
+          "serializedVersion": 2,
+          "m_Curve": [
+            {
+              "serializedVersion": 3,
+              "time": 0,
+              "value": 0,
+              "inSlope": 0,
+              "outSlope": 0,
+              "weightedMode": 0,
+              "inWeight": 0,
+              "outWeight": 0
+            },
+            {
+              "serializedVersion": 3,
+              "time": 1,
+              "value": 1,
+              "inSlope": 0,
+              "outSlope": 0,
+              "weightedMode": 0,
+              "inWeight": 0,
+              "outWeight": 0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "loopType": 2,
+        "loops": -1,
+        "id": null,
+        "isRelative": 0,
+        "isFrom": 0,
+        "isIndependentUpdate": 0,
+        "autoKill": 1,
+        "autoGenerate": 1,
+        "isActive": 1,
+        "isValid": 1,
+        "target": {
+          "fileID": 108396
+        },
+        "animationType": 4,
+        "targetType": 11,
+        "forcedTargetType": 0,
+        "autoPlay": 1,
+        "useTargetAsV3": 0,
+        "endValueFloat": 0,
+        "endValueV3": {
+          "x": 0,
+          "y": 0,
+          "z": -180
+        },
+        "endValueV2": {
+          "x": 0,
+          "y": 0
+        },
+        "endValueColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "endValueString": null,
+        "endValueRect": {
+          "serializedVersion": 2,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "endValueTransform": {
+          "fileID": 0
+        },
+        "optionalBool0": 0,
+        "optionalBool1": 0,
+        "optionalFloat0": 0,
+        "optionalInt0": 0,
+        "optionalRotationMode": 0,
+        "optionalScrambleMode": 0,
+        "optionalShakeRandomnessMode": 0,
+        "optionalString": null
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 9820
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.96247274,
+          "w": -0.27137855
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1.2,
+          "y": 1.2,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [],
+        "m_Father": {
+          "fileID": 106500
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 148.50737
+        },
+        "m_AnchorMin": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_AnchorMax": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_AnchoredPosition": {
+          "x": 0.11869812,
+          "y": -27
+        },
+        "m_SizeDelta": {
+          "x": 284.699,
+          "y": 306.9031
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 136767,
+      "originalGo": 28866,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyCheck",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyCheck_empty",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_list",
+          "ordinal": 0
+        },
+        {
+          "name": "Check_Reward (6)",
+          "ordinal": 0
+        },
+        {
+          "name": "GetAble_obj",
+          "ordinal": 0
+        },
+        {
+          "name": "Glow",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 28866
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "81b090e094d22b969d28b70d69c1ee0b",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "updateType": 0,
+        "isSpeedBased": 0,
+        "hasOnStart": 0,
+        "hasOnPlay": 0,
+        "hasOnUpdate": 0,
+        "hasOnStepComplete": 0,
+        "hasOnComplete": 0,
+        "hasOnTweenCreated": 0,
+        "hasOnRewind": 0,
+        "onStart": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onPlay": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onUpdate": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onStepComplete": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onComplete": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onTweenCreated": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onRewind": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "targetIsSelf": 1,
+        "targetGO": {
+          "fileID": 0
+        },
+        "tweenTargetIsTargetGO": 1,
+        "delay": 0,
+        "duration": 1,
+        "easeType": 1,
+        "easeCurve": {
+          "serializedVersion": 2,
+          "m_Curve": [
+            {
+              "serializedVersion": 3,
+              "time": 0,
+              "value": 0,
+              "inSlope": 0,
+              "outSlope": 0,
+              "weightedMode": 0,
+              "inWeight": 0,
+              "outWeight": 0
+            },
+            {
+              "serializedVersion": 3,
+              "time": 1,
+              "value": 1,
+              "inSlope": 0,
+              "outSlope": 0,
+              "weightedMode": 0,
+              "inWeight": 0,
+              "outWeight": 0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "loopType": 2,
+        "loops": -1,
+        "id": null,
+        "isRelative": 0,
+        "isFrom": 0,
+        "isIndependentUpdate": 0,
+        "autoKill": 1,
+        "autoGenerate": 1,
+        "isActive": 1,
+        "isValid": 1,
+        "target": {
+          "fileID": 114130
+        },
+        "animationType": 4,
+        "targetType": 11,
+        "forcedTargetType": 0,
+        "autoPlay": 1,
+        "useTargetAsV3": 0,
+        "endValueFloat": 0,
+        "endValueV3": {
+          "x": 0,
+          "y": 0,
+          "z": -180
+        },
+        "endValueV2": {
+          "x": 0,
+          "y": 0
+        },
+        "endValueColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "endValueString": null,
+        "endValueRect": {
+          "serializedVersion": 2,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "endValueTransform": {
+          "fileID": 0
+        },
+        "optionalBool0": 0,
+        "optionalBool1": 0,
+        "optionalFloat0": 0,
+        "optionalInt0": 0,
+        "optionalRotationMode": 0,
+        "optionalScrambleMode": 0,
+        "optionalShakeRandomnessMode": 0,
+        "optionalString": null
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 28866
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0.96247274,
+          "w": -0.27137855
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1.2,
+          "y": 1.2,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [],
+        "m_Father": {
+          "fileID": 112409
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 148.50737
+        },
+        "m_AnchorMin": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_AnchorMax": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_AnchoredPosition": {
+          "x": 0.11871338,
+          "y": 6.8868027
+        },
+        "m_SizeDelta": {
+          "x": 386.9031,
+          "y": 386.9031
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 132270,
+      "originalGo": 36025,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "DiaPig",
+          "ordinal": 0
+        },
+        {
+          "name": "DiaPig_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove Ads ALL (Inapp)",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove_AD_All",
+          "ordinal": 0
+        },
+        {
+          "name": "Profile",
+          "ordinal": 0
+        },
+        {
+          "name": "Glow",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 36025
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "81b090e094d22b969d28b70d69c1ee0b",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "updateType": 0,
+        "isSpeedBased": 0,
+        "hasOnStart": 0,
+        "hasOnPlay": 0,
+        "hasOnUpdate": 0,
+        "hasOnStepComplete": 0,
+        "hasOnComplete": 0,
+        "hasOnTweenCreated": 0,
+        "hasOnRewind": 0,
+        "onStart": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onPlay": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onUpdate": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onStepComplete": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onComplete": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onTweenCreated": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onRewind": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "targetIsSelf": 1,
+        "targetGO": {
+          "fileID": 0
+        },
+        "tweenTargetIsTargetGO": 1,
+        "delay": 0,
+        "duration": 2,
+        "easeType": 1,
+        "easeCurve": {
+          "serializedVersion": 2,
+          "m_Curve": [
+            {
+              "serializedVersion": 3,
+              "time": 0,
+              "value": 0,
+              "inSlope": 0,
+              "outSlope": 0,
+              "weightedMode": 0,
+              "inWeight": 0,
+              "outWeight": 0
+            },
+            {
+              "serializedVersion": 3,
+              "time": 1,
+              "value": 1,
+              "inSlope": 0,
+              "outSlope": 0,
+              "weightedMode": 0,
+              "inWeight": 0,
+              "outWeight": 0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "loopType": 2,
+        "loops": -1,
+        "id": null,
+        "isRelative": 0,
+        "isFrom": 0,
+        "isIndependentUpdate": 0,
+        "autoKill": 1,
+        "autoGenerate": 1,
+        "isActive": 1,
+        "isValid": 1,
+        "target": {
+          "fileID": 108683
+        },
+        "animationType": 4,
+        "targetType": 11,
+        "forcedTargetType": 0,
+        "autoPlay": 1,
+        "useTargetAsV3": 0,
+        "endValueFloat": 0,
+        "endValueV3": {
+          "x": 0,
+          "y": 0,
+          "z": 180
+        },
+        "endValueV2": {
+          "x": 0,
+          "y": 0
+        },
+        "endValueColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "endValueString": null,
+        "endValueRect": {
+          "serializedVersion": 2,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "endValueTransform": {
+          "fileID": 0
+        },
+        "optionalBool0": 0,
+        "optionalBool1": 0,
+        "optionalFloat0": 0,
+        "optionalInt0": 0,
+        "optionalRotationMode": 0,
+        "optionalScrambleMode": 0,
+        "optionalShakeRandomnessMode": 0,
+        "optionalString": null
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 36025
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [],
+        "m_Father": {
+          "fileID": 113349
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_AnchorMax": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_AnchoredPosition": {
+          "x": -3.0517578e-05,
+          "y": -4.779999
+        },
+        "m_SizeDelta": {
+          "x": 400,
+          "y": 400
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 132438,
+      "originalGo": 35980,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "DiaPig",
+          "ordinal": 0
+        },
+        {
+          "name": "DiaPig_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove Ads Fored (Inapp)",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove_AD_Forced",
+          "ordinal": 0
+        },
+        {
+          "name": "Profile",
+          "ordinal": 0
+        },
+        {
+          "name": "Glow",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 35980
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "81b090e094d22b969d28b70d69c1ee0b",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "updateType": 0,
+        "isSpeedBased": 0,
+        "hasOnStart": 0,
+        "hasOnPlay": 0,
+        "hasOnUpdate": 0,
+        "hasOnStepComplete": 0,
+        "hasOnComplete": 0,
+        "hasOnTweenCreated": 0,
+        "hasOnRewind": 0,
+        "onStart": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onPlay": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onUpdate": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onStepComplete": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onComplete": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onTweenCreated": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "onRewind": {
+          "m_PersistentCalls": {
+            "m_Calls": []
+          }
+        },
+        "targetIsSelf": 1,
+        "targetGO": {
+          "fileID": 0
+        },
+        "tweenTargetIsTargetGO": 1,
+        "delay": 0,
+        "duration": 2,
+        "easeType": 1,
+        "easeCurve": {
+          "serializedVersion": 2,
+          "m_Curve": [
+            {
+              "serializedVersion": 3,
+              "time": 0,
+              "value": 0,
+              "inSlope": 0,
+              "outSlope": 0,
+              "weightedMode": 0,
+              "inWeight": 0,
+              "outWeight": 0
+            },
+            {
+              "serializedVersion": 3,
+              "time": 1,
+              "value": 1,
+              "inSlope": 0,
+              "outSlope": 0,
+              "weightedMode": 0,
+              "inWeight": 0,
+              "outWeight": 0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "loopType": 2,
+        "loops": -1,
+        "id": null,
+        "isRelative": 0,
+        "isFrom": 0,
+        "isIndependentUpdate": 0,
+        "autoKill": 1,
+        "autoGenerate": 1,
+        "isActive": 1,
+        "isValid": 1,
+        "target": {
+          "fileID": 108711
+        },
+        "animationType": 4,
+        "targetType": 11,
+        "forcedTargetType": 0,
+        "autoPlay": 1,
+        "useTargetAsV3": 0,
+        "endValueFloat": 0,
+        "endValueV3": {
+          "x": 0,
+          "y": 0,
+          "z": 180
+        },
+        "endValueV2": {
+          "x": 0,
+          "y": 0
+        },
+        "endValueColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "endValueString": null,
+        "endValueRect": {
+          "serializedVersion": 2,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "endValueTransform": {
+          "fileID": 0
+        },
+        "optionalBool0": 0,
+        "optionalBool1": 0,
+        "optionalFloat0": 0,
+        "optionalInt0": 0,
+        "optionalRotationMode": 0,
+        "optionalScrambleMode": 0,
+        "optionalShakeRandomnessMode": 0,
+        "optionalString": null
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 35980
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [],
+        "m_Father": {
+          "fileID": 113519
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_AnchorMax": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_AnchoredPosition": {
+          "x": -3.0517578e-05,
+          "y": -4.779999
+        },
+        "m_SizeDelta": {
+          "x": 400,
+          "y": 400
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    }
+  ],
+  "targets": [
+    {
+      "component": 123162,
+      "originalGo": 23329,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyCheck",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyCheck_empty",
+          "ordinal": 0
+        },
+        {
+          "name": "Top",
+          "ordinal": 0
+        },
+        {
+          "name": "Currency",
+          "ordinal": 0
+        },
+        {
+          "name": "Dia",
+          "ordinal": 0
+        },
+        {
+          "name": "Image",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 23329
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "2f5a9f068d199764ed783ccd4af7cde1",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "_bounce": {
+          "fileID": 123367
+        }
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 23329
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [],
+        "m_Father": {
+          "fileID": 112882
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0,
+          "y": 0.5
+        },
+        "m_AnchorMax": {
+          "x": 0,
+          "y": 0.5
+        },
+        "m_AnchoredPosition": {
+          "x": 40.9,
+          "y": 0
+        },
+        "m_SizeDelta": {
+          "x": 55,
+          "y": 55
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "bounce": {
+        "component": 123367,
+        "originalGo": 32529,
+        "path": [
+          {
+            "name": "Canvas",
+            "ordinal": 0
+          },
+          {
+            "name": "SafeArea",
+            "ordinal": 0
+          },
+          {
+            "name": "DailyCheck",
+            "ordinal": 0
+          },
+          {
+            "name": "DailyCheck_empty",
+            "ordinal": 0
+          },
+          {
+            "name": "Top",
+            "ordinal": 0
+          },
+          {
+            "name": "Currency",
+            "ordinal": 0
+          },
+          {
+            "name": "Dia",
+            "ordinal": 0
+          }
+        ],
+        "fields": {
+          "m_ObjectHideFlags": 0,
+          "m_CorrespondingSourceObject": {
+            "fileID": 0
+          },
+          "m_PrefabInstance": {
+            "fileID": 0
+          },
+          "m_PrefabAsset": {
+            "fileID": 0
+          },
+          "m_GameObject": {
+            "fileID": 32529
+          },
+          "m_Enabled": 1,
+          "m_EditorHideFlags": 0,
+          "m_Script": {
+            "fileID": 11500000,
+            "guid": "b6183966a608f3e752c9519e2c676d1f",
+            "type": 3
+          },
+          "m_Name": null,
+          "m_EditorClassIdentifier": null,
+          "time": 0,
+          "WantSize": 0.9,
+          "_upSizeTime": 0.2,
+          "Bouncing": 0
+        },
+        "transform": {
+          "serializedVersion": 2,
+          "m_ObjectHideFlags": 0,
+          "m_CorrespondingSourceObject": {
+            "fileID": 0
+          },
+          "m_PrefabInstance": {
+            "fileID": 0
+          },
+          "m_PrefabAsset": {
+            "fileID": 0
+          },
+          "m_GameObject": {
+            "fileID": 32529
+          },
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalPosition": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_ConstrainProportionsScale": 0,
+          "m_Children": [
+            {
+              "fileID": 116101
+            },
+            {
+              "fileID": 108033
+            }
+          ],
+          "m_Father": {
+            "fileID": 109284
+          },
+          "m_LocalEulerAnglesHint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "m_AnchorMin": {
+            "x": 1,
+            "y": 1
+          },
+          "m_AnchorMax": {
+            "x": 1,
+            "y": 1
+          },
+          "m_AnchoredPosition": {
+            "x": -97.45819,
+            "y": -37.999985
+          },
+          "m_SizeDelta": {
+            "x": 194.9164,
+            "y": 76
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    {
+      "component": 124702,
+      "originalGo": 18304,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "TopBar",
+          "ordinal": 0
+        },
+        {
+          "name": "Currency",
+          "ordinal": 0
+        },
+        {
+          "name": "Dia",
+          "ordinal": 0
+        },
+        {
+          "name": "Image",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 18304
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "2f5a9f068d199764ed783ccd4af7cde1",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "_bounce": {
+          "fileID": 124789
+        }
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 18304
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [],
+        "m_Father": {
+          "fileID": 110725
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0,
+          "y": 0.5
+        },
+        "m_AnchorMax": {
+          "x": 0,
+          "y": 0.5
+        },
+        "m_AnchoredPosition": {
+          "x": 40.9,
+          "y": 0
+        },
+        "m_SizeDelta": {
+          "x": 55,
+          "y": 55
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "bounce": {
+        "component": 124789,
+        "originalGo": 2979,
+        "path": [
+          {
+            "name": "Canvas",
+            "ordinal": 0
+          },
+          {
+            "name": "SafeArea",
+            "ordinal": 0
+          },
+          {
+            "name": "Shop_UI",
+            "ordinal": 0
+          },
+          {
+            "name": "Panel",
+            "ordinal": 0
+          },
+          {
+            "name": "TopBar",
+            "ordinal": 0
+          },
+          {
+            "name": "Currency",
+            "ordinal": 0
+          },
+          {
+            "name": "Dia",
+            "ordinal": 0
+          }
+        ],
+        "fields": {
+          "m_ObjectHideFlags": 0,
+          "m_CorrespondingSourceObject": {
+            "fileID": 0
+          },
+          "m_PrefabInstance": {
+            "fileID": 0
+          },
+          "m_PrefabAsset": {
+            "fileID": 0
+          },
+          "m_GameObject": {
+            "fileID": 2979
+          },
+          "m_Enabled": 1,
+          "m_EditorHideFlags": 0,
+          "m_Script": {
+            "fileID": 11500000,
+            "guid": "b6183966a608f3e752c9519e2c676d1f",
+            "type": 3
+          },
+          "m_Name": null,
+          "m_EditorClassIdentifier": null,
+          "time": 0,
+          "WantSize": 0.9,
+          "_upSizeTime": 0.2,
+          "Bouncing": 0
+        },
+        "transform": {
+          "serializedVersion": 2,
+          "m_ObjectHideFlags": 0,
+          "m_CorrespondingSourceObject": {
+            "fileID": 0
+          },
+          "m_PrefabInstance": {
+            "fileID": 0
+          },
+          "m_PrefabAsset": {
+            "fileID": 0
+          },
+          "m_GameObject": {
+            "fileID": 2979
+          },
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalPosition": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_ConstrainProportionsScale": 0,
+          "m_Children": [
+            {
+              "fileID": 107718
+            },
+            {
+              "fileID": 116496
+            }
+          ],
+          "m_Father": {
+            "fileID": 111424
+          },
+          "m_LocalEulerAnglesHint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "m_AnchorMin": {
+            "x": 1,
+            "y": 1
+          },
+          "m_AnchorMax": {
+            "x": 1,
+            "y": 1
+          },
+          "m_AnchoredPosition": {
+            "x": -97.45819,
+            "y": -37.999985
+          },
+          "m_SizeDelta": {
+            "x": 194.9164,
+            "y": 76
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    {
+      "component": 125403,
+      "originalGo": 32531,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "TopBar",
+          "ordinal": 0
+        },
+        {
+          "name": "Currency",
+          "ordinal": 0
+        },
+        {
+          "name": "Dia",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 32531
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "2f5a9f068d199764ed783ccd4af7cde1",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "_bounce": {
+          "fileID": 125404
+        }
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 32531
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [
+          {
+            "fileID": 116103
+          },
+          {
+            "fileID": 108032
+          }
+        ],
+        "m_Father": {
+          "fileID": 109283
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 1,
+          "y": 1
+        },
+        "m_AnchorMax": {
+          "x": 1,
+          "y": 1
+        },
+        "m_AnchoredPosition": {
+          "x": -97.45819,
+          "y": -37.999985
+        },
+        "m_SizeDelta": {
+          "x": 194.9164,
+          "y": 76
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "bounce": {
+        "component": 125404,
+        "originalGo": 32531,
+        "path": [
+          {
+            "name": "Canvas",
+            "ordinal": 0
+          },
+          {
+            "name": "SafeArea",
+            "ordinal": 0
+          },
+          {
+            "name": "Mission_maanger",
+            "ordinal": 0
+          },
+          {
+            "name": "Mission_UI",
+            "ordinal": 0
+          },
+          {
+            "name": "TopBar",
+            "ordinal": 0
+          },
+          {
+            "name": "Currency",
+            "ordinal": 0
+          },
+          {
+            "name": "Dia",
+            "ordinal": 0
+          }
+        ],
+        "fields": {
+          "m_ObjectHideFlags": 0,
+          "m_CorrespondingSourceObject": {
+            "fileID": 0
+          },
+          "m_PrefabInstance": {
+            "fileID": 0
+          },
+          "m_PrefabAsset": {
+            "fileID": 0
+          },
+          "m_GameObject": {
+            "fileID": 32531
+          },
+          "m_Enabled": 1,
+          "m_EditorHideFlags": 0,
+          "m_Script": {
+            "fileID": 11500000,
+            "guid": "b6183966a608f3e752c9519e2c676d1f",
+            "type": 3
+          },
+          "m_Name": null,
+          "m_EditorClassIdentifier": null,
+          "time": 0,
+          "WantSize": 0.9,
+          "_upSizeTime": 0.2,
+          "Bouncing": 0
+        },
+        "transform": {
+          "serializedVersion": 2,
+          "m_ObjectHideFlags": 0,
+          "m_CorrespondingSourceObject": {
+            "fileID": 0
+          },
+          "m_PrefabInstance": {
+            "fileID": 0
+          },
+          "m_PrefabAsset": {
+            "fileID": 0
+          },
+          "m_GameObject": {
+            "fileID": 32531
+          },
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalPosition": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_ConstrainProportionsScale": 0,
+          "m_Children": [
+            {
+              "fileID": 116103
+            },
+            {
+              "fileID": 108032
+            }
+          ],
+          "m_Father": {
+            "fileID": 109283
+          },
+          "m_LocalEulerAnglesHint": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "m_AnchorMin": {
+            "x": 1,
+            "y": 1
+          },
+          "m_AnchorMax": {
+            "x": 1,
+            "y": 1
+          },
+          "m_AnchoredPosition": {
+            "x": -97.45819,
+            "y": -37.999985
+          },
+          "m_SizeDelta": {
+            "x": 194.9164,
+            "y": 76
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    }
+  ],
+  "attraction": {
+    "component": 125602,
+    "originalGo": 2205,
+    "path": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "UI_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "DiaAttraction",
+        "ordinal": 0
+      }
+    ],
+    "fields": {
+      "m_ObjectHideFlags": 0,
+      "m_CorrespondingSourceObject": {
+        "fileID": 0
+      },
+      "m_PrefabInstance": {
+        "fileID": 0
+      },
+      "m_PrefabAsset": {
+        "fileID": 0
+      },
+      "m_GameObject": {
+        "fileID": 2205
+      },
+      "m_Enabled": 1,
+      "m_EditorHideFlags": 0,
+      "m_Script": {
+        "fileID": 11500000,
+        "guid": "e1a49da7aff71a6cc682de662a995569",
+        "type": 3
+      },
+      "m_Name": null,
+      "m_EditorClassIdentifier": null,
+      "_diaFx": {
+        "fileID": 124527
+      },
+      "Target_list": []
+    },
+    "transform": {
+      "serializedVersion": 2,
+      "m_ObjectHideFlags": 0,
+      "m_CorrespondingSourceObject": {
+        "fileID": 0
+      },
+      "m_PrefabInstance": {
+        "fileID": 0
+      },
+      "m_PrefabAsset": {
+        "fileID": 0
+      },
+      "m_GameObject": {
+        "fileID": 2205
+      },
+      "m_LocalRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "m_LocalPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "m_LocalScale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "m_ConstrainProportionsScale": 0,
+      "m_Children": [
+        {
+          "fileID": 103886
+        }
+      ],
+      "m_Father": {
+        "fileID": 104803
+      },
+      "m_LocalEulerAnglesHint": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "m_AnchorMin": {
+        "x": 0,
+        "y": 0
+      },
+      "m_AnchorMax": {
+        "x": 1,
+        "y": 1
+      },
+      "m_AnchoredPosition": {
+        "x": 2,
+        "y": 0
+      },
+      "m_SizeDelta": {
+        "x": 980,
+        "y": 1820
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "particlePreset": {
+    "component": 124527,
+    "originalGo": 1303,
+    "path": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "UI_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "DiaAttraction",
+        "ordinal": 0
+      },
+      {
+        "name": "Particle Image",
+        "ordinal": 0
+      }
+    ],
+    "fields": {
+      "m_ObjectHideFlags": 0,
+      "m_CorrespondingSourceObject": {
+        "fileID": 0
+      },
+      "m_PrefabInstance": {
+        "fileID": 0
+      },
+      "m_PrefabAsset": {
+        "fileID": 0
+      },
+      "m_GameObject": {
+        "fileID": 1303
+      },
+      "m_Enabled": 1,
+      "m_EditorHideFlags": 0,
+      "m_Script": {
+        "fileID": 11500000,
+        "guid": "c496def4ab12df00d24f250312307cf6",
+        "type": 3
+      },
+      "m_Name": null,
+      "m_EditorClassIdentifier": null,
+      "m_Material": {
+        "fileID": 0
+      },
+      "m_Color": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "m_RaycastTarget": 0,
+      "m_RaycastPadding": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 0
+      },
+      "m_Maskable": 1,
+      "m_OnCullStateChanged": {
+        "m_PersistentCalls": {
+          "m_Calls": []
+        }
+      },
+      "_main": {
+        "fileID": 124527
+      },
+      "_children": [],
+      "_space": 0,
+      "_timeScale": 1,
+      "_emitterConstraintEnabled": {
+        "enabled": 0
+      },
+      "_emitterConstraintTransform": {
+        "fileID": 0
+      },
+      "_shape": 1,
+      "_spread": 0,
+      "_spreadLoop": 1,
+      "_startDelay": 0,
+      "_radius": 50,
+      "_width": 100,
+      "_height": 100,
+      "_angle": 45,
+      "_length": 100,
+      "_fitRect": 0,
+      "_emitOnSurface": 1,
+      "_emitterThickness": 0,
+      "_loop": 0,
+      "_prewarm": 0,
+      "_duration": 0.3,
+      "_playMode": 0,
+      "_startSize": {
+        "separable": 1,
+        "separated": 0,
+        "mainCurve": {
+          "m_Mode": 0,
+          "m_CurveMultiplier": 0,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 60
+        },
+        "xCurve": {
+          "m_Mode": 0,
+          "m_CurveMultiplier": 0,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 40
+        },
+        "yCurve": {
+          "m_Mode": 0,
+          "m_CurveMultiplier": 0,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 40
+        },
+        "zCurve": {
+          "m_Mode": 0,
+          "m_CurveMultiplier": 0,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 40
+        }
+      },
+      "_startColor": {
+        "m_Mode": 0,
+        "m_GradientMin": {
+          "serializedVersion": 2,
+          "key0": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "key1": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "key2": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key3": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key4": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key5": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key6": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key7": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "ctime0": 0,
+          "ctime1": 65535,
+          "ctime2": 0,
+          "ctime3": 0,
+          "ctime4": 0,
+          "ctime5": 0,
+          "ctime6": 0,
+          "ctime7": 0,
+          "atime0": 0,
+          "atime1": 65535,
+          "atime2": 0,
+          "atime3": 0,
+          "atime4": 0,
+          "atime5": 0,
+          "atime6": 0,
+          "atime7": 0,
+          "m_Mode": 0,
+          "m_ColorSpace": -1,
+          "m_NumColorKeys": 2,
+          "m_NumAlphaKeys": 2
+        },
+        "m_GradientMax": {
+          "serializedVersion": 2,
+          "key0": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "key1": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "key2": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key3": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key4": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key5": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key6": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key7": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "ctime0": 0,
+          "ctime1": 65535,
+          "ctime2": 0,
+          "ctime3": 0,
+          "ctime4": 0,
+          "ctime5": 0,
+          "ctime6": 0,
+          "ctime7": 0,
+          "atime0": 0,
+          "atime1": 65535,
+          "atime2": 0,
+          "atime3": 0,
+          "atime4": 0,
+          "atime5": 0,
+          "atime6": 0,
+          "atime7": 0,
+          "m_Mode": 0,
+          "m_ColorSpace": -1,
+          "m_NumColorKeys": 2,
+          "m_NumAlphaKeys": 2
+        },
+        "m_ColorMin": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "m_ColorMax": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      },
+      "_lifetime": {
+        "m_Mode": 3,
+        "m_CurveMultiplier": 0,
+        "m_CurveMin": {
+          "serializedVersion": 2,
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "serializedVersion": 2,
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.5,
+        "m_ConstantMax": 1
+      },
+      "_startSpeed": {
+        "m_Mode": 3,
+        "m_CurveMultiplier": 0,
+        "m_CurveMin": {
+          "serializedVersion": 2,
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "serializedVersion": 2,
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 1,
+        "m_ConstantMax": 15
+      },
+      "_colorOverLifetime": {
+        "m_Mode": 1,
+        "m_GradientMin": {
+          "serializedVersion": 2,
+          "key0": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "key1": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "key2": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key3": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key4": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key5": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key6": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key7": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "ctime0": 0,
+          "ctime1": 65535,
+          "ctime2": 0,
+          "ctime3": 0,
+          "ctime4": 0,
+          "ctime5": 0,
+          "ctime6": 0,
+          "ctime7": 0,
+          "atime0": 0,
+          "atime1": 65535,
+          "atime2": 0,
+          "atime3": 0,
+          "atime4": 0,
+          "atime5": 0,
+          "atime6": 0,
+          "atime7": 0,
+          "m_Mode": 0,
+          "m_ColorSpace": -1,
+          "m_NumColorKeys": 2,
+          "m_NumAlphaKeys": 2
+        },
+        "m_GradientMax": {
+          "serializedVersion": 2,
+          "key0": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "key1": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "key2": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key3": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key4": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key5": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key6": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key7": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "ctime0": 0,
+          "ctime1": 65535,
+          "ctime2": 0,
+          "ctime3": 0,
+          "ctime4": 0,
+          "ctime5": 0,
+          "ctime6": 0,
+          "ctime7": 0,
+          "atime0": 0,
+          "atime1": 65535,
+          "atime2": 0,
+          "atime3": 0,
+          "atime4": 0,
+          "atime5": 0,
+          "atime6": 0,
+          "atime7": 0,
+          "m_Mode": 0,
+          "m_ColorSpace": -1,
+          "m_NumColorKeys": 2,
+          "m_NumAlphaKeys": 2
+        },
+        "m_ColorMin": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "m_ColorMax": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      },
+      "_colorBySpeed": {
+        "m_Mode": 1,
+        "m_GradientMin": {
+          "serializedVersion": 2,
+          "key0": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "key1": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "key2": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key3": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key4": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key5": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key6": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key7": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "ctime0": 0,
+          "ctime1": 65535,
+          "ctime2": 0,
+          "ctime3": 0,
+          "ctime4": 0,
+          "ctime5": 0,
+          "ctime6": 0,
+          "ctime7": 0,
+          "atime0": 0,
+          "atime1": 65535,
+          "atime2": 0,
+          "atime3": 0,
+          "atime4": 0,
+          "atime5": 0,
+          "atime6": 0,
+          "atime7": 0,
+          "m_Mode": 0,
+          "m_ColorSpace": -1,
+          "m_NumColorKeys": 2,
+          "m_NumAlphaKeys": 2
+        },
+        "m_GradientMax": {
+          "serializedVersion": 2,
+          "key0": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "key1": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "key2": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key3": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key4": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key5": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key6": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key7": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "ctime0": 0,
+          "ctime1": 65535,
+          "ctime2": 0,
+          "ctime3": 0,
+          "ctime4": 0,
+          "ctime5": 0,
+          "ctime6": 0,
+          "ctime7": 0,
+          "atime0": 0,
+          "atime1": 65535,
+          "atime2": 0,
+          "atime3": 0,
+          "atime4": 0,
+          "atime5": 0,
+          "atime6": 0,
+          "atime7": 0,
+          "m_Mode": 0,
+          "m_ColorSpace": -1,
+          "m_NumColorKeys": 2,
+          "m_NumAlphaKeys": 2
+        },
+        "m_ColorMin": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "m_ColorMax": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      },
+      "_colorSpeedRange": {
+        "from": 0,
+        "to": 1
+      },
+      "_sizeOverLifetime": {
+        "separable": 1,
+        "separated": 0,
+        "mainCurve": {
+          "m_Mode": 1,
+          "m_CurveMultiplier": 1,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [
+              {
+                "serializedVersion": 3,
+                "time": 0,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0
+              },
+              {
+                "serializedVersion": 3,
+                "time": 0.9411764,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.33333334
+              },
+              {
+                "serializedVersion": 3,
+                "time": 1,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0
+              }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 0
+        },
+        "xCurve": {
+          "m_Mode": 1,
+          "m_CurveMultiplier": 1,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [
+              {
+                "serializedVersion": 3,
+                "time": 0,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0
+              },
+              {
+                "serializedVersion": 3,
+                "time": 1,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0
+              }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 0
+        },
+        "yCurve": {
+          "m_Mode": 1,
+          "m_CurveMultiplier": 1,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [
+              {
+                "serializedVersion": 3,
+                "time": 0,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0
+              },
+              {
+                "serializedVersion": 3,
+                "time": 1,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0
+              }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 0
+        },
+        "zCurve": {
+          "m_Mode": 1,
+          "m_CurveMultiplier": 1,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [
+              {
+                "serializedVersion": 3,
+                "time": 0,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0
+              },
+              {
+                "serializedVersion": 3,
+                "time": 1,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0
+              }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 0
+        }
+      },
+      "_sizeBySpeed": {
+        "separable": 1,
+        "separated": 0,
+        "mainCurve": {
+          "m_Mode": 1,
+          "m_CurveMultiplier": 1,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [
+              {
+                "serializedVersion": 3,
+                "time": 0,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0
+              },
+              {
+                "serializedVersion": 3,
+                "time": 1,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0
+              }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 0
+        },
+        "xCurve": {
+          "m_Mode": 1,
+          "m_CurveMultiplier": 1,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [
+              {
+                "serializedVersion": 3,
+                "time": 0,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0
+              },
+              {
+                "serializedVersion": 3,
+                "time": 1,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0
+              }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 0
+        },
+        "yCurve": {
+          "m_Mode": 1,
+          "m_CurveMultiplier": 1,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [
+              {
+                "serializedVersion": 3,
+                "time": 0,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0
+              },
+              {
+                "serializedVersion": 3,
+                "time": 1,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0
+              }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 0
+        },
+        "zCurve": {
+          "m_Mode": 1,
+          "m_CurveMultiplier": 1,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [
+              {
+                "serializedVersion": 3,
+                "time": 0,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0
+              },
+              {
+                "serializedVersion": 3,
+                "time": 1,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0
+              }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 0
+        }
+      },
+      "_sizeSpeedRange": {
+        "from": 0,
+        "to": 1
+      },
+      "_startRotation": {
+        "separable": 1,
+        "separated": 0,
+        "mainCurve": {
+          "m_Mode": 0,
+          "m_CurveMultiplier": 0,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 0
+        },
+        "xCurve": {
+          "m_Mode": 0,
+          "m_CurveMultiplier": 0,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 0
+        },
+        "yCurve": {
+          "m_Mode": 0,
+          "m_CurveMultiplier": 0,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 0
+        },
+        "zCurve": {
+          "m_Mode": 0,
+          "m_CurveMultiplier": 0,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 0
+        }
+      },
+      "_rotationOverLifetime": {
+        "separable": 1,
+        "separated": 0,
+        "mainCurve": {
+          "m_Mode": 0,
+          "m_CurveMultiplier": 0,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 0
+        },
+        "xCurve": {
+          "m_Mode": 0,
+          "m_CurveMultiplier": 0,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 0
+        },
+        "yCurve": {
+          "m_Mode": 0,
+          "m_CurveMultiplier": 0,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 0
+        },
+        "zCurve": {
+          "m_Mode": 0,
+          "m_CurveMultiplier": 0,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 0
+        }
+      },
+      "_rotationBySpeed": {
+        "separable": 1,
+        "separated": 0,
+        "mainCurve": {
+          "m_Mode": 1,
+          "m_CurveMultiplier": 1,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [
+              {
+                "serializedVersion": 3,
+                "time": 0,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0
+              },
+              {
+                "serializedVersion": 3,
+                "time": 1,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0
+              }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 0
+        },
+        "xCurve": {
+          "m_Mode": 1,
+          "m_CurveMultiplier": 1,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [
+              {
+                "serializedVersion": 3,
+                "time": 0,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0
+              },
+              {
+                "serializedVersion": 3,
+                "time": 1,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0
+              }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 0
+        },
+        "yCurve": {
+          "m_Mode": 1,
+          "m_CurveMultiplier": 1,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [
+              {
+                "serializedVersion": 3,
+                "time": 0,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0
+              },
+              {
+                "serializedVersion": 3,
+                "time": 1,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0
+              }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 0
+        },
+        "zCurve": {
+          "m_Mode": 1,
+          "m_CurveMultiplier": 1,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [
+              {
+                "serializedVersion": 3,
+                "time": 0,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0
+              },
+              {
+                "serializedVersion": 3,
+                "time": 1,
+                "value": 1,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0
+              }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 0
+        }
+      },
+      "_rotationSpeedRange": {
+        "from": 0,
+        "to": 1
+      },
+      "_speedOverLifetime": {
+        "m_Mode": 1,
+        "m_CurveMultiplier": 1,
+        "m_CurveMin": {
+          "serializedVersion": 2,
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "serializedVersion": 2,
+          "m_Curve": [
+            {
+              "serializedVersion": 3,
+              "time": 0,
+              "value": 1,
+              "inSlope": 0,
+              "outSlope": 0,
+              "weightedMode": 0,
+              "inWeight": 0,
+              "outWeight": 0
+            },
+            {
+              "serializedVersion": 3,
+              "time": 0.23662984,
+              "value": -0.16690838,
+              "inSlope": -0.18505974,
+              "outSlope": -0.18505974,
+              "weightedMode": 2,
+              "inWeight": 0.33333334,
+              "outWeight": 0.3690642
+            },
+            {
+              "serializedVersion": 3,
+              "time": 0.30901414,
+              "value": 0.06097493,
+              "inSlope": -0.48188597,
+              "outSlope": -0.48188597,
+              "weightedMode": 3,
+              "inWeight": 0.5200996,
+              "outWeight": 0.7047364
+            },
+            {
+              "serializedVersion": 3,
+              "time": 0.3598097,
+              "value": 0,
+              "inSlope": 0.0051522027,
+              "outSlope": 0.0051522027,
+              "weightedMode": 1,
+              "inWeight": 0.37683383,
+              "outWeight": 0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0,
+        "m_ConstantMax": 1
+      },
+      "_alignToDirection": 0,
+      "_gravity": {
+        "m_Mode": 0,
+        "m_CurveMultiplier": 0,
+        "m_CurveMin": {
+          "serializedVersion": 2,
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "serializedVersion": 2,
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0,
+        "m_ConstantMax": -9.81
+      },
+      "_targetModule": {
+        "enabled": 1
+      },
+      "_attractorTarget": {
+        "fileID": 0
+      },
+      "_toTarget": {
+        "m_Mode": 2,
+        "m_CurveMultiplier": 1,
+        "m_CurveMin": {
+          "serializedVersion": 2,
+          "m_Curve": [
+            {
+              "serializedVersion": 3,
+              "time": 0.6946691,
+              "value": -0.0020119883,
+              "inSlope": 3.3206496e-05,
+              "outSlope": 3.3206496e-05,
+              "weightedMode": 2,
+              "inWeight": 0,
+              "outWeight": 0.8866889
+            },
+            {
+              "serializedVersion": 3,
+              "time": 1,
+              "value": 1,
+              "inSlope": 7.236108,
+              "outSlope": 7.236108,
+              "weightedMode": 1,
+              "inWeight": 0.0961184,
+              "outWeight": 0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "serializedVersion": 2,
+          "m_Curve": [
+            {
+              "serializedVersion": 3,
+              "time": 0.69418335,
+              "value": -0.0020141602,
+              "inSlope": 0,
+              "outSlope": 0,
+              "weightedMode": 0,
+              "inWeight": 0,
+              "outWeight": 0
+            },
+            {
+              "serializedVersion": 3,
+              "time": 1,
+              "value": 1,
+              "inSlope": 4.5544767,
+              "outSlope": 4.5544767,
+              "weightedMode": 0,
+              "inWeight": 0.042658035,
+              "outWeight": 0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0,
+        "m_ConstantMax": 0
+      },
+      "_targetMode": 0,
+      "_noiseModule": {
+        "enabled": 0
+      },
+      "_gravityModule": {
+        "enabled": 0
+      },
+      "_vortexModule": {
+        "enabled": 1
+      },
+      "_velocityModule": {
+        "enabled": 1
+      },
+      "_velocitySpace": 0,
+      "_velocityOverLifetime": {
+        "separable": 0,
+        "separated": 1,
+        "mainCurve": {
+          "m_Mode": 0,
+          "m_CurveMultiplier": 0,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 0
+        },
+        "xCurve": {
+          "m_Mode": 0,
+          "m_CurveMultiplier": 0,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 0
+        },
+        "yCurve": {
+          "m_Mode": 1,
+          "m_CurveMultiplier": 1,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [
+              {
+                "serializedVersion": 3,
+                "time": 0.021333814,
+                "value": -0.0072170496,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0
+              },
+              {
+                "serializedVersion": 3,
+                "time": 0.20901546,
+                "value": 0.43747032,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.33333334
+              },
+              {
+                "serializedVersion": 3,
+                "time": 0.5803553,
+                "value": -0.5500517,
+                "inSlope": -0.07422701,
+                "outSlope": -0.07422701,
+                "weightedMode": 0,
+                "inWeight": 0.33333334,
+                "outWeight": 0.33333334
+              },
+              {
+                "serializedVersion": 3,
+                "time": 1.0213338,
+                "value": -0.0072170496,
+                "inSlope": 0,
+                "outSlope": 0,
+                "weightedMode": 0,
+                "inWeight": 0,
+                "outWeight": 0
+              }
+            ],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 0
+        },
+        "zCurve": {
+          "m_Mode": 0,
+          "m_CurveMultiplier": 0,
+          "m_CurveMin": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_CurveMax": {
+            "serializedVersion": 2,
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+          },
+          "m_ConstantMin": 0,
+          "m_ConstantMax": 0
+        }
+      },
+      "_vortexStrength": {
+        "m_Mode": 1,
+        "m_CurveMultiplier": 8,
+        "m_CurveMin": {
+          "serializedVersion": 2,
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "serializedVersion": 2,
+          "m_Curve": [
+            {
+              "serializedVersion": 3,
+              "time": 0.4867363,
+              "value": 0,
+              "inSlope": 0.047291093,
+              "outSlope": 0.047291093,
+              "weightedMode": 0,
+              "inWeight": 0,
+              "outWeight": 0.24719027
+            },
+            {
+              "serializedVersion": 3,
+              "time": 1,
+              "value": -0.7,
+              "inSlope": -4.000809,
+              "outSlope": -4.000809,
+              "weightedMode": 0,
+              "inWeight": 0.038040742,
+              "outWeight": 0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0,
+        "m_ConstantMax": 0
+      },
+      "_sheetModule": {
+        "enabled": 0
+      },
+      "_textureTile": {
+        "x": 4,
+        "y": 4
+      },
+      "_sheetType": 2,
+      "sheetsArray": {},
+      "_frameOverTime": {
+        "m_Mode": 0,
+        "m_CurveMultiplier": 0,
+        "m_CurveMin": {
+          "serializedVersion": 2,
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "serializedVersion": 2,
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0,
+        "m_ConstantMax": 0
+      },
+      "_startFrame": {
+        "m_Mode": 0,
+        "m_CurveMultiplier": 0,
+        "m_CurveMin": {
+          "serializedVersion": 2,
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "serializedVersion": 2,
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0,
+        "m_ConstantMax": 0
+      },
+      "_frameSpeedRange": {
+        "from": 0,
+        "to": 1
+      },
+      "_textureSheetFPS": 25,
+      "_textureSheetCycles": 1,
+      "_rate": 0,
+      "_rateOverLifetime": 0,
+      "_rateOverDistance": 0,
+      "_bursts": [],
+      "_particleTrailRenderer": {
+        "fileID": 125331
+      },
+      "_trailModule": {
+        "enabled": 0
+      },
+      "_trailWidth": {
+        "m_Mode": 1,
+        "m_CurveMultiplier": 1,
+        "m_CurveMin": {
+          "serializedVersion": 2,
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "serializedVersion": 2,
+          "m_Curve": [
+            {
+              "serializedVersion": 3,
+              "time": 0,
+              "value": 0.6860008,
+              "inSlope": -0.6860008,
+              "outSlope": -0.6860008,
+              "weightedMode": 0,
+              "inWeight": 0,
+              "outWeight": 0.33333334
+            },
+            {
+              "serializedVersion": 3,
+              "time": 1,
+              "value": 0,
+              "inSlope": -0.6860008,
+              "outSlope": -0.6860008,
+              "weightedMode": 0,
+              "inWeight": 0.33333334,
+              "outWeight": 0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0,
+        "m_ConstantMax": 1
+      },
+      "_trailLifetime": 0.2,
+      "_minimumVertexDistance": 10,
+      "_trailColorOverLifetime": {
+        "m_Mode": 0,
+        "m_GradientMin": {
+          "serializedVersion": 2,
+          "key0": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "key1": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "key2": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key3": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key4": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key5": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key6": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key7": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "ctime0": 0,
+          "ctime1": 65535,
+          "ctime2": 0,
+          "ctime3": 0,
+          "ctime4": 0,
+          "ctime5": 0,
+          "ctime6": 0,
+          "ctime7": 0,
+          "atime0": 0,
+          "atime1": 65535,
+          "atime2": 0,
+          "atime3": 0,
+          "atime4": 0,
+          "atime5": 0,
+          "atime6": 0,
+          "atime7": 0,
+          "m_Mode": 0,
+          "m_ColorSpace": -1,
+          "m_NumColorKeys": 2,
+          "m_NumAlphaKeys": 2
+        },
+        "m_GradientMax": {
+          "serializedVersion": 2,
+          "key0": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "key1": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "key2": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key3": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key4": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key5": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key6": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key7": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "ctime0": 0,
+          "ctime1": 65535,
+          "ctime2": 0,
+          "ctime3": 0,
+          "ctime4": 0,
+          "ctime5": 0,
+          "ctime6": 0,
+          "ctime7": 0,
+          "atime0": 0,
+          "atime1": 65535,
+          "atime2": 0,
+          "atime3": 0,
+          "atime4": 0,
+          "atime5": 0,
+          "atime6": 0,
+          "atime7": 0,
+          "m_Mode": 0,
+          "m_ColorSpace": -1,
+          "m_NumColorKeys": 2,
+          "m_NumAlphaKeys": 2
+        },
+        "m_ColorMin": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "m_ColorMax": {
+          "r": 0.015686274,
+          "g": 0.96065354,
+          "b": 1,
+          "a": 0.48235294
+        }
+      },
+      "_trailColorOverTrail": {
+        "m_Mode": 1,
+        "m_GradientMin": {
+          "serializedVersion": 2,
+          "key0": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "key1": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "key2": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key3": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key4": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key5": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key6": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key7": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "ctime0": 0,
+          "ctime1": 65535,
+          "ctime2": 0,
+          "ctime3": 0,
+          "ctime4": 0,
+          "ctime5": 0,
+          "ctime6": 0,
+          "ctime7": 0,
+          "atime0": 0,
+          "atime1": 65535,
+          "atime2": 0,
+          "atime3": 0,
+          "atime4": 0,
+          "atime5": 0,
+          "atime6": 0,
+          "atime7": 0,
+          "m_Mode": 0,
+          "m_ColorSpace": -1,
+          "m_NumColorKeys": 2,
+          "m_NumAlphaKeys": 2
+        },
+        "m_GradientMax": {
+          "serializedVersion": 2,
+          "key0": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "key1": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "key2": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key3": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key4": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key5": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key6": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "key7": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "ctime0": 0,
+          "ctime1": 65535,
+          "ctime2": 0,
+          "ctime3": 0,
+          "ctime4": 0,
+          "ctime5": 0,
+          "ctime6": 0,
+          "ctime7": 0,
+          "atime0": 0,
+          "atime1": 26021,
+          "atime2": 65535,
+          "atime3": 0,
+          "atime4": 0,
+          "atime5": 0,
+          "atime6": 0,
+          "atime7": 0,
+          "m_Mode": 0,
+          "m_ColorSpace": -1,
+          "m_NumColorKeys": 2,
+          "m_NumAlphaKeys": 3
+        },
+        "m_ColorMin": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "m_ColorMax": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      },
+      "_trailMaterial": {
+        "fileID": 0
+      },
+      "_inheritParticleColor": 1,
+      "_dieWithParticle": 1,
+      "_trailRatio": 0.74,
+      "_noiseOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "_noiseFrequency": 1,
+      "_noiseStrength": 1,
+      "_multithreadModule": {
+        "enabled": 0
+      },
+      "_multithreadEnabled": 0,
+      "_onStart": {
+        "m_PersistentCalls": {
+          "m_Calls": []
+        }
+      },
+      "_onFirstParticleFinish": {
+        "m_PersistentCalls": {
+          "m_Calls": []
+        }
+      },
+      "_onParticleFinish": {
+        "m_PersistentCalls": {
+          "m_Calls": [
+            {
+              "m_Target": {
+                "fileID": 125602
+              },
+              "m_TargetAssemblyTypeName": "Dia_Attraction, Assembly-CSharp",
+              "m_MethodName": "Dia_FX_End",
+              "m_Mode": 1,
+              "m_Arguments": {
+                "m_ObjectArgument": {
+                  "fileID": 0
+                },
+                "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                "m_IntArgument": 0,
+                "m_FloatArgument": 0,
+                "m_StringArgument": null,
+                "m_BoolArgument": 0
+              },
+              "m_CallState": 2
+            }
+          ]
+        }
+      },
+      "_onLastParticleFinish": {
+        "m_PersistentCalls": {
+          "m_Calls": []
+        }
+      },
+      "_onStop": {
+        "m_PersistentCalls": {
+          "m_Calls": []
+        }
+      },
+      "moduleEmitterFoldout": 1,
+      "moduleParticleFoldout": 1,
+      "moduleMovementFoldout": 1,
+      "moduleEventsFoldout": 1,
+      "moduleAdvancedFoldout": 0,
+      "m_Sprite": {
+        "fileID": 21300000,
+        "guid": "b3b08776c3125814bbceeff0ee2d87ce",
+        "type": 2
+      },
+      "m_Texture": {
+        "fileID": 0
+      }
+    },
+    "transform": {
+      "serializedVersion": 2,
+      "m_ObjectHideFlags": 0,
+      "m_CorrespondingSourceObject": {
+        "fileID": 0
+      },
+      "m_PrefabInstance": {
+        "fileID": 0
+      },
+      "m_PrefabAsset": {
+        "fileID": 0
+      },
+      "m_GameObject": {
+        "fileID": 1303
+      },
+      "m_LocalRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "m_LocalPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "m_LocalScale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "m_ConstrainProportionsScale": 0,
+      "m_Children": [
+        {
+          "fileID": 104532
+        }
+      ],
+      "m_Father": {
+        "fileID": 104756
+      },
+      "m_LocalEulerAnglesHint": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "m_SizeDelta": {
+        "x": 100,
+        "y": 100
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  }
+}

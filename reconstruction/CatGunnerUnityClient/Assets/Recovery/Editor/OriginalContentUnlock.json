@@ -1,0 +1,841 @@
+{
+  "source": "Frozen Main.unity",
+  "rows": [
+    {
+      "originalComponent": 124225,
+      "originalGo": 1041,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "UI_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_Unlock_manager",
+          "ordinal": 0
+        }
+      ],
+      "type": "Contents_Unlock_manager",
+      "enabled": true,
+      "fields": {
+        "Content_list": [
+          {
+            "Type": 0,
+            "Btn_obj": {
+              "fileID": 1482
+            },
+            "Locked_obj": {
+              "fileID": 2136
+            }
+          },
+          {
+            "Type": 1,
+            "Btn_obj": {
+              "fileID": 1231
+            },
+            "Locked_obj": {
+              "fileID": 2246
+            }
+          },
+          {
+            "Type": 2,
+            "Btn_obj": {
+              "fileID": 1773
+            },
+            "Locked_obj": {
+              "fileID": 88
+            }
+          },
+          {
+            "Type": 3,
+            "Btn_obj": {
+              "fileID": 146
+            },
+            "Locked_obj": {
+              "fileID": 600
+            }
+          },
+          {
+            "Type": 4,
+            "Btn_obj": {
+              "fileID": 1777
+            },
+            "Locked_obj": {
+              "fileID": 1475
+            }
+          },
+          {
+            "Type": 5,
+            "Btn_obj": {
+              "fileID": 885
+            },
+            "Locked_obj": {
+              "fileID": 1692
+            }
+          },
+          {
+            "Type": 6,
+            "Btn_obj": {
+              "fileID": 1419
+            },
+            "Locked_obj": {
+              "fileID": 1378
+            }
+          },
+          {
+            "Type": 7,
+            "Btn_obj": {
+              "fileID": 595
+            },
+            "Locked_obj": {
+              "fileID": 1862
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "references": {
+    "1482": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Left_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Rebirth_Btn",
+        "ordinal": 0
+      }
+    ],
+    "2136": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Left_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Rebirth_Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "Locked_obj",
+        "ordinal": 0
+      }
+    ],
+    "1231": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Right_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Mine_Btn",
+        "ordinal": 0
+      }
+    ],
+    "2246": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Right_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Mine_Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "Locked_obj",
+        "ordinal": 0
+      }
+    ],
+    "1773": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Left_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Fish_Btn",
+        "ordinal": 0
+      }
+    ],
+    "88": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Left_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Fish_Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "Locked_obj",
+        "ordinal": 0
+      }
+    ],
+    "146": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Right_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Boss_Btn",
+        "ordinal": 0
+      }
+    ],
+    "600": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Right_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Boss_Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "Locked_obj",
+        "ordinal": 0
+      }
+    ],
+    "1777": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Left_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Pet_Btn ",
+        "ordinal": 0
+      }
+    ],
+    "1475": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Left_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Pet_Btn ",
+        "ordinal": 0
+      },
+      {
+        "name": "Locked_obj",
+        "ordinal": 0
+      }
+    ],
+    "885": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Right_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Monster_Btn",
+        "ordinal": 0
+      }
+    ],
+    "1692": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Right_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Monster_Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "Locked_obj",
+        "ordinal": 0
+      }
+    ],
+    "1419": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Right_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Adventure_Btn",
+        "ordinal": 0
+      }
+    ],
+    "1378": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Right_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Adventure_Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "Locked_obj",
+        "ordinal": 0
+      }
+    ],
+    "595": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Right_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Btn",
+        "ordinal": 0
+      }
+    ],
+    "1862": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Right_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "Locked_obj",
+        "ordinal": 0
+      }
+    ]
+  },
+  "buttonCallbacks": {
+    "146": {
+      "originalComponent": 123128,
+      "calls": [
+        {
+          "m_Target": {
+            "fileID": 124225
+          },
+          "m_TargetAssemblyTypeName": "Contents_Unlock_manager, Assembly-CSharp",
+          "m_MethodName": "Content_Btn_Boss",
+          "m_Mode": 1,
+          "m_Arguments": {
+            "m_ObjectArgument": {
+              "fileID": 0
+            },
+            "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+            "m_IntArgument": 0,
+            "m_FloatArgument": 0,
+            "m_StringArgument": null,
+            "m_BoolArgument": 0
+          },
+          "m_CallState": 2
+        }
+      ]
+    },
+    "595": {
+      "originalComponent": 123658,
+      "calls": [
+        {
+          "m_Target": {
+            "fileID": 124225
+          },
+          "m_TargetAssemblyTypeName": "Contents_Unlock_manager, Assembly-CSharp",
+          "m_MethodName": "Content_Btn_Raid",
+          "m_Mode": 1,
+          "m_Arguments": {
+            "m_ObjectArgument": {
+              "fileID": 0
+            },
+            "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+            "m_IntArgument": 0,
+            "m_FloatArgument": 0,
+            "m_StringArgument": null,
+            "m_BoolArgument": 0
+          },
+          "m_CallState": 2
+        }
+      ]
+    },
+    "885": {
+      "originalComponent": 124045,
+      "calls": [
+        {
+          "m_Target": {
+            "fileID": 124225
+          },
+          "m_TargetAssemblyTypeName": "Contents_Unlock_manager, Assembly-CSharp",
+          "m_MethodName": "Content_Btn_Monster",
+          "m_Mode": 1,
+          "m_Arguments": {
+            "m_ObjectArgument": {
+              "fileID": 0
+            },
+            "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+            "m_IntArgument": 0,
+            "m_FloatArgument": 0,
+            "m_StringArgument": null,
+            "m_BoolArgument": 0
+          },
+          "m_CallState": 2
+        }
+      ]
+    },
+    "1231": {
+      "originalComponent": 124458,
+      "calls": [
+        {
+          "m_Target": {
+            "fileID": 124225
+          },
+          "m_TargetAssemblyTypeName": "Contents_Unlock_manager, Assembly-CSharp",
+          "m_MethodName": "Content_Btn_Mine",
+          "m_Mode": 1,
+          "m_Arguments": {
+            "m_ObjectArgument": {
+              "fileID": 0
+            },
+            "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+            "m_IntArgument": 0,
+            "m_FloatArgument": 0,
+            "m_StringArgument": null,
+            "m_BoolArgument": 0
+          },
+          "m_CallState": 2
+        }
+      ]
+    },
+    "1419": {
+      "originalComponent": 124664,
+      "calls": [
+        {
+          "m_Target": {
+            "fileID": 124225
+          },
+          "m_TargetAssemblyTypeName": "Contents_Unlock_manager, Assembly-CSharp",
+          "m_MethodName": "Content_Btn_Adventure",
+          "m_Mode": 1,
+          "m_Arguments": {
+            "m_ObjectArgument": {
+              "fileID": 0
+            },
+            "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+            "m_IntArgument": 0,
+            "m_FloatArgument": 0,
+            "m_StringArgument": null,
+            "m_BoolArgument": 1
+          },
+          "m_CallState": 2
+        }
+      ]
+    },
+    "1482": {
+      "originalComponent": 124740,
+      "calls": [
+        {
+          "m_Target": {
+            "fileID": 124225
+          },
+          "m_TargetAssemblyTypeName": "Contents_Unlock_manager, Assembly-CSharp",
+          "m_MethodName": "Content_Btn_Rebirth",
+          "m_Mode": 1,
+          "m_Arguments": {
+            "m_ObjectArgument": {
+              "fileID": 0
+            },
+            "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+            "m_IntArgument": 0,
+            "m_FloatArgument": 0,
+            "m_StringArgument": null,
+            "m_BoolArgument": 0
+          },
+          "m_CallState": 2
+        }
+      ]
+    },
+    "1773": {
+      "originalComponent": 125080,
+      "calls": [
+        {
+          "m_Target": {
+            "fileID": 124225
+          },
+          "m_TargetAssemblyTypeName": "Contents_Unlock_manager, Assembly-CSharp",
+          "m_MethodName": "Content_Btn_Fish",
+          "m_Mode": 1,
+          "m_Arguments": {
+            "m_ObjectArgument": {
+              "fileID": 0
+            },
+            "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+            "m_IntArgument": 0,
+            "m_FloatArgument": 0,
+            "m_StringArgument": null,
+            "m_BoolArgument": 0
+          },
+          "m_CallState": 2
+        }
+      ]
+    },
+    "1777": {
+      "originalComponent": 125089,
+      "calls": [
+        {
+          "m_Target": {
+            "fileID": 124225
+          },
+          "m_TargetAssemblyTypeName": "Contents_Unlock_manager, Assembly-CSharp",
+          "m_MethodName": "Content_Btn_Pet",
+          "m_Mode": 1,
+          "m_Arguments": {
+            "m_ObjectArgument": {
+              "fileID": 0
+            },
+            "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+            "m_IntArgument": 0,
+            "m_FloatArgument": 0,
+            "m_StringArgument": null,
+            "m_BoolArgument": 0
+          },
+          "m_CallState": 2
+        }
+      ]
+    }
+  },
+  "managerObject": {
+    "serializedVersion": 6,
+    "m_ObjectHideFlags": 0,
+    "m_CorrespondingSourceObject": {
+      "fileID": 0
+    },
+    "m_PrefabInstance": {
+      "fileID": 0
+    },
+    "m_PrefabAsset": {
+      "fileID": 0
+    },
+    "m_Component": [
+      {
+        "component": {
+          "fileID": 103636
+        }
+      },
+      {
+        "component": {
+          "fileID": 124225
+        }
+      }
+    ],
+    "m_Layer": 5,
+    "m_Name": "Contents_Unlock_manager",
+    "m_TagString": "Untagged",
+    "m_Icon": {
+      "fileID": 0
+    },
+    "m_NavMeshLayer": 0,
+    "m_StaticEditorFlags": 0,
+    "m_IsActive": 1
+  },
+  "managerTransform": {
+    "serializedVersion": 2,
+    "m_ObjectHideFlags": 0,
+    "m_CorrespondingSourceObject": {
+      "fileID": 0
+    },
+    "m_PrefabInstance": {
+      "fileID": 0
+    },
+    "m_PrefabAsset": {
+      "fileID": 0
+    },
+    "m_GameObject": {
+      "fileID": 1041
+    },
+    "m_LocalRotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "m_LocalPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "m_LocalScale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "m_ConstrainProportionsScale": 0,
+    "m_Children": [],
+    "m_Father": {
+      "fileID": 104803
+    },
+    "m_LocalEulerAnglesHint": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "m_AnchorMin": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "m_AnchorMax": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "m_AnchoredPosition": {
+      "x": 0,
+      "y": 0
+    },
+    "m_SizeDelta": {
+      "x": 100,
+      "y": 100
+    },
+    "m_Pivot": {
+      "x": 0.5,
+      "y": 0.5
+    }
+  }
+}

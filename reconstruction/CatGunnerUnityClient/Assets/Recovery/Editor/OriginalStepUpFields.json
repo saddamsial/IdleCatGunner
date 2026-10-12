@@ -1,0 +1,3500 @@
+{
+  "rows": [
+    {
+      "type": "StepUp_popup",
+      "originalComponent": 123780,
+      "originalGo": 697,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp_Popup",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "Time_txt": {
+          "fileID": 117375
+        },
+        "StepUp_Item_list": [
+          {
+            "fileID": 129854
+          },
+          {
+            "fileID": 131823
+          },
+          {
+            "fileID": 131822
+          },
+          {
+            "fileID": 131821
+          },
+          {
+            "fileID": 131824
+          }
+        ]
+      }
+    },
+    {
+      "type": "StepUp_Banner",
+      "originalComponent": 124333,
+      "originalGo": 1128,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Gun_UI  (SafeArea)",
+          "ordinal": 0
+        },
+        {
+          "name": "GunList_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp_Banner",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "Time_txt": {
+          "fileID": 117136
+        },
+        "gun_item": {
+          "fileID": 146154
+        },
+        "Sale_txt": {
+          "fileID": 121358
+        }
+      }
+    },
+    {
+      "type": "StepUp",
+      "originalComponent": 124465,
+      "originalGo": 1235,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "stepup_banner": {
+          "fileID": 124333
+        },
+        "popup": {
+          "fileID": 123780
+        },
+        "stepup_hud": {
+          "fileID": 125578
+        },
+        "Open_Place": "banner_weapon"
+      }
+    },
+    {
+      "type": "StepUp_Hud",
+      "originalComponent": 125578,
+      "originalGo": 2180,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Main_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Btn_list",
+          "ordinal": 0
+        },
+        {
+          "name": "Left_Menu",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp_obj",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp_Btn",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "Time_txt": {
+          "fileID": 117303
+        },
+        "Price_obj": {
+          "fileID": 1273
+        }
+      }
+    },
+    {
+      "type": "StepUp_Item_UI",
+      "originalComponent": 129854,
+      "originalGo": 7948,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Pack_list",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp_Gun_Pack",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "Step_Num": 0,
+        "Step_txt": {
+          "fileID": 118602
+        },
+        "gun_item": {
+          "fileID": 135188
+        },
+        "Dia_obj": {
+          "fileID": 33959
+        },
+        "Dia_txt": {
+          "fileID": 121694
+        },
+        "Locked_txt": {
+          "fileID": 121829
+        },
+        "Disable_Panel_obj": {
+          "fileID": 20219
+        },
+        "Disable_Step_obj": {
+          "fileID": 15412
+        },
+        "Purchased_obj": {
+          "fileID": 37064
+        },
+        "Purchase_Btn_obj": {
+          "fileID": 23171
+        },
+        "Glow_obj": {
+          "fileID": 24869
+        }
+      }
+    },
+    {
+      "type": "StepUp_Item_UI",
+      "originalComponent": 131821,
+      "originalGo": 9093,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Pack_list",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp_Gun_Pack (3)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "Step_Num": 0,
+        "Step_txt": {
+          "fileID": 118155
+        },
+        "gun_item": {
+          "fileID": 136739
+        },
+        "Dia_obj": {
+          "fileID": 29954
+        },
+        "Dia_txt": {
+          "fileID": 121781
+        },
+        "Locked_txt": {
+          "fileID": 121222
+        },
+        "Disable_Panel_obj": {
+          "fileID": 22366
+        },
+        "Disable_Step_obj": {
+          "fileID": 10872
+        },
+        "Purchased_obj": {
+          "fileID": 35561
+        },
+        "Purchase_Btn_obj": {
+          "fileID": 19294
+        },
+        "Glow_obj": {
+          "fileID": 28193
+        }
+      }
+    },
+    {
+      "type": "StepUp_Item_UI",
+      "originalComponent": 131822,
+      "originalGo": 9094,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Pack_list",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp_Gun_Pack (2)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "Step_Num": 0,
+        "Step_txt": {
+          "fileID": 118154
+        },
+        "gun_item": {
+          "fileID": 136738
+        },
+        "Dia_obj": {
+          "fileID": 29955
+        },
+        "Dia_txt": {
+          "fileID": 121782
+        },
+        "Locked_txt": {
+          "fileID": 121223
+        },
+        "Disable_Panel_obj": {
+          "fileID": 22365
+        },
+        "Disable_Step_obj": {
+          "fileID": 10871
+        },
+        "Purchased_obj": {
+          "fileID": 35562
+        },
+        "Purchase_Btn_obj": {
+          "fileID": 19295
+        },
+        "Glow_obj": {
+          "fileID": 28192
+        }
+      }
+    },
+    {
+      "type": "StepUp_Item_UI",
+      "originalComponent": 131823,
+      "originalGo": 9091,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Pack_list",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp_Gun_Pack (1)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "Step_Num": 0,
+        "Step_txt": {
+          "fileID": 118153
+        },
+        "gun_item": {
+          "fileID": 136741
+        },
+        "Dia_obj": {
+          "fileID": 29952
+        },
+        "Dia_txt": {
+          "fileID": 121783
+        },
+        "Locked_txt": {
+          "fileID": 121224
+        },
+        "Disable_Panel_obj": {
+          "fileID": 22368
+        },
+        "Disable_Step_obj": {
+          "fileID": 10874
+        },
+        "Purchased_obj": {
+          "fileID": 35563
+        },
+        "Purchase_Btn_obj": {
+          "fileID": 19292
+        },
+        "Glow_obj": {
+          "fileID": 28191
+        }
+      }
+    },
+    {
+      "type": "StepUp_Item_UI",
+      "originalComponent": 131824,
+      "originalGo": 9092,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Pack_list",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp_Gun_Pack (4)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "Step_Num": 0,
+        "Step_txt": {
+          "fileID": 118152
+        },
+        "gun_item": {
+          "fileID": 136740
+        },
+        "Dia_obj": {
+          "fileID": 29953
+        },
+        "Dia_txt": {
+          "fileID": 121784
+        },
+        "Locked_txt": {
+          "fileID": 121225
+        },
+        "Disable_Panel_obj": {
+          "fileID": 22367
+        },
+        "Disable_Step_obj": {
+          "fileID": 10873
+        },
+        "Purchased_obj": {
+          "fileID": 35564
+        },
+        "Purchase_Btn_obj": {
+          "fileID": 19293
+        },
+        "Glow_obj": {
+          "fileID": 28190
+        }
+      }
+    },
+    {
+      "type": "Gun_Item_Demo",
+      "originalComponent": 146154,
+      "originalGo": 17917,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Gun_UI  (SafeArea)",
+          "ordinal": 0
+        },
+        {
+          "name": "GunList_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp_Banner",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Profile",
+          "ordinal": 0
+        },
+        {
+          "name": "GunItem_Demo",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "GunNum": 25,
+        "Gun_img": {
+          "fileID": 129737
+        },
+        "Shadow_img": {
+          "fileID": 133087
+        },
+        "Panel_img": {
+          "fileID": 146153
+        },
+        "Degree_objs": [
+          {
+            "fileID": 10844
+          },
+          {
+            "fileID": 35534
+          },
+          {
+            "fileID": 9929
+          },
+          {
+            "fileID": 22551
+          },
+          {
+            "fileID": 17411
+          },
+          {
+            "fileID": 20946
+          },
+          {
+            "fileID": 9206
+          },
+          {
+            "fileID": 4136
+          },
+          {
+            "fileID": 9398
+          },
+          {
+            "fileID": 28800
+          },
+          {
+            "fileID": 20664
+          },
+          {
+            "fileID": 19717
+          },
+          {
+            "fileID": 35667
+          }
+        ],
+        "Type_txt": {
+          "fileID": 120965
+        }
+      }
+    }
+  ],
+  "references": {
+    "117375": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Time",
+        "ordinal": 0
+      },
+      {
+        "name": "Time_txt",
+        "ordinal": 0
+      }
+    ],
+    "129854": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack",
+        "ordinal": 0
+      }
+    ],
+    "131823": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (1)",
+        "ordinal": 0
+      }
+    ],
+    "131822": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (2)",
+        "ordinal": 0
+      }
+    ],
+    "131821": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (3)",
+        "ordinal": 0
+      }
+    ],
+    "131824": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (4)",
+        "ordinal": 0
+      }
+    ],
+    "117136": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_UI  (SafeArea)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunList_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Banner",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "LastTime",
+        "ordinal": 0
+      },
+      {
+        "name": "Time_txt",
+        "ordinal": 0
+      }
+    ],
+    "146154": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_UI  (SafeArea)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunList_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Banner",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Profile",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      }
+    ],
+    "121358": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_UI  (SafeArea)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunList_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Banner",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Sale",
+        "ordinal": 0
+      },
+      {
+        "name": "I2_txt(Outline)",
+        "ordinal": 0
+      }
+    ],
+    "124333": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_UI  (SafeArea)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunList_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Banner",
+        "ordinal": 0
+      }
+    ],
+    "123780": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      }
+    ],
+    "125578": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Left_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_obj",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Btn",
+        "ordinal": 0
+      }
+    ],
+    "117303": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Left_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_obj",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "Time_txt",
+        "ordinal": 0
+      }
+    ],
+    "1273": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Left_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_obj",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "0.99",
+        "ordinal": 0
+      }
+    ],
+    "118602": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack",
+        "ordinal": 0
+      },
+      {
+        "name": "Step",
+        "ordinal": 0
+      },
+      {
+        "name": "Step_txt",
+        "ordinal": 0
+      }
+    ],
+    "135188": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      }
+    ],
+    "33959": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack",
+        "ordinal": 0
+      },
+      {
+        "name": "Dia",
+        "ordinal": 0
+      }
+    ],
+    "121694": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack",
+        "ordinal": 0
+      },
+      {
+        "name": "Dia",
+        "ordinal": 0
+      },
+      {
+        "name": "Dia_txt",
+        "ordinal": 0
+      }
+    ],
+    "121829": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack",
+        "ordinal": 0
+      },
+      {
+        "name": "Disable_obj",
+        "ordinal": 0
+      },
+      {
+        "name": "I2_txt(Outline)",
+        "ordinal": 0
+      }
+    ],
+    "20219": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack",
+        "ordinal": 0
+      },
+      {
+        "name": "Disable_obj",
+        "ordinal": 0
+      }
+    ],
+    "15412": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack",
+        "ordinal": 0
+      },
+      {
+        "name": "Step",
+        "ordinal": 0
+      },
+      {
+        "name": "Disable_obj",
+        "ordinal": 0
+      }
+    ],
+    "37064": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack",
+        "ordinal": 0
+      },
+      {
+        "name": "Purchased_obj",
+        "ordinal": 0
+      }
+    ],
+    "23171": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack",
+        "ordinal": 0
+      },
+      {
+        "name": "Purchase_Btn",
+        "ordinal": 0
+      }
+    ],
+    "24869": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack",
+        "ordinal": 0
+      },
+      {
+        "name": "Glow",
+        "ordinal": 0
+      }
+    ],
+    "118155": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (3)",
+        "ordinal": 0
+      },
+      {
+        "name": "Step",
+        "ordinal": 0
+      },
+      {
+        "name": "Step_txt",
+        "ordinal": 0
+      }
+    ],
+    "136739": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (3)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      }
+    ],
+    "29954": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (3)",
+        "ordinal": 0
+      },
+      {
+        "name": "Dia",
+        "ordinal": 0
+      }
+    ],
+    "121781": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (3)",
+        "ordinal": 0
+      },
+      {
+        "name": "Dia",
+        "ordinal": 0
+      },
+      {
+        "name": "Dia_txt",
+        "ordinal": 0
+      }
+    ],
+    "121222": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (3)",
+        "ordinal": 0
+      },
+      {
+        "name": "Disable_obj",
+        "ordinal": 0
+      },
+      {
+        "name": "I2_txt(Outline)",
+        "ordinal": 0
+      }
+    ],
+    "22366": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (3)",
+        "ordinal": 0
+      },
+      {
+        "name": "Disable_obj",
+        "ordinal": 0
+      }
+    ],
+    "10872": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (3)",
+        "ordinal": 0
+      },
+      {
+        "name": "Step",
+        "ordinal": 0
+      },
+      {
+        "name": "Disable_obj",
+        "ordinal": 0
+      }
+    ],
+    "35561": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (3)",
+        "ordinal": 0
+      },
+      {
+        "name": "Purchased_obj",
+        "ordinal": 0
+      }
+    ],
+    "19294": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (3)",
+        "ordinal": 0
+      },
+      {
+        "name": "Purchase_Btn",
+        "ordinal": 0
+      }
+    ],
+    "28193": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (3)",
+        "ordinal": 0
+      },
+      {
+        "name": "Glow",
+        "ordinal": 0
+      }
+    ],
+    "118154": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (2)",
+        "ordinal": 0
+      },
+      {
+        "name": "Step",
+        "ordinal": 0
+      },
+      {
+        "name": "Step_txt",
+        "ordinal": 0
+      }
+    ],
+    "136738": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (2)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      }
+    ],
+    "29955": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (2)",
+        "ordinal": 0
+      },
+      {
+        "name": "Dia",
+        "ordinal": 0
+      }
+    ],
+    "121782": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (2)",
+        "ordinal": 0
+      },
+      {
+        "name": "Dia",
+        "ordinal": 0
+      },
+      {
+        "name": "Dia_txt",
+        "ordinal": 0
+      }
+    ],
+    "121223": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (2)",
+        "ordinal": 0
+      },
+      {
+        "name": "Disable_obj",
+        "ordinal": 0
+      },
+      {
+        "name": "I2_txt(Outline)",
+        "ordinal": 0
+      }
+    ],
+    "22365": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (2)",
+        "ordinal": 0
+      },
+      {
+        "name": "Disable_obj",
+        "ordinal": 0
+      }
+    ],
+    "10871": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (2)",
+        "ordinal": 0
+      },
+      {
+        "name": "Step",
+        "ordinal": 0
+      },
+      {
+        "name": "Disable_obj",
+        "ordinal": 0
+      }
+    ],
+    "35562": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (2)",
+        "ordinal": 0
+      },
+      {
+        "name": "Purchased_obj",
+        "ordinal": 0
+      }
+    ],
+    "19295": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (2)",
+        "ordinal": 0
+      },
+      {
+        "name": "Purchase_Btn",
+        "ordinal": 0
+      }
+    ],
+    "28192": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (2)",
+        "ordinal": 0
+      },
+      {
+        "name": "Glow",
+        "ordinal": 0
+      }
+    ],
+    "118153": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "Step",
+        "ordinal": 0
+      },
+      {
+        "name": "Step_txt",
+        "ordinal": 0
+      }
+    ],
+    "136741": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      }
+    ],
+    "29952": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "Dia",
+        "ordinal": 0
+      }
+    ],
+    "121783": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "Dia",
+        "ordinal": 0
+      },
+      {
+        "name": "Dia_txt",
+        "ordinal": 0
+      }
+    ],
+    "121224": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "Disable_obj",
+        "ordinal": 0
+      },
+      {
+        "name": "I2_txt(Outline)",
+        "ordinal": 0
+      }
+    ],
+    "22368": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "Disable_obj",
+        "ordinal": 0
+      }
+    ],
+    "10874": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "Step",
+        "ordinal": 0
+      },
+      {
+        "name": "Disable_obj",
+        "ordinal": 0
+      }
+    ],
+    "35563": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "Purchased_obj",
+        "ordinal": 0
+      }
+    ],
+    "19292": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "Purchase_Btn",
+        "ordinal": 0
+      }
+    ],
+    "28191": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "Glow",
+        "ordinal": 0
+      }
+    ],
+    "118152": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (4)",
+        "ordinal": 0
+      },
+      {
+        "name": "Step",
+        "ordinal": 0
+      },
+      {
+        "name": "Step_txt",
+        "ordinal": 0
+      }
+    ],
+    "136740": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (4)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      }
+    ],
+    "29953": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (4)",
+        "ordinal": 0
+      },
+      {
+        "name": "Dia",
+        "ordinal": 0
+      }
+    ],
+    "121784": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (4)",
+        "ordinal": 0
+      },
+      {
+        "name": "Dia",
+        "ordinal": 0
+      },
+      {
+        "name": "Dia_txt",
+        "ordinal": 0
+      }
+    ],
+    "121225": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (4)",
+        "ordinal": 0
+      },
+      {
+        "name": "Disable_obj",
+        "ordinal": 0
+      },
+      {
+        "name": "I2_txt(Outline)",
+        "ordinal": 0
+      }
+    ],
+    "22367": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (4)",
+        "ordinal": 0
+      },
+      {
+        "name": "Disable_obj",
+        "ordinal": 0
+      }
+    ],
+    "10873": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (4)",
+        "ordinal": 0
+      },
+      {
+        "name": "Step",
+        "ordinal": 0
+      },
+      {
+        "name": "Disable_obj",
+        "ordinal": 0
+      }
+    ],
+    "35564": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (4)",
+        "ordinal": 0
+      },
+      {
+        "name": "Purchased_obj",
+        "ordinal": 0
+      }
+    ],
+    "19293": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (4)",
+        "ordinal": 0
+      },
+      {
+        "name": "Purchase_Btn",
+        "ordinal": 0
+      }
+    ],
+    "28190": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Pack_list",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Gun_Pack (4)",
+        "ordinal": 0
+      },
+      {
+        "name": "Glow",
+        "ordinal": 0
+      }
+    ],
+    "129737": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_UI  (SafeArea)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunList_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Banner",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Profile",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_img",
+        "ordinal": 0
+      }
+    ],
+    "133087": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_UI  (SafeArea)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunList_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Banner",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Profile",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun",
+        "ordinal": 0
+      }
+    ],
+    "146153": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_UI  (SafeArea)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunList_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Banner",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Profile",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      }
+    ],
+    "10844": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_UI  (SafeArea)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunList_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Banner",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Profile",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree",
+        "ordinal": 0
+      },
+      {
+        "name": "D",
+        "ordinal": 0
+      }
+    ],
+    "35534": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_UI  (SafeArea)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunList_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Banner",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Profile",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree",
+        "ordinal": 0
+      },
+      {
+        "name": "C",
+        "ordinal": 0
+      }
+    ],
+    "9929": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_UI  (SafeArea)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunList_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Banner",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Profile",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree",
+        "ordinal": 0
+      },
+      {
+        "name": "B",
+        "ordinal": 0
+      }
+    ],
+    "22551": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_UI  (SafeArea)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunList_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Banner",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Profile",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree",
+        "ordinal": 0
+      },
+      {
+        "name": "A",
+        "ordinal": 0
+      }
+    ],
+    "17411": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_UI  (SafeArea)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunList_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Banner",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Profile",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree",
+        "ordinal": 0
+      },
+      {
+        "name": "S",
+        "ordinal": 0
+      }
+    ],
+    "20946": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_UI  (SafeArea)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunList_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Banner",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Profile",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree",
+        "ordinal": 0
+      },
+      {
+        "name": "SS",
+        "ordinal": 0
+      }
+    ],
+    "9206": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_UI  (SafeArea)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunList_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Banner",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Profile",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree",
+        "ordinal": 0
+      },
+      {
+        "name": "SSS",
+        "ordinal": 0
+      }
+    ],
+    "4136": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_UI  (SafeArea)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunList_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Banner",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Profile",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree",
+        "ordinal": 0
+      },
+      {
+        "name": "X",
+        "ordinal": 0
+      }
+    ],
+    "9398": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_UI  (SafeArea)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunList_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Banner",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Profile",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree",
+        "ordinal": 0
+      },
+      {
+        "name": "XX",
+        "ordinal": 0
+      }
+    ],
+    "28800": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_UI  (SafeArea)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunList_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Banner",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Profile",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree",
+        "ordinal": 0
+      },
+      {
+        "name": "XXX",
+        "ordinal": 0
+      }
+    ],
+    "20664": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_UI  (SafeArea)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunList_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Banner",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Profile",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree",
+        "ordinal": 0
+      },
+      {
+        "name": "Z",
+        "ordinal": 0
+      }
+    ],
+    "19717": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_UI  (SafeArea)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunList_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Banner",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Profile",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree",
+        "ordinal": 0
+      },
+      {
+        "name": "ZZ",
+        "ordinal": 0
+      }
+    ],
+    "35667": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_UI  (SafeArea)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunList_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Banner",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Profile",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree",
+        "ordinal": 0
+      },
+      {
+        "name": "ZZZ",
+        "ordinal": 0
+      }
+    ],
+    "120965": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_UI  (SafeArea)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunList_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "StepUp_Banner",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Profile",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Type_txt",
+        "ordinal": 0
+      }
+    ]
+  }
+}

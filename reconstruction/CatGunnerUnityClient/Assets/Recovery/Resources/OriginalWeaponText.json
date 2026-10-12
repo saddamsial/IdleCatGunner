@@ -1,0 +1,314 @@
+{
+  "LocaleCodes": [
+    "en",
+    "ko",
+    "ja",
+    "zh-CN",
+    "zh-TW",
+    "pt-BR",
+    "de",
+    "fr-FR",
+    "es-ES",
+    "th",
+    "id",
+    "ms",
+    "vi",
+    "ru"
+  ],
+  "Rows": [
+    {
+      "Type": "SINGLE",
+      "Description": false,
+      "Key": "Gun/SINGLE",
+      "Values": [
+        "Single",
+        "단발",
+        "単発",
+        "单发",
+        "單發",
+        "Single",
+        "Single",
+        "Single",
+        "Single",
+        "Single",
+        "Single",
+        "Single",
+        "Single",
+        "Single"
+      ]
+    },
+    {
+      "Type": "SINGLE",
+      "Description": true,
+      "Key": "Gun/SINGLE_ex",
+      "Values": [
+        "Single - Fires 1 bullet.",
+        "단발 - 총알을 1발 발사한다.",
+        "単発 - 弾を1発発射する。",
+        "单发 - 发射1颗子弹。",
+        "單發 - 發射1顆子彈。",
+        "Single - Dispara 1 bala.",
+        "Single - Feuert 1 Kugel.",
+        "Single - Tire 1 balle.",
+        "Single - Dispara 1 bala.",
+        "Single - ยิงกระสุน 1 นัด",
+        "Single - Menembakkan 1 peluru.",
+        "Single - Menembak 1 peluru.",
+        "Single - Bắn 1 viên đạn.",
+        "Single - выпускает 1 пулю."
+      ]
+    },
+    {
+      "Type": "LASER",
+      "Description": false,
+      "Key": "Gun/LASER",
+      "Values": [
+        "Laser",
+        "레이저",
+        "レーザー",
+        "激光",
+        "雷射",
+        "Laser",
+        "Laser",
+        "Laser",
+        "Laser",
+        "Laser",
+        "Laser",
+        "Laser",
+        "Laser",
+        "Laser"
+      ]
+    },
+    {
+      "Type": "LASER",
+      "Description": true,
+      "Key": "Gun/LASER_ex",
+      "Values": [
+        "Laser - Fires a bullet that pierces through enemies.",
+        "레이저 - 적을 관통하는 총알을 발사한다.",
+        "レーザー - 敵を貫通する弾を発射する。",
+        "激光 - 发射穿透敌人的子弹。",
+        "雷射 - 發射穿透敵人的子彈。",
+        "Laser - Dispara uma bala que atravessa inimigos.",
+        "Laser - Feuert eine Kugel, die Feinde durchdringt.",
+        "Laser - Tire une balle qui traverse les ennemis.",
+        "Laser - Dispara una bala que atraviesa enemigos.",
+        "Laser - ยิงกระสุนที่เจาะทะลุศัตรู",
+        "Laser - Menembakkan peluru yang menembus musuh.",
+        "Laser - Menembak peluru yang menembusi musuh.",
+        "Laser - Bắn đạn xuyên qua kẻ địch.",
+        "Laser - выпускает пулю, пробивающую врагов."
+      ]
+    },
+    {
+      "Type": "PIERCE",
+      "Description": false,
+      "Key": "Gun/PIERCE",
+      "Values": [
+        "Pierce",
+        "관통",
+        "貫通",
+        "穿透",
+        "穿透",
+        "Pierce",
+        "Pierce",
+        "Pierce",
+        "Pierce",
+        "Pierce",
+        "Pierce",
+        "Pierce",
+        "Pierce",
+        "Pierce"
+      ]
+    },
+    {
+      "Type": "PIERCE",
+      "Description": true,
+      "Key": "Gun/PIERCE_ex",
+      "Values": [
+        "Pierce - Pierces on first impact or when an enemy is defeated.",
+        "관통 - 최초 충돌 또는 적 처치시 관통한다.",
+        "貫通 - 最初の衝突時または敵撃破時に貫通する。",
+        "穿透 - 首次命中或击败敌人时穿透。",
+        "穿透 - 首次命中或擊敗敵人時穿透。",
+        "Pierce - Perfura no primeiro impacto ou ao derrotar inimigos.",
+        "Pierce - Durchdringt beim ersten Aufprall oder bei Abschuss.",
+        "Pierce - Perfore au premier impact ou à l'élimination.",
+        "Pierce - Perfora en el primer impacto o al eliminar.",
+        "Pierce - เจาะเมื่อชนครั้งแรกหรือสังหารศัตรู",
+        "Pierce - Menembus saat kontak pertama atau saat musuh dikalahkan.",
+        "Pierce - Menembusi saat hentaman pertama atau musuh dikalahkan.",
+        "Pierce - Xuyên khi va chạm đầu tiên hoặc khi hạ kẻ địch.",
+        "Pierce - пробивает при первом ударе или добивании."
+      ]
+    },
+    {
+      "Type": "SHOTGUN",
+      "Description": false,
+      "Key": "Gun/SHOTGUN",
+      "Values": [
+        "Shot",
+        "산탄",
+        "散弾",
+        "散弹",
+        "散彈",
+        "Shot",
+        "Shot",
+        "Shot",
+        "Shot",
+        "Shot",
+        "Shot",
+        "Shot",
+        "Shot",
+        "Shot"
+      ]
+    },
+    {
+      "Type": "SHOTGUN",
+      "Description": true,
+      "Key": "Gun/SHOTGUN_ex",
+      "Values": [
+        "Shotgun - Fires multiple bullets at once.",
+        "산탄 - 여러 발의 총알을 발사한다.",
+        "散弾 - 複数の弾を同時に発射する。",
+        "散弹 - 同时发射多颗子弹。",
+        "散彈 - 同時發射多顆子彈。",
+        "Shotgun - Dispara múltiplas balas de uma vez.",
+        "Shotgun - Feuert mehrere Kugeln gleichzeitig.",
+        "Shotgun - Tire plusieurs balles à la fois.",
+        "Shotgun - Dispara múltiples balas a la vez.",
+        "Shotgun - ยิงกระสุนหลายนัดพร้อมกัน",
+        "Shotgun - Menembakkan banyak peluru sekaligus.",
+        "Shotgun - Menembak banyak peluru serentak.",
+        "Shotgun - Bắn nhiều đạn cùng lúc.",
+        "Shotgun - выпускает несколько пуль сразу."
+      ]
+    },
+    {
+      "Type": "EXPLOSIVE",
+      "Description": false,
+      "Key": "Gun/EXPLOSIVE",
+      "Values": [
+        "Blast",
+        "폭발",
+        "爆発",
+        "爆炸",
+        "爆炸",
+        "Blast",
+        "Blast",
+        "Blast",
+        "Blast",
+        "Blast",
+        "Blast",
+        "Blast",
+        "Blast",
+        "Blast"
+      ]
+    },
+    {
+      "Type": "EXPLOSIVE",
+      "Description": true,
+      "Key": "Gun/EXPLOSIVE_ex",
+      "Values": [
+        "Blast - Fires a bullet with area-of-effect damage.",
+        "폭발 - 광역 공격하는 총알을 발사한다.",
+        "爆発 - 範囲攻撃する弾を発射する。",
+        "爆炸 - 发射造成范围伤害的子弹。",
+        "爆炸 - 發射造成範圍傷害的子彈。",
+        "Blast - Dispara uma bala com dano em área.",
+        "Blast - Feuert eine Kugel mit Flächenschaden.",
+        "Blast - Tire une balle avec dégâts de zone.",
+        "Blast - Dispara una bala con daño en área.",
+        "Blast - ยิงกระสุนที่โจมตีเป็นวงกว้าง",
+        "Blast - Menembakkan peluru dengan damage area.",
+        "Blast - Menembak peluru dengan damage kawasan.",
+        "Blast - Bắn đạn gây sát thương diện rộng.",
+        "Blast - выпускает пулю с уроном по области."
+      ]
+    },
+    {
+      "Type": "MISSILE",
+      "Description": false,
+      "Key": "Gun/MISSILE",
+      "Values": [
+        "Missile",
+        "미사일",
+        "ミサイル",
+        "导弹",
+        "飛彈",
+        "Missile",
+        "Missile",
+        "Missile",
+        "Missile",
+        "Missile",
+        "Missile",
+        "Missile",
+        "Missile",
+        "Missile"
+      ]
+    },
+    {
+      "Type": "MISSILE",
+      "Description": true,
+      "Key": "Gun/MISSILE_ex",
+      "Values": [
+        "Missile - Launches a missile with area-of-effect damage.",
+        "미사일 - 광역 공격하는 미사일을 발사한다.",
+        "ミサイル - 範囲攻撃するミサイルを発射する。",
+        "导弹 - 发射造成范围伤害的导弹。",
+        "飛彈 - 發射造成範圍傷害的飛彈。",
+        "Missile - Lança um míssil com dano em área.",
+        "Missile - Feuert eine Rakete mit Flächenschaden.",
+        "Missile - Lance un missile avec dégâts de zone.",
+        "Missile - Lanza un misil con daño en área.",
+        "Missile - ยิงมิสไซล์ที่โจมตีเป็นวงกว้าง",
+        "Missile - Meluncurkan misil dengan damage area.",
+        "Missile - Melancarkan misil dengan damage kawasan.",
+        "Missile - Phóng tên lửa gây sát thương diện rộng.",
+        "Missile - запускает ракету с уроном по области."
+      ]
+    },
+    {
+      "Type": "BLAST_SNIPER",
+      "Description": false,
+      "Key": "Gun/BLAST_SNIPER",
+      "Values": [
+        "B.P.",
+        "폭발관통",
+        "爆貫",
+        "爆穿",
+        "爆穿",
+        "B.P.",
+        "B.P.",
+        "B.P.",
+        "B.P.",
+        "B.P.",
+        "B.P.",
+        "B.P.",
+        "B.P.",
+        "B.P."
+      ]
+    },
+    {
+      "Type": "BLAST_SNIPER",
+      "Description": true,
+      "Key": "Gun/BLAST_SNIPER_ex",
+      "Values": [
+        "Blast Pierce - Explodes on impact, pierces when enemy is defeated.",
+        "폭발관통 - 최초 충돌시 폭발하고 적 처치시 관통한다.",
+        "爆発貫通 - 衝突時に爆発し、敵撃破時に貫通する。",
+        "爆炸穿透 - 命中时爆炸，击败敌人时穿透。",
+        "爆炸穿透 - 命中時爆炸，擊敗敵人時穿透。",
+        "Explosão Perfurante - Explode no impacto e perfura ao derrotar inimigos.",
+        "Explosiv-Piercer - Explodiert beim Aufprall, durchdringt bei Abschuss.",
+        "Explosion Percée - Explose à l'impact, perfore à l'élimination.",
+        "Explosión Perforante - Explota al impactar, perfora al eliminar.",
+        "Blast Pierce - ระเบิดเมื่อชนครั้งแรก และเจาะทะลุเมื่อสังหารศัตรู",
+        "Blast Pierce - Meledak saat kontak, menembus saat musuh dikalahkan.",
+        "Blast Pierce - Meletup saat hentaman, menembusi saat musuh dikalahkan.",
+        "Blast Pierce - Nổ khi va chạm, xuyên khi hạ kẻ địch.",
+        "Blast Pierce - взрывается при ударе, пробивает при добивании."
+      ]
+    }
+  ]
+}

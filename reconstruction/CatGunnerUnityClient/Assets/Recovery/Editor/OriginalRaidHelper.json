@@ -1,0 +1,1969 @@
+{
+  "rows": [
+    {
+      "type": "Raid_HelperSlot",
+      "originalGo": 17199,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Start_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Gun_Slot",
+          "ordinal": 0
+        },
+        {
+          "name": "Helper_Slot",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "Gun_img": {
+          "fileID": 137763
+        },
+        "Shadow_img": {
+          "fileID": 129864
+        },
+        "Panel_img": {
+          "fileID": 133711
+        },
+        "Locked_obj": {
+          "fileID": 28274
+        },
+        "Weak_obj": {
+          "fileID": 37354
+        },
+        "Weak_Icon_obj": {
+          "fileID": 2506
+        },
+        "Weak_Dmg_Panel": {
+          "fileID": 2436
+        },
+        "Degree_objs": [
+          {
+            "fileID": 8904
+          },
+          {
+            "fileID": 22721
+          },
+          {
+            "fileID": 12392
+          },
+          {
+            "fileID": 35535
+          },
+          {
+            "fileID": 2318
+          },
+          {
+            "fileID": 34910
+          },
+          {
+            "fileID": 11647
+          },
+          {
+            "fileID": 18984
+          },
+          {
+            "fileID": 11161
+          },
+          {
+            "fileID": 31070
+          },
+          {
+            "fileID": 38843
+          },
+          {
+            "fileID": 36763
+          },
+          {
+            "fileID": 22585
+          }
+        ],
+        "Damage_txt": {
+          "fileID": 119445
+        },
+        "Speed_txt": {
+          "fileID": 119318
+        },
+        "Type_txt": {
+          "fileID": 122095
+        },
+        "StarUpgrade_obj": {
+          "fileID": 36993
+        },
+        "StarUpgrade_Lv_txt": {
+          "fileID": 122092
+        }
+      }
+    },
+    {
+      "type": "Raid_Helper_Purchase_Popup",
+      "originalGo": 171,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Helper_Purchase_Popup",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "Gun_Demo": {
+          "fileID": 146155
+        },
+        "Purchase_obj": {
+          "fileID": 275
+        },
+        "Purchase_Btn_obj": {
+          "fileID": 58
+        }
+      }
+    },
+    {
+      "type": "Gun_Item_Demo",
+      "originalGo": 17916,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Helper_Purchase_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "GunItem_Demo",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "GunNum": 0,
+        "Gun_img": {
+          "fileID": 129736
+        },
+        "Shadow_img": {
+          "fileID": 133088
+        },
+        "Panel_img": {
+          "fileID": 146152
+        },
+        "Degree_objs": [
+          {
+            "fileID": 10843
+          },
+          {
+            "fileID": 35533
+          },
+          {
+            "fileID": 9928
+          },
+          {
+            "fileID": 22552
+          },
+          {
+            "fileID": 17412
+          },
+          {
+            "fileID": 20945
+          },
+          {
+            "fileID": 9207
+          },
+          {
+            "fileID": 4137
+          },
+          {
+            "fileID": 9399
+          },
+          {
+            "fileID": 28799
+          },
+          {
+            "fileID": 20663
+          },
+          {
+            "fileID": 19716
+          },
+          {
+            "fileID": 35668
+          }
+        ],
+        "Type_txt": {
+          "fileID": 120964
+        }
+      }
+    }
+  ],
+  "references": {
+    "137763": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Start_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Selected",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_img",
+        "ordinal": 0
+      }
+    ],
+    "129864": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Start_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Selected",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun",
+        "ordinal": 0
+      },
+      {
+        "name": "Shadow",
+        "ordinal": 0
+      }
+    ],
+    "133711": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Start_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Selected",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      }
+    ],
+    "28274": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Start_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Locked_obj",
+        "ordinal": 0
+      }
+    ],
+    "37354": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Start_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "WeakAble_obj",
+        "ordinal": 0
+      }
+    ],
+    "2506": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Start_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Selected",
+        "ordinal": 0
+      },
+      {
+        "name": "Damage",
+        "ordinal": 0
+      },
+      {
+        "name": "Weak_Icon",
+        "ordinal": 0
+      }
+    ],
+    "2436": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Start_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Selected",
+        "ordinal": 0
+      },
+      {
+        "name": "Weak_Panel",
+        "ordinal": 0
+      }
+    ],
+    "8904": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Start_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Selected",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "D",
+        "ordinal": 0
+      }
+    ],
+    "22721": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Start_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Selected",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "C",
+        "ordinal": 0
+      }
+    ],
+    "12392": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Start_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Selected",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "B",
+        "ordinal": 0
+      }
+    ],
+    "35535": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Start_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Selected",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "A",
+        "ordinal": 0
+      }
+    ],
+    "2318": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Start_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Selected",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "S",
+        "ordinal": 0
+      }
+    ],
+    "34910": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Start_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Selected",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "SS",
+        "ordinal": 0
+      }
+    ],
+    "11647": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Start_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Selected",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "SSS",
+        "ordinal": 0
+      }
+    ],
+    "18984": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Start_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Selected",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "X",
+        "ordinal": 0
+      }
+    ],
+    "11161": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Start_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Selected",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "XX",
+        "ordinal": 0
+      }
+    ],
+    "31070": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Start_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Selected",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "XXX",
+        "ordinal": 0
+      }
+    ],
+    "38843": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Start_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Selected",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "Z",
+        "ordinal": 0
+      }
+    ],
+    "36763": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Start_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Selected",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "ZZ",
+        "ordinal": 0
+      }
+    ],
+    "22585": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Start_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Selected",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "ZZZ",
+        "ordinal": 0
+      }
+    ],
+    "119445": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Start_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Selected",
+        "ordinal": 0
+      },
+      {
+        "name": "Damage",
+        "ordinal": 0
+      },
+      {
+        "name": "Value_txt",
+        "ordinal": 0
+      }
+    ],
+    "119318": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Start_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Selected",
+        "ordinal": 0
+      },
+      {
+        "name": "Speed",
+        "ordinal": 0
+      },
+      {
+        "name": "Value_txt",
+        "ordinal": 0
+      }
+    ],
+    "122095": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Start_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Selected",
+        "ordinal": 0
+      },
+      {
+        "name": "Type_txt",
+        "ordinal": 0
+      }
+    ],
+    "36993": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Start_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Star_obj",
+        "ordinal": 0
+      }
+    ],
+    "122092": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_Start_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Slot",
+        "ordinal": 0
+      },
+      {
+        "name": "Star_obj",
+        "ordinal": 0
+      },
+      {
+        "name": "StarLv_txt",
+        "ordinal": 0
+      }
+    ],
+    "146155": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Purchase_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      }
+    ],
+    "275": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Purchase_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Purchased_obj",
+        "ordinal": 0
+      }
+    ],
+    "58": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Purchase_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Purchase_Btn",
+        "ordinal": 0
+      }
+    ],
+    "129736": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Purchase_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_img",
+        "ordinal": 0
+      }
+    ],
+    "133088": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Purchase_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun",
+        "ordinal": 0
+      }
+    ],
+    "146152": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Purchase_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      }
+    ],
+    "10843": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Purchase_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree",
+        "ordinal": 0
+      },
+      {
+        "name": "D",
+        "ordinal": 0
+      }
+    ],
+    "35533": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Purchase_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree",
+        "ordinal": 0
+      },
+      {
+        "name": "C",
+        "ordinal": 0
+      }
+    ],
+    "9928": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Purchase_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree",
+        "ordinal": 0
+      },
+      {
+        "name": "B",
+        "ordinal": 0
+      }
+    ],
+    "22552": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Purchase_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree",
+        "ordinal": 0
+      },
+      {
+        "name": "A",
+        "ordinal": 0
+      }
+    ],
+    "17412": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Purchase_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree",
+        "ordinal": 0
+      },
+      {
+        "name": "S",
+        "ordinal": 0
+      }
+    ],
+    "20945": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Purchase_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree",
+        "ordinal": 0
+      },
+      {
+        "name": "SS",
+        "ordinal": 0
+      }
+    ],
+    "9207": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Purchase_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree",
+        "ordinal": 0
+      },
+      {
+        "name": "SSS",
+        "ordinal": 0
+      }
+    ],
+    "4137": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Purchase_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree",
+        "ordinal": 0
+      },
+      {
+        "name": "X",
+        "ordinal": 0
+      }
+    ],
+    "9399": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Purchase_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree",
+        "ordinal": 0
+      },
+      {
+        "name": "XX",
+        "ordinal": 0
+      }
+    ],
+    "28799": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Purchase_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree",
+        "ordinal": 0
+      },
+      {
+        "name": "XXX",
+        "ordinal": 0
+      }
+    ],
+    "20663": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Purchase_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree",
+        "ordinal": 0
+      },
+      {
+        "name": "Z",
+        "ordinal": 0
+      }
+    ],
+    "19716": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Purchase_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree",
+        "ordinal": 0
+      },
+      {
+        "name": "ZZ",
+        "ordinal": 0
+      }
+    ],
+    "35668": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Purchase_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Degree",
+        "ordinal": 0
+      },
+      {
+        "name": "ZZZ",
+        "ordinal": 0
+      }
+    ],
+    "120964": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Contents_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Raid_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Helper_Purchase_Popup",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "GunItem_Demo",
+        "ordinal": 0
+      },
+      {
+        "name": "Type_txt",
+        "ordinal": 0
+      }
+    ]
+  },
+  "buttons": [
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Helper_Purchase_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Purchase_Btn",
+          "ordinal": 0
+        }
+      ],
+      "type": "Raid_Helper_Purchase_Popup",
+      "method": "OnClick_Purchase"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Start_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Gun_Slot",
+          "ordinal": 0
+        },
+        {
+          "name": "Helper_Slot",
+          "ordinal": 0
+        }
+      ],
+      "type": "Raid_HelperSlot",
+      "method": "OnClick_Slot"
+    }
+  ],
+  "helperGo": 15238,
+  "helperPath": [
+    {
+      "name": "Cat_manager",
+      "ordinal": 0
+    },
+    {
+      "name": "Cat (Helper)",
+      "ordinal": 0
+    }
+  ]
+}

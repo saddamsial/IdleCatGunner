@@ -1,0 +1,1262 @@
+{
+  "Gun_list": [
+    {
+      "Name": "초보자 권총",
+      "type": 0,
+      "Damage": {
+        "s_digits": "100",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.6000000238418579,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "소형 권총",
+      "type": 0,
+      "Damage": {
+        "s_digits": "80",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.5,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "경량 기관총",
+      "type": 0,
+      "Damage": {
+        "s_digits": "50",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.30000001192092896,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "단축 샷건",
+      "type": 3,
+      "Damage": {
+        "s_digits": "80",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 1.0,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 10.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "쌍열 샷건",
+      "type": 3,
+      "Damage": {
+        "s_digits": "90",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 1.100000023841858,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 10.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "리볼버",
+      "type": 0,
+      "Damage": {
+        "s_digits": "200",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.6000000238418579,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "돌격 기관총",
+      "type": 0,
+      "Damage": {
+        "s_digits": "100",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.30000001192092896,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "펌프 샷건",
+      "type": 3,
+      "Damage": {
+        "s_digits": "240",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 1.100000023841858,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 10.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "사냥꾼의 소총",
+      "type": 2,
+      "Damage": {
+        "s_digits": "150",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 1.0,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "정찰 소총",
+      "type": 2,
+      "Damage": {
+        "s_digits": "110",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.699999988079071,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "체인건",
+      "type": 0,
+      "Damage": {
+        "s_digits": "165",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.25,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "미니건",
+      "type": 0,
+      "Damage": {
+        "s_digits": "200",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.30000001192092896,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "전투 샷건",
+      "type": 3,
+      "Damage": {
+        "s_digits": "250",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 1.0,
+      "ShotgunPelletCount": 3,
+      "ShotgunSpreadAngle": 10.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "레일건",
+      "type": 2,
+      "Damage": {
+        "s_digits": "250",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.699999988079071,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "유탄 발사기",
+      "type": 4,
+      "Damage": {
+        "s_digits": "120",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.699999988079071,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 5.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "중화기 벌칸",
+      "type": 0,
+      "Damage": {
+        "s_digits": "300",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.20000000298023224,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "드럼 샷건",
+      "type": 3,
+      "Damage": {
+        "s_digits": "350",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.800000011920929,
+      "ShotgunPelletCount": 3,
+      "ShotgunSpreadAngle": 10.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "매그넘 라이플",
+      "type": 2,
+      "Damage": {
+        "s_digits": "500",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.6000000238418579,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "플라즈마 캐논",
+      "type": 4,
+      "Damage": {
+        "s_digits": "300",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.699999988079071,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 5.5,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "전술 저격총",
+      "type": 1,
+      "Damage": {
+        "s_digits": "200",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 1.0,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "개틀링건",
+      "type": 0,
+      "Damage": {
+        "s_digits": "500",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.05000000074505806,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "포스 라이플",
+      "type": 2,
+      "Damage": {
+        "s_digits": "1000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.20000000298023224,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "화염 캐논",
+      "type": 4,
+      "Damage": {
+        "s_digits": "800",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.30000001192092896,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 6.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "유령 저격총",
+      "type": 1,
+      "Damage": {
+        "s_digits": "400",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.4000000059604645,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "전갈 미사일",
+      "type": 5,
+      "Damage": {
+        "s_digits": "600",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.4000000059604645,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 9.0,
+      "MissileSpeed": 50.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "관통 SS",
+      "type": 2,
+      "Damage": {
+        "s_digits": "6000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.20000000298023224,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "폭발 SS",
+      "type": 4,
+      "Damage": {
+        "s_digits": "2800",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.30000001192092896,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 6.5,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "레이저 SS",
+      "type": 1,
+      "Damage": {
+        "s_digits": "1400",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.30000001192092896,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "미사일 SS",
+      "type": 5,
+      "Damage": {
+        "s_digits": "1600",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.3499999940395355,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 10.0,
+      "MissileSpeed": 50.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "폭발레이저 SS",
+      "type": 6,
+      "Damage": {
+        "s_digits": "1600",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.3499999940395355,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 5.5,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "관통 SSS",
+      "type": 2,
+      "Damage": {
+        "s_digits": "24000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.10000000149011612,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 5.5,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "폭발 SSS",
+      "type": 4,
+      "Damage": {
+        "s_digits": "11200",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.15000000596046448,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 7.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 5.5,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "레이저 SSS",
+      "type": 1,
+      "Damage": {
+        "s_digits": "5600",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.15000000596046448,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 5.5,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "미사일 SSS",
+      "type": 5,
+      "Damage": {
+        "s_digits": "6400",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.20000000298023224,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 11.0,
+      "MissileSpeed": 50.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 5.5,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "폭발레이저 SSS",
+      "type": 6,
+      "Damage": {
+        "s_digits": "6400",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.20000000298023224,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 6.5,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "관통 X ",
+      "type": 2,
+      "Damage": {
+        "s_digits": "90000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.05000000074505806,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "폭발 X ",
+      "type": 4,
+      "Damage": {
+        "s_digits": "42000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.07000000029802322,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 9.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "레이저 X ",
+      "type": 1,
+      "Damage": {
+        "s_digits": "21000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.07000000029802322,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 6.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "미사일 X ",
+      "type": 5,
+      "Damage": {
+        "s_digits": "24000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.10000000149011612,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 13.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "폭발레이저 X ",
+      "type": 6,
+      "Damage": {
+        "s_digits": "24000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.10000000149011612,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 9.0,
+      "MissileSpeed": 50.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 8.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "관통 XX",
+      "type": 2,
+      "Damage": {
+        "s_digits": "360000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.05000000074505806,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "폭발 XX",
+      "type": 4,
+      "Damage": {
+        "s_digits": "168000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.07000000029802322,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 9.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "레이저 XX",
+      "type": 1,
+      "Damage": {
+        "s_digits": "84000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.07000000029802322,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "미사일 XX",
+      "type": 5,
+      "Damage": {
+        "s_digits": "96000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.10000000149011612,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 13.0,
+      "MissileSpeed": 50.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "폭발레이저 XX",
+      "type": 6,
+      "Damage": {
+        "s_digits": "96000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.10000000149011612,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 8.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "관통 XXX",
+      "type": 2,
+      "Damage": {
+        "s_digits": "1350000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.05000000074505806,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 5.5,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "폭발 XXX",
+      "type": 4,
+      "Damage": {
+        "s_digits": "630000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.07000000029802322,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 9.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 5.5,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "레이저 XXX",
+      "type": 1,
+      "Damage": {
+        "s_digits": "315000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.07000000029802322,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 5.5,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "미사일 XXX",
+      "type": 5,
+      "Damage": {
+        "s_digits": "360000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.10000000149011612,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 13.0,
+      "MissileSpeed": 50.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 5.5,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "폭발레이저 XXX",
+      "type": 6,
+      "Damage": {
+        "s_digits": "360000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.10000000149011612,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 8.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "관통 Z ",
+      "type": 2,
+      "Damage": {
+        "s_digits": "15000000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.05000000074505806,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 8.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "폭발 Z ",
+      "type": 4,
+      "Damage": {
+        "s_digits": "7000000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.07000000029802322,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 9.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 5.5,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "레이저 Z ",
+      "type": 1,
+      "Damage": {
+        "s_digits": "3500000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.07000000029802322,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 8.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "미사일 Z ",
+      "type": 5,
+      "Damage": {
+        "s_digits": "4000000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.10000000149011612,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 13.0,
+      "MissileSpeed": 50.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 5.5,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "폭발레이저 Z ",
+      "type": 6,
+      "Damage": {
+        "s_digits": "4000000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.10000000149011612,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 8.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "관통 ZZ",
+      "type": 2,
+      "Damage": {
+        "s_digits": "300000000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.05000000074505806,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 8.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "폭발 ZZ",
+      "type": 4,
+      "Damage": {
+        "s_digits": "140000000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.07000000029802322,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 9.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 5.5,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "레이저 ZZ",
+      "type": 1,
+      "Damage": {
+        "s_digits": "70000000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.07000000029802322,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 8.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "미사일 ZZ",
+      "type": 5,
+      "Damage": {
+        "s_digits": "80000000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.10000000149011612,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 13.0,
+      "MissileSpeed": 50.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 5.5,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "폭발레이저 ZZ",
+      "type": 6,
+      "Damage": {
+        "s_digits": "80000000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.10000000149011612,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 8.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "관통 ZZZ",
+      "type": 2,
+      "Damage": {
+        "s_digits": "7500000000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.05000000074505806,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 8.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "폭발 ZZZ",
+      "type": 4,
+      "Damage": {
+        "s_digits": "3500000000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.07000000029802322,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 9.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 5.5,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "레이저 ZZZ",
+      "type": 1,
+      "Damage": {
+        "s_digits": "1750000000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.07000000029802322,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 8.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "미사일 ZZZ",
+      "type": 5,
+      "Damage": {
+        "s_digits": "2000000000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.10000000149011612,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 13.0,
+      "MissileSpeed": 50.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 5.5,
+      "PenetratingBulletLifetime": 2.0
+    },
+    {
+      "Name": "폭발레이저 ZZZ",
+      "type": 6,
+      "Damage": {
+        "s_digits": "2000000000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.10000000149011612,
+      "ShotgunPelletCount": 2,
+      "ShotgunSpreadAngle": 20.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 8.0,
+      "PenetratingBulletLifetime": 2.0
+    }
+  ],
+  "Selected_items": [
+    0,
+    -1,
+    -1
+  ],
+  "Gun_Collect": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "Skin_Damage_Percent": 100,
+  "Skin_Speed_Percent": 100,
+  "Pet_Speed_Percent": 100,
+  "Relic_MoveSpeed_Add": 0,
+  "Rebirth_Damage_Percent": 100,
+  "Rebirth_Speed_Percent": 100,
+  "Relic_Damage_Percent": 100,
+  "Relic_Critical_Percent": 100,
+  "Fish_Damage_Add": 0,
+  "Fish_Critical_Add": 0,
+  "Fish_Critical_Chance": 0,
+  "Star_Slot_Lv": [
+    0,
+    0,
+    0
+  ]
+}

@@ -1,0 +1,624 @@
+{
+  "source": "Frozen Main.unity",
+  "rows": [
+    {
+      "originalComponent": 123410,
+      "originalGo": 384,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Tutorial_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "4_hand",
+          "ordinal": 0
+        }
+      ],
+      "type": "TutorialArrow_UI",
+      "enabled": true,
+      "fields": {
+        "target0": {
+          "fileID": 0
+        },
+        "target1": {
+          "fileID": 0
+        },
+        "moveDuration": 1.2,
+        "pauseAtTarget": 0.15,
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "scaleSmall": 0.8,
+        "scaleDuration": 0.15
+      }
+    },
+    {
+      "originalComponent": 123823,
+      "originalGo": 730,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Gun_UI  (SafeArea)",
+          "ordinal": 0
+        },
+        {
+          "name": "GunList_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Gun_Merge_Tutorial",
+          "ordinal": 0
+        },
+        {
+          "name": "Tutorial_Arrow",
+          "ordinal": 0
+        }
+      ],
+      "type": "TutorialArrow_UI",
+      "enabled": true,
+      "fields": {
+        "target0": {
+          "fileID": 0
+        },
+        "target1": {
+          "fileID": 0
+        },
+        "moveDuration": 1.2,
+        "pauseAtTarget": 0.15,
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "scaleSmall": 0.8,
+        "scaleDuration": 0.15
+      }
+    },
+    {
+      "originalComponent": 123865,
+      "originalGo": 758,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Tutorial_manager",
+          "ordinal": 0
+        }
+      ],
+      "type": "Tutorial_manager",
+      "enabled": true,
+      "fields": {
+        "DisableOnTutorial": [
+          {
+            "fileID": 19278
+          },
+          {
+            "fileID": 2228
+          },
+          {
+            "fileID": 24798
+          },
+          {
+            "fileID": 1414
+          },
+          {
+            "fileID": 624
+          },
+          {
+            "fileID": 1160
+          },
+          {
+            "fileID": 644
+          },
+          {
+            "fileID": 1511
+          },
+          {
+            "fileID": 1069
+          },
+          {
+            "fileID": 492
+          },
+          {
+            "fileID": 444
+          }
+        ],
+        "CatHand_Upgrade": {
+          "fileID": 2296
+        },
+        "CatHand_GunOpen": {
+          "fileID": 1154
+        },
+        "CatHand_GunBuy": {
+          "fileID": 1601
+        },
+        "ArrowGunEquip": {
+          "fileID": 123410
+        },
+        "ChallengeButton": {
+          "fileID": 444
+        },
+        "GunButton": {
+          "fileID": 624
+        },
+        "GunBuyButton": {
+          "fileID": 802
+        }
+      }
+    },
+    {
+      "originalComponent": 124933,
+      "originalGo": 1661,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Gun_UI  (SafeArea)",
+          "ordinal": 0
+        },
+        {
+          "name": "GunList_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Gun_Merge_Tutorial",
+          "ordinal": 0
+        }
+      ],
+      "type": "Gun_Merge_Tutorial",
+      "enabled": true,
+      "fields": {
+        "tutorial_arrow": {
+          "fileID": 123823
+        }
+      }
+    }
+  ],
+  "references": {
+    "19278": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Right_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "DiaPig_obj",
+        "ordinal": 0
+      },
+      {
+        "name": "DiaPig_Btn",
+        "ordinal": 0
+      }
+    ],
+    "2228": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Left_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_obj",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Btn",
+        "ordinal": 0
+      }
+    ],
+    "24798": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Right_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Auto_obj",
+        "ordinal": 0
+      },
+      {
+        "name": "Auto_Btn",
+        "ordinal": 0
+      }
+    ],
+    "1414": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Left_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Shop_Btn",
+        "ordinal": 0
+      }
+    ],
+    "624": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Left_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Btn",
+        "ordinal": 0
+      }
+    ],
+    "1160": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Left_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Skin_Btn",
+        "ordinal": 0
+      }
+    ],
+    "644": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Rank_Cheat_obj",
+        "ordinal": 0
+      },
+      {
+        "name": "Rank_Btn",
+        "ordinal": 0
+      }
+    ],
+    "1511": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "DailyCheck_Btn",
+        "ordinal": 0
+      }
+    ],
+    "1069": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "EcoMode_Btn",
+        "ordinal": 0
+      }
+    ],
+    "492": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Mission_Btn",
+        "ordinal": 0
+      }
+    ],
+    "444": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Right_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "SpeedRun_Btn",
+        "ordinal": 0
+      }
+    ],
+    "2296": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Tutorial_manager",
+        "ordinal": 0
+      },
+      {
+        "name": 0,
+        "ordinal": 0
+      }
+    ],
+    "1154": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Tutorial_manager",
+        "ordinal": 0
+      },
+      {
+        "name": 2,
+        "ordinal": 0
+      }
+    ],
+    "1601": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Tutorial_manager",
+        "ordinal": 0
+      },
+      {
+        "name": 3,
+        "ordinal": 0
+      }
+    ],
+    "123410": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Tutorial_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "4_hand",
+        "ordinal": 0
+      }
+    ],
+    "802": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_UI  (SafeArea)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunList_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Menu (Gun List)",
+        "ordinal": 0
+      },
+      {
+        "name": "Draw",
+        "ordinal": 0
+      },
+      {
+        "name": "Draw_Btn",
+        "ordinal": 0
+      }
+    ],
+    "123823": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_UI  (SafeArea)",
+        "ordinal": 0
+      },
+      {
+        "name": "GunList_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Gun_Merge_Tutorial",
+        "ordinal": 0
+      },
+      {
+        "name": "Tutorial_Arrow",
+        "ordinal": 0
+      }
+    ]
+  }
+}

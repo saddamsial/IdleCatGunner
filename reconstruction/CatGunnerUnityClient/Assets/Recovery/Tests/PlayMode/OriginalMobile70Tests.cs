@@ -1,0 +1,46 @@
+using System;using System.Collections;using System.Collections.Generic;using System.IO;using System.Linq;using System.Reflection;using CatGunner.Recovery;using NUnit.Framework;using TMPro;using UnityEngine;using UnityEngine.UI;using UnityEngine.EventSystems;using UnityEngine.SceneManagement;using UnityEngine.TestTools;
+public sealed class OriginalMobile70Tests
+{
+ string folder;RecoveryForestClient client;Transform canvas;bool background;
+ void Independent(Scene scene,LoadSceneMode mode){if(scene.name=="RecoveredClient")scene.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<RecoveryForestClient>(true)).Single().SaveFolderOverride=folder;}
+ [UnitySetUp]public IEnumerator Setup(){background=Application.runInBackground;Application.runInBackground=true;Time.timeScale=1;folder=Path.Combine(Application.temporaryCachePath,"Mobile70-"+Guid.NewGuid().ToString("N"));SceneManager.sceneLoaded+=Independent;yield return SceneManager.LoadSceneAsync("RecoveredClient");yield return ClientStartupWait.Ready();client=RecoveryForestClient.Instance;canvas=client.Slider.GetComponentInParent<Canvas>().transform;ForestRuntimeAcceptance.IsGaming=false;client.DailyLogin.Close();client.Tutorial.SetCleared();}
+ [UnityTearDown]public IEnumerator Cleanup(){yield return SceneManager.LoadSceneAsync("RecoveredTarget");SceneManager.sceneLoaded-=Independent;Cat_manager.is_Shoot_Mute=false;Time.timeScale=1;Application.runInBackground=background;if(Directory.Exists(folder))Directory.Delete(folder,true);}
+ IEnumerator Capture(string name){yield return new WaitForSecondsRealtime(.3f);yield return new WaitForEndOfFrame();ScreenCapture.CaptureScreenshot(Path.GetFullPath(Path.Combine(Application.dataPath,"../../../reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/visual/mobile77-regression-"+name+"-gpu.png")));yield return new WaitForSecondsRealtime(.2f);}
+ IEnumerator Click(Button button)
+ {
+  yield return new WaitForSecondsRealtime(.4f);Canvas.ForceUpdateCanvases();Assert.That(button.gameObject.activeInHierarchy&&button.interactable,Is.True,button.name);
+  var module=EventSystem.current.GetComponent<StandaloneInputModule>();var mouse=module.gameObject.AddComponent<ForestFeedbackMouseFixture>();module.inputOverride=mouse;int count=0;void Observe()=>count++;button.onClick.AddListener(Observe);
+  try{var r=(RectTransform)button.transform;mouse.Position=RectTransformUtility.WorldToScreenPoint(null,r.TransformPoint(r.rect.center));yield return null;yield return null;var method=typeof(PointerInputModule).GetMethod("GetLastPointerEventData",BindingFlags.Instance|BindingFlags.NonPublic);PointerEventData Pointer()=>method.Invoke(module,new object[]{-1}) as PointerEventData;mouse.Down=mouse.Held=true;float until=Time.realtimeSinceStartup+1;do{yield return null;}while(Pointer()?.pointerPress!=button.gameObject&&Time.realtimeSinceStartup<until);var hits=new List<RaycastResult>();EventSystem.current.RaycastAll(new PointerEventData(EventSystem.current){position=mouse.Position},hits);Assert.That(Pointer()?.pointerPress,Is.SameAs(button.gameObject),mouse.Position+" hits="+string.Join("|",hits.Take(8).Select(h=>h.gameObject.name)));mouse.Down=mouse.Held=false;mouse.Up=true;until=Time.realtimeSinceStartup+1;do{yield return null;}while(count==0&&Time.realtimeSinceStartup<until);mouse.Up=false;yield return null;Assert.That(count,Is.EqualTo(1));}finally{button.onClick.RemoveListener(Observe);module.inputOverride=null;UnityEngine.Object.Destroy(mouse);}
+ }
+
+ [UnityTest]public IEnumerator FiveModeEntriesShowOnlyOriginalHudAndRestoreForestUpgrades()
+ {
+  Cat_manager.is_Shoot_Mute=true;string[] names={"Main_UI","SpeedRun_UI","Mine_UI","Boss_UI","Monster_UI","Raid_UI"};var safe=canvas.Find("SafeArea");client.State.Owned_Gun_list[0]=0;
+  Action[] enter={client.SpeedRun.Game_Enter,client.MineMode.Game_Enter,client.BossMode.Game_Enter,client.MonsterMode.Game_Enter,client.RaidMode.Game_Enter_Normal};
+  Action[] exit={client.SpeedRun.Game_Exit,client.MineMode.Game_Exit,client.BossMode.Game_Exit,client.MonsterMode.Game_Exit,client.RaidMode.Game_Exit};
+  for(int mode=1;mode<=5;mode++)
+  {
+   enter[mode-1]();Assert.That(client.LoadingUI.activeInHierarchy,Is.True,"mode entry loading "+mode);Assert.That(client.LoadingUI.GetComponent<Canvas>().overrideSorting,Is.False);Assert.That(client.LoadingUI.GetComponent<CanvasGroup>().blocksRaycasts,Is.False);Assert.That(client.LoadingUI.transform.Find("Background/Cat/Loading_Txt").GetComponent<TMP_Text>().text,Is.EqualTo(RecoveryLanguage.TermText("고양이 이동중..")));yield return new WaitForSecondsRealtime(3.5f);Assert.That(client.Mode,Is.EqualTo(mode));
+   for(int i=0;i<names.Length;i++)Assert.That(safe.Find(names[i]).gameObject.activeSelf,Is.EqualTo(i==mode),names[i]);
+   Assert.That(safe.Find("Ingame/Upgrade_List").gameObject.activeSelf,Is.EqualTo(mode<=2));
+   Assert.That(safe.Find("Main_UI/Btn_list/Left_Menu").gameObject.activeInHierarchy,Is.False);Assert.That(safe.Find("Main_UI/Btn_list/Right_Menu").gameObject.activeInHierarchy,Is.False);
+   if(mode==1||mode==3||mode==5){var currency=safe.Find(names[mode]+"/Currency").GetComponent<Currency>();Assert.That(currency.gameObject.activeSelf,Is.EqualTo(mode==1),"Original Boss/Raid currency containers are authored inactive");if(currency.isActiveAndEnabled){client.AwardModeTreeMoney(OriginalAmount.FromValue(new DecimalAmount(17)),client.Hero.transform.position);Assert.That(currency.Money_txt.text,Is.EqualTo(OriginalNumberText.Format(client.State.Money.Value)));}}
+   yield return Capture("mode-"+mode);exit[mode-1]();Assert.That(client.LoadingUI.activeInHierarchy,Is.True,"mode exit loading "+mode);yield return new WaitForSecondsRealtime(2.2f);Assert.That(client.Mode,Is.Zero);Assert.That(safe.Find("Main_UI").gameObject.activeInHierarchy,Is.True);Assert.That(safe.Find("Ingame/Upgrade_List").gameObject.activeInHierarchy,Is.True);ForestRuntimeAcceptance.IsGaming=false;
+  }
+ }
+ [UnityTest]public IEnumerator OriginalFloorClipRendersTransparentCornersAndKeepsSourceTransform()
+ {
+  var floor=client.MonsterMode.Map_obj.transform.Find("Groud (1)").GetComponent<SpriteRenderer>();var before=floor.transform.localPosition;Assert.That(floor.sharedMaterial.shader.name,Is.EqualTo("Recovery/MonsterFloorCompatibility"));Assert.That(floor.sharedMaterial.mainTextureScale,Is.EqualTo(new Vector2(7,3.74f)));
+  var go=new GameObject("Floor clip probe",typeof(SpriteRenderer));go.layer=31;var probe=go.GetComponent<SpriteRenderer>();probe.sprite=floor.sprite;probe.sharedMaterial=floor.sharedMaterial;
+  var cameraObject=new GameObject("Floor clip camera",typeof(Camera));var camera=cameraObject.GetComponent<Camera>();camera.enabled=false;camera.transform.position=new Vector3(0,0,-10);camera.orthographic=true;camera.orthographicSize=5.12f;camera.clearFlags=CameraClearFlags.SolidColor;camera.backgroundColor=Color.magenta;camera.cullingMask=1<<31;
+  var rt=new RenderTexture(64,64,16,RenderTextureFormat.ARGB32);var pixels=new Texture2D(64,64,TextureFormat.RGBA32,false);var old=RenderTexture.active;
+  try{camera.targetTexture=rt;camera.Render();RenderTexture.active=rt;pixels.ReadPixels(new Rect(0,0,64,64),0,0);pixels.Apply();var corner=pixels.GetPixel(3,3);var center=pixels.GetPixel(32,32);Assert.That(corner.r,Is.GreaterThan(.9f));Assert.That(corner.b,Is.GreaterThan(.9f));Assert.That(corner.g,Is.LessThan(.1f));Assert.That(center.g,Is.GreaterThan(.1f));Assert.That(center.b,Is.LessThan(.9f));File.WriteAllBytes(Path.GetFullPath(Path.Combine(Application.dataPath,"../../../reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/visual/mobile77-regression-floor-clip-probe.png")),pixels.EncodeToPNG());Assert.That(floor.transform.localPosition,Is.EqualTo(before));}
+  finally{RenderTexture.active=old;camera.targetTexture=null;rt.Release();UnityEngine.Object.Destroy(rt);UnityEngine.Object.Destroy(pixels);UnityEngine.Object.Destroy(go);UnityEngine.Object.Destroy(cameraObject);}yield return null;
+ }
+ [UnityTest]public IEnumerator RealDailyMissionClaimShowsOriginalYellowBonusThenClaimedOverlay()
+ {
+  var m=client.MissionUI;client.State.Mission_TreeCount_Value=m.Model.Catalogue.Missions[0].MissionValue;m.UI_Reload();m.Panel_Open();yield return new WaitForSecondsRealtime(.5f);var row=m.Mission_Item_UI_List[0];Assert.That(row.GetAble_obj.activeSelf,Is.True);int exp=client.State.Mission_Reward_Exp;
+  yield return Click(row.GetAble_obj.GetComponentsInChildren<Button>(true).Single());Assert.That(client.State.Mission_ExpGet[0],Is.True);Assert.That(row.Get_obj.activeSelf,Is.False);Assert.That(row.LuxuryBonus_obj.activeSelf&&row.Luxury_Panel_obj.activeSelf,Is.True);Assert.That(row.LuxuryLocked_obj.activeSelf,Is.False);Assert.That(client.State.Mission_Reward_Exp,Is.EqualTo(exp+m.Model.Catalogue.Missions[0].ExpValue));yield return Capture("daily-bonus");
+  row.Reward_Get_Luxury();Assert.That(m.Luxury_Purchase_Panel_obj.activeSelf,Is.True);Assert.That(client.State.Mission_ExpGet_Luxury[0],Is.False);m.Luxury_Purchase_Panel_obj.SetActive(false);Assert.That(client.LocalStore.Model.Apply("catgunner_luxury_pass"),Is.True);row.Reward_Get_Luxury();Assert.That(client.State.Mission_ExpGet_Luxury[0],Is.True);Assert.That(row.Get_obj.activeSelf,Is.True);Assert.That(row.LuxuryBonus_obj.activeSelf||row.Luxury_Panel_obj.activeSelf,Is.False);yield return Capture("daily-claimed");
+ }
+}
