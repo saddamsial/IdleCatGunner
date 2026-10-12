@@ -1,0 +1,77 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 53.2,
+      "summary": {
+        "total": 7,
+        "passed": 7,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalClientFlowTests.AllFiveWavesAutomaticallyContinueThroughBossIntoNextStage",
+          "Status": "Passed",
+          "Duration": 22.2598753,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalClientFlowTests.HoldStartsAfterDelayRepeatsAndStopsOnPointerUp",
+          "Status": "Passed",
+          "Duration": 3.8592582,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalClientFlowTests.IndependentSaveRestoresWalletUpgradesWaveAndUnrelatedFields",
+          "Status": "Passed",
+          "Duration": 5.4138093,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalClientFlowTests.OriginalButtonsSpendWalletAndApplyAllThreeUpgradeBalances",
+          "Status": "Passed",
+          "Duration": 2.7227891,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalClientFlowTests.OriginalHudAndDefaultZeroInputAutoMovementRunTogether",
+          "Status": "Passed",
+          "Duration": 5.6945055,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalClientFlowTests.TimeoutRetriesSameWaveAndRestartCancelsPendingTransition",
+          "Status": "Passed",
+          "Duration": 10.5282771,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalClientFlowTests.TreeDeathAwardsNativeAmountOnceAndHonorsDontDropAndGamingGate",
+          "Status": "Passed",
+          "Duration": 2.6771739,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

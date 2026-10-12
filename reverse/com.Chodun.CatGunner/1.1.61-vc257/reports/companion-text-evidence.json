@@ -1,0 +1,222 @@
+{
+  "rule": 64,
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "updatedUtc": "2026-10-11T18:50:57.834074+00:00",
+  "sourceContract": "companion-text-source-contract.json",
+  "bindings": 27,
+  "uniqueTerms": 20,
+  "locales": 14,
+  "uniqueTermLocaleValues": 280,
+  "bindingValues": 378,
+  "nativeQueryIncrease": 0,
+  "tests": [
+    {
+      "report": "companion-text-final-validation.json",
+      "summary": {
+        "total": 5,
+        "passed": 5,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 34.15
+    },
+    {
+      "report": "companion-text-fish-regression.json",
+      "summary": {
+        "total": 18,
+        "passed": 18,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 66.59
+    },
+    {
+      "report": "companion-text-startup-regression.json",
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 24.03
+    }
+  ],
+  "attempts": [
+    "companion-text-baseline-validation.json",
+    "companion-text-first-validation.json",
+    "companion-text-corrected-validation.json"
+  ],
+  "attemptExplanation": "Baseline0/1 proved Korean source text remained at Chinese startup. First3/5 clicked the blocked center of popup Background; corrected5/5 uses an outer blank point. Final5/5 additionally waits0.4sec for original bounce/Animator before GPU capture. No passes combined across batches.",
+  "visuals": [
+    {
+      "path": "visual/companion-text-fish-gpu.png",
+      "sha256": "b05e63081344d793bbddfe93ff8a1cc838d89906957bac51b859dab3b7eebc24",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/companion-text-fish-information-gpu.png",
+      "sha256": "f0a04508467c4f76cde79f40ad7888a2a670be2527de3249781c62f22a4f2979",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/companion-text-fish-detail-gpu.png",
+      "sha256": "20f496446abe690a01a23875f324668c623584ce9e1ffb604ac53d4a351a2201",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/companion-text-fish-delete-gpu.png",
+      "sha256": "f785b04a635e7aa5ec32f357d604b50800237c795746163106e845415d6f39ae",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/companion-text-new-fish-gpu.png",
+      "sha256": "08928289b463fd7bae646ec8110297a9cb676e17e01b5caefcea0c017ddf4965",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/companion-text-pet-gpu.png",
+      "sha256": "6d3a986d10d16b9d6abcbf65e3ef79c22e0861a214f5ce0e9438648403e11ec5",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/companion-text-pet-information-gpu.png",
+      "sha256": "e47c5c774fa34fb10517c0cd9a9b22e7d0d499da91f59d183d3e57a658deb7db",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/companion-text-pet-detail-gpu.png",
+      "sha256": "61777e5f7bf0aa811f1d5095f11287eff8c99688d07d4b6654788249681bcf27",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/companion-text-new-pet-gpu.png",
+      "sha256": "23952867d3fc9d4da01aac54ceef9042608fd0a500d4126cb1051881c1759ae1",
+      "actuallyViewed": true
+    }
+  ],
+  "preservation": "companion-text-preservation.json",
+  "fontCache": "companion-text-font-cache.json",
+  "historicalReports": "../checkpoints/companion-text-before/historical/manifest.json",
+  "handoff": {
+    "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+    "version": "6000.4.10f1",
+    "dirty": false,
+    "playing": false,
+    "paused": false,
+    "compiling": false,
+    "compilationFailed": false,
+    "objects": 35954,
+    "missingScripts": 0,
+    "persist": true,
+    "saveFolderOverride": null,
+    "testHostFolder": "",
+    "localAdSimulation": true,
+    "localPurchaseSimulation": true,
+    "timeScale": 1.0,
+    "inputOverrides": 0,
+    "userFillPPU": 10.0,
+    "fillHeight": 37.0,
+    "buildScenes": [
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredBullets.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForest.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestHUD.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestProgress.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredJoystick.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredSettings.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredTarget.unity",
+        "enabled": true
+      }
+    ]
+  },
+  "console": {
+    "currentErrors": 0,
+    "currentWarnings": 2,
+    "history": "companion-text-error-history.json",
+    "notes": "No console clearing. Any transient fixture compilation/eval failures retained in history; current status checked after final import."
+  },
+  "sources": {
+    "Assets/Recovery/Scripts/RecoveryClientPresentation.cs": "c8cbef90ae0842197e53f83fce3601d8b6243746cf55b327373172f716e69e86",
+    "Assets/Recovery/Scripts/OriginalCompanionStaticText.cs": "ecc0958bdc313d855e69c6ebc48c71bf022de182b60f944715fb427c360df23f",
+    "Assets/Recovery/Tests/PlayMode/OriginalCompanionStaticTextTests.cs": "a5832ad4d702c314b7d1f78067e0f6fd26b68ac65a41b0049ac0e74b0d5ba74e",
+    "Assets/Recovery/Resources/OriginalCompanionStaticText.json": "6efc2b042ce81b156c895ce317ef099d39abf22ed4db3fe3afa3444a102d062d"
+  },
+  "adapters": [
+    "Selected static primary-term runtime binding with system-language and existing Chinese source font/material adapter; not full I2 lifecycle or original pixel parity",
+    "Information popups and original open/close/probability behavior were already retained; this slice restores their selected texts and verifies actual input",
+    "Fish/Pet details and new-item previews use isolated fixture calls; this test slice does not claim that every acquisition/navigation path is newly recovered"
+  ],
+  "exclusions": [
+    {
+      "component": 125913,
+      "path": "Canvas/Fish_manager/Draw_Info_UI/Panel/I2_txt(Outline) (1)",
+      "key": "-",
+      "reason": "No primary term / dynamic owner"
+    },
+    {
+      "component": 129610,
+      "path": "Canvas/Fish_manager/Fishnfo_UI/Panel/Name/I2_txt(Outline) (1)",
+      "key": "-",
+      "reason": "No primary term / dynamic owner"
+    },
+    {
+      "component": 134341,
+      "path": "Canvas/SafeArea/Fish_UI  (SafeArea)/Fish_UI/Fish_Panel/Free_Gacha_Btn/I2_txt(Outline)",
+      "key": "-",
+      "reason": "No primary term / dynamic owner"
+    },
+    {
+      "component": 135379,
+      "path": "Canvas/Fish_manager/Draw_Info_UI/Panel/I2_txt(Outline)",
+      "key": "-",
+      "reason": "No primary term / dynamic owner"
+    },
+    {
+      "component": 139193,
+      "path": "Canvas/Fish_manager/Fishnfo_UI/Panel/Name/I2_txt(Outline)",
+      "key": "-",
+      "reason": "No primary term / dynamic owner"
+    },
+    {
+      "component": 139875,
+      "path": "Canvas/SafeArea/Pet_UI (SafeArea)/Pet_UI/Panel/Collection_Btn/I2_txt(Outline)",
+      "key": "Gun/Collect",
+      "reason": "Source hidden pet Collection_Btn is an unused Gun_Collection_UI reference"
+    },
+    {
+      "component": 140571,
+      "path": "Canvas/SafeArea/Fish_UI  (SafeArea)/Fish_UI/Fish_Panel/TopBar/I2_txt(Outline)",
+      "key": "-",
+      "reason": "No primary term / dynamic owner"
+    }
+  ],
+  "scopeComplete": false,
+  "playerBuild": false,
+  "deviceAcceptance": false,
+  "gitDelivery": false
+}

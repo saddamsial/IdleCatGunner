@@ -1,0 +1,265 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 arm64",
+  "inputs": [
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/assetripper-baseline/ExportedProject/Assets/Scenes/Main.unity",
+      "sha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b"
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/split_config.arm64_v8a/lib/arm64-v8a/libil2cpp.so",
+      "sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583"
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/base/assets/bin/Data/Managed/Metadata/global-metadata.dat",
+      "sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884"
+    }
+  ],
+  "native_scope": "currency-feedback; 15 business +6 exception helpers, all21 byte/bound checked query exports; not source or feature percentage",
+  "native_rows": [
+    {
+      "preferred_va": "0x2a7e718",
+      "ghidra_va": "02b7e718",
+      "name": "Gamemanager_Get_Money_0x6000074",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x2a7e82c",
+      "ghidra_va": "02b7e82c",
+      "name": "Gamemanager_Get_Money_0x6000075",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x2a7eadc",
+      "ghidra_va": "02b7eadc",
+      "name": "Gamemanager_Get_Money_0x6000076",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x2a7ed10",
+      "ghidra_va": "02b7ed10",
+      "name": "Gamemanager_Get_Dia_0x6000078",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x2a7ee50",
+      "ghidra_va": "02b7ee50",
+      "name": "Gamemanager_Get_Dia_0x6000079",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x2a7e994",
+      "ghidra_va": "02b7e994",
+      "name": "Gamemanager_Money_Txt_Spawn",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x2a7eed4",
+      "ghidra_va": "02b7eed4",
+      "name": "Gamemanager_Dia_Txt_Spawn",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x2a807fc",
+      "ghidra_va": "02b807fc",
+      "name": "Gamemanager_Dia_Devide_Txt_Spawn",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x2a85690",
+      "ghidra_va": "02b85690",
+      "name": "DamageTextMeshManager_get_MainCamera",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x2a85738",
+      "ghidra_va": "02b85738",
+      "name": "DamageTextMeshManager_get_RenderCamera",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x2a83f28",
+      "ghidra_va": "02b83f28",
+      "name": "DamageTextMeshManager_CalWorldPosition",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x2b26598",
+      "ghidra_va": "02c26598",
+      "name": "Currency_Start",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x2b26654",
+      "ghidra_va": "02c26654",
+      "name": "Currency_OnEnable",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x2b26788",
+      "ghidra_va": "02c26788",
+      "name": "Currency_OnDisable",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x2b2659c",
+      "ghidra_va": "02c2659c",
+      "name": "Currency_OnValueChanged",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x28f5cfc",
+      "ghidra_va": "029f5cfc",
+      "name": "Throw_NullReference_Wrapper",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x28f5d04",
+      "ghidra_va": "029f5d04",
+      "name": "Throw_Index_Wrapper",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x293e6a8",
+      "ghidra_va": "02a3e6a8",
+      "name": "Throw_NullReference_Create",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x293e6bc",
+      "ghidra_va": "02a3e6bc",
+      "name": "Throw_NullReference_Raise",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x293e6f4",
+      "ghidra_va": "02a3e6f4",
+      "name": "Throw_Index_Raise",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x293e610",
+      "ghidra_va": "02a3e610",
+      "name": "Managed_Exception_CxaThrow",
+      "completed": "true",
+      "error": ""
+    }
+  ],
+  "literals": [
+    {
+      "preferred_pointer": "0x5d5d528",
+      "literal": "+"
+    },
+    {
+      "preferred_pointer": "0x5d594b0",
+      "literal": "money"
+    },
+    {
+      "preferred_pointer": "0x5d5d530",
+      "literal": "+{0}"
+    },
+    {
+      "preferred_pointer": "0x5d5d538",
+      "literal": "dia"
+    },
+    {
+      "preferred_pointer": "0x5d63470",
+      "literal": "+1"
+    },
+    {
+      "preferred_pointer": "0x5d63478",
+      "literal": "+0.1"
+    }
+  ],
+  "money_throttle_seconds": 0.20000000298023224,
+  "native_diamond_counter": "Dia += amount; _getDia += amount*3;32bit integer arithmetic. Existing counters are retained; future grants only.",
+  "native_counter_instructions": [
+    "preferred0x2a7ed94: add w8,w19,w19,LSL#1",
+    "preferred0x2a7ed9c: add w0,w0,w8"
+  ],
+  "ordinary_get_dia_callers": {
+    "speedrun": "native-speedrun-client-reviewed/SpeedRun_manager_Game_Win.c",
+    "boss": "native-boss-client-reviewed/Boss_manager_Game_Win.c",
+    "mine": "native-mine-client-reviewed-v2/Mine_manager_Reward_Panel_Reload.c",
+    "mission": "native-inventory-progression-reviewed/Mission_manager_Reward_Get_Value.c"
+  },
+  "money_order": "Multiplier/value -> wallet and Money_Accum credit -> wallet notification -> +formatted-value text; presentation never credits again.",
+  "ore_order": "Dust5 -> +0.1 for _diaValue1, +1 otherwise -> Ore_Destroyed score -> deactivate. Wallet unchanged until integer score/10 settlement.",
+  "wallet_ui": "Original Currency OnEnable/OnDisable subscription lifecycle; current local event combines the native money and diamond events.",
+  "runtime_sources": {
+    "Assets/Recovery/Scripts/RecoveryForestClient.cs": "67345cc052e01a606875159e2b83a9bd76fb4aa9bf2f355b12c820bcb3699301",
+    "Assets/Recovery/Scripts/RecoveryDamageTextPresenter.cs": "c1ba3315d79e9777cc0e542dc1d1a4e90778364fd46871f8ff396193552cd723",
+    "Assets/Recovery/Scripts/RecoveryRewardFeedback.cs": "6aed79e41c744d6477c95e5ed0431b6f80f3126871407ad4bd58307dad39e2da",
+    "Assets/Recovery/Scripts/OriginalDiamondReward.cs": "0174e58778acedaaefeaa4b28279639f7dc202a97b00cff82581ea6dc140d267",
+    "Assets/Recovery/Scripts/Currency.cs": "ce5936c277c681fd827710e353295f72e66ff47de2504521f46c72ecec382a68",
+    "Assets/Recovery/Scripts/Ore.cs": "66e388780b2d36557d4f8c11129008cde53b88b9df1fc117c25fd9ecfdd3ba8d",
+    "Assets/Recovery/Scripts/SpeedRun_manager.cs": "248b2ef1c19ccc9472f2aeb79f0682ff4c3b6c12dc962171d96c4a6bb2d54bf0",
+    "Assets/Recovery/Scripts/Boss_manager.cs": "2761a670bca94efdbbd26b09684ecfa5389089c1029c0bc682bbac35742c190f",
+    "Assets/Recovery/Scripts/Mine_manager.cs": "488cfc91eb9863aa5e72b39bb0317c5a0220300fd383b7d201ff25cbec0b2f28",
+    "Assets/Recovery/Scripts/OriginalMissions.cs": "e729981aecdc0540692f55715e8ead2e07f389a2d9b830f3892652eb68a7e114",
+    "Assets/Recovery/Scripts/Tutorial_manager.cs": "0b76c831315715be8f720de3fe7f3bef66cfda85a3031116fc1e58c3a3077be0"
+  },
+  "original_metas": [
+    {
+      "class": "Currency",
+      "sha256": "10890bf4f4a310e20a2aeee5d4f6f174b4247595644a6897a660f90f658690f7",
+      "original_meta_identical": true
+    },
+    {
+      "class": "Ore",
+      "sha256": "10545d708758405ed7fc59be8d2e0ca112416ce765a238c74f6265189ecf01db",
+      "original_meta_identical": true
+    },
+    {
+      "class": "SpeedRun_manager",
+      "sha256": "51d3b44eea8b00f67b11d20e74e6c63fb5f1fec6c17c99a599cd59038b799d88",
+      "original_meta_identical": true
+    },
+    {
+      "class": "Boss_manager",
+      "sha256": "1229c593e0191893e7d37136b1e17c2ec1d1040e84aa9405e39267ee1135a538",
+      "original_meta_identical": true
+    },
+    {
+      "class": "Mine_manager",
+      "sha256": "00beb28e8188af668f8eb593375721d7c6d240eb14bf81e4707a5000f7624cf1",
+      "original_meta_identical": true
+    },
+    {
+      "class": "Tutorial_manager",
+      "sha256": "9d79ece8185d2287a04096bafe8b565c21320c1ac2a97eb9cba0931b28f38e67",
+      "original_meta_identical": true
+    }
+  ],
+  "adapters": [
+    "Existing DecimalAmount formatting rather than complete InfVal_change/abbreviation.",
+    "Local reusable mesh presenter; original font/curve/texture/native display parameters.",
+    "Existing single-camera world anchor; original mesh GPU cache/multi-camera conversion not fully reconstructed.",
+    "Local archive/autosave lifecycle; native ObscuredInt and original save-time throttle not replicated."
+  ],
+  "pending": [
+    "Unused Get_Dia(position) integer popup consumer and full native DamageTextManager internals.",
+    "Other numeric consumers, including remaining _useDia paths and money abbreviation.",
+    "Physical mouse/touch, Player/device and full visual parity."
+  ],
+  "scope_complete": false
+}

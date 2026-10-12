@@ -1,0 +1,27 @@
+02c58628  str x30,[sp, #-0x10]!
+02c5862c  ldr x9,[x0, #0x90]
+02c58630  cbz x9,0x02c58690
+02c58634  ldr w8,[x9, #0x18]
+02c58638  cmp w8,#0x1
+02c5863c  b.lt 0x02c58678
+02c58640  bic w11,w8,w8, ASR #0x1f
+02c58644  mov w10,wzr
+02c58648  cmp w8,w10
+02c5864c  b.eq 0x02c5868c
+02c58650  add x12,x9,w10, SXTW  #0x2
+02c58654  ldr w12,[x12, #0x20]
+02c58658  cmn w12,#0x1
+02c5865c  b.eq 0x02c58668
+02c58660  cmp w12,w1
+02c58664  b.eq 0x02c5867c
+02c58668  add w10,w10,#0x1
+02c5866c  cmp w11,w10
+02c58670  b.ne 0x02c58648
+02c58674  b 0x02c5867c
+02c58678  mov w10,wzr
+02c5867c  cmp w10,w8
+02c58680  cset w0,lt
+02c58684  ldr x30,[sp], #0x10
+02c58688  ret
+02c5868c  bl 0x029f5d04
+02c58690  bl 0x029f5cfc

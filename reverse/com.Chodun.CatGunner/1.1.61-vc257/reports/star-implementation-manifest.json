@@ -1,0 +1,83 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61/vc257/arm64",
+  "files": [
+    {
+      "file": "Assets/Recovery/Scripts/OriginalStarRules.cs",
+      "sha256": "5f649ef6fc8b23e05b22a227dde3afe875abd4c77f4ca73a63b40a612c2a1e0b"
+    },
+    {
+      "file": "Assets/Recovery/Scripts/StarUpgrade_manager.cs",
+      "sha256": "9c9aeb15fc3d97c9760380cf072ccb6075ca1f09e63f794315d243d9661146f3"
+    },
+    {
+      "file": "Assets/Recovery/Scripts/StarUpgrade_popup.cs",
+      "sha256": "7cea28b56e1ac6049cd0ca788af676bf81f09637a3df475426ad386ecbf85d58"
+    },
+    {
+      "file": "Assets/Recovery/Scripts/RecoveryStarSuccessFeedback.cs",
+      "sha256": "99dbdb7a4f7f98a55de93362385f15287c71c693cd7427a04ed09d895c686dc4"
+    },
+    {
+      "file": "Assets/Recovery/Scripts/Alert.cs",
+      "sha256": "15e02d332150a957354fb47f231ea6d386b909060119c52d749718fbab26526b"
+    },
+    {
+      "file": "Assets/Recovery/Scripts/RecoveryForestClient.cs",
+      "sha256": "c8e7f8a1c46724a87f7b82289a416f530356df526fb9e359d4e0b89bab21188f"
+    },
+    {
+      "file": "Assets/Recovery/Scripts/OriginalEquipmentCatalogue.cs",
+      "sha256": "c6339564e207df7f1d96ed5810ebc7effee97a527048d8e72a5c2781891e3402"
+    },
+    {
+      "file": "Assets/Recovery/Scripts/Gun_Slot.cs",
+      "sha256": "7726888bddef924702f5d3a3ac92b2916f7922beeac420450cbb80f7f6fae7f6"
+    },
+    {
+      "file": "Assets/Recovery/Scripts/Raid_GunSlot.cs",
+      "sha256": "763375b5854ed29c8c2474ef42ade64def75c095645929b4e42db653cb3cde26"
+    },
+    {
+      "file": "Assets/Recovery/Scripts/Raid_manager.cs",
+      "sha256": "04e40dcf93ff7315dfc529260eb1c2e3502afccf325ce6634adef133c6cb71fc"
+    },
+    {
+      "file": "Assets/Recovery/Scripts/Gun_manager.cs",
+      "sha256": "0829e0511691ce7ded6b6bb0ca91d3339dfdd362dd5f1e7e3d0d5157016dbfea"
+    },
+    {
+      "file": "Assets/Recovery/Editor/StarClientEditor.cs",
+      "sha256": "462a3146c484761a094276ce4b59c8e754eef9bb1a5a7d913d2642d26ad56a53"
+    },
+    {
+      "file": "Assets/Recovery/Tests/PlayMode/OriginalStarTests.cs",
+      "sha256": "04f9d78de2e0e71c11edd4dd52f3c8800c16b160b12cb783b4937b7f7ef0abe0"
+    },
+    {
+      "file": "Assets/Recovery/Resources/OriginalStarCatalogue.json",
+      "sha256": "ff618c2607ce99ec56987f7ce1c54b7cfba14b7d47ee263f71cd35cd2eff8796"
+    },
+    {
+      "file": "Assets/Recovery/Resources/StarChineseFallback.asset",
+      "sha256": "9f9021ddb81ba42cfee3aa8ae96a497c5dc7c31dded892b39e8c6511e79fd9c6"
+    }
+  ],
+  "original_star_components_preserved_meta": [
+    {
+      "script": "StarUpgrade_manager",
+      "sha256": "47a7b3d87256d8c50ec05bda99bad334abd6486512a1093e72f0ae3d4805e29d",
+      "byte_identical": true
+    },
+    {
+      "script": "StarUpgrade_popup",
+      "sha256": "8098a01f72f8467dea4c7a7637797dd7dec493231f109ed1226b80b7bcc5cd8a",
+      "byte_identical": true
+    },
+    {
+      "script": "Alert",
+      "sha256": "dd99e7a4a14bf073e8a610957fec9850e73cd3b308289bf3aeada282a27d4772",
+      "byte_identical": true
+    }
+  ],
+  "validation": "actual111/111 single final assembly run; actual5/5 final focused23.61seconds"
+}

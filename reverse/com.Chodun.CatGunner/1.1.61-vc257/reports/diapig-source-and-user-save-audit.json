@@ -1,0 +1,111 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "frozen_inputs": [
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/assetripper-baseline/ExportedProject/Assets/Scenes/Main.unity",
+      "sha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/split_config.arm64_v8a/lib/arm64-v8a/libil2cpp.so",
+      "sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/base/assets/bin/Data/Managed/Metadata/global-metadata.dat",
+      "sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+      "unchanged": true
+    }
+  ],
+  "user_save": [
+    {
+      "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json",
+      "checkpoint": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/checkpoints/diapig-before/NoSaveFile.json",
+      "sha256": "bd1f1d84ad30c058d4aba941507e7ca57dffe879322cdb6e8cc39aec844c099d",
+      "bytes": 9364,
+      "unchanged_from_turn_start": true
+    },
+    {
+      "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json.bak",
+      "checkpoint": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/checkpoints/diapig-before/NoSaveFile.json.bak",
+      "sha256": "bd1f1d84ad30c058d4aba941507e7ca57dffe879322cdb6e8cc39aec844c099d",
+      "bytes": 9364,
+      "unchanged_from_turn_start": true
+    }
+  ],
+  "original_metas": [
+    {
+      "path": "Assets/Recovery/Scripts/DiaPig.cs.meta",
+      "sha256": "914670b872b9a4d5e87a724fc54cce3510300ab6a0f043a99a257a192308956c",
+      "original_meta_preserved": true
+    },
+    {
+      "path": "Assets/Recovery/Scripts/DiaPig_UI.cs.meta",
+      "sha256": "ebd7915cdf9c71ad1cc445f0fc7c1e24b5d8b2ffcb4157edff0075600dee0612",
+      "original_meta_preserved": true
+    },
+    {
+      "path": "Assets/Recovery/Scripts/SlicedFilledImage.cs.meta",
+      "sha256": "8c4e0557f25295fae83f8e54d346645186384d26b24e291119bf2b68ecbcf9e6",
+      "original_meta_preserved": true
+    },
+    {
+      "path": "Assets/Recovery/Scripts/BounceStart.cs.meta",
+      "sha256": "7def8db42f7aec29ddecb62ba534507920938f2229597658edf7763b7dbbc682",
+      "original_meta_preserved": true
+    },
+    {
+      "path": "Assets/Recovery/Scripts/BounceBtn.cs.meta",
+      "sha256": "c0d7e4c0e3ab4bd5a7dde4ca196ec638c5c405551505709901fc0144d74d8f9d",
+      "original_meta_preserved": true
+    },
+    {
+      "path": "Assets/Recovery/Scripts/Mute_Panel.cs.meta",
+      "sha256": "c5236d6c1dbc6e53aa2cbb387418a205cee55f026ae6830a1bc625fde8199183",
+      "original_meta_preserved": true
+    }
+  ],
+  "scene_before_sha256": "8be2cea82f15380302165943384f6f25e413f824f7da653128e96ef6aa82e399",
+  "scene_sha256": "1cf45bdb6c9d38001866bed0ff1225880db215d0f98d6057326de7397035938f",
+  "sources": [
+    {
+      "path": "Assets/Recovery/Scripts/DiaPig.cs",
+      "sha256": "d338914ffb1e1be470e3e2e6cd5ac0455408476e87946aa663a307b2f28c1c46"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/DiaPig_UI.cs",
+      "sha256": "9de5e5de8a1d613a50bc0800629a8055d5fd6bc5902fda672aac2de2bd0f68cd"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/OriginalDiaPigCounter.cs",
+      "sha256": "3e1c38d922dee959748c6b04f86d2ec59259ed8892b029e924b39e9d0772348f"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/RecoveryForestClient.cs",
+      "sha256": "6206d8e26b410e1a3eddd094f4ad573571737c7ddb03174f5dbd034bc0cffc25"
+    },
+    {
+      "path": "Assets/Recovery/Editor/DiaPigClientEditor.cs",
+      "sha256": "a991a593507c2aab3a199d57954dc457cc07c0b06d592153f6694969f7c79747"
+    },
+    {
+      "path": "Assets/Recovery/Tests/PlayMode/OriginalDiaPigTests.cs",
+      "sha256": "4b32653a0b3b0a727e55b1c6665f578f819edfb71bf0bc122e48f50b4809c495"
+    },
+    {
+      "path": "Assets/Recovery/Tests/PlayMode/OriginalOnboardingTests.cs",
+      "sha256": "6e87af5e7c493be36389d93c291c8b78b56875d982f4a62e69b1dba05a5e5338"
+    }
+  ],
+  "gpu": [
+    {
+      "path": "reports/visual/diapig-original-locked-page-gpu.png",
+      "sha256": "1609c2ba48699d959b83e7e2c32cf4632485c3817898d85bb297ac1ec9392839"
+    },
+    {
+      "path": "reports/visual/diapig-return-forest-gpu.png",
+      "sha256": "1456131d0733171cb1a5679c9f5416b328ec902778a028cb222cb7a252be1525"
+    }
+  ],
+  "scope_complete": false
+}

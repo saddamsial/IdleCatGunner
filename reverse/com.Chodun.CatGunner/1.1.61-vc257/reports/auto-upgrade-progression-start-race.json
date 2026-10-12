@@ -1,0 +1,7 @@
+{
+  "boundary": "Test harness initialization interrupted before a completed progression batch; not a gameplay failure or test pass",
+  "message": "InvalidOperationException: This cannot be used during play mode.",
+  "source": "UnityEditor.TestTools.TestRunner.TestRun.Tasks.Scene.SaveModifiedSceneTask",
+  "recovery": "cancel_tests, editor_stop, verify stable EditMode then restart",
+  "userSave": "No restoration or profile writes performed by recovery"
+}

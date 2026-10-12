@@ -1,0 +1,113 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257",
+  "original_main_sha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+  "native_exports": {
+    "native-inventory-progression-reviewed": {
+      "rows": 108,
+      "status": "native-inventory-progression-reviewed/status.tsv"
+    },
+    "native-inventory-dependencies-reviewed": {
+      "rows": 52,
+      "status": "native-inventory-dependencies-reviewed/status.tsv"
+    },
+    "native-companions-core-reviewed": {
+      "rows": 31,
+      "status": "native-companions-core-reviewed/status.tsv"
+    },
+    "native-companions-geometry-reviewed": {
+      "rows": 16,
+      "status": "native-companions-geometry-reviewed/status.tsv"
+    },
+    "native-pet-lifecycle-reviewed": {
+      "rows": 23,
+      "status": "native-pet-lifecycle-reviewed/status.tsv"
+    },
+    "native-speedrun-client-reviewed": {
+      "rows": 39,
+      "status": "native-speedrun-client-reviewed/status.tsv"
+    },
+    "native-progression-ui-reviewed": {
+      "rows": 18,
+      "status": "native-progression-ui-reviewed/status.tsv"
+    }
+  },
+  "guns": {
+    "owned": 16,
+    "selected": 3,
+    "catalogue": 65,
+    "normal_draw_diamonds": 100,
+    "normal_draw_ids": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "merge": "same grade id/5, unpaused, not ad slot; random next five IDs; highest grade12 blocked",
+    "equip": "swap ownership and pause; removing final equipped gun blocked"
+  },
+  "companions": {
+    "ordinary_cats": 3,
+    "leader_history_seconds": 2,
+    "breadcrumb_limit": 100,
+    "boxcast_half_extents": [
+      0.3,
+      0.4,
+      0.3
+    ],
+    "excluded": "helper and monster-specific AI"
+  },
+  "pets": {
+    "owned": 16,
+    "selected": 3,
+    "catalogue": 10,
+    "draw_petcoin": 100,
+    "draw_diamonds": 100,
+    "draw_id": 0,
+    "merge": "same exact pet id into next grade, maximum9, dispatch locked slots blocked",
+    "money": "100 + sum selected original amounts",
+    "speed": "100 + sum selected original speeds",
+    "presentation": "Original UI sprites; in-world static fallback. Spine animation unavailable."
+  },
+  "rebirth": {
+    "minimum_stage": 2,
+    "ordinary_reward": "n^2*sqrt(n), n=stage*5+wave, positive5 significant digit adapter",
+    "native_precision_boundary": "Commercial InfVal-wide square root/rounding not accepted; cache forest stage<5000 only",
+    "reset": "wallet/accumulated wallet, ordinary upgrades, forest stage and wave; equipment/collection/permanent upgrades/max progress preserved",
+    "permanent_cache_levels": 20001
+  },
+  "missions": {
+    "tasks": 23,
+    "reward_levels": 25,
+    "xp_per_level": 100,
+    "claim_reward": "index < level, earlier reward sequence, capacity and ad/VIP gates",
+    "ad_gate": "index>=3 and index%3==0 remains unavailable",
+    "clock": "Explicit local DateTime offline substitute; no trusted server time",
+    "high_tier_guns": [
+      16,
+      18,
+      20,
+      22,
+      24,
+      25,
+      27,
+      29
+    ]
+  },
+  "speedrun": {
+    "trees": 190,
+    "count": "clamp(stage*15+20,20,190)",
+    "time_seconds": 60,
+    "normal_win_diamonds": 30,
+    "spawn": "Original ring layout, native rounding, +/-3 radial and +/-2 tangent jitter",
+    "tree_health_money": "Original forest stage caches and degree0/1/2 multipliers1/1.8/3",
+    "excluded": "Paid sweep, SDK bonus ads, server result transport, beyond-cache precision"
+  },
+  "pending_modes": [
+    "Boss",
+    "Mine",
+    "Monster",
+    "Raid"
+  ],
+  "scope_complete": false
+}

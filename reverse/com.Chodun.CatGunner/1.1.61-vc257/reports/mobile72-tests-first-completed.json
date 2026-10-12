@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 32.14,
+      "summary": {
+        "total": 4,
+        "passed": 1,
+        "failed": 3,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalMobile72Tests.FishMergeAndReopenRetainVisibleUpperTankFish",
+          "Status": "Passed",
+          "Duration": 11.3886696,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMobile72Tests.LuxuryPurchasedOverlayAndColdReload",
+          "Status": "Failed",
+          "Duration": 6.1269888,
+          "Message": "System.InvalidOperationException : Sequence contains no matching element",
+          "StackTrace": "  at System.Linq.Enumerable.Single[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00070] in <fe5fd0116f6c450487f1e1dfe36adc18>:0 \n  at OriginalMobile72Tests+<LuxuryPurchasedOverlayAndColdReload>d__11.MoveNext () [0x00051] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMobile72Tests.cs:33 \n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44 "
+        },
+        {
+          "FullName": "OriginalMobile72Tests.MineOffersRemainExclusiveAcrossBothRefreshOwners",
+          "Status": "Failed",
+          "Duration": 7.3633925,
+          "Message": "  Expected: True\n  But was:  False\n",
+          "StackTrace": "at OriginalMobile72Tests+<MineOffersRemainExclusiveAcrossBothRefreshOwners>d__10.MoveNext () [0x00195] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMobile72Tests.cs:29\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalMobile72Tests.PetPricesAndDailyWeaponAdRefresh",
+          "Status": "Failed",
+          "Duration": 7.2373438,
+          "Message": "  AD_Draw_Btn\n  Expected: True\n  But was:  False\n",
+          "StackTrace": "at OriginalMobile72Tests+<Click>d__8.MoveNext () [0x0006c] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMobile72Tests.cs:11\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

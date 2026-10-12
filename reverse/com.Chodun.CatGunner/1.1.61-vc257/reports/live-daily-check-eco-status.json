@@ -1,0 +1,70 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 84.58,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalEcoModeTests.AllFiveActualModeEntriesExitEcoBeforeArenaSetupAndReturnWithCamera",
+          "Status": "Passed",
+          "Duration": 48.6760436,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalEcoModeTests.NativeStateColorSkinAndIdempotentOffHaveNoWalletOrClockSideEffects",
+          "Status": "Passed",
+          "Duration": 5.6416618,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalEcoModeTests.OriginalButtonEntersAndExitsWhileRealAutomaticShotsContinueEarning",
+          "Status": "Passed",
+          "Duration": 7.367821,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalEcoModeTests.OriginalHatchScrollAndTwoSourceTweensAnimateAndRestartOnReopening",
+          "Status": "Passed",
+          "Duration": 5.7941388,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalEcoModeTests.OriginalSettingsMenuAndThreeAudioControlsUseRealInputWithoutChangingUserPreferences",
+          "Status": "Passed",
+          "Duration": 6.0196815,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalEcoModeTests.SceneUnloadClearsRuntimeModeAndColdReloadKeepsOrdinarySaveAndCamera",
+          "Status": "Passed",
+          "Duration": 11.0171874,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

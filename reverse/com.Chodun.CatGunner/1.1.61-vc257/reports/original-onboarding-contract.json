@@ -1,0 +1,805 @@
+{
+  "target": "com.Chodun.CatGunner1.1.61 vc257 arm64",
+  "inputs": [
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/assetripper-baseline/ExportedProject/Assets/Scenes/Main.unity",
+      "sha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+      "expected": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/split_config.arm64_v8a/lib/arm64-v8a/libil2cpp.so",
+      "sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+      "expected": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/base/assets/bin/Data/Managed/Metadata/global-metadata.dat",
+      "sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+      "expected": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+      "unchanged": true
+    }
+  ],
+  "native_methods": [
+    {
+      "preferred_va": "0x2b6b15c",
+      "ghidra_va": "0x2c6b15c",
+      "end": "0x2b6b1c8",
+      "name": "_ReloadNextFrame_d__2_MoveNext",
+      "input16": "fe0f1ef8f44f01a9141040b9f30300aa",
+      "outputs": {
+        "_ReloadNextFrame_d__2_MoveNext.c": "0bee54d7906466de7e585a4f771fe8c791027ea534c22217060ef388d78f92af",
+        "_ReloadNextFrame_d__2_MoveNext.asm": "b9ca9c396904cc8538abb24ab269b218c5aa01f550ce4557a0e35d5e41edb32a"
+      }
+    },
+    {
+      "preferred_va": "0x2b6aff0",
+      "ghidra_va": "0x2c6aff0",
+      "end": "0x2b6b010",
+      "name": "Gun_Merge_Tutorial_OnEnable",
+      "input16": "fe4fbfa9f30300aa06000094e10300aa",
+      "outputs": {
+        "Gun_Merge_Tutorial_OnEnable.c": "e5f07467a9805dafa7eea5b078ee9af0b64d2c7d0d0de334609105e7133c6cbd",
+        "Gun_Merge_Tutorial_OnEnable.asm": "a134d67fa4897b1a26e5162d9244b7903e29645638c12e2d7fb4afcd4756e003"
+      }
+    },
+    {
+      "preferred_va": "0x2b6b010",
+      "ghidra_va": "0x2c6b010",
+      "end": "0x2b6b07c",
+      "name": "Gun_Merge_Tutorial_ReloadNextFrame",
+      "input16": "fe57bea9f44f01a994af01b0d58f0190",
+      "outputs": {
+        "Gun_Merge_Tutorial_ReloadNextFrame.c": "f0d1cf5940274a09ac6f671b2552dea6c737bf599b428af4f114b47b73b11369",
+        "Gun_Merge_Tutorial_ReloadNextFrame.asm": "3d752190c170771a7e930d6cb38762b03369b0ffa083db576447aa08bcba08fc"
+      }
+    },
+    {
+      "preferred_va": "0x2b69758",
+      "ghidra_va": "0x2c69758",
+      "end": "0x2b69c78",
+      "name": "Gun_Merge_Tutorial_Reload",
+      "input16": "ff4302d1fe2b00f9f85f06a9f65707a9",
+      "outputs": {
+        "Gun_Merge_Tutorial_Reload.c": "dbca8a1b26e670b04d1a4311b084471d1351686f77656e5e6368634c2398ee46",
+        "Gun_Merge_Tutorial_Reload.asm": "35f99748675cb017ac793da035fde92d72eaa999b95784f57feae251c1aab485"
+      }
+    },
+    {
+      "preferred_va": "0x2b6b0a4",
+      "ghidra_va": "0x2c6b0a4",
+      "end": "0x2b6b150",
+      "name": "Gun_Merge_Tutorial_Hide",
+      "input16": "fe57bea9f44f01a995af01b0748f01d0",
+      "outputs": {
+        "Gun_Merge_Tutorial_Hide.c": "e04aab0d50178d5579018bda69be249affc8ed5f9b38117a99d24089b21083f9",
+        "Gun_Merge_Tutorial_Hide.asm": "3386a95224d08d4001a1c8d6c77bb38b442e4e235d6dc5017ce25ccef850d935"
+      }
+    },
+    {
+      "preferred_va": "0x2b6b150",
+      "ghidra_va": "0x2c6b150",
+      "end": "0x2b6b158",
+      "name": "Gun_Merge_Tutorial__ctor",
+      "input16": "e1031faa63dfad14c0035fd6fe0f1ef8",
+      "outputs": {
+        "Gun_Merge_Tutorial__ctor.c": "13979d519504a211aa3090ed0134a8ea6d60ee32576ed2a40ce73f3ebce5636d",
+        "Gun_Merge_Tutorial__ctor.asm": "48a628e4a35dcdbb9123f0def3b80cd1c3f8f7bc7e13deebba165937916d82da"
+      }
+    },
+    {
+      "preferred_va": "0x2baebb0",
+      "ghidra_va": "0x2caebb0",
+      "end": "0x2baeeb4",
+      "name": "_MoveLoop_d__13_MoveNext",
+      "input16": "e923bc6dfe0b00f9f65702a9f44f03a9",
+      "outputs": {
+        "_MoveLoop_d__13_MoveNext.c": "fd258a4e50aca537e5f6be922cadd884b3f5de266f8850990cf2d9f7e824644d",
+        "_MoveLoop_d__13_MoveNext.asm": "1d31ad3a83ec462b1e9ffdbfe5738b31c297dacb7e6b5e51801e3d9397097619"
+      }
+    },
+    {
+      "preferred_va": "0x2baef00",
+      "ghidra_va": "0x2caef00",
+      "end": "0x2baf0dc",
+      "name": "_ScaleTo_d__14_MoveNext",
+      "input16": "ea0f1cfce923016dfe5702a9f44f03a9",
+      "outputs": {
+        "_ScaleTo_d__14_MoveNext.c": "772fe0fddf4fa492da83539f12cfa76bb1cb2bee1fac6e500123b201e132a845",
+        "_ScaleTo_d__14_MoveNext.asm": "2fa7b2418e5b8b36f5e2400d912f61211ac529193b660c8b25c6d33a2c5e9b5f"
+      }
+    },
+    {
+      "preferred_va": "0x2bae538",
+      "ghidra_va": "0x2cae538",
+      "end": "0x2bae590",
+      "name": "TutorialArrow_UI_Awake",
+      "input16": "fe57bea9f44f01a974ad01d0758d01b0",
+      "outputs": {
+        "TutorialArrow_UI_Awake.c": "bfd9fd1170fb3be0ab251a385326a4d9c468eb7c582f5aeddd7186ecdd660971",
+        "TutorialArrow_UI_Awake.asm": "c9fd528ed3aee743ec51d13a687615827812ffaf2ab01539d66d11ed4dcbda4a"
+      }
+    },
+    {
+      "preferred_va": "0x2bae590",
+      "ghidra_va": "0x2cae590",
+      "end": "0x2bae65c",
+      "name": "TutorialArrow_UI_OnEnable",
+      "input16": "fe57bea9f44f01a974ad01d0558d01f0",
+      "outputs": {
+        "TutorialArrow_UI_OnEnable.c": "0e9cb8c97943108aa14772423ee1ee315331eb3171cfb97cc49edc84fc4d1d6b",
+        "TutorialArrow_UI_OnEnable.asm": "eb73110121548f998490ec3a62b2f338d80176a7b97aa78e78761f3e411c3f5f"
+      }
+    },
+    {
+      "preferred_va": "0x2bae6c8",
+      "ghidra_va": "0x2cae6c8",
+      "end": "0x2bae70c",
+      "name": "TutorialArrow_UI_OnDisable",
+      "input16": "fe0f1ef8f44f01a9f40300aa810e45f8",
+      "outputs": {
+        "TutorialArrow_UI_OnDisable.c": "403459837eec155db655305a7c48ffca438cad3a95b13de159088b2074af2bb2",
+        "TutorialArrow_UI_OnDisable.asm": "6e97b74f546a0f887fc78233957b72982201f96db8cb20dde4cc46af11c34cb3"
+      }
+    },
+    {
+      "preferred_va": "0x2bae70c",
+      "ghidra_va": "0x2cae70c",
+      "end": "0x2bae850",
+      "name": "TutorialArrow_UI_SetTargets",
+      "input16": "fe5fbda9f65701a9f44f02a976ad01d0",
+      "outputs": {
+        "TutorialArrow_UI_SetTargets.c": "1cd5635f124a0525096ac69dc0c6fe4e093e8975a9234232814afbccc11d6f16",
+        "TutorialArrow_UI_SetTargets.asm": "67e175bbc13e5fdd080d9373bf38dbce2256c8dc70891fdb0338ffba78b4366f"
+      }
+    },
+    {
+      "preferred_va": "0x2bae65c",
+      "ghidra_va": "0x2cae65c",
+      "end": "0x2bae6c8",
+      "name": "TutorialArrow_UI_MoveLoop",
+      "input16": "fe57bea9f44f01a974ad01d0b58d01d0",
+      "outputs": {
+        "TutorialArrow_UI_MoveLoop.c": "d4b5165d08173ba4837f42116a3a0c634b0e5f9916923155147a780bdaa3849a",
+        "TutorialArrow_UI_MoveLoop.asm": "2eb4fe9a160d10bf8b332ac087712a7c737643aa49fece729a745f5900ea8711"
+      }
+    },
+    {
+      "preferred_va": "0x2bae878",
+      "ghidra_va": "0x2cae878",
+      "end": "0x2bae8f4",
+      "name": "TutorialArrow_UI_ScaleTo",
+      "input16": "e80f1dfcfe5701a9f44f02a90840201e",
+      "outputs": {
+        "TutorialArrow_UI_ScaleTo.c": "81a273abcaaff723cd966a59818cabdd98ece55028ddb7f958c9b89b4353c9c6",
+        "TutorialArrow_UI_ScaleTo.asm": "a554d580dc0e074631e4d1a29a7e1bc764f6a033cc285e8a77447127cf166575"
+      }
+    },
+    {
+      "preferred_va": "0x2bae91c",
+      "ghidra_va": "0x2cae91c",
+      "end": "0x2baea78",
+      "name": "TutorialArrow_UI_GetTargetPos",
+      "input16": "ff4301d1ea0b00fde9a3016dfe1700f9",
+      "outputs": {
+        "TutorialArrow_UI_GetTargetPos.c": "de73db1783ccb7f8ab549887aa0e30f8aede307c9e55b9d432a9bc7caf8635b4",
+        "TutorialArrow_UI_GetTargetPos.asm": "f693372550acd5f56d835fb004177751f4b0f48a9cd80da959177a4afc81dec9"
+      }
+    },
+    {
+      "preferred_va": "0x2baea78",
+      "ghidra_va": "0x2caea78",
+      "end": "0x2baeb40",
+      "name": "TutorialArrow_UI_IsValid",
+      "input16": "fe57bea9f44f01a975ad01d0548d01f0",
+      "outputs": {
+        "TutorialArrow_UI_IsValid.c": "39f63ebcb0a133ad028890168053e946551d6437ff48e5f901366cd8c3e534d8",
+        "TutorialArrow_UI_IsValid.asm": "f862d2f461c592cf67d1b128d07cb0f76ac46ad31803a95b63962660fc3c922c"
+      }
+    },
+    {
+      "preferred_va": "0x2baeb40",
+      "ghidra_va": "0x2caeb40",
+      "end": "0x2baebac",
+      "name": "TutorialArrow_UI__ctor",
+      "input16": "fe0f1ef8f44f01a90826ffb074ad01b0",
+      "outputs": {
+        "TutorialArrow_UI__ctor.c": "9e80f826fbf42b2213b2fa8243d341b730699dc82107a53c0b3211aef308acfa",
+        "TutorialArrow_UI__ctor.asm": "e35486bb4e4e5ac81ed41ac042cbda13d728b4aad0a6951422bb1015a4dd808d"
+      }
+    },
+    {
+      "preferred_va": "0x2bafda8",
+      "ghidra_va": "0x2cafda8",
+      "end": "0x2bafee0",
+      "name": "_CheckGunEquipped_d__33_MoveNext",
+      "input16": "fe0f1ef8f44f01a974ad01b0f30300aa",
+      "outputs": {
+        "_CheckGunEquipped_d__33_MoveNext.c": "710367398ff10379736cb2cb701267df1d441213a4bd53110557472134b91ac8",
+        "_CheckGunEquipped_d__33_MoveNext.asm": "cb5bd4e0761cfe02291516229c095724c6da148e0aeea6b9c25a693b4fd509a8"
+      }
+    },
+    {
+      "preferred_va": "0x2baff2c",
+      "ghidra_va": "0x2caff2c",
+      "end": "0x2bb00c8",
+      "name": "_CheckGunPurchased_d__31_MoveNext",
+      "input16": "fe57bea9f44f01a974ad01b0f30300aa",
+      "outputs": {
+        "_CheckGunPurchased_d__31_MoveNext.c": "c1b980b21226844433268656d56e6ed7007cec39ad3dc864afd4694a6cf19619",
+        "_CheckGunPurchased_d__31_MoveNext.asm": "143bb0826d7bf34905ce5b82e06bf9dc231e469e55490d15001df8023fb0ab26"
+      }
+    },
+    {
+      "preferred_va": "0x2bb0114",
+      "ghidra_va": "0x2cb0114",
+      "end": "0x2bb0300",
+      "name": "_CheckGunSlotActive_d__28_MoveNext",
+      "input16": "fe67bca9f85f01a9f65702a9f44f03a9",
+      "outputs": {
+        "_CheckGunSlotActive_d__28_MoveNext.c": "209afe324ce117337bc1c4b748af8bd0464750426fc086d5de4684d9db3b18e6",
+        "_CheckGunSlotActive_d__28_MoveNext.asm": "d13b6a3cd02acbdf93da00ddbe72333b2f312b56489457ae6a669a77fd98a5e2"
+      }
+    },
+    {
+      "preferred_va": "0x2bb034c",
+      "ghidra_va": "0x2cb034c",
+      "end": "0x2bb054c",
+      "name": "_CheckSpeedRunClear_d__26_MoveNext",
+      "input16": "fe0f1df8f65701a9f44f02a974ad0190",
+      "outputs": {
+        "_CheckSpeedRunClear_d__26_MoveNext.c": "f47a42901a85bdeed184507b750b78a1340195990327c8f8f4b17b7157d9a6c5",
+        "_CheckSpeedRunClear_d__26_MoveNext.asm": "06a34971bcb98dfdc9aab577d0c07c4ffbd6d0be3d0c5968f31a6b0504c1c716"
+      }
+    },
+    {
+      "preferred_va": "0x2bb0598",
+      "ghidra_va": "0x2cb0598",
+      "end": "0x2bb0710",
+      "name": "_MoneyCheckLoop_d__24_MoveNext",
+      "input16": "ff0301d1fe5702a9f44f03a974ad0190",
+      "outputs": {
+        "_MoneyCheckLoop_d__24_MoveNext.c": "867aadcfceb0252c7abb8f813883a4729a7a9cfce04464ef57608b53d37b0a6f",
+        "_MoneyCheckLoop_d__24_MoveNext.asm": "6aba6d5e00bbd0c31909fa174c79a0dd545db2520e4750f94627adbf20c8dae7"
+      }
+    },
+    {
+      "preferred_va": "0x2bb07fc",
+      "ghidra_va": "0x2cb07fc",
+      "end": "0x2bb0d04",
+      "name": "_SetupGunEquipArrow_d__34_MoveNext",
+      "input16": "ff0302d1fe6704a9f85f05a9f65706a9",
+      "outputs": {
+        "_SetupGunEquipArrow_d__34_MoveNext.c": "9e93b38469f064b9fec40f862544c48a388b2c9b3416eebd80c4072f4229db89",
+        "_SetupGunEquipArrow_d__34_MoveNext.asm": "76694a0e0424a504b57fc4193fa7675365351327923d2e1925138f87c5d3d691"
+      }
+    },
+    {
+      "preferred_va": "0x2baf124",
+      "ghidra_va": "0x2caf124",
+      "end": "0x2baf12c",
+      "name": "Tutorial_manager_get_CurrentStep",
+      "input16": "006040b9c0035fd6016000b9c0035fd6",
+      "outputs": {
+        "Tutorial_manager_get_CurrentStep.c": "c12153442ad4209107d9b53dc8e3c3a231b5c79a1f3950df039cb3c74d17a609",
+        "Tutorial_manager_get_CurrentStep.asm": "c6e185877792778605e5efa86b5157b3c6cbb4dee3dbce5efb18aade0553591e"
+      }
+    },
+    {
+      "preferred_va": "0x2baf12c",
+      "ghidra_va": "0x2caf12c",
+      "end": "0x2baf134",
+      "name": "Tutorial_manager_set_CurrentStep",
+      "input16": "016000b9c0035fd6fe57bea9f44f01a9",
+      "outputs": {
+        "Tutorial_manager_set_CurrentStep.c": "6b8606d28378e6608c488b8097543af8630ed4af99e9d00c4c40c27e028efdc7",
+        "Tutorial_manager_set_CurrentStep.asm": "63096680c1d83badbdbea09f3f1198a81013000a7bdd7ea7b443cf499903dfc0"
+      }
+    },
+    {
+      "preferred_va": "0x2baf134",
+      "ghidra_va": "0x2caf134",
+      "end": "0x2baf18c",
+      "name": "Tutorial_manager_Awake",
+      "input16": "fe57bea9f44f01a975ad01b0748d01f0",
+      "outputs": {
+        "Tutorial_manager_Awake.c": "d7ef07bb39788fc4f5882fe7855ea226f2ceee5799177790b8e7d837b7444ced",
+        "Tutorial_manager_Awake.asm": "b147494b93f9ccdc01df1eebb34556d0be9bcd3753cf3a52d9782d24d7cd35d6"
+      }
+    },
+    {
+      "preferred_va": "0x2baf18c",
+      "ghidra_va": "0x2caf18c",
+      "end": "0x2baf208",
+      "name": "Tutorial_manager_Start",
+      "input16": "fe0f1ef8f44f01a974ad01b0f30300aa",
+      "outputs": {
+        "Tutorial_manager_Start.c": "8848bdc4445af3e52b54b025a0946baec36805c89d4fb453c312aa372026a962",
+        "Tutorial_manager_Start.asm": "1b2f4024cc6bcf13dfab9fe0fef2675ecf5896153c617c89947be54b1fcca776"
+      }
+    },
+    {
+      "preferred_va": "0x2baf638",
+      "ghidra_va": "0x2caf638",
+      "end": "0x2baf65c",
+      "name": "Tutorial_manager_SetCleared",
+      "input16": "fe4fbfa928008052e1031faaf30300aa",
+      "outputs": {
+        "Tutorial_manager_SetCleared.c": "680587ce45b3376cc0bd4fd05ab79b36a7dc9a1c96b285484592ec2277cabc56",
+        "Tutorial_manager_SetCleared.asm": "a9110a4a495530645e1ad581b7c9bb5dad5bbb1477a0c1567d14fc113ba21b5e"
+      }
+    },
+    {
+      "preferred_va": "0x2baf460",
+      "ghidra_va": "0x2caf460",
+      "end": "0x2baf638",
+      "name": "Tutorial_manager_BeginTutorial",
+      "input16": "fe0f1cf8f85f01a9f65702a9f44f03a9",
+      "outputs": {
+        "Tutorial_manager_BeginTutorial.c": "c400902f9003e8e553c38bd2a6f5dfd06d446057ac3486bd9f2df253b8db8c1a",
+        "Tutorial_manager_BeginTutorial.asm": "88b8ac042bb4ff96a4e9a63c886d107b4ab0a49582d4bb4ce5b959f2ad3f113e"
+      }
+    },
+    {
+      "preferred_va": "0x2baf298",
+      "ghidra_va": "0x2caf298",
+      "end": "0x2baf460",
+      "name": "Tutorial_manager_CompleteTutorial",
+      "input16": "fe0f1cf8f85f01a9f65702a9f44f03a9",
+      "outputs": {
+        "Tutorial_manager_CompleteTutorial.c": "f17cdeb48adb4b6184ea5ac1b99849c7a76331899f8dbfa8d4f76c969366d917",
+        "Tutorial_manager_CompleteTutorial.asm": "d28dc298503cfd06bb0461406e2c699a6b75ff7b61109b81e43ae8d225f72696"
+      }
+    },
+    {
+      "preferred_va": "0x2baf80c",
+      "ghidra_va": "0x2caf80c",
+      "end": "0x2baf810",
+      "name": "Tutorial_manager_RequestIfNeeded",
+      "input16": "c0035fd6fe0f1ef8f44f01a9f30300aa",
+      "outputs": {
+        "Tutorial_manager_RequestIfNeeded.c": "1673eaca284240efe0663245b3c2864dfeb1511093f40527ca9c2ad6a4d5f893",
+        "Tutorial_manager_RequestIfNeeded.asm": "aa83b06288145bdca6704aa7d9ca84643eb18fa4e233e0d162bd9d0a6e157e1d"
+      }
+    },
+    {
+      "preferred_va": "0x2baf65c",
+      "ghidra_va": "0x2caf65c",
+      "end": "0x2baf80c",
+      "name": "Tutorial_manager_SetStep",
+      "input16": "fe57bea9f44f01a975ad01b0f403012a",
+      "outputs": {
+        "Tutorial_manager_SetStep.c": "145fff5a2690683b266b4ac16c5692c9a2b1aca6eda32f56caac3f678d22ebda",
+        "Tutorial_manager_SetStep.asm": "d83b60fa28ae133354538b6fad8306f276ba855beb901ce06e3e23c52ed8f6ba"
+      }
+    },
+    {
+      "preferred_va": "0x2baf810",
+      "ghidra_va": "0x2caf810",
+      "end": "0x2baf87c",
+      "name": "Tutorial_manager_Enter_Upgrade",
+      "input16": "fe0f1ef8f44f01a9f30300aa001440f9",
+      "outputs": {
+        "Tutorial_manager_Enter_Upgrade.c": "049a0ce85dc566f67f8b2f9e7b4e9baa78f97f843b0e40413b2eb63303db0430",
+        "Tutorial_manager_Enter_Upgrade.asm": "696f740a1c4c386c631ef1e7f597127132400efd76ce2c37fe95cafd860b094d"
+      }
+    },
+    {
+      "preferred_va": "0x2baf9e0",
+      "ghidra_va": "0x2caf9e0",
+      "end": "0x2bafa4c",
+      "name": "Tutorial_manager_MoneyCheckLoop",
+      "input16": "fe57bea9f44f01a974ad01b0b58d01b0",
+      "outputs": {
+        "Tutorial_manager_MoneyCheckLoop.c": "8560783833d256f67a72b9a3d54e9c671dec601562a660c1bea156a404e264ec",
+        "Tutorial_manager_MoneyCheckLoop.asm": "4f0d62ae46a61ae1eed0d79591de329f145c03329d39383e4ae08da6b7dbd7b0"
+      }
+    },
+    {
+      "preferred_va": "0x2baf87c",
+      "ghidra_va": "0x2caf87c",
+      "end": "0x2baf8b8",
+      "name": "Tutorial_manager_Enter_Challenge",
+      "input16": "fe4fbfa9f30300aa002440f9600100b4",
+      "outputs": {
+        "Tutorial_manager_Enter_Challenge.c": "489d4e432d1857a5fd9a8673e74400a9bd2b6a1ff68712894dbafe079b389e4d",
+        "Tutorial_manager_Enter_Challenge.asm": "9099e359260d9057aecbea8ccfd908f58db792ff43388ef5a2109c5717aceb91"
+      }
+    },
+    {
+      "preferred_va": "0x2bafa74",
+      "ghidra_va": "0x2cafa74",
+      "end": "0x2bafae0",
+      "name": "Tutorial_manager_CheckSpeedRunClear",
+      "input16": "fe57bea9f44f01a974ad01b0b58d01b0",
+      "outputs": {
+        "Tutorial_manager_CheckSpeedRunClear.c": "1f7fdef54fb2e02fe83fb0bdd5069e2cf5f3ad58efec9f7966664b1abe8590b7",
+        "Tutorial_manager_CheckSpeedRunClear.asm": "91241660c842d04fe93c4b366a005b502fba5ac96b4eebecd7d735b99de228ab"
+      }
+    },
+    {
+      "preferred_va": "0x2baf8b8",
+      "ghidra_va": "0x2caf8b8",
+      "end": "0x2baf8f4",
+      "name": "Tutorial_manager_Enter_GunOpen",
+      "input16": "fe4fbfa9f30300aa002840f9600100b4",
+      "outputs": {
+        "Tutorial_manager_Enter_GunOpen.c": "8bf3e271e3832d3b244e4bb1a9484e9bc3bc00eaa21703cb205f6777511f6ddc",
+        "Tutorial_manager_Enter_GunOpen.asm": "2101c2bc6eebbae74f9d6f57bb16b327e9cb437c585f45b509fc1efa5aec3a35"
+      }
+    },
+    {
+      "preferred_va": "0x2bafb08",
+      "ghidra_va": "0x2cafb08",
+      "end": "0x2bafb74",
+      "name": "Tutorial_manager_CheckGunSlotActive",
+      "input16": "fe57bea9f44f01a974ad01b0b58d01b0",
+      "outputs": {
+        "Tutorial_manager_CheckGunSlotActive.c": "f730a8c8c1cec625f50dd58bcd097d234e6666241082489ce77ff8b587e6b66f",
+        "Tutorial_manager_CheckGunSlotActive.asm": "0fb373004b2812e06011b16a75f825bb5bd25e54e7ff86500ebc2184b0ab0d70"
+      }
+    },
+    {
+      "preferred_va": "0x2bafb9c",
+      "ghidra_va": "0x2cafb9c",
+      "end": "0x2bafbe0",
+      "name": "Tutorial_manager_OnGunButtonPressed",
+      "input16": "fe4fbfa9086040b91f09007161010054",
+      "outputs": {
+        "Tutorial_manager_OnGunButtonPressed.c": "0f40b2d2484662b519fdd6707b5aaa10073ed182df391ff7181ed1feb29df913",
+        "Tutorial_manager_OnGunButtonPressed.asm": "547b190b5facd9855711a01b815c373320457d3b6279fb2125cd82150b23f76d"
+      }
+    },
+    {
+      "preferred_va": "0x2baf8f4",
+      "ghidra_va": "0x2caf8f4",
+      "end": "0x2baf9a8",
+      "name": "Tutorial_manager_Enter_GunBuy",
+      "input16": "fe57bea9f44f01a975ad01b0748d01d0",
+      "outputs": {
+        "Tutorial_manager_Enter_GunBuy.c": "7c327a711632c6cf08b01ae6407ae4c687e9cc874048bbd3cf651b2beaa2ca97",
+        "Tutorial_manager_Enter_GunBuy.asm": "6ec97c215fb17ee12129031f85f50a17feed5a58e54c6e61a2911c9de723de26"
+      }
+    },
+    {
+      "preferred_va": "0x2bafbe0",
+      "ghidra_va": "0x2cafbe0",
+      "end": "0x2bafc4c",
+      "name": "Tutorial_manager_CheckGunPurchased",
+      "input16": "fe57bea9f44f01a974ad01b0b58d01b0",
+      "outputs": {
+        "Tutorial_manager_CheckGunPurchased.c": "94e4f9df45e6a10317574967f208280a1d6aafc9287e3a229a0cc464e043908f",
+        "Tutorial_manager_CheckGunPurchased.asm": "49752431411917e3a2ed8d8fb0d4353bcb519c706250e91e82335c3653568a31"
+      }
+    },
+    {
+      "preferred_va": "0x2baf9a8",
+      "ghidra_va": "0x2caf9a8",
+      "end": "0x2baf9e0",
+      "name": "Tutorial_manager_Enter_GunEquip",
+      "input16": "fe4fbfa9f30300aab1000094e10300aa",
+      "outputs": {
+        "Tutorial_manager_Enter_GunEquip.c": "eec004572a4a4e60fecabc53121b92a69bc78a473770899ab39d3bc64dd61c23",
+        "Tutorial_manager_Enter_GunEquip.asm": "4105ba7f9508f7efe10ef8859821b3117e808693b5668b8e840e3cf44b2999cb"
+      }
+    },
+    {
+      "preferred_va": "0x2bafce0",
+      "ghidra_va": "0x2cafce0",
+      "end": "0x2bafd4c",
+      "name": "Tutorial_manager_CheckGunEquipped",
+      "input16": "fe57bea9f44f01a974ad01b0b58d01b0",
+      "outputs": {
+        "Tutorial_manager_CheckGunEquipped.c": "50cccf01c544f971189356b4b507d66dc8dbc15c418b1b5719b79e6b4e9c48df",
+        "Tutorial_manager_CheckGunEquipped.asm": "1ad553523bb0d7da23f81b5bc16e2d07aca0038663dd24c1cc07f62d1cc8026a"
+      }
+    },
+    {
+      "preferred_va": "0x2bafc74",
+      "ghidra_va": "0x2cafc74",
+      "end": "0x2bafce0",
+      "name": "Tutorial_manager_SetupGunEquipArrow",
+      "input16": "fe57bea9f44f01a974ad01b0b58d01b0",
+      "outputs": {
+        "Tutorial_manager_SetupGunEquipArrow.c": "5a2f1729192118a0ac3d4ca56ea97c056a9c31ef893214fc175480583b78e469",
+        "Tutorial_manager_SetupGunEquipArrow.asm": "9c9a8a8f9870ade394c07e9f99222e03bb9df37d1c84c8ecc64b69eeab58976e"
+      }
+    },
+    {
+      "preferred_va": "0x2bafd9c",
+      "ghidra_va": "0x2cafd9c",
+      "end": "0x2bafda4",
+      "name": "Tutorial_manager__ctor",
+      "input16": "e1031faa50ccac14c0035fd6fe0f1ef8",
+      "outputs": {
+        "Tutorial_manager__ctor.c": "98c7080545ee5ae8cce033eb633098f36e573b033e32ca3bdb9f6d1ad6bfc4ec",
+        "Tutorial_manager__ctor.asm": "c600f384f1327c9e7404871dac845b0fda74cc708e23900a47f76f186d2bd72a"
+      }
+    },
+    {
+      "preferred_va": "0x28f5cfc",
+      "ghidra_va": "0x29f5cfc",
+      "end": "0x28f5d04",
+      "name": "Throw_NullReference_Wrapper",
+      "input16": "fe0f1ff86a220194fe0f1ff87b220194",
+      "outputs": {
+        "Throw_NullReference_Wrapper.c": "4dbe5415e169f90b0ce5055036cca1b94bf1565f8d9d2308c08bf4bd707fcb91",
+        "Throw_NullReference_Wrapper.asm": "eec6b09062497629de85a27e3a8cad918b42764b2a1c0f544152a636461e5fdd"
+      }
+    },
+    {
+      "preferred_va": "0x28f5d04",
+      "ghidra_va": "0x29f5d04",
+      "end": "0x28f5d0c",
+      "name": "Throw_Index_Wrapper",
+      "input16": "fe0f1ff87b220194c03cff90006c0191",
+      "outputs": {
+        "Throw_Index_Wrapper.c": "b554c9aba53206d804e9fc370e97cf27027d10930f18eb2a6be625e055cb8dd1",
+        "Throw_Index_Wrapper.asm": "5581995141036f8f8cb7598583a54ae3c1a567e77a4bbff543774e6d542c448c"
+      }
+    },
+    {
+      "preferred_va": "0x293e6a8",
+      "ghidra_va": "0x2a3e6a8",
+      "end": "0x293e6bc",
+      "name": "Throw_NullReference_Create",
+      "input16": "ff8300d1fffb00a9e0030091ff0300f9",
+      "outputs": {
+        "Throw_NullReference_Create.c": "07933b7cac27ee4d3e9d7c27b53882e222ed878cead5f8d79e73b3adba1fff6f",
+        "Throw_NullReference_Create.asm": "428c28c0278566bbd155390442ae395ecf5d111ac48dd41afa23cc88ab7051b2"
+      }
+    },
+    {
+      "preferred_va": "0x293e6bc",
+      "ghidra_va": "0x2a3e6bc",
+      "end": "0x293e6cc",
+      "name": "Throw_NullReference_Raise",
+      "input16": "fe0f1ff803000094e1031faad2ffff97",
+      "outputs": {
+        "Throw_NullReference_Raise.c": "aded7644ecb862bc0a5476706b21810f9257b367ac0397bdc541e91af2615d80",
+        "Throw_NullReference_Raise.asm": "5aafa322c11ce154d2ee31e138ead7810e48a24e419b8885131feb71851f1d71"
+      }
+    },
+    {
+      "preferred_va": "0x293e6f4",
+      "ghidra_va": "0x2a3e6f4",
+      "end": "0x293e704",
+      "name": "Throw_Index_Raise",
+      "input16": "fe0f1ff803000094e1031faac4ffff97",
+      "outputs": {
+        "Throw_Index_Raise.c": "f7b9c1233cebb3659705feb97a706251cb1dd6dcac5b14dcbcd482f99b3529a7",
+        "Throw_Index_Raise.asm": "53f08a0cd65a4fe4ba45d72673ff66e057b405fd9658b230d54ec9cb96fab4ed"
+      }
+    },
+    {
+      "preferred_va": "0x293e610",
+      "ghidra_va": "0x2a3e610",
+      "end": "0x293e638",
+      "name": "Managed_Exception_CxaThrow",
+      "input16": "fe4fbfa9f30300aa71ffff9700018052",
+      "outputs": {
+        "Managed_Exception_CxaThrow.c": "f034685b9e5e3c23ca134caf66dd8742db361f79a48e68bfefb6bb0b28479155",
+        "Managed_Exception_CxaThrow.asm": "79d2db030a3cd3519ea853008b8d9e435cee4ca33d345340c0a40c9ffa737b80"
+      }
+    }
+  ],
+  "completed": 51,
+  "business_queries": 45,
+  "exception_helpers": 6,
+  "implemented_family_queries": 45,
+  "enum_values": {
+    "TutorialStep": [
+      {
+        "name": "Upgrade",
+        "value": 0,
+        "encoded_byte": 0
+      },
+      {
+        "name": "Challenge",
+        "value": 1,
+        "encoded_byte": 2
+      },
+      {
+        "name": "GunOpen",
+        "value": 2,
+        "encoded_byte": 4
+      },
+      {
+        "name": "GunBuy",
+        "value": 3,
+        "encoded_byte": 6
+      },
+      {
+        "name": "GunEquip",
+        "value": 4,
+        "encoded_byte": 8
+      },
+      {
+        "name": "Done",
+        "value": 5,
+        "encoded_byte": 10
+      }
+    ],
+    "Ease": [
+      {
+        "name": "OutQuad",
+        "value": 6,
+        "encoded_byte": 12
+      }
+    ],
+    "LoopType": [
+      {
+        "name": "Yoyo",
+        "value": 1,
+        "encoded_byte": 2
+      }
+    ]
+  },
+  "original_monoscript_meta": [
+    {
+      "type": "Tutorial_manager",
+      "sha256": "9d79ece8185d2287a04096bafe8b565c21320c1ac2a97eb9cba0931b28f38e67",
+      "unchanged": true
+    },
+    {
+      "type": "TutorialArrow_UI",
+      "sha256": "d018c97559d7b74775cdaa9596e6d151cfe2c9d58ad3e6dc6c4c497d2a5028c0",
+      "unchanged": true
+    },
+    {
+      "type": "Gun_Merge_Tutorial",
+      "sha256": "59d93870b3be05b88e4502730677d2a02c21d7f69d683b3ddabdbbccb2009db6",
+      "unchanged": true
+    }
+  ],
+  "save_and_grant_evidence": {
+    "native-adventure-state-reviewed/SaveData_CreateFromCurrentState.c": "6d347d6008ef8036ad1ea626c1687914c5f4fbcc271bd3f03d8d664a7a25d0a0",
+    "native-adventure-state-reviewed/LoadData_ContinueLoad.c": "87492a44615edea5e25aa7fdb29127fbb530ced925976286602250d4e1514156",
+    "native-inventory-dependencies-reviewed/Gamemanager_Get_Dia_0x6000078.c": "ae6cb721ace09363260fa82aca65f47c74aeb8fe43cd688da4439d5c2675c8fd"
+  },
+  "rules": {
+    "entry": "Original loaded TutorialCleared or attack upgrade>=1 ->Done without grant; otherwise Upgrade0. Original LoadData SetCleared and Start ordering replaced by client Bind after validation/loading.",
+    "upgrade": "Every .2 scaled seconds: show upgrade hand iff wallet>=current attack upgrade price; attack>=1 ->Challenge1.",
+    "challenge": "Hide challenge until attack>=3; then show and wait for actual SpeedRun.Stage_Now>0 ->GunOpen2.",
+    "gun_open": "Show gun button; hand follows activeInHierarchy. Any active equipment slot or original OnGunButtonPressed ->GunBuy3.",
+    "gun_buy": "Native Get_Dia(100-Dia) only if Dia<100, native _getDia += grant*3; local currency event bridge. Any Owned_Gun_list!=-1 ->GunEquip4; purchase hand follows visible draw button.",
+    "equip": "Yield one frame; first non-null activeSelf item ->second equip slot; arrow visibility follows slot hierarchy and captured item. Any occupied companion slot or main slot!=Gun0 ->Done5.",
+    "completion": "Hide all hands/arrow; restore non-null DisableOnTutorial; refresh content gates and deactivate own original root. Complete does not directly write SaveData; save capture assigns TutorialCleared=(CurrentStep==5). SetCleared sets cleared, stops coroutines, completes; RequestIfNeeded empty.",
+    "persistence": "Existing local archive/5s autosave and safe startup adapter retained. Only unique test profiles altered; no original phone or live Editor save reset."
+  },
+  "pulse_manifest": {
+    "source": "Frozen original Main.unity DOTweenAnimation components",
+    "rows": [
+      {
+        "originalComponent": 123549,
+        "originalGo": 505,
+        "path": [
+          {
+            "name": "Canvas",
+            "ordinal": 0
+          },
+          {
+            "name": "SafeArea",
+            "ordinal": 0
+          },
+          {
+            "name": "Tutorial_manager",
+            "ordinal": 0
+          },
+          {
+            "name": 2,
+            "ordinal": 0
+          },
+          {
+            "name": "hand",
+            "ordinal": 0
+          }
+        ],
+        "duration": 1,
+        "endScale": 1.2,
+        "easeType": 6,
+        "loopType": 1,
+        "loops": -1,
+        "independentUpdate": false,
+        "sourceScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "nativeSdkReplaced": true
+      },
+      {
+        "originalComponent": 124744,
+        "originalGo": 1487,
+        "path": [
+          {
+            "name": "Canvas",
+            "ordinal": 0
+          },
+          {
+            "name": "SafeArea",
+            "ordinal": 0
+          },
+          {
+            "name": "Tutorial_manager",
+            "ordinal": 0
+          },
+          {
+            "name": 0,
+            "ordinal": 0
+          },
+          {
+            "name": "hand",
+            "ordinal": 0
+          }
+        ],
+        "duration": 1,
+        "endScale": 1.2,
+        "easeType": 6,
+        "loopType": 1,
+        "loops": -1,
+        "independentUpdate": false,
+        "sourceScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "nativeSdkReplaced": true
+      },
+      {
+        "originalComponent": 124649,
+        "originalGo": 1404,
+        "path": [
+          {
+            "name": "Canvas",
+            "ordinal": 0
+          },
+          {
+            "name": "SafeArea",
+            "ordinal": 0
+          },
+          {
+            "name": "Tutorial_manager",
+            "ordinal": 0
+          },
+          {
+            "name": 3,
+            "ordinal": 0
+          },
+          {
+            "name": "hand",
+            "ordinal": 0
+          }
+        ],
+        "duration": 1,
+        "endScale": 1.2,
+        "easeType": 6,
+        "loopType": 1,
+        "loops": -1,
+        "independentUpdate": false,
+        "sourceScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "nativeSdkReplaced": true
+      }
+    ],
+    "boundary": "Explicit local scale presentation adapter; source OutQuad/Yoyo/1s/1.2 are retained, not original DOTween SDK implementation/lifecycle."
+  },
+  "adapters": [
+    "RecoveryForestClient binding/loading/archive replaces original global bootstrap.",
+    "Seven missing DisableOnTutorial HUD refs remain null; native foreach skips null. Four ordinary refs reconnected and8content gates use current tutorial step. Missing commercial/online behavior not simulated.",
+    "Original attribution logging excluded; no purchase history or Merge_Tutorial_Logged forged.",
+    "Source3DOTween hand pulses use local RecoveryTutorialPulse presenter, source parameters and meta-backed Ease/LoopType values."
+  ],
+  "runtime_sources": {
+    "Tutorial_manager": "4c6d92b6b3b6b97fff06bb52106fe36066da5bb2f34168082a47e6b21001b080",
+    "RecoveryTutorialPulse": "5db9e4c12699527463d998297b8143a8a964f72a716cf21a58188d674a44af9e",
+    "RecoveryForestClient": "1322913381c7602be5c5f3d50686e915980858240af8639773ea969c3abc3ce7",
+    "Contents_Unlock_manager": "b4d00d42e99327409f5abd14d5f7e364b1059520022f83db81ad4ef1d00942c2",
+    "TutorialArrow_UI": "a310c60d9b099915f7bd429bd9bf3aa295490ba338c5686593f4426b58a755d5",
+    "Gun_Merge_Tutorial": "76cabc8d0b23fa5b71de287eb53db0226cbca262d868c7b2cc5dc8a5649b4284"
+  },
+  "boundary": "Five ordinary tutorial steps restored. Three hand pulses are explicit SDK presentation adapters. Other HUD, WeeklyShop, effects/localization, relic consumers/missing table, Raid tasks, Player/device/commercial/online/full-client acceptance remain."
+}

@@ -1,0 +1,10 @@
+var data=Newtonsoft.Json.Linq.JObject.Parse(System.IO.File.ReadAllText("Assets/Recovery/Editor/OriginalDailyCheck.json"));
+var root=UnityEngine.SceneManagement.SceneManager.GetActiveScene();
+var c=UnityEngine.Object.FindAnyObjectByType<CatGunner.Recovery.RecoveryForestClient>(UnityEngine.FindObjectsInactive.Include);var d=c.DailyLogin;
+var text=System.IO.File.ReadAllText("Assets/Recovery/Scenes/RecoveredDailyCheckSource.unity");
+var guids=System.Text.RegularExpressions.Regex.Matches(text,"guid: ([a-f0-9]{32})").Cast<System.Text.RegularExpressions.Match>().Select(m=>m.Groups[1].Value).Distinct().ToArray();
+var missing=guids.Where(g=>!g.StartsWith("0000000000000000")&&string.IsNullOrEmpty(UnityEditor.AssetDatabase.GUIDToAssetPath(g))).ToArray();
+var buttons=d.GetComponentsInChildren<UnityEngine.UI.Button>(true).ToArray();
+var invalid=buttons.Where(b=>b.interactable).SelectMany(b=>Enumerable.Range(0,b.onClick.GetPersistentEventCount()).Select(i=>new{button=b.name,target=b.onClick.GetPersistentTarget(i),method=b.onClick.GetPersistentMethodName(i)})).Where(x=>x.target==null||!x.target.GetType().GetMethods().Any(m=>m.Name==x.method)).Select(x=>x.button+":"+x.method).ToArray();
+var report=new{scene=root.path,rewards=d.DiaReward_list,dates=d.Reward_list.Select(r=>r.Date).ToArray(),rewardMarkerReferences=d.Reward_list.All(r=>r.Getable_obj!=null&&r.Geted_obj!=null),requiredGuidCount=guids.Length,missingAssetGuids=missing,invalidInteractiveCallbacks=invalid,affiliateActive=d.Coupang_Panel.activeSelf,affiliateHudActive=d.Coupang_hud_obj.activeSelf};
+System.IO.File.WriteAllText("/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/daily-check-reference-audit.json",Newtonsoft.Json.JsonConvert.SerializeObject(report,Newtonsoft.Json.Formatting.Indented));return report;

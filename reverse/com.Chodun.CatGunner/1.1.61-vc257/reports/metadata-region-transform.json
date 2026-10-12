@@ -1,0 +1,87 @@
+{
+  "native_sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "source_sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+  "loader_preferred_va": "0x294335c",
+  "ghidra_rebase_delta": "0x100000",
+  "header_bytes": 408,
+  "status": "seven native-loaded regions decoded; image/type/method/field/name index adapter validated; remaining full-header and parameter/Il2CppType adapter pending",
+  "regions": [
+    {
+      "index": 0,
+      "header_size_field": "0x1c",
+      "header_offset_field": "0xb4",
+      "offset_adjustment": -608,
+      "source_offset": 2128,
+      "bytes": 181096,
+      "output": "region-0.decoded.bin",
+      "sha256": "2a966ebc184345910db87d0c5360029de266652f420d5a2a1ce2338c4fef8c0e",
+      "semantic_role": "not yet independently mapped"
+    },
+    {
+      "index": 1,
+      "header_size_field": "0x18",
+      "header_offset_field": "0x164",
+      "offset_adjustment": -1380,
+      "source_offset": 3890260,
+      "bytes": 5134752,
+      "output": "region-1.decoded.bin",
+      "sha256": "b815549aecf22ec53539ad5d4762c9915b9870d6ed9f523d85541f9c3e38fd12",
+      "semantic_role": "MethodDefinition: 142632 records, 36 bytes, tokens and declaring ownership validated"
+    },
+    {
+      "index": 2,
+      "header_size_field": "0x13c",
+      "header_offset_field": "0x170",
+      "offset_adjustment": 4528,
+      "source_offset": 3371880,
+      "bytes": 518380,
+      "output": "region-2.decoded.bin",
+      "sha256": "e4ffbff477cb05f4b0212ccc63e010f1be29b2e24801dbf5b45b9837562fc922",
+      "semantic_role": "not yet independently mapped"
+    },
+    {
+      "index": 3,
+      "header_size_field": "0xe8",
+      "header_offset_field": "0x6c",
+      "offset_adjustment": -2688,
+      "source_offset": 16188564,
+      "bytes": 8704,
+      "output": "region-3.decoded.bin",
+      "sha256": "6950621c218ba2bc23c5795a5d9bc080bd3716b08f0b44f083fbd2b3d0930bb5",
+      "semantic_role": "AssemblyDefinition: 136 records, 64 bytes, token column identified"
+    },
+    {
+      "index": 4,
+      "header_size_field": "0x108",
+      "header_offset_field": "0xc0",
+      "offset_adjustment": -2808,
+      "source_offset": 183224,
+      "bytes": 681952,
+      "output": "region-4.decoded.bin",
+      "sha256": "356adf3be2c72d699d1414a1dd521c7bad3a41a5071a8b5f902b0d5795e27bbf",
+      "semantic_role": "not yet independently mapped"
+    },
+    {
+      "index": 5,
+      "header_size_field": "0x94",
+      "header_offset_field": "0xe4",
+      "offset_adjustment": -4952,
+      "source_offset": 865176,
+      "bytes": 2465784,
+      "output": "region-5.decoded.bin",
+      "sha256": "46120ac75725e797dad21da3a4d62e01ccf37969e429e640fc6dac977ba634fc",
+      "semantic_role": "metadata name string table: UTF-8/name indexes independently validated through image/type/method/field records"
+    },
+    {
+      "index": 6,
+      "header_size_field": "0x188",
+      "header_offset_field": "0x68",
+      "offset_adjustment": -5088,
+      "source_offset": 12325972,
+      "bytes": 957864,
+      "output": "region-6.decoded.bin",
+      "sha256": "3e31796d1a520c4718558a9338aadb84384901de6e0bc8cbb96a33395fa132c1",
+      "semantic_role": "FieldDefinition: 79822 records, 12 bytes, tokens and owning ranges validated"
+    }
+  ]
+}

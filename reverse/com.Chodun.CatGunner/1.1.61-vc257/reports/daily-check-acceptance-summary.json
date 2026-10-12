@@ -1,0 +1,141 @@
+{
+  "tests": {
+    "daily_check": {
+      "report": "live-daily-check-final-status.json",
+      "status": "completed",
+      "duration": 57.66,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "onboarding": {
+      "report": "live-daily-check-onboarding-status.json",
+      "status": "completed",
+      "duration": 77.55,
+      "summary": {
+        "total": 5,
+        "passed": 5,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "eco": {
+      "report": "live-daily-check-eco-status.json",
+      "status": "completed",
+      "duration": 84.58,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "feedback": {
+      "report": "live-daily-check-feedback-status.json",
+      "status": "completed",
+      "duration": 27.18,
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "startup": {
+      "report": "live-daily-check-startup-status.json",
+      "status": "completed",
+      "duration": 23.58,
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    }
+  },
+  "editor": {
+    "unity": "6000.4.10f1",
+    "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+    "playing": false,
+    "paused": false,
+    "compiling": false,
+    "dirty": false,
+    "persist": true,
+    "saveOverride": null,
+    "objects": 34995,
+    "missingScripts": 0,
+    "connectedTutorialReferences": 7,
+    "dailyPanelActive": false,
+    "dailyRewards": [
+      70,
+      200,
+      400,
+      600,
+      800,
+      1000,
+      1500
+    ],
+    "autoShow": true,
+    "eventSystems": 1,
+    "inputOverrides": 0,
+    "readyForUserPlay": true,
+    "trustedDateProviderAvailable": false,
+    "scopeComplete": false
+  },
+  "scene_audit": {
+    "oldDocuments": 129628,
+    "newDocuments": 130176,
+    "newOriginalObjects": 142,
+    "newDocumentIdentities": 548,
+    "preservedExistingIdentities": 129628,
+    "semanticallyUnchangedExistingDocuments": 129624,
+    "intentionalExistingChanges": [
+      {
+        "oldId": "103366",
+        "newId": "103366",
+        "type": 114,
+        "name": "Tutorial_manager",
+        "script": "326bba145e7e452888a7fbf4f8bef13b"
+      },
+      {
+        "oldId": "103716",
+        "newId": "103716",
+        "type": 224,
+        "name": "Btn_list",
+        "script": null
+      },
+      {
+        "oldId": "124873",
+        "newId": "124873",
+        "type": 114,
+        "name": "Tree_manager",
+        "script": "bab892657d9fc4e34a43a11a63ba6aec"
+      },
+      {
+        "oldId": "1173336095",
+        "newId": "1173336095",
+        "type": 224,
+        "name": "SafeArea",
+        "script": null
+      }
+    ],
+    "editorLocalIdRemapping": {
+      "124573": "124575",
+      "129023": "1000626031",
+      "146916": "1684719555",
+      "147290": "902801336"
+    },
+    "removedExistingObjectsOrComponents": 0,
+    "audit": "References normalized only through verified same hierarchy/name/component identities; all existing serialized fields must match except two parent child lists, the client binding and the original Tutorial_manager DailyCheck control reference."
+  },
+  "save_audit": "daily-check-preservation-audit.json",
+  "scope_complete": false
+}

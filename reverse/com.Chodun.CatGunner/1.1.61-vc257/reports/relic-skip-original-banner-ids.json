@@ -1,0 +1,71 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var c=UnityEngine.Object.FindAnyObjectByType<CatGunner.Recovery.RecoveryForestClient>();return new{banners=new[]{c.Forest.GameWin_UI,c.Forest.GameFail_UI,c.Forest.GameSkip_UI}.Select(g=>new{g.name,raw=g.GetComponentsInChildren<UnityEngine.UI.RawImage>(true).Select(i=>new{name=i.name,id=UnityEditor.GlobalObjectId.GetGlobalObjectIdSlow(i.gameObject).targetObjectId}).ToArray(),text=g.GetComponentsInChildren<TMPro.TextMeshProUGUI>(true).Select(t=>new{t.text,font=UnityEditor.AssetDatabase.GetAssetPath(t.font)}).ToArray()}).ToArray()};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "banners": [
+          {
+            "name": "GameWin_obj",
+            "raw": [
+              {
+                "name": "Scroll",
+                "id": 1184
+              }
+            ],
+            "text": [
+              {
+                "text": "스테이지 클리어!",
+                "font": "Assets/MonoBehaviour/Mitme_Outline.asset"
+              }
+            ]
+          },
+          {
+            "name": "GameFail_obj",
+            "raw": [
+              {
+                "name": "Scroll",
+                "id": 1309
+              }
+            ],
+            "text": [
+              {
+                "text": "시간 초과!",
+                "font": "Assets/MonoBehaviour/Mitme_Outline.asset"
+              }
+            ]
+          },
+          {
+            "name": "GameSkip_obj",
+            "raw": [
+              {
+                "name": "Scroll",
+                "id": 1986
+              }
+            ],
+            "text": [
+              {
+                "text": "스테이지 스킵!",
+                "font": "Assets/MonoBehaviour/Mitme_Outline.asset"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,48 @@
+{
+  "status": "completed",
+  "duration": 46.42,
+  "summary": {
+    "total": 5,
+    "passed": 5,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalBuffPurchaseTests.ClosedReopenedPageAndChangedModeRejectStaleCompletion",
+      "Status": "Passed",
+      "Duration": 12.4768705,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalBuffPurchaseTests.DisabledCancelledAndDuplicateRequestsCannotPartiallyGrant",
+      "Status": "Passed",
+      "Duration": 7.5411764,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalBuffPurchaseTests.OfflineSnapshotIgnoresTemporaryTimersAndUsesOnlyOwnedPack",
+      "Status": "Passed",
+      "Duration": 5.8222691,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalBuffPurchaseTests.OriginalPopupRealClickAwardsOnceFreezesTimersAndColdReloadKeepsPack",
+      "Status": "Passed",
+      "Duration": 13.7492468,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalBuffPurchaseTests.RebindingKeepsOneAdapterAndUnsupportedPromotionalButtonDisabled",
+      "Status": "Passed",
+      "Duration": 5.8250352,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

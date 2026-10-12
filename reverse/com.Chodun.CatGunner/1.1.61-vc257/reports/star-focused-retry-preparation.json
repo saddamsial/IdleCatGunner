@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "UnityEditor.SceneManagement.EditorSceneManager.OpenScene(\"Assets/Recovery/Scenes/RecoveredTarget.unity\"); UnityEditor.EditorApplication.isPaused=false; UnityEngine.Time.timeScale=1; return \"display repaired; independent test scene ready\";"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": "display repaired; independent test scene ready"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

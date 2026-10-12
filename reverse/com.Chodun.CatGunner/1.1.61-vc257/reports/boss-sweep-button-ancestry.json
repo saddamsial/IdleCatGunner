@@ -1,0 +1,566 @@
+[
+  {
+    "name": "Bonus_Btn",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "Image",
+      "Button",
+      "BounceBtn"
+    ],
+    "parents": [
+      {
+        "name": "Bonus_Btn",
+        "active": true,
+        "components": [
+          "RectTransform",
+          "CanvasRenderer",
+          "Image",
+          "Button",
+          "BounceBtn"
+        ],
+        "groups": [],
+        "button": true
+      },
+      {
+        "name": "Bonus_Objs",
+        "active": true,
+        "components": [
+          "RectTransform",
+          "BounceStart"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Panel",
+        "active": true,
+        "components": [
+          "RectTransform",
+          "CanvasRenderer",
+          "Image",
+          "BounceStart"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "GameWin_obj",
+        "active": false,
+        "components": [
+          "RectTransform",
+          "Animator"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Boss_UI",
+        "active": false,
+        "components": [
+          "RectTransform"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Contents_UI",
+        "active": true,
+        "components": [
+          "RectTransform"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Canvas",
+        "active": true,
+        "components": [
+          "RectTransform",
+          "Canvas",
+          "CanvasScaler",
+          "GraphicRaycaster"
+        ],
+        "groups": [],
+        "button": null
+      }
+    ]
+  },
+  {
+    "name": "NoAds_Btn",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "Image",
+      "Button",
+      "BounceBtn"
+    ],
+    "parents": [
+      {
+        "name": "NoAds_Btn",
+        "active": false,
+        "components": [
+          "RectTransform",
+          "CanvasRenderer",
+          "Image",
+          "Button",
+          "BounceBtn"
+        ],
+        "groups": [],
+        "button": true
+      },
+      {
+        "name": "Bonus_Objs",
+        "active": true,
+        "components": [
+          "RectTransform",
+          "BounceStart"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Panel",
+        "active": true,
+        "components": [
+          "RectTransform",
+          "CanvasRenderer",
+          "Image",
+          "BounceStart"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "GameWin_obj",
+        "active": false,
+        "components": [
+          "RectTransform",
+          "Animator"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Boss_UI",
+        "active": false,
+        "components": [
+          "RectTransform"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Contents_UI",
+        "active": true,
+        "components": [
+          "RectTransform"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Canvas",
+        "active": true,
+        "components": [
+          "RectTransform",
+          "Canvas",
+          "CanvasScaler",
+          "GraphicRaycaster"
+        ],
+        "groups": [],
+        "button": null
+      }
+    ]
+  },
+  {
+    "name": "Skip_obj",
+    "components": [
+      "RectTransform",
+      "BounceStart"
+    ],
+    "parents": [
+      {
+        "name": "Skip_obj",
+        "active": true,
+        "components": [
+          "RectTransform",
+          "BounceStart"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "GameWin_obj",
+        "active": false,
+        "components": [
+          "RectTransform",
+          "Animator"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Boss_UI",
+        "active": false,
+        "components": [
+          "RectTransform"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Contents_UI",
+        "active": true,
+        "components": [
+          "RectTransform"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Canvas",
+        "active": true,
+        "components": [
+          "RectTransform",
+          "Canvas",
+          "CanvasScaler",
+          "GraphicRaycaster"
+        ],
+        "groups": [],
+        "button": null
+      }
+    ]
+  },
+  {
+    "name": "Bonus_Btn",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "Image",
+      "Button",
+      "BounceBtn"
+    ],
+    "parents": [
+      {
+        "name": "Bonus_Btn",
+        "active": true,
+        "components": [
+          "RectTransform",
+          "CanvasRenderer",
+          "Image",
+          "Button",
+          "BounceBtn"
+        ],
+        "groups": [],
+        "button": true
+      },
+      {
+        "name": "Bonus_Objs",
+        "active": true,
+        "components": [
+          "RectTransform",
+          "BounceStart"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Panel",
+        "active": true,
+        "components": [
+          "RectTransform",
+          "CanvasRenderer",
+          "Image",
+          "BounceStart"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "GameSweep_obj",
+        "active": false,
+        "components": [
+          "RectTransform",
+          "Animator"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Boss_UI",
+        "active": false,
+        "components": [
+          "RectTransform"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Contents_UI",
+        "active": true,
+        "components": [
+          "RectTransform"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Canvas",
+        "active": true,
+        "components": [
+          "RectTransform",
+          "Canvas",
+          "CanvasScaler",
+          "GraphicRaycaster"
+        ],
+        "groups": [],
+        "button": null
+      }
+    ]
+  },
+  {
+    "name": "NoAds_Btn",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "Image",
+      "Button",
+      "BounceBtn"
+    ],
+    "parents": [
+      {
+        "name": "NoAds_Btn",
+        "active": false,
+        "components": [
+          "RectTransform",
+          "CanvasRenderer",
+          "Image",
+          "Button",
+          "BounceBtn"
+        ],
+        "groups": [],
+        "button": true
+      },
+      {
+        "name": "Bonus_Objs",
+        "active": true,
+        "components": [
+          "RectTransform",
+          "BounceStart"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Panel",
+        "active": true,
+        "components": [
+          "RectTransform",
+          "CanvasRenderer",
+          "Image",
+          "BounceStart"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "GameSweep_obj",
+        "active": false,
+        "components": [
+          "RectTransform",
+          "Animator"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Boss_UI",
+        "active": false,
+        "components": [
+          "RectTransform"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Contents_UI",
+        "active": true,
+        "components": [
+          "RectTransform"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Canvas",
+        "active": true,
+        "components": [
+          "RectTransform",
+          "Canvas",
+          "CanvasScaler",
+          "GraphicRaycaster"
+        ],
+        "groups": [],
+        "button": null
+      }
+    ]
+  },
+  {
+    "name": "Skip_obj",
+    "components": [
+      "RectTransform",
+      "BounceStart"
+    ],
+    "parents": [
+      {
+        "name": "Skip_obj",
+        "active": true,
+        "components": [
+          "RectTransform",
+          "BounceStart"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "GameSweep_obj",
+        "active": false,
+        "components": [
+          "RectTransform",
+          "Animator"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Boss_UI",
+        "active": false,
+        "components": [
+          "RectTransform"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Contents_UI",
+        "active": true,
+        "components": [
+          "RectTransform"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Canvas",
+        "active": true,
+        "components": [
+          "RectTransform",
+          "Canvas",
+          "CanvasScaler",
+          "GraphicRaycaster"
+        ],
+        "groups": [],
+        "button": null
+      }
+    ]
+  },
+  {
+    "name": "GameWin_obj",
+    "components": [
+      "RectTransform",
+      "Animator"
+    ],
+    "parents": [
+      {
+        "name": "GameWin_obj",
+        "active": false,
+        "components": [
+          "RectTransform",
+          "Animator"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Boss_UI",
+        "active": false,
+        "components": [
+          "RectTransform"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Contents_UI",
+        "active": true,
+        "components": [
+          "RectTransform"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Canvas",
+        "active": true,
+        "components": [
+          "RectTransform",
+          "Canvas",
+          "CanvasScaler",
+          "GraphicRaycaster"
+        ],
+        "groups": [],
+        "button": null
+      }
+    ]
+  },
+  {
+    "name": "GameSweep_obj",
+    "components": [
+      "RectTransform",
+      "Animator"
+    ],
+    "parents": [
+      {
+        "name": "GameSweep_obj",
+        "active": false,
+        "components": [
+          "RectTransform",
+          "Animator"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Boss_UI",
+        "active": false,
+        "components": [
+          "RectTransform"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Contents_UI",
+        "active": true,
+        "components": [
+          "RectTransform"
+        ],
+        "groups": [],
+        "button": null
+      },
+      {
+        "name": "Canvas",
+        "active": true,
+        "components": [
+          "RectTransform",
+          "Canvas",
+          "CanvasScaler",
+          "GraphicRaycaster"
+        ],
+        "groups": [],
+        "button": null
+      }
+    ]
+  }
+]

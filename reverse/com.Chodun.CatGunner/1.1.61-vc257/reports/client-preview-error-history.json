@@ -1,0 +1,12 @@
+{
+  "reports": [
+    "client-pointer-observer-errors.json",
+    "client-pointer-observer-console.json",
+    "client-default-pointer-diagnostic.json"
+  ],
+  "failure": "First StartCoroutine initial MoveNext called synchronously from Editor eval; Screen436x473 (SceneView context) while original panel center540/129 caused zero raycast hits. Observer rejected click; no upgrade deducted.",
+  "resolution": "Resume pointer observation after yield return null in real PlayerLoop. Same scene/shared Canvas then actual raycast hit Outline within Speed panel; PointerDown/Up/Click deducted50 once, level0→1, next price68/value108. Runtime source and scene unchanged after69/69.",
+  "wallet_progress": "Default income continued between captures: screenshot wallet322, native additional income176 gives498 before click,448 afterward. No injected money or stat changes.",
+  "compiler_observer_repair": "Editor-only initial DecimalAmount.FromInt call corrected to existing constructor; runtime69-test sources unchanged.",
+  "final_source": "ForestClientPreview.cs now yields before raycast to avoid Editor screen context."
+}

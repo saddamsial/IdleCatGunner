@@ -1,0 +1,1661 @@
+{
+  "rule": 56,
+  "updatedUtc": "2026-10-11T12:24:18.154016+00:00",
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "editor": "6000.4.10f1",
+  "native": {
+    "rule": 56,
+    "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+    "methods": [
+      {
+        "name": "_RunCoroutine_d__13_MoveNext",
+        "preferredVa": "0x2b0a470",
+        "end": "0x2b0b364",
+        "sha256": "e0d47783eb85c7f104b1d8252148906d627bc7226d303eb0a405f0724d64c724",
+        "reviewedOutput": "native-offline-simulation-reviewed/_RunCoroutine_d__13_MoveNext",
+        "reusedCompletedQuery": true
+      },
+      {
+        "name": "OfflineProgressSimulator_CalcClearInfo",
+        "preferredVa": "0x2b077b0",
+        "end": "0x2b086e8",
+        "sha256": "c9f4c51d14a6872b98450ed8c9343d699b487d3a9da6f12a6827e1f2a1dc9c8d",
+        "reviewedOutput": "native-offline-simulation-reviewed/OfflineProgressSimulator_CalcClearInfo",
+        "reusedCompletedQuery": true
+      },
+      {
+        "name": "OfflineProgressSimulator_CalcFarmMoneyPerSec",
+        "preferredVa": "0x2b08d84",
+        "end": "0x2b090c8",
+        "sha256": "7d5086da3e01a5bfdbe66e8f4f515f4b6eb5290e48cd52b1c93fbbc457ad4411",
+        "reviewedOutput": "native-offline-simulation-reviewed/OfflineProgressSimulator_CalcFarmMoneyPerSec",
+        "reusedCompletedQuery": true
+      },
+      {
+        "name": "OfflineProgressSimulator_CalcMoneyPerStage",
+        "preferredVa": "0x2b09480",
+        "end": "0x2b0987c",
+        "sha256": "67e34707a08edaeb097009b7401c3af4e820d8d815672eb254993e3dea12ba1a",
+        "reviewedOutput": "native-offline-simulation-reviewed/OfflineProgressSimulator_CalcMoneyPerStage",
+        "reusedCompletedQuery": true
+      },
+      {
+        "name": "Inapp_Purchase_Popup_Purchase",
+        "preferredVa": "0x2ba6008",
+        "end": "0x2ba60a4",
+        "sha256": "d23b319ac919547b93064d1138b71ae0efe469d8aa15a32f115b63a320f135c4",
+        "reviewedOutput": "native-local-purchase-content-reviewed/Inapp_Purchase_Popup_Purchase",
+        "reusedCompletedQuery": true
+      },
+      {
+        "name": "Shop_manager_ApplyNonConsumable",
+        "preferredVa": "0x2b967e4",
+        "end": "0x2b96d50",
+        "sha256": "d76ab809cdd06f1e564c0b32c79cac86fe35e8bb0a5d37bbfb2fec207c8e1564",
+        "reviewedOutput": "native-local-purchase-content-reviewed/Shop_manager_ApplyNonConsumable",
+        "reusedCompletedQuery": true
+      },
+      {
+        "name": "Shop_manager_TryApplyPurchase",
+        "preferredVa": "0x2b977fc",
+        "end": "0x2b97f0c",
+        "sha256": "97555d68f7dd3fdbfef2b2f9f9ebbb91df5c1fba31d198c0eb17ea691926e791",
+        "reviewedOutput": "native-local-purchase-content-reviewed/Shop_manager_TryApplyPurchase",
+        "reusedCompletedQuery": true
+      }
+    ],
+    "originalRoute": {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Buff_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Buff_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "InApp & FREECASH",
+          "ordinal": 0
+        },
+        {
+          "name": "BuffPack (Inapp)",
+          "ordinal": 0
+        },
+        {
+          "name": "BuffPack",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Buff_manager/Buff_UI/InApp & FREECASH/BuffPack (Inapp)/BuffPack",
+      "buttonSourceId": 123680,
+      "method": "Purchase",
+      "targetType": "Inapp_Purchase_Popup",
+      "targetSourceId": 125109,
+      "callIndex": 0,
+      "productId": "buff_pack"
+    },
+    "fieldOffsets": {
+      "ownedSaveFlag": 511,
+      "ownedShopFlag": 11,
+      "offlineSnapshot": 376,
+      "temporarySaveTimers": [
+        808,
+        812,
+        816
+      ],
+      "popupType": 32
+    },
+    "offlineOracle": "ldrb SaveData+0x1ff; select4/1; str coroutine+0x178, snapshot passed to clear/farm/per-stage; temporary timers excluded",
+    "purchaseOracle": "type3 popup -> Purchase_Banner; reviewed local nonconsumable reward once: owned flag and1000 diamonds",
+    "adapter": "Runtime listener on existing original button; local asynchronous payment-success simulator; optional visible-page/revision/mode guard; null original commercial target retained; FreeCash remains disabled; runtime selects original IAP branch and hides overlapping promotional branch, serialized scene unchanged",
+    "sceneEdited": false,
+    "realPayment": false,
+    "newNativeQueries": 0,
+    "scopeComplete": false,
+    "originalPresentation": {
+      "group": 2079,
+      "purchaseBranch": 1798,
+      "purchaseStartsActive": false,
+      "promotionalBranch": 336,
+      "promotionStartsActive": true,
+      "rectSize": [
+        970.1,
+        286.19995
+      ],
+      "branchesOverlap": true
+    },
+    "offlineSavedDataField": {
+      "name": "data",
+      "signature": "SaveData",
+      "nativeOffset": 32
+    }
+  },
+  "independentTests": [
+    {
+      "report": "reports/buff-purchase-playmode.json",
+      "duration": 44.67,
+      "summary": {
+        "total": 5,
+        "passed": 5,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "independentCompleteRun": true
+    },
+    {
+      "report": "reports/buff-purchase-regression-short-buff.json",
+      "duration": 77.37,
+      "summary": {
+        "total": 10,
+        "passed": 10,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "independentCompleteRun": true
+    },
+    {
+      "report": "reports/buff-purchase-regression-store.json",
+      "duration": 55.42,
+      "summary": {
+        "total": 7,
+        "passed": 7,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "independentCompleteRun": true
+    },
+    {
+      "report": "reports/buff-purchase-regression-startup.json",
+      "duration": 29.45,
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "independentCompleteRun": true
+    }
+  ],
+  "historicalAttempts": [
+    "reports/buff-purchase-first-attempt.json",
+    "reports/buff-purchase-pre-visual-fixture.json"
+  ],
+  "gpu": [
+    {
+      "path": "reports/visual/buff-purchase-available-gpu.png",
+      "sha256": "737545edf69aade1c749b89263696198ed9f6a080b602778dcb6639f95e9b8a4",
+      "actuallyViewed": true
+    },
+    {
+      "path": "reports/visual/buff-purchase-owned-gpu.png",
+      "sha256": "89c3b4b4bab2575a776a2ce3f755c21b90e37573083d7062f10fec2c19fa9401",
+      "actuallyViewed": true
+    }
+  ],
+  "preservation": {
+    "allProtectedRecordsUnchanged": true,
+    "records": [
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scenes/RecoveredClient.unity",
+        "sha256": "c765c3b2018b27144541f01694127da07c17761dde923d7e3c54c9a85a25d644"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Packages/manifest.json",
+        "sha256": "8c41dfc173cef80f7ee4490702caeaf7df41f5ed62492bec1e75dcb463c876ec"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Packages/packages-lock.json",
+        "sha256": "e9d7c78f11de67cb7060fcbebb96eb413f8c5c6d0c9eea563dd310ec7587ac49"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalOfflineSimulation.cs.meta",
+        "sha256": "cb6410e35fe7b90067fe78a2193910d02e6923a819242b204bca00235d91105e"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Skin_manager.cs.meta",
+        "sha256": "cea61fb455cd22337ba00dd6587a9c7e941fbfb8574585b12897f588a1bc8e20"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Mission_manager.cs.meta",
+        "sha256": "b1dfb32fdd5f8d63a197680ff5423f967ac1c648e234a960c83e62977b77ccfa"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Gun_manager.cs.meta",
+        "sha256": "991e68f23e56942e71a2eaeb3808513874d95f06f0cf197f3d57a580d6120557"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalBossSweepRules.cs.meta",
+        "sha256": "b6e7a1f79c7b877b37a85bda2dfe35c6458e5e0415e5d3507b216b255fb3083b"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Disc.cs.meta",
+        "sha256": "c8c02f68d6047e028517707612a42736022bd5787f420b592d9c2abbe5076e36"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/StepUp_popup.cs.meta",
+        "sha256": "1aa371117bd8ec6d3a09c9f7c89f7d279eee2a2449ce1adcd88fb272ba5bea33"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryAutoMergeAccess.cs.meta",
+        "sha256": "cc5c03e889f54f63218931cca0d8fe2eec3f85df329443485da10fb9a69c6f97"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalBalanceCatalogue.cs.meta",
+        "sha256": "f30874159218b96b8762eb4379e04d8f1902cb5e7aa0c20c755d2348e42f56d1"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_Exit_Panel.cs.meta",
+        "sha256": "d2d611bcc385a903d159f8d5f25a26176268a73763e1bb9d11db7a6eed07d777"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Cat.cs.meta",
+        "sha256": "b860ee09745c5bf02cd94e74b931a1f14dfbf1105b5cf462471885ee7c449380"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Menu.cs.meta",
+        "sha256": "483dc7fa3eb4dcac0b10c247878a79de6b111455895043d4472525c9158163c4"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Boss.cs.meta",
+        "sha256": "dcd4dec0869f60b0b1687164e808a8a22029e24a9445527afd97101f1a6a1ad1"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Pet_Item_List.cs.meta",
+        "sha256": "5e19ae6c02bf352bbb366af59c1a4f2a7b6cea6255680c58cab78c91f11c8176"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalGunInventory.cs.meta",
+        "sha256": "9818a2672d5f7ca3cffc69f613f78f5f9864caf8ef67a393381d1a358690de51"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Mine_Start_UI.cs.meta",
+        "sha256": "ee27712a2cf8fde76a0150c662f01cca81137934302d1d11af8447a529877428"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalAdventureRules.cs.meta",
+        "sha256": "4d957cf65e236353073fe46a7a67fff584dcb5dbf50ddb7457babb38e969b221"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Boss_manager.cs.meta",
+        "sha256": "1229c593e0191893e7d37136b1e17c2ec1d1040e84aa9405e39267ee1135a538"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Currency_PetCoin.cs.meta",
+        "sha256": "ed3b18a602e2e04823b1bcbfd02cbe863b4e4e6faadad70cde914bf86190603f"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/CatMineTargeting.cs.meta",
+        "sha256": "470083b48e45b0331d1f9c93af1bbffa27955ed3f857c9c35ead68aed628185e"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Mission_Reward_Item.cs.meta",
+        "sha256": "8580236eb800aaf0fc93563dd7f7528f20e9432041e09e7a8ac6a15ddea80191"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Tree.cs.meta",
+        "sha256": "402545d522fed6b73f5b373660dba7845f53eb70a89ec7daa56cc3b600f7501d"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Buff_Btn.cs.meta",
+        "sha256": "5db0116858bc6d84cc47b81d5a49a5573523851d840b39c6ab6b7ccd6727808a"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/DailyCheck_Reward.cs.meta",
+        "sha256": "9c461cb829a1a52a340444db364d8825cc2963a83077f384de98f9478fb40492"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryLocalStore.cs.meta",
+        "sha256": "62bdd5bc8d28e2c9065221d217490663d34bb679cafc33490dcbc46838c9536f"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Mission_UI.cs.meta",
+        "sha256": "6048952da705ebec59013d00826a917bd5b0b7fffdb7b53ca5cfe0b24d0004c2"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Map_Grid.cs.meta",
+        "sha256": "40ad865324d15015e14075c92f4032158e631333d090e7401bec156855db5450"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Hatch.cs.meta",
+        "sha256": "47bd005d01c2b6a9f8bbdd75200a4e169a8561f9b4ef4faf56ee0e7301200de3"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryForestClient.cs.meta",
+        "sha256": "e3b87cfa34a9470f53fea4d56361421920e094234dd9dba13796901b29c787c1"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalLocalPurchases.cs.meta",
+        "sha256": "63481e924383207ea8d4ab8252f2baa151f62c496383fab90b37b78796f88378"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Gun_Item.cs.meta",
+        "sha256": "01c04bfd98330d2ce8a742ee4dde1e991a325052ca1dd816e34ae01457a5c2e3"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/FloatingJoystick.cs.meta",
+        "sha256": "cae44e22bb9733b5ebf87fbc0b19124d2701fc27a936a09b06c81980d7c73c1c"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/GunType.cs.meta",
+        "sha256": "087a39ccfb9b0f6987702c4b0bc8261d09386383f9f42e883c4b34151f718c25"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Bullet_FX.cs.meta",
+        "sha256": "df1cff8d72fe0949d25410ebbcf122d8d1cc3f1fcd8d1ef867101bf6feed6fa1"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalRelicRules.cs.meta",
+        "sha256": "5f59504dca255f14f2eef90d6173af154c211371c4e67846d48709d63a7c154d"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Fish_DeletePopup.cs.meta",
+        "sha256": "ed93c71865330f9bc2da9b877b742222ecc1a90261f27eb30f6fa6cbd383a07f"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalSpeedRunSweepRules.cs.meta",
+        "sha256": "0b87b04b39d94991eeb407f25307160c011ffad134735d1fbe9f85926d8170fe"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryEcoTween.cs.meta",
+        "sha256": "9a792ce7c6f195274b42337a9330ca3e7c1bc33921a02775b7c67f696af1c6b7"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Cat_manager.cs.meta",
+        "sha256": "c0d269028b2b7783d53a8c0b70332f5566a5571b35f4625819d44d7c67f8e4c3"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalSafeInventory.cs.meta",
+        "sha256": "86ddae2292cdbc09c0cdfe53f5829701a7f2ff6247e4a9a6756921eef53d4853"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalMissionFeedback.cs.meta",
+        "sha256": "c87e1603d39078d8068af7ecfbc3e93119ca899f9d2f5966db7a8f60d3b8241e"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryPlusPackItem.cs.meta",
+        "sha256": "0b25edf2fb9a0d289cdf1db77b8b10d45522b701dee2357a3b64afb66d88e2a0"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryWeeklyUiTween.cs.meta",
+        "sha256": "7cb3fb47bcabc456c56c9e7c3a86ced30f36cf45052bed957fcf7c9fc7cecae6"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Joystick.cs.meta",
+        "sha256": "7bb788139b71fa4f4c762c1fff08c641501b57b4d5e1053b69a51f063c25c600"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Follow.cs.meta",
+        "sha256": "95dd0e0baae9c71295dae1000161f53ccd82c488ea4cc10702f991a78baeebf9"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Relic_Item_Demo.cs.meta",
+        "sha256": "b5a02503d749cb7510256516596b6dcfdf6c66e7c0ac52b5551a8cea452916d8"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/SlicedFilledImage.cs.meta",
+        "sha256": "8c4e0557f25295fae83f8e54d346645186384d26b24e291119bf2b68ecbcf9e6"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/CatAutoMovement.cs.meta",
+        "sha256": "82af946fbadf73d649168d9209d4777dc3ffe64dcb11eb44e3f397a95a3d252a"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_PetSelect_popup.cs.meta",
+        "sha256": "09e21f90e9b9e4f9c08e3bcf09b809a84f3d5d9b0962bdf73962f9a4fa534938"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/NewPet_UI.cs.meta",
+        "sha256": "62e08a5ccc233860a01e01128051a9343410c802763aa0e35c49f21e82e1ffe0"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Safe_HUD.cs.meta",
+        "sha256": "efcf73a560ef23ed371578edeb48a9dc1457e007c73ba824facfd0640d40baa3"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_Start_UI.cs.meta",
+        "sha256": "4fac52d4c26ba9144b3c34e00cf2a38f280b60807db12d038a4ee5008d0d0a56"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Safe_manager.cs.meta",
+        "sha256": "6a12de505fb7680d629d053cf1283e33cb175446964bbda88c4c55793690612e"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalRaidRules.cs.meta",
+        "sha256": "d473d5075e246c00a690317e0c70ef6e742829e4dc44bb3bb739bf8988eedf68"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalProgressionCatalogue.cs.meta",
+        "sha256": "7c237d97fe7f613daac3d7a9777f9186e21ed7d66594a2ee42bb8018e4207c89"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalDiaPigCounter.cs.meta",
+        "sha256": "cc07a1dcb5d9e102da0387ea6cfd42d6c157f3e4e17ce446d1e8fa916214e8f2"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalRaidHelperRules.cs.meta",
+        "sha256": "1d7bed8c4b075906ff7f50992e30a73120abd54af9ae188318c68948af2d76e5"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_Info.cs.meta",
+        "sha256": "82a970657d640a40e6d6644fbd9ce10433b18bbe371258f52241693c2824e548"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OnOff.cs.meta",
+        "sha256": "4dbabaa4449336fc7785d27220365e0deba32110360c94c2f5865989e4baa2e2"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Dia_Attraction_Target.cs.meta",
+        "sha256": "b71bc7f52c5de9484555e858eb4d482927146fe04fb56b31c7cebdabb4fa4c49"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryDiamondParticles.cs.meta",
+        "sha256": "c32feba1f75b1c96e66719efe2247f0a6365a23eb38eaf12b31c48ac021074e4"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryStarSuccessFeedback.cs.meta",
+        "sha256": "9a1031413d30f75bfd0f073024922c4a226aaee7ccab7c850d3e4e61e9d969bd"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Gun.cs.meta",
+        "sha256": "7b5fe14f4afda11bfdcbb3c9063f8ebf6fac2f578e682c69f3ff5eae570d78a7"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/ForestDamageDispatch.cs.meta",
+        "sha256": "7898c894a71e7026b56ba7afae14efb315bdae255db779d942296b5642b78ee9"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryDamageTextPresenter.cs.meta",
+        "sha256": "bb3fe4889d3c4ad2066d6aece7e6fb66de2ae627ddb54a5f28024c1d333301e8"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/DailyGun_popup.cs.meta",
+        "sha256": "9d2d5a8422dd6f2f00eea3eae7050148826a1b6dcbc2c7efd0242eb9d8cdb52e"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_Mission_HUD.cs.meta",
+        "sha256": "9a914f929ad2933fdc76ca17f64f5c7661992a16dbb51ec206a858bb059661ce"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_Mission_manager.cs.meta",
+        "sha256": "b002d46278b3d3fa2fb94c711e8a211ed4c1b6aa4b2105d3edea2e5ee559fa41"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/StepUp_Item_UI.cs.meta",
+        "sha256": "37b851915365b8aeb422deb3cdbd5b6ab59acdd9808b023ae45aaef44407d1c0"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryAdventurePreview.cs.meta",
+        "sha256": "41e35d6f372c2dfa0048e4082c670155660e40cb4649ee26b188ae12e48c86dc"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/EnemyColl.cs.meta",
+        "sha256": "1f36af65f7ab985fc56e143e649a39fb864ec34e98f61b3766eaa676ad29b7d4"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Mine_Slider.cs.meta",
+        "sha256": "2dda1b3b912561cb837f6c82676c8f281caae48462cebd278351efeb2113cf89"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Mute_Panel.cs.meta",
+        "sha256": "c5236d6c1dbc6e53aa2cbb387418a205cee55f026ae6830a1bc625fde8199183"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalStepUpOffer.cs.meta",
+        "sha256": "2ce02cc07222e955ac12c8f199c40611a967cbf947667000d435dec78418672b"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Menu_Btn.cs.meta",
+        "sha256": "b815a9eb469c15bdd32ffb205c639a321e0286a84b43c278cf886824a9ccd52f"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_Ticket_UI.cs.meta",
+        "sha256": "38ee02cded9ea4edbe53c89d41eff8d46b910c269d012400ecf23f2e3be05896"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/DamageTextAnimation.cs.meta",
+        "sha256": "2e592b79dd7c6a58990db4fb6b118899e14c8a969f57439e2b6095677516c58e"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/SpeedRun_Start_UI.cs.meta",
+        "sha256": "da00bae77778893a2fae8d006a95f7af5dc0c12d86a444bac6c5c99e3ee3a359"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_Mission_UI.cs.meta",
+        "sha256": "dec2c366798136ca87ae1ab4503d890bf4f7a6b9c3c3822ee729a6173577cc73"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Enemy_Slider.cs.meta",
+        "sha256": "6967f160adb7f02d4af948c24ae4290fbf2414e9013f864405b77057bcaff3c5"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/GameSlider.cs.meta",
+        "sha256": "925867e6556af209443741f5f0d80c7d4fd602e7f7e13695b501dff7dbba8a3d"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_Ingame_UI.cs.meta",
+        "sha256": "46162acbba64bfe21151ceb99f5a7b140d30067ff89ee3ffdb702e8f07230bc5"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_HelperSlot.cs.meta",
+        "sha256": "f3442dbd1e2b6bcf6869f5fb1e803cfca1d6f4489a2ec2ec92512f0fb6704960"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/SpriteFill.cs.meta",
+        "sha256": "88cda856c7604784bd0c15bb1d5cab93d40e49571592b6c099d6583936b2246d"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_Panel.cs.meta",
+        "sha256": "d48e9f0bff3ac67405c838c6d2b7e84d877f1d8ee75d388684dc963a32716ed7"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_Helper_Purchase_Popup.cs.meta",
+        "sha256": "7eb6850e74f3431aae9dd20b5697a6c26a952ce5d2bb29930050f57e95d5688b"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Gun_Info.cs.meta",
+        "sha256": "399b22f9d7ab89ddb8fa8b898e23de691f69b37cdafaa72730c88c687c1e35da"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Alert.cs.meta",
+        "sha256": "dd99e7a4a14bf073e8a610957fec9850e73cd3b308289bf3aeada282a27d4772"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalSkinRules.cs.meta",
+        "sha256": "92ae508c3f6cfa2ad4cfc8cc14a1aebda8774facfbed6060fcb24ee9049b1c45"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Upgrade_Ingame.cs.meta",
+        "sha256": "f1e977540880b300c1dd40e18b6d55df64a9a301ee29dff2e51102d37d081aed"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Bounce_Custom.cs.meta",
+        "sha256": "133575b946aba988b0e85a77b1cd0d42dd5a6463c22a7169a1fa39fa3cbd29bc"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Relic_Draw_Panel.cs.meta",
+        "sha256": "843a87a2af438d0c31bb5ef108e58aa6ccfcc6c7ff0a5cca8bba5d053d7d9a19"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/DailyGun_Item.cs.meta",
+        "sha256": "7049a614d187ac927f480cfc14f9313fd3db95d6ad1b3c5a803ab5a80ce539da"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalForestRules.cs.meta",
+        "sha256": "0a5eb36c9293beef49199505d2a6669ac52440085de1757b612b581ca78f7e06"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Monster_Game_Slider.cs.meta",
+        "sha256": "1a20fa462b6c3801e6d4a729900089eb00848a8f793071ed0ec53da5e40bb91d"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Gun_Item_Demo.cs.meta",
+        "sha256": "65ff6a5ecb9c2dcb87863f6838f5b2517d2919b34077133d2e46b64342457384"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Tutorial_manager.cs.meta",
+        "sha256": "9d79ece8185d2287a04096bafe8b565c21320c1ac2a97eb9cba0931b28f38e67"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/WeeklyShop.cs.meta",
+        "sha256": "3db1f65bad56d036add7d89ad6c44e879c010b6cd12e39433c2742e10752fa97"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/DailyGun.cs.meta",
+        "sha256": "38ba202c0f6941481622ed8c8b16da788b8e482d3663612f0cd5e09aa162e0ea"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalMineTickets.cs.meta",
+        "sha256": "5ab479825f7fc2fa3d71f4fd89a14f90e650bfe10b3fc2f459fa770471a0a2b4"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Skin_info.cs.meta",
+        "sha256": "20d7147e1e481ae5083af7674657c1aedecac2edef500d4ed96073f63b39a23f"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/BounceStart.cs.meta",
+        "sha256": "7def8db42f7aec29ddecb62ba534507920938f2229597658edf7763b7dbbc682"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalRebirth.cs.meta",
+        "sha256": "96dec6d292263f7c34fde89d3bcd4cc98a986063ad5eb07e475a96b9c7a7db97"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/CatGunner.Recovery.asmdef.meta",
+        "sha256": "ba50112eb36d1d70402323062ae94ed7064ebda54a7dfcd73ae15504bf23fa03"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Mission_Reward_Slot.cs.meta",
+        "sha256": "5664e9801c18f0469514e0d2685e7bc32df8091fe2fd087ab8f31cc00db60fd8"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Gun_Slot.cs.meta",
+        "sha256": "62a71a0e0dbfef0cab76d1143f90556ede07b22ac3aa5bb7100da1f107228c58"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_GunSelect_item.cs.meta",
+        "sha256": "b729bd528db90871b4c5f22e4073ebdf931bbf79581da6341646f7cf6070e563"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Destroy.cs.meta",
+        "sha256": "ee34091f6df585746964bb32852422cea024aba6a55076bfebd3825953d60766"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/CatCompanions.cs.meta",
+        "sha256": "237e3f0477323cc0259cf1dd5f0836f89760809620caac617f1bd76a5510759e"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Buff_manager.cs.meta",
+        "sha256": "f599ae42c3b158e82377b64ce2467ec4ab93f214558ec2cb1db4ecda6e83d922"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/CatMonsterMovement.cs.meta",
+        "sha256": "bf0912ff9992160d6cf9361f7ccf6900d2865b23375aca4886bd7c486892eb0b"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Gun_Info_UI.cs.meta",
+        "sha256": "f1051fe4b0c104ed7b094324b2822079e07cfd12d6178c7ab267bdde241d93a9"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Enemy.cs.meta",
+        "sha256": "63647ff85b35c009bd11858328e4948d7ce54234674d79ae73f28f08a7a29020"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Content_Type.cs.meta",
+        "sha256": "62b3b5b9fc8441817e44a358f2522f74259213fe0619af882996cb185f3c2c67"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/NewGun_UI.cs.meta",
+        "sha256": "83999ceee39c974baeec0a5367b169ddfaa636ba07a2777e0273cf5221f6f66e"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Skin_Info_UI.cs.meta",
+        "sha256": "8be95461ee46258a3edb78fad6def89db9399490408ff46b8e8b2f7c497a326c"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryAutomaticUpgrade.cs.meta",
+        "sha256": "9caff358cb867a2f088115db3c4d85560fe1c49760b2352a3d57161cf845448d"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Scrolling.cs.meta",
+        "sha256": "583b09bb342d35340d9cef79722a7f80887dcad4cc550236c9dd956d5775db86"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalEquipmentCatalogue.cs.meta",
+        "sha256": "e8c5fc2cae5183ddb7fa9935247d9c100a997d68ded502ff303bec6cb420bca5"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/New_Fish_UI.cs.meta",
+        "sha256": "8a1e1fbda2077c06b98cd72f846b1945e155f2fd05ff85f5fd40fa53991193e7"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalFishRules.cs.meta",
+        "sha256": "a4670883f25c58c1298e9203986e4036e4cf116ead98a97c164522507283fdc8"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Mine_manager.cs.meta",
+        "sha256": "00beb28e8188af668f8eb593375721d7c6d240eb14bf81e4707a5000f7624cf1"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Mission_Exp_Slider.cs.meta",
+        "sha256": "033d8b5eb15614bfdcda3f81f319e244b9032c40bbe33049851f5cb6cb187bd6"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalMonsterSweepRules.cs.meta",
+        "sha256": "a6147d4b0c676c34925bddeba2b6f762bb895d206c8fff68dc893b6d5e624245"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/StepUp.cs.meta",
+        "sha256": "5eab717415296e14084ef57590c14b75c678476f28a1b581f2593a31abe985f4"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/SFX_BtnScript.cs.meta",
+        "sha256": "2f645c23819ed7aa02304380e42b9a3c9a50a03deaf7a6c91f52ed942316de62"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Rebirth_Upgrade_Item.cs.meta",
+        "sha256": "1841dee1824bee384ae9b00e9ed83bd604562f21eed613c2ec882c84a7014171"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Buff_Panel.cs.meta",
+        "sha256": "c130f2f83f618d89961208b0b48c7383d9dfb368d660ded12140bb63e6b57ff3"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Relic_manager.cs.meta",
+        "sha256": "150a9199de52e868055c9ee61c7c344d39b9a19a5a32ac16bfb6d08e1e46baad"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/TutorialArrow_UI.cs.meta",
+        "sha256": "d018c97559d7b74775cdaa9596e6d151cfe2c9d58ad3e6dc6c4c497d2a5028c0"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalStarGemPig.cs.meta",
+        "sha256": "bb5491828fb7f72087c6502536537961e58a93236b6947a6bff3321cd005c102"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Dia_Attraction.cs.meta",
+        "sha256": "2473fbe7a1126619d1f46e5932b84da2afa9353c767e3b505dd2db109036b3e2"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryRewardFeedback.cs.meta",
+        "sha256": "253c73be8861b673248f53d304791d18b1cae99a82d43d37e1ef60c69369ea9a"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryLocalPurchaseButton.cs.meta",
+        "sha256": "b0221c77e2e458333a2619294db1217e79d5fd36d3bfa10d2dbe7cd39615b239"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/StepUp_Hud.cs.meta",
+        "sha256": "c1e1736ae99dc4352707f520843af7d80325d218e8f69e675254cb9a02ed7de8"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalSpeedRunLayout.cs.meta",
+        "sha256": "a7d0f8de86860f7cf25ea664aa1385daf08c0119994c63edeba25533a79bd173"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_Pet_Slot.cs.meta",
+        "sha256": "6293517b5ffa51ddafe3c33a2573ab4ce5b9ca3d11f3d6cc849f6666f06184a8"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_manager.cs.meta",
+        "sha256": "70eebb32fbe7b330d9f2a08ad48c2299e49b19b6954aeded86cf59f00d675d6b"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_Mission_Ticket_UI.cs.meta",
+        "sha256": "e2a253e57e0ef8c71869047a75e04db56da409a0060e25ec47f563b787f872ce"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_GunSlot.cs.meta",
+        "sha256": "d419821a9b062f50d8248f0fc17a91f37e3b31a99c28d1bc29cba0d8a31648d5"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Safe_UI.cs.meta",
+        "sha256": "0a2f6b0a49b74a3ae8cb3c8ec588a3e0108d07de7e416dc04e5a21e28b0bec81"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/StarGem_Pig.cs.meta",
+        "sha256": "caf80b3e547d4ff52e366af06c2137be1f5fb49faec3739835f03d58d19fe0a3"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Monster_Start_UI.cs.meta",
+        "sha256": "f76e4aa5a4034e0c57bcc6919558823f5dbd206d3738a83795d4c1d144dc3caa"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Polling_manager.cs.meta",
+        "sha256": "78021f4bfb6a995586ac6d135dab2a63e3eb0fb94c501a43e84893891a060617"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Bullet.cs.meta",
+        "sha256": "2cfac2aa540f6e761f623010add7d1f74778deeb3b14202c60a7a5d4349921b5"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/BarrierCollider.cs.meta",
+        "sha256": "415f1dce27599c316637117c0258a98bc8aeab86ae79b442155f74da735d8d89"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Particle_Polling.cs.meta",
+        "sha256": "31a42b2a9666bbfbe97db8541313502bce03899441b2592fbafec047360d3b57"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/DiaPig_UI.cs.meta",
+        "sha256": "ebd7915cdf9c71ad1cc445f0fc7c1e24b5d8b2ffcb4157edff0075600dee0612"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Sound_manager.cs.meta",
+        "sha256": "ae691c36b4ab0488a75938f25ed8b8b72dcf573072f9c48b30fc8899afc5f261"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalStarRules.cs.meta",
+        "sha256": "91eb2dda50573801f0a2a551b9eee5741a20c28aeeb99f2762ba9c31c00267a5"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/DamageTextAnimationSetting.cs.meta",
+        "sha256": "b31773fa4f47339f2df9c22ea213e352489e3464658e434fe0bc0687de366d65"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_Enter_popup.cs.meta",
+        "sha256": "6851c10a5e16f8e7005d5c8785b19c6ec705bcdccccd0cb4b3be48b10c019551"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalShortBuffRules.cs.meta",
+        "sha256": "6944d9e7a13d79613a7d3d8298f3d1dcb2b81f7abc5ab65dd2a287ed851e5f72"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Gun_Item_List.cs.meta",
+        "sha256": "88116947edcc5acc01546132908d3afef50ab314335959ecbdeda347ae8f727a"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Fish_Tank.cs.meta",
+        "sha256": "b4d8f69ab99352a19fe98cbed1c679313b2ec24d0301f5975fc6f7a83946dff7"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Bounce_Position.cs.meta",
+        "sha256": "953c018e3057b847afb9c3f675fbd1d379aca6b3d86622f7b4c7fbf958a471eb"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/StarGem_Pig_UI.cs.meta",
+        "sha256": "a872387c926fd5f1fe9c07dc053bf2ce49c08ea080a9a547b6dc7f874ef06994"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Pet_Item.cs.meta",
+        "sha256": "4deaf12a39cc667b7756dcfe693dae342df29142b2d7657b2da76333082e9a4a"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_Mission_Item.cs.meta",
+        "sha256": "cea6264785187273352bcc16942990e4a50e05c646be0bd8e9dfc0c3244d6ac2"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Relic_Item.cs.meta",
+        "sha256": "09c72a40bb00070818651bb1a9142601329c2abd24f4cb61f9dd66b5f04673f7"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Pet_Info_UI.cs.meta",
+        "sha256": "347703cde6aa38e89a5c94455c590e0b351b616390f4f0e06ecb5cf4749adad1"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Rebirth_FX.cs.meta",
+        "sha256": "d5f0cbd76459e6f3dae78fa664fdacf6a0ba2519ed64aecfab529c3844fb43e4"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_manager.cs.meta",
+        "sha256": "17f43765a9338f6b7b59bf2c6b76486564c931e4848af31bd5309f782f9e38f8"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/CatShotgun.cs.meta",
+        "sha256": "5db88f861fa14dc59e9f23393eda8e8da36a4d6ab5aa5a657426487b5be2568e"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Fish_manager.cs.meta",
+        "sha256": "ecd7accdd73bbe61f82329fa4992e05745f2dc65cd475dff8537f703829176bf"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Contents_Unlock_manager.cs.meta",
+        "sha256": "286145379bb1c727222853d4334f8053c0f643a0d283e561834c3961fe3829dd"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_PetSelect_Slot.cs.meta",
+        "sha256": "f1c276750dc73381b620262e2dc37118b74b0563ad6325fe912f486fa6152e31"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalMissions.cs.meta",
+        "sha256": "6c218725f7da4ed5534f2794179b90b605a31a97de983510b4f9076f60c08e67"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_GunSelect_Panel.cs.meta",
+        "sha256": "c796076df17d40267042f6f8b5547621d412f3cd79926e54d073384ce1afae21"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/ForestRuntimeAcceptance.cs.meta",
+        "sha256": "c50708e1f7f1da63df94aa3c81247d9e460ab4e0bf345e7cd2771d25efac6ff4"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Mission_Item_UI.cs.meta",
+        "sha256": "40fa78eaa0d27487270ac765c383e3fcaad69d38b516660e3df2622c0b6bbf8f"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Pet_Ingame_manager.cs.meta",
+        "sha256": "3f93b8add44a0e7577f7c23a6e43d6e1c75c33d6660d7a2b3ccc663fdc68d41f"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/StarUpgrade_popup.cs.meta",
+        "sha256": "8098a01f72f8467dea4c7a7637797dd7dec493231f109ed1226b80b7bcc5cd8a"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Skin_Item_UI.cs.meta",
+        "sha256": "9a1e4265e4907c79798345f54f4eac3455155a7ec2146bf90568035dd84ee2f9"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryTutorialPulse.cs.meta",
+        "sha256": "a3579e6d1af40127817326dc25455ea6f13684ebbfbe5f199f6817cf7d5ac4ee"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_Boss.cs.meta",
+        "sha256": "3d91359dce81d5b3fb5deb5b26d04005650a1032de20d0cd30da86fc5deaa3af"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Fish_Info.cs.meta",
+        "sha256": "7fceb5122be0927258be2a3dd770fd6a4916739336595c62d390831fdb0a285a"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Tree_manager.cs.meta",
+        "sha256": "94ab5c9c73fafffc06846a65fe9ea66ce857b39a2dc8f00fb95779bc3a03e4e5"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/DiaPig.cs.meta",
+        "sha256": "914670b872b9a4d5e87a724fc54cce3510300ab6a0f043a99a257a192308956c"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Pet_Dummy.cs.meta",
+        "sha256": "2f87ff39991514ded04975ba70cb4ea877619185af40cbce057977368216e6d9"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/BounceBtn.cs.meta",
+        "sha256": "c0d7e4c0e3ab4bd5a7dde4ca196ec638c5c405551505709901fc0144d74d8f9d"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/StarUpgrade_manager.cs.meta",
+        "sha256": "47a7b3d87256d8c50ec05bda99bad334abd6486512a1093e72f0ae3d4805e29d"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Monster.cs.meta",
+        "sha256": "6a2c0ff99e53fa458d10c9002668ae312e7a35234c64bb425ba68d0d4886f6bb"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryRewardedAds.cs.meta",
+        "sha256": "120d570ced7a52ca5f63a13019b501eccae37f973f855962c1942aa85ae38c1c"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryRewardRotation.cs.meta",
+        "sha256": "3c4bc9e790b5d7a0d050e52d8a2ac9ffd87099734a04f4ba11b35858a91c859f"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Gun_Merge_Tutorial.cs.meta",
+        "sha256": "59d93870b3be05b88e4502730677d2a02c21d7f69d683b3ddabdbbccb2009db6"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalSaveData.cs.meta",
+        "sha256": "81a691de0f77607eaf40daeb31e9d389872a70e54499264970b9804852f24c92"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalPetInventory.cs.meta",
+        "sha256": "015f39836dbcd04700e0de6345aeaf0e44becafe95524c87a045cf7f6deb6840"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Tree_SpeedRun.cs.meta",
+        "sha256": "ae786541072a24a6488f5decd255a705aeb10dadff38f6d0b7c6f3756a336ecb"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Content_Info.cs.meta",
+        "sha256": "6f6c72042b8b8247c7de2fce4e114cfcd4d4c27993a61aea4197d0e08643f3d6"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalMineLayout.cs.meta",
+        "sha256": "8152135f6762b37f7d59180d99ae68de0cc8836b1b951d1bb56aa1aac6bfc23e"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Relic_DrawMode_Btn.cs.meta",
+        "sha256": "cf490ec44be8ff9585d4e1918a6ba910fb5c03b4760a8bc245760cf598711e06"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Buff_Type.cs.meta",
+        "sha256": "05d98efaacda19ef1c7447efdbc7c36b237d375c19c49df05c392ccab90490ae"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/DailyCheck.cs.meta",
+        "sha256": "1035ba52713c2d754011880a9d6c1899a29fd6f1a7cd267b118f5760acb03637"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/ForestCombatAcceptance.cs.meta",
+        "sha256": "cb81627b9d89ffb1e510914f9b41d8505ba99ca8894f9841ce1028aa3d4a9166"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Buff_Menu_Btn.cs.meta",
+        "sha256": "768248ad33dcd5be5864ee233ae3eda49b5e95922f3e60efde955bdb24ff98e5"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/StarGem_Pig_HUD.cs.meta",
+        "sha256": "d0f5f940fd20f5f737da2d0a63ac29c537fc892e0dd6f8f1e75b7652e7890fc3"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_Map_info_item.cs.meta",
+        "sha256": "dc9346053eba0aafdce0651fc118fe8122c11d287d41937c6aa8b1f9115328c7"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Boss_Slider.cs.meta",
+        "sha256": "c049c2fddd32ad06b71c158040e5093c31332a71ea5199de439d3ce39a7f3823"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Tree_Grid.cs.meta",
+        "sha256": "ea7a5e6ebada36d4d958b089ee2ea7bee5a5f27a5b387493ff31ce31a9e27c87"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Offline_Panel_UI.cs.meta",
+        "sha256": "38b90b732f767a408100132bdeb86a3d77eba99a9dbd9f96d6fac54e271e551c"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Pet_Item_Demo.cs.meta",
+        "sha256": "5a2a59f4364e409939d86d4f47c3495c8e2e8385a54a8035e8baa8b14a727306"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/SpeedRun_Slider.cs.meta",
+        "sha256": "7edc87005e669f1123656084f0dc9457aab625e3fd429952e5b78d5a43dd7ae1"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Pet_manager.cs.meta",
+        "sha256": "5d3d2292705fa3ade8b520cf6b0fc643c2a3469e955ac922313257d2844bc10e"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_Reward_popup.cs.meta",
+        "sha256": "bd010414e72c6c64060d6669beec4ce0ac8dc049fb6872366bb9a15dc122ffc3"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/AutoUpgrade_UI.cs.meta",
+        "sha256": "be1d2fd542b2f84506d6466bcd5fa2ee71282884ea2e53a74617eb83aa6122c8"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Currency.cs.meta",
+        "sha256": "10890bf4f4a310e20a2aeee5d4f6f174b4247595644a6897a660f90f658690f7"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Pet_Slot.cs.meta",
+        "sha256": "5a112d8dbf248cc5417a319733781bfcbd7bac765836dcb6c1830185ffd505c5"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/SpeedRun_manager.cs.meta",
+        "sha256": "51d3b44eea8b00f67b11d20e74e6c63fb5f1fec6c17c99a599cd59038b799d88"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Fish_Info_UI.cs.meta",
+        "sha256": "f64c67b4a77381456812888dbedab727b12f196cc30ee971350afc76a89611a1"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/ForestMovementAcceptance.cs.meta",
+        "sha256": "a72e3a7455a80038b6bbe8d977627d47b708d3eb5af70be8ca7e4169ab0d1122"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Ore.cs.meta",
+        "sha256": "10545d708758405ed7fc59be8d2e0ca112416ce765a238c74f6265189ecf01db"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Relic_Info.cs.meta",
+        "sha256": "a841d0baf6796f0be5b9716c1b322decf2ca196cc634cbf5454297b6af8fdf39"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Fish_Draw_Btn.cs.meta",
+        "sha256": "5cd3a1617b9a1a04cb0ff16b715e1d016facabef709f288fddcd76f3a667ab8b"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Rebirth_manager.cs.meta",
+        "sha256": "2a604bd084f6083c230126d39d03ad825156f783ed83b88daf4e41d7cb308d54"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Boss_Start_UI.cs.meta",
+        "sha256": "8eac1bce339300321ecefdfef03a580b16c9923ea7bb6f7dbd0d40f0014426ae"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Setting.cs.meta",
+        "sha256": "1762b4282169dab3a968a51c775dcb1c96e1b2375cd9d66c434f6aa4ff348a97"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Rebirth_Panel_UI.cs.meta",
+        "sha256": "bb224d30c08f93b64b904b0f337218748fbbec17c929672fdc81f4d8ae5bdaa7"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_Map_item.cs.meta",
+        "sha256": "c454fabf7610f7fc8800d2c61b812a67bb17b7de761be2aa05695089b8d442ce"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalMonsterRules.cs.meta",
+        "sha256": "cc9fc490b262a89f85930888837da03068644e988825f7244e79e75569fd667d"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Safe_Slot.cs.meta",
+        "sha256": "43635cdac9e80d8495b98a70819802c7b525af1f174c8e27e1e8212012414f28"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalSaveArchive.cs.meta",
+        "sha256": "accf80ad2961006fc2524319950e5d1a66cb90ec6b8b038363c880f4a8236b67"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/CatMissile.cs.meta",
+        "sha256": "62110973718b08a6364a9744ecd6bf02d7d23e6472b5a6f25792138355451e1e"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Relic_Info_UI.cs.meta",
+        "sha256": "af4c71996e28a4e6e24ec2084831a57b00a9f3de27d35e05144a75b7aa75f33e"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Monster_manager.cs.meta",
+        "sha256": "487afb478d32b3ddb1b4ea85a1bbb86220c29b359c417d6cf5589703bf78d8ba"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Fish_Item.cs.meta",
+        "sha256": "825f4124c0b380407082e1c6e1fb05e08a619c6d7dae64ed9a8f38f73a3b2cb3"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/FXThrottle.cs.meta",
+        "sha256": "3610621b27595a443345936d6d4867a3b67676989e9c8835a27c948dd3984aa8"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Draw_Relic_Btn.cs.meta",
+        "sha256": "71dc67ee93b9da3239028e83b425d299e650ab50398ca93b369cdfa620975a54"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OfflineProgressManager.cs.meta",
+        "sha256": "11499d081b46b0a3ab81ec89a38db6637d5013bc8846c4403f7e996980d5ac5e"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalDiamondReward.cs.meta",
+        "sha256": "c9f78e4a882f8ad9fd2fe00fcd8ea1d3f79d4855a5d47f72e7b33138ec1169e7"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Pet.cs.meta",
+        "sha256": "f327f3ab6119fb4b45262602e681ccf8033af2ed1671b1c1cd4a6470d7dfd79b"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalAutoUpgradeRules.cs.meta",
+        "sha256": "de450f1e4b2cdcab56400fadb7ed20754458f5eab683def3d6c80372e0a07f43"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Fish_DeleteZone.cs.meta",
+        "sha256": "9c1527f7127accf1f9eff8faa17f10bfe503fc8536e4342198316efe2df18706"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Bullet_Mesh.cs.meta",
+        "sha256": "42bab7d75e28cbb72bd1fb05a9832693afba8889f155349eb81adb551e795092"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Relic_DownPanel.cs.meta",
+        "sha256": "39c24df8ab857daf760c20bd4252b68ce074ba09d3e15d5e76a0079848bc4a7e"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/StepUp_Banner.cs.meta",
+        "sha256": "07ff7472d4654ab3d93d091b9922c41d486819db2b0f72c6caa9cf0b7d0c44ea"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Bounce.cs.meta",
+        "sha256": "1135ad5d9bdf256a70bc381469f4fab051fff5b3709ffd50f8bf6b31eca98f06"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/CatCombat.cs.meta",
+        "sha256": "152675ee07d0d61097e37503442ffe6312c669672b8160c89f9c7b0f9217ab95"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalRaidHelperTests.cs.meta",
+        "sha256": "13dd7a3b1ed18c7b9e949e2d7cb0d08004b4a3dba7ab82573ab73b48605f1e63"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalRaidTests.cs.meta",
+        "sha256": "e38c5c12ddcbf8a1c75fd1462096e8779343d62e7bba202e7779eb90176a443b"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalOnboardingTests.cs.meta",
+        "sha256": "fb48e8f455761532c1531109d134f48c6f11fcb71931bc5fd0a7d360198e440b"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMovementTests.cs.meta",
+        "sha256": "5d5f1867867f02b5d469dab5820d121220a896e9a33eda8cd0efc4ef5f6f81c1"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalProgressionTests.cs.meta",
+        "sha256": "c66b751499ca3139224ab8d4b4c8734b07b7da847d0072986c79ae61f2e4ec8e"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalEquipmentTests.cs.meta",
+        "sha256": "5ae40025c53899157e3b42ff500bcbd2f51b936ef40f4012bf8f76a7a6f21e99"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMissionRejectionTests.cs.meta",
+        "sha256": "245aabe154601e05182af77a5f9b9c7d278896c492d3ec8120c0f4303839b35d"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMissileTests.cs.meta",
+        "sha256": "aaf5278e3d8723c24d72291160f56782986ba2a7de10a828c9381ffdf9cc82e9"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/StepUpRecoveryTests.cs.meta",
+        "sha256": "eec7d78fc165898261d9e31c01aa1814def6f14358c4c4904ea85cfaa44a08e5"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalSpeedRunSweepTests.cs.meta",
+        "sha256": "626230c98747ddc5e6c5d6bfc6602bdbce7d2a37c7bb0f0b80db14f11900c89b"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalSaveTests.cs.meta",
+        "sha256": "6703082ebe30044efe2ba43ade942892b6f11dde3399e4fb950e3564d5bb4f17"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalRelicTests.cs.meta",
+        "sha256": "befda02e75e422db380bb88d8faa805402198e781f5de964d5ea01d02adecb74"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalStartupTests.cs.meta",
+        "sha256": "53196acd87722ada4759f09df5fb73c19bcffd33e7d737d911644634daca4449"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDailyCheckTests.cs.meta",
+        "sha256": "358cb3c46ab67db762506d4ba10690ebb69bf3bd5b7198c11ee7f62341de0575"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalEcoModeTests.cs.meta",
+        "sha256": "b54a9244ec2f8353451eb885d46c51b8e81ce5aa7be01d95184d799d79be38a1"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalBossSweepTests.cs.meta",
+        "sha256": "8612c22bd5fc07e37c7e309eab0249c9b6fb570a502fd9d66b326b9d2119d8e1"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalAdventureTests.cs.meta",
+        "sha256": "311575377ca42cdbaac39c55e792916a62816c96e425166086a4977385e818bc"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalForestFeedbackTests.cs.meta",
+        "sha256": "d9053196682b95caf5a43ad41826d550b78331452a5b14816b63f6d5125bb4dd"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMineSweepTests.cs.meta",
+        "sha256": "bbfb36767d34d7c0554ff436ed2b6945879d0b9c024210b7067c1d2a4821aa10"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalPenetratingTests.cs.meta",
+        "sha256": "e84026fe35f165af1b85b70aa3e53ee8cbe473f24ed298010af218e657429c27"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMissionPresentationTests.cs.meta",
+        "sha256": "8293239d6c3f02bef78941f76494b7c7a3b79fe2dafaa8759607a8cd55bf779c"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalRelicSkipTests.cs.meta",
+        "sha256": "7997a4ef681c9abdb463a3f2cd1f69133a6d2d52c4d5a5f734a3f0d63af7decb"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalSettingsTests.cs.meta",
+        "sha256": "7bf9534575cc9808c4fc743ee25d976c08ed6ec8e727753b772457131b51efe6"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalSkinTests.cs.meta",
+        "sha256": "a67626cd899074f23742ef7d57f74e40c95041fc955507cd9bde7bd5ead99745"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalBossBalanceTests.cs.meta",
+        "sha256": "d5c3b0be3fe7d961a1e23209ae4dc12875e41b546799fa057a2acb90eaa880d9"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/ContentNavigationFixture.cs.meta",
+        "sha256": "fd8adb98ce188a633bfa4393fe1966a519e7e24a9c68a067e0ac7172e427543f"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalForestTests.cs.meta",
+        "sha256": "6a71045c908665a927807f4337e852e9658fe7aeff14e3375cf1474d66e3a202"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMissionNavigationTests.cs.meta",
+        "sha256": "f376d133bc2e83d9a727eff645def7f9cf198e26f58c3ca1f5eaf237e47dc671"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalStarGemPigTests.cs.meta",
+        "sha256": "df522321bdfb101b62bc60e46c6fd6bee8b852809564177679fad895bf15bbbe"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMissionSortingTests.cs.meta",
+        "sha256": "cab4f890abdec92b1f94cc77c0b3413d2920e3c1b502ab45cad05e5c99d015d7"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalContentUnlockTests.cs.meta",
+        "sha256": "267ddb462a9f25287876aa62fb9eaa2d637fd5fb6f2c6f79e5d7143162c5028d"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalSpeedRunTests.cs.meta",
+        "sha256": "4497585965c52c52a72ea53662432e367e4009e0b3654e8a83b4645b89483b2e"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalBalanceTests.cs.meta",
+        "sha256": "05a218618836a956b6e5910a92dc97c64051704f1e4aed284588a728ab49287a"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalFishAndAutoMergeTests.cs.meta",
+        "sha256": "80d675f898c960d51f426e7b6e5564004e2605e28a7e09b353e5b5ab01be8167"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/PlaytestIssuesTests.cs.meta",
+        "sha256": "a23183a5b8586abdb1dc1993dac25a1f19a2b8faf3e76bda154217fbc85d09e5"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalShotgunTests.cs.meta",
+        "sha256": "9ab0ad3a2bce837c86798348b95348c21692bb90b359253e0ab27ed12c3bd097"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalJoystickTests.cs.meta",
+        "sha256": "f2ce3fe3ef6d40a433f4539df63e5e635196443829e92dfd52a220ba4d71d3a5"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/AutoChallengeRewardsTests.cs.meta",
+        "sha256": "4a683d9002f2e233ef04444210c3c69f4ddcf766f34b70e7a12138d2ba897a50"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalBulletTests.cs.meta",
+        "sha256": "85f31d78f7ec491a6292eb37f0ebc7b7b2b49370b118545168d3f4f63d805908"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/PlusPackRecoveryTests.cs.meta",
+        "sha256": "324fbdb03ffc38ee9d1e19aaebe139cc93ed24e478c663d79a1c3e11bfd7062c"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalShortBuffTests.cs.meta",
+        "sha256": "772dceb8ba5ee5dad8d40367abf4d2b19fa9ffd49d783e3d7111b79f169aab7b"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/CatGunner.Recovery.PlayModeTests.asmdef.meta",
+        "sha256": "0ebef8522c26d2b0ed43569d36a5e9e527ef400dc4e6f51fb9e14ed5e55617e6"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalCurrencyFeedbackTests.cs.meta",
+        "sha256": "29466c4c1e0bb8c8e24143e94487f5e14048532b3590534bac7b2ef7cb828fa2"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalCombatTests.cs.meta",
+        "sha256": "bd9ef3cc97437e2fc6047ce191e23eb37d202d6b5f97cd9ab5dac97a47627688"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalStarTests.cs.meta",
+        "sha256": "98726b17288199d2bf36ae6b504345a003dfcd9973722cc983011be4be7d346c"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMonsterSweepTests.cs.meta",
+        "sha256": "d1907ce73747455384d1010d7fe421457fe49d7bb559f120e2238562c62c10b6"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalPlayableRecoveryTests.cs.meta",
+        "sha256": "906f17ad48c4b2b9ab7b7f90915500f4340914e156986f740bb5da55c388ed30"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMergeTutorialTests.cs.meta",
+        "sha256": "78860d552ea804e931c29aeb1e45096f8b22b20f3925f3513017d912b1e70a21"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalInventoryTests.cs.meta",
+        "sha256": "cc9dfe5ad84ed989ef91348b04c83c88c2cc4be31386cc79f456ce4cff5cc7fe"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalAutoUpgradeTests.cs.meta",
+        "sha256": "d8508470b35e9dfddef2efc83c1c60d8700abe406b155c50f28635da291b0b44"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalWeeklyRaidTests.cs.meta",
+        "sha256": "af3d3240f1bc67db87b105da1805e71992695998ca208d6dac51c9141c10b2fa"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDiaPigTests.cs.meta",
+        "sha256": "0d24212eb960aeb8e020ea1d106bee25650ea0082316872fd46440661731ff2b"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalBossTests.cs.meta",
+        "sha256": "03b0aa2c9efce284c885d7100ec67ae9377c7b44c0c9875b1a71e06359b4fb78"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalSafeTests.cs.meta",
+        "sha256": "ffc297f186729c3b4d9aa3a987a96b0ba1426a0e09ca19836df256e9af8a2095"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalClientFlowTests.cs.meta",
+        "sha256": "3e7d41d99f63f29994b7a226a1662c36eb6a6c06aba39d3dfebb5f2e4c7aa625"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalRewardPresentationTests.cs.meta",
+        "sha256": "ac8066270257c6263b1a939f4aa9714def78fd201166e0400fd2f65d77232b67"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMonsterTests.cs.meta",
+        "sha256": "c8b129b61be1c55114955714bd9142932fbaf1b3fe06227938737ba48f49c605"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalAutoMoveTests.cs.meta",
+        "sha256": "588b775660a2a72f3618851d2c5ca144e90fa4f2e4329154e8c0cb0a18a80981"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalPresentationTests.cs.meta",
+        "sha256": "f0ea475ccbd408f09be8f1504f8c35b8d36ba852474ed4d97e611f7aefdecb04"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDetailHoldTests.cs.meta",
+        "sha256": "09860c17aa5513834c5d74850486799339632cf129724e7e5b8b06b9cf9727a0"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalPetSpineTests.cs.meta",
+        "sha256": "c201275bacea6dea457172ec0d593c7b746e390f57a5d32bf079015a79901a14"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalExplosionTests.cs.meta",
+        "sha256": "fd6878dec92ca7b69ac33e69d9f0e9560894bf77848e0b31534824f31d55a4d5"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMineTests.cs.meta",
+        "sha256": "f5db6517eb5ebfb5ad8591798924b49c1d52a6dfc5f01eeb8d9ee1dcb60ae62b"
+      },
+      {
+        "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json",
+        "sha256": "3e35e03edb6ec9af2fd766fb84e894093d942772e4b50f7687faba6a3e7106b0"
+      },
+      {
+        "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json.bak",
+        "sha256": "ef1e1c0d75505343cb9cdd210386f0c68821fa7bc8493dee6749835c80f2a313"
+      }
+    ],
+    "historicalGpuFramesPreserved": 300,
+    "archivedRegressionGpu": [
+      "reports/visual/buff-purchase-regression-playtest-issues-purchase-success-gpu.png",
+      "reports/visual/buff-purchase-regression-playtest-fixes-startup-auto-combat-gpu.png",
+      "reports/visual/buff-purchase-regression-playtest-issues-three-cats-gpu.png",
+      "reports/visual/buff-purchase-regression-playtest-issues-shop-offer-gpu.png",
+      "reports/visual/buff-purchase-regression-short-buff-super-popup-gpu.png",
+      "reports/visual/buff-purchase-regression-playtest-fixes-startup-walking-cat-gpu.png",
+      "reports/visual/buff-purchase-regression-playtest-issues-weapon-ad-gpu.png",
+      "reports/visual/buff-purchase-regression-short-buff-inactive-popup-gpu.png",
+      "reports/visual/buff-purchase-regression-short-buff-permanent-popup-gpu.png",
+      "reports/visual/buff-purchase-regression-playtest-issues-mission-progress-gpu.png"
+    ],
+    "sourceChanges": [
+      {
+        "path": "Assets/Recovery/Scripts/RecoveryLocalStore.cs",
+        "sha256": "9d060fc155ac2dd5dd3424aa05819e0cb29299f18049f0f2bbe894009721ce6a",
+        "baselineSha256": "6bc535d0b58c03e93877b2bd2fdb9d4928542a66377109427508e83eda81eafa"
+      },
+      {
+        "path": "Assets/Recovery/Scripts/RecoveryLocalPurchaseButton.cs",
+        "sha256": "5b74e83b0543804cafbb346547ba5ac329e24d8bb3b9595aa90b3fb61e813b3f",
+        "baselineSha256": "7905a6667bcc775b53acefe2d9630f468c15f53d06843032a6d023450b86bee7"
+      },
+      {
+        "path": "Assets/Recovery/Scripts/OriginalOfflineSimulation.cs",
+        "sha256": "79afd9aafaa66aeecea3c29ef47c84db490ca9a94774e683da11b1ecf0380de0",
+        "baselineSha256": "e54a5c46d973b1b24744e421529ca364ad654bc96fb1e4355524b4091e1e7698"
+      }
+    ],
+    "newTestSource": {
+      "path": "Assets/Recovery/Tests/PlayMode/OriginalBuffPurchaseTests.cs",
+      "sha256": "22644ff940d1f999010fb27e43113ec4c30287559c2a1467b8173c48dfdf3494"
+    },
+    "immutableInputs": [
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/assetripper-baseline/ExportedProject/Assets/Scenes/Main.unity",
+        "sha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+        "expectedSha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/base/assets/bin/Data/Managed/Metadata/global-metadata.dat",
+        "sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+        "expectedSha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/split_config.arm64_v8a/lib/arm64-v8a/libil2cpp.so",
+        "expectedSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583"
+      }
+    ],
+    "userMainAndBackupUnchanged": true,
+    "sceneByteIdentical": true,
+    "existingMetasUnchanged": 301,
+    "scopeComplete": false
+  },
+  "handoff": {
+    "buffPopupOriginalPurchaseMethod": "Purchase",
+    "buffPopupRuntimeAdapterAbsentInEditMode": true,
+    "buffPurchaseBranchSerializedHidden": true,
+    "shortBuffBound": true,
+    "shortBuffPopupHidden": true,
+    "shortBuffUnsupportedButtons": [
+      {
+        "name": "BuffPack",
+        "callbacks": [
+          {
+            "method": "Purchase",
+            "hasTarget": false
+          }
+        ]
+      },
+      {
+        "name": "FreeCash_Banner",
+        "callbacks": [
+          {
+            "method": "OnClick",
+            "hasTarget": false
+          }
+        ]
+      }
+    ],
+    "shortBuffPanels": 3,
+    "shortBuffAds": [
+      "AD_Watch",
+      "AD_Watch",
+      "AD_Watch"
+    ],
+    "monsterSweepUiBound": true,
+    "monsterSweepResultHidden": true,
+    "monsterSweepButtons": [
+      {
+        "name": "Bonus_Btn",
+        "callback": "SweepBonus_AD_Show"
+      },
+      {
+        "name": "NoAds_Btn",
+        "callback": "Sweep_Close"
+      }
+    ],
+    "mineSweepUiBound": true,
+    "mineSweepResultHidden": true,
+    "speedSweepUiBound": true,
+    "speedStartAutoUiBound": true,
+    "speedSweepResultHidden": true,
+    "speedOriginalSweepButtons": [
+      {
+        "name": "Bonus_Btn",
+        "callback": "Bonus_AD_Show"
+      },
+      {
+        "name": "NoAds_Btn",
+        "callback": "Sweep_Close"
+      }
+    ],
+    "bossSweepUiBound": true,
+    "bossAutoUiBound": true,
+    "bossResultsHidden": true,
+    "bossButtons": [
+      {
+        "name": "Bonus_Btn",
+        "callback": "Bonus_AD_Show"
+      },
+      {
+        "name": "NoAds_Btn",
+        "callback": "Game_Exit"
+      },
+      {
+        "name": "Bonus_Btn",
+        "callback": "Bonus_AD_Show"
+      },
+      {
+        "name": "NoAds_Btn",
+        "callback": "Sweep_Close"
+      }
+    ],
+    "starGemPigBound": true,
+    "starGemPigPageHidden": true,
+    "starGemHudBound": true,
+    "starGemNativeAlertIsNull": true,
+    "helperPresent": true,
+    "helperStartsHidden": true,
+    "helperGuns": 65,
+    "helperUiBound": true,
+    "stepUpBound": true,
+    "stepUpItems": 5,
+    "stepUpMissingGunDegreeReferences": 0,
+    "tutorialHudReferences": 10,
+    "originalPopupStartsHidden": true,
+    "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+    "dirty": false,
+    "playing": false,
+    "compiling": false,
+    "updating": false,
+    "testHostFolder": "",
+    "runtimePlusItems": 0,
+    "objects": 35954,
+    "missingScripts": 0,
+    "persist": true,
+    "saveFolderOverride": null,
+    "localRewardedAdDefault": true,
+    "earlyWeaponAdPreview": true,
+    "localPurchaseSimulation": true,
+    "stores": [
+      {
+        "shopBound": true,
+        "shopActive": false
+      }
+    ],
+    "automaticUpgradeBound": true,
+    "autoPopupBound": true,
+    "autoHud": 1,
+    "autoDisabled": false,
+    "offlineBound": true,
+    "offlineMaxSeconds": 28800.0,
+    "inputOverrides": 0,
+    "mouseFixtures": 0,
+    "timeScale": 1.0,
+    "buildScenes": [
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredBullets.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForest.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestHUD.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestProgress.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredJoystick.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredSettings.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredTarget.unity",
+        "enabled": true
+      }
+    ]
+  },
+  "finalConsole": {
+    "sampledUtc": "2026-10-11T12:23:48.176809Z",
+    "ageMs": 13,
+    "compilationFailed": false,
+    "compiling": false,
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "consoleLogs": 0,
+    "seeded": true
+  },
+  "realPayment": false,
+  "sceneEdited": false,
+  "apkBuilt": false,
+  "deviceAcceptance": false,
+  "gitDelivered": false,
+  "scopeComplete": false,
+  "pending": "Temporary guns/ad rebirth; complete I2/UI/tutorials/VFX; original store SDK, FreeCash/accounts/backend/trusted time; Player/device acceptance"
+}

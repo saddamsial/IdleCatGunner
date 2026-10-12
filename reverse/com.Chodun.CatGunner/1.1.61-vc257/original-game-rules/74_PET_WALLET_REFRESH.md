@@ -1,0 +1,3 @@
+# Rule74 — Pet header diamond wallet refresh
+
+During r73 physical price-color verification the native Pet_UI/Panel/Currency/Dia/Price_txt remained0 while Main wallet showed1443 and draw availability correctly used persisted balance. Bind the existing original Currency fields to the same independent wallet event, like weapon/mode currencies. Preserve the authored Money/Petcoin visibility and objects; no replacement UI or balance mutation. Extend threshold0/99/100/101 real-input price test with header balance assertions. Final r74 APK includes Rules69–74 and preserves r73 phone progress; r73 retained as intermediate verified package.

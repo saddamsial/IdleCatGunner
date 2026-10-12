@@ -1,0 +1,49 @@
+{
+  "identity": {
+    "file": "globalgamemanagers.assets",
+    "path_id": 3943,
+    "type_index": 9905,
+    "type": "UnityEngine.Rendering.Universal.LiftGammaGain",
+    "game_object": "LiftGammaGain"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": 1283
+    },
+    "m_Name": "LiftGammaGain",
+    "active": true,
+    "lift": {
+      "m_OverrideState": true,
+      "m_Value": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "w": 0.0
+      }
+    },
+    "gamma": {
+      "m_OverrideState": true,
+      "m_Value": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "w": 0.0
+      }
+    },
+    "gain": {
+      "m_OverrideState": true,
+      "m_Value": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "w": 0.0
+      }
+    }
+  }
+}

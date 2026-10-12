@@ -1,0 +1,132 @@
+{
+  "status": "completed",
+  "duration": 70.91,
+  "summary": {
+    "total": 17,
+    "passed": 16,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.DayBoundaryRequiresInactiveBudgetAndNeverCreatesPackOwnership",
+      "Status": "Passed",
+      "Duration": 0.1407706,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.ExactOriginalLiteralTruncatesTime(600.0f,\"10:00\")",
+      "Status": "Passed",
+      "Duration": 0.000488,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.ExactOriginalLiteralTruncatesTime(59.99f,\"0:59\")",
+      "Status": "Passed",
+      "Duration": 2.27E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.ExactOriginalLiteralTruncatesTime(0.0f,\"0:00\")",
+      "Status": "Passed",
+      "Duration": 2.42E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.FrameCapAdPauseAndPaidBudgetAreNativeGates",
+      "Status": "Passed",
+      "Duration": 0.0001745,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.NativeLoadClampsTimerAndNormalizesNullDate(-1.0f,0.0f)",
+      "Status": "Passed",
+      "Duration": 0.0003637,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.NativeLoadClampsTimerAndNormalizesNullDate(901.0f,600.0f)",
+      "Status": "Passed",
+      "Duration": 2.38E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.NativeLoadClampsTimerAndNormalizesNullDate(float.NaN,0.0f)",
+      "Status": "Passed",
+      "Duration": 2.06E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.NativeLoadClampsTimerAndNormalizesNullDate(float.PositiveInfinity,600.0f)",
+      "Status": "Passed",
+      "Duration": 2.07E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.ClosingOfferCancelsRewardAndRepeatedRequestsCannotDoubleGrant",
+      "Status": "Passed",
+      "Duration": 9.915506,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.ColdSceneReloadPreservesBudgetWithoutConsumingOfflineSeconds",
+      "Status": "Passed",
+      "Duration": 13.3016359,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.LostRuntimeServicesCannotOverwriteLastGoodArchiveOrThrowOnStop",
+      "Status": "Passed",
+      "Duration": 6.4054397,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.OriginalAutoUpgradeHudAndPopupArePresentForPlay",
+      "Status": "Passed",
+      "Duration": 6.3214954,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.OriginalCloseButtonRestoresBatchSoundAndAllThreeUpgradeAnimations",
+      "Status": "Passed",
+      "Duration": 7.4710484,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.PaidStateSkipsAdAndKeepsTimedBudgetWithoutGrantingNewEntitlement",
+      "Status": "Passed",
+      "Duration": 6.8576345,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.RealHudAdAndSwitchButtonsBuyNativeAffordableLowestLevelsAndSave",
+      "Status": "Failed",
+      "Duration": 12.9554829,
+      "Message": "SetUp : Unhandled log message: '[Error] Failed to handle /api/exec request: Main thread operation timed out after 5000ms'. Use UnityEngine.TestTools.LogAssert.Expect",
+      "StackTrace": "Unity.Pipeline.BasePipelineServer/<HandleExecRequest>d__119:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2257)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteGated>d__109:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:1589)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<>c__DisplayClass119_0/<<HandleExecRequest>b__0>d:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2218)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object>:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteCommandByName>d__137:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2664)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object>:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteCommand>d__138:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2703)\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n\n"
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.ScaledPauseExpirySameDayAndNextDayReloadUseOriginalVisibility",
+      "Status": "Passed",
+      "Duration": 7.2607528,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "status": "completed",
+  "duration": 233.19,
+  "summary": {
+    "total": 10,
+    "passed": 8,
+    "failed": 2,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "AutoChallengeRewardsTests.ColdReloadKeepsLocalEntitlementProgressAndWalletWithoutReplayingResults",
+      "Status": "Passed",
+      "Duration": 17.8275613,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AutoChallengeRewardsTests.DisabledPurchaseSimulationKeepsOrdinaryMineSettlementAndAdFlow",
+      "Status": "Passed",
+      "Duration": 7.178538,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AutoChallengeRewardsTests.ForcedRemovalUsesOrdinarySpeedRewardAndOneLocalAdCompletesFourTimes",
+      "Status": "Passed",
+      "Duration": 7.8689443,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AutoChallengeRewardsTests.FullRemovalMineSettlementCreditsOriginalFourTimes",
+      "Status": "Passed",
+      "Duration": 7.1573998,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AutoChallengeRewardsTests.NaturalMineTimerKeepsTicketBestAndPlusPackFloorWhileCreditingFourTimes",
+      "Status": "Passed",
+      "Duration": 71.1862079,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AutoChallengeRewardsTests.NaturalMonsterClearPaysDoublePerLevelAndOriginalNoAdsExitDoesNotPayAgain",
+      "Status": "Failed",
+      "Duration": 36.510066,
+      "Message": "  Actual automatic projectile first clear; no injected kills\n  Expected: True\n  But was:  False\n",
+      "StackTrace": "at AutoChallengeRewardsTests+<FirstMonsterClear>d__11.MoveNext () [0x00097] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/AutoChallengeRewardsTests.cs:56\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "AutoChallengeRewardsTests.NaturalSpeedRunVictoryCredits120AndOriginalNoAdsButtonReturnsToForest",
+      "Status": "Passed",
+      "Duration": 28.0911237,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AutoChallengeRewardsTests.OrdinaryMonsterRewardUsesOneAdAndClosedResultsRejectLateCallbacks",
+      "Status": "Failed",
+      "Duration": 36.4100648,
+      "Message": "  Actual automatic projectile first clear; no injected kills\n  Expected: True\n  But was:  False\n",
+      "StackTrace": "at AutoChallengeRewardsTests+<FirstMonsterClear>d__11.MoveNext () [0x00097] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/AutoChallengeRewardsTests.cs:56\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "AutoChallengeRewardsTests.SpeedTimeoutWithFullRemovalDoesNotGrantVictoryOrAdvance",
+      "Status": "Passed",
+      "Duration": 10.8272103,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AutoChallengeRewardsTests.ZeroMineRewardAndRepeatedEndKeepWalletBestAndTicketUnchanged",
+      "Status": "Passed",
+      "Duration": 9.5186121,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "evidence": "exact-native initializer and exact metadata bytes",
+  "cctor_preferred_va": "0x2bac838",
+  "field_usage_slot": "0x5d620e0",
+  "field_reference_index": 34,
+  "field_reference_table_offset": 16197268,
+  "validated_field_references": 931,
+  "field_index": 37640,
+  "initializer_offset": 9608848,
+  "initializer_sha256": "a393c0c13bbdf298cc15cb47754116c0873c6188b8cdfb7264ee5eb34e7ff7b9",
+  "dimensions": [
+    5,
+    4
+  ],
+  "degree_rates": [
+    [
+      80.0,
+      20.0,
+      0.0,
+      0.0
+    ],
+    [
+      50.0,
+      45.0,
+      5.0,
+      0.0
+    ],
+    [
+      20.0,
+      55.0,
+      25.0,
+      0.0
+    ],
+    [
+      5.0,
+      35.0,
+      60.0,
+      0.0
+    ],
+    [
+      0.0,
+      15.0,
+      85.0,
+      0.0
+    ]
+  ],
+  "degree_health_multipliers": [
+    "1",
+    "1.8",
+    "3",
+    "35"
+  ],
+  "degree_money_multipliers": [
+    "1",
+    "1.8",
+    "3",
+    "100"
+  ],
+  "position_jitter": 1.5,
+  "grid_columns": 10,
+  "grid_spacing": 5,
+  "selection": "Morton(x,z)=Spread(x)|(Spread(z)<<1); sorted[floor(k*N/count)]",
+  "probability_boundary": "random < cumulative; fall through returns degree zero"
+}

@@ -1,0 +1,90 @@
+{
+  "status": "completed",
+  "duration": 61.93,
+  "summary": {
+    "total": 11,
+    "passed": 11,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "StepUpRecoveryRulesTests.CollectionBoundarySevenDaysAndNoRestartMatchNative",
+      "Status": "Passed",
+      "Duration": 0.2287051,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "StepUpRecoveryRulesTests.NativeFullAndCompactTimeFormatsKeepBoundaries",
+      "Status": "Passed",
+      "Duration": 0.0003122,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "StepUpRecoveryRulesTests.NativeRewardArrayAndSequentialPredicateAreIndependentOfExpiry",
+      "Status": "Passed",
+      "Duration": 0.0003868,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "StepUpRecoveryTests.CancellationDisabledVariantExpiryAndReopenDoNotResetProgress",
+      "Status": "Passed",
+      "Duration": 9.7375477,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "StepUpRecoveryTests.CollectionGateStartsOnceAndKeepsOriginalReferences",
+      "Status": "Passed",
+      "Duration": 6.0468935,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "StepUpRecoveryTests.FiveSequentialRewardsHideOfferAndSurviveColdReload",
+      "Status": "Passed",
+      "Duration": 11.8060159,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "StepUpRecoveryTests.FullInventoryRealClickRejectsWithoutPartialGrant",
+      "Status": "Passed",
+      "Duration": 6.6573939,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "StepUpRecoveryTests.HudRealClickOpensOriginalPopupAndBuysFirstStepOnce",
+      "Status": "Passed",
+      "Duration": 7.0277379,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "StepUpRecoveryTests.OriginalCloseButtonClosesPopupAndHudCanReopen",
+      "Status": "Passed",
+      "Duration": 6.9223593,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "StepUpRecoveryTests.OriginalPopupHudAndFiveItemsExistAtStartup",
+      "Status": "Passed",
+      "Duration": 5.5864281,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "StepUpRecoveryTests.WeaponBannerRealClickKeepsEntryPlaceAndChangesNextGun",
+      "Status": "Passed",
+      "Duration": 7.5097709,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

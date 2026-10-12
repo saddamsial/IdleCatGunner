@@ -1,0 +1,105 @@
+{
+  "identity": "com.Chodun.CatGunner 1.1.61 vc257 arm64",
+  "native_sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "initializer_blobs": [
+    {
+      "name": "counts",
+      "metadata_offset": 9608824,
+      "sha256": "9F5F8A069FE83395AF4EC39644FFE507E40C34169BB93AA1C3C14D9947E5FAB4",
+      "values": [
+        90,
+        120,
+        160,
+        200,
+        240
+      ],
+      "preferred_field_pointer": "0x5d63548",
+      "encoded_source": "0x80000043",
+      "fieldref_index": 33,
+      "token": "0x4001474"
+    },
+    {
+      "name": "intervals",
+      "metadata_offset": 9595064,
+      "sha256": "50AE5B4AC76DC791949EA5D291F05DD4696E82FFA80F0C5AAB3F5B0605F0E40A",
+      "values": [
+        0.3499999940395355,
+        0.20000000298023224,
+        0.17000000178813934,
+        0.11999999731779099,
+        0.07999999821186066
+      ],
+      "preferred_field_pointer": "0x5d63550",
+      "encoded_source": "0x80000033",
+      "fieldref_index": 25,
+      "token": "0x400146c"
+    }
+  ],
+  "normal_clear_reward_petcoin": 30,
+  "catch_up_threshold": 2,
+  "catch_up_interval": 0.03999999910593033,
+  "quota_wait": 0.10000000149011612,
+  "big_probability_per_level": 0.20000000298023224,
+  "big_health_multiplier": 3,
+  "health_precision": 2,
+  "normal_travel_divisor": 37.5,
+  "big_travel_divisor": 50,
+  "barrier_radius": 20,
+  "knockback_speed_multiplier": 20,
+  "knockback_duration_base": 0.05000000074505806,
+  "knockback_duration_multiplier": 0.29999998211860657,
+  "base_center": [
+    -100,
+    0,
+    0
+  ],
+  "cat_ring_radius": 14,
+  "enter_seconds": 2,
+  "explain_delay_seconds": 1,
+  "clear_delay_seconds": 2,
+  "exit_seconds": 1.5,
+  "camera_enter_size": 45,
+  "camera_exit_size": 40,
+  "source_hp_max": 1,
+  "pool": 240,
+  "health_cache": 2000,
+  "source_scene_sha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+  "native_export": {
+    "methods": 55,
+    "reviewed": "native-monster-client-reviewed"
+  },
+  "ordinary_scope": "Offline normal challenge. Ads, paid auto/sweep and online rankings excluded. Runtime tests pending.",
+  "ui_literals": [
+    {
+      "preferred_pointer": "0x5d625b8",
+      "kind": 5,
+      "literal_index": 13782,
+      "length": 12,
+      "data_offset": 487052,
+      "literal": "Wave {0}-{1}"
+    },
+    {
+      "preferred_pointer": "0x5d63338",
+      "kind": 5,
+      "literal_index": 22238,
+      "length": 4,
+      "data_offset": 675640,
+      "literal": "{0}%"
+    }
+  ],
+  "health_cache_static_validation": "monster-health-cache-check.json: all1999 adjacent transitions passed",
+  "native_dependencies": {
+    "BarrierCollider": "0x2b4c350",
+    "Cat.ClampToMonsterRadius": "0x2b3d234",
+    "InfVal.ToPrecision": "0x4558464",
+    "InfVal.set_exponent": "0x4554f68",
+    "Shapes.Disc.set_AngRadiansEnd": "0x4a58204",
+    "vendor_constructor_excluded": "native-monster-dependencies-reviewed/IDENTITY_NOTE.md"
+  },
+  "validation": {
+    "focused_first": "4/4,100.85seconds",
+    "focused_final": "5/5,122.63seconds",
+    "full": "101/101,534.4seconds",
+    "visual_player_device": "unaccepted"
+  }
+}

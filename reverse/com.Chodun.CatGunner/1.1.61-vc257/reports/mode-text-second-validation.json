@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 70.75,
+      "summary": {
+        "total": 4,
+        "passed": 3,
+        "failed": 1,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalModeTextTests.AllResultVariantsKeepSourceTextAndOriginalRectangles",
+          "Status": "Passed",
+          "Duration": 20.9305107,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalModeTextTests.FourMenuClicksShowOriginalEntranceTermsWithoutSpending",
+          "Status": "Failed",
+          "Duration": 6.85063,
+          "Message": "  SpeedRun\n  Expected: True\n  But was:  False\n",
+          "StackTrace": "at OriginalModeTextTests+<FourMenuClicksShowOriginalEntranceTermsWithoutSpending>d__18.MoveNext () [0x00129] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalModeTextTests.cs:83\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalModeTextTests.OriginalChallengeEnterNaturalVictoryClaimAndColdReloadKeepTextsAndRewards",
+          "Status": "Passed",
+          "Duration": 36.7789242,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalModeTextTests.StartupUsesOriginalCoreModeTerms",
+          "Status": "Passed",
+          "Duration": 6.1370164,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

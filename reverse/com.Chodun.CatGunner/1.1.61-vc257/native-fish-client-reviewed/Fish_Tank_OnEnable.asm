@@ -1,0 +1,15 @@
+02c63144  stp x30,x19,[sp, #-0x10]!
+02c63148  ldrb w8,[x0, #0x50]
+02c6314c  mov x19,x0
+02c63150  cbz w8,0x02c63174
+02c63154  mov x0,x19
+02c63158  strb wzr,[x19, #0x50]
+02c6315c  bl 0x02c63180
+02c63160  mov x1,x0
+02c63164  mov x0,x19
+02c63168  mov x2,xzr
+02c6316c  ldp x30,x19,[sp], #0x10
+02c63170  b 0x057e2120
+02c63174  mov x0,x19
+02c63178  ldp x30,x19,[sp], #0x10
+02c6317c  b 0x02c5e45c

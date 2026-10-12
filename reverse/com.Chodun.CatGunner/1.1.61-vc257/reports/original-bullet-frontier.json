@@ -1,0 +1,90 @@
+{
+  "package": "com.Chodun.CatGunner",
+  "version": "1.1.61-vc257",
+  "evidence": "Hash-checked native bounds/ASM, corrected HashSet thunk decompilation, original assets and live PlayMode contract/actual physics; complete shooting flow pending",
+  "method_status_report": "native-bullet-hit/status.tsv",
+  "business_queries": 19,
+  "original_pool": {
+    "component": "level0-123269.json",
+    "bullet_objects": 27,
+    "bullet_fx_objects": 10,
+    "factory": "Cat.TrySpawnBulletEx requests Polling_manager.Object_Polling_Smart(0), then Bullet.SpawnEx"
+  },
+  "confirmed_native_paths": [
+    {
+      "method": "Bullet.SetupLinear",
+      "va": "0x2b657d0",
+      "behavior": "Stop/Clear particle, non-kinematic body, position+LastPos, forward and forward*Speed velocity, damage/text/critical, activate object and play particle"
+    },
+    {
+      "method": "Bullet.ResetState",
+      "va": "0x2b656f0",
+      "behavior": "Clear die/missile/first-hit/FX flags, pierce count and explosion radius; clear hit IDs, non-kinematic body, CancelInvoke and enable collider"
+    },
+    {
+      "method": "Bullet.HitSingle",
+      "va": "0x2b66714",
+      "behavior": "Gamemanager.Damage_Collider with damage/text/critical/hit point, SpawnFX then DieAndWait"
+    },
+    {
+      "method": "Bullet.DieAndWait",
+      "va": "0x2b66330",
+      "behavior": "Duplicate guard, set death flag, zero velocity if dynamic, kinematic, disable collider, stop active mesh, CancelInvoke then schedule Deactivate using serialized delay"
+    },
+    {
+      "method": "Bullet.Deactivate",
+      "va": "0x2b66e3c",
+      "behavior": "SetActive(false), no allocation or destruction"
+    },
+    {
+      "method": "Bullet.Destroy",
+      "va": "0x2b6708c",
+      "behavior": "Guard dead; explosive types4/5 Explode and SpawnFX at current position, then DieAndWait; integrated missile flight handles earlier endpoint/trigger"
+    },
+    {
+      "method": "Cat.TryFireMissile",
+      "va": "0x2b421b4",
+      "behavior": "Pool-first; target transform snapshot/fallback, strict spread>0.01 angle then uniform radius, final XZduration/maxspeed0.1 and arc0.4"
+    },
+    {
+      "method": "Bullet.SpawnMissile",
+      "va": "0x2b65958",
+      "behavior": "Kinematic start/end/timer/radius, initial squared distance threshold0.001, activate/particleClear, duration+0.5 expiry without50-unit cap"
+    },
+    {
+      "method": "Bullet.Update",
+      "va": "0x2b65c44",
+      "behavior": "Scaled timer; lerp+4*h*t*(1-t)Y, prior XYZ LastPos, movement-forward threshold0.0001, endpoint blast/FX/return"
+    }
+  ],
+  "unresolved": "Full Cat.Update companion AI/other modes/leader history, manager ownership/save/balance/progression/economy lifecycle, native UI mode5/Ore, DamageTextManager/Gamemanager and fullMain/backend/phone",
+  "runtime_shooting_restored": false,
+  "additional_method_sets": [
+    {
+      "folder": "native-bullet-dependencies",
+      "business_queries": 14
+    },
+    {
+      "folder": "native-bullet-effects-lifecycle",
+      "business_queries": 11
+    }
+  ],
+  "normal_projectile_path_integrated": true,
+  "full_shooting_loop_restored": false,
+  "implemented": "All seven forest projectile types SINGLE/LASER/PIERCE/SHOTGUN/EXPLOSIVE/MISSILE/BLAST_SNIPER: explicit profile factory/hits, shotgun volley, radius query/splash, missile snapshot/scatter/parabolic kinematic trajectory/initial tangent aim and expiry, first-blast sniper subsequent pierce, original pools/65skins/mesh/FX, tree-only damage adapter, return/muzzle/recoil/throttle",
+  "verification": "live-missile-assembly-tests-status.json:51/51 recovery assembly",
+  "followup_combat_contract": "original-combat-contract.json",
+  "shotgun_volley_integrated": true,
+  "followup_shotgun_contract": "original-shotgun-contract.json",
+  "legacy_runtime_shooting_restored_flag_meaning": "False means full original Update/AI/all modes/production lifecycle pending; seven forest weapons and forest hero auto movement are integrated",
+  "pierce_forest_integrated": true,
+  "laser_forest_integrated": true,
+  "followup_penetrating_contract": "original-penetrating-contract.json",
+  "explosive_forest_integrated": true,
+  "blast_sniper_forest_integrated": true,
+  "followup_explosion_contract": "original-explosion-contract.json",
+  "missile_forest_integrated": true,
+  "followup_missile_contract": "original-missile-contract.json",
+  "forest_auto_movement_integrated": true,
+  "followup_auto_move_contract": "original-auto-move-contract.json"
+}

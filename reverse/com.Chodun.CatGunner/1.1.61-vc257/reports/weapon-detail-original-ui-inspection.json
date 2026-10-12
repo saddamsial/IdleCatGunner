@@ -1,0 +1,81 @@
+{
+  "newGun": [
+    {
+      "name": "NewGun_UI",
+      "controller": "NewGun",
+      "clips": [
+        {
+          "name": "Open",
+          "length": 2
+        }
+      ]
+    }
+  ],
+  "newGunButtons": [
+    {
+      "name": "Background",
+      "events": [
+        {
+          "target": "NewGun_UI",
+          "method": "SetActive"
+        }
+      ]
+    }
+  ],
+  "infoButtons": [
+    {
+      "name": "Background",
+      "events": [
+        {
+          "target": "GunInfo_UI",
+          "method": "SetActive"
+        }
+      ]
+    },
+    {
+      "name": "UnSafe_Btn",
+      "events": [
+        {
+          "target": "GunInfo_UI",
+          "method": "onClick_TakeOut"
+        }
+      ]
+    },
+    {
+      "name": "Pause_Btn",
+      "events": [
+        {
+          "target": "GunInfo_UI",
+          "method": "onClick_Pause"
+        }
+      ]
+    },
+    {
+      "name": "UnPause_Btn",
+      "events": [
+        {
+          "target": "GunInfo_UI",
+          "method": "onClick_Unpause"
+        }
+      ]
+    },
+    {
+      "name": "PauseLock_obj",
+      "events": [
+        {
+          "target": "GunInfo_UI",
+          "method": "onClick_PauseLock"
+        }
+      ]
+    },
+    {
+      "name": "Close_Btn",
+      "events": [
+        {
+          "target": "GunInfo_UI",
+          "method": "SetActive"
+        }
+      ]
+    }
+  ]
+}

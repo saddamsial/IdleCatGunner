@@ -1,0 +1,132 @@
+{
+  "status": "completed",
+  "duration": 63.03,
+  "summary": {
+    "total": 17,
+    "passed": 17,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.DayBoundaryRequiresInactiveBudgetAndNeverCreatesPackOwnership",
+      "Status": "Passed",
+      "Duration": 0.1657148,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.ExactOriginalLiteralTruncatesTime(600.0f,\"10:00\")",
+      "Status": "Passed",
+      "Duration": 0.0003947,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.ExactOriginalLiteralTruncatesTime(59.99f,\"0:59\")",
+      "Status": "Passed",
+      "Duration": 3.16E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.ExactOriginalLiteralTruncatesTime(0.0f,\"0:00\")",
+      "Status": "Passed",
+      "Duration": 1.86E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.FrameCapAdPauseAndPaidBudgetAreNativeGates",
+      "Status": "Passed",
+      "Duration": 0.0001695,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.NativeLoadClampsTimerAndNormalizesNullDate(-1.0f,0.0f)",
+      "Status": "Passed",
+      "Duration": 0.0003464,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.NativeLoadClampsTimerAndNormalizesNullDate(901.0f,600.0f)",
+      "Status": "Passed",
+      "Duration": 2.65E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.NativeLoadClampsTimerAndNormalizesNullDate(float.NaN,0.0f)",
+      "Status": "Passed",
+      "Duration": 2.21E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.NativeLoadClampsTimerAndNormalizesNullDate(float.PositiveInfinity,600.0f)",
+      "Status": "Passed",
+      "Duration": 2.38E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.ClosingOfferCancelsRewardAndRepeatedRequestsCannotDoubleGrant",
+      "Status": "Passed",
+      "Duration": 9.1435026,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.ColdSceneReloadPreservesBudgetWithoutConsumingOfflineSeconds",
+      "Status": "Passed",
+      "Duration": 12.5426642,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.LostRuntimeServicesCannotOverwriteLastGoodArchiveOrThrowOnStop",
+      "Status": "Passed",
+      "Duration": 6.4164151,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.OriginalAutoUpgradeHudAndPopupArePresentForPlay",
+      "Status": "Passed",
+      "Duration": 5.8462753,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.OriginalCloseButtonRestoresBatchSoundAndAllThreeUpgradeAnimations",
+      "Status": "Passed",
+      "Duration": 7.388875,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.PaidStateSkipsAdAndKeepsTimedBudgetWithoutGrantingNewEntitlement",
+      "Status": "Passed",
+      "Duration": 6.5030171,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.RealHudAdAndSwitchButtonsBuyNativeAffordableLowestLevelsAndSave",
+      "Status": "Passed",
+      "Duration": 8.3998184,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.ScaledPauseExpirySameDayAndNextDayReloadUseOriginalVisibility",
+      "Status": "Passed",
+      "Duration": 6.3198291,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

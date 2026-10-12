@@ -1,0 +1,41 @@
+{
+  "status": "completed",
+  "duration": 32.76,
+  "summary": {
+    "total": 4,
+    "passed": 2,
+    "failed": 2,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalWeaponPresentationTests.ActualInventoryClickUsesOriginalDescriptionButtonSoundAndMuteDragGuards",
+      "Status": "Failed",
+      "Duration": 12.6584118,
+      "Message": "  Expected string length 17 but was 14. Strings differ at index 0.\n  Expected: \"爆炸 - 发射造成范围伤害的子弹。\"\n  But was:  \"散弹 - 同时发射多颗子弹。\"\n  -----------^\n",
+      "StackTrace": "at OriginalWeaponPresentationTests+<ActualInventoryClickUsesOriginalDescriptionButtonSoundAndMuteDragGuards>d__18.MoveNext () [0x0016b] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalWeaponPresentationTests.cs:66\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalWeaponPresentationTests.All14OriginalLanguageRowsAndSevenNativeTypeMappingsArePreserved",
+      "Status": "Passed",
+      "Duration": 6.8528475,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalWeaponPresentationTests.All65AcquiredTypesAndOriginalOpenAnimationCloseAndRestart",
+      "Status": "Failed",
+      "Duration": 6.1885252,
+      "Message": "  Expected: 1\n  But was:  0\n",
+      "StackTrace": "at OriginalWeaponPresentationTests+<All65AcquiredTypesAndOriginalOpenAnimationCloseAndRestart>d__19.MoveNext () [0x000ff] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalWeaponPresentationTests.cs:75\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalWeaponPresentationTests.All65WeaponDetailsUseOriginalDescriptionsAndGradeSprites",
+      "Status": "Passed",
+      "Duration": 5.9783533,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

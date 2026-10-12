@@ -1,0 +1,77 @@
+02c38644  str x30,[sp, #-0x30]!
+02c38648  stp x22,x21,[sp, #0x10]
+02c3864c  stp x20,x19,[sp, #0x20]
+02c38650  adrp x20,0x625c000
+02c38654  adrp x19,0x5e63000
+02c38658  ldrb w8,[x20, #0x82]
+02c3865c  ldr x19,[x19, #0x1b8]
+02c38660  tbnz w8,#0x0,0x02c38690
+02c38664  adrp x0,0x5e63000
+02c38668  ldr x0,[x0, #0x1a0]
+02c3866c  bl 0x029f5a50
+02c38670  adrp x0,0x5e63000
+02c38674  ldr x0,[x0, #0x1c8]
+02c38678  bl 0x029f5a50
+02c3867c  adrp x0,0x5e63000
+02c38680  ldr x0,[x0, #0x1b8]
+02c38684  bl 0x029f5a50
+02c38688  mov w8,#0x1
+02c3868c  strb w8,[x20, #0x82]
+02c38690  adrp x20,0x5e58000
+02c38694  ldr x20,[x20, #0xa10]
+02c38698  ldr x19,[x19]
+02c3869c  ldr x0,[x20, #0xe0]
+02c386a0  ldr w8,[x0, #0xe4]
+02c386a4  cbnz w8,0x02c386ac
+02c386a8  bl 0x029f5bd0
+02c386ac  mov x0,x19
+02c386b0  mov x1,xzr
+02c386b4  bl 0x04860260
+02c386b8  ldr x8,[x20, #0x98]
+02c386bc  mov x19,x0
+02c386c0  ldr w9,[x8, #0xe4]
+02c386c4  cbnz w9,0x02c386d0
+02c386c8  mov x0,x8
+02c386cc  bl 0x029f5bd0
+02c386d0  adrp x21,0x5e63000
+02c386d4  mov x0,x19
+02c386d8  mov x1,xzr
+02c386dc  ldr x21,[x21, #0x1a0]
+02c386e0  bl 0x048858cc
+02c386e4  cbz x0,0x02c38734
+02c386e8  adrp x22,0x5e63000
+02c386ec  mov x19,x0
+02c386f0  ldr x22,[x22, #0x1c8]
+02c386f4  ldr x20,[x22]
+02c386f8  mov x1,x20
+02c386fc  bl 0x029f5bd4
+02c38700  cbz x0,0x02c38760
+02c38704  ldr x8,[x21]
+02c38708  ldr x8,[x8, #0xb8]
+02c3870c  str x0,[x8]
+02c38710  mov x0,x19
+02c38714  ldr x8,[x21]
+02c38718  ldr x21,[x22]
+02c3871c  ldr x20,[x8, #0xb8]
+02c38720  mov x1,x21
+02c38724  bl 0x029f5bd4
+02c38728  cbz x0,0x02c3876c
+02c3872c  mov x1,x0
+02c38730  b 0x02c3874c
+02c38734  ldr x8,[x21]
+02c38738  mov x1,xzr
+02c3873c  ldr x8,[x8, #0xb8]
+02c38740  str xzr,[x8]
+02c38744  ldr x8,[x21]
+02c38748  ldr x20,[x8, #0xb8]
+02c3874c  mov x0,x20
+02c38750  ldp x20,x19,[sp, #0x20]
+02c38754  ldp x22,x21,[sp, #0x10]
+02c38758  ldr x30,[sp], #0x30
+02c3875c  b 0x029f59f4
+02c38760  mov x0,x19
+02c38764  mov x1,x20
+02c38768  bl 0x029f607c
+02c3876c  mov x0,x19
+02c38770  mov x1,x21
+02c38774  bl 0x029f607c

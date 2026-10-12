@@ -1,0 +1,157 @@
+{
+  "rule": 63,
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "nativeSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "sceneSha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+  "sourceDocuments": {
+    "1748": "11425bfc8223b33cd1bbfab961cb5446f550156f5f4b0fdcb37b0b3ea7f74802",
+    "781": "4fd2b8ac6bcbd390d39ef03a2274118c75fb01e6b121457d1f5703d902bbaa2c",
+    "39293": "7911e2870894638bced5bddeac0adf1fb32523daec918963aeda4ec177b60d97",
+    "123889": "4a3605b15cb21edf02b9899761763ceb8887c402df56c5b017c29f8dd693f5ea",
+    "82855": "0890c1fa32ec4ed9a6d6bd8637234741c13b5060dc0d2cb5a14f143cd15c311c"
+  },
+  "configuration": {
+    "SourceComponent": 123889,
+    "Duration": 3.0,
+    "EndEuler": {
+      "x": 45.0,
+      "y": -15.0,
+      "z": -180.0
+    },
+    "SourceQuaternion": {
+      "x": -0.37940955,
+      "y": 0.1205906,
+      "z": -0.049950283,
+      "w": -0.9159756
+    },
+    "SourcePosition": {
+      "x": 0.0,
+      "y": 2.0,
+      "z": 0.0
+    },
+    "SourceScale": {
+      "x": 3.0,
+      "y": 3.0,
+      "z": 3.0
+    }
+  },
+  "sourceEulerHint": {
+    "x": 45.000004,
+    "y": 15.000016,
+    "z": -1.7213385e-06
+  },
+  "actualSourceEuler": {
+    "x": 45.0000038,
+    "y": 345,
+    "z": 2.41483667e-06
+  },
+  "actualChange": {
+    "x": -3.81469727e-06,
+    "y": 0,
+    "z": -180
+  },
+  "methods": [
+    {
+      "name": "DOTweenAnimation_Awake",
+      "preferredVa": "0x2a75c08",
+      "end": "0x2a75c54",
+      "first16": "08b4423928020034fe4fbfa908b04239",
+      "inputSha256": "518ce0c4705c3c7cf643f34f2f11cbd96cd1375cc8bb36803bb6c64d850c6f15",
+      "reused": false,
+      "outputs": {
+        "native-target-tween-reviewed/DOTweenAnimation_Awake.c": "a383f75246239aa2583574e7535b53a4e8f7ba9c6551086a7b712c155188c9b2",
+        "native-target-tween-reviewed/DOTweenAnimation_Awake.asm": "e06dd779a137c6243b87ec4825c1d1e63b024c6333c3404f05c07b5eb431be3b"
+      }
+    },
+    {
+      "name": "DOTweenAnimation_Start",
+      "preferredVa": "0x2a77154",
+      "end": "0x2a77198",
+      "first16": "08c0443948000034c0035fd6fe4fbfa9",
+      "inputSha256": "80b2f983faf23c942dfd6f7966877c52ab8ce47ecf42523edc93ab51bb1ab25d",
+      "reused": false,
+      "outputs": {
+        "native-target-tween-reviewed/DOTweenAnimation_Start.c": "e2c257006938fcc6361e39556036b027ae34624d558a13ba676acb07e939a32d",
+        "native-target-tween-reviewed/DOTweenAnimation_Start.asm": "0da6f78c366c112c00dc7f84d8026afa17d58d2481dcb1341b152ba551d14a39"
+      }
+    },
+    {
+      "name": "DOTweenAnimation_OnDestroy",
+      "preferredVa": "0x2a7719c",
+      "end": "0x2a771d4",
+      "first16": "fe4fbfa9f30300aa608e46f8c00000b4",
+      "inputSha256": "b45e0589ed65fdbc897105be2c6a7cfa90f66d9d67fe90f37afa4fadd5309e0f",
+      "reused": false,
+      "outputs": {
+        "native-target-tween-reviewed/DOTweenAnimation_OnDestroy.c": "379c1e8f6e5b39176bbc7ed46f560ad63ab161e45c8abbdc0fc39d2dd74c084d",
+        "native-target-tween-reviewed/DOTweenAnimation_OnDestroy.asm": "673820e8b149f4c2e9e829582e7ea5fa110c65efcf73a9cb2cd9a7c993502d9b"
+      }
+    },
+    {
+      "name": "DOTweenAnimation_CreateTween",
+      "preferredVa": "0x2a75c54",
+      "end": "0x2a77154",
+      "first16": "ec0f19fceb2b016de923026dfe6703a9",
+      "inputSha256": "a28c9e92873c92e9bfb8a50f00ff4b6717d2ee5f333939528e3f8cce48663804",
+      "reused": false,
+      "outputs": {
+        "native-target-tween-reviewed/DOTweenAnimation_CreateTween.c": "6380bf7f3a4fb23586cb0cef914171d1d90311ba53122551aca29c9c16c54e69",
+        "native-target-tween-reviewed/DOTweenAnimation_CreateTween.asm": "03a9ec5e516bf2c6667c20bca12817dab1066c325481dc9540c76a96a6b1df8d"
+      }
+    },
+    {
+      "name": "QuaternionPlugin_SetChangeValue",
+      "preferredVa": "0x2bd35e8",
+      "end": "0x2bd3778",
+      "first16": "ee0f1bfced33016deb2b026de923036d",
+      "inputSha256": "3dbadc90d1838af73fe2529551a2c1a159eb24c96f52fac58adfdfbecc47ebc3",
+      "reused": true,
+      "outputs": {
+        "native-reward-rotation-reviewed/QuaternionPlugin_SetChangeValue.c": "d5ddf83eb77afbfdae8d717a6ade94b6baa4914ebb336f7330552faced54a5a3",
+        "native-reward-rotation-reviewed/QuaternionPlugin_SetChangeValue.asm": "255500f7b7f99afaba97e80babfaab775ae321a1ed1ebd48c049c97a9e890e80"
+      }
+    },
+    {
+      "name": "QuaternionPlugin_EvaluateAndApply",
+      "preferredVa": "0x2bd37f8",
+      "end": "0x2bd3ce0",
+      "first16": "ff8303d1ef3b076ded33086deb2b096d",
+      "inputSha256": "390e91dd4cac55c6218910f0fc171493991a5158c74f9c2a6194f278ec398bef",
+      "reused": true,
+      "outputs": {
+        "native-reward-rotation-reviewed/QuaternionPlugin_EvaluateAndApply.c": "d1ef075e9da17f064b191617b14f0113bec2f94e8a444a58f1b5687b02092932",
+        "native-reward-rotation-reviewed/QuaternionPlugin_EvaluateAndApply.asm": "ba413a1af6540e936b215ee04131c1294a6db83b05d22955dc0a55d2c3ef7c7d"
+      }
+    },
+    {
+      "name": "QuaternionPlugin_GetEulerValForCalculations",
+      "preferredVa": "0x2bd3210",
+      "end": "0x2bd345c",
+      "first16": "ff8301d1ef3b016ded33026deb2b036d",
+      "inputSha256": "1c39d95e95462f0456d657b0ea9c8f8be04af3904601e629af63b21dee269f8c",
+      "reused": true,
+      "outputs": {
+        "native-reward-rotation-reviewed/QuaternionPlugin_GetEulerValForCalculations.c": "19567475ea3a34c04510daffaeb519d75021fff784edeec7e3488571fbb9a5b3",
+        "native-reward-rotation-reviewed/QuaternionPlugin_GetEulerValForCalculations.asm": "4cd8adc412ae16cfffc327afb39723b922cd22aa576aa65d088900a1369bee46"
+      }
+    }
+  ],
+  "registeredQueryCount": {
+    "before": 939,
+    "after": 943,
+    "new": 4
+  },
+  "sourceSpriteGuid": "9641abd451be4cb448a5c463549b5f8a",
+  "nativeRules": {
+    "creation": "Awake autoGenerate/isActive creates once; Start skips already generated; metadata has no OnEnable/OnDisable hooks. OnDestroy kills original tween.",
+    "coordinate": "CreateTween animationType4 is DOLocalRotate; targetType11 Transform, mode0 Fast.",
+    "change": "QuaternionPlugin Fast retains signed absolute differences <=180; only the original nonrelative rotation here is implemented. Actual source Euler is45,345,~0, not hint45,15,~0.",
+    "evaluation": "linear scaled time, incremental infinite loops: startEuler + change * elapsed/duration. No callbacks or delay in this component.",
+    "visibility": "existing Cat target owner changes position/active only; animation phase continues across target change and visibility. Local adapter lazily applies hidden progress when re-enabled instead of a global inactive-transform update."
+  },
+  "adapters": [
+    "Runtime component and frame scheduler replace DOTween tween allocation/global manager; not full plugin lifecycle or all quaternion modes",
+    "Original sprite, tilt, transform offsets/scale and existing compatibility material retained; disabled Shapes.Disc not enabled"
+  ],
+  "scopeComplete": false
+}

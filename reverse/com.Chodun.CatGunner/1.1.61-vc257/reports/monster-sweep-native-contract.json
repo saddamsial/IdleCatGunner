@@ -1,0 +1,275 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "rule": 54,
+  "verifiedNativeFields": {
+    "Monster_manager": {
+      "Wave_Now": 32,
+      "Lv_Now": 36,
+      "GameEnd_UI": 40,
+      "GameExplain_obj": 48,
+      "monster_start_ui": 56,
+      "Ingame_Upgrade_UI_obj": 64,
+      "Remove_ForceAds_ingame_obj": 72,
+      "Monster_sprites": 80,
+      "Health_Balance": 88,
+      "_currentWaveHealth": 96,
+      "_cachedHealthWave": 128,
+      "_cachedHealthInf": 136,
+      "Monster_Colors": 168,
+      "Clear_Reward": 0,
+      "monster_game_slider": 176,
+      "instance": 8,
+      "_resultSent": 184,
+      "_endPanelShown": 185,
+      "_bonusAdWatched": 186,
+      "HP_Now": 188,
+      "HP_Max": 192,
+      "HP_Disc": 200,
+      "_killedCount": 208,
+      "_invasionPending": 212,
+      "Game_Coroutine": 216,
+      "LevelClear_Coroutine": 224,
+      "CatSpawnPos": 232,
+      "MonsterCountPerLevel": 16,
+      "SpawnIntervalPerLevel": 24,
+      "CatchUpSpawnInterval": 0,
+      "CatchUpThreshold": 0,
+      "_slimeParticle": 248,
+      "LevelClear_obj": 256,
+      "GameSweep_UI": 264,
+      "SweepBonus_Btn_obj": 272,
+      "SweepNoAds_Btn_obj": 280,
+      "SweepSkip_obj": 288,
+      "SweepReward_txt": 296,
+      "SweepBonus_txt": 304,
+      "_sweepPending": 312,
+      "SweepSafetyPct": 0,
+      "SweepMaxLevels": 0,
+      "PetCoin_Accum": 316,
+      "Accum_PetCoin_txt": 320,
+      "Reward_txt": 328,
+      "Bonus_txt": 336,
+      "Bonus_Btn_obj": 344,
+      "NoAds_Btn_obj": 352,
+      "Skip_obj": 360,
+      "NonSpawned_Monster": 368,
+      "Spawned_Monster": 376,
+      "Map_obj": 384
+    },
+    "Monster_Start_UI": {
+      "Monster_img": 32,
+      "Wave_txt": 40,
+      "user_rank_ui": 48,
+      "Rank_Loading_obj": 56,
+      "Rank_Panel_obj": 64,
+      "Scroll_Rect": 72,
+      "Top5_Enable_obj": 80,
+      "Top5_Disable_obj": 88,
+      "AroundMe_Enable_obj": 96,
+      "AroundMe_Disable_obj": 104,
+      "_currentMode": 112,
+      "_myIndex": 116,
+      "NonAuto_obj": 120,
+      "Auto_obj": 128,
+      "Sweep_NonActive_obj": 136,
+      "Sweep_Active_obj": 144,
+      "Stage_txt": 152,
+      "Value_txt": 160,
+      "Sweep_Fill": 168,
+      "PlusPack_Banner_obj": 176
+    }
+  },
+  "allQueriesCompleted": true,
+  "businessMethods": 15,
+  "exceptionHelpers": 6,
+  "methods": [
+    {
+      "preferredVa": "0x2a80ff8",
+      "name": "Gamemanager_Power_Monster_return",
+      "end": "0x2a812fc",
+      "first16": "eb2bb86de923016dfd1300f9fe6f03a9",
+      "sha256": "e2d16c76269b0221afc4c8286426b45e20bf1020e1e9a671aeb12d4d14c016ba",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b39c0c",
+      "name": "Cat_AtkCool_Boss_return",
+      "end": "0x2b39c30",
+      "first16": "082440f9c80000b4004140bd21008052",
+      "sha256": "c6e792396b12533ef573a65eaa36d0a53ae72d8e2a3ae77f6c28ac0c8e5124d5",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b39c30",
+      "name": "Cat_ExpectedDamage_Boss_return",
+      "end": "0x2b3a200",
+      "first16": "fd0f1cf8fe5f01a9f65702a9f44f03a9",
+      "sha256": "7b06f7c831e8db7be9888b7d9543ff13feae38a8ae902596b9f1b5dd783f833a",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b4ec08",
+      "name": "Monster_manager_SweepRequiredPower_return",
+      "end": "0x2b4ede8",
+      "first16": "fd7bbca9f85f01a9f65702a9f44f03a9",
+      "sha256": "c022f3a104f4fa48eb81a74da8a45161f9bfb25cb88a09c7b776ce985377b59a",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b4ede8",
+      "name": "Monster_manager_SweepTarget_return",
+      "end": "0x2b4eef8",
+      "first16": "ff8302d1fe3300f9f85f07a9f65708a9",
+      "sha256": "81f15ffc7f7d6cf4d584df7877881811dfa825c9c1530b1ce4170a0b8188242b",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b4eef8",
+      "name": "Monster_manager_is_SweepAble",
+      "end": "0x2b4efd0",
+      "first16": "ff0302d1fe5706a9f44f07a975b001d0",
+      "sha256": "e61583491827f117f06724e70698d1855e743e7af2d21ee0298f765b1a7ddf05",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b4efd0",
+      "name": "Monster_manager_SweepValue_return",
+      "end": "0x2b4f1bc",
+      "first16": "ffc305d1e8a300fdfd7b15a9f44f16a9",
+      "sha256": "d9c15d0110143b42d67c59c2649d3b888115553f85be736caf09ecf160a061bf",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b4f1bc",
+      "name": "Monster_manager_Game_Sweep",
+      "end": "0x2b4f488",
+      "first16": "ff0301d1fe5702a9f44f03a974b001b0",
+      "sha256": "de742702836eb2e5e7420918de845a73f63dff5ced070545ce4ab8960e09e734",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b4f944",
+      "name": "Monster_manager_SweepBonus_AD_Show",
+      "end": "0x2b4f99c",
+      "first16": "fe0f1ef8f44f01a973b001b0749001d0",
+      "sha256": "ec3af8ea5cb4b9838562286b21237e7663ab7d331ae48bb59743892ed686a6d2",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b4f99c",
+      "name": "Monster_manager_SweepBonus_Get",
+      "end": "0x2b4fa08",
+      "first16": "fe57bea9f44f01a975b001b0749001d0",
+      "sha256": "26cd706675da11c5fbd33617e78e71abca6ccd0fa97ae2b1aa5ceceb0e313bd6",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b4fa08",
+      "name": "Monster_manager_Sweep_Close",
+      "end": "0x2b4fb14",
+      "first16": "fe0f1ef8f44f01a974b001b0f30300aa",
+      "sha256": "3dc5f6d8fda4ddde9cee63f544592dc3e19df4b51bff3dbb3bd2929f9c2b8a7b",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b4f488",
+      "name": "Monster_Start_UI_Reload",
+      "end": "0x2b4f944",
+      "first16": "ff4301d1fe0b00f9f85f02a9f65703a9",
+      "sha256": "a5b712d2e4fc1cfb0d0f63a5d9bace09f7caf786b771c5fc65c7764f9f623cb1",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b50b00",
+      "name": "Monster_Start_UI_OnEnable",
+      "end": "0x2b50ba4",
+      "first16": "fe5fbda9f65701a9f44f02a976b00190",
+      "sha256": "c36afe538730d7ed3d37a0295660d0dff667f52428da5f216270fb1e41625663",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b50978",
+      "name": "Monster_Start_UI_Banner_Reload",
+      "end": "0x2b50a34",
+      "first16": "fe57bea9f44f01a975b00190549001b0",
+      "sha256": "c03825993d7c1e10573d33f9d919eca653cf039976148e44bf73df6cdb740d09",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b50c48",
+      "name": "Monster_Start_UI_Game_Sweep",
+      "end": "0x2b50cdc",
+      "first16": "fe0f1ef8f44f01a974b00190739001b0",
+      "sha256": "45ffbbfc0883c17a4cd7d930fd00c3d25dde555617d60b2f9d1021a9d4af70bc",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x28f5cfc",
+      "name": "Throw_NullReference_Wrapper",
+      "end": "0x28f5d04",
+      "first16": "fe0f1ff86a220194fe0f1ff87b220194",
+      "sha256": "fd826c34b9ef2518b1f3f6d39e7562b9946c1a4ca9651bc3c25e81558d412348",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x28f5d04",
+      "name": "Throw_Index_Wrapper",
+      "end": "0x28f5d0c",
+      "first16": "fe0f1ff87b220194c03cff90006c0191",
+      "sha256": "4443063a785929eff8fbdd73652167a28163cc8bee6d193aa1d2d34ba13cefaa",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x293e6a8",
+      "name": "Throw_NullReference_Create",
+      "end": "0x293e6bc",
+      "first16": "ff8300d1fffb00a9e0030091ff0300f9",
+      "sha256": "cdbf0bcca450bcc5619d3bedfd51ab6ee40fa3f25845c22f256f2b52ded52c13",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x293e6bc",
+      "name": "Throw_NullReference_Raise",
+      "end": "0x293e6cc",
+      "first16": "fe0f1ff803000094e1031faad2ffff97",
+      "sha256": "5ca19850cf19c59741f496304fb81f88760711935ae81e9878b9291de917db2c",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x293e6f4",
+      "name": "Throw_Index_Raise",
+      "end": "0x293e704",
+      "first16": "fe0f1ff803000094e1031faac4ffff97",
+      "sha256": "cc88e424aa2cedbec18e703dcec784e753947ba52264006468b82ee358e7e4dd",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x293e610",
+      "name": "Managed_Exception_CxaThrow",
+      "end": "0x293e638",
+      "first16": "fe4fbfa9f30300aa71ffff9700018052",
+      "sha256": "3baf58d6dd416adb6ec9a1aa884940ecdc8bcb00a7fd1ff5efd9d6fd84aa48a1",
+      "completed": true
+    }
+  ],
+  "nativeRules": {
+    "gate": "PlusPack.Is_Active(2) and Power_Monster>=required current wave/level",
+    "required": "WaveBaseHealth_Pure*(100+40*level)/100 *150 / trunc(float32 SpawnIntervalPerLevel[level]*100), final precision5; count per level not used",
+    "power": "Active ordinary cats only; boss expected damage/cooldown exclude forest upgrades; targets SINGLE1 LASER7 PIERCE5 SHOTGUN max(1,pellets) EXPLOSIVE5 MISSILE5 BLAST_SNIPER10; expected*targets*100/trunc(cooldown*100); final precision5",
+    "target": "advance only while each successive threshold passed, cap100 cleared levels, wrap five levels; save next playable wave/level",
+    "reward": "30*Plus1 multiplier(2 or1), truncate before multiplying count; snapshot uses shared PetCoin_Accum field0x13c; base or automatic2x; no mine mission increment",
+    "bonus": "Original SweepBonus_AD_Show -> ad placement5; add PetCoin_Accum once; close",
+    "preview": "Plus2 swaps NonAuto/Auto; insufficient red current level plus percentage/fill; sufficient white next playable level/fill1",
+    "banner": "PlusPack.Banner_ShouldShow(2)",
+    "close": "pending false/hide; original interstitial placement4 omitted offline",
+    "online": "SendDgResult(sweep=true) and rank Wave*10+level not connected"
+  },
+  "adapters": [
+    "Shared user-authorized local ads/purchases only; no real charge, SDK or receipts",
+    "Existing bounded DecimalAmount/InfVal adapter, not original implementation",
+    "Local page/mode/revision/in-flight guards protect duplicate/stale results",
+    "Local 0.25s observer handles purchase expiry and preview; no trusted server clock",
+    "Ranking/SendDgResult/FreeCash/close interstitial/production entitlements not restored"
+  ],
+  "scopeComplete": false
+}

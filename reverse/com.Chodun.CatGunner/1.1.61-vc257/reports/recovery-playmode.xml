@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="9" result="Passed" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-08 15:48:34Z" end-time="2026-10-08 15:48:34Z" duration="0.3473391">
+  <test-suite type="TestSuite" id="1613" name="CatGunnerUnityClient" fullname="CatGunnerUnityClient" runstate="Runnable" testcasecount="495" result="Passed" start-time="2026-10-08 15:48:34Z" end-time="2026-10-08 15:48:34Z" duration="0.347339" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1010" name="CatGunner.Recovery.PlayModeTests.dll" fullname="/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Library/ScriptAssemblies/CatGunner.Recovery.PlayModeTests.dll" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-08 15:48:34Z" end-time="2026-10-08 15:48:34Z" duration="0.296541" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="43320" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="OriginalBalanceTests" fullname="OriginalBalanceTests" classname="OriginalBalanceTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-08 15:48:34Z" end-time="2026-10-08 15:48:34Z" duration="0.097938" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1002" name="OriginalFullCachesRetainNativeBoundaryValuesAndUnboundedExponents" fullname="OriginalBalanceTests.OriginalFullCachesRetainNativeBoundaryValuesAndUnboundedExponents" methodname="OriginalFullCachesRetainNativeBoundaryValuesAndUnboundedExponents" classname="OriginalBalanceTests" runstate="Runnable" seed="1391991518" result="Passed" start-time="2026-10-08 15:48:34Z" end-time="2026-10-08 15:48:34Z" duration="0.079236" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1003" name="UpgradeTransactionPreservesRejectedStateAndClosesLevel10000Boundary" fullname="OriginalBalanceTests.UpgradeTransactionPreservesRejectedStateAndClosesLevel10000Boundary" methodname="UpgradeTransactionPreservesRejectedStateAndClosesLevel10000Boundary" classname="OriginalBalanceTests" runstate="Runnable" seed="1654822430" result="Passed" start-time="2026-10-08 15:48:34Z" end-time="2026-10-08 15:48:34Z" duration="0.014774" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1004" name="OriginalSaveTests" fullname="OriginalSaveTests" classname="OriginalSaveTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-08 15:48:34Z" end-time="2026-10-08 15:48:34Z" duration="0.007312" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1005" name="OriginalSaveCodecRetainsLargeValuesNestedContentAndUnicode" fullname="OriginalSaveTests.OriginalSaveCodecRetainsLargeValuesNestedContentAndUnicode" methodname="OriginalSaveCodecRetainsLargeValuesNestedContentAndUnicode" classname="OriginalSaveTests" runstate="Runnable" seed="1084707154" result="Passed" start-time="2026-10-08 15:48:34Z" end-time="2026-10-08 15:48:34Z" duration="0.002085" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1006" name="OriginalSaveGateBackupRotationAndCorruptMainFallback" fullname="OriginalSaveTests.OriginalSaveGateBackupRotationAndCorruptMainFallback" methodname="OriginalSaveGateBackupRotationAndCorruptMainFallback" classname="OriginalSaveTests" runstate="Runnable" seed="1418355289" result="Passed" start-time="2026-10-08 15:48:34Z" end-time="2026-10-08 15:48:34Z" duration="0.004615" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1007" name="OriginalSettingsTests" fullname="OriginalSettingsTests" classname="OriginalSettingsTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-08 15:48:34Z" end-time="2026-10-08 15:48:34Z" duration="0.190625" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1008" name="OriginalAudioCatalogueMuteDuplicateLimitsAndBgmSwitching" fullname="OriginalSettingsTests.OriginalAudioCatalogueMuteDuplicateLimitsAndBgmSwitching" methodname="OriginalAudioCatalogueMuteDuplicateLimitsAndBgmSwitching" classname="OriginalSettingsTests" runstate="Runnable" seed="144734339" result="Passed" start-time="2026-10-08 15:48:34Z" end-time="2026-10-08 15:48:34Z" duration="0.158926" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1009" name="OriginalPersistentButtonsToggleTheirOriginalIndicatorsAndBgmSource" fullname="OriginalSettingsTests.OriginalPersistentButtonsToggleTheirOriginalIndicatorsAndBgmSource" methodname="OriginalPersistentButtonsToggleTheirOriginalIndicatorsAndBgmSource" classname="OriginalSettingsTests" runstate="Runnable" seed="545274088" result="Passed" start-time="2026-10-08 15:48:34Z" end-time="2026-10-08 15:48:34Z" duration="0.031134" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+      </test-suite>
+    </test-suite>
+    <test-suite type="Assembly" id="1605" name="UnityEngine.UI.Tests.dll" fullname="/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Library/ScriptAssemblies/UnityEngine.UI.Tests.dll" runstate="Runnable" testcasecount="462" result="Passed" start-time="2026-10-08 15:48:34Z" end-time="2026-10-08 15:48:34Z" duration="0.046790" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="43320" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1612" name="Graphics" fullname="Graphics" runstate="Runnable" testcasecount="17" result="Passed" start-time="2026-10-08 15:48:34Z" end-time="2026-10-08 15:48:34Z" duration="0.033644" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestFixture" id="1597" name="MaskTests" fullname="Graphics.MaskTests" classname="Graphics.MaskTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-08 15:48:34Z" end-time="2026-10-08 15:48:34Z" duration="0.033228" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1599" name="GetModifiedMaterialReturnsOriginalMaterialWhenDepthIsEightOrMore" fullname="Graphics.MaskTests.GetModifiedMaterialReturnsOriginalMaterialWhenDepthIsEightOrMore" methodname="GetModifiedMaterialReturnsOriginalMaterialWhenDepthIsEightOrMore" classname="Graphics.MaskTests" runstate="Runnable" seed="833224594" result="Passed" start-time="2026-10-08 15:48:34Z" end-time="2026-10-08 15:48:34Z" duration="0.004238" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+            <output><![CDATA[Attempting to use a stencil mask with depth > 8
+]]></output>
+          </test-case>
+          <test-case id="1598" name="GetModifiedMaterialReturnsOriginalMaterialWhenNoGraphicComponentIsAttached" fullname="Graphics.MaskTests.GetModifiedMaterialReturnsOriginalMaterialWhenNoGraphicComponentIsAttached" methodname="GetModifiedMaterialReturnsOriginalMaterialWhenNoGraphicComponentIsAttached" classname="Graphics.MaskTests" runstate="Runnable" seed="1667945099" result="Passed" start-time="2026-10-08 15:48:34Z" end-time="2026-10-08 15:48:34Z" duration="0.001334" asserts="0">
+            <properties>
+              <property name="_JOINTYPE" value="UnityCombinatorial" />
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+      </test-suite>
+      <test-suite type="TestSuite" id="1606" name="ToggleTest" fullname="ToggleTest" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-08 15:48:34Z" end-time="2026-10-08 15:48:34Z" duration="0.010839" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestFixture" id="1388" name="ToggleGroupTests" fullname="ToggleTest.ToggleGroupTests" classname="ToggleTest.ToggleGroupTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-08 15:48:34Z" end-time="2026-10-08 15:48:34Z" duration="0.010146" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1395" name="ChangingToggleGroupUnregistersFromOriginalGroup" fullname="ToggleTest.ToggleGroupTests.ChangingToggleGroupUnregistersFromOriginalGroup" methodname="ChangingToggleGroupUnregistersFromOriginalGroup" classname="ToggleTest.ToggleGroupTests" runstate="Runnable" seed="453631821" result="Passed" start-time="2026-10-08 15:48:34Z" end-time="2026-10-08 15:48:34Z" duration="0.002994" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+            <output><![CDATA[Saving results to: /Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/recovery-playmode.xml
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,1816 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 arm64",
+  "input_native_sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "interpretation": "byte-checked native pseudocode and ASM, not original C#",
+  "native_sets": {
+    "fish-client": {
+      "total": 136,
+      "completed": 136,
+      "methods": [
+        {
+          "preferred_va": "0x2b5def0",
+          "ghidra_va": "02c5def0",
+          "name": "Fish_Info__ctor",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "b0a516de057ca7c2fd35a71101950fab7028b35d6e1d8b543ee3d082a610f488"
+        },
+        {
+          "preferred_va": "0x2b5d080",
+          "ghidra_va": "02c5d080",
+          "name": "Fish_manager_add_OnInventoryChanged",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "bb7b8e77e5841d9c788f9715db42a08093cb563241ee7abd1914c6c48f1b022f"
+        },
+        {
+          "preferred_va": "0x2b5d11c",
+          "ghidra_va": "02c5d11c",
+          "name": "Fish_manager_remove_OnInventoryChanged",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "c0b1ca9ec951a29568f68e6ddaa812e071e27eccaf55e38e9b97948fecc2f4ef"
+        },
+        {
+          "preferred_va": "0x2b5d1b8",
+          "ghidra_va": "02c5d1b8",
+          "name": "Fish_manager_Awake",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "cfe6be7fc5028c3985566530837aa4c5b6ae0eab603da5f976724071c531e33e"
+        },
+        {
+          "preferred_va": "0x2b5d210",
+          "ghidra_va": "02c5d210",
+          "name": "Fish_manager_OnEnable",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "7fc283eb689414f0aaa100e5ec18a3c235f6ce76ee19670e07cadce6bd5cb168"
+        },
+        {
+          "preferred_va": "0x2b5d358",
+          "ghidra_va": "02c5d358",
+          "name": "Fish_manager_OnDisable",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "c29caa733b2dc330119d29491342c45da8a2b23da851be7c13fd53dffae130d6"
+        },
+        {
+          "preferred_va": "0x2b5d4a0",
+          "ghidra_va": "02c5d4a0",
+          "name": "Fish_manager_OnTimeSynced",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "544ad2edbd8d21289f40aef61cb63c3df061e62cd6799dd908f9d6f7cea70c9b"
+        },
+        {
+          "preferred_va": "0x2b5d50c",
+          "ghidra_va": "02c5d50c",
+          "name": "Fish_manager_OnTimeSettled",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "c1ce4f713eef81314a3e1d7082a102a3b075b36e6e1e397af8509e3ca49f3a31"
+        },
+        {
+          "preferred_va": "0x2b5d800",
+          "ghidra_va": "02c5d800",
+          "name": "Fish_manager_Start",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "77748431cbaafa7d14be876e55dc34366f5d8118e3bf5ec5e01efaedf287e454"
+        },
+        {
+          "preferred_va": "0x2b5dd3c",
+          "ghidra_va": "02c5dd3c",
+          "name": "Fish_manager_Balance_Reload",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "66844975eea042fabb8d0099e8e53655cd6ba801f646036db134e882160decce"
+        },
+        {
+          "preferred_va": "0x2b5def8",
+          "ghidra_va": "02c5def8",
+          "name": "Fish_manager_RoundToSignificant",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "207b7275e38ec5a8aadca598cc8e7d0b4824817b1830ff8b6a1a0f715cf9bbf2"
+        },
+        {
+          "preferred_va": "0x2b5e094",
+          "ghidra_va": "02c5e094",
+          "name": "Fish_manager_Set_yesterDay",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "7d2538970e9bad96cec101f7a3b054a542ea4ba72862bbca19d39fb95626b01f"
+        },
+        {
+          "preferred_va": "0x2b5e13c",
+          "ghidra_va": "02c5e13c",
+          "name": "Fish_manager_RefreshCatStats",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "ed1673e3f4779dd5231c9078086e58a62f32015c69a9624984df4a4e482e1e67"
+        },
+        {
+          "preferred_va": "0x2b5e1e0",
+          "ghidra_va": "02c5e1e0",
+          "name": "Fish_manager_get_is_AutoMergeAble",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "49f5eb04be6fdff36ab01e78434316e26fdef56a09fed7b9d741699f2a91a798"
+        },
+        {
+          "preferred_va": "0x2b5e234",
+          "ghidra_va": "02c5e234",
+          "name": "Fish_manager_get_AutoMerge_Active",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "5a25221fe021331731a012fe5fb5fdc5553a4edb49f6a33178982462de47137c"
+        },
+        {
+          "preferred_va": "0x2b5e260",
+          "ghidra_va": "02c5e260",
+          "name": "Fish_manager_Set_AutoMerge",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "00fd680aef47d4c09fce982a8c937a9b40501304a3749a3d6d234e73d709fb0a"
+        },
+        {
+          "preferred_va": "0x2b5e398",
+          "ghidra_va": "02c5e398",
+          "name": "Fish_manager_AutoMerge_Validate",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "d9e48c667786a7c55dfe29a8dd9c4e4c8fe1e1572942401ec1e536b9597429d1"
+        },
+        {
+          "preferred_va": "0x2b5e3bc",
+          "ghidra_va": "02c5e3bc",
+          "name": "Fish_manager_AutoMerge_Change",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "96933853fc01c5358c634097fcb954658c25a91dfe45ae9888889463e475f758"
+        },
+        {
+          "preferred_va": "0x2b5dcbc",
+          "ghidra_va": "02c5dcbc",
+          "name": "Fish_manager_TryStartAutoMerge",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "8feaf643e0304f3f279ec3f2a64807129e246fdec8da68d3a3fdd15dc91cc87d"
+        },
+        {
+          "preferred_va": "0x2b5db28",
+          "ghidra_va": "02c5db28",
+          "name": "Fish_manager_AutoMerge_UI_Reload",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "4fe528a5c9ae9d23c5c64bcbf763450ffb73789c4b2ff5000603eacb70db03db"
+        },
+        {
+          "preferred_va": "0x2b5d6f8",
+          "ghidra_va": "02c5d6f8",
+          "name": "Fish_manager_FreeGacha_Reload",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "ea2f3d236d44f2c54ff435b23cf58f444137df2ad319a92cf1a7542e7063c158"
+        },
+        {
+          "preferred_va": "0x2b5e568",
+          "ghidra_va": "02c5e568",
+          "name": "Fish_manager_FreeGacha",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "3ca26c60398ededa51df42717275abfd17c9338bec9984fef78c52a0406102f6"
+        },
+        {
+          "preferred_va": "0x2b5e634",
+          "ghidra_va": "02c5e634",
+          "name": "Fish_manager_FreeGacha_RewardGet",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "1ac3fead7ce307a3b7dee6a06273b7ab2dfb58838a83f6e1eb880f5e1d5724e8"
+        },
+        {
+          "preferred_va": "0x2b5ea80",
+          "ghidra_va": "02c5ea80",
+          "name": "Fish_manager_PremiumGacha",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "dd48b47797ef66b3084e2bb73a26e24a49573fcb53d40144c8c6407fde7937a1"
+        },
+        {
+          "preferred_va": "0x2b5e7fc",
+          "ghidra_va": "02c5e7fc",
+          "name": "Fish_manager_RollGrade",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "af8580845a12787f63847b3c8ecfa52de1853fa536087e78939e08ea6c29a7a7"
+        },
+        {
+          "preferred_va": "0x2b5ece8",
+          "ghidra_va": "02c5ece8",
+          "name": "Fish_manager_TryFusion",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "52e666f62258653864c4f959484d42819c09d7bff955822ca873089d11cb96d9"
+        },
+        {
+          "preferred_va": "0x2b5d5a0",
+          "ghidra_va": "02c5d5a0",
+          "name": "Fish_manager_Gacha_Btn_UI_Reload",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "fe0fac93b3071b5d8031781f404886a598ad63b247101b1037cc6815b788e4d5"
+        },
+        {
+          "preferred_va": "0x2b5eeb0",
+          "ghidra_va": "02c5eeb0",
+          "name": "Fish_manager_ReloadFishUI",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "c3c1fef0ed14e3985491823acd58b88730f353abe0cb26632dad83f83290c4ab"
+        },
+        {
+          "preferred_va": "0x2b5ea14",
+          "ghidra_va": "02c5ea14",
+          "name": "Fish_manager_ShowNewFishPopup",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "a99db5c541e21fff99e7367c16efe0c15abcdd340dbdb5db2cda722026cc88e6"
+        },
+        {
+          "preferred_va": "0x2b5d820",
+          "ghidra_va": "02c5d820",
+          "name": "Fish_manager_UpdateStatTexts",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "43cb6fcce71757499f3d85a85c9859d7f20f3c7e3f02d34c435a9a54f8a95344"
+        },
+        {
+          "preferred_va": "0x2b5f310",
+          "ghidra_va": "02c5f310",
+          "name": "Fish_manager_IsInventoryFull",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "228e12ca2d55ca66ac1398a6d7bf11abc64b68706090b97a09f9a67d2879433b"
+        },
+        {
+          "preferred_va": "0x2b5f360",
+          "ghidra_va": "02c5f360",
+          "name": "Fish_manager_RemoveFish",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "ebeeddc67cbb1e66a840c2c5f4c2c5c1950f550dfd08d7829dd9052968817572"
+        },
+        {
+          "preferred_va": "0x2b5f404",
+          "ghidra_va": "02c5f404",
+          "name": "Fish_manager_RecalculateTotals",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "4c6550782ed9695d0b768d7a4cfe568a81576ffd418e8d0a3c4519c5918a14b1"
+        },
+        {
+          "preferred_va": "0x2b5f2a4",
+          "ghidra_va": "02c5f2a4",
+          "name": "Fish_manager_GetTotalDamage",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "217da6116d74ddb9bfb52717fc504528abc57f67880a3fd74f5414e82b9d0129"
+        },
+        {
+          "preferred_va": "0x2b5f2c8",
+          "ghidra_va": "02c5f2c8",
+          "name": "Fish_manager_GetTotalCriPer",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "d7409cff7f1378da2b37407b7f4530b79755d6c1853ab30de858fffd82057685"
+        },
+        {
+          "preferred_va": "0x2b5f2ec",
+          "ghidra_va": "02c5f2ec",
+          "name": "Fish_manager_GetTotalCriVal",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "018b6066db91ef8a1cf0404a65424f53d102e1cace66023afdb4ac42141f2944"
+        },
+        {
+          "preferred_va": "0x2b5f590",
+          "ghidra_va": "02c5f590",
+          "name": "Fish_manager_GetFishStat",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "f07490886187e5860147fc26e2fe5184ed08326192a5661e0e51eea9c5139cc7"
+        },
+        {
+          "preferred_va": "0x2b5f6f0",
+          "ghidra_va": "02c5f6f0",
+          "name": "Fish_manager_AddFish_Cheat",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "3000211debb301447c493de437eb0296d277392a9f1196745cd03551513a268e"
+        },
+        {
+          "preferred_va": "0x2b5f84c",
+          "ghidra_va": "02c5f84c",
+          "name": "Fish_manager__ctor",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "3b533b4dc68bf71c033372705423c5f86a61452e898e9163ff83efd1295a4e96"
+        },
+        {
+          "preferred_va": "0x2b5f93c",
+          "ghidra_va": "02c5f93c",
+          "name": "Fish_DeletePopup_Show",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "0364215abb7cbe9426216860b0f4d11b456ee269cb2a5069a4b118157bf7d592"
+        },
+        {
+          "preferred_va": "0x2b5fa88",
+          "ghidra_va": "02c5fa88",
+          "name": "Fish_DeletePopup_OnConfirm",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "f773f0a654b811a49a62450bed34cf6e7486b3f50250f878c6b3eafc944d367d"
+        },
+        {
+          "preferred_va": "0x2b5fe1c",
+          "ghidra_va": "02c5fe1c",
+          "name": "Fish_DeletePopup_OnCancel",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "2c8851b9384aab0aa50e04a929c825f78bf4dd67adef8a5b11dbcfac4d458496"
+        },
+        {
+          "preferred_va": "0x2b5fcf0",
+          "ghidra_va": "02c5fcf0",
+          "name": "Fish_DeletePopup_Close",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "a1cd1744fa4212caa8f213d1940ad5b69e81f19b4c816455604da1cbffd1fc08"
+        },
+        {
+          "preferred_va": "0x2b5fe74",
+          "ghidra_va": "02c5fe74",
+          "name": "Fish_DeletePopup__ctor",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "65f9eef7a1a6afb17d02c42e494f4d45b2b41083ec8c3961e669222a80f2b9f5"
+        },
+        {
+          "preferred_va": "0x2b5fe7c",
+          "ghidra_va": "02c5fe7c",
+          "name": "Fish_DeleteZone_Awake",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "7418969bedc16837f0b6e14c6e7d8a6e4809092d838ec61f99b3f72f30492c31"
+        },
+        {
+          "preferred_va": "0x2b60024",
+          "ghidra_va": "02c60024",
+          "name": "Fish_DeleteZone_Show",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "9f0a61f43438887af933c1caf276101137042ea6a209ca1a8f8cbc19c0aacfe1"
+        },
+        {
+          "preferred_va": "0x2b5ffcc",
+          "ghidra_va": "02c5ffcc",
+          "name": "Fish_DeleteZone_Hide",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "17a909c7774af8178f45401b73ba649aaf285def0b789c181a1e31ec2f2a0dae"
+        },
+        {
+          "preferred_va": "0x2b6007c",
+          "ghidra_va": "02c6007c",
+          "name": "Fish_DeleteZone_SetHighlight",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "38ad7885e15d6a9c4ca2fdae55f2cb6a89b76798cfe6bd00f977357f1bcd4ec1"
+        },
+        {
+          "preferred_va": "0x2b60150",
+          "ghidra_va": "02c60150",
+          "name": "Fish_DeleteZone_ContainsScreenPoint",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "f820e4d761166adc4ecd37a43b92c308ab11014536ca76482b4abf72bec0156f"
+        },
+        {
+          "preferred_va": "0x2b601d4",
+          "ghidra_va": "02c601d4",
+          "name": "Fish_DeleteZone_TryDelete",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "e42b43dd6a56a242b1a9caecde15926abf6a2ddbe65b67f2db15044e019c68e3"
+        },
+        {
+          "preferred_va": "0x2b60270",
+          "ghidra_va": "02c60270",
+          "name": "Fish_DeleteZone__ctor",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "3a3db9a122a1284c4e2aac02e14d94b1cfc8c669ffd765caaabb677962dacc39"
+        },
+        {
+          "preferred_va": "0x2b60288",
+          "ghidra_va": "02c60288",
+          "name": "Fish_Draw_Btn_OnEnable",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "1a8bf86ba025ce801eb65ee7b01a1546c11aa8d61e47d63df24ebf1284e76536"
+        },
+        {
+          "preferred_va": "0x2b60414",
+          "ghidra_va": "02c60414",
+          "name": "Fish_Draw_Btn_OnDisable",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "471ba9b32f27fd21a6151d30105577bf4fc08f71ebc473367570dd93c2ae3221"
+        },
+        {
+          "preferred_va": "0x2b60334",
+          "ghidra_va": "02c60334",
+          "name": "Fish_Draw_Btn_Price_Reload",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "a6624c97b4fec25791af479fa1e96c4f520e362f04effcc280b25d7d37ce01c7"
+        },
+        {
+          "preferred_va": "0x2b604b8",
+          "ghidra_va": "02c604b8",
+          "name": "Fish_Draw_Btn__ctor",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "1f39947b7ef25044d22960385c6b75b57b5ddb634909becfb57dbff23e866cdc"
+        },
+        {
+          "preferred_va": "0x2b604c8",
+          "ghidra_va": "02c604c8",
+          "name": "Fish_Info_UI_Reload",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "b32314e2c7358977a7f95e91cc143a26982b18a13aa51fd50cc2bb52279065ae"
+        },
+        {
+          "preferred_va": "0x2b609cc",
+          "ghidra_va": "02c609cc",
+          "name": "Fish_Info_UI_Show_LowerFish",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "da6978ac78f0b12206eb7c1291fbf5993eba85ab8b578c726b5329294ec3e58a"
+        },
+        {
+          "preferred_va": "0x2b609e0",
+          "ghidra_va": "02c609e0",
+          "name": "Fish_Info_UI_Show_HigherFish",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "e7a21174a7bb3750106fa8f2c3c3520e90da0843b5b196584076d8a2338b9553"
+        },
+        {
+          "preferred_va": "0x2b609f8",
+          "ghidra_va": "02c609f8",
+          "name": "Fish_Info_UI__ctor",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "2e120f2661283787e8d270f4c95131f24792af2addffab59383c29cf8afd2b1f"
+        },
+        {
+          "preferred_va": "0x2b62a68",
+          "ghidra_va": "02c62a68",
+          "name": "_PressBounceBack_d__64_MoveNext",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "8608a505eed46ac882db5de77fd61e432b9c4d1edeba8d25067c09a926da9a7f"
+        },
+        {
+          "preferred_va": "0x2b62e78",
+          "ghidra_va": "02c62e78",
+          "name": "_PressScaleAnim_d__63_MoveNext",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "243769f24194c623842a19a2910a31b71497d92c652752ca573e867853f76817"
+        },
+        {
+          "preferred_va": "0x2b60a08",
+          "ghidra_va": "02c60a08",
+          "name": "Fish_Item_get_IsDragging",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "c250c6d4b6fb382ae5662d2b3ab87645cb25d54afd9556ce9eaae9d86e6d0e4d"
+        },
+        {
+          "preferred_va": "0x2b60a10",
+          "ghidra_va": "02c60a10",
+          "name": "Fish_Item_get_IsAutoMerging",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "5320cbf384c5d9c005d4b59da2a93629b01040ad6f9d649155cb34c626de470a"
+        },
+        {
+          "preferred_va": "0x2b60a18",
+          "ghidra_va": "02c60a18",
+          "name": "Fish_Item_set_IsAutoMerging",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "850da99ec1b61f8e560ba134a7a48c45cd99ef3d5cd20d704358165898efb8c5"
+        },
+        {
+          "preferred_va": "0x2b60a20",
+          "ghidra_va": "02c60a20",
+          "name": "Fish_Item_EnsureInit",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "cd212a904d0c3bbafcc98a1c998bf3e7f6f22fae60de10dea68abbd3aaad8f6a"
+        },
+        {
+          "preferred_va": "0x2b60d54",
+          "ghidra_va": "02c60d54",
+          "name": "Fish_Item_Awake",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "00f7fb132ce29c8a70106fa2578bf5d907cc1687313c31a3fa4c2849aa1c8255"
+        },
+        {
+          "preferred_va": "0x2b60d8c",
+          "ghidra_va": "02c60d8c",
+          "name": "Fish_Item_Update",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "143ee81bfaafa5b064bfbb53758e42ab1adc44fe0727f247421dfae683739f86"
+        },
+        {
+          "preferred_va": "0x2b60ec4",
+          "ghidra_va": "02c60ec4",
+          "name": "Fish_Item_OnDisable",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "0bf4dab5e9eca55c659b21342f55355d97439be1d20717f4398be6cf7f7036fb"
+        },
+        {
+          "preferred_va": "0x2b61138",
+          "ghidra_va": "02c61138",
+          "name": "Fish_Item_Init",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "4eef527deab66ffed62c3fdd6b7ec4bf5a7cff057487c08fe6ea0497b5e9204b"
+        },
+        {
+          "preferred_va": "0x2b61164",
+          "ghidra_va": "02c61164",
+          "name": "Fish_Item_Reload",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "94ed8abbc528eb68bafe734a354c99eb05c87d7ffa7a59ffb98ccc91c8f652f9"
+        },
+        {
+          "preferred_va": "0x2b612b4",
+          "ghidra_va": "02c612b4",
+          "name": "Fish_Item_SyncSizeToSkin",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "1413340dbbdcc11141f69986cbf9c7494458ba205a993438baeb62208bbb0200"
+        },
+        {
+          "preferred_va": "0x2b5fb98",
+          "ghidra_va": "02c5fb98",
+          "name": "Fish_Item_Deactivate",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "2b7e4e06c8cc9e247d9b800333b405fc60a4f73b6dfcca59b9dd367c16f51add"
+        },
+        {
+          "preferred_va": "0x2b615e0",
+          "ghidra_va": "02c615e0",
+          "name": "Fish_Item_BeginAutoMerge",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "4844a3d17b3ea23dcc89b860e6f5c168a7ca718380630b22ec70b2131c0c4bd9"
+        },
+        {
+          "preferred_va": "0x2b61024",
+          "ghidra_va": "02c61024",
+          "name": "Fish_Item_EndAutoMerge",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "d6f00db1cdb6fbcc220211ce90aaa816dcb4a6c10a6f452b37ef5e2e694966ba"
+        },
+        {
+          "preferred_va": "0x2b616f4",
+          "ghidra_va": "02c616f4",
+          "name": "Fish_Item_FaceTowards",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "df36afaf6ab03f88936f5eff52cff673a05556f2aa51419a4c36382f79d13be9"
+        },
+        {
+          "preferred_va": "0x2b60f18",
+          "ghidra_va": "02c60f18",
+          "name": "Fish_Item_ForceEndDrag",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "a5b7742fa6f424c2ce1b86ea892b0fda1a443b9970450afbb65046dd5545ec2e"
+        },
+        {
+          "preferred_va": "0x2b61374",
+          "ghidra_va": "02c61374",
+          "name": "Fish_Item_InitSwimming",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "5f2c83dca68c4e935fe57cac8997abadcee9a30cf378b0598ed76609911481f7"
+        },
+        {
+          "preferred_va": "0x2b60dac",
+          "ghidra_va": "02c60dac",
+          "name": "Fish_Item_UpdateSwimming",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "095543483f9da9e2a0aa2d2fe1cf322297a300edf869a51325b20c56e75f1748"
+        },
+        {
+          "preferred_va": "0x2b6197c",
+          "ghidra_va": "02c6197c",
+          "name": "Fish_Item_PickNewDirection",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "f135c2c07d78de3e90891d2cb073f863e396f4f09e7c3b02e9f631b588dda98a"
+        },
+        {
+          "preferred_va": "0x2b61768",
+          "ghidra_va": "02c61768",
+          "name": "Fish_Item_UpdateFlip",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "86eb025ff95104fd96fe2c073c45bdc6f88edbc97d8d02d88b7da7e63a26251b"
+        },
+        {
+          "preferred_va": "0x2b61ba8",
+          "ghidra_va": "02c61ba8",
+          "name": "Fish_Item_Fusion_Alert_On",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "8c44bafbe57de843673b925f9269635a866dceffe2138596cdb9ffc8dabb7e70"
+        },
+        {
+          "preferred_va": "0x2b613b8",
+          "ghidra_va": "02c613b8",
+          "name": "Fish_Item_Fusion_Alert_Off",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "b10ddd1a5d7b9650583e21e704fad1b819997973d50a407f9bc9875a5089e4ee"
+        },
+        {
+          "preferred_va": "0x2b613e4",
+          "ghidra_va": "02c613e4",
+          "name": "Fish_Item_UpdateSortOrder",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "4ded96897f17132077168b0a02221e971b86bfd5f5d3a900b85a8e4a57e872e8"
+        },
+        {
+          "preferred_va": "0x2b61bd4",
+          "ghidra_va": "02c61bd4",
+          "name": "Fish_Item_OnPointerDown",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "df96f11c02bf9737d3392d3b64fbbb9c47c63b215ad83917e5668e756578a728"
+        },
+        {
+          "preferred_va": "0x2b61d20",
+          "ghidra_va": "02c61d20",
+          "name": "Fish_Item_OnPointerUp",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "96778ad2c7b8c383ebaff31d981352a919405b87421c1b203875a5254da697a2"
+        },
+        {
+          "preferred_va": "0x2b60fe0",
+          "ghidra_va": "02c60fe0",
+          "name": "Fish_Item_StopPressCoroutine",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "982eea8400483c1a35e511a7820513f05f25306aa1751b9450e39408e8d18781"
+        },
+        {
+          "preferred_va": "0x2b61c8c",
+          "ghidra_va": "02c61c8c",
+          "name": "Fish_Item_PressScaleAnim",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "36ec14f67842116b6fb16c3c6b638eafb68b55aa11f56fc17f8714165b21e5b0"
+        },
+        {
+          "preferred_va": "0x2b61dcc",
+          "ghidra_va": "02c61dcc",
+          "name": "Fish_Item_PressBounceBack",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "8ba3f8ca778bcac8954c2231f574aac9b664ae1ab5b2f6b9276fba025613d12c"
+        },
+        {
+          "preferred_va": "0x2b61e88",
+          "ghidra_va": "02c61e88",
+          "name": "Fish_Item_RestoreScaleForDrag",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "fa48ade908a7386068ce7799962b47ee741a12b80b6e11cb70e64214316cdb0c"
+        },
+        {
+          "preferred_va": "0x2b615ac",
+          "ghidra_va": "02c615ac",
+          "name": "Fish_Item_ResetScale",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "e6dd1f4bf2f8fe57a9d8c1df26ffae41b3624e30f2d9b7dc5d4f7062975c8370"
+        },
+        {
+          "preferred_va": "0x2b61ebc",
+          "ghidra_va": "02c61ebc",
+          "name": "Fish_Item_OnPointerClick",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "19970f1e970a9a96c48db357de1c15cc9c544bd87e312c42a9a3a0e9fc20b893"
+        },
+        {
+          "preferred_va": "0x2b61fd4",
+          "ghidra_va": "02c61fd4",
+          "name": "Fish_Item_OnBeginDrag",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "9022a7c5ba5ccff96cd28ab51651dc5936a727af1040ab3f30af1ff13a41ddd8"
+        },
+        {
+          "preferred_va": "0x2b62234",
+          "ghidra_va": "02c62234",
+          "name": "Fish_Item_OnDrag",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "0910a25070d10b833e5b1e20fed188a9a3df2ea59e29aa595438818f412d65e9"
+        },
+        {
+          "preferred_va": "0x2b624e8",
+          "ghidra_va": "02c624e8",
+          "name": "Fish_Item_OnEndDrag",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "d74a3a1ff6efda2677bc6674c6f0844ac56e1b729c8a77fcd752e9ecffbf7d4a"
+        },
+        {
+          "preferred_va": "0x2b62720",
+          "ghidra_va": "02c62720",
+          "name": "Fish_Item_IsOverlapping",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "0eb65c43aeaf623d00113a862594bd653acc848fce8f8bfa6d10f2ef705bb670"
+        },
+        {
+          "preferred_va": "0x2b62104",
+          "ghidra_va": "02c62104",
+          "name": "Fish_Item_GetLocalPositionInTank",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "3a42ebac6f106dfe8d9a4427cd5c1dd837d8c84c2164883bb0f68ea153e59c5d"
+        },
+        {
+          "preferred_va": "0x2b61a8c",
+          "ghidra_va": "02c61a8c",
+          "name": "Fish_Item_ClampToTank",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "8e498e700e50b2673e9675ea9f185536e33e9a4eeb42170da48aeb3fb868a73e"
+        },
+        {
+          "preferred_va": "0x2b62880",
+          "ghidra_va": "02c62880",
+          "name": "Fish_Item_GetScaledSize",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "a7fd29ec8440abfe3685603f192e041ef58e14c7d56869424b7ef0d48dbfb647"
+        },
+        {
+          "preferred_va": "0x2b6285c",
+          "ghidra_va": "02c6285c",
+          "name": "Fish_Item_GetPosition",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "4dea21e70ab39016cf057a83e57f341fe5f075188b471148028f68be13c9041d"
+        },
+        {
+          "preferred_va": "0x2b6298c",
+          "ghidra_va": "02c6298c",
+          "name": "Fish_Item_SetPosition",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "afaa4931b5cabad54ea27224b249cc58138ef1bcb4c0d7c1fb1d0459ad048fce"
+        },
+        {
+          "preferred_va": "0x2b629e4",
+          "ghidra_va": "02c629e4",
+          "name": "Fish_Item__ctor",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "71a1e712a3e2918ca2d18148f13fd7ef877e41a24666987cb93d9edd6ceb08f1"
+        },
+        {
+          "preferred_va": "0x2b64440",
+          "ghidra_va": "02c64440",
+          "name": "_AutoMergeRoutine_d__30_MoveNext",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "96c22414e2872e0bee269d40acf478b2900a5a88ab782846ced22284a7b749ab"
+        },
+        {
+          "preferred_va": "0x2b63054",
+          "ghidra_va": "02c63054",
+          "name": "Fish_Tank_get_IsAutoMergeRunning",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "1fd6776ebc2eb4d9aec904c4e4317142c7822123f53018a7f06648e9bc44f187"
+        },
+        {
+          "preferred_va": "0x2b628ec",
+          "ghidra_va": "02c628ec",
+          "name": "Fish_Tank_get_TankRect",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "59e37b993515304467df3c49fd953f6f1cbf8fa53b6ce0d89f0e37f61f742a8b"
+        },
+        {
+          "preferred_va": "0x2b63064",
+          "ghidra_va": "02c63064",
+          "name": "Fish_Tank_Awake",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "4cf5e6d80db56a5d6e7b4e02fe1d865228b7090f60d32f8ad5b79dc7b00f3677"
+        },
+        {
+          "preferred_va": "0x2b63144",
+          "ghidra_va": "02c63144",
+          "name": "Fish_Tank_OnEnable",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "c73cacda448ffc7e5feddc4791b08f514bd089da9caa88084609c7a2768b96a3"
+        },
+        {
+          "preferred_va": "0x2b631ec",
+          "ghidra_va": "02c631ec",
+          "name": "Fish_Tank_OnDisable",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "ec797e4ac1b5fb0f68b2cfbf6de3f3780b41289215dc68227a0614fe3a31cd55"
+        },
+        {
+          "preferred_va": "0x2b63180",
+          "ghidra_va": "02c63180",
+          "name": "Fish_Tank_ReloadNextFrame",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "7817b444c03c8929763088af9e09634385588398a45e884fca4102201a7452af"
+        },
+        {
+          "preferred_va": "0x2b5ef70",
+          "ghidra_va": "02c5ef70",
+          "name": "Fish_Tank_ReloadAll",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "6c8a20dd9098e18c3695b40ec723a445f644bd89e73849e3394d4507e7363a19"
+        },
+        {
+          "preferred_va": "0x2b5e88c",
+          "ghidra_va": "02c5e88c",
+          "name": "Fish_Tank_SpawnFish",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "032a1cab39a3e77dd680c8839d565fa0df505b32d3f33dee48dbe2725c527b63"
+        },
+        {
+          "preferred_va": "0x2b633b4",
+          "ghidra_va": "02c633b4",
+          "name": "Fish_Tank_SortHierarchyByGrade",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "1a7a6e341f35993e467864146955a7d3981d9f892bd8c5ff78faad47bf7f6a9d"
+        },
+        {
+          "preferred_va": "0x2b623b0",
+          "ghidra_va": "02c623b0",
+          "name": "Fish_Tank_UpdateFusionAlert",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "0ac08659625ce077048a8c74413fb772d3836926a236661c550a628c424ccf77"
+        },
+        {
+          "preferred_va": "0x2b61910",
+          "ghidra_va": "02c61910",
+          "name": "Fish_Tank_ClearAllFusionAlerts",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "ea25024cfb635c7c8773e14c446d06489bdb758ecedac6ab09d1926664ac66f7"
+        },
+        {
+          "preferred_va": "0x2b6267c",
+          "ghidra_va": "02c6267c",
+          "name": "Fish_Tank_CheckFusion",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "24e6c5c6763afa96659b9fe5936a8b305c729539e465a32b946c90ec5248a761"
+        },
+        {
+          "preferred_va": "0x2b637bc",
+          "ghidra_va": "02c637bc",
+          "name": "Fish_Tank_FuseItems",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "2d4b797a0668aac40074431a103403bca9fb5dc394e3650179d95d0c2a848abd"
+        },
+        {
+          "preferred_va": "0x2b636c4",
+          "ghidra_va": "02c636c4",
+          "name": "Fish_Tank_FindFusionTarget",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "2ededef2f0241f55e7f8db85547be16b57f9a8f8d11ad189e3f585af17e7c3ac"
+        },
+        {
+          "preferred_va": "0x2b5e45c",
+          "ghidra_va": "02c5e45c",
+          "name": "Fish_Tank_StartAutoMergeChain",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "01471bd0a59e4e8662b73085f637e5c84917d18c1b04cd1087aa1255d1e4944b"
+        },
+        {
+          "preferred_va": "0x2b5e310",
+          "ghidra_va": "02c5e310",
+          "name": "Fish_Tank_StopAutoMergeChain",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "39e0e596b191fda989e728c9a25a074b2e50a0578b325f93f474b81135124d39"
+        },
+        {
+          "preferred_va": "0x2b5fe20",
+          "ghidra_va": "02c5fe20",
+          "name": "Fish_Tank_ClearPendingDelete",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "5c3eac40da474fc508229bd75ae7b7a9131de4959eb5a7066aa976eec0459cc2"
+        },
+        {
+          "preferred_va": "0x2b63d7c",
+          "ghidra_va": "02c63d7c",
+          "name": "Fish_Tank_AutoMergeRoutine",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "f25ef625adbd52f298c317c9c19a9f2125568ca4c760b6f1d94def16c9819342"
+        },
+        {
+          "preferred_va": "0x2b63e10",
+          "ghidra_va": "02c63e10",
+          "name": "Fish_Tank_IsAnyPendingDelete",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "e140ccef4e03eacb2ff25260b0bf1ee11008d5cbbea3f3871bde901c1e19567b"
+        },
+        {
+          "preferred_va": "0x2b63e78",
+          "ghidra_va": "02c63e78",
+          "name": "Fish_Tank_IsAutoMergeItemValid",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "9e592ada9ff7a98736ce1c466d569dc3b3a3dc33e55f350d30eb4d5bd09dc38b"
+        },
+        {
+          "preferred_va": "0x2b63f94",
+          "ghidra_va": "02c63f94",
+          "name": "Fish_Tank_FindAutoMergePair",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "128cbd7a891e52e7a8c6231e13f8177eea05886125072ea60d50537b00cf1af1"
+        },
+        {
+          "preferred_va": "0x2b63668",
+          "ghidra_va": "02c63668",
+          "name": "Fish_Tank_GetInactiveItem",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "d65e067ce70924557cd363cf17099a486e2d8d2779ab23ff251e434489a24126"
+        },
+        {
+          "preferred_va": "0x2b63a38",
+          "ghidra_va": "02c63a38",
+          "name": "Fish_Tank_SyncInventoryIndices",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "f117561a149f9f2d1fcd72ce517ffb0afc78b6a22d8949670c3131c4acb2a0c3"
+        },
+        {
+          "preferred_va": "0x2b63258",
+          "ghidra_va": "02c63258",
+          "name": "Fish_Tank_FindEmptyPosition",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "4c6ec4cd4c7659be5fbce161c0a7e03c846ffa52295ddef9a4a57ab05ba76d56"
+        },
+        {
+          "preferred_va": "0x2b641ac",
+          "ghidra_va": "02c641ac",
+          "name": "Fish_Tank_GetNearestFishDistance",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "a739c72785fcc424fcc902833ced11ad5a3675ad59690e8ab4405867cafdfffc"
+        },
+        {
+          "preferred_va": "0x2b6431c",
+          "ghidra_va": "02c6431c",
+          "name": "Fish_Tank_UpdateAllSortOrders",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "97f5e1c510802d51842be37425e59c4e6ed7c3fd2f7ca192fe6a3b7ec16de69c"
+        },
+        {
+          "preferred_va": "0x2b5fbe0",
+          "ghidra_va": "02c5fbe0",
+          "name": "Fish_Tank_SyncAfterDelete",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "c1044589318a1cfe9d960f8d1057784872cadc31c9de1b9ebf72211d0254f2b9"
+        },
+        {
+          "preferred_va": "0x2b6437c",
+          "ghidra_va": "02c6437c",
+          "name": "Fish_Tank__ctor",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "a28cebf6faebfe36e1497e9210a2220263e10f94c3f78208eb029855761189db"
+        },
+        {
+          "preferred_va": "0x28f5cfc",
+          "ghidra_va": "029f5cfc",
+          "name": "Throw_NullReference_Wrapper",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "4dbe5415e169f90b0ce5055036cca1b94bf1565f8d9d2308c08bf4bd707fcb91"
+        },
+        {
+          "preferred_va": "0x28f5d04",
+          "ghidra_va": "029f5d04",
+          "name": "Throw_Index_Wrapper",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "b554c9aba53206d804e9fc370e97cf27027d10930f18eb2a6be625e055cb8dd1"
+        },
+        {
+          "preferred_va": "0x293e6a8",
+          "ghidra_va": "02a3e6a8",
+          "name": "Throw_NullReference_Create",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "07933b7cac27ee4d3e9d7c27b53882e222ed878cead5f8d79e73b3adba1fff6f"
+        },
+        {
+          "preferred_va": "0x293e6bc",
+          "ghidra_va": "02a3e6bc",
+          "name": "Throw_NullReference_Raise",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "aded7644ecb862bc0a5476706b21810f9257b367ac0397bdc541e91af2615d80"
+        },
+        {
+          "preferred_va": "0x293e6f4",
+          "ghidra_va": "02a3e6f4",
+          "name": "Throw_Index_Raise",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "f7b9c1233cebb3659705feb97a706251cb1dd6dcac5b14dcbcd482f99b3529a7"
+        },
+        {
+          "preferred_va": "0x293e610",
+          "ghidra_va": "02a3e610",
+          "name": "Managed_Exception_CxaThrow",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "f034685b9e5e3c23ca134caf66dd8742db361f79a48e68bfefb6bb0b28479155"
+        }
+      ]
+    },
+    "auto-merge-ui": {
+      "total": 34,
+      "completed": 34,
+      "methods": [
+        {
+          "preferred_va": "0x2a9b410",
+          "ghidra_va": "02b9b410",
+          "name": "BounceBtn_OnPointerDown",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "3c0c79484013ba9731ff46fd99a446c0aaf0f7ebccd49ceb2e165b87d0884e9b"
+        },
+        {
+          "preferred_va": "0x2a9b46c",
+          "ghidra_va": "02b9b46c",
+          "name": "BounceBtn_OnPointerUp",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "0fe2563c2c7f87cfac1cfd081786debcd44d59792b6bedaa834a417a014347f9"
+        },
+        {
+          "preferred_va": "0x2a9b4b4",
+          "ghidra_va": "02b9b4b4",
+          "name": "BounceBtn__ctor",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "471af1490f2444f6283a66c6d38339db0f4861d5058fb70f243fcb4da1de4557"
+        },
+        {
+          "preferred_va": "0x2b27044",
+          "ghidra_va": "02c27044",
+          "name": "Hatch__ctor",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "6ff1e68960ca1b27104436b59882ae11e6aecea0ef1a7d86f2a11b8b79c6da60"
+        },
+        {
+          "preferred_va": "0x2b694d4",
+          "ghidra_va": "02c694d4",
+          "name": "Gun_manager_get_is_AutoMergeAble",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "aff6c248de5f910fdc7ef5e39c1adada0bf7427f327e6140e5ee4e2a2fe9af9e"
+        },
+        {
+          "preferred_va": "0x2b69554",
+          "ghidra_va": "02c69554",
+          "name": "Gun_manager_get_Max_Collected_Degree",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "aab70a08aa5f6153be21200d6706744b1e99959efac1ce8d207ba6daafc86c37"
+        },
+        {
+          "preferred_va": "0x2b695b4",
+          "ghidra_va": "02c695b4",
+          "name": "Gun_manager_get_AutoMerge_Limit_Degree",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "b8dae0964f95679545f98d5851fdfc65f3d9b32e5b5ebeea133ccaea2274f347"
+        },
+        {
+          "preferred_va": "0x2b695e0",
+          "ghidra_va": "02c695e0",
+          "name": "Gun_manager_Set_AutoMerge",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "6dc2db24eb22f30fe339a3594c7688417f609bdba31708c761ea6ed7b84a659f"
+        },
+        {
+          "preferred_va": "0x2b69694",
+          "ghidra_va": "02c69694",
+          "name": "Gun_manager_AutoMerge_Validate",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "83f4647ed8e0912b9ef6b852197e1ea50f044b8da3068f3edcf036f830ad242c"
+        },
+        {
+          "preferred_va": "0x2b696b8",
+          "ghidra_va": "02c696b8",
+          "name": "Gun_manager_AutoMerge_Change",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "48c37a9e73b14d3029a594f175b366156941f28bea8e8e20ba74da6846aaa4a5"
+        },
+        {
+          "preferred_va": "0x2b67abc",
+          "ghidra_va": "02c67abc",
+          "name": "Gun_manager_AutoMerge_UI_Reload",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "d352514acae13c17ca89032087aa0cb02a72601cb7904d8db856f5f1aa96c705"
+        },
+        {
+          "preferred_va": "0x2b6841c",
+          "ghidra_va": "02c6841c",
+          "name": "Gun_manager_ReloadGunUI",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "7a6f8e89701b914378a9940b0e723e0b540a885ec891523286705ed44dd1345d"
+        },
+        {
+          "preferred_va": "0x2b70ddc",
+          "ghidra_va": "02c70ddc",
+          "name": "Gun_Item_ForceEndDrag",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "16a092f195a2cdf6fc8c9bb48d43e8d6ab938aa0b81769c025fce2328b2cf02c"
+        },
+        {
+          "preferred_va": "0x2b71070",
+          "ghidra_va": "02c71070",
+          "name": "Gun_Item_OnDisable",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "5a8f3faf5959b5b6a1aa6893bdd2716c499d6a17d8bc705d6489af657a20efc4"
+        },
+        {
+          "preferred_va": "0x2b71518",
+          "ghidra_va": "02c71518",
+          "name": "Gun_Item_BeginAutoMerge",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "304431bcda48b6b7647684000ea6c4a8952e60802aaafbaacce4af807cd43110"
+        },
+        {
+          "preferred_va": "0x2b70d14",
+          "ghidra_va": "02c70d14",
+          "name": "Gun_Item_EndAutoMerge",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "07f3828a036e9beac0f96717067be2eca511db140f69c313f4d7029291c7db5f"
+        },
+        {
+          "preferred_va": "0x2b716e4",
+          "ghidra_va": "02c716e4",
+          "name": "Gun_Item_PressScaleAnim",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "5d3cc0abf8aa65fdfd9d2f6dca5ad7583d37f762de3c6d8169e1b685718c339a"
+        },
+        {
+          "preferred_va": "0x2b71894",
+          "ghidra_va": "02c71894",
+          "name": "Gun_Item_PressBounceBack",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "5a4b89240493d89554b86630221c128dd3aaa6051ce8894d2719f1ac72c05129"
+        },
+        {
+          "preferred_va": "0x2b772c4",
+          "ghidra_va": "02c772c4",
+          "name": "_AutoMergeRoutine_d__37_MoveNext_0x6000b78",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "e7ce9956b8637220e6cb8364ec1348671ff84a8f19446b5172a2c1335fa8d762"
+        },
+        {
+          "preferred_va": "0x2b73494",
+          "ghidra_va": "02c73494",
+          "name": "Gun_Item_List_FuseItems",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "4eaa3f307169f64c102f06595038cfbde0cbfa44aef1a819afbf369ba6cee1ce"
+        },
+        {
+          "preferred_va": "0x2b75d6c",
+          "ghidra_va": "02c75d6c",
+          "name": "Gun_Item_List_StartAutoMergeChain",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "db1cbd67272e440e2173e4aea2e15a6053ba422e3d137c9f5dda62506a586055"
+        },
+        {
+          "preferred_va": "0x2b76818",
+          "ghidra_va": "02c76818",
+          "name": "Gun_Item_List_StopAutoMergeChain",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "0e16cabd837b3a17df943e8c35f0100f56e9eaf24dbad0082f57c9ced7a20107"
+        },
+        {
+          "preferred_va": "0x2b767ac",
+          "ghidra_va": "02c767ac",
+          "name": "Gun_Item_List_AutoMergeRoutine",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "6463a59ead0bc07cb317c9c39240a678ab7b191c011560a8205215c1f67ee29b"
+        },
+        {
+          "preferred_va": "0x2b76ccc",
+          "ghidra_va": "02c76ccc",
+          "name": "Gun_Item_List_FindAutoMergePair",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "9095c6f325af2e31eb465ff4f223b00110eb36ee5b4cbaa94c49a75ca048fb28"
+        },
+        {
+          "preferred_va": "0x2b77218",
+          "ghidra_va": "02c77218",
+          "name": "Gun_Item_List__ctor",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "3e79ef7864a8f026530f09194c8be65ebd5ec4a66859f09727591596a53b88ed"
+        },
+        {
+          "preferred_va": "0x2b7a184",
+          "ghidra_va": "02c7a184",
+          "name": "NewGun_UI_Reload",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "e190461d0547fe206f11084840e05a185a326977ffe9621297e59e3bac4912eb"
+        },
+        {
+          "preferred_va": "0x2b7a330",
+          "ghidra_va": "02c7a330",
+          "name": "NewGun_UI__ctor",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "2035cd7d9aadfc100423d7feb5f494280c2f919a7f01b4033f3fa7782c988c5e"
+        },
+        {
+          "preferred_va": "0x2b8446c",
+          "ghidra_va": "02c8446c",
+          "name": "_AutoMergeRoutine_d__37_MoveNext_0x6000c5b",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "3b40e04b809991477f582efcf6f42d3d1700e1cc4a5a2c256b5640c9d06d9389"
+        },
+        {
+          "preferred_va": "0x28f5cfc",
+          "ghidra_va": "029f5cfc",
+          "name": "Throw_NullReference_Wrapper",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "4dbe5415e169f90b0ce5055036cca1b94bf1565f8d9d2308c08bf4bd707fcb91"
+        },
+        {
+          "preferred_va": "0x28f5d04",
+          "ghidra_va": "029f5d04",
+          "name": "Throw_Index_Wrapper",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "b554c9aba53206d804e9fc370e97cf27027d10930f18eb2a6be625e055cb8dd1"
+        },
+        {
+          "preferred_va": "0x293e6a8",
+          "ghidra_va": "02a3e6a8",
+          "name": "Throw_NullReference_Create",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "07933b7cac27ee4d3e9d7c27b53882e222ed878cead5f8d79e73b3adba1fff6f"
+        },
+        {
+          "preferred_va": "0x293e6bc",
+          "ghidra_va": "02a3e6bc",
+          "name": "Throw_NullReference_Raise",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "aded7644ecb862bc0a5476706b21810f9257b367ac0397bdc541e91af2615d80"
+        },
+        {
+          "preferred_va": "0x293e6f4",
+          "ghidra_va": "02a3e6f4",
+          "name": "Throw_Index_Raise",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "f7b9c1233cebb3659705feb97a706251cb1dd6dcac5b14dcbcd482f99b3529a7"
+        },
+        {
+          "preferred_va": "0x293e610",
+          "ghidra_va": "02a3e610",
+          "name": "Managed_Exception_CxaThrow",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "f034685b9e5e3c23ca134caf66dd8742db361f79a48e68bfefb6bb0b28479155"
+        }
+      ]
+    },
+    "fish-animation-ui": {
+      "total": 28,
+      "completed": 28,
+      "methods": [
+        {
+          "preferred_va": "0x2a9b4cc",
+          "ghidra_va": "02b9b4cc",
+          "name": "_Btn_Down_Coroutine_d__14_MoveNext",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "e041cfb58ae052b6efdacc109ca907cfc046fa216eae4a63c64974c0093541f5"
+        },
+        {
+          "preferred_va": "0x2a9b2ec",
+          "ghidra_va": "02b9b2ec",
+          "name": "BounceBtn_Start",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "eb6697e23814599f69ee8f8bebf8e8d5f7cba478088eaf40d6e9bffd2a134d1b"
+        },
+        {
+          "preferred_va": "0x2a9b2f0",
+          "ghidra_va": "02b9b2f0",
+          "name": "BounceBtn_Size_reload",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "439b22d8b4e32c5849044a6a880cf8a678df2ab5db99be33f6e166313a1ac72f"
+        },
+        {
+          "preferred_va": "0x2a9b37c",
+          "ghidra_va": "02b9b37c",
+          "name": "BounceBtn_Btn_Down_Coroutine",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "e2a4a4c68e5858215f8a0ba8830c3d6d9374d926ee2e3331f15b6088b6d8e597"
+        },
+        {
+          "preferred_va": "0x2a9b410",
+          "ghidra_va": "02b9b410",
+          "name": "BounceBtn_OnPointerDown",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "865f73415528e0aa79d234d36058888ffe05b8029213f4130acd86e94bac3713"
+        },
+        {
+          "preferred_va": "0x2a9b46c",
+          "ghidra_va": "02b9b46c",
+          "name": "BounceBtn_OnPointerUp",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "0fe2563c2c7f87cfac1cfd081786debcd44d59792b6bedaa834a417a014347f9"
+        },
+        {
+          "preferred_va": "0x2a9b474",
+          "ghidra_va": "02b9b474",
+          "name": "BounceBtn_OnDisable",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "f299be7f2b7a0ea2c8e873e1fb11ed6cd00de7ac33db5442ac70199e16a229b0"
+        },
+        {
+          "preferred_va": "0x2a9b4b4",
+          "ghidra_va": "02b9b4b4",
+          "name": "BounceBtn__ctor",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "471af1490f2444f6283a66c6d38339db0f4861d5058fb70f243fcb4da1de4557"
+        },
+        {
+          "preferred_va": "0x2b221f4",
+          "ghidra_va": "02c221f4",
+          "name": "SFX_BtnScript_Start",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "23bdabc62614fef52f9163a9fb27491936ba2ee0e9a4f911660b0373e3b02d53"
+        },
+        {
+          "preferred_va": "0x2b222a0",
+          "ghidra_va": "02c222a0",
+          "name": "SFX_BtnScript_Sfx",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "cf9e720f18bc69cd5a9941ab3a045415d89c3db3c8edbafbf41ac568223c3e00"
+        },
+        {
+          "preferred_va": "0x2b22300",
+          "ghidra_va": "02c22300",
+          "name": "SFX_BtnScript__ctor",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "7df5b36e779c03f0f4886bc06cd77468eefd519a4ba5903abeaa02393daf1c71"
+        },
+        {
+          "preferred_va": "0x2b26f4c",
+          "ghidra_va": "02c26f4c",
+          "name": "Hatch_Start",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "088f60ad6afedec4fa995ff516137e59a87440fb9502c40e1f48972b6e70ee58"
+        },
+        {
+          "preferred_va": "0x2b26f50",
+          "ghidra_va": "02c26f50",
+          "name": "Hatch_Reload",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "0377c32028ea14e24949f614d31bfb898404e16b1eb3e74c6d23788cf1b39f72"
+        },
+        {
+          "preferred_va": "0x2b27044",
+          "ghidra_va": "02c27044",
+          "name": "Hatch__ctor",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "6ff1e68960ca1b27104436b59882ae11e6aecea0ef1a7d86f2a11b8b79c6da60"
+        },
+        {
+          "preferred_va": "0x2b2738c",
+          "ghidra_va": "02c2738c",
+          "name": "OnOff_On",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "56da5db85cc0b5d85828dbee6794d2b4cc94ad822c4c009de93e277d90ab76bf"
+        },
+        {
+          "preferred_va": "0x2b273c4",
+          "ghidra_va": "02c273c4",
+          "name": "OnOff_Off",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "51caf72a9da9aeca5fa583ddcbe45bb1904efad3ee314140d4f443e14d898f75"
+        },
+        {
+          "preferred_va": "0x2b273fc",
+          "ghidra_va": "02c273fc",
+          "name": "OnOff__ctor",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "f5426d435c5f6b7bbc295baab9830baeb51edd766e4891af826abea9599d4300"
+        },
+        {
+          "preferred_va": "0x2b5f1b0",
+          "ghidra_va": "02c5f1b0",
+          "name": "New_Fish_UI_Reload",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "555f02a29bfc95153f6f10f997daff5b02191a2ab3226d871c4463fc36017f1c"
+        },
+        {
+          "preferred_va": "0x2b649c0",
+          "ghidra_va": "02c649c0",
+          "name": "New_Fish_UI__ctor",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "9743ab80363e9f7d54d0e138654474fda110163d07a55c8585c6053849c6eb01"
+        },
+        {
+          "preferred_va": "0x2b74dd4",
+          "ghidra_va": "02c74dd4",
+          "name": "_PressBounceBack_d__68_MoveNext",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "f523495f06a0e25084cd48d96c0ca97694fc97cfa2f71738a41ae5545a8092c0"
+        },
+        {
+          "preferred_va": "0x2b751e4",
+          "ghidra_va": "02c751e4",
+          "name": "_PressScaleAnim_d__67_MoveNext",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "44cb83ab0b26f2e100ceb7af0106e19e151cd99d3915b1e385485050402036fc"
+        },
+        {
+          "preferred_va": "0x2b7559c",
+          "ghidra_va": "02c7559c",
+          "name": "_SpawnBounceCoroutine_d__74_MoveNext",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "43a6b55f631ced572ade6b2e57781337928096ce46eb08d40a62b133d183450f"
+        },
+        {
+          "preferred_va": "0x28f5cfc",
+          "ghidra_va": "029f5cfc",
+          "name": "Throw_NullReference_Wrapper",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "4dbe5415e169f90b0ce5055036cca1b94bf1565f8d9d2308c08bf4bd707fcb91"
+        },
+        {
+          "preferred_va": "0x28f5d04",
+          "ghidra_va": "029f5d04",
+          "name": "Throw_Index_Wrapper",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "b554c9aba53206d804e9fc370e97cf27027d10930f18eb2a6be625e055cb8dd1"
+        },
+        {
+          "preferred_va": "0x293e6a8",
+          "ghidra_va": "02a3e6a8",
+          "name": "Throw_NullReference_Create",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "07933b7cac27ee4d3e9d7c27b53882e222ed878cead5f8d79e73b3adba1fff6f"
+        },
+        {
+          "preferred_va": "0x293e6bc",
+          "ghidra_va": "02a3e6bc",
+          "name": "Throw_NullReference_Raise",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "aded7644ecb862bc0a5476706b21810f9257b367ac0397bdc541e91af2615d80"
+        },
+        {
+          "preferred_va": "0x293e6f4",
+          "ghidra_va": "02a3e6f4",
+          "name": "Throw_Index_Raise",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "f7b9c1233cebb3659705feb97a706251cb1dd6dcac5b14dcbcd482f99b3529a7"
+        },
+        {
+          "preferred_va": "0x293e610",
+          "ghidra_va": "02a3e610",
+          "name": "Managed_Exception_CxaThrow",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "f034685b9e5e3c23ca134caf66dd8742db361f79a48e68bfefb6bb0b28479155"
+        }
+      ]
+    },
+    "pet-auto-ui": {
+      "total": 20,
+      "completed": 20,
+      "methods": [
+        {
+          "preferred_va": "0x2b7d764",
+          "ghidra_va": "02c7d764",
+          "name": "Pet_manager_get_is_AutoMergeAble",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "ace8216c8821f7f8e502afb865b4268e7ed2d72981174c260d382f47ce5d8c68"
+        },
+        {
+          "preferred_va": "0x2b7d7b8",
+          "ghidra_va": "02c7d7b8",
+          "name": "Pet_manager_get_AutoMerge_Active",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "bd5d5be236a1648a1452b83bf4d4fceff141cabe08aeb18583528b6c9591ffef"
+        },
+        {
+          "preferred_va": "0x2b7d7e4",
+          "ghidra_va": "02c7d7e4",
+          "name": "Pet_manager_get_Max_Collected_Degree",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "090b0df74e9f0aaba9f8fbfc1d554759eecf5b29201ab383b660360ac9095c71"
+        },
+        {
+          "preferred_va": "0x2b7d834",
+          "ghidra_va": "02c7d834",
+          "name": "Pet_manager_get_AutoMerge_Limit_Degree",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "fe06ed6cb5073b8d5df296c6c2164c24baa0a33916afaab4847188a0459cdde3"
+        },
+        {
+          "preferred_va": "0x2b7d860",
+          "ghidra_va": "02c7d860",
+          "name": "Pet_manager_Set_AutoMerge",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "d84c3c8270c195b2852f7b80e2002ea21e7a8404ea676dcc1d06c34799f0cb13"
+        },
+        {
+          "preferred_va": "0x2b7d938",
+          "ghidra_va": "02c7d938",
+          "name": "Pet_manager_AutoMerge_Change",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "10142872c45150587160eb864d69f3992ac3059bd14e95848ed6f7fd06cf8522"
+        },
+        {
+          "preferred_va": "0x2b7c6e4",
+          "ghidra_va": "02c7c6e4",
+          "name": "Pet_manager_AutoMerge_UI_Reload",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "dcf56b85f64b3bc226b7de7c3dbdbb8149f70511e8467831b8e805bcbb72570c"
+        },
+        {
+          "preferred_va": "0x2b814e0",
+          "ghidra_va": "02c814e0",
+          "name": "_PressBounceBack_d__54_MoveNext",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "bb4ca45f6bcf672744e35177491c7a4daed7ff391bcb5aa0f15fb65e5bdccf10"
+        },
+        {
+          "preferred_va": "0x2b81918",
+          "ghidra_va": "02c81918",
+          "name": "_PressScaleAnim_d__53_MoveNext",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "86ffa2a58f1afb126616def24fbd1591dc9e685e1927032be818945fadbf5f75"
+        },
+        {
+          "preferred_va": "0x2b81d20",
+          "ghidra_va": "02c81d20",
+          "name": "_SpawnBounceCoroutine_d__60_MoveNext",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "a7c9c3db91aabe673af3b6d973e37303dbd9b1cd6a349d4de4b9ebced71ac0f7"
+        },
+        {
+          "preferred_va": "0x2b82c7c",
+          "ghidra_va": "02c82c7c",
+          "name": "Pet_Item_List_FuseItems",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "f86cda4e66ffbed74d4f4d2465aea27349524659a5a751cda218a09e978069cf"
+        },
+        {
+          "preferred_va": "0x2b82428",
+          "ghidra_va": "02c82428",
+          "name": "Pet_Item_List_StartAutoMergeChain",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "1ec40a283b55583d2eebc590d7660f679df9430c9af3a262137a285723387776"
+        },
+        {
+          "preferred_va": "0x2b839c8",
+          "ghidra_va": "02c839c8",
+          "name": "Pet_Item_List_StopAutoMergeChain",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "6551118fb079277015d7d85b7cae8e43127e1fa0ebb01fffb2320a6d13141aea"
+        },
+        {
+          "preferred_va": "0x2b83e8c",
+          "ghidra_va": "02c83e8c",
+          "name": "Pet_Item_List_FindAutoMergePair",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "df48cc67c867dff6c78ee044117a5ffe12ef4c13c0f96b734f1f8a77d394208d"
+        },
+        {
+          "preferred_va": "0x28f5cfc",
+          "ghidra_va": "029f5cfc",
+          "name": "Throw_NullReference_Wrapper",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "4dbe5415e169f90b0ce5055036cca1b94bf1565f8d9d2308c08bf4bd707fcb91"
+        },
+        {
+          "preferred_va": "0x28f5d04",
+          "ghidra_va": "029f5d04",
+          "name": "Throw_Index_Wrapper",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "b554c9aba53206d804e9fc370e97cf27027d10930f18eb2a6be625e055cb8dd1"
+        },
+        {
+          "preferred_va": "0x293e6a8",
+          "ghidra_va": "02a3e6a8",
+          "name": "Throw_NullReference_Create",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "07933b7cac27ee4d3e9d7c27b53882e222ed878cead5f8d79e73b3adba1fff6f"
+        },
+        {
+          "preferred_va": "0x293e6bc",
+          "ghidra_va": "02a3e6bc",
+          "name": "Throw_NullReference_Raise",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "aded7644ecb862bc0a5476706b21810f9257b367ac0397bdc541e91af2615d80"
+        },
+        {
+          "preferred_va": "0x293e6f4",
+          "ghidra_va": "02a3e6f4",
+          "name": "Throw_Index_Raise",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "f7b9c1233cebb3659705feb97a706251cb1dd6dcac5b14dcbcd482f99b3529a7"
+        },
+        {
+          "preferred_va": "0x293e610",
+          "ghidra_va": "02a3e610",
+          "name": "Managed_Exception_CxaThrow",
+          "completed": "true",
+          "error": "",
+          "c_sha256": "f034685b9e5e3c23ca134caf66dd8742db361f79a48e68bfefb6bb0b28479155"
+        }
+      ]
+    }
+  },
+  "original_fish": {
+    "capacity": 20,
+    "grades": 13,
+    "daily": 5,
+    "without_ads": 3,
+    "premium_diamonds": 200,
+    "chances": [
+      60,
+      30,
+      10,
+      0
+    ],
+    "every_owned_duplicate_contributes": true
+  },
+  "auto_merge": {
+    "native_entitlement": "PlusPack.Is_Active(2)",
+    "local_preview": "independent RecoveryForestClient.OfflineAutoMergePreview; never changes PurchaseHistory",
+    "gun_pet_grade_limit": "min(6,AutoMerge_Degree,Max_Collected_Degree-1)",
+    "fish_grade_limit": 11,
+    "fish_pointer_gate": "Native BeginAutoMerge 0x2b615e0 blocksRaycasts=false / EndAutoMerge 0x2b61024 restores true; suppress-drag-click cleared on begin"
+  },
+  "ui": {
+    "original_helper_records": 1219,
+    "matched_in_current_scene": 837,
+    "added_in_first_shared_pass": 811,
+    "unmatched_pages": 382,
+    "fish_entry_adapter": "Original button direct ReloadFishUI; original Contents_Unlock_manager.Content_Btn_Fish gate pending",
+    "auto_button_visibility_adapter": "Fish/Pet visible when offline preview or supplied entitlement allows; original WeeklyShop VIP visibility pending",
+    "original_disabled_helper_records": 81,
+    "disabled_helpers_matched_in_working_scene": 81,
+    "fish_auto_sort_adapter": "Preview toggle canvas2001 above native non-drag fish <=2000; fish swimming over toggle cannot steal clicks"
+  },
+  "remaining": [
+    "Pet Spine and Adventure preview",
+    "original DOTween/particle/floating-damage presentation",
+    "I2 full localization",
+    "commercial entitlement and ads SDK",
+    "online services",
+    "Original Contents_Unlock_manager and WeeklyShop visibility flows"
+  ],
+  "scope_complete": false
+}

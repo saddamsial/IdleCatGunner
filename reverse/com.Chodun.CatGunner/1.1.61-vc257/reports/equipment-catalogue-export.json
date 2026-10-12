@@ -1,0 +1,43 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257",
+  "output": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Resources/OriginalEquipmentCatalogue.json",
+  "sha256": "d97817bf67df2342e8f0dbf1fd7276e96d9f34d8600decf07cd320db12d35c80",
+  "guns": 65,
+  "initial_equipped": [
+    0,
+    -1,
+    -1
+  ],
+  "sources": [
+    {
+      "path": "serialized-components/level0-123082.json",
+      "sha256": "b8a6e1a9c9f4a7a49545fbb7630cdb7f0b3a4baa75365bab54118f8006046ce4"
+    },
+    {
+      "path": "serialized-components/level0-123519.json",
+      "sha256": "3a34e6548e1de7202fa3fa213053d8020c3414e182e986acd0cde933ee1b0489"
+    },
+    {
+      "path": "serialized-components/level0-123446.json",
+      "sha256": "74d7b56467669c76557ca64e8150a054b4c756dbea44133085e9aaa5f3f7263f"
+    },
+    {
+      "path": "serialized-components/level0-124414.json",
+      "sha256": "2e1c5eff0f5ce1b200abc069184a729466591556e7a775be6980c951a2f6bcbd"
+    },
+    {
+      "path": "serialized-components/level0-124798.json",
+      "sha256": "21fafa748e081477ae37d9b4571adde26fc7dc67b56b92c18db462bcf87f85eb"
+    },
+    {
+      "path": "serialized-components/level0-137635.json",
+      "sha256": "c9d440b59b27866e38634f571bdcff556d9b2163ce999545e442e8b2e39c4954"
+    },
+    {
+      "path": "serialized-components/level0-123933.json",
+      "sha256": "07a2e635b399aba058068fbeb2361fccc6fcbfbc22af27284580bc0257cce88f"
+    }
+  ],
+  "neutral_values": "Native Skin_Value_Reload, Pet_Reload, Rebirth *_return, Relic .cctor/Value_Reload, Fish empty unlock set, Star lv0. No active buff or cleared-stage boost.",
+  "boundary": "Package initial-profile adapter. Existing player saves, online sheet overrides, ownership changes, service lifecycles and full manager initialization are not loaded."
+}

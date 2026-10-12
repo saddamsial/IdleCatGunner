@@ -1,0 +1,253 @@
+{
+  "preservedExistingIdentities": 131339,
+  "removedExistingIdentities": 0,
+  "newOriginalObjects": 215,
+  "newDocumentIdentities": 887,
+  "semanticallyUnchangedExistingDocuments": 131332,
+  "intentionalExistingChanges": [
+    {
+      "oldId": "1128",
+      "newId": "1128",
+      "type": 1,
+      "name": "StepUp_Banner",
+      "script": null,
+      "firstChangedLines": [
+        {
+          "before": "  m_Layer: 5",
+          "after": "  - component: {fileID: 124333}"
+        },
+        {
+          "before": "  m_Name: StepUp_Banner",
+          "after": "  m_Layer: 5"
+        },
+        {
+          "before": "  m_TagString: Untagged",
+          "after": "  m_Name: StepUp_Banner"
+        },
+        {
+          "before": "  m_Icon: {fileID: 0}",
+          "after": "  m_TagString: Untagged"
+        },
+        {
+          "before": "  m_NavMeshLayer: 0",
+          "after": "  m_Icon: {fileID: 0}"
+        },
+        {
+          "before": "  m_StaticEditorFlags: 0",
+          "after": "  m_NavMeshLayer: 0"
+        },
+        {
+          "before": "  m_IsActive: 1",
+          "after": "  m_StaticEditorFlags: 0"
+        }
+      ]
+    },
+    {
+      "oldId": "17917",
+      "newId": "17917",
+      "type": 1,
+      "name": "GunItem_Demo",
+      "script": null,
+      "firstChangedLines": [
+        {
+          "before": "  m_Layer: 5",
+          "after": "  - component: {fileID: 146266}"
+        },
+        {
+          "before": "  m_Name: GunItem_Demo",
+          "after": "  m_Layer: 5"
+        },
+        {
+          "before": "  m_TagString: Untagged",
+          "after": "  m_Name: GunItem_Demo"
+        },
+        {
+          "before": "  m_Icon: {fileID: 0}",
+          "after": "  m_TagString: Untagged"
+        },
+        {
+          "before": "  m_NavMeshLayer: 0",
+          "after": "  m_Icon: {fileID: 0}"
+        },
+        {
+          "before": "  m_StaticEditorFlags: 0",
+          "after": "  m_NavMeshLayer: 0"
+        },
+        {
+          "before": "  m_IsActive: 1",
+          "after": "  m_StaticEditorFlags: 0"
+        }
+      ]
+    },
+    {
+      "oldId": "102990",
+      "newId": "102990",
+      "type": 224,
+      "name": "Shop_manager",
+      "script": null,
+      "firstChangedLines": [
+        {
+          "before": "  - {fileID: 104568}",
+          "after": "  - {fileID: 103821}"
+        },
+        {
+          "before": "  - {fileID: 104552}",
+          "after": "  - {fileID: 104568}"
+        },
+        {
+          "before": "  - {fileID: 109915}",
+          "after": "  - {fileID: 104552}"
+        },
+        {
+          "before": "  m_Father: {fileID: 1167996984}",
+          "after": "  - {fileID: 109915}"
+        },
+        {
+          "before": "  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}",
+          "after": "  m_Father: {fileID: 1167996984}"
+        },
+        {
+          "before": "  m_AnchorMin: {x: 0, y: 0}",
+          "after": "  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}"
+        },
+        {
+          "before": "  m_AnchorMax: {x: 1, y: 1}",
+          "after": "  m_AnchorMin: {x: 0, y: 0}"
+        },
+        {
+          "before": "  m_AnchoredPosition: {x: 0, y: 0}",
+          "after": "  m_AnchorMax: {x: 1, y: 1}"
+        }
+      ]
+    },
+    {
+      "oldId": "104481",
+      "newId": "104481",
+      "type": 224,
+      "name": "Left_Menu",
+      "script": null,
+      "firstChangedLines": [
+        {
+          "before": "  - {fileID: 103234}",
+          "after": "  - {fileID: 104759}"
+        },
+        {
+          "before": "  - {fileID: 104057}",
+          "after": "  - {fileID: 103234}"
+        },
+        {
+          "before": "  - {fileID: 104338}",
+          "after": "  - {fileID: 104057}"
+        },
+        {
+          "before": "  - {fileID: 103748}",
+          "after": "  - {fileID: 104338}"
+        },
+        {
+          "before": "  - {fileID: 104334}",
+          "after": "  - {fileID: 103748}"
+        },
+        {
+          "before": "  - {fileID: 103995}",
+          "after": "  - {fileID: 104334}"
+        },
+        {
+          "before": "  m_Father: {fileID: 103716}",
+          "after": "  - {fileID: 103995}"
+        },
+        {
+          "before": "  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}",
+          "after": "  m_Father: {fileID: 103716}"
+        }
+      ]
+    },
+    {
+      "oldId": "121358",
+      "newId": "121358",
+      "type": 114,
+      "name": "I2_txt(Outline)",
+      "script": "f4688fdb7df04437aeb418b961361dc5",
+      "firstChangedLines": [
+        {
+          "before": "  m_fontAsset: {fileID: 11400000, guid: 34381fce0293bfd41abe761e70b1865e, type: 2}",
+          "after": "  m_fontAsset: {fileID: 11400000, guid: f8fd85a5edc1b4a1fa242e66ecfcd501, type: 2}"
+        },
+        {
+          "before": "  m_sharedMaterial: {fileID: 2100000, guid: 8f16f97ccb4b8574bb71419b956f4f2f, type: 2}",
+          "after": "  m_sharedMaterial: {fileID: 2100000, guid: 18edca82e041d4da2a65873847661513, type: 2}"
+        }
+      ]
+    },
+    {
+      "oldId": "125155",
+      "newId": "125155",
+      "type": 114,
+      "name": "Panel",
+      "script": "4e29b1a8efbd4b44bb3f3716e73f07ff",
+      "firstChangedLines": [
+        {
+          "before": "  m_Interactable: 0",
+          "after": "  m_Interactable: 1"
+        },
+        {
+          "before": "      - m_Target: {fileID: 0}",
+          "after": "      - m_Target: {fileID: 124333}"
+        },
+        {
+          "before": "        m_TargetAssemblyTypeName: StepUp_Banner, Assembly-CSharp",
+          "after": "        m_TargetAssemblyTypeName: StepUp_Banner, CatGunner.Recovery"
+        },
+        {
+          "before": "        m_Mode: 1",
+          "after": "        m_Mode: 0"
+        },
+        {
+          "before": "          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine",
+          "after": "          m_ObjectArgumentAssemblyTypeName: "
+        },
+        {
+          "before": "          m_StringArgument: banner",
+          "after": "          m_StringArgument: "
+        }
+      ]
+    },
+    {
+      "oldId": "131943",
+      "newId": "131943",
+      "type": 114,
+      "name": "GunItem_Demo",
+      "script": "4e29b1a8efbd4b44bb3f3716e73f07ff",
+      "firstChangedLines": [
+        {
+          "before": "      - m_Target: {fileID: 0}",
+          "after": "      - m_Target: {fileID: 146266}"
+        },
+        {
+          "before": "        m_TargetAssemblyTypeName: Gun_Item_Demo, Assembly-CSharp",
+          "after": "        m_TargetAssemblyTypeName: Gun_Item_Demo, CatGunner.Recovery"
+        },
+        {
+          "before": "        m_Mode: 1",
+          "after": "        m_Mode: 0"
+        },
+        {
+          "before": "          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine",
+          "after": "          m_ObjectArgumentAssemblyTypeName: "
+        }
+      ]
+    }
+  ],
+  "editorLocalIdRemapping": {
+    "104725": "1935675335",
+    "122957": "431897729",
+    "123842": "123845",
+    "123843": "123846",
+    "125578": "585777015",
+    "129923": "542584405",
+    "129924": "1700265578",
+    "129925": "1700265579",
+    "129926": "542584404",
+    "140638": "1792846150"
+  },
+  "scopedFieldValidation": true
+}

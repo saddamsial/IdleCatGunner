@@ -1,0 +1,70 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var c=UnityEngine.Object.FindAnyObjectByType<CatGunner.Recovery.RecoveryForestClient>();return new{playing=UnityEditor.EditorApplication.isPlaying,dirty=UnityEngine.SceneManagement.SceneManager.GetActiveScene().isDirty,scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().path,persist=c.Persist,skip=c.Forest.GameSkip_UI.name,nodes=c.Forest.GameSkip_UI.GetComponentsInChildren<UnityEngine.Transform>(true).Select(t=>new{name=t.name,components=t.GetComponents<UnityEngine.Component>().Select(x=>x==null?\"MISSING\":x.GetType().FullName).ToArray()}).ToArray()};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "playing": false,
+        "dirty": false,
+        "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "persist": true,
+        "skip": "GameSkip_obj",
+        "nodes": [
+          {
+            "name": "GameSkip_obj",
+            "components": [
+              "UnityEngine.RectTransform",
+              "UnityEngine.Animator"
+            ]
+          },
+          {
+            "name": "Panel",
+            "components": [
+              "UnityEngine.RectTransform",
+              "UnityEngine.CanvasRenderer",
+              "UnityEngine.UI.Image"
+            ]
+          },
+          {
+            "name": "Scroll",
+            "components": [
+              "UnityEngine.RectTransform",
+              "UnityEngine.CanvasRenderer",
+              "UnityEngine.UI.RawImage"
+            ]
+          },
+          {
+            "name": "Outline",
+            "components": [
+              "UnityEngine.RectTransform",
+              "UnityEngine.CanvasRenderer",
+              "UnityEngine.UI.Image"
+            ]
+          },
+          {
+            "name": "I2_txt(Outline)",
+            "components": [
+              "UnityEngine.RectTransform",
+              "UnityEngine.CanvasRenderer",
+              "TMPro.TextMeshProUGUI"
+            ]
+          }
+        ]
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

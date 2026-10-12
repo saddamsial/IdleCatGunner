@@ -1,0 +1,15 @@
+{
+  "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scenes/RecoveredClient.unity",
+  "before": "9684f7d5fd83c9ece923393c4b5fa4213d6f15dfe6cbbfa5614a126f7e4ad858",
+  "after": "be24caf9736a5bcb60db770bafc9169f2fdb5c62f6c27b6442d3511b94a8ea7e",
+  "onlyChange": {
+    "component": 124537,
+    "gameObject": 1312,
+    "path": "Canvas/SafeArea/Main_UI/Value_Slider",
+    "property": "Image.pixelsPerUnitMultiplier",
+    "before": 1,
+    "after": 10
+  },
+  "note": "Observed current Editor scene setting preserved; no hand YAML edits. User main Fill remains PPU10/height37; all other scene bytes match r71 snapshot.",
+  "diff": "--- /Volumes/ZHITAI_1T/IdleCatGunner/Build/r71-before/0-RecoveredClient.unity\t2026-10-12 12:02:05\n+++ /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scenes/RecoveredClient.unity\t2026-10-12 16:11:56\n@@ -19981245,5 +19981245,5 @@\n   m_FillOrigin: 0\n   m_UseSpriteMesh: 0\n-  m_PixelsPerUnitMultiplier: 1\n+  m_PixelsPerUnitMultiplier: 10\n --- !u!114 &124538\n MonoBehaviour:\n"
+}

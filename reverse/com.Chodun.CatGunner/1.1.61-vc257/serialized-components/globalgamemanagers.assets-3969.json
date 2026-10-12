@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "file": "globalgamemanagers.assets",
+    "path_id": 3969,
+    "type_index": 10031,
+    "type": "UnityEngine.Rendering.Universal.RenderObjects",
+    "game_object": "Overlay"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": 1640
+    },
+    "m_Name": "Overlay",
+    "m_Active": true,
+    "settings": {
+      "passTag": "Overlay",
+      "Event": 600,
+      "filterSettings": {
+        "RenderQueueType": 1,
+        "LayerMask": {
+          "m_Bits": 8
+        },
+        "PassNames": []
+      },
+      "overrideMaterial": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "overrideMaterialPassIndex": 0,
+      "overrideShader": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "overrideShaderPassIndex": 0,
+      "overrideMode": 1,
+      "overrideDepthState": true,
+      "depthCompareFunction": 8,
+      "enableWrite": true,
+      "stencilSettings": {
+        "overrideStencilState": false,
+        "stencilReference": 0,
+        "stencilCompareFunction": 8,
+        "passOperation": 0,
+        "failOperation": 0,
+        "zFailOperation": 0
+      },
+      "cameraSettings": {
+        "overrideCamera": false,
+        "restoreCamera": true,
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.0
+        },
+        "cameraFieldOfView": 60.0
+      }
+    }
+  }
+}

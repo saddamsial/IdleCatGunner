@@ -1,0 +1,227 @@
+{
+  "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+  "playing": false,
+  "dirty": false,
+  "previousHost": "",
+  "fx": true,
+  "animator": "Rebirth",
+  "popups": [
+    {
+      "name": "RubyUpgrade_UI",
+      "active": false,
+      "buttons": [
+        {
+          "name": "Background",
+          "interactable": true,
+          "path": "RubyUpgrade_UI/Background",
+          "methods": [
+            {
+              "method": "SetActive",
+              "target": "GameObject"
+            }
+          ]
+        },
+        {
+          "name": "Rebirth_Btn",
+          "interactable": true,
+          "path": "RubyUpgrade_UI/Panel/Panel/Rebirth_Reward_Panel/Rebirth_Btn",
+          "methods": [
+            {
+              "method": "Rebirth_Popup_Open",
+              "target": "Rebirth_Panel_UI"
+            }
+          ]
+        },
+        {
+          "name": "Rebirth_Btn",
+          "interactable": true,
+          "path": "RubyUpgrade_UI/Panel/Panel/Rebirth_Reward_Panel  (AD)/Rebirth_Btn",
+          "methods": [
+            {
+              "method": "UpgradeRebirth_Popup_Open",
+              "target": "Rebirth_Panel_UI"
+            }
+          ]
+        },
+        {
+          "name": "Rebirth_Btn (IAP)",
+          "interactable": true,
+          "path": "RubyUpgrade_UI/Panel/Panel/Rebirth_Reward_Panel  (AD)/Rebirth_Btn (IAP)",
+          "methods": [
+            {
+              "method": "UpgradeRebirth_IAP_Popup_Open",
+              "target": "Rebirth_Panel_UI"
+            }
+          ]
+        },
+        {
+          "name": "Rebirth_Btn (Used)",
+          "interactable": true,
+          "path": "RubyUpgrade_UI/Panel/Panel/Rebirth_Reward_Panel  (AD)/Rebirth_Btn (Used)",
+          "methods": []
+        },
+        {
+          "name": "Upgrade_Btn",
+          "interactable": true,
+          "path": "RubyUpgrade_UI/Panel/Panel/Ruby_Upgrade_Panel /Upgrade_Btn",
+          "methods": [
+            {
+              "method": "Upgrade",
+              "target": "Rebirth_Upgrade_Item"
+            }
+          ]
+        },
+        {
+          "name": "Upgrade_Btn",
+          "interactable": true,
+          "path": "RubyUpgrade_UI/Panel/Panel/Ruby_Upgrade_Panel  (1)/Upgrade_Btn",
+          "methods": [
+            {
+              "method": "Upgrade",
+              "target": "Rebirth_Upgrade_Item"
+            }
+          ]
+        },
+        {
+          "name": "Upgrade_Btn",
+          "interactable": true,
+          "path": "RubyUpgrade_UI/Panel/Panel/Ruby_Upgrade_Panel  (2)/Upgrade_Btn",
+          "methods": [
+            {
+              "method": "Upgrade",
+              "target": "Rebirth_Upgrade_Item"
+            }
+          ]
+        },
+        {
+          "name": "Close_Btn",
+          "interactable": true,
+          "path": "RubyUpgrade_UI/Panel/Close_Btn",
+          "methods": [
+            {
+              "method": "SetActive",
+              "target": "GameObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rebirth_Popup_UI",
+      "active": false,
+      "buttons": [
+        {
+          "name": "Background",
+          "interactable": true,
+          "path": "Rebirth_Popup_UI/Background",
+          "methods": [
+            {
+              "method": "SetActive",
+              "target": "GameObject"
+            }
+          ]
+        },
+        {
+          "name": "Rebirth_btn",
+          "interactable": true,
+          "path": "Rebirth_Popup_UI/Panel/Rebirth_btn",
+          "methods": [
+            {
+              "method": "Rebirth_Start",
+              "target": "Rebirth_FX"
+            }
+          ]
+        },
+        {
+          "name": "Close_Btn",
+          "interactable": true,
+          "path": "Rebirth_Popup_UI/Close_Btn",
+          "methods": [
+            {
+              "method": "SetActive",
+              "target": "GameObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rebirth_Popup_UI (AD)",
+      "active": false,
+      "buttons": [
+        {
+          "name": "Background",
+          "interactable": true,
+          "path": "Rebirth_Popup_UI (AD)/Background",
+          "methods": [
+            {
+              "method": "SetActive",
+              "target": "GameObject"
+            }
+          ]
+        },
+        {
+          "name": "Rebirth_btn",
+          "interactable": false,
+          "path": "Rebirth_Popup_UI (AD)/Panel/Rebirth_btn",
+          "methods": [
+            {
+              "method": "Rebirth_Start",
+              "target": "Object"
+            }
+          ]
+        },
+        {
+          "name": "Close_Btn",
+          "interactable": true,
+          "path": "Rebirth_Popup_UI (AD)/Close_Btn",
+          "methods": [
+            {
+              "method": "SetActive",
+              "target": "GameObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rebirth_Popup_UI (IAP)",
+      "active": false,
+      "buttons": [
+        {
+          "name": "Background",
+          "interactable": true,
+          "path": "Rebirth_Popup_UI (IAP)/Background",
+          "methods": [
+            {
+              "method": "SetActive",
+              "target": "GameObject"
+            }
+          ]
+        },
+        {
+          "name": "Rebirth_btn",
+          "interactable": true,
+          "path": "Rebirth_Popup_UI (IAP)/Panel/Rebirth_btn",
+          "methods": [
+            {
+              "method": "Purchase",
+              "target": "RecoveryLocalPurchaseButton"
+            }
+          ]
+        },
+        {
+          "name": "Close_Btn",
+          "interactable": true,
+          "path": "Rebirth_Popup_UI (IAP)/Close_Btn",
+          "methods": [
+            {
+              "method": "SetActive",
+              "target": "GameObject"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

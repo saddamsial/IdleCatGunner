@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 21.51,
+      "summary": {
+        "total": 4,
+        "passed": 0,
+        "failed": 4,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalDetailHoldTests.HoldStopsWhenUnaffordableMaxedOrPanelClosedAndRestartDoesNotDuplicate",
+          "Status": "Failed",
+          "Duration": 5.8413914,
+          "Message": "System.InvalidOperationException : Sequence contains no matching element",
+          "StackTrace": "  at System.Linq.Enumerable.Single[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00070] in <fe5fd0116f6c450487f1e1dfe36adc18>:0 \n  at OriginalDetailHoldTests.OpenUpgrades (CatGunner.Recovery.RecoveryForestClient c) [0x0001d] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDetailHoldTests.cs:55 \n  at OriginalDetailHoldTests+<HoldStopsWhenUnaffordableMaxedOrPanelClosedAndRestartDoesNotDuplicate>d__10.MoveNext () [0x0010c] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDetailHoldTests.cs:113 \n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44 "
+        },
+        {
+          "FullName": "OriginalDetailHoldTests.OrdinaryHoldUpgradeSurvivesIndependentColdReloadWithoutTouchingUserProfile",
+          "Status": "Failed",
+          "Duration": 5.2643706,
+          "Message": "System.InvalidOperationException : Sequence contains no matching element",
+          "StackTrace": "  at System.Linq.Enumerable.Single[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00070] in <fe5fd0116f6c450487f1e1dfe36adc18>:0 \n  at OriginalDetailHoldTests.OpenUpgrades (CatGunner.Recovery.RecoveryForestClient c) [0x0001d] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDetailHoldTests.cs:55 \n  at OriginalDetailHoldTests.Fund (CatGunner.Recovery.RecoveryForestClient c, System.Int32 amount) [0x00027] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDetailHoldTests.cs:49 \n  at OriginalDetailHoldTests+<OrdinaryHoldUpgradeSurvivesIndependentColdReloadWithoutTouchingUserProfile>d__11.MoveNext () [0x000e8] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDetailHoldTests.cs:132 \n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44 "
+        },
+        {
+          "FullName": "OriginalDetailHoldTests.OriginalPetArrowsBrowseAllGradesIncludingUncollectedWithoutChangingInventory",
+          "Status": "Failed",
+          "Duration": 5.2156147,
+          "Message": "  Expected: True\n  But was:  False\n",
+          "StackTrace": "at OriginalDetailHoldTests+<OriginalPetArrowsBrowseAllGradesIncludingUncollectedWithoutChangingInventory>d__8.MoveNext () [0x00172] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDetailHoldTests.cs:67\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalDetailHoldTests.OriginalRebirthEventsRespectDelayRepeatPriceAndReleaseOrExitForAllThreeKinds",
+          "Status": "Failed",
+          "Duration": 5.1596869,
+          "Message": "System.InvalidOperationException : Sequence contains no matching element",
+          "StackTrace": "  at System.Linq.Enumerable.Single[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00070] in <fe5fd0116f6c450487f1e1dfe36adc18>:0 \n  at OriginalDetailHoldTests.OpenUpgrades (CatGunner.Recovery.RecoveryForestClient c) [0x0001d] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDetailHoldTests.cs:55 \n  at OriginalDetailHoldTests.Fund (CatGunner.Recovery.RecoveryForestClient c, System.Int32 amount) [0x00027] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDetailHoldTests.cs:49 \n  at OriginalDetailHoldTests+<OriginalRebirthEventsRespectDelayRepeatPriceAndReleaseOrExitForAllThreeKinds>d__9.MoveNext () [0x000a6] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDetailHoldTests.cs:90 \n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44 "
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

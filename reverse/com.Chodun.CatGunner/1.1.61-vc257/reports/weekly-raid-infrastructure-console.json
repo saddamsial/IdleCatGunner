@@ -1,0 +1,23 @@
+{
+  "counts": [
+    0,
+    0,
+    3
+  ],
+  "entries": [
+    {
+      "message": "[PipelineTestRunner] Reattaching result collector after domain reload\nUnityEngine.Debug:Log (object)\nUnity.Pipeline.Editor.Testing.PipelineTestRunner:CheckForPendingTests () (at ./Packages/com.unity.pipeline/Editor/Testing/PipelineTestRunner.cs:500)\nUnityEditor.EditorApplication:Internal_CallDelayFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:416)\n",
+      "mode": 8406016
+    },
+    {
+      "message": "[PipelineTestRunner] Invalidated previous test run\nUnityEngine.Debug:Log (object)\nUnity.Pipeline.Editor.Testing.PipelineTestRunner:InvalidatePreviousRun () (at ./Packages/com.unity.pipeline/Editor/Testing/PipelineTestRunner.cs:646)\nUnity.Pipeline.Editor.Testing.PipelineTestRunner:CancelTests () (at ./Packages/com.unity.pipeline/Editor/Testing/PipelineTestRunner.cs:809)\nUnity.Pipeline.Editor.Commands.TestCommands:CancelTests () (at ./Packages/com.unity.pipeline/Editor/Commands/TestCommands.cs:115)\nSystem.Reflection.MethodBase:Invoke (object,object[])\nUnity.Pipeline.BasePipelineServer:ExecuteCommandDirect (Unity.Pipeline.Commands.CommandInfo,object[]) (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2820)\nUnity.Pipeline.BasePipelineServer/<>c__DisplayClass138_0:<ExecuteCommand>b__1 () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2694)\nUnity.Pipeline.Threading.Dispatcher/WorkItem`1<object>:ExecuteCore () (at ./Packages/com.unity.pipeline/Runtime/Common/Dispatcher.cs:284)\nUnity.Pipeline.Threading.Dispatcher/WorkItem:Execute () (at ./Packages/com.unity.pipeline/Runtime/Common/Dispatcher.cs:229)\nUnity.Pipeline.Threading.Dispatcher:ProcessWorkQueue (int) (at ./Packages/com.unity.pipeline/Runtime/Common/Dispatcher.cs:195)\nUnity.Pipeline.Threading.Dispatcher:ProcessWorkQueue () (at ./Packages/com.unity.pipeline/Runtime/Common/Dispatcher.cs:210)\nUnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:401)\n",
+      "mode": 8406016
+    },
+    {
+      "message": "[PipelineTestRunner] Test run cancelled\nUnityEngine.Debug:Log (object)\nUnity.Pipeline.Editor.Testing.PipelineTestRunner:CancelTests () (at ./Packages/com.unity.pipeline/Editor/Testing/PipelineTestRunner.cs:819)\nUnity.Pipeline.Editor.Commands.TestCommands:CancelTests () (at ./Packages/com.unity.pipeline/Editor/Commands/TestCommands.cs:115)\nSystem.Reflection.MethodBase:Invoke (object,object[])\nUnity.Pipeline.BasePipelineServer:ExecuteCommandDirect (Unity.Pipeline.Commands.CommandInfo,object[]) (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2820)\nUnity.Pipeline.BasePipelineServer/<>c__DisplayClass138_0:<ExecuteCommand>b__1 () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2694)\nUnity.Pipeline.Threading.Dispatcher/WorkItem`1<object>:ExecuteCore () (at ./Packages/com.unity.pipeline/Runtime/Common/Dispatcher.cs:284)\nUnity.Pipeline.Threading.Dispatcher/WorkItem:Execute () (at ./Packages/com.unity.pipeline/Runtime/Common/Dispatcher.cs:229)\nUnity.Pipeline.Threading.Dispatcher:ProcessWorkQueue (int) (at ./Packages/com.unity.pipeline/Runtime/Common/Dispatcher.cs:195)\nUnity.Pipeline.Threading.Dispatcher:ProcessWorkQueue () (at ./Packages/com.unity.pipeline/Runtime/Common/Dispatcher.cs:210)\nUnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:401)\n",
+      "mode": 8406016
+    }
+  ],
+  "compiling": false,
+  "playing": false
+}

@@ -1,0 +1,19 @@
+02c54730  str x30,[sp, #-0x20]!
+02c54734  stp x20,x19,[sp, #0x10]
+02c54738  adrp x19,0x625c000
+02c5473c  adrp x20,0x5e5e000
+02c54740  ldrb w8,[x19, #0x178]
+02c54744  ldr x20,[x20, #0x70]
+02c54748  tbnz w8,#0x0,0x02c54760
+02c5474c  adrp x0,0x5e5e000
+02c54750  ldr x0,[x0, #0x70]
+02c54754  bl 0x029f5a50
+02c54758  mov w8,#0x1
+02c5475c  strb w8,[x19, #0x178]
+02c54760  ldr x0,[x20]
+02c54764  ldr w8,[x0, #0xe4]
+02c54768  cbnz w8,0x02c54770
+02c5476c  bl 0x029f5bd0
+02c54770  ldp x20,x19,[sp, #0x10]
+02c54774  ldr x30,[sp], #0x20
+02c54778  b 0x02c5477c

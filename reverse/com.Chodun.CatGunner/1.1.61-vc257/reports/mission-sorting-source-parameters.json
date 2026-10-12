@@ -1,0 +1,6011 @@
+{
+  "alertTween": {
+    "component": 124051,
+    "originalGo": 891,
+    "path": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Mission_Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "Mission_Alert_obj",
+        "ordinal": 0
+      }
+    ],
+    "fields": {
+      "m_ObjectHideFlags": 0,
+      "m_CorrespondingSourceObject": {
+        "fileID": 0
+      },
+      "m_PrefabInstance": {
+        "fileID": 0
+      },
+      "m_PrefabAsset": {
+        "fileID": 0
+      },
+      "m_GameObject": {
+        "fileID": 891
+      },
+      "m_Enabled": 1,
+      "m_EditorHideFlags": 0,
+      "m_Script": {
+        "fileID": 11500000,
+        "guid": "81b090e094d22b969d28b70d69c1ee0b",
+        "type": 3
+      },
+      "m_Name": null,
+      "m_EditorClassIdentifier": null,
+      "updateType": 0,
+      "isSpeedBased": 0,
+      "hasOnStart": 0,
+      "hasOnPlay": 0,
+      "hasOnUpdate": 0,
+      "hasOnStepComplete": 0,
+      "hasOnComplete": 0,
+      "hasOnTweenCreated": 0,
+      "hasOnRewind": 0,
+      "onStart": {
+        "m_PersistentCalls": {
+          "m_Calls": []
+        }
+      },
+      "onPlay": {
+        "m_PersistentCalls": {
+          "m_Calls": []
+        }
+      },
+      "onUpdate": {
+        "m_PersistentCalls": {
+          "m_Calls": []
+        }
+      },
+      "onStepComplete": {
+        "m_PersistentCalls": {
+          "m_Calls": []
+        }
+      },
+      "onComplete": {
+        "m_PersistentCalls": {
+          "m_Calls": []
+        }
+      },
+      "onTweenCreated": {
+        "m_PersistentCalls": {
+          "m_Calls": []
+        }
+      },
+      "onRewind": {
+        "m_PersistentCalls": {
+          "m_Calls": []
+        }
+      },
+      "targetIsSelf": 1,
+      "targetGO": {
+        "fileID": 0
+      },
+      "tweenTargetIsTargetGO": 1,
+      "delay": 0,
+      "duration": 1,
+      "easeType": 6,
+      "easeCurve": {
+        "serializedVersion": 2,
+        "m_Curve": [
+          {
+            "serializedVersion": 3,
+            "time": 0,
+            "value": 0,
+            "inSlope": 0,
+            "outSlope": 0,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          },
+          {
+            "serializedVersion": 3,
+            "time": 1,
+            "value": 1,
+            "inSlope": 0,
+            "outSlope": 0,
+            "weightedMode": 0,
+            "inWeight": 0,
+            "outWeight": 0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "loopType": 1,
+      "loops": -1,
+      "id": null,
+      "isRelative": 0,
+      "isFrom": 0,
+      "isIndependentUpdate": 0,
+      "autoKill": 1,
+      "autoGenerate": 1,
+      "isActive": 1,
+      "isValid": 1,
+      "target": {
+        "fileID": 103491
+      },
+      "animationType": 5,
+      "targetType": 11,
+      "forcedTargetType": 0,
+      "autoPlay": 1,
+      "useTargetAsV3": 0,
+      "endValueFloat": 1.1,
+      "endValueV3": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "endValueV2": {
+        "x": 0,
+        "y": 0
+      },
+      "endValueColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "endValueString": null,
+      "endValueRect": {
+        "serializedVersion": 2,
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "endValueTransform": {
+        "fileID": 0
+      },
+      "optionalBool0": 1,
+      "optionalBool1": 0,
+      "optionalFloat0": 0,
+      "optionalInt0": 0,
+      "optionalRotationMode": 0,
+      "optionalScrambleMode": 0,
+      "optionalShakeRandomnessMode": 0,
+      "optionalString": null
+    },
+    "transform": {
+      "serializedVersion": 2,
+      "m_ObjectHideFlags": 0,
+      "m_CorrespondingSourceObject": {
+        "fileID": 0
+      },
+      "m_PrefabInstance": {
+        "fileID": 0
+      },
+      "m_PrefabAsset": {
+        "fileID": 0
+      },
+      "m_GameObject": {
+        "fileID": 891
+      },
+      "m_LocalRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "m_LocalPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "m_LocalScale": {
+        "x": 0.89393,
+        "y": 0.89393,
+        "z": 0.89393
+      },
+      "m_ConstrainProportionsScale": 0,
+      "m_Children": [],
+      "m_Father": {
+        "fileID": 103107
+      },
+      "m_LocalEulerAnglesHint": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": -28.1,
+        "y": 59.2
+      },
+      "m_SizeDelta": {
+        "x": 30,
+        "y": 30
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "alertTransform": {
+    "component": 103491,
+    "originalGo": 891,
+    "path": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Mission_Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "Mission_Alert_obj",
+        "ordinal": 0
+      }
+    ],
+    "fields": {
+      "serializedVersion": 2,
+      "m_ObjectHideFlags": 0,
+      "m_CorrespondingSourceObject": {
+        "fileID": 0
+      },
+      "m_PrefabInstance": {
+        "fileID": 0
+      },
+      "m_PrefabAsset": {
+        "fileID": 0
+      },
+      "m_GameObject": {
+        "fileID": 891
+      },
+      "m_LocalRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "m_LocalPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "m_LocalScale": {
+        "x": 0.89393,
+        "y": 0.89393,
+        "z": 0.89393
+      },
+      "m_ConstrainProportionsScale": 0,
+      "m_Children": [],
+      "m_Father": {
+        "fileID": 103107
+      },
+      "m_LocalEulerAnglesHint": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": -28.1,
+        "y": 59.2
+      },
+      "m_SizeDelta": {
+        "x": 30,
+        "y": 30
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "transform": {
+      "serializedVersion": 2,
+      "m_ObjectHideFlags": 0,
+      "m_CorrespondingSourceObject": {
+        "fileID": 0
+      },
+      "m_PrefabInstance": {
+        "fileID": 0
+      },
+      "m_PrefabAsset": {
+        "fileID": 0
+      },
+      "m_GameObject": {
+        "fileID": 891
+      },
+      "m_LocalRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "m_LocalPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "m_LocalScale": {
+        "x": 0.89393,
+        "y": 0.89393,
+        "z": 0.89393
+      },
+      "m_ConstrainProportionsScale": 0,
+      "m_Children": [],
+      "m_Father": {
+        "fileID": 103107
+      },
+      "m_LocalEulerAnglesHint": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "m_AnchorMin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchorMax": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "m_AnchoredPosition": {
+        "x": -28.1,
+        "y": 59.2
+      },
+      "m_SizeDelta": {
+        "x": 30,
+        "y": 30
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "manager": {
+    "component": 124352,
+    "originalGo": 1146,
+    "path": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Mission_maanger",
+        "ordinal": 0
+      }
+    ],
+    "fields": {
+      "m_ObjectHideFlags": 0,
+      "m_CorrespondingSourceObject": {
+        "fileID": 0
+      },
+      "m_PrefabInstance": {
+        "fileID": 0
+      },
+      "m_PrefabAsset": {
+        "fileID": 0
+      },
+      "m_GameObject": {
+        "fileID": 1146
+      },
+      "m_Enabled": 1,
+      "m_EditorHideFlags": 0,
+      "m_Script": {
+        "fileID": 11500000,
+        "guid": "92daa3aaa968e44b3a7cbbd3a207f38f",
+        "type": 3
+      },
+      "m_Name": null,
+      "m_EditorClassIdentifier": null,
+      "Mission_list": [
+        {
+          "Name": "0.\ub098\ubb34 \ubd80\uc218\uae30",
+          "type": 0,
+          "MissionValue": 100,
+          "ExpValue": 10,
+          "Mission_Exp_Get": 0,
+          "Mission_Exp_Get_Luxury": 0,
+          "is_VIP_Mission": 0
+        },
+        {
+          "Name": "1.\ub098\ubb34 \ubd80\uc218\uae30",
+          "type": 0,
+          "MissionValue": 300,
+          "ExpValue": 10,
+          "Mission_Exp_Get": 0,
+          "Mission_Exp_Get_Luxury": 0,
+          "is_VIP_Mission": 0
+        },
+        {
+          "Name": "2.\ub098\ubb34 \ubd80\uc218\uae30",
+          "type": 0,
+          "MissionValue": 700,
+          "ExpValue": 10,
+          "Mission_Exp_Get": 0,
+          "Mission_Exp_Get_Luxury": 0,
+          "is_VIP_Mission": 0
+        },
+        {
+          "Name": "3.\ub098\ubb34 \ubd80\uc218\uae30",
+          "type": 0,
+          "MissionValue": 2000,
+          "ExpValue": 10,
+          "Mission_Exp_Get": 0,
+          "Mission_Exp_Get_Luxury": 0,
+          "is_VIP_Mission": 0
+        },
+        {
+          "Name": "4.\ub098\ubb34 \ubd80\uc218\uae30",
+          "type": 0,
+          "MissionValue": 10000,
+          "ExpValue": 10,
+          "Mission_Exp_Get": 0,
+          "Mission_Exp_Get_Luxury": 0,
+          "is_VIP_Mission": 0
+        },
+        {
+          "Name": "5.\ub098\ubb34 \ubd80\uc218\uae30",
+          "type": 0,
+          "MissionValue": 20000,
+          "ExpValue": 10,
+          "Mission_Exp_Get": 0,
+          "Mission_Exp_Get_Luxury": 0,
+          "is_VIP_Mission": 0
+        },
+        {
+          "Name": "6.\uc2a4\ud14c\uc774\uc9c0 \ud074\ub9ac\uc5b4",
+          "type": 1,
+          "MissionValue": 5,
+          "ExpValue": 10,
+          "Mission_Exp_Get": 0,
+          "Mission_Exp_Get_Luxury": 0,
+          "is_VIP_Mission": 0
+        },
+        {
+          "Name": "7.\uc2a4\ud14c\uc774\uc9c0 \ud074\ub9ac\uc5b4",
+          "type": 1,
+          "MissionValue": 15,
+          "ExpValue": 10,
+          "Mission_Exp_Get": 0,
+          "Mission_Exp_Get_Luxury": 0,
+          "is_VIP_Mission": 0
+        },
+        {
+          "Name": "8.\uc2a4\ud14c\uc774\uc9c0 \ud074\ub9ac\uc5b4",
+          "type": 1,
+          "MissionValue": 25,
+          "ExpValue": 10,
+          "Mission_Exp_Get": 0,
+          "Mission_Exp_Get_Luxury": 0,
+          "is_VIP_Mission": 0
+        },
+        {
+          "Name": "9.\uc2a4\ud14c\uc774\uc9c0 \ud074\ub9ac\uc5b4",
+          "type": 1,
+          "MissionValue": 50,
+          "ExpValue": 10,
+          "Mission_Exp_Get": 0,
+          "Mission_Exp_Get_Luxury": 0,
+          "is_VIP_Mission": 0
+        },
+        {
+          "Name": "10.\uc2a4\ud14c\uc774\uc9c0 \ud074\ub9ac\uc5b4",
+          "type": 1,
+          "MissionValue": 100,
+          "ExpValue": 10,
+          "Mission_Exp_Get": 0,
+          "Mission_Exp_Get_Luxury": 0,
+          "is_VIP_Mission": 0
+        },
+        {
+          "Name": "11.\uc2a4\ud14c\uc774\uc9c0 \ud074\ub9ac\uc5b4",
+          "type": 1,
+          "MissionValue": 200,
+          "ExpValue": 10,
+          "Mission_Exp_Get": 0,
+          "Mission_Exp_Get_Luxury": 0,
+          "is_VIP_Mission": 0
+        },
+        {
+          "Name": "12.\ud658\uc0dd\ud558\uae30",
+          "type": 2,
+          "MissionValue": 1,
+          "ExpValue": 10,
+          "Mission_Exp_Get": 0,
+          "Mission_Exp_Get_Luxury": 0,
+          "is_VIP_Mission": 0
+        },
+        {
+          "Name": "13.\ud658\uc0dd\ud558\uae30",
+          "type": 2,
+          "MissionValue": 2,
+          "ExpValue": 10,
+          "Mission_Exp_Get": 0,
+          "Mission_Exp_Get_Luxury": 0,
+          "is_VIP_Mission": 0
+        },
+        {
+          "Name": "14.\ud658\uc0dd\ud558\uae30",
+          "type": 2,
+          "MissionValue": 3,
+          "ExpValue": 10,
+          "Mission_Exp_Get": 0,
+          "Mission_Exp_Get_Luxury": 0,
+          "is_VIP_Mission": 0
+        },
+        {
+          "Name": "15.\ud658\uc0dd\ud558\uae30",
+          "type": 2,
+          "MissionValue": 4,
+          "ExpValue": 10,
+          "Mission_Exp_Get": 0,
+          "Mission_Exp_Get_Luxury": 0,
+          "is_VIP_Mission": 0
+        },
+        {
+          "Name": "16.\ud658\uc0dd\ud558\uae30",
+          "type": 2,
+          "MissionValue": 5,
+          "ExpValue": 10,
+          "Mission_Exp_Get": 0,
+          "Mission_Exp_Get_Luxury": 0,
+          "is_VIP_Mission": 0
+        },
+        {
+          "Name": "17.\ud658\uc0dd\ud558\uae30",
+          "type": 2,
+          "MissionValue": 6,
+          "ExpValue": 10,
+          "Mission_Exp_Get": 0,
+          "Mission_Exp_Get_Luxury": 0,
+          "is_VIP_Mission": 0
+        },
+        {
+          "Name": "18.\uad11\uc0b0 \ud50c\ub808\uc774",
+          "type": 3,
+          "MissionValue": 1,
+          "ExpValue": 10,
+          "Mission_Exp_Get": 0,
+          "Mission_Exp_Get_Luxury": 0,
+          "is_VIP_Mission": 0
+        },
+        {
+          "Name": "19.\uad11\uc0b0 \ud50c\ub808\uc774",
+          "type": 3,
+          "MissionValue": 2,
+          "ExpValue": 10,
+          "Mission_Exp_Get": 0,
+          "Mission_Exp_Get_Luxury": 0,
+          "is_VIP_Mission": 0
+        },
+        {
+          "Name": "20.\ub098\ubb34 \ubd80\uc218\uae30",
+          "type": 0,
+          "MissionValue": 50000,
+          "ExpValue": 20,
+          "Mission_Exp_Get": 0,
+          "Mission_Exp_Get_Luxury": 0,
+          "is_VIP_Mission": 1
+        },
+        {
+          "Name": "21.\ub098\ubb34 \ubd80\uc218\uae30",
+          "type": 0,
+          "MissionValue": 100000,
+          "ExpValue": 20,
+          "Mission_Exp_Get": 0,
+          "Mission_Exp_Get_Luxury": 0,
+          "is_VIP_Mission": 1
+        },
+        {
+          "Name": "22.\uc2a4\ud14c\uc774\uc9c0 \ud074\ub9ac\uc5b4",
+          "type": 1,
+          "MissionValue": 300,
+          "ExpValue": 20,
+          "Mission_Exp_Get": 0,
+          "Mission_Exp_Get_Luxury": 0,
+          "is_VIP_Mission": 1
+        }
+      ],
+      "Reward_Normal_list": [
+        {
+          "Lv": 0,
+          "type": 0,
+          "RewardValue": 200
+        },
+        {
+          "Lv": 1,
+          "type": 0,
+          "RewardValue": 240
+        },
+        {
+          "Lv": 2,
+          "type": 1,
+          "RewardValue": 10
+        },
+        {
+          "Lv": 3,
+          "type": 0,
+          "RewardValue": 320
+        },
+        {
+          "Lv": 4,
+          "type": 0,
+          "RewardValue": 360
+        },
+        {
+          "Lv": 5,
+          "type": 1,
+          "RewardValue": 14
+        },
+        {
+          "Lv": 6,
+          "type": 0,
+          "RewardValue": 440
+        },
+        {
+          "Lv": 7,
+          "type": 0,
+          "RewardValue": 480
+        },
+        {
+          "Lv": 8,
+          "type": 1,
+          "RewardValue": 15
+        },
+        {
+          "Lv": 9,
+          "type": 0,
+          "RewardValue": 560
+        },
+        {
+          "Lv": 10,
+          "type": 0,
+          "RewardValue": 600
+        },
+        {
+          "Lv": 11,
+          "type": 1,
+          "RewardValue": 19
+        },
+        {
+          "Lv": 12,
+          "type": 0,
+          "RewardValue": 680
+        },
+        {
+          "Lv": 13,
+          "type": 0,
+          "RewardValue": 720
+        },
+        {
+          "Lv": 14,
+          "type": 1,
+          "RewardValue": 20
+        },
+        {
+          "Lv": 15,
+          "type": 0,
+          "RewardValue": 800
+        },
+        {
+          "Lv": 16,
+          "type": 0,
+          "RewardValue": 840
+        },
+        {
+          "Lv": 17,
+          "type": 1,
+          "RewardValue": 24
+        },
+        {
+          "Lv": 18,
+          "type": 0,
+          "RewardValue": 920
+        },
+        {
+          "Lv": 19,
+          "type": 0,
+          "RewardValue": 960
+        },
+        {
+          "Lv": 20,
+          "type": 1,
+          "RewardValue": 25
+        },
+        {
+          "Lv": 21,
+          "type": 0,
+          "RewardValue": 1040
+        },
+        {
+          "Lv": 22,
+          "type": 0,
+          "RewardValue": 1080
+        },
+        {
+          "Lv": 23,
+          "type": 1,
+          "RewardValue": 29
+        },
+        {
+          "Lv": 24,
+          "type": 0,
+          "RewardValue": 1160
+        }
+      ],
+      "Reward_Epic_list": [
+        {
+          "Lv": 0,
+          "type": 0,
+          "RewardValue": 600
+        },
+        {
+          "Lv": 1,
+          "type": 0,
+          "RewardValue": 720
+        },
+        {
+          "Lv": 2,
+          "type": 1,
+          "RewardValue": 15
+        },
+        {
+          "Lv": 3,
+          "type": 0,
+          "RewardValue": 960
+        },
+        {
+          "Lv": 4,
+          "type": 0,
+          "RewardValue": 1080
+        },
+        {
+          "Lv": 5,
+          "type": 1,
+          "RewardValue": 19
+        },
+        {
+          "Lv": 6,
+          "type": 0,
+          "RewardValue": 1320
+        },
+        {
+          "Lv": 7,
+          "type": 0,
+          "RewardValue": 1440
+        },
+        {
+          "Lv": 8,
+          "type": 1,
+          "RewardValue": 20
+        },
+        {
+          "Lv": 9,
+          "type": 0,
+          "RewardValue": 1680
+        },
+        {
+          "Lv": 10,
+          "type": 0,
+          "RewardValue": 1800
+        },
+        {
+          "Lv": 11,
+          "type": 1,
+          "RewardValue": 24
+        },
+        {
+          "Lv": 12,
+          "type": 0,
+          "RewardValue": 2040
+        },
+        {
+          "Lv": 13,
+          "type": 0,
+          "RewardValue": 2160
+        },
+        {
+          "Lv": 14,
+          "type": 1,
+          "RewardValue": 25
+        },
+        {
+          "Lv": 15,
+          "type": 0,
+          "RewardValue": 2400
+        },
+        {
+          "Lv": 16,
+          "type": 0,
+          "RewardValue": 2520
+        },
+        {
+          "Lv": 17,
+          "type": 1,
+          "RewardValue": 29
+        },
+        {
+          "Lv": 18,
+          "type": 0,
+          "RewardValue": 2760
+        },
+        {
+          "Lv": 19,
+          "type": 0,
+          "RewardValue": 2880
+        },
+        {
+          "Lv": 20,
+          "type": 1,
+          "RewardValue": 30
+        },
+        {
+          "Lv": 21,
+          "type": 0,
+          "RewardValue": 3120
+        },
+        {
+          "Lv": 22,
+          "type": 0,
+          "RewardValue": 3240
+        },
+        {
+          "Lv": 23,
+          "type": 1,
+          "RewardValue": 34
+        },
+        {
+          "Lv": 24,
+          "type": 0,
+          "RewardValue": 3480
+        }
+      ],
+      "NormalReward_Get": 0,
+      "EpicReward_Get": 0,
+      "Reward_Lv": 0,
+      "Reward_Exp": 0,
+      "TreeCount_Value": 0,
+      "StageClear_Value": 0,
+      "Rebirth_Value": 0,
+      "PlayMine_Value": 0,
+      "Season_Num": 0,
+      "is_GunSeason": 0,
+      "is_SeasonStart": 0,
+      "SeasonEnd_Date": {},
+      "MissionStart_Date": {},
+      "NewSeason_Btn_obj": {
+        "fileID": 900
+      },
+      "Mission_UI_Panel": {
+        "fileID": 124586
+      },
+      "Mission_Item_UI_List": [
+        {
+          "fileID": 128971
+        },
+        {
+          "fileID": 146624
+        },
+        {
+          "fileID": 146620
+        },
+        {
+          "fileID": 146621
+        },
+        {
+          "fileID": 146630
+        },
+        {
+          "fileID": 146626
+        },
+        {
+          "fileID": 146625
+        },
+        {
+          "fileID": 146617
+        },
+        {
+          "fileID": 146618
+        },
+        {
+          "fileID": 146623
+        },
+        {
+          "fileID": 146613
+        },
+        {
+          "fileID": 146614
+        },
+        {
+          "fileID": 146632
+        },
+        {
+          "fileID": 146634
+        },
+        {
+          "fileID": 146629
+        },
+        {
+          "fileID": 146622
+        },
+        {
+          "fileID": 146628
+        },
+        {
+          "fileID": 146616
+        },
+        {
+          "fileID": 146615
+        },
+        {
+          "fileID": 146633
+        },
+        {
+          "fileID": 146631
+        },
+        {
+          "fileID": 146619
+        },
+        {
+          "fileID": 146627
+        }
+      ],
+      "Mission_Reward_Slot_List": [
+        {
+          "fileID": 129860
+        },
+        {
+          "fileID": 132996
+        },
+        {
+          "fileID": 133003
+        },
+        {
+          "fileID": 132995
+        },
+        {
+          "fileID": 132989
+        },
+        {
+          "fileID": 132993
+        },
+        {
+          "fileID": 133000
+        },
+        {
+          "fileID": 132998
+        },
+        {
+          "fileID": 132986
+        },
+        {
+          "fileID": 133001
+        },
+        {
+          "fileID": 133010
+        },
+        {
+          "fileID": 133002
+        },
+        {
+          "fileID": 132991
+        },
+        {
+          "fileID": 133009
+        },
+        {
+          "fileID": 132999
+        },
+        {
+          "fileID": 132987
+        },
+        {
+          "fileID": 133004
+        },
+        {
+          "fileID": 133006
+        },
+        {
+          "fileID": 132990
+        },
+        {
+          "fileID": 132992
+        },
+        {
+          "fileID": 132988
+        },
+        {
+          "fileID": 132994
+        },
+        {
+          "fileID": 132997
+        },
+        {
+          "fileID": 133008
+        },
+        {
+          "fileID": 133007
+        }
+      ],
+      "Exp_Slider": {
+        "fileID": 125149
+      },
+      "Vip_Purchase_Panel_obj": {
+        "fileID": 978
+      },
+      "Luxury_Purchase_Panel_obj": {
+        "fileID": 819
+      },
+      "Mission_Alert_obj": {
+        "fileID": 891
+      },
+      "Reward_Scroll": {
+        "fileID": 125462
+      },
+      "Mission_Scroll": {
+        "fileID": 125096
+      },
+      "NewSeason_Panel_obj": {
+        "fileID": 1110
+      },
+      "NewSeason_Panel_Forced_obj": {
+        "fileID": 1211
+      }
+    },
+    "transform": {
+      "serializedVersion": 2,
+      "m_ObjectHideFlags": 0,
+      "m_CorrespondingSourceObject": {
+        "fileID": 0
+      },
+      "m_PrefabInstance": {
+        "fileID": 0
+      },
+      "m_PrefabAsset": {
+        "fileID": 0
+      },
+      "m_GameObject": {
+        "fileID": 1146
+      },
+      "m_LocalRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "m_LocalPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "m_LocalScale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "m_ConstrainProportionsScale": 0,
+      "m_Children": [
+        {
+          "fileID": 103934
+        },
+        {
+          "fileID": 103575
+        },
+        {
+          "fileID": 103420
+        },
+        {
+          "fileID": 103703
+        },
+        {
+          "fileID": 103797
+        }
+      ],
+      "m_Father": {
+        "fileID": 103034
+      },
+      "m_LocalEulerAnglesHint": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "m_AnchorMin": {
+        "x": 0,
+        "y": 0
+      },
+      "m_AnchorMax": {
+        "x": 1,
+        "y": 1
+      },
+      "m_AnchoredPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "m_SizeDelta": {
+        "x": -980,
+        "y": -1820
+      },
+      "m_Pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "rows": [
+    {
+      "component": 128971,
+      "originalGo": 33026,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Item",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 33026
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "750e42950c17cbb4d8bcd58f9c8bf719",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Mission_Index": 0,
+        "_baseExp": 0,
+        "_isVipMission": 0,
+        "Exp_txt": {
+          "fileID": 117745
+        },
+        "Name_txt": {
+          "fileID": 121973
+        },
+        "Explain_txt": {
+          "fileID": 119131
+        },
+        "Value_txt": {
+          "fileID": 120960
+        },
+        "Fill": {
+          "fileID": 135231
+        },
+        "NonClear_obj": {
+          "fileID": 22671
+        },
+        "GetAble_obj": {
+          "fileID": 32470
+        },
+        "Get_obj": {
+          "fileID": 33749
+        },
+        "LuxuryBonus_obj": {
+          "fileID": 15458
+        },
+        "VIP_Panel_obj": {
+          "fileID": 6793
+        },
+        "VIP_Star_obj": {
+          "fileID": 9060
+        },
+        "Luxury_Panel_obj": {
+          "fileID": 12290
+        },
+        "LuxuryLocked_obj": {
+          "fileID": 6399
+        },
+        "VIPLocked_obj": {
+          "fileID": 7073
+        }
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 33026
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [
+          {
+            "fileID": 109648
+          },
+          {
+            "fileID": 106891
+          },
+          {
+            "fileID": 107152
+          },
+          {
+            "fileID": 110123
+          },
+          {
+            "fileID": 106750
+          },
+          {
+            "fileID": 111781
+          },
+          {
+            "fileID": 109788
+          },
+          {
+            "fileID": 111564
+          },
+          {
+            "fileID": 113500
+          },
+          {
+            "fileID": 110814
+          },
+          {
+            "fileID": 112816
+          },
+          {
+            "fileID": 105105
+          }
+        ],
+        "m_Father": {
+          "fileID": 103476
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchorMax": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchoredPosition": {
+          "x": 510.123,
+          "y": -120
+        },
+        "m_SizeDelta": {
+          "x": 950,
+          "y": 180
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 146624,
+      "originalGo": 6796,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Item (1)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6796
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "750e42950c17cbb4d8bcd58f9c8bf719",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Mission_Index": 0,
+        "_baseExp": 0,
+        "_isVipMission": 0,
+        "Exp_txt": {
+          "fileID": 122489
+        },
+        "Name_txt": {
+          "fileID": 118372
+        },
+        "Explain_txt": {
+          "fileID": 120920
+        },
+        "Value_txt": {
+          "fileID": 119103
+        },
+        "Fill": {
+          "fileID": 140678
+        },
+        "NonClear_obj": {
+          "fileID": 16933
+        },
+        "GetAble_obj": {
+          "fileID": 7819
+        },
+        "Get_obj": {
+          "fileID": 8637
+        },
+        "LuxuryBonus_obj": {
+          "fileID": 22415
+        },
+        "VIP_Panel_obj": {
+          "fileID": 33055
+        },
+        "VIP_Star_obj": {
+          "fileID": 30126
+        },
+        "Luxury_Panel_obj": {
+          "fileID": 28157
+        },
+        "LuxuryLocked_obj": {
+          "fileID": 35354
+        },
+        "VIPLocked_obj": {
+          "fileID": 32635
+        }
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6796
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [
+          {
+            "fileID": 113112
+          },
+          {
+            "fileID": 115161
+          },
+          {
+            "fileID": 114968
+          },
+          {
+            "fileID": 112687
+          },
+          {
+            "fileID": 116263
+          },
+          {
+            "fileID": 111088
+          },
+          {
+            "fileID": 112251
+          },
+          {
+            "fileID": 110722
+          },
+          {
+            "fileID": 108448
+          },
+          {
+            "fileID": 111377
+          },
+          {
+            "fileID": 109278
+          },
+          {
+            "fileID": 116740
+          }
+        ],
+        "m_Father": {
+          "fileID": 103476
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchorMax": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchoredPosition": {
+          "x": 510.123,
+          "y": -326.99054
+        },
+        "m_SizeDelta": {
+          "x": 950,
+          "y": 173.9811
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 146620,
+      "originalGo": 6794,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Item (2)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6794
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "750e42950c17cbb4d8bcd58f9c8bf719",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Mission_Index": 0,
+        "_baseExp": 0,
+        "_isVipMission": 0,
+        "Exp_txt": {
+          "fileID": 122491
+        },
+        "Name_txt": {
+          "fileID": 118375
+        },
+        "Explain_txt": {
+          "fileID": 120917
+        },
+        "Value_txt": {
+          "fileID": 119102
+        },
+        "Fill": {
+          "fileID": 140681
+        },
+        "NonClear_obj": {
+          "fileID": 16936
+        },
+        "GetAble_obj": {
+          "fileID": 7816
+        },
+        "Get_obj": {
+          "fileID": 8640
+        },
+        "LuxuryBonus_obj": {
+          "fileID": 22416
+        },
+        "VIP_Panel_obj": {
+          "fileID": 33059
+        },
+        "VIP_Star_obj": {
+          "fileID": 30124
+        },
+        "Luxury_Panel_obj": {
+          "fileID": 28153
+        },
+        "LuxuryLocked_obj": {
+          "fileID": 35352
+        },
+        "VIPLocked_obj": {
+          "fileID": 32638
+        }
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6794
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [
+          {
+            "fileID": 113108
+          },
+          {
+            "fileID": 115160
+          },
+          {
+            "fileID": 114964
+          },
+          {
+            "fileID": 112688
+          },
+          {
+            "fileID": 116266
+          },
+          {
+            "fileID": 111085
+          },
+          {
+            "fileID": 112255
+          },
+          {
+            "fileID": 110724
+          },
+          {
+            "fileID": 108451
+          },
+          {
+            "fileID": 111373
+          },
+          {
+            "fileID": 109277
+          },
+          {
+            "fileID": 116744
+          }
+        ],
+        "m_Father": {
+          "fileID": 103476
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchorMax": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchoredPosition": {
+          "x": 510.123,
+          "y": -530.9716
+        },
+        "m_SizeDelta": {
+          "x": 950,
+          "y": 173.9811
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 146621,
+      "originalGo": 6795,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Item (3)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6795
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "750e42950c17cbb4d8bcd58f9c8bf719",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Mission_Index": 0,
+        "_baseExp": 0,
+        "_isVipMission": 0,
+        "Exp_txt": {
+          "fileID": 122490
+        },
+        "Name_txt": {
+          "fileID": 118376
+        },
+        "Explain_txt": {
+          "fileID": 120916
+        },
+        "Value_txt": {
+          "fileID": 119101
+        },
+        "Fill": {
+          "fileID": 140682
+        },
+        "NonClear_obj": {
+          "fileID": 16937
+        },
+        "GetAble_obj": {
+          "fileID": 7815
+        },
+        "Get_obj": {
+          "fileID": 8641
+        },
+        "LuxuryBonus_obj": {
+          "fileID": 22417
+        },
+        "VIP_Panel_obj": {
+          "fileID": 33058
+        },
+        "VIP_Star_obj": {
+          "fileID": 30125
+        },
+        "Luxury_Panel_obj": {
+          "fileID": 28154
+        },
+        "LuxuryLocked_obj": {
+          "fileID": 35353
+        },
+        "VIPLocked_obj": {
+          "fileID": 32639
+        }
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6795
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [
+          {
+            "fileID": 113109
+          },
+          {
+            "fileID": 115159
+          },
+          {
+            "fileID": 114965
+          },
+          {
+            "fileID": 112689
+          },
+          {
+            "fileID": 116267
+          },
+          {
+            "fileID": 111084
+          },
+          {
+            "fileID": 112254
+          },
+          {
+            "fileID": 110723
+          },
+          {
+            "fileID": 108452
+          },
+          {
+            "fileID": 111374
+          },
+          {
+            "fileID": 109276
+          },
+          {
+            "fileID": 116743
+          }
+        ],
+        "m_Father": {
+          "fileID": 103476
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchorMax": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchoredPosition": {
+          "x": 510.123,
+          "y": -734.9527
+        },
+        "m_SizeDelta": {
+          "x": 950,
+          "y": 173.9811
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 146630,
+      "originalGo": 6815,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Item (4)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6815
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "750e42950c17cbb4d8bcd58f9c8bf719",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Mission_Index": 0,
+        "_baseExp": 0,
+        "_isVipMission": 0,
+        "Exp_txt": {
+          "fileID": 122481
+        },
+        "Name_txt": {
+          "fileID": 118371
+        },
+        "Explain_txt": {
+          "fileID": 120899
+        },
+        "Value_txt": {
+          "fileID": 119088
+        },
+        "Fill": {
+          "fileID": 140677
+        },
+        "NonClear_obj": {
+          "fileID": 16954
+        },
+        "GetAble_obj": {
+          "fileID": 7799
+        },
+        "Get_obj": {
+          "fileID": 8636
+        },
+        "LuxuryBonus_obj": {
+          "fileID": 22430
+        },
+        "VIP_Panel_obj": {
+          "fileID": 33042
+        },
+        "VIP_Star_obj": {
+          "fileID": 30133
+        },
+        "Luxury_Panel_obj": {
+          "fileID": 28173
+        },
+        "LuxuryLocked_obj": {
+          "fileID": 35362
+        },
+        "VIPLocked_obj": {
+          "fileID": 32619
+        }
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6815
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [
+          {
+            "fileID": 113125
+          },
+          {
+            "fileID": 115169
+          },
+          {
+            "fileID": 114947
+          },
+          {
+            "fileID": 112701
+          },
+          {
+            "fileID": 116269
+          },
+          {
+            "fileID": 111104
+          },
+          {
+            "fileID": 112257
+          },
+          {
+            "fileID": 110703
+          },
+          {
+            "fileID": 108457
+          },
+          {
+            "fileID": 111371
+          },
+          {
+            "fileID": 109260
+          },
+          {
+            "fileID": 116761
+          }
+        ],
+        "m_Father": {
+          "fileID": 103476
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchorMax": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchoredPosition": {
+          "x": 510.123,
+          "y": -938.9338
+        },
+        "m_SizeDelta": {
+          "x": 950,
+          "y": 173.9811
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 146626,
+      "originalGo": 6800,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Item (5)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6800
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "750e42950c17cbb4d8bcd58f9c8bf719",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Mission_Index": 0,
+        "_baseExp": 0,
+        "_isVipMission": 0,
+        "Exp_txt": {
+          "fileID": 122485
+        },
+        "Name_txt": {
+          "fileID": 118377
+        },
+        "Explain_txt": {
+          "fileID": 120915
+        },
+        "Value_txt": {
+          "fileID": 119107
+        },
+        "Fill": {
+          "fileID": 140683
+        },
+        "NonClear_obj": {
+          "fileID": 16938
+        },
+        "GetAble_obj": {
+          "fileID": 7814
+        },
+        "Get_obj": {
+          "fileID": 8642
+        },
+        "LuxuryBonus_obj": {
+          "fileID": 22411
+        },
+        "VIP_Panel_obj": {
+          "fileID": 33060
+        },
+        "VIP_Star_obj": {
+          "fileID": 30130
+        },
+        "Luxury_Panel_obj": {
+          "fileID": 28159
+        },
+        "LuxuryLocked_obj": {
+          "fileID": 35358
+        },
+        "VIPLocked_obj": {
+          "fileID": 32633
+        }
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6800
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [
+          {
+            "fileID": 113107
+          },
+          {
+            "fileID": 115165
+          },
+          {
+            "fileID": 114963
+          },
+          {
+            "fileID": 112683
+          },
+          {
+            "fileID": 116261
+          },
+          {
+            "fileID": 111090
+          },
+          {
+            "fileID": 112249
+          },
+          {
+            "fileID": 110718
+          },
+          {
+            "fileID": 108453
+          },
+          {
+            "fileID": 111379
+          },
+          {
+            "fileID": 109275
+          },
+          {
+            "fileID": 116745
+          }
+        ],
+        "m_Father": {
+          "fileID": 103476
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchorMax": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchoredPosition": {
+          "x": 510.123,
+          "y": -1142.9149
+        },
+        "m_SizeDelta": {
+          "x": 950,
+          "y": 173.9811
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 146625,
+      "originalGo": 6799,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Item (6)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6799
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "750e42950c17cbb4d8bcd58f9c8bf719",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Mission_Index": 0,
+        "_baseExp": 0,
+        "_isVipMission": 0,
+        "Exp_txt": {
+          "fileID": 122486
+        },
+        "Name_txt": {
+          "fileID": 118378
+        },
+        "Explain_txt": {
+          "fileID": 120914
+        },
+        "Value_txt": {
+          "fileID": 119106
+        },
+        "Fill": {
+          "fileID": 140684
+        },
+        "NonClear_obj": {
+          "fileID": 16939
+        },
+        "GetAble_obj": {
+          "fileID": 7813
+        },
+        "Get_obj": {
+          "fileID": 8643
+        },
+        "LuxuryBonus_obj": {
+          "fileID": 22412
+        },
+        "VIP_Panel_obj": {
+          "fileID": 33061
+        },
+        "VIP_Star_obj": {
+          "fileID": 30129
+        },
+        "Luxury_Panel_obj": {
+          "fileID": 28158
+        },
+        "LuxuryLocked_obj": {
+          "fileID": 35357
+        },
+        "VIPLocked_obj": {
+          "fileID": 32634
+        }
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6799
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [
+          {
+            "fileID": 113106
+          },
+          {
+            "fileID": 115164
+          },
+          {
+            "fileID": 114962
+          },
+          {
+            "fileID": 112684
+          },
+          {
+            "fileID": 116262
+          },
+          {
+            "fileID": 111089
+          },
+          {
+            "fileID": 112250
+          },
+          {
+            "fileID": 110719
+          },
+          {
+            "fileID": 108454
+          },
+          {
+            "fileID": 111378
+          },
+          {
+            "fileID": 109274
+          },
+          {
+            "fileID": 116746
+          }
+        ],
+        "m_Father": {
+          "fileID": 103476
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchorMax": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchoredPosition": {
+          "x": 510.123,
+          "y": -1346.896
+        },
+        "m_SizeDelta": {
+          "x": 950,
+          "y": 173.9811
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 146617,
+      "originalGo": 6806,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Item (7)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6806
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "750e42950c17cbb4d8bcd58f9c8bf719",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Mission_Index": 0,
+        "_baseExp": 0,
+        "_isVipMission": 0,
+        "Exp_txt": {
+          "fileID": 122493
+        },
+        "Name_txt": {
+          "fileID": 118383
+        },
+        "Explain_txt": {
+          "fileID": 120909
+        },
+        "Value_txt": {
+          "fileID": 119100
+        },
+        "Fill": {
+          "fileID": 140689
+        },
+        "NonClear_obj": {
+          "fileID": 16944
+        },
+        "GetAble_obj": {
+          "fileID": 7808
+        },
+        "Get_obj": {
+          "fileID": 8648
+        },
+        "LuxuryBonus_obj": {
+          "fileID": 22418
+        },
+        "VIP_Panel_obj": {
+          "fileID": 33053
+        },
+        "VIP_Star_obj": {
+          "fileID": 30122
+        },
+        "Luxury_Panel_obj": {
+          "fileID": 28164
+        },
+        "LuxuryLocked_obj": {
+          "fileID": 35350
+        },
+        "VIPLocked_obj": {
+          "fileID": 32627
+        }
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6806
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [
+          {
+            "fileID": 113114
+          },
+          {
+            "fileID": 115158
+          },
+          {
+            "fileID": 114956
+          },
+          {
+            "fileID": 112690
+          },
+          {
+            "fileID": 116255
+          },
+          {
+            "fileID": 111096
+          },
+          {
+            "fileID": 112244
+          },
+          {
+            "fileID": 110712
+          },
+          {
+            "fileID": 108445
+          },
+          {
+            "fileID": 111384
+          },
+          {
+            "fileID": 109270
+          },
+          {
+            "fileID": 116752
+          }
+        ],
+        "m_Father": {
+          "fileID": 103476
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchorMax": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchoredPosition": {
+          "x": 510.123,
+          "y": -1550.8771
+        },
+        "m_SizeDelta": {
+          "x": 950,
+          "y": 173.9811
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 146618,
+      "originalGo": 6805,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Item (8)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6805
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "750e42950c17cbb4d8bcd58f9c8bf719",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Mission_Index": 0,
+        "_baseExp": 0,
+        "_isVipMission": 0,
+        "Exp_txt": {
+          "fileID": 122494
+        },
+        "Name_txt": {
+          "fileID": 118382
+        },
+        "Explain_txt": {
+          "fileID": 120910
+        },
+        "Value_txt": {
+          "fileID": 119099
+        },
+        "Fill": {
+          "fileID": 140688
+        },
+        "NonClear_obj": {
+          "fileID": 16943
+        },
+        "GetAble_obj": {
+          "fileID": 7809
+        },
+        "Get_obj": {
+          "fileID": 8647
+        },
+        "LuxuryBonus_obj": {
+          "fileID": 22419
+        },
+        "VIP_Panel_obj": {
+          "fileID": 33052
+        },
+        "VIP_Star_obj": {
+          "fileID": 30121
+        },
+        "Luxury_Panel_obj": {
+          "fileID": 28165
+        },
+        "LuxuryLocked_obj": {
+          "fileID": 35349
+        },
+        "VIPLocked_obj": {
+          "fileID": 32626
+        }
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6805
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [
+          {
+            "fileID": 113115
+          },
+          {
+            "fileID": 115157
+          },
+          {
+            "fileID": 114957
+          },
+          {
+            "fileID": 112691
+          },
+          {
+            "fileID": 116254
+          },
+          {
+            "fileID": 111097
+          },
+          {
+            "fileID": 112243
+          },
+          {
+            "fileID": 110713
+          },
+          {
+            "fileID": 108444
+          },
+          {
+            "fileID": 111385
+          },
+          {
+            "fileID": 109269
+          },
+          {
+            "fileID": 116751
+          }
+        ],
+        "m_Father": {
+          "fileID": 103476
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchorMax": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchoredPosition": {
+          "x": 510.123,
+          "y": -1754.8582
+        },
+        "m_SizeDelta": {
+          "x": 950,
+          "y": 173.9811
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 146623,
+      "originalGo": 6797,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Item (9)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6797
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "750e42950c17cbb4d8bcd58f9c8bf719",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Mission_Index": 0,
+        "_baseExp": 0,
+        "_isVipMission": 0,
+        "Exp_txt": {
+          "fileID": 122487
+        },
+        "Name_txt": {
+          "fileID": 118373
+        },
+        "Explain_txt": {
+          "fileID": 120919
+        },
+        "Value_txt": {
+          "fileID": 119104
+        },
+        "Fill": {
+          "fileID": 140680
+        },
+        "NonClear_obj": {
+          "fileID": 16934
+        },
+        "GetAble_obj": {
+          "fileID": 7818
+        },
+        "Get_obj": {
+          "fileID": 8638
+        },
+        "LuxuryBonus_obj": {
+          "fileID": 22414
+        },
+        "VIP_Panel_obj": {
+          "fileID": 33056
+        },
+        "VIP_Star_obj": {
+          "fileID": 30127
+        },
+        "Luxury_Panel_obj": {
+          "fileID": 28156
+        },
+        "LuxuryLocked_obj": {
+          "fileID": 35355
+        },
+        "VIPLocked_obj": {
+          "fileID": 32637
+        }
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6797
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [
+          {
+            "fileID": 113111
+          },
+          {
+            "fileID": 115162
+          },
+          {
+            "fileID": 114967
+          },
+          {
+            "fileID": 112686
+          },
+          {
+            "fileID": 116264
+          },
+          {
+            "fileID": 111087
+          },
+          {
+            "fileID": 112252
+          },
+          {
+            "fileID": 110721
+          },
+          {
+            "fileID": 108449
+          },
+          {
+            "fileID": 111376
+          },
+          {
+            "fileID": 109279
+          },
+          {
+            "fileID": 116741
+          }
+        ],
+        "m_Father": {
+          "fileID": 103476
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchorMax": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchoredPosition": {
+          "x": 510.123,
+          "y": -1958.8392
+        },
+        "m_SizeDelta": {
+          "x": 950,
+          "y": 173.9811
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 146613,
+      "originalGo": 6801,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Item (10)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6801
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "750e42950c17cbb4d8bcd58f9c8bf719",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Mission_Index": 0,
+        "_baseExp": 0,
+        "_isVipMission": 0,
+        "Exp_txt": {
+          "fileID": 122498
+        },
+        "Name_txt": {
+          "fileID": 118379
+        },
+        "Explain_txt": {
+          "fileID": 120913
+        },
+        "Value_txt": {
+          "fileID": 119096
+        },
+        "Fill": {
+          "fileID": 140685
+        },
+        "NonClear_obj": {
+          "fileID": 16940
+        },
+        "GetAble_obj": {
+          "fileID": 7812
+        },
+        "Get_obj": {
+          "fileID": 8644
+        },
+        "LuxuryBonus_obj": {
+          "fileID": 22422
+        },
+        "VIP_Panel_obj": {
+          "fileID": 33050
+        },
+        "VIP_Star_obj": {
+          "fileID": 30117
+        },
+        "Luxury_Panel_obj": {
+          "fileID": 28160
+        },
+        "LuxuryLocked_obj": {
+          "fileID": 35345
+        },
+        "VIPLocked_obj": {
+          "fileID": 32630
+        }
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6801
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [
+          {
+            "fileID": 113117
+          },
+          {
+            "fileID": 115154
+          },
+          {
+            "fileID": 114959
+          },
+          {
+            "fileID": 112694
+          },
+          {
+            "fileID": 116258
+          },
+          {
+            "fileID": 111093
+          },
+          {
+            "fileID": 112248
+          },
+          {
+            "fileID": 110717
+          },
+          {
+            "fileID": 108441
+          },
+          {
+            "fileID": 111380
+          },
+          {
+            "fileID": 109273
+          },
+          {
+            "fileID": 116749
+          }
+        ],
+        "m_Father": {
+          "fileID": 103476
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchorMax": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchoredPosition": {
+          "x": 510.123,
+          "y": -2165.8298
+        },
+        "m_SizeDelta": {
+          "x": 950,
+          "y": 180
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 146614,
+      "originalGo": 6803,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Item (11)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6803
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "750e42950c17cbb4d8bcd58f9c8bf719",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Mission_Index": 0,
+        "_baseExp": 0,
+        "_isVipMission": 0,
+        "Exp_txt": {
+          "fileID": 122496
+        },
+        "Name_txt": {
+          "fileID": 118380
+        },
+        "Explain_txt": {
+          "fileID": 120911
+        },
+        "Value_txt": {
+          "fileID": 119095
+        },
+        "Fill": {
+          "fileID": 140687
+        },
+        "NonClear_obj": {
+          "fileID": 16942
+        },
+        "GetAble_obj": {
+          "fileID": 7810
+        },
+        "Get_obj": {
+          "fileID": 8646
+        },
+        "LuxuryBonus_obj": {
+          "fileID": 22424
+        },
+        "VIP_Panel_obj": {
+          "fileID": 33049
+        },
+        "VIP_Star_obj": {
+          "fileID": 30118
+        },
+        "Luxury_Panel_obj": {
+          "fileID": 28161
+        },
+        "LuxuryLocked_obj": {
+          "fileID": 35346
+        },
+        "VIPLocked_obj": {
+          "fileID": 32631
+        }
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6803
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [
+          {
+            "fileID": 113118
+          },
+          {
+            "fileID": 115152
+          },
+          {
+            "fileID": 114961
+          },
+          {
+            "fileID": 112696
+          },
+          {
+            "fileID": 116259
+          },
+          {
+            "fileID": 111091
+          },
+          {
+            "fileID": 112247
+          },
+          {
+            "fileID": 110715
+          },
+          {
+            "fileID": 108442
+          },
+          {
+            "fileID": 111381
+          },
+          {
+            "fileID": 109272
+          },
+          {
+            "fileID": 116747
+          }
+        ],
+        "m_Father": {
+          "fileID": 103476
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchorMax": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchoredPosition": {
+          "x": 510.123,
+          "y": -2372.8203
+        },
+        "m_SizeDelta": {
+          "x": 950,
+          "y": 173.9811
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 146632,
+      "originalGo": 6809,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Item (12)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6809
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "750e42950c17cbb4d8bcd58f9c8bf719",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Mission_Index": 0,
+        "_baseExp": 0,
+        "_isVipMission": 0,
+        "Exp_txt": {
+          "fileID": 122479
+        },
+        "Name_txt": {
+          "fileID": 118364
+        },
+        "Explain_txt": {
+          "fileID": 120906
+        },
+        "Value_txt": {
+          "fileID": 119093
+        },
+        "Fill": {
+          "fileID": 140670
+        },
+        "NonClear_obj": {
+          "fileID": 16947
+        },
+        "GetAble_obj": {
+          "fileID": 7803
+        },
+        "Get_obj": {
+          "fileID": 8629
+        },
+        "LuxuryBonus_obj": {
+          "fileID": 22425
+        },
+        "VIP_Panel_obj": {
+          "fileID": 33046
+        },
+        "VIP_Star_obj": {
+          "fileID": 30138
+        },
+        "Luxury_Panel_obj": {
+          "fileID": 28170
+        },
+        "LuxuryLocked_obj": {
+          "fileID": 35364
+        },
+        "VIPLocked_obj": {
+          "fileID": 32622
+        }
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6809
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [
+          {
+            "fileID": 113121
+          },
+          {
+            "fileID": 115171
+          },
+          {
+            "fileID": 114954
+          },
+          {
+            "fileID": 112699
+          },
+          {
+            "fileID": 116272
+          },
+          {
+            "fileID": 111101
+          },
+          {
+            "fileID": 112260
+          },
+          {
+            "fileID": 110709
+          },
+          {
+            "fileID": 108461
+          },
+          {
+            "fileID": 111368
+          },
+          {
+            "fileID": 109264
+          },
+          {
+            "fileID": 116754
+          }
+        ],
+        "m_Father": {
+          "fileID": 103476
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchorMax": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchoredPosition": {
+          "x": 510.123,
+          "y": -2576.8015
+        },
+        "m_SizeDelta": {
+          "x": 950,
+          "y": 173.9811
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 146634,
+      "originalGo": 6810,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Item (13)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6810
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "750e42950c17cbb4d8bcd58f9c8bf719",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Mission_Index": 0,
+        "_baseExp": 0,
+        "_isVipMission": 0,
+        "Exp_txt": {
+          "fileID": 122478
+        },
+        "Name_txt": {
+          "fileID": 118366
+        },
+        "Explain_txt": {
+          "fileID": 120904
+        },
+        "Value_txt": {
+          "fileID": 119091
+        },
+        "Fill": {
+          "fileID": 140672
+        },
+        "NonClear_obj": {
+          "fileID": 16949
+        },
+        "GetAble_obj": {
+          "fileID": 7804
+        },
+        "Get_obj": {
+          "fileID": 8630
+        },
+        "LuxuryBonus_obj": {
+          "fileID": 22427
+        },
+        "VIP_Panel_obj": {
+          "fileID": 33044
+        },
+        "VIP_Star_obj": {
+          "fileID": 30137
+        },
+        "Luxury_Panel_obj": {
+          "fileID": 28168
+        },
+        "LuxuryLocked_obj": {
+          "fileID": 35365
+        },
+        "VIPLocked_obj": {
+          "fileID": 32624
+        }
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6810
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [
+          {
+            "fileID": 113122
+          },
+          {
+            "fileID": 115173
+          },
+          {
+            "fileID": 114953
+          },
+          {
+            "fileID": 112697
+          },
+          {
+            "fileID": 116274
+          },
+          {
+            "fileID": 111099
+          },
+          {
+            "fileID": 112261
+          },
+          {
+            "fileID": 110707
+          },
+          {
+            "fileID": 108460
+          },
+          {
+            "fileID": 111366
+          },
+          {
+            "fileID": 109266
+          },
+          {
+            "fileID": 116756
+          }
+        ],
+        "m_Father": {
+          "fileID": 103476
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchorMax": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchoredPosition": {
+          "x": 510.123,
+          "y": -2780.7827
+        },
+        "m_SizeDelta": {
+          "x": 950,
+          "y": 173.9811
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 146629,
+      "originalGo": 6814,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Item (14)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6814
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "750e42950c17cbb4d8bcd58f9c8bf719",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Mission_Index": 0,
+        "_baseExp": 0,
+        "_isVipMission": 0,
+        "Exp_txt": {
+          "fileID": 122482
+        },
+        "Name_txt": {
+          "fileID": 118370
+        },
+        "Explain_txt": {
+          "fileID": 120900
+        },
+        "Value_txt": {
+          "fileID": 119089
+        },
+        "Fill": {
+          "fileID": 140676
+        },
+        "NonClear_obj": {
+          "fileID": 16953
+        },
+        "GetAble_obj": {
+          "fileID": 7798
+        },
+        "Get_obj": {
+          "fileID": 8635
+        },
+        "LuxuryBonus_obj": {
+          "fileID": 22429
+        },
+        "VIP_Panel_obj": {
+          "fileID": 33043
+        },
+        "VIP_Star_obj": {
+          "fileID": 30134
+        },
+        "Luxury_Panel_obj": {
+          "fileID": 28174
+        },
+        "LuxuryLocked_obj": {
+          "fileID": 35361
+        },
+        "VIPLocked_obj": {
+          "fileID": 32618
+        }
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6814
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [
+          {
+            "fileID": 113124
+          },
+          {
+            "fileID": 115168
+          },
+          {
+            "fileID": 114948
+          },
+          {
+            "fileID": 112702
+          },
+          {
+            "fileID": 116268
+          },
+          {
+            "fileID": 111105
+          },
+          {
+            "fileID": 112256
+          },
+          {
+            "fileID": 110704
+          },
+          {
+            "fileID": 108458
+          },
+          {
+            "fileID": 111372
+          },
+          {
+            "fileID": 109259
+          },
+          {
+            "fileID": 116760
+          }
+        ],
+        "m_Father": {
+          "fileID": 103476
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchorMax": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchoredPosition": {
+          "x": 510.123,
+          "y": -2984.764
+        },
+        "m_SizeDelta": {
+          "x": 950,
+          "y": 173.9811
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 146622,
+      "originalGo": 6798,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Item (15)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6798
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "750e42950c17cbb4d8bcd58f9c8bf719",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Mission_Index": 0,
+        "_baseExp": 0,
+        "_isVipMission": 0,
+        "Exp_txt": {
+          "fileID": 122488
+        },
+        "Name_txt": {
+          "fileID": 118374
+        },
+        "Explain_txt": {
+          "fileID": 120918
+        },
+        "Value_txt": {
+          "fileID": 119105
+        },
+        "Fill": {
+          "fileID": 140679
+        },
+        "NonClear_obj": {
+          "fileID": 16935
+        },
+        "GetAble_obj": {
+          "fileID": 7817
+        },
+        "Get_obj": {
+          "fileID": 8639
+        },
+        "LuxuryBonus_obj": {
+          "fileID": 22413
+        },
+        "VIP_Panel_obj": {
+          "fileID": 33057
+        },
+        "VIP_Star_obj": {
+          "fileID": 30128
+        },
+        "Luxury_Panel_obj": {
+          "fileID": 28155
+        },
+        "LuxuryLocked_obj": {
+          "fileID": 35356
+        },
+        "VIPLocked_obj": {
+          "fileID": 32636
+        }
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6798
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [
+          {
+            "fileID": 113110
+          },
+          {
+            "fileID": 115163
+          },
+          {
+            "fileID": 114966
+          },
+          {
+            "fileID": 112685
+          },
+          {
+            "fileID": 116265
+          },
+          {
+            "fileID": 111086
+          },
+          {
+            "fileID": 112253
+          },
+          {
+            "fileID": 110720
+          },
+          {
+            "fileID": 108450
+          },
+          {
+            "fileID": 111375
+          },
+          {
+            "fileID": 109280
+          },
+          {
+            "fileID": 116742
+          }
+        ],
+        "m_Father": {
+          "fileID": 103476
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchorMax": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchoredPosition": {
+          "x": 510.123,
+          "y": -3188.745
+        },
+        "m_SizeDelta": {
+          "x": 950,
+          "y": 173.9811
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 146628,
+      "originalGo": 6813,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Item (16)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6813
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "750e42950c17cbb4d8bcd58f9c8bf719",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Mission_Index": 0,
+        "_baseExp": 0,
+        "_isVipMission": 0,
+        "Exp_txt": {
+          "fileID": 122483
+        },
+        "Name_txt": {
+          "fileID": 118368
+        },
+        "Explain_txt": {
+          "fileID": 120902
+        },
+        "Value_txt": {
+          "fileID": 119087
+        },
+        "Fill": {
+          "fileID": 140674
+        },
+        "NonClear_obj": {
+          "fileID": 16951
+        },
+        "GetAble_obj": {
+          "fileID": 7801
+        },
+        "Get_obj": {
+          "fileID": 8633
+        },
+        "LuxuryBonus_obj": {
+          "fileID": 22431
+        },
+        "VIP_Panel_obj": {
+          "fileID": 33040
+        },
+        "VIP_Star_obj": {
+          "fileID": 30132
+        },
+        "Luxury_Panel_obj": {
+          "fileID": 28172
+        },
+        "LuxuryLocked_obj": {
+          "fileID": 35360
+        },
+        "VIPLocked_obj": {
+          "fileID": 32620
+        }
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6813
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [
+          {
+            "fileID": 113127
+          },
+          {
+            "fileID": 115167
+          },
+          {
+            "fileID": 114950
+          },
+          {
+            "fileID": 112703
+          },
+          {
+            "fileID": 116270
+          },
+          {
+            "fileID": 111103
+          },
+          {
+            "fileID": 112258
+          },
+          {
+            "fileID": 110705
+          },
+          {
+            "fileID": 108455
+          },
+          {
+            "fileID": 111370
+          },
+          {
+            "fileID": 109262
+          },
+          {
+            "fileID": 116758
+          }
+        ],
+        "m_Father": {
+          "fileID": 103476
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchorMax": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchoredPosition": {
+          "x": 510.123,
+          "y": -3392.7263
+        },
+        "m_SizeDelta": {
+          "x": 950,
+          "y": 173.9811
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 146616,
+      "originalGo": 6804,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Item (17)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6804
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "750e42950c17cbb4d8bcd58f9c8bf719",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Mission_Index": 0,
+        "_baseExp": 0,
+        "_isVipMission": 0,
+        "Exp_txt": {
+          "fileID": 122495
+        },
+        "Name_txt": {
+          "fileID": 118385
+        },
+        "Explain_txt": {
+          "fileID": 120907
+        },
+        "Value_txt": {
+          "fileID": 119097
+        },
+        "Fill": {
+          "fileID": 140691
+        },
+        "NonClear_obj": {
+          "fileID": 16946
+        },
+        "GetAble_obj": {
+          "fileID": 7806
+        },
+        "Get_obj": {
+          "fileID": 8650
+        },
+        "LuxuryBonus_obj": {
+          "fileID": 22421
+        },
+        "VIP_Panel_obj": {
+          "fileID": 33054
+        },
+        "VIP_Star_obj": {
+          "fileID": 30120
+        },
+        "Luxury_Panel_obj": {
+          "fileID": 28163
+        },
+        "LuxuryLocked_obj": {
+          "fileID": 35348
+        },
+        "VIPLocked_obj": {
+          "fileID": 32629
+        }
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6804
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [
+          {
+            "fileID": 113113
+          },
+          {
+            "fileID": 115155
+          },
+          {
+            "fileID": 114955
+          },
+          {
+            "fileID": 112693
+          },
+          {
+            "fileID": 116257
+          },
+          {
+            "fileID": 111094
+          },
+          {
+            "fileID": 112245
+          },
+          {
+            "fileID": 110714
+          },
+          {
+            "fileID": 108447
+          },
+          {
+            "fileID": 111383
+          },
+          {
+            "fileID": 109267
+          },
+          {
+            "fileID": 116753
+          }
+        ],
+        "m_Father": {
+          "fileID": 103476
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchorMax": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchoredPosition": {
+          "x": 510.123,
+          "y": -3596.7075
+        },
+        "m_SizeDelta": {
+          "x": 950,
+          "y": 173.9811
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 146615,
+      "originalGo": 6802,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Item (18)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6802
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "750e42950c17cbb4d8bcd58f9c8bf719",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Mission_Index": 0,
+        "_baseExp": 0,
+        "_isVipMission": 0,
+        "Exp_txt": {
+          "fileID": 122497
+        },
+        "Name_txt": {
+          "fileID": 118381
+        },
+        "Explain_txt": {
+          "fileID": 120912
+        },
+        "Value_txt": {
+          "fileID": 119094
+        },
+        "Fill": {
+          "fileID": 140686
+        },
+        "NonClear_obj": {
+          "fileID": 16941
+        },
+        "GetAble_obj": {
+          "fileID": 7811
+        },
+        "Get_obj": {
+          "fileID": 8645
+        },
+        "LuxuryBonus_obj": {
+          "fileID": 22423
+        },
+        "VIP_Panel_obj": {
+          "fileID": 33048
+        },
+        "VIP_Star_obj": {
+          "fileID": 30119
+        },
+        "Luxury_Panel_obj": {
+          "fileID": 28162
+        },
+        "LuxuryLocked_obj": {
+          "fileID": 35347
+        },
+        "VIPLocked_obj": {
+          "fileID": 32632
+        }
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6802
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [
+          {
+            "fileID": 113119
+          },
+          {
+            "fileID": 115153
+          },
+          {
+            "fileID": 114960
+          },
+          {
+            "fileID": 112695
+          },
+          {
+            "fileID": 116260
+          },
+          {
+            "fileID": 111092
+          },
+          {
+            "fileID": 112246
+          },
+          {
+            "fileID": 110716
+          },
+          {
+            "fileID": 108443
+          },
+          {
+            "fileID": 111382
+          },
+          {
+            "fileID": 109271
+          },
+          {
+            "fileID": 116748
+          }
+        ],
+        "m_Father": {
+          "fileID": 103476
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchorMax": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchoredPosition": {
+          "x": 510.123,
+          "y": -3800.6887
+        },
+        "m_SizeDelta": {
+          "x": 950,
+          "y": 173.9811
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 146633,
+      "originalGo": 6811,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Item (19)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6811
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "750e42950c17cbb4d8bcd58f9c8bf719",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Mission_Index": 0,
+        "_baseExp": 0,
+        "_isVipMission": 0,
+        "Exp_txt": {
+          "fileID": 122477
+        },
+        "Name_txt": {
+          "fileID": 118365
+        },
+        "Explain_txt": {
+          "fileID": 120905
+        },
+        "Value_txt": {
+          "fileID": 119092
+        },
+        "Fill": {
+          "fileID": 140671
+        },
+        "NonClear_obj": {
+          "fileID": 16948
+        },
+        "GetAble_obj": {
+          "fileID": 7805
+        },
+        "Get_obj": {
+          "fileID": 8631
+        },
+        "LuxuryBonus_obj": {
+          "fileID": 22426
+        },
+        "VIP_Panel_obj": {
+          "fileID": 33045
+        },
+        "VIP_Star_obj": {
+          "fileID": 30136
+        },
+        "Luxury_Panel_obj": {
+          "fileID": 28169
+        },
+        "LuxuryLocked_obj": {
+          "fileID": 35366
+        },
+        "VIPLocked_obj": {
+          "fileID": 32623
+        }
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6811
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [
+          {
+            "fileID": 113123
+          },
+          {
+            "fileID": 115172
+          },
+          {
+            "fileID": 114952
+          },
+          {
+            "fileID": 112698
+          },
+          {
+            "fileID": 116273
+          },
+          {
+            "fileID": 111100
+          },
+          {
+            "fileID": 112262
+          },
+          {
+            "fileID": 110708
+          },
+          {
+            "fileID": 108459
+          },
+          {
+            "fileID": 111367
+          },
+          {
+            "fileID": 109265
+          },
+          {
+            "fileID": 116755
+          }
+        ],
+        "m_Father": {
+          "fileID": 103476
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchorMax": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchoredPosition": {
+          "x": 510.123,
+          "y": -4004.67
+        },
+        "m_SizeDelta": {
+          "x": 950,
+          "y": 173.9811
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 146631,
+      "originalGo": 6808,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Item (20)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6808
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "750e42950c17cbb4d8bcd58f9c8bf719",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Mission_Index": 0,
+        "_baseExp": 0,
+        "_isVipMission": 0,
+        "Exp_txt": {
+          "fileID": 122480
+        },
+        "Name_txt": {
+          "fileID": 118367
+        },
+        "Explain_txt": {
+          "fileID": 120903
+        },
+        "Value_txt": {
+          "fileID": 119090
+        },
+        "Fill": {
+          "fileID": 140673
+        },
+        "NonClear_obj": {
+          "fileID": 16950
+        },
+        "GetAble_obj": {
+          "fileID": 7802
+        },
+        "Get_obj": {
+          "fileID": 8632
+        },
+        "LuxuryBonus_obj": {
+          "fileID": 22428
+        },
+        "VIP_Panel_obj": {
+          "fileID": 33047
+        },
+        "VIP_Star_obj": {
+          "fileID": 30135
+        },
+        "Luxury_Panel_obj": {
+          "fileID": 28167
+        },
+        "LuxuryLocked_obj": {
+          "fileID": 35363
+        },
+        "VIPLocked_obj": {
+          "fileID": 32625
+        }
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6808
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [
+          {
+            "fileID": 113120
+          },
+          {
+            "fileID": 115170
+          },
+          {
+            "fileID": 114951
+          },
+          {
+            "fileID": 112700
+          },
+          {
+            "fileID": 116275
+          },
+          {
+            "fileID": 111098
+          },
+          {
+            "fileID": 112263
+          },
+          {
+            "fileID": 110710
+          },
+          {
+            "fileID": 108462
+          },
+          {
+            "fileID": 111365
+          },
+          {
+            "fileID": 109263
+          },
+          {
+            "fileID": 116757
+          }
+        ],
+        "m_Father": {
+          "fileID": 103476
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchorMax": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchoredPosition": {
+          "x": 510.123,
+          "y": -4208.6514
+        },
+        "m_SizeDelta": {
+          "x": 950,
+          "y": 173.9811
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 146619,
+      "originalGo": 6807,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Item (21)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6807
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "750e42950c17cbb4d8bcd58f9c8bf719",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Mission_Index": 0,
+        "_baseExp": 0,
+        "_isVipMission": 0,
+        "Exp_txt": {
+          "fileID": 122492
+        },
+        "Name_txt": {
+          "fileID": 118384
+        },
+        "Explain_txt": {
+          "fileID": 120908
+        },
+        "Value_txt": {
+          "fileID": 119098
+        },
+        "Fill": {
+          "fileID": 140690
+        },
+        "NonClear_obj": {
+          "fileID": 16945
+        },
+        "GetAble_obj": {
+          "fileID": 7807
+        },
+        "Get_obj": {
+          "fileID": 8649
+        },
+        "LuxuryBonus_obj": {
+          "fileID": 22420
+        },
+        "VIP_Panel_obj": {
+          "fileID": 33051
+        },
+        "VIP_Star_obj": {
+          "fileID": 30123
+        },
+        "Luxury_Panel_obj": {
+          "fileID": 28166
+        },
+        "LuxuryLocked_obj": {
+          "fileID": 35351
+        },
+        "VIPLocked_obj": {
+          "fileID": 32628
+        }
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6807
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [
+          {
+            "fileID": 113116
+          },
+          {
+            "fileID": 115156
+          },
+          {
+            "fileID": 114958
+          },
+          {
+            "fileID": 112692
+          },
+          {
+            "fileID": 116256
+          },
+          {
+            "fileID": 111095
+          },
+          {
+            "fileID": 112242
+          },
+          {
+            "fileID": 110711
+          },
+          {
+            "fileID": 108446
+          },
+          {
+            "fileID": 111386
+          },
+          {
+            "fileID": 109268
+          },
+          {
+            "fileID": 116750
+          }
+        ],
+        "m_Father": {
+          "fileID": 103476
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchorMax": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchoredPosition": {
+          "x": 510.123,
+          "y": -4412.6323
+        },
+        "m_SizeDelta": {
+          "x": 950,
+          "y": 173.9811
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "component": 146627,
+      "originalGo": 6812,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Item (22)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6812
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "750e42950c17cbb4d8bcd58f9c8bf719",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Mission_Index": 0,
+        "_baseExp": 0,
+        "_isVipMission": 0,
+        "Exp_txt": {
+          "fileID": 122484
+        },
+        "Name_txt": {
+          "fileID": 118369
+        },
+        "Explain_txt": {
+          "fileID": 120901
+        },
+        "Value_txt": {
+          "fileID": 119086
+        },
+        "Fill": {
+          "fileID": 140675
+        },
+        "NonClear_obj": {
+          "fileID": 16952
+        },
+        "GetAble_obj": {
+          "fileID": 7800
+        },
+        "Get_obj": {
+          "fileID": 8634
+        },
+        "LuxuryBonus_obj": {
+          "fileID": 22432
+        },
+        "VIP_Panel_obj": {
+          "fileID": 33041
+        },
+        "VIP_Star_obj": {
+          "fileID": 30131
+        },
+        "Luxury_Panel_obj": {
+          "fileID": 28171
+        },
+        "LuxuryLocked_obj": {
+          "fileID": 35359
+        },
+        "VIPLocked_obj": {
+          "fileID": 32621
+        }
+      },
+      "transform": {
+        "serializedVersion": 2,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 6812
+        },
+        "m_LocalRotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "m_LocalPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_LocalScale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "m_ConstrainProportionsScale": 0,
+        "m_Children": [
+          {
+            "fileID": 113126
+          },
+          {
+            "fileID": 115166
+          },
+          {
+            "fileID": 114949
+          },
+          {
+            "fileID": 112704
+          },
+          {
+            "fileID": 116271
+          },
+          {
+            "fileID": 111102
+          },
+          {
+            "fileID": 112259
+          },
+          {
+            "fileID": 110706
+          },
+          {
+            "fileID": 108456
+          },
+          {
+            "fileID": 111369
+          },
+          {
+            "fileID": 109261
+          },
+          {
+            "fileID": 116759
+          }
+        ],
+        "m_Father": {
+          "fileID": 103476
+        },
+        "m_LocalEulerAnglesHint": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "m_AnchorMin": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchorMax": {
+          "x": 0,
+          "y": 1
+        },
+        "m_AnchoredPosition": {
+          "x": 510.123,
+          "y": -4616.6133
+        },
+        "m_SizeDelta": {
+          "x": 950,
+          "y": 173.9811
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    }
+  ]
+}

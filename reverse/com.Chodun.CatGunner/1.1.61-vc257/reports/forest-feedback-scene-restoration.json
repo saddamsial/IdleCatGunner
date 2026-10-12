@@ -1,0 +1,68 @@
+{
+  "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+  "moneySourceObject": 2663,
+  "moneyComponent": 148042,
+  "particleIndex": 0,
+  "systems": [
+    {
+      "name": "Money",
+      "simulationSpace": "Local",
+      "lifetime": 3.0,
+      "texture": "Assets/Texture2D/Fx_Cash.png"
+    }
+  ],
+  "textSourceObject": 8804,
+  "minSortingOrder": 1000,
+  "settings": [
+    {
+      "key": "money",
+      "prefab": "Assets/GameObject/Money_Cri.prefab",
+      "font": "Assets/Font/Money_Cri.asset",
+      "texture": "Assets/Texture2D/Money_Cri.png",
+      "shader": "GUI/Text Shader",
+      "duration": 1.5,
+      "spriteGap": -18,
+      "curves": 50
+    },
+    {
+      "key": "damage",
+      "prefab": "Assets/GameObject/Damage.prefab",
+      "font": "Assets/Font/Damage.asset",
+      "texture": "Assets/Texture2D/Damage.png",
+      "shader": "GUI/Text Shader",
+      "duration": 1.0,
+      "spriteGap": -18,
+      "curves": 50
+    },
+    {
+      "key": "dia",
+      "prefab": "Assets/GameObject/Dia.prefab",
+      "font": "Assets/Font/Dia.asset",
+      "texture": "Assets/Texture2D/Dia.png",
+      "shader": "GUI/Text Shader",
+      "duration": 1.5,
+      "spriteGap": -10,
+      "curves": 12
+    },
+    {
+      "key": "critical",
+      "prefab": "Assets/GameObject/Damage (Cri).prefab",
+      "font": "Assets/Font/Damage (Cri).asset",
+      "texture": "Assets/Texture2D/Damage (Cri).png",
+      "shader": "GUI/Text Shader",
+      "duration": 1.0,
+      "spriteGap": -18,
+      "curves": 50
+    }
+  ],
+  "materials": [],
+  "bitmapMaterials": [
+    "Assets/Recovery/DamageMaterials/money.mat",
+    "Assets/Recovery/DamageMaterials/damage.mat",
+    "Assets/Recovery/DamageMaterials/dia.mat",
+    "Assets/Recovery/DamageMaterials/critical.mat"
+  ],
+  "meshPooling": "Local presentation adapter; original prefab/glyph UVs/curves retained",
+  "shaderBoundary": "HLSL/Metal port of original compiled Hidden/DamageText GLES3 expressions and pass states; not original author source",
+  "input": "StandaloneInputModule for activeInputHandler=0"
+}

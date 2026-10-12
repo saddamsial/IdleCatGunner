@@ -1,0 +1,77 @@
+{
+  "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+  "dirty": false,
+  "original_arrow_methods": [
+    "Show_LowerPet",
+    "Show_HigherPet"
+  ],
+  "arrow_buttons_enabled": true,
+  "hold_rows": [
+    {
+      "_num": 0,
+      "holdDelay": 0.4,
+      "holdInterval": 0.04,
+      "events": [
+        {
+          "type": "PointerDown",
+          "method": "OnHoldStart",
+          "original_target": true
+        },
+        {
+          "type": "PointerUp",
+          "method": "OnHoldEnd",
+          "original_target": true
+        },
+        {
+          "type": "PointerExit",
+          "method": "OnHoldEnd",
+          "original_target": true
+        }
+      ]
+    },
+    {
+      "_num": 1,
+      "holdDelay": 0.4,
+      "holdInterval": 0.04,
+      "events": [
+        {
+          "type": "PointerDown",
+          "method": "OnHoldStart",
+          "original_target": true
+        },
+        {
+          "type": "PointerUp",
+          "method": "OnHoldEnd",
+          "original_target": true
+        },
+        {
+          "type": "PointerExit",
+          "method": "OnHoldEnd",
+          "original_target": true
+        }
+      ]
+    },
+    {
+      "_num": 2,
+      "holdDelay": 0.4,
+      "holdInterval": 0.04,
+      "events": [
+        {
+          "type": "PointerDown",
+          "method": "OnHoldStart",
+          "original_target": true
+        },
+        {
+          "type": "PointerUp",
+          "method": "OnHoldEnd",
+          "original_target": true
+        },
+        {
+          "type": "PointerExit",
+          "method": "OnHoldEnd",
+          "original_target": true
+        }
+      ]
+    }
+  ]
+}

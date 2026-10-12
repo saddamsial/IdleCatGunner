@@ -1,0 +1,95 @@
+{
+  "identity": {
+    "file": "level0",
+    "path_id": 142167,
+    "type_index": 7570,
+    "type": "Pet",
+    "game_object": "Pet (1)"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 9692
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 2547
+    },
+    "m_Name": "",
+    "rb": {
+      "m_FileID": 0,
+      "m_PathID": 64726
+    },
+    "Skin_list": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 17918
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 26944
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 20180
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 22636
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 2619
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 19699
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 33925
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 16097
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 12139
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 15937
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 8725
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 23335
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 14851
+      }
+    ],
+    "SeparationForce": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "CatAvoidanceForce": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "FormationOffset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "IsMoving": false
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "rule": 67,
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "updatedUtc": "2026-10-11T20:05:09.718063+00:00",
+  "sourceContract": "mode-text-source-contract.json",
+  "staticBindings": 71,
+  "staticTerms": 21,
+  "locales": 14,
+  "uniqueTermLocaleValues": 294,
+  "tests": [
+    {
+      "report": "mode-text-final-validation.json",
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 82.9
+    },
+    {
+      "report": "mode-text-reward-regression.json",
+      "summary": {
+        "total": 10,
+        "passed": 10,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 284.42
+    },
+    {
+      "report": "mode-text-boss-regression.json",
+      "summary": {
+        "total": 11,
+        "passed": 11,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 73.62
+    },
+    {
+      "report": "mode-text-startup-regression.json",
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 24.15
+    }
+  ],
+  "attempts": [
+    "mode-text-baseline-validation.json",
+    "mode-text-first-validation.json",
+    "mode-text-second-validation.json",
+    "mode-text-third-validation.json",
+    "mode-text-boss-first-regression.json"
+  ],
+  "baseline": "0/1: Chinese startup retained source Korean immediate-completion label. Runtime binding added. First full4/4 checked text/logic, but screenshot timing showed initial result animation; final full batch increases capture delay and checks visible text dimensions. Second3/4 passed result pixel sizes but one first menu click missed input-module activation. Third3/4 passed menu entries but exposed a release-frame scheduling miss on the ad Button. Final fixture reads the real PointerInputModule press state before releasing and observes exactly one actual onClick; does not dispatch events directly. Prior batches and first captures archived separately, never combined into one pass.",
+  "visuals": [
+    {
+      "path": "visual/mode-text-speedrun-entrance-gpu.png",
+      "sha256": "9877809aa7e479abad23446e41d09c2c1f6a32edd24be4fd6df65cf462ebfb44",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/mode-text-mine-entrance-gpu.png",
+      "sha256": "1709baefd0cb64a0113d9ff4b1633790b86ae469e743daaab058e220ad70f081",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/mode-text-boss-entrance-gpu.png",
+      "sha256": "40e7abc6386345a2a43cd3400f28d75d608c132925ee54c5c0c208036d6be0c7",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/mode-text-monster-entrance-gpu.png",
+      "sha256": "5a30562f653dc7d84334766cc093636dc3bf13b8aadc4d040a72ef9621a22a86",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/mode-text-speedrun-sweep-gpu.png",
+      "sha256": "99a21809ebd75ece8eb4a011c23b63e4b83a791f53f67f508fe429c7ad15b5bc",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/mode-text-mine-sweep-gpu.png",
+      "sha256": "fd358913e79359c3c789efa6c88868c8e7a8615685c1cd38edf4bae5483b4402",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/mode-text-boss-sweep-gpu.png",
+      "sha256": "d152983da87771a641a8da88c7dbf24475267d8b0a95239b4fee456bb37104fd",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/mode-text-monster-sweep-gpu.png",
+      "sha256": "011c8ff1806a0be4d2ad4405673ebe47b30a1b65129648eafc292cb361bb6116",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/mode-text-speedrun-win-gpu.png",
+      "sha256": "8eb65ad6983755bbf3e9ec11ed87fed5aa7a549318bac932e5740d200891a32f",
+      "actuallyViewed": true
+    }
+  ],
+  "preservation": "mode-text-preservation.json",
+  "fontCache": "mode-text-font-cache.json",
+  "historicalReports": "../checkpoints/mode-text-before/historical/manifest.json",
+  "handoff": {
+    "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+    "version": "6000.4.10f1",
+    "dirty": false,
+    "playing": false,
+    "paused": false,
+    "compiling": false,
+    "compilationFailed": false,
+    "objects": 35954,
+    "missingScripts": 0,
+    "persist": true,
+    "saveFolderOverride": null,
+    "testHostFolder": "",
+    "localAdSimulation": true,
+    "localPurchaseSimulation": true,
+    "timeScale": 1.0,
+    "inputOverrides": 0,
+    "userFillPPU": 10.0,
+    "fillHeight": 37.0,
+    "buildScenes": [
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredBullets.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForest.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestHUD.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestProgress.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredJoystick.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredSettings.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredTarget.unity",
+        "enabled": true
+      }
+    ]
+  },
+  "console": {
+    "currentErrors": 0,
+    "currentWarnings": 2,
+    "history": "mode-text-error-history.json",
+    "notes": "Console not cleared; buffered historical failures separate from current groundTruth."
+  },
+  "sources": {
+    "Assets/Recovery/Scripts/OriginalModeText.cs": "7106abcaad4d8190d628d7d1f917bdb43c36f5ded509d702e2a1ac04f5947388",
+    "Assets/Recovery/Scripts/RecoveryClientPresentation.cs": "8ae5f21703781ec0942805afc0e5fd648dcad9cbd5db87102bf4352be0913783",
+    "Assets/Recovery/Resources/OriginalModeText.json": "3755aa9abe5e9ba006e63f9af58fe4be3c2f399ff32c68d9888ffc670a31fd68",
+    "Assets/Recovery/Tests/PlayMode/OriginalModeTextTests.cs": "e2497cb0d30273dc2b8b49f424168888838dcdd4782dcc3e31e7302817ef9c22",
+    "Assets/Recovery/Tests/PlayMode/OriginalBossSweepTests.cs": "990b69876b6394e5e98371bb17d1bcf578f07dddcaf7d075b7dc8868d48bed8a"
+  },
+  "bossRegressionNotes": "First old Boss fixture batch7/8 missed Sweep mouse input; then test-only press/receive timing was corrected and both sweep classes rerun together. The legacy projectile observation is refreshed by this regression; original observation remains embedded in unchanged boss-sweep-evidence.json.",
+  "bossProjectileObservation": {
+    "stage": 1,
+    "diamonds": 450,
+    "remaining": 53.02344512939453,
+    "health": "0e0",
+    "fixture": "Independent Gun20 actual projectiles, native 50000 HP; zero joystick input; no direct Game_Win or injected damage until after natural settlement"
+  },
+  "adapters": [
+    "Selected primary term startup application and existing Chinese source font/material adapter; not full I2",
+    "Explicit escaped-newline display adapter; source translations retained raw in Values, not claimed as native I2 preprocessing",
+    "Original Monster explanation contains <sprite=0-> in translation; retain source tag. Actual TMP source PetCoin icon visually verified; no invented sprite replacement",
+    "Four source menu entries and challenge Enter/Claim exercised through EventSystem mouse fixture; original Gun20 natural projectile victory awards30 then one local ad completes120 and reload preserves progress",
+    "All result variants directly displayed in isolated fixture for text/glyph/geometry only; these captures are not natural completion or backend acceptance",
+    "Dynamic counters, rewards, Stage strings, no-primary-term labels, commercial banners and online ranking not changed"
+  ],
+  "nativeQueryIncrease": 0,
+  "nativeUniqueCompletedQueries": 951,
+  "scopeComplete": false,
+  "playerBuild": false,
+  "deviceAcceptance": false,
+  "gitDelivery": false
+}

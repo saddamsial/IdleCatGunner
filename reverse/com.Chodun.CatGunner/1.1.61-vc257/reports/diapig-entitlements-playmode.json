@@ -1,0 +1,97 @@
+{
+  "status": "completed",
+  "duration": 158.49,
+  "summary": {
+    "total": 12,
+    "passed": 12,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalDiaPigTests.ActualRealtimeMinuteAccumulatesAndSavesUnclaimedFundsAcrossColdReload",
+      "Status": "Passed",
+      "Duration": 73.2528577,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalDiaPigTests.CancellationAndDisabledLocalSimulationCannotUnlockOrClaimStoredCount",
+      "Status": "Passed",
+      "Duration": 5.8644616,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalDiaPigTests.DynamicNativeRateKeepsExistingCountClockReferencesAndMinuteRemainder",
+      "Status": "Passed",
+      "Duration": 5.7625598,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalDiaPigTests.InvalidFutureAndRollbackClocksResetWithoutWallOnlyCatchup",
+      "Status": "Passed",
+      "Duration": 5.6303059,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalDiaPigTests.LockedCounterNeverAccumulatesOrConsumesExistingFunds",
+      "Status": "Passed",
+      "Duration": 5.6496989,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalDiaPigTests.LockedSaveKeepsCountAndTimestampAcrossColdReloadAndCannotClaim",
+      "Status": "Passed",
+      "Duration": 11.1891923,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalDiaPigTests.MinuteTicksKeepRemainderAndUseSlowerClock",
+      "Status": "Passed",
+      "Duration": 5.6178214,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalDiaPigTests.ModeEntryClosesPigAndReturnsToUsableForest",
+      "Status": "Passed",
+      "Duration": 7.1459559,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalDiaPigTests.NativeRemoveAdsFlagsUnlockProductionAndUpgradeRateImmediately",
+      "Status": "Passed",
+      "Duration": 6.4937683,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalDiaPigTests.OriginalAllAdsButtonUnlocksAndClaimButtonPersistsWithoutDuplicateReward",
+      "Status": "Passed",
+      "Duration": 13.62423,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalDiaPigTests.OriginalHudOpensLockedPageAndClosesWithRealInputWithoutGrant",
+      "Status": "Passed",
+      "Duration": 9.7584422,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalDiaPigTests.PartialClaimKeepsRemainderFullClaimResetsClockAndDiamondLedger",
+      "Status": "Passed",
+      "Duration": 8.0308371,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "duration": 64.41,
+  "summary": {
+    "total": 7,
+    "passed": 7,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalBossBalanceTests.BossEntryExcludesForestPowerAndSpeedUpgradesFromActualCatBalance",
+      "Status": "Passed",
+      "Duration": 8.7135805,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalBossBalanceTests.BossReloadIgnoresUpgradeChangesButUsesNewlyEquippedWeapon",
+      "Status": "Passed",
+      "Duration": 5.7681102,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalBossBalanceTests.BossStillAppliesRebirthSkinFishRelicBuffAndStarModifiers",
+      "Status": "Passed",
+      "Duration": 5.862166,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalBossBalanceTests.ColdReloadPreservesUpgradesAndReappliesBossModeBalance",
+      "Status": "Passed",
+      "Duration": 11.3557633,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalBossBalanceTests.CompactedTeammatesRetainTheirSlotStarsInBossMode",
+      "Status": "Passed",
+      "Duration": 5.8139875,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalBossBalanceTests.ExitRestoresForestBalanceWithoutLosingUpgradeLevelsOrLoadout",
+      "Status": "Passed",
+      "Duration": 7.6460656,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalBossBalanceTests.NaturalProjectilesUseBossBalanceAndSettleExactlyOnce",
+      "Status": "Passed",
+      "Duration": 18.6609203,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

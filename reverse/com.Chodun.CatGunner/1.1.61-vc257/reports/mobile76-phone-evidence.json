@@ -1,0 +1,56 @@
+{
+  "installedCode": 76,
+  "signatureMatchesR73": true,
+  "progressRetained": {
+    "Selected_items": true,
+    "Star_Slot_Lv": true,
+    "Owned_Gun_list": true,
+    "FishInventory": true,
+    "Is_Remove_AD_All": true,
+    "Is_Buff_Pack": true,
+    "Is_Mine_Pack": true,
+    "Mission_is_Vip": true,
+    "Mission_is_Luxury": true,
+    "Gun_Collect": true,
+    "Pet_Collect": true,
+    "Recovery_SimulatedPurchases": true,
+    "RaidMission_Ticket": true,
+    "RaidMission_Clear": true,
+    "RaidMission_Reward_Get": true,
+    "RaidMission_Reward_ReGet": true,
+    "Adventure_Currency_Core": true,
+    "Pet_Selected_items": true,
+    "Owned_Pet_list": true,
+    "Raid_Helper_Season_Index": true,
+    "Raid_Best_Level_ByType": true
+  },
+  "upgradeBefore": [
+    172,
+    171,
+    171
+  ],
+  "upgradeAfter": [
+    173,
+    172,
+    172
+  ],
+  "managedErrors": [],
+  "keepScreenOnFlag": true,
+  "systemScreenOffTimeoutMs": "120000",
+  "phone": "Xiaomi23116PN5BC physical85906d12",
+  "topInsetCovered": true,
+  "topInsetPixels": [
+    118,
+    96,
+    46
+  ],
+  "originalSlicedBackground": true,
+  "firstCapture": "visual/mobile76-phone-first.png",
+  "originalGameTouched": false,
+  "offlinePurchaseOnly": true,
+  "fullAcceptance": false,
+  "intermediateDelivery": true,
+  "supersededBy": "r77",
+  "walkingRenderingAccepted": false,
+  "note": "Root-first loading layer was below active Eco panel; final r77 uses original Main_UI sibling4 for forest loading."
+}

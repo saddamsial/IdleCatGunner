@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 34.15,
+      "summary": {
+        "total": 5,
+        "passed": 5,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalCompanionStaticTextTests.FishDeleteCancelAndNewFishKeepOriginalInventoryAndText",
+          "Status": "Passed",
+          "Duration": 7.7726518,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalCompanionStaticTextTests.FishInformationAndDetailReopenKeepProbabilitiesAndInventory",
+          "Status": "Passed",
+          "Duration": 7.1701917,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalCompanionStaticTextTests.LabelsFollowOriginalTermsAtNormalStartup",
+          "Status": "Passed",
+          "Duration": 5.6481782,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalCompanionStaticTextTests.PetInformationDetailAndAcquisitionKeepBalancesAndReopen",
+          "Status": "Passed",
+          "Duration": 7.770298,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalCompanionStaticTextTests.RepeatedLocaleRefreshPreservesDynamicOwnersAndReleasesFontMaterial",
+          "Status": "Passed",
+          "Duration": 5.7485094,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

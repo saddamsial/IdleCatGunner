@@ -1,0 +1,170 @@
+{
+  "Fish_manager": [
+    {
+      "fileID": 137635,
+      "go": 9575,
+      "yaml": "--- !u!114 &137635\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 9575}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 6f10087135bf2691681939bd1db022c6, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  Fish_info_list:\n  - Name:\n    Damage: 4\n    CriPer: 1\n    CriVal: 8\n    is_Unlock: 0\n  - Name:\n    Damage: 12\n    CriPer: 2\n    CriVal: 20\n    is_Unlock: 0\n  - Name:\n    Damage: 36\n    CriPer: 6\n    CriVal: 50\n    is_Unlock: 0\n  - Name:\n    Damage: 110\n    CriPer: 16\n    CriVal: 120\n    is_Unlock: 0\n  - Name:\n    Damage: 320\n    CriPer: 39\n    CriVal: 310\n    is_Unlock: 0\n  - Name:\n    Damage: 970\n    CriPer: 98\n    CriVal: 780\n    is_Unlock: 0\n  - Name:\n    Damage: 2900\n    CriPer: 100\n    CriVal: 2000\n    is_Unlock: 0\n  - Name:\n    Damage: 8700\n    CriPer: 100\n    CriVal: 4900\n    is_Unlock: 0\n  - Name:\n    Damage: 26000\n    CriPer: 100\n    CriVal: 12000\n    is_Unlock: 0\n  - Name:\n    Damage: 79000\n    CriPer: 100\n    CriVal: 31000\n    is_Unlock: 0\n  - Name:\n    Damage: 240000\n    CriPer: 100\n    CriVal: 76000\n    is_Unlock: 0\n  - Name:\n    Damage: 710000\n    CriPer: 100\n    CriVal: 190000\n    is_Unlock: 0\n  - Name:\n    Damage: 2100000\n    CriPer: 100\n    CriVal: 480000\n    is_Unlock: 0\n  Fish_sprites:\n  - {fileID: 21300000, guid: 68e941192867804408e00f2cefb0e19e, type: 2}\n  - {fileID: 21300000, guid: 2a6867904d492644fb191d91d65a66ff, type: 2}\n  - {fileID: 21300000, guid: 524fcbd4db56db348a1152488008b8a6, type: 2}\n  - {fileID: 21300000, guid: 1dd67f7f48d2ee3499c3cddb3e635f22, type: 2}\n  - {fileID: 21300000, guid: 0beef9c23f5a14b409a03c1b5f93e5af, type: 2}\n  - {fileID: 21300000, guid: a65023aef29ff03488487e2d239b7d4b, type: 2}\n  - {fileID: 21300000, guid: 2ca368e659df104418773ee2f3c5b022, type: 2}\n  - {fileID: 21300000, guid: f00549134f0ec0f4797c040aa87ba140, type: 2}\n  - {fileID: 21300000, guid: fffe82acb9b3ba14c88d1dfab25f70bb, type: 2}\n  - {fileID: 21300000, guid: 4bc0dcffaafe5be48b4cb3f33744eb58, type: 2}\n  - {fileID: 21300000, guid: 759f1d36ddf37f148b51f2d0014a916e, type: 2}\n  - {fileID: 21300000, guid: b230c6e94c9ffa04c88e068b14ba0fe0, type: 2}\n  - {fileID: 21300000, guid: f4a352c9faeee354ba0f9c21865c05eb, type: 2}\n  Fish_Real_sprites:\n  - {fileID: 21300000, guid: 84fed1c692961bb49b8f984ef897ad6b, type: 2}\n  - {fileID: 21300000, guid: 06dba95d0631bdd4888978c31e0199a0, type: 2}\n  - {fileID: 21300000, guid: 3e2f04c269c609a4ba2a65708ecda18f, type: 2}\n  - {fileID: 21300000, guid: e36a2050f3a7ea44d95657714eff075e, type: 2}\n  - {fileID: 21300000, guid: ac5673acbadd4f34b81b2035c5f99633, type: 2}\n  - {fileID: 21300000, guid: 5a10d0838e698b243b9c2b71fb758d1d, type: 2}\n  - {fileID: 21300000, guid: 98085906b1d533a4986a945ed18f497f, type: 2}\n  - {fileID: 21300000, guid: f780efe048403e347abb68e28ff7b7f4, type: 2}\n  - {fileID: 21300000, guid: ac94320c2a9822540ac56495e9c465d2, type: 2}\n  - {fileID: 21300000, guid: 4dbf4944fbff2b643aba2cc78163f961, type: 2}\n  - {fileID: 21300000, guid: fb439e6a9b242ea4c88978cecb94591d, type: 2}\n  - {fileID: 21300000, guid: 244a3a1941243004caf9478239f8a436, type: 2}\n  - {fileID: 21300000, guid: e1dc732e865bf314f980012aa94e4365, type: 2}\n  Fish_Outline_sprites:\n  - {fileID: 21300000, guid: 4a68206c1b0d19f44a243d8ed24e2048, type: 2}\n  - {fileID: 21300000, guid: d7f26bfc43ab3f24abfead13e9e6bfb6, type: 2}\n  - {fileID: 21300000, guid: 338fa6320e0750143988bdc06bfc9eaa, type: 2}\n  - {fileID: 21300000, guid: 8e6b21c8dcb1c0f41a495a900f668bd6, type: 2}\n  - {fileID: 21300000, guid: 9e75e8f61a19ac74aa1d4157e5f56d09, type: 2}\n  - {fileID: 21300000, guid: 2642bed05472e0b4d96a8d5a5a0f8875, type: 2}\n  - {fileID: 21300000, guid: 329ec558ce1d1dd46baf047648410444, type: 2}\n  - {fileID: 21300000, guid: 740fb38b9ceb9d947b517264639f17e6, type: 2}\n  - {fileID: 21300000, guid: baa6894e0cf5da4439b9be9d971b0a0c, type: 2}\n  - {fileID: 21300000, guid: 6b76c66862765f54e95127152176d317, type: 2}\n  - {fileID: 21300000, guid: 791003b13bc4be44c89dcf49e61e745d, type: 2}\n  - {fileID: 21300000, guid: a09c6042b89b9c74e92b6e2352be7726, type: 2}\n  - {fileID: 21300000, guid: b28bc7e0a451ed940b6b3058f2bfeba6, type: 2}\n  new_fish_ui: {fileID: 148850}\n  fish_ui_obj: {fileID: 18739}\n  fish_info_ui: {fileID: 146909}\n  All_Damage_txt: {fileID: 117351}\n  All_CriPer_txt: {fileID: 117309}\n  All_CriVal_txt: {fileID: 117200}\n  Free_GachaDate: {}\n  FreeGachaCount: 0\n  Inventory:\n  GachaChances:\n  - 60\n  - 30\n  - 10\n  - 0\n  fishTank: {fileID: 141083}\n  is_AutoMerge: 0\n  OnOff_UI: {fileID: 134600}\n  Auto_Explain_obj: {fileID: 10163}\n  NonAuto_Explain_obj: {fileID: 27982}\n  Auto_Btn_obj: {fileID: 18805}\n  AD_Gacha_Btn_obj: {fileID: 124726}\n  AD_Gacha_Count_txt: {fileID: 118878}\n  Color_Disable_Btn: {r: 0.6431373, g: 0.6431373, b: 0.6431373, a: 1}\n  AD_Draw_Icon_obj: {fileID: 1670}\n"
+    }
+  ],
+  "Fish_Tank": [
+    {
+      "fileID": 141083,
+      "go": 4759,
+      "yaml": "--- !u!114 &141083\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 4759}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: cd74ee87f5e70e7493857ff636c180d4, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  fishPool:\n  - {fileID: 146222}\n  - {fileID: 133220}\n  - {fileID: 141604}\n  - {fileID: 142563}\n  - {fileID: 129891}\n  - {fileID: 137392}\n  - {fileID: 133210}\n  - {fileID: 131917}\n  - {fileID: 137926}\n  - {fileID: 137917}\n  - {fileID: 137915}\n  - {fileID: 137916}\n  - {fileID: 137925}\n  - {fileID: 137924}\n  - {fileID: 137920}\n  - {fileID: 137922}\n  - {fileID: 137921}\n  - {fileID: 137919}\n  - {fileID: 137923}\n  - {fileID: 137918}\n  spawnMinDistance: 100\n  spawnMaxAttempts: 30\n  AutoMerge_MoveDuration: 0.4\n  AutoMerge_MergeDistance: 20\n  AutoMerge_PairDelay: 0.15\n  Count_txt: {fileID: 120320}\n"
+    }
+  ],
+  "Fish_Item": [
+    {
+      "fileID": 129891,
+      "go": 35032,
+      "yaml": "--- !u!114 &129891\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 35032}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: c2e1f5ae69af04ba444db4fcf8e0f714, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  skinImage: {fileID: 146427}\n  FusionAlert_img: {fileID: 128598}\n  FusionAlert_txt_trans: {fileID: 115403}\n  AutoMerge_obj: {fileID: 30834}\n  grade: -1\n  inventoryIndex: -1\n  isActive: 0\n  isPendingDelete: 0\n  ellipseHitScale: 0.85\n  ellipseXScale: 0.9\n  ellipseYScale: 0.95\n  PressScale: 0.9\n  PressAnimDuration: 0.08\n"
+    },
+    {
+      "fileID": 131917,
+      "go": 36337,
+      "yaml": "--- !u!114 &131917\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 36337}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: c2e1f5ae69af04ba444db4fcf8e0f714, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  skinImage: {fileID: 143921}\n  FusionAlert_img: {fileID: 126193}\n  FusionAlert_txt_trans: {fileID: 114896}\n  AutoMerge_obj: {fileID: 34290}\n  grade: -1\n  inventoryIndex: -1\n  isActive: 0\n  isPendingDelete: 0\n  ellipseHitScale: 0.85\n  ellipseXScale: 0.9\n  ellipseYScale: 0.95\n  PressScale: 0.9\n  PressAnimDuration: 0.08\n"
+    },
+    {
+      "fileID": 133210,
+      "go": 22573,
+      "yaml": "--- !u!114 &133210\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 22573}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: c2e1f5ae69af04ba444db4fcf8e0f714, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  skinImage: {fileID: 141201}\n  FusionAlert_img: {fileID: 134523}\n  FusionAlert_txt_trans: {fileID: 112969}\n  AutoMerge_obj: {fileID: 28081}\n  grade: -1\n  inventoryIndex: -1\n  isActive: 0\n  isPendingDelete: 0\n  ellipseHitScale: 0.85\n  ellipseXScale: 0.9\n  ellipseYScale: 0.95\n  PressScale: 0.9\n  PressAnimDuration: 0.08\n"
+    },
+    {
+      "fileID": 133220,
+      "go": 22584,
+      "yaml": "--- !u!114 &133220\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 22584}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: c2e1f5ae69af04ba444db4fcf8e0f714, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  skinImage: {fileID: 141208}\n  FusionAlert_img: {fileID: 134485}\n  FusionAlert_txt_trans: {fileID: 113070}\n  AutoMerge_obj: {fileID: 27997}\n  grade: -1\n  inventoryIndex: -1\n  isActive: 0\n  isPendingDelete: 0\n  ellipseHitScale: 0.85\n  ellipseXScale: 0.9\n  ellipseYScale: 0.95\n  PressScale: 0.9\n  PressAnimDuration: 0.08\n"
+    },
+    {
+      "fileID": 137392,
+      "go": 27996,
+      "yaml": "--- !u!114 &137392\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 27996}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: c2e1f5ae69af04ba444db4fcf8e0f714, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  skinImage: {fileID: 137927}\n  FusionAlert_img: {fileID: 133148}\n  FusionAlert_txt_trans: {fileID: 111728}\n  AutoMerge_obj: {fileID: 22591}\n  grade: -1\n  inventoryIndex: -1\n  isActive: 0\n  isPendingDelete: 0\n  ellipseHitScale: 0.85\n  ellipseXScale: 0.9\n  ellipseYScale: 0.95\n  PressScale: 0.9\n  PressAnimDuration: 0.08\n"
+    },
+    {
+      "fileID": 137915,
+      "go": 12215,
+      "yaml": "--- !u!114 &137915\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 12215}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: c2e1f5ae69af04ba444db4fcf8e0f714, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  skinImage: {fileID: 137380}\n  FusionAlert_img: {fileID: 142475}\n  FusionAlert_txt_trans: {fileID: 110568}\n  AutoMerge_obj: {fileID: 15528}\n  grade: -1\n  inventoryIndex: -1\n  isActive: 0\n  isPendingDelete: 0\n  ellipseHitScale: 0.85\n  ellipseXScale: 0.9\n  ellipseYScale: 0.95\n  PressScale: 0.9\n  PressAnimDuration: 0.08\n"
+    },
+    {
+      "fileID": 137916,
+      "go": 12214,
+      "yaml": "--- !u!114 &137916\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 12214}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: c2e1f5ae69af04ba444db4fcf8e0f714, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  skinImage: {fileID: 137381}\n  FusionAlert_img: {fileID: 142474}\n  FusionAlert_txt_trans: {fileID: 110567}\n  AutoMerge_obj: {fileID: 15527}\n  grade: -1\n  inventoryIndex: -1\n  isActive: 0\n  isPendingDelete: 0\n  ellipseHitScale: 0.85\n  ellipseXScale: 0.9\n  ellipseYScale: 0.95\n  PressScale: 0.9\n  PressAnimDuration: 0.08\n"
+    },
+    {
+      "fileID": 137917,
+      "go": 12216,
+      "yaml": "--- !u!114 &137917\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 12216}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: c2e1f5ae69af04ba444db4fcf8e0f714, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  skinImage: {fileID: 137382}\n  FusionAlert_img: {fileID: 142476}\n  FusionAlert_txt_trans: {fileID: 110566}\n  AutoMerge_obj: {fileID: 15525}\n  grade: -1\n  inventoryIndex: -1\n  isActive: 0\n  isPendingDelete: 0\n  ellipseHitScale: 0.85\n  ellipseXScale: 0.9\n  ellipseYScale: 0.95\n  PressScale: 0.9\n  PressAnimDuration: 0.08\n"
+    },
+    {
+      "fileID": 137918,
+      "go": 12217,
+      "yaml": "--- !u!114 &137918\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 12217}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: c2e1f5ae69af04ba444db4fcf8e0f714, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  skinImage: {fileID: 137383}\n  FusionAlert_img: {fileID: 142477}\n  FusionAlert_txt_trans: {fileID: 110565}\n  AutoMerge_obj: {fileID: 15526}\n  grade: -1\n  inventoryIndex: -1\n  isActive: 0\n  isPendingDelete: 0\n  ellipseHitScale: 0.85\n  ellipseXScale: 0.9\n  ellipseYScale: 0.95\n  PressScale: 0.9\n  PressAnimDuration: 0.08\n"
+    },
+    {
+      "fileID": 137919,
+      "go": 12218,
+      "yaml": "--- !u!114 &137919\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 12218}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: c2e1f5ae69af04ba444db4fcf8e0f714, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  skinImage: {fileID: 137387}\n  FusionAlert_img: {fileID: 142478}\n  FusionAlert_txt_trans: {fileID: 110573}\n  AutoMerge_obj: {fileID: 15523}\n  grade: -1\n  inventoryIndex: -1\n  isActive: 0\n  isPendingDelete: 0\n  ellipseHitScale: 0.85\n  ellipseXScale: 0.9\n  ellipseYScale: 0.95\n  PressScale: 0.9\n  PressAnimDuration: 0.08\n"
+    },
+    {
+      "fileID": 137920,
+      "go": 12219,
+      "yaml": "--- !u!114 &137920\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 12219}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: c2e1f5ae69af04ba444db4fcf8e0f714, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  skinImage: {fileID: 137388}\n  FusionAlert_img: {fileID: 142479}\n  FusionAlert_txt_trans: {fileID: 110572}\n  AutoMerge_obj: {fileID: 15524}\n  grade: -1\n  inventoryIndex: -1\n  isActive: 0\n  isPendingDelete: 0\n  ellipseHitScale: 0.85\n  ellipseXScale: 0.9\n  ellipseYScale: 0.95\n  PressScale: 0.9\n  PressAnimDuration: 0.08\n"
+    },
+    {
+      "fileID": 137921,
+      "go": 12220,
+      "yaml": "--- !u!114 &137921\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 12220}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: c2e1f5ae69af04ba444db4fcf8e0f714, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  skinImage: {fileID: 137384}\n  FusionAlert_img: {fileID: 142480}\n  FusionAlert_txt_trans: {fileID: 110576}\n  AutoMerge_obj: {fileID: 15520}\n  grade: -1\n  inventoryIndex: -1\n  isActive: 0\n  isPendingDelete: 0\n  ellipseHitScale: 0.85\n  ellipseXScale: 0.9\n  ellipseYScale: 0.95\n  PressScale: 0.9\n  PressAnimDuration: 0.08\n"
+    },
+    {
+      "fileID": 137922,
+      "go": 12222,
+      "yaml": "--- !u!114 &137922\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 12222}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: c2e1f5ae69af04ba444db4fcf8e0f714, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  skinImage: {fileID: 137385}\n  FusionAlert_img: {fileID: 142482}\n  FusionAlert_txt_trans: {fileID: 110575}\n  AutoMerge_obj: {fileID: 15522}\n  grade: -1\n  inventoryIndex: -1\n  isActive: 0\n  isPendingDelete: 0\n  ellipseHitScale: 0.85\n  ellipseXScale: 0.9\n  ellipseYScale: 0.95\n  PressScale: 0.9\n  PressAnimDuration: 0.08\n"
+    },
+    {
+      "fileID": 137923,
+      "go": 12221,
+      "yaml": "--- !u!114 &137923\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 12221}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: c2e1f5ae69af04ba444db4fcf8e0f714, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  skinImage: {fileID: 137386}\n  FusionAlert_img: {fileID: 142481}\n  FusionAlert_txt_trans: {fileID: 110574}\n  AutoMerge_obj: {fileID: 15521}\n  grade: -1\n  inventoryIndex: -1\n  isActive: 0\n  isPendingDelete: 0\n  ellipseHitScale: 0.85\n  ellipseXScale: 0.9\n  ellipseYScale: 0.95\n  PressScale: 0.9\n  PressAnimDuration: 0.08\n"
+    },
+    {
+      "fileID": 137924,
+      "go": 12223,
+      "yaml": "--- !u!114 &137924\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 12223}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: c2e1f5ae69af04ba444db4fcf8e0f714, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  skinImage: {fileID: 137391}\n  FusionAlert_img: {fileID: 142483}\n  FusionAlert_txt_trans: {fileID: 110569}\n  AutoMerge_obj: {fileID: 15519}\n  grade: -1\n  inventoryIndex: -1\n  isActive: 0\n  isPendingDelete: 0\n  ellipseHitScale: 0.85\n  ellipseXScale: 0.9\n  ellipseYScale: 0.95\n  PressScale: 0.9\n  PressAnimDuration: 0.08\n"
+    },
+    {
+      "fileID": 137925,
+      "go": 12224,
+      "yaml": "--- !u!114 &137925\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 12224}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: c2e1f5ae69af04ba444db4fcf8e0f714, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  skinImage: {fileID: 137389}\n  FusionAlert_img: {fileID: 142484}\n  FusionAlert_txt_trans: {fileID: 110571}\n  AutoMerge_obj: {fileID: 15517}\n  grade: -1\n  inventoryIndex: -1\n  isActive: 0\n  isPendingDelete: 0\n  ellipseHitScale: 0.85\n  ellipseXScale: 0.9\n  ellipseYScale: 0.95\n  PressScale: 0.9\n  PressAnimDuration: 0.08\n"
+    },
+    {
+      "fileID": 137926,
+      "go": 12225,
+      "yaml": "--- !u!114 &137926\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 12225}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: c2e1f5ae69af04ba444db4fcf8e0f714, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  skinImage: {fileID: 137390}\n  FusionAlert_img: {fileID: 142485}\n  FusionAlert_txt_trans: {fileID: 110570}\n  AutoMerge_obj: {fileID: 15518}\n  grade: -1\n  inventoryIndex: -1\n  isActive: 0\n  isPendingDelete: 0\n  ellipseHitScale: 0.85\n  ellipseXScale: 0.9\n  ellipseYScale: 0.95\n  PressScale: 0.9\n  PressAnimDuration: 0.08\n"
+    },
+    {
+      "fileID": 141604,
+      "go": 15958,
+      "yaml": "--- !u!114 &141604\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 15958}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: c2e1f5ae69af04ba444db4fcf8e0f714, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  skinImage: {fileID: 133809}\n  FusionAlert_img: {fileID: 140876}\n  FusionAlert_txt_trans: {fileID: 109357}\n  AutoMerge_obj: {fileID: 11836}\n  grade: -1\n  inventoryIndex: -1\n  isActive: 0\n  isPendingDelete: 0\n  ellipseHitScale: 0.85\n  ellipseXScale: 0.9\n  ellipseYScale: 0.95\n  PressScale: 0.9\n  PressAnimDuration: 0.08\n"
+    },
+    {
+      "fileID": 142563,
+      "go": 17382,
+      "yaml": "--- !u!114 &142563\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 17382}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: c2e1f5ae69af04ba444db4fcf8e0f714, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  skinImage: {fileID: 132301}\n  FusionAlert_img: {fileID: 139407}\n  FusionAlert_txt_trans: {fileID: 108873}\n  AutoMerge_obj: {fileID: 15137}\n  grade: -1\n  inventoryIndex: -1\n  isActive: 0\n  isPendingDelete: 0\n  ellipseHitScale: 0.85\n  ellipseXScale: 0.9\n  ellipseYScale: 0.95\n  PressScale: 0.9\n  PressAnimDuration: 0.08\n"
+    },
+    {
+      "fileID": 146222,
+      "go": 5294,
+      "yaml": "--- !u!114 &146222\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 5294}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: c2e1f5ae69af04ba444db4fcf8e0f714, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  skinImage: {fileID: 129669}\n  FusionAlert_img: {fileID: 147123}\n  FusionAlert_txt_trans: {fileID: 107145}\n  AutoMerge_obj: {fileID: 9411}\n  grade: -1\n  inventoryIndex: -1\n  isActive: 0\n  isPendingDelete: 0\n  ellipseHitScale: 0.85\n  ellipseXScale: 0.9\n  ellipseYScale: 0.95\n  PressScale: 0.9\n  PressAnimDuration: 0.08\n"
+    }
+  ],
+  "Fish_DeleteZone": [
+    {
+      "fileID": 124248,
+      "go": 1060,
+      "yaml": "--- !u!114 &124248\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 1060}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 373a8e2d05e066283a677022ec3da27c, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  deletePopup: {fileID: 124666}\n  zoneImage: {fileID: 124092}\n  normalColor: {r: 1, g: 1, b: 1, a: 1}\n  highlightColor: {r: 1, g: 0.25, b: 0.25, a: 1}\n"
+    }
+  ],
+  "Fish_DeletePopup": [
+    {
+      "fileID": 124666,
+      "go": 1420,
+      "yaml": "--- !u!114 &124666\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 1420}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 75d39808bbc2b098adc57680d6802600, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  Fish_img: {fileID: 123366}\n  Panel_img: {fileID: 124382}\n  Degree_objs:\n  - {fileID: 22321}\n  - {fileID: 9996}\n  - {fileID: 35442}\n  - {fileID: 12096}\n  - {fileID: 24918}\n  - {fileID: 11154}\n  - {fileID: 34806}\n  - {fileID: 33934}\n  - {fileID: 34911}\n  - {fileID: 16365}\n  Degree_Colors:\n  - {r: 0.8113208, g: 0.6363759, b: 0.44010326, a: 1}\n  - {r: 1, g: 0.78377336, b: 0.39999998, a: 1}\n  - {r: 0.57254905, g: 0.93725497, b: 1, a: 1}\n  - {r: 0.57254905, g: 1, b: 0.6039216, a: 1}\n  - {r: 0.9764706, g: 1, b: 0.627451, a: 1}\n  - {r: 1, g: 0.57254905, b: 0.5882353, a: 1}\n  - {r: 0.882353, g: 0.57254905, b: 1, a: 1}\n  - {r: 0.57254905, g: 1, b: 0.8870404, a: 1}\n  - {r: 1, g: 0.57254905, b: 0.9073157, a: 1}\n  - {r: 1, g: 0.84313726, b: 0, a: 1}\n"
+    }
+  ],
+  "Fish_Info_UI": [
+    {
+      "fileID": 146909,
+      "go": 34095,
+      "yaml": "--- !u!114 &146909\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 34095}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 77b42e88c3cc6ef84a2de03523776932, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  Fish_img: {fileID: 127946}\n  Panel_img: {fileID: 147308}\n  Name_txt: {fileID: 119931}\n  Damage_txt: {fileID: 117334}\n  CriPer_txt: {fileID: 117336}\n  CriVal_txt: {fileID: 117371}\n  Degree_objs:\n  - {fileID: 22322}\n  - {fileID: 9997}\n  - {fileID: 35444}\n  - {fileID: 12095}\n  - {fileID: 24917}\n  - {fileID: 11155}\n  - {fileID: 34807}\n  - {fileID: 33933}\n  - {fileID: 34912}\n  - {fileID: 16363}\n  - {fileID: 14854}\n  - {fileID: 13843}\n  - {fileID: 10540}\n  Degree_Colors:\n  - {r: 0.5849056, g: 0.44506845, b: 0.2896938, a: 1}\n  - {r: 0.8396226, g: 0.703999, b: 0.34456214, a: 1}\n  - {r: 0.96470594, g: 0.80392164, b: 0.3647059, a: 1}\n  - {r: 0.2799039, g: 0.453162, b: 0.6981132, a: 1}\n  - {r: 0.8352942, g: 0.854902, b: 0.86666673, a: 1}\n  - {r: 0.38074043, g: 0.65843546, b: 0.8679245, a: 1}\n  - {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 1}\n  - {r: 0.28025985, g: 0.66844064, b: 0.8867924, a: 1}\n  - {r: 0.9686275, g: 0.74509805, b: 0.6784314, a: 1}\n  - {r: 0.8705883, g: 0.87843144, b: 0.882353, a: 1}\n  - {r: 1, g: 0.8347826, b: 0, a: 1}\n  - {r: 0.3254717, g: 0.82959276, b: 1, a: 1}\n  - {r: 1, g: 0.2688679, b: 0.34198105, a: 1}\n  LeftBtn_obj: {fileID: 1563}\n  RightBtn_obj: {fileID: 216}\n"
+    }
+  ],
+  "Fish_Draw_Btn": [
+    {
+      "fileID": 133022,
+      "go": 5940,
+      "yaml": "--- !u!114 &133022\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 5940}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: bc3cab4f198c67e1978ca3fbe77f9f8a, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  Price: 200\n  Fill: {fileID: 149009}\n  Price_txt: {fileID: 118019}\n  Disable_Color: {r: 1, g: 0.4, b: 0.4, a: 1}\n"
+    }
+  ],
+  "New_Fish_UI": [
+    {
+      "fileID": 148850,
+      "go": 26118,
+      "yaml": "--- !u!114 &148850\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 26118}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: a8939cd6c0adfce0f693b70f4e1a6a49, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  Fish_img: {fileID: 146756}\n  Degree_objs:\n  - {fileID: 23708}\n  - {fileID: 4150}\n  - {fileID: 33914}\n  - {fileID: 19089}\n  - {fileID: 21232}\n  - {fileID: 18323}\n  - {fileID: 32643}\n"
+    }
+  ],
+  "OnOff": [
+    {
+      "fileID": 134599,
+      "go": 18806,
+      "yaml": "--- !u!114 &134599\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 18806}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 4604b378fb16281b8a4e7a76bc9b85cf, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  On_obj: {fileID: 11041}\n  Off_obj: {fileID: 30494}\n"
+    },
+    {
+      "fileID": 134600,
+      "go": 18805,
+      "yaml": "--- !u!114 &134600\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 18805}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 4604b378fb16281b8a4e7a76bc9b85cf, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  On_obj: {fileID: 11042}\n  Off_obj: {fileID: 30493}\n"
+    },
+    {
+      "fileID": 135298,
+      "go": 17341,
+      "yaml": "--- !u!114 &135298\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 17341}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 4604b378fb16281b8a4e7a76bc9b85cf, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  On_obj: {fileID: 11925}\n  Off_obj: {fileID: 30327}\n"
+    }
+  ]
+}

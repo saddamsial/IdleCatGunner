@@ -1,0 +1,5 @@
+var c=UnityEngine.Object.FindAnyObjectByType<CatGunner.Recovery.RecoveryForestClient>(FindObjectsInactive.Include);
+Func<Transform,string> path=t=> {var s=t.name;while(t.parent!=null){t=t.parent;s=t.name+"/"+s;}return s;};
+Func<Transform,object> tr=t=>new {path=path(t),pos=t.localPosition.ToString(),world=t.position.ToString(),scale=t.localScale.ToString(),active=t.gameObject.activeSelf};
+var all=UnityEngine.SceneManagement.SceneManager.GetActiveScene().GetRootGameObjects().SelectMany(x=>x.GetComponentsInChildren<Transform>(true)).ToArray();
+var skin=c.Hero.skin_spriteRenderer.GetComponents<Component>().Single(b=>b.GetType().Name=="SpriteSkin");var output=new{path=skin.GetType().Assembly.Location,slicedFill=new[]{c.Slider.Stage_Fill,c.Slider.Value_Fill,c.Slider.Time_Fill}.Select(f=>new{sprite=f.sprite.name,border=f.sprite.border.ToString(),padding=UnityEngine.Sprites.DataUtility.GetPadding(f.sprite).ToString(),rect=f.sprite.rect.ToString(),f.sprite.pixelsPerUnit,meshRect=f.rectTransform.rect.ToString(),parentRect=((RectTransform)f.transform.parent).rect.ToString()})};return output;

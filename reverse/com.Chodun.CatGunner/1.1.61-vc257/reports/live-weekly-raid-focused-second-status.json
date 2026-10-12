@@ -1,0 +1,70 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 99.7,
+      "summary": {
+        "total": 6,
+        "passed": 5,
+        "failed": 1,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalWeeklyRaidTests.MissionLegacyPrefixSeasonResetPaidFlagsAndBatchClaimAreIndependent",
+          "Status": "Passed",
+          "Duration": 6.0577921,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalWeeklyRaidTests.NaturalRaidFeedsBothTaskTypesRealClaimAndColdReloadCannotDuplicate",
+          "Status": "Passed",
+          "Duration": 76.0523812,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalWeeklyRaidTests.OversizedWeeklyArraysRejectedBeforeAnySaveAndSortUsesOriginalStatePriority",
+          "Status": "Passed",
+          "Duration": 0.2377367,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalWeeklyRaidTests.SourceLoopsAnimateAndResetWithoutTouchingCurrencyOrInterceptingButtons",
+          "Status": "Passed",
+          "Duration": 6.4519949,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalWeeklyRaidTests.WeeklyRotationPrefixLimitsAndUnavailableStoreNeverGrant",
+          "Status": "Passed",
+          "Duration": 5.4419888,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalWeeklyRaidTests.WeeklySourceEntryGateVipNavigationPreviewAndIsolatedFirstVisitReload",
+          "Status": "Failed",
+          "Duration": 5.4298069,
+          "Message": "  Expected: 5\n  But was:  4\n",
+          "StackTrace": "at OriginalWeeklyRaidTests+<WeeklySourceEntryGateVipNavigationPreviewAndIsolatedFirstVisitReload>d__8.MoveNext () [0x00082] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalWeeklyRaidTests.cs:25\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,70 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 8.33,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalInventoryTests.DrawChargesDiamondsOnceAndFullInventoryDoesNotConsumeCurrencyOrRandomness",
+          "Status": "Passed",
+          "Duration": 0.0060558,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalInventoryTests.EquipSwapsOwnershipAndPauseWhileLastEquippedWeaponCannotBeRemoved",
+          "Status": "Passed",
+          "Duration": 0.0009568,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalInventoryTests.LegacyArrayExpansionAndSaveRoundTripPreserveSparseInventoryAndDuplicates",
+          "Status": "Passed",
+          "Duration": 0.0021408,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalInventoryTests.OriginalOpenButtonAndDragMergeEquipActivateCorrectCompanion",
+          "Status": "Passed",
+          "Duration": 8.2858608,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalInventoryTests.PausedAdMaximumGradeAndStaleMergeDoNotMutateOrDrawRandomness",
+          "Status": "Passed",
+          "Duration": 0.0005144,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalInventoryTests.SameGradeDifferentTypesMergeIntoTargetWithCorrectNextGradeRange",
+          "Status": "Passed",
+          "Duration": 0.0006519,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,699 @@
+{
+  "rule": 59,
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "nativeSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "allCompleted": true,
+  "businessMethods": 20,
+  "exceptionHelpers": 6,
+  "methods": [
+    {
+      "preferredVa": "0x2b5c164",
+      "name": "Gun_manager_Gun_Type_str_return_0x6000a7c",
+      "end": "0x2b5c25c",
+      "first16": "fe0f1ef8f44f01a914b00190f303002a",
+      "sha256": "bfe9d4f55b7cb3bb8fd634bb720bd26d2f11e9e02a2c316f114159d55c11b89f",
+      "outputs": {
+        "native-weapon-detail-client-reviewed/Gun_manager_Gun_Type_str_return_0x6000a7c.c": "7f99209d8fd3d0ec423770ed4a2ddeebf7cca0d0cb6d35203a1708b9d82e9464",
+        "native-weapon-detail-client-reviewed/Gun_manager_Gun_Type_str_return_0x6000a7c.asm": "f4b54e4184a65a3463ac268338d36997141687b9dc48a447ca2dd7cf77b29d2b"
+      }
+    },
+    {
+      "preferredVa": "0x2b5b2ac",
+      "name": "Gun_manager_Gun_Type_str_return_0x6000a7d",
+      "end": "0x2b5b328",
+      "first16": "fe57bea9f44f01a914b001b0159001d0",
+      "sha256": "b1c3e6ada51111aca031bca38ce329822949aa8eeb2312a6bf21e964a1ae9d5d",
+      "outputs": {
+        "native-weapon-detail-client-reviewed/Gun_manager_Gun_Type_str_return_0x6000a7d.c": "de87847b4e4d32075199fb2cddc80893239dcf79381ebe7ad1b976bac54544d9",
+        "native-weapon-detail-client-reviewed/Gun_manager_Gun_Type_str_return_0x6000a7d.asm": "73114cf84c98967e0becbdb2e2264f0faea6db082a2f1e4ca046467da42a5d3e"
+      }
+    },
+    {
+      "preferredVa": "0x2b6f9a0",
+      "name": "Gun_Info_UI_Reload_Internal",
+      "end": "0x2b6fbf4",
+      "first16": "fe0f1cf8f85f01a9f65702a9f44f03a9",
+      "sha256": "21c161f2b60d57fefddddacd76ffc44dbc1ad70b03f8b8f3fd3b3029717c9281",
+      "outputs": {
+        "native-weapon-detail-client-reviewed/Gun_Info_UI_Reload_Internal.c": "0e1399633f5def86ef1b58a6fb12b42162447581a1169e44590541427f96649d",
+        "native-weapon-detail-client-reviewed/Gun_Info_UI_Reload_Internal.asm": "074d79c8eff424da961a033f3979387f0282c60039c3f444cc0f5a0cf41949b8"
+      }
+    },
+    {
+      "preferredVa": "0x2b6fc18",
+      "name": "Gun_Info_UI_Explain_Return",
+      "end": "0x2b6fc9c",
+      "first16": "3f0800712d0100543f100071cc010054",
+      "sha256": "f85a5301e8892c1eea18b33fb280a9706173bbf451b309f2d115f2a8c698e6e5",
+      "outputs": {
+        "native-weapon-detail-client-reviewed/Gun_Info_UI_Explain_Return.c": "3db5b972bfb7d7fb4e0ffc332884e513dbf0e50a557463ab32105b3dea32077f",
+        "native-weapon-detail-client-reviewed/Gun_Info_UI_Explain_Return.asm": "777ba9748c6441fb72bac6719e724c8ec42d6c63841e898ca46c17a718c86ece"
+      }
+    },
+    {
+      "preferredVa": "0x2b71778",
+      "name": "Gun_Item_OnPointerUp",
+      "end": "0x2b71894",
+      "first16": "fe0f1ef8f44f01a954af01f0f30300aa",
+      "sha256": "2733e3911a4fe2937d3ec6602790f9343299c325bcea77561d359ed2d25b9054",
+      "outputs": {
+        "native-weapon-detail-client-reviewed/Gun_Item_OnPointerUp.c": "a398a9f451ac5261bb363af25391c441b80aab44e9a6d2d3a84a374e1461af5c",
+        "native-weapon-detail-client-reviewed/Gun_Item_OnPointerUp.asm": "9831775312d75cc8cc3d1a14e5f10dfcd635a234c16988be21c0298d96714594"
+      }
+    },
+    {
+      "preferredVa": "0x2b7a184",
+      "name": "NewGun_UI_Reload",
+      "end": "0x2b7a330",
+      "first16": "fe5fbda9f65701a9f44f02a915af01d0",
+      "sha256": "f114148c6a25871ecfaba82295d618bc41fad88e29265957badf665eb9d8803d",
+      "outputs": {
+        "native-weapon-detail-client-reviewed/NewGun_UI_Reload.c": "e190461d0547fe206f11084840e05a185a326977ffe9621297e59e3bac4912eb",
+        "native-weapon-detail-client-reviewed/NewGun_UI_Reload.asm": "05e2aa20557924720cebb1dc11b41bbf11b308fd1403513076b6300521eaca80"
+      }
+    },
+    {
+      "preferredVa": "0x2ae0358",
+      "name": "Gun_get_BLAST_SNIPER",
+      "end": "0x2ae03e8",
+      "first16": "ffc300d1fe0b00f9f44f02a9d4b301f0",
+      "sha256": "6ae9e1a9328ca33e77ee845a7fce6b0fbde3348f0addb539af9eb5d2bf9e8834",
+      "outputs": {
+        "native-weapon-detail-client-reviewed/Gun_get_BLAST_SNIPER.c": "04992b96e2c8e1387fb51c59a81a15ff6dbcaa4e35dea5c30a66e9389c22741b",
+        "native-weapon-detail-client-reviewed/Gun_get_BLAST_SNIPER.asm": "dd63c9c9f410d0ec2a38000eaffdbbf8b476647939809960ac9546d834023039"
+      }
+    },
+    {
+      "preferredVa": "0x2ae03e8",
+      "name": "Gun_get_BLAST_SNIPER_ex",
+      "end": "0x2ae0478",
+      "first16": "ffc300d1fe0b00f9f44f02a9d4b301f0",
+      "sha256": "8cf403744fc75f64868d52d26df5774874e9a6ffc7b474cd05121ae883423794",
+      "outputs": {
+        "native-weapon-detail-client-reviewed/Gun_get_BLAST_SNIPER_ex.c": "d9eb2cd4b6eb7b371e30aa27f0cf66d400fa8d9704f841f2cc14d09d06cf3c1d",
+        "native-weapon-detail-client-reviewed/Gun_get_BLAST_SNIPER_ex.asm": "e27e58c091867fdb170832a4c9c1e2faabb046be0758f8b26668a7ddf3077c4a"
+      }
+    },
+    {
+      "preferredVa": "0x2ae0478",
+      "name": "Gun_get_EXPLOSIVE",
+      "end": "0x2ae0508",
+      "first16": "ffc300d1fe0b00f9f44f02a9d4b301f0",
+      "sha256": "61b4934e505a90981e03d5ced3d20624290719604035d27c502ee8f19d9cfd29",
+      "outputs": {
+        "native-weapon-detail-client-reviewed/Gun_get_EXPLOSIVE.c": "b8d0307fa244cf330d206d57d8dec97959623d0f146310c0e99ff98d969965f2",
+        "native-weapon-detail-client-reviewed/Gun_get_EXPLOSIVE.asm": "3bc193dd4134d45d9b1b69e42896694becffb66262e1904f907cf959d69bfe6b"
+      }
+    },
+    {
+      "preferredVa": "0x2ae0508",
+      "name": "Gun_get_EXPLOSIVE_ex",
+      "end": "0x2ae0598",
+      "first16": "ffc300d1fe0b00f9f44f02a9d4b301f0",
+      "sha256": "be98082c4cdaec16e5e611632b91c32477762cc936169486e7ea8b2c242cfdb8",
+      "outputs": {
+        "native-weapon-detail-client-reviewed/Gun_get_EXPLOSIVE_ex.c": "bca9dcb016504599a44ea8c955762e48e885ec4e9be81917bb6a4bb2a8c3b90b",
+        "native-weapon-detail-client-reviewed/Gun_get_EXPLOSIVE_ex.asm": "897474109bb92b1df94c04c31ff21512da082d5ad550ac9f5d99b07164124615"
+      }
+    },
+    {
+      "preferredVa": "0x2ae0598",
+      "name": "Gun_get_LASER",
+      "end": "0x2ae0628",
+      "first16": "ffc300d1fe0b00f9f44f02a9d4b301f0",
+      "sha256": "fe8416949b7fe6655966855eca61a8e652f4073b70dd3cefe727b2633e92ebed",
+      "outputs": {
+        "native-weapon-detail-client-reviewed/Gun_get_LASER.c": "129690781601d47dc9c95f370362ac6b26f9467bd994102c6d202f77ec3aad7c",
+        "native-weapon-detail-client-reviewed/Gun_get_LASER.asm": "acc7348a23a6709d146255e50f91cd0609dc31bb63c7c40ed1f7b436a1221209"
+      }
+    },
+    {
+      "preferredVa": "0x2ae0628",
+      "name": "Gun_get_LASER_ex",
+      "end": "0x2ae06b8",
+      "first16": "ffc300d1fe0b00f9f44f02a9d4b301f0",
+      "sha256": "bbc917f512cc3548c83bfefd2dda489935d90d13d791aef4dd2efa3ef45b9ada",
+      "outputs": {
+        "native-weapon-detail-client-reviewed/Gun_get_LASER_ex.c": "0da9459f94c9aa9a57016e6be5e64d08a7fe2552918a2ec10d35bf8014be8414",
+        "native-weapon-detail-client-reviewed/Gun_get_LASER_ex.asm": "dec1368b031e27d927608b2252f545e77277b23ebe1bd54e17f2b367795a3f04"
+      }
+    },
+    {
+      "preferredVa": "0x2ae06b8",
+      "name": "Gun_get_MISSILE",
+      "end": "0x2ae0748",
+      "first16": "ffc300d1fe0b00f9f44f02a9d4b301f0",
+      "sha256": "67b9f1cf2aa22191c7948af81fcb2c9549fc9c749cd24f0ecae923b9aed25341",
+      "outputs": {
+        "native-weapon-detail-client-reviewed/Gun_get_MISSILE.c": "5ea66ced4454074f45c4545be85b917228cf5fe19fda9961642fc6fad8783fb5",
+        "native-weapon-detail-client-reviewed/Gun_get_MISSILE.asm": "d6befb8e300dd7a042d16c615ec412a1f52f90288adca5978128de6b2c1b5ec2"
+      }
+    },
+    {
+      "preferredVa": "0x2ae0748",
+      "name": "Gun_get_MISSILE_ex",
+      "end": "0x2ae07d8",
+      "first16": "ffc300d1fe0b00f9f44f02a9d4b301f0",
+      "sha256": "762b9e47385fade00ed4f59464a1a0a99bcc9b101004c24d14e5ee13ede1d10c",
+      "outputs": {
+        "native-weapon-detail-client-reviewed/Gun_get_MISSILE_ex.c": "5b922e61c4c29c547ce22776369b1aee09b577088a2eb49a7c4a2a31837207f1",
+        "native-weapon-detail-client-reviewed/Gun_get_MISSILE_ex.asm": "6a2adecceef771d407cba021c5c9367810f9cfb1922e0ee0c47188916e9d97e3"
+      }
+    },
+    {
+      "preferredVa": "0x2ae07d8",
+      "name": "Gun_get_PIERCE",
+      "end": "0x2ae0868",
+      "first16": "ffc300d1fe0b00f9f44f02a9d4b301f0",
+      "sha256": "25b8772d83eec7ec0c563a7f855da10572b3c1f4a357e48ce173556e34e273e4",
+      "outputs": {
+        "native-weapon-detail-client-reviewed/Gun_get_PIERCE.c": "bd560d0bc764f5f8f65e126b5f823d36d91ae3904d38dbe15d125915f7d82f08",
+        "native-weapon-detail-client-reviewed/Gun_get_PIERCE.asm": "65404914b81a61b2c3676878f4554fed7c5eea25401c72a2156bae153e5f14e9"
+      }
+    },
+    {
+      "preferredVa": "0x2ae0868",
+      "name": "Gun_get_PIERCE_ex",
+      "end": "0x2ae08f8",
+      "first16": "ffc300d1fe0b00f9f44f02a9d4b301f0",
+      "sha256": "d519889d9b6c6ab966fb4167e33b3997ea0ea42f828e1788c23c0b4cef67f111",
+      "outputs": {
+        "native-weapon-detail-client-reviewed/Gun_get_PIERCE_ex.c": "7c77270d0a614d63f106e3d17d836e26df1728b4893637b87c11907e486c17e4",
+        "native-weapon-detail-client-reviewed/Gun_get_PIERCE_ex.asm": "f2637bbcbbd1c156946032c3436050d36c40e1944d13b8363aca79f54e62601c"
+      }
+    },
+    {
+      "preferredVa": "0x2ae08f8",
+      "name": "Gun_get_SHOTGUN",
+      "end": "0x2ae0988",
+      "first16": "ffc300d1fe0b00f9f44f02a9d4b301f0",
+      "sha256": "17d579da0eea3db1e166eab136c11d7c191ea7928f27b6a1daf28dadc05f8b45",
+      "outputs": {
+        "native-weapon-detail-client-reviewed/Gun_get_SHOTGUN.c": "f5d16ff8361eebe25651de64de0f5e9e02880e9b282a63a3db179ae3a56e7492",
+        "native-weapon-detail-client-reviewed/Gun_get_SHOTGUN.asm": "ae680d689f7d06255159445312d119e2c08bd61c741291be6c818c9d581fb33c"
+      }
+    },
+    {
+      "preferredVa": "0x2ae0988",
+      "name": "Gun_get_SHOTGUN_ex",
+      "end": "0x2ae0a18",
+      "first16": "ffc300d1fe0b00f9f44f02a9d4b301f0",
+      "sha256": "0778deefb0136a58f06699240aa709faf969c190913fade727a9f4cb7b6624c5",
+      "outputs": {
+        "native-weapon-detail-client-reviewed/Gun_get_SHOTGUN_ex.c": "abb5608e1a89dddec02f0c16132c426688c4e1928cad6f09f2095771adde4b54",
+        "native-weapon-detail-client-reviewed/Gun_get_SHOTGUN_ex.asm": "59fdcdd4020764ec0dab197cf0dd72821d07e9523d2958fce69847c6d5e68ea3"
+      }
+    },
+    {
+      "preferredVa": "0x2ae0a18",
+      "name": "Gun_get_SINGLE",
+      "end": "0x2ae0aa8",
+      "first16": "ffc300d1fe0b00f9f44f02a9d4b301f0",
+      "sha256": "9a5e2887df497c803aa8b42af48e2aa6c47fe2298c0caa7c5d6a6a85efdfee28",
+      "outputs": {
+        "native-weapon-detail-client-reviewed/Gun_get_SINGLE.c": "37604a57629b85bc02d5aa34ada3aa129c2f5ab78803c20b35dec7cb84cc1f8a",
+        "native-weapon-detail-client-reviewed/Gun_get_SINGLE.asm": "9ed2837ea9d6b9b5d64ca60c68feaa386b1d74f2188d307729d000443b6a21f5"
+      }
+    },
+    {
+      "preferredVa": "0x2ae0aa8",
+      "name": "Gun_get_SINGLE_ex",
+      "end": "0x2ae0b38",
+      "first16": "ffc300d1fe0b00f9f44f02a9d4b301f0",
+      "sha256": "a0f89ce36f37afb8d0b14bd21d30f258fb4585d8780567e9b0202d92529f60a4",
+      "outputs": {
+        "native-weapon-detail-client-reviewed/Gun_get_SINGLE_ex.c": "4a46fc2a06f82ae745bf6467ccf85fb1fc7037b95e522b7d69de7ceb30da603b",
+        "native-weapon-detail-client-reviewed/Gun_get_SINGLE_ex.asm": "7bf61d4f72bdec958632a59e1c535b389f8ac4528d7b1834be77b2a51f92a3f1"
+      }
+    },
+    {
+      "preferredVa": "0x28f5cfc",
+      "name": "Throw_NullReference_Wrapper",
+      "end": "0x28f5d04",
+      "first16": "fe0f1ff86a220194fe0f1ff87b220194",
+      "sha256": "fd826c34b9ef2518b1f3f6d39e7562b9946c1a4ca9651bc3c25e81558d412348",
+      "outputs": {
+        "native-weapon-detail-client-reviewed/Throw_NullReference_Wrapper.c": "4dbe5415e169f90b0ce5055036cca1b94bf1565f8d9d2308c08bf4bd707fcb91",
+        "native-weapon-detail-client-reviewed/Throw_NullReference_Wrapper.asm": "eec6b09062497629de85a27e3a8cad918b42764b2a1c0f544152a636461e5fdd"
+      }
+    },
+    {
+      "preferredVa": "0x28f5d04",
+      "name": "Throw_Index_Wrapper",
+      "end": "0x28f5d0c",
+      "first16": "fe0f1ff87b220194c03cff90006c0191",
+      "sha256": "4443063a785929eff8fbdd73652167a28163cc8bee6d193aa1d2d34ba13cefaa",
+      "outputs": {
+        "native-weapon-detail-client-reviewed/Throw_Index_Wrapper.c": "b554c9aba53206d804e9fc370e97cf27027d10930f18eb2a6be625e055cb8dd1",
+        "native-weapon-detail-client-reviewed/Throw_Index_Wrapper.asm": "5581995141036f8f8cb7598583a54ae3c1a567e77a4bbff543774e6d542c448c"
+      }
+    },
+    {
+      "preferredVa": "0x293e6a8",
+      "name": "Throw_NullReference_Create",
+      "end": "0x293e6bc",
+      "first16": "ff8300d1fffb00a9e0030091ff0300f9",
+      "sha256": "cdbf0bcca450bcc5619d3bedfd51ab6ee40fa3f25845c22f256f2b52ded52c13",
+      "outputs": {
+        "native-weapon-detail-client-reviewed/Throw_NullReference_Create.c": "07933b7cac27ee4d3e9d7c27b53882e222ed878cead5f8d79e73b3adba1fff6f",
+        "native-weapon-detail-client-reviewed/Throw_NullReference_Create.asm": "428c28c0278566bbd155390442ae395ecf5d111ac48dd41afa23cc88ab7051b2"
+      }
+    },
+    {
+      "preferredVa": "0x293e6bc",
+      "name": "Throw_NullReference_Raise",
+      "end": "0x293e6cc",
+      "first16": "fe0f1ff803000094e1031faad2ffff97",
+      "sha256": "5ca19850cf19c59741f496304fb81f88760711935ae81e9878b9291de917db2c",
+      "outputs": {
+        "native-weapon-detail-client-reviewed/Throw_NullReference_Raise.c": "aded7644ecb862bc0a5476706b21810f9257b367ac0397bdc541e91af2615d80",
+        "native-weapon-detail-client-reviewed/Throw_NullReference_Raise.asm": "5aafa322c11ce154d2ee31e138ead7810e48a24e419b8885131feb71851f1d71"
+      }
+    },
+    {
+      "preferredVa": "0x293e6f4",
+      "name": "Throw_Index_Raise",
+      "end": "0x293e704",
+      "first16": "fe0f1ff803000094e1031faac4ffff97",
+      "sha256": "cc88e424aa2cedbec18e703dcec784e753947ba52264006468b82ee358e7e4dd",
+      "outputs": {
+        "native-weapon-detail-client-reviewed/Throw_Index_Raise.c": "f7b9c1233cebb3659705feb97a706251cb1dd6dcac5b14dcbcd482f99b3529a7",
+        "native-weapon-detail-client-reviewed/Throw_Index_Raise.asm": "53f08a0cd65a4fe4ba45d72673ff66e057b405fd9658b230d54ec9cb96fab4ed"
+      }
+    },
+    {
+      "preferredVa": "0x293e610",
+      "name": "Managed_Exception_CxaThrow",
+      "end": "0x293e638",
+      "first16": "fe4fbfa9f30300aa71ffff9700018052",
+      "sha256": "3baf58d6dd416adb6ec9a1aa884940ecdc8bcb00a7fd1ff5efd9d6fd84aa48a1",
+      "outputs": {
+        "native-weapon-detail-client-reviewed/Managed_Exception_CxaThrow.c": "f034685b9e5e3c23ca134caf66dd8742db361f79a48e68bfefb6bb0b28479155",
+        "native-weapon-detail-client-reviewed/Managed_Exception_CxaThrow.asm": "79d2db030a3cd3519ea853008b8d9e435cee4ca33d345340c0a40c9ffa737b80"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "Type": "SINGLE",
+      "Description": false,
+      "Key": "Gun/SINGLE",
+      "Values": [
+        "Single",
+        "단발",
+        "単発",
+        "单发",
+        "單發",
+        "Single",
+        "Single",
+        "Single",
+        "Single",
+        "Single",
+        "Single",
+        "Single",
+        "Single",
+        "Single"
+      ],
+      "nativeKeyPointer": "0x5d60db0"
+    },
+    {
+      "Type": "SINGLE",
+      "Description": true,
+      "Key": "Gun/SINGLE_ex",
+      "Values": [
+        "Single - Fires 1 bullet.",
+        "단발 - 총알을 1발 발사한다.",
+        "単発 - 弾を1発発射する。",
+        "单发 - 发射1颗子弹。",
+        "單發 - 發射1顆子彈。",
+        "Single - Dispara 1 bala.",
+        "Single - Feuert 1 Kugel.",
+        "Single - Tire 1 balle.",
+        "Single - Dispara 1 bala.",
+        "Single - ยิงกระสุน 1 นัด",
+        "Single - Menembakkan 1 peluru.",
+        "Single - Menembak 1 peluru.",
+        "Single - Bắn 1 viên đạn.",
+        "Single - выпускает 1 пулю."
+      ],
+      "nativeKeyPointer": "0x5d60db8"
+    },
+    {
+      "Type": "LASER",
+      "Description": false,
+      "Key": "Gun/LASER",
+      "Values": [
+        "Laser",
+        "레이저",
+        "レーザー",
+        "激光",
+        "雷射",
+        "Laser",
+        "Laser",
+        "Laser",
+        "Laser",
+        "Laser",
+        "Laser",
+        "Laser",
+        "Laser",
+        "Laser"
+      ],
+      "nativeKeyPointer": "0x5d60d70"
+    },
+    {
+      "Type": "LASER",
+      "Description": true,
+      "Key": "Gun/LASER_ex",
+      "Values": [
+        "Laser - Fires a bullet that pierces through enemies.",
+        "레이저 - 적을 관통하는 총알을 발사한다.",
+        "レーザー - 敵を貫通する弾を発射する。",
+        "激光 - 发射穿透敌人的子弹。",
+        "雷射 - 發射穿透敵人的子彈。",
+        "Laser - Dispara uma bala que atravessa inimigos.",
+        "Laser - Feuert eine Kugel, die Feinde durchdringt.",
+        "Laser - Tire une balle qui traverse les ennemis.",
+        "Laser - Dispara una bala que atraviesa enemigos.",
+        "Laser - ยิงกระสุนที่เจาะทะลุศัตรู",
+        "Laser - Menembakkan peluru yang menembus musuh.",
+        "Laser - Menembak peluru yang menembusi musuh.",
+        "Laser - Bắn đạn xuyên qua kẻ địch.",
+        "Laser - выпускает пулю, пробивающую врагов."
+      ],
+      "nativeKeyPointer": "0x5d60d78"
+    },
+    {
+      "Type": "PIERCE",
+      "Description": false,
+      "Key": "Gun/PIERCE",
+      "Values": [
+        "Pierce",
+        "관통",
+        "貫通",
+        "穿透",
+        "穿透",
+        "Pierce",
+        "Pierce",
+        "Pierce",
+        "Pierce",
+        "Pierce",
+        "Pierce",
+        "Pierce",
+        "Pierce",
+        "Pierce"
+      ],
+      "nativeKeyPointer": "0x5d60d90"
+    },
+    {
+      "Type": "PIERCE",
+      "Description": true,
+      "Key": "Gun/PIERCE_ex",
+      "Values": [
+        "Pierce - Pierces on first impact or when an enemy is defeated.",
+        "관통 - 최초 충돌 또는 적 처치시 관통한다.",
+        "貫通 - 最初の衝突時または敵撃破時に貫通する。",
+        "穿透 - 首次命中或击败敌人时穿透。",
+        "穿透 - 首次命中或擊敗敵人時穿透。",
+        "Pierce - Perfura no primeiro impacto ou ao derrotar inimigos.",
+        "Pierce - Durchdringt beim ersten Aufprall oder bei Abschuss.",
+        "Pierce - Perfore au premier impact ou à l'élimination.",
+        "Pierce - Perfora en el primer impacto o al eliminar.",
+        "Pierce - เจาะเมื่อชนครั้งแรกหรือสังหารศัตรู",
+        "Pierce - Menembus saat kontak pertama atau saat musuh dikalahkan.",
+        "Pierce - Menembusi saat hentaman pertama atau musuh dikalahkan.",
+        "Pierce - Xuyên khi va chạm đầu tiên hoặc khi hạ kẻ địch.",
+        "Pierce - пробивает при первом ударе или добивании."
+      ],
+      "nativeKeyPointer": "0x5d60d98"
+    },
+    {
+      "Type": "SHOTGUN",
+      "Description": false,
+      "Key": "Gun/SHOTGUN",
+      "Values": [
+        "Shot",
+        "산탄",
+        "散弾",
+        "散弹",
+        "散彈",
+        "Shot",
+        "Shot",
+        "Shot",
+        "Shot",
+        "Shot",
+        "Shot",
+        "Shot",
+        "Shot",
+        "Shot"
+      ],
+      "nativeKeyPointer": "0x5d60da0"
+    },
+    {
+      "Type": "SHOTGUN",
+      "Description": true,
+      "Key": "Gun/SHOTGUN_ex",
+      "Values": [
+        "Shotgun - Fires multiple bullets at once.",
+        "산탄 - 여러 발의 총알을 발사한다.",
+        "散弾 - 複数の弾を同時に発射する。",
+        "散弹 - 同时发射多颗子弹。",
+        "散彈 - 同時發射多顆子彈。",
+        "Shotgun - Dispara múltiplas balas de uma vez.",
+        "Shotgun - Feuert mehrere Kugeln gleichzeitig.",
+        "Shotgun - Tire plusieurs balles à la fois.",
+        "Shotgun - Dispara múltiples balas a la vez.",
+        "Shotgun - ยิงกระสุนหลายนัดพร้อมกัน",
+        "Shotgun - Menembakkan banyak peluru sekaligus.",
+        "Shotgun - Menembak banyak peluru serentak.",
+        "Shotgun - Bắn nhiều đạn cùng lúc.",
+        "Shotgun - выпускает несколько пуль сразу."
+      ],
+      "nativeKeyPointer": "0x5d60da8"
+    },
+    {
+      "Type": "EXPLOSIVE",
+      "Description": false,
+      "Key": "Gun/EXPLOSIVE",
+      "Values": [
+        "Blast",
+        "폭발",
+        "爆発",
+        "爆炸",
+        "爆炸",
+        "Blast",
+        "Blast",
+        "Blast",
+        "Blast",
+        "Blast",
+        "Blast",
+        "Blast",
+        "Blast",
+        "Blast"
+      ],
+      "nativeKeyPointer": "0x5d60d60"
+    },
+    {
+      "Type": "EXPLOSIVE",
+      "Description": true,
+      "Key": "Gun/EXPLOSIVE_ex",
+      "Values": [
+        "Blast - Fires a bullet with area-of-effect damage.",
+        "폭발 - 광역 공격하는 총알을 발사한다.",
+        "爆発 - 範囲攻撃する弾を発射する。",
+        "爆炸 - 发射造成范围伤害的子弹。",
+        "爆炸 - 發射造成範圍傷害的子彈。",
+        "Blast - Dispara uma bala com dano em área.",
+        "Blast - Feuert eine Kugel mit Flächenschaden.",
+        "Blast - Tire une balle avec dégâts de zone.",
+        "Blast - Dispara una bala con daño en área.",
+        "Blast - ยิงกระสุนที่โจมตีเป็นวงกว้าง",
+        "Blast - Menembakkan peluru dengan damage area.",
+        "Blast - Menembak peluru dengan damage kawasan.",
+        "Blast - Bắn đạn gây sát thương diện rộng.",
+        "Blast - выпускает пулю с уроном по области."
+      ],
+      "nativeKeyPointer": "0x5d60d68"
+    },
+    {
+      "Type": "MISSILE",
+      "Description": false,
+      "Key": "Gun/MISSILE",
+      "Values": [
+        "Missile",
+        "미사일",
+        "ミサイル",
+        "导弹",
+        "飛彈",
+        "Missile",
+        "Missile",
+        "Missile",
+        "Missile",
+        "Missile",
+        "Missile",
+        "Missile",
+        "Missile",
+        "Missile"
+      ],
+      "nativeKeyPointer": "0x5d60d80"
+    },
+    {
+      "Type": "MISSILE",
+      "Description": true,
+      "Key": "Gun/MISSILE_ex",
+      "Values": [
+        "Missile - Launches a missile with area-of-effect damage.",
+        "미사일 - 광역 공격하는 미사일을 발사한다.",
+        "ミサイル - 範囲攻撃するミサイルを発射する。",
+        "导弹 - 发射造成范围伤害的导弹。",
+        "飛彈 - 發射造成範圍傷害的飛彈。",
+        "Missile - Lança um míssil com dano em área.",
+        "Missile - Feuert eine Rakete mit Flächenschaden.",
+        "Missile - Lance un missile avec dégâts de zone.",
+        "Missile - Lanza un misil con daño en área.",
+        "Missile - ยิงมิสไซล์ที่โจมตีเป็นวงกว้าง",
+        "Missile - Meluncurkan misil dengan damage area.",
+        "Missile - Melancarkan misil dengan damage kawasan.",
+        "Missile - Phóng tên lửa gây sát thương diện rộng.",
+        "Missile - запускает ракету с уроном по области."
+      ],
+      "nativeKeyPointer": "0x5d60d88"
+    },
+    {
+      "Type": "BLAST_SNIPER",
+      "Description": false,
+      "Key": "Gun/BLAST_SNIPER",
+      "Values": [
+        "B.P.",
+        "폭발관통",
+        "爆貫",
+        "爆穿",
+        "爆穿",
+        "B.P.",
+        "B.P.",
+        "B.P.",
+        "B.P.",
+        "B.P.",
+        "B.P.",
+        "B.P.",
+        "B.P.",
+        "B.P."
+      ],
+      "nativeKeyPointer": "0x5d60d50"
+    },
+    {
+      "Type": "BLAST_SNIPER",
+      "Description": true,
+      "Key": "Gun/BLAST_SNIPER_ex",
+      "Values": [
+        "Blast Pierce - Explodes on impact, pierces when enemy is defeated.",
+        "폭발관통 - 최초 충돌시 폭발하고 적 처치시 관통한다.",
+        "爆発貫通 - 衝突時に爆発し、敵撃破時に貫通する。",
+        "爆炸穿透 - 命中时爆炸，击败敌人时穿透。",
+        "爆炸穿透 - 命中時爆炸，擊敗敵人時穿透。",
+        "Explosão Perfurante - Explode no impacto e perfura ao derrotar inimigos.",
+        "Explosiv-Piercer - Explodiert beim Aufprall, durchdringt bei Abschuss.",
+        "Explosion Percée - Explose à l'impact, perfore à l'élimination.",
+        "Explosión Perforante - Explota al impactar, perfora al eliminar.",
+        "Blast Pierce - ระเบิดเมื่อชนครั้งแรก และเจาะทะลุเมื่อสังหารศัตรู",
+        "Blast Pierce - Meledak saat kontak, menembus saat musuh dikalahkan.",
+        "Blast Pierce - Meletup saat hentaman, menembusi saat musuh dikalahkan.",
+        "Blast Pierce - Nổ khi va chạm, xuyên khi hạ kẻ địch.",
+        "Blast Pierce - взрывается при ударе, пробивает при добивании."
+      ],
+      "nativeKeyPointer": "0x5d60d58"
+    }
+  ],
+  "languageSource": {
+    "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/assetripper-baseline/ExportedProject/Assets/Resources/I2Languages.asset",
+    "sha256": "151dc691a395ca83d006e9aaa717803e6c62b1a90fcbbb6dbc9fe13411a9697f"
+  },
+  "speedFormat": "{0}s",
+  "registeredQueryCount": {
+    "before": 901,
+    "after": 919,
+    "new": 18
+  },
+  "nativeRules": {
+    "type": "Gun_list[gun].type -> seven generated I2 getters",
+    "description": "Explain_Return maps same enum to corresponding _ex term, invalid returns null",
+    "detail": "original name from catalogue; damage original InfVal_change adapter remains; float.ToString wrapped in {0}s",
+    "acquired": "disable, original sprites/colors/grade/type; enable restarts original Open2sec Animator; original Background remains hidden; Destroy_Time2 scaled lifetime autohides",
+    "click": "original Gun_Item.OnPointerUp valid press/non-drag/non-auto routes normal detail or temporary ad then Button1 entry volume (nullable override zero), pitch1"
+  },
+  "adapters": [
+    "System-language selection for these14 original terms only; full I2 language state/options not recovered",
+    "Existing IPointerClickHandler routing rather than exact original OnPointerUp; original state guards remain",
+    "Independent DecimalAmount display remains, not exact original InfVal formatter",
+    "Original animation/layout preserved; extracted original text resource added; runtime original SC font/material Chinese compatibility adapter",
+    "Local rewarded ads and purchases remain user-authorized simulations; no SDK/charge/production service"
+  ],
+  "scopeComplete": false,
+  "invalidTypeNameLiteral": "",
+  "audioAbi": {
+    "call": "Gun_Item.OnPointerUp 0x2b71778 -> Sound_manager.PlaySfx 0x2b1f10c",
+    "registers": {
+      "w1": 1,
+      "x2": 0,
+      "s0": 1
+    },
+    "meaning": "Button1, nullable volume override absent -> original entry volume; pitch1"
+  },
+  "originalNewGunComponent": {
+    "originalMainComponent": "146341",
+    "originalScriptGuid": "252f0f2a213d22da63dc369dc47c3261",
+    "Degree_objs": [
+      "34445",
+      "15001",
+      "30202",
+      "20698",
+      "7898",
+      "3376",
+      "2483"
+    ],
+    "originalDegreeCount": 7,
+    "documentSha256": "d072d528c18f5ef1db53577d83e24984bf08731c1bd1835a225194f4106787d0",
+    "document": "--- !u!114 &146341\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 20203}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 252f0f2a213d22da63dc369dc47c3261, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  Gun_img: {fileID: 132861}\n  Shadow_img: {fileID: 145969}\n  Panel_img: {fileID: 148813}\n  Degree_objs:\n  - {fileID: 34445}\n  - {fileID: 15001}\n  - {fileID: 30202}\n  - {fileID: 20698}\n  - {fileID: 7898}\n  - {fileID: 3376}\n  - {fileID: 2483}\n  Type_txt: {fileID: 121461}\n"
+  },
+  "originalToastLifecycle": {
+    "originalGo": "20203",
+    "Destroy_Time": 2,
+    "documents": [
+      "--- !u!1 &20203\nGameObject:\n  serializedVersion: 6\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_Component:\n  - component: {fileID: 106321}\n  - component: {fileID: 146340}\n  - component: {fileID: 66786}\n  - component: {fileID: 146341}\n  m_Layer: 5\n  m_Name: NewGun_UI\n  m_TagString: Untagged\n  m_Icon: {fileID: 0}\n  m_NavMeshLayer: 0\n  m_StaticEditorFlags: 0\n  m_IsActive: 0\n",
+      "--- !u!95 &66786\nAnimator:\n  serializedVersion: 7\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 20203}\n  m_Enabled: 1\n  m_Avatar: {fileID: 0}\n  m_Controller: {fileID: 9100000, guid: a146efd18a982fb4ca703dfa3a06e818, type: 2}\n  m_CullingMode: 0\n  m_UpdateMode: 0\n  m_ApplyRootMotion: 0\n  m_LinearVelocityBlending: 0\n  m_StabilizeFeet: 0\n  m_AnimatePhysics: 0\n  m_WarningMessage:\n  m_HasTransformHierarchy: 1\n  m_AllowConstantClipSamplingOptimization: 1\n  m_KeepAnimatorStateOnDisable: 0\n  m_WriteDefaultValuesOnDisable: 0\n",
+      "--- !u!224 &106321\nRectTransform:\n  serializedVersion: 2\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 20203}\n  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}\n  m_LocalPosition: {x: 0, y: 0, z: 0}\n  m_LocalScale: {x: 1, y: 1, z: 1}\n  m_ConstrainProportionsScale: 0\n  m_Children:\n  - {fileID: 105637}\n  - {fileID: 115925}\n  m_Father: {fileID: 104803}\n  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}\n  m_AnchorMin: {x: 0, y: 0}\n  m_AnchorMax: {x: 1, y: 1}\n  m_AnchoredPosition: {x: 0, y: 0}\n  m_SizeDelta: {x: 980, y: 1820}\n  m_Pivot: {x: 0.5, y: 0.5}\n",
+      "--- !u!114 &146340\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 20203}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 9e27ca9e7bb680a10dc9a92f7a69bc21, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  Destroy_Time: 2\n",
+      "--- !u!114 &146341\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 20203}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 252f0f2a213d22da63dc369dc47c3261, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  Gun_img: {fileID: 132861}\n  Shadow_img: {fileID: 145969}\n  Panel_img: {fileID: 148813}\n  Degree_objs:\n  - {fileID: 34445}\n  - {fileID: 15001}\n  - {fileID: 30202}\n  - {fileID: 20698}\n  - {fileID: 7898}\n  - {fileID: 3376}\n  - {fileID: 2483}\n  Type_txt: {fileID: 121461}\n"
+    ],
+    "nativeLifetimeEvidence": [
+      "native-bullet-effects-lifecycle-reviewed/Destroy_OnEnable.c",
+      "native-bullet-effects-lifecycle-reviewed/Destroy_Disable.c",
+      "native-bullet-effects-lifecycle-reviewed/_Disable_d__5_MoveNext.c"
+    ]
+  },
+  "originalAnimationAssets": [
+    {
+      "asset": "AnimatorController/NewGun.controller",
+      "originalSha256": "b6762a91633ddbc629fd980e85832d9676e2ebc341e8cc0dce30493b8d6d8f09",
+      "currentSha256": "b6762a91633ddbc629fd980e85832d9676e2ebc341e8cc0dce30493b8d6d8f09",
+      "byteIdenticalToOriginal": true
+    },
+    {
+      "asset": "AnimatorController/NewGun.controller.meta",
+      "originalSha256": "17a71f623fdd1930ce20c9ba1e182aec70cdf9589c966734cd6207c3555d7020",
+      "currentSha256": "17a71f623fdd1930ce20c9ba1e182aec70cdf9589c966734cd6207c3555d7020",
+      "byteIdenticalToOriginal": true
+    },
+    {
+      "asset": "AnimationClip/Open.anim",
+      "originalSha256": "c1d56a2b5d13c9e48162adb427f9cf1c23983dc77c2ae8fa534285ecb776a3d0",
+      "currentSha256": "c1d56a2b5d13c9e48162adb427f9cf1c23983dc77c2ae8fa534285ecb776a3d0",
+      "byteIdenticalToOriginal": true
+    },
+    {
+      "asset": "AnimationClip/Open.anim.meta",
+      "originalSha256": "9ee019469197bb7a8523afaa61232ea733f06644a8ddbdb5ab7342b6c73d48dc",
+      "currentSha256": "9ee019469197bb7a8523afaa61232ea733f06644a8ddbdb5ab7342b6c73d48dc",
+      "byteIdenticalToOriginal": true
+    }
+  ]
+}

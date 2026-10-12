@@ -1,0 +1,198 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "return new{sprites=UnityEngine.Object.FindObjectsByType<UnityEngine.UI.Image>(UnityEngine.FindObjectsInactive.Include).Where(i=>i.sprite!=null).Select(i=>new{name=i.name,sprite=i.sprite.name,texture=i.sprite.texture==null?null:i.sprite.texture.name}).ToArray(),canvas=UnityEngine.Object.FindObjectsByType<UnityEngine.Canvas>().Select(c=>new{name=c.name,mode=c.renderMode.ToString(),size=c.pixelRect.ToString()}).ToArray()};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "sprites": [
+          {
+            "name": "Icon",
+            "sprite": "icon_sound",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "Off",
+            "sprite": "ui 1 (Small",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "InputField (TMP)",
+            "sprite": "ui 4",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "Close_Btn",
+            "sprite": "Icon_CloseBtn",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "Image",
+            "sprite": "google-play (2)",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "Image",
+            "sprite": "icon_icloud",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "Cancel_Btn",
+            "sprite": "ui 1 (Small",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "On",
+            "sprite": "ui 1 (Small",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "Load_Btn",
+            "sprite": "ui 1 (Small",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "Panel",
+            "sprite": "ui 2",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "Icon",
+            "sprite": "phone-vibration",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "Icon",
+            "sprite": "phone-vibration",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "Redeem_Btn",
+            "sprite": "ui 1 (Small",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "Icon",
+            "sprite": "icon_sound",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "Load_Btn",
+            "sprite": "ui 1 (Small",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "Icon",
+            "sprite": "icon_bgm",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "Off",
+            "sprite": "ui 1 (Small",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "Login_Btn",
+            "sprite": "ui 1 (Small",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "Panel",
+            "sprite": "ui 1 (Small) 3",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "Close_Btn",
+            "sprite": "Icon_CloseBtn",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "On",
+            "sprite": "ui 1 (Small",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "Login_Btn (ios)",
+            "sprite": "ui 1 (Small",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "Restore_Btn",
+            "sprite": "ui 1 (Small",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "Icon",
+            "sprite": "icon_bgm",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "WriteUs_Btn",
+            "sprite": "ui 1 (Small",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "Panel",
+            "sprite": "ui 2",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "Cancel_Btn",
+            "sprite": "ui 1 (Small",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "Load_Btn",
+            "sprite": "ui 1 (Small",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "RedeemOpen_Btn",
+            "sprite": "ui 1 (Small",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "Off",
+            "sprite": "ui 1 (Small",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "Panel",
+            "sprite": "ui 2",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "Save_Btn",
+            "sprite": "ui 1 (Small",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          },
+          {
+            "name": "On",
+            "sprite": "ui 1 (Small",
+            "texture": "sactx-0-4096x4096-ASTC 6x6-_UI-3277955d"
+          }
+        ],
+        "canvas": [
+          {
+            "name": "Canvas",
+            "mode": "ScreenSpaceOverlay",
+            "size": "(x:0.00, y:0.00, width:1920.00, height:1080.00)"
+          }
+        ]
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

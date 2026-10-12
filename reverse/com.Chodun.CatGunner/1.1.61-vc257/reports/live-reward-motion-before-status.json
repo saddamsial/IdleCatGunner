@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 6.47,
+      "summary": {
+        "total": 1,
+        "passed": 0,
+        "failed": 1,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalRewardPresentationTests.VelocityAndVortexAreAppliedBeforeAttraction",
+          "Status": "Failed",
+          "Duration": 6.4140231,
+          "Message": "  Original enabled velocity/vortex modules must be implemented\n  Expected: not null\n  But was:  null\n",
+          "StackTrace": "at OriginalRewardPresentationTests.VelocityAndVortexAreAppliedBeforeAttraction () [0x00015] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalRewardPresentationTests.cs:76\n"
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

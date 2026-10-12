@@ -1,0 +1,2069 @@
+{
+  "identity": {
+    "file": "level0",
+    "path_id": 124527,
+    "type_index": 16345,
+    "type": "AssetKits.ParticleImage.ParticleImage",
+    "game_object": "Particle Image"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 1303
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 2480
+    },
+    "m_Name": "",
+    "m_Material": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Color": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "m_RaycastTarget": false,
+    "m_RaycastPadding": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 0.0
+    },
+    "m_Maskable": true,
+    "m_OnCullStateChanged": {
+      "m_PersistentCalls": {
+        "m_Calls": []
+      }
+    },
+    "_main": {
+      "m_FileID": 0,
+      "m_PathID": 124527
+    },
+    "_children": [],
+    "_space": 0,
+    "_timeScale": 1,
+    "_emitterConstraintEnabled": {
+      "enabled": false
+    },
+    "_emitterConstraintTransform": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "_shape": 1,
+    "_spread": 0,
+    "_spreadLoop": 1.0,
+    "_startDelay": 0.0,
+    "_radius": 50.0,
+    "_width": 100.0,
+    "_height": 100.0,
+    "_angle": 45.0,
+    "_length": 100.0,
+    "_fitRect": false,
+    "_emitOnSurface": true,
+    "_emitterThickness": 0.0,
+    "_loop": false,
+    "_prewarm": false,
+    "_duration": 0.30000001192092896,
+    "_playMode": 0,
+    "_startSize": {
+      "separable": true,
+      "separated": false,
+      "mainCurve": {
+        "m_Mode": 0,
+        "m_CurveMultiplier": 0.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 60.0
+      },
+      "xCurve": {
+        "m_Mode": 0,
+        "m_CurveMultiplier": 0.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 40.0
+      },
+      "yCurve": {
+        "m_Mode": 0,
+        "m_CurveMultiplier": 0.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 40.0
+      },
+      "zCurve": {
+        "m_Mode": 0,
+        "m_CurveMultiplier": 0.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 40.0
+      }
+    },
+    "_startColor": {
+      "m_Mode": 0,
+      "m_GradientMin": {
+        "key0": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "key1": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "key2": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key3": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key4": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key5": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key6": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key7": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "ctime0": 0,
+        "ctime1": 65535,
+        "ctime2": 0,
+        "ctime3": 0,
+        "ctime4": 0,
+        "ctime5": 0,
+        "ctime6": 0,
+        "ctime7": 0,
+        "atime0": 0,
+        "atime1": 65535,
+        "atime2": 0,
+        "atime3": 0,
+        "atime4": 0,
+        "atime5": 0,
+        "atime6": 0,
+        "atime7": 0,
+        "m_Mode": 0,
+        "m_ColorSpace": -1,
+        "m_NumColorKeys": 2,
+        "m_NumAlphaKeys": 2
+      },
+      "m_GradientMax": {
+        "key0": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "key1": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "key2": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key3": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key4": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key5": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key6": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key7": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "ctime0": 0,
+        "ctime1": 65535,
+        "ctime2": 0,
+        "ctime3": 0,
+        "ctime4": 0,
+        "ctime5": 0,
+        "ctime6": 0,
+        "ctime7": 0,
+        "atime0": 0,
+        "atime1": 65535,
+        "atime2": 0,
+        "atime3": 0,
+        "atime4": 0,
+        "atime5": 0,
+        "atime6": 0,
+        "atime7": 0,
+        "m_Mode": 0,
+        "m_ColorSpace": -1,
+        "m_NumColorKeys": 2,
+        "m_NumAlphaKeys": 2
+      },
+      "m_ColorMin": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "m_ColorMax": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      }
+    },
+    "_lifetime": {
+      "m_Mode": 3,
+      "m_CurveMultiplier": 0.0,
+      "m_CurveMin": {
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "m_CurveMax": {
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "m_ConstantMin": 0.5,
+      "m_ConstantMax": 1.0
+    },
+    "_startSpeed": {
+      "m_Mode": 3,
+      "m_CurveMultiplier": 0.0,
+      "m_CurveMin": {
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "m_CurveMax": {
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "m_ConstantMin": 1.0,
+      "m_ConstantMax": 15.0
+    },
+    "_colorOverLifetime": {
+      "m_Mode": 1,
+      "m_GradientMin": {
+        "key0": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "key1": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "key2": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key3": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key4": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key5": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key6": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key7": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "ctime0": 0,
+        "ctime1": 65535,
+        "ctime2": 0,
+        "ctime3": 0,
+        "ctime4": 0,
+        "ctime5": 0,
+        "ctime6": 0,
+        "ctime7": 0,
+        "atime0": 0,
+        "atime1": 65535,
+        "atime2": 0,
+        "atime3": 0,
+        "atime4": 0,
+        "atime5": 0,
+        "atime6": 0,
+        "atime7": 0,
+        "m_Mode": 0,
+        "m_ColorSpace": -1,
+        "m_NumColorKeys": 2,
+        "m_NumAlphaKeys": 2
+      },
+      "m_GradientMax": {
+        "key0": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "key1": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "key2": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key3": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key4": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key5": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key6": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key7": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "ctime0": 0,
+        "ctime1": 65535,
+        "ctime2": 0,
+        "ctime3": 0,
+        "ctime4": 0,
+        "ctime5": 0,
+        "ctime6": 0,
+        "ctime7": 0,
+        "atime0": 0,
+        "atime1": 65535,
+        "atime2": 0,
+        "atime3": 0,
+        "atime4": 0,
+        "atime5": 0,
+        "atime6": 0,
+        "atime7": 0,
+        "m_Mode": 0,
+        "m_ColorSpace": -1,
+        "m_NumColorKeys": 2,
+        "m_NumAlphaKeys": 2
+      },
+      "m_ColorMin": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "m_ColorMax": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      }
+    },
+    "_colorBySpeed": {
+      "m_Mode": 1,
+      "m_GradientMin": {
+        "key0": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "key1": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "key2": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key3": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key4": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key5": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key6": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key7": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "ctime0": 0,
+        "ctime1": 65535,
+        "ctime2": 0,
+        "ctime3": 0,
+        "ctime4": 0,
+        "ctime5": 0,
+        "ctime6": 0,
+        "ctime7": 0,
+        "atime0": 0,
+        "atime1": 65535,
+        "atime2": 0,
+        "atime3": 0,
+        "atime4": 0,
+        "atime5": 0,
+        "atime6": 0,
+        "atime7": 0,
+        "m_Mode": 0,
+        "m_ColorSpace": -1,
+        "m_NumColorKeys": 2,
+        "m_NumAlphaKeys": 2
+      },
+      "m_GradientMax": {
+        "key0": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "key1": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "key2": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key3": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key4": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key5": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key6": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key7": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "ctime0": 0,
+        "ctime1": 65535,
+        "ctime2": 0,
+        "ctime3": 0,
+        "ctime4": 0,
+        "ctime5": 0,
+        "ctime6": 0,
+        "ctime7": 0,
+        "atime0": 0,
+        "atime1": 65535,
+        "atime2": 0,
+        "atime3": 0,
+        "atime4": 0,
+        "atime5": 0,
+        "atime6": 0,
+        "atime7": 0,
+        "m_Mode": 0,
+        "m_ColorSpace": -1,
+        "m_NumColorKeys": 2,
+        "m_NumAlphaKeys": 2
+      },
+      "m_ColorMin": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "m_ColorMax": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      }
+    },
+    "_colorSpeedRange": {
+      "from": 0.0,
+      "to": 1.0
+    },
+    "_sizeOverLifetime": {
+      "separable": true,
+      "separated": false,
+      "mainCurve": {
+        "m_Mode": 1,
+        "m_CurveMultiplier": 1.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            },
+            {
+              "time": 0.9411764144897461,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.3333333432674408,
+              "outWeight": 0.3333333432674408
+            },
+            {
+              "time": 1.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 0.0
+      },
+      "xCurve": {
+        "m_Mode": 1,
+        "m_CurveMultiplier": 1.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 0.0
+      },
+      "yCurve": {
+        "m_Mode": 1,
+        "m_CurveMultiplier": 1.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 0.0
+      },
+      "zCurve": {
+        "m_Mode": 1,
+        "m_CurveMultiplier": 1.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 0.0
+      }
+    },
+    "_sizeBySpeed": {
+      "separable": true,
+      "separated": false,
+      "mainCurve": {
+        "m_Mode": 1,
+        "m_CurveMultiplier": 1.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 0.0
+      },
+      "xCurve": {
+        "m_Mode": 1,
+        "m_CurveMultiplier": 1.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 0.0
+      },
+      "yCurve": {
+        "m_Mode": 1,
+        "m_CurveMultiplier": 1.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 0.0
+      },
+      "zCurve": {
+        "m_Mode": 1,
+        "m_CurveMultiplier": 1.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 0.0
+      }
+    },
+    "_sizeSpeedRange": {
+      "from": 0.0,
+      "to": 1.0
+    },
+    "_startRotation": {
+      "separable": true,
+      "separated": false,
+      "mainCurve": {
+        "m_Mode": 0,
+        "m_CurveMultiplier": 0.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 0.0
+      },
+      "xCurve": {
+        "m_Mode": 0,
+        "m_CurveMultiplier": 0.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 0.0
+      },
+      "yCurve": {
+        "m_Mode": 0,
+        "m_CurveMultiplier": 0.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 0.0
+      },
+      "zCurve": {
+        "m_Mode": 0,
+        "m_CurveMultiplier": 0.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 0.0
+      }
+    },
+    "_rotationOverLifetime": {
+      "separable": true,
+      "separated": false,
+      "mainCurve": {
+        "m_Mode": 0,
+        "m_CurveMultiplier": 0.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 0.0
+      },
+      "xCurve": {
+        "m_Mode": 0,
+        "m_CurveMultiplier": 0.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 0.0
+      },
+      "yCurve": {
+        "m_Mode": 0,
+        "m_CurveMultiplier": 0.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 0.0
+      },
+      "zCurve": {
+        "m_Mode": 0,
+        "m_CurveMultiplier": 0.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 0.0
+      }
+    },
+    "_rotationBySpeed": {
+      "separable": true,
+      "separated": false,
+      "mainCurve": {
+        "m_Mode": 1,
+        "m_CurveMultiplier": 1.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 0.0
+      },
+      "xCurve": {
+        "m_Mode": 1,
+        "m_CurveMultiplier": 1.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 0.0
+      },
+      "yCurve": {
+        "m_Mode": 1,
+        "m_CurveMultiplier": 1.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 0.0
+      },
+      "zCurve": {
+        "m_Mode": 1,
+        "m_CurveMultiplier": 1.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 0.0
+      }
+    },
+    "_rotationSpeedRange": {
+      "from": 0.0,
+      "to": 1.0
+    },
+    "_speedOverLifetime": {
+      "m_Mode": 1,
+      "m_CurveMultiplier": 1.0,
+      "m_CurveMin": {
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "m_CurveMax": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 1.0,
+            "inSlope": 0.0,
+            "outSlope": 0.0,
+            "weightedMode": 0,
+            "inWeight": 0.0,
+            "outWeight": 0.0
+          },
+          {
+            "time": 0.23662984371185303,
+            "value": -0.1669083833694458,
+            "inSlope": -0.18505974113941193,
+            "outSlope": -0.18505974113941193,
+            "weightedMode": 2,
+            "inWeight": 0.3333333432674408,
+            "outWeight": 0.36906421184539795
+          },
+          {
+            "time": 0.30901414155960083,
+            "value": 0.060974929481744766,
+            "inSlope": -0.48188596963882446,
+            "outSlope": -0.48188596963882446,
+            "weightedMode": 3,
+            "inWeight": 0.5200995802879333,
+            "outWeight": 0.7047364115715027
+          },
+          {
+            "time": 0.3598096966743469,
+            "value": 0.0,
+            "inSlope": 0.0051522026769816875,
+            "outSlope": 0.0051522026769816875,
+            "weightedMode": 1,
+            "inWeight": 0.37683382630348206,
+            "outWeight": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "m_ConstantMin": 0.0,
+      "m_ConstantMax": 1.0
+    },
+    "_alignToDirection": false,
+    "_gravity": {
+      "m_Mode": 0,
+      "m_CurveMultiplier": 0.0,
+      "m_CurveMin": {
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "m_CurveMax": {
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "m_ConstantMin": 0.0,
+      "m_ConstantMax": -9.8100004196167
+    },
+    "_targetModule": {
+      "enabled": true
+    },
+    "_attractorTarget": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "_toTarget": {
+      "m_Mode": 2,
+      "m_CurveMultiplier": 1.0,
+      "m_CurveMin": {
+        "m_Curve": [
+          {
+            "time": 0.6946691274642944,
+            "value": -0.0020119883120059967,
+            "inSlope": 3.3206495572812855e-05,
+            "outSlope": 3.3206495572812855e-05,
+            "weightedMode": 2,
+            "inWeight": 0.0,
+            "outWeight": 0.8866888880729675
+          },
+          {
+            "time": 1.0,
+            "value": 1.0,
+            "inSlope": 7.23610782623291,
+            "outSlope": 7.23610782623291,
+            "weightedMode": 1,
+            "inWeight": 0.09611839801073074,
+            "outWeight": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "m_CurveMax": {
+        "m_Curve": [
+          {
+            "time": 0.694183349609375,
+            "value": -0.00201416015625,
+            "inSlope": 0.0,
+            "outSlope": 0.0,
+            "weightedMode": 0,
+            "inWeight": 0.0,
+            "outWeight": 0.0
+          },
+          {
+            "time": 1.0,
+            "value": 1.0,
+            "inSlope": 4.554476737976074,
+            "outSlope": 4.554476737976074,
+            "weightedMode": 0,
+            "inWeight": 0.04265803471207619,
+            "outWeight": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "m_ConstantMin": 0.0,
+      "m_ConstantMax": 0.0
+    },
+    "_targetMode": 0,
+    "_noiseModule": {
+      "enabled": false
+    },
+    "_gravityModule": {
+      "enabled": false
+    },
+    "_vortexModule": {
+      "enabled": true
+    },
+    "_velocityModule": {
+      "enabled": true
+    },
+    "_velocitySpace": 0,
+    "_velocityOverLifetime": {
+      "separable": false,
+      "separated": true,
+      "mainCurve": {
+        "m_Mode": 0,
+        "m_CurveMultiplier": 0.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 0.0
+      },
+      "xCurve": {
+        "m_Mode": 0,
+        "m_CurveMultiplier": 0.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 0.0
+      },
+      "yCurve": {
+        "m_Mode": 1,
+        "m_CurveMultiplier": 1.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [
+            {
+              "time": 0.021333813667297363,
+              "value": -0.007217049598693848,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            },
+            {
+              "time": 0.20901545882225037,
+              "value": 0.43747031688690186,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.3333333432674408,
+              "outWeight": 0.3333333432674408
+            },
+            {
+              "time": 0.5803552865982056,
+              "value": -0.5500516891479492,
+              "inSlope": -0.07422701269388199,
+              "outSlope": -0.07422701269388199,
+              "weightedMode": 0,
+              "inWeight": 0.3333333432674408,
+              "outWeight": 0.3333333432674408
+            },
+            {
+              "time": 1.0213338136672974,
+              "value": -0.007217049598693848,
+              "inSlope": 0.0,
+              "outSlope": 0.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 0.0
+      },
+      "zCurve": {
+        "m_Mode": 0,
+        "m_CurveMultiplier": 0.0,
+        "m_CurveMin": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_CurveMax": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        },
+        "m_ConstantMin": 0.0,
+        "m_ConstantMax": 0.0
+      }
+    },
+    "_vortexStrength": {
+      "m_Mode": 1,
+      "m_CurveMultiplier": 8.0,
+      "m_CurveMin": {
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "m_CurveMax": {
+        "m_Curve": [
+          {
+            "time": 0.4867362976074219,
+            "value": 0.0,
+            "inSlope": 0.047291092574596405,
+            "outSlope": 0.047291092574596405,
+            "weightedMode": 0,
+            "inWeight": 0.0,
+            "outWeight": 0.24719026684761047
+          },
+          {
+            "time": 1.0,
+            "value": -0.699999988079071,
+            "inSlope": -4.000809192657471,
+            "outSlope": -4.000809192657471,
+            "weightedMode": 0,
+            "inWeight": 0.03804074227809906,
+            "outWeight": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "m_ConstantMin": 0.0,
+      "m_ConstantMax": 0.0
+    },
+    "_sheetModule": {
+      "enabled": false
+    },
+    "_textureTile": {
+      "x": 4,
+      "y": 4
+    },
+    "_sheetType": 2,
+    "sheetsArray": {},
+    "_frameOverTime": {
+      "m_Mode": 0,
+      "m_CurveMultiplier": 0.0,
+      "m_CurveMin": {
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "m_CurveMax": {
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "m_ConstantMin": 0.0,
+      "m_ConstantMax": 0.0
+    },
+    "_startFrame": {
+      "m_Mode": 0,
+      "m_CurveMultiplier": 0.0,
+      "m_CurveMin": {
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "m_CurveMax": {
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "m_ConstantMin": 0.0,
+      "m_ConstantMax": 0.0
+    },
+    "_frameSpeedRange": {
+      "from": 0.0,
+      "to": 1.0
+    },
+    "_textureSheetFPS": 25,
+    "_textureSheetCycles": 1,
+    "_rate": 0.0,
+    "_rateOverLifetime": 0.0,
+    "_rateOverDistance": 0.0,
+    "_bursts": [],
+    "_particleTrailRenderer": {
+      "m_FileID": 0,
+      "m_PathID": 125331
+    },
+    "_trailModule": {
+      "enabled": false
+    },
+    "_trailWidth": {
+      "m_Mode": 1,
+      "m_CurveMultiplier": 1.0,
+      "m_CurveMin": {
+        "m_Curve": [],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "m_CurveMax": {
+        "m_Curve": [
+          {
+            "time": 0.0,
+            "value": 0.6860008239746094,
+            "inSlope": -0.6860008239746094,
+            "outSlope": -0.6860008239746094,
+            "weightedMode": 0,
+            "inWeight": 0.0,
+            "outWeight": 0.3333333432674408
+          },
+          {
+            "time": 1.0,
+            "value": 0.0,
+            "inSlope": -0.6860008239746094,
+            "outSlope": -0.6860008239746094,
+            "weightedMode": 0,
+            "inWeight": 0.3333333432674408,
+            "outWeight": 0.0
+          }
+        ],
+        "m_PreInfinity": 2,
+        "m_PostInfinity": 2,
+        "m_RotationOrder": 4
+      },
+      "m_ConstantMin": 0.0,
+      "m_ConstantMax": 1.0
+    },
+    "_trailLifetime": 0.20000000298023224,
+    "_minimumVertexDistance": 10.0,
+    "_trailColorOverLifetime": {
+      "m_Mode": 0,
+      "m_GradientMin": {
+        "key0": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "key1": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "key2": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key3": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key4": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key5": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key6": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key7": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "ctime0": 0,
+        "ctime1": 65535,
+        "ctime2": 0,
+        "ctime3": 0,
+        "ctime4": 0,
+        "ctime5": 0,
+        "ctime6": 0,
+        "ctime7": 0,
+        "atime0": 0,
+        "atime1": 65535,
+        "atime2": 0,
+        "atime3": 0,
+        "atime4": 0,
+        "atime5": 0,
+        "atime6": 0,
+        "atime7": 0,
+        "m_Mode": 0,
+        "m_ColorSpace": -1,
+        "m_NumColorKeys": 2,
+        "m_NumAlphaKeys": 2
+      },
+      "m_GradientMax": {
+        "key0": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "key1": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "key2": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key3": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key4": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key5": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key6": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key7": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "ctime0": 0,
+        "ctime1": 65535,
+        "ctime2": 0,
+        "ctime3": 0,
+        "ctime4": 0,
+        "ctime5": 0,
+        "ctime6": 0,
+        "ctime7": 0,
+        "atime0": 0,
+        "atime1": 65535,
+        "atime2": 0,
+        "atime3": 0,
+        "atime4": 0,
+        "atime5": 0,
+        "atime6": 0,
+        "atime7": 0,
+        "m_Mode": 0,
+        "m_ColorSpace": -1,
+        "m_NumColorKeys": 2,
+        "m_NumAlphaKeys": 2
+      },
+      "m_ColorMin": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "m_ColorMax": {
+        "r": 0.0156862735748291,
+        "g": 0.96065354347229,
+        "b": 1.0,
+        "a": 0.48235294222831726
+      }
+    },
+    "_trailColorOverTrail": {
+      "m_Mode": 1,
+      "m_GradientMin": {
+        "key0": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "key1": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "key2": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key3": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key4": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key5": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key6": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key7": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "ctime0": 0,
+        "ctime1": 65535,
+        "ctime2": 0,
+        "ctime3": 0,
+        "ctime4": 0,
+        "ctime5": 0,
+        "ctime6": 0,
+        "ctime7": 0,
+        "atime0": 0,
+        "atime1": 65535,
+        "atime2": 0,
+        "atime3": 0,
+        "atime4": 0,
+        "atime5": 0,
+        "atime6": 0,
+        "atime7": 0,
+        "m_Mode": 0,
+        "m_ColorSpace": -1,
+        "m_NumColorKeys": 2,
+        "m_NumAlphaKeys": 2
+      },
+      "m_GradientMax": {
+        "key0": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "key1": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+        },
+        "key2": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key3": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key4": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key5": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key6": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "key7": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        },
+        "ctime0": 0,
+        "ctime1": 65535,
+        "ctime2": 0,
+        "ctime3": 0,
+        "ctime4": 0,
+        "ctime5": 0,
+        "ctime6": 0,
+        "ctime7": 0,
+        "atime0": 0,
+        "atime1": 26021,
+        "atime2": 65535,
+        "atime3": 0,
+        "atime4": 0,
+        "atime5": 0,
+        "atime6": 0,
+        "atime7": 0,
+        "m_Mode": 0,
+        "m_ColorSpace": -1,
+        "m_NumColorKeys": 2,
+        "m_NumAlphaKeys": 3
+      },
+      "m_ColorMin": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "m_ColorMax": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      }
+    },
+    "_trailMaterial": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "_inheritParticleColor": true,
+    "_dieWithParticle": true,
+    "_trailRatio": 0.7400000095367432,
+    "_noiseOffset": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "_noiseFrequency": 1.0,
+    "_noiseStrength": 1.0,
+    "_multithreadModule": {
+      "enabled": false
+    },
+    "_multithreadEnabled": false,
+    "_onStart": {
+      "m_PersistentCalls": {
+        "m_Calls": []
+      }
+    },
+    "_onFirstParticleFinish": {
+      "m_PersistentCalls": {
+        "m_Calls": []
+      }
+    },
+    "_onParticleFinish": {
+      "m_PersistentCalls": {
+        "m_Calls": [
+          {
+            "m_Target": {
+              "m_FileID": 0,
+              "m_PathID": 125602
+            },
+            "m_TargetAssemblyTypeName": "Dia_Attraction, Assembly-CSharp",
+            "m_MethodName": "Dia_FX_End",
+            "m_Mode": 1,
+            "m_Arguments": {
+              "m_ObjectArgument": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+              "m_IntArgument": 0,
+              "m_FloatArgument": 0.0,
+              "m_StringArgument": "",
+              "m_BoolArgument": false
+            },
+            "m_CallState": 2
+          }
+        ]
+      }
+    },
+    "_onLastParticleFinish": {
+      "m_PersistentCalls": {
+        "m_Calls": []
+      }
+    },
+    "_onStop": {
+      "m_PersistentCalls": {
+        "m_Calls": []
+      }
+    },
+    "moduleEmitterFoldout": true,
+    "moduleParticleFoldout": true,
+    "moduleMovementFoldout": true,
+    "moduleEventsFoldout": true,
+    "moduleAdvancedFoldout": false,
+    "m_Sprite": {
+      "m_FileID": 2,
+      "m_PathID": 904
+    },
+    "m_Texture": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    }
+  }
+}

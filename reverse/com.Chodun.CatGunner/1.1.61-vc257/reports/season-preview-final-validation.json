@@ -1,0 +1,70 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 49.6,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalSeasonPreviewTests.BothPanelsRefreshRewardTypesAndAllBoundaryLevelsWithoutGranting",
+          "Status": "Passed",
+          "Duration": 8.2735576,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalSeasonPreviewTests.ForcedEntryHidesOfferForVipAndColdReloadShowsFreshRewardState",
+          "Status": "Passed",
+          "Duration": 12.7775377,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalSeasonPreviewTests.NormalEntryUsesLatestThreeEpicRewardsAndPreservesWallet",
+          "Status": "Passed",
+          "Duration": 7.7520509,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalSeasonPreviewTests.PreviewRangeClampsToSourceWindowIncludingShortArrays",
+          "Status": "Passed",
+          "Duration": 6.1873021,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalSeasonPreviewTests.RealCancelPreservesSeasonAndConfirmResetsProgressOnce",
+          "Status": "Passed",
+          "Duration": 7.8897277,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalSeasonPreviewTests.RebindingPreservesDisabledPreviewsAndSourceParentPurchaseRoute",
+          "Status": "Passed",
+          "Duration": 6.6652225,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

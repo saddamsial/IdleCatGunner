@@ -1,0 +1,12 @@
+02c52208  stp x30,x19,[sp, #-0x10]!
+02c5220c  mov x1,xzr
+02c52210  mov x19,x0
+02c52214  bl 0x057dc1c8
+02c52218  cbz x0,0x02c52234
+02c5221c  mov w1,#0x1
+02c52220  mov x2,xzr
+02c52224  bl 0x057dff3c
+02c52228  mov x0,x19
+02c5222c  ldp x30,x19,[sp], #0x10
+02c52230  b 0x02c52064
+02c52234  bl 0x029f5cfc

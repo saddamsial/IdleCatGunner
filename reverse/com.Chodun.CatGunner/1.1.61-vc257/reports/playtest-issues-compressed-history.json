@@ -1,0 +1,30 @@
+{
+  "reason": "External disk nearly full; lossless compression of three generated historical scene checkpoints, original game/project/assets unchanged",
+  "restore": "python3 tools/restore_scene_checkpoint.py <originalPath>",
+  "checkpoints": [
+    {
+      "originalPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/checkpoints/mission-navigation-before/RecoveredClient.unity",
+      "compressedPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/checkpoints/mission-navigation-before/RecoveredClient.unity.gz",
+      "uncompressedSha256": "b487f5b20ca618e5848f6217f7c0917080e4aa4ed93fcbf7db9ee461e066c739",
+      "uncompressedBytes": 478072295,
+      "compressedBytes": 22408882,
+      "byteIdenticalAfterDecompression": true
+    },
+    {
+      "originalPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/checkpoints/mission-sorting-before/RecoveredClient.unity",
+      "compressedPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/checkpoints/mission-sorting-before/RecoveredClient.unity.gz",
+      "uncompressedSha256": "69b30e938815261522df3ba90b204fcbfb95a5549916cf07ea77d5aea6d93169",
+      "uncompressedBytes": 478072297,
+      "compressedBytes": 22408886,
+      "byteIdenticalAfterDecompression": true
+    },
+    {
+      "originalPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/checkpoints/daily-check-before/RecoveredClient.unity",
+      "compressedPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/checkpoints/daily-check-before/RecoveredClient.unity.gz",
+      "uncompressedSha256": "1cf45bdb6c9d38001866bed0ff1225880db215d0f98d6057326de7397035938f",
+      "uncompressedBytes": 477719465,
+      "compressedBytes": 22386375,
+      "byteIdenticalAfterDecompression": true
+    }
+  ]
+}

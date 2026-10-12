@@ -1,0 +1,392 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var all=UnityEngine.SceneManagement.SceneManager.GetActiveScene().GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<Transform>(true)).ToArray();return new{bars=all.Where(t=>t.name==\"Value_Slider\"||t.name==\"Time_Slider\").Where(t=>t.GetComponent<UnityEngine.UI.Image>()!=null).Select(t=>new{path=string.Join(\"/\",t.GetComponentsInParent<Transform>(true).Select(p=>p.name).Reverse()),pos=((RectTransform)t).anchoredPosition.ToString(),rect=((RectTransform)t).rect.ToString(),children=t.Cast<Transform>().Select(p=>new{p.name,pos=p.localPosition.ToString(),rt=p is RectTransform?((RectTransform)p).rect.ToString():null}).ToArray()}).ToArray(),travel=all.Select(t=>t.GetComponent<UnityEngine.UI.Button>()).Where(b=>b!=null&&b.GetComponentsInChildren<TMPro.TMP_Text>(true).Any(t=>t.text.Contains(\"모든\")||t.text.Contains(\"abilities\"))).Select(b=>new{path=string.Join(\"/\",b.transform.GetComponentsInParent<Transform>(true).Select(p=>p.name).Reverse()),types=b.GetComponents<Component>().Select(v=>v==null?null:v.GetType().Name).ToArray(),clicks=Enumerable.Range(0,b.onClick.GetPersistentEventCount()).Select(i=>new{method=b.onClick.GetPersistentMethodName(i),target=b.onClick.GetPersistentTarget(i)?.GetType().Name}).ToArray()}).ToArray()};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "bars": [
+          {
+            "path": "Canvas/SafeArea/Main_UI/Time_Slider",
+            "pos": "(0.00, -15.00)",
+            "rect": "(x:-540.00, y:-37.00, width:1080.00, height:37.00)",
+            "children": [
+              {
+                "name": "Fill",
+                "pos": "(0.00, -18.50, 0.00)",
+                "rt": "(x:-540.00, y:-18.50, width:1080.00, height:37.00)"
+              }
+            ]
+          },
+          {
+            "path": "Canvas/SafeArea/Main_UI/Value_Slider",
+            "pos": "(0.00, 0.00)",
+            "rect": "(x:-540.00, y:-37.00, width:1080.00, height:37.00)",
+            "children": [
+              {
+                "name": "Fill",
+                "pos": "(0.00, -18.50, 0.00)",
+                "rt": "(x:-540.00, y:-18.50, width:1080.00, height:37.00)"
+              },
+              {
+                "name": "Value_txt",
+                "pos": "(0.00, -26.80, 0.00)",
+                "rt": "(x:-166.45, y:-25.00, width:332.90, height:50.00)"
+              }
+            ]
+          },
+          {
+            "path": "Canvas/SafeArea/SpeedRun_UI/Value_Slider",
+            "pos": "(0.00, 0.00)",
+            "rect": "(x:-540.00, y:-37.00, width:1080.00, height:37.00)",
+            "children": [
+              {
+                "name": "Fill",
+                "pos": "(0.00, -18.50, 0.00)",
+                "rt": "(x:-540.00, y:-18.50, width:1080.00, height:37.00)"
+              },
+              {
+                "name": "Outline",
+                "pos": "(0.00, -18.50, 0.00)",
+                "rt": "(x:-540.00, y:-18.50, width:1080.00, height:37.00)"
+              },
+              {
+                "name": "Value_txt",
+                "pos": "(0.00, -26.80, 0.00)",
+                "rt": "(x:-166.45, y:-25.00, width:332.90, height:50.00)"
+              }
+            ]
+          },
+          {
+            "path": "Canvas/SafeArea/SpeedRun_UI/Time_Slider",
+            "pos": "(0.00, -131.00)",
+            "rect": "(x:-273.38, y:-21.97, width:546.76, height:43.94)",
+            "children": [
+              {
+                "name": "Fill",
+                "pos": "(0.00, 0.00, 0.00)",
+                "rt": "(x:-266.38, y:-14.97, width:532.76, height:29.94)"
+              },
+              {
+                "name": "Image",
+                "pos": "(0.00, 0.00, 0.00)",
+                "rt": "(x:-273.38, y:-21.97, width:546.76, height:43.94)"
+              },
+              {
+                "name": "Icon",
+                "pos": "(-290.00, 5.90, 0.00)",
+                "rt": "(x:-49.50, y:-54.00, width:99.00, height:108.00)"
+              },
+              {
+                "name": "Time_txt",
+                "pos": "(0.00, 15.00, 0.00)",
+                "rt": "(x:-166.45, y:-25.00, width:332.90, height:50.00)"
+              }
+            ]
+          },
+          {
+            "path": "Canvas/SafeArea/Mine_UI/Mine_Slider/Time_Slider",
+            "pos": "(0.00, -93.00)",
+            "rect": "(x:-323.53, y:-21.97, width:647.06, height:43.94)",
+            "children": [
+              {
+                "name": "Fill",
+                "pos": "(0.00, 0.00, 0.00)",
+                "rt": "(x:-316.53, y:-14.97, width:633.06, height:29.94)"
+              },
+              {
+                "name": "Image",
+                "pos": "(0.00, 0.00, 0.00)",
+                "rt": "(x:-323.53, y:-21.97, width:647.06, height:43.94)"
+              },
+              {
+                "name": "Icon",
+                "pos": "(-339.03, 5.90, 0.00)",
+                "rt": "(x:-49.50, y:-54.00, width:99.00, height:108.00)"
+              },
+              {
+                "name": "Time_txt",
+                "pos": "(0.00, 15.00, 0.00)",
+                "rt": "(x:-166.45, y:-25.00, width:332.90, height:50.00)"
+              }
+            ]
+          },
+          {
+            "path": "Canvas/SafeArea/Boss_UI/Time_Slider",
+            "pos": "(0.00, 0.00)",
+            "rect": "(x:-540.00, y:-37.00, width:1080.00, height:37.00)",
+            "children": [
+              {
+                "name": "Fill",
+                "pos": "(0.00, -18.50, 0.00)",
+                "rt": "(x:-540.00, y:-18.50, width:1080.00, height:37.00)"
+              },
+              {
+                "name": "Outline",
+                "pos": "(0.00, -18.50, 0.00)",
+                "rt": "(x:-540.00, y:-18.50, width:1080.00, height:37.00)"
+              },
+              {
+                "name": "Time_txt",
+                "pos": "(0.00, -26.80, 0.00)",
+                "rt": "(x:-166.45, y:-25.00, width:332.90, height:50.00)"
+              }
+            ]
+          },
+          {
+            "path": "Canvas/SafeArea/Raid_UI/Time_Slider",
+            "pos": "(0.00, 0.00)",
+            "rect": "(x:-540.00, y:-37.00, width:1080.00, height:37.00)",
+            "children": [
+              {
+                "name": "Fill",
+                "pos": "(0.00, -18.50, 0.00)",
+                "rt": "(x:-540.00, y:-18.50, width:1080.00, height:37.00)"
+              },
+              {
+                "name": "Outline",
+                "pos": "(0.00, -18.50, 0.00)",
+                "rt": "(x:-540.00, y:-18.50, width:1080.00, height:37.00)"
+              },
+              {
+                "name": "Time_txt",
+                "pos": "(0.00, -26.80, 0.00)",
+                "rt": "(x:-166.45, y:-25.00, width:332.90, height:50.00)"
+              }
+            ]
+          }
+        ],
+        "travel": [
+          {
+            "path": "Canvas/SafeArea/Adventure_UI (SafeArea)/Adventure_Panel/PrismCore_Panel",
+            "types": [
+              "RectTransform",
+              "CanvasRenderer",
+              "Image",
+              "Button",
+              "SFX_BtnScript",
+              "BounceBtn"
+            ],
+            "clicks": []
+          },
+          {
+            "path": "Canvas/SafeArea/Shop_UI/Panel/Scroll View/Viewport/Content/Remove Ads/Remove_AD_All",
+            "types": [
+              "RectTransform",
+              "CanvasRenderer",
+              "Image",
+              "Button",
+              "BounceBtn",
+              "RecoveryLocalPurchaseButton"
+            ],
+            "clicks": [
+              {
+                "method": "Purchase",
+                "target": "RecoveryLocalPurchaseButton"
+              }
+            ]
+          },
+          {
+            "path": "Canvas/Contents_UI/SpeedRun_UI/GameWin_obj/Remove Ads ALL (Inapp)/Remove_AD_All",
+            "types": [
+              "RectTransform",
+              "CanvasRenderer",
+              "Image",
+              "Button",
+              "BounceBtn",
+              "RecoveryLocalPurchaseButton"
+            ],
+            "clicks": [
+              {
+                "method": "Purchase",
+                "target": "RecoveryLocalPurchaseButton"
+              }
+            ]
+          },
+          {
+            "path": "Canvas/Contents_UI/SpeedRun_UI/GameFail_obj/Remove Ads ALL (Inapp)/Remove_AD_All",
+            "types": [
+              "RectTransform",
+              "CanvasRenderer",
+              "Image",
+              "Button",
+              "BounceBtn",
+              "RecoveryLocalPurchaseButton"
+            ],
+            "clicks": [
+              {
+                "method": "Purchase",
+                "target": "RecoveryLocalPurchaseButton"
+              }
+            ]
+          },
+          {
+            "path": "Canvas/Contents_UI/SpeedRun_UI/GameSweep_obj/Remove Ads ALL (Inapp)/Remove_AD_All",
+            "types": [
+              "RectTransform",
+              "CanvasRenderer",
+              "Image",
+              "Button",
+              "BounceBtn",
+              "RecoveryLocalPurchaseButton"
+            ],
+            "clicks": [
+              {
+                "method": "Purchase",
+                "target": "RecoveryLocalPurchaseButton"
+              }
+            ]
+          },
+          {
+            "path": "Canvas/Contents_UI/Boss_UI/GameWin_obj/Remove Ads ALL (Inapp)/Remove_AD_All",
+            "types": [
+              "RectTransform",
+              "CanvasRenderer",
+              "Image",
+              "Button",
+              "BounceBtn",
+              "RecoveryLocalPurchaseButton"
+            ],
+            "clicks": [
+              {
+                "method": "Purchase",
+                "target": "RecoveryLocalPurchaseButton"
+              }
+            ]
+          },
+          {
+            "path": "Canvas/Contents_UI/Boss_UI/GameFail_obj/Remove Ads ALL (Inapp)/Remove_AD_All",
+            "types": [
+              "RectTransform",
+              "CanvasRenderer",
+              "Image",
+              "Button",
+              "BounceBtn",
+              "RecoveryLocalPurchaseButton"
+            ],
+            "clicks": [
+              {
+                "method": "Purchase",
+                "target": "RecoveryLocalPurchaseButton"
+              }
+            ]
+          },
+          {
+            "path": "Canvas/Contents_UI/Boss_UI/GameSweep_obj/Remove Ads ALL (Inapp)/Remove_AD_All",
+            "types": [
+              "RectTransform",
+              "CanvasRenderer",
+              "Image",
+              "Button",
+              "BounceBtn",
+              "RecoveryLocalPurchaseButton"
+            ],
+            "clicks": [
+              {
+                "method": "Purchase",
+                "target": "RecoveryLocalPurchaseButton"
+              }
+            ]
+          },
+          {
+            "path": "Canvas/Contents_UI/Mine_UI/GameEnd_obj/Remove Ads ALL (Inapp)/Remove_AD_All",
+            "types": [
+              "RectTransform",
+              "CanvasRenderer",
+              "Image",
+              "Button",
+              "BounceBtn",
+              "RecoveryLocalPurchaseButton"
+            ],
+            "clicks": [
+              {
+                "method": "Purchase",
+                "target": "RecoveryLocalPurchaseButton"
+              }
+            ]
+          },
+          {
+            "path": "Canvas/Contents_UI/Mine_UI/GameSweep_obj/Remove Ads ALL (Inapp)/Remove_AD_All",
+            "types": [
+              "RectTransform",
+              "CanvasRenderer",
+              "Image",
+              "Button",
+              "BounceBtn",
+              "RecoveryLocalPurchaseButton"
+            ],
+            "clicks": [
+              {
+                "method": "Purchase",
+                "target": "RecoveryLocalPurchaseButton"
+              }
+            ]
+          },
+          {
+            "path": "Canvas/Contents_UI/Monster_UI/GameEnd_obj /Remove Ads ALL (Inapp)/Remove_AD_All",
+            "types": [
+              "RectTransform",
+              "CanvasRenderer",
+              "Image",
+              "Button",
+              "RecoveryLocalPurchaseButton"
+            ],
+            "clicks": [
+              {
+                "method": "Purchase",
+                "target": "RecoveryLocalPurchaseButton"
+              }
+            ]
+          },
+          {
+            "path": "Canvas/Contents_UI/Monster_UI/GameSweep_obj/Remove Ads ALL (Inapp)/Remove_AD_All",
+            "types": [
+              "RectTransform",
+              "CanvasRenderer",
+              "Image",
+              "Button",
+              "BounceBtn",
+              "RecoveryLocalPurchaseButton"
+            ],
+            "clicks": [
+              {
+                "method": "Purchase",
+                "target": "RecoveryLocalPurchaseButton"
+              }
+            ]
+          },
+          {
+            "path": "Canvas/Shop_manager/DiaPig/DiaPig_UI/Remove Ads ALL (Inapp)/Remove_AD_All",
+            "types": [
+              "RectTransform",
+              "CanvasRenderer",
+              "Image",
+              "Button",
+              "BounceBtn",
+              "RecoveryLocalPurchaseButton"
+            ],
+            "clicks": [
+              {
+                "method": "Purchase",
+                "target": "RecoveryLocalPurchaseButton"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

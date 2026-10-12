@@ -1,0 +1,1 @@
+Initial name-only query selected BounceStart iterator d__9. It is not evidence for Bounce. The current reward-attraction queries/status select Bounce iterator d__13 and match its owner field signature. Historical export retained here, excluded from implementation.

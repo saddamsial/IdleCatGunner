@@ -1,0 +1,87 @@
+{
+  "success": true,
+  "command": "command console",
+  "data": {
+    "command": "console",
+    "parameters": {
+      "level": "warning",
+      "tail": "5"
+    },
+    "result": {
+      "entries": [
+        {
+          "seq": 1408,
+          "timestampUtc": "2026-10-11T18:04:25.527193Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets/Recovery/Tests/PlayMode/OriginalWeaponPresentationTests.cs(72,43): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 1409,
+          "timestampUtc": "2026-10-11T18:04:25.527225Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets/Recovery/Tests/PlayMode/OriginalWeeklyRaidTests.cs(54,232): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 1410,
+          "timestampUtc": "2026-10-11T18:04:25.527242Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets/Recovery/Tests/PlayMode/OriginalWeeklyRaidTests.cs(54,144): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 1414,
+          "timestampUtc": "2026-10-11T18:04:59.800608Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Ignoring depth surface load action as it is memoryless",
+          "stackTrace": "\n",
+          "seeded": true
+        },
+        {
+          "seq": 1415,
+          "timestampUtc": "2026-10-11T18:04:59.800608Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Ignoring depth surface store action as it is memoryless",
+          "stackTrace": "\n",
+          "seeded": true
+        }
+      ],
+      "cursor": 1424,
+      "session": "2c8c59f1371046da9a0f1082eca2aacc",
+      "returned": 5,
+      "dropped": false,
+      "reset": false,
+      "counts": {
+        "error": 0,
+        "warn": 66,
+        "log": 12
+      },
+      "groundTruth": {
+        "sampledUtc": "2026-10-11T18:07:55.67196Z",
+        "ageMs": 143,
+        "compilationFailed": false,
+        "compiling": false,
+        "consoleErrors": 0,
+        "consoleWarnings": 2,
+        "consoleLogs": 5,
+        "seeded": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

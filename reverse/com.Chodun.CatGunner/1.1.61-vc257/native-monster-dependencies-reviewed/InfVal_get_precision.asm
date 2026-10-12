@@ -1,0 +1,34 @@
+04654ee0  stp x30,x21,[sp, #-0x20]!
+04654ee4  stp x20,x19,[sp, #0x10]
+04654ee8  mov x19,x0
+04654eec  bl 0x0465487c
+04654ef0  tbz w0,#0x0,0x04654f00
+04654ef4  ldr w8,[x19, #0x8]
+04654ef8  cmp w8,#0x1
+04654efc  b.lt 0x04654f58
+04654f00  adrp x21,0x6260000
+04654f04  adrp x20,0x5e5e000
+04654f08  ldrb w8,[x21, #0xa1d]
+04654f0c  ldr x20,[x20, #0x48]
+04654f10  tbnz w8,#0x0,0x04654f28
+04654f14  adrp x0,0x5e5e000
+04654f18  ldr x0,[x0, #0x48]
+04654f1c  bl 0x029f5a50
+04654f20  mov w8,#0x1
+04654f24  strb w8,[x21, #0xa1d]
+04654f28  ldr x8,[x19]
+04654f2c  ldr x9,[x20]
+04654f30  cmp x8,#0x0
+04654f34  csel x8,x9,x8,eq
+04654f38  cbz x8,0x04654f64
+04654f3c  ldr w20,[x8, #0x10]
+04654f40  mov x0,x19
+04654f44  bl 0x0465940c
+04654f48  add w0,w20,w0, ASR #0x1f
+04654f4c  ldp x20,x19,[sp, #0x10]
+04654f50  ldp x30,x21,[sp], #0x20
+04654f54  ret
+04654f58  mov w9,#0x1
+04654f5c  sub w0,w9,w8
+04654f60  b 0x04654f4c
+04654f64  bl 0x029f5cfc

@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var c=CatGunner.Recovery.RecoveryForestClient.Instance;var panel=c.UpgradePanels[1];var rect=(UnityEngine.RectTransform)panel.transform;var position=UnityEngine.RectTransformUtility.WorldToScreenPoint(null,rect.TransformPoint(rect.rect.center));var e=new UnityEngine.EventSystems.PointerEventData(UnityEngine.EventSystems.EventSystem.current){position=position};var hits=new System.Collections.Generic.List<UnityEngine.EventSystems.RaycastResult>();UnityEngine.EventSystems.EventSystem.current.RaycastAll(e,hits);return new {screen=new[]{UnityEngine.Screen.width,UnityEngine.Screen.height},position=new[]{position.x,position.y},panel=panel.name,hits=hits.ConvertAll(h=>new {name=h.gameObject.name,parent=h.gameObject.transform.parent.name,isChild=h.gameObject.transform.IsChildOf(panel.transform),canvas=h.gameObject.GetComponentInParent<UnityEngine.Canvas>().name,order=h.sortingOrder,depth=h.depth,index=h.index})};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "screen": [
+          436,
+          473
+        ],
+        "position": [
+          540,
+          129
+        ],
+        "panel": "Upgrade_Panel (1)",
+        "hits": []
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

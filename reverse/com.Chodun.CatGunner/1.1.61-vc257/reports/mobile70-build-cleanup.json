@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "if(UnityEditor.EditorApplication.isPlaying||UnityEditor.EditorApplication.isCompiling)throw new System.Exception(\"Editor busy\");\nUnityEditor.PlayerSettings.Android.keystorePass=\"\";UnityEditor.PlayerSettings.Android.keyaliasPass=\"\";\nvar report=System.IO.Path.GetFullPath(System.IO.Path.Combine(Application.dataPath,\"../../../reverse/com.Chodun.CatGunner/1.1.61-vc257/reports\"));\nvar e=Newtonsoft.Json.Linq.JObject.Parse(System.IO.File.ReadAllText(System.IO.Path.Combine(report,\"mobile70-build-environment-before.json\")));\nSystem.Environment.SetEnvironmentVariable(\"GRADLE_USER_HOME\",(string)e[\"gradle\"]);System.Environment.SetEnvironmentVariable(\"TMPDIR\",(string)e[\"tmp\"]);\nSystem.IO.File.Delete(\"/private/tmp/catgunner-recovery-build-secret.txt\");\nreturn new {secretsCleared=true,environmentRestored=true,activeBuildTarget=UnityEditor.EditorUserBuildSettings.activeBuildTarget.ToString()};\n"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "secretsCleared": true,
+        "environmentRestored": true,
+        "activeBuildTarget": "Android"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

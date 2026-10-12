@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "command": "command build",
+  "data": {
+    "command": "build",
+    "parameters": {
+      "target": "Android",
+      "outputPath": "/Volumes/ZHITAI_1T/IdleCatGunner/Build/CatGunner-Recovery-20261012-r74.apk",
+      "options": "[\"DetailedBuildReport\"]",
+      "confirm": "true"
+    },
+    "result": {
+      "status": "queued",
+      "buildId": "build_ea9f75e34079"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

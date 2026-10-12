@@ -1,0 +1,43 @@
+{
+  "identity": {
+    "file": "level0",
+    "path_id": 140727,
+    "type_index": 7533,
+    "type": "Gun",
+    "game_object": "11"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 18975
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 2400
+    },
+    "m_Name": "",
+    "Shoot_trans": {
+      "m_FileID": 0,
+      "m_PathID": 47939
+    },
+    "Shoot_Random_trans": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 58658
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 52692
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 58205
+      }
+    ],
+    "Shoot_particle": {
+      "m_FileID": 0,
+      "m_PathID": 73610
+    }
+  }
+}

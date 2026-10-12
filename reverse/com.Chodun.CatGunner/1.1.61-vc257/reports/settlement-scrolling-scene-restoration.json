@@ -1,0 +1,42 @@
+{
+  "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+  "restored": [
+    {
+      "banner": "GameWin_obj",
+      "gameObject": 1184,
+      "speedX": -0.1,
+      "speedY": 0.0,
+      "texture": "Assets/Texture2D/Pattern.png",
+      "script": "Assets/Recovery/Scripts/Scrolling.cs",
+      "uvX": 0.0,
+      "uvY": 0.0,
+      "width": 26.2,
+      "height": 1.0
+    },
+    {
+      "banner": "GameFail_obj",
+      "gameObject": 1309,
+      "speedX": -0.1,
+      "speedY": 0.0,
+      "texture": "Assets/Texture2D/Pattern.png",
+      "script": "Assets/Recovery/Scripts/Scrolling.cs",
+      "uvX": 0.0,
+      "uvY": 0.0,
+      "width": 26.2,
+      "height": 1.0
+    },
+    {
+      "banner": "GameSkip_obj",
+      "gameObject": 1986,
+      "speedX": -0.1,
+      "speedY": 0.0,
+      "texture": "Assets/Texture2D/Pattern.png",
+      "script": "Assets/Recovery/Scripts/Scrolling.cs",
+      "uvX": 0.0,
+      "uvY": 0.0,
+      "width": 26.2,
+      "height": 1.0
+    }
+  ],
+  "scope": "Only original forest win/fail/skip banners; original Animator/TMP/geometry/materials retained"
+}

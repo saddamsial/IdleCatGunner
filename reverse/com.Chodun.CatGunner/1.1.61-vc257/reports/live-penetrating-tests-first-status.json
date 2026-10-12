@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 27.86,
+      "summary": {
+        "total": 5,
+        "passed": 5,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalPenetratingTests.AttackUsesConfiguredPenetratingLifetimeAndBridgeSupportsBothTypes",
+          "Status": "Passed",
+          "Duration": 12.8473934,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalPenetratingTests.InvalidOrDeadEnemyConsumesIdOnlyAndPoolReuseClearsAllHitState",
+          "Status": "Passed",
+          "Duration": 2.8479321,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalPenetratingTests.LaserDamagesMoreThanTwoSurvivorsOnceEachAndObstacleStopsFlight",
+          "Status": "Passed",
+          "Duration": 2.7801215,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalPenetratingTests.PierceUsesPreHitHealthAndDoesNotHaveATwoTargetMaximum",
+          "Status": "Passed",
+          "Duration": 2.7568288,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalPenetratingTests.RealPhysicsDistinguishesPierceStopFromLaserContinuation",
+          "Status": "Passed",
+          "Duration": 6.5843954,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

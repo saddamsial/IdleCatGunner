@@ -1,0 +1,101 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var c=UnityEngine.Object.FindAnyObjectByType<CatGunner.Recovery.RecoveryForestClient>(UnityEngine.FindObjectsInactive.Include); var d=JsonUtility.FromJson<CatGunner.Recovery.OriginalModeText>(System.IO.File.ReadAllText(System.IO.Path.GetFullPath(System.IO.Path.Combine(Application.dataPath,\"../../../reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/remaining-ui-text-data.json\"))));var canvas=c.Slider.GetComponentInParent<Canvas>().transform;return new {present=d.Rows.Count(r=>d.Resolve(canvas,r)!=null),missing=d.Rows.Where(r=>d.Resolve(canvas,r)==null).Select(r=>r.Path).ToArray(),particles=UnityEngine.Object.FindObjectsByType<Particle_Polling>(UnityEngine.FindObjectsInactive.Include,UnityEngine.FindObjectsSortMode.None).Select(p=>new {p.Particle_index,systems=p._particleSystem.Select(s=>new {name=s.name,space=s.main.simulationSpace.ToString(),render=s.GetComponent<ParticleSystemRenderer>().sharedMaterial.name}).ToArray()}).ToArray()};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "present": 258,
+        "missing": [
+          "Info_manager/Info_UI/Panel/GameObject/Cat_Info_Item/Selected/CriDmg/I2_txt",
+          "Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Locked_obj/Image/I2_txt(Outline)",
+          "UI_manager/GameExit_panel/Panel/I2_txt(Outline)",
+          "Info_manager/Info_UI/Panel/GameObject/Cat_Info_Item (1)/Selected/Dmg/I2_txt",
+          "Info_manager/Info_UI/Panel/GameObject/Cat_Info_Item (2)/Selected/Dmg/I2_txt",
+          "UI_manager/SpeedBuff_Explain_UI/Panel/Explain_txt",
+          "Setting/DataLoad_UI/Panel/SaveTime/I2_txt",
+          "Setting/DataSave_UI/Panel/SaveTime/I2_txt",
+          "SafeArea/Ads_Remove (Forced)/Remove Ads (Force) Popup/Remove Ads Fored (Inapp)/Remove_AD_Forced/I2_txt",
+          "Setting/DataSave_UI/Panel/MaxStage/I2_txt (1)",
+          "Setting/DataLoad_UI/Panel/MaxStage/I2_txt (1)",
+          "UI_manager/Error_UI/WriteUs_Btn/I2_txt",
+          "Setting/DataSave_UI/Panel/I2_txt",
+          "Info_manager/Info_UI/Panel/GameObject/Cat_Info_Item (2)/Selected/AtkSpeed/I2_txt",
+          "Info_manager/Info_UI/Panel/GameObject/Cat_Info_Item (1)/Selected/AtkSpeed/I2_txt",
+          "Info_manager/Info_UI/Panel/GameObject/Cat_Info_Item/Selected/AtkSpeed/I2_txt",
+          "Rank_manager/Nickname_Change_UI/Panel/Cancel_Btn/I2_txt(Outline) (1)",
+          "UI_manager/Update_Panel/Panel/I2_txt(Outline)",
+          "Setting/DataSave_UI/Panel/Cancel_Btn/I2_txt(Outline) (1)",
+          "SafeArea/Main_UI/Btn_list/Info_Btn/I2_txt(Outline)",
+          "UI_manager/Update_Panel/Panel/Update_Btn/I2_txt(Outline)",
+          "UI_manager/Loading_UI/Background/Cat/Loading_Txt",
+          "UI_manager/Loading_UI (AD)/Background/Cat/Loading_Txt",
+          "Setting/DataLoad_UI/Panel/Cancel_Btn/I2_txt(Outline) (1)",
+          "Shop_manager/Loading_UI (Inapp Purchasing)/Background/Cat/Loading_Txt",
+          "UI_manager/Update_Panel/Panel/Cancel_Btn/I2_txt(Outline)",
+          "Setting/DataLoad_UI/Panel/Load_Btn/I2_txt(Outline) (1)",
+          "Setting/DataSave_UI/Panel/I2_txt(Outline)",
+          "UI_manager/Update_Panel (Forced)/Panel/Update_Btn/I2_txt(Outline)",
+          "Review/Review_empty/Panel/I2_txt(Outline)",
+          "Review/Review_empty/Panel/I2_txt(Outline) (1)",
+          "UI_manager/Update_Panel (Forced)/Panel/I2_txt(Outline)",
+          "UI_manager/DataLoadExit_UI/Background/Cat/Loading_Txt",
+          "Setting/DataSave_UI/Panel/Load_Btn/I2_txt(Outline) (1)",
+          "Setting/DataLoad_UI/Panel/I2_txt(Outline)",
+          "SafeArea/Ads_Remove (Forced)/Remove Ads (Force) Popup/Remove Ads Fored (Inapp)/Remove_AD_Forced/I2_txt(Outline)",
+          "UI_manager/Update_Panel (Forced)/Panel/Cancel_Btn/I2_txt(Outline)",
+          "UI_manager/Error_UI/Background/Cat/Loading_Txt",
+          "Setting/DataLoad_UI/Panel/I2_txt(Outline) (1)",
+          "Info_manager/Info_UI/Panel/GameObject/Cat_Info_Item/Selected/Dmg/I2_txt",
+          "Info_manager/Info_UI/Panel/GameObject/Cat_Info_Item (2)/Selected/CriDmg/I2_txt",
+          "Info_manager/Info_UI/Panel/GameObject/Cat_Info_Item (1)/Selected/CriDmg/I2_txt"
+        ],
+        "particles": [
+          {
+            "Particle_index": 2,
+            "systems": [
+              {
+                "name": "Slime",
+                "space": "Local",
+                "render": "a354389e437751d4e8e776337d746bee"
+              }
+            ]
+          },
+          {
+            "Particle_index": 0,
+            "systems": [
+              {
+                "name": "Money",
+                "space": "Local",
+                "render": "781d5cdd4f9761146af48aedbe1f8710"
+              }
+            ]
+          },
+          {
+            "Particle_index": 1,
+            "systems": [
+              {
+                "name": "GibletExplodeDirt",
+                "space": "Local",
+                "render": "00165bac9ee784b4d990e3cc37ec3fcb"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "return new{temp=System.IO.Path.GetTempPath(),tmp=System.Environment.GetEnvironmentVariable(\"TMPDIR\"),scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().path,dirty=UnityEngine.SceneManagement.SceneManager.GetActiveScene().isDirty,compiling=UnityEditor.EditorApplication.isCompiling,failed=UnityEditor.EditorUtility.scriptCompilationFailed};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "temp": "/Volumes/ZHITAI_1T/IdleCatGunner/Build/tmp/",
+        "tmp": "/Volumes/ZHITAI_1T/IdleCatGunner/Build/tmp",
+        "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "dirty": false,
+        "compiling": false,
+        "failed": false
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

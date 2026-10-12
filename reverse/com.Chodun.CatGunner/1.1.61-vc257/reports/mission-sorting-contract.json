@@ -1,0 +1,24 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "nativeSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "metadataSha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+  "originalEngine": "6000.0.61f1",
+  "editor": "6000.4.10f1",
+  "scope": [
+    "original mission status priority and sibling sorting",
+    "original alert DOTween scale parameter presenter",
+    "isolated Editor/PlayMode acceptance"
+  ],
+  "excluded": [
+    "full DOTween SDK",
+    "ads/IAP/server time",
+    "I2 all language",
+    "Player/device"
+  ],
+  "labels": [
+    "exact-native",
+    "exact-serialized",
+    "evidence-constrained",
+    "offline-substitute"
+  ]
+}

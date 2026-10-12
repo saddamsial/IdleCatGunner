@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var c=UnityEngine.Object.FindAnyObjectByType<CatGunner.Recovery.RecoveryForestClient>();var a=new CatGunner.Recovery.OriginalSaveArchive(System.IO.Path.Combine(UnityEngine.Application.persistentDataPath,\"RecoveredClient-vc257\"));var s=a.Load();return new {play=UnityEditor.EditorApplication.isPlaying,scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().path,persist=c.Persist,overridePath=c.SaveFolderOverride,save=UnityEngine.JsonUtility.ToJson(s)};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "play": false,
+        "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "persist": true,
+        "overridePath": null,
+        "legacy_empty_fields": [
+          "Pet_Collect",
+          "Owned_Pet_list",
+          "Pet_Selected_items",
+          "Rebirth_Upgrade_Lv"
+        ],
+        "profile_read_only": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

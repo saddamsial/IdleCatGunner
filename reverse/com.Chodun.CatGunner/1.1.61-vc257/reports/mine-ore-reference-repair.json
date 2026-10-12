@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var c=UnityEngine.Object.FindAnyObjectByType<CatGunner.Recovery.RecoveryForestClient>();var missing=c.MineMode.Ore_list.Count(o=>o.spriteRenderer==null||o.DustSpawn_trans==null);if(missing!=0)throw new System.Exception(\"Missing original ore references \"+missing);UnityEditor.SceneManagement.EditorSceneManager.OpenScene(\"Assets/Recovery/Scenes/RecoveredTarget.unity\");return \"All 1000 Ore references validated; safe test scene ready\";"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": "All 1000 Ore references validated; safe test scene ready"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

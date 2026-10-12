@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene();var c=UnityEngine.Object.FindAnyObjectByType<CatGunner.Recovery.RecoveryForestClient>(UnityEngine.FindObjectsInactive.Include);var s=UnityEngine.Object.FindAnyObjectByType<Setting>(UnityEngine.FindObjectsInactive.Include);return new{scene=scene.path,playing=UnityEditor.EditorApplication.isPlaying,dirty=scene.isDirty,client=c!=null,settings=s!=null,roots=scene.GetRootGameObjects().Select(g=>g.name).Take(15).ToArray(),eco=s==null?null:new{camera=s.Camera_obj==null?null:s.Camera_obj.name,panel=s.EcoPanel_obj==null?null:s.EcoPanel_obj.name,button=s.EcoMode_Btn_img==null?null:s.EcoMode_Btn_img.name}};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "playing": false,
+        "dirty": false,
+        "client": true,
+        "settings": false,
+        "roots": [
+          "Camera_manager",
+          "Tree_manager",
+          "ETC",
+          "Polling_manager",
+          "Target",
+          "Canvas",
+          "Sound_manager",
+          "Cat_manager",
+          "Pet_ingame_manager",
+          "SpeedRun_manager",
+          "Boss_manager",
+          "Particle_Polling",
+          "Mine_manager",
+          "Monster_manager",
+          "Particle_Polling"
+        ],
+        "eco": null
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

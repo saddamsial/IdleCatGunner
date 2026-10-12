@@ -1,0 +1,24 @@
+02c65548  str x30,[sp, #-0x20]!
+02c6554c  stp x20,x19,[sp, #0x10]
+02c65550  ldr x8,[x0, #0x20]
+02c65554  cbz x8,0x02c65598
+02c65558  mov x19,x0
+02c6555c  mov x20,xzr
+02c65560  ldr w9,[x8, #0x18]
+02c65564  cmp w20,w9
+02c65568  b.ge 0x02c65598
+02c6556c  cmp w20,w9
+02c65570  b.cs 0x02c655a4
+02c65574  add x8,x8,x20, LSL #0x3
+02c65578  ldr x0,[x8, #0x20]
+02c6557c  cbz x0,0x02c65594
+02c65580  mov x1,xzr
+02c65584  bl 0x058617a8
+02c65588  ldr x8,[x19, #0x20]
+02c6558c  add x20,x20,#0x1
+02c65590  cbnz x8,0x02c65560
+02c65594  bl 0x029f5cfc
+02c65598  ldp x20,x19,[sp, #0x10]
+02c6559c  ldr x30,[sp], #0x20
+02c655a0  ret
+02c655a4  bl 0x029f5d04

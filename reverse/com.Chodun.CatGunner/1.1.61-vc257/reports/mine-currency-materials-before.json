@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "return new {playing=UnityEditor.EditorApplication.isPlaying, materials=UnityEngine.Object.FindObjectsByType<Mine_manager>(UnityEngine.FindObjectsInactive.Include,UnityEngine.FindObjectsSortMode.None).Single().Map_obj.GetComponentsInChildren<UnityEngine.Renderer>(true).GroupBy(r=>r.sharedMaterial).Select(g=>new {name=g.Key==null?null:g.Key.name,path=UnityEditor.AssetDatabase.GetAssetPath(g.Key),shader=g.Key==null?null:g.Key.shader.name,supported=g.Key!=null&&g.Key.shader.isSupported,count=g.Count(),example=g.First().name,type=g.First().GetType().Name,texture=g.Key==null?null:UnityEditor.AssetDatabase.GetAssetPath(g.Key.mainTexture)}).ToArray()};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "playing": false,
+        "materials": [
+          {
+            "name": "Floor 3",
+            "path": "Assets/Material/Floor 3.mat",
+            "shader": "Hidden/InternalErrorShader",
+            "supported": false,
+            "count": 1,
+            "example": "Ground (1)",
+            "type": "SpriteRenderer",
+            "texture": ""
+          },
+          {
+            "name": "Sprite-Unlit-Default",
+            "path": "Assets/Material/Sprite-Unlit-Default.mat",
+            "shader": "Hidden/InternalErrorShader",
+            "supported": false,
+            "count": 2000,
+            "example": "Skin",
+            "type": "SpriteRenderer",
+            "texture": ""
+          },
+          {
+            "name": "SpriteFill",
+            "path": "Assets/Material/SpriteFill.mat",
+            "shader": "Hidden/InternalErrorShader",
+            "supported": false,
+            "count": 1000,
+            "example": "Fill",
+            "type": "SpriteRenderer",
+            "texture": ""
+          }
+        ]
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

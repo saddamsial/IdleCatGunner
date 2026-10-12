@@ -1,0 +1,40 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var c=UnityEngine.Object.FindAnyObjectByType<Cat>(UnityEngine.FindObjectsInactive.Include); return new {playing=UnityEditor.EditorApplication.isPlaying,compiling=UnityEditor.EditorApplication.isCompiling,timeScale=UnityEngine.Time.timeScale,scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().name,dirty=UnityEngine.SceneManagement.SceneManager.GetActiveScene().isDirty,buildScenes=UnityEditor.EditorBuildSettings.scenes.Select(s=>s.path).ToArray(),cat=c!=null,joystick=c.joystick!=null,rb=c.rb!=null,anim=c.anim!=null,autoMoveOriginal=c.AutoMove,constraints=c.rb.constraints.ToString()};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "playing": false,
+        "compiling": false,
+        "timeScale": 1,
+        "scene": "RecoveredForest",
+        "dirty": false,
+        "buildScenes": [
+          "Assets/Recovery/Scenes/RecoveredSettings.unity",
+          "Assets/Recovery/Scenes/RecoveredForest.unity",
+          "Assets/Recovery/Scenes/RecoveredJoystick.unity"
+        ],
+        "cat": true,
+        "joystick": true,
+        "rb": true,
+        "anim": true,
+        "autoMoveOriginal": true,
+        "constraints": "116"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

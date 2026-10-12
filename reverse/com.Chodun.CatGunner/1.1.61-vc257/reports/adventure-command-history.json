@@ -1,0 +1,48 @@
+{
+  "target": "com.Chodun.CatGunner1.1.61/vc257/arm64; wrong root XAPK excluded",
+  "checkpoint": "../checkpoints/pre-adventure-client",
+  "historical_failures": [
+    {
+      "report": "live-adventure-red-status.json",
+      "kind": "Actual1/1 model missing baseline"
+    },
+    {
+      "report": "live-adventure-focused-first-status.json",
+      "kind": "Actual6/8: popup runtime owner missing; expected28 vs native float27 corrected in fixture"
+    },
+    {
+      "report": "live-adventure-focused-second-status.json",
+      "kind": "Actual7/8: test pointer targeted fullscreen button center covered by result panel"
+    },
+    {
+      "report": "live-adventure-focused-third-status.json",
+      "kind": "Actual7/8: real original tab blocked by merged preview sibling order"
+    },
+    {
+      "report": "adventure-panel-order-command.json",
+      "kind": "IPC5sec timeout; separate persisted order-repair report proves Editor API save completed"
+    },
+    {
+      "report": "adventure-interrupted-regression.json",
+      "kind": "First full run interrupted when target Editor exited; no final report; not passed or gameplay-failed"
+    }
+  ],
+  "command_syntax_corrections": [
+    "refresh is not a registered command; use eval AssetDatabase.Refresh",
+    "filter_type class invalid; use testName/assembly",
+    "eval_file requires --file pointing to .cs, .txt rejected",
+    "noreturn argument is verified-noreturn.tsv; references path must exist before Ghidra export",
+    "eval Json self-referencing Vector normalized property avoided with scalar x/y",
+    "py_compile outside-workspace cache write rejected by filesystem; source compile() syntax checked without writes"
+  ],
+  "asset_recovery": {
+    "original_meta_issue": "Writing source .meta before .cs caused Editor regeneration; restored exact14original metas only after corresponding .cs existed",
+    "source_preservation": "No edits to frozenMain/native/metadata; scene integration/order only through Editor APIs",
+    "runtime_reference": "Original petSelect.enter_popup was serialized null; native Enter.Open assigns owner at runtime"
+  },
+  "completed_focused": "live-adventure-focused-final-status.json",
+  "resumed_full_start": "live-adventure-assembly-resumed-start.json",
+  "full_acceptance": "live-adventure-assembly-final-status.json: actual completed131/131,808.07seconds",
+  "player_device_git": "No Player build/device whole visuals/Git commit/push in this continuation",
+  "handoff": "adventure-editor-handoff.json"
+}

@@ -1,0 +1,161 @@
+{
+  "rule": 65,
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "updatedUtc": "2026-10-11T19:08:14.978824+00:00",
+  "sourceContract": "mission-text-source-contract.json",
+  "staticBindings": 96,
+  "staticTerms": 13,
+  "taskTerms": 8,
+  "locales": 14,
+  "uniqueTermLocaleValues": 294,
+  "taskRows": 23,
+  "nativeQueries": 9,
+  "nativeCount": {
+    "before": 943,
+    "after": 946,
+    "new": 3
+  },
+  "tests": [
+    {
+      "report": "mission-text-final-validation.json",
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 33.73
+    },
+    {
+      "report": "mission-text-mission-regression.json",
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 47.29
+    },
+    {
+      "report": "mission-text-startup-regression.json",
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 24.8
+    }
+  ],
+  "attempts": [
+    "mission-text-baseline-validation.json",
+    "mission-text-first-validation.json",
+    "mission-text-corrected-validation.json"
+  ],
+  "attemptExplanation": "Baseline0/1 proved source Korean numbered task title remained at Chinese startup. First2/4: one incorrect fixture expected Claim reward instead of shipped Claim; one production duplicate-sibling collision. Full final batch rerun; no combined partial passes.",
+  "visuals": [
+    {
+      "path": "visual/mission-text-daily-gpu.png",
+      "sha256": "07ca1b7a75ba5c518f5cd8468319217ab969f3abc6890c5a11d7b2328f02f656",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/mission-text-claimed-gpu.png",
+      "sha256": "c57c5764cbf0b84a0a90b1aefe65e511c77752f8d1f2005427335e75a10311f9",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/mission-text-passes-gpu.png",
+      "sha256": "e24a603ef10915f207dee26c9421dba73f0574d55449b36d7644849ebf018eb4",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/mission-text-season-gpu.png",
+      "sha256": "109992dda34098c787a3fd0e9a4c91180e54d9b114881180e8a25ef0309627fa",
+      "actuallyViewed": true
+    }
+  ],
+  "preservation": "mission-text-preservation.json",
+  "fontCache": "mission-text-font-cache.json",
+  "historicalReports": "../checkpoints/mission-text-before/historical/manifest.json",
+  "handoff": {
+    "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+    "version": "6000.4.10f1",
+    "dirty": false,
+    "playing": false,
+    "paused": false,
+    "compiling": false,
+    "compilationFailed": false,
+    "objects": 35954,
+    "missingScripts": 0,
+    "persist": true,
+    "saveFolderOverride": null,
+    "testHostFolder": "",
+    "localAdSimulation": true,
+    "localPurchaseSimulation": true,
+    "timeScale": 1.0,
+    "inputOverrides": 0,
+    "userFillPPU": 10.0,
+    "fillHeight": 37.0,
+    "buildScenes": [
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredBullets.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForest.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestHUD.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestProgress.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredJoystick.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredSettings.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredTarget.unity",
+        "enabled": true
+      }
+    ]
+  },
+  "console": {
+    "currentErrors": 0,
+    "currentWarnings": 2,
+    "history": "mission-text-error-history.json",
+    "notes": "Console not cleared; current status separate from historical tests/tools."
+  },
+  "sources": {
+    "Assets/Recovery/Scripts/OriginalMissionText.cs": "9b29bee91414eba84c34063702693e8abb0827819d88f454592725757edec364",
+    "Assets/Recovery/Scripts/Mission_Item_UI.cs": "9d511c6164997bf70a292cca0a6406f3763b5f2d9298abb9a6a3e38a65a5fde3",
+    "Assets/Recovery/Scripts/RecoveryClientPresentation.cs": "6d1bbe9dcb72a35f5c94aee479892f158ed84ba3e9414aacce08b38e4d365f7c",
+    "Assets/Recovery/Resources/OriginalMissionText.json": "9aa16ae389b0d57220a3011a91a33a3a0eb3f486fcf3f41fec90f67304bfd315",
+    "Assets/Recovery/Tests/PlayMode/OriginalMissionTextTests.cs": "28396f90c40a71715ff5a4b5d81c0e9ec6790a1cf0d5da5889daf7c51d36c72a"
+  },
+  "adapters": [
+    "Selected source primary terms, system-language mapping and existing Chinese source font/material adapter; not full I2 lifecycle or pixel equality",
+    "Source duplicate-name siblings resolved by original relative ordinal; no scene/prefab/layout edits",
+    "Existing task claim, both progress bars and save cold reload verified; not newly restored gameplay or physical-device acceptance",
+    "Pass and new-season popups were directly displayed in an isolated fixture for text/glyph/geometry checks; this slice does not claim full season gating, original purchase state parity, or all popup navigation. Three frozen gun preview type labels still show source Korean and remain pending"
+  ],
+  "scopeComplete": false,
+  "playerBuild": false,
+  "deviceAcceptance": false,
+  "gitDelivery": false
+}

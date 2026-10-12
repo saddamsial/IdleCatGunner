@@ -1,0 +1,58 @@
+{
+  "identity": {
+    "file": "globalgamemanagers.assets",
+    "path_id": 3948,
+    "type_index": 9920,
+    "type": "UnityEngine.Rendering.Universal.Tonemapping",
+    "game_object": "Tonemapping"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": 2341
+    },
+    "m_Name": "Tonemapping",
+    "active": true,
+    "mode": {
+      "m_OverrideState": true,
+      "m_Value": 0
+    },
+    "neutralHDRRangeReductionMode": {
+      "m_OverrideState": true,
+      "m_Value": 2
+    },
+    "acesPreset": {
+      "m_OverrideState": true,
+      "m_Value": 3
+    },
+    "hueShiftAmount": {
+      "m_OverrideState": true,
+      "m_Value": 0.0
+    },
+    "detectPaperWhite": {
+      "m_OverrideState": true,
+      "m_Value": false
+    },
+    "paperWhite": {
+      "m_OverrideState": true,
+      "m_Value": 300.0
+    },
+    "detectBrightnessLimits": {
+      "m_OverrideState": true,
+      "m_Value": true
+    },
+    "minNits": {
+      "m_OverrideState": true,
+      "m_Value": 0.004999999888241291
+    },
+    "maxNits": {
+      "m_OverrideState": true,
+      "m_Value": 1000.0
+    }
+  }
+}

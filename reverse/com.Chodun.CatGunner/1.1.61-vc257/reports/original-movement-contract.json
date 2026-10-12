@@ -1,0 +1,47 @@
+{
+  "movement_sq_threshold": {
+    "preferred_va": "0x106c200",
+    "bytes": "17b7d138",
+    "floats": [
+      9.999999747378752e-05
+    ]
+  },
+  "left_xy": {
+    "preferred_va": "0x1070308",
+    "bytes": "00002042000034c2",
+    "floats": [
+      40.0,
+      -45.0
+    ]
+  },
+  "right_xy": {
+    "preferred_va": "0x106fa80",
+    "bytes": "000020c200000743",
+    "floats": [
+      -40.0,
+      135.0
+    ]
+  },
+  "movement_yaw": {
+    "preferred_va": "0x106c0e0",
+    "bytes": "db0f49bf",
+    "floats": [
+      -0.7853981852531433
+    ]
+  },
+  "pitch_sin": {
+    "preferred_va": "0x106c1b8",
+    "bytes": "3acd133f",
+    "floats": [
+      0.5773502588272095
+    ]
+  },
+  "screen_speed_k": {
+    "value": 1.2000000476837158,
+    "evidence": "Cat::.cctor ASM w0x3f99999a; static offset0x60"
+  },
+  "method": "Cat.HandleMovement 0x2b3aa78",
+  "verification": "ASM vector-return register review; preserves old velocity Y in idle and moving paths",
+  "integration_difference": "ForestMovementAcceptance preserves isolated manual acceptance; active ForestCombatAcceptance orders forest hero target/auto-or-manual movement/aim/cooldown. Full Cat.Update other modes/AI/manager dependencies remain pending.",
+  "forest_auto_movement_contract": "original-auto-move-contract.json"
+}

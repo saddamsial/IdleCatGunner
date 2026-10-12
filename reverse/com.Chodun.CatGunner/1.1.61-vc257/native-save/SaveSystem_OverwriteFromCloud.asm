@@ -1,0 +1,87 @@
+02c175cc  str x30,[sp, #-0x30]!
+02c175d0  stp x22,x21,[sp, #0x10]
+02c175d4  stp x20,x19,[sp, #0x20]
+02c175d8  adrp x20,0x625b000
+02c175dc  mov x19,x0
+02c175e0  ldrb w8,[x20, #0xefa]
+02c175e4  tbnz w8,#0x0,0x02c17614
+02c175e8  adrp x0,0x5e62000
+02c175ec  ldr x0,[x0, #0x6e8]
+02c175f0  bl 0x029f5a50
+02c175f4  adrp x0,0x5e62000
+02c175f8  ldr x0,[x0, #0x6f0]
+02c175fc  bl 0x029f5a50
+02c17600  adrp x0,0x5e62000
+02c17604  ldr x0,[x0, #0x6f8]
+02c17608  bl 0x029f5a50
+02c1760c  mov w8,#0x1
+02c17610  strb w8,[x20, #0xefa]
+02c17614  mov x0,x19
+02c17618  mov x1,xzr
+02c1761c  bl 0x046c0604
+02c17620  tbz w0,#0x0,0x02c1762c
+02c17624  mov w0,wzr
+02c17628  b 0x02c17718
+02c1762c  bl 0x02c16848
+02c17630  mov x1,xzr
+02c17634  bl 0x048111a4
+02c17638  tbnz w0,#0x0,0x02c17648
+02c1763c  bl 0x02c16848
+02c17640  mov x1,xzr
+02c17644  bl 0x04811018
+02c17648  bl 0x02c16848
+02c1764c  adrp x8,0x5e62000
+02c17650  ldr x8,[x8, #0x6f0]
+02c17654  ldr x1,[x8]
+02c17658  mov x2,xzr
+02c1765c  bl 0x046b2d44
+02c17660  mov x20,x0
+02c17664  bl 0x02c16848
+02c17668  adrp x8,0x5e62000
+02c1766c  ldr x8,[x8, #0x6e8]
+02c17670  ldr x1,[x8]
+02c17674  mov x2,xzr
+02c17678  bl 0x046b2d44
+02c1767c  mov x21,x0
+02c17680  bl 0x02c16848
+02c17684  adrp x8,0x5e62000
+02c17688  ldr x8,[x8, #0x6f8]
+02c1768c  ldr x1,[x8]
+02c17690  mov x2,xzr
+02c17694  bl 0x046b2d44
+02c17698  mov x22,x0
+02c1769c  mov x0,x21
+02c176a0  mov x1,x19
+02c176a4  mov x2,xzr
+02c176a8  bl 0x04812818
+02c176ac  mov x0,x20
+02c176b0  mov x1,xzr
+02c176b4  bl 0x048048bc
+02c176b8  tbz w0,#0x0,0x02c176e8
+02c176bc  mov x0,x22
+02c176c0  mov x1,xzr
+02c176c4  bl 0x048048bc
+02c176c8  tbz w0,#0x0,0x02c176d8
+02c176cc  mov x0,x22
+02c176d0  mov x1,xzr
+02c176d4  bl 0x048122f4
+02c176d8  mov x0,x20
+02c176dc  mov x1,x22
+02c176e0  mov x2,xzr
+02c176e4  bl 0x0481357c
+02c176e8  mov x0,x20
+02c176ec  mov x1,xzr
+02c176f0  bl 0x048048bc
+02c176f4  tbz w0,#0x0,0x02c17704
+02c176f8  mov x0,x20
+02c176fc  mov x1,xzr
+02c17700  bl 0x048122f4
+02c17704  mov x0,x21
+02c17708  mov x1,x20
+02c1770c  mov x2,xzr
+02c17710  bl 0x0481357c
+02c17714  mov w0,#0x1
+02c17718  ldp x20,x19,[sp, #0x20]
+02c1771c  ldp x22,x21,[sp, #0x10]
+02c17720  ldr x30,[sp], #0x30
+02c17724  ret

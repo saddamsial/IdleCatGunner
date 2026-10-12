@@ -1,0 +1,90 @@
+{
+  "status": "completed",
+  "duration": 65.23,
+  "summary": {
+    "total": 11,
+    "passed": 11,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalStarGemPigRulesTests.ChangedWeekResetsPigOnlyAndPreservesWalletAndSimulationLedger",
+      "Status": "Passed",
+      "Duration": 0.1459994,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalStarGemPigRulesTests.NativeCapLoadNormalizationAndPositiveAddsAreExact",
+      "Status": "Passed",
+      "Duration": 0.0006494,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalStarGemPigRulesTests.NativeRewardCallbackValidatesLevelAndOnlyResetsMatchingTier",
+      "Status": "Passed",
+      "Duration": 0.1385613,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalStarGemPigRulesTests.TwoTwoOneRewardsAreSixThousandEightHundredTwentyAndStopAccumulation",
+      "Status": "Passed",
+      "Duration": 0.0002606,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalStarGemPigTests.CancelledEntryDoesNotFillAndRealProjectilesFillFiftyPlusTwentyFivePerBar",
+      "Status": "Passed",
+      "Duration": 19.1407968,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalStarGemPigTests.ColdReloadRestoresUnclaimedAmountLevelAndPurchaseCount",
+      "Status": "Passed",
+      "Duration": 11.5994021,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalStarGemPigTests.DisabledSimulationCancelAndDuplicateKeepAccumulationAndWallet",
+      "Status": "Passed",
+      "Duration": 5.683836,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalStarGemPigTests.FiveOriginalCashClicksAdvanceTwoTwoOneAndShowSoldOut",
+      "Status": "Passed",
+      "Duration": 8.1356407,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalStarGemPigTests.LocalCalendarObserverResetsOpenPageAndRejectsPendingOldLevelPurchase",
+      "Status": "Passed",
+      "Duration": 7.1035919,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalStarGemPigTests.OriginalHudOpensLockedPageAndOriginalCloseButtonReturns",
+      "Status": "Passed",
+      "Duration": 7.1168249,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalStarGemPigTests.OriginalPigControllerIsConnected",
+      "Status": "Passed",
+      "Duration": 5.6649845,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

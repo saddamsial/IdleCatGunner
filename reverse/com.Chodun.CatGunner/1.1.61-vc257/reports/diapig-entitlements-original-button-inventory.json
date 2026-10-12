@@ -1,0 +1,88 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var p=UnityEngine.Object.FindAnyObjectByType<DiaPig>(UnityEngine.FindObjectsInactive.Include);return p.diapig_ui.GetComponentsInChildren<UnityEngine.UI.Button>(true).Select(b=>new {name=b.name,parent=b.transform.parent.name,methods=Enumerable.Range(0,b.onClick.GetPersistentEventCount()).Select(i=>new{method=b.onClick.GetPersistentMethodName(i),target=b.onClick.GetPersistentTarget(i)?.GetType().Name}).ToArray()}).ToArray();"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": [
+        {
+          "name": "Background",
+          "parent": "DiaPig_UI",
+          "methods": [
+            {
+              "method": "SetActive",
+              "target": "GameObject"
+            }
+          ]
+        },
+        {
+          "name": "Locked_obj",
+          "parent": "Panel",
+          "methods": [
+            {
+              "method": "SetActive",
+              "target": "GameObject"
+            },
+            {
+              "method": "Purchase",
+              "target": "RecoveryLocalPurchaseButton"
+            }
+          ]
+        },
+        {
+          "name": "DiaGet_Btn",
+          "parent": "Unlock_obj",
+          "methods": [
+            {
+              "method": "Dia_Get",
+              "target": "DiaPig"
+            }
+          ]
+        },
+        {
+          "name": "Close_Btn",
+          "parent": "Panel",
+          "methods": [
+            {
+              "method": "SetActive",
+              "target": "GameObject"
+            }
+          ]
+        },
+        {
+          "name": "Remove_AD_All",
+          "parent": "Remove Ads ALL (Inapp)",
+          "methods": [
+            {
+              "method": "Purchase",
+              "target": "RecoveryLocalPurchaseButton"
+            }
+          ]
+        },
+        {
+          "name": "Remove_AD_Forced",
+          "parent": "Remove Ads Fored (Inapp)",
+          "methods": [
+            {
+              "method": "Purchase",
+              "target": "RecoveryLocalPurchaseButton"
+            }
+          ]
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

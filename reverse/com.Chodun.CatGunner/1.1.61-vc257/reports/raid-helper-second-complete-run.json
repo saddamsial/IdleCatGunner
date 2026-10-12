@@ -1,0 +1,83 @@
+{
+  "status": "completed",
+  "duration": 81.7,
+  "summary": {
+    "total": 10,
+    "passed": 9,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalRaidHelperTests.MidRaidPurchaseActivatesOnceAndSeasonExpiryHidesHelperWithoutErasingRecord",
+      "Status": "Failed",
+      "Duration": 11.3367257,
+      "Message": "  expired helper combat visibility\n  Expected: False\n  But was:  True\n",
+      "StackTrace": "at OriginalRaidHelperTests+<MidRaidPurchaseActivatesOnceAndSeasonExpiryHidesHelperWithoutErasingRecord>d__18.MoveNext () [0x001f7] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalRaidHelperTests.cs:94\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalRaidHelperTests.NativeGunSearchAndVerifiedSevenTypeFallbackAreExact",
+      "Status": "Passed",
+      "Duration": 5.8381602,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalRaidHelperTests.NativeMinimumIncludesEmptyWeaponSlotAndZeroLength",
+      "Status": "Passed",
+      "Duration": 5.8590164,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalRaidHelperTests.NativeMinimumStarsWeakDamageAndCriticalReachOriginalFourthCat",
+      "Status": "Passed",
+      "Duration": 9.9946874,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalRaidHelperTests.NativeSeasonSentinelAndMondayBoundaryAreExact",
+      "Status": "Passed",
+      "Duration": 5.7890031,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalRaidHelperTests.OnlyHelperNaturallyShootsBossAndMovesWithoutJoystickInput",
+      "Status": "Passed",
+      "Duration": 10.5458385,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalRaidHelperTests.OriginalFourthCatIsPresentAndLockedOutsideRaid",
+      "Status": "Passed",
+      "Duration": 5.8502059,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalRaidHelperTests.OriginalSlotOpensPopupAndOriginalCashButtonGrantsOnlyCurrentSeason",
+      "Status": "Passed",
+      "Duration": 8.3707717,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalRaidHelperTests.PurchaseColdReloadRestoresEntitlementWithoutSpawningForestHelper",
+      "Status": "Passed",
+      "Duration": 11.6502671,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalRaidHelperTests.SimulationGateCancellationAndDuplicateDoNotGrantWeaponsOrSeason",
+      "Status": "Passed",
+      "Duration": 6.0080416,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

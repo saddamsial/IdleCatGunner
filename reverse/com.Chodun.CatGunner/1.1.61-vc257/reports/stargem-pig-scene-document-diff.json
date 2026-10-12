@@ -1,0 +1,110 @@
+{
+  "oldDocuments": 133432,
+  "newDocuments": 133435,
+  "preservedExistingIdentities": 133432,
+  "removedExistingIdentities": 0,
+  "newOriginalObjects": 0,
+  "existingChanges": [
+    {
+      "oldId": "693",
+      "newId": "693",
+      "type": 1,
+      "name": "StarGem_Pig",
+      "script": null,
+      "differences": [
+        "--- \n",
+        "+++ \n",
+        "@@ -9,0 +10 @@\n",
+        "+  - component: {fileID: 533259307}"
+      ]
+    },
+    {
+      "oldId": "718",
+      "newId": "718",
+      "type": 1,
+      "name": "StarPig_Btn",
+      "script": null,
+      "differences": [
+        "--- \n",
+        "+++ \n",
+        "@@ -14,0 +15 @@\n",
+        "+  - component: {fileID: 1901606343}"
+      ]
+    },
+    {
+      "oldId": "1664",
+      "newId": "1664",
+      "type": 1,
+      "name": "StarGemPig_UI",
+      "script": null,
+      "differences": [
+        "--- \n",
+        "+++ \n",
+        "@@ -9,0 +10 @@\n",
+        "+  - component: {fileID: 104230}"
+      ]
+    },
+    {
+      "oldId": "123807",
+      "newId": "123807",
+      "type": 114,
+      "name": "StarPig_Btn",
+      "script": "4e29b1a8efbd4b44bb3f3716e73f07ff",
+      "differences": [
+        "--- \n",
+        "+++ \n",
+        "@@ -40 +40 @@\n",
+        "-  m_Interactable: 0",
+        "+  m_Interactable: 1",
+        "@@ -45,2 +45,2 @@\n",
+        "-      - m_Target: {fileID: 0}",
+        "-        m_TargetAssemblyTypeName: StarGem_Pig_HUD, Assembly-CSharp",
+        "+      - m_Target: {fileID: 1901606343}",
+        "+        m_TargetAssemblyTypeName: StarGem_Pig_HUD, CatGunner.Recovery",
+        "@@ -48 +48 @@\n",
+        "-        m_Mode: 1",
+        "+        m_Mode: 0",
+        "@@ -51 +51 @@\n",
+        "-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine",
+        "+          m_ObjectArgumentAssemblyTypeName: "
+      ]
+    },
+    {
+      "oldId": "124439",
+      "newId": "124439",
+      "type": 114,
+      "name": "Purchase_Btn",
+      "script": "4e29b1a8efbd4b44bb3f3716e73f07ff",
+      "differences": [
+        "--- \n",
+        "+++ \n",
+        "@@ -45,3 +45,3 @@\n",
+        "-      - m_Target: {fileID: 124443}",
+        "-        m_TargetAssemblyTypeName: RecoveryLocalPurchaseButton, CatGunner.Recovery",
+        "-        m_MethodName: Purchase",
+        "+      - m_Target: {fileID: 104230}",
+        "+        m_TargetAssemblyTypeName: StarGem_Pig_UI, CatGunner.Recovery",
+        "+        m_MethodName: onClick_Purchase"
+      ]
+    },
+    {
+      "oldId": "124873",
+      "newId": "124873",
+      "type": 114,
+      "name": "Tree_manager",
+      "script": "bab892657d9fc4e34a43a11a63ba6aec",
+      "differences": [
+        "--- \n",
+        "+++ \n",
+        "@@ -44,0 +45 @@\n",
+        "+  StarGemPig: {fileID: 533259307}"
+      ]
+    }
+  ],
+  "editorLocalIdRemapping": {},
+  "layoutSerializationRepairsNeeded": 0,
+  "rectSerializationRows": 1,
+  "scopedFieldValidation": true,
+  "newOriginalComponents": 3,
+  "semanticallyUnchangedExistingDocuments": 133426
+}

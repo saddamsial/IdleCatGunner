@@ -1,0 +1,108 @@
+{
+  "cats": [
+    {
+      "path": "Cat_manager/Cat",
+      "components": [
+        "UnityEngine.Transform",
+        "UnityEngine.SpriteRenderer",
+        "UnityEngine.Animator",
+        "UnityEngine.Rendering.SortingGroup",
+        "UnityEngine.U2D.Animation.SpriteSkin"
+      ]
+    },
+    {
+      "path": "Cat_manager/Cat (1)",
+      "components": [
+        "UnityEngine.Transform",
+        "UnityEngine.SpriteRenderer",
+        "UnityEngine.Animator",
+        "UnityEngine.Rendering.SortingGroup"
+      ]
+    },
+    {
+      "path": "Cat_manager/Cat (2)",
+      "components": [
+        "UnityEngine.Transform",
+        "UnityEngine.SpriteRenderer",
+        "UnityEngine.Animator",
+        "UnityEngine.Rendering.SortingGroup"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "p": "Canvas/SafeArea/Main_UI/Btn_list/Right_Menu",
+      "components": [
+        "UnityEngine.RectTransform",
+        "UnityEngine.UI.VerticalLayoutGroup",
+        "UnityEngine.UI.ContentSizeFitter"
+      ]
+    },
+    {
+      "p": "Canvas/SafeArea/Main_UI/Btn_list/Left_Menu",
+      "components": [
+        "UnityEngine.RectTransform",
+        "UnityEngine.UI.VerticalLayoutGroup",
+        "UnityEngine.UI.ContentSizeFitter"
+      ]
+    },
+    {
+      "p": "Canvas/SafeArea/Main_UI/Currency",
+      "components": [
+        "UnityEngine.RectTransform",
+        "Currency"
+      ]
+    },
+    {
+      "p": "Canvas/SafeArea/SpeedRun_UI/Currency",
+      "components": [
+        "UnityEngine.RectTransform"
+      ]
+    },
+    {
+      "p": "Canvas/SafeArea/Boss_UI/Currency",
+      "components": [
+        "UnityEngine.RectTransform"
+      ]
+    },
+    {
+      "p": "Canvas/SafeArea/Raid_UI/Currency",
+      "components": [
+        "UnityEngine.RectTransform"
+      ]
+    },
+    {
+      "p": "Canvas/SafeArea/Mission_maanger/Mission_UI/TopBar/Currency",
+      "components": [
+        "UnityEngine.RectTransform",
+        "Currency"
+      ]
+    },
+    {
+      "p": "Canvas/SafeArea/DailyCheck/DailyCheck_empty/Top/Currency",
+      "components": [
+        "UnityEngine.RectTransform",
+        "Currency"
+      ]
+    },
+    {
+      "p": "Canvas/SafeArea/Gun_UI  (SafeArea)/GunList_UI/Panel/Menu (Gun List)/Currency",
+      "components": [
+        "UnityEngine.RectTransform"
+      ]
+    },
+    {
+      "p": "Canvas/SafeArea/Pet_UI (SafeArea)/Pet_UI/Panel/Currency",
+      "components": [
+        "UnityEngine.RectTransform"
+      ]
+    },
+    {
+      "p": "Canvas/SafeArea/Shop_UI/Panel/TopBar/Currency",
+      "components": [
+        "UnityEngine.RectTransform",
+        "Currency"
+      ]
+    }
+  ]
+}

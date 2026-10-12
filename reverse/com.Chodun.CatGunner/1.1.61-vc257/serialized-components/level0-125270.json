@@ -1,0 +1,41 @@
+{
+  "identity": {
+    "file": "level0",
+    "path_id": 125270,
+    "type_index": 7235,
+    "type": "Admob",
+    "game_object": "Admob"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 1921
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 1653
+    },
+    "m_Name": "",
+    "is_AD_Disable_Version": false,
+    "is_Interstitial_Disable": false,
+    "isTestMode": false,
+    "AD_Cool": 0.0,
+    "adLoadingPanel": {
+      "m_FileID": 0,
+      "m_PathID": 2150
+    },
+    "adLoadTimeout": 12.0,
+    "bannerPlaceholder": {
+      "m_FileID": 0,
+      "m_PathID": 104614
+    },
+    "interLoadingPanel": {
+      "m_FileID": 0,
+      "m_PathID": 2150
+    },
+    "interLoadingSeconds": 1.2000000476837158,
+    "interLoadMaxAttempts": 1,
+    "interLoadWaitPerAttempt": 3.0
+  }
+}

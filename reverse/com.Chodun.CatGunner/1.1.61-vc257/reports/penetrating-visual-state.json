@@ -1,0 +1,22 @@
+{
+  "health_before": "250",
+  "health_after": "50",
+  "gun": 19,
+  "type": "LASER",
+  "damage": "200",
+  "critical_damage": "250",
+  "chance": 0.0,
+  "interval": 1.0,
+  "requested_lifetime": 2.0,
+  "active_bullets": 1,
+  "live_bullets": 1,
+  "target_found": true,
+  "active_fx": 3,
+  "source": "OriginalGun19 LASER damage200/critical250/chance0/interval1/requested lifetime2; no direct player amount injection",
+  "fixture": "Selected slot19; original250-health tree repositioned; other trees hidden and pool reset; no ownership grant/save",
+  "paused_for_capture": true,
+  "capture_path": "visual/forest-laser-impact.png",
+  "capture_sha256": "ba71d3041ccac3e5b0c1091cc2a2fca853347d759b45d45b97cf4d293815ae66",
+  "review": "GameView reviewed: original forest/cat/Gun19/green projectile+impact and 50/250 healthbar visible; particle compatibility material remains independent, no full original visual parity",
+  "fx_count_note": "Capture does not reset preexisting startup FX; count3 is not a per-projectile FX count. Isolated PlayMode test checks first enemy FX only."
+}

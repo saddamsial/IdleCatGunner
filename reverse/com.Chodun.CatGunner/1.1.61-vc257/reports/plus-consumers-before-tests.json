@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "duration": 23.33,
+  "summary": {
+    "total": 2,
+    "passed": 0,
+    "failed": 2,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "PlusPackRecoveryTests.PurchasedRewardPackDoublesNaturalBossWinAndPersists",
+      "Status": "Failed",
+      "Duration": 16.3986403,
+      "Message": "  Expected: 300\n  But was:  150\n",
+      "StackTrace": "at PlusPackRecoveryTests+<PurchasedRewardPackDoublesNaturalBossWinAndPersists>d__8.MoveNext () [0x0010d] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/PlusPackRecoveryTests.cs:22\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "PlusPackRecoveryTests.PurchasedTimePackDoublesNextForestRound",
+      "Status": "Failed",
+      "Duration": 6.6799093,
+      "Message": "  Expected: 360\n  But was:  180.0f\n",
+      "StackTrace": "at PlusPackRecoveryTests+<PurchasedTimePackDoublesNextForestRound>d__7.MoveNext () [0x0004a] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/PlusPackRecoveryTests.cs:21\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    }
+  ]
+}

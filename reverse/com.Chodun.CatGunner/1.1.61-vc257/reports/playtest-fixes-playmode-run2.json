@@ -1,0 +1,132 @@
+{
+  "status": "completed",
+  "duration": 82.18,
+  "summary": {
+    "total": 17,
+    "passed": 10,
+    "failed": 7,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalPlayableRecoveryTests.AdSimulationSupportsDailyGunAndFishButCancelsDisabledOrRepeatedCallbacks",
+      "Status": "Passed",
+      "Duration": 7.9400449,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.AdventureAdReduces30MinutesTwicePerDayAndColdPersists",
+      "Status": "Failed",
+      "Duration": 5.9890909,
+      "Message": "  Expected: 2026-10-12 11:30:00.000\n  But was:  2026-10-12 12:00:00.000\n",
+      "StackTrace": "at OriginalPlayableRecoveryTests+<AdventureAdReduces30MinutesTwicePerDayAndColdPersists>d__27.MoveNext () [0x001be] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalPlayableRecoveryTests.cs:125\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.BossBonusRealClickAdds300OnceAndRendersGround",
+      "Status": "Failed",
+      "Duration": 7.8648337,
+      "Message": "  Top hit: Floating Joystick\n  Expected: same as <Bonus_Btn (UnityEngine.UI.Button)>\n  But was:  null\n",
+      "StackTrace": "at OriginalPlayableRecoveryTests+<Click>d__17.MoveNext () [0x0011d] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalPlayableRecoveryTests.cs:68\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.DailyAdInventoryRetainsProgressionDayCapacityAndCurrencyGates",
+      "Status": "Passed",
+      "Duration": 0.2646292,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.FullSeasonConfirmButtonResetsClaimsCountersScrollAndColdSave",
+      "Status": "Failed",
+      "Duration": 6.2834056,
+      "Message": "  Expected: 1\n  But was:  0\n",
+      "StackTrace": "at OriginalPlayableRecoveryTests+<FullSeasonConfirmButtonResetsClaimsCountersScrollAndColdSave>d__26.MoveNext () [0x001d8] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalPlayableRecoveryTests.cs:119\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.MineBonusAddsThreeTimesBaseOnce",
+      "Status": "Failed",
+      "Duration": 7.3328068,
+      "Message": "  Top hit: Floating Joystick\n  Expected: same as <Bonus_Btn (UnityEngine.UI.Button)>\n  But was:  null\n",
+      "StackTrace": "at OriginalPlayableRecoveryTests+<Click>d__17.MoveNext () [0x0011d] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalPlayableRecoveryTests.cs:68\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.MonsterBonusAddsAccumulatedCoinOnceAndRendersGround",
+      "Status": "Failed",
+      "Duration": 7.9863497,
+      "Message": "  Top hit: Floating Joystick\n  Expected: same as <Bonus_Btn (UnityEngine.UI.Button)>\n  But was:  null\n",
+      "StackTrace": "at OriginalPlayableRecoveryTests+<Click>d__17.MoveNext () [0x0011d] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalPlayableRecoveryTests.cs:68\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.NativeDailyFirstRewardIs70WhileNewWalletIsZero",
+      "Status": "Passed",
+      "Duration": 0.2033897,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.OfflineNativeFarmHasIndependentKnownOracleAndDoesNotAdvanceFrontier",
+      "Status": "Passed",
+      "Duration": 0.2373171,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.OfflineSimulationUsesSelectedWeaponKindsTraversalAndStageTimeLimit",
+      "Status": "Passed",
+      "Duration": 0.18056,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.OfflineTimeUses30SecondMinimum8HourCapAndRejectsInvalidOrFutureTime",
+      "Status": "Passed",
+      "Duration": 0.1811553,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.RaidAdEntryUsesOneAdditionalDailyEntryWithoutChangingFreeQuota",
+      "Status": "Failed",
+      "Duration": 5.7031883,
+      "Message": "  Top hit: Floating Joystick\n  Expected: same as <Enter_Btn (AD) (UnityEngine.UI.Button)>\n  But was:  null\n",
+      "StackTrace": "at OriginalPlayableRecoveryTests+<Click>d__17.MoveNext () [0x0011d] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalPlayableRecoveryTests.cs:68\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.Real100DiamondButtonShowsInsufficientBalanceThenSpawnsWeaponAndColdSaves",
+      "Status": "Passed",
+      "Duration": 6.1322207,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.SeasonBootstrapStaysZeroThenManualCappedResetClearsBothTracksAndCounters",
+      "Status": "Passed",
+      "Duration": 0.2648104,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.SeasonExpiryUsesDateBoundaryAndReloadCannotIncrementTwice",
+      "Status": "Passed",
+      "Duration": 0.2180405,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.SpeedRunOriginalRewardAdGivesBonusOnceAndAllChallengeMaterialsRender",
+      "Status": "Failed",
+      "Duration": 7.8244792,
+      "Message": "  Top hit: Floating Joystick\n  Expected: same as <Bonus_Btn (UnityEngine.UI.Button)>\n  But was:  null\n",
+      "StackTrace": "at OriginalPlayableRecoveryTests+<Click>d__17.MoveNext () [0x0011d] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalPlayableRecoveryTests.cs:68\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.StartupOfflinePanelCommitsOnceAndColdReloadDoesNotAwardAgain",
+      "Status": "Passed",
+      "Duration": 17.3862782,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 32.99,
+      "summary": {
+        "total": 7,
+        "passed": 6,
+        "failed": 1,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalSafeTests.DepositAndWithdrawPreserveDuplicatesCountsAndAutomaticPause",
+          "Status": "Passed",
+          "Duration": 0.0141422,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalSafeTests.FullAdStaleInvalidAndInsufficientTransactionsAreAtomic",
+          "Status": "Passed",
+          "Duration": 0.0013606,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalSafeTests.IndependentSaveReloadRebirthAndRaidRetainStoredGuns",
+          "Status": "Passed",
+          "Duration": 19.9914414,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalSafeTests.LegacyExpansionAndMalformedProfilesPreserveInputBeforeMutation",
+          "Status": "Passed",
+          "Duration": 0.0111089,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalSafeTests.OriginalHudDragStoragePurchaseAndTakeOutUseRealRaycasts",
+          "Status": "Passed",
+          "Duration": 6.8952187,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalSafeTests.OriginalStageGateSixFreeSlotsAndSequentialDiamondPrices",
+          "Status": "Passed",
+          "Duration": 0.0025002,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalSafeTests.PauseGateAdStaleDetailsAndEquippedProtectionUseNativeContexts",
+          "Status": "Failed",
+          "Duration": 6.0259447,
+          "Message": "  Background | Hatch | GunItem_List | Hatch | Panel | Image\n  Expected: same as <Pause_Btn (UnityEngine.UI.Button)>\n  But was:  <Background (UnityEngine.UI.Button)>\n",
+          "StackTrace": "at OriginalSafeTests.Click (UnityEngine.UI.Button b) [0x0009f] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalSafeTests.cs:29\nat OriginalSafeTests+<PauseGateAdStaleDetailsAndEquippedProtectionUseNativeContexts>d__10.MoveNext () [0x001da] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalSafeTests.cs:86\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

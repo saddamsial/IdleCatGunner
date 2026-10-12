@@ -1,0 +1,233 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "businessMethods": 17,
+  "exceptionHelpers": 6,
+  "allQueriesCompleted": true,
+  "methods": [
+    {
+      "preferredVa": "0x2a80d74",
+      "end": "0x2a80ff8",
+      "name": "Gamemanager_Power_Boss_return",
+      "first16": "ffc307d1e923186dfdcb00f9fe6f1aa9",
+      "sha256": "1926b0bf4cadcd455a061e45b868b7720c2b336b81221efbf9bbc216b6abc419",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b39c0c",
+      "end": "0x2b39c30",
+      "name": "Cat_AtkCool_Boss_return",
+      "first16": "082440f9c80000b4004140bd21008052",
+      "sha256": "c6e792396b12533ef573a65eaa36d0a53ae72d8e2a3ae77f6c28ac0c8e5124d5",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b39c30",
+      "end": "0x2b3a200",
+      "name": "Cat_ExpectedDamage_Boss_return",
+      "first16": "fd0f1cf8fe5f01a9f65702a9f44f03a9",
+      "sha256": "7b06f7c831e8db7be9888b7d9543ff13feae38a8ae902596b9f1b5dd783f833a",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b46618",
+      "end": "0x2b4692c",
+      "name": "Boss_manager_Game_Win",
+      "first16": "ff8302d1fe5f07a9f65708a9f44f09a9",
+      "sha256": "f2f68645fd259c9c3997ce61d68bd10fafdd4bf0d6ba52fdd52058d57f99259f",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b46ab0",
+      "end": "0x2b46b1c",
+      "name": "Boss_manager_Loading_Then_Start",
+      "first16": "fe57bea9f44f01a9b4b001d0f59001b0",
+      "sha256": "74e3387d948276f04f9aa9cd88080c60b4e282b96d6bb2b4c434387fdab65cb0",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b46b9c",
+      "end": "0x2b46c20",
+      "name": "Boss_manager_Bonus_Get",
+      "first16": "fe0f1ef8f44f01a9b4b001d0f30300aa",
+      "sha256": "6310e74a6b1838b09dfd2a6a443d4dbfd4e1a9a3ec472df6e8e60485aa7f25ab",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b46c8c",
+      "end": "0x2b46e10",
+      "name": "Boss_manager_SweepRequiredPower_return",
+      "first16": "ff0304d1e9230c6dfe6b00f9f6570ea9",
+      "sha256": "01892d540871633f82fb80f45d47a84dd55c4764fdcc40c220ecd424461d2ea5",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b46ef8",
+      "end": "0x2b46f94",
+      "name": "Boss_manager_is_SweepAble",
+      "first16": "ff0302d1fe5706a9f44f07a9b5b001d0",
+      "sha256": "efe9bf6ba10e73bd47ca917a439e216939d49dfb318eeb1bb7f24286c61c0cb6",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b46f94",
+      "end": "0x2b47180",
+      "name": "Boss_manager_SweepValue_return",
+      "first16": "ffc305d1e8a300fdfd7b15a9f44f16a9",
+      "sha256": "1c7f74432024e4a7bb00ab60fb2f1f2980afb891f114a2e637433df801a96e35",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b47180",
+      "end": "0x2b4742c",
+      "name": "Boss_manager_Game_Sweep",
+      "first16": "fe0f1df8f65701a9f44f02a9b4b001b0",
+      "sha256": "fc473883fdc622f8950a49ae68162cf0dc6d2fe52b2dea6712eaca4352c873cc",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b47730",
+      "end": "0x2b47788",
+      "name": "Boss_manager_SweepBonus_AD_Show",
+      "first16": "fe0f1ef8f44f01a9b3b001b0b49001d0",
+      "sha256": "1e2307c0601edc6a93a8c5d01b4e6d4db94d242239da3d20a4f8c5ee6622ecfc",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b46c20",
+      "end": "0x2b46c8c",
+      "name": "Boss_manager_SweepBonus_Get",
+      "first16": "fe57bea9f44f01a9b5b001d0b49001f0",
+      "sha256": "14457b0d5cb97fe93f1accaf34a59fbfd0ead76b686eae43251c8fde5ec2febd",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b47788",
+      "end": "0x2b47888",
+      "name": "Boss_manager_Sweep_Close",
+      "first16": "fe0f1ef8f44f01a9b4b001b0f30300aa",
+      "sha256": "63064464f1c329e534422a96c6261af9e3a3f260de62e51b46964f102106ffb0",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b4742c",
+      "end": "0x2b47730",
+      "name": "Boss_Start_UI_Reload",
+      "first16": "ff0302d1fe2300f9f85f05a9f65706a9",
+      "sha256": "14fe8001d4f7df24cba5f311202af34dd76e97cba11a8ad5d3439cfb4f8166a4",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b4826c",
+      "end": "0x2b48310",
+      "name": "Boss_Start_UI_OnEnable",
+      "first16": "fe5fbda9f65701a9f44f02a9b6b00190",
+      "sha256": "17407ea19341e31d5c0db6c906bae9bbbfa68cd6c7c9a36a7d0dbc517d3c6c84",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b483b4",
+      "end": "0x2b48448",
+      "name": "Boss_Start_UI_Game_Sweep",
+      "first16": "fe0f1ef8f44f01a9b4b00190b39001b0",
+      "sha256": "4eedcc80203c352ee1f7876eb1199e7d959032ef79e52149ff842b78df095f49",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b92704",
+      "end": "0x2b92774",
+      "name": "Shop_manager_get_Is_RewardBonus_Auto",
+      "first16": "fe0f1ef8f44f01a954ae01d0538e01f0",
+      "sha256": "3f6d6cf91ac750ada3070162ffcf68b2c7f142dc4204c1d0fb8a745850844a64",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x28f5cfc",
+      "end": "0x28f5d04",
+      "name": "Throw_NullReference_Wrapper",
+      "first16": "fe0f1ff86a220194fe0f1ff87b220194",
+      "sha256": "fd826c34b9ef2518b1f3f6d39e7562b9946c1a4ca9651bc3c25e81558d412348",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x28f5d04",
+      "end": "0x28f5d0c",
+      "name": "Throw_Index_Wrapper",
+      "first16": "fe0f1ff87b220194c03cff90006c0191",
+      "sha256": "4443063a785929eff8fbdd73652167a28163cc8bee6d193aa1d2d34ba13cefaa",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x293e6a8",
+      "end": "0x293e6bc",
+      "name": "Throw_NullReference_Create",
+      "first16": "ff8300d1fffb00a9e0030091ff0300f9",
+      "sha256": "cdbf0bcca450bcc5619d3bedfd51ab6ee40fa3f25845c22f256f2b52ded52c13",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x293e6bc",
+      "end": "0x293e6cc",
+      "name": "Throw_NullReference_Raise",
+      "first16": "fe0f1ff803000094e1031faad2ffff97",
+      "sha256": "5ca19850cf19c59741f496304fb81f88760711935ae81e9878b9291de917db2c",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x293e6f4",
+      "end": "0x293e704",
+      "name": "Throw_Index_Raise",
+      "first16": "fe0f1ff803000094e1031faac4ffff97",
+      "sha256": "cc88e424aa2cedbec18e703dcec784e753947ba52264006468b82ee358e7e4dd",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x293e610",
+      "end": "0x293e638",
+      "name": "Managed_Exception_CxaThrow",
+      "first16": "fe4fbfa9f30300aa71ffff9700018052",
+      "sha256": "3baf58d6dd416adb6ec9a1aa884940ecdc8bcb00a7fd1ff5efd9d6fd84aa48a1",
+      "completed": true
+    }
+  ],
+  "literals": {
+    "cooldownThreshold": 0.0010000000474974513,
+    "format": "{0}%",
+    "thresholdPreferredVa": "0x106c268",
+    "formatPreferredVa": "0x5d63338"
+  },
+  "automaticBonusField": {
+    "index": 35898,
+    "name": "Is_Remove_AD_All",
+    "raw_type_index": 26070,
+    "token": "0x4000da7",
+    "signature": {
+      "kind": 2,
+      "attrs": 22,
+      "byref": false,
+      "pointer": "0x5f45280",
+      "name": "System.Boolean"
+    },
+    "native_offset": 9,
+    "attribute_types": [],
+    "serialization_visibility": false
+  },
+  "nativeRules": {
+    "entry": "Boss_Start_UI checks PlusPack.Is_Active(2); power gates Game_Sweep. Native manager itself gates power only. No ticket charge or season attempt count.",
+    "required": "health/Math.Max(1,(int)Math.Round((double)(maxTime*70f/100f))), ToPrecision(5); float32 expression then nearest-even rounding",
+    "previewPower": "active ordinary Cat_list only; skip cooldown<=0.001; ExpectedDamage_Boss*100/(int)(AtkCool_Boss*100); final ToPrecision(5); forest upgrades excluded",
+    "expectedDamage": "Gun base *rebirth *skin *fish *relic -> discard ->power buff ->star slot; critical multiplies125+fishCritical and relicCritical then discard; clamped chance weighted mean",
+    "settlement": "stage+1 once; ordinary base150 or PlusPack1 base300; AutoBonus pays base*3 immediately; base and triple text retained. Other branch claims base*2 on reward callback.",
+    "automaticBonus": "Shop_manager static Is_Remove_AD_All offset9 OR FreeCash_manager.RewardAdRemoved; forced removal offset8 does not auto reward",
+    "originalCallback": "Sweep bonus button serialized Bonus_AD_Show -> Bonus_Get -> if pending sweep SweepBonus_Get; normal NoAds Game_Exit; sweep NoAds Sweep_Close"
+  },
+  "adapters": [
+    "Shared local purchase/ad simulators authorized by user; no real store/ad SDK or production receipt",
+    "FreeCash promotional entitlement remains unavailable; original condition documented, not fabricated",
+    "24 guard digits in decimal division and existing original precision5 truncation; not full InfVal fidelity",
+    "reject before reward if next health stage exceeds verified 1000-entry cache; no extrapolated health",
+    "result revision, current mode/page and in-flight guard reject duplicate/stale local callbacks",
+    "quarter-second local UI observer updates expiry/current power; native reload is explicit OnEnable/Reload",
+    "trusted server time/ranking submission/interstitial SDK unavailable; no-op or existing disabled online UI boundary"
+  ],
+  "scopeComplete": false
+}

@@ -1,0 +1,62 @@
+{
+  "gun": 24,
+  "type": "MISSILE",
+  "damage": "600",
+  "critical_damage": "750",
+  "chance": 0.0,
+  "interval": 0.4,
+  "speed": 50.0,
+  "radius": 9.0,
+  "start": [
+    -104.416931,
+    2.0,
+    5.26149368
+  ],
+  "end": [
+    -99.0,
+    0.0,
+    17.0
+  ],
+  "position": [
+    -102.249992,
+    6.16445351,
+    9.9572525
+  ],
+  "arc_height": 5.17123842,
+  "duration": 0.2585619,
+  "timer": 0.103432611,
+  "last_position": [
+    -102.313461,
+    6.1243515,
+    9.819707
+  ],
+  "dead": false,
+  "health_before": [
+    "250",
+    "250"
+  ],
+  "health_after": [
+    "250",
+    "250"
+  ],
+  "tree_deaths": [
+    false,
+    false
+  ],
+  "count_before": 28,
+  "count_after": 28,
+  "kinematic": true,
+  "source": "OriginalGun24 damage600/critical750/chance0/interval0.4/speed50/radius9, native missile trajectory and original visual assets",
+  "fixture": "Slot24; two existing250-health trees repositioned3 apart; other trees hidden; bullet/FX pools reset; flight capture timeScale0.05; no player-stat injection/ownership/save",
+  "paused_for_capture": true,
+  "capture": {
+    "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/visual/forest-missile-flight.png",
+    "sha256": "18e59fad66d5d5cdbf7d46d0c0c4af3d25a9f1f39832ae7fb1a73494aa158870",
+    "width": 540,
+    "height": 960,
+    "reviewed": true,
+    "review": "Original forest/cat/Gun24 golden projectile trail in parabolic flight"
+  },
+  "flight_fraction": 0.4000303641023677,
+  "trajectory_position_error": 2.1379217042610003e-06
+}

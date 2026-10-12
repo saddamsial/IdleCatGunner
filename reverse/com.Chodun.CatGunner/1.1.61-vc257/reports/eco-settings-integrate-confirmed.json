@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var s=UnityEngine.Object.FindAnyObjectByType<Setting>(UnityEngine.FindObjectsInactive.Include);return new {compiling=UnityEditor.EditorApplication.isCompiling,dirty=UnityEngine.SceneManagement.SceneManager.GetActiveScene().isDirty,settings=s!=null,camera=s.Camera_obj.name,eco=s.EcoPanel_obj.name,button=s.EcoMode_Btn_img.GetComponent<UnityEngine.UI.Button>().onClick.GetPersistentTarget(0).name};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "compiling": false,
+        "dirty": false,
+        "settings": true,
+        "camera": "Main Camera",
+        "eco": "EcoMode_Panel_UI",
+        "button": "Setting"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

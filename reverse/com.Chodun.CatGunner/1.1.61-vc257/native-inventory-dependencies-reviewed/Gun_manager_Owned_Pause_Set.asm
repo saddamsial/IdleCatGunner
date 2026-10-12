@@ -1,0 +1,28 @@
+02c6802c  stp x30,x21,[sp, #-0x20]!
+02c68030  stp x20,x19,[sp, #0x10]
+02c68034  ldr x8,[x0, #0x60]
+02c68038  mov w19,w2
+02c6803c  mov x21,x0
+02c68040  mov w20,w1
+02c68044  cbz x8,0x02c68060
+02c68048  ldr x9,[x21, #0x40]
+02c6804c  cbz x9,0x02c68098
+02c68050  ldr w8,[x8, #0x18]
+02c68054  ldr w9,[x9, #0x18]
+02c68058  cmp w8,w9
+02c6805c  b.eq 0x02c68068
+02c68060  mov x0,x21
+02c68064  bl 0x02c678d0
+02c68068  tbnz w20,#0x1f,0x02c6808c
+02c6806c  ldr x8,[x21, #0x60]
+02c68070  cbz x8,0x02c68098
+02c68074  ldr w9,[x8, #0x18]
+02c68078  cmp w9,w20
+02c6807c  b.le 0x02c6808c
+02c68080  add x8,x8,w20, UXTW 
+02c68084  and w9,w19,#0x1
+02c68088  strb w9,[x8, #0x20]
+02c6808c  ldp x20,x19,[sp, #0x10]
+02c68090  ldp x30,x21,[sp], #0x20
+02c68094  ret
+02c68098  bl 0x029f5cfc

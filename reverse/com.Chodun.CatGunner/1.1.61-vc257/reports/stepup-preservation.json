@@ -1,0 +1,110 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257",
+  "userMainAndBackupUnchanged": true,
+  "normalSceneByteUnchanged": false,
+  "baselineAndCurrent": [
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scenes/RecoveredClient.unity",
+      "sha256": "ee7fcdfcc73343fa87edac777006550e1cf48d5fe0b672e415b190980ac909b7",
+      "currentSha256": "9533689cb7f6a221d879f1efa08ac5ffcdd588d0b601d3cc6cf9559ff2f32300",
+      "unchanged": false
+    },
+    {
+      "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json",
+      "sha256": "3e35e03edb6ec9af2fd766fb84e894093d942772e4b50f7687faba6a3e7106b0",
+      "currentSha256": "3e35e03edb6ec9af2fd766fb84e894093d942772e4b50f7687faba6a3e7106b0",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json.bak",
+      "sha256": "ef1e1c0d75505343cb9cdd210386f0c68821fa7bc8493dee6749835c80f2a313",
+      "currentSha256": "ef1e1c0d75505343cb9cdd210386f0c68821fa7bc8493dee6749835c80f2a313",
+      "unchanged": true
+    }
+  ],
+  "existingScriptMetasUnchanged": 216,
+  "originalNewMetas": [
+    {
+      "name": "StepUp",
+      "guid": "b646a0bb38daafc65fc5ad2ebff1fc6e",
+      "sha256": "5eab717415296e14084ef57590c14b75c678476f28a1b581f2593a31abe985f4",
+      "originalSha256": "5eab717415296e14084ef57590c14b75c678476f28a1b581f2593a31abe985f4",
+      "unchanged": true
+    },
+    {
+      "name": "StepUp_Banner",
+      "guid": "c3fffe650fea094b62537dcc531fd000",
+      "sha256": "07ff7472d4654ab3d93d091b9922c41d486819db2b0f72c6caa9cf0b7d0c44ea",
+      "originalSha256": "07ff7472d4654ab3d93d091b9922c41d486819db2b0f72c6caa9cf0b7d0c44ea",
+      "unchanged": true
+    },
+    {
+      "name": "StepUp_Hud",
+      "guid": "41929975f87d6ceaa08c3f3c1bc41d86",
+      "sha256": "c1e1736ae99dc4352707f520843af7d80325d218e8f69e675254cb9a02ed7de8",
+      "originalSha256": "c1e1736ae99dc4352707f520843af7d80325d218e8f69e675254cb9a02ed7de8",
+      "unchanged": true
+    },
+    {
+      "name": "StepUp_Item_UI",
+      "guid": "2ea909f91be2e1dfd9e012ff8f2b5f88",
+      "sha256": "37b851915365b8aeb422deb3cdbd5b6ab59acdd9808b023ae45aaef44407d1c0",
+      "originalSha256": "37b851915365b8aeb422deb3cdbd5b6ab59acdd9808b023ae45aaef44407d1c0",
+      "unchanged": true
+    },
+    {
+      "name": "StepUp_popup",
+      "guid": "7c02d6238e19569458a388a94923a7bc",
+      "sha256": "1aa371117bd8ec6d3a09c9f7c89f7d279eee2a2449ce1adcd88fb272ba5bea33",
+      "originalSha256": "1aa371117bd8ec6d3a09c9f7c89f7d279eee2a2449ce1adcd88fb272ba5bea33",
+      "unchanged": true
+    }
+  ],
+  "frozenMainAndMetadataUnchanged": true,
+  "nativeSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "changedSource": [
+    {
+      "path": "Assets/Recovery/Scripts/RecoveryLocalStore.cs",
+      "sha256": "711074bf40c6ad77eae8decca6bf3cc80bad307ab4004a432604bf62ffda83a0",
+      "baselineSha256": "7a0efe0b57e3dfac14d4c5f3de9583201abab6ba7d114a7176c1440a3f40214f"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/OriginalLocalPurchases.cs",
+      "sha256": "ad9197ba95e692f8c0e8b9f4d9e822b15b8a61e7b7c97c21d386870b64c727b5",
+      "baselineSha256": "0b8327b50196ee56f78d35a8be01026e6b06964490ed9fd65e396184117cc23b"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/StepUp_Item_UI.cs",
+      "sha256": "28dcfd5c9501c92e7a4e7f6df7c9fb0982ac5073807588e9c9fa939bacf814d7",
+      "baselineSha256": null
+    },
+    {
+      "path": "Assets/Recovery/Scripts/StepUp_Banner.cs",
+      "sha256": "f346d7bec6a48894569d7963c2c17f397d58871abbbaca709580610576275ed6",
+      "baselineSha256": null
+    },
+    {
+      "path": "Assets/Recovery/Scripts/StepUp_Hud.cs",
+      "sha256": "167a7449065df10c514828ba20f4cd53a976ed84fe96f54030150bcf769389d3",
+      "baselineSha256": null
+    },
+    {
+      "path": "Assets/Recovery/Scripts/StepUp_popup.cs",
+      "sha256": "3f1b94144d5a8b7247a4c7c5e3a81c8c2a60cf42644c5d50536e22ecf83b7c15",
+      "baselineSha256": null
+    },
+    {
+      "path": "Assets/Recovery/Scripts/OriginalStepUpOffer.cs",
+      "sha256": "c98c96d9ee3e6ec79fec07fa999529c083150506acb890b00184ccd3346f7a2e",
+      "baselineSha256": null
+    },
+    {
+      "path": "Assets/Recovery/Scripts/StepUp.cs",
+      "sha256": "8fd91b9aa78e8d40ea9ee1c293b776e4c2d2914c794ea4c2de35f85a37c4e5b8",
+      "baselineSha256": null
+    }
+  ],
+  "newObjects": 215,
+  "existingIdentitiesPreserved": 131339,
+  "scopeComplete": false
+}

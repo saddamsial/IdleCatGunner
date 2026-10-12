@@ -1,0 +1,55 @@
+{
+  "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+  "stage": 0,
+  "wave": 0,
+  "tree_count": 22,
+  "tree_count_max": 30,
+  "wallet": "32200000000e-8",
+  "wallet_integer": "322",
+  "accumulated": "37200000000e-8",
+  "before_upgrade": "0e0",
+  "upgrade_levels": [
+    1,
+    0,
+    0
+  ],
+  "damage": "108e0",
+  "gun": 0,
+  "upgrade_kind": 1,
+  "before_level": 0,
+  "spent": "0e0",
+  "pointer_first_hit": null,
+  "input": [
+    0.0,
+    0.0
+  ],
+  "position": [
+    -99.48266,
+    0.0,
+    29.1011944
+  ],
+  "stage_label": "Stage 1-1",
+  "value_label": "26%",
+  "time": 164.259125,
+  "power_label": "Lv.1",
+  "power_price": "68",
+  "power_value": "108",
+  "speed_label": "Lv.0",
+  "speed_price": "50",
+  "speed_value": "100",
+  "bgm_playing": false,
+  "bgm_playing_observed_while_running": true,
+  "save_folder": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257",
+  "fixture": "Current independent local recovery profile, existing earned progress preserved. Original Gun0/zero input/positions/pools/stats retained. Upgrade dispatches actual raycast PointerDown/Up/Click to original persistent callback and consumes earned money; progression persists normally.",
+  "paused_for_capture": true,
+  "time_scale": 1.0,
+  "screenshot": {
+    "absolute_path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/visual/client-earned-wallet.png",
+    "sha256": "1da92330a71b0f3b342e1486d655787a27a2246a015b1092fdbe0ef5c98a8401",
+    "width": 1080,
+    "height": 1920,
+    "capture": "Unity ScreenCapture.CaptureScreenshot then EditorApplication.Step; actual GameView overlay; no pixel editing",
+    "actually_read": true,
+    "review": "Original forest/cat/Gun0, HUD stage/percent/wallet/Dia and three original Korean upgrade panels visible; no pink shader or missing glyphs seen. Full original/device parity pending."
+  }
+}

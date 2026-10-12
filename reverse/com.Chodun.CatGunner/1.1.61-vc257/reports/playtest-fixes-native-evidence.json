@@ -1,0 +1,1117 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "nativeSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "metadataSha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+  "mainSha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+  "scopes": {
+    "offline-simulation": {
+      "total": 58,
+      "business": 52,
+      "exceptionHelpers": 6,
+      "methods": [
+        {
+          "name": "_EvaluateRoutine_d__13_MoveNext",
+          "preferredVA": "0x2b06c88",
+          "boundEnd": "0x2b06fd4",
+          "sha256": "5b1e8c55d911dd8e9d3c1485d1f8a17bcd7dc9f820e5108192006b7c5c675dae",
+          "completed": true
+        },
+        {
+          "name": "_ShowAfterFrame_d__17_MoveNext",
+          "preferredVA": "0x2b0729c",
+          "boundEnd": "0x2b07334",
+          "sha256": "afdaac77673cdcf6b5cc868c8106476c3bfcf05fb09450d6e170d0342fcc10ed",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressManager_get_LastResult",
+          "preferredVA": "0x2b06374",
+          "boundEnd": "0x2b0637c",
+          "sha256": "095bb56e13b6dfde16ade0b592279392884c282a7c7810cb58472b839de552de",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressManager_set_LastResult",
+          "preferredVA": "0x2b0637c",
+          "boundEnd": "0x2b06384",
+          "sha256": "3ebeb1a343a4ef3019c83ab8fbb730ccc99dfb7d7dc74046431df57b83bf610b",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressManager_Awake",
+          "preferredVA": "0x2b06384",
+          "boundEnd": "0x2b063dc",
+          "sha256": "248f09d775b1a934edd5e9820e3097054a3b6e2e747854c66329db41d3a2b301",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressManager_EffectiveMaxOfflineSeconds",
+          "preferredVA": "0x2b05d94",
+          "boundEnd": "0x2b05e64",
+          "sha256": "82ae3cb1564dfb64d3770a4d78464f7bef7502f5fb250905bd045f124c5b70e6",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressManager_EvaluateAndApply",
+          "preferredVA": "0x2b063dc",
+          "boundEnd": "0x2b063fc",
+          "sha256": "54f2184a45835cbf9a2f6f155cc6615463bd5023a8d085ab571ad9f81cef37f6",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressManager_EvaluateRoutine",
+          "preferredVA": "0x2b063fc",
+          "boundEnd": "0x2b06498",
+          "sha256": "b756e19889e14f9337139dd34b9970a878ca182a992213c45287128cf74bc0d4",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressManager_ComputeElapsed",
+          "preferredVA": "0x2b064c0",
+          "boundEnd": "0x2b06754",
+          "sha256": "e65800bf14278c08a62f963c5fedaa196b082f21fbf01eec2f1bee1a26cdb4c7",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressManager_Evaluate",
+          "preferredVA": "0x2b068b8",
+          "boundEnd": "0x2b06a14",
+          "sha256": "a60aae97bc57f3dcfc9eb100575d77bdc8f34d86c5a2ad2f97bb65cf7902ad00",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressManager_ShowResult",
+          "preferredVA": "0x2b06ba4",
+          "boundEnd": "0x2b06bd0",
+          "sha256": "f0a6bdb9a7178adf4b4c6ada7b82b32b0b264cd69e0de2379ca39c1202067c46",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressManager_ShowAfterFrame",
+          "preferredVA": "0x2b06bd0",
+          "boundEnd": "0x2b06c3c",
+          "sha256": "2c07a14ddb030f584ad6e675340cf6be1325ec65e86642117acc9275448dbf36",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressManager__ctor",
+          "preferredVA": "0x2b06c64",
+          "boundEnd": "0x2b06c7c",
+          "sha256": "c2c57ab44e5a4c65205efc17c4547bf2165807afd5bdc9bd6a738c7bace79429",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressManager__EvaluateRoutine_b__13_0",
+          "preferredVA": "0x2b06c7c",
+          "boundEnd": "0x2b06c84",
+          "sha256": "26273b66dc262c739144051ddb8a01743603af721a183b4d8b377fb7260f8112",
+          "completed": true
+        },
+        {
+          "name": "_RunCoroutine_d__13_MoveNext",
+          "preferredVA": "0x2b0a470",
+          "boundEnd": "0x2b0b364",
+          "sha256": "e0d47783eb85c7f104b1d8252148906d627bc7226d303eb0a405f0724d64c724",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator_RunCoroutine",
+          "preferredVA": "0x2b06fd4",
+          "boundEnd": "0x2b07084",
+          "sha256": "07cdbd9549b3b26dbe59899f9b3c7090c5c3cf3b5c09c7ab5ac53b98512b3d6b",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator_Run",
+          "preferredVA": "0x2b06a14",
+          "boundEnd": "0x2b06ba4",
+          "sha256": "a6d063c12aab4aea37d597952642cb2efcbae42d90a661b6a666077d2f94c0c0",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator_ApplyToManagers",
+          "preferredVA": "0x2b07084",
+          "boundEnd": "0x2b07250",
+          "sha256": "55b9715faf827ab47ae06c6ed3c0b45bb013d5e713af339d8c24266bb9370d40",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator_CalcClearInfo",
+          "preferredVA": "0x2b077b0",
+          "boundEnd": "0x2b086e8",
+          "sha256": "c9f4c51d14a6872b98450ed8c9343d699b487d3a9da6f12a6827e1f2a1dc9c8d",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator_MultiTargetCount",
+          "preferredVA": "0x2b08d18",
+          "boundEnd": "0x2b08d70",
+          "sha256": "ec51eb6d78ac77c1efbaf336b28c7f12193289b423a43d2688d78846e2702c67",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator_CalcFarmMoneyPerSec",
+          "preferredVA": "0x2b08d84",
+          "boundEnd": "0x2b090c8",
+          "sha256": "7d5086da3e01a5bfdbe66e8f4f515f4b6eb5290e48cd52b1c93fbbc457ad4411",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator_CalcMoneyPerStage",
+          "preferredVA": "0x2b09480",
+          "boundEnd": "0x2b0987c",
+          "sha256": "67e34707a08edaeb097009b7401c3af4e820d8d815672eb254993e3dea12ba1a",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator_CalcTimeToNextUpgrade",
+          "preferredVA": "0x2b0987c",
+          "boundEnd": "0x2b09ac0",
+          "sha256": "2c528fa7d092c14ad97aed3f6e3f1ea7c31f81a0d9c14b5b0874b70d3e461e63",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator_BuyAllAffordable",
+          "preferredVA": "0x2b09bd0",
+          "boundEnd": "0x2b09d04",
+          "sha256": "cb31c724f121f8f2de3876d7180b865814e90e541ca26917b57511751c549675",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator_TryBuy",
+          "preferredVA": "0x2b09d04",
+          "boundEnd": "0x2b09dd8",
+          "sha256": "0da64282f1f21a1c1c3bf9ac1b2b4a3b53b7f77a73743b428bb0ee1d1b9953d4",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator_AvgDegreeHealth",
+          "preferredVA": "0x2b088b0",
+          "boundEnd": "0x2b089ac",
+          "sha256": "a0b0c39e6634bba60e6e9cffbeac7d758b36e4122b5a390f0626efe214ebbe27",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator_AvgDegreeMoney",
+          "preferredVA": "0x2b09264",
+          "boundEnd": "0x2b09360",
+          "sha256": "7e78a0d9f53059bb0349340cd9046bdc16bec39ba285baf76145541c3c6e67ca",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator_GetPowerBalance",
+          "preferredVA": "0x2b08ab4",
+          "boundEnd": "0x2b08bd4",
+          "sha256": "76cf47e5a1f04820e6fcb6f17c61ba69c1f493879fb4db1b3926e1879024a342",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator_GetSpeedBalance",
+          "preferredVA": "0x2b08bd4",
+          "boundEnd": "0x2b08c6c",
+          "sha256": "48dc8cadcdd8371594164a9a3d1c80e6195171fb1ac20942e0e4a0fb5caacf90",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator_GetMoneyBalance",
+          "preferredVA": "0x2b09360",
+          "boundEnd": "0x2b09480",
+          "sha256": "3b02844fc9a6b720da7ee42db19726b57f571b77144e24092acd595d3e43718d",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator_GetPrice",
+          "preferredVA": "0x2b09dd8",
+          "boundEnd": "0x2b09ea0",
+          "sha256": "caa53d3ab8a4041b910ca6af271a37f5708bda564d9fb4b5ad2fb057a16867f9",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator_GetStageHealth",
+          "preferredVA": "0x2b08714",
+          "boundEnd": "0x2b088b0",
+          "sha256": "bc0d824c6169c71cb5b5865476a8418c0d004c2d93e5d9d027c8724a7bb34f8c",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator_GetStageMoney",
+          "preferredVA": "0x2b090c8",
+          "boundEnd": "0x2b09264",
+          "sha256": "c46c43c0e1e855de83618bbcf09f895db3f1dad0a0df237e949509c8c3b690bb",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator_CalcRegularTreeCount",
+          "preferredVA": "0x2b086e8",
+          "boundEnd": "0x2b08714",
+          "sha256": "8f38097c1f6abc261bd2a42e71e343d9e4496753ca203f582500a8d49b3065cc",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator_CheapestUpgradePrice",
+          "preferredVA": "0x2b09ac0",
+          "boundEnd": "0x2b09bd0",
+          "sha256": "28716c5e34302459552de33bca6cbaf3c68f91127e763d7651a5af199a882540",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator_ToInfVal_0x60003d9",
+          "preferredVA": "0x2b08c6c",
+          "boundEnd": "0x2b08d18",
+          "sha256": "e613ac92e5f9e45a8ae7d7f8eef802c22ce4780af516efd6d486f31a93fea556",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator_ToInfVal_0x60003da",
+          "preferredVA": "0x2b089ac",
+          "boundEnd": "0x2b08a04",
+          "sha256": "d37b78183068b521a0882fa0f6ea7a3a2baad70ec393c00492de63ab5d738a39",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator_IsFinite",
+          "preferredVA": "0x2b08d70",
+          "boundEnd": "0x2b08d84",
+          "sha256": "a6ac74f94d5b610db5b4a6e48773a30d47bf6eec489bbb98adf10e0a89939f32",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator_SafeManagerCall_0x60003dc",
+          "preferredVA": "0x2b09f58",
+          "boundEnd": "0x2b0a054",
+          "sha256": "d45cf105e34f141ca773fc09902156a0569d0c179310f6692870abbf5599af65",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator_SafeManagerCall_0x60003dd",
+          "preferredVA": "0x2b08a04",
+          "boundEnd": "0x2b08ab4",
+          "sha256": "7101c4fd7a9928ae8ffc8f991012b0e7e0c1b1d1839398b069f45a7fdf78b661",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator_SafeManagerCall_0x60003de",
+          "preferredVA": "0x2b0a054",
+          "boundEnd": "0x2b0a104",
+          "sha256": "d7dd78c0c51a77dbe65375c47ace12aca9a07345208e3df679f20eb02ca696f1",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator__cctor",
+          "preferredVA": "0x2b0a104",
+          "boundEnd": "0x2b0a264",
+          "sha256": "a35af7527a18f5cc5ce017d72268a92b9fc33b63ebb816bcc8fd18228288f818",
+          "completed": true
+        },
+        {
+          "name": "OfflineProgressSimulator__CheapestUpgradePrice_g__Check_32_0",
+          "preferredVA": "0x2b09ea0",
+          "boundEnd": "0x2b09f58",
+          "sha256": "42b2c952cbc809e3ecbb64eb6ca9b015b6260b08cca4c3370eb3980a49e09a9b",
+          "completed": true
+        },
+        {
+          "name": "OfflineResult_get_IsCapped",
+          "preferredVA": "0x2b0b3b4",
+          "boundEnd": "0x2b0b3cc",
+          "sha256": "eb5b92c5ee83498c9827d07dde39f0167746424d74412cf5edfc09eb18bb6084",
+          "completed": true
+        },
+        {
+          "name": "OfflineResult_FormatTime",
+          "preferredVA": "0x2b0b3cc",
+          "boundEnd": "0x2b0b554",
+          "sha256": "fce815a6b23b819db104613b72de9a3637a8941df285872a93498c5008eee349",
+          "completed": true
+        },
+        {
+          "name": "OfflineResult_AbsentTimeString",
+          "preferredVA": "0x2b0b554",
+          "boundEnd": "0x2b0b55c",
+          "sha256": "238bb912ae9289372381900bc674abc18b15e4805c2de8ee2a1dfe88214220bc",
+          "completed": true
+        },
+        {
+          "name": "OfflineResult_ElapsedTimeString",
+          "preferredVA": "0x2b0b55c",
+          "boundEnd": "0x2b0b564",
+          "sha256": "d39c01dbb7976badeb10114460d59716a498d48446c88a2354845997e4facbbd",
+          "completed": true
+        },
+        {
+          "name": "OfflineResult_AbsentSummaryString",
+          "preferredVA": "0x2b0b564",
+          "boundEnd": "0x2b0b6fc",
+          "sha256": "85e77726e259ec65815d2b8c67e625c18225d8fb7c836fd2bb9d019784a49e98",
+          "completed": true
+        },
+        {
+          "name": "OfflineResult_StageLevelString",
+          "preferredVA": "0x2b0b6fc",
+          "boundEnd": "0x2b0b790",
+          "sha256": "f8b56ab1a18ce3e924607abee2b9db1c8e4a1a3b299fe8613269b4bffbbe6284",
+          "completed": true
+        },
+        {
+          "name": "OfflineResult__ctor",
+          "preferredVA": "0x2b0b364",
+          "boundEnd": "0x2b0b36c",
+          "sha256": "32a04140462031281a61468bfaace0232488dc0bc8a080cd59340d67aafab172",
+          "completed": true
+        },
+        {
+          "name": "Offline_Panel_UI_Reload",
+          "preferredVA": "0x2b07334",
+          "boundEnd": "0x2b07738",
+          "sha256": "4ccfaf49728308d1a7a8bffd49767abe21ba13a64495d7722b0f4a9979ea1cf5",
+          "completed": true
+        },
+        {
+          "name": "Offline_Panel_UI__ctor",
+          "preferredVA": "0x2b0b790",
+          "boundEnd": "0x2b0b798",
+          "sha256": "2121768c8c7fa96e77acbab78ad2387e4872f7c6a841b8af1a01166f573b21ec",
+          "completed": true
+        },
+        {
+          "name": "Throw_NullReference_Wrapper",
+          "preferredVA": "0x28f5cfc",
+          "boundEnd": "0x28f5d04",
+          "sha256": "fd826c34b9ef2518b1f3f6d39e7562b9946c1a4ca9651bc3c25e81558d412348",
+          "completed": true
+        },
+        {
+          "name": "Throw_Index_Wrapper",
+          "preferredVA": "0x28f5d04",
+          "boundEnd": "0x28f5d0c",
+          "sha256": "4443063a785929eff8fbdd73652167a28163cc8bee6d193aa1d2d34ba13cefaa",
+          "completed": true
+        },
+        {
+          "name": "Throw_NullReference_Create",
+          "preferredVA": "0x293e6a8",
+          "boundEnd": "0x293e6bc",
+          "sha256": "cdbf0bcca450bcc5619d3bedfd51ab6ee40fa3f25845c22f256f2b52ded52c13",
+          "completed": true
+        },
+        {
+          "name": "Throw_NullReference_Raise",
+          "preferredVA": "0x293e6bc",
+          "boundEnd": "0x293e6cc",
+          "sha256": "5ca19850cf19c59741f496304fb81f88760711935ae81e9878b9291de917db2c",
+          "completed": true
+        },
+        {
+          "name": "Throw_Index_Raise",
+          "preferredVA": "0x293e6f4",
+          "boundEnd": "0x293e704",
+          "sha256": "cc88e424aa2cedbec18e703dcec784e753947ba52264006468b82ee358e7e4dd",
+          "completed": true
+        },
+        {
+          "name": "Managed_Exception_CxaThrow",
+          "preferredVA": "0x293e610",
+          "boundEnd": "0x293e638",
+          "sha256": "3baf58d6dd416adb6ec9a1aa884940ecdc8bcb00a7fd1ff5efd9d6fd84aa48a1",
+          "completed": true
+        }
+      ]
+    },
+    "local-reward-paths": {
+      "total": 37,
+      "business": 31,
+      "exceptionHelpers": 6,
+      "methods": [
+        {
+          "name": "Admob_Reward_Get",
+          "preferredVA": "0x2a89e4c",
+          "boundEnd": "0x2a89ec0",
+          "sha256": "f97f104f109ff779917108ded8328b5402bacb39bcef44eddbaf9e993a678114",
+          "completed": true
+        },
+        {
+          "name": "Mission_manager_Season_Reload",
+          "preferredVA": "0x2aa3ef4",
+          "boundEnd": "0x2aa3f20",
+          "sha256": "444316998347715c0d8c5f8136a31aeb96792e44201d96d35c8b4bc94298c7ac",
+          "completed": true
+        },
+        {
+          "name": "Mission_manager_Season_Reset",
+          "preferredVA": "0x2aa49bc",
+          "boundEnd": "0x2aa4ba8",
+          "sha256": "4fb9b3963fef9bb592a801be6c79a04f089e47553d498737b9d83658fb700f18",
+          "completed": true
+        },
+        {
+          "name": "Mission_manager_Mission_Reset",
+          "preferredVA": "0x2aa4ba8",
+          "boundEnd": "0x2aa4c5c",
+          "sha256": "77c4455bb7f6d33828c7fb48ab35c64fb6aa02a52d7165165c5435327e2289f4",
+          "completed": true
+        },
+        {
+          "name": "Mission_manager_NewSeason_Start",
+          "preferredVA": "0x2a9da24",
+          "boundEnd": "0x2a9dc18",
+          "sha256": "a296fe49826919f0d86b25dc91981e5bba697b90af0ed128e97c8a63e88d4799",
+          "completed": true
+        },
+        {
+          "name": "Mission_UI_Season_Changed",
+          "preferredVA": "0x2b04a90",
+          "boundEnd": "0x2b04bc0",
+          "sha256": "be7c97fd45397e6248bf6ce028605aa7af4fb360c676f3d213a2a0efcd0150c1",
+          "completed": true
+        },
+        {
+          "name": "LoadData_InitNewGame",
+          "preferredVA": "0x2b12ff4",
+          "boundEnd": "0x2b134d8",
+          "sha256": "2c03a09d1ec461c6d7bd198f5618a1f7d7bcc70b0bf08ba864b978e83fdbc7ee",
+          "completed": true
+        },
+        {
+          "name": "Adventure_manager_AD_Reduce_RewardGet",
+          "preferredVA": "0x2b2f2dc",
+          "boundEnd": "0x2b2f3e0",
+          "sha256": "6f752a67e44bb679645db6630c59ae94d1c5caf9bad4512f774ccea31f48d5e9",
+          "completed": true
+        },
+        {
+          "name": "Buff_manager_AddBuff",
+          "preferredVA": "0x2b376dc",
+          "boundEnd": "0x2b3773c",
+          "sha256": "46010b010f8f1f22327942ca907451a85fbf00ca5489e11edd153ef1b6d28fa5",
+          "completed": true
+        },
+        {
+          "name": "Buff_manager__cctor",
+          "preferredVA": "0x2b381d4",
+          "boundEnd": "0x2b3828c",
+          "sha256": "23f22b9cdd6c663f565947a1c09910a0d6b3eb056013258b762ab840f7ec638e",
+          "completed": true
+        },
+        {
+          "name": "Boss_manager_Bonus_Get",
+          "preferredVA": "0x2b46b9c",
+          "boundEnd": "0x2b46c20",
+          "sha256": "6310e74a6b1838b09dfd2a6a443d4dbfd4e1a9a3ec472df6e8e60485aa7f25ab",
+          "completed": true
+        },
+        {
+          "name": "Boss_manager_SweepBonus_Get",
+          "preferredVA": "0x2b46c20",
+          "boundEnd": "0x2b46c8c",
+          "sha256": "14457b0d5cb97fe93f1accaf34a59fbfd0ead76b686eae43251c8fde5ec2febd",
+          "completed": true
+        },
+        {
+          "name": "Mine_manager_Bonus_Get",
+          "preferredVA": "0x2b49fb0",
+          "boundEnd": "0x2b4a034",
+          "sha256": "167fd414b0df70e888885c08691d654fcb43d5292e66c57d8459282340c0f157",
+          "completed": true
+        },
+        {
+          "name": "Mine_manager_SweepBonus_Get",
+          "preferredVA": "0x2b4a034",
+          "boundEnd": "0x2b4a0a0",
+          "sha256": "5187022edaf6e745d3a406e208a50e1329fb42c62a01bcac6039acf4d4ebc28d",
+          "completed": true
+        },
+        {
+          "name": "Monster_manager_SweepBonus_Get",
+          "preferredVA": "0x2b4f99c",
+          "boundEnd": "0x2b4fa08",
+          "sha256": "26cd706675da11c5fbd33617e78e71abca6ccd0fa97ae2b1aa5ceceb0e313bd6",
+          "completed": true
+        },
+        {
+          "name": "Monster_manager_Bonus_Get",
+          "preferredVA": "0x2b4fb6c",
+          "boundEnd": "0x2b4fbf0",
+          "sha256": "fff3ec627ffe33f3cffbdc0f7962024a916330d9f338c10e484c041128a43abb",
+          "completed": true
+        },
+        {
+          "name": "Raid_manager_AD_Enter_RewardGet",
+          "preferredVA": "0x2b57c14",
+          "boundEnd": "0x2b57c30",
+          "sha256": "6df73b5bb1baab9a88177228bdb0b9ce0985b616b899db104abba0267e761646",
+          "completed": true
+        },
+        {
+          "name": "Fish_manager_FreeGacha_RewardGet",
+          "preferredVA": "0x2b5e634",
+          "boundEnd": "0x2b5e7fc",
+          "sha256": "00b9a55673305d96bd71710ad9f6306fe7880d9bfd3001bb8d44422a126b3eb7",
+          "completed": true
+        },
+        {
+          "name": "Gun_manager_DrawRandomGun",
+          "preferredVA": "0x2b686ac",
+          "boundEnd": "0x2b687b4",
+          "sha256": "7f0c5a6491b0c5cce3e0ef360574d29ad3c907317a3f9bfebad9d1380309fed3",
+          "completed": true
+        },
+        {
+          "name": "Gun_manager_get_Is_AD_Daily_Gun_Unlocked",
+          "preferredVA": "0x2b69fc0",
+          "boundEnd": "0x2b6a08c",
+          "sha256": "413b426321c6b08006e95e6a3405727d307841194429d84d52ad524c2fec5a42",
+          "completed": true
+        },
+        {
+          "name": "Gun_manager_get_Is_AD_Daily_Gun_Able",
+          "preferredVA": "0x2b6a0ac",
+          "boundEnd": "0x2b6a138",
+          "sha256": "ccbcb8ca483537b47b3320ca2e68bd3ec180791b3a28de33cbaba2bde357f68a",
+          "completed": true
+        },
+        {
+          "name": "Gun_manager_AD_Draw_Btn_Reload",
+          "preferredVA": "0x2b69c78",
+          "boundEnd": "0x2b69d0c",
+          "sha256": "6ce57dd29f302f922c2f050583be4baff07db3f8fb183f74981d7e1343c33076",
+          "completed": true
+        },
+        {
+          "name": "Gun_manager_AD_Daily_Gun_RewardGet",
+          "preferredVA": "0x2b6a298",
+          "boundEnd": "0x2b6a3b4",
+          "sha256": "15e40308b06ad6a3cc0811773edcf115504c2dabcf725831258391faca4a7e49",
+          "completed": true
+        },
+        {
+          "name": "Pet_manager_get_Is_AD_Daily_Pet_Unlocked",
+          "preferredVA": "0x2b7df1c",
+          "boundEnd": "0x2b7e018",
+          "sha256": "74e1996b24b7ae902c604287f17e23f8bbecf391036f2a39ed507b5ed9dfb810",
+          "completed": true
+        },
+        {
+          "name": "Pet_manager_get_Is_AD_Daily_Pet_Able",
+          "preferredVA": "0x2b7e07c",
+          "boundEnd": "0x2b7e0ac",
+          "sha256": "dc7e2fb034f391c65c5ae3b774a3f50f5f33f2daff1be86e1149e6c80c5e6329",
+          "completed": true
+        },
+        {
+          "name": "Pet_manager_AD_Daily_Pet_RewardGet",
+          "preferredVA": "0x2b7e208",
+          "boundEnd": "0x2b7e324",
+          "sha256": "533ef8805325cf5d072914c35cb780ec4866795fd31a9a718b7db6b159850f5b",
+          "completed": true
+        },
+        {
+          "name": "Rebirth_FX_Rebirth_Start_By_Ad",
+          "preferredVA": "0x2b88590",
+          "boundEnd": "0x2b88594",
+          "sha256": "2ac87a62548f925c5c845255fd0374ec63f6b228cc68e5e2e0efc61b473fd88a",
+          "completed": true
+        },
+        {
+          "name": "Rebirth_FX_Start_Internal",
+          "preferredVA": "0x2b8896c",
+          "boundEnd": "0x2b88a30",
+          "sha256": "d6277d9a8ae5215dc1be31302e78d937b8173ddee756ff87c5b11a66376111e9",
+          "completed": true
+        },
+        {
+          "name": "SpeedRun_manager_Bonus_Get",
+          "preferredVA": "0x2ba93c0",
+          "boundEnd": "0x2ba9474",
+          "sha256": "2c3b2cb042e50c9f0a9809f70f97f6898be2fd0aab14eec0237d98052e55851b",
+          "completed": true
+        },
+        {
+          "name": "SpeedRun_manager_SweepBonus_Get",
+          "preferredVA": "0x2ba9474",
+          "boundEnd": "0x2ba9510",
+          "sha256": "ff3ef369020e017bcd3c8bf889c072b9e3f58a55cda3bc93a9f51d2cfddbdc69",
+          "completed": true
+        },
+        {
+          "name": "Upgrade_manager_AutoUpgradeAd_RewardGet",
+          "preferredVA": "0x2bb366c",
+          "boundEnd": "0x2bb3754",
+          "sha256": "9e828b543888f2c6d59056e1b343ae10d584b2589ecb57af6e24146172a85f97",
+          "completed": true
+        },
+        {
+          "name": "Throw_NullReference_Wrapper",
+          "preferredVA": "0x28f5cfc",
+          "boundEnd": "0x28f5d04",
+          "sha256": "fd826c34b9ef2518b1f3f6d39e7562b9946c1a4ca9651bc3c25e81558d412348",
+          "completed": true
+        },
+        {
+          "name": "Throw_Index_Wrapper",
+          "preferredVA": "0x28f5d04",
+          "boundEnd": "0x28f5d0c",
+          "sha256": "4443063a785929eff8fbdd73652167a28163cc8bee6d193aa1d2d34ba13cefaa",
+          "completed": true
+        },
+        {
+          "name": "Throw_NullReference_Create",
+          "preferredVA": "0x293e6a8",
+          "boundEnd": "0x293e6bc",
+          "sha256": "cdbf0bcca450bcc5619d3bedfd51ab6ee40fa3f25845c22f256f2b52ded52c13",
+          "completed": true
+        },
+        {
+          "name": "Throw_NullReference_Raise",
+          "preferredVA": "0x293e6bc",
+          "boundEnd": "0x293e6cc",
+          "sha256": "5ca19850cf19c59741f496304fb81f88760711935ae81e9878b9291de917db2c",
+          "completed": true
+        },
+        {
+          "name": "Throw_Index_Raise",
+          "preferredVA": "0x293e6f4",
+          "boundEnd": "0x293e704",
+          "sha256": "cc88e424aa2cedbec18e703dcec784e753947ba52264006468b82ee358e7e4dd",
+          "completed": true
+        },
+        {
+          "name": "Managed_Exception_CxaThrow",
+          "preferredVA": "0x293e610",
+          "boundEnd": "0x293e638",
+          "sha256": "3baf58d6dd416adb6ec9a1aa884940ecdc8bcb00a7fd1ff5efd9d6fd84aa48a1",
+          "completed": true
+        }
+      ]
+    },
+    "offline-dependencies": {
+      "total": 47,
+      "business": 41,
+      "exceptionHelpers": 6,
+      "methods": [
+        {
+          "name": "_Reward_Get_d__70_MoveNext",
+          "preferredVA": "0x2a8fa10",
+          "boundEnd": "0x2a8ffd8",
+          "sha256": "7602e99696ed59d547c7d6de45803c376cba16f45850472df45c6f64b7b866b1",
+          "completed": true
+        },
+        {
+          "name": "Mission_UI_OnEnable",
+          "preferredVA": "0x2b04bc0",
+          "boundEnd": "0x2b04cf0",
+          "sha256": "1627b33fbdb5dca048b736cf2bef16d920b114ae40cf2850bc2896764aa258af",
+          "completed": true
+        },
+        {
+          "name": "Mission_UI_Update",
+          "preferredVA": "0x2b04cf0",
+          "boundEnd": "0x2b04eb0",
+          "sha256": "aa02959e0c392b58e87227550cbab0c4ba6dcd2ce6a28fd1d9d595231a56065a",
+          "completed": true
+        },
+        {
+          "name": "Mission_UI_GetTimeUntilTomorrow",
+          "preferredVA": "0x2b04eb0",
+          "boundEnd": "0x2b05040",
+          "sha256": "3c7cce92729c22e103434325b524acfaee565d148ce2d0905884e4bba1c50577",
+          "completed": true
+        },
+        {
+          "name": "__c__RunCoroutine_b__13_0",
+          "preferredVA": "0x2b0a2d4",
+          "boundEnd": "0x2b0a300",
+          "sha256": "5f6013c7f5f9902b794e381591488efbeda3dd790fc1bd5148d0d3de0ec86f9e",
+          "completed": true
+        },
+        {
+          "name": "__c__RunCoroutine_b__13_1",
+          "preferredVA": "0x2b0a300",
+          "boundEnd": "0x2b0a32c",
+          "sha256": "a419c97a49aae8a3de8abbc59b641228959467071760d975d7a38c7d01715083",
+          "completed": true
+        },
+        {
+          "name": "__c__RunCoroutine_b__13_2",
+          "preferredVA": "0x2b0a32c",
+          "boundEnd": "0x2b0a358",
+          "sha256": "572ca6eed8096ba9c709eb76725c12d28e52332008635046ef2708e4bb7c2a22",
+          "completed": true
+        },
+        {
+          "name": "__c__RunCoroutine_b__13_3",
+          "preferredVA": "0x2b0a358",
+          "boundEnd": "0x2b0a3ac",
+          "sha256": "1378515f9f4d12acf2596c36eb5838024f1a67e7ad9cd2532ccef296455e5417",
+          "completed": true
+        },
+        {
+          "name": "Adventure_manager_AD_Reduce_DayCheck",
+          "preferredVA": "0x2b2ef68",
+          "boundEnd": "0x2b2f084",
+          "sha256": "864ec78387ec5b41acba1cc6a2c06f27bd1c9da7f27f78178871a7143b5737ef",
+          "completed": true
+        },
+        {
+          "name": "Adventure_manager_AD_Reduce_Able_return",
+          "preferredVA": "0x2b2f174",
+          "boundEnd": "0x2b2f22c",
+          "sha256": "9052e8c1054029921fbadcbba56a45ca986f8cfe1e173b357e22cb013607bebb",
+          "completed": true
+        },
+        {
+          "name": "Adventure_manager_AD_Reduce_Request",
+          "preferredVA": "0x2b2f22c",
+          "boundEnd": "0x2b2f2dc",
+          "sha256": "cdfc4c5ade06790c9588a63fd8b55bcedef4275de78c164e29bcbb7f46f9111a",
+          "completed": true
+        },
+        {
+          "name": "Buff_manager_Awake",
+          "preferredVA": "0x2b373a4",
+          "boundEnd": "0x2b3740c",
+          "sha256": "d039afa890faca2d0197233b7e04dab2e02d4076ededa4fca6e562c5cb8b398a",
+          "completed": true
+        },
+        {
+          "name": "Buff_manager_get_IsPermanentBuff",
+          "preferredVA": "0x2b3740c",
+          "boundEnd": "0x2b37464",
+          "sha256": "674af455de42c105d690fe21d32e3e0c3fe202dab1c421904da914a848399540",
+          "completed": true
+        },
+        {
+          "name": "Buff_manager_GetBuffTime",
+          "preferredVA": "0x2b37464",
+          "boundEnd": "0x2b37494",
+          "sha256": "210296b98bc1e4c7b4656324167662fb146e5fec5cb7be9be6f9186b3aa92482",
+          "completed": true
+        },
+        {
+          "name": "Buff_manager_IsBuffActive",
+          "preferredVA": "0x2b37494",
+          "boundEnd": "0x2b3752c",
+          "sha256": "90c772f90f21196bf0afe420b7897b733a7e2f8dfe4d3ccc66503c72dfe72623",
+          "completed": true
+        },
+        {
+          "name": "Buff_manager_GetBuffRemainingTime",
+          "preferredVA": "0x2b3752c",
+          "boundEnd": "0x2b375b8",
+          "sha256": "a692215a35e84a2bb5e4522b5ab5376ba74de6e2f15db362782a922413dd3926",
+          "completed": true
+        },
+        {
+          "name": "Buff_manager_get_IsSuperBuff",
+          "preferredVA": "0x2b375b8",
+          "boundEnd": "0x2b376a8",
+          "sha256": "e0f6dd0d5bdabae9d4e86e0eedb1a7cad9af1552e671f9a1c2501a7bc46c9ab3",
+          "completed": true
+        },
+        {
+          "name": "Buff_manager_GetMult",
+          "preferredVA": "0x2b376a8",
+          "boundEnd": "0x2b376dc",
+          "sha256": "1d836c4eac47b150642696f5ab555b510548e89a80ada8f8ea2ae88bb3bb8be2",
+          "completed": true
+        },
+        {
+          "name": "Buff_manager_AddBuff",
+          "preferredVA": "0x2b376dc",
+          "boundEnd": "0x2b3773c",
+          "sha256": "46010b010f8f1f22327942ca907451a85fbf00ca5489e11edd153ef1b6d28fa5",
+          "completed": true
+        },
+        {
+          "name": "Buff_manager_LoadBuffTimes",
+          "preferredVA": "0x2b379f4",
+          "boundEnd": "0x2b37bac",
+          "sha256": "f6548db495fe1dc07e240b1aa58caaaea95ae706a14a50f9218d974e1f63cee2",
+          "completed": true
+        },
+        {
+          "name": "Buff_manager_AnyBuffRunning",
+          "preferredVA": "0x2b37bac",
+          "boundEnd": "0x2b37c50",
+          "sha256": "633ff897526bc2dadd0c81c4cc8189f60de6c360cd6f0c2fc5b6c044524feb77",
+          "completed": true
+        },
+        {
+          "name": "Buff_manager_OnBuffChanged",
+          "preferredVA": "0x2b3773c",
+          "boundEnd": "0x2b3788c",
+          "sha256": "f5a853520d0f12690eafe680ab2a0c9e56b609c7781b69912e6142d207b3868c",
+          "completed": true
+        },
+        {
+          "name": "Buff_manager_BuffTickCoroutine",
+          "preferredVA": "0x2b37c50",
+          "boundEnd": "0x2b37cbc",
+          "sha256": "de9edb9550954533f6df9deee6ccc96762e2841d4e8070e767a55f0b8ecb2d86",
+          "completed": true
+        },
+        {
+          "name": "Buff_manager_TryStartCoroutine",
+          "preferredVA": "0x2b3788c",
+          "boundEnd": "0x2b378dc",
+          "sha256": "d417625dffdf02c96eb858efae6d80b4f11cfbd552b36011a48a09ebf6ac5c09",
+          "completed": true
+        },
+        {
+          "name": "Buff_manager_Btn_UI_Reload",
+          "preferredVA": "0x2b378dc",
+          "boundEnd": "0x2b379f4",
+          "sha256": "e417553c62953e98f85e41fd576bc6e210093c6a0ba87eeeb51cd260069d7391",
+          "completed": true
+        },
+        {
+          "name": "Buff_manager_ToAdType",
+          "preferredVA": "0x2b37fe8",
+          "boundEnd": "0x2b3804c",
+          "sha256": "44e00dce3a4d1d8cef03f5da5471ae5eb79fcf7134fd810d75141f326fef82db",
+          "completed": true
+        },
+        {
+          "name": "Buff_manager_FormatRemaining",
+          "preferredVA": "0x2b3804c",
+          "boundEnd": "0x2b38144",
+          "sha256": "355ca98449d14e69e2d75883162271c8e4753c57e8e07f0fb8667ab19a1a5796",
+          "completed": true
+        },
+        {
+          "name": "Buff_manager__ctor",
+          "preferredVA": "0x2b38144",
+          "boundEnd": "0x2b381d4",
+          "sha256": "244862bb41c29f89fa7be9dc065890100e750ab37c0ebf64d4f95fd40e4cbd77",
+          "completed": true
+        },
+        {
+          "name": "Buff_manager__cctor",
+          "preferredVA": "0x2b381d4",
+          "boundEnd": "0x2b3828c",
+          "sha256": "23f22b9cdd6c663f565947a1c09910a0d6b3eb056013258b762ab840f7ec638e",
+          "completed": true
+        },
+        {
+          "name": "Buff_Menu_Btn_Reload",
+          "preferredVA": "0x2b37ce4",
+          "boundEnd": "0x2b37fe8",
+          "sha256": "ba09777d2e7efa0d957a6b9287339088916fbfae557016a4e996b21cb6e8df65",
+          "completed": true
+        },
+        {
+          "name": "Buff_Menu_Btn_SetPair",
+          "preferredVA": "0x2b38568",
+          "boundEnd": "0x2b3863c",
+          "sha256": "6268d8a1a83089d240031a53d88b3949461e1432f6a40e7899e2b64a149f82db",
+          "completed": true
+        },
+        {
+          "name": "Gun_manager_get_AD_Daily_TodayKey",
+          "preferredVA": "0x2b69f50",
+          "boundEnd": "0x2b69fc0",
+          "sha256": "e400de8e1ebdefd5954bfc49c6168162cb7dcbaef13f697e71d5747e1f6fbec8",
+          "completed": true
+        },
+        {
+          "name": "Pet_manager_get_AD_Daily_TodayKey",
+          "preferredVA": "0x2b7deac",
+          "boundEnd": "0x2b7df1c",
+          "sha256": "c4ab3ad830db612348ac17e1517f1aa1910abfec8d5e1c77307b79071ea79dd4",
+          "completed": true
+        },
+        {
+          "name": "Rebirth_manager_UpgradeRebirth_DayCheck",
+          "preferredVA": "0x2b883a0",
+          "boundEnd": "0x2b883f0",
+          "sha256": "ab1c43cf31eeb890e1479fb441314b7b07593fd56cc8af2916b94a2dff1c10d6",
+          "completed": true
+        },
+        {
+          "name": "Rebirth_manager_UpgradeRebirth_Able_return",
+          "preferredVA": "0x2b883f0",
+          "boundEnd": "0x2b88410",
+          "sha256": "266054c801b7a317ce2af24fb06e011fed82387a3afe28ddadf20af38d1a6051",
+          "completed": true
+        },
+        {
+          "name": "Rebirth_manager_UpgradeRebirth_Start_By_Ad",
+          "preferredVA": "0x2b88510",
+          "boundEnd": "0x2b88590",
+          "sha256": "56e2886a6aaf2693381fdab2155fa1106ecd26bc265bebd3dd167ab3c4278c6f",
+          "completed": true
+        },
+        {
+          "name": "Upgrade_manager_AutoUpgradeAd_TodayKey",
+          "preferredVA": "0x2bb337c",
+          "boundEnd": "0x2bb345c",
+          "sha256": "1fab6421e84857a27e83be128e2786bca765d752ac191505185358c7b187dd5e",
+          "completed": true
+        },
+        {
+          "name": "Upgrade_manager_get_AutoUpgradeAd_Active",
+          "preferredVA": "0x2bb345c",
+          "boundEnd": "0x2bb34bc",
+          "sha256": "513750dac36b710e4ec1f8152e770b481a80f058396f4c13751f76bea3fd53b6",
+          "completed": true
+        },
+        {
+          "name": "Upgrade_manager_get_AutoUpgradeAd_Remain",
+          "preferredVA": "0x2bb34bc",
+          "boundEnd": "0x2bb3558",
+          "sha256": "b587ee83129c2ab699c3e1ef6a360f3d68b7c633d3b81b3bd56fdf7e1a73c515",
+          "completed": true
+        },
+        {
+          "name": "Upgrade_manager_get_AutoUpgradeAd_WatchedToday",
+          "preferredVA": "0x2bb3558",
+          "boundEnd": "0x2bb35c0",
+          "sha256": "07b116558f3276f701393c17730d959a370518667a969847652bff9470ab33db",
+          "completed": true
+        },
+        {
+          "name": "Upgrade_manager_get_AutoUpgradeAd_Able",
+          "preferredVA": "0x2bb35c0",
+          "boundEnd": "0x2bb366c",
+          "sha256": "0f94461d3ad4e5f4a162af7104e672821de736b84f3e361f28211c0de54f5128",
+          "completed": true
+        },
+        {
+          "name": "Throw_NullReference_Wrapper",
+          "preferredVA": "0x28f5cfc",
+          "boundEnd": "0x28f5d04",
+          "sha256": "fd826c34b9ef2518b1f3f6d39e7562b9946c1a4ca9651bc3c25e81558d412348",
+          "completed": true
+        },
+        {
+          "name": "Throw_Index_Wrapper",
+          "preferredVA": "0x28f5d04",
+          "boundEnd": "0x28f5d0c",
+          "sha256": "4443063a785929eff8fbdd73652167a28163cc8bee6d193aa1d2d34ba13cefaa",
+          "completed": true
+        },
+        {
+          "name": "Throw_NullReference_Create",
+          "preferredVA": "0x293e6a8",
+          "boundEnd": "0x293e6bc",
+          "sha256": "cdbf0bcca450bcc5619d3bedfd51ab6ee40fa3f25845c22f256f2b52ded52c13",
+          "completed": true
+        },
+        {
+          "name": "Throw_NullReference_Raise",
+          "preferredVA": "0x293e6bc",
+          "boundEnd": "0x293e6cc",
+          "sha256": "5ca19850cf19c59741f496304fb81f88760711935ae81e9878b9291de917db2c",
+          "completed": true
+        },
+        {
+          "name": "Throw_Index_Raise",
+          "preferredVA": "0x293e6f4",
+          "boundEnd": "0x293e704",
+          "sha256": "cc88e424aa2cedbec18e703dcec784e753947ba52264006468b82ee358e7e4dd",
+          "completed": true
+        },
+        {
+          "name": "Managed_Exception_CxaThrow",
+          "preferredVA": "0x293e610",
+          "boundEnd": "0x293e638",
+          "sha256": "3baf58d6dd416adb6ec9a1aa884940ecdc8bcb00a7fd1ff5efd9d6fd84aa48a1",
+          "completed": true
+        }
+      ]
+    }
+  },
+  "offlineArrays": [
+    {
+      "pointer": "0x5d620c8",
+      "declaringType": "<PrivateImplementationDetails>",
+      "field": "E9C87A8DF2330C6372FA27E4D2C94CD84F347369FFD232C594EAA1C372CD8914",
+      "metadataOffset": 9609104,
+      "bytes": 32,
+      "sha256": "e9c87a8df2330c6372fa27e4d2c94cd84f347369ffd232c594eaa1c372cd8914",
+      "values": [
+        1.0,
+        1.8,
+        3.0,
+        35.0
+      ]
+    },
+    {
+      "pointer": "0x5d620d0",
+      "declaringType": "<PrivateImplementationDetails>",
+      "field": "8ED8934DA03BD3BAAC768524A2F0299EAAD69F8E43DA61FF9E93032F54516662",
+      "metadataOffset": 9608760,
+      "bytes": 32,
+      "sha256": "8ed8934da03bd3baac768524a2f0299eaad69f8e43da61ff9e93032f54516662",
+      "values": [
+        1.0,
+        1.8,
+        3.0,
+        100.0
+      ]
+    },
+    {
+      "pointer": "0x5d620e0",
+      "declaringType": "<PrivateImplementationDetails>",
+      "field": "A393C0C13BBDF298CC15CB47754116C0873C6188B8CDFB7264EE5EB34E7FF7B9",
+      "metadataOffset": 9608848,
+      "bytes": 80,
+      "sha256": "a393c0c13bbdf298cc15cb47754116c0873c6188b8cdfb7264ee5eb34e7ff7b9",
+      "values": [
+        80.0,
+        20.0,
+        0.0,
+        0.0,
+        50.0,
+        45.0,
+        5.0,
+        0.0,
+        20.0,
+        55.0,
+        25.0,
+        0.0,
+        5.0,
+        35.0,
+        60.0,
+        0.0,
+        0.0,
+        15.0,
+        85.0,
+        0.0
+      ]
+    }
+  ],
+  "nativeConstants": {
+    "0x106c094": 0.05000000074505806,
+    "0x106c1b4": 1.2999999523162842,
+    "0x106c174": 0.10000000149011612,
+    "0x106c088": 0.009999999776482582,
+    "0x106f660": 1000000000.0
+  },
+  "safeUILiterals": {
+    "0x5d61f18": "Lv.{0}",
+    "0x5d62088": "Stage {0}-{1}",
+    "0x5d62030": "o",
+    "0x5d62038": "offline:",
+    "0x5d5b278": ")",
+    "0x5d5a7a8": ".",
+    "0x5d62130": "You were away for ",
+    "0x5d62138": ". (Rewards capped at ",
+    "0x5d5e540": "{0}h {1}m",
+    "0x5d5e6d0": "{0}s",
+    "0x5d62128": "{0}m {1}s",
+    "0x5d62140": "Stage {0} - Lv.{1}",
+    "0x5d62070": "offline:{0:F1}h",
+    "0x5d63d58": "인벤토리가 가득 찼습니다!",
+    "0x5d63a78": "Gun/InventoryFull",
+    "0x5d5e728": "season",
+    "0x5d61f38": "d",
+    "0x5d61f30": "Next Season : {0}",
+    "0x5d5d3e0": "yyyyMMdd",
+    "0x5d59050": "",
+    "0x5d5e2c8": "type",
+    "0x5d631b0": "{0}:{1:D2}",
+    "0x5d61f48": "{0:D2}:{1:D2}:{2:D2}",
+    "0x5d61f40": "hh\\:mm\\:ss"
+  },
+  "interpretation": "Static native/serialized evidence. DecimalAmount, local clock and local ad completion remain adapters; not live SDK or device proof."
+}

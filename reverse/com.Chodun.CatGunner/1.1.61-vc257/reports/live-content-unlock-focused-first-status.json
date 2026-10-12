@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 30.72,
+      "summary": {
+        "total": 5,
+        "passed": 4,
+        "failed": 1,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalContentUnlockTests.ActualLockedRaycastShowsStageAlertThenThresholdOpensAndClosesAllEightPanels",
+          "Status": "Failed",
+          "Duration": 9.021008,
+          "Message": "  Adventure\n  Expected: True\n  But was:  False\n",
+          "StackTrace": "at OriginalContentUnlockTests+<ActualLockedRaycastShowsStageAlertThenThresholdOpensAndClosesAllEightPanels>d__5.MoveNext () [0x002f6] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalContentUnlockTests.cs:71\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalContentUnlockTests.IndependentColdReloadAndRebirthRetainHistoricalFrontierInsteadOfRelocking",
+          "Status": "Passed",
+          "Duration": 10.9499343,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalContentUnlockTests.NativeTutorialVisibilityHidesAllThenRestoresWithoutChangingTutorialSave",
+          "Status": "Passed",
+          "Duration": 5.3426185,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalContentUnlockTests.OriginalEightThresholdsShowOnlyUnlockedOrNextIncludingSharedPetMonsterGate",
+          "Status": "Passed",
+          "Duration": 5.3738702,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalContentUnlockTests.OriginalTableKeepsSharedThresholdAndNativeTutorialAbsenceBranch",
+          "Status": "Passed",
+          "Duration": 0.0020912,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

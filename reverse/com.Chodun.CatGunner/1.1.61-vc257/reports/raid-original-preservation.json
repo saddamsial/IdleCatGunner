@@ -1,0 +1,66 @@
+{
+  "original_business_script_metas": [
+    {
+      "script": "Raid_manager",
+      "original_meta_identical": true,
+      "sha256": "70eebb32fbe7b330d9f2a08ad48c2299e49b19b6954aeded86cf59f00d675d6b"
+    },
+    {
+      "script": "Raid_Boss",
+      "original_meta_identical": true,
+      "sha256": "3d91359dce81d5b3fb5deb5b26d04005650a1032de20d0cd30da86fc5deaa3af"
+    },
+    {
+      "script": "Raid_Ingame_UI",
+      "original_meta_identical": true,
+      "sha256": "46162acbba64bfe21151ceb99f5a7b140d30067ff89ee3ffdb702e8f07230bc5"
+    },
+    {
+      "script": "Raid_Start_UI",
+      "original_meta_identical": true,
+      "sha256": "4fac52d4c26ba9144b3c34e00cf2a38f280b60807db12d038a4ee5008d0d0a56"
+    },
+    {
+      "script": "Raid_GunSlot",
+      "original_meta_identical": true,
+      "sha256": "d419821a9b062f50d8248f0fc17a91f37e3b31a99c28d1bc29cba0d8a31648d5"
+    },
+    {
+      "script": "Raid_GunSelect_item",
+      "original_meta_identical": true,
+      "sha256": "b729bd528db90871b4c5f22e4073ebdf931bbf79581da6341646f7cf6070e563"
+    },
+    {
+      "script": "Raid_GunSelect_Panel",
+      "original_meta_identical": true,
+      "sha256": "c796076df17d40267042f6f8b5547621d412f3cd79926e54d073384ce1afae21"
+    },
+    {
+      "script": "Gun_Item_Demo",
+      "original_meta_identical": true,
+      "sha256": "65ff6a5ecb9c2dcb87863f6838f5b2517d2919b34077133d2e46b64342457384"
+    }
+  ],
+  "raw_main_input_verified": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+  "source_slice_sha256": "825c9315fcddf8a89b2a5b3342b91dac75ed0b283795b43740ed6e55b5594c09",
+  "pre_raid_checkpoint": "../checkpoints/pre-raid-client/RecoveredClient.unity",
+  "no_git_commit_or_push": true,
+  "post_test_frozen_inputs": [
+    {
+      "file": "assetripper-baseline/ExportedProject/Assets/Scenes/Main.unity",
+      "sha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+      "unchanged": true
+    },
+    {
+      "file": "extracted/split_config.arm64_v8a/lib/arm64-v8a/libil2cpp.so",
+      "sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+      "unchanged": true
+    },
+    {
+      "file": "extracted/base/assets/bin/Data/Managed/Metadata/global-metadata.dat",
+      "sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+      "unchanged": true
+    }
+  ],
+  "checked_utc": "2026-10-10T05:39:22.072425+00:00"
+}

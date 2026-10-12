@@ -1,0 +1,70 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 44.15,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalMissionRejectionTests.ClaimedFutureAndExpiredClaimsDoNotProduceSequenceWarningOrScroll",
+          "Status": "Passed",
+          "Duration": 7.9816865,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissionRejectionTests.ClaimingPreviousRewardUnlocksTheOriginalNextButtonAndColdReloadPreservesBothClaims",
+          "Status": "Passed",
+          "Duration": 11.7513756,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissionRejectionTests.EarlierUnclaimedVipTrackWarnsWithoutGrantingPremiumOrSkippingAd",
+          "Status": "Passed",
+          "Duration": 5.9634734,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissionRejectionTests.RepeatedWarningsUseScaledScrollAndClosingCancelsOwnedMovement",
+          "Status": "Passed",
+          "Duration": 6.6185641,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissionRejectionTests.SeasonButtonUsesMaximumLevelEvenDuringActiveSeasonAndOpensOriginalModal",
+          "Status": "Passed",
+          "Duration": 5.6301513,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissionRejectionTests.SequenceLockedOriginalButtonShowsWarningRejectsAndScrollsBackWithoutSaving",
+          "Status": "Passed",
+          "Duration": 6.0754832,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

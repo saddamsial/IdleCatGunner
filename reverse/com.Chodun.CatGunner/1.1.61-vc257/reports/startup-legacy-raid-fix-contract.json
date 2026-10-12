@@ -1,0 +1,75 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 arm64",
+  "reported_error": "InvalidOperationException: Unsupported Raid state; save preserved at Raid_manager.Bind",
+  "live_legacy_state": {
+    "Raid_Free_Use_Count": 0,
+    "Raid_Season_TryCount": 0,
+    "Raid_Season_BestLevel": 0,
+    "Raid_Best_Level_ByType": [],
+    "Raid_Entry_Charge_Date": "",
+    "Stage_Now": 0,
+    "Level_Now": 1
+  },
+  "native_raid_ensure": {
+    "evidence": "exact-native",
+    "preferred_va": "0x2b59418",
+    "file": "native-raid-client-reviewed/Raid_manager_EnsureBestArray.c",
+    "behavior": "allocate GunType-count 7 array when lengths differ; preserve existing prefix via Array.Copy"
+  },
+  "local_protection_difference": "oversized arrays and negative values are still rejected before modifying state; native resize would truncate oversized arrays",
+  "startup": {
+    "evidence": "exact-serialized presentation + offline-substitute cold-entry sequencing",
+    "original_ui": "Loading_UI, 고양이 이동중.., Animator Walk 2s",
+    "minimum_presentation_seconds": 1.5,
+    "post_map_start_cover_seconds": 0.2,
+    "entry_duration_is_original_cold_boot": false,
+    "reason": "original cold boot includes excluded service initialization; restore original walking-cat presentation for local Play entry",
+    "upgrade_controls": "Original three upgrade panels hidden during startup, restored with original visibility when ready; upgrade actions reject before readiness"
+  },
+  "save_safety": "validate Raid before binding any stateful managers; allow saves only after all managers bind and startup finishes",
+  "verification": {
+    "focused": {
+      "report": "live-startup-focused-final-status.json",
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "seconds": 26.41
+    },
+    "full": {
+      "report": "live-startup-assembly-final-status.json",
+      "summary": {
+        "total": 142,
+        "passed": 142,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "seconds": 902.37
+    },
+    "user_save_preserved": "startup-fix-user-save-after.json",
+    "handoff": "startup-editor-handoff.json",
+    "gpu": "startup-fix-preservation-and-visual.json",
+    "console": [
+      {
+        "Name": "errorCount",
+        "count": 0
+      },
+      {
+        "Name": "warningCount",
+        "count": 2
+      },
+      {
+        "Name": "logCount",
+        "count": 5
+      }
+    ]
+  },
+  "working_scene_changed": false,
+  "player_or_device_acceptance": false,
+  "full_client_restored": false,
+  "working_scene_sha_unchanged": true
+}

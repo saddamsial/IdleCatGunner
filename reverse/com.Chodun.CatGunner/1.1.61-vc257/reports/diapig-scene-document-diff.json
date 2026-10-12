@@ -1,0 +1,47 @@
+{
+  "oldDocuments": 129370,
+  "newDocuments": 129628,
+  "newOriginalObjects": 63,
+  "newDocumentIdentities": 258,
+  "preservedExistingIdentities": 129370,
+  "semanticallyUnchangedExistingDocuments": 129366,
+  "intentionalExistingChanges": [
+    {
+      "oldId": "102990",
+      "newId": "102990",
+      "type": 224,
+      "name": "Shop_manager",
+      "script": null
+    },
+    {
+      "oldId": "103041",
+      "newId": "103041",
+      "type": 224,
+      "name": "Right_Menu",
+      "script": null
+    },
+    {
+      "oldId": "103366",
+      "newId": "103366",
+      "type": 114,
+      "name": "Tutorial_manager",
+      "script": "326bba145e7e452888a7fbf4f8bef13b"
+    },
+    {
+      "oldId": "124873",
+      "newId": "124873",
+      "type": 114,
+      "name": "Tree_manager",
+      "script": "bab892657d9fc4e34a43a11a63ba6aec"
+    }
+  ],
+  "editorLocalIdRemapping": {
+    "124049": "301984007",
+    "129922": "129926",
+    "137529": "920001415",
+    "147146": "1071812833",
+    "148943": "148947"
+  },
+  "removedExistingObjectsOrComponents": 0,
+  "audit": "References normalized only through verified same hierarchy/name/component identities; all existing serialized fields must match except two parent child lists, the client binding and the original Tutorial_manager DiaPig control reference."
+}

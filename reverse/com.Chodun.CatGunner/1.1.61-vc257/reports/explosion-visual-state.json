@@ -1,0 +1,27 @@
+{
+  "health_before": [
+    "250",
+    "250"
+  ],
+  "health_after": [
+    "130",
+    "130"
+  ],
+  "gun": 14,
+  "type": "EXPLOSIVE",
+  "damage": "120",
+  "critical_damage": "150",
+  "chance": 0.0,
+  "interval": 0.7,
+  "radius": 5.0,
+  "active_bullets": 1,
+  "live_bullets": 0,
+  "active_fx": 1,
+  "target_found": true,
+  "source": "OriginalGun14 EXPLOSIVE damage120/critical150/chance0/interval0.7/radius5, native request1.5s; no direct player amount injection",
+  "fixture": "Slot14; two existing250-health trees repositioned 3 units apart; other trees hidden and bullet/FX pools reset; no ownership grant/save",
+  "paused_for_capture": true,
+  "capture_path": "visual/forest-explosion-impact.png",
+  "capture_sha256": "2ada28185b54ab2e064f61289f33b28640bd03d0fab117c4eb3095e8e343932b",
+  "review": "GameView540x960 read: original forest/cat/Gun14, cyan explosion/shot trail, both130/250 healthbars visible; compatibility particle shader independent, not complete visual parity"
+}

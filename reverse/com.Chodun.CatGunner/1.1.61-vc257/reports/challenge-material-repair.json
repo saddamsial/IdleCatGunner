@@ -1,0 +1,2908 @@
+{
+  "phase": "complete",
+  "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+  "originals": {
+    "Assets/Material/Floor 2.mat": "54509d34420931f7f618d6453fb1db64d5d2a9596c887791e415166faec77826",
+    "Assets/Material/Sprite-Unlit-Default.mat": "ac9cd8a567e41f0f4da027ddf2d3bf553befc47c60db456d37853e8efb19261a",
+    "Assets/Material/SpriteFill.mat": "8c110192864d3d2b043be829b998981c1f94529aa3f9d5ffd473c27f737d98fc",
+    "Assets/Material/Lit.mat": "5fca5dc0bfb4e46c307c5b4ab763256e8f9e878063ba5a265885c792179d6aab",
+    "Assets/Material/ring_nofade_ADD.mat": "9e1883163a51d4f55c3816db2e50b9bf2182afbe32d71662914e0644442a9a2c",
+    "Assets/Material/glow1_ADD.mat": "12d342e33368db5967bacdae6986876cb7071ec37d257577927832b2b6782e6b",
+    "Assets/Material/gradient_vertical_ADD.mat": "cf2eb074a9618beade747132aad3804691cf5790ae6a59d9c034ba166b9a9325"
+  },
+  "originalsUnchanged": true,
+  "renderers": 1406,
+  "remainingUnsupported": 0,
+  "changes": [
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82856-0",
+      "source": "Assets/Material/Floor 2.mat",
+      "replacement": "Assets/Recovery/ChallengeMaterials/c328a2c0781dd254b9dfee9d7504e4bc.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-84401-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88419-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-86574-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83491-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88860-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82968-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83440-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88937-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83042-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83441-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88936-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83041-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83511-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88895-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82948-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83608-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88799-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83058-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83583-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88783-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83082-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83579-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88772-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83070-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83523-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88901-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82952-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83504-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88880-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82989-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83496-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88886-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82996-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83532-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88816-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83115-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83463-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88948-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83007-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83575-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88843-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83096-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83449-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88928-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83032-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83603-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88808-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83067-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83539-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88813-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83111-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83493-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88881-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82990-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83549-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88822-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83121-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83489-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88861-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82970-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83585-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88781-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83080-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83502-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88876-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82985-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83467-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88956-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83014-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83597-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88794-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83053-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83566-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88856-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83109-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83554-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88834-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83087-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83451-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88926-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83031-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83538-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88814-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83113-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83536-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88819-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83117-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83461-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88950-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83009-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83490-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88859-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82969-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83606-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88810-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83069-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83526-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88907-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82959-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83559-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88832-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83085-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83476-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88867-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82976-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83565-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88847-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83100-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83581-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88774-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83073-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83577-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88776-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83075-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83555-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88839-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83092-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83562-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88851-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83103-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83450-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88927-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83033-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83550-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88821-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83120-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83478-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88865-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82973-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83600-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88787-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83046-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83530-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88904-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82955-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83438-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88917-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83022-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83494-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88889-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82998-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83573-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88845-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83099-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83545-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88831-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83130-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83472-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88946-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83005-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83475-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88869-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82977-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83570-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88841-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83094-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83601-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88786-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83045-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83497-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88887-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82995-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83517-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88910-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82962-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83612-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88805-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83064-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83586-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88780-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83079-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83607-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88800-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83059-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83503-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88875-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82984-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83547-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88830-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83128-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83578-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88771-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83071-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83479-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88864-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82974-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83468-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88955-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83015-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83456-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88941-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83000-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83557-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88837-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83090-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83482-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88872-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82982-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83513-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88892-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82944-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83488-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88863-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82971-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83455-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88944-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83003-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83552-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88836-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83089-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83605-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88806-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83065-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83542-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88826-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83125-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83484-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88870-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82979-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83589-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88785-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83084-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83596-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88795-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83054-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83465-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88957-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83018-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83568-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88854-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83107-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83443-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88935-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83039-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83446-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88931-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83036-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83599-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88788-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83047-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83569-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88853-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83106-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83521-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88902-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82954-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83591-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88777-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83076-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83534-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88820-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83119-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83615-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88802-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83063-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83507-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88894-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82946-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83492-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88882-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82991-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83498-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88885-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82994-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83505-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88879-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82987-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83458-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88942-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83001-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83556-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88838-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83091-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83509-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88899-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82950-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83435-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88921-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83026-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83473-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88945-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83004-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83602-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88809-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83068-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83551-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88823-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83122-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83614-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88803-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83062-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83604-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88807-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83066-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83590-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88784-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83083-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83433-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88923-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83028-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83594-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88792-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83050-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83598-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88789-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83048-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83592-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88793-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83052-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83529-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88903-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82956-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83524-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88909-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82961-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83439-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88916-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83021-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83572-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88846-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83098-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83541-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88827-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83126-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83430-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88918-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83023-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83429-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88919-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83024-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83454-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88943-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83002-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83546-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88829-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83129-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83483-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88871-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82980-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83616-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88801-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83060-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83609-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88798-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83056-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83462-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88949-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83008-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83495-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88888-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82997-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83447-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88939-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83044-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83537-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88811-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83110-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83431-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88925-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83030-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83466-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88959-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83016-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83520-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88911-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82963-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83582-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88773-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83072-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83518-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88912-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82965-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83543-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88825-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83124-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83560-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88852-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83105-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83535-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88818-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83118-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83471-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88947-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83006-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83519-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88913-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82964-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83588-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88779-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83077-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83571-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88840-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83093-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83460-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88951-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83010-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83452-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88930-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83035-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83567-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88855-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83108-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83506-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88878-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82988-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83611-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88796-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83055-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83459-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88952-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83011-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83470-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88953-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83012-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83610-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88797-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83057-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83515-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88890-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82942-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83453-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88929-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83034-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83508-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88898-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82951-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83436-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88915-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83020-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83514-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88891-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82943-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83469-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88954-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83013-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83437-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88914-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83019-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83500-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88883-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82992-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83485-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88858-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82967-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83540-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88812-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83112-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83528-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88906-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82957-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83487-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88862-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82972-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83434-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88922-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83027-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83477-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88866-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82975-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83564-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88848-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83102-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83486-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88857-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82966-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83563-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88849-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83101-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83444-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88933-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83037-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83499-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88884-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82993-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83548-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88828-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83127-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83428-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88920-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83025-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83445-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88932-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83038-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83512-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88896-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82947-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83593-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88791-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83051-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83527-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88905-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82958-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83595-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88790-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83049-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83525-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88908-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82960-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83544-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88824-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83123-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83613-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88804-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83061-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83553-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88835-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83088-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83457-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88940-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82999-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83432-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88924-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83029-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83480-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88874-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82983-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83533-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88815-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83114-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83474-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88868-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82978-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83510-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88897-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82949-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83561-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88850-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83104-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83448-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88938-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83043-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83558-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88833-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83086-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83501-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88877-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82986-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83584-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88782-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83081-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83464-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88958-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83017-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83516-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88893-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82945-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83531-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88817-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83116-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83587-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88778-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83078-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83522-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88900-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82953-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83442-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88934-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83040-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83481-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88873-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82981-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83576-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88842-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83095-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83574-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88844-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83097-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83580-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-88775-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-83074-0",
+      "source": "Assets/Material/SpriteFill.mat",
+      "replacement": "Assets/Recovery/ForestHealthFill.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82859-0",
+      "source": "Assets/Material/Floor 2.mat",
+      "replacement": "Assets/Recovery/ChallengeMaterials/c328a2c0781dd254b9dfee9d7504e4bc.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-64054-0",
+      "source": "Assets/Material/Lit.mat",
+      "replacement": "Assets/Recovery/ChallengeMaterials/b7a301fd0717cf14d9d633a76ec11d13.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82860-0",
+      "source": "Assets/Material/Sprite-Unlit-Default.mat",
+      "replacement": "Resources/unity_builtin_extra"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-64056-0",
+      "source": "Assets/Material/Lit.mat",
+      "replacement": "Assets/Recovery/ChallengeMaterials/b7a301fd0717cf14d9d633a76ec11d13.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-74955-0",
+      "source": "Assets/Material/ring_nofade_ADD.mat",
+      "replacement": "Assets/Recovery/ParticleMaterials/463d1696daa0d7b44a8ddbcf66e0b3b0.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-74958-0",
+      "source": "Assets/Material/glow1_ADD.mat",
+      "replacement": "Assets/Recovery/ParticleMaterials/e79b9a00dea744047a441fe7dd401c40.mat"
+    },
+    {
+      "renderer": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-74956-0",
+      "source": "Assets/Material/gradient_vertical_ADD.mat",
+      "replacement": "Assets/Recovery/ParticleMaterials/3179e9ea28044174b91b66a07cfa0426.mat"
+    }
+  ]
+}

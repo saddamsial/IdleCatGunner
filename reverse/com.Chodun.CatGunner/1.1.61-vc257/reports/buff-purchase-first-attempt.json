@@ -1,0 +1,48 @@
+{
+  "status": "completed",
+  "duration": 36.18,
+  "summary": {
+    "total": 5,
+    "passed": 2,
+    "failed": 3,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalBuffPurchaseTests.ClosedReopenedPageAndChangedModeRejectStaleCompletion",
+      "Status": "Passed",
+      "Duration": 10.9391239,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalBuffPurchaseTests.DisabledCancelledAndDuplicateRequestsCannotPartiallyGrant",
+      "Status": "Failed",
+      "Duration": 6.0349211,
+      "Message": "  Expected: True\n  But was:  False\n",
+      "StackTrace": "at OriginalBuffPurchaseTests+<DisabledCancelledAndDuplicateRequestsCannotPartiallyGrant>d__16.MoveNext () [0x000f3] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalBuffPurchaseTests.cs:81\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalBuffPurchaseTests.OfflineSnapshotIgnoresTemporaryTimersAndUsesOnlyOwnedPack",
+      "Status": "Passed",
+      "Duration": 5.9654276,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalBuffPurchaseTests.OriginalPopupRealClickAwardsOnceFreezesTimersAndColdReloadKeepsPack",
+      "Status": "Failed",
+      "Duration": 6.393984,
+      "Message": "  Expected: True\n  But was:  False\n",
+      "StackTrace": "at OriginalBuffPurchaseTests+<OriginalPopupRealClickAwardsOnceFreezesTimersAndColdReloadKeepsPack>d__15.MoveNext () [0x000a2] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalBuffPurchaseTests.cs:64\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalBuffPurchaseTests.RebindingKeepsOneAdapterAndUnsupportedPromotionalButtonDisabled",
+      "Status": "Failed",
+      "Duration": 5.9556571,
+      "Message": "  BuffPack\n  Expected: True\n  But was:  False\n",
+      "StackTrace": "at OriginalBuffPurchaseTests+<Click>d__6.MoveNext () [0x0002b] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalBuffPurchaseTests.cs:39\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    }
+  ]
+}

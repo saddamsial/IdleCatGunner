@@ -1,0 +1,36 @@
+{
+  "success": true,
+  "command": "command eval_file",
+  "data": {
+    "command": "eval_file",
+    "parameters": {
+      "file": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/tools/mission_presentation_actual_editor.cs"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "sceneCount": 1,
+        "loaded": true,
+        "dirty": false,
+        "playing": false,
+        "compiling": false,
+        "persist": true,
+        "saveOverride": null,
+        "compiledCallbackGuard": true,
+        "persistentRewardCallbacks": [
+          "Normal_Reward_Click"
+        ]
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

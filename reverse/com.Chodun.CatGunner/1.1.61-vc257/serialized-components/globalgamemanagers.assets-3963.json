@@ -1,0 +1,102 @@
+{
+  "identity": {
+    "file": "globalgamemanagers.assets",
+    "path_id": 3963,
+    "type_index": 9913,
+    "type": "UnityEngine.Rendering.Universal.ScreenSpaceLensFlare",
+    "game_object": "ScreenSpaceLensFlare"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": 139
+    },
+    "m_Name": "ScreenSpaceLensFlare",
+    "active": true,
+    "intensity": {
+      "m_OverrideState": true,
+      "m_Value": 0.0
+    },
+    "tintColor": {
+      "m_OverrideState": true,
+      "m_Value": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      }
+    },
+    "bloomMip": {
+      "m_OverrideState": true,
+      "m_Value": 1
+    },
+    "firstFlareIntensity": {
+      "m_OverrideState": true,
+      "m_Value": 1.0
+    },
+    "secondaryFlareIntensity": {
+      "m_OverrideState": true,
+      "m_Value": 1.0
+    },
+    "warpedFlareIntensity": {
+      "m_OverrideState": true,
+      "m_Value": 1.0
+    },
+    "warpedFlareScale": {
+      "m_OverrideState": true,
+      "m_Value": {
+        "x": 1.0,
+        "y": 1.0
+      }
+    },
+    "samples": {
+      "m_OverrideState": true,
+      "m_Value": 1
+    },
+    "sampleDimmer": {
+      "m_OverrideState": true,
+      "m_Value": 0.5
+    },
+    "vignetteEffect": {
+      "m_OverrideState": true,
+      "m_Value": 1.0
+    },
+    "startingPosition": {
+      "m_OverrideState": true,
+      "m_Value": 1.25
+    },
+    "scale": {
+      "m_OverrideState": true,
+      "m_Value": 1.5
+    },
+    "streaksIntensity": {
+      "m_OverrideState": true,
+      "m_Value": 0.0
+    },
+    "streaksLength": {
+      "m_OverrideState": true,
+      "m_Value": 0.5
+    },
+    "streaksOrientation": {
+      "m_OverrideState": true,
+      "m_Value": 0.0
+    },
+    "streaksThreshold": {
+      "m_OverrideState": true,
+      "m_Value": 0.25
+    },
+    "resolution": {
+      "m_OverrideState": true,
+      "m_Value": 4
+    },
+    "chromaticAbberationIntensity": {
+      "m_OverrideState": true,
+      "m_Value": 0.5
+    }
+  }
+}

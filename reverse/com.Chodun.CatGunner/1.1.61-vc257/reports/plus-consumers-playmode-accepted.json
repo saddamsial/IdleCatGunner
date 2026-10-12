@@ -1,0 +1,97 @@
+{
+  "status": "completed",
+  "duration": 119.5,
+  "summary": {
+    "total": 12,
+    "passed": 12,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "PlusPackRecoveryRulesTests.NativeRewardsKeepSpeedRunAndRaidUnchangedAndTruncateMine",
+      "Status": "Passed",
+      "Duration": 0.0877831,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlusPackRecoveryRulesTests.NativeTimeFactorsKeepSpeedRunAndMonsterUnchanged",
+      "Status": "Passed",
+      "Duration": 0.0003891,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlusPackRecoveryRulesTests.SevenDayBoundaryLocalLedgerInvalidDatesAndDisabledVariantRemainSeparate",
+      "Status": "Passed",
+      "Duration": 0.1383451,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlusPackRecoveryTests.DisabledPurchaseVariantAndCanceledRequestCannotActivateAnyBenefits",
+      "Status": "Passed",
+      "Duration": 9.1385405,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlusPackRecoveryTests.MonsterNaturalClearAwards60CoinsAndAdBonusDoesNotDuplicate",
+      "Status": "Passed",
+      "Duration": 42.4274954,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlusPackRecoveryTests.OriginalPlusButtonRaycastPurchaseUpdatesPanelsAndSaves",
+      "Status": "Passed",
+      "Duration": 8.4885137,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlusPackRecoveryTests.PurchasedRewardPackDoublesNaturalBossWinAndPersists",
+      "Status": "Passed",
+      "Duration": 14.4750313,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlusPackRecoveryTests.PurchasedTimePackDoublesNextForestRound",
+      "Status": "Passed",
+      "Duration": 7.4821137,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlusPackRecoveryTests.SevenOriginalItemsShowPurchasedStateCountdownAndExpireAfterColdReload",
+      "Status": "Passed",
+      "Duration": 12.602928,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlusPackRecoveryTests.TimePackRunsBossFor120Seconds",
+      "Status": "Passed",
+      "Duration": 8.084036,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlusPackRecoveryTests.TimePackRunsMineFor78SecondsAndRewardTruncatesAfterDivision",
+      "Status": "Passed",
+      "Duration": 7.8451469,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlusPackRecoveryTests.TimePackRunsRaidFor70SecondsWithoutChangingRewardBands",
+      "Status": "Passed",
+      "Duration": 8.4222913,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257",
+  "sceneSha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+  "languageSha256": "151dc691a395ca83d006e9aaa717803e6c62b1a90fcbbb6dbc9fe13411a9697f",
+  "resourceSha256": "10e650b05f3d3095ebd5aaf959e8fbb937c7a9510b537af3a43173534ca06d72",
+  "bindings": [
+    {
+      "Scope": "Inventory",
+      "Path": "GunList_UI/Panel/Menu (Gun List)/I2_txt",
+      "Key": "Gun/슬롯설명",
+      "Values": [
+        "Drag a gun to equip.",
+        "총을 드래그해서 장착하세요.",
+        "銃をドラッグして装備。",
+        "拖动枪械进行装备。",
+        "拖動槍械進行裝備。",
+        "Arraste uma arma para equipar.",
+        "Waffe zum Ausrüsten ziehen.",
+        "Glissez une arme pour équiper.",
+        "Arrastra un arma para equipar.",
+        "ลากปืนเพื่อสวมใส่",
+        "Seret gun untuk memasang.",
+        "Seret gun untuk memasang.",
+        "Kéo gun để trang bị.",
+        "Перетащите для экипировки."
+      ],
+      "SourceComponent": 135543,
+      "SourceGameObject": 10175
+    },
+    {
+      "Scope": "Inventory",
+      "Path": "GunList_UI/Panel/Menu (Gun List)/Explain",
+      "Key": "Gun/아이템설명",
+      "Values": [
+        "Drag same-grade guns to merge.",
+        "같은 등급의 총을 드래그해서 합성하세요.",
+        "同ランクの銃をドラッグして合成。",
+        "拖动相同等级的枪进行合成。",
+        "拖動相同等級的槍進行合成。",
+        "Arraste armas iguais para fundir.",
+        "Gleiche Waffen ziehen zum Verschmelzen.",
+        "Glissez des armes identiques pour fusionner.",
+        "Arrastra armas iguales para fusionar.",
+        "ลากปืนระดับเดียวกันเพื่อรวม",
+        "Seret gun sekelas untuk gabung.",
+        "Seret gun setaraf untuk gabung.",
+        "Kéo gun cùng cấp để hợp nhất.",
+        "Перетащите оружие одного ранга для слияния."
+      ],
+      "SourceComponent": 135548,
+      "SourceGameObject": 10186
+    },
+    {
+      "Scope": "Information",
+      "Path": "Panel/I2_txt(Outline) (1)",
+      "Key": "Gun/총 뽑기",
+      "Values": [
+        "Gun Gacha",
+        "총 뽑기",
+        "銃ガチャ",
+        "武器抽卡",
+        "武器抽卡",
+        "Gun Gacha",
+        "Gun Gacha",
+        "Gun Gacha",
+        "Gun Gacha",
+        "กาชาปืน",
+        "Gun Gacha",
+        "Gun Gacha",
+        "Gun Gacha",
+        "Призыв"
+      ],
+      "SourceComponent": 139853,
+      "SourceGameObject": 10103
+    },
+    {
+      "Scope": "Inventory",
+      "Path": "GunList_UI/Panel/Safe_Btn/I2_txt(Outline)",
+      "Key": "Gun/금고",
+      "Values": [
+        "Vault",
+        "금고",
+        "金庫",
+        "保险库",
+        "保險庫",
+        "Cofre",
+        "Tresor",
+        "Coffre",
+        "Bóveda",
+        "ตู้เซฟ",
+        "Brankas",
+        "Peti Besi",
+        "Két sắt",
+        "Сейф"
+      ],
+      "SourceComponent": 139897,
+      "SourceGameObject": 10393
+    },
+    {
+      "Scope": "Inventory",
+      "Path": "GunList_UI/Panel/Menu (Gun List)/Auto_Explain",
+      "Key": "Gun/AutoMerge_Explain",
+      "Values": [
+        "Lower grades auto-merge!",
+        "이미 획득한 등급이면 자동합성됩니다!",
+        "低ランクは自動合成！",
+        "低等级自动合成！",
+        "低等級自動合成！",
+        "Níveis menores: fusão auto!",
+        "Niedrige Stufen: Auto-Fusion!",
+        "Rangs inférieurs : fusion auto !",
+        "¡Grados menores: fusión auto!",
+        "ระดับต่ำกว่ารวมอัตโนมัติ!",
+        "Tingkat rendah auto digabung!",
+        "Gred rendah auto digabung!",
+        "Cấp thấp tự động hợp nhất!",
+        "Низкие ранги — авто-слияние!"
+      ],
+      "SourceComponent": 139902,
+      "SourceGameObject": 10362
+    },
+    {
+      "Scope": "Inventory",
+      "Path": "GunList_UI/StepUp_Banner/Panel/Purchase_Btn/I2_txt(Outline)",
+      "Key": "StepUp/구매하러 가기",
+      "Values": [
+        "Go to Shop",
+        "구매하러 가기",
+        "ショップへ",
+        "前往商店",
+        "前往商店",
+        "Ir à Loja",
+        "Zum Shop",
+        "Aller à la Boutique",
+        "Ir a la Tienda",
+        "ไปที่ร้านค้า",
+        "Ke Toko",
+        "Ke Kedai",
+        "Đến Cửa hàng",
+        "В магазин"
+      ],
+      "SourceComponent": 139909,
+      "SourceGameObject": 10351
+    },
+    {
+      "Scope": "Inventory",
+      "Path": "GunList_UI/Panel/Menu (Gun List)/Info_Btn/I2_txt(Outline)",
+      "Key": "Fish/정보",
+      "Values": [
+        "Info",
+        "정보",
+        "情報",
+        "信息",
+        "資訊",
+        "Info",
+        "Info",
+        "Info",
+        "Info",
+        "ข้อมูล",
+        "Info",
+        "Info",
+        "Thông tin",
+        "Инфо"
+      ],
+      "SourceComponent": 139973,
+      "SourceGameObject": 10278
+    },
+    {
+      "Scope": "Inventory",
+      "Path": "GunList_UI/Panel/Menu (Gun List)/Collection_Btn/I2_txt(Outline)",
+      "Key": "Gun/Collect",
+      "Values": [
+        "Collect",
+        "도감",
+        "図鑑",
+        "图鉴",
+        "圖鑑",
+        "Coleção",
+        "Sammlung",
+        "Collection",
+        "Colección",
+        "คอลเลกชัน",
+        "Collect",
+        "Collect",
+        "Bộ sưu tập",
+        "Коллекция"
+      ],
+      "SourceComponent": 139988,
+      "SourceGameObject": 10261
+    },
+    {
+      "Scope": "Inventory",
+      "Path": "GunList_UI/Panel/Menu (Gun List)/Draw/Draw_Btn/I2_txt(Outline)",
+      "Key": "Gun/총 뽑기",
+      "Values": [
+        "Gun Gacha",
+        "총 뽑기",
+        "銃ガチャ",
+        "武器抽卡",
+        "武器抽卡",
+        "Gun Gacha",
+        "Gun Gacha",
+        "Gun Gacha",
+        "Gun Gacha",
+        "กาชาปืน",
+        "Gun Gacha",
+        "Gun Gacha",
+        "Gun Gacha",
+        "Призыв"
+      ],
+      "SourceComponent": 140024,
+      "SourceGameObject": 10213
+    }
+  ],
+  "excluded": [
+    {
+      "component": 125804,
+      "key": "Gun/SINGLE",
+      "reason": "dynamic weapon preview owner"
+    }
+  ],
+  "uniqueTerms": 8,
+  "uniqueTranslations": 112,
+  "bindingValues": 126,
+  "boundary": "Original static TMP primary terms only; local system-language and Chinese font adapter. No full I2 secondary-font/parameters/RTL/language-settings lifecycle claimed. No native method count increase."
+}

@@ -1,0 +1,84 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 30.48,
+      "summary": {
+        "total": 8,
+        "passed": 6,
+        "failed": 2,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalAdventureTests.ClaimUsesLiveGradesOnceUnlocksPetsAndLevelsToNativeCap",
+          "Status": "Passed",
+          "Duration": 0.1368129,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalAdventureTests.IndependentProfileReloadRebirthAndRaidPreserveDispatchAndReturnPet",
+          "Status": "Passed",
+          "Duration": 18.9166488,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalAdventureTests.MalformedMapDateLockAndRewardOverflowPreserveStateBeforeSettlement",
+          "Status": "Passed",
+          "Duration": 0.0578534,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalAdventureTests.OriginalCancelAndClosedDayFinishKeepOtherDispatchesAndNoRefund",
+          "Status": "Failed",
+          "Duration": 5.3110807,
+          "Message": "  Expected: 28\n  But was:  27\n",
+          "StackTrace": "at OriginalAdventureTests+<OriginalCancelAndClosedDayFinishKeepOtherDispatchesAndNoRefund>d__13.MoveNext () [0x0037d] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalAdventureTests.cs:88\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalAdventureTests.OriginalMapEnterPetChoiceClaimAndRelicDrawUseActualRaycasts",
+          "Status": "Failed",
+          "Duration": 5.7346415,
+          "Message": "Unhandled log message: '[Exception] NullReferenceException: Object reference not set to an instance of an object'. Use UnityEngine.TestTools.LogAssert.Expect",
+          "StackTrace": "Adventure_PetSelect_Slot.Reload (Dispatch_Pet p) (at Assets/Recovery/Scripts/Adventure_PetSelect_Slot.cs:17)\nAdventure_PetSelect_popup.Reload () (at Assets/Recovery/Scripts/Adventure_PetSelect_popup.cs:15)\nAdventure_PetSelect_popup.Open () (at Assets/Recovery/Scripts/Adventure_PetSelect_popup.cs:14)\nAdventure_Pet_Slot.OnClick () (at Assets/Recovery/Scripts/Adventure_Pet_Slot.cs:20)\nUnityEngine.Events.InvokableCall.Invoke () (at /Users/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)\nUnityEngine.Events.UnityEvent.Invoke () (at /Users/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)\nUnityEngine.UI.Button.Press () (at ./Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Button.cs:71)\nUnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at ./Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Button.cs:115)\nUnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at ./Packages/com.unity.ugui/Runtime/UGUI/EventSystem/ExecuteEvents.cs:57)\nUnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at ./Packages/com.unity.ugui/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)\nUnityEngine.EventSystems.ExecuteEvents:ExecuteHierarchy(GameObject, BaseEventData, EventFunction`1)\nOriginalAdventureTests:Click(Button) (at Assets/Recovery/Tests/PlayMode/OriginalAdventureTests.cs:28)\n<OriginalMapEnterPetChoiceClaimAndRelicDrawUseActualRaycasts>d__12:MoveNext() (at Assets/Recovery/Tests/PlayMode/OriginalAdventureTests.cs:74)\nUnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)\n\n"
+        },
+        {
+          "FullName": "OriginalAdventureTests.OriginalTablesWeekdaysLevelAndSlotGatesAreShippedValues",
+          "Status": "Passed",
+          "Duration": 0.0569955,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalAdventureTests.SelectionLocksPhysicalSlotsAndRejectsInvalidStartsWithoutTicketLoss",
+          "Status": "Passed",
+          "Duration": 0.1243286,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalAdventureTests.TicketsUseFourHourIntervalsFractionalCarryFullCapAndBackwardClock",
+          "Status": "Passed",
+          "Duration": 0.0841039,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,76 @@
+{
+  "status": "completed",
+  "duration": 59.54,
+  "summary": {
+    "total": 9,
+    "passed": 7,
+    "failed": 2,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalSpeedRunSweepRulesTests.NativeHealthTreeCapAverageDegreeAndEffectiveSecondsAreRetained",
+      "Status": "Passed",
+      "Duration": 0.1962456,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalSpeedRunSweepRulesTests.WeaponTargetsCriticalRoundingAndCentisecondsMatchNativeBranches",
+      "Status": "Failed",
+      "Duration": 0.0039655,
+      "Message": "  Expected: 0\n  But was:  1\n",
+      "StackTrace": "at OriginalSpeedRunSweepRulesTests.WeaponTargetsCriticalRoundingAndCentisecondsMatchNativeBranches () [0x00058] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalSpeedRunSweepTests.cs:141\n"
+    },
+    {
+      "FullName": "OriginalSpeedRunSweepTests.AutoPackWeakPowerPercentAndSevenDayExpiryUseOriginalEntrance",
+      "Status": "Passed",
+      "Duration": 12.2088139,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalSpeedRunSweepTests.CancelDisableDuplicateAndOldResultCallbacksCannotPayAgain",
+      "Status": "Passed",
+      "Duration": 6.1049345,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalSpeedRunSweepTests.DisabledSimulationAndUnverifiedNextStageRejectBeforeMutation",
+      "Status": "Failed",
+      "Duration": 5.9382293,
+      "Message": "  Expected: <System.NotSupportedException>\n  But was:  null\n",
+      "StackTrace": "at OriginalSpeedRunSweepTests+<DisabledSimulationAndUnverifiedNextStageRejectBeforeMutation>d__20.MoveNext () [0x000a0] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalSpeedRunSweepTests.cs:121\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalSpeedRunSweepTests.ForcedRemovalRemainsOrdinaryAndFullRemovalPays120WithoutPlusRewardMultiplier",
+      "Status": "Passed",
+      "Duration": 8.2174634,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalSpeedRunSweepTests.ForestUpgradesParticipateAndInactiveCatsDoNotContribute",
+      "Status": "Passed",
+      "Duration": 6.0609707,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalSpeedRunSweepTests.OriginalButtonsGrantThirtyThenNinetyAndColdReloadDoesNotReplayResult",
+      "Status": "Passed",
+      "Duration": 14.2324486,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalSpeedRunSweepTests.OriginalSweepEntranceCompletesStageAndPaysThirtyOnce",
+      "Status": "Passed",
+      "Duration": 5.937969,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

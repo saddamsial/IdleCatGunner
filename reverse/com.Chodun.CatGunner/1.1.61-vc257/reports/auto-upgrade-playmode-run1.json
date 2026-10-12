@@ -1,0 +1,118 @@
+{
+  "status": "completed",
+  "duration": 47.39,
+  "summary": {
+    "total": 15,
+    "passed": 14,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.DayBoundaryRequiresInactiveBudgetAndNeverCreatesPackOwnership",
+      "Status": "Passed",
+      "Duration": 0.107964,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.ExactOriginalLiteralTruncatesTime(600.0f,\"10:00\")",
+      "Status": "Passed",
+      "Duration": 0.000545,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.ExactOriginalLiteralTruncatesTime(59.99f,\"0:59\")",
+      "Status": "Passed",
+      "Duration": 3.47E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.ExactOriginalLiteralTruncatesTime(0.0f,\"0:00\")",
+      "Status": "Passed",
+      "Duration": 2.77E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.FrameCapAdPauseAndPaidBudgetAreNativeGates",
+      "Status": "Passed",
+      "Duration": 0.0002017,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.NativeLoadClampsTimerAndNormalizesNullDate(-1.0f,0.0f)",
+      "Status": "Passed",
+      "Duration": 0.0005244,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.NativeLoadClampsTimerAndNormalizesNullDate(901.0f,600.0f)",
+      "Status": "Passed",
+      "Duration": 4.9E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.NativeLoadClampsTimerAndNormalizesNullDate(float.NaN,0.0f)",
+      "Status": "Passed",
+      "Duration": 4.24E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.NativeLoadClampsTimerAndNormalizesNullDate(float.PositiveInfinity,600.0f)",
+      "Status": "Passed",
+      "Duration": 3.28E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.ClosingOfferCancelsRewardAndRepeatedRequestsCannotDoubleGrant",
+      "Status": "Passed",
+      "Duration": 7.7416276999999996,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.ColdSceneReloadPreservesBudgetWithoutConsumingOfflineSeconds",
+      "Status": "Passed",
+      "Duration": 11.7724163,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.OriginalAutoUpgradeHudAndPopupArePresentForPlay",
+      "Status": "Passed",
+      "Duration": 6.6078637,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.PaidStateSkipsAdAndKeepsTimedBudgetWithoutGrantingNewEntitlement",
+      "Status": "Passed",
+      "Duration": 7.4680789,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.RealHudAdAndSwitchButtonsBuyNativeAffordableLowestLevelsAndSave",
+      "Status": "Failed",
+      "Duration": 7.048061,
+      "Message": "  String lengths are both 4. Strings differ at index 3.\n  Expected: \"Lv.3\"\n  But was:  \"Lv.0\"\n  --------------^\n",
+      "StackTrace": "at OriginalAutoUpgradeTests+<RealHudAdAndSwitchButtonsBuyNativeAffordableLowestLevelsAndSave>d__13.MoveNext () [0x00216] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalAutoUpgradeTests.cs:46\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.ScaledPauseExpirySameDayAndNextDayReloadUseOriginalVisibility",
+      "Status": "Passed",
+      "Duration": 6.418921,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

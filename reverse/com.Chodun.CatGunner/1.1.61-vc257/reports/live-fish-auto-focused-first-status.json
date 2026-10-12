@@ -1,0 +1,140 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 48.41,
+      "summary": {
+        "total": 16,
+        "passed": 14,
+        "failed": 2,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.AutomaticGunMergeHonorsCollectionLimitPauseDragCancelAndUnavailableEntitlement",
+          "Status": "Failed",
+          "Duration": 8.6166838,
+          "Message": "  Expected: 1\n  But was:  0\n",
+          "StackTrace": "at OriginalFishAndAutoMergeTests+<AutomaticGunMergeHonorsCollectionLimitPauseDragCancelAndUnavailableEntitlement>d__14.MoveNext () [0x003d1] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalFishAndAutoMergeTests.cs:60\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.ClosingGunPanelDuringMovementPreservesPairAndRestoresRaycasts",
+          "Status": "Passed",
+          "Duration": 6.8683922,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.DiamondDrawCapacityAndInsufficientWalletAreAtomic",
+          "Status": "Passed",
+          "Duration": 0.0044714,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.FishAutoMergeSuspendsForDeleteAndClosingAndFinishesLowestGradeChain",
+          "Status": "Passed",
+          "Duration": 8.8466357,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.FishEntranceDrawSwimmingDetailsMergeAndDeleteUseOriginalUI",
+          "Status": "Passed",
+          "Duration": 7.0569764,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.FishProfileColdReloadRetainsGradesDailyCountCurrencyAndCombatBonus",
+          "Status": "Passed",
+          "Duration": 11.0027811,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.InvalidFishStateNeverMutatesTheSuppliedProfile",
+          "Status": "Passed",
+          "Duration": 0.0017125,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.NativeMergeRemovesHighIndexFirstAppendsAndAggregatesDuplicateBonuses",
+          "Status": "Passed",
+          "Duration": 0.0011543,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.NativeRollThresholdsAndPremiumOffset(0,0)",
+          "Status": "Passed",
+          "Duration": 0.0003314,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.NativeRollThresholdsAndPremiumOffset(59.99f,0)",
+          "Status": "Passed",
+          "Duration": 0.0000473,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.NativeRollThresholdsAndPremiumOffset(60,1)",
+          "Status": "Passed",
+          "Duration": 0.0000327,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.NativeRollThresholdsAndPremiumOffset(89.99f,1)",
+          "Status": "Passed",
+          "Duration": 0.0000265,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.NativeRollThresholdsAndPremiumOffset(90,2)",
+          "Status": "Passed",
+          "Duration": 0.0000258,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.NativeRollThresholdsAndPremiumOffset(100,0)",
+          "Status": "Passed",
+          "Duration": 0.0000267,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.PetAutoMergeExcludesDispatchLocksAndStopsOnPanelClose",
+          "Status": "Failed",
+          "Duration": 5.9329957,
+          "Message": "System.InvalidOperationException : Sequence contains no matching element",
+          "StackTrace": "  at System.Linq.Enumerable.Single[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x00070] in <fe5fd0116f6c450487f1e1dfe36adc18>:0 \n  at OriginalFishAndAutoMergeTests.Named (System.String name) [0x0000d] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalFishAndAutoMergeTests.cs:33 \n  at OriginalFishAndAutoMergeTests+<PetAutoMergeExcludesDispatchLocksAndStopsOnPanelClose>d__16.MoveNext () [0x00130] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalFishAndAutoMergeTests.cs:75 \n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44 "
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.ThreeDailyNoAdDrawsKeepAdRewardsUnavailableAndRolloverLocalDay",
+          "Status": "Passed",
+          "Duration": 0.0002847,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

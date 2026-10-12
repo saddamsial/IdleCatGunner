@@ -1,0 +1,16 @@
+{
+  "originalGo": "20203",
+  "Destroy_Time": 2,
+  "documents": [
+    "--- !u!1 &20203\nGameObject:\n  serializedVersion: 6\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_Component:\n  - component: {fileID: 106321}\n  - component: {fileID: 146340}\n  - component: {fileID: 66786}\n  - component: {fileID: 146341}\n  m_Layer: 5\n  m_Name: NewGun_UI\n  m_TagString: Untagged\n  m_Icon: {fileID: 0}\n  m_NavMeshLayer: 0\n  m_StaticEditorFlags: 0\n  m_IsActive: 0\n",
+    "--- !u!95 &66786\nAnimator:\n  serializedVersion: 7\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 20203}\n  m_Enabled: 1\n  m_Avatar: {fileID: 0}\n  m_Controller: {fileID: 9100000, guid: a146efd18a982fb4ca703dfa3a06e818, type: 2}\n  m_CullingMode: 0\n  m_UpdateMode: 0\n  m_ApplyRootMotion: 0\n  m_LinearVelocityBlending: 0\n  m_StabilizeFeet: 0\n  m_AnimatePhysics: 0\n  m_WarningMessage:\n  m_HasTransformHierarchy: 1\n  m_AllowConstantClipSamplingOptimization: 1\n  m_KeepAnimatorStateOnDisable: 0\n  m_WriteDefaultValuesOnDisable: 0\n",
+    "--- !u!224 &106321\nRectTransform:\n  serializedVersion: 2\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 20203}\n  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}\n  m_LocalPosition: {x: 0, y: 0, z: 0}\n  m_LocalScale: {x: 1, y: 1, z: 1}\n  m_ConstrainProportionsScale: 0\n  m_Children:\n  - {fileID: 105637}\n  - {fileID: 115925}\n  m_Father: {fileID: 104803}\n  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}\n  m_AnchorMin: {x: 0, y: 0}\n  m_AnchorMax: {x: 1, y: 1}\n  m_AnchoredPosition: {x: 0, y: 0}\n  m_SizeDelta: {x: 980, y: 1820}\n  m_Pivot: {x: 0.5, y: 0.5}\n",
+    "--- !u!114 &146340\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 20203}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 9e27ca9e7bb680a10dc9a92f7a69bc21, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  Destroy_Time: 2\n",
+    "--- !u!114 &146341\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 20203}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 252f0f2a213d22da63dc369dc47c3261, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  Gun_img: {fileID: 132861}\n  Shadow_img: {fileID: 145969}\n  Panel_img: {fileID: 148813}\n  Degree_objs:\n  - {fileID: 34445}\n  - {fileID: 15001}\n  - {fileID: 30202}\n  - {fileID: 20698}\n  - {fileID: 7898}\n  - {fileID: 3376}\n  - {fileID: 2483}\n  Type_txt: {fileID: 121461}\n"
+  ],
+  "nativeLifetimeEvidence": [
+    "native-bullet-effects-lifecycle-reviewed/Destroy_OnEnable.c",
+    "native-bullet-effects-lifecycle-reviewed/Destroy_Disable.c",
+    "native-bullet-effects-lifecycle-reviewed/_Disable_d__5_MoveNext.c"
+  ]
+}

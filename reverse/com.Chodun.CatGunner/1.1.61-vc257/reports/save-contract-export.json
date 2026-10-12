@@ -1,0 +1,12 @@
+{
+  "main_fields": 161,
+  "types": {
+    "OriginalSaveData": 161,
+    "GainEntrySave": 5,
+    "DiaPigSave": 2,
+    "AdventureMapTypeSave": 1,
+    "AdventureMapSave": 3,
+    "RelicSave": 3
+  },
+  "evidence": "exact-native-schema; native ctor sentinels and collection construction reviewed; InfiniteValue numeric serialization uses independent DTO adapter; no phone private data collected"
+}

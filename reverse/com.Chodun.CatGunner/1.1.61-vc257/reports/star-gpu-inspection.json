@@ -1,0 +1,23 @@
+{
+  "image": "visual/star-upgrade-test-gpu.png",
+  "sha256": "70559161e7a2de4e65b3158330e06b53a389ff7a395372f1cf2fb3f31ddbdee0",
+  "resolution": [
+    1080,
+    1920
+  ],
+  "observed": [
+    "Actual GPU pixels read by view_image",
+    "Chinese dynamic title and original alert readable",
+    "Original green StarGem inline sprite readable and ordinary draw sprite no longer pink",
+    "Level1+50%/150 to level2+140%/240,90% probability,100 cost,150remaining gem visible",
+    "Original Korean static explanation labels retained"
+  ],
+  "final_title_and_currency_legible": true,
+  "full_visual_player_device": "unaccepted",
+  "prior_images": [
+    "visual/star-upgrade-first-gpu.png",
+    "visual/star-upgrade-fallback-first-gpu.png",
+    "visual/star-upgrade-fallback-second-gpu.png"
+  ],
+  "last_inspection": "Actual screenshot captured again in final full111 run, read with view_image; same legible title/alert/currency and damage UI observed."
+}

@@ -1,0 +1,3338 @@
+{
+  "rule": 66,
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "ghidraImageBase": "0x100000",
+  "rows": [
+    {
+      "Path": "SafeArea/Mission_maanger/NewSeason_UI",
+      "VipPath": "SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)",
+      "ItemPaths": [
+        "SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic",
+        "SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)",
+        "SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)"
+      ],
+      "SourceComponent": 124314,
+      "SourceGameObject": 1110,
+      "SourceItems": [
+        125923,
+        125920,
+        125925
+      ]
+    },
+    {
+      "Path": "SafeArea/Mission_maanger/NewSeason_UI (forced)",
+      "VipPath": "SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)",
+      "ItemPaths": [
+        "SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic",
+        "SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)",
+        "SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)"
+      ],
+      "SourceComponent": 124424,
+      "SourceGameObject": 1211,
+      "SourceItems": [
+        125922,
+        125924,
+        125921
+      ]
+    }
+  ],
+  "originalComponents": [
+    {
+      "component": 124314,
+      "text": "--- !u!114 &124314\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 1110}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 730160ca8b02a764e4eb126dc3b260e4, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  VIP_Purchase_popup_obj: {fileID: 2133}\n  Mission_Reward_Items:\n  - {fileID: 125923}\n  - {fileID: 125920}\n  - {fileID: 125925}\n"
+    },
+    {
+      "component": 125923,
+      "text": "--- !u!114 &125923\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 5634}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 6546875ce64aaca605fee40a23286690, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  _degree: 0\n  _Lv: 0\n  Dia_obj: {fileID: 25978}\n  Gun_obj: {fileID: 23212}\n  Core_obj: {fileID: 10740}\n  Dia_Reward_txt: {fileID: 118006}\n  Core_Reward_txt: {fileID: 121877}\n  Gun_img: {fileID: 140105}\n  Shadow_img: {fileID: 140874}\n  Panel_img: {fileID: 134917}\n  Degree_objs:\n  - {fileID: 33561}\n  - {fileID: 17419}\n  - {fileID: 24871}\n  - {fileID: 2718}\n  - {fileID: 35527}\n  - {fileID: 3609}\n  - {fileID: 25885}\n  - {fileID: 21197}\n  Type_txt: {fileID: 120201}\n  NonClear_obj: {fileID: 19882}\n  GetAble_obj: {fileID: 18663}\n  Get_obj: {fileID: 9250}\n  Locked_obj: {fileID: 30644}\n  SequenceLocked_obj: {fileID: 24776}\n  SequenceLocked_obj2: {fileID: 19602}\n  AD_Reward_obj: {fileID: 23054}\n"
+    },
+    {
+      "component": 125920,
+      "text": "--- !u!114 &125920\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 5632}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 6546875ce64aaca605fee40a23286690, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  _degree: 0\n  _Lv: 0\n  Dia_obj: {fileID: 25977}\n  Gun_obj: {fileID: 23215}\n  Core_obj: {fileID: 10738}\n  Dia_Reward_txt: {fileID: 118005}\n  Core_Reward_txt: {fileID: 121875}\n  Gun_img: {fileID: 140103}\n  Shadow_img: {fileID: 140872}\n  Panel_img: {fileID: 134913}\n  Degree_objs:\n  - {fileID: 33564}\n  - {fileID: 17416}\n  - {fileID: 24874}\n  - {fileID: 2715}\n  - {fileID: 35529}\n  - {fileID: 3607}\n  - {fileID: 25882}\n  - {fileID: 21199}\n  Type_txt: {fileID: 120204}\n  NonClear_obj: {fileID: 19884}\n  GetAble_obj: {fileID: 18667}\n  Get_obj: {fileID: 9248}\n  Locked_obj: {fileID: 30645}\n  SequenceLocked_obj: {fileID: 24778}\n  SequenceLocked_obj2: {fileID: 19604}\n  AD_Reward_obj: {fileID: 23051}\n"
+    },
+    {
+      "component": 125925,
+      "text": "--- !u!114 &125925\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 5636}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 6546875ce64aaca605fee40a23286690, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  _degree: 0\n  _Lv: 0\n  Dia_obj: {fileID: 25974}\n  Gun_obj: {fileID: 23211}\n  Core_obj: {fileID: 10741}\n  Dia_Reward_txt: {fileID: 118008}\n  Core_Reward_txt: {fileID: 121878}\n  Gun_img: {fileID: 140101}\n  Shadow_img: {fileID: 140870}\n  Panel_img: {fileID: 134912}\n  Degree_objs:\n  - {fileID: 33565}\n  - {fileID: 17414}\n  - {fileID: 24870}\n  - {fileID: 2714}\n  - {fileID: 35526}\n  - {fileID: 3610}\n  - {fileID: 25886}\n  - {fileID: 21202}\n  Type_txt: {fileID: 120205}\n  NonClear_obj: {fileID: 19887}\n  GetAble_obj: {fileID: 18662}\n  Get_obj: {fileID: 9245}\n  Locked_obj: {fileID: 30642}\n  SequenceLocked_obj: {fileID: 24774}\n  SequenceLocked_obj2: {fileID: 19600}\n  AD_Reward_obj: {fileID: 23055}\n"
+    },
+    {
+      "component": 124424,
+      "text": "--- !u!114 &124424\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 1211}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 730160ca8b02a764e4eb126dc3b260e4, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  VIP_Purchase_popup_obj: {fileID: 543}\n  Mission_Reward_Items:\n  - {fileID: 125922}\n  - {fileID: 125924}\n  - {fileID: 125921}\n"
+    },
+    {
+      "component": 125922,
+      "text": "--- !u!114 &125922\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 5633}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 6546875ce64aaca605fee40a23286690, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  _degree: 0\n  _Lv: 0\n  Dia_obj: {fileID: 25975}\n  Gun_obj: {fileID: 23214}\n  Core_obj: {fileID: 10736}\n  Dia_Reward_txt: {fileID: 118003}\n  Core_Reward_txt: {fileID: 121873}\n  Gun_img: {fileID: 140104}\n  Shadow_img: {fileID: 140873}\n  Panel_img: {fileID: 134915}\n  Degree_objs:\n  - {fileID: 33562}\n  - {fileID: 17415}\n  - {fileID: 24873}\n  - {fileID: 2717}\n  - {fileID: 35531}\n  - {fileID: 3605}\n  - {fileID: 25881}\n  - {fileID: 21201}\n  Type_txt: {fileID: 120202}\n  NonClear_obj: {fileID: 19886}\n  GetAble_obj: {fileID: 18665}\n  Get_obj: {fileID: 9246}\n  Locked_obj: {fileID: 30647}\n  SequenceLocked_obj: {fileID: 24777}\n  SequenceLocked_obj2: {fileID: 19603}\n  AD_Reward_obj: {fileID: 23050}\n"
+    },
+    {
+      "component": 125924,
+      "text": "--- !u!114 &125924\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 5635}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 6546875ce64aaca605fee40a23286690, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  _degree: 0\n  _Lv: 0\n  Dia_obj: {fileID: 25979}\n  Gun_obj: {fileID: 23213}\n  Core_obj: {fileID: 10739}\n  Dia_Reward_txt: {fileID: 118007}\n  Core_Reward_txt: {fileID: 121876}\n  Gun_img: {fileID: 140106}\n  Shadow_img: {fileID: 140875}\n  Panel_img: {fileID: 134916}\n  Degree_objs:\n  - {fileID: 33560}\n  - {fileID: 17418}\n  - {fileID: 24872}\n  - {fileID: 2719}\n  - {fileID: 35528}\n  - {fileID: 3608}\n  - {fileID: 25884}\n  - {fileID: 21198}\n  Type_txt: {fileID: 120200}\n  NonClear_obj: {fileID: 19883}\n  GetAble_obj: {fileID: 18664}\n  Get_obj: {fileID: 9249}\n  Locked_obj: {fileID: 30643}\n  SequenceLocked_obj: {fileID: 24775}\n  SequenceLocked_obj2: {fileID: 19601}\n  AD_Reward_obj: {fileID: 23053}\n"
+    },
+    {
+      "component": 125921,
+      "text": "--- !u!114 &125921\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 5631}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 6546875ce64aaca605fee40a23286690, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  _degree: 0\n  _Lv: 0\n  Dia_obj: {fileID: 25976}\n  Gun_obj: {fileID: 23216}\n  Core_obj: {fileID: 10737}\n  Dia_Reward_txt: {fileID: 118004}\n  Core_Reward_txt: {fileID: 121874}\n  Gun_img: {fileID: 140102}\n  Shadow_img: {fileID: 140871}\n  Panel_img: {fileID: 134914}\n  Degree_objs:\n  - {fileID: 33563}\n  - {fileID: 17417}\n  - {fileID: 24875}\n  - {fileID: 2716}\n  - {fileID: 35530}\n  - {fileID: 3606}\n  - {fileID: 25883}\n  - {fileID: 21200}\n  Type_txt: {fileID: 120203}\n  NonClear_obj: {fileID: 19885}\n  GetAble_obj: {fileID: 18666}\n  Get_obj: {fileID: 9247}\n  Locked_obj: {fileID: 30646}\n  SequenceLocked_obj: {fileID: 24779}\n  SequenceLocked_obj2: {fileID: 19605}\n  AD_Reward_obj: {fileID: 23052}\n"
+    }
+  ],
+  "originalPreviewCallbacks": [
+    {
+      "component": 140334,
+      "text": "--- !u!114 &140334\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 5636}\n  m_Enabled: 0\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 18d0a90695249463551c00f45766e642, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  m_Navigation:\n    m_Mode: 3\n    m_WrapAround: 0\n    m_SelectOnUp: {fileID: 0}\n    m_SelectOnDown: {fileID: 0}\n    m_SelectOnLeft: {fileID: 0}\n    m_SelectOnRight: {fileID: 0}\n  m_Transition: 1\n  m_Colors:\n    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}\n    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}\n    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}\n    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}\n    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}\n    m_ColorMultiplier: 1\n    m_FadeDuration: 0.1\n  m_SpriteState:\n    m_HighlightedSprite: {fileID: 0}\n    m_PressedSprite: {fileID: 0}\n    m_SelectedSprite: {fileID: 0}\n    m_DisabledSprite: {fileID: 0}\n  m_AnimationTriggers:\n    m_NormalTrigger: Normal\n    m_HighlightedTrigger: Highlighted\n    m_PressedTrigger: Pressed\n    m_SelectedTrigger: Selected\n    m_DisabledTrigger: Disabled\n  m_Interactable: 1\n  m_TargetGraphic: {fileID: 132554}\n  m_OnClick:\n    m_PersistentCalls:\n      m_Calls:\n      - m_Target: {fileID: 132993}\n        m_TargetAssemblyTypeName: Mission_Reward_Slot, Assembly-CSharp\n        m_MethodName: Epic_Reward_Click\n        m_Mode: 1\n        m_Arguments:\n          m_ObjectArgument: {fileID: 0}\n          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine\n          m_IntArgument: 0\n          m_FloatArgument: 0\n          m_StringArgument:\n          m_BoolArgument: 0\n        m_CallState: 2\n"
+    },
+    {
+      "component": 140336,
+      "text": "--- !u!114 &140336\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 5632}\n  m_Enabled: 0\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 18d0a90695249463551c00f45766e642, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  m_Navigation:\n    m_Mode: 3\n    m_WrapAround: 0\n    m_SelectOnUp: {fileID: 0}\n    m_SelectOnDown: {fileID: 0}\n    m_SelectOnLeft: {fileID: 0}\n    m_SelectOnRight: {fileID: 0}\n  m_Transition: 1\n  m_Colors:\n    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}\n    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}\n    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}\n    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}\n    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}\n    m_ColorMultiplier: 1\n    m_FadeDuration: 0.1\n  m_SpriteState:\n    m_HighlightedSprite: {fileID: 0}\n    m_PressedSprite: {fileID: 0}\n    m_SelectedSprite: {fileID: 0}\n    m_DisabledSprite: {fileID: 0}\n  m_AnimationTriggers:\n    m_NormalTrigger: Normal\n    m_HighlightedTrigger: Highlighted\n    m_PressedTrigger: Pressed\n    m_SelectedTrigger: Selected\n    m_DisabledTrigger: Disabled\n  m_Interactable: 1\n  m_TargetGraphic: {fileID: 132557}\n  m_OnClick:\n    m_PersistentCalls:\n      m_Calls:\n      - m_Target: {fileID: 132993}\n        m_TargetAssemblyTypeName: Mission_Reward_Slot, Assembly-CSharp\n        m_MethodName: Epic_Reward_Click\n        m_Mode: 1\n        m_Arguments:\n          m_ObjectArgument: {fileID: 0}\n          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine\n          m_IntArgument: 0\n          m_FloatArgument: 0\n          m_StringArgument:\n          m_BoolArgument: 0\n        m_CallState: 2\n"
+    },
+    {
+      "component": 140339,
+      "text": "--- !u!114 &140339\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 5634}\n  m_Enabled: 0\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 18d0a90695249463551c00f45766e642, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  m_Navigation:\n    m_Mode: 3\n    m_WrapAround: 0\n    m_SelectOnUp: {fileID: 0}\n    m_SelectOnDown: {fileID: 0}\n    m_SelectOnLeft: {fileID: 0}\n    m_SelectOnRight: {fileID: 0}\n  m_Transition: 1\n  m_Colors:\n    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}\n    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}\n    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}\n    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}\n    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}\n    m_ColorMultiplier: 1\n    m_FadeDuration: 0.1\n  m_SpriteState:\n    m_HighlightedSprite: {fileID: 0}\n    m_PressedSprite: {fileID: 0}\n    m_SelectedSprite: {fileID: 0}\n    m_DisabledSprite: {fileID: 0}\n  m_AnimationTriggers:\n    m_NormalTrigger: Normal\n    m_HighlightedTrigger: Highlighted\n    m_PressedTrigger: Pressed\n    m_SelectedTrigger: Selected\n    m_DisabledTrigger: Disabled\n  m_Interactable: 1\n  m_TargetGraphic: {fileID: 132559}\n  m_OnClick:\n    m_PersistentCalls:\n      m_Calls:\n      - m_Target: {fileID: 132993}\n        m_TargetAssemblyTypeName: Mission_Reward_Slot, Assembly-CSharp\n        m_MethodName: Epic_Reward_Click\n        m_Mode: 1\n        m_Arguments:\n          m_ObjectArgument: {fileID: 0}\n          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine\n          m_IntArgument: 0\n          m_FloatArgument: 0\n          m_StringArgument:\n          m_BoolArgument: 0\n        m_CallState: 2\n"
+    },
+    {
+      "component": 140335,
+      "text": "--- !u!114 &140335\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 5633}\n  m_Enabled: 0\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 18d0a90695249463551c00f45766e642, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  m_Navigation:\n    m_Mode: 3\n    m_WrapAround: 0\n    m_SelectOnUp: {fileID: 0}\n    m_SelectOnDown: {fileID: 0}\n    m_SelectOnLeft: {fileID: 0}\n    m_SelectOnRight: {fileID: 0}\n  m_Transition: 1\n  m_Colors:\n    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}\n    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}\n    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}\n    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}\n    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}\n    m_ColorMultiplier: 1\n    m_FadeDuration: 0.1\n  m_SpriteState:\n    m_HighlightedSprite: {fileID: 0}\n    m_PressedSprite: {fileID: 0}\n    m_SelectedSprite: {fileID: 0}\n    m_DisabledSprite: {fileID: 0}\n  m_AnimationTriggers:\n    m_NormalTrigger: Normal\n    m_HighlightedTrigger: Highlighted\n    m_PressedTrigger: Pressed\n    m_SelectedTrigger: Selected\n    m_DisabledTrigger: Disabled\n  m_Interactable: 1\n  m_TargetGraphic: {fileID: 132555}\n  m_OnClick:\n    m_PersistentCalls:\n      m_Calls:\n      - m_Target: {fileID: 132993}\n        m_TargetAssemblyTypeName: Mission_Reward_Slot, Assembly-CSharp\n        m_MethodName: Epic_Reward_Click\n        m_Mode: 1\n        m_Arguments:\n          m_ObjectArgument: {fileID: 0}\n          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine\n          m_IntArgument: 0\n          m_FloatArgument: 0\n          m_StringArgument:\n          m_BoolArgument: 0\n        m_CallState: 2\n"
+    },
+    {
+      "component": 140337,
+      "text": "--- !u!114 &140337\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 5631}\n  m_Enabled: 0\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 18d0a90695249463551c00f45766e642, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  m_Navigation:\n    m_Mode: 3\n    m_WrapAround: 0\n    m_SelectOnUp: {fileID: 0}\n    m_SelectOnDown: {fileID: 0}\n    m_SelectOnLeft: {fileID: 0}\n    m_SelectOnRight: {fileID: 0}\n  m_Transition: 1\n  m_Colors:\n    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}\n    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}\n    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}\n    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}\n    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}\n    m_ColorMultiplier: 1\n    m_FadeDuration: 0.1\n  m_SpriteState:\n    m_HighlightedSprite: {fileID: 0}\n    m_PressedSprite: {fileID: 0}\n    m_SelectedSprite: {fileID: 0}\n    m_DisabledSprite: {fileID: 0}\n  m_AnimationTriggers:\n    m_NormalTrigger: Normal\n    m_HighlightedTrigger: Highlighted\n    m_PressedTrigger: Pressed\n    m_SelectedTrigger: Selected\n    m_DisabledTrigger: Disabled\n  m_Interactable: 1\n  m_TargetGraphic: {fileID: 132556}\n  m_OnClick:\n    m_PersistentCalls:\n      m_Calls:\n      - m_Target: {fileID: 132993}\n        m_TargetAssemblyTypeName: Mission_Reward_Slot, Assembly-CSharp\n        m_MethodName: Epic_Reward_Click\n        m_Mode: 1\n        m_Arguments:\n          m_ObjectArgument: {fileID: 0}\n          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine\n          m_IntArgument: 0\n          m_FloatArgument: 0\n          m_StringArgument:\n          m_BoolArgument: 0\n        m_CallState: 2\n"
+    },
+    {
+      "component": 140338,
+      "text": "--- !u!114 &140338\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 5635}\n  m_Enabled: 0\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 18d0a90695249463551c00f45766e642, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  m_Navigation:\n    m_Mode: 3\n    m_WrapAround: 0\n    m_SelectOnUp: {fileID: 0}\n    m_SelectOnDown: {fileID: 0}\n    m_SelectOnLeft: {fileID: 0}\n    m_SelectOnRight: {fileID: 0}\n  m_Transition: 1\n  m_Colors:\n    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}\n    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}\n    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}\n    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}\n    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}\n    m_ColorMultiplier: 1\n    m_FadeDuration: 0.1\n  m_SpriteState:\n    m_HighlightedSprite: {fileID: 0}\n    m_PressedSprite: {fileID: 0}\n    m_SelectedSprite: {fileID: 0}\n    m_DisabledSprite: {fileID: 0}\n  m_AnimationTriggers:\n    m_NormalTrigger: Normal\n    m_HighlightedTrigger: Highlighted\n    m_PressedTrigger: Pressed\n    m_SelectedTrigger: Selected\n    m_DisabledTrigger: Disabled\n  m_Interactable: 1\n  m_TargetGraphic: {fileID: 132558}\n  m_OnClick:\n    m_PersistentCalls:\n      m_Calls:\n      - m_Target: {fileID: 132993}\n        m_TargetAssemblyTypeName: Mission_Reward_Slot, Assembly-CSharp\n        m_MethodName: Epic_Reward_Click\n        m_Mode: 1\n        m_Arguments:\n          m_ObjectArgument: {fileID: 0}\n          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine\n          m_IntArgument: 0\n          m_FloatArgument: 0\n          m_StringArgument:\n          m_BoolArgument: 0\n        m_CallState: 2\n"
+    }
+  ],
+  "previewButtonsEnabled": false,
+  "normalPurchasePanelButton": {
+    "component": 123100,
+    "text": "--- !u!114 &123100\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 128}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: 18d0a90695249463551c00f45766e642, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  m_Navigation:\n    m_Mode: 3\n    m_WrapAround: 0\n    m_SelectOnUp: {fileID: 0}\n    m_SelectOnDown: {fileID: 0}\n    m_SelectOnLeft: {fileID: 0}\n    m_SelectOnRight: {fileID: 0}\n  m_Transition: 1\n  m_Colors:\n    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}\n    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}\n    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}\n    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}\n    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}\n    m_ColorMultiplier: 1\n    m_FadeDuration: 0.1\n  m_SpriteState:\n    m_HighlightedSprite: {fileID: 0}\n    m_PressedSprite: {fileID: 0}\n    m_SelectedSprite: {fileID: 0}\n    m_DisabledSprite: {fileID: 0}\n  m_AnimationTriggers:\n    m_NormalTrigger: Normal\n    m_HighlightedTrigger: Highlighted\n    m_PressedTrigger: Pressed\n    m_SelectedTrigger: Selected\n    m_DisabledTrigger: Disabled\n  m_Interactable: 1\n  m_TargetGraphic: {fileID: 123098}\n  m_OnClick:\n    m_PersistentCalls:\n      m_Calls:\n      - m_Target: {fileID: 125515}\n        m_TargetAssemblyTypeName: VIP_Purchase_popup, Assembly-CSharp\n        m_MethodName: Purchase\n        m_Mode: 1\n        m_Arguments:\n          m_ObjectArgument: {fileID: 0}\n          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine\n          m_IntArgument: 0\n          m_FloatArgument: 0\n          m_StringArgument:\n          m_BoolArgument: 0\n        m_CallState: 2\n      - m_Target: {fileID: 1110}\n        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine\n        m_MethodName: SetActive\n        m_Mode: 6\n        m_Arguments:\n          m_ObjectArgument: {fileID: 0}\n          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine\n          m_IntArgument: 0\n          m_FloatArgument: 0\n          m_StringArgument:\n          m_BoolArgument: 0\n        m_CallState: 2\n"
+  },
+  "callbackTarget": "--- !u!114 &132993\nMonoBehaviour:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 11811}\n  m_Enabled: 1\n  m_EditorHideFlags: 0\n  m_Script: {fileID: 11500000, guid: bc2e4ae2f7bc03306a4d20ced6ca09eb, type: 3}\n  m_Name:\n  m_EditorClassIdentifier:\n  _Lv: 0\n  Normal_Reward_item: {fileID: 129139}\n  Epic_Reward_item: {fileID: 133270}\n  Fill: {fileID: 147715}\n  Lv_txt: {fileID: 120809}\n  Locked_obj: {fileID: 17065}\n",
+  "callbackTargetPath": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 6",
+  "callbackSlotIndex": 5,
+  "sourceSlotArray": [
+    129860,
+    132996,
+    133003,
+    132995,
+    132989,
+    132993,
+    133000,
+    132998,
+    132986,
+    133001,
+    133010,
+    133002,
+    132991,
+    133009,
+    132999,
+    132987,
+    133004,
+    133006,
+    132990,
+    132992,
+    132988,
+    132994,
+    132997,
+    133008,
+    133007
+  ],
+  "methods": [
+    {
+      "name": "Mission_Reward_Item_First_Reload",
+      "preferredVa": "0x2b04180",
+      "end": "0x2b04394",
+      "first16": "fe0f1cf8f85f01a9f65702a9f44f03a9",
+      "sha256": "267e95b2b39f41ccd98a95d5c555270f3dc2cb22ae0b60c63db0b4d12534d0a4",
+      "outputs": {
+        "native-season-preview-reviewed/Mission_Reward_Item_First_Reload.c": "fc9fe2ea3da0371a49e5be7dd7dce0ae0540920450cfd7d31e29e83caebd5090",
+        "native-season-preview-reviewed/Mission_Reward_Item_First_Reload.asm": "25777aae452a373ef8dca12c3c8af8c87d4360c29e9ef2e032c63eb638a4fe9d"
+      }
+    },
+    {
+      "name": "Mission_Reward_Item_Value_Reload",
+      "preferredVa": "0x2b04394",
+      "end": "0x2b044f8",
+      "first16": "fe5fbda9f65701a9f44f02a9b7b201f0",
+      "sha256": "d4eaf2e7d7f36f1363fb3528071e0534c09b2bce7699010d0596ccfe76c0a238",
+      "outputs": {
+        "native-season-preview-reviewed/Mission_Reward_Item_Value_Reload.c": "5f609f07412c81a084e256c9f8ac3154f12a62535b2a48130d5d899e7060baa6",
+        "native-season-preview-reviewed/Mission_Reward_Item_Value_Reload.asm": "0413f5eb73edf1a55eee4b590a14b055dd727318fbf776e6210bac2cd7b3ad67"
+      }
+    },
+    {
+      "name": "NewSeason_UI_OnEnable",
+      "preferredVa": "0x2b05048",
+      "end": "0x2b0504c",
+      "first16": "01000014fe0f1af8fc6f01a9fa6702a9",
+      "sha256": "788f1512f26f87f558ccda89030f23036527961be061f31e047ad5b93b8aafe2",
+      "outputs": {
+        "native-season-preview-reviewed/NewSeason_UI_OnEnable.c": "b4d8d4aff9c2dedc96a532bd9e63cbe7f9f1bab844821d4ecf51128b4d01ed9d",
+        "native-season-preview-reviewed/NewSeason_UI_OnEnable.asm": "c81ea2028a0ec9a61c2a7103d3796a93c06a933cc46425da8407847e3b6f635c"
+      }
+    },
+    {
+      "name": "NewSeason_UI_Reload",
+      "preferredVa": "0x2b0504c",
+      "end": "0x2b05254",
+      "first16": "fe0f1af8fc6f01a9fa6702a9f85f03a9",
+      "sha256": "2f43a2284a69e2c9e2716c07226414527c2c3aba178bb36ae11523bd81158617",
+      "outputs": {
+        "native-season-preview-reviewed/NewSeason_UI_Reload.c": "43864cefbcaa6d591bc2b8e406103e2d2b494f99d87d35d09a82195d9cf7c182",
+        "native-season-preview-reviewed/NewSeason_UI_Reload.asm": "78a604626fc56c84266f843b559a8307162aba2bff5f6b9a401705e249f0d441"
+      }
+    },
+    {
+      "name": "NewSeason_UI__ctor",
+      "preferredVa": "0x2b05254",
+      "end": "0x2b0525c",
+      "first16": "e1031faa2277af14fe0f1df8f65701a9",
+      "sha256": "8cbd85f2cc109cacaf2a05c8fe623647a4a37e715826f042668703bec4b6f474",
+      "outputs": {
+        "native-season-preview-reviewed/NewSeason_UI__ctor.c": "77c5b0170a136470a0e05ce44255af7406272b3749f38cd5d9034774f829a559",
+        "native-season-preview-reviewed/NewSeason_UI__ctor.asm": "4380e1380ca9b1257cbc9cc22bdf187c3320957ac5d8135526a3152195e6d473"
+      }
+    },
+    {
+      "name": "Throw_NullReference_Wrapper",
+      "preferredVa": "0x28f5cfc",
+      "end": "0x28f5d04",
+      "first16": "fe0f1ff86a220194fe0f1ff87b220194",
+      "sha256": "fd826c34b9ef2518b1f3f6d39e7562b9946c1a4ca9651bc3c25e81558d412348",
+      "outputs": {
+        "native-season-preview-reviewed/Throw_NullReference_Wrapper.c": "4dbe5415e169f90b0ce5055036cca1b94bf1565f8d9d2308c08bf4bd707fcb91",
+        "native-season-preview-reviewed/Throw_NullReference_Wrapper.asm": "eec6b09062497629de85a27e3a8cad918b42764b2a1c0f544152a636461e5fdd"
+      }
+    },
+    {
+      "name": "Throw_Index_Wrapper",
+      "preferredVa": "0x28f5d04",
+      "end": "0x28f5d0c",
+      "first16": "fe0f1ff87b220194c03cff90006c0191",
+      "sha256": "4443063a785929eff8fbdd73652167a28163cc8bee6d193aa1d2d34ba13cefaa",
+      "outputs": {
+        "native-season-preview-reviewed/Throw_Index_Wrapper.c": "b554c9aba53206d804e9fc370e97cf27027d10930f18eb2a6be625e055cb8dd1",
+        "native-season-preview-reviewed/Throw_Index_Wrapper.asm": "5581995141036f8f8cb7598583a54ae3c1a567e77a4bbff543774e6d542c448c"
+      }
+    },
+    {
+      "name": "Throw_NullReference_Create",
+      "preferredVa": "0x293e6a8",
+      "end": "0x293e6bc",
+      "first16": "ff8300d1fffb00a9e0030091ff0300f9",
+      "sha256": "cdbf0bcca450bcc5619d3bedfd51ab6ee40fa3f25845c22f256f2b52ded52c13",
+      "outputs": {
+        "native-season-preview-reviewed/Throw_NullReference_Create.c": "07933b7cac27ee4d3e9d7c27b53882e222ed878cead5f8d79e73b3adba1fff6f",
+        "native-season-preview-reviewed/Throw_NullReference_Create.asm": "428c28c0278566bbd155390442ae395ecf5d111ac48dd41afa23cc88ab7051b2"
+      }
+    },
+    {
+      "name": "Throw_NullReference_Raise",
+      "preferredVa": "0x293e6bc",
+      "end": "0x293e6cc",
+      "first16": "fe0f1ff803000094e1031faad2ffff97",
+      "sha256": "5ca19850cf19c59741f496304fb81f88760711935ae81e9878b9291de917db2c",
+      "outputs": {
+        "native-season-preview-reviewed/Throw_NullReference_Raise.c": "aded7644ecb862bc0a5476706b21810f9257b367ac0397bdc541e91af2615d80",
+        "native-season-preview-reviewed/Throw_NullReference_Raise.asm": "5aafa322c11ce154d2ee31e138ead7810e48a24e419b8885131feb71851f1d71"
+      }
+    },
+    {
+      "name": "Throw_Index_Raise",
+      "preferredVa": "0x293e6f4",
+      "end": "0x293e704",
+      "first16": "fe0f1ff803000094e1031faac4ffff97",
+      "sha256": "cc88e424aa2cedbec18e703dcec784e753947ba52264006468b82ee358e7e4dd",
+      "outputs": {
+        "native-season-preview-reviewed/Throw_Index_Raise.c": "f7b9c1233cebb3659705feb97a706251cb1dd6dcac5b14dcbcd482f99b3529a7",
+        "native-season-preview-reviewed/Throw_Index_Raise.asm": "53f08a0cd65a4fe4ba45d72673ff66e057b405fd9658b230d54ec9cb96fab4ed"
+      }
+    },
+    {
+      "name": "Managed_Exception_CxaThrow",
+      "preferredVa": "0x293e610",
+      "end": "0x293e638",
+      "first16": "fe4fbfa9f30300aa71ffff9700018052",
+      "sha256": "3baf58d6dd416adb6ec9a1aa884940ecdc8bcb00a7fd1ff5efd9d6fd84aa48a1",
+      "outputs": {
+        "native-season-preview-reviewed/Managed_Exception_CxaThrow.c": "f034685b9e5e3c23ca134caf66dd8742db361f79a48e68bfefb6bb0b28479155",
+        "native-season-preview-reviewed/Managed_Exception_CxaThrow.asm": "79d2db030a3cd3519ea853008b8d9e435cee4ca33d345340c0a40c9ffa737b80"
+      }
+    }
+  ],
+  "status": [
+    {
+      "preferred_va": "0x2b04180",
+      "ghidra_va": "02c04180",
+      "name": "Mission_Reward_Item_First_Reload",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x2b04394",
+      "ghidra_va": "02c04394",
+      "name": "Mission_Reward_Item_Value_Reload",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x2b05048",
+      "ghidra_va": "02c05048",
+      "name": "NewSeason_UI_OnEnable",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x2b0504c",
+      "ghidra_va": "02c0504c",
+      "name": "NewSeason_UI_Reload",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x2b05254",
+      "ghidra_va": "02c05254",
+      "name": "NewSeason_UI__ctor",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x28f5cfc",
+      "ghidra_va": "029f5cfc",
+      "name": "Throw_NullReference_Wrapper",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x28f5d04",
+      "ghidra_va": "029f5d04",
+      "name": "Throw_Index_Wrapper",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x293e6a8",
+      "ghidra_va": "02a3e6a8",
+      "name": "Throw_NullReference_Create",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x293e6bc",
+      "ghidra_va": "02a3e6bc",
+      "name": "Throw_NullReference_Raise",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x293e6f4",
+      "ghidra_va": "02a3e6f4",
+      "name": "Throw_Index_Raise",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x293e610",
+      "ghidra_va": "02a3e610",
+      "name": "Managed_Exception_CxaThrow",
+      "completed": "true",
+      "error": ""
+    }
+  ],
+  "sourceHashes": {
+    "assetripper-baseline/ExportedProject/Assets/Scenes/Main.unity": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+    "extracted/split_config.arm64_v8a/lib/arm64-v8a/libil2cpp.so": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+    "extracted/base/assets/bin/Data/Managed/Metadata/global-metadata.dat": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+    "native-mission-rejection-reviewed/Mission_manager_Reward_Status_return.c": "a9bfe3b11c4903424526217ce11c6309cc502e073d73849478c96dc04f708a8e",
+    "native-mission-rejection-reviewed/Mission_Reward_Slot_Epic_Reward_Click.c": "9acb5a9f09d0e3ac56594783a223543b8496805d83374c44a121934c62347f10",
+    "assetripper-baseline/ExportedProject/Assets/Scripts/Assembly-CSharp/NewSeason_UI.cs.meta": "d5ef790bf02d9a143fe1e42760fd68dc17559a5ad87f9f43affdf94e4dc04aa8"
+  },
+  "schemas": [
+    {
+      "index": 7279,
+      "image": "Assembly-CSharp.dll",
+      "namespace": "",
+      "name": "Reward_info",
+      "token": "0x2000072",
+      "byval_type_index": 49067,
+      "declaring_type_index": 35435,
+      "parent_type_index": 36194,
+      "flags": 1056770,
+      "bitfield": 3072,
+      "fields": [
+        {
+          "index": 33081,
+          "name": "Lv",
+          "raw_type_index": 33506,
+          "token": "0x40002a6",
+          "signature": {
+            "kind": 8,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f489a0",
+            "name": "System.Int32"
+          },
+          "native_offset": 16,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33082,
+          "name": "type",
+          "raw_type_index": 35422,
+          "token": "0x40002a7",
+          "signature": {
+            "kind": 17,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f794b0",
+            "type_definition_index": 7275,
+            "name": "MissionReward_Type"
+          },
+          "native_offset": 20,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33083,
+          "name": "RewardValue",
+          "raw_type_index": 33506,
+          "token": "0x40002a8",
+          "signature": {
+            "kind": 8,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f489a0",
+            "name": "System.Int32"
+          },
+          "native_offset": 24,
+          "attribute_types": [],
+          "serialization_visibility": true
+        }
+      ],
+      "methods": [
+        {
+          "index": 50440,
+          "name": ".ctor",
+          "token": "0x600036e",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 6278,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        }
+      ],
+      "full_name": "Reward_info",
+      "parent_type_signature": {
+        "kind": 28,
+        "attrs": 0,
+        "byref": false,
+        "pointer": "0x5f49e80",
+        "name": "System.Object"
+      },
+      "declaring_type_signature": {
+        "kind": 18,
+        "attrs": 0,
+        "byref": false,
+        "pointer": "0x5f79580",
+        "type_definition_index": 7284,
+        "name": "Mission_manager"
+      },
+      "attribute_types": []
+    },
+    {
+      "index": 7284,
+      "image": "Assembly-CSharp.dll",
+      "namespace": "",
+      "name": "Mission_manager",
+      "token": "0x2000070",
+      "byval_type_index": 35435,
+      "declaring_type_index": -1,
+      "parent_type_index": 35501,
+      "flags": 1048577,
+      "bitfield": 3080,
+      "fields": [
+        {
+          "index": 33036,
+          "name": "Mission_list",
+          "raw_type_index": 23991,
+          "token": "0x4000279",
+          "signature": {
+            "kind": 29,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5c2a080",
+            "element": {
+              "kind": 18,
+              "attrs": 0,
+              "byref": false,
+              "pointer": "0x5faa740",
+              "type_definition_index": 7278,
+              "name": "Mission_info"
+            },
+            "name": "Mission_info[]"
+          },
+          "native_offset": 32,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33037,
+          "name": "Reward_Normal_list",
+          "raw_type_index": 23992,
+          "token": "0x400027a",
+          "signature": {
+            "kind": 29,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5c2a090",
+            "element": {
+              "kind": 18,
+              "attrs": 0,
+              "byref": false,
+              "pointer": "0x5faa750",
+              "type_definition_index": 7279,
+              "name": "Reward_info"
+            },
+            "name": "Reward_info[]"
+          },
+          "native_offset": 40,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33038,
+          "name": "Reward_Epic_list",
+          "raw_type_index": 23992,
+          "token": "0x400027b",
+          "signature": {
+            "kind": 29,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5c2a090",
+            "element": {
+              "kind": 18,
+              "attrs": 0,
+              "byref": false,
+              "pointer": "0x5faa750",
+              "type_definition_index": 7279,
+              "name": "Reward_info"
+            },
+            "name": "Reward_info[]"
+          },
+          "native_offset": 48,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33039,
+          "name": "NormalReward_Get",
+          "raw_type_index": 23069,
+          "token": "0x400027c",
+          "signature": {
+            "kind": 29,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5c22600",
+            "element": {
+              "kind": 2,
+              "attrs": 0,
+              "byref": false,
+              "pointer": "0x5f451f0",
+              "name": "System.Boolean"
+            },
+            "name": "System.Boolean[]"
+          },
+          "native_offset": 56,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33040,
+          "name": "EpicReward_Get",
+          "raw_type_index": 23069,
+          "token": "0x400027d",
+          "signature": {
+            "kind": 29,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5c22600",
+            "element": {
+              "kind": 2,
+              "attrs": 0,
+              "byref": false,
+              "pointer": "0x5f451f0",
+              "name": "System.Boolean"
+            },
+            "name": "System.Boolean[]"
+          },
+          "native_offset": 64,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33041,
+          "name": "Reward_Lv",
+          "raw_type_index": 33506,
+          "token": "0x400027e",
+          "signature": {
+            "kind": 8,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f489a0",
+            "name": "System.Int32"
+          },
+          "native_offset": 72,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33042,
+          "name": "Reward_Exp",
+          "raw_type_index": 33506,
+          "token": "0x400027f",
+          "signature": {
+            "kind": 8,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f489a0",
+            "name": "System.Int32"
+          },
+          "native_offset": 76,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33043,
+          "name": "TreeCount_Value",
+          "raw_type_index": 33506,
+          "token": "0x4000280",
+          "signature": {
+            "kind": 8,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f489a0",
+            "name": "System.Int32"
+          },
+          "native_offset": 80,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33044,
+          "name": "StageClear_Value",
+          "raw_type_index": 33506,
+          "token": "0x4000281",
+          "signature": {
+            "kind": 8,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f489a0",
+            "name": "System.Int32"
+          },
+          "native_offset": 84,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33045,
+          "name": "Rebirth_Value",
+          "raw_type_index": 33506,
+          "token": "0x4000282",
+          "signature": {
+            "kind": 8,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f489a0",
+            "name": "System.Int32"
+          },
+          "native_offset": 88,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33046,
+          "name": "PlayMine_Value",
+          "raw_type_index": 33506,
+          "token": "0x4000283",
+          "signature": {
+            "kind": 8,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f489a0",
+            "name": "System.Int32"
+          },
+          "native_offset": 92,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33047,
+          "name": "Season_Num",
+          "raw_type_index": 33506,
+          "token": "0x4000284",
+          "signature": {
+            "kind": 8,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f489a0",
+            "name": "System.Int32"
+          },
+          "native_offset": 96,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33048,
+          "name": "is_GunSeason",
+          "raw_type_index": 26067,
+          "token": "0x4000285",
+          "signature": {
+            "kind": 2,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f45250",
+            "name": "System.Boolean"
+          },
+          "native_offset": 100,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33049,
+          "name": "is_SeasonStart",
+          "raw_type_index": 26067,
+          "token": "0x4000286",
+          "signature": {
+            "kind": 2,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f45250",
+            "name": "System.Boolean"
+          },
+          "native_offset": 101,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33050,
+          "name": "SeasonEnd_Date",
+          "raw_type_index": 28056,
+          "token": "0x4000287",
+          "signature": {
+            "kind": 17,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f46450",
+            "type_definition_index": 162,
+            "name": "System.DateTime"
+          },
+          "native_offset": 104,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33051,
+          "name": "MissionStart_Date",
+          "raw_type_index": 28056,
+          "token": "0x4000288",
+          "signature": {
+            "kind": 17,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f46450",
+            "type_definition_index": 162,
+            "name": "System.DateTime"
+          },
+          "native_offset": 112,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33052,
+          "name": "is_Vip",
+          "raw_type_index": 26070,
+          "token": "0x4000289",
+          "signature": {
+            "kind": 2,
+            "attrs": 22,
+            "byref": false,
+            "pointer": "0x5f45280",
+            "name": "System.Boolean"
+          },
+          "native_offset": 0,
+          "attribute_types": [],
+          "serialization_visibility": false
+        },
+        {
+          "index": 33053,
+          "name": "is_Luxury",
+          "raw_type_index": 26070,
+          "token": "0x400028a",
+          "signature": {
+            "kind": 2,
+            "attrs": 22,
+            "byref": false,
+            "pointer": "0x5f45280",
+            "name": "System.Boolean"
+          },
+          "native_offset": 1,
+          "attribute_types": [],
+          "serialization_visibility": false
+        },
+        {
+          "index": 33054,
+          "name": "NewSeason_Btn_obj",
+          "raw_type_index": 30477,
+          "token": "0x400028b",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f47670",
+            "type_definition_index": 9113,
+            "name": "UnityEngine.GameObject"
+          },
+          "native_offset": 120,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33055,
+          "name": "Exp_balance",
+          "raw_type_index": 33532,
+          "token": "0x400028c",
+          "signature": {
+            "kind": 8,
+            "attrs": 32854,
+            "byref": false,
+            "pointer": "0x5f48b40",
+            "name": "System.Int32"
+          },
+          "native_offset": 0,
+          "attribute_types": [],
+          "serialization_visibility": false
+        },
+        {
+          "index": 33056,
+          "name": "Max_Lv",
+          "raw_type_index": 33532,
+          "token": "0x400028d",
+          "signature": {
+            "kind": 8,
+            "attrs": 32854,
+            "byref": false,
+            "pointer": "0x5f48b40",
+            "name": "System.Int32"
+          },
+          "native_offset": 0,
+          "attribute_types": [],
+          "serialization_visibility": false
+        },
+        {
+          "index": 33057,
+          "name": "instance",
+          "raw_type_index": 35438,
+          "token": "0x400028e",
+          "signature": {
+            "kind": 18,
+            "attrs": 22,
+            "byref": false,
+            "pointer": "0x5f795b0",
+            "type_definition_index": 7284,
+            "name": "Mission_manager"
+          },
+          "native_offset": 8,
+          "attribute_types": [],
+          "serialization_visibility": false
+        },
+        {
+          "index": 33058,
+          "name": "_alertCoroutine",
+          "raw_type_index": 27461,
+          "token": "0x400028f",
+          "signature": {
+            "kind": 18,
+            "attrs": 1,
+            "byref": false,
+            "pointer": "0x5f5cc30",
+            "type_definition_index": 9101,
+            "name": "UnityEngine.Coroutine"
+          },
+          "native_offset": 128,
+          "attribute_types": [],
+          "serialization_visibility": false
+        },
+        {
+          "index": 33059,
+          "name": "HighTier_Gun_Table",
+          "raw_type_index": 23405,
+          "token": "0x4000290",
+          "signature": {
+            "kind": 29,
+            "attrs": 49,
+            "byref": false,
+            "pointer": "0x5c22a70",
+            "element": {
+              "kind": 8,
+              "attrs": 0,
+              "byref": false,
+              "pointer": "0x5f48940",
+              "name": "System.Int32"
+            },
+            "name": "System.Int32[]"
+          },
+          "native_offset": 16,
+          "attribute_types": [],
+          "serialization_visibility": false
+        },
+        {
+          "index": 33060,
+          "name": "Mission_UI_Panel",
+          "raw_type_index": 35434,
+          "token": "0x4000291",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f79570",
+            "type_definition_index": 7289,
+            "name": "Mission_UI"
+          },
+          "native_offset": 136,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33061,
+          "name": "Mission_Item_UI_List",
+          "raw_type_index": 23504,
+          "token": "0x4000292",
+          "signature": {
+            "kind": 29,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5c28260",
+            "element": {
+              "kind": 18,
+              "attrs": 0,
+              "byref": false,
+              "pointer": "0x5f794f0",
+              "type_definition_index": 7286,
+              "name": "Mission_Item_UI"
+            },
+            "name": "Mission_Item_UI[]"
+          },
+          "native_offset": 144,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33062,
+          "name": "Mission_Reward_Slot_List",
+          "raw_type_index": 23506,
+          "token": "0x4000293",
+          "signature": {
+            "kind": 29,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5c28280",
+            "element": {
+              "kind": 18,
+              "attrs": 0,
+              "byref": false,
+              "pointer": "0x5f79520",
+              "type_definition_index": 7288,
+              "name": "Mission_Reward_Slot"
+            },
+            "name": "Mission_Reward_Slot[]"
+          },
+          "native_offset": 152,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33063,
+          "name": "Exp_Slider",
+          "raw_type_index": 35425,
+          "token": "0x4000294",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f794e0",
+            "type_definition_index": 7285,
+            "name": "Mission_Exp_Slider"
+          },
+          "native_offset": 160,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33064,
+          "name": "Vip_Purchase_Panel_obj",
+          "raw_type_index": 30477,
+          "token": "0x4000295",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f47670",
+            "type_definition_index": 9113,
+            "name": "UnityEngine.GameObject"
+          },
+          "native_offset": 168,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33065,
+          "name": "Luxury_Purchase_Panel_obj",
+          "raw_type_index": 30477,
+          "token": "0x4000296",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f47670",
+            "type_definition_index": 9113,
+            "name": "UnityEngine.GameObject"
+          },
+          "native_offset": 176,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33066,
+          "name": "Mission_Alert_obj",
+          "raw_type_index": 30477,
+          "token": "0x4000297",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f47670",
+            "type_definition_index": 9113,
+            "name": "UnityEngine.GameObject"
+          },
+          "native_offset": 184,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33067,
+          "name": "Reward_Scroll",
+          "raw_type_index": 39352,
+          "token": "0x4000298",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f87640",
+            "type_definition_index": 14456,
+            "name": "UnityEngine.UI.ScrollRect"
+          },
+          "native_offset": 192,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33068,
+          "name": "Mission_Scroll",
+          "raw_type_index": 39352,
+          "token": "0x4000299",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f87640",
+            "type_definition_index": 14456,
+            "name": "UnityEngine.UI.ScrollRect"
+          },
+          "native_offset": 200,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33069,
+          "name": "is_First_Reload",
+          "raw_type_index": 26062,
+          "token": "0x400029a",
+          "signature": {
+            "kind": 2,
+            "attrs": 1,
+            "byref": false,
+            "pointer": "0x5f45200",
+            "name": "System.Boolean"
+          },
+          "native_offset": 208,
+          "attribute_types": [],
+          "serialization_visibility": false
+        },
+        {
+          "index": 33070,
+          "name": "_scrollLerpCoroutine",
+          "raw_type_index": 27461,
+          "token": "0x400029b",
+          "signature": {
+            "kind": 18,
+            "attrs": 1,
+            "byref": false,
+            "pointer": "0x5f5cc30",
+            "type_definition_index": 9101,
+            "name": "UnityEngine.Coroutine"
+          },
+          "native_offset": 216,
+          "attribute_types": [],
+          "serialization_visibility": false
+        },
+        {
+          "index": 33071,
+          "name": "NewSeason_Panel_obj",
+          "raw_type_index": 30477,
+          "token": "0x400029c",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f47670",
+            "type_definition_index": 9113,
+            "name": "UnityEngine.GameObject"
+          },
+          "native_offset": 224,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33072,
+          "name": "NewSeason_Panel_Forced_obj",
+          "raw_type_index": 30477,
+          "token": "0x400029d",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f47670",
+            "type_definition_index": 9113,
+            "name": "UnityEngine.GameObject"
+          },
+          "native_offset": 232,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33073,
+          "name": "_pendingAdRewardLv",
+          "raw_type_index": 33501,
+          "token": "0x400029e",
+          "signature": {
+            "kind": 8,
+            "attrs": 1,
+            "byref": false,
+            "pointer": "0x5f48950",
+            "name": "System.Int32"
+          },
+          "native_offset": 240,
+          "attribute_types": [],
+          "serialization_visibility": false
+        }
+      ],
+      "methods": [
+        {
+          "index": 50385,
+          "name": "Awake",
+          "token": "0x6000337",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 129,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50386,
+          "name": "Start",
+          "token": "0x6000338",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 129,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50387,
+          "name": "OnEnable",
+          "token": "0x6000339",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 129,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50388,
+          "name": "OnDisable",
+          "token": "0x600033a",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 129,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50389,
+          "name": "OnTimeSynced",
+          "token": "0x600033b",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 129,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50390,
+          "name": "OnTimeSettled",
+          "token": "0x600033c",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 129,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50391,
+          "name": "Reload",
+          "token": "0x600033d",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50392,
+          "name": "RestartAlertLoop",
+          "token": "0x600033e",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 129,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50393,
+          "name": "AlertLoop_Co",
+          "token": "0x600033f",
+          "parameter_count": 0,
+          "raw_return_type_index": 31928,
+          "parameter_start": 4294967295,
+          "flags": 129,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 18,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f47df0",
+            "type_definition_index": 1497,
+            "name": "System.Collections.IEnumerator"
+          },
+          "attribute_types": [
+            "System.Runtime.CompilerServices.IteratorStateMachineAttribute"
+          ],
+          "parameters": []
+        },
+        {
+          "index": 50394,
+          "name": "Season_End_Test",
+          "token": "0x6000340",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50395,
+          "name": "Mission_End_Test",
+          "token": "0x6000341",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50396,
+          "name": "Balance_Reload",
+          "token": "0x6000342",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50397,
+          "name": "Reward_Balance_Apply",
+          "token": "0x6000343",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 129,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50398,
+          "name": "Season_Reload",
+          "token": "0x6000344",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50399,
+          "name": "Season_Reset",
+          "token": "0x6000345",
+          "parameter_count": 2,
+          "raw_return_type_index": 43650,
+          "parameter_start": 53939,
+          "flags": 129,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": [
+            {
+              "index": 53939,
+              "name": "countUp",
+              "token": "0x800019b",
+              "signature": {
+                "kind": 2,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f451f0",
+                "name": "System.Boolean"
+              }
+            },
+            {
+              "index": 53940,
+              "name": "byTime",
+              "token": "0x800019c",
+              "signature": {
+                "kind": 2,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f451f0",
+                "name": "System.Boolean"
+              }
+            }
+          ]
+        },
+        {
+          "index": 50400,
+          "name": "is_Season_Closed",
+          "token": "0x6000346",
+          "parameter_count": 0,
+          "raw_return_type_index": 26061,
+          "parameter_start": 4294967295,
+          "flags": 129,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 2,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f451f0",
+            "name": "System.Boolean"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50401,
+          "name": "Exp_Get",
+          "token": "0x6000347",
+          "parameter_count": 1,
+          "raw_return_type_index": 43650,
+          "parameter_start": 53941,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": [
+            {
+              "index": 53941,
+              "name": "ExpValue",
+              "token": "0x800019d",
+              "signature": {
+                "kind": 8,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f48940",
+                "name": "System.Int32"
+              }
+            }
+          ]
+        },
+        {
+          "index": 50402,
+          "name": "Mission_Reload",
+          "token": "0x6000348",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50403,
+          "name": "Mission_Reset",
+          "token": "0x6000349",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 129,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50404,
+          "name": "Mission_Reward_Get",
+          "token": "0x600034a",
+          "parameter_count": 1,
+          "raw_return_type_index": 43650,
+          "parameter_start": 53942,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": [
+            {
+              "index": 53942,
+              "name": "MissionIndex",
+              "token": "0x800019e",
+              "signature": {
+                "kind": 8,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f48940",
+                "name": "System.Int32"
+              }
+            }
+          ]
+        },
+        {
+          "index": 50405,
+          "name": "Mission_Reward_Get_Luxury",
+          "token": "0x600034b",
+          "parameter_count": 1,
+          "raw_return_type_index": 43650,
+          "parameter_start": 53943,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": [
+            {
+              "index": 53943,
+              "name": "MissionIndex",
+              "token": "0x800019f",
+              "signature": {
+                "kind": 8,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f48940",
+                "name": "System.Int32"
+              }
+            }
+          ]
+        },
+        {
+          "index": 50406,
+          "name": "Panel_Open",
+          "token": "0x600034c",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50407,
+          "name": "ScrollToRewardLv",
+          "token": "0x600034d",
+          "parameter_count": 0,
+          "raw_return_type_index": 31928,
+          "parameter_start": 4294967295,
+          "flags": 129,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 18,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f47df0",
+            "type_definition_index": 1497,
+            "name": "System.Collections.IEnumerator"
+          },
+          "attribute_types": [
+            "System.Runtime.CompilerServices.IteratorStateMachineAttribute"
+          ],
+          "parameters": []
+        },
+        {
+          "index": 50408,
+          "name": "Panel_Close",
+          "token": "0x600034e",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50409,
+          "name": "UI_Reload",
+          "token": "0x600034f",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50410,
+          "name": "Reward_UI_Reload",
+          "token": "0x6000350",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 129,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50411,
+          "name": "Mission_UI_Reload",
+          "token": "0x6000351",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 129,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50412,
+          "name": "UI_First_Reload",
+          "token": "0x6000352",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50413,
+          "name": "Reward_Slot_First_Reload",
+          "token": "0x6000353",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50414,
+          "name": "Alert_Check",
+          "token": "0x6000354",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 129,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50415,
+          "name": "ScrollTo_RewardSlot",
+          "token": "0x6000355",
+          "parameter_count": 1,
+          "raw_return_type_index": 43650,
+          "parameter_start": 53944,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": [
+            {
+              "index": 53944,
+              "name": "Lv",
+              "token": "0x80001a0",
+              "signature": {
+                "kind": 8,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f48940",
+                "name": "System.Int32"
+              }
+            }
+          ]
+        },
+        {
+          "index": 50416,
+          "name": "ScrollTo_RewardSlot_Co",
+          "token": "0x6000356",
+          "parameter_count": 1,
+          "raw_return_type_index": 31928,
+          "parameter_start": 53945,
+          "flags": 129,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 18,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f47df0",
+            "type_definition_index": 1497,
+            "name": "System.Collections.IEnumerator"
+          },
+          "attribute_types": [
+            "System.Runtime.CompilerServices.IteratorStateMachineAttribute"
+          ],
+          "parameters": [
+            {
+              "index": 53945,
+              "name": "Lv",
+              "token": "0x80001a1",
+              "signature": {
+                "kind": 8,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f48940",
+                "name": "System.Int32"
+              }
+            }
+          ]
+        },
+        {
+          "index": 50417,
+          "name": "NewSeason_Start",
+          "token": "0x6000357",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50418,
+          "name": "Reward_Get",
+          "token": "0x6000358",
+          "parameter_count": 2,
+          "raw_return_type_index": 43650,
+          "parameter_start": 53946,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": [
+            {
+              "index": 53946,
+              "name": "degree",
+              "token": "0x80001a2",
+              "signature": {
+                "kind": 17,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f859e0",
+                "type_definition_index": 7277,
+                "name": "Reward_Degree"
+              }
+            },
+            {
+              "index": 53947,
+              "name": "Lv",
+              "token": "0x80001a3",
+              "signature": {
+                "kind": 8,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f48940",
+                "name": "System.Int32"
+              }
+            }
+          ]
+        },
+        {
+          "index": 50419,
+          "name": "Reward_Grant",
+          "token": "0x6000359",
+          "parameter_count": 2,
+          "raw_return_type_index": 43650,
+          "parameter_start": 53948,
+          "flags": 129,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": [
+            {
+              "index": 53948,
+              "name": "degree",
+              "token": "0x80001a4",
+              "signature": {
+                "kind": 17,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f859e0",
+                "type_definition_index": 7277,
+                "name": "Reward_Degree"
+              }
+            },
+            {
+              "index": 53949,
+              "name": "Lv",
+              "token": "0x80001a5",
+              "signature": {
+                "kind": 8,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f48940",
+                "name": "System.Int32"
+              }
+            }
+          ]
+        },
+        {
+          "index": 50420,
+          "name": "Reward_Get_By_Ad",
+          "token": "0x600035a",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50421,
+          "name": "Reward_Get_Value",
+          "token": "0x600035b",
+          "parameter_count": 1,
+          "raw_return_type_index": 26061,
+          "parameter_start": 53950,
+          "flags": 129,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 2,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f451f0",
+            "name": "System.Boolean"
+          },
+          "attribute_types": [],
+          "parameters": [
+            {
+              "index": 53950,
+              "name": "info",
+              "token": "0x80001a6",
+              "signature": {
+                "kind": 18,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5faa750",
+                "type_definition_index": 7279,
+                "name": "Reward_info"
+              }
+            }
+          ]
+        },
+        {
+          "index": 50422,
+          "name": "Check_All_Reward_Get",
+          "token": "0x600035c",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 129,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50423,
+          "name": "is_AD_Reward",
+          "token": "0x600035d",
+          "parameter_count": 2,
+          "raw_return_type_index": 26061,
+          "parameter_start": 53951,
+          "flags": 150,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 2,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f451f0",
+            "name": "System.Boolean"
+          },
+          "attribute_types": [],
+          "parameters": [
+            {
+              "index": 53951,
+              "name": "degree",
+              "token": "0x80001a7",
+              "signature": {
+                "kind": 17,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f859e0",
+                "type_definition_index": 7277,
+                "name": "Reward_Degree"
+              }
+            },
+            {
+              "index": 53952,
+              "name": "Lv",
+              "token": "0x80001a8",
+              "signature": {
+                "kind": 8,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f48940",
+                "name": "System.Int32"
+              }
+            }
+          ]
+        },
+        {
+          "index": 50424,
+          "name": "MissionValue_Increase",
+          "token": "0x600035e",
+          "parameter_count": 1,
+          "raw_return_type_index": 43650,
+          "parameter_start": 53953,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": [
+            {
+              "index": 53953,
+              "name": "type",
+              "token": "0x80001a9",
+              "signature": {
+                "kind": 17,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f79530",
+                "type_definition_index": 7274,
+                "name": "Mission_Type"
+              }
+            }
+          ]
+        },
+        {
+          "index": 50425,
+          "name": "Reward_Status_return",
+          "token": "0x600035f",
+          "parameter_count": 2,
+          "raw_return_type_index": 38850,
+          "parameter_start": 53954,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 17,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f859c0",
+            "type_definition_index": 7276,
+            "name": "RewardStatus_Type"
+          },
+          "attribute_types": [],
+          "parameters": [
+            {
+              "index": 53954,
+              "name": "degree",
+              "token": "0x80001aa",
+              "signature": {
+                "kind": 17,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f859e0",
+                "type_definition_index": 7277,
+                "name": "Reward_Degree"
+              }
+            },
+            {
+              "index": 53955,
+              "name": "Lv",
+              "token": "0x80001ab",
+              "signature": {
+                "kind": 8,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f48940",
+                "name": "System.Int32"
+              }
+            }
+          ]
+        },
+        {
+          "index": 50426,
+          "name": "Reward_Clear",
+          "token": "0x6000360",
+          "parameter_count": 1,
+          "raw_return_type_index": 26061,
+          "parameter_start": 53956,
+          "flags": 129,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 2,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f451f0",
+            "name": "System.Boolean"
+          },
+          "attribute_types": [],
+          "parameters": [
+            {
+              "index": 53956,
+              "name": "Lv",
+              "token": "0x80001ac",
+              "signature": {
+                "kind": 8,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f48940",
+                "name": "System.Int32"
+              }
+            }
+          ]
+        },
+        {
+          "index": 50427,
+          "name": "Reward_Slot_fillValue_return",
+          "token": "0x6000361",
+          "parameter_count": 1,
+          "raw_return_type_index": 39910,
+          "parameter_start": 53957,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 12,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f4bc20",
+            "name": "System.Single"
+          },
+          "attribute_types": [],
+          "parameters": [
+            {
+              "index": 53957,
+              "name": "Lv",
+              "token": "0x80001ad",
+              "signature": {
+                "kind": 8,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f48940",
+                "name": "System.Int32"
+              }
+            }
+          ]
+        },
+        {
+          "index": 50428,
+          "name": "Mission_Name_str_return",
+          "token": "0x6000362",
+          "parameter_count": 1,
+          "raw_return_type_index": 40634,
+          "parameter_start": 53958,
+          "flags": 129,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 14,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f4c1e0",
+            "name": "System.String"
+          },
+          "attribute_types": [],
+          "parameters": [
+            {
+              "index": 53958,
+              "name": "type",
+              "token": "0x80001ae",
+              "signature": {
+                "kind": 17,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f79530",
+                "type_definition_index": 7274,
+                "name": "Mission_Type"
+              }
+            }
+          ]
+        },
+        {
+          "index": 50429,
+          "name": "Mission_Explain_str_return",
+          "token": "0x6000363",
+          "parameter_count": 1,
+          "raw_return_type_index": 40634,
+          "parameter_start": 53959,
+          "flags": 129,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 14,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f4c1e0",
+            "name": "System.String"
+          },
+          "attribute_types": [],
+          "parameters": [
+            {
+              "index": 53959,
+              "name": "type",
+              "token": "0x80001af",
+              "signature": {
+                "kind": 17,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f79530",
+                "type_definition_index": 7274,
+                "name": "Mission_Type"
+              }
+            }
+          ]
+        },
+        {
+          "index": 50430,
+          "name": "Mission_Value_return",
+          "token": "0x6000364",
+          "parameter_count": 1,
+          "raw_return_type_index": 33500,
+          "parameter_start": 53960,
+          "flags": 129,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 8,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f48940",
+            "name": "System.Int32"
+          },
+          "attribute_types": [],
+          "parameters": [
+            {
+              "index": 53960,
+              "name": "type",
+              "token": "0x80001b0",
+              "signature": {
+                "kind": 17,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f79530",
+                "type_definition_index": 7274,
+                "name": "Mission_Type"
+              }
+            }
+          ]
+        },
+        {
+          "index": 50431,
+          "name": "Mission_Status_return",
+          "token": "0x6000365",
+          "parameter_count": 1,
+          "raw_return_type_index": 38850,
+          "parameter_start": 53961,
+          "flags": 129,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 17,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f859c0",
+            "type_definition_index": 7276,
+            "name": "RewardStatus_Type"
+          },
+          "attribute_types": [],
+          "parameters": [
+            {
+              "index": 53961,
+              "name": "info",
+              "token": "0x80001b1",
+              "signature": {
+                "kind": 18,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5faa740",
+                "type_definition_index": 7278,
+                "name": "Mission_info"
+              }
+            }
+          ]
+        },
+        {
+          "index": 50432,
+          "name": "is_Reward_SequenceLocked",
+          "token": "0x6000366",
+          "parameter_count": 2,
+          "raw_return_type_index": 26061,
+          "parameter_start": 53962,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 2,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f451f0",
+            "name": "System.Boolean"
+          },
+          "attribute_types": [],
+          "parameters": [
+            {
+              "index": 53962,
+              "name": "degree",
+              "token": "0x80001b2",
+              "signature": {
+                "kind": 17,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f859e0",
+                "type_definition_index": 7277,
+                "name": "Reward_Degree"
+              }
+            },
+            {
+              "index": 53963,
+              "name": "Lv",
+              "token": "0x80001b3",
+              "signature": {
+                "kind": 8,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f48940",
+                "name": "System.Int32"
+              }
+            }
+          ]
+        },
+        {
+          "index": 50433,
+          "name": "First_Unclaimed_Reward_Lv_return",
+          "token": "0x6000367",
+          "parameter_count": 0,
+          "raw_return_type_index": 33500,
+          "parameter_start": 4294967295,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 8,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f48940",
+            "name": "System.Int32"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50434,
+          "name": "Scroll_Target_Lv_return",
+          "token": "0x6000368",
+          "parameter_count": 0,
+          "raw_return_type_index": 33500,
+          "parameter_start": 4294967295,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 8,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f48940",
+            "name": "System.Int32"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50435,
+          "name": "Next_GetAble_Reward_Lv_return",
+          "token": "0x6000369",
+          "parameter_count": 0,
+          "raw_return_type_index": 33500,
+          "parameter_start": 4294967295,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 8,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f48940",
+            "name": "System.Int32"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50436,
+          "name": ".ctor",
+          "token": "0x600036a",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 6278,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50437,
+          "name": ".cctor",
+          "token": "0x600036b",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 6289,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50438,
+          "name": "<Mission_UI_Reload>g__GetSortPriority|62_0",
+          "token": "0x600036c",
+          "parameter_count": 2,
+          "raw_return_type_index": 33500,
+          "parameter_start": 53964,
+          "flags": 147,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 8,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f48940",
+            "name": "System.Int32"
+          },
+          "attribute_types": [
+            "System.Runtime.CompilerServices.CompilerGeneratedAttribute"
+          ],
+          "parameters": [
+            {
+              "index": 53964,
+              "name": "status",
+              "token": "0x80001b4",
+              "signature": {
+                "kind": 17,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f859c0",
+                "type_definition_index": 7276,
+                "name": "RewardStatus_Type"
+              }
+            },
+            {
+              "index": 53965,
+              "name": "info",
+              "token": "0x80001b5",
+              "signature": {
+                "kind": 18,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5faa740",
+                "type_definition_index": 7278,
+                "name": "Mission_info"
+              }
+            }
+          ]
+        }
+      ],
+      "full_name": "Mission_manager",
+      "parent_type_signature": {
+        "kind": 18,
+        "attrs": 0,
+        "byref": false,
+        "pointer": "0x5f79970",
+        "type_definition_index": 9120,
+        "name": "UnityEngine.MonoBehaviour"
+      },
+      "declaring_type_signature": null,
+      "attribute_types": []
+    },
+    {
+      "index": 7287,
+      "image": "Assembly-CSharp.dll",
+      "namespace": "",
+      "name": "Mission_Reward_Item",
+      "token": "0x2000079",
+      "byval_type_index": 35427,
+      "declaring_type_index": -1,
+      "parent_type_index": 35501,
+      "flags": 1048577,
+      "bitfield": 3072,
+      "fields": [
+        {
+          "index": 33120,
+          "name": "_degree",
+          "raw_type_index": 38853,
+          "token": "0x40002cd",
+          "signature": {
+            "kind": 17,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f859f0",
+            "type_definition_index": 7277,
+            "name": "Reward_Degree"
+          },
+          "native_offset": 32,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33121,
+          "name": "_Lv",
+          "raw_type_index": 33506,
+          "token": "0x40002ce",
+          "signature": {
+            "kind": 8,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f489a0",
+            "name": "System.Int32"
+          },
+          "native_offset": 36,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33122,
+          "name": "Dia_obj",
+          "raw_type_index": 30477,
+          "token": "0x40002cf",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f47670",
+            "type_definition_index": 9113,
+            "name": "UnityEngine.GameObject"
+          },
+          "native_offset": 40,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33123,
+          "name": "Gun_obj",
+          "raw_type_index": 30477,
+          "token": "0x40002d0",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f47670",
+            "type_definition_index": 9113,
+            "name": "UnityEngine.GameObject"
+          },
+          "native_offset": 48,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33124,
+          "name": "Core_obj",
+          "raw_type_index": 30477,
+          "token": "0x40002d1",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f47670",
+            "type_definition_index": 9113,
+            "name": "UnityEngine.GameObject"
+          },
+          "native_offset": 56,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33125,
+          "name": "Dia_Reward_txt",
+          "raw_type_index": 41451,
+          "token": "0x40002d2",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f8ebd0",
+            "type_definition_index": 11999,
+            "name": "TMPro.TextMeshProUGUI"
+          },
+          "native_offset": 64,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33126,
+          "name": "Core_Reward_txt",
+          "raw_type_index": 41451,
+          "token": "0x40002d3",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f8ebd0",
+            "type_definition_index": 11999,
+            "name": "TMPro.TextMeshProUGUI"
+          },
+          "native_offset": 72,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33127,
+          "name": "Gun_img",
+          "raw_type_index": 33011,
+          "token": "0x40002d4",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f710f0",
+            "type_definition_index": 14395,
+            "name": "UnityEngine.UI.Image"
+          },
+          "native_offset": 80,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33128,
+          "name": "Shadow_img",
+          "raw_type_index": 33011,
+          "token": "0x40002d5",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f710f0",
+            "type_definition_index": 14395,
+            "name": "UnityEngine.UI.Image"
+          },
+          "native_offset": 88,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33129,
+          "name": "Panel_img",
+          "raw_type_index": 33011,
+          "token": "0x40002d6",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f710f0",
+            "type_definition_index": 14395,
+            "name": "UnityEngine.UI.Image"
+          },
+          "native_offset": 96,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33130,
+          "name": "Degree_objs",
+          "raw_type_index": 23273,
+          "token": "0x40002d7",
+          "signature": {
+            "kind": 29,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5c274c0",
+            "element": {
+              "kind": 18,
+              "attrs": 0,
+              "byref": false,
+              "pointer": "0x5f47640",
+              "type_definition_index": 9113,
+              "name": "UnityEngine.GameObject"
+            },
+            "name": "UnityEngine.GameObject[]"
+          },
+          "native_offset": 104,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33131,
+          "name": "Type_txt",
+          "raw_type_index": 41451,
+          "token": "0x40002d8",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f8ebd0",
+            "type_definition_index": 11999,
+            "name": "TMPro.TextMeshProUGUI"
+          },
+          "native_offset": 112,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33132,
+          "name": "NonClear_obj",
+          "raw_type_index": 30477,
+          "token": "0x40002d9",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f47670",
+            "type_definition_index": 9113,
+            "name": "UnityEngine.GameObject"
+          },
+          "native_offset": 120,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33133,
+          "name": "GetAble_obj",
+          "raw_type_index": 30477,
+          "token": "0x40002da",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f47670",
+            "type_definition_index": 9113,
+            "name": "UnityEngine.GameObject"
+          },
+          "native_offset": 128,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33134,
+          "name": "Get_obj",
+          "raw_type_index": 30477,
+          "token": "0x40002db",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f47670",
+            "type_definition_index": 9113,
+            "name": "UnityEngine.GameObject"
+          },
+          "native_offset": 136,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33135,
+          "name": "Locked_obj",
+          "raw_type_index": 30477,
+          "token": "0x40002dc",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f47670",
+            "type_definition_index": 9113,
+            "name": "UnityEngine.GameObject"
+          },
+          "native_offset": 144,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33136,
+          "name": "SequenceLocked_obj",
+          "raw_type_index": 30477,
+          "token": "0x40002dd",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f47670",
+            "type_definition_index": 9113,
+            "name": "UnityEngine.GameObject"
+          },
+          "native_offset": 152,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33137,
+          "name": "SequenceLocked_obj2",
+          "raw_type_index": 30477,
+          "token": "0x40002de",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f47670",
+            "type_definition_index": 9113,
+            "name": "UnityEngine.GameObject"
+          },
+          "native_offset": 160,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33138,
+          "name": "AD_Reward_obj",
+          "raw_type_index": 30477,
+          "token": "0x40002df",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f47670",
+            "type_definition_index": 9113,
+            "name": "UnityEngine.GameObject"
+          },
+          "native_offset": 168,
+          "attribute_types": [],
+          "serialization_visibility": true
+        }
+      ],
+      "methods": [
+        {
+          "index": 50468,
+          "name": "First_Reload",
+          "token": "0x600038a",
+          "parameter_count": 4,
+          "raw_return_type_index": 43650,
+          "parameter_start": 53979,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": [
+            {
+              "index": 53979,
+              "name": "degree",
+              "token": "0x80001c3",
+              "signature": {
+                "kind": 17,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f859e0",
+                "type_definition_index": 7277,
+                "name": "Reward_Degree"
+              }
+            },
+            {
+              "index": 53980,
+              "name": "Lv",
+              "token": "0x80001c4",
+              "signature": {
+                "kind": 8,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f48940",
+                "name": "System.Int32"
+              }
+            },
+            {
+              "index": 53981,
+              "name": "type",
+              "token": "0x80001c5",
+              "signature": {
+                "kind": 17,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f794a0",
+                "type_definition_index": 7275,
+                "name": "MissionReward_Type"
+              }
+            },
+            {
+              "index": 53982,
+              "name": "Value",
+              "token": "0x80001c6",
+              "signature": {
+                "kind": 8,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f48940",
+                "name": "System.Int32"
+              }
+            }
+          ]
+        },
+        {
+          "index": 50469,
+          "name": "Value_Reload",
+          "token": "0x600038b",
+          "parameter_count": 3,
+          "raw_return_type_index": 43650,
+          "parameter_start": 53983,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": [
+            {
+              "index": 53983,
+              "name": "status",
+              "token": "0x80001c7",
+              "signature": {
+                "kind": 17,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f859c0",
+                "type_definition_index": 7276,
+                "name": "RewardStatus_Type"
+              }
+            },
+            {
+              "index": 53984,
+              "name": "is_SequenceLocked",
+              "token": "0x80001c8",
+              "signature": {
+                "kind": 2,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f451f0",
+                "name": "System.Boolean"
+              }
+            },
+            {
+              "index": 53985,
+              "name": "is_VipLocked",
+              "token": "0x80001c9",
+              "signature": {
+                "kind": 2,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f451f0",
+                "name": "System.Boolean"
+              }
+            }
+          ]
+        },
+        {
+          "index": 50470,
+          "name": "Dia_Spawn_Play",
+          "token": "0x600038c",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50471,
+          "name": ".ctor",
+          "token": "0x600038d",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 6278,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        }
+      ],
+      "full_name": "Mission_Reward_Item",
+      "parent_type_signature": {
+        "kind": 18,
+        "attrs": 0,
+        "byref": false,
+        "pointer": "0x5f79970",
+        "type_definition_index": 9120,
+        "name": "UnityEngine.MonoBehaviour"
+      },
+      "declaring_type_signature": null,
+      "attribute_types": []
+    },
+    {
+      "index": 7290,
+      "image": "Assembly-CSharp.dll",
+      "namespace": "",
+      "name": "NewSeason_UI",
+      "token": "0x200007c",
+      "byval_type_index": 35992,
+      "declaring_type_index": -1,
+      "parent_type_index": 35501,
+      "flags": 1048577,
+      "bitfield": 3072,
+      "fields": [
+        {
+          "index": 33148,
+          "name": "VIP_Purchase_popup_obj",
+          "raw_type_index": 30477,
+          "token": "0x40002e9",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f47670",
+            "type_definition_index": 9113,
+            "name": "UnityEngine.GameObject"
+          },
+          "native_offset": 32,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33149,
+          "name": "Mission_Reward_Items",
+          "raw_type_index": 23505,
+          "token": "0x40002ea",
+          "signature": {
+            "kind": 29,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5c28270",
+            "element": {
+              "kind": 18,
+              "attrs": 0,
+              "byref": false,
+              "pointer": "0x5f79500",
+              "type_definition_index": 7287,
+              "name": "Mission_Reward_Item"
+            },
+            "name": "Mission_Reward_Item[]"
+          },
+          "native_offset": 40,
+          "attribute_types": [],
+          "serialization_visibility": true
+        }
+      ],
+      "methods": [
+        {
+          "index": 50483,
+          "name": "OnEnable",
+          "token": "0x6000399",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 129,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50484,
+          "name": "Reload",
+          "token": "0x600039a",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50485,
+          "name": ".ctor",
+          "token": "0x600039b",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 6278,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        }
+      ],
+      "full_name": "NewSeason_UI",
+      "parent_type_signature": {
+        "kind": 18,
+        "attrs": 0,
+        "byref": false,
+        "pointer": "0x5f79970",
+        "type_definition_index": 9120,
+        "name": "UnityEngine.MonoBehaviour"
+      },
+      "declaring_type_signature": null,
+      "attribute_types": []
+    }
+  ],
+  "resourceSha256": "3a06382c2a2e927850ef5544f99f7239ed289d7b10f4afaa300ed743ad176a0a",
+  "rules": [
+    "Original OnEnable calls Reload; VIP purchase panel active iff original is_Vip static flag false",
+    "For N previews and C epic rewards, L=clamp(Reward_Lv,0,C), start=clamp(max(L-N,0),0,max(C-N,0)); each index start+i<C shown, else hidden",
+    "First_Reload uses Epic degree1 and selected original reward.type/value, source sprites/color/grade and localized Gun_Type text",
+    "Reward_Status_return: saved epic flag=>2; otherwise index<Reward_Lv=>1 else0. Preview Value_Reload uses false sequence and false locked arguments; Epic has no AD badge",
+    "Six original preview Buttons all disabled, retain original slot132993 Epic_Reward_Click at index5. Disabled child pointer events bubble to enabled parent Panel Button123100 Purchase + close source popup; previews are not individual claim buttons"
+  ],
+  "adapters": [
+    "Runtime-only reattachment of source NewSeason_UI to retained inactive roots; fields resolve original resource paths, no scene/prefab writes",
+    "Original is_Vip flag gates presentation; existing local purchase ownership check still gates actual claims",
+    "Selected original preview Value_Reload branch only; not all generic reward/ad branches or original I2 lifecycle"
+  ],
+  "scopeComplete": false
+}

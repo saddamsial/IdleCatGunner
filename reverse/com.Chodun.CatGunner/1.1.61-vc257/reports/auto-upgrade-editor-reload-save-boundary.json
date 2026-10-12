@@ -1,0 +1,7 @@
+{
+  "observedHistory": "Before final independent tests, captured pre-pause Play session errors at 2026-10-11T03:09Z in RecoveryForestClient.SaveNow archive.Save",
+  "inference": "Nonserializable archive lost during Editor script reload while initialized flag survived; not claimed as reproduced full Unity domain reload",
+  "guard": "ReadyForPlay also requires archive and State; null runtime services stop safely without saving a partial profile",
+  "verification": "Independent test clears archive and Inventory, checks disk bytes unchanged and safe OnDisable; normal cold Play startup separately rerun",
+  "boundary": "Local Editor lifecycle protection; lost services require exiting and restarting Play, not a claim of seamless hot reload"
+}

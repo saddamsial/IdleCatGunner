@@ -1,0 +1,84 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var c=UnityEngine.Object.FindFirstObjectByType<CatGunner.Recovery.RecoveryForestClient>();return new{newFish=UnityEditor.AnimationUtility.CalculateTransformPath(c.Fish.new_fish_ui.transform,null),newFishTexts=c.Fish.new_fish_ui.GetComponentsInChildren<TMPro.TMP_Text>(true).Select(t=>new{name=t.name,text=t.text}).ToArray(),fx=c.Fish.fish_ui_obj.transform.Find(\"New_Fish_FX\")==null?null:UnityEditor.EditorJsonUtility.ToJson(c.Fish.fish_ui_obj.transform.Find(\"New_Fish_FX\").gameObject)};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "newFish": "Canvas/SafeArea/Fish_UI  (SafeArea)/Fish_UI/New_Fish_FX",
+        "newFishTexts": [
+          {
+            "name": "D",
+            "text": "D"
+          },
+          {
+            "name": "C",
+            "text": "C"
+          },
+          {
+            "name": "B",
+            "text": "B"
+          },
+          {
+            "name": "A",
+            "text": "A"
+          },
+          {
+            "name": "S",
+            "text": "S"
+          },
+          {
+            "name": "SS",
+            "text": "SS"
+          },
+          {
+            "name": "SSS",
+            "text": "SSS"
+          },
+          {
+            "name": "X",
+            "text": "X"
+          },
+          {
+            "name": "XX",
+            "text": "XX"
+          },
+          {
+            "name": "XXX",
+            "text": "XXX"
+          },
+          {
+            "name": "Z",
+            "text": "Z"
+          },
+          {
+            "name": "ZZ",
+            "text": "ZZ"
+          },
+          {
+            "name": "ZZZ",
+            "text": "ZZZ"
+          },
+          {
+            "name": "I2_txt(Outline)",
+            "text": "새로운 물고기!"
+          }
+        ],
+        "fx": "{\"GameObject\":{\"serializedVersion\":\"6\",\"m_Layer\":5,\"m_Name\":\"New_Fish_FX\",\"m_TagString\":\"Untagged\",\"m_Icon\":{\"instanceID\":0},\"m_NavMeshLayer\":0,\"m_StaticEditorFlags\":0,\"m_IsActive\":false}}"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

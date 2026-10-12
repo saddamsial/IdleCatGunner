@@ -1,0 +1,84 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 53.6,
+      "summary": {
+        "total": 8,
+        "passed": 7,
+        "failed": 1,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalAdventureTests.ClaimUsesLiveGradesOnceUnlocksPetsAndLevelsToNativeCap",
+          "Status": "Passed",
+          "Duration": 0.3331505,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalAdventureTests.IndependentProfileReloadRebirthAndRaidPreserveDispatchAndReturnPet",
+          "Status": "Passed",
+          "Duration": 29.5554564,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalAdventureTests.MalformedMapDateLockAndRewardOverflowPreserveStateBeforeSettlement",
+          "Status": "Passed",
+          "Duration": 0.1122678,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalAdventureTests.OriginalCancelAndClosedDayFinishKeepOtherDispatchesAndNoRefund",
+          "Status": "Passed",
+          "Duration": 9.8552723,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalAdventureTests.OriginalMapEnterPetChoiceClaimAndRelicDrawUseActualRaycasts",
+          "Status": "Failed",
+          "Duration": 12.5072393,
+          "Message": "  Panel | TouchToExit | Adventure_Reward_UI | Block_obj | Stage | Outline | Map_img | Mask\n  Expected: same as <TouchToExit (UnityEngine.UI.Button)>\n  But was:  null\n",
+          "StackTrace": "at OriginalAdventureTests.Click (UnityEngine.UI.Button b) [0x000e8] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalAdventureTests.cs:27\nat OriginalAdventureTests+<OriginalMapEnterPetChoiceClaimAndRelicDrawUseActualRaycasts>d__12.MoveNext () [0x0064b] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalAdventureTests.cs:77\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalAdventureTests.OriginalTablesWeekdaysLevelAndSlotGatesAreShippedValues",
+          "Status": "Passed",
+          "Duration": 0.7232034,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalAdventureTests.SelectionLocksPhysicalSlotsAndRejectsInvalidStartsWithoutTicketLoss",
+          "Status": "Passed",
+          "Duration": 0.255613,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalAdventureTests.TicketsUseFourHourIntervalsFractionalCarryFullCapAndBackwardClock",
+          "Status": "Passed",
+          "Duration": 0.1293231,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

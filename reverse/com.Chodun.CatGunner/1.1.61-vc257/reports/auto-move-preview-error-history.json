@@ -1,0 +1,13 @@
+{
+  "failures": [
+    {
+      "phase": "first start",
+      "reason": "Editor eval searched ForestRuntimeAcceptance on Cat instead of scene root; no observer coroutine started; corrected to FindFirstObjectByType, runtime scripts unchanged"
+    },
+    {
+      "phase": "first walking capture",
+      "reason": "Omitted width/height gave default1280x720 output; inspected but replaced with540x960 output after verified portrait camera0.5625"
+    }
+  ],
+  "runtime_and_save_mutations": "No profile/weapon/damage/positions/pool/input/save mutations; Editor pause and view selection only"
+}

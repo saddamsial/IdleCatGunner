@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "if(UnityEditor.EditorApplication.isPlaying)return new {playing=true}; UnityEditor.SceneManagement.EditorSceneManager.OpenScene(ForestClientEditor.ScenePath); var p=UnityEngine.Object.FindAnyObjectByType<StarUpgrade_manager>().popup; return new {playing=false,texts=new[]{p.SlotNum_txt,p.UpgradePrice_txt,p.RecoveryAlert.txt}.Select(t=>new {name=t.name,font=t.font.name,mode=t.font.atlasPopulationMode,source=t.font.sourceFontFile==null?null:t.font.sourceFontFile.name,asset=UnityEditor.AssetDatabase.GetAssetPath(t.font),sprite=t.spriteAsset==null?null:UnityEditor.AssetDatabase.GetAssetPath(t.spriteAsset),spriteMat=t.spriteAsset==null?null:UnityEditor.AssetDatabase.GetAssetPath(t.spriteAsset.material),spriteShader=t.spriteAsset==null?null:t.spriteAsset.material.shader.name}).ToArray()};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "playing": false,
+        "texts": [
+          {
+            "name": "Slot_txt",
+            "font": "Mitme_Outline",
+            "mode": 1,
+            "source": "Mitme",
+            "asset": "Assets/MonoBehaviour/Mitme_Outline.asset",
+            "sprite": null,
+            "spriteMat": null,
+            "spriteShader": null
+          },
+          {
+            "name": "Price_txt",
+            "font": "MPLUS",
+            "mode": 1,
+            "source": "MPLUSRounded1c-Black",
+            "asset": "Assets/MonoBehaviour/MPLUS.asset",
+            "sprite": "Assets/MonoBehaviour/Currency_SlotGem.asset",
+            "spriteMat": "Assets/Material/Currency_SlotGem Material.mat",
+            "spriteShader": "Hidden/InternalErrorShader"
+          },
+          {
+            "name": "I2_txt",
+            "font": "Mitme SDF",
+            "mode": 1,
+            "source": "Mitme",
+            "asset": "Assets/MonoBehaviour/Mitme SDF.asset",
+            "sprite": null,
+            "spriteMat": null,
+            "spriteShader": null
+          }
+        ]
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

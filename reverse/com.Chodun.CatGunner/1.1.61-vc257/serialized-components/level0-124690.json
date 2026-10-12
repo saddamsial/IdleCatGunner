@@ -1,0 +1,47 @@
+{
+  "identity": {
+    "file": "level0",
+    "path_id": 124690,
+    "type_index": 7572,
+    "type": "Pet_Ingame_manager",
+    "game_object": "Pet_ingame_manager"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 1440
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 83
+    },
+    "m_Name": "",
+    "Pets": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 146919
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142167
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142166
+      }
+    ],
+    "FormationRadius": 5.0,
+    "FormationSpreadDeg": 60.0,
+    "StartMoveDistance": 3.5,
+    "StopMoveDistance": 2.200000047683716,
+    "MinSpeed": 4.0,
+    "MaxSpeed": 20.0,
+    "FullSpeedDistance": 14.0,
+    "CatSpeedMultiplier": 1.149999976158142,
+    "PetSeparationRadius": 1.5,
+    "PetSeparationStrength": 5.0,
+    "CatAvoidRadius": 2.0,
+    "CatAvoidStrength": 7.0
+  }
+}

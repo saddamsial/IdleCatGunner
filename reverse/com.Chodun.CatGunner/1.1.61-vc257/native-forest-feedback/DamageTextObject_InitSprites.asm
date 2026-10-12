@@ -1,0 +1,93 @@
+02b84020  stp x30,x27,[sp, #-0x50]!
+02b84024  stp x26,x25,[sp, #0x10]
+02b84028  stp x24,x23,[sp, #0x20]
+02b8402c  stp x22,x21,[sp, #0x30]
+02b84030  stp x20,x19,[sp, #0x40]
+02b84034  mov x20,x2
+02b84038  mov x21,x1
+02b8403c  mov x19,x0
+02b84040  bl 0x02b82db0
+02b84044  cbz x0,0x02b84190
+02b84048  ldr w1,[x19, #0x28]
+02b8404c  mov x2,x21
+02b84050  bl 0x02b857bc
+02b84054  mov x22,x0
+02b84058  mov x0,x19
+02b8405c  mov x1,x22
+02b84060  str x22,[x0, #0x48]!
+02b84064  bl 0x029f59f4
+02b84068  cbz x20,0x02b84190
+02b8406c  ldr w8,[x20, #0x10]
+02b84070  cmp w8,#0x1
+02b84074  b.lt 0x02b8414c
+02b84078  mov w23,wzr
+02b8407c  add x26,x19,#0x78
+02b84080  add x27,x19,#0x80
+02b84084  bl 0x02b83058
+02b84088  cbz x0,0x02b84190
+02b8408c  bl 0x02b8598c
+02b84090  ldr w25,[x19, #0x28]
+02b84094  mov x24,x0
+02b84098  mov x0,x20
+02b8409c  mov w1,w23
+02b840a0  mov x2,xzr
+02b840a4  bl 0x046bad3c
+02b840a8  cbz x24,0x02b84190
+02b840ac  mov w3,w0
+02b840b0  mov x0,x24
+02b840b4  mov w1,w25
+02b840b8  mov x2,x21
+02b840bc  bl 0x02b85a10
+02b840c0  ldp w9,w10,[x19, #0x50]
+02b840c4  ldr w11,[x19, #0x58]
+02b840c8  str wzr,[x24, #0x34]
+02b840cc  ldp w12,w8,[x24, #0x38]
+02b840d0  scvtf s0,w9
+02b840d4  add w9,w9,w11
+02b840d8  cmp w10,w8
+02b840dc  add w9,w12,w9
+02b840e0  str w9,[x19, #0x50]
+02b840e4  str s0,[x24, #0x30]
+02b840e8  b.ge 0x02b840f0
+02b840ec  str w8,[x19, #0x54]
+02b840f0  ldr x8,[x26]
+02b840f4  mov x0,x27
+02b840f8  mov x25,x26
+02b840fc  cbz x8,0x02b84110
+02b84100  ldr x8,[x27]
+02b84104  cbz x8,0x02b84190
+02b84108  add x0,x8,#0x10
+02b8410c  mov x25,x27
+02b84110  mov x1,x24
+02b84114  str x24,[x0]
+02b84118  bl 0x029f59f4
+02b8411c  mov x0,x25
+02b84120  mov x1,x24
+02b84124  str x24,[x25]
+02b84128  bl 0x029f59f4
+02b8412c  cbz x22,0x02b84190
+02b84130  mov x0,x22
+02b84134  mov x1,x24
+02b84138  bl 0x02b849a0
+02b8413c  ldr w8,[x20, #0x10]
+02b84140  add w23,w23,#0x1
+02b84144  cmp w23,w8
+02b84148  b.lt 0x02b84084
+02b8414c  ldr x8,[x19, #0x78]
+02b84150  cbz x8,0x02b84178
+02b84154  ldr s0,[x19, #0x50]
+02b84158  fmov s1,0x3f000000
+02b8415c  scvtf s0,s0
+02b84160  fmul s0,s0,s1
+02b84164  ldr s1,[x8, #0x30]
+02b84168  fsub s1,s1,s0
+02b8416c  str s1,[x8, #0x30]
+02b84170  ldr x8,[x8, #0x10]
+02b84174  cbnz x8,0x02b84164
+02b84178  ldp x20,x19,[sp, #0x40]
+02b8417c  ldp x22,x21,[sp, #0x30]
+02b84180  ldp x24,x23,[sp, #0x20]
+02b84184  ldp x26,x25,[sp, #0x10]
+02b84188  ldp x30,x27,[sp], #0x50
+02b8418c  ret
+02b84190  bl 0x029f5cfc

@@ -1,0 +1,71 @@
+{
+  "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+  "panel": "inventory",
+  "screenshot": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/visual/progression-inventory-stale-frame-unaccepted.png",
+  "screen_width": 1080,
+  "screen_height": 1920,
+  "wallet": "143200000000e-8",
+  "dia": 0,
+  "petcoin": 0,
+  "guns": [
+    0,
+    -1,
+    -1
+  ],
+  "owned_guns": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "pets": [
+    -1,
+    -1,
+    -1
+  ],
+  "owned_pets": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "upgrade_levels": [
+    1,
+    1,
+    0
+  ],
+  "stage": 0,
+  "wave": 0,
+  "mission_season": 0,
+  "source_profile_clone": "/tmp/catgunner-progression-visual-profile",
+  "fixture": "Clone of current independent local user profile; only original panels opened. No currency, gear, level, mission or progression injection. Original profile remains untouched.",
+  "acceptance": "Editor panel pixels only; not phone/Spine/all visuals or all-mode parity",
+  "screenshot_sha256": "ab467f4a1ff5dc1457654ff21d1ca68e649ec6f5a1b7b171ae88935a92fb6f45",
+  "accepted": false,
+  "pixels_inspected": true,
+  "reason": "Pixels show an initial/cached forest frame instead of the opened inventory/current currency. Inactive GameView capture is stale; native window discovery subsequently timed out. No panel visual acceptance."
+}

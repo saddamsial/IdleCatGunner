@@ -1,0 +1,45 @@
+02c695e0  stp x30,x21,[sp, #-0x20]!
+02c695e4  stp x20,x19,[sp, #0x10]
+02c695e8  adrp x21,0x625c000
+02c695ec  mov x19,x0
+02c695f0  and w20,w1,#0x1
+02c695f4  ldrb w8,[x21, #0x26a]
+02c695f8  tbnz w8,#0x0,0x02c69610
+02c695fc  adrp x0,0x5e59000
+02c69600  ldr x0,[x0, #0x1c0]
+02c69604  bl 0x029f5a50
+02c69608  mov w8,#0x1
+02c6960c  strb w8,[x21, #0x26a]
+02c69610  mov x0,x19
+02c69614  strb w20,[x19, #0x70]
+02c69618  bl 0x02c67abc
+02c6961c  bl 0x02c694d4
+02c69620  tbz w0,#0x0,0x02c6963c
+02c69624  ldrb w8,[x19, #0x70]
+02c69628  cbz w8,0x02c6963c
+02c6962c  mov x0,x19
+02c69630  ldp x20,x19,[sp, #0x10]
+02c69634  ldp x30,x21,[sp], #0x20
+02c69638  b 0x02c67c50
+02c6963c  adrp x8,0x5e59000
+02c69640  ldr x8,[x8, #0x1c0]
+02c69644  ldr x20,[x19, #0x58]
+02c69648  ldr x0,[x8]
+02c6964c  ldr w8,[x0, #0xe4]
+02c69650  cbnz w8,0x02c69658
+02c69654  bl 0x029f5bd0
+02c69658  mov x0,x20
+02c6965c  mov x1,xzr
+02c69660  mov x2,xzr
+02c69664  bl 0x057dfa70
+02c69668  tbz w0,#0x0,0x02c69684
+02c6966c  ldr x0,[x19, #0x58]
+02c69670  cbz x0,0x02c69690
+02c69674  ldp x20,x19,[sp, #0x10]
+02c69678  mov x1,xzr
+02c6967c  ldp x30,x21,[sp], #0x20
+02c69680  b 0x02c76818
+02c69684  ldp x20,x19,[sp, #0x10]
+02c69688  ldp x30,x21,[sp], #0x20
+02c6968c  ret
+02c69690  bl 0x029f5cfc

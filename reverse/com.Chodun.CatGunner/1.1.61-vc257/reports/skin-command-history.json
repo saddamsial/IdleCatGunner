@@ -1,0 +1,78 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61/vc257",
+  "failed_attempts_preserved": [
+    {
+      "action": "Initial Unity refresh command",
+      "failure": "Command Not Found; replaced with AssetDatabase.Refresh eval",
+      "report": "skin-refresh-command-unavailable.json"
+    },
+    {
+      "action": "Initial Cat field declaration",
+      "failure": "CS0102 duplicate skin_spriteRenderer/hand_spriteRenderer; retained original Cat.cs fields"
+    },
+    {
+      "action": "Test observation serialization",
+      "failure": "PlayMode test assembly has no Newtonsoft reference; used typed JsonUtility report without package changes"
+    },
+    {
+      "action": "Original renderer lookup",
+      "failure": "Sequence contains no matching element: recovered hero Cat component ID67067 differs from original147400; corrected lookup using preserved GameObject29892"
+    },
+    {
+      "action": "Generic font rebuild",
+      "failure": "Original font atlas is not the expected PNG: StarChineseFallback; source skin integration saved by RepairSettingsSlice, finalized separately, retained embedded fallback and existing original shared faces"
+    },
+    {
+      "action": "First focused5 run",
+      "report": "live-skin-focused-first-status.json",
+      "summary": "1/5; unsaved integration and incorrect malformed fixture precondition"
+    },
+    {
+      "action": "Second focused5 run",
+      "report": "live-skin-focused-second-status.json",
+      "summary": "4/5; Select_Btn pointer attempted during original activation animation"
+    },
+    {
+      "action": "Python helper compile check",
+      "failure": "Default cache destination outside writable roots; syntax check succeeded with task-specific /tmp PYTHONPYCACHEPREFIX"
+    }
+  ],
+  "accepted_or_pending_commands": [
+    {
+      "action": "Ghidra native export",
+      "status": "40 complete,34business+6helpers",
+      "report": "../native-skin-client-reviewed/status.tsv"
+    },
+    {
+      "action": "Original scene finalization",
+      "report": "live-skin-scene-finalization.json"
+    },
+    {
+      "action": "Final focused run",
+      "report": "live-skin-focused-final-status.json"
+    },
+    {
+      "action": "Assembly test start",
+      "report": "live-skin-assembly-final-start.json"
+    },
+    {
+      "action": "Actual completed full assembly",
+      "report": "live-skin-assembly-final-status.json",
+      "summary": "116/116,723.98seconds"
+    },
+    {
+      "action": "Normal Editor handoff",
+      "report": "skin-editor-handoff-command.json"
+    },
+    {
+      "action": "Whole-turn user save preservation",
+      "report": "skin-user-save-after-tests.json"
+    },
+    {
+      "action": "Final full-run GPU manual inspection",
+      "report": "skin-gpu-inspection.json"
+    }
+  ],
+  "test_boundary": "Independent in-memory and unique temporary profiles from RecoveredTarget; no user save currency grants; natural projectile/HP/time paths preserved",
+  "git": "No commit or push in this continuation"
+}

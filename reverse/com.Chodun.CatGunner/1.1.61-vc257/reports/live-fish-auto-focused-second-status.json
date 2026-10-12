@@ -1,0 +1,140 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 46.91,
+      "summary": {
+        "total": 16,
+        "passed": 14,
+        "failed": 2,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.AutomaticGunMergeHonorsCollectionLimitPauseDragCancelAndUnavailableEntitlement",
+          "Status": "Passed",
+          "Duration": 8.828752,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.ClosingGunPanelDuringMovementPreservesPairAndRestoresRaycasts",
+          "Status": "Passed",
+          "Duration": 6.5744579,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.DiamondDrawCapacityAndInsufficientWalletAreAtomic",
+          "Status": "Passed",
+          "Duration": 0.0069833,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.FishAutoMergeSuspendsForDeleteAndClosingAndFinishesLowestGradeChain",
+          "Status": "Passed",
+          "Duration": 8.6190212,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.FishEntranceDrawSwimmingDetailsMergeAndDeleteUseOriginalUI",
+          "Status": "Failed",
+          "Duration": 5.6649055,
+          "Message": "  Expected: True\n  But was:  False\n",
+          "StackTrace": "at OriginalFishAndAutoMergeTests+<FishEntranceDrawSwimmingDetailsMergeAndDeleteUseOriginalUI>d__13.MoveNext () [0x00229] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalFishAndAutoMergeTests.cs:40\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.FishProfileColdReloadRetainsGradesDailyCountCurrencyAndCombatBonus",
+          "Status": "Passed",
+          "Duration": 11.5071315,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.InvalidFishStateNeverMutatesTheSuppliedProfile",
+          "Status": "Passed",
+          "Duration": 0.0015109,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.NativeMergeRemovesHighIndexFirstAppendsAndAggregatesDuplicateBonuses",
+          "Status": "Passed",
+          "Duration": 0.0015219,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.NativeRollThresholdsAndPremiumOffset(0,0)",
+          "Status": "Passed",
+          "Duration": 0.0003596,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.NativeRollThresholdsAndPremiumOffset(59.99f,0)",
+          "Status": "Passed",
+          "Duration": 0.0000345,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.NativeRollThresholdsAndPremiumOffset(60,1)",
+          "Status": "Passed",
+          "Duration": 0.0000228,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.NativeRollThresholdsAndPremiumOffset(89.99f,1)",
+          "Status": "Passed",
+          "Duration": 0.0000235,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.NativeRollThresholdsAndPremiumOffset(90,2)",
+          "Status": "Passed",
+          "Duration": 0.0000297,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.NativeRollThresholdsAndPremiumOffset(100,0)",
+          "Status": "Passed",
+          "Duration": 0.0000355,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.PetAutoMergeExcludesDispatchLocksAndStopsOnPanelClose",
+          "Status": "Failed",
+          "Duration": 5.6069309,
+          "Message": "  OnOff\n  Expected: True\n  But was:  False\n",
+          "StackTrace": "at OriginalFishAndAutoMergeTests.Click (UnityEngine.UI.Button b) [0x00000] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalFishAndAutoMergeTests.cs:32\nat OriginalFishAndAutoMergeTests+<PetAutoMergeExcludesDispatchLocksAndStopsOnPanelClose>d__16.MoveNext () [0x00178] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalFishAndAutoMergeTests.cs:75\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.ThreeDailyNoAdDrawsKeepAdRewardsUnavailableAndRolloverLocalDay",
+          "Status": "Passed",
+          "Duration": 0.0004797,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

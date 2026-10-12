@@ -1,0 +1,276 @@
+[
+  {
+    "parent": "Canvas",
+    "game_object": 866,
+    "children": [
+      {
+        "game_object": 415,
+        "name": "SafeArea",
+        "sibling": 0
+      },
+      {
+        "game_object": 894,
+        "name": "Upgrade_manager",
+        "sibling": 1
+      },
+      {
+        "game_object": 1068,
+        "name": "Info_manager",
+        "sibling": 2
+      },
+      {
+        "game_object": 1534,
+        "name": "Rebirth_manager",
+        "sibling": 3
+      },
+      {
+        "game_object": 715,
+        "name": "Buff_manager",
+        "sibling": 4
+      },
+      {
+        "game_object": 480,
+        "name": "Skin_manager",
+        "sibling": 5
+      },
+      {
+        "game_object": 9651,
+        "name": "Setting",
+        "sibling": 6
+      },
+      {
+        "game_object": 9575,
+        "name": "Fish_manager",
+        "sibling": 7
+      },
+      {
+        "game_object": 927,
+        "name": "Rank_manager",
+        "sibling": 8
+      },
+      {
+        "game_object": 412,
+        "name": "Pet_manager",
+        "sibling": 9
+      },
+      {
+        "game_object": 1550,
+        "name": "Contents_UI",
+        "sibling": 10
+      },
+      {
+        "game_object": 406,
+        "name": "Adventure_manager",
+        "sibling": 11
+      },
+      {
+        "game_object": 803,
+        "name": "Relic_manager",
+        "sibling": 12
+      },
+      {
+        "game_object": 371,
+        "name": "Shop_manager",
+        "sibling": 13
+      },
+      {
+        "game_object": 111,
+        "name": "Gun_manager",
+        "sibling": 14
+      },
+      {
+        "game_object": 580,
+        "name": "FreeCash_manager",
+        "sibling": 15
+      },
+      {
+        "game_object": 2057,
+        "name": "Review",
+        "sibling": 16
+      },
+      {
+        "game_object": 2254,
+        "name": "UI_manager",
+        "sibling": 17
+      }
+    ]
+  },
+  {
+    "parent": "SafeArea",
+    "game_object": 415,
+    "children": [
+      {
+        "game_object": 34879,
+        "name": "Floating Joystick",
+        "sibling": 0
+      },
+      {
+        "game_object": 455,
+        "name": "Main_UI",
+        "sibling": 1
+      },
+      {
+        "game_object": 1457,
+        "name": "SpeedRun_UI",
+        "sibling": 2
+      },
+      {
+        "game_object": 1165,
+        "name": "Mine_UI",
+        "sibling": 3
+      },
+      {
+        "game_object": 233,
+        "name": "Boss_UI",
+        "sibling": 4
+      },
+      {
+        "game_object": 1993,
+        "name": "Monster_UI",
+        "sibling": 5
+      },
+      {
+        "game_object": 1879,
+        "name": "Raid_UI",
+        "sibling": 6
+      },
+      {
+        "game_object": 1519,
+        "name": "Ingame",
+        "sibling": 7
+      },
+      {
+        "game_object": 10012,
+        "name": "Shop_UI",
+        "sibling": 8
+      },
+      {
+        "game_object": 1146,
+        "name": "Mission_maanger",
+        "sibling": 9
+      },
+      {
+        "game_object": 1456,
+        "name": "Offline",
+        "sibling": 10
+      },
+      {
+        "game_object": 28531,
+        "name": "DailyCheck",
+        "sibling": 11
+      },
+      {
+        "game_object": 2235,
+        "name": "Gun_UI  (SafeArea)",
+        "sibling": 12
+      },
+      {
+        "game_object": 367,
+        "name": "Pet_UI (SafeArea)",
+        "sibling": 13
+      },
+      {
+        "game_object": 919,
+        "name": "Fish_UI  (SafeArea)",
+        "sibling": 14
+      },
+      {
+        "game_object": 758,
+        "name": "Tutorial_manager",
+        "sibling": 15
+      },
+      {
+        "game_object": 740,
+        "name": "Adventure_UI (SafeArea)",
+        "sibling": 16
+      },
+      {
+        "game_object": 760,
+        "name": "Ads_Remove (Forced)",
+        "sibling": 17
+      },
+      {
+        "game_object": 1407,
+        "name": "Cheat_manager",
+        "sibling": 18
+      },
+      {
+        "game_object": 2201,
+        "name": "Cheat_Btn",
+        "sibling": 19
+      }
+    ]
+  },
+  {
+    "parent": "Main_UI",
+    "game_object": 455,
+    "children": [
+      {
+        "game_object": 1095,
+        "name": "GameWin_obj",
+        "sibling": 0
+      },
+      {
+        "game_object": 746,
+        "name": "GameFail_obj",
+        "sibling": 1
+      },
+      {
+        "game_object": 755,
+        "name": "GameSkip_obj",
+        "sibling": 2
+      },
+      {
+        "game_object": 694,
+        "name": "EcoMode_Panel_UI",
+        "sibling": 3
+      },
+      {
+        "game_object": 308,
+        "name": "Loading_UI",
+        "sibling": 4
+      },
+      {
+        "game_object": 1960,
+        "name": "Time_Slider",
+        "sibling": 5
+      },
+      {
+        "game_object": 1312,
+        "name": "Value_Slider",
+        "sibling": 6
+      },
+      {
+        "game_object": 947,
+        "name": "Game_Slider",
+        "sibling": 7
+      },
+      {
+        "game_object": 1124,
+        "name": "Btn_list",
+        "sibling": 8
+      },
+      {
+        "game_object": 36876,
+        "name": "Currency",
+        "sibling": 9
+      }
+    ]
+  },
+  {
+    "parent": "Ingame",
+    "game_object": 1519,
+    "children": [
+      {
+        "game_object": 277,
+        "name": "Upgrade_List",
+        "sibling": 0
+      },
+      {
+        "game_object": 1425,
+        "name": "Image",
+        "sibling": 1
+      }
+    ]
+  }
+]

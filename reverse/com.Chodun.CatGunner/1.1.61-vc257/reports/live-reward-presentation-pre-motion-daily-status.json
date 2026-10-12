@@ -1,0 +1,70 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 56.62,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalDailyCheckTests.FutureLocalDateDeniesClaimAndModeEntryClosesPanel",
+          "Status": "Passed",
+          "Duration": 7.8057962,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalDailyCheckTests.InvalidCountersAndDateRejectBeforeProfileMutation",
+          "Status": "Passed",
+          "Duration": 5.4558548,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalDailyCheckTests.InvalidStoredProfileCannotOverwriteMainOrBackup",
+          "Status": "Passed",
+          "Duration": 14.2456304,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalDailyCheckTests.PopupWaitsForTutorialShowsOnceAndDoesNotAutoAward",
+          "Status": "Passed",
+          "Duration": 10.8476533,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalDailyCheckTests.SevenDaysCycleResetsOnlyOnNextDayUiAndCannotSkip",
+          "Status": "Passed",
+          "Duration": 6.1062665,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalDailyCheckTests.SourceHudRealDayClickWalletMarkersCloseReopenAndReload",
+          "Status": "Passed",
+          "Duration": 12.0910121,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

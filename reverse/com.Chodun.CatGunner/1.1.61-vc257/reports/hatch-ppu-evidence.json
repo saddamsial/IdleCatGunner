@@ -1,0 +1,130 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257",
+  "finalPixelsPerUnitMultiplier": 10,
+  "runtimeHeight": 37,
+  "runtimeWidth": 1080,
+  "abandonedHeightOverride": 60,
+  "headerOverridesRemoved": true,
+  "adoption": "User confirmed correct visual result at multiplier10; not asserted as frozen source serialized value (source1).",
+  "test": {
+    "status": "completed",
+    "duration": 6.74,
+    "summary": {
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "inconclusive": 0
+    },
+    "results": [
+      {
+        "FullName": "OriginalHatchThicknessTests.UserPixelsMultiplierKeepsOriginalGeometryScrollAndHeaderTargetsClear",
+        "Status": "Passed",
+        "Duration": 6.722106,
+        "Message": null,
+        "StackTrace": null
+      }
+    ]
+  },
+  "preservation": [
+    {
+      "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json",
+      "sha256": "ccba54572d12cd1fa43b14c4ae18f8d014bd14634ef9a97dccd2b0cdf101d95e"
+    },
+    {
+      "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json.bak",
+      "sha256": "cda53b8e91c9b8ff716e574f9c9669b18eacee2c841350abd005deb8bea0ae0d"
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Resources/StarChineseFallback.asset",
+      "sha256": "d122df113d6c73a678919fd11f6f01a1c6d44ac12870980d3cfe99ed19c523a7"
+    }
+  ],
+  "sceneAudit": "hatch-ppu-scene-audit.json",
+  "dirtyUserSceneSaved": "Original Fill multiplier10 and existing dirty scene edits saved; no user edits discarded. Scene document diffs include two menu RectTransform anchor/position records, not claimed as a single-document change.",
+  "gpu": [
+    "reports/visual/hatch-ppu-quarter-gpu.png",
+    "reports/visual/hatch-ppu-full-gpu.png"
+  ],
+  "scopeComplete": false,
+  "editorHandoff": {
+    "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+    "version": "6000.4.10f1",
+    "dirty": false,
+    "playing": false,
+    "paused": false,
+    "compiling": false,
+    "compilationFailed": false,
+    "objects": 35954,
+    "missingScripts": 0,
+    "persist": true,
+    "saveFolderOverride": null,
+    "testHostFolder": "",
+    "localAdSimulation": true,
+    "localPurchaseSimulation": true,
+    "timeScale": 1.0,
+    "inputOverrides": 0,
+    "mouseFixtures": 0,
+    "runtimePresentationAbsent": true,
+    "newCollection": 65,
+    "buildScenes": [
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredBullets.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForest.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestHUD.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestProgress.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredJoystick.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredSettings.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredTarget.unity",
+        "enabled": true
+      }
+    ]
+  },
+  "consoleTimeoutHistory": "hatch-ppu-console-timeout-history.json",
+  "finalConsole": {
+    "entries": [],
+    "cursor": 1346,
+    "session": "2c8c59f1371046da9a0f1082eca2aacc",
+    "returned": 0,
+    "dropped": false,
+    "reset": false,
+    "counts": {
+      "error": 0,
+      "warn": 0,
+      "log": 0
+    },
+    "groundTruth": {
+      "sampledUtc": "2026-10-11T17:56:54.580926Z",
+      "ageMs": 156,
+      "compilationFailed": false,
+      "compiling": false,
+      "consoleErrors": 0,
+      "consoleWarnings": 0,
+      "consoleLogs": 0,
+      "seeded": true
+    }
+  },
+  "handoffNote": "Pipeline eval timed out after5s while importing/scanning; generated handoff and subsequent read confirmed completion. Tool timeout retained as history; console then cleared."
+}

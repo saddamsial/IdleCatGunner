@@ -1,0 +1,364 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257",
+  "native_sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "methods": [
+    {
+      "name": "Bullet_HitLaser",
+      "preferred_va": "0x2b667f4",
+      "end_preferred_va": "0x2b66980",
+      "first_16_bytes": "ff4302d1ea2300fde923056dfe5f06a9",
+      "c_sha256": "8acc1627f6855be7fec8924303906a0ea08482442affbb6a27b88f29a020803f",
+      "asm_sha256": "c11f289c486c20a4e26a3b9dd5c530b89d4436bfca67fd508f181f6433c07afd"
+    },
+    {
+      "name": "Bullet_HitPierce",
+      "preferred_va": "0x2b66980",
+      "end_preferred_va": "0x2b66c1c",
+      "first_16_bytes": "ff4302d1ea2300fde923056dfe5f06a9",
+      "c_sha256": "b8a9514fc98ea60a8b6c7afcc73f4917838cf5481ea339e63970c0ab07c9f8d0",
+      "asm_sha256": "286b7b4b2cc891e0c189f49627936e51dbcb429ffbfd10021b03bb702685f719"
+    },
+    {
+      "name": "Bullet_SpawnFX_Once",
+      "preferred_va": "0x2b66e24",
+      "end_preferred_va": "0x2b66e3c",
+      "first_16_bytes": "0870433948000034c0035fd628008052",
+      "c_sha256": "2ff5e8d38de731fa33b75b35296000290a8ab819feac6fb0020241990bd3ff10",
+      "asm_sha256": "baa89d4437efc31d58c6307686fca7314d953e13b9cc33ae4271a203634243ae"
+    }
+  ],
+  "comparison_signature": {
+    "image": "InfiniteValueAsm.dll",
+    "type": "InfVal",
+    "method": "op_GreaterThanOrEqual",
+    "token": "0x6000081",
+    "preferred_va": "0x4554530"
+  },
+  "generic_identities": [
+    {
+      "global_preferred_va": "0x5d639e0",
+      "method_spec_index": 48044,
+      "type": "System.Collections.Generic.HashSet`1",
+      "method": "Add",
+      "token": "0x6000ce6",
+      "class_inst": 88,
+      "method_inst": -1,
+      "instantiations": [
+        [
+          "System.Int32"
+        ],
+        null
+      ]
+    },
+    {
+      "global_preferred_va": "0x5d639e8",
+      "method_spec_index": 48051,
+      "type": "System.Collections.Generic.HashSet`1",
+      "method": "Contains",
+      "token": "0x6000cdc",
+      "class_inst": 88,
+      "method_inst": -1,
+      "instantiations": [
+        [
+          "System.Int32"
+        ],
+        null
+      ]
+    },
+    {
+      "global_preferred_va": "0x5d5d560",
+      "method_spec_index": 164181,
+      "type": "UnityEngine.Component",
+      "method": "GetComponent",
+      "token": "0x6000c86",
+      "class_inst": -1,
+      "method_inst": 12710,
+      "instantiations": [
+        null,
+        [
+          "EnemyColl"
+        ]
+      ]
+    }
+  ],
+  "decompiler_repair": {
+    "retained_old_output": "native-bullet-hit/Bullet_HitPierce.c",
+    "problem": "PIC construction at Ghidra0x2c66b10 absorbed HashSet<int>.Add thunk and removed native tail blocks",
+    "repair": "Independent referenced function at preferred0x4182ae4, one-byte body and non-inline; caller complete native bounds retained. Reviewed output contains count/health/damage/FX/end branch matching ASM.",
+    "reviewed_output": "native-penetrating-hit-reviewed/Bullet_HitPierce.c"
+  },
+  "fields": {
+    "hit_ids": "0xd0",
+    "pierce_count": "0xd8",
+    "fx_spawned": "0xdc",
+    "first_hit_done": "0xcc",
+    "enemy_health_now": "0x28"
+  },
+  "serialized_source": {
+    "path": "serialized-components/level0-123082.json",
+    "sha256": "b8a6e1a9c9f4a7a49545fbb7630cdb7f0b3a4baa75365bab54118f8006046ce4"
+  },
+  "guns": [
+    {
+      "gun": 8,
+      "type": 2,
+      "damage": {
+        "s_digits": "150",
+        "s_exponent": 0
+      },
+      "interval": 1.0,
+      "lifetime": 2.0
+    },
+    {
+      "gun": 9,
+      "type": 2,
+      "damage": {
+        "s_digits": "110",
+        "s_exponent": 0
+      },
+      "interval": 0.699999988079071,
+      "lifetime": 2.0
+    },
+    {
+      "gun": 13,
+      "type": 2,
+      "damage": {
+        "s_digits": "250",
+        "s_exponent": 0
+      },
+      "interval": 0.699999988079071,
+      "lifetime": 2.0
+    },
+    {
+      "gun": 17,
+      "type": 2,
+      "damage": {
+        "s_digits": "500",
+        "s_exponent": 0
+      },
+      "interval": 0.6000000238418579,
+      "lifetime": 2.0
+    },
+    {
+      "gun": 19,
+      "type": 1,
+      "damage": {
+        "s_digits": "200",
+        "s_exponent": 0
+      },
+      "interval": 1.0,
+      "lifetime": 2.0
+    },
+    {
+      "gun": 21,
+      "type": 2,
+      "damage": {
+        "s_digits": "1000",
+        "s_exponent": 0
+      },
+      "interval": 0.20000000298023224,
+      "lifetime": 2.0
+    },
+    {
+      "gun": 23,
+      "type": 1,
+      "damage": {
+        "s_digits": "400",
+        "s_exponent": 0
+      },
+      "interval": 0.4000000059604645,
+      "lifetime": 2.0
+    },
+    {
+      "gun": 25,
+      "type": 2,
+      "damage": {
+        "s_digits": "6000",
+        "s_exponent": 0
+      },
+      "interval": 0.20000000298023224,
+      "lifetime": 2.0
+    },
+    {
+      "gun": 27,
+      "type": 1,
+      "damage": {
+        "s_digits": "1400",
+        "s_exponent": 0
+      },
+      "interval": 0.30000001192092896,
+      "lifetime": 2.0
+    },
+    {
+      "gun": 30,
+      "type": 2,
+      "damage": {
+        "s_digits": "24000",
+        "s_exponent": 0
+      },
+      "interval": 0.10000000149011612,
+      "lifetime": 2.0
+    },
+    {
+      "gun": 32,
+      "type": 1,
+      "damage": {
+        "s_digits": "5600",
+        "s_exponent": 0
+      },
+      "interval": 0.15000000596046448,
+      "lifetime": 2.0
+    },
+    {
+      "gun": 35,
+      "type": 2,
+      "damage": {
+        "s_digits": "90000",
+        "s_exponent": 0
+      },
+      "interval": 0.05000000074505806,
+      "lifetime": 2.0
+    },
+    {
+      "gun": 37,
+      "type": 1,
+      "damage": {
+        "s_digits": "21000",
+        "s_exponent": 0
+      },
+      "interval": 0.07000000029802322,
+      "lifetime": 2.0
+    },
+    {
+      "gun": 40,
+      "type": 2,
+      "damage": {
+        "s_digits": "360000",
+        "s_exponent": 0
+      },
+      "interval": 0.05000000074505806,
+      "lifetime": 2.0
+    },
+    {
+      "gun": 42,
+      "type": 1,
+      "damage": {
+        "s_digits": "84000",
+        "s_exponent": 0
+      },
+      "interval": 0.07000000029802322,
+      "lifetime": 2.0
+    },
+    {
+      "gun": 45,
+      "type": 2,
+      "damage": {
+        "s_digits": "1350000",
+        "s_exponent": 0
+      },
+      "interval": 0.05000000074505806,
+      "lifetime": 2.0
+    },
+    {
+      "gun": 47,
+      "type": 1,
+      "damage": {
+        "s_digits": "315000",
+        "s_exponent": 0
+      },
+      "interval": 0.07000000029802322,
+      "lifetime": 2.0
+    },
+    {
+      "gun": 50,
+      "type": 2,
+      "damage": {
+        "s_digits": "15000000",
+        "s_exponent": 0
+      },
+      "interval": 0.05000000074505806,
+      "lifetime": 2.0
+    },
+    {
+      "gun": 52,
+      "type": 1,
+      "damage": {
+        "s_digits": "3500000",
+        "s_exponent": 0
+      },
+      "interval": 0.07000000029802322,
+      "lifetime": 2.0
+    },
+    {
+      "gun": 55,
+      "type": 2,
+      "damage": {
+        "s_digits": "300000000",
+        "s_exponent": 0
+      },
+      "interval": 0.05000000074505806,
+      "lifetime": 2.0
+    },
+    {
+      "gun": 57,
+      "type": 1,
+      "damage": {
+        "s_digits": "70000000",
+        "s_exponent": 0
+      },
+      "interval": 0.07000000029802322,
+      "lifetime": 2.0
+    },
+    {
+      "gun": 60,
+      "type": 2,
+      "damage": {
+        "s_digits": "7500000000",
+        "s_exponent": 0
+      },
+      "interval": 0.05000000074505806,
+      "lifetime": 2.0
+    },
+    {
+      "gun": 62,
+      "type": 1,
+      "damage": {
+        "s_digits": "1750000000",
+        "s_exponent": 0
+      },
+      "interval": 0.07000000029802322,
+      "lifetime": 2.0
+    }
+  ],
+  "rules": [
+    "OnTrigger returns for dead bullet or recorded collider id; actual CompareTag Enemy controls branch",
+    "PIERCE non-enemy: FX and death. Enemy missing EnemyColl/Enemy/dead records id only, with no damage/count/FX/death",
+    "PIERCE live enemy: add id, increment count; lethal is damage >= health BEFORE damage dispatch; unchanged full damage for each target",
+    "PIERCE first valid hit always continues; from second hit stop only on nonlethal target. Consecutive one-hit kills may pass more than two targets",
+    "LASER enemy: record id, dispatch unchanged damage, continue regardless of count/health; non-enemy FX/death",
+    "Both set fx_spawned BEFORE first enemy FX request, even if throttle rejects; repeated target FX requests are suppressed until respawn",
+    "Native UI currentType5 forces death after valid hit; not part of the integrated forest slice",
+    "Cat Attack types1/2: one strict critical roll, apply ordinary dynamic spread and grow on success; radius0 and gun PenetratingBulletLifetime",
+    "SpawnEx lifetime min(requested,50/Max(speed,.1)); shared original pool, meshes, skins, death and delayed deactivate; reuse resets ids/count/FX"
+  ],
+  "implementation": [
+    {
+      "path": "Assets/Recovery/Scripts/Bullet.cs",
+      "sha256": "263206451c60faea28a2ad028c18fb7eff7d5ed47dddfef20ec9694283bf639a"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/CatCombat.cs",
+      "sha256": "4cebb23d9b38cca617feef3d56977e6de312d6153a6e2fb348056b586c393123"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/ForestCombatAcceptance.cs",
+      "sha256": "c16c589360ac567db7ce88fcdda268761bb659b34a66c8652c5b782fe9a6c863"
+    }
+  ],
+  "differences": [
+    "Forest-only bridge: native UI mode5/Ore lifecycle not integrated; no claim that LASER/PIERCE work in all original modes",
+    "Independent DecimalAmount compare/text, not commercial InfVal internals",
+    "Package initial gun0 remains; test selected slots do not grant ownership or save",
+    "Forest hero auto movement follows original-auto-move-contract.json; full Cat.Update/AI/economic settlement/main/backend/phone parity pending; missile forest follows original-missile-contract.json; explosive/BlastSniper forest follow original-explosion-contract.json"
+  ]
+}

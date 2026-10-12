@@ -1,0 +1,10 @@
+--- fresh-before/RecoveryClientPresentation.cs
++++ current/RecoveryClientPresentation.cs
+@@ -24,6 +24,7 @@
+             RestoreLaserTransparency();
+             RestoreTargetRotation();
+             var canvas=owner.Slider.GetComponentInParent<Canvas>();
++            OriginalCompanionStaticText.Load().Apply(canvas.transform,Application.systemLanguage);
+             var all=canvas.GetComponentsInChildren<Transform>(true);
+             Layout(all.Single(t=>t.name=="Left_Menu"),TextAnchor.LowerLeft,
+                 new[]{"StepUp_obj","Buff_obj","Shop_Btn","Rebirth_Btn","Pet_Btn ","Fish_Btn","Skin_Btn","Gun_Btn"});

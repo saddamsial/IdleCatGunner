@@ -1,0 +1,420 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "return UnityEngine.Object.FindObjectsByType<UnityEngine.UI.Image>(UnityEngine.FindObjectsInactive.Include).Select(i => new {name=i.name,size=i.rectTransform.rect.size.ToString(),scale=i.transform.lossyScale.ToString(),sprite=i.sprite==null?null:i.sprite.name,spriteSize=i.sprite==null?null:i.sprite.rect.size.ToString(),texture=i.sprite==null||i.sprite.texture==null?null:i.sprite.texture.name,type=i.type.ToString()}).ToArray();"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": [
+        {
+          "name": "Vibration_Btn",
+          "size": "(150.00, 150.00)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": null,
+          "spriteSize": null,
+          "texture": null,
+          "type": "Sliced"
+        },
+        {
+          "name": "Icon",
+          "size": "(70.00, 70.00)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "icon_sound",
+          "spriteSize": "(119.85, 99.94)",
+          "texture": null,
+          "type": "Simple"
+        },
+        {
+          "name": "Off",
+          "size": "(150.00, 150.00)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "ui 1 (Small",
+          "spriteSize": "(64.00, 76.00)",
+          "texture": null,
+          "type": "Sliced"
+        },
+        {
+          "name": "SaveTime",
+          "size": "(553.30, 5.00)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": null,
+          "spriteSize": null,
+          "texture": null,
+          "type": "Simple"
+        },
+        {
+          "name": "RedeemOpen_Btn",
+          "size": "(230.00, 108.18)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "ui 1 (Small",
+          "spriteSize": "(64.00, 76.00)",
+          "texture": null,
+          "type": "Sliced"
+        },
+        {
+          "name": "Login_Btn",
+          "size": "(310.10, 106.30)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "ui 1 (Small",
+          "spriteSize": "(64.00, 76.00)",
+          "texture": null,
+          "type": "Sliced"
+        },
+        {
+          "name": "Redeem_Btn",
+          "size": "(250.00, 108.18)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "ui 1 (Small",
+          "spriteSize": "(64.00, 76.00)",
+          "texture": null,
+          "type": "Sliced"
+        },
+        {
+          "name": "WriteUs_Btn",
+          "size": "(230.00, 108.18)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "ui 1 (Small",
+          "spriteSize": "(64.00, 76.00)",
+          "texture": null,
+          "type": "Sliced"
+        },
+        {
+          "name": "On",
+          "size": "(150.00, 150.00)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "ui 1 (Small",
+          "spriteSize": "(64.00, 76.00)",
+          "texture": null,
+          "type": "Sliced"
+        },
+        {
+          "name": "SaveTime",
+          "size": "(553.30, 5.00)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": null,
+          "spriteSize": null,
+          "texture": null,
+          "type": "Simple"
+        },
+        {
+          "name": "Close_Btn",
+          "size": "(100.00, 100.00)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "Icon_CloseBtn",
+          "spriteSize": "(104.00, 104.00)",
+          "texture": null,
+          "type": "Simple"
+        },
+        {
+          "name": "Image",
+          "size": "(60.00, 60.00)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "google-play (2)",
+          "spriteSize": "(153.95, 161.95)",
+          "texture": null,
+          "type": "Simple"
+        },
+        {
+          "name": "Icon",
+          "size": "(70.00, 70.00)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "icon_sound",
+          "spriteSize": "(119.85, 99.94)",
+          "texture": null,
+          "type": "Simple"
+        },
+        {
+          "name": "Load_Btn",
+          "size": "(250.00, 108.18)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "ui 1 (Small",
+          "spriteSize": "(64.00, 76.00)",
+          "texture": null,
+          "type": "Sliced"
+        },
+        {
+          "name": "Restore_Btn",
+          "size": "(230.00, 108.18)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "ui 1 (Small",
+          "spriteSize": "(64.00, 76.00)",
+          "texture": null,
+          "type": "Sliced"
+        },
+        {
+          "name": "Panel",
+          "size": "(932.70, 535.65)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "ui 2",
+          "spriteSize": "(256.00, 256.00)",
+          "texture": null,
+          "type": "Sliced"
+        },
+        {
+          "name": "Cancel_Btn",
+          "size": "(250.00, 108.18)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "ui 1 (Small",
+          "spriteSize": "(64.00, 76.00)",
+          "texture": null,
+          "type": "Sliced"
+        },
+        {
+          "name": "Background",
+          "size": "(1080.00, 607.50)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": null,
+          "spriteSize": null,
+          "texture": null,
+          "type": "Simple"
+        },
+        {
+          "name": "Off",
+          "size": "(150.00, 150.00)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "ui 1 (Small",
+          "spriteSize": "(64.00, 76.00)",
+          "texture": null,
+          "type": "Sliced"
+        },
+        {
+          "name": "Background",
+          "size": "(1080.00, 607.50)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": null,
+          "spriteSize": null,
+          "texture": null,
+          "type": "Simple"
+        },
+        {
+          "name": "On",
+          "size": "(150.00, 150.00)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "ui 1 (Small",
+          "spriteSize": "(64.00, 76.00)",
+          "texture": null,
+          "type": "Sliced"
+        },
+        {
+          "name": "On",
+          "size": "(150.00, 150.00)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "ui 1 (Small",
+          "spriteSize": "(64.00, 76.00)",
+          "texture": null,
+          "type": "Sliced"
+        },
+        {
+          "name": "Icon",
+          "size": "(70.00, 70.00)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "phone-vibration",
+          "spriteSize": "(121.94, 121.95)",
+          "texture": null,
+          "type": "Simple"
+        },
+        {
+          "name": "Icon",
+          "size": "(70.00, 70.00)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "phone-vibration",
+          "spriteSize": "(121.94, 121.95)",
+          "texture": null,
+          "type": "Simple"
+        },
+        {
+          "name": "Save_Btn",
+          "size": "(230.00, 108.18)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "ui 1 (Small",
+          "spriteSize": "(64.00, 76.00)",
+          "texture": null,
+          "type": "Sliced"
+        },
+        {
+          "name": "MaxStage",
+          "size": "(553.30, 5.00)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": null,
+          "spriteSize": null,
+          "texture": null,
+          "type": "Simple"
+        },
+        {
+          "name": "Panel",
+          "size": "(932.70, 441.00)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "ui 2",
+          "spriteSize": "(256.00, 256.00)",
+          "texture": null,
+          "type": "Sliced"
+        },
+        {
+          "name": "SFX_Btn",
+          "size": "(150.00, 150.00)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": null,
+          "spriteSize": null,
+          "texture": null,
+          "type": "Sliced"
+        },
+        {
+          "name": "Off",
+          "size": "(150.00, 150.00)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "ui 1 (Small",
+          "spriteSize": "(64.00, 76.00)",
+          "texture": null,
+          "type": "Sliced"
+        },
+        {
+          "name": "MaxStage",
+          "size": "(553.30, 5.00)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": null,
+          "spriteSize": null,
+          "texture": null,
+          "type": "Simple"
+        },
+        {
+          "name": "Background",
+          "size": "(1080.00, 607.50)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": null,
+          "spriteSize": null,
+          "texture": null,
+          "type": "Simple"
+        },
+        {
+          "name": "Icon",
+          "size": "(70.00, 70.00)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "icon_bgm",
+          "spriteSize": "(131.85, 131.85)",
+          "texture": null,
+          "type": "Simple"
+        },
+        {
+          "name": "Background",
+          "size": "(1080.00, 607.50)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": null,
+          "spriteSize": null,
+          "texture": null,
+          "type": "Simple"
+        },
+        {
+          "name": "BGM_Btn",
+          "size": "(150.00, 150.00)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": null,
+          "spriteSize": null,
+          "texture": null,
+          "type": "Sliced"
+        },
+        {
+          "name": "Image",
+          "size": "(60.00, 60.00)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "icon_icloud",
+          "spriteSize": "(158.00, 119.85)",
+          "texture": null,
+          "type": "Simple"
+        },
+        {
+          "name": "Panel",
+          "size": "(641.17, 685.65)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "ui 2",
+          "spriteSize": "(256.00, 256.00)",
+          "texture": null,
+          "type": "Sliced"
+        },
+        {
+          "name": "Icon",
+          "size": "(70.00, 70.00)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "icon_bgm",
+          "spriteSize": "(131.85, 131.85)",
+          "texture": null,
+          "type": "Simple"
+        },
+        {
+          "name": "Load_Btn",
+          "size": "(250.00, 108.18)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "ui 1 (Small",
+          "spriteSize": "(64.00, 76.00)",
+          "texture": null,
+          "type": "Sliced"
+        },
+        {
+          "name": "Close_Btn",
+          "size": "(100.00, 100.00)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "Icon_CloseBtn",
+          "spriteSize": "(104.00, 104.00)",
+          "texture": null,
+          "type": "Simple"
+        },
+        {
+          "name": "Cancel_Btn",
+          "size": "(250.00, 108.18)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "ui 1 (Small",
+          "spriteSize": "(64.00, 76.00)",
+          "texture": null,
+          "type": "Sliced"
+        },
+        {
+          "name": "Panel",
+          "size": "(932.70, 535.65)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "ui 1 (Small) 3",
+          "spriteSize": "(84.00, 96.00)",
+          "texture": null,
+          "type": "Sliced"
+        },
+        {
+          "name": "Login_Btn (ios)",
+          "size": "(310.10, 106.30)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "ui 1 (Small",
+          "spriteSize": "(64.00, 76.00)",
+          "texture": null,
+          "type": "Sliced"
+        },
+        {
+          "name": "Load_Btn",
+          "size": "(230.00, 108.18)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "ui 1 (Small",
+          "spriteSize": "(64.00, 76.00)",
+          "texture": null,
+          "type": "Sliced"
+        },
+        {
+          "name": "InputField (TMP)",
+          "size": "(668.63, 89.08)",
+          "scale": "(1.78, 1.78, 1.78)",
+          "sprite": "ui 4",
+          "spriteSize": "(64.00, 64.00)",
+          "texture": null,
+          "type": "Sliced"
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

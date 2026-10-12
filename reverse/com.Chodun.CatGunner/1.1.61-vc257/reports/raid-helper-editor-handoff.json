@@ -1,0 +1,74 @@
+{
+  "helperPresent": true,
+  "helperStartsHidden": true,
+  "helperGuns": 65,
+  "helperUiBound": true,
+  "stepUpBound": true,
+  "stepUpItems": 5,
+  "stepUpMissingGunDegreeReferences": 0,
+  "tutorialHudReferences": 9,
+  "originalPopupStartsHidden": true,
+  "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+  "dirty": false,
+  "playing": false,
+  "compiling": false,
+  "updating": false,
+  "testHostFolder": "",
+  "runtimePlusItems": 0,
+  "objects": 35834,
+  "missingScripts": 0,
+  "persist": true,
+  "saveFolderOverride": null,
+  "localRewardedAdDefault": true,
+  "earlyWeaponAdPreview": true,
+  "localPurchaseSimulation": true,
+  "stores": [
+    {
+      "shopBound": true,
+      "shopActive": false
+    }
+  ],
+  "automaticUpgradeBound": true,
+  "autoPopupBound": true,
+  "autoHud": 1,
+  "autoDisabled": false,
+  "offlineBound": true,
+  "offlineMaxSeconds": 28800.0,
+  "inputOverrides": 0,
+  "mouseFixtures": 0,
+  "timeScale": 1.0,
+  "buildScenes": [
+    {
+      "path": "Assets/Recovery/Scenes/RecoveredClient.unity",
+      "enabled": true
+    },
+    {
+      "path": "Assets/Recovery/Scenes/RecoveredBullets.unity",
+      "enabled": true
+    },
+    {
+      "path": "Assets/Recovery/Scenes/RecoveredForest.unity",
+      "enabled": true
+    },
+    {
+      "path": "Assets/Recovery/Scenes/RecoveredForestHUD.unity",
+      "enabled": true
+    },
+    {
+      "path": "Assets/Recovery/Scenes/RecoveredForestProgress.unity",
+      "enabled": true
+    },
+    {
+      "path": "Assets/Recovery/Scenes/RecoveredJoystick.unity",
+      "enabled": true
+    },
+    {
+      "path": "Assets/Recovery/Scenes/RecoveredSettings.unity",
+      "enabled": true
+    },
+    {
+      "path": "Assets/Recovery/Scenes/RecoveredTarget.unity",
+      "enabled": true
+    }
+  ]
+}

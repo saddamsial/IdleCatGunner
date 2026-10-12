@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "command": "command get_player_settings",
+  "data": {
+    "command": "get_player_settings",
+    "parameters": {},
+    "result": {
+      "success": true,
+      "group": "player",
+      "applied": false,
+      "dryRun": false,
+      "requiresDomainReload": false,
+      "requiresReimport": false,
+      "values": {
+        "companyName": "DefaultCompany",
+        "productName": "CatGunnerUnityClient",
+        "bundleVersion": "1.0",
+        "buildTarget": "Standalone",
+        "scriptingBackend": "Mono2x",
+        "apiCompatibilityLevel": "NET_Standard_2_0"
+      },
+      "message": "Read player settings."
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

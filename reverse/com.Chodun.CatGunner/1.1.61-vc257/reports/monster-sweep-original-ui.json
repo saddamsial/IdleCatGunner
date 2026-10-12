@@ -1,0 +1,157 @@
+[
+  {
+    "name": "Auto_obj",
+    "buttons": [
+      {
+        "name": "Enter_Btn (1)",
+        "active": true,
+        "interactable": true,
+        "callbacks": [
+          "Game_Enter",
+          "SetActive"
+        ]
+      },
+      {
+        "name": "Sweep_Btn",
+        "active": true,
+        "interactable": true,
+        "callbacks": [
+          "Game_Sweep"
+        ]
+      }
+    ],
+    "texts": [
+      {
+        "name": "I2_txt(Outline) (2)",
+        "text": "도전하기"
+      },
+      {
+        "name": "I2_txt",
+        "text": "전투력 부족"
+      },
+      {
+        "name": "Value_txt",
+        "text": "38%"
+      },
+      {
+        "name": "I2_txt",
+        "text": "즉시 완료!"
+      },
+      {
+        "name": "Stage_txt",
+        "text": "1-1"
+      },
+      {
+        "name": "txt",
+        "text": "Wave"
+      }
+    ]
+  },
+  {
+    "name": "GameSweep_obj",
+    "buttons": [
+      {
+        "name": "Bonus_Btn",
+        "active": true,
+        "interactable": true,
+        "callbacks": [
+          "SweepBonus_AD_Show"
+        ]
+      },
+      {
+        "name": "NoAds_Btn",
+        "active": false,
+        "interactable": true,
+        "callbacks": [
+          "Sweep_Close"
+        ]
+      },
+      {
+        "name": "Remove_AD_All",
+        "active": true,
+        "interactable": true,
+        "callbacks": [
+          "Purchase"
+        ]
+      },
+      {
+        "name": "FreeCash_Banner",
+        "active": true,
+        "interactable": false,
+        "callbacks": [
+          "OnClick"
+        ]
+      },
+      {
+        "name": "Exit_Btn",
+        "active": true,
+        "interactable": true,
+        "callbacks": [
+          "Sweep_Close"
+        ]
+      }
+    ],
+    "texts": [
+      {
+        "name": "I2_txt(Outline)",
+        "text": "Game End"
+      },
+      {
+        "name": "I2_txt(Outline)",
+        "text": "Reward"
+      },
+      {
+        "name": "Reward_txt",
+        "text": "120"
+      },
+      {
+        "name": "I2_txt(Outline)",
+        "text": "Claim"
+      },
+      {
+        "name": "Text (TMP)",
+        "text": "x2"
+      },
+      {
+        "name": "I2_txt(Outline)",
+        "text": "Ok"
+      },
+      {
+        "name": "Price_txt",
+        "text": "+<sprite=1>1<size=25>/min"
+      },
+      {
+        "name": "Price_txt",
+        "text": "$9.99"
+      },
+      {
+        "name": "I2_txt(Outline)",
+        "text": "모든 광고 제거"
+      },
+      {
+        "name": "I2_txt",
+        "text": "게임 내의 모든 광고를 제거합니다"
+      },
+      {
+        "name": "I2_txt(Outline)",
+        "text": "혜택 받기"
+      },
+      {
+        "name": "I2_txt(Outline)",
+        "text": "보상 광고 제거가 공짜!"
+      },
+      {
+        "name": "Text (TMP)",
+        "text": "FREECASH"
+      },
+      {
+        "name": "Reward_txt",
+        "text": "30"
+      },
+      {
+        "name": "NoThanks",
+        "text": "No Thanks"
+      }
+    ]
+  }
+]

@@ -1,0 +1,119 @@
+{
+  "rule": "original-game-rules/38_MISSION_ALERT_NAVIGATION.md",
+  "contract": "mission-navigation-contract.json",
+  "tests": {
+    "navigation": {
+      "report": "live-mission-navigation-accepted-status.json",
+      "status": "completed",
+      "duration": 41.49,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "alertVisual": {
+      "report": "live-mission-navigation-alert-visual-status.json",
+      "status": "completed",
+      "duration": 12.14,
+      "summary": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "presentation": {
+      "report": "live-mission-navigation-presentation-status.json",
+      "status": "completed",
+      "duration": 46.58,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "progression": {
+      "report": "live-mission-navigation-progression-status.json",
+      "status": "completed",
+      "duration": 16.65,
+      "summary": {
+        "total": 8,
+        "passed": 8,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "startup": {
+      "report": "live-mission-navigation-startup-status.json",
+      "status": "completed",
+      "duration": 24.19,
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    }
+  },
+  "testBatchBoundary": "Completed navigation6 and later focused alert1 overlap; later fixture only added visible-object assertion and screenshot, no production delta. Three separate regression batches, not a new full-suite or Player/device result. Before0/5 and first5/5 preserved.",
+  "testSourceHistory": "mission-navigation-test-source-history.json",
+  "nativeEvidence": "mission-navigation-native-evidence.json",
+  "sourceParameters": "mission-navigation-source-parameters.json",
+  "sceneAudit": "mission-navigation-scene-document-diff.json",
+  "preservationAudit": "mission-navigation-preservation-audit.json",
+  "handoff": "mission-navigation-editor-handoff.json",
+  "actualEditor": "mission-navigation-actual-editor-scene.json",
+  "console": "mission-navigation-final-console.json",
+  "runner": "mission-navigation-final-runner.json",
+  "visual": [
+    {
+      "file": "visual/mission-navigation-open-gpu.png",
+      "sha256": "b6878df6b1f05fadede2e13348d23ae221d1ff8e3dcbe2c8abc6b2eef7edc280",
+      "actuallyViewed": true
+    },
+    {
+      "file": "visual/mission-navigation-next-gpu.png",
+      "sha256": "af9b97ce7b759737bc7fd5d5c8aafdd2c43ecd9ec6fb6525a7034b6acd285d7e",
+      "actuallyViewed": true
+    },
+    {
+      "file": "visual/mission-navigation-alert-gpu.png",
+      "sha256": "15c0dc991c2375d221cb69fcffc5ba668f30954a63a776655ab2aa3b982d173a",
+      "actuallyViewed": true
+    }
+  ],
+  "sceneSha256": "69b30e938815261522df3ba90b204fcbfb95a5549916cf07ea77d5aea6d93169",
+  "sourceSha256": {
+    "Assets/Recovery/Scripts/Mission_manager.cs": "8d2049b9c71ff1cde5006fc7088f599b111cc2a91d7894214047e6c662b13a2d",
+    "Assets/Recovery/Scripts/Mission_Item_UI.cs": "aa6fd9cff3f9decf739d2975bb573b49e00e74eac2bf5c2639734567108409ab",
+    "Assets/Recovery/Scripts/Mission_Reward_Item.cs": "ca4e2c0bb515e90970648ed93c1ffed30126feb3afd096428d99993786db632c",
+    "Assets/Recovery/Scripts/OriginalMissions.cs": "5b1a9c9218b97d5c898d12bc1529991e00d2fcb7be22acdcf87475ce2bbfbdd0",
+    "Assets/Recovery/Tests/PlayMode/OriginalMissionNavigationTests.cs": "54564db758c262110781e81b2c88a9de0ba2bc37d567ebc9c3eb26adef7b1ed9"
+  },
+  "localDifferences": [
+    "Time_manager server-sync bootstrap remains replaced by existing injected local clock/Bind",
+    "owner disable/panel close cancel local owned presentation jobs",
+    "VIP/Luxury eligibility is only indicator/navigation evidence; actions remain unavailable",
+    "general I2 and full particle SDK are not restored"
+  ],
+  "remaining": [
+    "original alert DOTween124051 pulse",
+    "full I2 and task sort",
+    "failed sequence-lock alert and scroll-back UI path",
+    "four Tutorial HUDs",
+    "offline simulation",
+    "trusted clock",
+    "commercial/backend services",
+    "other FX",
+    "Player/device acceptance"
+  ],
+  "scopeComplete": false
+}

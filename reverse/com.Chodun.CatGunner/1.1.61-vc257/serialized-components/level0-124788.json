@@ -1,0 +1,4115 @@
+{
+  "identity": {
+    "file": "level0",
+    "path_id": 124788,
+    "type_index": 7466,
+    "type": "Mine_manager",
+    "game_object": "Mine_manager"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 1526
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 3661
+    },
+    "m_Name": "",
+    "Ore_list": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 143667
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143107
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143065
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143498
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143523
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143669
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142975
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143240
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142745
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143201
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143253
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143353
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142865
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143593
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143374
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143582
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143287
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143002
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143408
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142700
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142799
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143355
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143227
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143425
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142729
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143389
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143305
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142952
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143502
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143522
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143650
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142971
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143225
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143682
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143273
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142961
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143310
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143049
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143380
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143100
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142932
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143214
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143032
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142714
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143221
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143631
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143316
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143610
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142908
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143545
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143202
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143629
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143470
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143054
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143288
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143304
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142974
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143299
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143403
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142896
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142709
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143411
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143325
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143451
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143350
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142744
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143520
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143613
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143156
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143010
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143615
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143409
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142739
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143334
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143206
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142902
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143094
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143204
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143387
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143543
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143255
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142794
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143660
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142871
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142778
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142696
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143098
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143146
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143080
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142719
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142893
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143029
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143418
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143675
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143150
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143413
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142850
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143352
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143415
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142839
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143269
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142869
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142797
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143491
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142992
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142809
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143050
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143626
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142826
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143180
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143266
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142938
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143105
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143187
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143665
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143086
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143370
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143311
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143312
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142733
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143231
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143318
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142862
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143303
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142930
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143252
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142928
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142707
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143117
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142808
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142949
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142890
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143375
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143512
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143095
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143228
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142693
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143400
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143617
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142948
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143315
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143539
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142868
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143036
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143525
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143020
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143630
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143295
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143576
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143514
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143167
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143003
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143354
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143338
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142988
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143504
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142807
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143061
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142712
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142752
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143211
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142855
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143222
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142863
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143207
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143286
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142915
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143033
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142993
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143625
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142760
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142910
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143110
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143237
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143597
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143602
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143116
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142816
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143574
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143458
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143027
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142770
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143163
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143531
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143102
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142878
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143351
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142980
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143676
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143128
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142710
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143427
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143158
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142708
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143644
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142820
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142749
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143164
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142997
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142956
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142754
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143560
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143043
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143385
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143501
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142985
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143656
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143505
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143245
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143645
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143210
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142786
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143480
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142764
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142923
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142946
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142856
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143521
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143371
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143588
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143592
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143096
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143344
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142756
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142777
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143440
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143483
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142973
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143666
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143162
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143603
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143570
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143081
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143021
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142874
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143649
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143506
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142802
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142958
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143388
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143009
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143151
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143346
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143284
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142829
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142906
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142730
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143485
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142978
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143296
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142755
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143527
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142998
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143039
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143335
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143019
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142926
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142858
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143058
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143184
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143671
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143361
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143104
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142703
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143421
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143436
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143452
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143573
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143077
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142688
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143250
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143378
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143314
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143493
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142805
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143673
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143537
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143268
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142765
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142860
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143219
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143195
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143628
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142866
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143160
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143006
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143140
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142962
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143159
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142921
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143606
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143417
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143189
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142699
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142793
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142711
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143633
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143270
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143668
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143357
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143424
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143112
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143507
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143584
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143230
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143278
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142814
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143412
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143634
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143121
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142911
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142818
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143294
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143190
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142718
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143042
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143455
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143226
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143004
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142897
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142873
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143074
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143007
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143419
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143460
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142689
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143528
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142920
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142771
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143639
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143393
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143079
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143564
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143429
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143368
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142732
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143601
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143672
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142847
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143012
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143057
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143499
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143377
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143306
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143651
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142979
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143137
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142916
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142917
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142806
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143063
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143341
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143183
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143026
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143313
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143235
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143604
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143558
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143013
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142935
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143369
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142796
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142750
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143542
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143620
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142996
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143446
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143326
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143456
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142914
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143569
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142846
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143399
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142704
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143679
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143018
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143185
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143300
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143591
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143329
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143333
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142791
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143508
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143565
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143632
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143301
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142964
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143544
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142784
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142977
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143468
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143422
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143327
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143596
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142879
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143547
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142795
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142722
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143198
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143358
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142761
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143307
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142738
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143176
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142742
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143258
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143119
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143247
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143085
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143392
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143407
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143637
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143289
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143484
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143203
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143172
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142687
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142790
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143236
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143165
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142825
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143457
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142782
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143136
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143599
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143577
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142836
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143486
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143066
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142767
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143249
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143533
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142763
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143132
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143534
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143435
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143067
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143439
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143433
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143492
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143619
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143199
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142982
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142842
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143623
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142798
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143640
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143670
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143243
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143271
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143432
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142830
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143627
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143345
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143092
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143157
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142813
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143535
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143607
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143047
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143244
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143538
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143646
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143138
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143550
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143087
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143364
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143566
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143277
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143073
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142762
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143319
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143234
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142746
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143598
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143197
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143674
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143131
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143022
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143466
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143513
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143529
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143139
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142843
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143343
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143155
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143461
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143396
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143283
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143297
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142833
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142885
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142945
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143024
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143091
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143053
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143383
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143586
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142723
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143510
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142695
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143298
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143246
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143135
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143496
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142824
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143127
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143120
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142776
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143143
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143134
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143517
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143070
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143321
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143648
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143123
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143580
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142838
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142861
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142822
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143200
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143462
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143055
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143642
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143450
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143360
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143476
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142787
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143220
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142859
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143611
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142918
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143657
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143011
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143430
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143038
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143264
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143141
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143367
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142900
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143386
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143416
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143071
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142986
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143404
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143125
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142901
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142884
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143614
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143442
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143553
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143279
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143008
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143618
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143044
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143179
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143362
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143621
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142864
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143251
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143101
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142912
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142835
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143568
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143465
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143031
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143471
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142899
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143494
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142819
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143590
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142943
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143265
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143034
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143437
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142810
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143292
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142780
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143664
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143532
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143445
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142785
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143661
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143256
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143191
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143536
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143561
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142734
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143349
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142968
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143331
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143548
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142907
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143248
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142925
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142880
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143509
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143677
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142939
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143015
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143555
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143342
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142934
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142967
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142903
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142735
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143005
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143636
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143426
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142690
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143405
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142888
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143320
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142851
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143272
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143562
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143030
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143218
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143624
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142766
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143516
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143215
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143681
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143410
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143111
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143062
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142867
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142783
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143290
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143109
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143652
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143257
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142817
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143481
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142740
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143037
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142976
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143376
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142919
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142837
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143472
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143267
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143474
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142984
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143662
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142849
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143309
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142959
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143324
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142886
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143108
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142937
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143431
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143263
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142845
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142768
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143217
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142691
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142804
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142741
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143182
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142887
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142828
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142773
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143447
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143099
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143082
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142933
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143041
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143454
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143643
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142721
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143608
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142922
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142972
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143684
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142931
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142882
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142955
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143585
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142716
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143259
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143567
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143397
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142909
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142701
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143453
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142747
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142831
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143600
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143088
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143040
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143145
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143045
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142815
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143546
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143275
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143177
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142852
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142724
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143118
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143616
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142990
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143605
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143238
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142759
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142694
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142929
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143441
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143487
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143130
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143575
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143366
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143336
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143495
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143213
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143113
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142801
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143192
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143678
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143173
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143571
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143028
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143276
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143090
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142969
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143194
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143557
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143046
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143579
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142751
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142894
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143540
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143153
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143685
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143051
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143114
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143406
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142881
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143348
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143293
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143372
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143473
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143178
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143449
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143595
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143016
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142788
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143330
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142924
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143126
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142889
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142725
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143133
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142686
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142713
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142970
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143181
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143589
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142981
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143647
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142811
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143323
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143106
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143154
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143056
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143142
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143551
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142698
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143379
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142953
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143097
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142841
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142898
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143479
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142950
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143281
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142854
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143212
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143515
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142960
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142697
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142803
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143467
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143503
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142731
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142775
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143072
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143423
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142840
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143261
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143448
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143144
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142706
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143223
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143089
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143322
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143124
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143152
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143559
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143395
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142748
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143655
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142769
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143381
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142875
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143530
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143216
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143609
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143317
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143654
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142999
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142853
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143241
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143148
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143583
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143518
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143382
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143658
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143122
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142913
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143242
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142941
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143193
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143186
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142891
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143497
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143337
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142743
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142772
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142848
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143384
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143490
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143373
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143328
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143282
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143093
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143443
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143438
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143205
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143332
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142940
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142944
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143477
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143347
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143171
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143444
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143556
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143524
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143356
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142800
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142905
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143581
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143469
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143390
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143587
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143285
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143103
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143188
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143552
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143025
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143663
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143402
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143500
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143083
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143511
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143572
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143659
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142827
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142927
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143147
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143459
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142789
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142774
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143208
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143680
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143308
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143149
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143115
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142942
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143428
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143068
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142876
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143291
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143059
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142779
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142844
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142705
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143391
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142957
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143060
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142737
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143398
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143052
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143075
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142736
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143482
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142947
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143641
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142883
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143683
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142728
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143653
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143340
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143000
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143224
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142781
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143274
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142834
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143280
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142895
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142726
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143239
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143161
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143635
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143488
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143129
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143563
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142872
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142991
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143014
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143365
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143549
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143489
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143519
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142832
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143069
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143168
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142892
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142717
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143260
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143612
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142870
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142987
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142857
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143078
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142904
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143594
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143166
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143463
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142965
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143017
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143169
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143526
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142720
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143174
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143233
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142989
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142702
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143035
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143196
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142821
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142823
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142715
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143170
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143622
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143420
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143434
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143554
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143359
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143048
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143262
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143254
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142758
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143076
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142877
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143363
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143541
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143001
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143578
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143464
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142727
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142812
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143023
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143229
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143064
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142954
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142951
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142936
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143175
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143209
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142966
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143232
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143475
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142757
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143638
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143394
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143302
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142692
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143401
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142994
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142963
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143084
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143339
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142995
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142753
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142792
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143478
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 143414
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142983
+      }
+    ],
+    "mineStart_ui": {
+      "m_FileID": 0,
+      "m_PathID": 125300
+    },
+    "Map_obj": {
+      "m_FileID": 0,
+      "m_PathID": 613
+    },
+    "GameEnd_UI": {
+      "m_FileID": 0,
+      "m_PathID": 1406
+    },
+    "Ore_sprites": [
+      {
+        "m_FileID": 2,
+        "m_PathID": 564
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 389
+      }
+    ],
+    "MineTicket_Inapp_UI_obj": {
+      "m_FileID": 0,
+      "m_PathID": 1076
+    },
+    "TicketUse_Count": 0,
+    "TicketCharge_Date": {},
+    "Best_Reward": 0,
+    "Dia_Score": 0,
+    "OreCount_Now": 0,
+    "OreCount_Max": 0,
+    "GameTime_Now": 0.0,
+    "gameSlider": {
+      "m_FileID": 0,
+      "m_PathID": 125333
+    },
+    "orePerFrame": 30,
+    "Reward_txt": {
+      "m_FileID": 0,
+      "m_PathID": 117210
+    },
+    "Bonus_txt": {
+      "m_FileID": 0,
+      "m_PathID": 117149
+    },
+    "Bonus_Btn_obj": {
+      "m_FileID": 0,
+      "m_PathID": 131
+    },
+    "NoAds_Btn_obj": {
+      "m_FileID": 0,
+      "m_PathID": 928
+    },
+    "Skip_obj": {
+      "m_FileID": 0,
+      "m_PathID": 1749
+    },
+    "Reward_Value": 0,
+    "GameSweep_UI": {
+      "m_FileID": 0,
+      "m_PathID": 1708
+    },
+    "SweepBonus_Btn_obj": {
+      "m_FileID": 0,
+      "m_PathID": 2035
+    },
+    "SweepNoAds_Btn_obj": {
+      "m_FileID": 0,
+      "m_PathID": 329
+    },
+    "SweepSkip_obj": {
+      "m_FileID": 0,
+      "m_PathID": 288
+    },
+    "SweepReward_txt": {
+      "m_FileID": 0,
+      "m_PathID": 117386
+    },
+    "SweepBonus_txt": {
+      "m_FileID": 0,
+      "m_PathID": 117142
+    },
+    "outerRadius": 150.0,
+    "innerRadius": 24.299999237060547,
+    "center": {
+      "x": -100.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "noiseScale": 0.08500000089406967,
+    "noiseThreshold": 0.5170000195503235
+  }
+}

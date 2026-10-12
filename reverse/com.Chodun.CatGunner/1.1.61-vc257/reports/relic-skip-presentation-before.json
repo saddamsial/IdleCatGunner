@@ -1,0 +1,71 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var go=UnityEngine.Object.FindAnyObjectByType<CatGunner.Recovery.RecoveryForestClient>().Forest.GameSkip_UI;var a=go.GetComponent<UnityEngine.Animator>();return new{controller=UnityEditor.AssetDatabase.GetAssetPath(a.runtimeAnimatorController),clips=a.runtimeAnimatorController.animationClips.Select(c=>new{name=c.name,path=UnityEditor.AssetDatabase.GetAssetPath(c),length=c.length,events=c.events.Select(e=>new{time=e.time,e.functionName,e.intParameter}).ToArray()}).ToArray(),images=go.GetComponentsInChildren<UnityEngine.UI.Graphic>(true).Select(g=>new{name=g.name,type=g.GetType().Name,texture=UnityEditor.AssetDatabase.GetAssetPath(g.mainTexture),material=UnityEditor.AssetDatabase.GetAssetPath(g.material),shader=g.material.shader.name,supported=g.material.shader.isSupported,raycast=g.raycastTarget}).ToArray()};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "controller": "Assets/AnimatorController/GameWin_0.controller",
+        "clips": [
+          {
+            "name": "Win",
+            "path": "Assets/AnimationClip/Win_0.anim",
+            "length": 1.5,
+            "events": []
+          }
+        ],
+        "images": [
+          {
+            "name": "Panel",
+            "type": "Image",
+            "texture": "Assets/Texture2D/sactx-0-4096x4096-ASTC 6x6-_UI-3277955d.png",
+            "material": "",
+            "shader": "UI/Default",
+            "supported": true,
+            "raycast": true
+          },
+          {
+            "name": "Scroll",
+            "type": "RawImage",
+            "texture": "Assets/Texture2D/Pattern.png",
+            "material": "",
+            "shader": "UI/Default",
+            "supported": true,
+            "raycast": true
+          },
+          {
+            "name": "Outline",
+            "type": "Image",
+            "texture": "Assets/Texture2D/sactx-0-4096x4096-ASTC 6x6-_UI-3277955d.png",
+            "material": "",
+            "shader": "UI/Default",
+            "supported": true,
+            "raycast": true
+          },
+          {
+            "name": "I2_txt(Outline)",
+            "type": "TextMeshProUGUI",
+            "texture": "",
+            "material": "",
+            "shader": "UI/Default",
+            "supported": true,
+            "raycast": true
+          }
+        ]
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

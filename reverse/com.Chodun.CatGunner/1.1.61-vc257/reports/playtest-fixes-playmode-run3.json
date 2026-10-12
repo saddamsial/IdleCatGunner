@@ -1,0 +1,132 @@
+{
+  "status": "completed",
+  "duration": 88.74,
+  "summary": {
+    "total": 17,
+    "passed": 11,
+    "failed": 6,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalPlayableRecoveryTests.AdSimulationSupportsDailyGunAndFishButCancelsDisabledOrRepeatedCallbacks",
+      "Status": "Passed",
+      "Duration": 8.5916768,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.AdventureAdReduces30MinutesTwicePerDayAndColdPersists",
+      "Status": "Failed",
+      "Duration": 6.524733,
+      "Message": "  Expected: 2026-10-12 11:30:00.000\n  But was:  2026-10-12 12:00:00.000\n",
+      "StackTrace": "at OriginalPlayableRecoveryTests+<AdventureAdReduces30MinutesTwicePerDayAndColdPersists>d__27.MoveNext () [0x001be] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalPlayableRecoveryTests.cs:125\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.BossBonusRealClickAdds300OnceAndRendersGround",
+      "Status": "Failed",
+      "Duration": 8.3489368,
+      "Message": "  Bonus_Btn\n  Expected: True\n  But was:  False\n",
+      "StackTrace": "at OriginalPlayableRecoveryTests+<Click>d__17.MoveNext () [0x00053] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalPlayableRecoveryTests.cs:65\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.DailyAdInventoryRetainsProgressionDayCapacityAndCurrencyGates",
+      "Status": "Passed",
+      "Duration": 0.2586297,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.FullSeasonConfirmButtonResetsClaimsCountersScrollAndColdSave",
+      "Status": "Passed",
+      "Duration": 7.2394061,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.MineBonusAddsThreeTimesBaseOnce",
+      "Status": "Failed",
+      "Duration": 7.8806968,
+      "Message": "  Bonus_Btn\n  Expected: True\n  But was:  False\n",
+      "StackTrace": "at OriginalPlayableRecoveryTests+<Click>d__17.MoveNext () [0x00053] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalPlayableRecoveryTests.cs:65\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.MonsterBonusAddsAccumulatedCoinOnceAndRendersGround",
+      "Status": "Failed",
+      "Duration": 8.3958453,
+      "Message": "  Bonus_Btn\n  Expected: True\n  But was:  False\n",
+      "StackTrace": "at OriginalPlayableRecoveryTests+<Click>d__17.MoveNext () [0x00053] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalPlayableRecoveryTests.cs:65\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.NativeDailyFirstRewardIs70WhileNewWalletIsZero",
+      "Status": "Passed",
+      "Duration": 0.2093967,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.OfflineNativeFarmHasIndependentKnownOracleAndDoesNotAdvanceFrontier",
+      "Status": "Passed",
+      "Duration": 0.2051611,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.OfflineSimulationUsesSelectedWeaponKindsTraversalAndStageTimeLimit",
+      "Status": "Passed",
+      "Duration": 0.1837828,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.OfflineTimeUses30SecondMinimum8HourCapAndRejectsInvalidOrFutureTime",
+      "Status": "Passed",
+      "Duration": 0.1759363,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.RaidAdEntryUsesOneAdditionalDailyEntryWithoutChangingFreeQuota",
+      "Status": "Failed",
+      "Duration": 6.0568785,
+      "Message": "  Top hit: Ticket_txt\n  Expected: same as <Enter_Btn (AD) (UnityEngine.UI.Button)>\n  But was:  <Enter_Btn (Disable) (UnityEngine.UI.Button)>\n",
+      "StackTrace": "at OriginalPlayableRecoveryTests+<Click>d__17.MoveNext () [0x00141] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalPlayableRecoveryTests.cs:68\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.Real100DiamondButtonShowsInsufficientBalanceThenSpawnsWeaponAndColdSaves",
+      "Status": "Passed",
+      "Duration": 7.1987416,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.SeasonBootstrapStaysZeroThenManualCappedResetClearsBothTracksAndCounters",
+      "Status": "Passed",
+      "Duration": 0.233564,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.SeasonExpiryUsesDateBoundaryAndReloadCannotIncrementTwice",
+      "Status": "Passed",
+      "Duration": 0.2156847,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.SpeedRunOriginalRewardAdGivesBonusOnceAndAllChallengeMaterialsRender",
+      "Status": "Failed",
+      "Duration": 8.1725753,
+      "Message": "  Bonus_Btn\n  Expected: True\n  But was:  False\n",
+      "StackTrace": "at OriginalPlayableRecoveryTests+<Click>d__17.MoveNext () [0x00053] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalPlayableRecoveryTests.cs:65\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.StartupOfflinePanelCommitsOnceAndColdReloadDoesNotAwardAgain",
+      "Status": "Passed",
+      "Duration": 18.6667738,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

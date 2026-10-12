@@ -1,0 +1,216 @@
+{
+  "identity": {
+    "file": "level0",
+    "path_id": 123612,
+    "type_index": 12083,
+    "type": "TMPro.TMP_InputField",
+    "game_object": "InputField_FishDegree"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 552
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 710
+    },
+    "m_Name": "",
+    "m_Navigation": {
+      "m_Mode": 3,
+      "m_WrapAround": false,
+      "m_SelectOnUp": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_SelectOnDown": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_SelectOnLeft": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_SelectOnRight": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    "m_Transition": 1,
+    "m_Colors": {
+      "m_NormalColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "m_HighlightedColor": {
+        "r": 0.9607843160629272,
+        "g": 0.9607843160629272,
+        "b": 0.9607843160629272,
+        "a": 1.0
+      },
+      "m_PressedColor": {
+        "r": 0.7843137383460999,
+        "g": 0.7843137383460999,
+        "b": 0.7843137383460999,
+        "a": 1.0
+      },
+      "m_SelectedColor": {
+        "r": 0.9607843160629272,
+        "g": 0.9607843160629272,
+        "b": 0.9607843160629272,
+        "a": 1.0
+      },
+      "m_DisabledColor": {
+        "r": 0.7843137383460999,
+        "g": 0.7843137383460999,
+        "b": 0.7843137383460999,
+        "a": 0.501960813999176
+      },
+      "m_ColorMultiplier": 1.0,
+      "m_FadeDuration": 0.10000000149011612
+    },
+    "m_SpriteState": {
+      "m_HighlightedSprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_PressedSprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_SelectedSprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "m_DisabledSprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    "m_AnimationTriggers": {
+      "m_NormalTrigger": "Normal",
+      "m_HighlightedTrigger": "Highlighted",
+      "m_PressedTrigger": "Pressed",
+      "m_SelectedTrigger": "Selected",
+      "m_DisabledTrigger": "Disabled"
+    },
+    "m_Interactable": true,
+    "m_TargetGraphic": {
+      "m_FileID": 0,
+      "m_PathID": 123613
+    },
+    "m_TextViewport": {
+      "m_FileID": 0,
+      "m_PathID": 102707
+    },
+    "m_TextComponent": {
+      "m_FileID": 0,
+      "m_PathID": 117161
+    },
+    "m_Placeholder": {
+      "m_FileID": 0,
+      "m_PathID": 117264
+    },
+    "m_VerticalScrollbar": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_VerticalScrollbarEventHandler": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_LayoutGroup": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_ScrollSensitivity": 1.0,
+    "m_ContentType": 0,
+    "m_InputType": 0,
+    "m_AsteriskChar": 42,
+    "m_KeyboardType": 0,
+    "m_LineType": 0,
+    "m_HideMobileInput": false,
+    "m_HideSoftKeyboard": false,
+    "m_CharacterValidation": 0,
+    "m_RegexValue": "",
+    "m_GlobalPointSize": 57.0,
+    "m_CharacterLimit": 0,
+    "m_OnEndEdit": {
+      "m_PersistentCalls": {
+        "m_Calls": []
+      }
+    },
+    "m_OnSubmit": {
+      "m_PersistentCalls": {
+        "m_Calls": []
+      }
+    },
+    "m_OnSelect": {
+      "m_PersistentCalls": {
+        "m_Calls": []
+      }
+    },
+    "m_OnDeselect": {
+      "m_PersistentCalls": {
+        "m_Calls": []
+      }
+    },
+    "m_OnTextSelection": {
+      "m_PersistentCalls": {
+        "m_Calls": []
+      }
+    },
+    "m_OnEndTextSelection": {
+      "m_PersistentCalls": {
+        "m_Calls": []
+      }
+    },
+    "m_OnValueChanged": {
+      "m_PersistentCalls": {
+        "m_Calls": []
+      }
+    },
+    "m_OnTouchScreenKeyboardStatusChanged": {
+      "m_PersistentCalls": {
+        "m_Calls": []
+      }
+    },
+    "m_CaretColor": {
+      "r": 0.19607843458652496,
+      "g": 0.19607843458652496,
+      "b": 0.19607843458652496,
+      "a": 1.0
+    },
+    "m_CustomCaretColor": false,
+    "m_SelectionColor": {
+      "r": 0.658823549747467,
+      "g": 0.8078431487083435,
+      "b": 1.0,
+      "a": 0.7529411911964417
+    },
+    "m_Text": "0",
+    "m_CaretBlinkRate": 0.8500000238418579,
+    "m_CaretWidth": 1,
+    "m_ReadOnly": false,
+    "m_RichText": true,
+    "m_GlobalFontAsset": {
+      "m_FileID": 2,
+      "m_PathID": 1005
+    },
+    "m_OnFocusSelectAll": true,
+    "m_ResetOnDeActivation": true,
+    "m_KeepTextSelectionVisible": false,
+    "m_RestoreOriginalTextOnEscape": true,
+    "m_isRichTextEditingAllowed": false,
+    "m_LineLimit": 0,
+    "isAlert": false,
+    "m_InputValidator": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_ShouldActivateOnSelect": true
+  }
+}

@@ -1,0 +1,85 @@
+02c17190  stp x30,x21,[sp, #-0x20]!
+02c17194  stp x20,x19,[sp, #0x10]
+02c17198  adrp x19,0x625b000
+02c1719c  ldrb w8,[x19, #0xef6]
+02c171a0  tbnz w8,#0x0,0x02c171f4
+02c171a4  adrp x0,0x5e58000
+02c171a8  ldr x0,[x0, #0xa78]
+02c171ac  bl 0x029f5a50
+02c171b0  adrp x0,0x5e58000
+02c171b4  ldr x0,[x0, #0xf08]
+02c171b8  bl 0x029f5a50
+02c171bc  adrp x0,0x5e62000
+02c171c0  ldr x0,[x0, #0x730]
+02c171c4  bl 0x029f5a50
+02c171c8  adrp x0,0x5e62000
+02c171cc  ldr x0,[x0, #0x6f0]
+02c171d0  bl 0x029f5a50
+02c171d4  adrp x0,0x5e62000
+02c171d8  ldr x0,[x0, #0x6f8]
+02c171dc  bl 0x029f5a50
+02c171e0  adrp x0,0x5e62000
+02c171e4  ldr x0,[x0, #0x6d8]
+02c171e8  bl 0x029f5a50
+02c171ec  mov w8,#0x1
+02c171f0  strb w8,[x19, #0xef6]
+02c171f4  adrp x19,0x5e58000
+02c171f8  ldr x19,[x19, #0xa78]
+02c171fc  bl 0x02c16848
+02c17200  mov x1,xzr
+02c17204  bl 0x048111a4
+02c17208  tbnz w0,#0x0,0x02c17218
+02c1720c  bl 0x02c16848
+02c17210  mov x1,xzr
+02c17214  bl 0x04811018
+02c17218  ldr x0,[x19]
+02c1721c  adrp x19,0x5e62000
+02c17220  adrp x20,0x5e58000
+02c17224  ldr x19,[x19, #0x6d8]
+02c17228  ldr w8,[x0, #0xe4]
+02c1722c  ldr x20,[x20, #0xf08]
+02c17230  cbnz w8,0x02c17238
+02c17234  bl 0x029f5bd0
+02c17238  adrp x21,0x5e62000
+02c1723c  mov x0,xzr
+02c17240  ldr x21,[x21, #0x6f0]
+02c17244  bl 0x05791edc
+02c17248  ldr x1,[x19]
+02c1724c  mov x2,xzr
+02c17250  bl 0x046b2d44
+02c17254  ldr x8,[x20]
+02c17258  mov x19,x0
+02c1725c  ldr w9,[x8, #0xe4]
+02c17260  cbnz w9,0x02c1726c
+02c17264  mov x0,x8
+02c17268  bl 0x029f5bd0
+02c1726c  mov x0,x19
+02c17270  mov x1,xzr
+02c17274  bl 0x05799e30
+02c17278  bl 0x02c16848
+02c1727c  ldr x1,[x21]
+02c17280  mov x2,xzr
+02c17284  bl 0x046b2d44
+02c17288  bl 0x02c172e4
+02c1728c  cbz x0,0x02c1729c
+02c17290  ldp x20,x19,[sp, #0x10]
+02c17294  ldp x30,x21,[sp], #0x20
+02c17298  ret
+02c1729c  ldr x0,[x20]
+02c172a0  ldr w8,[x0, #0xe4]
+02c172a4  cbnz w8,0x02c172ac
+02c172a8  bl 0x029f5bd0
+02c172ac  adrp x8,0x5e62000
+02c172b0  mov x1,xzr
+02c172b4  ldr x8,[x8, #0x730]
+02c172b8  ldr x0,[x8]
+02c172bc  bl 0x0579a8d0
+02c172c0  bl 0x02c16848
+02c172c4  adrp x8,0x5e62000
+02c172c8  mov x2,xzr
+02c172cc  ldr x8,[x8, #0x6f8]
+02c172d0  ldr x1,[x8]
+02c172d4  bl 0x046b2d44
+02c172d8  ldp x20,x19,[sp, #0x10]
+02c172dc  ldp x30,x21,[sp], #0x20
+02c172e0  b 0x02c172e4

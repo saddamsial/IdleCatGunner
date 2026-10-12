@@ -1,0 +1,70 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 37.54,
+      "summary": {
+        "total": 6,
+        "passed": 1,
+        "failed": 5,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalMissionSortingTests.ExistingBlueAlertPulseMatchesSerializedScaleAndScaledPauseReenable",
+          "Status": "Passed",
+          "Duration": 9.0369674,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissionSortingTests.LuxuryAndVipPrioritiesKeepOriginalEligibilityButCannotGrantPaidRewards",
+          "Status": "Failed",
+          "Duration": 5.5568097,
+          "Message": "  Expected is <System.Linq.Enumerable+Concat2Iterator`1[System.Int32]>, actual is <System.Int32[23]>\n  Values differ at index [0]\n  Expected: 1\n  But was:  0\n",
+          "StackTrace": "at OriginalMissionSortingTests+<LuxuryAndVipPrioritiesKeepOriginalEligibilityButCannotGrantPaidRewards>d__14.MoveNext () [0x00099] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMissionSortingTests.cs:42\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalMissionSortingTests.MixedCountersSortReadyRowsByTypeThenOriginalIndexWithoutRebinding",
+          "Status": "Failed",
+          "Duration": 5.4908923,
+          "Message": "  Expected and actual are both <System.Int32[23]>\n  Values differ at index [1]\n  Expected: 6\n  But was:  1\n",
+          "StackTrace": "at OriginalMissionSortingTests+<MixedCountersSortReadyRowsByTypeThenOriginalIndexWithoutRebinding>d__13.MoveNext () [0x000b5] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMissionSortingTests.cs:36\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalMissionSortingTests.NativeStatusChecksCounterBeforeClaimFlagsAndDoesNotUseSeasonDate",
+          "Status": "Failed",
+          "Duration": 5.8993023,
+          "Message": "  MissionStatus\n  Expected: not null\n  But was:  null\n",
+          "StackTrace": "at OriginalMissionSortingTests.ModelCall (System.String name, System.Int32 index) [0x00010] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMissionSortingTests.cs:21\nat OriginalMissionSortingTests+<NativeStatusChecksCounterBeforeClaimFlagsAndDoesNotUseSeasonDate>d__17.MoveNext () [0x00053] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMissionSortingTests.cs:62\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalMissionSortingTests.ReopeningAndColdReloadKeepCatalogIdentityAndRestoreDerivedOrder",
+          "Status": "Failed",
+          "Duration": 5.7143161,
+          "Message": "  Expected and actual are both <System.Int32[23]>\n  Values differ at index [1]\n  Expected: 6\n  But was:  1\n",
+          "StackTrace": "at OriginalMissionSortingTests+<ReopeningAndColdReloadKeepCatalogIdentityAndRestoreDerivedOrder>d__16.MoveNext () [0x000c4] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMissionSortingTests.cs:57\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalMissionSortingTests.SortedOriginalButtonsClaimTheirOwnTaskExactlyOnceAndPersist",
+          "Status": "Failed",
+          "Duration": 5.7303344,
+          "Message": "  Expected is <System.Int32[2]>, actual is <System.Linq.Enumerable+ListPartition`1[System.Int32]>\n  Values differ at index [0]\n  Expected: 12\n  But was:  0\n",
+          "StackTrace": "at OriginalMissionSortingTests+<SortedOriginalButtonsClaimTheirOwnTaskExactlyOnceAndPersist>d__15.MoveNext () [0x00075] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMissionSortingTests.cs:50\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

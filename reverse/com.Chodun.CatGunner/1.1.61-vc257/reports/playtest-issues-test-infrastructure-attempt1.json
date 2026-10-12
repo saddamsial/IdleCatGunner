@@ -1,0 +1,11 @@
+{
+  "result": "test runner failed before reporting any test results",
+  "exception": "NullReferenceException in UnityEditor.TestTools.TestRunner.TestRun.Tasks.PlayModeRunTask.Execute line 52",
+  "subsequentErrors": [
+    "An unexpected error happened while running tests.",
+    "Too many instant steps in test execution mode: Error. Current task ExitPlayModeTask."
+  ],
+  "timeUtc": "2026-10-11T04:19:27Z",
+  "recovery": "cancel_tests; editor_stop; reopen saved RecoveredClient; stabilize import before retry",
+  "includedInPassedCounts": false
+}

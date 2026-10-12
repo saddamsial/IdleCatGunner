@@ -1,0 +1,41 @@
+{
+  "status": "completed",
+  "duration": 37.58,
+  "summary": {
+    "total": 4,
+    "passed": 3,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalWeaponPresentationTests.ActualInventoryClickUsesOriginalDescriptionButtonSoundAndMuteDragGuards",
+      "Status": "Passed",
+      "Duration": 16.8853233,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalWeaponPresentationTests.All14OriginalLanguageRowsAndSevenNativeTypeMappingsArePreserved",
+      "Status": "Passed",
+      "Duration": 6.0825917,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalWeaponPresentationTests.All65AcquiredTypesAndOriginalOpenAnimationCloseAndRestart",
+      "Status": "Failed",
+      "Duration": 7.3543505,
+      "Message": "  Background\n  Expected: True\n  But was:  False\n",
+      "StackTrace": "at OriginalWeaponPresentationTests+<Click>d__13.MoveNext () [0x0002b] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalWeaponPresentationTests.cs:50\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalWeaponPresentationTests.All65WeaponDetailsUseOriginalDescriptionsAndGradeSprites",
+      "Status": "Passed",
+      "Duration": 6.1937488,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

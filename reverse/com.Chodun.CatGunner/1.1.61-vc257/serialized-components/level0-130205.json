@@ -1,0 +1,37 @@
+{
+  "identity": {
+    "file": "level0",
+    "path_id": 130205,
+    "type_index": 7472,
+    "type": "Monster",
+    "game_object": "Monster (159)"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 20101
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 3159
+    },
+    "m_Name": "",
+    "enemy": {
+      "m_FileID": 0,
+      "m_PathID": 131638
+    },
+    "rb": {
+      "m_FileID": 0,
+      "m_PathID": 64887
+    },
+    "_spriteRenderer": {
+      "m_FileID": 0,
+      "m_PathID": 83790
+    },
+    "FX_Spawn_trans": {
+      "m_FileID": 0,
+      "m_PathID": 51992
+    }
+  }
+}

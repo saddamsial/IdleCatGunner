@@ -1,0 +1,52 @@
+{
+  "identity": {
+    "file": "level0",
+    "path_id": 125881,
+    "type_index": 14960,
+    "type": "Spine.Unity.SkeletonAnimation",
+    "game_object": "5"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 7873
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 3248
+    },
+    "m_Name": "",
+    "skeletonDataAsset": {
+      "m_FileID": 2,
+      "m_PathID": 996
+    },
+    "initialSkinName": "",
+    "initialFlipX": false,
+    "initialFlipY": false,
+    "updateWhenInvisible": 3,
+    "separatorSlotNames": [],
+    "zSpacing": 0.0,
+    "useClipping": true,
+    "immutableTriangles": false,
+    "pmaVertexColors": true,
+    "clearStateOnDisable": false,
+    "tintBlack": false,
+    "singleSubmesh": false,
+    "fixDrawOrder": false,
+    "addNormals": false,
+    "calculateTangents": false,
+    "maskInteraction": 0,
+    "maskMaterials": {
+      "materialsMaskDisabled": [],
+      "materialsInsideMask": [],
+      "materialsOutsideMask": []
+    },
+    "disableRenderingOnOverride": true,
+    "updateTiming": 1,
+    "unscaledTime": false,
+    "_animationName": "Idle",
+    "loop": true,
+    "timeScale": 1.0
+  }
+}

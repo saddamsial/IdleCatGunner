@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Bonus_Btn",
+    "active": true,
+    "buttons": [
+      {
+        "name": "Bonus_Btn",
+        "callbacks": [
+          {
+            "target": "SpeedRun_manager",
+            "method": "Bonus_AD_Show"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "NoAds_Btn",
+    "active": false,
+    "buttons": [
+      {
+        "name": "NoAds_Btn",
+        "callbacks": [
+          {
+            "target": "SpeedRun_manager",
+            "method": "Game_Exit"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Skip_obj",
+    "active": true,
+    "buttons": [
+      {
+        "name": "Exit_Btn",
+        "callbacks": [
+          {
+            "target": "SpeedRun_manager",
+            "method": "Game_Exit"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bonus_Btn",
+    "active": true,
+    "buttons": [
+      {
+        "name": "Bonus_Btn",
+        "callbacks": [
+          {
+            "target": "Mine_manager",
+            "method": "Bonus_AD_Show"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "NoAds_Btn",
+    "active": false,
+    "buttons": [
+      {
+        "name": "NoAds_Btn",
+        "callbacks": [
+          {
+            "target": "Mine_manager",
+            "method": "Game_Exit"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Skip_obj",
+    "active": true,
+    "buttons": [
+      {
+        "name": "Exit_Btn",
+        "callbacks": [
+          {
+            "target": "Mine_manager",
+            "method": "Game_Exit"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bonus_Btn",
+    "active": true,
+    "buttons": [
+      {
+        "name": "Bonus_Btn",
+        "callbacks": [
+          {
+            "target": "Monster_manager",
+            "method": "Bonus_AD_Show"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "NoAds_Btn",
+    "active": false,
+    "buttons": [
+      {
+        "name": "NoAds_Btn",
+        "callbacks": [
+          {
+            "target": "Monster_manager",
+            "method": "Game_Exit"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Skip_obj",
+    "active": true,
+    "buttons": [
+      {
+        "name": "Exit_Btn",
+        "callbacks": [
+          {
+            "target": "Monster_manager",
+            "method": "Game_Exit"
+          }
+        ]
+      }
+    ]
+  }
+]

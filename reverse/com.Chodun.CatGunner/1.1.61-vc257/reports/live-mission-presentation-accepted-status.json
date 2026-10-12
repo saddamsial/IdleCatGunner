@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 41.31,
+      "summary": {
+        "total": 5,
+        "passed": 5,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalMissionPresentationTests.ClosingPausingAndReopeningDuringFlightPreservesWalletAndTargetStack",
+          "Status": "Passed",
+          "Duration": 9.3642542,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissionPresentationTests.MaximumSeasonLevelIgnoresNewExperienceButMarksTaskClaimed",
+          "Status": "Passed",
+          "Duration": 6.0530292,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissionPresentationTests.RejectedAndNonDiamondRewardsNeverEmitDiamonds",
+          "Status": "Passed",
+          "Duration": 6.0398153,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissionPresentationTests.SeasonDiamondRealClickEmitsEightAndPersistsExactlyOnce",
+          "Status": "Passed",
+          "Duration": 13.0627449,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissionPresentationTests.TaskClaimBouncesExperienceBarAndUsesOneBasedLevel",
+          "Status": "Passed",
+          "Duration": 6.7012384,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

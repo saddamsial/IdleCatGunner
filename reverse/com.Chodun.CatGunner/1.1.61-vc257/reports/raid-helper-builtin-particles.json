@@ -1,0 +1,60 @@
+{
+  "changes": [
+    {
+      "renderer": "Z Degree FX",
+      "id": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-80425-0",
+      "source": "Assets/Material/Drop_AB.mat",
+      "shader": "Mobile/Particles/Alpha Blended"
+    },
+    {
+      "renderer": "Z Degree FX",
+      "id": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-80425-0",
+      "source": "Assets/Material/Drop_AB.mat",
+      "shader": "Mobile/Particles/Alpha Blended"
+    },
+    {
+      "renderer": "shadow",
+      "id": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-81697-0",
+      "source": "Assets/Material/Circles_AB.mat",
+      "shader": "Mobile/Particles/Alpha Blended"
+    },
+    {
+      "renderer": "Z Degree FX",
+      "id": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-79809-0",
+      "source": "Assets/Material/Drop_AB.mat",
+      "shader": "Mobile/Particles/Alpha Blended"
+    },
+    {
+      "renderer": "Z Degree FX",
+      "id": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-79809-0",
+      "source": "Assets/Material/Drop_AB.mat",
+      "shader": "Mobile/Particles/Alpha Blended"
+    },
+    {
+      "renderer": "shadow",
+      "id": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-82561-0",
+      "source": "Assets/Material/Circles_AB.mat",
+      "shader": "Mobile/Particles/Alpha Blended"
+    },
+    {
+      "renderer": "Z Degree FX",
+      "id": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-80521-0",
+      "source": "Assets/Material/Drop_AB.mat",
+      "shader": "Mobile/Particles/Alpha Blended"
+    },
+    {
+      "renderer": "Z Degree FX",
+      "id": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-80521-0",
+      "source": "Assets/Material/Drop_AB.mat",
+      "shader": "Mobile/Particles/Alpha Blended"
+    },
+    {
+      "renderer": "shadow",
+      "id": "GlobalObjectId_V1-2-776d46554deec4e82984d6ea492d3787-81683-0",
+      "source": "Assets/Material/Circles_AB.mat",
+      "shader": "Mobile/Particles/Alpha Blended"
+    }
+  ],
+  "originalMaterialsUntouched": true,
+  "reason": "Builtin Mobile/Particles/Alpha Blended uses fixed transparency; stale unused Standard blend properties must not become the replacement blend."
+}

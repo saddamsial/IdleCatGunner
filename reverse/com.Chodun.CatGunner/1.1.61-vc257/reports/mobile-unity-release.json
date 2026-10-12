@@ -1,0 +1,304 @@
+{
+  "success": true,
+  "command": "editors",
+  "data": {
+    "version": "6000.4.10f1",
+    "changeset": "feeafc12a938",
+    "stream": "SUPPORTED",
+    "releaseDate": "2026-06-03T16:25:54.912Z",
+    "releaseNotesUrl": "https://storage.googleapis.com/live-platform-resources-prd/templates/assets/6000_4_10f1_a85c05bf89/6000_4_10f1_a85c05bf89.md",
+    "downloadUrl": "https://download.unity3d.com/download_unity/feeafc12a938/MacEditorInstallerArm64/Unity-6000.4.10f1.pkg",
+    "modules": [
+      {
+        "id": "visualstudiocode",
+        "name": "Visual Studio Code",
+        "description": "Code editor with Unity extension.",
+        "downloadSize": {
+          "value": 225000000,
+          "unit": "BYTE"
+        },
+        "installedSize": {
+          "value": 573000000,
+          "unit": "BYTE"
+        },
+        "required": false,
+        "preSelected": false,
+        "hidden": false
+      },
+      {
+        "id": "android",
+        "name": "Android Build Support",
+        "description": "Allows building your Unity projects for the Android platform",
+        "downloadSize": {
+          "value": 2137317025,
+          "unit": "BYTE"
+        },
+        "installedSize": {
+          "value": 6791663000,
+          "unit": "BYTE"
+        },
+        "required": false,
+        "preSelected": false,
+        "hidden": false
+      },
+      {
+        "id": "ios",
+        "name": "iOS Build Support",
+        "description": "Allows building your Unity projects for the iOS platform",
+        "downloadSize": {
+          "value": 783997972,
+          "unit": "BYTE"
+        },
+        "installedSize": {
+          "value": 2353246000,
+          "unit": "BYTE"
+        },
+        "required": false,
+        "preSelected": false,
+        "hidden": false
+      },
+      {
+        "id": "appletv",
+        "name": "tvOS Build Support",
+        "description": "Allows building your Unity projects for the AppleTV platform",
+        "downloadSize": {
+          "value": 769244476,
+          "unit": "BYTE"
+        },
+        "installedSize": {
+          "value": 2311331000,
+          "unit": "BYTE"
+        },
+        "required": false,
+        "preSelected": false,
+        "hidden": false
+      },
+      {
+        "id": "visionos",
+        "name": "visionOS Build Support",
+        "description": "Allows building your Unity projects for the VisionOS platform",
+        "downloadSize": {
+          "value": 368749170,
+          "unit": "BYTE"
+        },
+        "installedSize": {
+          "value": 1118897000,
+          "unit": "BYTE"
+        },
+        "required": false,
+        "preSelected": false,
+        "hidden": false
+      },
+      {
+        "id": "linux-il2cpp",
+        "name": "Linux Build Support (IL2CPP)",
+        "description": "Allows building your Unity projects for the Linux-IL2CPP platform",
+        "downloadSize": {
+          "value": 81072740,
+          "unit": "BYTE"
+        },
+        "installedSize": {
+          "value": 215589000,
+          "unit": "BYTE"
+        },
+        "required": false,
+        "preSelected": false,
+        "hidden": false
+      },
+      {
+        "id": "linux-mono",
+        "name": "Linux Build Support (Mono)",
+        "description": "Allows building your Unity projects for the Linux-Mono platform",
+        "downloadSize": {
+          "value": 81981088,
+          "unit": "BYTE"
+        },
+        "installedSize": {
+          "value": 217018000,
+          "unit": "BYTE"
+        },
+        "required": false,
+        "preSelected": false,
+        "hidden": false
+      },
+      {
+        "id": "linux-server",
+        "name": "Linux Dedicated Server Build Support",
+        "description": "Allows building your Unity projects for the Linux-Server platform",
+        "downloadSize": {
+          "value": 223670782,
+          "unit": "BYTE"
+        },
+        "installedSize": {
+          "value": 598377000,
+          "unit": "BYTE"
+        },
+        "required": false,
+        "preSelected": false,
+        "hidden": false
+      },
+      {
+        "id": "mac-il2cpp",
+        "name": "Mac Build Support (IL2CPP)",
+        "description": "Allows building your Unity projects for the Mac-IL2CPP platform",
+        "downloadSize": {
+          "value": 720557807,
+          "unit": "BYTE"
+        },
+        "installedSize": {
+          "value": 2190182000,
+          "unit": "BYTE"
+        },
+        "required": false,
+        "preSelected": false,
+        "hidden": false
+      },
+      {
+        "id": "mac-server",
+        "name": "Mac Dedicated Server Build Support",
+        "description": "Allows building your Unity projects for the Mac-Server platform",
+        "downloadSize": {
+          "value": 1440383634,
+          "unit": "BYTE"
+        },
+        "installedSize": {
+          "value": 4374363000,
+          "unit": "BYTE"
+        },
+        "required": false,
+        "preSelected": false,
+        "hidden": false
+      },
+      {
+        "id": "webgl",
+        "name": "Web Build Support",
+        "description": "Allows building your Unity projects for the Web platform",
+        "downloadSize": {
+          "value": 1615417455,
+          "unit": "BYTE"
+        },
+        "installedSize": {
+          "value": 5066484000,
+          "unit": "BYTE"
+        },
+        "required": false,
+        "preSelected": false,
+        "hidden": false
+      },
+      {
+        "id": "windows-mono",
+        "name": "Windows Build Support (Mono)",
+        "description": "Allows building your Unity projects for the Windows-Mono platform",
+        "downloadSize": {
+          "value": 389024140,
+          "unit": "BYTE"
+        },
+        "installedSize": {
+          "value": 1003690000,
+          "unit": "BYTE"
+        },
+        "required": false,
+        "preSelected": false,
+        "hidden": false
+      },
+      {
+        "id": "windows-server",
+        "name": "Windows Dedicated Server Build Support",
+        "description": "Allows building your Unity projects for the Windows-Server platform",
+        "downloadSize": {
+          "value": 388713966,
+          "unit": "BYTE"
+        },
+        "installedSize": {
+          "value": 1003033000,
+          "unit": "BYTE"
+        },
+        "required": false,
+        "preSelected": false,
+        "hidden": false
+      },
+      {
+        "id": "language-ja",
+        "name": "日本語",
+        "description": "日本語",
+        "downloadSize": {
+          "value": 2936241,
+          "unit": "BYTE"
+        },
+        "installedSize": {
+          "value": 2936241,
+          "unit": "BYTE"
+        },
+        "required": true,
+        "preSelected": false,
+        "hidden": false
+      },
+      {
+        "id": "language-ko",
+        "name": "한국어",
+        "description": "한국어",
+        "downloadSize": {
+          "value": 2777994,
+          "unit": "BYTE"
+        },
+        "installedSize": {
+          "value": 2777994,
+          "unit": "BYTE"
+        },
+        "required": true,
+        "preSelected": false,
+        "hidden": false
+      },
+      {
+        "id": "language-zh-hant",
+        "name": "繁體中文",
+        "description": "繁體中文",
+        "downloadSize": {
+          "value": 2558536,
+          "unit": "BYTE"
+        },
+        "installedSize": {
+          "value": 2558536,
+          "unit": "BYTE"
+        },
+        "required": true,
+        "preSelected": false,
+        "hidden": false
+      },
+      {
+        "id": "language-zh-hans",
+        "name": "简体中文",
+        "description": "简体中文",
+        "downloadSize": {
+          "value": 2560890,
+          "unit": "BYTE"
+        },
+        "installedSize": {
+          "value": 2560890,
+          "unit": "BYTE"
+        },
+        "required": true,
+        "preSelected": false,
+        "hidden": false
+      },
+      {
+        "id": "documentation",
+        "name": "Documentation",
+        "description": "Offline Documentation",
+        "downloadSize": {
+          "value": 470250280,
+          "unit": "BYTE"
+        },
+        "installedSize": {
+          "value": 959310571,
+          "unit": "BYTE"
+        },
+        "required": true,
+        "preSelected": false,
+        "hidden": false
+      }
+    ]
+  },
+  "errors": [],
+  "warnings": []
+}

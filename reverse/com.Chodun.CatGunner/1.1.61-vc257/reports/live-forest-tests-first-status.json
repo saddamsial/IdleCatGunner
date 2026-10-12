@@ -1,0 +1,112 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 1.91,
+      "summary": {
+        "total": 12,
+        "passed": 11,
+        "failed": 1,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalBalanceTests.NativeAutoUpgradePrioritizesAffordableMinimumAndStableTies",
+          "Status": "Passed",
+          "Duration": 0.0313698,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalBalanceTests.OriginalFullCachesRetainNativeBoundaryValuesAndUnboundedExponents",
+          "Status": "Passed",
+          "Duration": 0.1195387,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalBalanceTests.UpgradeTransactionPreservesRejectedStateAndClosesLevel10000Boundary",
+          "Status": "Passed",
+          "Duration": 0.0185858,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalForestTests.NativeGridSelectionSpreadsThirtyTreesAndRespectsProbabilityBoundaries",
+          "Status": "Passed",
+          "Duration": 0.0020021,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalForestTests.OriginalFiveWaveCycleAndBossTreeCountMatchNativePlanning",
+          "Status": "Passed",
+          "Duration": 0.0009894,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalForestTests.OriginalScenePoolSpawnsFiveWavesAndAllTenMapSkins",
+          "Status": "Failed",
+          "Duration": 0.5240385,
+          "Message": "  Expected: in range (-1.5,46.5)\n  But was:  282.0f\n",
+          "StackTrace": "at OriginalForestTests+<OriginalScenePoolSpawnsFiveWavesAndAllTenMapSkins>d__0.MoveNext () [0x00294] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalForestTests.cs:43\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalForestTests.TreeDamageHonorsGamingGateLethalHitAndDuplicateDeath",
+          "Status": "Passed",
+          "Duration": 0.3295143,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalPresentationTests.OriginalSettingSpritesAndFontFacesRemainRenderableAfterReload",
+          "Status": "Passed",
+          "Duration": 0.2995804,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalSaveTests.OriginalSaveCodecRetainsLargeValuesNestedContentAndUnicode",
+          "Status": "Passed",
+          "Duration": 0.0025472,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalSaveTests.OriginalSaveGateBackupRotationAndCorruptMainFallback",
+          "Status": "Passed",
+          "Duration": 0.0112075,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalSettingsTests.OriginalAudioCatalogueMuteDuplicateLimitsAndBgmSwitching",
+          "Status": "Passed",
+          "Duration": 0.1885726,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalSettingsTests.OriginalPersistentButtonsToggleTheirOriginalIndicatorsAndBgmSource",
+          "Status": "Passed",
+          "Duration": 0.3267675,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

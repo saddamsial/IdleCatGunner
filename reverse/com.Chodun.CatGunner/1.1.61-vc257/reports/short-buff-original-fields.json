@@ -1,0 +1,1378 @@
+{
+  "rows": [
+    {
+      "type": "Buff_manager",
+      "originalComponent": 123799,
+      "originalGo": 715,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Buff_manager",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "Buff_Menu_Btn": {
+          "fileID": 125624
+        },
+        "SuperBuff_Active_obj": {
+          "fileID": 2125
+        },
+        "SuperBuff_NonActive_obj": {
+          "fileID": 2113
+        }
+      }
+    },
+    {
+      "type": "Buff_Menu_Btn",
+      "originalComponent": 125624,
+      "originalGo": 2228,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Main_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Btn_list",
+          "ordinal": 0
+        },
+        {
+          "name": "Left_Menu",
+          "ordinal": 0
+        },
+        {
+          "name": "Buff_obj",
+          "ordinal": 0
+        },
+        {
+          "name": "Buff_Btn",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "Power_On_obj": {
+          "fileID": 2003
+        },
+        "Power_Off_obj": {
+          "fileID": 557
+        },
+        "Speed_On_obj": {
+          "fileID": 2037
+        },
+        "Speed_Off_obj": {
+          "fileID": 239
+        },
+        "Money_On_obj": {
+          "fileID": 1735
+        },
+        "Money_Off_obj": {
+          "fileID": 211
+        },
+        "NormalValue_obj": {
+          "fileID": 11754
+        },
+        "SuperValue_obj": {
+          "fileID": 1115
+        },
+        "Cool_txt": {
+          "fileID": 117185
+        }
+      }
+    },
+    {
+      "type": "Buff_Panel",
+      "originalComponent": 128237,
+      "originalGo": 20943,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Buff_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Buff_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Buff_list",
+          "ordinal": 0
+        },
+        {
+          "name": "Buff_Panel (2)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "type": 2,
+        "BuffTime_txt": {
+          "fileID": 120765
+        },
+        "Fill": {
+          "fileID": 146872
+        },
+        "AD_Btn_obj": {
+          "fileID": 38820
+        },
+        "NonActive_obj": {
+          "fileID": 36171
+        },
+        "Active_obj": {
+          "fileID": 24865
+        },
+        "Explain_txt": {
+          "fileID": 119747
+        },
+        "NormalBuff_obj": {
+          "fileID": 20859
+        },
+        "SuperBuff_obj": {
+          "fileID": 10845
+        }
+      }
+    },
+    {
+      "type": "Buff_Panel",
+      "originalComponent": 128979,
+      "originalGo": 24970,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Buff_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Buff_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Buff_list",
+          "ordinal": 0
+        },
+        {
+          "name": "Buff_Panel",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "type": 0,
+        "BuffTime_txt": {
+          "fileID": 120612
+        },
+        "Fill": {
+          "fileID": 147673
+        },
+        "AD_Btn_obj": {
+          "fileID": 30719
+        },
+        "NonActive_obj": {
+          "fileID": 33695
+        },
+        "Active_obj": {
+          "fileID": 21089
+        },
+        "Explain_txt": {
+          "fileID": 119328
+        },
+        "NormalBuff_obj": {
+          "fileID": 24880
+        },
+        "SuperBuff_obj": {
+          "fileID": 17910
+        }
+      }
+    },
+    {
+      "type": "Buff_Panel",
+      "originalComponent": 131941,
+      "originalGo": 29885,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Buff_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Buff_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Buff_list",
+          "ordinal": 0
+        },
+        {
+          "name": "Buff_Panel (1)",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "type": 1,
+        "BuffTime_txt": {
+          "fileID": 120176
+        },
+        "Fill": {
+          "fileID": 148533
+        },
+        "AD_Btn_obj": {
+          "fileID": 32592
+        },
+        "NonActive_obj": {
+          "fileID": 29984
+        },
+        "Active_obj": {
+          "fileID": 20356
+        },
+        "Explain_txt": {
+          "fileID": 118778
+        },
+        "NormalBuff_obj": {
+          "fileID": 28807
+        },
+        "SuperBuff_obj": {
+          "fileID": 16507
+        }
+      }
+    }
+  ],
+  "references": {
+    "125624": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Left_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_obj",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Btn",
+        "ordinal": 0
+      }
+    ],
+    "2125": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Super_Buff_Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Active_obj",
+        "ordinal": 0
+      }
+    ],
+    "2113": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Super_Buff_Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "NonActive_obj",
+        "ordinal": 0
+      }
+    ],
+    "2003": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Left_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_obj",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "Power",
+        "ordinal": 0
+      },
+      {
+        "name": "On",
+        "ordinal": 0
+      }
+    ],
+    "557": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Left_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_obj",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "Power",
+        "ordinal": 0
+      },
+      {
+        "name": "Off",
+        "ordinal": 0
+      }
+    ],
+    "2037": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Left_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_obj",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "Speed",
+        "ordinal": 0
+      },
+      {
+        "name": "On",
+        "ordinal": 0
+      }
+    ],
+    "239": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Left_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_obj",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "Speed",
+        "ordinal": 0
+      },
+      {
+        "name": "Off",
+        "ordinal": 0
+      }
+    ],
+    "1735": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Left_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_obj",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "Money",
+        "ordinal": 0
+      },
+      {
+        "name": "On",
+        "ordinal": 0
+      }
+    ],
+    "211": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Left_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_obj",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "Money",
+        "ordinal": 0
+      },
+      {
+        "name": "Off",
+        "ordinal": 0
+      }
+    ],
+    "11754": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Left_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_obj",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "NormalValue_obj",
+        "ordinal": 0
+      }
+    ],
+    "1115": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Left_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_obj",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "SuperValue_obj",
+        "ordinal": 0
+      }
+    ],
+    "117185": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "SafeArea",
+        "ordinal": 0
+      },
+      {
+        "name": "Main_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Left_Menu",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_obj",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "Btn",
+        "ordinal": 0
+      },
+      {
+        "name": "Cool_txt",
+        "ordinal": 0
+      }
+    ],
+    "120765": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Panel (2)",
+        "ordinal": 0
+      },
+      {
+        "name": "Slider",
+        "ordinal": 0
+      },
+      {
+        "name": "Time_txt",
+        "ordinal": 0
+      }
+    ],
+    "146872": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Panel (2)",
+        "ordinal": 0
+      },
+      {
+        "name": "Slider",
+        "ordinal": 0
+      },
+      {
+        "name": "Fill",
+        "ordinal": 0
+      }
+    ],
+    "38820": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Panel (2)",
+        "ordinal": 0
+      },
+      {
+        "name": "AD_Btn",
+        "ordinal": 0
+      }
+    ],
+    "36171": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Panel (2)",
+        "ordinal": 0
+      },
+      {
+        "name": "NonActive_obj",
+        "ordinal": 0
+      }
+    ],
+    "24865": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Panel (2)",
+        "ordinal": 0
+      },
+      {
+        "name": "Active_obj",
+        "ordinal": 0
+      }
+    ],
+    "119747": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Panel (2)",
+        "ordinal": 0
+      },
+      {
+        "name": "Explain_txt",
+        "ordinal": 0
+      }
+    ],
+    "20859": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Panel (2)",
+        "ordinal": 0
+      },
+      {
+        "name": "Icon",
+        "ordinal": 0
+      },
+      {
+        "name": "NormalValue_obj",
+        "ordinal": 0
+      }
+    ],
+    "10845": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Panel (2)",
+        "ordinal": 0
+      },
+      {
+        "name": "Icon",
+        "ordinal": 0
+      },
+      {
+        "name": "SuperValue_obj",
+        "ordinal": 0
+      }
+    ],
+    "120612": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Slider",
+        "ordinal": 0
+      },
+      {
+        "name": "Time_txt",
+        "ordinal": 0
+      }
+    ],
+    "147673": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Slider",
+        "ordinal": 0
+      },
+      {
+        "name": "Fill",
+        "ordinal": 0
+      }
+    ],
+    "30719": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "AD_Btn",
+        "ordinal": 0
+      }
+    ],
+    "33695": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "NonActive_obj",
+        "ordinal": 0
+      }
+    ],
+    "21089": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Active_obj",
+        "ordinal": 0
+      }
+    ],
+    "119328": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Explain_txt",
+        "ordinal": 0
+      }
+    ],
+    "24880": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Icon",
+        "ordinal": 0
+      },
+      {
+        "name": "NormalValue_obj",
+        "ordinal": 0
+      }
+    ],
+    "17910": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Panel",
+        "ordinal": 0
+      },
+      {
+        "name": "Icon",
+        "ordinal": 0
+      },
+      {
+        "name": "SuperValue_obj",
+        "ordinal": 0
+      }
+    ],
+    "120176": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Panel (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "Slider",
+        "ordinal": 0
+      },
+      {
+        "name": "Time_txt",
+        "ordinal": 0
+      }
+    ],
+    "148533": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Panel (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "Slider",
+        "ordinal": 0
+      },
+      {
+        "name": "Fill",
+        "ordinal": 0
+      }
+    ],
+    "32592": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Panel (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "AD_Btn",
+        "ordinal": 0
+      }
+    ],
+    "29984": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Panel (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "NonActive_obj",
+        "ordinal": 0
+      }
+    ],
+    "20356": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Panel (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "Active_obj",
+        "ordinal": 0
+      }
+    ],
+    "118778": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Panel (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "Explain_txt",
+        "ordinal": 0
+      }
+    ],
+    "28807": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Panel (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "Icon",
+        "ordinal": 0
+      },
+      {
+        "name": "NormalValue_obj",
+        "ordinal": 0
+      }
+    ],
+    "16507": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_list",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_Panel (1)",
+        "ordinal": 0
+      },
+      {
+        "name": "Icon",
+        "ordinal": 0
+      },
+      {
+        "name": "SuperValue_obj",
+        "ordinal": 0
+      }
+    ]
+  }
+}

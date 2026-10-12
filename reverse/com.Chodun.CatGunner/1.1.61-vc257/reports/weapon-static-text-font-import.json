@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "if(UnityEditor.EditorApplication.isPlaying)throw new System.Exception(\"Tests still playing\");UnityEditor.AssetDatabase.ImportAsset(\"Assets/Recovery/Resources/StarChineseFallback.asset\",UnityEditor.ImportAssetOptions.ForceUpdate);return UnityEditor.EditorUtility.scriptCompilationFailed;"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": false
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

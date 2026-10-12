@@ -1,0 +1,33 @@
+02c524c8  str x30,[sp, #-0x30]!
+02c524cc  stp x22,x21,[sp, #0x10]
+02c524d0  stp x20,x19,[sp, #0x20]
+02c524d4  adrp x21,0x625c000
+02c524d8  adrp x22,0x5e59000
+02c524dc  adrp x20,0x5e63000
+02c524e0  ldrb w8,[x21, #0x165]
+02c524e4  ldr x22,[x22, #0x288]
+02c524e8  ldr x20,[x20, #0x5b0]
+02c524ec  mov x19,x0
+02c524f0  tbnz w8,#0x0,0x02c52514
+02c524f4  adrp x0,0x5e59000
+02c524f8  ldr x0,[x0, #0x288]
+02c524fc  bl 0x029f5a50
+02c52500  adrp x0,0x5e63000
+02c52504  ldr x0,[x0, #0x5b0]
+02c52508  bl 0x029f5a50
+02c5250c  mov w8,#0x1
+02c52510  strb w8,[x21, #0x165]
+02c52514  ldr x0,[x22]
+02c52518  bl 0x029f5cec
+02c5251c  ldr x2,[x20]
+02c52520  mov x1,x19
+02c52524  mov x3,xzr
+02c52528  mov x20,x0
+02c5252c  bl 0x047b3618
+02c52530  mov x0,x20
+02c52534  bl 0x02c5254c
+02c52538  mov x0,x19
+02c5253c  ldp x20,x19,[sp, #0x20]
+02c52540  ldp x22,x21,[sp, #0x10]
+02c52544  ldr x30,[sp], #0x30
+02c52548  b 0x02c52608

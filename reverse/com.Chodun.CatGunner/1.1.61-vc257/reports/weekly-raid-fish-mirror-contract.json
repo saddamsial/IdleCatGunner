@@ -1,0 +1,17 @@
+{
+  "native_preferred_va": "0x2b61768",
+  "native_body": "native-fish-client-reviewed/Fish_Item_UpdateFlip.c",
+  "native_body_sha256": "86eb025ff95104fd96fe2c073c45bdc6f88edbc97d8d02d88b7da7e63a26251b",
+  "native_rule": "Negative X direction mirrors skin/alert text via180-degree localEulerAngles Y; original appearance retained.",
+  "ugui_source": "Packages/com.unity.ugui/Runtime/UGUI/UI/Core/GraphicRaycaster.cs",
+  "ugui_source_sha256": "d46836408d508bbb36b3a15a980252cfda49b2617aa48d11aae33e971af9cb64",
+  "ugui_rule": "ignoreReversedGraphics true rejects flipped image forward normal with dot<=0 when overlay event camera null.",
+  "recovery_fix": "Each per-fish runtime GraphicRaycaster explicitly ignoreReversedGraphics=false; other canvas raycasters unchanged.",
+  "runtime": "Assets/Recovery/Scripts/Fish_Item.cs",
+  "runtime_sha256": "de09f2f45e03e6996e6b27a27cbd80cdb3e6342995a0431c437f98a495a0edc6",
+  "original_monoscript_meta_sha256": "825f4124c0b380407082e1c6e1fb05e08a619c6d7dae64ed9a8f38f73a3b2cb3",
+  "test": "FishEntranceDrawSwimmingDetailsMergeAndDeleteUseOriginalUI",
+  "test_scope": "After proving swim/press, fish positioned at center and both -1/+1 orientations asserted as actual topmost EventSystem hits before original detail/drag merge/delete navigation.",
+  "report": "live-weekly-raid-fish-mirror-status.json",
+  "scope": "Recovery raycast compatibility fix; not original GraphicRaycaster implementation or device proof."
+}

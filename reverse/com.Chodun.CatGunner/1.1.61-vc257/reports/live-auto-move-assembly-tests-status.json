@@ -1,0 +1,455 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 173.21,
+      "summary": {
+        "total": 61,
+        "passed": 61,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalAutoMoveTests.ApproachUsesNineUnitOffsetCapSmoothstepSlowdownAndPreservesBodyY",
+          "Status": "Passed",
+          "Duration": 3.194428,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalAutoMoveTests.AutomaticResolverUsesChildColliderClosestPointAndFullThreeDimensionalRange",
+          "Status": "Passed",
+          "Duration": 2.8400854,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalAutoMoveTests.ClearAndSmoothStopRespectDifferentThresholdsAndPreserveY",
+          "Status": "Passed",
+          "Duration": 2.6861202,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalAutoMoveTests.DefaultForestMovesShootsKillsAndRetargetsWithNoInputOrInjectedStats",
+          "Status": "Passed",
+          "Duration": 6.9143627,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalAutoMoveTests.GridLowerBoundsOrderingBossWaveAndEmptyGridFollowNativeBranches",
+          "Status": "Passed",
+          "Duration": 2.5325832,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalAutoMoveTests.JoystickOverridesAutomaticMovementAndReleaseResumesSearch",
+          "Status": "Passed",
+          "Duration": 2.4778122,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalAutoMoveTests.NativeScreenSpeedHasIndependentHorizontalVerticalAndDiagonalAnchors",
+          "Status": "Passed",
+          "Duration": 2.4432869,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalAutoMoveTests.SearchIntervalReusesTargetButInactiveTargetImmediatelyRetargets",
+          "Status": "Passed",
+          "Duration": 2.4519948,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalAutoMoveTests.StopAndRetreatUseClosestPointMinimumDistanceAndBackFallback",
+          "Status": "Passed",
+          "Duration": 2.4202668,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalAutoMoveTests.WeightedSelectionKeepsNearbyBoundaryAndNativeStableTies",
+          "Status": "Passed",
+          "Duration": 2.6409753,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalBalanceTests.NativeAutoUpgradePrioritizesAffordableMinimumAndStableTies",
+          "Status": "Passed",
+          "Duration": 0.0203583,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalBalanceTests.OriginalFullCachesRetainNativeBoundaryValuesAndUnboundedExponents",
+          "Status": "Passed",
+          "Duration": 0.0899703,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalBalanceTests.UpgradeTransactionPreservesRejectedStateAndClosesLevel10000Boundary",
+          "Status": "Passed",
+          "Duration": 0.0217267,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalBulletTests.NativeTravelDistanceLimitAndDelayedReturnCancelOldInvokesOnRespawn",
+          "Status": "Passed",
+          "Duration": 4.8654418,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalBulletTests.OriginalFXLifecycleUsesScaledTimeAndNativeThrottleKeepsLimits",
+          "Status": "Passed",
+          "Duration": 6.7531153,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalBulletTests.OriginalPoolPreservesReferencesAndDoesNotStealLiveProjectiles",
+          "Status": "Passed",
+          "Duration": 2.4884427,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalBulletTests.RealOriginalProjectileCollisionDamagesTreePlaysFXAndRecycles",
+          "Status": "Passed",
+          "Duration": 3.870846,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalCombatTests.ContinuousNormalAttackFindsOriginalTreeThroughRaysAndClosesActualHits",
+          "Status": "Passed",
+          "Duration": 4.0921493,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalCombatTests.NativeGunPlaneDirectionSpreadAndAimHaveIndependentAnchors",
+          "Status": "Passed",
+          "Duration": 2.8658687,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalCombatTests.NativePoolFailureRetriesWithoutEffectsAndRecoilRestartReturnsOriginalPose",
+          "Status": "Passed",
+          "Duration": 2.7782707,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalCombatTests.OriginalCombatFieldsScreenBoundariesRayOrderAndIdleLockArePreserved",
+          "Status": "Passed",
+          "Duration": 2.4730902,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalEquipmentTests.DefaultPackageEquipmentShootsAndKillsOriginalTreeWithoutInjectedPlayerStats",
+          "Status": "Passed",
+          "Duration": 4.3368912,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalEquipmentTests.NativeAttackCooldownUsesAdditiveSpeedWavePenaltyAndTwoClamps",
+          "Status": "Passed",
+          "Duration": 0.0002575,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalEquipmentTests.PackageGunCatalogueAndCompactedSlotsKeepOriginalData",
+          "Status": "Passed",
+          "Duration": 0.0043028,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalEquipmentTests.PackageReloadOverridesPlaceholderAndReadsOriginalUpgradeCaches",
+          "Status": "Passed",
+          "Duration": 2.4867348,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalExplosionTests.BlastFirstKillKeepsFlyingThenPiercesWithoutRepeatingSplashDamage",
+          "Status": "Passed",
+          "Duration": 2.4383671,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalExplosionTests.BlastFirstSurvivorOrInvalidTargetStopsAndAttackUsesCorrectRadiusLifetime",
+          "Status": "Passed",
+          "Duration": 6.1644921,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalExplosionTests.BothOriginalGunsAutoAimAndDamageNeighborsThroughRealPhysics",
+          "Status": "Passed",
+          "Duration": 6.2896264,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalExplosionTests.DistinctCollidersCanDamageSameEnemyAndQueryHonorsGlobalTriggerSetting",
+          "Status": "Passed",
+          "Duration": 2.4963215,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalExplosionTests.ExpiryExplodesAtCurrentPositionButBlastSniperExpiryOnlyReturns",
+          "Status": "Passed",
+          "Duration": 2.6402365,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalExplosionTests.ExplosionQueriesRadiusLayerAndColliderIdsWithoutDistanceFalloff",
+          "Status": "Passed",
+          "Duration": 2.4313007,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalExplosionTests.NonpositiveRadiusDoesNoDirectDamageAndObstacleImpactStillExplodes",
+          "Status": "Passed",
+          "Duration": 2.4668401,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalForestTests.NativeGridSelectionSpreadsThirtyTreesAndRespectsProbabilityBoundaries",
+          "Status": "Passed",
+          "Duration": 0.0014298,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalForestTests.OriginalFiveWaveCycleAndBossTreeCountMatchNativePlanning",
+          "Status": "Passed",
+          "Duration": 0.0003469,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalForestTests.OriginalScenePoolSpawnsFiveWavesAndAllTenMapSkins",
+          "Status": "Passed",
+          "Duration": 2.564482,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalForestTests.TreeDamageHonorsGamingGateLethalHitAndDuplicateDeath",
+          "Status": "Passed",
+          "Duration": 2.4858445,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalJoystickTests.OriginalFloatingPointerEventsCloseDragDeadZoneSnapAndRelease",
+          "Status": "Passed",
+          "Duration": 0.1912374,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissileTests.ActualUpdateAtEndpointExplodesOnceAndReturnsToPool",
+          "Status": "Passed",
+          "Duration": 3.8348241,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissileTests.FactoryUsesTransformSnapshotAngleThenUniformRadiusAndExactThreshold",
+          "Status": "Passed",
+          "Duration": 2.6782893,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissileTests.FullPoolFailsBeforeScatterWithoutStealingLiveMissiles",
+          "Status": "Passed",
+          "Duration": 2.5835561,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissileTests.MissileExpiryUsesDurationPlusHalfSecondAndCurrentPositionWithoutLinearCap",
+          "Status": "Passed",
+          "Duration": 4.1211274,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissileTests.OriginalMissileGunsAimFireAndKillOriginalNeighborsThroughPhysics",
+          "Status": "Passed",
+          "Duration": 6.1811511,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissileTests.ParabolaRetainsPreviousXYZAndUsesScaledTimeAndDisplacementForward",
+          "Status": "Passed",
+          "Duration": 2.5233604,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissileTests.PhysicalEarlyContactExplodesBeforeEndpointAndDoesNotRepeatOnTimeout",
+          "Status": "Passed",
+          "Duration": 3.5713449,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissileTests.ReuseResetsMissileStateAndLinearSpawnResumesRigidbodyFlight",
+          "Status": "Passed",
+          "Duration": 2.6332598,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMovementTests.NativeTargetFacingIdleThresholdAndWarpPreserveOriginalPoseContract",
+          "Status": "Passed",
+          "Duration": 2.6456328,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMovementTests.OriginalPointerMovesOriginalBodyAndWalkAnimationThenStops",
+          "Status": "Passed",
+          "Duration": 2.597394,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalPenetratingTests.AttackUsesConfiguredPenetratingLifetimeAndBridgeSupportsBothTypes",
+          "Status": "Passed",
+          "Duration": 12.6288036,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalPenetratingTests.InvalidOrDeadEnemyConsumesIdOnlyAndPoolReuseClearsAllHitState",
+          "Status": "Passed",
+          "Duration": 2.9731478,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalPenetratingTests.LaserDamagesMoreThanTwoSurvivorsOnceEachAndObstacleStopsFlight",
+          "Status": "Passed",
+          "Duration": 2.6859493,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalPenetratingTests.PierceUsesPreHitHealthAndDoesNotHaveATwoTargetMaximum",
+          "Status": "Passed",
+          "Duration": 2.5908517,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalPenetratingTests.RealPhysicsDistinguishesPierceStopFromLaserContinuation",
+          "Status": "Passed",
+          "Duration": 6.3601572,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalPresentationTests.OriginalSettingSpritesAndFontFacesRemainRenderableAfterReload",
+          "Status": "Passed",
+          "Duration": 0.4793709,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalSaveTests.OriginalSaveCodecRetainsLargeValuesNestedContentAndUnicode",
+          "Status": "Passed",
+          "Duration": 0.0042174,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalSaveTests.OriginalSaveGateBackupRotationAndCorruptMainFallback",
+          "Status": "Passed",
+          "Duration": 0.0043703,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalSettingsTests.OriginalAudioCatalogueMuteDuplicateLimitsAndBgmSwitching",
+          "Status": "Passed",
+          "Duration": 0.2171483,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalSettingsTests.OriginalPersistentButtonsToggleTheirOriginalIndicatorsAndBgmSource",
+          "Status": "Passed",
+          "Duration": 0.3276125,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalShotgunTests.FullPoolRetriesButPartialVolleySucceedsWithoutReclaimingLiveBullets",
+          "Status": "Passed",
+          "Duration": 2.5959,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalShotgunTests.OriginalPelletCountsRandomAnglesAndMinimumOneArePreserved",
+          "Status": "Passed",
+          "Duration": 3.4852965,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalShotgunTests.OriginalShotgunBridgeFindsTreeAndActualPelletsDealConfiguredDamage",
+          "Status": "Passed",
+          "Duration": 4.7215579,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalShotgunTests.VolleyCriticalChoiceIsSharedAndShotgunIgnoresDynamicSpread",
+          "Status": "Passed",
+          "Duration": 2.5835788,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

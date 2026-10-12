@@ -1,0 +1,303 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 / vc257 / arm64",
+  "evidence_kind": "Matching native pseudocode plus ARM64, typed serialized inputs; reconstructed C# is not original source",
+  "libil2cpp_sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "native_queries": "native-mine-client-queries.tsv",
+  "native_export": "../native-mine-client-reviewed-v2",
+  "completed_exports": 45,
+  "methods": {
+    "Gamemanager_Damage_Tag": {
+      "preferred_va": "0x2a7ff50",
+      "expected_first_16_bytes": "ff4302d1fe3300f9f65707a9f44f08a9",
+      "end_exclusive": "0x2a800f4"
+    },
+    "Cat_CalculateAtkCoolMax": {
+      "preferred_va": "0x2b399cc",
+      "expected_first_16_bytes": "ff0302d1e923046dfe5f05a9f65706a9",
+      "end_exclusive": "0x2b39be8"
+    },
+    "Cat_HandleAutoMove": {
+      "preferred_va": "0x2b3c100",
+      "expected_first_16_bytes": "ff4302d1ef3b026ded33036deb2b046d",
+      "end_exclusive": "0x2b3d234"
+    },
+    "Cat_FindNearestOreMine": {
+      "preferred_va": "0x2b3eb48",
+      "expected_first_16_bytes": "fe0f1df8f65701a9f44f02a9f4b001d0",
+      "end_exclusive": "0x2b3ec6c"
+    },
+    "Cat_OverlapSphereNearestOre": {
+      "preferred_va": "0x2b3f530",
+      "expected_first_16_bytes": "eb2bba6de923016dfe1300f9f85f03a9",
+      "end_exclusive": "0x2b3f6fc"
+    },
+    "Cat_FindNearestOreFallback": {
+      "preferred_va": "0x2b3f6fc",
+      "expected_first_16_bytes": "eb2bba6de923016dfe1300f9f85f03a9",
+      "end_exclusive": "0x2b3f874"
+    },
+    "__c__PlaceOres_b__68_0": {
+      "preferred_va": "0x2b4aa54",
+      "expected_first_16_bytes": "ff8300d1fe0b00f96040201ee8030091",
+      "end_exclusive": "0x2b4aa84"
+    },
+    "_Enter_Cor_d__32_MoveNext": {
+      "preferred_va": "0x2b4aa88",
+      "expected_first_16_bytes": "e923bd6dfe5701a9f44f02a994b001d0",
+      "end_exclusive": "0x2b4ac54"
+    },
+    "_Exit_Cor_d__37_MoveNext": {
+      "preferred_va": "0x2b4aca0",
+      "expected_first_16_bytes": "fe0f1ef8f44f01a994b001d0f30300aa",
+      "end_exclusive": "0x2b4aea8"
+    },
+    "_Game_Cor_d__35_MoveNext": {
+      "preferred_va": "0x2b4aef4",
+      "expected_first_16_bytes": "e80f1dfcfe5701a9f44f02a994b001d0",
+      "end_exclusive": "0x2b4b038"
+    },
+    "_PlaceOres_d__68_MoveNext": {
+      "preferred_va": "0x2b4b158",
+      "expected_first_16_bytes": "ff0302d1e923016dfd7b02a9fc6f03a9",
+      "end_exclusive": "0x2b4ba34"
+    },
+    "Mine_manager_Awake": {
+      "preferred_va": "0x2b48cdc",
+      "expected_first_16_bytes": "fe57bea9f44f01a9b5b00190b49001b0",
+      "end_exclusive": "0x2b48d34"
+    },
+    "Mine_manager_Ticket_MaxCount_return": {
+      "preferred_va": "0x2b4946c",
+      "expected_first_16_bytes": "fe0f1ef8f44f01a994b001f0b3900190",
+      "end_exclusive": "0x2b494d4"
+    },
+    "Mine_manager_Ticket_Reload": {
+      "preferred_va": "0x2b49008",
+      "expected_first_16_bytes": "fe57bea9f44f01a995b001f094900190",
+      "end_exclusive": "0x2b49110"
+    },
+    "Mine_manager_Game_Enter": {
+      "preferred_va": "0x2b4957c",
+      "expected_first_16_bytes": "fe0f1ef8f44f01a994b001f0f30300aa",
+      "end_exclusive": "0x2b49874"
+    },
+    "Mine_manager_Enter_Cor": {
+      "preferred_va": "0x2b49874",
+      "expected_first_16_bytes": "fe57bea9f44f01a994b001f0d59001d0",
+      "end_exclusive": "0x2b498e0"
+    },
+    "Mine_manager_Game_Start": {
+      "preferred_va": "0x2b49908",
+      "expected_first_16_bytes": "fe57bea9f44f01a995b001f0b4900190",
+      "end_exclusive": "0x2b49990"
+    },
+    "Mine_manager_GameTime_Max_return": {
+      "preferred_va": "0x2b499fc",
+      "expected_first_16_bytes": "fe57bea9f44f01a994b001f0b59001b0",
+      "end_exclusive": "0x2b49a70"
+    },
+    "Mine_manager_Game_Cor": {
+      "preferred_va": "0x2b49990",
+      "expected_first_16_bytes": "fe57bea9f44f01a994b001f0d59001d0",
+      "end_exclusive": "0x2b499fc"
+    },
+    "Mine_manager_Game_Exit": {
+      "preferred_va": "0x2b49a98",
+      "expected_first_16_bytes": "fe0f1ef8f44f01a941008052f30300aa",
+      "end_exclusive": "0x2b49b4c"
+    },
+    "Mine_manager_Exit_Cor": {
+      "preferred_va": "0x2b49b4c",
+      "expected_first_16_bytes": "fe57bea9f44f01a994b001f0d59001d0",
+      "end_exclusive": "0x2b49bb8"
+    },
+    "Mine_manager_Game_End": {
+      "preferred_va": "0x2b49be0",
+      "expected_first_16_bytes": "fe57bea9f44f01a995b001f0b4900190",
+      "end_exclusive": "0x2b49cf0"
+    },
+    "Mine_manager_Reward_Panel_Reload": {
+      "preferred_va": "0x2b49d80",
+      "expected_first_16_bytes": "ff0301d1fe5f01a9f65702a9f44f03a9",
+      "end_exclusive": "0x2b49f58"
+    },
+    "Mine_manager_Ore_Destroyed": {
+      "preferred_va": "0x2b4a66c",
+      "expected_first_16_bytes": "fe0f1df8f65701a9f44f02a996b001d0",
+      "end_exclusive": "0x2b4a758"
+    },
+    "Mine_manager_PlaceOres": {
+      "preferred_va": "0x2b4a790",
+      "expected_first_16_bytes": "fe57bea9f44f01a994b001d0d59001b0",
+      "end_exclusive": "0x2b4a7fc"
+    },
+    "Mine_manager_ClearOres": {
+      "preferred_va": "0x2b4a824",
+      "expected_first_16_bytes": "fe5fbda9f65701a9f44f02a994b001d0",
+      "end_exclusive": "0x2b4a944"
+    },
+    "Mine_manager__ctor": {
+      "preferred_va": "0x2b4a944",
+      "expected_first_16_bytes": "fe0f1ef8f44f01a9084ea8522929ffb0",
+      "end_exclusive": "0x2b4a9e4"
+    },
+    "Mine_Slider_Value_Reload": {
+      "preferred_va": "0x2b4a758",
+      "expected_first_16_bytes": "001040f9600000b4e1031faacb76ff17",
+      "end_exclusive": "0x2b4a770"
+    },
+    "Mine_Slider_Dia_Reload": {
+      "preferred_va": "0x2b49cf0",
+      "expected_first_16_bytes": "fe0f1df8f65701a9f44f02a996b001f0",
+      "end_exclusive": "0x2b49d80"
+    },
+    "Mine_Slider_Time_Reload": {
+      "preferred_va": "0x2b4b038",
+      "expected_first_16_bytes": "e923bd6dfe0b00f9f44f02a92940201e",
+      "end_exclusive": "0x2b4b10c"
+    },
+    "Mine_Start_UI_Reload": {
+      "preferred_va": "0x2b49110",
+      "expected_first_16_bytes": "ff8301d1fe0b00f9fa6702a9f85f03a9",
+      "end_exclusive": "0x2b49324"
+    },
+    "Mine_Start_UI_SpeedBuff_Reload": {
+      "preferred_va": "0x2b4bd28",
+      "expected_first_16_bytes": "fe57bea9f44f01a995b001b0749001d0",
+      "end_exclusive": "0x2b4be44"
+    },
+    "Mine_Start_UI_OnEnable": {
+      "preferred_va": "0x2b4bf0c",
+      "expected_first_16_bytes": "fe0f1cf8f85f01a9f65702a9f44f03a9",
+      "end_exclusive": "0x2b4c004"
+    },
+    "Mine_Start_UI__ctor": {
+      "preferred_va": "0x2b4c14c",
+      "expected_first_16_bytes": "e1031faa645bae14fe57bea9f44f01a9",
+      "end_exclusive": "0x2b4c154"
+    },
+    "Ore_Spawn": {
+      "preferred_va": "0x2b4ba34",
+      "expected_first_16_bytes": "ff0303d1ea4300fde9a3086dfe4f00f9",
+      "end_exclusive": "0x2b4bb24"
+    },
+    "Ore_Die_Reload": {
+      "preferred_va": "0x2b4c1b0",
+      "expected_first_16_bytes": "ea0f1bfce923016dfe5f02a9f65703a9",
+      "end_exclusive": "0x2b4c348"
+    },
+    "Enemy_Damaged": {
+      "preferred_va": "0x2b5ca8c",
+      "expected_first_16_bytes": "ffc301d1e82300fdfe5705a9f44f06a9",
+      "end_exclusive": "0x2b5cbfc"
+    },
+    "Enemy_Die": {
+      "preferred_va": "0x2b5cdbc",
+      "expected_first_16_bytes": "ffc301d1ea2300fde9a3046dfe2f00f9",
+      "end_exclusive": "0x2b5ceb8"
+    },
+    "Enemy_Die_Reload": {
+      "preferred_va": "0x2b5ceb8",
+      "expected_first_16_bytes": "fe0f1ef8f44f01a914b00190f30300aa",
+      "end_exclusive": "0x2b5d070"
+    },
+    "Throw_NullReference_Wrapper": {
+      "preferred_va": "0x28f5cfc",
+      "expected_first_16_bytes": "fe0f1ff86a220194fe0f1ff87b220194",
+      "end_exclusive": "0x28f5d04"
+    },
+    "Throw_Index_Wrapper": {
+      "preferred_va": "0x28f5d04",
+      "expected_first_16_bytes": "fe0f1ff87b220194c03cff90006c0191",
+      "end_exclusive": "0x28f5d0c"
+    },
+    "Throw_NullReference_Create": {
+      "preferred_va": "0x293e6a8",
+      "expected_first_16_bytes": "ff8300d1fffb00a9e0030091ff0300f9",
+      "end_exclusive": "0x293e6bc"
+    },
+    "Throw_NullReference_Raise": {
+      "preferred_va": "0x293e6bc",
+      "expected_first_16_bytes": "fe0f1ff803000094e1031faad2ffff97",
+      "end_exclusive": "0x293e6cc"
+    },
+    "Throw_Index_Raise": {
+      "preferred_va": "0x293e6f4",
+      "expected_first_16_bytes": "fe0f1ff803000094e1031faac4ffff97",
+      "end_exclusive": "0x293e704"
+    },
+    "Managed_Exception_CxaThrow": {
+      "preferred_va": "0x293e610",
+      "expected_first_16_bytes": "fe4fbfa9f30300aa71ffff9700018052",
+      "end_exclusive": "0x293e638"
+    }
+  },
+  "ordinary_rules": {
+    "ui_mode": 2,
+    "daily_tickets": 2,
+    "time_seconds": 60,
+    "enemy_type": 4,
+    "ore_tag": "Ore",
+    "normal": {
+      "hits": 3,
+      "score": 1
+    },
+    "rare": {
+      "hits": 5,
+      "score": 10
+    },
+    "per_hit_damage": 1,
+    "reward": "integer Dia_Score / 10, awarded once at Game_End including timeout",
+    "best_reward": "max(previous, normal reward)",
+    "mission_increase_index": 3,
+    "ore_counter_initial": "Ore_list.Length=1000; native does not adjust counters to layout candidate count"
+  },
+  "layout": {
+    "pool_count": 1000,
+    "ore_per_frame": 30,
+    "center": [
+      -100,
+      0,
+      0
+    ],
+    "outer": 150,
+    "inner": 24.3,
+    "noise_scale": 0.085,
+    "noise_threshold": 0.517,
+    "step": 4,
+    "seed": "Unity Random.Range(0,99999) -> System.Random",
+    "offsets": "Two NextDouble * 9999, cast to float",
+    "scan": "inclusive indices -floor(outer*.25)..+floor; X outer loop, Z inner; inclusive annulus squared bounds; yield per30 examined in-annulus positions",
+    "filter": "PerlinNoise >= threshold",
+    "sort": "noise descending; ASM HFA comparator receiver=b.noise (s7) and argument=a.noise (s3)",
+    "take": "min(candidate count, ore pool length)",
+    "rare": "partial Fisher-Yates indices rng.Next(i,count), mark min(100,count) unique degrees1",
+    "placement": "world positions, sprite by degree, deactivate unused pool members"
+  },
+  "targeting": "radius overlap nonalloc then radius*fallback multiplier; nearest XZ collider; fallback all active ore, strict squared-XZ less-than preserves pool-order ties; mode2 does not reuse nearObj before search",
+  "normal_balance": "Cat.Balance_Reload mode2 sets damage1, damage string1, critical chance0, RayCount36/Attack_Length40; speed-upgrade included, no forest-wave penalty. Shared neutral modifiers remain explicitly bounded as before.",
+  "particles": "Particle_Polling.Awake index1 binds dust; EmitParams world position/applyShapeToPosition=true; Emit count5 on each original system. Floating diamond text remains pending.",
+  "lifecycle": "minimum1.5 seconds unscaled entry after chunked placement; on timeout same normal settlement; return1.5+.2 seconds scaled to forest; early exit cancels nested placement before enabling forest",
+  "adapters": [
+    "RecoveryForestClient for state/ordinary wallet/event bridge",
+    "local DateTime.Now daily clock; no server anti-cheat rollover",
+    "original codec with independent recovery profile and5-second local autosave",
+    "explicit early-exit gaming flag/coroutine closure",
+    "small label formatting uses invariant text adapter"
+  ],
+  "excluded": [
+    "paid MinePack6-ticket/time/auto-sweep entitlement",
+    "ad4x reward, paid ticket purchase",
+    "server result/upload/rollover anti-cheat",
+    "native floating diamond text UI",
+    "all-mode/full-pixel/player/phone acceptance"
+  ],
+  "validation": {
+    "focused": "5/5,91.76seconds",
+    "full": "96/96,551.09seconds",
+    "visual_player_device": "unaccepted"
+  },
+  "native_dust_export": "../native-mine-dust-reviewed",
+  "rendering_adapter": "Original dust parameters/decal_gibs texture with existing Recovery/OriginalParticleCompatibility shader; original compiled shader/full screen parity not recovered",
+  "focused_projectile_observation": "mine-focused-projectile-observation.json"
+}

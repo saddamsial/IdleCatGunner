@@ -1,0 +1,120 @@
+{
+  "package": "com.Chodun.CatGunner",
+  "version": "1.1.61-vc257",
+  "native_sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "constants": {
+    "movement_threshold_sq": {
+      "preferred_va": "0x106c200",
+      "value": 9.999999747378752e-05
+    },
+    "normalization_floor": {
+      "preferred_va": "0x106c240",
+      "value": 9.999999747378752e-06
+    },
+    "spawn_pitch_radians": {
+      "preferred_va": "0x106c248",
+      "value": 0.6981316804885864
+    },
+    "screen_yaw_radians": {
+      "preferred_va": "0x106c0e0",
+      "value": -0.7853981852531433
+    },
+    "spread_bypass_threshold": {
+      "preferred_va": "0x106c088",
+      "value": 0.009999999776482582
+    },
+    "cooldown_log_floor": {
+      "preferred_va": "0x106c094",
+      "value": 0.05000000074505806
+    },
+    "spread_log_offset_ln20": {
+      "preferred_va": "0x106c118",
+      "value": 2.995732307434082
+    },
+    "spread_log_range_ln40": {
+      "preferred_va": "0x106bf14",
+      "value": 3.6888794898986816
+    },
+    "single_lifetime": {
+      "preferred_va": "0x106c218",
+      "value": 0.699999988079071
+    },
+    "degrees_per_radian": {
+      "preferred_va": "0x106c074",
+      "value": 57.295780181884766
+    },
+    "screen_margin": {
+      "preferred_va": "0x106c1b0",
+      "value": 0.019999999552965164
+    },
+    "face_angle_limits": {
+      "preferred_va": "0x10703c0",
+      "value": [
+        20.0,
+        160.0
+      ]
+    }
+  },
+  "additional_native_queries": 27,
+  "additional_queries_completed": 27,
+  "math_imports": [
+    {
+      "preferred_va": "0x59fb270",
+      "symbol": "sincosf"
+    },
+    {
+      "preferred_va": "0x59fb2d0",
+      "symbol": "logf"
+    },
+    {
+      "preferred_va": "0x59fb2e0",
+      "symbol": "atan2f"
+    }
+  ],
+  "native_serialized_input": "serialized-components/level0-147400.json",
+  "implemented": "Forest rays, screen validity, manual-control/idle lock branches, non-missile aim, normal attack branch, native cooldown retry/spread, gun projection, muzzle particle and recoil",
+  "differences": [
+    "Explicit ForestCombatAcceptance instead of full Cat.Update/Gamemanager",
+    "Original initial LASER/zero damage preserved; attack disabled until explicit SINGLE/amount input",
+    "Full equipment/balance load, AutoMove/AI, auto target selection, other weapons and Monster off-screen tracking pending",
+    "Target DOTween rotation pending; static original Sprite marker only",
+    "Independent decimal and existing local sound gate adapters; full original shader/source and sound global gate pending"
+  ],
+  "original_gun_presentation": {
+    "component_count": 65,
+    "fields": "Shoot_trans/Shoot_Random_trans/Shoot_particle",
+    "input": "Cat.Gun_list[65] original document IDs",
+    "native_presentation_tail": "Cat.Balance_Reload preferred VA 0x2b38f10",
+    "implemented": "Copy selected gun muzzle/random positions/particle, activate exactly selected gun, zero spread, degree FX index gun/5",
+    "not_implemented": "Full numeric modifier/equipment loading, inventory/merge/save integration"
+  },
+  "first_live_failures": {
+    "report": "live-combat-tests-first-status.json",
+    "summary": {
+      "total": 4,
+      "passed": 1,
+      "failed": 3,
+      "skipped": 0,
+      "inconclusive": 0
+    },
+    "reason": "Original Cat.Shoot_particle null is bound by Balance_Reload from Gun_list at runtime; missing original Gun presentation contract now recovered"
+  },
+  "second_live_run": {
+    "report": "live-combat-tests-second-status.json",
+    "summary": {
+      "total": 4,
+      "passed": 3,
+      "failed": 1,
+      "skipped": 0,
+      "inconclusive": 0
+    },
+    "reason": "Real continuous shooting and native cooldown/recoil pass. Idle face pose test expected convergence within twelve frames despite native LerpAngle asymptotic interpolation; fixture now waits up to sixty frames for native settling."
+  },
+  "historical_combat_stage_only": true,
+  "superseded_by_reports": [
+    "equipment-catalogue-export.json",
+    "original-shotgun-contract.json",
+    "live-shotgun-assembly-tests-status.json",
+    "original-auto-move-contract.json"
+  ]
+}

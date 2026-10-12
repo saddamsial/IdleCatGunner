@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 35.57,
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalMobilePresentationTests.CashDustSlimeSourceSystemsEmitPauseAndClearWithSupportedMaterials",
+          "Status": "Passed",
+          "Duration": 7.7068132,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMobilePresentationTests.PresentRemainingPrimaryLabelsUseSourceChineseAndPreserveDynamicWallet",
+          "Status": "Passed",
+          "Duration": 5.7722624,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMobilePresentationTests.RepeatedLocaleBindingKeepsRectanglesAndDoesNotChangeSavedState",
+          "Status": "Passed",
+          "Duration": 5.7788464,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMobilePresentationTests.ShopRebirthAndRaidMenuClicksShowOriginalTextsWithoutPurchasing",
+          "Status": "Passed",
+          "Duration": 16.2500908,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

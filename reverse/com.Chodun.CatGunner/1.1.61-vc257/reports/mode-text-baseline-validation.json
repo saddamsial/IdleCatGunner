@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 6.56,
+      "summary": {
+        "total": 1,
+        "passed": 0,
+        "failed": 1,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalModeTextTests.StartupUsesOriginalCoreModeTerms",
+          "Status": "Failed",
+          "Duration": 6.5216924,
+          "Message": "  Contents_UI/SpeedRun_UI/SpeedRun_Start_UI/Panel/Auto_obj/Sweep_Btn/Active_obj/I2_txt\n  Expected string length 5 but was 6. Strings differ at index 0.\n  Expected: \"立即完成！\"\n  But was:  \"즉시 완료!\"\n  -----------^\n",
+          "StackTrace": "at OriginalModeTextTests.AssertLabels () [0x00069] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalModeTextTests.cs:35\nat OriginalModeTextTests+<StartupUsesOriginalCoreModeTerms>d__17.MoveNext () [0x0001e] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalModeTextTests.cs:64\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

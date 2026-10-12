@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var b=Polling_manager.instance.Polling_List[0].Objects.Select(go=>go.GetComponent<Bullet>()).First(x=>x.gunType==GunType.MISSILE); var f=System.Reflection.BindingFlags.NonPublic|System.Reflection.BindingFlags.Instance; return new {start=typeof(Bullet).GetField(\"_msStart\",f).GetValue(b).ToString(),end=typeof(Bullet).GetField(\"_msEnd\",f).GetValue(b).ToString(),duration=typeof(Bullet).GetField(\"_msDuration\",f).GetValue(b),timer=typeof(Bullet).GetField(\"_msTimer\",f).GetValue(b),position=b.transform.position.ToString(),fire=Cat.instance.GetFirePosition().ToString(),ray=Cat.instance.Ray_trans.position.ToString(),delta=UnityEngine.Time.deltaTime};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "start": "(-104.76, 2.00, 5.09)",
+        "end": "(-102.00, 0.00, 17.00)",
+        "duration": 0.244482726,
+        "timer": 0.188825846,
+        "position": "(-102.63, 3.90, 14.28)",
+        "fire": "(-95.50, 2.00, -0.26)",
+        "ray": "(-100.00, 2.00, 0.00)",
+        "delta": 0.0000866425762
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene(); var c=UnityEngine.Object.FindAnyObjectByType<CatGunner.Recovery.RecoveryForestClient>(); var m=c.RaidMode; var gos=scene.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<UnityEngine.Transform>(true)).Select(t=>t.gameObject).ToArray(); return new {scene=scene.path,version=UnityEngine.Application.unityVersion,playing=UnityEditor.EditorApplication.isPlaying,paused=UnityEditor.EditorApplication.isPaused,compiling=UnityEditor.EditorApplication.isCompiling,dirty=scene.isDirty,timeScale=UnityEngine.Time.timeScale,persist=c.Persist,saveOverride=c.SaveFolderOverride,visualClone=UnityEditor.SessionState.GetBool(\"CatGunner.ProgressionVisualClone\",false),objects=gos.Length,canvases=UnityEngine.Object.FindObjectsByType<UnityEngine.Canvas>(UnityEngine.FindObjectsInactive.Include).Length,missingScripts=gos.Sum(g=>g.GetComponents<UnityEngine.MonoBehaviour>().Count(b=>b==null)),raidSkins=m._boss.Skin_obj.Length,raidAnimatorsValid=m._boss.Skin_obj.All(g=>g!=null&&g.GetComponent<UnityEngine.Animator>()!=null&&g.GetComponent<UnityEngine.Animator>().runtimeAnimatorController!=null),bossColliderValid=m._boss.GetComponentInChildren<UnityEngine.Collider>(true)!=null,enemyType=m._boss.enemy._type,raidSlots=m.raidStart_ui.Gun_Slot_list.Length,raidCells=m.gunSelect_panel.item_list.Length,raidSprites=m.raidStart_ui.Boss_Sprites.Length,raidTexturesValid=m.raidStart_ui.Boss_Sprites.All(s=>s!=null&&s.texture!=null&&s.texture.width>0&&s.texture.height>0),raidFillsValid=m.ingame_ui.HP_Fill!=null&&m.ingame_ui.Time_Fill!=null,raidMapActive=m.Map_obj.activeSelf,raidHUDActive=m.ModeHUD.activeSelf,raidStartActive=m.StartPanel.activeSelf};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "version": "6000.4.10f1",
+        "playing": false,
+        "paused": false,
+        "compiling": false,
+        "dirty": false,
+        "timeScale": 1,
+        "persist": true,
+        "saveOverride": null,
+        "visualClone": false,
+        "objects": 31104,
+        "canvases": 1,
+        "missingScripts": 0,
+        "raidSkins": 5,
+        "raidAnimatorsValid": true,
+        "bossColliderValid": true,
+        "enemyType": 5,
+        "raidSlots": 3,
+        "raidCells": 20,
+        "raidSprites": 5,
+        "raidTexturesValid": true,
+        "raidFillsValid": true,
+        "raidMapActive": false,
+        "raidHUDActive": false,
+        "raidStartActive": false
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

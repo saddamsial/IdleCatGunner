@@ -1,0 +1,30 @@
+02b82934  stp x30,x19,[sp, #-0x10]!
+02b82938  mov x19,x0
+02b8293c  ldr x0,[x0, #0x10]
+02b82940  bl 0x02b829ac
+02b82944  mov x1,x0
+02b82948  mov x0,x19
+02b8294c  str x1,[x0, #0x38]!
+02b82950  bl 0x029f59f4
+02b82954  ldr x0,[x19, #0x18]
+02b82958  bl 0x02b829ac
+02b8295c  mov x1,x0
+02b82960  mov x0,x19
+02b82964  str x1,[x0, #0x40]!
+02b82968  bl 0x029f59f4
+02b8296c  ldr x0,[x19, #0x20]
+02b82970  bl 0x02b829ac
+02b82974  mov x1,x0
+02b82978  mov x0,x19
+02b8297c  str x1,[x0, #0x48]!
+02b82980  bl 0x029f59f4
+02b82984  ldr x0,[x19, #0x28]
+02b82988  bl 0x02b829ac
+02b8298c  mov x1,x0
+02b82990  str x0,[x19, #0x50]!
+02b82994  mov x0,x19
+02b82998  bl 0x029f59f4
+02b8299c  mov w8,#0x1
+02b829a0  sturb w8,[x19, #-0x20]
+02b829a4  ldp x30,x19,[sp], #0x10
+02b829a8  ret

@@ -1,0 +1,48 @@
+{
+  "status": "completed",
+  "duration": 94.27,
+  "summary": {
+    "total": 5,
+    "passed": 5,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalRaidTests.EntryCancellationConsumesTicketWithoutRunRewardAndNativeBossReloadKeepsSkin",
+      "Status": "Passed",
+      "Duration": 16.3321681,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalRaidTests.LocalClockCalendarRetainsFutureDatesAndOnlyRollsOwnRaidEntryFields",
+      "Status": "Passed",
+      "Duration": 0.0042234,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalRaidTests.NativeRuntimeHealthReplacesOldSerializedCacheAndRewardTiersAreExact",
+      "Status": "Passed",
+      "Duration": 0.0007458,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalRaidTests.OriginalLoadoutUsesItemIdentitySortsWeakDamageAndCannotRemoveLastGun",
+      "Status": "Passed",
+      "Duration": 7.1555306,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalRaidTests.ZeroInputOriginalGunThirtyNaturalSixtySecondRaidAwardsOnceAndReturnsForestLoadout",
+      "Status": "Passed",
+      "Duration": 70.3893716,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

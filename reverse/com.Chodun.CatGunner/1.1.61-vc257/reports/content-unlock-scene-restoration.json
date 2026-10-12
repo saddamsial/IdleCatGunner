@@ -1,0 +1,58 @@
+{
+  "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+  "original_manager_go": 1041,
+  "original_manager_component": 124225,
+  "content_rows": [
+    {
+      "type": "Rebirth",
+      "button": "Rebirth_Btn",
+      "locked": "Locked_obj",
+      "method": "Content_Btn_Rebirth"
+    },
+    {
+      "type": "Mine",
+      "button": "Mine_Btn",
+      "locked": "Locked_obj",
+      "method": "Content_Btn_Mine"
+    },
+    {
+      "type": "Fish",
+      "button": "Fish_Btn",
+      "locked": "Locked_obj",
+      "method": "Content_Btn_Fish"
+    },
+    {
+      "type": "Boss",
+      "button": "Boss_Btn",
+      "locked": "Locked_obj",
+      "method": "Content_Btn_Boss"
+    },
+    {
+      "type": "Pet",
+      "button": "Pet_Btn ",
+      "locked": "Locked_obj",
+      "method": "Content_Btn_Pet"
+    },
+    {
+      "type": "Monster",
+      "button": "Monster_Btn",
+      "locked": "Locked_obj",
+      "method": "Content_Btn_Monster"
+    },
+    {
+      "type": "Adventure",
+      "button": "Adventure_Btn",
+      "locked": "Locked_obj",
+      "method": "Content_Btn_Adventure"
+    },
+    {
+      "type": "Raid",
+      "button": "Raid_Btn",
+      "locked": "Locked_obj",
+      "method": "Content_Btn_Raid"
+    }
+  ],
+  "objects": 34364,
+  "missingScripts": 0,
+  "adapter": "RecoveryForestClient binds manager; missing tutorial manager remains absent, no tutorial completion record changed; existing local controllers own enabled panel lifecycle"
+}

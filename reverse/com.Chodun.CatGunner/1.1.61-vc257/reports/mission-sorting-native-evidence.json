@@ -1,0 +1,66 @@
+{
+  "businessQueries": 6,
+  "exceptionHelpers": 6,
+  "allComplete": true,
+  "displayClassOwner": "Mission_manager",
+  "statusCacheType": "RewardStatus_Type[]",
+  "nativeStatus": "counter below MissionValue=>0; otherwise normal unclaimed=>1; normal claimed and luxury unclaimed=>3; both claimed=>2. No VIP/season date check here.",
+  "priorityTable": {
+    "0 incomplete": {
+      "luxury": 1,
+      "noLuxury": 2
+    },
+    "1 ordinary XP ready": {
+      "vipTaskWithoutVip": 1,
+      "otherwise": 0
+    },
+    "2 both claims done": {
+      "luxury": 2,
+      "noLuxury": 3
+    },
+    "3 ordinary claimed luxury unclaimed": {
+      "luxury": 0,
+      "noLuxury": 1
+    },
+    "unknown": 99
+  },
+  "comparisonOrder": [
+    "priority ascending",
+    "mission.type ascending",
+    "original array index ascending"
+  ],
+  "application": "Value_Reload all original rows before sorting; index array sorted via comparison closure; SetSiblingIndex(rank), original Mission_Item_UI_List retained",
+  "uiTrigger": "UI_Reload calls Mission_UI_Reload before Reward_UI_Reload and experience",
+  "pulse": "Existing Rule29 RecoveryWeeklyUiTween already present on original GO891, sourceScale0.89393, uniform target1.1, duration1, ease6/OutQuad, infiniteYoyo/scaled time. No new component or animation source change.",
+  "boundaries": [
+    "Native status/priority independent from local paid/expired claim rejection",
+    "No new entitlements or save schema",
+    "Full I2/SDK tween lifecycle remains adapter; existing local enable/disable resets phase"
+  ],
+  "files": {
+    "Mission_manager__Mission_UI_Reload_g__GetSortPriority_62_0.c": "84382757947661a2749fc9e26205a36e462b78d6e2c31f8ad80e8a5b21df82b7",
+    "Throw_Index_Raise.c": "f7b9c1233cebb3659705feb97a706251cb1dd6dcac5b14dcbcd482f99b3529a7",
+    "Throw_Index_Wrapper.c": "b554c9aba53206d804e9fc370e97cf27027d10930f18eb2a6be625e055cb8dd1",
+    "__c__DisplayClass62_0__Mission_UI_Reload_b__1.c": "cdcfdf52117c2b2cc32e840227e3972cd97f4dad22a05cd92307862a73ff6658",
+    "Throw_NullReference_Create.asm": "428c28c0278566bbd155390442ae395ecf5d111ac48dd41afa23cc88ab7051b2",
+    "Throw_NullReference_Wrapper.asm": "eec6b09062497629de85a27e3a8cad918b42764b2a1c0f544152a636461e5fdd",
+    "Mission_manager_UI_Reload.asm": "390c4c327501737ad54d3d6b876268c0a727790e23956a0ea666707ff0575dab",
+    "Mission_manager_Mission_Status_return.asm": "3df58e4b9eb86974570b50367681ab26749cabb77dff108cd42275c0f386c312",
+    "Throw_NullReference_Create.c": "07933b7cac27ee4d3e9d7c27b53882e222ed878cead5f8d79e73b3adba1fff6f",
+    "Throw_Index_Raise.asm": "53f08a0cd65a4fe4ba45d72673ff66e057b405fd9658b230d54ec9cb96fab4ed",
+    "Throw_NullReference_Raise.c": "aded7644ecb862bc0a5476706b21810f9257b367ac0397bdc541e91af2615d80",
+    "Mission_manager_UI_First_Reload.asm": "24ce5e2c0fa81d68b11bd3a363d6475954cf1e5ccf3a7a4023700b4bbe7d8116",
+    "Mission_manager_UI_First_Reload.c": "0828e7cf5598dddb7585da6f07c45596a530e82574606b00943a0a48e3545fa9",
+    "Managed_Exception_CxaThrow.asm": "79d2db030a3cd3519ea853008b8d9e435cee4ca33d345340c0a40c9ffa737b80",
+    "__c__DisplayClass62_0__Mission_UI_Reload_b__1.asm": "99f37c4b9a1ed540d0fee359dca66b049e34a8dcba471cc52478f93eb92daca8",
+    "Mission_manager_Mission_UI_Reload.c": "5a0c29dd78c86bb17a946a6f3b52df245cc5f1878836da176a264ac7bb504de8",
+    "Throw_NullReference_Raise.asm": "5aafa322c11ce154d2ee31e138ead7810e48a24e419b8885131feb71851f1d71",
+    "Throw_Index_Wrapper.asm": "5581995141036f8f8cb7598583a54ae3c1a567e77a4bbff543774e6d542c448c",
+    "Managed_Exception_CxaThrow.c": "f034685b9e5e3c23ca134caf66dd8742db361f79a48e68bfefb6bb0b28479155",
+    "Mission_manager__Mission_UI_Reload_g__GetSortPriority_62_0.asm": "5eca701f8e17b0a0d234e8c3a599f414a85de93d94bfc52aa50f1bf159409d99",
+    "Mission_manager_UI_Reload.c": "368bfad918148bfe60e120b68e052700fc9e019991edd183b880fd311d735418",
+    "Throw_NullReference_Wrapper.c": "4dbe5415e169f90b0ce5055036cca1b94bf1565f8d9d2308c08bf4bd707fcb91",
+    "Mission_manager_Mission_UI_Reload.asm": "7d046b4a5b5abf48431ed85884d3ea1ca40a7dfb662f4dfd127432294e1ec508",
+    "Mission_manager_Mission_Status_return.c": "ff7cc72cee01404e738be71d3693325080730872306cf5e0f750754ac4fc5aa0"
+  }
+}

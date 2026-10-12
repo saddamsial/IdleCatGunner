@@ -1,0 +1,154 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 63.75,
+      "summary": {
+        "total": 18,
+        "passed": 18,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.AutomaticGunMergeHonorsCollectionLimitPauseDragCancelAndUnavailableEntitlement",
+          "Status": "Passed",
+          "Duration": 8.7543702,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.ClosingGunPanelDuringMovementPreservesPairAndRestoresRaycasts",
+          "Status": "Passed",
+          "Duration": 6.4648974,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.DiamondDrawCapacityAndInsufficientWalletAreAtomic",
+          "Status": "Passed",
+          "Duration": 0.0033973,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.FishAutoMergeSuspendsForDeleteAndClosingAndFinishesLowestGradeChain",
+          "Status": "Passed",
+          "Duration": 8.6889751,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.FishEntranceDrawSwimmingDetailsMergeAndDeleteUseOriginalUI",
+          "Status": "Passed",
+          "Duration": 7.7816105,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.FishProfileColdReloadRetainsGradesDailyCountCurrencyAndCombatBonus",
+          "Status": "Passed",
+          "Duration": 10.8163375,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.InvalidFishStateNeverMutatesTheSuppliedProfile",
+          "Status": "Passed",
+          "Duration": 0.0012177,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.NativeMergeRemovesHighIndexFirstAppendsAndAggregatesDuplicateBonuses",
+          "Status": "Passed",
+          "Duration": 0.0005881,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.NativeRollThresholdsAndPremiumOffset(0,0)",
+          "Status": "Passed",
+          "Duration": 0.0002431,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.NativeRollThresholdsAndPremiumOffset(59.99f,0)",
+          "Status": "Passed",
+          "Duration": 0.0000268,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.NativeRollThresholdsAndPremiumOffset(60,1)",
+          "Status": "Passed",
+          "Duration": 0.0000165,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.NativeRollThresholdsAndPremiumOffset(89.99f,1)",
+          "Status": "Passed",
+          "Duration": 0.0000183,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.NativeRollThresholdsAndPremiumOffset(90,2)",
+          "Status": "Passed",
+          "Duration": 0.0000227,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.NativeRollThresholdsAndPremiumOffset(100,0)",
+          "Status": "Passed",
+          "Duration": 0.0000183,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.NormalDrawAndSafeWithdrawalPlaySpawnBounceWithoutChangingTransactions",
+          "Status": "Passed",
+          "Duration": 7.8818437,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.OriginalDisabledNestedFeedbackRemainsDisabled",
+          "Status": "Passed",
+          "Duration": 5.4710821,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.PetAutoMergeExcludesDispatchLocksAndStopsOnPanelClose",
+          "Status": "Passed",
+          "Duration": 7.78621,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.ThreeDailyNoAdDrawsKeepAdRewardsUnavailableAndRolloverLocalDay",
+          "Status": "Passed",
+          "Duration": 0.0004452,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

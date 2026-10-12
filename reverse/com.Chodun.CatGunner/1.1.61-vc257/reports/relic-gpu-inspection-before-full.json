@@ -1,0 +1,50 @@
+{
+  "actual_pixels_inspected": true,
+  "inspected_phase": "after final7/7 focused; full suite may replace files and must be inspected again",
+  "screenshots": [
+    {
+      "path": "visual/relic-menu-test-gpu.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "cb79af0aa19c2228e85339b92d1f228834b80b9e2a3c5f9e80b80099a5f482fb"
+    },
+    {
+      "path": "visual/relic-single-test-gpu.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "c89e866e097b45667e691e4adb1799cf237f50e4500b287ac3330346d2b3d35e"
+    },
+    {
+      "path": "visual/relic-upgrade-test-gpu.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "4e91a3f75d66d34efa96b920c043ec6c384c1bdef2b0640ef715a648c38e9379"
+    },
+    {
+      "path": "visual/relic-first-page-test-gpu.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "0dd36c93e9d254e4e9bf2dca1e9ffdea0b5067058cbbd7cdf82857c62c7c01a6"
+    },
+    {
+      "path": "visual/relic-last-page-test-gpu.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "23bfd34c00881497cc2959dcd77c19dc842fc0acbeac37b0d391444699353119"
+    }
+  ],
+  "menu_currency_and_details_legible": true,
+  "twelve_card_page_and_last_page_legible": true,
+  "observations": [
+    "Menu shows original forest/desert/tundra locked cards, core0, four selectors100/0/0/ALL,20core prices and close",
+    "Original single result card/close gate; detail Lv2 and0/4 shards with readable local English name/value; static original Korean labels retained",
+    "First page3x4 grid with12 native icon/core/panel cards; right arrow and confirm. Last page1 card and left arrow",
+    "First second-run immediate-page screenshot initially showed one card while BounceStart began. Final test waits0.4s before capture;12 actual card pixels verified."
+  ],
+  "unaccepted": [
+    "complete Adventure frame/dispatch/header",
+    "full I2 localization/all visual effects",
+    "whole-game pixel parity",
+    "Player/device acceptance"
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "identity": {
+    "file": "level0",
+    "path_id": 123441,
+    "type_index": 7406,
+    "type": "Adventure_manager",
+    "game_object": "Adventure_manager"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 406
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 1070
+    },
+    "m_Name": "",
+    "Map_list": [
+      {
+        "Name": "Forest",
+        "Map_info_list": [
+          {
+            "is_Enter": false,
+            "Enter_dateTime": {}
+          },
+          {
+            "is_Enter": false,
+            "Enter_dateTime": {}
+          },
+          {
+            "is_Enter": false,
+            "Enter_dateTime": {}
+          },
+          {
+            "is_Enter": false,
+            "Enter_dateTime": {}
+          },
+          {
+            "is_Enter": false,
+            "Enter_dateTime": {}
+          }
+        ]
+      },
+      {
+        "Name": "Desert",
+        "Map_info_list": [
+          {
+            "is_Enter": false,
+            "Enter_dateTime": {}
+          },
+          {
+            "is_Enter": false,
+            "Enter_dateTime": {}
+          },
+          {
+            "is_Enter": false,
+            "Enter_dateTime": {}
+          },
+          {
+            "is_Enter": false,
+            "Enter_dateTime": {}
+          },
+          {
+            "is_Enter": false,
+            "Enter_dateTime": {}
+          }
+        ]
+      },
+      {
+        "Name": "Tundra",
+        "Map_info_list": [
+          {
+            "is_Enter": false,
+            "Enter_dateTime": {}
+          },
+          {
+            "is_Enter": false,
+            "Enter_dateTime": {}
+          },
+          {
+            "is_Enter": false,
+            "Enter_dateTime": {}
+          },
+          {
+            "is_Enter": false,
+            "Enter_dateTime": {}
+          },
+          {
+            "is_Enter": false,
+            "Enter_dateTime": {}
+          }
+        ]
+      }
+    ],
+    "Currency_Core": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "Lv": 0,
+    "Exp": 0,
+    "Exp_balance": [
+      10,
+      60,
+      100,
+      130,
+      180,
+      230,
+      280,
+      340,
+      400,
+      470,
+      550,
+      630,
+      720,
+      820,
+      920
+    ],
+    "adventure_panel_ui": {
+      "m_FileID": 0,
+      "m_PathID": 124152
+    },
+    "adventure_exit_panel": {
+      "m_FileID": 0,
+      "m_PathID": 124886
+    },
+    "Alert_obj": {
+      "m_FileID": 0,
+      "m_PathID": 528
+    },
+    "Ticket_Now": 20,
+    "Last_Ticket_Charge_dateTime": {},
+    "AD_Reduce_UseCount": 0,
+    "AD_Reduce_LastDate": "",
+    "Core_sprites": [
+      {
+        "m_FileID": 2,
+        "m_PathID": 374
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 903
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 378
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 381
+      }
+    ]
+  }
+}

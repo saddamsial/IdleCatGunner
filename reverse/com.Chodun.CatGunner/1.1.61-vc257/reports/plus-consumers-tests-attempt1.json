@@ -1,0 +1,90 @@
+{
+  "status": "completed",
+  "duration": 99.73,
+  "summary": {
+    "total": 11,
+    "passed": 9,
+    "failed": 2,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "PlusPackRecoveryRulesTests.NativeRewardsKeepSpeedRunAndRaidUnchangedAndTruncateMine",
+      "Status": "Passed",
+      "Duration": 0.0863993,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlusPackRecoveryRulesTests.NativeTimeFactorsKeepSpeedRunAndMonsterUnchanged",
+      "Status": "Passed",
+      "Duration": 0.0004476,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlusPackRecoveryRulesTests.SevenDayBoundaryLocalLedgerInvalidDatesAndDisabledVariantRemainSeparate",
+      "Status": "Failed",
+      "Duration": 0.0028908,
+      "Message": "System.ArgumentException : Original65-gun collection required",
+      "StackTrace": "  at CatGunner.Recovery.OriginalGunInventory..ctor (CatGunner.Recovery.OriginalSaveData state, System.Func`3[T1,T2,TResult] randomRange) [0x0011d] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalGunInventory.cs:25 \n  at PlusPackRecoveryRulesTests.SevenDayBoundaryLocalLedgerInvalidDatesAndDisabledVariantRemainSeparate () [0x0004c] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/PlusPackRecoveryTests.cs:37 \n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\n  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <67e9686a86934ae8b0ef7cc81c6b4608>:0 "
+    },
+    {
+      "FullName": "PlusPackRecoveryTests.MonsterNaturalClearAwards60CoinsAndAdBonusDoesNotDuplicate",
+      "Status": "Failed",
+      "Duration": 34.1732386,
+      "Message": "  Expected: greater than or equal to 60\n  But was:  0\n",
+      "StackTrace": "at PlusPackRecoveryTests+<MonsterNaturalClearAwards60CoinsAndAdBonusDoesNotDuplicate>d__13.MoveNext () [0x000f9] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/PlusPackRecoveryTests.cs:27\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "PlusPackRecoveryTests.OriginalPlusButtonRaycastPurchaseUpdatesPanelsAndSaves",
+      "Status": "Passed",
+      "Duration": 8.5388591,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlusPackRecoveryTests.PurchasedRewardPackDoublesNaturalBossWinAndPersists",
+      "Status": "Passed",
+      "Duration": 13.8653657,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlusPackRecoveryTests.PurchasedTimePackDoublesNextForestRound",
+      "Status": "Passed",
+      "Duration": 7.1905843,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlusPackRecoveryTests.SevenOriginalItemsShowPurchasedStateCountdownAndExpireAfterColdReload",
+      "Status": "Passed",
+      "Duration": 12.0787118,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlusPackRecoveryTests.TimePackRunsBossFor120Seconds",
+      "Status": "Passed",
+      "Duration": 7.9689676,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlusPackRecoveryTests.TimePackRunsMineFor78SecondsAndRewardTruncatesAfterDivision",
+      "Status": "Passed",
+      "Duration": 7.5541712,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlusPackRecoveryTests.TimePackRunsRaidFor70SecondsWithoutChangingRewardBands",
+      "Status": "Passed",
+      "Duration": 7.9596453,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

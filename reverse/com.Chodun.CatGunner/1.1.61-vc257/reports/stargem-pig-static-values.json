@@ -1,0 +1,60 @@
+{
+  "capacity": {
+    "values": [
+      660,
+      1500,
+      2500
+    ],
+    "pointer": "0x5d648d0",
+    "sha256": "1BBDA682263D39944BDA133CD332AAFCAA9C4E5970A5FD766B7D0F0E41E76AE7",
+    "offset": 9571000
+  },
+  "purchaseMax": {
+    "values": [
+      2,
+      2,
+      1
+    ],
+    "pointer": "0x5d63f20",
+    "sha256": "C17F23B1052241C68988BF2246C6697CAF6FF570AA003D783EBE4B24E7DC7CC9",
+    "offset": 9609048
+  },
+  "salePercent": {
+    "values": [
+      50,
+      35,
+      35
+    ],
+    "pointer": "0x5d648f0",
+    "sha256": "1D8D95949D1A7B2D22033D09A64804F919119B5016B1EC55B6D23E7E37BA331A",
+    "offset": 9571016
+  },
+  "price1": {
+    "value": "$0.99",
+    "pointer": "0x5d648f8"
+  },
+  "price2": {
+    "value": "$2.99",
+    "pointer": "0x5d64900"
+  },
+  "price3": {
+    "value": "$4.99",
+    "pointer": "0x5d64908"
+  },
+  "saleFormat": {
+    "value": "Sale {0}%",
+    "pointer": "0x5d648e8"
+  },
+  "levelFormat": {
+    "value": "Lv.{0}",
+    "pointer": "0x5d61f18"
+  },
+  "countFormat": {
+    "value": "{0}/{1}",
+    "pointer": "0x5d61f28"
+  },
+  "place": {
+    "value": "raid",
+    "pointer": "0x5d635a8"
+  }
+}

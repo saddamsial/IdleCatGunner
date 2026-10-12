@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-08 15:26:54Z" end-time="2026-10-08 15:26:54Z" duration="0.2760613">
+  <test-suite type="TestSuite" id="1606" name="CatGunnerUnityClient" fullname="CatGunnerUnityClient" runstate="Runnable" testcasecount="490" result="Passed" start-time="2026-10-08 15:26:54Z" end-time="2026-10-08 15:26:54Z" duration="0.276061" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1003" name="CatGunner.Recovery.PlayModeTests.dll" fullname="/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Library/ScriptAssemblies/CatGunner.Recovery.PlayModeTests.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-08 15:26:54Z" end-time="2026-10-08 15:26:54Z" duration="0.268326" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="35644" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="OriginalSettingsTests" fullname="OriginalSettingsTests" classname="OriginalSettingsTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-10-08 15:26:54Z" end-time="2026-10-08 15:26:54Z" duration="0.267677" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1002" name="OriginalPersistentButtonsToggleTheirOriginalIndicatorsAndBgmSource" fullname="OriginalSettingsTests.OriginalPersistentButtonsToggleTheirOriginalIndicatorsAndBgmSource" methodname="OriginalPersistentButtonsToggleTheirOriginalIndicatorsAndBgmSource" classname="OriginalSettingsTests" runstate="Runnable" seed="70404000" result="Passed" start-time="2026-10-08 15:26:54Z" end-time="2026-10-08 15:26:54Z" duration="0.262677" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: /Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/settings-playmode-focused.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

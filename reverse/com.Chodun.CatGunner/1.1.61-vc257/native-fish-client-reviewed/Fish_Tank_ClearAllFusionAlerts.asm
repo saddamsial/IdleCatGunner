@@ -1,0 +1,27 @@
+02c61910  str x30,[sp, #-0x20]!
+02c61914  stp x20,x19,[sp, #0x10]
+02c61918  ldr x8,[x0, #0x20]
+02c6191c  cbz x8,0x02c6195c
+02c61920  mov x19,x0
+02c61924  mov w20,wzr
+02c61928  ldr w9,[x8, #0x18]
+02c6192c  cmp w20,w9
+02c61930  b.ge 0x02c61960
+02c61934  b.cs 0x02c61978
+02c61938  add x9,x8,w20, SXTW  #0x3
+02c6193c  ldr x0,[x9, #0x20]
+02c61940  cbz x0,0x02c6195c
+02c61944  ldrb w9,[x0, #0x48]
+02c61948  cbz w9,0x02c61954
+02c6194c  bl 0x02c613b8
+02c61950  ldr x8,[x19, #0x20]
+02c61954  add w20,w20,#0x1
+02c61958  cbnz x8,0x02c61928
+02c6195c  bl 0x029f5cfc
+02c61960  str xzr,[x19, #0x40]!
+02c61964  mov x0,x19
+02c61968  ldp x20,x19,[sp, #0x10]
+02c6196c  mov x1,xzr
+02c61970  ldr x30,[sp], #0x20
+02c61974  b 0x029f59f4
+02c61978  bl 0x029f5d04

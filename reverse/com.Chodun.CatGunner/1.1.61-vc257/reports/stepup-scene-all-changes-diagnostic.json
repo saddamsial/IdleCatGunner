@@ -1,0 +1,505 @@
+[
+  {
+    "id": "1128",
+    "name": "StepUp_Banner",
+    "type": 1,
+    "diff": [
+      {
+        "before": "  m_Layer: 5",
+        "after": "  - component: {fileID: 124333}"
+      },
+      {
+        "before": "  m_Name: StepUp_Banner",
+        "after": "  m_Layer: 5"
+      },
+      {
+        "before": "  m_TagString: Untagged",
+        "after": "  m_Name: StepUp_Banner"
+      },
+      {
+        "before": "  m_Icon: {fileID: 0}",
+        "after": "  m_TagString: Untagged"
+      },
+      {
+        "before": "  m_NavMeshLayer: 0",
+        "after": "  m_Icon: {fileID: 0}"
+      },
+      {
+        "before": "  m_StaticEditorFlags: 0",
+        "after": "  m_NavMeshLayer: 0"
+      },
+      {
+        "before": "  m_IsActive: 1",
+        "after": "  m_StaticEditorFlags: 0"
+      }
+    ]
+  },
+  {
+    "id": "17917",
+    "name": "GunItem_Demo",
+    "type": 1,
+    "diff": [
+      {
+        "before": "  m_Layer: 5",
+        "after": "  - component: {fileID: 146266}"
+      },
+      {
+        "before": "  m_Name: GunItem_Demo",
+        "after": "  m_Layer: 5"
+      },
+      {
+        "before": "  m_TagString: Untagged",
+        "after": "  m_Name: GunItem_Demo"
+      },
+      {
+        "before": "  m_Icon: {fileID: 0}",
+        "after": "  m_TagString: Untagged"
+      },
+      {
+        "before": "  m_NavMeshLayer: 0",
+        "after": "  m_Icon: {fileID: 0}"
+      },
+      {
+        "before": "  m_StaticEditorFlags: 0",
+        "after": "  m_NavMeshLayer: 0"
+      },
+      {
+        "before": "  m_IsActive: 1",
+        "after": "  m_StaticEditorFlags: 0"
+      }
+    ]
+  },
+  {
+    "id": "102777",
+    "name": "Boss_Btn",
+    "type": 224,
+    "diff": [
+      {
+        "before": "  m_AnchorMin: {x: 0, y: 0}",
+        "after": "  m_AnchorMin: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchorMax: {x: 0, y: 0}",
+        "after": "  m_AnchorMax: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchoredPosition: {x: 0, y: 0}",
+        "after": "  m_AnchoredPosition: {x: 100, y: -654.2}"
+      }
+    ]
+  },
+  {
+    "id": "102990",
+    "name": "Shop_manager",
+    "type": 224,
+    "diff": [
+      {
+        "before": "  - {fileID: 104568}",
+        "after": "  - {fileID: 103821}"
+      },
+      {
+        "before": "  - {fileID: 104552}",
+        "after": "  - {fileID: 104568}"
+      },
+      {
+        "before": "  - {fileID: 109915}",
+        "after": "  - {fileID: 104552}"
+      },
+      {
+        "before": "  m_Father: {fileID: 1167996984}",
+        "after": "  - {fileID: 109915}"
+      },
+      {
+        "before": "  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}",
+        "after": "  m_Father: {fileID: 1167996984}"
+      },
+      {
+        "before": "  m_AnchorMin: {x: 0, y: 0}",
+        "after": "  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}"
+      },
+      {
+        "before": "  m_AnchorMax: {x: 1, y: 1}",
+        "after": "  m_AnchorMin: {x: 0, y: 0}"
+      },
+      {
+        "before": "  m_AnchoredPosition: {x: 0, y: 0}",
+        "after": "  m_AnchorMax: {x: 1, y: 1}"
+      },
+      {
+        "before": "  m_SizeDelta: {x: -980, y: -1820}",
+        "after": "  m_AnchoredPosition: {x: 0, y: 0}"
+      },
+      {
+        "before": "  m_Pivot: {x: 0.5, y: 0.5}",
+        "after": "  m_SizeDelta: {x: -980, y: -1820}"
+      }
+    ]
+  },
+  {
+    "id": "103041",
+    "name": "Right_Menu",
+    "type": 224,
+    "diff": [
+      {
+        "before": "  m_SizeDelta: {x: 100, y: 0}",
+        "after": "  m_SizeDelta: {x: 100, y: 964.2}"
+      }
+    ]
+  },
+  {
+    "id": "103060",
+    "name": "SpeedRun_Btn",
+    "type": 224,
+    "diff": [
+      {
+        "before": "  m_AnchorMin: {x: 0, y: 0}",
+        "after": "  m_AnchorMin: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchorMax: {x: 0, y: 0}",
+        "after": "  m_AnchorMax: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchoredPosition: {x: 0, y: 0}",
+        "after": "  m_AnchoredPosition: {x: 100, y: -904.2}"
+      }
+    ]
+  },
+  {
+    "id": "103206",
+    "name": "Raid_Btn",
+    "type": 224,
+    "diff": [
+      {
+        "before": "  m_AnchorMin: {x: 0, y: 0}",
+        "after": "  m_AnchorMin: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchorMax: {x: 0, y: 0}",
+        "after": "  m_AnchorMax: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchoredPosition: {x: 0, y: 0}",
+        "after": "  m_AnchoredPosition: {x: 100, y: -279.2}"
+      }
+    ]
+  },
+  {
+    "id": "103234",
+    "name": "Gun_Btn",
+    "type": 224,
+    "diff": [
+      {
+        "before": "  m_AnchorMin: {x: 0, y: 0}",
+        "after": "  m_AnchorMin: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchorMax: {x: 0, y: 0}",
+        "after": "  m_AnchorMax: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchoredPosition: {x: 0, y: 0}",
+        "after": "  m_AnchoredPosition: {x: 0, y: -174.3}"
+      }
+    ]
+  },
+  {
+    "id": "103485",
+    "name": "Monster_Btn",
+    "type": 224,
+    "diff": [
+      {
+        "before": "  m_AnchorMin: {x: 0, y: 0}",
+        "after": "  m_AnchorMin: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchorMax: {x: 0, y: 0}",
+        "after": "  m_AnchorMax: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchoredPosition: {x: 0, y: 0}",
+        "after": "  m_AnchoredPosition: {x: 100, y: -529.2}"
+      }
+    ]
+  },
+  {
+    "id": "103748",
+    "name": "Skin_Btn",
+    "type": 224,
+    "diff": [
+      {
+        "before": "  m_AnchorMin: {x: 0, y: 0}",
+        "after": "  m_AnchorMin: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchorMax: {x: 0, y: 0}",
+        "after": "  m_AnchorMax: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchoredPosition: {x: 0, y: 0}",
+        "after": "  m_AnchoredPosition: {x: 0, y: -549.3}"
+      }
+    ]
+  },
+  {
+    "id": "103817",
+    "name": "Mine_Btn",
+    "type": 224,
+    "diff": [
+      {
+        "before": "  m_AnchorMin: {x: 0, y: 0}",
+        "after": "  m_AnchorMin: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchorMax: {x: 0, y: 0}",
+        "after": "  m_AnchorMax: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchoredPosition: {x: 0, y: 0}",
+        "after": "  m_AnchoredPosition: {x: 100, y: -779.2}"
+      }
+    ]
+  },
+  {
+    "id": "103995",
+    "name": "Shop_Btn",
+    "type": 224,
+    "diff": [
+      {
+        "before": "  m_AnchorMin: {x: 0, y: 0}",
+        "after": "  m_AnchorMin: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchorMax: {x: 0, y: 0}",
+        "after": "  m_AnchorMax: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchoredPosition: {x: 0, y: 0}",
+        "after": "  m_AnchoredPosition: {x: 0, y: -799.3}"
+      }
+    ]
+  },
+  {
+    "id": "104000",
+    "name": "Adventure_Btn",
+    "type": 224,
+    "diff": [
+      {
+        "before": "  m_AnchorMin: {x: 0, y: 0}",
+        "after": "  m_AnchorMin: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchorMax: {x: 0, y: 0}",
+        "after": "  m_AnchorMax: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchoredPosition: {x: 0, y: 0}",
+        "after": "  m_AnchoredPosition: {x: 100, y: -404.2}"
+      }
+    ]
+  },
+  {
+    "id": "104057",
+    "name": "Rebirth_Btn",
+    "type": 224,
+    "diff": [
+      {
+        "before": "  m_AnchorMin: {x: 0, y: 0}",
+        "after": "  m_AnchorMin: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchorMax: {x: 0, y: 0}",
+        "after": "  m_AnchorMax: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchoredPosition: {x: 0, y: 0}",
+        "after": "  m_AnchoredPosition: {x: 0, y: -299.3}"
+      }
+    ]
+  },
+  {
+    "id": "104225",
+    "name": "Auto_obj",
+    "type": 224,
+    "diff": [
+      {
+        "before": "  m_AnchorMin: {x: 0, y: 0}",
+        "after": "  m_AnchorMin: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchorMax: {x: 0, y: 0}",
+        "after": "  m_AnchorMax: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchoredPosition: {x: 0, y: 0}",
+        "after": "  m_AnchoredPosition: {x: 35, y: -162.05}"
+      }
+    ]
+  },
+  {
+    "id": "104334",
+    "name": "Fish_Btn",
+    "type": 224,
+    "diff": [
+      {
+        "before": "  m_AnchorMin: {x: 0, y: 0}",
+        "after": "  m_AnchorMin: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchorMax: {x: 0, y: 0}",
+        "after": "  m_AnchorMax: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchoredPosition: {x: 0, y: 0}",
+        "after": "  m_AnchoredPosition: {x: 0, y: -674.3}"
+      }
+    ]
+  },
+  {
+    "id": "104338",
+    "name": "'Pet_Btn '",
+    "type": 224,
+    "diff": [
+      {
+        "before": "  m_AnchorMin: {x: 0, y: 0}",
+        "after": "  m_AnchorMin: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchorMax: {x: 0, y: 0}",
+        "after": "  m_AnchorMax: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchoredPosition: {x: 0, y: 0}",
+        "after": "  m_AnchoredPosition: {x: 0, y: -424.3}"
+      }
+    ]
+  },
+  {
+    "id": "104445",
+    "name": "DiaPig_obj",
+    "type": 224,
+    "diff": [
+      {
+        "before": "  m_AnchorMin: {x: 0, y: 0}",
+        "after": "  m_AnchorMin: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchorMax: {x: 0, y: 0}",
+        "after": "  m_AnchorMax: {x: 0, y: 1}"
+      },
+      {
+        "before": "  m_AnchoredPosition: {x: 0, y: 0}",
+        "after": "  m_AnchoredPosition: {x: 35, y: -52.45}"
+      }
+    ]
+  },
+  {
+    "id": "104481",
+    "name": "Left_Menu",
+    "type": 224,
+    "diff": [
+      {
+        "before": "  - {fileID: 103234}",
+        "after": "  - {fileID: 104759}"
+      },
+      {
+        "before": "  - {fileID: 104057}",
+        "after": "  - {fileID: 103234}"
+      },
+      {
+        "before": "  - {fileID: 104338}",
+        "after": "  - {fileID: 104057}"
+      },
+      {
+        "before": "  - {fileID: 103748}",
+        "after": "  - {fileID: 104338}"
+      },
+      {
+        "before": "  - {fileID: 104334}",
+        "after": "  - {fileID: 103748}"
+      },
+      {
+        "before": "  - {fileID: 103995}",
+        "after": "  - {fileID: 104334}"
+      },
+      {
+        "before": "  m_Father: {fileID: 103716}",
+        "after": "  - {fileID: 103995}"
+      },
+      {
+        "before": "  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}",
+        "after": "  m_Father: {fileID: 103716}"
+      },
+      {
+        "before": "  m_AnchorMin: {x: 0, y: 0}",
+        "after": "  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}"
+      },
+      {
+        "before": "  m_AnchorMax: {x: 0, y: 0}",
+        "after": "  m_AnchorMin: {x: 0, y: 0}"
+      },
+      {
+        "before": "  m_AnchoredPosition: {x: -490, y: -615}",
+        "after": "  m_AnchorMax: {x: 0, y: 0}"
+      },
+      {
+        "before": "  m_SizeDelta: {x: 100, y: 0}",
+        "after": "  m_AnchoredPosition: {x: -490, y: -615}"
+      }
+    ]
+  },
+  {
+    "id": "125155",
+    "name": "Panel",
+    "type": 114,
+    "diff": [
+      {
+        "before": "  m_Interactable: 0",
+        "after": "  m_Interactable: 1"
+      },
+      {
+        "before": "      - m_Target: {fileID: 0}",
+        "after": "      - m_Target: {fileID: 124333}"
+      },
+      {
+        "before": "        m_TargetAssemblyTypeName: StepUp_Banner, Assembly-CSharp",
+        "after": "        m_TargetAssemblyTypeName: StepUp_Banner, CatGunner.Recovery"
+      },
+      {
+        "before": "        m_Mode: 1",
+        "after": "        m_Mode: 0"
+      },
+      {
+        "before": "          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine",
+        "after": "          m_ObjectArgumentAssemblyTypeName: "
+      },
+      {
+        "before": "          m_StringArgument: banner",
+        "after": "          m_StringArgument: "
+      }
+    ]
+  },
+  {
+    "id": "131943",
+    "name": "GunItem_Demo",
+    "type": 114,
+    "diff": [
+      {
+        "before": "      - m_Target: {fileID: 0}",
+        "after": "      - m_Target: {fileID: 146266}"
+      },
+      {
+        "before": "        m_TargetAssemblyTypeName: Gun_Item_Demo, Assembly-CSharp",
+        "after": "        m_TargetAssemblyTypeName: Gun_Item_Demo, CatGunner.Recovery"
+      },
+      {
+        "before": "        m_Mode: 1",
+        "after": "        m_Mode: 0"
+      },
+      {
+        "before": "          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine",
+        "after": "          m_ObjectArgumentAssemblyTypeName: "
+      }
+    ]
+  }
+]

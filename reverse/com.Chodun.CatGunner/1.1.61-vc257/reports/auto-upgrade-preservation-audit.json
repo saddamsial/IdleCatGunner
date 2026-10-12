@@ -1,0 +1,112 @@
+{
+  "inputs": [
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/assetripper-baseline/ExportedProject/Assets/Scenes/Main.unity",
+      "sha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/split_config.arm64_v8a/lib/arm64-v8a/libil2cpp.so",
+      "sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/base/assets/bin/Data/Managed/Metadata/global-metadata.dat",
+      "sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+      "unchanged": true
+    }
+  ],
+  "saves": [
+    {
+      "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json",
+      "sha256": "3e35e03edb6ec9af2fd766fb84e894093d942772e4b50f7687faba6a3e7106b0",
+      "checkpoint": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/checkpoints/auto-upgrade-before/latest-user-play-baseline-NoSaveFile.json",
+      "currentSha256": "3e35e03edb6ec9af2fd766fb84e894093d942772e4b50f7687faba6a3e7106b0",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json.bak",
+      "sha256": "ef1e1c0d75505343cb9cdd210386f0c68821fa7bc8493dee6749835c80f2a313",
+      "checkpoint": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/checkpoints/auto-upgrade-before/latest-user-play-baseline-NoSaveFile.json.bak",
+      "currentSha256": "ef1e1c0d75505343cb9cdd210386f0c68821fa7bc8493dee6749835c80f2a313",
+      "unchanged": true
+    }
+  ],
+  "saveBaseline": "User confirmed resumed gameplay and requested preserving new progress. Final tests compare latest-user-play-baseline-user-save.json after stable stop; initial pause snapshot is historical only.",
+  "originalMetas": [
+    {
+      "script": "AutoUpgrade_UI",
+      "metaSha256": "be1d2fd542b2f84506d6466bcd5fa2ee71282884ea2e53a74617eb83aa6122c8",
+      "matchesFrozen": true
+    }
+  ],
+  "existingScriptMetasUnchanged": true,
+  "originalMaterials": [
+    {
+      "path": "Assets/Material/Floor 2.mat",
+      "sha256": "54509d34420931f7f618d6453fb1db64d5d2a9596c887791e415166faec77826",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/Material/Sprite-Unlit-Default.mat",
+      "sha256": "ac9cd8a567e41f0f4da027ddf2d3bf553befc47c60db456d37853e8efb19261a",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/Material/SpriteFill.mat",
+      "sha256": "8c110192864d3d2b043be829b998981c1f94529aa3f9d5ffd473c27f737d98fc",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/Material/Lit.mat",
+      "sha256": "5fca5dc0bfb4e46c307c5b4ab763256e8f9e878063ba5a265885c792179d6aab",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/Material/ring_nofade_ADD.mat",
+      "sha256": "9e1883163a51d4f55c3816db2e50b9bf2182afbe32d71662914e0644442a9a2c",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/Material/glow1_ADD.mat",
+      "sha256": "12d342e33368db5967bacdae6986876cb7071ec37d257577927832b2b6782e6b",
+      "unchanged": true
+    },
+    {
+      "path": "Assets/Material/gradient_vertical_ADD.mat",
+      "sha256": "cf2eb074a9618beade747132aad3804691cf5790ae6a59d9c034ba166b9a9325",
+      "unchanged": true
+    }
+  ],
+  "changedExistingSources": [
+    "Assets/Recovery/Scripts/RecoveryForestClient.cs"
+  ],
+  "addedSourcesAndMetas": [
+    "Assets/Recovery/Scripts/AutoUpgrade_UI.cs",
+    "Assets/Recovery/Scripts/OriginalAutoUpgradeRules.cs",
+    "Assets/Recovery/Scripts/RecoveryAutomaticUpgrade.cs",
+    "Assets/Recovery/Scripts/RecoveryAutomaticUpgrade.cs.meta",
+    "Assets/Recovery/Scripts/AutoUpgrade_UI.cs.meta",
+    "Assets/Recovery/Scripts/OriginalAutoUpgradeRules.cs.meta"
+  ],
+  "changedExistingTests": [
+    "Assets/Recovery/Tests/PlayMode/OriginalOnboardingTests.cs"
+  ],
+  "addedTests": [
+    "Assets/Recovery/Tests/PlayMode/OriginalAutoUpgradeTests.cs",
+    "Assets/Recovery/Tests/PlayMode/OriginalAutoUpgradeTests.cs.meta"
+  ],
+  "sceneSha256": "eb85cd9f14a226d12463c53a66569c4c149bb4d24007decbb722c3a8fe9deb6a",
+  "sourceSha256": {
+    "Assets/Recovery/Scripts/RecoveryForestClient.cs": "c707e9e95ed57d1840202a80e9dbc7753eb7ec90686603e1c302d2b46ba1a01b",
+    "Assets/Recovery/Scripts/AutoUpgrade_UI.cs": "6be6f155091a034fff56ad9077e9d2f0b093abf53a11334282916300f04e533a",
+    "Assets/Recovery/Scripts/OriginalAutoUpgradeRules.cs": "0c597c5c9958a2e35a1079964c474a5dd4ab278baedcf0ec27dba4c071c96f15",
+    "Assets/Recovery/Scripts/RecoveryAutomaticUpgrade.cs": "e4f9beacb77ee7a71f592ab9d8cfbf6dc23d69552e029aaed9c12276d301a1bb",
+    "Assets/Recovery/Scripts/RecoveryAutomaticUpgrade.cs.meta": "9caff358cb867a2f088115db3c4d85560fe1c49760b2352a3d57161cf845448d",
+    "Assets/Recovery/Scripts/AutoUpgrade_UI.cs.meta": "be1d2fd542b2f84506d6466bcd5fa2ee71282884ea2e53a74617eb83aa6122c8",
+    "Assets/Recovery/Scripts/OriginalAutoUpgradeRules.cs.meta": "de450f1e4b2cdcab56400fadb7ed20754458f5eab683def3d6c80372e0a07f43",
+    "Assets/Recovery/Tests/PlayMode/OriginalOnboardingTests.cs": "809157ce0212855dee1255030ba25ff03e1a281a6352664f0bb33c47a526ebff",
+    "Assets/Recovery/Tests/PlayMode/OriginalAutoUpgradeTests.cs": "42830490d8ac1646528bc13da1d2070354c81afe7c5946faa966c539585b15fe",
+    "Assets/Recovery/Tests/PlayMode/OriginalAutoUpgradeTests.cs.meta": "d8508470b35e9dfddef2efc83c1c60d8700abe406b155c50f28635da291b0b44"
+  }
+}

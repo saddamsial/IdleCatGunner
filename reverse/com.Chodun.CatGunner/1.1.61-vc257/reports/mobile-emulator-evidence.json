@@ -1,0 +1,148 @@
+{
+  "device": "Independent fresh CatGunner_Recovery_R68 AVD; no user data/snapshots copied",
+  "fingerprint": "google/sdk_gphone16k_arm64/emu64a16k:17/CP31.260623.005/15817740:user/dev-keys",
+  "api": 37,
+  "release": "17",
+  "abi": "arm64-v8a",
+  "pageSize": 16384,
+  "renderer": "SwiftShader OpenGLES3; not physical phone performance",
+  "viewport": [
+    1080,
+    2400
+  ],
+  "apkSha256": "c3dad45a2061ac8ea12ec8972edaec46659c118ca7ae231abc887f6a9e516945",
+  "installed": true,
+  "coldLaunch": true,
+  "automaticCombat": true,
+  "visibleDamageAndCash": true,
+  "naturalFirstChallenge": {
+    "baseDiamonds": 30,
+    "remainingSecondsVisible": 4,
+    "adTotal": 120,
+    "noStateInjection": true
+  },
+  "realInput": "ADB touchscreen taps/holds and drag; initial immersive-system prompt dismissed. Early screenshots before rendered response preserved; long holds used for deterministic software-rendered emulator input, not latency acceptance.",
+  "tutorial": {
+    "upgradeLevels": [
+      3,
+      0,
+      0
+    ],
+    "gunDrawCost": 100,
+    "drawnGun": 2,
+    "secondSlot": 2,
+    "completed": true
+  },
+  "coldReload": {
+    "Dia": 20,
+    "Upgrade_Lv": [
+      3,
+      0,
+      0
+    ],
+    "Selected_items": [
+      0,
+      2,
+      -1
+    ],
+    "SpeedRun_Stage_Now": 1,
+    "Gacha_Draw_Count": 1,
+    "TutorialCleared": true
+  },
+  "localPurchase": {
+    "sku": "autoupgrade_pack",
+    "beforeDiamonds": 20,
+    "afterDiamonds": 520,
+    "flagAfterColdReload": true,
+    "realTransactionIds": []
+  },
+  "chineseColdCacheVisible": true,
+  "secondCatVisibleWithoutMagenta": true,
+  "managedExceptions": [],
+  "notes": [
+    "D-level missing unity.ver on first launch and Burst library probe recorded in debug log; no managed exception/crash; generated Burst library and cats visibly ran",
+    "System locale changed using supported zh-Hans-CN tag; static labels refresh on cold launch. Locale menu/in-session I2 refresh not reconstructed",
+    "Player save read via adb shell in isolated app-owned external directory. run-as external read was denied and not used; failed attempt retained separately in notes",
+    "Cash/ad services are user-authorized local simulation; external FreeCash/offer-wall and backend are not recovered",
+    "Build has 181 warnings, including155 missing-script messages on unused Resources SDK/debug prefabs; active playable scene has0 missing scripts"
+  ],
+  "visuals": [
+    {
+      "path": "visual/mobile-emulator-ad-claimed.png",
+      "sha256": "caec14ea4affe6a94429101abfd7d0fccced39dcef41d60369d854a2e566baaf",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/mobile-emulator-challenge-entrance.png",
+      "sha256": "44fe18c4ed6e0676cc8b0c2f2b0f2aa19f006fbe62569f150bfb1aa561e7ab12",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/mobile-emulator-challenge-play.png",
+      "sha256": "80b9f057b205fc1d11d159978b8a519975ea690e1a5a9156f871df48b88694ca",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/mobile-emulator-challenge-result.png",
+      "sha256": "f2c4e732df5e3289f4f81d23947f22dd6520fc9e56a20acff196f038a03c3e97",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/mobile-emulator-chinese-cold.png",
+      "sha256": "e01e3762c558cd074dbc58a63d1be127db327a6d5f289777e51e28446ff8be32",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/mobile-emulator-chinese-team.png",
+      "sha256": "9fe269f55a3e41dab18f98d08bca96a4c82d96199cdc63ef8b4573e2b96fa40b",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/mobile-emulator-first-launch.png",
+      "sha256": "e7172a249511fa2b801d919d8eb5e328fd8ca7c05e23f17f51b1eb0ba6dde675",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/mobile-emulator-menu-click.png",
+      "sha256": "8c7b4821f4a777dc92868116f1f682b2bb7b7f7ff7c7c9ecb492a2a410b11055",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/mobile-emulator-purchase.png",
+      "sha256": "3d5ac2ee676de593028223a7f0ed0e25ffacb9082bfd539b28411ca0fd577cda",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/mobile-emulator-shop.png",
+      "sha256": "682dd417598e7b4fdac77c8995cd0feb6a879d1c95464c3157a498098812d78f",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/mobile-emulator-upgrade-confirmed.png",
+      "sha256": "324d0bab4d2692127077a508872c3f4e825d9bb2bf150ad57b8ed90d565d8792",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/mobile-emulator-upgrades.png",
+      "sha256": "d195473f33e84db426c586d897a02252993cde399ff5e7813d0b2173394fb77a",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/mobile-emulator-weapon-before.png",
+      "sha256": "8035e2187afaf47e08138b9e0ab608a6b601871ba40a11477cee57dcd6d7756d",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/mobile-emulator-weapon-drawn.png",
+      "sha256": "df6168b515f8a82c83494b98660d8658ab1242cc0251767a9486e597efc8812f",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/mobile-emulator-weapon-equipped.png",
+      "sha256": "ef6126d3f8957a5bb3a668a710f771c554aab1d4a62576850f369614e45f4204",
+      "actuallyViewed": true
+    }
+  ],
+  "physicalDeviceAcceptance": false,
+  "emulatorStopped": true
+}

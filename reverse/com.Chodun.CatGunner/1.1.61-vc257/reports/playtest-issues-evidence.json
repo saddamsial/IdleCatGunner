@@ -1,0 +1,472 @@
+{
+  "rule": 43,
+  "updatedUtc": "2026-10-11T04:39:27.062975+00:00",
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "contract": "reports/playtest-issues-contract.json",
+  "nativeEvidence": "reports/playtest-issues-native-evidence.json",
+  "sceneRestoration": "reports/playtest-issues-scene-restoration.json",
+  "preservation": {
+    "sceneIdentityPreserved": 130552,
+    "beforeObjects": 35083,
+    "afterObjects": 35255,
+    "newObjects": 172,
+    "originalMaterialsPreserved": [
+      {
+        "asset": "Assets/Material/Sprite-Unlit-Default.mat",
+        "sha256": "ac9cd8a567e41f0f4da027ddf2d3bf553befc47c60db456d37853e8efb19261a",
+        "baselineSha256": "ac9cd8a567e41f0f4da027ddf2d3bf553befc47c60db456d37853e8efb19261a"
+      },
+      {
+        "asset": "Assets/Material/glow1_ADD.mat",
+        "sha256": "12d342e33368db5967bacdae6986876cb7071ec37d257577927832b2b6782e6b",
+        "baselineSha256": "12d342e33368db5967bacdae6986876cb7071ec37d257577927832b2b6782e6b"
+      },
+      {
+        "asset": "Assets/Material/glow1_Alpha.mat",
+        "sha256": "5b41dcdebd968f77c4aed7bd7188bd8b9a932ae97297dc0712401ddbf9555210",
+        "baselineSha256": "5b41dcdebd968f77c4aed7bd7188bd8b9a932ae97297dc0712401ddbf9555210"
+      },
+      {
+        "asset": "Assets/Material/ice_spikes_ADD 1.mat",
+        "sha256": "4ec0f5b6705b8074706c8358f1b3588779c8ff0207d6e6ee782527b25848f814",
+        "baselineSha256": "4ec0f5b6705b8074706c8358f1b3588779c8ff0207d6e6ee782527b25848f814"
+      },
+      {
+        "asset": "Assets/Material/magic_line_ADD.mat",
+        "sha256": "5722b367360fda638b416ecda1dcda4c238b6f426f30519889c3c2ef63d712fa",
+        "baselineSha256": "5722b367360fda638b416ecda1dcda4c238b6f426f30519889c3c2ef63d712fa"
+      },
+      {
+        "asset": "Assets/Material/magic_orb2_ADD.mat",
+        "sha256": "ef70520386e4e9c7cf5b4b7778bd06eb650e08178c77b738b563739441e0f198",
+        "baselineSha256": "ef70520386e4e9c7cf5b4b7778bd06eb650e08178c77b738b563739441e0f198"
+      }
+    ],
+    "immutableInputs": [
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/assetripper-baseline/ExportedProject/Assets/Scenes/Main.unity",
+        "sha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+        "expectedSha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/base/assets/bin/Data/Managed/Metadata/global-metadata.dat",
+        "sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+        "expectedSha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884"
+      }
+    ],
+    "userMainAndBackupUnchanged": true,
+    "userSaveHashes": [
+      {
+        "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json",
+        "sha256": "3e35e03edb6ec9af2fd766fb84e894093d942772e4b50f7687faba6a3e7106b0",
+        "currentSha256": "3e35e03edb6ec9af2fd766fb84e894093d942772e4b50f7687faba6a3e7106b0"
+      },
+      {
+        "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json.bak",
+        "sha256": "ef1e1c0d75505343cb9cdd210386f0c68821fa7bc8493dee6749835c80f2a313",
+        "currentSha256": "ef1e1c0d75505343cb9cdd210386f0c68821fa7bc8493dee6749835c80f2a313"
+      }
+    ],
+    "sceneSha256": "ee7fcdfcc73343fa87edac777006550e1cf48d5fe0b672e415b190980ac909b7",
+    "boundOriginalPurchaseButtons": 73,
+    "unintegratedOriginalPurchaseBranches": [
+      "Canvas/SafeArea/Ads_Remove (Forced)/Remove Ads (Force) Popup/Remove Ads Fored (Inapp)/Remove_AD_Forced",
+      "Canvas/Buff_manager/Buff_UI/InApp & FREECASH/BuffPack (Inapp)/BuffPack",
+      "Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack",
+      "Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)",
+      "Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)",
+      "Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)",
+      "Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)"
+    ],
+    "inputPackage": "com.Chodun.CatGunner 1.1.61 vc257",
+    "realPayment": false
+  },
+  "tests": [
+    {
+      "report": "reports/playtest-issues-playmode-accepted.json",
+      "summary": {
+        "total": 15,
+        "passed": 15,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "durationSeconds": 58.27,
+      "completeIndependentBatch": true
+    },
+    {
+      "report": "reports/playtest-issues-auto-upgrade-regression.json",
+      "summary": {
+        "total": 17,
+        "passed": 17,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "durationSeconds": 63.03,
+      "completeIndependentBatch": true
+    },
+    {
+      "report": "reports/playtest-issues-startup-regression.json",
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "durationSeconds": 25.8,
+      "completeIndependentBatch": true
+    },
+    {
+      "report": "reports/playtest-issues-progression-regression.json",
+      "summary": {
+        "total": 8,
+        "passed": 8,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "durationSeconds": 18.07,
+      "completeIndependentBatch": true
+    }
+  ],
+  "testBatchBoundary": "Four separate completed independent batches; not one full-suite run.",
+  "history": [
+    "reports/playtest-issues-test-infrastructure-attempt1.json",
+    "reports/playtest-issues-test-results-attempt2.json",
+    "reports/playtest-issues-test-results-attempt3.json"
+  ],
+  "historyNote": "Test runner startup failed before tests. Two 12/13 batches identified an offscreen click fixture and Dictionary serialization loss. Serializable list and cold reload/codec tests passed in the final 15/15 batch.",
+  "editorHandoff": {
+    "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+    "dirty": false,
+    "playing": false,
+    "compiling": false,
+    "updating": false,
+    "testHostFolder": "",
+    "objects": 35255,
+    "missingScripts": 0,
+    "persist": true,
+    "saveFolderOverride": null,
+    "localRewardedAdDefault": true,
+    "earlyWeaponAdPreview": true,
+    "localPurchaseSimulation": true,
+    "stores": [
+      {
+        "shopBound": true,
+        "shopActive": false
+      }
+    ],
+    "automaticUpgradeBound": true,
+    "autoPopupBound": true,
+    "autoHud": 1,
+    "autoDisabled": false,
+    "offlineBound": true,
+    "offlineMaxSeconds": 28800.0,
+    "inputOverrides": 0,
+    "mouseFixtures": 0,
+    "timeScale": 1.0,
+    "buildScenes": [
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredBullets.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForest.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestHUD.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestProgress.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredJoystick.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredSettings.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredTarget.unity",
+        "enabled": true
+      }
+    ]
+  },
+  "finalConsole": {
+    "sampledUtc": "2026-10-11T04:38:41.065147Z",
+    "ageMs": 229,
+    "compilationFailed": false,
+    "compiling": false,
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "consoleLogs": 0,
+    "seeded": true
+  },
+  "toolTimeoutDiagnostic": "reports/playtest-issues-handoff-tool-timeouts.json",
+  "gpuImages": [
+    {
+      "path": "reports/visual/playtest-issues-weapon-ad-gpu.png",
+      "sha256": "0460f11b353780af45e97d8dc8c872a43189e7470ec39d423dc7466ba2848022",
+      "manuallyViewed": true
+    },
+    {
+      "path": "reports/visual/playtest-issues-three-cats-gpu.png",
+      "sha256": "e0d4ea0b80e8aa70dbd05ad84479ae922302436f926572bf563d9959d436ba1d",
+      "manuallyViewed": true
+    },
+    {
+      "path": "reports/visual/playtest-issues-mission-progress-gpu.png",
+      "sha256": "c7be02cc1ad4b5a88f3dd5694953dc9283b49bfe4fe9c9dbdadb4a6bbe1c8dd0",
+      "manuallyViewed": true
+    },
+    {
+      "path": "reports/visual/playtest-issues-shop-offer-gpu.png",
+      "sha256": "5003237bd07722b4fe8a40e42ba46db29c3556c2a1dcb7b3db42d730318d68ce",
+      "manuallyViewed": true
+    },
+    {
+      "path": "reports/visual/playtest-issues-purchase-success-gpu.png",
+      "sha256": "623007cd93802e3f3bdd4288b7134468caf5ce077b34cb57c035a5f76b11a74d",
+      "manuallyViewed": true
+    }
+  ],
+  "earlyAdPreview": "Explicit local stage-gate bypass only; native gate retained when disabled. Daily and inventory gates remain.",
+  "payment": "User-authorized local simulation only. Original receipts, transaction IDs and purchase histories untouched. No real money charged.",
+  "purchaseRecord": "Serializable Recovery_SimulatedPurchases list; codec/cold reload verified.",
+  "pending": [
+    "Paid helper gameplay",
+    "PlusPack Time/Reward extra consumers",
+    "StepUp original popup/offer lifecycle",
+    "Pig full accumulation UI",
+    "Original shader equivalence, complete game, production services and phone acceptance"
+  ],
+  "sourceHashes": {
+    "Assets/Recovery/Scripts/OriginalSafeInventory.cs": "d108cbcc7118bb06860a208bb7a197e462cead2c2aece0c3dbc1890ab2627707",
+    "Assets/Recovery/Scripts/Adventure_Info.cs": "a11e9e6beb09e110720dd03407e87dc5de8eb39340ec9d3adad9a374ccdc9413",
+    "Assets/Recovery/Scripts/New_Fish_UI.cs": "31075e26c119d144de4ff78fcaf92d63c969d5cb343ee7f581825936989a0630",
+    "Assets/Recovery/Scripts/RecoveryAdventurePreview.cs": "c26ae935c551c0a3bdf73b7772437e9266d0978f4e060cd94b28deda49e32ba1",
+    "Assets/Recovery/Scripts/FXThrottle.cs": "03e8387459c5377443fcc6bf9a59810ebedb011dc7d0a828117e7c618f874179",
+    "Assets/Recovery/Scripts/OriginalSpeedRunLayout.cs": "034b47704515fe28a3053c492fe1600cb7f0497148de3edc3f9769ad2e4db540",
+    "Assets/Recovery/Scripts/Fish_DeleteZone.cs": "9504e53bfef98f89a99b87b9bd6c4e7396a528263cc2e4750aec2d5ab9882b7d",
+    "Assets/Recovery/Scripts/Pet_Dummy.cs": "052904cdf1b5c0ce08d3b2ee9c90ab446bdbd5685fc449d8db293f1731d07dae",
+    "Assets/Recovery/Scripts/Cat.cs": "2bbb8c224f09d8e3d103fec0d61294f75f51f01555f2493ed703630f8db5ec86",
+    "Assets/Recovery/Scripts/Adventure_Pet_Slot.cs": "c0d828102094ac7bd33be8aa13a106b1a163426f8b1c5646a3539933252c870e",
+    "Assets/Recovery/Scripts/Adventure_Exit_Panel.cs": "bb3f68e9c75c95291afcc720847bd6dcafb947ef4009c6558a66696483ad9d1a",
+    "Assets/Recovery/Scripts/Relic_manager.cs": "c302b9d4d7aeaded54d4789a111b6cee3454804d80d766c706f95d1e4b91719b",
+    "Assets/Recovery/Scripts/Rebirth_Upgrade_Item.cs": "f3b10e25bac5f82982b35fa8cf9b3d4e82aea38a497e0048a9d8223e9e75bc4b",
+    "Assets/Recovery/Scripts/DailyGun_Item.cs": "ceaa3420a98e32b4540f8e4b4ec45ab233b2cbe1294ac6e2a93403672d2b67e0",
+    "Assets/Recovery/Scripts/Mine_Slider.cs": "801d20a5520e2ed4164153536750edb0b9167a64da0f46adfe00e26e296e9694",
+    "Assets/Recovery/Scripts/RecoveryStarSuccessFeedback.cs": "99dbdb7a4f7f98a55de93362385f15287c71c693cd7427a04ed09d895c686dc4",
+    "Assets/Recovery/Scripts/OriginalRelicRules.cs": "48284e6f70eebc0b7b46d3727e061d5445b12bce3fd40f0727f08abb3bd0aaa2",
+    "Assets/Recovery/Scripts/Pet_Slot.cs": "ee9b83d8e9e0b42d75ba6aa66410f9104471c82d0f9395474bd2db4ed647a021",
+    "Assets/Recovery/Scripts/Mission_UI.cs": "1b03d11e2101175600c818cb64bf6fef569d8d3e276f436c689adb917fba620e",
+    "Assets/Recovery/Scripts/Safe_Slot.cs": "ce4d06f48bc160f73190018c369dd96d79626730f611da7b1f4ba79e2d64c544",
+    "Assets/Recovery/Scripts/Tree_SpeedRun.cs": "1c2c8afa70b5d0df09bf51255a78298b9d055ba54938deb044ffb143259c4525",
+    "Assets/Recovery/Scripts/Adventure_Ticket_UI.cs": "9298a6b33545b1f7fa935cac0b54e42d32e5faf41ab4ae0d98ad00f44fe10222",
+    "Assets/Recovery/Scripts/Boss.cs": "b207ae415a41c256a48d41db674d211b422ba65a489c096f384a2753d7c28829",
+    "Assets/Recovery/Scripts/Mission_Item_UI.cs": "b2166562a7063f8394158b26f9ce401b61acb235ceec68fc973cf1c2cade825c",
+    "Assets/Recovery/Scripts/Raid_Start_UI.cs": "c19d5474273f0a48fd9d377d50a471f40feaa0f77ec463f127c3abc06f7d1709",
+    "Assets/Recovery/Scripts/AutoUpgrade_UI.cs": "6be6f155091a034fff56ad9077e9d2f0b093abf53a11334282916300f04e533a",
+    "Assets/Recovery/Scripts/Gun_Info_UI.cs": "9702d6fe641af356b62f30b955b03667692c0f3374682459b981c620c34c31e4",
+    "Assets/Recovery/Scripts/OriginalBalanceCatalogue.cs": "e2aea0848ce0878e5d7f63f94840e2db045aaaa49517ed1ee0b73ff587f747d0",
+    "Assets/Recovery/Scripts/SpriteFill.cs": "7b7754b0360934d5e1e6c6095017ffff11205d71e0d7c38ac98c77520e3a3e48",
+    "Assets/Recovery/Scripts/OriginalStarRules.cs": "5f649ef6fc8b23e05b22a227dde3afe875abd4c77f4ca73a63b40a612c2a1e0b",
+    "Assets/Recovery/Scripts/Mute_Panel.cs": "4effae83d72d28433894613d8275b1f4651a383e80b7a2ec6b353f50365095b3",
+    "Assets/Recovery/Scripts/Raid_GunSelect_Panel.cs": "73424647252cfbde09c9ac22ff1c9fcb0aea1322e956a78ede540ff7bb30bdb9",
+    "Assets/Recovery/Scripts/Monster_Game_Slider.cs": "9a9aea42e969f0378d1aea2e46db04381d7fd2f6e4da3d1f4c251446393adbcb",
+    "Assets/Recovery/Scripts/Offline_Panel_UI.cs": "a3531770a788b5e0630eea518c8afcdcb948fc13fe07c419e9ab19f5ae2e9ea2",
+    "Assets/Recovery/Scripts/OriginalAutoUpgradeRules.cs": "0c597c5c9958a2e35a1079964c474a5dd4ab278baedcf0ec27dba4c071c96f15",
+    "Assets/Recovery/Scripts/OriginalAdventureRules.cs": "1a5571b1c2bba554e3a87f89840ba178f6fc97fb59ff33aec143648aac844623",
+    "Assets/Recovery/Scripts/BarrierCollider.cs": "52d791cdc7b31495eda550ca348b118d3ed513f2f2825d4d93636aef266437dd",
+    "Assets/Recovery/Scripts/RecoveryLocalStore.cs": "233e83f850acd3be1f9a053afa675c481d66a3b85b6941e4b577ef705e7c8d3b",
+    "Assets/Recovery/Scripts/OriginalDiamondReward.cs": "0174e58778acedaaefeaa4b28279639f7dc202a97b00cff82581ea6dc140d267",
+    "Assets/Recovery/Scripts/RecoveryDiamondParticles.cs": "d74429d450dfea418a2b3ee5fae23b65edb1ce8883fdb3e29c11f928411decb2",
+    "Assets/Recovery/Scripts/Pet_Item_List.cs": "03746bdeba49ad0e2e74a710de9d65b09bfee315ae500a57840c21909534cef0",
+    "Assets/Recovery/Scripts/WeeklyShop.cs": "f68a966b2a3a356a438947584ade6b993920b5d34c854d9b397cece4f87538d0",
+    "Assets/Recovery/Scripts/ForestCombatAcceptance.cs": "4016907d5d98e57fb92102a035449e708bd1486a390e2672a38216cc067f8561",
+    "Assets/Recovery/Scripts/Setting.cs": "bbe4793c4d67c218ba23f4a3b4d1500df7a37f0ff37082be056ade0fa0a04d03",
+    "Assets/Recovery/Scripts/OriginalEquipmentCatalogue.cs": "7df1411fefd7f82f944245f2352f5beb2c362d2c84f8e7a8bc4367d7675ed49b",
+    "Assets/Recovery/Scripts/OriginalProgressionCatalogue.cs": "771d2e689fe0bb4b196cad74f904a8fdeb4d2c81a1614e50ad0b4eafee61db76",
+    "Assets/Recovery/Scripts/RecoveryAutomaticUpgrade.cs": "e4f9beacb77ee7a71f592ab9d8cfbf6dc23d69552e029aaed9c12276d301a1bb",
+    "Assets/Recovery/Scripts/Skin_Item_UI.cs": "c2221920bdd5b7be73d7b1417e42fdd24123bc13085fae1023a818abc1f740bf",
+    "Assets/Recovery/Scripts/DailyCheck_Reward.cs": "5e2b5eeb8cd7402fcbdd3863e177ab4ac593a66e07570abfaeafe675b95e3d72",
+    "Assets/Recovery/Scripts/EnemyColl.cs": "4587b58c576741fa1ad0e731cc11cf29ba37906d6fb9e7b911e5c1eaca0edef4",
+    "Assets/Recovery/Scripts/Adventure_Reward_popup.cs": "ec8e62475328050b046f1b9fa60b9d81b370938dfb24f763d2f8fee4a4581a68",
+    "Assets/Recovery/Scripts/Rebirth_FX.cs": "7849e8b471213e6fc64d0bfb285da430b99970204587d03ad3aca37289512fe0",
+    "Assets/Recovery/Scripts/OriginalLocalPurchases.cs": "c7111d78e17c94b1489d5ae109dd121d8e5acfa80301d1444e74b1b811d2b6c2",
+    "Assets/Recovery/Scripts/Cat_manager.cs": "67bfd95727affcd94232ec871c29d94b8efc32f7f6896784bd37fea0df5e3e76",
+    "Assets/Recovery/Scripts/Tree_manager.cs": "0cffb0c72a93d7671abd213ffb8c9d695411650b794b07a48adc66dfb32c8d9e",
+    "Assets/Recovery/Scripts/Safe_manager.cs": "8aee373f43e14a5d3efcbeaebb12a4c3a3496bff6964607957e21c1962b9f56f",
+    "Assets/Recovery/Scripts/Relic_DrawMode_Btn.cs": "8c5e3ff032091fb510e25917c821767617e928202e953c9b0dec61e35b6c7bb2",
+    "Assets/Recovery/Scripts/Hatch.cs": "038fb5678007444f3a55ca5c28791040d532b9c933d7f9139dc08f247e5aa82a",
+    "Assets/Recovery/Scripts/Fish_Tank.cs": "d3a6fb001a60b91203ca146de8a5fbd45a6a04f60d9d1cf2a2867890b46fa9fb",
+    "Assets/Recovery/Scripts/Skin_Info_UI.cs": "dd1f2d6a9df7d48c708b87b93c8765b663cc8ba7695c490a74ac2340d89baf67",
+    "Assets/Recovery/Scripts/Menu_Btn.cs": "aa1078401c2e11fd3c1336d228fb8f8ba1ea78f968616619fd7473dc7d850224",
+    "Assets/Recovery/Scripts/SpeedRun_manager.cs": "31994f0f4a9775eec94cdfb09992d98298b606f5606b5e70068eabd88e44e9f2",
+    "Assets/Recovery/Scripts/Bullet_Mesh.cs": "1f9a47d8f62f3c69213d62a1945a6ad75fed5c474650c349237cedd976cc75b2",
+    "Assets/Recovery/Scripts/Gun_Info.cs": "661d9698005d58c633febe8833cadd4770bca759c3c3157da381dd22078be9bd",
+    "Assets/Recovery/Scripts/Fish_Info.cs": "919ec83d35299ed48b94d214c2c401d759e6942c75066d8a429e2605aca06a4e",
+    "Assets/Recovery/Scripts/Currency_PetCoin.cs": "48982ffa9a6b4460023c3ed3acb1f792cce33dca51965f2e40c9c6b2c00ebc49",
+    "Assets/Recovery/Scripts/RecoveryLocalPurchaseButton.cs": "7905a6667bcc775b53acefe2d9630f468c15f53d06843032a6d023450b86bee7",
+    "Assets/Recovery/Scripts/Tree.cs": "1490c731907d25ff0b99d52f9b4002189476fc4edc1880609470dcad442f6a31",
+    "Assets/Recovery/Scripts/Fish_Info_UI.cs": "96d35808410f97484614691d6598eef27364cbcf495e52622555bdb382ddf74f",
+    "Assets/Recovery/Scripts/Particle_Polling.cs": "e8bdd6e500bcf945107e439c564d1b108f86fd20ad3690596469fc603f77b37f",
+    "Assets/Recovery/Scripts/Raid_manager.cs": "39305e4d216a9d73cad01a539beb87b9577695e6557921881ab25a523239a4cb",
+    "Assets/Recovery/Scripts/GameSlider.cs": "4d1406264f7b210811c9fe90c119411e469a4d8e80ed7dba2c21ac9eebdae12d",
+    "Assets/Recovery/Scripts/Skin_info.cs": "5c820bd052d61a01595f2b2279433394e73b6ed68d47b76cda2a693a9b6868ab",
+    "Assets/Recovery/Scripts/Gun.cs": "c41979f619cbac5559308d69ad1cf71637eb1ed28d6848a91e87dd3204edb396",
+    "Assets/Recovery/Scripts/DamageTextAnimationSetting.cs": "49e54d92634045398311f4207c9267e1592ef15fa713e2eed81583148b83a5c2",
+    "Assets/Recovery/Scripts/Pet_Ingame_manager.cs": "19487b56cd3b08fd7bfb48d60cfb596dd147f70a53abe4ac82b678368af54747",
+    "Assets/Recovery/Scripts/Content_Type.cs": "942d7d276ee7f32ac66513860abca827ffe83eaabb26a93f6352a06bf1547ed3",
+    "Assets/Recovery/Scripts/StarUpgrade_manager.cs": "9c9aeb15fc3d97c9760380cf072ccb6075ca1f09e63f794315d243d9661146f3",
+    "Assets/Recovery/Scripts/RecoveryWeeklyUiTween.cs": "1315249f7a020f13eeccffc263c0e025d7970b7c9c339b780f8983ffdc2e734a",
+    "Assets/Recovery/Scripts/Raid_GunSelect_item.cs": "20799ca0d647e9cbc4161c9a3d3aaf7b7e16926476cfd3f34c7adc5df3c80f02",
+    "Assets/Recovery/Scripts/Mission_Reward_Item.cs": "5e924c4fe7379d953b4b70dd1f938bbd913aebff23abeb535fa31271b9feeaf2",
+    "Assets/Recovery/Scripts/OriginalForestRules.cs": "8c4cdc3805c0657fc4cdb0706000790eea17c1e4b64bb8d8b088e5264cdf3c09",
+    "Assets/Recovery/Scripts/GunType.cs": "e97f1ca3fe5c199da94ca8e8d9aea2955fe41181ece9bc6d049438aa8aad34c7",
+    "Assets/Recovery/Scripts/Bounce_Custom.cs": "a424b59e0815fe3d6fb84fced1c589214ad8b4161fc0d0c50a99b7e643f220b3",
+    "Assets/Recovery/Scripts/OriginalRaidRules.cs": "a33354aa356c6f51bad1622fc895c96330d8df276c6659df8323e9c327b07265",
+    "Assets/Recovery/Scripts/Adventure_Map_item.cs": "5113b8d80e3f103aa5a85f4427666aa4152aaa5a9adf0e61acd7c0274fdeb45d",
+    "Assets/Recovery/Scripts/Pet_Info_UI.cs": "db86a0686b8af4d0e15328b0840e5610cd491c4999f06a2c5d0cd907accebd4c",
+    "Assets/Recovery/Scripts/Pet.cs": "021c7e029413d495b3b3faf209b7e5292ad105c3638d89d098ed8c9571c733fb",
+    "Assets/Recovery/Scripts/Bounce_Position.cs": "bd5aa6746aed09e1072e6c00b1e812b35f51c86cdcac3157b69f97889d6b748e",
+    "Assets/Recovery/Scripts/Destroy.cs": "f9820efb2bc53fdfb70c0bbc6ac5076386468dfd801acacaec0e1ed8d80d5beb",
+    "Assets/Recovery/Scripts/SlicedFilledImage.cs": "a7f84261b7973f0e33fde1b1ce4e477d01ea82ca9c6bae5422e932684e5de1a5",
+    "Assets/Recovery/Scripts/Raid_Boss.cs": "9ea305a31a8babf44310087bc6a17037f41078f322ed571c525adeebe7fd16c7",
+    "Assets/Recovery/Scripts/DailyGun_popup.cs": "d396dae0dba3062f04420c0c3e36eee8e18016b4b434cdf18c27ce138472413f",
+    "Assets/Recovery/Scripts/Follow.cs": "de2fda9799c494c68068565072b3f30c8b906cf6ed8c3fe47ae0f6f808fd522c",
+    "Assets/Recovery/Scripts/Gun_Item_Demo.cs": "4ea1678c7681d7fc373183bdde62a788ec27cca715985517e3fe3ae0b474f622",
+    "Assets/Recovery/Scripts/RecoveryTutorialPulse.cs": "5db9e4c12699527463d998297b8143a8a964f72a716cf21a58188d674a44af9e",
+    "Assets/Recovery/Scripts/OriginalSaveData.cs": "816c3cd7bd544c3afef1883e4dee23b69a18825f5164096e019946155000404f",
+    "Assets/Recovery/Scripts/OriginalMineTickets.cs": "5aefeba9cc509dc6322899cbf559620d205ee6c82d8ab7735a9e8c6378268070",
+    "Assets/Recovery/Scripts/CatCombat.cs": "f56a01b35fc3b486a2fe432f8c743000a4bf0e8b421c6b2911b7fa19880e04ff",
+    "Assets/Recovery/Scripts/Dia_Attraction.cs": "2bf427c2e42361678687445c669167763870f172e5971e83c951c80235d15e71",
+    "Assets/Recovery/Scripts/Gun_Item.cs": "086bcee5c94e7c84d442677f766692383c16e2e18c34409433a8ee31d38592ee",
+    "Assets/Recovery/Scripts/Fish_Item.cs": "de09f2f45e03e6996e6b27a27cbd80cdb3e6342995a0431c437f98a495a0edc6",
+    "Assets/Recovery/Scripts/RecoveryRewardFeedback.cs": "6aed79e41c744d6477c95e5ed0431b6f80f3126871407ad4bd58307dad39e2da",
+    "Assets/Recovery/Scripts/Rebirth_Panel_UI.cs": "9ab04ccb8233e2b2781de122088b3dbc9220a63b66ba6fff58c43ebaa521f610",
+    "Assets/Recovery/Scripts/Pet_manager.cs": "c3ee66a3fbe7dc6b35797ba66435faae57972175bed9a0bd5920d628150f7e69",
+    "Assets/Recovery/Scripts/Mine_Start_UI.cs": "1340aa59d56559f3898cba123cf8b34f7b8554fd1e9666a27bf77fffcc592d69",
+    "Assets/Recovery/Scripts/Contents_Unlock_manager.cs": "b4d00d42e99327409f5abd14d5f7e364b1059520022f83db81ad4ef1d00942c2",
+    "Assets/Recovery/Scripts/RecoveryForestClient.cs": "fee4c9af424cf9602e50f3efe92afddc8eef02aacfd2311badd2fbd1db0496f8",
+    "Assets/Recovery/Scripts/Relic_Item.cs": "78bdb1d6ccc5fb47ff19c7bbf2eba3f505d9dc6508ec50a86e608af259e136d1",
+    "Assets/Recovery/Scripts/Raid_GunSlot.cs": "763375b5854ed29c8c2474ef42ade64def75c095645929b4e42db653cb3cde26",
+    "Assets/Recovery/Scripts/OriginalSaveArchive.cs": "9a2193ff6e138fac72b95b855e0cd54439bd1c92374b9a64be51285ccafddc87",
+    "Assets/Recovery/Scripts/Gun_Item_List.cs": "64a00439979cdfbd829955bb1746b136f8720501d0e18d98626a805ac91fe540",
+    "Assets/Recovery/Scripts/Ore.cs": "66e388780b2d36557d4f8c11129008cde53b88b9df1fc117c25fd9ecfdd3ba8d",
+    "Assets/Recovery/Scripts/Upgrade_Ingame.cs": "8b8b582562c5f33692fce3b09f2feb270730fa56b8f2cb3b1dbba527dd2d4678",
+    "Assets/Recovery/Scripts/Monster_manager.cs": "d430b8b622c817187cb078cd89801d1475e63b3a66d6486b0761283c6ab212fd",
+    "Assets/Recovery/Scripts/CatMissile.cs": "d37abb0acd755510760a67764d0ece81b78669ce0efb62acb0fcdb0fcec5df87",
+    "Assets/Recovery/Scripts/RecoveryEcoTween.cs": "0af2540f89f2e57e46370a50072644a625a1798ac8684f0aa451d3fc8e76e1a8",
+    "Assets/Recovery/Scripts/OnOff.cs": "74d09ea5b03d819f43cebb4fbbb1d391ff6d21c4244f79f3080999c1fa2bb678",
+    "Assets/Recovery/Scripts/OriginalMonsterRules.cs": "f09eedcc40fc1c0d52838a17d47b359cfad599195d83b292715a14805afdaa07",
+    "Assets/Recovery/Scripts/Currency.cs": "ce5936c277c681fd827710e353295f72e66ff47de2504521f46c72ecec382a68",
+    "Assets/Recovery/Scripts/Monster_Start_UI.cs": "de7ab63ab35434e2923c26bf6f46b9a7d7512851e1797fbfdfcc03b87fdc6038",
+    "Assets/Recovery/Scripts/Scrolling.cs": "3e96b6b163316e8f145b614e7fa39cc592b0420fd29afa4f6e3dd374ea65cdba",
+    "Assets/Recovery/Scripts/SpeedRun_Start_UI.cs": "0f1b1cc97f2f84396f3b055ed3c79cd57f692564afbfcb534f14873fce8fbeb0",
+    "Assets/Recovery/Scripts/NewGun_UI.cs": "0c53fcd997e4ca4d42ddce67105f9c6dd1eab7c0c2cb657cedd53f95b870010c",
+    "Assets/Recovery/Scripts/Raid_Mission_manager.cs": "8896b013a7f79b5a5a0890b4223c2f213605eda76887f97bc52e6d8acb8339b0",
+    "Assets/Recovery/Scripts/Boss_Start_UI.cs": "4802f5f0d95ba5e7e5ac35505779c7ccbcbcf715851d1a6c91103e79a48a7f95",
+    "Assets/Recovery/Scripts/ForestRuntimeAcceptance.cs": "91a3512677dccd3407d6e93cb721f2cd08e08f4a17b8b8fda1ab8121fec9ce50",
+    "Assets/Recovery/Scripts/Skin_manager.cs": "56a2488c631645fcc527087cec138ef70b8f1b0d355ff22d5664b0974cb0c58e",
+    "Assets/Recovery/Scripts/OfflineProgressManager.cs": "161b9eac8fe34aba412d36afd6a182f76b823d44b8f69c353d6a80a43fdb9a1c",
+    "Assets/Recovery/Scripts/StarUpgrade_popup.cs": "7cea28b56e1ac6049cd0ca788af676bf81f09637a3df475426ad386ecbf85d58",
+    "Assets/Recovery/Scripts/Boss_manager.cs": "6dbb1957d4140418f0b7a1c72f8f49360824cef014a3f749bc43f768835857fd",
+    "Assets/Recovery/Scripts/Relic_Info.cs": "88905a55348d72e938db7ed3dac1c8a8dea818d3ed85bd6a21bae20eadb7dc63",
+    "Assets/Recovery/Scripts/Dia_Attraction_Target.cs": "9d9cc190ff88ee7843d4b0596d853c5af8038a9c7b6a07ea80cf6c909c42568c",
+    "Assets/Recovery/Scripts/RecoveryRewardedAds.cs": "5315f9ba18eb26c356d42107daafb1caabb4b394d4d6abd116c921da9a2ae78d",
+    "Assets/Recovery/Scripts/Adventure_Enter_popup.cs": "a0b2134dd65d1e89b19942b0ff645b617d29fc6d1497ce494acea1a6767ef9d4",
+    "Assets/Recovery/Scripts/DiaPig_UI.cs": "9de5e5de8a1d613a50bc0800629a8055d5fd6bc5902fda672aac2de2bd0f68cd",
+    "Assets/Recovery/Scripts/DailyGun.cs": "acf291c24e947d2640a2e6495b8d2566669d0118dba5b54191d74116d376b66a",
+    "Assets/Recovery/Scripts/Raid_Mission_HUD.cs": "6f68252ff9092f627a9ee25021d9bcd68d618713d80032f57140ec6edf214781",
+    "Assets/Recovery/Scripts/Adventure_PetSelect_Slot.cs": "96f4e6a8773244c62c502709c8b9c89182e2810335f148240e25283698bfbf16",
+    "Assets/Recovery/Scripts/CatMineTargeting.cs": "98cc249b95eab712520b51c3bfcddb718c44b6e5ef10abc93b7196f57c5f42d6",
+    "Assets/Recovery/Scripts/ForestMovementAcceptance.cs": "e5981411dfbbe10001bec3396945c6538e1740f60a125d63f8459e15b9d989f5",
+    "Assets/Recovery/Scripts/Enemy.cs": "a884737961b5820818a9f0067890a6f74756d76246eff09e620b8430b4cac629",
+    "Assets/Recovery/Scripts/Bullet.cs": "263206451c60faea28a2ad028c18fb7eff7d5ed47dddfef20ec9694283bf639a",
+    "Assets/Recovery/Scripts/Tree_Grid.cs": "7767e16cc2fe3c9959a7e96f07b337f7afc5af077ef4802acf35acff9f8c8146",
+    "Assets/Recovery/Scripts/Raid_Ingame_UI.cs": "5978f739de397143321cdbf5c5c2d5bf21769792fac15150fe1b454b1046a631",
+    "Assets/Recovery/Scripts/TutorialArrow_UI.cs": "a310c60d9b099915f7bd429bd9bf3aa295490ba338c5686593f4426b58a755d5",
+    "Assets/Recovery/Scripts/Gun_Merge_Tutorial.cs": "76cabc8d0b23fa5b71de287eb53db0226cbca262d868c7b2cc5dc8a5649b4284",
+    "Assets/Recovery/Scripts/Map_Grid.cs": "f2d8ecc0d58e2b51fcf9698c93e0edb52548301527823c5868f1fb92c54e0b70",
+    "Assets/Recovery/Scripts/OriginalGunInventory.cs": "176af8b746b2e7f550ac9907945dbd8962564e57d4d1141b6690aa976c70fd85",
+    "Assets/Recovery/Scripts/Pet_Item.cs": "c658d577fd1e1f5961fdc9c960f331045a3660ae5b172166bf4efc7a0edf11f5",
+    "Assets/Recovery/Scripts/Alert.cs": "15e02d332150a957354fb47f231ea6d386b909060119c52d749718fbab26526b",
+    "Assets/Recovery/Scripts/Fish_manager.cs": "d401dbeedaaaba6c1dc31cba77e43a48507f6b908f37a26183321f9cb6f769f6",
+    "Assets/Recovery/Scripts/Adventure_PetSelect_popup.cs": "1a10d3d34598ebbf164609fe0f5a11d6383f50f309c54f765eedd236bc8545cd",
+    "Assets/Recovery/Scripts/DailyCheck.cs": "6ad34c8846176496f24dddd3db140c6f2b34c866867cb18e5dc58acd1410fe20",
+    "Assets/Recovery/Scripts/Fish_Draw_Btn.cs": "488cf0d3d3173f3b0fd5fc34513f55ed72c80841caf960a3667e9262b5038d47",
+    "Assets/Recovery/Scripts/Relic_Draw_Panel.cs": "670842d5cdcfc83df8ade892c416a86081316eb642236faaf17048884d33762e",
+    "Assets/Recovery/Scripts/Pet_Item_Demo.cs": "3d272e1d98173c86fb9d9eca255cbe144269e4f5f908ca2893456e66cb6de924",
+    "Assets/Recovery/Scripts/Relic_Item_Demo.cs": "66a2f4b19331465589dc02a3a1113cf64dc4b4791c32f3c57a1c13f794c9ca42",
+    "Assets/Recovery/Scripts/CatAutoMovement.cs": "7b3ccfab173ed5bb1e91604d2c0b9ef39f162ffadadf675f662794d049cffe50",
+    "Assets/Recovery/Scripts/OriginalMineLayout.cs": "25ef39e0b2bef04a88f3e40dbfe414e64deba6a9b5c1d53ba6c5c9375d304c83",
+    "Assets/Recovery/Scripts/Disc.cs": "212a2a6ddc9ea67c445f34f0e0f4fc6fbe13067a096d1bc0fe1b42ded13bda42",
+    "Assets/Recovery/Scripts/Gun_manager.cs": "cb411a17aab5905bfe835706bb48c3387b9efdacac7a5930519ce2fbc997fbff",
+    "Assets/Recovery/Scripts/Draw_Relic_Btn.cs": "d281aad6b7766eb2070a91601a22aa30f7be932e43ce1209d85dfa170f0d3e46",
+    "Assets/Recovery/Scripts/ForestDamageDispatch.cs": "ac6d0999af5b3e687a78672ba5fdfe2738c3c428f8ea59f66a5793312371fd5c",
+    "Assets/Recovery/Scripts/OriginalPetInventory.cs": "e4c4807a10274f845b841d1db6bbb06243390bb7daf702f5939299db5c798543",
+    "Assets/Recovery/Scripts/Menu.cs": "dd809dfadac60379f07e8b607586a6019bc38d538a6ec5773ee1562fe55dd794",
+    "Assets/Recovery/Scripts/Enemy_Slider.cs": "0d2b44327f9a30a800722a5448312bbedd858f5bf5b192dde1db8e733be37b48",
+    "Assets/Recovery/Scripts/OriginalOfflineSimulation.cs": "e54a5c46d973b1b24744e421529ca364ad654bc96fb1e4355524b4091e1e7698",
+    "Assets/Recovery/Scripts/Safe_UI.cs": "512534df5670bbced0395dc6481c00621cee943bee0479e49de61b570b1c2896",
+    "Assets/Recovery/Scripts/Mission_manager.cs": "4669b15922329f7f91c56d45ec9736b584b0f97564fcedb8ad464061e87c2074",
+    "Assets/Recovery/Scripts/NewPet_UI.cs": "ff6d4c98431d1d4051de9a849b52542c77a78d20954c9a2cbdc2f5af3ce1ee8b",
+    "Assets/Recovery/Scripts/Content_Info.cs": "70b0b1cde69c00d3278810ca8bfa1205c1493d01d36db34a3a536c8b9121bb19",
+    "Assets/Recovery/Scripts/Bounce.cs": "2b5a4f9b9f084b98f60b616067b15585ffa031092f78640ebf92584ff75bc44f",
+    "Assets/Recovery/Scripts/BounceBtn.cs": "d4396a06b9ceae789b5195c4350b146105f59deff74f200a00a28900400987c0",
+    "Assets/Recovery/Scripts/BounceStart.cs": "41d24107daca221216a54a073f609e5f3faec1975e1be78a3b2972737c007543",
+    "Assets/Recovery/Scripts/CatShotgun.cs": "d948e9def46c859dd5dbc4e546583a7dc3793acf37f2b59f4254e8c105302228",
+    "Assets/Recovery/Scripts/CatMonsterMovement.cs": "0e3d0b59380080321c0c95f5aa689e5c21c1567961b61d1bd91164d9338ecdce",
+    "Assets/Recovery/Scripts/DamageTextAnimation.cs": "4864cd2b7f4d5fd457ea083161400f1401e553a9d1b7b29c6bd04f0ac30ddf51",
+    "Assets/Recovery/Scripts/OriginalMissionFeedback.cs": "380c9d54527f7801bb217c89292ed21504b19ab4ed881c0ea19561b512bc7eab",
+    "Assets/Recovery/Scripts/SFX_BtnScript.cs": "db1ca789a4c7c6109d5bb979ed90c8340c3a52ec154f031507db538484067bc6",
+    "Assets/Recovery/Scripts/RecoveryDamageTextPresenter.cs": "c1ba3315d79e9777cc0e542dc1d1a4e90778364fd46871f8ff396193552cd723",
+    "Assets/Recovery/Scripts/Adventure_Panel.cs": "affc4f7ef33c6ac2af88834eb817a6d4b3127ef39ff23f37be1b145d08e262b4",
+    "Assets/Recovery/Scripts/CatCompanions.cs": "9c028ee9d40ef678bf39fdc18051e470134586ff9bae6b5715e0d7f95735f535",
+    "Assets/Recovery/Scripts/Joystick.cs": "a7a353ef0d0875e973eb50fdf9066ec136d6bbffcba1aa8b96af4b832bb70aae",
+    "Assets/Recovery/Scripts/OriginalRebirth.cs": "0714366e95378a614d5f9a9109e9ccbbf5418bb1fc7cac9ebdc23559caed033d",
+    "Assets/Recovery/Scripts/FloatingJoystick.cs": "4e5eb2649955aa58a5754658065f5abd74a9eeb7051648d75397e9654b8eb986",
+    "Assets/Recovery/Scripts/DiaPig.cs": "d338914ffb1e1be470e3e2e6cd5ac0455408476e87946aa663a307b2f28c1c46",
+    "Assets/Recovery/Scripts/RecoveryAutoMergeAccess.cs": "69befd815ad8c931c9e7ba10b59c86d54c501d278418f96c4857e635ce592452",
+    "Assets/Recovery/Scripts/Adventure_manager.cs": "0743037630e85b3130145e6aab0d2d79b612f59a555738ba687dc3c2b11e9867",
+    "Assets/Recovery/Scripts/Gun_Slot.cs": "7726888bddef924702f5d3a3ac92b2916f7922beeac420450cbb80f7f6fae7f6",
+    "Assets/Recovery/Scripts/Raid_Mission_Item.cs": "bbe8887f6b76c6cef66630103e642b41344b88141da35a767ed282caacceecb9",
+    "Assets/Recovery/Scripts/OriginalMissions.cs": "a671eafe0f26592ecf63b6ba050398ff8755c58efe60f759cec7ab06c85dc322",
+    "Assets/Recovery/Scripts/Raid_Mission_UI.cs": "42a7d0280c48388e8b1e1919a239abf509a8b8240aac6298e3718cb1f4c76486",
+    "Assets/Recovery/Scripts/SpeedRun_Slider.cs": "c0176ed4c6e5b5fb866fb1be54e25059b8a5772067cdb2a088c97c354edc1115",
+    "Assets/Recovery/Scripts/RecoveryRewardRotation.cs": "9c28095181942b8b111d1192c49a31e4cf7aab4b74459bf21bfd383d37b734ee",
+    "Assets/Recovery/Scripts/Sound_manager.cs": "ba830a4234a97d603a9e37500dc33a6b3fbe7baa2e98ca966d69eba37f092a12",
+    "Assets/Recovery/Scripts/Mission_Exp_Slider.cs": "c0ce606358353bc48dbb2aeed8d09e129bfad8a38a40419451f3b7b69247d259",
+    "Assets/Recovery/Scripts/Monster.cs": "bba59edf8abaf28b8e5afe7f3a0a6924be0745963746fb8a70a88e72267ff33d",
+    "Assets/Recovery/Scripts/Adventure_Map_info_item.cs": "0b8d51e2748d2bbab52670cab4c815297d00aed4aae0c130a04c83dc22ab68fa",
+    "Assets/Recovery/Scripts/Fish_DeletePopup.cs": "0b022196a49d8024a75e7d5040b5fa8eb32216903a9d34354e0ebf44ef4bb9c9",
+    "Assets/Recovery/Scripts/Boss_Slider.cs": "60af0a86dccfd3d2f9ac2cf6df2c6080d256291ef4faf303a05fb630350e8183",
+    "Assets/Recovery/Scripts/Relic_Info_UI.cs": "f224bb76a6a11b54c44881029d3389dd0a4ec122e68754f37b1b2ea1d14d92bc",
+    "Assets/Recovery/Scripts/Mine_manager.cs": "562e03c7c094042231064ce86914d61298b86307bfe8c2d422ebb2357cc68ab5",
+    "Assets/Recovery/Scripts/OriginalSkinRules.cs": "a891e592d44fa2b8b2c74e10f071d2dcc84b1a1fd3cd2dee4a7c1dc0613269fc",
+    "Assets/Recovery/Scripts/Relic_DownPanel.cs": "a8d15505cc11b62098d0854972c64c518f2c6d263e9854a6e3c39e5585ec9905",
+    "Assets/Recovery/Scripts/Mission_Reward_Slot.cs": "3e74f8dd69c75d9bd32a1c26f3c0d1e302dfc57f79fa9351c9467e707e0b3d2e",
+    "Assets/Recovery/Scripts/OriginalDiaPigCounter.cs": "3e1c38d922dee959748c6b04f86d2ec59259ed8892b029e924b39e9d0772348f",
+    "Assets/Recovery/Scripts/Polling_manager.cs": "72dfcdb13367513b077e8eb0d993e29207292d280f558ea1ad471fa8b7b7f2d2",
+    "Assets/Recovery/Scripts/Tutorial_manager.cs": "0b76c831315715be8f720de3fe7f3bef66cfda85a3031116fc1e58c3a3077be0",
+    "Assets/Recovery/Scripts/Safe_HUD.cs": "3911346f31e16743d540a1d773753b438b8b1170e5f4d074bb8aac34578ec600",
+    "Assets/Recovery/Scripts/Bullet_FX.cs": "c9fd6faf4b369b353b4d879edba3f8ce3aea9b568260a6d44cc1421098ea37c8",
+    "Assets/Recovery/Scripts/OriginalFishRules.cs": "a8631595fb7052ccbe05a9d2fa234549a059bdfd3371005a74ef251d145e3888",
+    "Assets/Recovery/Scripts/Raid_Mission_Ticket_UI.cs": "9347b0e72adb078e2821b1f25adf0137a229923ed618b87a3335a8d4312d8ea6",
+    "Assets/Recovery/Scripts/Rebirth_manager.cs": "7e80f19ad3bae690c6ac219a2b3615be05225860563c83bb3123ff66b730b58f"
+  },
+  "playerBuilt": false,
+  "deviceAcceptance": false,
+  "scopeComplete": false
+}

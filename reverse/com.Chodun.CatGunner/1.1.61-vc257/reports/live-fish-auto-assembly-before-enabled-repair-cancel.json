@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var flags=System.Reflection.BindingFlags.NonPublic|System.Reflection.BindingFlags.Static;var t=System.AppDomain.CurrentDomain.GetAssemblies().SelectMany(a=>a.GetTypes()).First(x=>x.FullName==\"Unity.Pipeline.Editor.Testing.PipelineTestRunner\");var o=t.GetField(\"m_ActiveCollector\",flags).GetValue(null);var rows=o?.GetType().GetProperty(\"Results\")?.GetValue(o);System.IO.File.WriteAllText(\"/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/live-fish-auto-assembly-before-enabled-repair-partial.json\",Newtonsoft.Json.JsonConvert.SerializeObject(new{status=\"partial_then_cancelled\",reason=\"Preserve originally disabled shared nested UI feedback components before final verification\",results=rows},Newtonsoft.Json.Formatting.Indented));var holder=typeof(UnityEditor.TestTools.TestRunner.Api.TestRunnerApi).GetProperty(\"m_testJobDataHolder\",flags).GetValue(null);var runners=(System.Collections.IEnumerable)holder.GetType().GetMethod(\"GetAllRunners\").Invoke(holder,null);foreach(var runner in runners)runner.GetType().GetMethod(\"CancelRun\").Invoke(runner,null);return t.GetMethod(\"CancelTests\",System.Reflection.BindingFlags.Public|System.Reflection.BindingFlags.Static).Invoke(null,null);"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "status": "cancelled",
+        "message": "Test run cancelled."
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

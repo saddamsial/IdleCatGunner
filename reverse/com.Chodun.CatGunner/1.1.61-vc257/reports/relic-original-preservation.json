@@ -1,0 +1,74 @@
+{
+  "script_metas": [
+    {
+      "script": "Relic_manager",
+      "guid": "d73c359952bf87bbb21f48fb636fa53a",
+      "sha256": "150a9199de52e868055c9ee61c7c344d39b9a19a5a32ac16bfb6d08e1e46baad"
+    },
+    {
+      "script": "Relic_Info_UI",
+      "guid": "b5068b2d4003622c48a320a4d96467b1",
+      "sha256": "af4c71996e28a4e6e24ec2084831a57b00a9f3de27d35e05144a75b7aa75f33e"
+    },
+    {
+      "script": "Relic_Item",
+      "guid": "563b3fda241c27e29244edb76dd9e12f",
+      "sha256": "09c72a40bb00070818651bb1a9142601329c2abd24f4cb61f9dd66b5f04673f7"
+    },
+    {
+      "script": "Relic_Item_Demo",
+      "guid": "878a73770096321810636e070bb8926d",
+      "sha256": "b5a02503d749cb7510256516596b6dcfdf6c66e7c0ac52b5551a8cea452916d8"
+    },
+    {
+      "script": "Relic_DownPanel",
+      "guid": "ec4adf265ac0a63ce2cfa04863fcdebd",
+      "sha256": "39c24df8ab857daf760c20bd4252b68ce074ba09d3e15d5e76a0079848bc4a7e"
+    },
+    {
+      "script": "Relic_DrawMode_Btn",
+      "guid": "98936ade993eb871c4812405f899e8f1",
+      "sha256": "cf490ec44be8ff9585d4e1918a6ba910fb5c03b4760a8bc245760cf598711e06"
+    },
+    {
+      "script": "Draw_Relic_Btn",
+      "guid": "4e2625375ba19b7b3c7ff989685a6c40",
+      "sha256": "71dc67ee93b9da3239028e83b425d299e650ab50398ca93b369cdfa620975a54"
+    },
+    {
+      "script": "Relic_Draw_Panel",
+      "guid": "7d72ec160b8084bfa01e968d259ce159",
+      "sha256": "843a87a2af438d0c31bb5ef108e58aa6ccfcc6c7ff0a5cca8bba5d053d7d9a19"
+    },
+    {
+      "script": "SlicedFilledImage",
+      "guid": "0b7cf346921f868015e5779873e569eb",
+      "sha256": "8c4e0557f25295fae83f8e54d346645186384d26b24e291119bf2b68ecbcf9e6"
+    },
+    {
+      "script": "BounceStart",
+      "guid": "44d57a7ffa7e29cd53d8f97735a5d485",
+      "sha256": "7def8db42f7aec29ddecb62ba534507920938f2229597658edf7763b7dbbc682"
+    }
+  ],
+  "plain_class": "Relic_Info and Core_Type/Relic_Type fields/enumerators recovered from metadata; no original MonoScript asset",
+  "original_main_sha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+  "native_sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "metadata_sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+  "working_scene_sha256_before_full": "dee88d7c782bfc0776ab058c96e4598f75895a2258a0e22381ae9cec3d996d57",
+  "checkpoint": "checkpoints/pre-relic-client",
+  "working_scene_mutations": "Unity Editor APIs; fresh Relic/RelicRepair inputs from frozen Main only",
+  "source_data": {
+    "rows": 15,
+    "Damage_Balance": 300,
+    "Money_Balance": 300,
+    "CriDmg_Balance": 300,
+    "core_sprites": 4,
+    "result_slots": 12
+  },
+  "decimal_tier_abi": "Raw values for tier0, 1.5 multiply/discard for tier1, exact2 multiply for tier2",
+  "page_count_abi": "Relic_Draw_Panel_Reload ASM at0x2b30520 FRINTP,0x2b30528 FCVTPS = ceiling, not pseudocode truncation",
+  "working_scene_sha256_after_full_and_handoff": "dee88d7c782bfc0776ab058c96e4598f75895a2258a0e22381ae9cec3d996d57",
+  "frozen_and_metas_verified_after_full": true,
+  "verified_utc": "2026-10-10T08:07:34.528158+00:00"
+}

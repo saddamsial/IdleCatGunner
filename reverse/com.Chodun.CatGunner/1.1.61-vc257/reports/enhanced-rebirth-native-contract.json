@@ -1,0 +1,331 @@
+{
+  "rule": 57,
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "nativeSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "businessMethods": 14,
+  "helpers": 6,
+  "allCompleted": true,
+  "newUniqueMethods": [
+    "0x2b882c0",
+    "0x2b88ee0",
+    "0x2b890bc",
+    "0x2b89284"
+  ],
+  "methods": [
+    {
+      "preferredVa": "0x2b87c10",
+      "ghidraVa": "0x2c87c10",
+      "end": "0x2b88058",
+      "name": "Rebirth_manager_Rebirth",
+      "first16": "ff8303d1fe5b00f9f6570ca9f44f0da9",
+      "sha256": "98b6685a0e182105dd8f48a640d1517ed37117358911d8f2b82f0b66ef61418f",
+      "outputs": {
+        "native-enhanced-rebirth-client-reviewed/Rebirth_manager_Rebirth.c": "a10d5e4c263efd461bcddb52788d03f21d0f92546feceb2fdcaf53782069d939",
+        "native-enhanced-rebirth-client-reviewed/Rebirth_manager_Rebirth.asm": "c91240e0ee75d20bcfc9bd1d789d9d5fb3a7050f1bdc6262f423979715050251"
+      }
+    },
+    {
+      "preferredVa": "0x2b882c0",
+      "ghidraVa": "0x2c882c0",
+      "end": "0x2b883a0",
+      "name": "Rebirth_manager_Today_str_return",
+      "first16": "fe0f1ef8f44f01a9b4ae0190b38e01b0",
+      "sha256": "d914e95e099a85bc2635f76f6fcd57c141cad400f42c1b0813da121034689840",
+      "outputs": {
+        "native-enhanced-rebirth-client-reviewed/Rebirth_manager_Today_str_return.c": "c5f5604bd2ce6fd539e665f175f9861fab79bbc05151cbb65ac2850d0926e3b5",
+        "native-enhanced-rebirth-client-reviewed/Rebirth_manager_Today_str_return.asm": "01518d14b01ba6a770426a5393899c4044eeae7b030459631742e3cb36dbddce"
+      }
+    },
+    {
+      "preferredVa": "0x2b883a0",
+      "ghidraVa": "0x2c883a0",
+      "end": "0x2b883f0",
+      "name": "Rebirth_manager_UpgradeRebirth_DayCheck",
+      "first16": "fe57bea9f44f01a9f30300aac5ffff97",
+      "sha256": "ab1c43cf31eeb890e1479fb441314b7b07593fd56cc8af2916b94a2dff1c10d6",
+      "outputs": {
+        "native-enhanced-rebirth-client-reviewed/Rebirth_manager_UpgradeRebirth_DayCheck.c": "c3cdf7ea6a78e35afd23b3ac2464d5552accaf1c68f76d28eb582b02342028e4",
+        "native-enhanced-rebirth-client-reviewed/Rebirth_manager_UpgradeRebirth_DayCheck.asm": "395caa31163cb1350f9fa06865af3345a028edee712726cf3679cb2e7d477b66"
+      }
+    },
+    {
+      "preferredVa": "0x2b883f0",
+      "ghidraVa": "0x2c883f0",
+      "end": "0x2b88410",
+      "name": "Rebirth_manager_UpgradeRebirth_Able_return",
+      "first16": "fe4fbfa9f30300aaeaffff97684e40b9",
+      "sha256": "266054c801b7a317ce2af24fb06e011fed82387a3afe28ddadf20af38d1a6051",
+      "outputs": {
+        "native-enhanced-rebirth-client-reviewed/Rebirth_manager_UpgradeRebirth_Able_return.c": "d99bd70fcd424eabd04fe6cf54283a8bef9dc9f587a4f6df792e2a52483e2fb0",
+        "native-enhanced-rebirth-client-reviewed/Rebirth_manager_UpgradeRebirth_Able_return.asm": "7464b35f52d2ea40fec4c265e726e80755c54d2771561f50e3bc7c2691661fb8"
+      }
+    },
+    {
+      "preferredVa": "0x2b88510",
+      "ghidraVa": "0x2c88510",
+      "end": "0x2b88590",
+      "name": "Rebirth_manager_UpgradeRebirth_Start_By_Ad",
+      "first16": "fe57bea9f44f01a9b5ae0190948e01b0",
+      "sha256": "56e2886a6aaf2693381fdab2155fa1106ecd26bc265bebd3dd167ab3c4278c6f",
+      "outputs": {
+        "native-enhanced-rebirth-client-reviewed/Rebirth_manager_UpgradeRebirth_Start_By_Ad.c": "8343a7c9a8625d45d2c00da76e49b6602e547b73eed9223b19eb537f79003418",
+        "native-enhanced-rebirth-client-reviewed/Rebirth_manager_UpgradeRebirth_Start_By_Ad.asm": "b1365eb2046fffd461fd71b033b0200f5108234a357954e0d4766c06ad65eb08"
+      }
+    },
+    {
+      "preferredVa": "0x2b88650",
+      "ghidraVa": "0x2c88650",
+      "end": "0x2b887b0",
+      "name": "Rebirth_FX_Rebirth_Start",
+      "first16": "ffc300d1fe5701a9f44f02a9b5ae0190",
+      "sha256": "01f6261153114f36c249b0de8e8aaad79d1c65ba6649f69dbc27f917b001a9f1",
+      "outputs": {
+        "native-enhanced-rebirth-client-reviewed/Rebirth_FX_Rebirth_Start.c": "cdce3d8921c3add072866a43e6f12ddc2774eb2577cf76c3b4f5d6c2465a9f1b",
+        "native-enhanced-rebirth-client-reviewed/Rebirth_FX_Rebirth_Start.asm": "2135835003028383c967feb7f18588219b4ac024252d613688e4b044c063bd66"
+      }
+    },
+    {
+      "preferredVa": "0x2b88590",
+      "ghidraVa": "0x2c88590",
+      "end": "0x2b88594",
+      "name": "Rebirth_FX_Rebirth_Start_By_Ad",
+      "first16": "f7000014fe57bea9f44f01a9b4ae0190",
+      "sha256": "2ac87a62548f925c5c845255fd0374ec63f6b228cc68e5e2e0efc61b473fd88a",
+      "outputs": {
+        "native-enhanced-rebirth-client-reviewed/Rebirth_FX_Rebirth_Start_By_Ad.c": "b32c9bec7f31d3b26ca85a1527469f78cf45a3c089c7bf531f600728ff54093e",
+        "native-enhanced-rebirth-client-reviewed/Rebirth_FX_Rebirth_Start_By_Ad.asm": "3b37e809a7c4752c951b259c1554e7485e5661f13fb5225e03c39e4a6ba93c16"
+      }
+    },
+    {
+      "preferredVa": "0x2b8896c",
+      "ghidraVa": "0x2c8896c",
+      "end": "0x2b88a30",
+      "name": "Rebirth_FX_Start_Internal",
+      "first16": "fe57bea9f44f01a9b5ae0190b48e01b0",
+      "sha256": "d6277d9a8ae5215dc1be31302e78d937b8173ddee756ff87c5b11a66376111e9",
+      "outputs": {
+        "native-enhanced-rebirth-client-reviewed/Rebirth_FX_Start_Internal.c": "fbe1398207a2ea059fd8095534260ca95cec148b50240c368e7fa9b991e56ec5",
+        "native-enhanced-rebirth-client-reviewed/Rebirth_FX_Start_Internal.asm": "836d04580c37b9b64c52c98d85f98aafd9eecfe45bdc4be5abb9cebe9841d02c"
+      }
+    },
+    {
+      "preferredVa": "0x2b88a30",
+      "ghidraVa": "0x2c88a30",
+      "end": "0x2b88adc",
+      "name": "Rebirth_FX_Rebirth",
+      "first16": "fe57bea9f44f01a9b4ae0190b58e01b0",
+      "sha256": "58e14082afe059f13809c268a900dfa85a71d337c8d1068aaf9814d91b3ebea9",
+      "outputs": {
+        "native-enhanced-rebirth-client-reviewed/Rebirth_FX_Rebirth.c": "8319fda0971411cee4370f7adbb1741e28934a1ed2cd53b496f1127b3b3b4a75",
+        "native-enhanced-rebirth-client-reviewed/Rebirth_FX_Rebirth.asm": "15764dd539b7bc966cbc420c35567ccf1caafa6bd2b49bcc9aa42790de07c608"
+      }
+    },
+    {
+      "preferredVa": "0x2b8785c",
+      "ghidraVa": "0x2c8785c",
+      "end": "0x2b87aa4",
+      "name": "Rebirth_Panel_UI_Reload",
+      "first16": "ff4303d1fe5300f9f6570ba9f44f0ca9",
+      "sha256": "26dd5d330c032c152c728668e63beac529bce1002fc2a4084c4ff508bc08087c",
+      "outputs": {
+        "native-enhanced-rebirth-client-reviewed/Rebirth_Panel_UI_Reload.c": "8853afc4576b40af12f131393d705ad4c93fff3dd71bd01337f1e2b7e51e408e",
+        "native-enhanced-rebirth-client-reviewed/Rebirth_Panel_UI_Reload.asm": "90559514b00aa566efe10ac38dd7d7173e75e5c600d640131f088ef7c96fbd86"
+      }
+    },
+    {
+      "preferredVa": "0x2b88d7c",
+      "ghidraVa": "0x2c88d7c",
+      "end": "0x2b88ee0",
+      "name": "Rebirth_Panel_UI_Rebirth_Popup_Open",
+      "first16": "ff4301d1fe5703a9f44f04a9b5ae0190",
+      "sha256": "096a75c33612f84f3a9663ec14b9f62a670d945beb41042e83a7e246e3acb0ab",
+      "outputs": {
+        "native-enhanced-rebirth-client-reviewed/Rebirth_Panel_UI_Rebirth_Popup_Open.c": "b0a202ebd8f3c94481a14af66338ae2a03aa7c05bd555d365b51b897d8c4d3f6",
+        "native-enhanced-rebirth-client-reviewed/Rebirth_Panel_UI_Rebirth_Popup_Open.asm": "cd36857c1b52436457812f53762a6197acd38dd53d43a56c1dd0ec6948d8d81d"
+      }
+    },
+    {
+      "preferredVa": "0x2b88ee0",
+      "ghidraVa": "0x2c88ee0",
+      "end": "0x2b890bc",
+      "name": "Rebirth_Panel_UI_UpgradeRebirth_Popup_Open",
+      "first16": "ff4303d1fe570ba9f44f0ca9b4ae0190",
+      "sha256": "9464030c40f63271a5050de72c93cd3d53b810c13ab83df5d57368ab9da53d0f",
+      "outputs": {
+        "native-enhanced-rebirth-client-reviewed/Rebirth_Panel_UI_UpgradeRebirth_Popup_Open.c": "968db5c5a1ffec9c881e1a51402d77d1fa2a57bc3410329610aca3794583074c",
+        "native-enhanced-rebirth-client-reviewed/Rebirth_Panel_UI_UpgradeRebirth_Popup_Open.asm": "2030b433b6ea6ad241709f085c6626b4879448c61291542a2f6d8e5fc5986b0f"
+      }
+    },
+    {
+      "preferredVa": "0x2b890bc",
+      "ghidraVa": "0x2c890bc",
+      "end": "0x2b89284",
+      "name": "Rebirth_Panel_UI_UpgradeRebirth_IAP_Popup_Open",
+      "first16": "ff4303d1fe570ba9f44f0ca995ae01f0",
+      "sha256": "bfa22e85ff0766d426d9b1aa2f1e83396855378436dd2c322a0fe4277a254436",
+      "outputs": {
+        "native-enhanced-rebirth-client-reviewed/Rebirth_Panel_UI_UpgradeRebirth_IAP_Popup_Open.c": "d2aff192f20d37dbc1927cef9c64df6968956ad6890ecab9e93e439db95b4f54",
+        "native-enhanced-rebirth-client-reviewed/Rebirth_Panel_UI_UpgradeRebirth_IAP_Popup_Open.asm": "ccdc05de8005956f4e3487c0d3205470bf9cca10bc191f6299e631c31b6850b3"
+      }
+    },
+    {
+      "preferredVa": "0x2b89284",
+      "ghidraVa": "0x2c89284",
+      "end": "0x2b8942c",
+      "name": "Rebirth_Panel_UI_UpgradeRebirth_IAP_Purchase_Btn",
+      "first16": "ffc300d1fe5701a9f44f02a994ae01f0",
+      "sha256": "c462debb771b8975f0a09070e9c171cc1314bf262f3319282f0ab1f8712948ff",
+      "outputs": {
+        "native-enhanced-rebirth-client-reviewed/Rebirth_Panel_UI_UpgradeRebirth_IAP_Purchase_Btn.c": "db0737add59e7caf23d5085d31a2357ca403990ab53de8252dcf7b1f444e135d",
+        "native-enhanced-rebirth-client-reviewed/Rebirth_Panel_UI_UpgradeRebirth_IAP_Purchase_Btn.asm": "7cf5391b8379d38e8786d8ba534c5f4fad25a7749021c22195a69b38ecb5d3a9"
+      }
+    },
+    {
+      "preferredVa": "0x28f5cfc",
+      "ghidraVa": "0x29f5cfc",
+      "end": "0x28f5d04",
+      "name": "Throw_NullReference_Wrapper",
+      "first16": "fe0f1ff86a220194fe0f1ff87b220194",
+      "sha256": "fd826c34b9ef2518b1f3f6d39e7562b9946c1a4ca9651bc3c25e81558d412348",
+      "outputs": {
+        "native-enhanced-rebirth-client-reviewed/Throw_NullReference_Wrapper.c": "4dbe5415e169f90b0ce5055036cca1b94bf1565f8d9d2308c08bf4bd707fcb91",
+        "native-enhanced-rebirth-client-reviewed/Throw_NullReference_Wrapper.asm": "eec6b09062497629de85a27e3a8cad918b42764b2a1c0f544152a636461e5fdd"
+      }
+    },
+    {
+      "preferredVa": "0x28f5d04",
+      "ghidraVa": "0x29f5d04",
+      "end": "0x28f5d0c",
+      "name": "Throw_Index_Wrapper",
+      "first16": "fe0f1ff87b220194c03cff90006c0191",
+      "sha256": "4443063a785929eff8fbdd73652167a28163cc8bee6d193aa1d2d34ba13cefaa",
+      "outputs": {
+        "native-enhanced-rebirth-client-reviewed/Throw_Index_Wrapper.c": "b554c9aba53206d804e9fc370e97cf27027d10930f18eb2a6be625e055cb8dd1",
+        "native-enhanced-rebirth-client-reviewed/Throw_Index_Wrapper.asm": "5581995141036f8f8cb7598583a54ae3c1a567e77a4bbff543774e6d542c448c"
+      }
+    },
+    {
+      "preferredVa": "0x293e6a8",
+      "ghidraVa": "0x2a3e6a8",
+      "end": "0x293e6bc",
+      "name": "Throw_NullReference_Create",
+      "first16": "ff8300d1fffb00a9e0030091ff0300f9",
+      "sha256": "cdbf0bcca450bcc5619d3bedfd51ab6ee40fa3f25845c22f256f2b52ded52c13",
+      "outputs": {
+        "native-enhanced-rebirth-client-reviewed/Throw_NullReference_Create.c": "07933b7cac27ee4d3e9d7c27b53882e222ed878cead5f8d79e73b3adba1fff6f",
+        "native-enhanced-rebirth-client-reviewed/Throw_NullReference_Create.asm": "428c28c0278566bbd155390442ae395ecf5d111ac48dd41afa23cc88ab7051b2"
+      }
+    },
+    {
+      "preferredVa": "0x293e6bc",
+      "ghidraVa": "0x2a3e6bc",
+      "end": "0x293e6cc",
+      "name": "Throw_NullReference_Raise",
+      "first16": "fe0f1ff803000094e1031faad2ffff97",
+      "sha256": "5ca19850cf19c59741f496304fb81f88760711935ae81e9878b9291de917db2c",
+      "outputs": {
+        "native-enhanced-rebirth-client-reviewed/Throw_NullReference_Raise.c": "aded7644ecb862bc0a5476706b21810f9257b367ac0397bdc541e91af2615d80",
+        "native-enhanced-rebirth-client-reviewed/Throw_NullReference_Raise.asm": "5aafa322c11ce154d2ee31e138ead7810e48a24e419b8885131feb71851f1d71"
+      }
+    },
+    {
+      "preferredVa": "0x293e6f4",
+      "ghidraVa": "0x2a3e6f4",
+      "end": "0x293e704",
+      "name": "Throw_Index_Raise",
+      "first16": "fe0f1ff803000094e1031faac4ffff97",
+      "sha256": "cc88e424aa2cedbec18e703dcec784e753947ba52264006468b82ee358e7e4dd",
+      "outputs": {
+        "native-enhanced-rebirth-client-reviewed/Throw_Index_Raise.c": "f7b9c1233cebb3659705feb97a706251cb1dd6dcac5b14dcbcd482f99b3529a7",
+        "native-enhanced-rebirth-client-reviewed/Throw_Index_Raise.asm": "53f08a0cd65a4fe4ba45d72673ff66e057b405fd9658b230d54ec9cb96fab4ed"
+      }
+    },
+    {
+      "preferredVa": "0x293e610",
+      "ghidraVa": "0x2a3e610",
+      "end": "0x293e638",
+      "name": "Managed_Exception_CxaThrow",
+      "first16": "fe4fbfa9f30300aa71ffff9700018052",
+      "sha256": "3baf58d6dd416adb6ec9a1aa884940ecdc8bcb00a7fd1ff5efd9d6fd84aa48a1",
+      "outputs": {
+        "native-enhanced-rebirth-client-reviewed/Managed_Exception_CxaThrow.c": "f034685b9e5e3c23ca134caf66dd8742db361f79a48e68bfefb6bb0b28479155",
+        "native-enhanced-rebirth-client-reviewed/Managed_Exception_CxaThrow.asm": "79d2db030a3cd3519ea853008b8d9e435cee4ca33d345340c0a40c9ffa737b80"
+      }
+    }
+  ],
+  "fields": {
+    "Rebirth_manager": {
+      "Upgrade_list": 32,
+      "Price_balance": 40,
+      "Rebirth_Count": 48,
+      "instance": 0,
+      "UpgradeMaxLv": 0,
+      "PriceSoftCapLv": 0,
+      "DamageGrowthPerLv": 0,
+      "MoneyGrowthPerLv": 0,
+      "PriceLateGrowth": 0,
+      "PriceBase": 0,
+      "PriceExp": 0,
+      "rebirth_panel_ui": 56,
+      "rebirth_fx": 64,
+      "is_UpgradeRebirth": 72,
+      "is_UpgradeRebirth_IAP": 73,
+      "UpgradeRebirth_UseCount": 76,
+      "UpgradeRebirth_IAP_UseCount": 80,
+      "UpgradeRebirth_LastDate": 88,
+      "UpgradeRebirth_DailyLimit": 0,
+      "UpgradeRebirth_IAP_DailyLimit": 0,
+      "UpgradeRebirth_Multiplier": 0,
+      "UpgradeRebirth_IAP_UnlockStageValue": 0
+    },
+    "Rebirth_FX": {
+      "Rebirth_Panel_obj": 32,
+      "UpgradeRebirth_Panel_obj": 40,
+      "UpgradeRebirth_IAP_Panel_obj": 48
+    },
+    "Rebirth_Panel_UI": {
+      "Ruby_txt": 32,
+      "Reward_txt": 40,
+      "UpgradeReward_txt": 48,
+      "Upgrade_item_list": 56,
+      "UpgradeRebirth_Able_obj": 64,
+      "UpgradeRebirth_IAP_obj": 72,
+      "UpgradeRebirth_Disable_obj": 80,
+      "Rebirth_Popup_obj": 88,
+      "Reward_Popup_txt": 96,
+      "UpgradeRebirth_Popup_obj": 104,
+      "UpgradeReward_Popup_txt": 112,
+      "UpgradeRebirth_IAP_Popup_obj": 120,
+      "UpgradeReward_IAP_Popup_txt": 128
+    }
+  },
+  "dateLiteral": {
+    "pointer": "0x5d5d3e0",
+    "usage": "0xa000ac8f",
+    "index": 22087,
+    "value": "yyyyMMdd"
+  },
+  "rules": {
+    "date": "Time_manager.Now formatted yyyyMMdd invariant; any unequal date key resets both use counters",
+    "ad": "UseCount <1; forest stage >=2; popup triple preview; ShowRewardAd type8; callback activates original FX",
+    "settlement": "original rebirth.anim event at2sec; reward3x when enhanced; ad count increments only on reset success; paid count incremented earlier at purchase completion",
+    "ui": "ad button if ad count<1; else IAP if Stage_Value_Max>989 and IAP count<1; else Used branch",
+    "preserve": "ordinary rebirth stays1x; keep collection/permanent upgrades; reset forest money and ordinary upgrade levels"
+  },
+  "adapters": [
+    "User-authorized asynchronous local ad/purchase success, no SDK/network/charge/receipt/production entitlement",
+    "Current Raid.Now local clock; trusted original time service unavailable",
+    "Legacy recovery ISO dates normalize to same yyyyMMdd day before native comparison, preserving used quotas",
+    "Pending reward flags committed only after authorized local completion; page revision/day/mode/startup guards; interrupted FX drops pending reward",
+    "Existing 5-significant-digit decimal reward adapter, not full commercial InfVal precision"
+  ],
+  "scopeComplete": false,
+  "uniqueCompletedQueryAddressesAcrossAllFolders": 1687,
+  "registeredQueryCount": {
+    "before": 868,
+    "afterIncludingThisFolder": 882,
+    "newToDeclaredFolders": 14,
+    "firstQueryAcrossAllHistoricalFolders": 4,
+    "note": "Query addresses are not reviewed behavior counts or a game-recovery percentage; ten methods are re-exports."
+  }
+}

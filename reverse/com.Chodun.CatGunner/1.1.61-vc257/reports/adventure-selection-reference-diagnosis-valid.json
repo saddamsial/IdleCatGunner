@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "UnityEditor.SceneManagement.EditorSceneManager.OpenScene(\"Assets/Recovery/Scenes/RecoveredClient.unity\");var c=UnityEngine.Object.FindAnyObjectByType<CatGunner.Recovery.RecoveryForestClient>();var rows=new System.Collections.Generic.List<object>();foreach(var s in c.Adventure.adventure_panel_ui.Adventure_Enter_popup.petSelect_popup.Pet_Slot_list)rows.Add(new { name=s.name,demo=s.pet_item_demo!=null, select=s.SelectAble_obj!=null, disable=s.Disable_obj!=null });var tabs=new System.Collections.Generic.List<object>();foreach(var s in c.Adventure.LocalTabs.Btn_list)tabs.Add(new { name=s.name,active=s.gameObject.activeSelf,parent=s.transform.parent.name,parentActive=s.transform.parent.gameObject.activeSelf,pos=((UnityEngine.RectTransform)s.transform).anchoredPosition });return new { rows,tabs };"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": "{ rows = System.Collections.Generic.List`1[System.Object], tabs = System.Collections.Generic.List`1[System.Object] }"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

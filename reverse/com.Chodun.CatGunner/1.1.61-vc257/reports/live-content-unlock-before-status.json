@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 21.34,
+      "summary": {
+        "total": 5,
+        "passed": 1,
+        "failed": 4,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalContentUnlockTests.ActualLockedRaycastShowsStageAlertThenThresholdOpensAndClosesAllEightPanels",
+          "Status": "Failed",
+          "Duration": 5.8379046,
+          "Message": "  Expected: not null\n  But was:  null\n",
+          "StackTrace": "at OriginalContentUnlockTests+<ActualLockedRaycastShowsStageAlertThenThresholdOpensAndClosesAllEightPanels>d__5.MoveNext () [0x000bf] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalContentUnlockTests.cs:63\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalContentUnlockTests.IndependentColdReloadAndRebirthRetainHistoricalFrontierInsteadOfRelocking",
+          "Status": "Failed",
+          "Duration": 5.1714906,
+          "Message": "System.NullReferenceException : Object reference not set to an instance of an object",
+          "StackTrace": "  at OriginalContentUnlockTests+<IndependentColdReloadAndRebirthRetainHistoricalFrontierInsteadOfRelocking>d__7.MoveNext () [0x00103] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalContentUnlockTests.cs:101 \n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44 "
+        },
+        {
+          "FullName": "OriginalContentUnlockTests.NativeTutorialVisibilityHidesAllThenRestoresWithoutChangingTutorialSave",
+          "Status": "Failed",
+          "Duration": 5.1158882,
+          "Message": "  Expected: not null\n  But was:  null\n",
+          "StackTrace": "at OriginalContentUnlockTests+<NativeTutorialVisibilityHidesAllThenRestoresWithoutChangingTutorialSave>d__6.MoveNext () [0x000b3] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalContentUnlockTests.cs:86\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalContentUnlockTests.OriginalEightThresholdsShowOnlyUnlockedOrNextIncludingSharedPetMonsterGate",
+          "Status": "Failed",
+          "Duration": 5.1750185,
+          "Message": "  Original gate component must be reconnected\n  Expected: not null\n  But was:  null\n",
+          "StackTrace": "at OriginalContentUnlockTests+<OriginalEightThresholdsShowOnlyUnlockedOrNextIncludingSharedPetMonsterGate>d__4.MoveNext () [0x000ab] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalContentUnlockTests.cs:40\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalContentUnlockTests.OriginalTableKeepsSharedThresholdAndNativeTutorialAbsenceBranch",
+          "Status": "Passed",
+          "Duration": 0.0079649,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

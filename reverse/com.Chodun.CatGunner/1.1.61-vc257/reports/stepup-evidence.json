@@ -1,0 +1,1444 @@
+{
+  "updatedUtc": "2026-10-11T05:49:59.648922+00:00",
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "rule": 45,
+  "editor": "6000.4.10f1",
+  "native": {
+    "businessMethods": 42,
+    "exceptionHelpers": 6,
+    "completedUniqueQueries": 48,
+    "queries": "reports/native-stepup-client-queries.tsv",
+    "status": "native-stepup-client-reviewed/status.tsv",
+    "initialLabelCollisionPreserved": "native-stepup-client-first-label-collision",
+    "resolvedLabelSeparator": "__",
+    "reviewedOutputs": "native-stepup-client-reviewed",
+    "literals": "reports/stepup-literals.json",
+    "eligibility": "Five sequential flags independent of expiry and stock; stock rejected by click; expiry hides entry only",
+    "gunCollectThresholdIndex": 10,
+    "guns": [
+      23,
+      28,
+      33,
+      39,
+      44
+    ],
+    "diamonds": [
+      0,
+      200,
+      400,
+      600,
+      1000
+    ],
+    "offerDays": 7
+  },
+  "implementation": {
+    "originalNewObjects": 215,
+    "originalComponentsRestored": 10,
+    "originalReferences": 81,
+    "persistentOriginalCallbacks": 8,
+    "tutorialHudReferences": {
+      "before": 9,
+      "after": 9,
+      "total": 11
+    },
+    "clientAdapters": [
+      "UTC local clock",
+      "0.25-second unscaled refresh",
+      "local offline purchase simulator/ledger",
+      "original text system-language selection",
+      "original-package Chinese face with compatible TMP atlas/material for six dynamic labels"
+    ],
+    "originalBackendOrSDKRestored": false,
+    "originalI2Restored": false
+  },
+  "independentTests": [
+    {
+      "report": "reports/stepup-playmode.json",
+      "duration": 61.57,
+      "summary": {
+        "total": 11,
+        "passed": 11,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "independentCompleteRun": true,
+      "fontCorrectionBoundary": null
+    },
+    {
+      "report": "reports/stepup-regression-plus-pack.json",
+      "duration": 114.84,
+      "summary": {
+        "total": 12,
+        "passed": 12,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "independentCompleteRun": true,
+      "fontCorrectionBoundary": "PlusPack business logic verified before the final scoped text-font correction; purchase/time/reward logic unchanged after this run"
+    },
+    {
+      "report": "reports/stepup-regression-playtest-issues.json",
+      "duration": 50.44,
+      "summary": {
+        "total": 15,
+        "passed": 15,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "independentCompleteRun": true,
+      "fontCorrectionBoundary": null
+    },
+    {
+      "report": "reports/stepup-regression-onboarding.json",
+      "duration": 83.29,
+      "summary": {
+        "total": 5,
+        "passed": 5,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "independentCompleteRun": true,
+      "fontCorrectionBoundary": null
+    },
+    {
+      "report": "reports/stepup-regression-startup.json",
+      "duration": 26.36,
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "independentCompleteRun": true,
+      "fontCorrectionBoundary": null
+    }
+  ],
+  "historicalAttempts": {
+    "missingEntryFailure": "reports/stepup-before-tests.json",
+    "firstBehaviorPassBeforeSceneOrderAndFontFix": "reports/stepup-tests-first-attempt.json",
+    "supportedShaderButTinyGlyphs": "reports/stepup-playmode-before-font-metrics-fix.json",
+    "initialIntegrationFailure": "reports/stepup-integration-first-attempt.json",
+    "onboardingStaleHudCountFailure": "reports/stepup-regression-onboarding-first-attempt.json",
+    "parentOrderDiagnostic": "reports/stepup-parent-order-diagnostic.json",
+    "drivenRectDiagnostic": "reports/stepup-scene-all-changes-diagnostic.json"
+  },
+  "sceneAudit": {
+    "preservedExistingIdentities": 131339,
+    "removedExistingIdentities": 0,
+    "newOriginalObjects": 215,
+    "newDocumentIdentities": 887,
+    "semanticallyUnchangedExistingDocuments": 131332,
+    "intentionalExistingChanges": [
+      {
+        "oldId": "1128",
+        "newId": "1128",
+        "type": 1,
+        "name": "StepUp_Banner",
+        "script": null,
+        "firstChangedLines": [
+          {
+            "before": "  m_Layer: 5",
+            "after": "  - component: {fileID: 124333}"
+          },
+          {
+            "before": "  m_Name: StepUp_Banner",
+            "after": "  m_Layer: 5"
+          },
+          {
+            "before": "  m_TagString: Untagged",
+            "after": "  m_Name: StepUp_Banner"
+          },
+          {
+            "before": "  m_Icon: {fileID: 0}",
+            "after": "  m_TagString: Untagged"
+          },
+          {
+            "before": "  m_NavMeshLayer: 0",
+            "after": "  m_Icon: {fileID: 0}"
+          },
+          {
+            "before": "  m_StaticEditorFlags: 0",
+            "after": "  m_NavMeshLayer: 0"
+          },
+          {
+            "before": "  m_IsActive: 1",
+            "after": "  m_StaticEditorFlags: 0"
+          }
+        ]
+      },
+      {
+        "oldId": "17917",
+        "newId": "17917",
+        "type": 1,
+        "name": "GunItem_Demo",
+        "script": null,
+        "firstChangedLines": [
+          {
+            "before": "  m_Layer: 5",
+            "after": "  - component: {fileID: 146266}"
+          },
+          {
+            "before": "  m_Name: GunItem_Demo",
+            "after": "  m_Layer: 5"
+          },
+          {
+            "before": "  m_TagString: Untagged",
+            "after": "  m_Name: GunItem_Demo"
+          },
+          {
+            "before": "  m_Icon: {fileID: 0}",
+            "after": "  m_TagString: Untagged"
+          },
+          {
+            "before": "  m_NavMeshLayer: 0",
+            "after": "  m_Icon: {fileID: 0}"
+          },
+          {
+            "before": "  m_StaticEditorFlags: 0",
+            "after": "  m_NavMeshLayer: 0"
+          },
+          {
+            "before": "  m_IsActive: 1",
+            "after": "  m_StaticEditorFlags: 0"
+          }
+        ]
+      },
+      {
+        "oldId": "102990",
+        "newId": "102990",
+        "type": 224,
+        "name": "Shop_manager",
+        "script": null,
+        "firstChangedLines": [
+          {
+            "before": "  - {fileID: 104568}",
+            "after": "  - {fileID: 103821}"
+          },
+          {
+            "before": "  - {fileID: 104552}",
+            "after": "  - {fileID: 104568}"
+          },
+          {
+            "before": "  - {fileID: 109915}",
+            "after": "  - {fileID: 104552}"
+          },
+          {
+            "before": "  m_Father: {fileID: 1167996984}",
+            "after": "  - {fileID: 109915}"
+          },
+          {
+            "before": "  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}",
+            "after": "  m_Father: {fileID: 1167996984}"
+          },
+          {
+            "before": "  m_AnchorMin: {x: 0, y: 0}",
+            "after": "  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}"
+          },
+          {
+            "before": "  m_AnchorMax: {x: 1, y: 1}",
+            "after": "  m_AnchorMin: {x: 0, y: 0}"
+          },
+          {
+            "before": "  m_AnchoredPosition: {x: 0, y: 0}",
+            "after": "  m_AnchorMax: {x: 1, y: 1}"
+          }
+        ]
+      },
+      {
+        "oldId": "104481",
+        "newId": "104481",
+        "type": 224,
+        "name": "Left_Menu",
+        "script": null,
+        "firstChangedLines": [
+          {
+            "before": "  - {fileID: 103234}",
+            "after": "  - {fileID: 104759}"
+          },
+          {
+            "before": "  - {fileID: 104057}",
+            "after": "  - {fileID: 103234}"
+          },
+          {
+            "before": "  - {fileID: 104338}",
+            "after": "  - {fileID: 104057}"
+          },
+          {
+            "before": "  - {fileID: 103748}",
+            "after": "  - {fileID: 104338}"
+          },
+          {
+            "before": "  - {fileID: 104334}",
+            "after": "  - {fileID: 103748}"
+          },
+          {
+            "before": "  - {fileID: 103995}",
+            "after": "  - {fileID: 104334}"
+          },
+          {
+            "before": "  m_Father: {fileID: 103716}",
+            "after": "  - {fileID: 103995}"
+          },
+          {
+            "before": "  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}",
+            "after": "  m_Father: {fileID: 103716}"
+          }
+        ]
+      },
+      {
+        "oldId": "121358",
+        "newId": "121358",
+        "type": 114,
+        "name": "I2_txt(Outline)",
+        "script": "f4688fdb7df04437aeb418b961361dc5",
+        "firstChangedLines": [
+          {
+            "before": "  m_fontAsset: {fileID: 11400000, guid: 34381fce0293bfd41abe761e70b1865e, type: 2}",
+            "after": "  m_fontAsset: {fileID: 11400000, guid: f8fd85a5edc1b4a1fa242e66ecfcd501, type: 2}"
+          },
+          {
+            "before": "  m_sharedMaterial: {fileID: 2100000, guid: 8f16f97ccb4b8574bb71419b956f4f2f, type: 2}",
+            "after": "  m_sharedMaterial: {fileID: 2100000, guid: 18edca82e041d4da2a65873847661513, type: 2}"
+          }
+        ]
+      },
+      {
+        "oldId": "125155",
+        "newId": "125155",
+        "type": 114,
+        "name": "Panel",
+        "script": "4e29b1a8efbd4b44bb3f3716e73f07ff",
+        "firstChangedLines": [
+          {
+            "before": "  m_Interactable: 0",
+            "after": "  m_Interactable: 1"
+          },
+          {
+            "before": "      - m_Target: {fileID: 0}",
+            "after": "      - m_Target: {fileID: 124333}"
+          },
+          {
+            "before": "        m_TargetAssemblyTypeName: StepUp_Banner, Assembly-CSharp",
+            "after": "        m_TargetAssemblyTypeName: StepUp_Banner, CatGunner.Recovery"
+          },
+          {
+            "before": "        m_Mode: 1",
+            "after": "        m_Mode: 0"
+          },
+          {
+            "before": "          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine",
+            "after": "          m_ObjectArgumentAssemblyTypeName: "
+          },
+          {
+            "before": "          m_StringArgument: banner",
+            "after": "          m_StringArgument: "
+          }
+        ]
+      },
+      {
+        "oldId": "131943",
+        "newId": "131943",
+        "type": 114,
+        "name": "GunItem_Demo",
+        "script": "4e29b1a8efbd4b44bb3f3716e73f07ff",
+        "firstChangedLines": [
+          {
+            "before": "      - m_Target: {fileID: 0}",
+            "after": "      - m_Target: {fileID: 146266}"
+          },
+          {
+            "before": "        m_TargetAssemblyTypeName: Gun_Item_Demo, Assembly-CSharp",
+            "after": "        m_TargetAssemblyTypeName: Gun_Item_Demo, CatGunner.Recovery"
+          },
+          {
+            "before": "        m_Mode: 1",
+            "after": "        m_Mode: 0"
+          },
+          {
+            "before": "          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine",
+            "after": "          m_ObjectArgumentAssemblyTypeName: "
+          }
+        ]
+      }
+    ],
+    "editorLocalIdRemapping": {
+      "104725": "1935675335",
+      "122957": "431897729",
+      "123842": "123845",
+      "123843": "123846",
+      "125578": "585777015",
+      "129923": "542584405",
+      "129924": "1700265578",
+      "129925": "1700265579",
+      "129926": "542584404",
+      "140638": "1792846150"
+    },
+    "scopedFieldValidation": true
+  },
+  "preservation": {
+    "target": "com.Chodun.CatGunner 1.1.61 vc257",
+    "userMainAndBackupUnchanged": true,
+    "normalSceneByteUnchanged": false,
+    "baselineAndCurrent": [
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scenes/RecoveredClient.unity",
+        "sha256": "ee7fcdfcc73343fa87edac777006550e1cf48d5fe0b672e415b190980ac909b7",
+        "currentSha256": "9533689cb7f6a221d879f1efa08ac5ffcdd588d0b601d3cc6cf9559ff2f32300",
+        "unchanged": false
+      },
+      {
+        "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json",
+        "sha256": "3e35e03edb6ec9af2fd766fb84e894093d942772e4b50f7687faba6a3e7106b0",
+        "currentSha256": "3e35e03edb6ec9af2fd766fb84e894093d942772e4b50f7687faba6a3e7106b0",
+        "unchanged": true
+      },
+      {
+        "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json.bak",
+        "sha256": "ef1e1c0d75505343cb9cdd210386f0c68821fa7bc8493dee6749835c80f2a313",
+        "currentSha256": "ef1e1c0d75505343cb9cdd210386f0c68821fa7bc8493dee6749835c80f2a313",
+        "unchanged": true
+      }
+    ],
+    "existingScriptMetasUnchanged": 216,
+    "originalNewMetas": [
+      {
+        "name": "StepUp",
+        "guid": "b646a0bb38daafc65fc5ad2ebff1fc6e",
+        "sha256": "5eab717415296e14084ef57590c14b75c678476f28a1b581f2593a31abe985f4",
+        "originalSha256": "5eab717415296e14084ef57590c14b75c678476f28a1b581f2593a31abe985f4",
+        "unchanged": true
+      },
+      {
+        "name": "StepUp_Banner",
+        "guid": "c3fffe650fea094b62537dcc531fd000",
+        "sha256": "07ff7472d4654ab3d93d091b9922c41d486819db2b0f72c6caa9cf0b7d0c44ea",
+        "originalSha256": "07ff7472d4654ab3d93d091b9922c41d486819db2b0f72c6caa9cf0b7d0c44ea",
+        "unchanged": true
+      },
+      {
+        "name": "StepUp_Hud",
+        "guid": "41929975f87d6ceaa08c3f3c1bc41d86",
+        "sha256": "c1e1736ae99dc4352707f520843af7d80325d218e8f69e675254cb9a02ed7de8",
+        "originalSha256": "c1e1736ae99dc4352707f520843af7d80325d218e8f69e675254cb9a02ed7de8",
+        "unchanged": true
+      },
+      {
+        "name": "StepUp_Item_UI",
+        "guid": "2ea909f91be2e1dfd9e012ff8f2b5f88",
+        "sha256": "37b851915365b8aeb422deb3cdbd5b6ab59acdd9808b023ae45aaef44407d1c0",
+        "originalSha256": "37b851915365b8aeb422deb3cdbd5b6ab59acdd9808b023ae45aaef44407d1c0",
+        "unchanged": true
+      },
+      {
+        "name": "StepUp_popup",
+        "guid": "7c02d6238e19569458a388a94923a7bc",
+        "sha256": "1aa371117bd8ec6d3a09c9f7c89f7d279eee2a2449ce1adcd88fb272ba5bea33",
+        "originalSha256": "1aa371117bd8ec6d3a09c9f7c89f7d279eee2a2449ce1adcd88fb272ba5bea33",
+        "unchanged": true
+      }
+    ],
+    "frozenMainAndMetadataUnchanged": true,
+    "nativeSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+    "changedSource": [
+      {
+        "path": "Assets/Recovery/Scripts/RecoveryLocalStore.cs",
+        "sha256": "711074bf40c6ad77eae8decca6bf3cc80bad307ab4004a432604bf62ffda83a0",
+        "baselineSha256": "7a0efe0b57e3dfac14d4c5f3de9583201abab6ba7d114a7176c1440a3f40214f"
+      },
+      {
+        "path": "Assets/Recovery/Scripts/OriginalLocalPurchases.cs",
+        "sha256": "ad9197ba95e692f8c0e8b9f4d9e822b15b8a61e7b7c97c21d386870b64c727b5",
+        "baselineSha256": "0b8327b50196ee56f78d35a8be01026e6b06964490ed9fd65e396184117cc23b"
+      },
+      {
+        "path": "Assets/Recovery/Scripts/StepUp_Item_UI.cs",
+        "sha256": "28dcfd5c9501c92e7a4e7f6df7c9fb0982ac5073807588e9c9fa939bacf814d7",
+        "baselineSha256": null
+      },
+      {
+        "path": "Assets/Recovery/Scripts/StepUp_Banner.cs",
+        "sha256": "f346d7bec6a48894569d7963c2c17f397d58871abbbaca709580610576275ed6",
+        "baselineSha256": null
+      },
+      {
+        "path": "Assets/Recovery/Scripts/StepUp_Hud.cs",
+        "sha256": "167a7449065df10c514828ba20f4cd53a976ed84fe96f54030150bcf769389d3",
+        "baselineSha256": null
+      },
+      {
+        "path": "Assets/Recovery/Scripts/StepUp_popup.cs",
+        "sha256": "3f1b94144d5a8b7247a4c7c5e3a81c8c2a60cf42644c5d50536e22ecf83b7c15",
+        "baselineSha256": null
+      },
+      {
+        "path": "Assets/Recovery/Scripts/OriginalStepUpOffer.cs",
+        "sha256": "c98c96d9ee3e6ec79fec07fa999529c083150506acb890b00184ccd3346f7a2e",
+        "baselineSha256": null
+      },
+      {
+        "path": "Assets/Recovery/Scripts/StepUp.cs",
+        "sha256": "8fd91b9aa78e8d40ea9ee1c293b776e4c2d2914c794ea4c2de35f85a37c4e5b8",
+        "baselineSha256": null
+      }
+    ],
+    "newObjects": 215,
+    "existingIdentitiesPreserved": 131339,
+    "scopeComplete": false
+  },
+  "historicalVisuals": {
+    "historicalImagesPreserved": 139,
+    "overwrittenRegressionImagesArchived": 15,
+    "allHistoricalHashesMatch": true,
+    "images": [
+      {
+        "name": "mission-rejection-regression-mission-diamonds-flight-gpu.png",
+        "restoredSha256": "51442333d091840b4d1963826fd00dbec240d99b2762e1b71716f25d4a018f6a",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-sorting-regression-mission-diamonds-settled-gpu.png",
+        "restoredSha256": "c5774a42ffc2e244d2ba0efec773b6846659dc14a950e1fd869da86bf0c04b74",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-sorting-regression-startup-walking-cat-gpu.png",
+        "restoredSha256": "1383caa6f4c9294c2e93ca21266ecdc2c8cb873de5525e2e2ff048e21dc73773",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "playtest-fixes-insufficient-diamonds-gpu.png",
+        "restoredSha256": "c72fd27c3a2e1a42a040e65f761738e277bfe17e717e5156d0aa244c94a2f96b",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "daily-check-original-before-claim-gpu.png",
+        "restoredSha256": "0dce895b08cd0b679d130c948fc73fa97bcae21d076873bdbc37d2a479cd9253",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-rejection-sequence-warning-gpu.png",
+        "restoredSha256": "e9abd055bdc05904560f7a80889d7be16dac088fbb6ef78d65fa7dded16b1ffe",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "playtest-issues-regression-auto-upgrade-offer-gpu.png",
+        "restoredSha256": "7624aae02666a013a410faec66e19b21f0f440cc1aa1416c0cf25e3e7a3f0916",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "star-upgrade-first-gpu.png",
+        "restoredSha256": "eb812d4008a5ed876496afcc1c789902e4ff731c9e55d8062455378029c5f37c",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "plus-consumers-regression-playtest-fixes-boss-gpu.png",
+        "restoredSha256": "685f03931a109a4e5b5405f56892f497c4d6f01658c267ea209690596c35b3a8",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "playtest-fixes-offline-result-gpu.png",
+        "restoredSha256": "9fad1f14adb72a58f4023e70cdb8ad11b6bfd4540ad5bbb4886b4b951c0dd1de",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-rejection-regression-startup-walking-cat-gpu.png",
+        "restoredSha256": "ce609047a5bbead01df9adf0b9296cf0fa88b5cf7fedc018c80e1195e9d49ac1",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "safe-storage-test-gpu.png",
+        "restoredSha256": "5a8df435901c757c4c13bd2df69b48d373a4c562e02393cd540ca915019288e2",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-rejection-regression-mission-navigation-open-gpu.png",
+        "restoredSha256": "f36e78a5f3aebb9a4fe3985b1288ea642d1220fd840483b616f9484742fd241d",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "plus-consumers-regression-playtest-fixes-startup-auto-combat-gpu.png",
+        "restoredSha256": "ce17dee292fc3b1b9dd50ef93386e686592b5bb8dbcfc1817b692f3b5608a473",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "playtest-fixes-regression-mission-rejection-unlocked-claims-gpu.png",
+        "restoredSha256": "315216bec5f05b772e1dfa95124f697077b6ade2317a84d60d42fbb869da21c4",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-rejection-regression-mission-navigation-alert-gpu.png",
+        "restoredSha256": "d6f81e7fd6ae3b3febc3e18afeb26772991f618d28bb2050bed24ec1f73c3a4e",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-sorting-regression-mission-diamonds-flight-gpu.png",
+        "restoredSha256": "c51d3cfdfb6734f5e8451be857273a82bc7ad27a3e5b305f407d66f5a1337c01",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "raid-test-gpu.png",
+        "restoredSha256": "ddad75bf7802d016f4c55be05d8a6a8da5531d1fa2c8643a0031d385604673d7",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "adventure-cancel-test-gpu.png",
+        "restoredSha256": "1b828aa75854a3491be06296e95a19ddde791a0a3e97e2e0188cc04a7434f1ff",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-navigation-regression-startup-walking-cat-gpu.png",
+        "restoredSha256": "0c7c4241724450799684f50ad35e8f33956ce86df5c6292ad2078b67492b4af3",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "fish-tank-test-gpu.png",
+        "restoredSha256": "9c94832237ea823f0f0c096dade120fcdcdf5d756a735ca74ef40e43611ea9de",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "plus-consumers-initial-frame-boss-reward-gpu.png",
+        "restoredSha256": "bfd715d259d6a2576b25a323e2c77787d803b0c82ebedce480bf334a6a7082b5",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "playtest-issues-purchase-success-gpu.png",
+        "restoredSha256": "623007cd93802e3f3bdd4288b7134468caf5ce077b34cb57c035a5f76b11a74d",
+        "regressionArchive": "reports/visual/stepup-regression-playtest-issues-purchase-success-gpu.png",
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-sorting-alert-large-gpu.png",
+        "restoredSha256": "d9c43719b9f150055ab00c39f9975f4e0b696032e8bfce8468da9dd3a8115294",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "plus-consumers-boss-time-gpu.png",
+        "restoredSha256": "96409df81f0d3f85ecee9691a1148bf6845df4db5655ac1cf8f15d1c7ca41473",
+        "regressionArchive": "reports/visual/stepup-regression-plus-consumers-boss-time-gpu.png",
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "playtest-issues-regression-auto-upgrade-active-gpu.png",
+        "restoredSha256": "cf078b0c4c79c93b4dd3a8b033ee99a42f0c373f7615fe4a9f2b3a112c962853",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "playtest-fixes-regression-mission-diamonds-settled-gpu.png",
+        "restoredSha256": "26465d871d710ba4779d5319c81fe2601fb53d2113d0d40a2b5043498b0c625d",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "plus-consumers-boss-reward-gpu.png",
+        "restoredSha256": "151f00d3f8edcadb781495cd13727575b2b03f277bd2135ab5d4d20d786b5908",
+        "regressionArchive": "reports/visual/stepup-regression-plus-consumers-boss-reward-gpu.png",
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "rebirth-hold-upgrade-test-gpu.png",
+        "restoredSha256": "467cccdc89aea13563a11fc9cfd3b9a223fc5fee1cb55e76558dd08dec95f6a3",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "playtest-fixes-regression-mission-rejection-maximum-level-gpu.png",
+        "restoredSha256": "aaf1d5768b68585b125567c0813ae2ae318b91fd5af2d19b1ba02622baad12b8",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "pet-spine-world-test-gpu.png",
+        "restoredSha256": "328506554b1facc722e4dd647cf74f86b1e00e39404c54dada2f37a52d1ac7f4",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "playtest-fixes-speedrun-gpu.png",
+        "restoredSha256": "433d35cc8fe6ee0aec0da5206190d1359a26ad1b3e29a0a60500c46a7b0ee0ae",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "playtest-fixes-regression-startup-walking-cat-gpu.png",
+        "restoredSha256": "b747cda8afb4d1aca88025472a95cd4347f3b2d0fcf7065514349553bbd27a37",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "skin-world-test-gpu.png",
+        "restoredSha256": "c5690c9154b9692bd86dc6827b61a6cbecfa9d199719b009233f0ff1316b4b46",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "reward-diamonds-flight-gpu.png",
+        "restoredSha256": "1595e3992cdc21e86b20191d3f6f0e622bc9226d0474a3337c4496420bd3c04f",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-rejection-regression-mission-sorting-ready-order-gpu.png",
+        "restoredSha256": "9534e2042ec17f58a6a7c378daedb5135b8ca95b3a9a7cd0aa01b2f983a8218e",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "weekly-shop-gpu.png",
+        "restoredSha256": "6ace0a25aadc598195be0ee98fa80b1ec948992e0c0dcee9bbab3c0c46a40aa1",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-regression-final-startup-walking-cat-gpu.png",
+        "restoredSha256": "1a25f52e6610832bfdd43adb5bccd1c9097d89c65e55fc307044c3b700aa37ce",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-regression-final-reward-diamonds-attraction-gpu.png",
+        "restoredSha256": "91f1cc3c7b7ee7555b3d3fd2ce9a78c1a4f4e896a558d55aac6a1ce49556e22d",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "plus-consumers-monster-reward-gpu.png",
+        "restoredSha256": "ac67805d85c2aa99f2bc5283eba8e407eb6894a52f327a4031f6a42fe4e881d4",
+        "regressionArchive": "reports/visual/stepup-regression-plus-consumers-monster-reward-gpu.png",
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "adventure-reward-test-gpu.png",
+        "restoredSha256": "b1e651f76f9730f1f0bd210bf541c2a12170368e63a6dec5f96067bad400f6ba",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "playtest-fixes-monster-gpu.png",
+        "restoredSha256": "c5995c19e27d72b0146296a884653f577d4f5aacde331c2560a6df26d765e547",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-diamonds-settled-gpu.png",
+        "restoredSha256": "3fe130dad6f60e8e332a691f9a828356a783a8103670bd5e3b3dbb504c308b25",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "relic-skip-next-wave-gpu.png",
+        "restoredSha256": "d7c875a586e74719a76d20aeabbae3a29a5726ea3393cff6fa2e22c331e3b02a",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "eco-restored-settings-gpu.png",
+        "restoredSha256": "0e9d01e51c4c7f8ac17ac3bce14db128268740e7f5f1d942e9e2eeac43fac5c2",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-sorting-ready-order-gpu.png",
+        "restoredSha256": "bc588c03c676fee9bf3fc4789af765f5d897b615d0646eec9e5d8244599d9469",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-rejection-maximum-level-gpu.png",
+        "restoredSha256": "f05844a7057bffb4df43a6b57f3be08536dedb4af06d5d435423953c9dbd0330",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-navigation-open-gpu.png",
+        "restoredSha256": "b6878df6b1f05fadede2e13348d23ae221d1ff8e3dcbe2c8abc6b2eef7edc280",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "eco-mode-return-forest-gpu.png",
+        "restoredSha256": "be16e99ece57eaa7766c63e866449405e12ddc4de94c6a48844614de5147b929",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "playtest-fixes-boss-gpu.png",
+        "restoredSha256": "e9bd5b59eef69aa0f4c2ec7df84e33e133c89540327c19bb0b3d79ebfc83c828",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "playtest-fixes-startup-auto-combat-gpu.png",
+        "restoredSha256": "bb480f129b890d38fe037e9ea9ee9a27e67254b8451c8a83bee25b2a92341d4a",
+        "regressionArchive": "reports/visual/stepup-regression-playtest-fixes-startup-auto-combat-gpu.png",
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "star-upgrade-test-gpu.png",
+        "restoredSha256": "faae17aa3ce972dc015bcee89bdc29e1217d0edae12a7d6f8837401a10fd0d1f",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-diamonds-flight-gpu.png",
+        "restoredSha256": "c5b90afeedc26daa8a4832e70d0741d3f2d37fc707955ac8066d43bde052f2ee",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "playtest-issues-three-cats-gpu.png",
+        "restoredSha256": "e0d4ea0b80e8aa70dbd05ad84479ae922302436f926572bf563d9959d436ba1d",
+        "regressionArchive": "reports/visual/stepup-regression-playtest-issues-three-cats-gpu.png",
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "startup-walking-cat-gpu.png",
+        "restoredSha256": "de92ccf93416f6fcac834de3be395021a4ffb032fd1da47560b5be7213f15a4a",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-rejection-regression-mission-sorting-alert-large-gpu.png",
+        "restoredSha256": "2a1bced215a84297df6be181116e61d964ecd9bce3eaf94394d1d080d7366184",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "plus-consumers-regression-playtest-fixes-speedrun-gpu.png",
+        "restoredSha256": "9aa419bee8497c8505df2bf6d95b3a3c46d0c107c7df36da0e9676965c674c4a",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "reward-diamonds-flight-pre-motion-gpu.png",
+        "restoredSha256": "403d6604906999e576f3e07210281332fb66fc89f9eb21e398f8a9281100b7c9",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "relic-single-test-gpu.png",
+        "restoredSha256": "42d117555937d6fdc14647a47f28508f1e4718f0803c45abb994872234b393b0",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "reward-diamonds-attraction-pre-motion-gpu.png",
+        "restoredSha256": "ac1f5707c0de4ecd860868b3115ec3a9b50dc78c5bcac7b37e39ac92c1581ee6",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-regression-startup-walking-cat-gpu.png",
+        "restoredSha256": "a0c494dff864ec7e659aa316bcc07a223cf7054ff3a45cdf46d0480cceff56e8",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "relic-last-page-test-gpu.png",
+        "restoredSha256": "4d31e5a3643a4702d4aa0cf718e81930ab77b415a0d9216da6b348fb3417fb67",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "eco-mode-original-mask-gpu.png",
+        "restoredSha256": "01aa2c5273006b8f23c93af299d10287b8dd0056f36c361afd810c1ddd83402d",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "plus-consumers-regression-playtest-issues-three-cats-gpu.png",
+        "restoredSha256": "cacc8698e98ad821ff09c07b625eecc29f1bf489e0bb2906ee87437f5a8d03ee",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "playtest-issues-regression-playtest-fixes-startup-auto-combat-gpu.png",
+        "restoredSha256": "42609ade36e9498b5e3ce1d19e5e7668388c6d31dab80955ac228ee17957ebf8",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "plus-consumers-regression-playtest-fixes-new-season-gpu.png",
+        "restoredSha256": "287f6f1f7e6ae179699e781ab0128397b07cef24d30c24c01f24876d68f451f6",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "forest-money-reward-gpu.png",
+        "restoredSha256": "1c2ef15370200c6f936e4c5c5694fe708caa5b7ae7e9628d3e59ab110b62cdc4",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "daily-check-original-after-claim-gpu.png",
+        "restoredSha256": "9e97a31d2f2ca09f8fa92c8448829f911d80e9f9d820ab01ae531a36ada0a4f0",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "plus-consumers-initial-frame-monster-reward-gpu.png",
+        "restoredSha256": "8af628f713fa3acbcc1548a81ec35d6d73ce2cb7d9fec0b952735c3d925e06ab",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "playtest-fixes-regression-mission-rejection-sequence-warning-gpu.png",
+        "restoredSha256": "8d8deb317805a1fab85f80998490e3ed4b84b0905b7081cacfce2a1094b8749a",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "plus-consumers-regression-playtest-issues-purchase-success-gpu.png",
+        "restoredSha256": "80b274de02efdca4216cda2665d5c5f8010d0e4a3717f8bf08e78e73b322ef85",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "playtest-fixes-new-season-gpu.png",
+        "restoredSha256": "1a8397f32c4a4fcf4230bf7560c32dc4c1e5bc53b5868d860dcc81112181abad",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "relic-menu-test-gpu.png",
+        "restoredSha256": "cae84a984af5d14b23f565d6c1907648ca7f9e116ca11d7960a68e3722d3c88d",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-navigation-regression-mission-diamonds-settled-gpu.png",
+        "restoredSha256": "3a8e4b809b54a71cc007dc655c46214a2de01a668c382997d82b5f560a50c9a5",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-regression-reward-diamonds-flight-gpu.png",
+        "restoredSha256": "3e40a66e4411053531b789163ddb5ad6fbcebdfc69a1f147a31714dc57570d1e",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-rejection-regression-mission-navigation-next-gpu.png",
+        "restoredSha256": "6861fd9083126dfd3f136fc05b7699bf8b0e183907d0be6881a729dccbcea1a7",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "safe-detail-test-gpu.png",
+        "restoredSha256": "e797c0b473b65a5d101eade8f70fba8ef4a24284ec14c6b37e12004abfa29fae",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "forest-real-tree-cash-gpu.png",
+        "restoredSha256": "a59df6dcbc62b6b2b6e81d8cef560e91ab5d9e5391720126758e8af2c68a8bae",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "auto-upgrade-active-gpu.png",
+        "restoredSha256": "6a42a2a329fb6b577f5cf7232cba8f636680533b5004d8357a24caa671de8075",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-regression-reward-diamonds-attraction-gpu.png",
+        "restoredSha256": "b8c330f13ebd31acdcdba6e3464041af5b9d3e69a0c824a277496379953bd6c6",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-rejection-unlocked-claims-gpu.png",
+        "restoredSha256": "5f3c04c55112ff2ea43fd6fcbba67cb3203201e1c3fa57f28dd4f514fa733725",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "playtest-fixes-regression-mission-diamonds-flight-gpu.png",
+        "restoredSha256": "2c73b02e1f864dc17ec87a709f757620aaaab255ce5cf661c8356d7f48b15df7",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-sorting-regression-startup-auto-combat-gpu.png",
+        "restoredSha256": "4149a44c3ec4057fea12209c8dd9abf3cc3acf6c0132c897a58896fa585ea8b9",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "playtest-fixes-regression-fish-tank-test-gpu.png",
+        "restoredSha256": "f226bc94ad1c117a0a271ab12a8141cf3b175f7732f95383990ff6cd4c43305e",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "content-unlock-stage11-test-gpu.png",
+        "restoredSha256": "7ef1cbcbf6e9adad8f8d899b2bec485ef877d5bbb160a72239798174c52c592c",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-diamonds-closed-window-first-gpu.png",
+        "restoredSha256": "d627cc41571a97a97dc379530ae96752d057c7a092e415baf6e8d03c18395cea",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "plus-consumers-regression-playtest-fixes-startup-walking-cat-gpu.png",
+        "restoredSha256": "721671bb073cdf543f03b43b81c38bce3cd51c4adedef34e834c8677c515ed64",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "diapig-return-forest-gpu.png",
+        "restoredSha256": "2f07ab2f177e162d51d1d057c62f859c1dc060df54829d849e43b3fc84f5d664",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-regression-final-reward-diamonds-flight-gpu.png",
+        "restoredSha256": "aa97efecf96b3d743553ad71d5e6df3f5b3dc17d3bc6b45f8fb8486a61cdb5b7",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-rejection-regression-startup-auto-combat-gpu.png",
+        "restoredSha256": "1388436f0bcae78f14cb7c62039d6fd8495b4125e75846bda159ec8fb6d9983e",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-rejection-regression-mission-sorting-claimed-order-gpu.png",
+        "restoredSha256": "ffe55d7169105fe9e4568913549f078c26147bc518efc48137a8e5eb66fda87a",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-sorting-regression-mission-navigation-next-gpu.png",
+        "restoredSha256": "a1df98d93412ebbc6518ac0e0346b693e425f2a7ee0e8b689e591c08a2be7d82",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "merge-tutorial-hand-test-gpu.png",
+        "restoredSha256": "06f8331ec4fbc1d0f4f301f4e5acd093d666eed52554dce567bb4524b38fcfea",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "plus-consumers-mine-reward-gpu.png",
+        "restoredSha256": "5227cca771a56090b91ba4c18e2232822e7835f183243ad3ea85a747770a6e87",
+        "regressionArchive": "reports/visual/stepup-regression-plus-consumers-mine-reward-gpu.png",
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-navigation-regression-mission-diamonds-flight-gpu.png",
+        "restoredSha256": "79b42b934538256981eb4354afcb8cd2dd6902af853293555f5c2323ba0260df",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "playtest-fixes-regression-startup-auto-combat-gpu.png",
+        "restoredSha256": "b13e9aecbfa393f2793798a0af20ed6a1d96d6a264a0ca92e446226d939c482e",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "reward-diamonds-attraction-gpu.png",
+        "restoredSha256": "c9f3650dc7958544940ce0c04cc5807f33fe67e8dcc60c180207733a5e0488c6",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-navigation-regression-startup-auto-combat-gpu.png",
+        "restoredSha256": "771a84856a0c372bc5c31baba618dd7d35526c2f982563ade502b39f01ada853",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "plus-consumers-regression-playtest-issues-mission-progress-gpu.png",
+        "restoredSha256": "553ec815a484f1326343f97cc4b1375482ff401ae452c98b51bf4cc03a5b862d",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "playtest-issues-shop-offer-gpu.png",
+        "restoredSha256": "5003237bd07722b4fe8a40e42ba46db29c3556c2a1dcb7b3db42d730318d68ce",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "plus-consumers-initial-frame-mine-reward-gpu.png",
+        "restoredSha256": "7a2fd15d473622350b0881a985d7089983c07f3bbf769636c450d33940b60400",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "star-upgrade-fallback-first-gpu.png",
+        "restoredSha256": "6ece07459b2abd63f0b74c0680b0669bc751dcf6a51ffb740c681caab08215ed",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "raid-missions-gpu.png",
+        "restoredSha256": "3a6c16023d60fe8c71a4cfb15fce9a86c800d5c3a6dbcf04bb0705fe0688d9c0",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "forest-real-hit-damage-gpu.png",
+        "restoredSha256": "416919a16ff1424be93c77068ef7854809928d4c0372b6cd88956d932454fa61",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "plus-consumers-plus-active-gpu.png",
+        "restoredSha256": "9413e2d7b20e4e0cb49256b5b7ad94c74ed5cc2fb52e8f51efcb0f686a2788af",
+        "regressionArchive": "reports/visual/stepup-regression-plus-consumers-plus-active-gpu.png",
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-sorting-alert-small-gpu.png",
+        "restoredSha256": "eb5e8cef97a968c8cd0e4f7c0061e3020d5cf3f6bfac5fc0427113aba7e8d687",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-regression-final-startup-auto-combat-gpu.png",
+        "restoredSha256": "b6bb744ec326cda52a2544d52254090e464a9d91e386597b218525b6820ac547",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "onboarding-equip-arrow-gpu.png",
+        "restoredSha256": "247b1db719ebc832ac2f1ef9c50837eaef3dae43f9b72ba58633ea4f57b5b0ad",
+        "regressionArchive": "reports/visual/stepup-regression-onboarding-equip-arrow-gpu.png",
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "plus-consumers-regression-playtest-fixes-offline-result-gpu.png",
+        "restoredSha256": "5f0942bc1ae2ec97a0f50c0fc5d6c3d0d9fb765f952bb3e1230486f456566b59",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-sorting-regression-mission-navigation-alert-gpu.png",
+        "restoredSha256": "549d96ce4f320b75008aec504a172379fb3c84ed3db7364a1d01f116e46e896e",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "star-upgrade-fallback-second-gpu.png",
+        "restoredSha256": "5eb279529fda74ff5258162d173c088cadd529b66a8a7f25821c8af8b1226071",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-rejection-regression-mission-sorting-alert-small-gpu.png",
+        "restoredSha256": "e3d9d51cbda9692a3f5827e699384585727569e2f224b7a65b433ce2b57e8ea4",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "adventure-menu-test-gpu.png",
+        "restoredSha256": "60462614a40c1ffedd32802d6edb0528a7fe3c1cf66370eed326d3c0a8f3eca2",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-navigation-next-gpu.png",
+        "restoredSha256": "af9b97ce7b759737bc7fd5d5c8aafdd2c43ecd9ec6fb6525a7034b6acd285d7e",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "skin-selected-test-gpu.png",
+        "restoredSha256": "30584596041c370a002b62dd19f8a59c73bf47f37f5d18cdb2e07de42e55bede",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-regression-startup-auto-combat-gpu.png",
+        "restoredSha256": "782d79f35942da466df1bd6091e377746be25cb4d5bd955e5ab58f1530bc201e",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "onboarding-upgrade-hand-gpu.png",
+        "restoredSha256": "70e190b67c8e795afeb3c2a58680d66746cd9c2a6a4e131c8b3a2aa8c8f1c1a6",
+        "regressionArchive": "reports/visual/stepup-regression-onboarding-upgrade-hand-gpu.png",
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "playtest-fixes-startup-walking-cat-gpu.png",
+        "restoredSha256": "272aaee2fae485ce91f6ce9241276e6b544c042fe633fb8b6fb04d820ec27fa9",
+        "regressionArchive": "reports/visual/stepup-regression-playtest-fixes-startup-walking-cat-gpu.png",
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-rejection-regression-mission-diamonds-settled-gpu.png",
+        "restoredSha256": "8368b1a5a990b0e8a509bd0a80b95a366b19af526687463ff42104a204b71656",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "startup-auto-combat-gpu.png",
+        "restoredSha256": "f14b908fe486dfdf1d7d884f6d27323f3946a016b26561aae22cae392e3fe289",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "plus-consumers-regression-playtest-fixes-monster-gpu.png",
+        "restoredSha256": "6f957fff726296db62dddb712ed0eeee742278dc3146c5f7f8b91958cac425ae",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "playtest-issues-regression-playtest-fixes-startup-walking-cat-gpu.png",
+        "restoredSha256": "d134af707512d657e2f16e8e0e26da803ae077b6bd5bfdd44ecab15fb95c2357",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "pet-detail-navigation-test-gpu.png",
+        "restoredSha256": "0bb700e4cdd61f28cb9cd314cad90317b34e4e9d121f7752fe3831e99aa36897",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-sorting-claimed-order-gpu.png",
+        "restoredSha256": "8cf385c0cc5564ccf56304dc3cd8737ff66dbb6395ff329957017c20b974dcaf",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "skin-locked-test-gpu.png",
+        "restoredSha256": "bdc38cfd37c01eeb7061bca41c1485815fa7e30deda0f8b0ecf8f8055151a235",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "plus-consumers-regression-playtest-fixes-insufficient-diamonds-gpu.png",
+        "restoredSha256": "7e4ffcfd1c769fb6fa4208f93eca61d702f700e0d7fd764127414ce44180ddd5",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "diapig-original-locked-page-gpu.png",
+        "restoredSha256": "c719c5c201be73e67fd318820ff7279642b7d78707095b0f5e2733291565a9ff",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "playtest-issues-weapon-ad-gpu.png",
+        "restoredSha256": "0460f11b353780af45e97d8dc8c872a43189e7470ec39d423dc7466ba2848022",
+        "regressionArchive": "reports/visual/stepup-regression-playtest-issues-weapon-ad-gpu.png",
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "relic-first-page-test-gpu.png",
+        "restoredSha256": "cb76be67a0f21eef5fdded7268f5862c8ec058cef22d8874200404d55acfed8d",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "pet-spine-adventure-test-gpu.png",
+        "restoredSha256": "030bb987cfd71f80f3722bb8224bdca620034cedaff3d6748752e4732bc3c313",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "auto-upgrade-offer-gpu.png",
+        "restoredSha256": "6627d90cc3531a1aba2f186f35b756aef1fb19a5a0b61db3e392a4c0515dd09d",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mine-diamond-fractions-gpu.png",
+        "restoredSha256": "8683d7ae9a2e40d7d9ea3ce72ef52cab46c379c25a437d1dd9f4dbc1dd5065e8",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "plus-consumers-raid-time-gpu.png",
+        "restoredSha256": "46fc5f6b1a603ee652066291b2d8e4d1ab47ba3f933c234923b03900f2127629",
+        "regressionArchive": "reports/visual/stepup-regression-plus-consumers-raid-time-gpu.png",
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "relic-upgrade-test-gpu.png",
+        "restoredSha256": "d2de6bd7c6c990a87bb91fe2e7ce7740971b8bf41ae1242dc76415232a296905",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "plus-consumers-regression-playtest-issues-weapon-ad-gpu.png",
+        "restoredSha256": "529346e73cf5d6ebabc7a19e3e32539118838eee56abccc32a8478fe6a028fed",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "plus-consumers-plus-purchased-gpu.png",
+        "restoredSha256": "c496bc9ff7549d8947105895c96c9907e2863810dcfb6ce540f6b4650e8942a6",
+        "regressionArchive": "reports/visual/stepup-regression-plus-consumers-plus-purchased-gpu.png",
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "mission-navigation-alert-gpu.png",
+        "restoredSha256": "15c0dc991c2375d221cb69fcffc5ba668f30954a63a776655ab2aa3b982d173a",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "adventure-enter-test-gpu.png",
+        "restoredSha256": "32320d7101267645baecd59152984a90eecdda289ec3ee2028f5e58c54a5cee8",
+        "regressionArchive": null,
+        "unchangedOrRestored": true
+      },
+      {
+        "name": "playtest-issues-mission-progress-gpu.png",
+        "restoredSha256": "c7be02cc1ad4b5a88f3dd5694953dc9283b49bfe4fe9c9dbdadb4a6bbe1c8dd0",
+        "regressionArchive": "reports/visual/stepup-regression-playtest-issues-mission-progress-gpu.png",
+        "unchangedOrRestored": true
+      }
+    ]
+  },
+  "gpu": [
+    {
+      "path": "reports/visual/stepup-hud-entry-gpu.png",
+      "sha256": "e70fa90ce3c3316ac186209e6ef61c6e04eb24ac25a6aea841e1b5dfa4e9b11b",
+      "actuallyViewed": true
+    },
+    {
+      "path": "reports/visual/stepup-original-popup-gpu.png",
+      "sha256": "1ae725f5ab716f7eee65e50f1dd3b65d5abfc66d7e687768ae6ff1ffdaeefc55",
+      "actuallyViewed": true
+    },
+    {
+      "path": "reports/visual/stepup-first-purchased-gpu.png",
+      "sha256": "6742685330c50494b9d5355b02e2446861b679eaad6b9e02ea4da1b2141d1a9a",
+      "actuallyViewed": true
+    },
+    {
+      "path": "reports/visual/stepup-weapon-banner-next-gpu.png",
+      "sha256": "9c93fd7b69b932bc176001fecb785f670be843c6c7042e1d6a9c418b56748503",
+      "actuallyViewed": true
+    }
+  ],
+  "editorHandoff": {
+    "stepUpBound": true,
+    "stepUpItems": 5,
+    "stepUpMissingGunDegreeReferences": 0,
+    "tutorialHudReferences": 9,
+    "originalPopupStartsHidden": true,
+    "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+    "dirty": false,
+    "playing": false,
+    "compiling": false,
+    "updating": false,
+    "testHostFolder": "",
+    "runtimePlusItems": 0,
+    "objects": 35470,
+    "missingScripts": 0,
+    "persist": true,
+    "saveFolderOverride": null,
+    "localRewardedAdDefault": true,
+    "earlyWeaponAdPreview": true,
+    "localPurchaseSimulation": true,
+    "stores": [
+      {
+        "shopBound": true,
+        "shopActive": false
+      }
+    ],
+    "automaticUpgradeBound": true,
+    "autoPopupBound": true,
+    "autoHud": 1,
+    "autoDisabled": false,
+    "offlineBound": true,
+    "offlineMaxSeconds": 28800.0,
+    "inputOverrides": 0,
+    "mouseFixtures": 0,
+    "timeScale": 1.0,
+    "buildScenes": [
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredBullets.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForest.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestHUD.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestProgress.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredJoystick.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredSettings.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredTarget.unity",
+        "enabled": true
+      }
+    ]
+  },
+  "finalConsole": {
+    "sampledUtc": "2026-10-11T05:49:57.933507Z",
+    "ageMs": 155,
+    "compilationFailed": false,
+    "compiling": false,
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "consoleLogs": 0,
+    "seeded": true
+  },
+  "realPaymentCharged": false,
+  "realReceiptsOrTransactionHistoryForged": false,
+  "userProgressRestoredOrReset": false,
+  "apkBuilt": false,
+  "deviceAcceptance": false,
+  "gitCommitOrPush": false,
+  "scopeComplete": false,
+  "pending": "Paid helper gameplay; Pig full accumulation; remove-ads automatic rewards and sweep consumers; short buffs/ad rebirth/temp gun; complete I2/render/animation/service/clock fidelity; two currently unbound tutorial HUD references; Player/device acceptance"
+}

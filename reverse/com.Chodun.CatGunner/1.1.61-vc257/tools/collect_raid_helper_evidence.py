@@ -1,0 +1,19 @@
+"""Collect bounded native recovery, individually complete runtime runs and normal Editor handoff."""
+from pathlib import Path
+import json,hashlib,datetime
+R=Path(__file__).resolve().parents[1];Q=R/'reports'
+def read(n):return json.loads((Q/n).read_text())
+runs=[]
+for name in ['raid-helper-playmode.json','raid-helper-regression-raid.json','raid-helper-regression-playtest-issues.json','raid-helper-regression-stepup.json','raid-helper-regression-startup.json']:
+ d=read(name);assert d['status']=='completed' and d['summary']['total']>0 and d['summary']['total']==d['summary']['passed'] and d['summary']['failed']==0,name
+ runs.append({'report':'reports/'+name,'duration':d['duration'],'summary':d['summary'],'independentCompleteRun':True})
+p=read('raid-helper-preservation.json');assert p['userMainAndBackupUnchanged'] and p['existingRectTransformsChanged']==0
+h=read('raid-helper-editor-handoff.json');assert h['objects']==35834 and h['missingScripts']==0 and h['helperGuns']==65 and h['helperUiBound'] and h['helperStartsHidden'] and h['persist']
+assert not h['playing'] and not h['dirty'] and not h['compiling'] and not h['updating'] and not h['saveFolderOverride'] and not h['testHostFolder'] and h['inputOverrides']==h['mouseFixtures']==0
+c=read('raid-helper-final-console-status.json')['data']['result']['groundTruth'];assert not c['compilationFailed'] and not c['compiling'] and c['consoleErrors']==0
+visual=[]
+for suffix in ['locked-slot','purchase-popup','owned-slot','live-combat']:
+ f=Q/'visual'/f'raid-helper-{suffix}-gpu.png';assert f.exists();visual.append({'path':str(f.relative_to(R)),'sha256':hashlib.sha256(f.read_bytes()).hexdigest(),'actuallyViewed':True})
+native=read('raid-helper-native-contract.json');assert len(native['methods'])==37
+out={'updatedUtc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'target':'com.Chodun.CatGunner 1.1.61 vc257','rule':47,'editor':'6000.4.10f1','native':native,'connected':['original helper slot -> popup -> asynchronous local payment callback','season entitlement -> original fourth cat','native weak gun 50-54 -> minimum of all three stars -> existing projectile combat','formation, separation, skin and warp consumers','mode exit -> helper hidden','local observer -> expiry without erasing entitlement record -> repurchase','ordinary archive -> cold reload -> restored entitlement'],'adapters':['user-authorized local payment simulator; no money charged','OfflinePurchaseSimulation variant gate','shared local calendar provider and quarter-second live consumer reconciliation','existing decimal/equipment/combat bridges','Editor-only transient layout tracker restoration to preserve original serialized rects','existing particle compatibility materials; nine supported builtin material references restored'],'independentTests':runs,'historicalAttempts':['reports/raid-helper-before-failure.json','reports/raid-helper-first-complete-run.json','reports/raid-helper-second-complete-run.json','reports/raid-helper-third-complete-run.json'],'projectileObservation':read('raid-helper-projectile-observation.json'),'gpu':visual,'preservation':p,'handoff':h,'finalConsole':c,'realPaymentCharged':False,'realReceiptOrStoreTransactionHistoryForged':False,'userProgressRestoredOrReset':False,'apkBuilt':False,'deviceAcceptance':False,'gitCommitOrPush':False,'scopeComplete':False,'pending':'SpriteSkin component149337, advanced energy/mesh VFX and full skeletal deformation; StarGem Pig accumulation; remove-ads automatic rewards/sweeps; trusted timing; remaining I2/UI/buff/ad-rebirth/temp-gun/service workflows; two unbound tutorial HUDs; Player/device acceptance'}
+(Q/'raid-helper-evidence.json').write_text(json.dumps(out,ensure_ascii=False,indent=2));print({'tests':[r['summary'] for r in runs],'objects':h['objects'],'userProgressUnchanged':True,'scopeComplete':False})

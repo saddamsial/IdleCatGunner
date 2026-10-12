@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "file": "level0",
+    "path_id": 123374,
+    "type_index": 10107,
+    "type": "UnityEngine.Rendering.Universal.UniversalAdditionalCameraData",
+    "game_object": "Main Camera"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 350
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 2576
+    },
+    "m_Name": "",
+    "m_RenderShadows": true,
+    "m_RequiresDepthTextureOption": 2,
+    "m_RequiresOpaqueTextureOption": 2,
+    "m_CameraType": 0,
+    "m_Cameras": [],
+    "m_RendererIndex": -1,
+    "m_VolumeLayerMask": {
+      "m_Bits": 1
+    },
+    "m_VolumeTrigger": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_VolumeFrameworkUpdateModeOption": 2,
+    "m_RenderPostProcessing": true,
+    "m_Antialiasing": 0,
+    "m_AntialiasingQuality": 2,
+    "m_StopNaN": false,
+    "m_Dithering": false,
+    "m_ClearDepth": true,
+    "m_AllowXRRendering": true,
+    "m_AllowHDROutput": true,
+    "m_UseScreenCoordOverride": false,
+    "m_ScreenSizeOverride": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 0.0
+    },
+    "m_ScreenCoordScaleBias": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 0.0
+    },
+    "m_RequiresDepthTexture": false,
+    "m_RequiresColorTexture": false,
+    "m_Version": 2.0,
+    "m_TaaSettings": {
+      "m_Quality": 3,
+      "m_FrameInfluence": 0.10000000149011612,
+      "m_JitterScale": 1.0,
+      "m_MipBias": 0.0,
+      "m_VarianceClampScale": 0.8999999761581421,
+      "m_ContrastAdaptiveSharpening": 0.0
+    }
+  }
+}

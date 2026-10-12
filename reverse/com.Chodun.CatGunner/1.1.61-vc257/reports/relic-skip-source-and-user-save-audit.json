@@ -1,0 +1,98 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61/vc257/arm64",
+  "frozen_inputs": [
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/assetripper-baseline/ExportedProject/Assets/Scenes/Main.unity",
+      "sha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/split_config.arm64_v8a/lib/arm64-v8a/libil2cpp.so",
+      "sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/base/assets/bin/Data/Managed/Metadata/global-metadata.dat",
+      "sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+      "unchanged": true
+    }
+  ],
+  "user_save": [
+    {
+      "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json",
+      "sha256": "bd1f1d84ad30c058d4aba941507e7ca57dffe879322cdb6e8cc39aec844c099d",
+      "bytes": 9364,
+      "unchanged_from_turn_start": true
+    },
+    {
+      "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json.bak",
+      "sha256": "bd1f1d84ad30c058d4aba941507e7ca57dffe879322cdb6e8cc39aec844c099d",
+      "bytes": 9364,
+      "unchanged_from_turn_start": true
+    }
+  ],
+  "preserved_assets": [
+    {
+      "asset": "Assets/AnimatorController/GameWin_0.controller",
+      "sha256": "3366d82978174af635606d86ae81a519d945c5d19c54cc58acaa0596af8267ee",
+      "byte_identical_to_baseline": true
+    },
+    {
+      "asset": "Assets/AnimatorController/GameWin_0.controller.meta",
+      "sha256": "45f19a3cd1b2c8f8079b0fb550809ec12174f6ee10d58f7344c208dc0f6f552e",
+      "byte_identical_to_baseline": true
+    },
+    {
+      "asset": "Assets/AnimationClip/Win_0.anim",
+      "sha256": "307f23f420a1526960ea958521c2058ee2983952f994b32a31a36b302750279a",
+      "byte_identical_to_baseline": true
+    },
+    {
+      "asset": "Assets/AnimationClip/Win_0.anim.meta",
+      "sha256": "c6b3311bccc57a01ed7ad3d15b473eefc02b08940f63b8c39c38e6f5d3ac9e24",
+      "byte_identical_to_baseline": true
+    },
+    {
+      "asset": "Assets/Texture2D/Pattern.png",
+      "sha256": "2e2663226bcef9d8763c34741cc626c2609ac4989607c2c27c62c1cf75f5c3c0",
+      "byte_identical_to_baseline": true
+    },
+    {
+      "asset": "Assets/Texture2D/Pattern.png.meta",
+      "sha256": "04f08f2fd832055a35009f40fda67a1bd69c1244afeba3616816f33d6827f71d",
+      "byte_identical_to_baseline": true
+    },
+    {
+      "asset": "Assets/Recovery/Scripts/Scrolling.cs.meta",
+      "sha256": "583b09bb342d35340d9cef79722a7f80887dcad4cc550236c9dd956d5775db86",
+      "byte_identical_to_baseline": true
+    },
+    {
+      "asset": "Assets/Recovery/Scripts/Tree_manager.cs.meta",
+      "sha256": "94ab5c9c73fafffc06846a65fe9ea66ce857b39a2dc8f00fb95779bc3a03e4e5",
+      "byte_identical_to_baseline": true
+    }
+  ],
+  "scene_before_sha256": "53038e462d0df1e23d7cb35baf01c9ffba06d219d397bef08688fa6b10088f23",
+  "scene_sha256": "89ab55510f819aaf8681075dfc92a470b68a1354b40eb46f9c06a88329d692a6",
+  "scene_changes": "Only three original Scrolling components added through Editor APIs; existing geometry/assets untouched.",
+  "current_sources": [
+    {
+      "path": "Assets/Recovery/Scripts/Scrolling.cs",
+      "sha256": "3e96b6b163316e8f145b614e7fa39cc592b0420fd29afa4f6e3dd374ea65cdba"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/Tree_manager.cs",
+      "sha256": "0cffb0c72a93d7671abd213ffb8c9d695411650b794b07a48adc66dfb32c8d9e"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/OriginalForestRules.cs",
+      "sha256": "8c4cdc3805c0657fc4cdb0706000790eea17c1e4b64bb8d8b088e5264cdf3c09"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/RecoveryForestClient.cs",
+      "sha256": "136ef6ae4d9fb7df937d222aee4697e30438f5408a2654a616b0b1fd3af69db0"
+    }
+  ],
+  "scope_complete": false
+}

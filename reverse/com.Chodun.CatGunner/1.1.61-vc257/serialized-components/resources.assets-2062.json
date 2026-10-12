@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "file": "resources.assets",
+    "path_id": 2062,
+    "type_index": 15226,
+    "type": "DG.Tweening.Core.DOTweenSettings",
+    "game_object": "DOTweenSettings"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 3924
+    },
+    "m_Name": "DOTweenSettings",
+    "useSafeMode": true,
+    "safeModeOptions": {
+      "logBehaviour": 2,
+      "nestedTweenFailureBehaviour": 0
+    },
+    "timeScale": 1.0,
+    "unscaledTimeScale": 1.0,
+    "useSmoothDeltaTime": false,
+    "maxSmoothUnscaledTime": 0.15000000596046448,
+    "rewindCallbackMode": 0,
+    "showUnityEditorReport": false,
+    "logBehaviour": 0,
+    "drawGizmos": true,
+    "defaultRecyclable": false,
+    "defaultAutoPlay": 3,
+    "defaultUpdateType": 0,
+    "defaultTimeScaleIndependent": false,
+    "defaultEaseType": 6,
+    "defaultEaseOvershootOrAmplitude": 1.7015800476074219,
+    "defaultEasePeriod": 0.0,
+    "defaultAutoKill": true,
+    "defaultLoopType": 0,
+    "debugMode": false,
+    "debugStoreTargetId": true,
+    "showPreviewPanel": true,
+    "storeSettingsLocation": 0,
+    "modules": {
+      "showPanel": false,
+      "audioEnabled": true,
+      "physicsEnabled": true,
+      "physics2DEnabled": true,
+      "spriteEnabled": true,
+      "uiEnabled": true,
+      "uiToolkitEnabled": false,
+      "textMeshProEnabled": false,
+      "tk2DEnabled": false,
+      "deAudioEnabled": false,
+      "deUnityExtendedEnabled": false,
+      "epoOutlineEnabled": false
+    },
+    "createASMDEF": false,
+    "showPlayingTweens": false,
+    "showPausedTweens": false
+  }
+}

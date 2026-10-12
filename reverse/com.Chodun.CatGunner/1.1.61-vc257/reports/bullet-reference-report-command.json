@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "return ForestBulletEditor.ReportRestoredOriginalPools();"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": "{\n  \"scene\": \"Assets/Recovery/Scenes/RecoveredForest.unity\",\n  \"scene_bytes\": 404148294,\n  \"bullets\": 27,\n  \"fx\": 10,\n  \"all_bullet_skin_references\": true,\n  \"meshes\": 1215,\n  \"birth_bounce_children\": 27,\n  \"fx_lifetimes\": [\n    2.0,\n    2.0,\n    2.0,\n    2.0,\n    2.0,\n    2.0,\n    2.0,\n    2.0,\n    2.0,\n    2.0\n  ],\n  \"original_root_count\": 37,\n  \"compatibility_materials\": [\n    \"Assets/Recovery/ParticleMaterials/d009a7be3cc988e4f98524bd325a4b86.mat\",\n    \"Assets/Recovery/ParticleMaterials/3aa626e30c9072d4e92dc35ead2e1d96.mat\",\n    \"Assets/Recovery/ParticleMaterials/e79b9a00dea744047a441fe7dd401c40.mat\",\n    \"Assets/Recovery/ParticleMaterials/fa4f8d23f4d378d44850538c1de51af2.mat\",\n    \"Assets/Recovery/ParticleMaterials/6204a2b210c18674ba3823880b755eec.mat\",\n    \"Assets/Recovery/ParticleMaterials/b5937f25b5ddfc24f9dcce0b33fef55e.mat\",\n    \"Assets/Recovery/ParticleMaterials/69c5bc25970cc1f4888c73f65b461754.mat\",\n    \"Assets/Recovery/ParticleMaterials/c332283527bcbb94083df845c5277c8a.mat\",\n    \"Assets/Recovery/ParticleMaterials/7346403c9c04ce54c8b27c56250a7764.mat\",\n    \"Assets/Recovery/ParticleMaterials/50379979a12ff894db75a22a52189633.mat\",\n    \"Assets/Recovery/ParticleMaterials/7343c9a72db2a8a4984ca465d99bba3e.mat\",\n    \"Assets/Recovery/ParticleMaterials/3c1012a3ac714964cab3cb8862089b0a.mat\",\n    \"Assets/Recovery/ParticleMaterials/f4d69bb819a238e46b895217a79d8495.mat\",\n    \"Assets/Material/solid_AB.mat\",\n    \"Assets/Material/nova_6x3_spritesheet_ADD.mat\",\n    \"Assets/Material/ring_ADD.mat\",\n    \"Assets/Material/grab2_ADD.mat\",\n    \"Assets/Material/magic_orb2_ADD.mat\",\n    \"Assets/Material/glow1_ADD.mat\",\n    \"Assets/Material/cloud_2x2_default_AB.mat\",\n    \"Assets/Material/UniqueToonProjectilesVol1_Add_10X10_part1.mat\",\n    \"Assets/Material/circle_AB.mat\",\n    \"Assets/Material/triangle_curve_AB.mat\"\n  ],\n  \"original_Main\": \"immutable baseline unchanged\",\n  \"difference\": \"Original particle assets and pool identity; independent compatibility shader, decimal adapter and tree-only damage router. Full Cat.Update/aim/weapon selection, other weapon branches and DamageTextManager pending\"\n}"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

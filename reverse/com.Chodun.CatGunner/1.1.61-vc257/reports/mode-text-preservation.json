@@ -1,0 +1,59 @@
+{
+  "files": [
+    {
+      "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json",
+      "backup": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/checkpoints/mode-text-before/0-NoSaveFile.json",
+      "sha256": "ccba54572d12cd1fa43b14c4ae18f8d014bd14634ef9a97dccd2b0cdf101d95e",
+      "after": "ccba54572d12cd1fa43b14c4ae18f8d014bd14634ef9a97dccd2b0cdf101d95e",
+      "unchanged": true,
+      "expectedCodeChange": false
+    },
+    {
+      "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json.bak",
+      "backup": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/checkpoints/mode-text-before/1-NoSaveFile.json.bak",
+      "sha256": "cda53b8e91c9b8ff716e574f9c9669b18eacee2c841350abd005deb8bea0ae0d",
+      "after": "cda53b8e91c9b8ff716e574f9c9669b18eacee2c841350abd005deb8bea0ae0d",
+      "unchanged": true,
+      "expectedCodeChange": false
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scenes/RecoveredClient.unity",
+      "backup": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/checkpoints/mode-text-before/2-RecoveredClient.unity",
+      "sha256": "d6c0e89621f7cd6196db22521a898cb7073635f81118f3a84c007143799c36b6",
+      "after": "d6c0e89621f7cd6196db22521a898cb7073635f81118f3a84c007143799c36b6",
+      "unchanged": true,
+      "expectedCodeChange": false
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Resources/StarChineseFallback.asset",
+      "backup": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/checkpoints/mode-text-before/3-StarChineseFallback.asset",
+      "sha256": "d122df113d6c73a678919fd11f6f01a1c6d44ac12870980d3cfe99ed19c523a7",
+      "after": "d122df113d6c73a678919fd11f6f01a1c6d44ac12870980d3cfe99ed19c523a7",
+      "unchanged": true,
+      "expectedCodeChange": false
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryClientPresentation.cs",
+      "backup": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/checkpoints/mode-text-before/4-RecoveryClientPresentation.cs",
+      "sha256": "b64b40642486c340c247c758f1e3ebcb0a7cf320d4242e427842fd12d4b381e7",
+      "after": "8ae5f21703781ec0942805afc0e5fd648dcad9cbd5db87102bf4352be0913783",
+      "unchanged": false,
+      "expectedCodeChange": true
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalBossSweepTests.cs",
+      "backup": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/checkpoints/mode-text-before/boss-test.cs",
+      "sha256": "5171eb11d95ce28fa49899d92cba8e1d4eb88bb92c2f76a89e246ecd25b8bf7c",
+      "after": "990b69876b6394e5e98371bb17d1bcf578f07dddcaf7d075b7dc8868d48bed8a",
+      "unchanged": false,
+      "expectedCodeChange": true
+    }
+  ],
+  "existingMetaCount": 540,
+  "existingMetasChanged": [],
+  "newMetas": [
+    "Assets/Recovery/Resources/OriginalModeText.json.meta",
+    "Assets/Recovery/Tests/PlayMode/OriginalModeTextTests.cs.meta",
+    "Assets/Recovery/Scripts/OriginalModeText.cs.meta"
+  ]
+}

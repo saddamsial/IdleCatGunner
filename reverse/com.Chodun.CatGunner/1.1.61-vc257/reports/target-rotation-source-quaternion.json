@@ -1,0 +1,40 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var q=new Quaternion(-0.37940955f,0.1205906f,-0.049950283f,-0.9159756f);var e=q.eulerAngles;var end=new Vector3(45,-15,-180);var d=end-e;for(int i=0;i<3;i++){if(Mathf.Abs(d[i])>180)d[i]+=d[i]<0?360:-360;}return new{quaternion=new{q.x,q.y,q.z,q.w},euler=new{e.x,e.y,e.z},change=new{x=d.x,y=d.y,z=d.z}};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "quaternion": {
+          "x": -0.379409552,
+          "y": 0.1205906,
+          "z": -0.049950283,
+          "w": -0.9159756
+        },
+        "euler": {
+          "x": 45.0000038,
+          "y": 345,
+          "z": 0.00000241483667
+        },
+        "change": {
+          "x": -0.00000381469727,
+          "y": 0,
+          "z": -180
+        }
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

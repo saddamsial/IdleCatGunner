@@ -1,0 +1,286 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61/vc257/arm64",
+  "frozen_inputs": [
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/assetripper-baseline/ExportedProject/Assets/Scenes/Main.unity",
+      "sha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/split_config.arm64_v8a/lib/arm64-v8a/libil2cpp.so",
+      "sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/base/assets/bin/Data/Managed/Metadata/global-metadata.dat",
+      "sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+      "unchanged": true
+    }
+  ],
+  "methods": [
+    {
+      "name": "Tree_manager_Game_Win",
+      "preferred_va": "0x2bad174",
+      "ghidra_va": "0x2cad174",
+      "exclusive_bound": "0x2bad6ac",
+      "query": "native-client-flow-queries.tsv",
+      "first16bytes_verified": true,
+      "c": "native-client-flow-reviewed-v4/Tree_manager_Game_Win.c",
+      "c_sha256": "59bb38622e589b6fb0ae739e22ab96cbf581ef6a53b60ffeccb3efc119ba7296",
+      "asm_sha256": "3d9bd7901156118847291c39d7818cc77772e255dbe7eb7b0a857543985e5574"
+    },
+    {
+      "name": "Tree_manager_Game_Start",
+      "preferred_va": "0x2baac18",
+      "ghidra_va": "0x2caac18",
+      "exclusive_bound": "0x2baaf84",
+      "query": "native-client-flow-queries.tsv",
+      "first16bytes_verified": true,
+      "c": "native-client-flow-reviewed-v4/Tree_manager_Game_Start.c",
+      "c_sha256": "ba4427d54c2982c44b0b30015a7904898d63da0ca53c83335d51d0c78c640530",
+      "asm_sha256": "4a76837be803f0bb98a988d19eb0aed973e788f2ed02efe716244fab24a85bf5"
+    },
+    {
+      "name": "Tree_manager_Game_Fail",
+      "preferred_va": "0x2bad740",
+      "ghidra_va": "0x2cad740",
+      "exclusive_bound": "0x2bad88c",
+      "query": "native-client-flow-queries.tsv",
+      "first16bytes_verified": true,
+      "c": "native-client-flow-reviewed-v4/Tree_manager_Game_Fail.c",
+      "c_sha256": "ef23f2dfb650b64bbe4db9efced21133da348d179133aceea58211fe9078f75b",
+      "asm_sha256": "2f02ef1d3cabb85f358ea6fd0059064d7822c8dbe265e822c23d6f378b02a211"
+    },
+    {
+      "name": "_Loading_Then_Start_d__47_MoveNext",
+      "preferred_va": "0x2bae2dc",
+      "ghidra_va": "0x2cae2dc",
+      "exclusive_bound": "0x2bae4f0",
+      "query": "native-client-flow-queries.tsv",
+      "first16bytes_verified": true,
+      "c": "native-client-flow-reviewed-v4/_Loading_Then_Start_d__47_MoveNext.c",
+      "c_sha256": "7c4a13592aecff57e33e3c11f17a47c2fcc949fcdd60c0a551001dd573c318c0",
+      "asm_sha256": "ea304dfa81e2eb77a710d49fd6a854ab961a865b218a1c1e68eceeca2e27da4b"
+    },
+    {
+      "name": "Tree_manager_StageAdvance",
+      "preferred_va": "0x2bad6ac",
+      "ghidra_va": "0x2cad6ac",
+      "exclusive_bound": "0x2bad6d4",
+      "query": "native-battle-queries.tsv",
+      "first16bytes_verified": true,
+      "c": "native-battle/Tree_manager_StageAdvance.c",
+      "c_sha256": "0f7dadd9f6e2563970a446b08109f0ba5abc698ad540d38f13a86e084931c9b5",
+      "asm_sha256": "8126bd84b1c0fd915862eda31ec885ce05413f478b442d47147a945e209c8a7f"
+    },
+    {
+      "name": "Relic_manager_Value_Reload",
+      "preferred_va": "0x2b31f8c",
+      "ghidra_va": "0x2c31f8c",
+      "exclusive_bound": "0x2b324bc",
+      "query": "native-equipment-balance-queries.tsv",
+      "first16bytes_verified": true,
+      "c": "native-relic-client-reviewed/Relic_manager_Value_Reload.c",
+      "c_sha256": "46e48f8e5920d63792e406329d8cbf36d3b115afadd7b21ceaf15b5a27d5e2d1",
+      "asm_sha256": "b4daf3b373139a745b13a2cd3f5170207df8510f25dbe999ea0c160edc7e2c2a"
+    },
+    {
+      "name": "Scrolling_Start",
+      "preferred_va": "0x2b27404",
+      "ghidra_va": "0x2c27404",
+      "exclusive_bound": "0x2b2745c",
+      "query": "native-settlement-scrolling-queries.tsv",
+      "first16bytes_verified": true,
+      "c": "native-settlement-scrolling-reviewed/Scrolling_Start.c",
+      "c_sha256": "f1c31399e2a8145d051ed60f7cdef298cb9ddb4253aa99706fd2372419b60a87",
+      "asm_sha256": "7ebe94746f48fb8f8578f0e5005244d568e26d7c5e373f1cbe9da4b0b2be6bbd"
+    },
+    {
+      "name": "Scrolling_Update",
+      "preferred_va": "0x2b2745c",
+      "ghidra_va": "0x2c2745c",
+      "exclusive_bound": "0x2b274e8",
+      "query": "native-settlement-scrolling-queries.tsv",
+      "first16bytes_verified": true,
+      "c": "native-settlement-scrolling-reviewed/Scrolling_Update.c",
+      "c_sha256": "5287448be19ee5a71fdfb5493e77fe5f523f60ca1c41bcb578333cbb7ff02c90",
+      "asm_sha256": "443a59eff7de717180bbdfbaa06b511cbb4f2bbbf341574107f378a7525f2e38"
+    },
+    {
+      "name": "Scrolling__ctor",
+      "preferred_va": "0x2b274e8",
+      "ghidra_va": "0x2c274e8",
+      "exclusive_bound": "0x2b274f0",
+      "query": "native-settlement-scrolling-queries.tsv",
+      "first16bytes_verified": true,
+      "c": "native-settlement-scrolling-reviewed/Scrolling__ctor.c",
+      "c_sha256": "e0785f2121e3368a98a8f43df0f4f6f5a59bfa6691ecb4cf1afd71ebfd2263d1",
+      "asm_sha256": "82e6a600be214ff61c03c98572b1db64fa3bbf0a750b6c6d6bb07cf932e41177"
+    }
+  ],
+  "new_native_exports": {
+    "business": 3,
+    "helpers": 6,
+    "completed": 9
+  },
+  "reused_native_methods": 6,
+  "native_fields": {
+    "Scrolling": [
+      {
+        "name": "Speed",
+        "token": "0x40005a2",
+        "native_offset": 32,
+        "serialization_visibility": true
+      },
+      {
+        "name": "img",
+        "token": "0x40005a3",
+        "native_offset": 40,
+        "serialization_visibility": false
+      }
+    ],
+    "Tree_manager": [
+      {
+        "name": "Stage_Now",
+        "token": "0x4000f21",
+        "native_offset": 40,
+        "serialization_visibility": true
+      },
+      {
+        "name": "Level_Now",
+        "token": "0x4000f22",
+        "native_offset": 44,
+        "serialization_visibility": true
+      },
+      {
+        "name": "Stage_Value_Max",
+        "token": "0x4000f23",
+        "native_offset": 48,
+        "serialization_visibility": true
+      },
+      {
+        "name": "_pendingGameSkipUI",
+        "token": "0x4000f29",
+        "native_offset": 80,
+        "serialization_visibility": false
+      },
+      {
+        "name": "GameSkip_UI",
+        "token": "0x4000f2c",
+        "native_offset": 104,
+        "serialization_visibility": true
+      }
+    ],
+    "Relic_manager": [
+      {
+        "name": "Skip_Value",
+        "token": "0x400068e",
+        "native_offset": 108,
+        "serialization_visibility": false
+      }
+    ]
+  },
+  "original_banner_components": [
+    {
+      "component": 124391,
+      "gameObject": 1184,
+      "Speed": {
+        "x": -0.1,
+        "y": 0
+      },
+      "enabled": 1,
+      "script": {
+        "fileID": 11500000,
+        "guid": "04a7ec6a374ced46f4364344b3d5cc29",
+        "type": 3
+      }
+    },
+    {
+      "component": 124534,
+      "gameObject": 1309,
+      "Speed": {
+        "x": -0.1,
+        "y": 0
+      },
+      "enabled": 1,
+      "script": {
+        "fileID": 11500000,
+        "guid": "04a7ec6a374ced46f4364344b3d5cc29",
+        "type": 3
+      }
+    },
+    {
+      "component": 125343,
+      "gameObject": 1986,
+      "Speed": {
+        "x": -0.1,
+        "y": 0
+      },
+      "enabled": 1,
+      "script": {
+        "fileID": 11500000,
+        "guid": "04a7ec6a374ced46f4364344b3d5cc29",
+        "type": 3
+      }
+    }
+  ],
+  "preserved_assets": [
+    {
+      "asset": "Assets/AnimatorController/GameWin_0.controller",
+      "sha256": "3366d82978174af635606d86ae81a519d945c5d19c54cc58acaa0596af8267ee",
+      "byte_identical_to_baseline": true
+    },
+    {
+      "asset": "Assets/AnimatorController/GameWin_0.controller.meta",
+      "sha256": "45f19a3cd1b2c8f8079b0fb550809ec12174f6ee10d58f7344c208dc0f6f552e",
+      "byte_identical_to_baseline": true
+    },
+    {
+      "asset": "Assets/AnimationClip/Win_0.anim",
+      "sha256": "307f23f420a1526960ea958521c2058ee2983952f994b32a31a36b302750279a",
+      "byte_identical_to_baseline": true
+    },
+    {
+      "asset": "Assets/AnimationClip/Win_0.anim.meta",
+      "sha256": "c6b3311bccc57a01ed7ad3d15b473eefc02b08940f63b8c39c38e6f5d3ac9e24",
+      "byte_identical_to_baseline": true
+    },
+    {
+      "asset": "Assets/Texture2D/Pattern.png",
+      "sha256": "2e2663226bcef9d8763c34741cc626c2609ac4989607c2c27c62c1cf75f5c3c0",
+      "byte_identical_to_baseline": true
+    },
+    {
+      "asset": "Assets/Texture2D/Pattern.png.meta",
+      "sha256": "04f08f2fd832055a35009f40fda67a1bd69c1244afeba3616816f33d6827f71d",
+      "byte_identical_to_baseline": true
+    },
+    {
+      "asset": "Assets/Recovery/Scripts/Scrolling.cs.meta",
+      "sha256": "583b09bb342d35340d9cef79722a7f80887dcad4cc550236c9dd956d5775db86",
+      "byte_identical_to_baseline": true
+    },
+    {
+      "asset": "Assets/Recovery/Scripts/Tree_manager.cs.meta",
+      "sha256": "94ab5c9c73fafffc06846a65fe9ea66ce857b39a2dc8f00fb95779bc3a03e4e5",
+      "byte_identical_to_baseline": true
+    }
+  ],
+  "rules": {
+    "advance": "One normal Advance. When unlocked aggregated Skip_Value>=1, consume one Unity Random.value. If roll*100<Skip_Value, advance a temporary candidate once. Accept only candidateStage*10+candidateLevel<old Stage_Value_Max. Then update maximum from resulting current wave. No chain or chance clamp.",
+    "rewards": "One real win mission increment. Skipped wave has no killed-tree income, tree mission increment or extra win mission. No diamond award.",
+    "notification": "Private transient flag at Tree_manager+0x50. Game_Start sets GameSkip_UI active from it and clears it. Original GameWin_0 controller/Win_0 clip moves/scales Panel for1.5s. It has no disable event; next Game_Start controls root. Loading clears Win/Fail/Loading after0.2s, not the skip root.",
+    "scrolling": "Start caches RawImage on same object. Update offsets uvRect.x/y by original serialized Speed times scaled Time.deltaTime; width/height retained, no modulo, no OnEnable reset. Original three banners Speed(-0.1,0), uv width26.2."
+  },
+  "adapters": [
+    "Per-client decimal/save/event bridge retained; no random injection in production.",
+    "Existing local Restart and mode-entry cancellation explicitly discard a pending cue and hide it; this is compatibility behavior, not original empty Game_Restart source.",
+    "Independent original Gun5/Lv50 Skip test fixture does not alter user save or original tree HP/positions/timers."
+  ],
+  "remaining": [
+    "OfflineProgressManager/OfflineProgressSimulator and offline rewards",
+    "Remaining UI/components/animations beyond these three banners",
+    "Online/SDK flows and device/pixel acceptance"
+  ],
+  "scope_complete": false
+}

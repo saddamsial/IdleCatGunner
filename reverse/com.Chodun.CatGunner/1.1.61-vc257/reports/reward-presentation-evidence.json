@@ -1,0 +1,102 @@
+{
+  "rules": "original-game-rules/36_REWARD_PRESENTATION.md",
+  "contract": "reward-presentation-contract.json",
+  "tests": {
+    "reward": {
+      "report": "live-reward-presentation-final-status.json",
+      "status": "completed",
+      "duration": 38.75,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "daily": {
+      "report": "live-reward-presentation-daily-status.json",
+      "status": "completed",
+      "duration": 55.69,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "diapig": {
+      "report": "live-reward-presentation-diapig-status.json",
+      "status": "completed",
+      "duration": 47.28,
+      "summary": {
+        "total": 7,
+        "passed": 7,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "feedback": {
+      "report": "live-reward-presentation-feedback-status.json",
+      "status": "completed",
+      "duration": 26.2,
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "startup": {
+      "report": "live-reward-presentation-startup-status.json",
+      "status": "completed",
+      "duration": 22.65,
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    }
+  },
+  "boundary": "Five separate completed runs, not a full assembly/Player/device run. Initial2/2 failures included static glow and wrong multi-match fixture; subsequent4/5 wrong banner path, pre-motion5/5+daily6/6+pig7/7 are historical. Motion missing-method1/1 failure retained; final6-case reward suite includes motion numeric boundary.",
+  "native_business_exports": {
+    "game_attraction_and_bounce": 19,
+    "particle_image": 16,
+    "dotween": 3
+  },
+  "exception_helpers_per_scope": 6,
+  "native_scope_boundary": "Exports matched frozen inputs; only documented preset/native branches implemented, not whole SDK.",
+  "source_parameters": "reward-presentation-source-parameters.json",
+  "scene_audit": "reward-presentation-scene-document-diff.json",
+  "preservation_audit": "reward-presentation-preservation-audit.json",
+  "reference_audit": "reward-presentation-reference-audit.json",
+  "handoff": "reward-presentation-editor-handoff.json",
+  "console": "reward-presentation-final-console.json",
+  "runner": "reward-presentation-final-runner.json",
+  "scene_sha256": "227895c229f70c070f22a67b7278b9ff6b8e206df6abe5e33a60e8e12c49f44b",
+  "gpu": [
+    {
+      "path": "visual/reward-diamonds-flight-gpu.png",
+      "sha256": "1595e3992cdc21e86b20191d3f6f0e622bc9226d0474a3337c4496420bd3c04f",
+      "actually_viewed": true
+    },
+    {
+      "path": "visual/reward-diamonds-attraction-gpu.png",
+      "sha256": "c9f3650dc7958544940ce0c04cc5807f33fe67e8dcc60c180207733a5e0488c6",
+      "actually_viewed": true
+    }
+  ],
+  "differences": [
+    "Local rotation reset-on-enable differs from unproved DOTween hidden phase",
+    "Local circle preset renderer, original assets/curves, different pool/RNG consumption/general SDK",
+    "Bounce initialization and early attraction Awake order are local bootstrap bridges",
+    "Only ordinary DailyCheck production spawn wired; Shop target and other business spawns pending"
+  ],
+  "scope_complete": false,
+  "actual_editor_scene": "reward-presentation-actual-editor-scene.json"
+}

@@ -1,0 +1,83 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61/vc257 arm64",
+  "native_export": {
+    "queries": 58,
+    "completed": 58,
+    "all_completed": true,
+    "first16_checked": true
+  },
+  "rules": {
+    "slots": 16,
+    "free_slots": 6,
+    "purchased_max": 10,
+    "unlock_stage_value": 390,
+    "unlock_display_stage": 40,
+    "next_price": "50 + Purchased_Count * 50",
+    "deposit": "First empty of OpenCount; excludes advertisement slot; clears owned pause; does not register weapon acquisition",
+    "withdraw": "First empty owned slot; sets owned pause true; no stage gate or open-slot gate in native Take_Out",
+    "purchase": "Only next sequential slot; sufficient diamond wallet; updates purchased count, total diamond spend, save",
+    "contexts": {
+      "inventory": 1,
+      "equipped": 2,
+      "safe": 3
+    },
+    "pause": "Content_Open is Safe_manager.Is_Unlocked; unpause does not recheck content unlock; AD slots cannot toggle; safe always displays paused and only takeout action",
+    "stale": "Original Gun_Info_UI validates mode/index/current weapon before mutation; stale context closes popup"
+  },
+  "native_refs": [
+    "native-safe-client-reviewed",
+    "native-companions-core-reviewed",
+    "native-companions-geometry-reviewed/Gun_Info_UI_get_Content_Open.c"
+  ],
+  "source_roots": [
+    2026,
+    2027,
+    1221
+  ],
+  "local_adapters": [
+    "Independent JSON profile; refuse invalid profile before normalization instead of native invalid-entry erasure",
+    "Immediate existing inventory grid relocation; original takeout spawn bounce pending",
+    "English alert fallback on original Alert UI",
+    "Desktop does not invoke native short vibration"
+  ],
+  "excluded": [
+    "Advertisement reward watching",
+    "Paid PlusPack type2 auto merge",
+    "Commercial purchases, phone saves, server time"
+  ],
+  "scope_complete": false,
+  "ui_literals": [
+    {
+      "preferred_pointer": "0x5d63398",
+      "kind": 5,
+      "index": 2754,
+      "literal": "<sprite=1>{0}"
+    },
+    {
+      "preferred_pointer": "0x5d63af8",
+      "kind": 5,
+      "index": 6787,
+      "literal": "Gun/PauseLocked"
+    },
+    {
+      "preferred_pointer": "0x5d63af0",
+      "kind": 5,
+      "index": 6793,
+      "literal": "Gun/SafeFull"
+    },
+    {
+      "preferred_pointer": "0x5d63a78",
+      "kind": 5,
+      "index": 6780,
+      "literal": "Gun/InventoryFull"
+    },
+    {
+      "preferred_pointer": "0x5d63b00",
+      "kind": 5,
+      "index": 6794,
+      "literal": "Gun/SafeSlotOrder"
+    }
+  ],
+  "frozen_native_sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "metadata_sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884"
+}

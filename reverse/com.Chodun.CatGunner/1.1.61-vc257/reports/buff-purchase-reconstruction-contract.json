@@ -1,0 +1,21 @@
+{
+  "rule": 56,
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "engineEditor": "Unity6000.4.10f1 existing project",
+  "scope": [
+    "original Buff-popup permanent-pack entry",
+    "user-authorized local purchase-success simulator, cancel/page/mode guards",
+    "cold reload and frozen timers",
+    "native offline permanent-only snapshot re-review"
+  ],
+  "evidence": "Reuse exact version original scene button123680/type3 and seven reviewed byte-verified native methods; no new native queries",
+  "exclusions": [
+    "store SDK, real money, production receipts/entitlements, FreeCash and backend",
+    "temporary weapons/ad rebirth and unrelated remaining UI/VFX",
+    "APK/device acceptance and Git delivery"
+  ],
+  "preservationCheckpoint": "checkpoints/buff-purchase-before",
+  "testIsolation": "GUID folders per test and SessionState host; preserve user main+backup",
+  "sceneMutation": "None; bind runtime adapter listener on existing original button",
+  "scopeComplete": false
+}

@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var c=CatGunner.Recovery.RecoveryForestClient.Instance; var p=c.UpgradePanels[0].transform as UnityEngine.RectTransform; var e=new UnityEngine.EventSystems.PointerEventData(UnityEngine.EventSystems.EventSystem.current) {position=UnityEngine.RectTransformUtility.WorldToScreenPoint(null,p.TransformPoint(p.rect.center))}; var hits=new System.Collections.Generic.List<UnityEngine.EventSystems.RaycastResult>(); UnityEngine.EventSystems.EventSystem.current.RaycastAll(e,hits); return hits.Select(h=>new {h.gameObject.name,upgrade=h.gameObject.GetComponentInParent<Upgrade_Ingame>()!=null});"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": [
+        {
+          "name": "Floating Joystick",
+          "upgrade": false
+        },
+        {
+          "name": "Outline",
+          "upgrade": true
+        },
+        {
+          "name": "UpgradeAble_obj",
+          "upgrade": true
+        },
+        {
+          "name": "Fill",
+          "upgrade": true
+        },
+        {
+          "name": "Panel",
+          "upgrade": true
+        },
+        {
+          "name": "Upgrade_Panel",
+          "upgrade": true
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

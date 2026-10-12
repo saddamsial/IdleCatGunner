@@ -1,0 +1,177 @@
+{
+  "oldDocuments": 132226,
+  "newDocuments": 133432,
+  "preservedExistingIdentities": 132226,
+  "removedExistingIdentities": 0,
+  "newOriginalObjects": 364,
+  "existingChanges": [
+    {
+      "oldId": "171",
+      "newId": "171",
+      "type": 1,
+      "name": "Helper_Purchase_Popup",
+      "script": null,
+      "differences": [
+        "--- \n",
+        "+++ \n",
+        "@@ -9,0 +10 @@\n",
+        "+  - component: {fileID: 102802}"
+      ]
+    },
+    {
+      "oldId": "17199",
+      "newId": "17199",
+      "type": 1,
+      "name": "Helper_Slot",
+      "script": null,
+      "differences": [
+        "--- \n",
+        "+++ \n",
+        "@@ -13,0 +14 @@\n",
+        "+  - component: {fileID: 1684719556}"
+      ]
+    },
+    {
+      "oldId": "39282",
+      "newId": "39282",
+      "type": 4,
+      "name": "Cat_manager",
+      "script": null,
+      "differences": [
+        "--- \n",
+        "+++ \n",
+        "@@ -16,0 +17 @@\n",
+        "+  - {fileID: 54056}"
+      ]
+    },
+    {
+      "oldId": "123016",
+      "newId": "123016",
+      "type": 114,
+      "name": "Purchase_Btn",
+      "script": "4e29b1a8efbd4b44bb3f3716e73f07ff",
+      "differences": [
+        "--- \n",
+        "+++ \n",
+        "@@ -45,3 +45,3 @@\n",
+        "-      - m_Target: {fileID: 123019}",
+        "-        m_TargetAssemblyTypeName: RecoveryLocalPurchaseButton, CatGunner.Recovery",
+        "-        m_MethodName: Purchase",
+        "+      - m_Target: {fileID: 102802}",
+        "+        m_TargetAssemblyTypeName: Raid_Helper_Purchase_Popup, CatGunner.Recovery",
+        "+        m_MethodName: OnClick_Purchase"
+      ]
+    },
+    {
+      "oldId": "123118",
+      "newId": "123118",
+      "type": 114,
+      "name": "Raid_manager",
+      "script": "1e57a1f3cbbfcf441bed74a4830e8c70",
+      "differences": [
+        "--- \n",
+        "+++ \n",
+        "@@ -424,0 +425 @@\n",
+        "+  helperSlot: {fileID: 1684719556}"
+      ]
+    },
+    {
+      "oldId": "123481",
+      "newId": "123481",
+      "type": 114,
+      "name": "Cat_manager",
+      "script": "6f731e8a4ace576fafa1f09a89573c45",
+      "differences": [
+        "--- \n",
+        "+++ \n",
+        "@@ -17 +17 @@\n",
+        "-  Helper_Cat: {fileID: 0}",
+        "+  Helper_Cat: {fileID: 136810}"
+      ]
+    },
+    {
+      "oldId": "146525",
+      "newId": "146525",
+      "type": 114,
+      "name": "Helper_Slot",
+      "script": "4e29b1a8efbd4b44bb3f3716e73f07ff",
+      "differences": [
+        "--- \n",
+        "+++ \n",
+        "@@ -40 +40 @@\n",
+        "-  m_Interactable: 0",
+        "+  m_Interactable: 1",
+        "@@ -45,2 +45,2 @@\n",
+        "-      - m_Target: {fileID: 0}",
+        "-        m_TargetAssemblyTypeName: Raid_HelperSlot, Assembly-CSharp",
+        "+      - m_Target: {fileID: 1684719556}",
+        "+        m_TargetAssemblyTypeName: Raid_HelperSlot, CatGunner.Recovery",
+        "@@ -48 +48 @@\n",
+        "-        m_Mode: 1",
+        "+        m_Mode: 0",
+        "@@ -51 +51 @@\n",
+        "-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine",
+        "+          m_ObjectArgumentAssemblyTypeName: "
+      ]
+    }
+  ],
+  "editorLocalIdRemapping": {
+    "58357": "48016301",
+    "82872": "1881263319",
+    "83137": "896097174",
+    "83193": "1883704355",
+    "83250": "447835595",
+    "83284": "225480588",
+    "83323": "1265517264",
+    "83330": "2082602686",
+    "83337": "270648682",
+    "83418": "1866199752",
+    "83876": "444883202",
+    "83881": "844038655",
+    "83896": "1346100938",
+    "83903": "504176922",
+    "83978": "1410680577",
+    "84275": "2127289919",
+    "84319": "755823695",
+    "84356": "1409019177",
+    "86431": "612477931",
+    "86445": "2024355231",
+    "86448": "1608681132",
+    "86468": "145940960",
+    "86471": "376137691",
+    "86504": "86507",
+    "86620": "7496596",
+    "86700": "624383582",
+    "86732": "216534331",
+    "86840": "41061566",
+    "87106": "746916709",
+    "87131": "1070357682",
+    "87146": "435702764",
+    "88270": "1268318067",
+    "88347": "352541600",
+    "88416": "875639856",
+    "88427": "473952482",
+    "88472": "607627347",
+    "88506": "1130885609",
+    "88545": "210049424",
+    "88565": "1206711511",
+    "88632": "3380556",
+    "88650": "975384808",
+    "88675": "1703422948",
+    "88686": "930749165",
+    "89049": "612963261",
+    "89122": "684494977",
+    "89137": "887385700",
+    "89200": "251842077",
+    "89241": "2004401803",
+    "89308": "89310",
+    "89337": "734405881",
+    "89368": "1515593415",
+    "89395": "707551719",
+    "136810": "136813"
+  },
+  "layoutSerializationRepairsNeeded": 0,
+  "rectSerializationRows": 1,
+  "scopedFieldValidation": true,
+  "semanticallyUnchangedExistingDocuments": 132219
+}

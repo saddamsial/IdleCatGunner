@@ -1,0 +1,90 @@
+{
+  "status": "completed",
+  "duration": 49.61,
+  "summary": {
+    "total": 11,
+    "passed": 6,
+    "failed": 5,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalStarGemPigRulesTests.ChangedWeekResetsPigOnlyAndPreservesWalletAndSimulationLedger",
+      "Status": "Passed",
+      "Duration": 0.1750824,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalStarGemPigRulesTests.NativeCapLoadNormalizationAndPositiveAddsAreExact",
+      "Status": "Passed",
+      "Duration": 0.0007937,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalStarGemPigRulesTests.NativeRewardCallbackValidatesLevelAndOnlyResetsMatchingTier",
+      "Status": "Passed",
+      "Duration": 0.1457002,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalStarGemPigRulesTests.TwoTwoOneRewardsAreSixThousandEightHundredTwentyAndStopAccumulation",
+      "Status": "Passed",
+      "Duration": 0.0003227,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalStarGemPigTests.CancelledEntryDoesNotFillAndRealProjectilesFillFiftyPlusTwentyFivePerBar",
+      "Status": "Failed",
+      "Duration": 8.1365388,
+      "Message": "Unhandled log message: '[Exception] UnassignedReferenceException: The variable Alert_obj of StarGem_Pig_HUD has not been assigned.\nYou probably need to assign the Alert_obj variable of the StarGem_Pig_HUD script in the inspector.'. Use UnityEngine.TestTools.LogAssert.Expect",
+      "StackTrace": "UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/UnityEngineObject.bindings.cs:1124)\nUnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/BindingsHelpers.cs:61)\nUnityEngine.GameObject.SetActive (System.Boolean value) (at <bb1a76fe3b594ec1901df841d117fe0b>:0)\nStarGem_Pig_HUD.Reload () (at Assets/Recovery/Scripts/StarGem_Pig_HUD.cs:15)\nStarGem_Pig_HUD.OnEnable () (at Assets/Recovery/Scripts/StarGem_Pig_HUD.cs:8)\nUnityEngine.GameObject:SetActive(Boolean)\nRaid_manager:Panel_Open() (at Assets/Recovery/Scripts/Raid_manager.cs:100)\nOriginalStarGemPigTests:PreparePage() (at Assets/Recovery/Tests/PlayMode/OriginalStarGemPigTests.cs:20)\n<CancelledEntryDoesNotFillAndRealProjectilesFillFiftyPlusTwentyFivePerBar>d__22:MoveNext() (at Assets/Recovery/Tests/PlayMode/OriginalStarGemPigTests.cs:80)\nUnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)\n\n"
+    },
+    {
+      "FullName": "OriginalStarGemPigTests.ColdReloadRestoresUnclaimedAmountLevelAndPurchaseCount",
+      "Status": "Failed",
+      "Duration": 11.7375283,
+      "Message": "Unhandled log message: '[Exception] UnassignedReferenceException: The variable Alert_obj of StarGem_Pig_HUD has not been assigned.\nYou probably need to assign the Alert_obj variable of the StarGem_Pig_HUD script in the inspector.'. Use UnityEngine.TestTools.LogAssert.Expect",
+      "StackTrace": "UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/UnityEngineObject.bindings.cs:1124)\nUnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/BindingsHelpers.cs:61)\nUnityEngine.GameObject.SetActive (System.Boolean value) (at <bb1a76fe3b594ec1901df841d117fe0b>:0)\nStarGem_Pig_HUD.Reload () (at Assets/Recovery/Scripts/StarGem_Pig_HUD.cs:15)\nStarGem_Pig_HUD.OnEnable () (at Assets/Recovery/Scripts/StarGem_Pig_HUD.cs:8)\nUnityEngine.GameObject:SetActive(Boolean)\nRaid_manager:Panel_Open() (at Assets/Recovery/Scripts/Raid_manager.cs:100)\nOriginalStarGemPigTests:PreparePage() (at Assets/Recovery/Tests/PlayMode/OriginalStarGemPigTests.cs:20)\n<ColdReloadRestoresUnclaimedAmountLevelAndPurchaseCount>d__20:MoveNext() (at Assets/Recovery/Tests/PlayMode/OriginalStarGemPigTests.cs:69)\nUnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)\n\n"
+    },
+    {
+      "FullName": "OriginalStarGemPigTests.DisabledSimulationCancelAndDuplicateKeepAccumulationAndWallet",
+      "Status": "Passed",
+      "Duration": 5.717303,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalStarGemPigTests.FiveOriginalCashClicksAdvanceTwoTwoOneAndShowSoldOut",
+      "Status": "Failed",
+      "Duration": 5.7942321,
+      "Message": "Unhandled log message: '[Exception] UnassignedReferenceException: The variable Alert_obj of StarGem_Pig_HUD has not been assigned.\nYou probably need to assign the Alert_obj variable of the StarGem_Pig_HUD script in the inspector.'. Use UnityEngine.TestTools.LogAssert.Expect",
+      "StackTrace": "UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/UnityEngineObject.bindings.cs:1124)\nUnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/BindingsHelpers.cs:61)\nUnityEngine.GameObject.SetActive (System.Boolean value) (at <bb1a76fe3b594ec1901df841d117fe0b>:0)\nStarGem_Pig_HUD.Reload () (at Assets/Recovery/Scripts/StarGem_Pig_HUD.cs:15)\nStarGem_Pig_HUD.OnEnable () (at Assets/Recovery/Scripts/StarGem_Pig_HUD.cs:8)\nUnityEngine.GameObject:SetActive(Boolean)\nRaid_manager:Panel_Open() (at Assets/Recovery/Scripts/Raid_manager.cs:100)\nOriginalStarGemPigTests:PreparePage() (at Assets/Recovery/Tests/PlayMode/OriginalStarGemPigTests.cs:20)\n<FiveOriginalCashClicksAdvanceTwoTwoOneAndShowSoldOut>d__18:MoveNext() (at Assets/Recovery/Tests/PlayMode/OriginalStarGemPigTests.cs:47)\nUnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)\n\n"
+    },
+    {
+      "FullName": "OriginalStarGemPigTests.LocalCalendarObserverResetsOpenPageAndRejectsPendingOldLevelPurchase",
+      "Status": "Failed",
+      "Duration": 5.7417197,
+      "Message": "Unhandled log message: '[Exception] UnassignedReferenceException: The variable Alert_obj of StarGem_Pig_HUD has not been assigned.\nYou probably need to assign the Alert_obj variable of the StarGem_Pig_HUD script in the inspector.'. Use UnityEngine.TestTools.LogAssert.Expect",
+      "StackTrace": "UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/UnityEngineObject.bindings.cs:1124)\nUnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/BindingsHelpers.cs:61)\nUnityEngine.GameObject.SetActive (System.Boolean value) (at <bb1a76fe3b594ec1901df841d117fe0b>:0)\nStarGem_Pig_HUD.Reload () (at Assets/Recovery/Scripts/StarGem_Pig_HUD.cs:15)\nStarGem_Pig_HUD.OnEnable () (at Assets/Recovery/Scripts/StarGem_Pig_HUD.cs:8)\nUnityEngine.GameObject:SetActive(Boolean)\nRaid_manager:Panel_Open() (at Assets/Recovery/Scripts/Raid_manager.cs:100)\nOriginalStarGemPigTests:PreparePage() (at Assets/Recovery/Tests/PlayMode/OriginalStarGemPigTests.cs:20)\n<LocalCalendarObserverResetsOpenPageAndRejectsPendingOldLevelPurchase>d__21:MoveNext() (at Assets/Recovery/Tests/PlayMode/OriginalStarGemPigTests.cs:74)\nUnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)\n\n"
+    },
+    {
+      "FullName": "OriginalStarGemPigTests.OriginalHudOpensLockedPageAndOriginalCloseButtonReturns",
+      "Status": "Failed",
+      "Duration": 5.7152027,
+      "Message": "Unhandled log message: '[Exception] UnassignedReferenceException: The variable Alert_obj of StarGem_Pig_HUD has not been assigned.\nYou probably need to assign the Alert_obj variable of the StarGem_Pig_HUD script in the inspector.'. Use UnityEngine.TestTools.LogAssert.Expect",
+      "StackTrace": "UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/UnityEngineObject.bindings.cs:1124)\nUnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/BindingsHelpers.cs:61)\nUnityEngine.GameObject.SetActive (System.Boolean value) (at <bb1a76fe3b594ec1901df841d117fe0b>:0)\nStarGem_Pig_HUD.Reload () (at Assets/Recovery/Scripts/StarGem_Pig_HUD.cs:15)\nStarGem_Pig_HUD.OnEnable () (at Assets/Recovery/Scripts/StarGem_Pig_HUD.cs:8)\nUnityEngine.GameObject:SetActive(Boolean)\nRaid_manager:Panel_Open() (at Assets/Recovery/Scripts/Raid_manager.cs:100)\nOriginalStarGemPigTests:PreparePage() (at Assets/Recovery/Tests/PlayMode/OriginalStarGemPigTests.cs:20)\n<OriginalHudOpensLockedPageAndOriginalCloseButtonReturns>d__17:MoveNext() (at Assets/Recovery/Tests/PlayMode/OriginalStarGemPigTests.cs:41)\nUnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)\n\n"
+    },
+    {
+      "FullName": "OriginalStarGemPigTests.OriginalPigControllerIsConnected",
+      "Status": "Passed",
+      "Duration": 5.9084227,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

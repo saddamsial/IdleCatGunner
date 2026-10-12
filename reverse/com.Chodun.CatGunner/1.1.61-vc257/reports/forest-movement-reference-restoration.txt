@@ -1,0 +1,16 @@
+rb | original component=64720
+anim | original component=66766
+Pivot_trans | original component=44673
+Gun_Pivot_trans | original component=52975
+Face_Pivot_trans | original component=49510
+LeftHand | original component=53219
+RightHand | original component=47858
+Shoot_trans | original component=49459
+Ray_trans | original component=44674
+Shoot_particle | original component=0
+Target_obj | outside movement slice, pending reference=1748
+Target_obj | original component=1748
+skin_spriteRenderer | original component=88628
+hand_spriteRenderer | original component=87086
+Original hero=29892, Cat document=147400. Correct-package original joystick hierarchy merged from input slice.
+Manual movement, Walk animator and Rigidbody are restored. Explicit acceptance bridge invokes HandleMovement; full Cat.Update/AutoMove/AI/attack pending.

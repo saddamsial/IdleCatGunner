@@ -1,0 +1,18 @@
+02c57710  stp x30,x19,[sp, #-0x10]!
+02c57714  mov x19,x0
+02c57718  bl 0x02c56b28
+02c5771c  ldr w8,[x19, #0x70]
+02c57720  cmp w8,#0x2
+02c57724  b.lt 0x02c57744
+02c57728  ldrb w8,[x19, #0x74]
+02c5772c  cbz w8,0x02c5774c
+02c57730  ldrb w8,[x19, #0x75]
+02c57734  cmp w8,#0x0
+02c57738  mov w8,#0x3
+02c5773c  csel w0,w8,wzr,eq
+02c57740  b 0x02c57750
+02c57744  mov w0,#0x1
+02c57748  b 0x02c57750
+02c5774c  mov w0,#0x2
+02c57750  ldp x30,x19,[sp], #0x10
+02c57754  ret

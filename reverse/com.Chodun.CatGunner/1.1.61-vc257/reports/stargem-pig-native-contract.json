@@ -1,0 +1,451 @@
+{
+  "methods": [
+    {
+      "name": "Raid_manager__Game_Start",
+      "preferredVA": "0x2b58a38",
+      "first16": "fe0f1df8f65701a9f44f02a935b00190",
+      "end": "0x2b58bd0",
+      "c_sha256": "50c18cf196b7a7a7b5818bbbb8fc54a688f7b1ddbf3386058a49ac405804e947",
+      "asm_sha256": "c03b3d1742899b33db44cab02b2f8d7a11322097eca7b86cc73a3ce9f4f811a7"
+    },
+    {
+      "name": "Raid_manager__Boss_Destroyed",
+      "preferredVA": "0x2b561a8",
+      "first16": "fe57bea9f44f01a935b001d0349001f0",
+      "end": "0x2b562bc",
+      "c_sha256": "812bc5cad5932ed283cc4cf3bf79bc8472aad7bdaa41224770b0f7670b85d867",
+      "asm_sha256": "372a05d48eda2ad7bdc9b13ea95a4cfd156271f38cba5bd8ac7023a070705f69"
+    },
+    {
+      "name": "StarGem_Pig__Product_id_return",
+      "preferredVA": "0x2b9fa6c",
+      "first16": "fe0f1ef8f44f01a9f4ad01b0338e01b0",
+      "end": "0x2b9facc",
+      "c_sha256": "ff07e6dd68ddcb3fdf690100599970bcbdda9a595ac72efc8c3bded048c89e38",
+      "asm_sha256": "3ef532a426f6416d31770cecfed0a47f345ae8e9da7f2821f4dd06799cc29933"
+    },
+    {
+      "name": "StarGem_Pig__TryGetLvFromId",
+      "preferredVA": "0x2ba0470",
+      "first16": "fe57bea9f44f01a9f5ad0190f30301aa",
+      "end": "0x2ba0528",
+      "c_sha256": "6509a747d89f0daa851cff55d6de9322c70504fd0b5212dcde5c52f8b7a2e79f",
+      "asm_sha256": "b36314e08767821978b5cbc1cb39cba6fa048fac12d2ef7ce1925fc367945a74"
+    },
+    {
+      "name": "StarGem_Pig__add_OnChanged",
+      "preferredVA": "0x2ba0528",
+      "first16": "fe5fbda9f65701a9f44f02a9f4ad0190",
+      "end": "0x2ba0604",
+      "c_sha256": "bd507d9c65f0b4633f065ab7c5872b6990bfd9042b1864a4464972adf7377df1",
+      "asm_sha256": "d431d0cf270747d5d75e60bf769618afbdc60359d77b9821f3f2451f8dc986c8"
+    },
+    {
+      "name": "StarGem_Pig__remove_OnChanged",
+      "preferredVA": "0x2ba0604",
+      "first16": "fe5fbda9f65701a9f44f02a9f4ad0190",
+      "end": "0x2ba06e0",
+      "c_sha256": "456ccfd30ce210f1b9c41cbdfa8eff828735fd088ccb508d6540b8737091dd80",
+      "asm_sha256": "f7dc953067950bc54dae4e291acf7028b33571dd3b4f3c0bcf07ae090a0f183f"
+    },
+    {
+      "name": "StarGem_Pig__Awake",
+      "preferredVA": "0x2ba06e0",
+      "first16": "fe57bea9f44f01a9f5ad0190f48d01d0",
+      "end": "0x2ba0748",
+      "c_sha256": "f63e7b3cf913cb4cc144c2a7078dc6d6f6883013374e555e6c835a84f3befd35",
+      "asm_sha256": "1a445b06ac0390eba6edc7c6e4ec8f57579a70ddc4c38ba44de63bc4249d6ce4"
+    },
+    {
+      "name": "StarGem_Pig__Open_Popup",
+      "preferredVA": "0x2ba0748",
+      "first16": "fe57bea9f44f01a9f5ad0190d48d01b0",
+      "end": "0x2ba0830",
+      "c_sha256": "6c136cf7d5db2b42facf60bdf23576576ec1e8be4694cac373bde9e6d70a13b6",
+      "asm_sha256": "0ea46d6bec9ac97225de8196c23ee5450b78544ec459517b61c29b2efeed4316"
+    },
+    {
+      "name": "StarGem_Pig__Close_Popup",
+      "preferredVA": "0x2ba0d60",
+      "first16": "fe57bea9f44f01a9f5ad0190d48d01b0",
+      "end": "0x2ba0df4",
+      "c_sha256": "7acc6b0252b2f3398ae3857be678861ccd72ca76cf49eacccfe00b36b53d6268",
+      "asm_sha256": "bf5c35b7652d299cdf81df34cb9f36762ddebb658456c1cac405601154e4c16b"
+    },
+    {
+      "name": "StarGem_Pig__OnEnable",
+      "preferredVA": "0x2ba0df4",
+      "first16": "fe5fbda9f65701a9f44f02a9f4ad0190",
+      "end": "0x2ba0ec0",
+      "c_sha256": "0f0341c4ebdcd919f4484560a22a882203f3112ca27a162c2aeec91ed2f7258c",
+      "asm_sha256": "321c3cd473c0611dbb38c2e1ceae33a6857a5e50f4bc8e83762a94ed4fb4b765"
+    },
+    {
+      "name": "StarGem_Pig__OnDisable",
+      "preferredVA": "0x2ba0ec0",
+      "first16": "fe5fbda9f65701a9f44f02a9f4ad0190",
+      "end": "0x2ba0f8c",
+      "c_sha256": "81d6440751e95b8ed6d476ff444279aedd9af41c704ed04a3b5f2f1edeb27693",
+      "asm_sha256": "f659c6edac1d7afc43b2861134de314fac048581dc9844e7113490a2ad2e54a1"
+    },
+    {
+      "name": "StarGem_Pig__LvIndex",
+      "preferredVA": "0x2ba0f8c",
+      "first16": "680080521f0c007108b0881a1f050071",
+      "end": "0x2ba0fa8",
+      "c_sha256": "67d406f37d362a53b9b4ff5b81e8c1f0ca6c2ad0fa5a5834ba894ee95b73aa66",
+      "asm_sha256": "b54cfd5054ce06aed907c41fa36c32cc29dba7feb55015b8c13ac2e56b539bfc"
+    },
+    {
+      "name": "StarGem_Pig__get_Capacity_Now",
+      "preferredVA": "0x2ba0fa8",
+      "first16": "fe57bea9f44f01a9f5ad0190f48d01d0",
+      "end": "0x2ba1040",
+      "c_sha256": "6cc221dee95d9f2cbca9ab60349ebf016a52010383d66b4d15760b0884918203",
+      "asm_sha256": "bf8d3a0241eca1ef88dca1444cb6fa10b88d11eb17b18af3ac6124dcfd2e8d9f"
+    },
+    {
+      "name": "StarGem_Pig__get_PurchaseMax_Now",
+      "preferredVA": "0x2ba1040",
+      "first16": "fe57bea9f44f01a9d5ad01f0f48d01b0",
+      "end": "0x2ba10d8",
+      "c_sha256": "3c104169a3949d660c435f8fbbde954050a5f0dad0e83b134744679493a67749",
+      "asm_sha256": "a32ba215ffe2c16f4501c0817a8158879513a8869193fcaf1899b75aa3d682b7"
+    },
+    {
+      "name": "StarGem_Pig__get_Gem_Now",
+      "preferredVA": "0x2ba10d8",
+      "first16": "fe4fbfa9132440b9b2ffff977f02006b",
+      "end": "0x2ba10fc",
+      "c_sha256": "294cfc630a9673eeec5502842f7e29aaec85ac935ec01180d9a41db99ad3882d",
+      "asm_sha256": "1252f27bfa29fb933e50404cfd80a04a0bc0897fc0574c8c6210536c28ae3f5c"
+    },
+    {
+      "name": "StarGem_Pig__get_Fill_Ratio",
+      "preferredVA": "0x2ba10fc",
+      "first16": "e80f1efcfe4f01a9f30300aaa8ffff97",
+      "end": "0x2ba1158",
+      "c_sha256": "35dc0058235746cfb6fdaa2bfc49be12fb2049fc65a4e04e15b83dd6502e473d",
+      "asm_sha256": "48e8d3224b40ede1852831d535d858572255aab011f0502d0fb0b371db1dbbe2"
+    },
+    {
+      "name": "StarGem_Pig__get_Is_Full",
+      "preferredVA": "0x2ba1158",
+      "first16": "fe4fbfa9132440b992ffff977f02006b",
+      "end": "0x2ba1174",
+      "c_sha256": "d7f812c86bc56319f4e57a027c9aa9515e798ea275a45bf9c9aef51c1e170d24",
+      "asm_sha256": "eed15495d3e244eeb1bb7dc95fe3473204d4ce61580f07bc04d6f63a1f88d0ef"
+    },
+    {
+      "name": "StarGem_Pig__get_Is_SoldOut",
+      "preferredVA": "0x2ba1174",
+      "first16": "082040b91f0d00716a000054e0031f2a",
+      "end": "0x2ba11a4",
+      "c_sha256": "999827dc0522d888b74fcbd70ffc4b8ae820b69e03b2fd39a68edcf160363612",
+      "asm_sha256": "d5e68b3a60939edd44541b37b5cade6a4a0d3273b46acd69a613d95ec718b69c"
+    },
+    {
+      "name": "StarGem_Pig__get_Is_Purchasable",
+      "preferredVA": "0x2ba11a4",
+      "first16": "fe0f1ef8f44f01a9142440b9f30300aa",
+      "end": "0x2ba11fc",
+      "c_sha256": "2cc583492e23dc2c7a6ac3fff71480fdab98eb8362dda0711a6203f2492e5912",
+      "asm_sha256": "a23ed7511c7316e7d300ef7617781329c562151ee5f7b962f2f0f527ffc4a825"
+    },
+    {
+      "name": "StarGem_Pig__get_Product_id_Now",
+      "preferredVA": "0x2ba11fc",
+      "first16": "fe57bea9f44f01a9d5ad01f0f48d01b0",
+      "end": "0x2ba1254",
+      "c_sha256": "0df73367615a66bca76c1e6954ab0283c330b338db9849688059680da043a993",
+      "asm_sha256": "60fd579b60ed616b4c8f1943abd2d12bc4629a767f30a554b25f5ae449b9af3d"
+    },
+    {
+      "name": "StarGem_Pig__Season_Check",
+      "preferredVA": "0x2ba0830",
+      "first16": "fe57bea9f44f01a9f4ad0190f58d01d0",
+      "end": "0x2ba08f4",
+      "c_sha256": "4ee43748b087ab677dcba13a6f17274c212edf19fcc657226334bb60a1b78882",
+      "asm_sha256": "57ddf6aad2f36a81f188e7331093288e1e8ce2b004adf9d9ac19cdb7a076f413"
+    },
+    {
+      "name": "StarGem_Pig__OnRaidEnter",
+      "preferredVA": "0x2ba1254",
+      "first16": "fe4fbfa9f30300aa75fdff97e00313aa",
+      "end": "0x2ba1270",
+      "c_sha256": "821cbc2cdb96f2b96e1164495c2b5b6c2e19ad402a2a91d26d02d48c854e9e89",
+      "asm_sha256": "3b87375f1b56db0b275ae3ad8db850215a890b0fbe899864249e1b3cd35946a3"
+    },
+    {
+      "name": "StarGem_Pig__OnBossBarCleared",
+      "preferredVA": "0x2ba1338",
+      "first16": "21038052cdffff17fe5fbda9f65701a9",
+      "end": "0x2ba1340",
+      "c_sha256": "01da95f9eccb4c86c4bcede3c43ec6ccf45578984870b8d36015d5f15bb1d4e2",
+      "asm_sha256": "68c84a0825b267d20d22df918185019dde530820d307c19a99009b4cb55b01b2"
+    },
+    {
+      "name": "StarGem_Pig__Add",
+      "preferredVA": "0x2ba1270",
+      "first16": "fe57bea9f44f01a9d5ad01f0f403012a",
+      "end": "0x2ba1338",
+      "c_sha256": "6ae47f867eb4ab8e04de542c5b309106bc7cdb9346ffde8783bfa06553b3f5d0",
+      "asm_sha256": "5cdb1224e29a56833232796840fdba804e695a142093069ea98c21e19c6a733c"
+    },
+    {
+      "name": "StarGem_Pig__Purchase",
+      "preferredVA": "0x2ba1340",
+      "first16": "fe5fbda9f65701a9f44f02a9d5ad01f0",
+      "end": "0x2ba157c",
+      "c_sha256": "88f18f1f8517f1511f2705c27e5aa668b02cb8cf92a55f29041da93260f6eaa6",
+      "asm_sha256": "c2ed4898a6a09b879d717f265490d0bd1c5783f02c26f34cea82e34c2cec64da"
+    },
+    {
+      "name": "StarGem_Pig__ApplyReward",
+      "preferredVA": "0x2ba157c",
+      "first16": "ff4301d1fe6701a9f85f02a9f65703a9",
+      "end": "0x2ba1940",
+      "c_sha256": "302ba3c8a428ba48e8d570e561f586039142efe576bb3f9faba45076614f17a4",
+      "asm_sha256": "e7d04632a64e498b638d1d063a75d833f2d131bea95d225988cdf32bbc52e65d"
+    },
+    {
+      "name": "StarGem_Pig__LoadFromSaveData",
+      "preferredVA": "0x2ba1940",
+      "first16": "fe57bea9f44f01a9d5ad01f0f40301aa",
+      "end": "0x2ba1a18",
+      "c_sha256": "d05a540ad5477c8780242c8e95fecfbea974dd1db777d975cb1af14c4908399a",
+      "asm_sha256": "5e6e5ac264054346c0388382e41656e318a38570e7c248cc8030f6347ab28b49"
+    },
+    {
+      "name": "StarGem_Pig___ctor",
+      "preferredVA": "0x2ba1b04",
+      "first16": "28008052e1031faa082000b908008012",
+      "end": "0x2ba1b1c",
+      "c_sha256": "dd352b287a662e9ff2edc5d8c4421899885cd89ad4b24c7ec67ef441c3fc4908",
+      "asm_sha256": "8c14b5d34aa7afc0aa42f9ee2fc137856339fce125969eb3f72a2fb17d07ef02"
+    },
+    {
+      "name": "StarGem_Pig___cctor",
+      "preferredVA": "0x2ba1b1c",
+      "first16": "fe5fbda9f65701a9f44f02a9f68d0190",
+      "end": "0x2ba1bf8",
+      "c_sha256": "b864c88e40f105680400feca1b3d5606f63f7514544751ab3a6400b64c81e0e7",
+      "asm_sha256": "6d50ef70c889be9b177a22786364344a3d64fbf8564123475f6b32af259d84d4"
+    },
+    {
+      "name": "StarGem_Pig_HUD__OnEnable",
+      "preferredVA": "0x2ba1bf8",
+      "first16": "fe5fbda9f65701a9f44f02a9d6ad01f0",
+      "end": "0x2ba1ca0",
+      "c_sha256": "65adf3ae904e638aed6eee173b956fe6cf6eeacb893aafc3ef5cad65e372e146",
+      "asm_sha256": "931a54c10cecf53b1b48ade6bab492e359ec6a8be4bb64e832dd9c16f6713645"
+    },
+    {
+      "name": "StarGem_Pig_HUD__OnDisable",
+      "preferredVA": "0x2ba1f10",
+      "first16": "fe5fbda9f65701a9f44f02a9d6ad01f0",
+      "end": "0x2ba1fb0",
+      "c_sha256": "30a9a617357c61a0b793290ec1ef068bf11758262113f18c850b5f7d468f80d0",
+      "asm_sha256": "9731462845b2c315014f801a33072f713f8636a58be1c8d8e47379cbc773efa7"
+    },
+    {
+      "name": "StarGem_Pig_HUD__Reload",
+      "preferredVA": "0x2ba1ca0",
+      "first16": "ff4301d1e923016dfe5f02a9f65703a9",
+      "end": "0x2ba1f10",
+      "c_sha256": "6cc40a89eb00470f909d4a9c150b7be15609d26159f79040bbad9bc112477a8c",
+      "asm_sha256": "ce9d453e87ec7edb6148e3fdf0b1441dd49b4211f55a48981b7987c6788b54f3"
+    },
+    {
+      "name": "StarGem_Pig_HUD__onClick_Open",
+      "preferredVA": "0x2ba1fb0",
+      "first16": "fe0f1ef8f44f01a9d3ad01f0f48d01b0",
+      "end": "0x2ba2074",
+      "c_sha256": "04d96c08308d1c82a287d145f044a28591cec9541b963d5f3e7d48bab9a251ae",
+      "asm_sha256": "3e93e403cf6023686ec9252ea61bef68b0b50b85e1007706e3d01c924f95659d"
+    },
+    {
+      "name": "StarGem_Pig_HUD___ctor",
+      "preferredVA": "0x2ba2074",
+      "first16": "e1031faa9a03ad14fe0f1cf8f85f01a9",
+      "end": "0x2ba207c",
+      "c_sha256": "ee6aab1e4d9b5ac355bda0707f458f580217179337f1dcd05e9429a8fa1b0e60",
+      "asm_sha256": "7b9beb96e8d6658094f24acfe8b067580943abb4c33bf0649e7dc54f35a4e609"
+    },
+    {
+      "name": "StarGem_Pig_UI__OnEnable",
+      "preferredVA": "0x2ba207c",
+      "first16": "fe0f1cf8f85f01a9f65702a9f44f03a9",
+      "end": "0x2ba2178",
+      "c_sha256": "58a7c0c5f9e0f5ecd0a9405f0fa3c8f624b3bea070d8d1cc2aed98365959a822",
+      "asm_sha256": "5aca9773607f8c6ea555540a697e7aa2cc4ed3a92bad39a3fe1af1faa06ff672"
+    },
+    {
+      "name": "StarGem_Pig_UI__OnDisable",
+      "preferredVA": "0x2ba2178",
+      "first16": "fe0f1cf8f85f01a9f65702a9f44f03a9",
+      "end": "0x2ba226c",
+      "c_sha256": "55b9d5397d53e76376dfae82cda04b147b3290cdcc0faac24c71c383aa595c86",
+      "asm_sha256": "a2e7f61bc3c5399a0b7764429c3531017e24961dbc84eb1b023c1f00d5387f76"
+    },
+    {
+      "name": "StarGem_Pig_UI__Reload",
+      "preferredVA": "0x2ba08f4",
+      "first16": "ff4301d1fe6701a9f85f02a9f65703a9",
+      "end": "0x2ba0d60",
+      "c_sha256": "00bbd51fdc3a9a3dc9a41ebb47feb2dfeaa06d136a8d7f7b91a1046c49bfafb9",
+      "asm_sha256": "931f687bf44965277a321cc9efa942beea9ec66a38a6b12fe854436ef9893b3b"
+    },
+    {
+      "name": "StarGem_Pig_UI__Sale_str_return",
+      "preferredVA": "0x2ba244c",
+      "first16": "ffc300d1fe5701a9f44f02a9d5ad01d0",
+      "end": "0x2ba2528",
+      "c_sha256": "11077d4097fd81ce64ae97a61258d1311edbc0e25cf4e9b55b5033bdd60ae93e",
+      "asm_sha256": "dc5e7f677f218269cb835f0677ef3878b20de9f69ec6870161f6c987b441568c"
+    },
+    {
+      "name": "StarGem_Pig_UI__Price_str_return",
+      "preferredVA": "0x2ba226c",
+      "first16": "fe0f1df8f65701a9f44f02a9d4ad01d0",
+      "end": "0x2ba244c",
+      "c_sha256": "dd96e28d2e5362989422678ca2637cabec403bc533e76bfd60dcd475d4054254",
+      "asm_sha256": "1075b72b3ad90370628e96ab5e261908cab268837a77029b8a636a0640b8be8e"
+    },
+    {
+      "name": "StarGem_Pig_UI__onClick_Purchase",
+      "preferredVA": "0x2ba2528",
+      "first16": "fe0f1ef8f44f01a9d3ad01d0f48d0190",
+      "end": "0x2ba2604",
+      "c_sha256": "6772e8659b5fd07384668fac90163ce925fb7e48fb227d3ef5a7ed76753c520e",
+      "asm_sha256": "07016866ed33b20ac0ae82913b06ee19f905ea2d14367710dfe1550c212eb924"
+    },
+    {
+      "name": "StarGem_Pig_UI___ctor",
+      "preferredVA": "0x2ba2604",
+      "first16": "e1031faa3602ad14fe0f1df8f65701a9",
+      "end": "0x2ba260c",
+      "c_sha256": "6939e953e77c371087c665260531fc44efceecb055db7135511ad39a18f973b7",
+      "asm_sha256": "94ae5734d7e4aef117295dd57d686102cb73f729b9c70ed13dfca52f79b9c160"
+    },
+    {
+      "name": "StarGem_Pig_UI___cctor",
+      "preferredVA": "0x2ba260c",
+      "first16": "fe0f1df8f65701a9f44f02a9d3ad01d0",
+      "end": "0x2ba2784",
+      "c_sha256": "1537c3ac5c96712e194b27bc99ba31297f90e80504b077e40cdc9d2e42778ba8",
+      "asm_sha256": "de0b890089dc0920a47bbca6c788325719e4d66e03d1f5a9268236e500da1262"
+    },
+    {
+      "name": "Throw_NullReference_Wrapper",
+      "preferredVA": "0x28f5cfc",
+      "first16": "fe0f1ff86a220194fe0f1ff87b220194",
+      "end": "0x28f5d04",
+      "c_sha256": "4dbe5415e169f90b0ce5055036cca1b94bf1565f8d9d2308c08bf4bd707fcb91",
+      "asm_sha256": "eec6b09062497629de85a27e3a8cad918b42764b2a1c0f544152a636461e5fdd"
+    },
+    {
+      "name": "Throw_Index_Wrapper",
+      "preferredVA": "0x28f5d04",
+      "first16": "fe0f1ff87b220194c03cff90006c0191",
+      "end": "0x28f5d0c",
+      "c_sha256": "b554c9aba53206d804e9fc370e97cf27027d10930f18eb2a6be625e055cb8dd1",
+      "asm_sha256": "5581995141036f8f8cb7598583a54ae3c1a567e77a4bbff543774e6d542c448c"
+    },
+    {
+      "name": "Throw_NullReference_Create",
+      "preferredVA": "0x293e6a8",
+      "first16": "ff8300d1fffb00a9e0030091ff0300f9",
+      "end": "0x293e6bc",
+      "c_sha256": "07933b7cac27ee4d3e9d7c27b53882e222ed878cead5f8d79e73b3adba1fff6f",
+      "asm_sha256": "428c28c0278566bbd155390442ae395ecf5d111ac48dd41afa23cc88ab7051b2"
+    },
+    {
+      "name": "Throw_NullReference_Raise",
+      "preferredVA": "0x293e6bc",
+      "first16": "fe0f1ff803000094e1031faad2ffff97",
+      "end": "0x293e6cc",
+      "c_sha256": "aded7644ecb862bc0a5476706b21810f9257b367ac0397bdc541e91af2615d80",
+      "asm_sha256": "5aafa322c11ce154d2ee31e138ead7810e48a24e419b8885131feb71851f1d71"
+    },
+    {
+      "name": "Throw_Index_Raise",
+      "preferredVA": "0x293e6f4",
+      "first16": "fe0f1ff803000094e1031faac4ffff97",
+      "end": "0x293e704",
+      "c_sha256": "f7b9c1233cebb3659705feb97a706251cb1dd6dcac5b14dcbcd482f99b3529a7",
+      "asm_sha256": "53f08a0cd65a4fe4ba45d72673ff66e057b405fd9658b230d54ec9cb96fab4ed"
+    },
+    {
+      "name": "Managed_Exception_CxaThrow",
+      "preferredVA": "0x293e610",
+      "first16": "fe4fbfa9f30300aa71ffff9700018052",
+      "end": "0x293e638",
+      "c_sha256": "f034685b9e5e3c23ca134caf66dd8742db361f79a48e68bfefb6bb0b28479155",
+      "asm_sha256": "79d2db030a3cd3519ea853008b8d9e435cee4ca33d345340c0a40c9ffa737b80"
+    }
+  ],
+  "businessMethods": 42,
+  "exceptionHelpers": 6,
+  "staticValues": {
+    "capacity": {
+      "values": [
+        660,
+        1500,
+        2500
+      ],
+      "pointer": "0x5d648d0",
+      "sha256": "1BBDA682263D39944BDA133CD332AAFCAA9C4E5970A5FD766B7D0F0E41E76AE7",
+      "offset": 9571000
+    },
+    "purchaseMax": {
+      "values": [
+        2,
+        2,
+        1
+      ],
+      "pointer": "0x5d63f20",
+      "sha256": "C17F23B1052241C68988BF2246C6697CAF6FF570AA003D783EBE4B24E7DC7CC9",
+      "offset": 9609048
+    },
+    "salePercent": {
+      "values": [
+        50,
+        35,
+        35
+      ],
+      "pointer": "0x5d648f0",
+      "sha256": "1D8D95949D1A7B2D22033D09A64804F919119B5016B1EC55B6D23E7E37BA331A",
+      "offset": 9571016
+    },
+    "price1": {
+      "value": "$0.99",
+      "pointer": "0x5d648f8"
+    },
+    "price2": {
+      "value": "$2.99",
+      "pointer": "0x5d64900"
+    },
+    "price3": {
+      "value": "$4.99",
+      "pointer": "0x5d64908"
+    },
+    "saleFormat": {
+      "value": "Sale {0}%",
+      "pointer": "0x5d648e8"
+    },
+    "levelFormat": {
+      "value": "Lv.{0}",
+      "pointer": "0x5d61f18"
+    },
+    "countFormat": {
+      "value": "{0}/{1}",
+      "pointer": "0x5d61f28"
+    },
+    "place": {
+      "value": "raid",
+      "pointer": "0x5d635a8"
+    }
+  },
+  "allQueriesCompleted": true
+}

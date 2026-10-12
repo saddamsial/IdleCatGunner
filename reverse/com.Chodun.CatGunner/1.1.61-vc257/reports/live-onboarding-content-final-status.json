@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 31.5,
+      "summary": {
+        "total": 5,
+        "passed": 5,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalContentUnlockTests.ActualLockedRaycastShowsStageAlertThenThresholdOpensAndClosesAllEightPanels",
+          "Status": "Passed",
+          "Duration": 9.8175256,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalContentUnlockTests.IndependentColdReloadAndRebirthRetainHistoricalFrontierInsteadOfRelocking",
+          "Status": "Passed",
+          "Duration": 10.8372012,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalContentUnlockTests.NativeTutorialVisibilityHidesAllThenRestoresWithoutChangingTutorialSave",
+          "Status": "Passed",
+          "Duration": 5.3786296,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalContentUnlockTests.OriginalEightThresholdsShowOnlyUnlockedOrNextIncludingSharedPetMonsterGate",
+          "Status": "Passed",
+          "Duration": 5.4329628,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalContentUnlockTests.OriginalTableKeepsSharedThresholdAndNativeTutorialAbsenceBranch",
+          "Status": "Passed",
+          "Duration": 0.0020023,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,34 @@
+02c49908  stp x30,x21,[sp, #-0x20]!
+02c4990c  stp x20,x19,[sp, #0x10]
+02c49910  adrp x21,0x625c000
+02c49914  adrp x20,0x5e5d000
+02c49918  mov x19,x0
+02c4991c  ldrb w8,[x21, #0x10b]
+02c49920  ldr x20,[x20, #0x338]
+02c49924  tbnz w8,#0x0,0x02c4993c
+02c49928  adrp x0,0x5e5d000
+02c4992c  ldr x0,[x0, #0x338]
+02c49930  bl 0x029f5a50
+02c49934  mov w8,#0x1
+02c49938  strb w8,[x21, #0x10b]
+02c4993c  ldr x0,[x20]
+02c49940  ldr w8,[x0, #0xe4]
+02c49944  cbnz w8,0x02c49950
+02c49948  bl 0x029f5bd0
+02c4994c  ldr x0,[x20]
+02c49950  ldr x8,[x0, #0xb8]
+02c49954  mov w9,#0x1
+02c49958  mov x0,x19
+02c4995c  strb w9,[x8]
+02c49960  bl 0x02c49990
+02c49964  mov x20,x19
+02c49968  mov x1,x0
+02c4996c  str x0,[x20, #0x80]!
+02c49970  mov x0,x20
+02c49974  bl 0x029f59f4
+02c49978  ldr x1,[x20]
+02c4997c  mov x0,x19
+02c49980  mov x2,xzr
+02c49984  ldp x20,x19,[sp, #0x10]
+02c49988  ldp x30,x21,[sp], #0x20
+02c4998c  b 0x057e2120

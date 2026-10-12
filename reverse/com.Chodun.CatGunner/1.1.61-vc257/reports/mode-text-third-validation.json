@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 75.47,
+      "summary": {
+        "total": 4,
+        "passed": 3,
+        "failed": 1,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalModeTextTests.AllResultVariantsKeepSourceTextAndOriginalRectangles",
+          "Status": "Passed",
+          "Duration": 20.8425648,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalModeTextTests.FourMenuClicksShowOriginalEntranceTermsWithoutSpending",
+          "Status": "Passed",
+          "Duration": 19.1121364,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalModeTextTests.OriginalChallengeEnterNaturalVictoryClaimAndColdReloadKeepTextsAndRewards",
+          "Status": "Failed",
+          "Duration": 29.2362697,
+          "Message": "  Bonus_Btn actual onClick reception\n  Expected: 1\n  But was:  0\n",
+          "StackTrace": "at OriginalModeTextTests+<Click>d__14.MoveNext () [0x002cc] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalModeTextTests.cs:75\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalModeTextTests.StartupUsesOriginalCoreModeTerms",
+          "Status": "Passed",
+          "Duration": 6.2191427,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

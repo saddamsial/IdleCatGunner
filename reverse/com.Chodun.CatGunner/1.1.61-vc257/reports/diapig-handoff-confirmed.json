@@ -1,0 +1,36 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var s=UnityEngine.SceneManagement.SceneManager.GetActiveScene();var c=UnityEngine.Object.FindAnyObjectByType<CatGunner.Recovery.RecoveryForestClient>(UnityEngine.FindObjectsInactive.Include);var setting=UnityEngine.Object.FindAnyObjectByType<Setting>(UnityEngine.FindObjectsInactive.Include);return new{scene=s.path,dirty=s.isDirty,playing=UnityEditor.EditorApplication.isPlaying,paused=UnityEditor.EditorApplication.isPaused,compiling=UnityEditor.EditorApplication.isCompiling,persist=c.Persist,saveOverride=c.SaveFolderOverride,pig=c.DiamondPig!=null,pigPanel=c.DiamondPig.diapig_ui.gameObject.activeSelf,camera=setting.Camera_obj.activeSelf,eco=Setting.is_eco,shootMuted=Cat_manager.is_Shoot_Mute};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "dirty": false,
+        "playing": false,
+        "paused": false,
+        "compiling": false,
+        "persist": true,
+        "saveOverride": null,
+        "pig": true,
+        "pigPanel": false,
+        "camera": true,
+        "eco": false,
+        "shootMuted": false
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

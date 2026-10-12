@@ -1,0 +1,492 @@
+{
+  "success": true,
+  "command": "command console",
+  "data": {
+    "command": "console",
+    "parameters": {
+      "level": "error",
+      "tail": "50"
+    },
+    "result": {
+      "entries": [
+        {
+          "seq": 3096,
+          "timestampUtc": "2026-10-11T03:09:00.641074Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3097,
+          "timestampUtc": "2026-10-11T03:09:00.648247Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3098,
+          "timestampUtc": "2026-10-11T03:09:00.654247Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3099,
+          "timestampUtc": "2026-10-11T03:09:00.661692Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3100,
+          "timestampUtc": "2026-10-11T03:09:00.668707Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3101,
+          "timestampUtc": "2026-10-11T03:09:00.675686Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3102,
+          "timestampUtc": "2026-10-11T03:09:00.682518Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3103,
+          "timestampUtc": "2026-10-11T03:09:00.68866Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3104,
+          "timestampUtc": "2026-10-11T03:09:00.696169Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3105,
+          "timestampUtc": "2026-10-11T03:09:00.702885Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3106,
+          "timestampUtc": "2026-10-11T03:09:00.710513Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3107,
+          "timestampUtc": "2026-10-11T03:09:00.717398Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3108,
+          "timestampUtc": "2026-10-11T03:09:00.723859Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3109,
+          "timestampUtc": "2026-10-11T03:09:00.731373Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3110,
+          "timestampUtc": "2026-10-11T03:09:00.738676Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3111,
+          "timestampUtc": "2026-10-11T03:09:00.745598Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3112,
+          "timestampUtc": "2026-10-11T03:09:00.752042Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3113,
+          "timestampUtc": "2026-10-11T03:09:00.759387Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3114,
+          "timestampUtc": "2026-10-11T03:09:00.766242Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3115,
+          "timestampUtc": "2026-10-11T03:09:00.772147Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3116,
+          "timestampUtc": "2026-10-11T03:09:00.779161Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3117,
+          "timestampUtc": "2026-10-11T03:09:00.785393Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3118,
+          "timestampUtc": "2026-10-11T03:09:00.792363Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3119,
+          "timestampUtc": "2026-10-11T03:09:00.798955Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3120,
+          "timestampUtc": "2026-10-11T03:09:00.80483Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3121,
+          "timestampUtc": "2026-10-11T03:09:00.812316Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3122,
+          "timestampUtc": "2026-10-11T03:09:00.921939Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.OnApplicationPause (System.Boolean paused) (at Assets/Recovery/Scripts/RecoveryForestClient.cs:343)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3123,
+          "timestampUtc": "2026-10-11T03:09:00.923104Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3124,
+          "timestampUtc": "2026-10-11T03:09:02.26108Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3125,
+          "timestampUtc": "2026-10-11T03:09:02.276684Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3126,
+          "timestampUtc": "2026-10-11T03:09:02.289043Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3127,
+          "timestampUtc": "2026-10-11T03:09:02.299161Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3128,
+          "timestampUtc": "2026-10-11T03:09:02.311096Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3129,
+          "timestampUtc": "2026-10-11T03:09:02.318714Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3130,
+          "timestampUtc": "2026-10-11T03:09:02.329385Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3131,
+          "timestampUtc": "2026-10-11T03:09:02.337222Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3132,
+          "timestampUtc": "2026-10-11T03:09:02.346483Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3133,
+          "timestampUtc": "2026-10-11T03:09:02.353784Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3134,
+          "timestampUtc": "2026-10-11T03:09:02.440832Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:197)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3135,
+          "timestampUtc": "2026-10-11T03:09:02.461585Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.OnApplicationQuit () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:344)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3136,
+          "timestampUtc": "2026-10-11T03:09:02.509546Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "CatGunner.Recovery.RecoveryForestClient.SaveNow () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:341)\nCatGunner.Recovery.RecoveryForestClient.OnDisable () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:348)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3138,
+          "timestampUtc": "2026-10-11T03:09:26.884211Z",
+          "level": "error",
+          "logType": "Error",
+          "message": "Failed to handle /api/exec request: Main thread operation timed out after 5000ms",
+          "stackTrace": "UnityEngine.Debug:LogError (object)\nUnity.Pipeline.BasePipelineServer/<HandleExecRequest>d__119:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2257)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteGated>d__109:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:1589)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<>c__DisplayClass119_0/<<HandleExecRequest>b__0>d:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2218)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object>:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteCommandByName>d__137:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2664)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object>:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteCommand>d__138:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2703)\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n",
+          "seeded": false
+        },
+        {
+          "seq": 3145,
+          "timestampUtc": "2026-10-11T03:11:31.598941Z",
+          "level": "error",
+          "logType": "Error",
+          "message": "Failed to handle /api/exec request: Main thread operation timed out after 5000ms",
+          "stackTrace": "UnityEngine.Debug:LogError (object)\nUnity.Pipeline.BasePipelineServer/<HandleExecRequest>d__119:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2257)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteGated>d__109:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:1589)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<>c__DisplayClass119_0/<<HandleExecRequest>b__0>d:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2218)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object>:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteCommandByName>d__137:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2664)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object>:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteCommand>d__138:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2703)\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n",
+          "seeded": false
+        },
+        {
+          "seq": 3163,
+          "timestampUtc": "2026-10-11T03:14:02.172176Z",
+          "level": "error",
+          "logType": "Error",
+          "message": "Failed to handle /api/exec request: Main thread operation timed out after 5000ms",
+          "stackTrace": "UnityEngine.Debug:LogError (object)\nUnity.Pipeline.BasePipelineServer/<HandleExecRequest>d__119:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2257)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteGated>d__109:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:1589)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<>c__DisplayClass119_0/<<HandleExecRequest>b__0>d:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2218)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object>:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteCommandByName>d__137:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2664)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object>:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteCommand>d__138:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2703)\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n",
+          "seeded": false
+        },
+        {
+          "seq": 3193,
+          "timestampUtc": "2026-10-11T03:15:57.505183Z",
+          "level": "error",
+          "logType": "Error",
+          "message": "Failed to handle /api/exec request: Main thread operation timed out after 5000ms",
+          "stackTrace": "UnityEngine.Debug:LogError (object)\nUnity.Pipeline.BasePipelineServer/<HandleExecRequest>d__119:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2257)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteGated>d__109:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:1589)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<>c__DisplayClass119_0/<<HandleExecRequest>b__0>d:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2218)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object>:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteCommandByName>d__137:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2664)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object>:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteCommand>d__138:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2703)\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n",
+          "seeded": false
+        },
+        {
+          "seq": 3232,
+          "timestampUtc": "2026-10-11T03:22:58.842837Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "InvalidOperationException: This cannot be used during play mode.",
+          "stackTrace": "UnityEditor.SceneManagement.EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo (System.String message) (at <2e455c7ca6874edc8ad73e6dcdcb0d9e>:0)\nUnityEditor.SceneManagement.EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorSceneManager.cs:56)\nUnityEditor.TestTools.TestRunner.TestRun.Tasks.Scene.SaveModifiedSceneTask+<Execute>d__1.MoveNext () (at ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEditor.TestRunner/TestRun/Tasks/Scene/SaveModifiedSceneTask.cs:13)\nUnityEditor.TestTools.TestRunner.TestRun.TestJobRunner.ExecuteStep () (at ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEditor.TestRunner/TestRun/TestJobRunner.cs:173)\nUnityEditor.EditorApplication:Internal_CallUpdateFunctions() (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:401)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3233,
+          "timestampUtc": "2026-10-11T03:22:58.843621Z",
+          "level": "error",
+          "logType": "Error",
+          "message": "An unexpected error happened while running tests.",
+          "stackTrace": "UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:401)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3234,
+          "timestampUtc": "2026-10-11T03:22:58.84913Z",
+          "level": "error",
+          "logType": "Error",
+          "message": "Too many instant steps in test execution mode: Error. Current task ExitPlayModeTask.",
+          "stackTrace": "UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:401)\n",
+          "seeded": false
+        },
+        {
+          "seq": 3238,
+          "timestampUtc": "2026-10-11T03:25:57.719648Z",
+          "level": "error",
+          "logType": "Error",
+          "message": "Failed to handle /api/exec request: Main thread operation timed out after 5000ms",
+          "stackTrace": "UnityEngine.Debug:LogError (object)\nUnity.Pipeline.BasePipelineServer/<HandleExecRequest>d__119:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2257)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteGated>d__109:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:1589)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<>c__DisplayClass119_0/<<HandleExecRequest>b__0>d:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2218)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object>:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteCommandByName>d__137:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2664)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object>:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteCommand>d__138:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2703)\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n",
+          "seeded": false
+        },
+        {
+          "seq": 3246,
+          "timestampUtc": "2026-10-11T03:27:46.513763Z",
+          "level": "error",
+          "logType": "Error",
+          "message": "Failed to handle /api/exec request: Main thread operation timed out after 5000ms",
+          "stackTrace": "UnityEngine.Debug:LogError (object)\nUnity.Pipeline.BasePipelineServer/<HandleExecRequest>d__119:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2257)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteGated>d__109:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:1589)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<>c__DisplayClass119_0/<<HandleExecRequest>b__0>d:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2218)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object>:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteCommandByName>d__137:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2664)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object>:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteCommand>d__138:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2703)\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n",
+          "seeded": false
+        }
+      ],
+      "cursor": 3246,
+      "session": "8f210a8221024308a9215f86581e751b",
+      "returned": 50,
+      "dropped": false,
+      "reset": false,
+      "counts": {
+        "error": 201,
+        "warn": 1157,
+        "log": 642
+      },
+      "groundTruth": {
+        "sampledUtc": "2026-10-11T03:27:49.783625Z",
+        "ageMs": 108,
+        "compilationFailed": false,
+        "compiling": false,
+        "consoleErrors": 1,
+        "consoleWarnings": 1,
+        "consoleLogs": 5,
+        "seeded": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

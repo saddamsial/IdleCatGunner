@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 81.98,
+      "summary": {
+        "total": 5,
+        "passed": 5,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalOnboardingTests.ClearedSaveAndExistingAttackUpgradeSkipWithoutDiamondTopup",
+          "Status": "Passed",
+          "Duration": 12.1991411,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalOnboardingTests.FreshProfileStartsNativeUpgradeAndHandFollowsAffordabilityWithoutGrant",
+          "Status": "Passed",
+          "Duration": 6.4504044,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalOnboardingTests.NativeFiveStepsThroughActualChallengePurchaseAndRaycastEquipThenColdReload",
+          "Status": "Passed",
+          "Duration": 51.2588991,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalOnboardingTests.RealUpgradeClicksUnlockChallengeAtThreeAndFailedPurchaseCannotAdvance",
+          "Status": "Passed",
+          "Duration": 6.3016005,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalOnboardingTests.RequestNoopAndSetClearedStopAllHandLoopsAndCaptureOnlyOnSave",
+          "Status": "Passed",
+          "Duration": 5.7289463,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

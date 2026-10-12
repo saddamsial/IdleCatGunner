@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "UnityEditor.EditorApplication.isPaused=false; UnityEngine.Time.timeScale=1; UnityEditor.SessionState.SetBool(\"CatGunner.ProgressionVisualClone\",false); UnityEditor.SceneManagement.EditorSceneManager.OpenScene(ForestClientEditor.ScenePath); return \"normal RecoveredClient editor entry restored\";"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": "normal RecoveredClient editor entry restored"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

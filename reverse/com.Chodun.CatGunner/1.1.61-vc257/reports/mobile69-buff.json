@@ -1,0 +1,98 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 76.87,
+      "summary": {
+        "total": 10,
+        "passed": 8,
+        "failed": 2,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalShortBuffTests.BossAndMonsterPreviewsUseSeparatePowerAndSpeedBuffs",
+          "Status": "Passed",
+          "Duration": 7.0508773,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalShortBuffTests.DisabledCancelledDuplicateAndClosedPageAdsCannotGrant",
+          "Status": "Passed",
+          "Duration": 6.1644506,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalShortBuffTests.NativeDurationFormatsClampsAndAdPlacementsMatch",
+          "Status": "Passed",
+          "Duration": 6.1551601,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalShortBuffTests.OriginalBuffMenuAndAdvertGrantAreAvailable",
+          "Status": "Failed",
+          "Duration": 8.3802155,
+          "Message": "  AD_Btn\n  Expected: True\n  But was:  False\n",
+          "StackTrace": "at OriginalShortBuffTests+<Click>d__11.MoveNext () [0x0002b] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalShortBuffTests.cs:43\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalShortBuffTests.OriginalMineAdvertGrantsOnlySpeedAndUsesTicketGate",
+          "Status": "Failed",
+          "Duration": 6.7670226,
+          "Message": "  Expected: False\n  But was:  True\n",
+          "StackTrace": "at OriginalShortBuffTests+<OriginalMineAdvertGrantsOnlySpeedAndUsesTicketGate>d__20.MoveNext () [0x001fd] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalShortBuffTests.cs:127\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalShortBuffTests.OriginalUpgradePanelsShowIndependentBuffMultipliers",
+          "Status": "Passed",
+          "Duration": 6.151462,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalShortBuffTests.PermanentLocalPackFreezesRawTimersAndHidesAds",
+          "Status": "Passed",
+          "Duration": 8.3424353,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalShortBuffTests.ReloadRetainsSeparateTimersWithoutWallClockDeductionOrRewardReplay",
+          "Status": "Passed",
+          "Duration": 12.5526094,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalShortBuffTests.ScaledClockPausesButPopupAndStoppedForestStillCountDown",
+          "Status": "Passed",
+          "Duration": 8.568952,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalShortBuffTests.ThreeEffectsAreIndependentAndSuperFallsBackAfterExpiry",
+          "Status": "Passed",
+          "Duration": 6.6353524,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

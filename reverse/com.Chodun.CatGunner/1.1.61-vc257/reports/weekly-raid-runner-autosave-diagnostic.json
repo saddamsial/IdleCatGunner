@@ -1,0 +1,228 @@
+{
+  "cause": "Test runner failure restored ordinary scene in PlayMode without test isolation; source clock/progression autosaved during that failed run. Both copies preserved; restore checkpoint only after EditMode.",
+  "whole_turn_byte_preservation": false,
+  "records": [
+    {
+      "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json",
+      "before_sha256": "bd1f1d84ad30c058d4aba941507e7ca57dffe879322cdb6e8cc39aec844c099d",
+      "autosave_sha256": "7682114e6750777988911b9ea7d389066f0ee468c2a4a53b9aa645a4d814e867",
+      "changed_fields": {
+        "DailyGun_Purchase_Counts": {
+          "before": [],
+          "after": [
+            0,
+            0,
+            0
+          ]
+        },
+        "DailyGun_Week_Key": {
+          "before": "",
+          "after": "20261005"
+        },
+        "Free_GachaDate": {
+          "before": "",
+          "after": "2026-10-11T00:00:00.0000000+08:00"
+        },
+        "Mission_MissionStart_Date": {
+          "before": "2026-10-10T14:03:09.5934040+08:00",
+          "after": "2026-10-11T00:53:46.7769290+08:00"
+        },
+        "Mission_TreeCount_Value": {
+          "before": 55,
+          "after": 40
+        },
+        "Money": {
+          "before": {
+            "s_digits": "2972000000000000000000",
+            "s_exponent": -18
+          },
+          "after": {
+            "s_digits": "4148000000000000000000",
+            "s_exponent": -18
+          }
+        },
+        "Money_Accum": {
+          "before": {
+            "s_digits": "3072000000000000000000",
+            "s_exponent": -18
+          },
+          "after": {
+            "s_digits": "4248000000000000000000",
+            "s_exponent": -18
+          }
+        },
+        "RaidMission_Clear": {
+          "before": [],
+          "after": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "RaidMission_Reward_Get": {
+          "before": [],
+          "after": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "RaidMission_Reward_ReGet": {
+          "before": [],
+          "after": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "RaidMission_Season_Index": {
+          "before": -1,
+          "after": 144
+        },
+        "Raid_Entry_Charge_Date": {
+          "before": "2026-10-10T00:00:00.0000000+08:00",
+          "after": "2026-10-11T00:00:00.0000000+08:00"
+        },
+        "Recovery_WeeklyVipFirstOpened": {
+          "before": null,
+          "after": false
+        },
+        "TicketCharge_Date": {
+          "before": "2026-10-10T00:00:00.0000000+08:00",
+          "after": "2026-10-11T00:00:00.0000000+08:00"
+        },
+        "TutorialCleared": {
+          "before": false,
+          "after": true
+        }
+      },
+      "preserved_copy": "reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/checkpoints/weekly-raid-runner-autosave/NoSaveFile.json"
+    },
+    {
+      "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json.bak",
+      "before_sha256": "bd1f1d84ad30c058d4aba941507e7ca57dffe879322cdb6e8cc39aec844c099d",
+      "autosave_sha256": "7682114e6750777988911b9ea7d389066f0ee468c2a4a53b9aa645a4d814e867",
+      "changed_fields": {
+        "DailyGun_Purchase_Counts": {
+          "before": [],
+          "after": [
+            0,
+            0,
+            0
+          ]
+        },
+        "DailyGun_Week_Key": {
+          "before": "",
+          "after": "20261005"
+        },
+        "Free_GachaDate": {
+          "before": "",
+          "after": "2026-10-11T00:00:00.0000000+08:00"
+        },
+        "Mission_MissionStart_Date": {
+          "before": "2026-10-10T14:03:09.5934040+08:00",
+          "after": "2026-10-11T00:53:46.7769290+08:00"
+        },
+        "Mission_TreeCount_Value": {
+          "before": 55,
+          "after": 40
+        },
+        "Money": {
+          "before": {
+            "s_digits": "2972000000000000000000",
+            "s_exponent": -18
+          },
+          "after": {
+            "s_digits": "4148000000000000000000",
+            "s_exponent": -18
+          }
+        },
+        "Money_Accum": {
+          "before": {
+            "s_digits": "3072000000000000000000",
+            "s_exponent": -18
+          },
+          "after": {
+            "s_digits": "4248000000000000000000",
+            "s_exponent": -18
+          }
+        },
+        "RaidMission_Clear": {
+          "before": [],
+          "after": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "RaidMission_Reward_Get": {
+          "before": [],
+          "after": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "RaidMission_Reward_ReGet": {
+          "before": [],
+          "after": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "RaidMission_Season_Index": {
+          "before": -1,
+          "after": 144
+        },
+        "Raid_Entry_Charge_Date": {
+          "before": "2026-10-10T00:00:00.0000000+08:00",
+          "after": "2026-10-11T00:00:00.0000000+08:00"
+        },
+        "Recovery_WeeklyVipFirstOpened": {
+          "before": null,
+          "after": false
+        },
+        "TicketCharge_Date": {
+          "before": "2026-10-10T00:00:00.0000000+08:00",
+          "after": "2026-10-11T00:00:00.0000000+08:00"
+        },
+        "TutorialCleared": {
+          "before": false,
+          "after": true
+        }
+      },
+      "preserved_copy": "reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/checkpoints/weekly-raid-runner-autosave/NoSaveFile.json.bak"
+    }
+  ]
+}

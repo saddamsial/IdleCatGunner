@@ -1,0 +1,180 @@
+{
+  "rule": 61,
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 arm64",
+  "scopeComplete": false,
+  "nativeContract": "hatch-fish-feedback-native-contract.json",
+  "batches": [
+    {
+      "report": "hatch-fish-feedback-final.json",
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 42.67
+    },
+    {
+      "report": "hatch-fish-feedback-fish-regression.json",
+      "summary": {
+        "total": 18,
+        "passed": 18,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 65.91
+    },
+    {
+      "report": "hatch-fish-feedback-currency-regression.json",
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 46.49
+    },
+    {
+      "report": "hatch-fish-feedback-startup-regression.json",
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 22.93
+    }
+  ],
+  "baselineFailure": "hatch-fish-feedback-baseline.json",
+  "intermediateFailure": "hatch-fish-feedback-first.json",
+  "emptyFilterNotCounted": "hatch-fish-feedback-startup-empty-filter.json",
+  "fish": "Inventory/model/combat were already updating. Native aggregate HUD format corrected; actual mouse Auto chain [0,0,1,1] ->[1,2], damage32 ->48, chance6 ->8, critical181 ->195; save/cold reload retained. Current user inventory [1,2] has no equal-grade pair.",
+  "hatch": "Missing serialized Scrolling restored. Raw Fill1080x37 and UV10.8x0.37 match frozen source; quarterGPU extent0..269 and fullGPU extent0..1079. Scaled UV x decreases by native1/s, making texture move right; pause verified. No arbitrary width enlargement.",
+  "numberFormatting": "Both actual hit boundary and post-credit money feedback use OriginalNumberText. All glyphs render; tested123456789012345 ->123.45d. Arithmetic/credit values unchanged.",
+  "naturalObservation": "hits=271, money=207, hitSample=3.51b, moneySample=+74.38b, fish=1,2",
+  "gpu": [
+    {
+      "path": "reports/visual/hatch-fish-feedback-damage-gpu.png",
+      "sha256": "0ae8e2d095e580320fc16b569d591b972e057326619f00f0f22a82fb0e389bf4"
+    },
+    {
+      "path": "reports/visual/hatch-fish-feedback-fish-after-gpu.png",
+      "sha256": "60f69aa1fc21308c5b5bca32c62d0cddddc648668538e3c694fafc7d87af4fae"
+    },
+    {
+      "path": "reports/visual/hatch-fish-feedback-fish-before-gpu.png",
+      "sha256": "63c7cfb5ca527c6c1dcc67a3ea47f8b2bb5766e7509533d8ea6a98cd0089b5c3"
+    },
+    {
+      "path": "reports/visual/hatch-fish-feedback-full-gpu.png",
+      "sha256": "63defe8f9a49779fed658970600ff1bb3fc6bc5929fc80b2840960dff3339855"
+    },
+    {
+      "path": "reports/visual/hatch-fish-feedback-latest-progress-gpu.png",
+      "sha256": "f14da15fd8b685605c65992ee21cd0160b19ca0c6dddf7d674a8528c13e2cb4a"
+    },
+    {
+      "path": "reports/visual/hatch-fish-feedback-money-gpu.png",
+      "sha256": "9bd1e227e6a411560e13a5d3a405367133f6ce52a46a97c0f4594992f24c8c4b"
+    },
+    {
+      "path": "reports/visual/hatch-fish-feedback-quarter-gpu.png",
+      "sha256": "18818d7f3f4018530b85450d625e46d9343d70e19fc4774f0ac8a2265511b627"
+    }
+  ],
+  "preservation": "hatch-fish-feedback-preservation.json",
+  "editorHandoff": "hatch-fish-feedback-editor-handoff.json",
+  "finalConsole": "hatch-fish-feedback-final-console.json",
+  "apkBuilt": false,
+  "gitDelivered": false,
+  "pending": [
+    "Full UI/I2/tutorial/FX parity",
+    "Remaining original InfVal API/format branches",
+    "Player and device visual acceptance",
+    "Original trusted server/SDK services"
+  ],
+  "originalVideoReference": {
+    "video": "Screenrecorder-2026-10-08-18-53-03-74.mp4",
+    "atSeconds": 8,
+    "frame": "reports/visual/hatch-fish-feedback-original-video.png",
+    "sha256": "092f826ad622091e9d81d70d75b12e22d910de25798b22c605d2b86a3881055d"
+  },
+  "finalBinding": {
+    "scrollCount": 1,
+    "speed": "(-1.00, 0.00)",
+    "uv": "(x:0.00, y:0.00, width:10.80, height:0.37)",
+    "rect": "(x:-540.00, y:-18.50, width:1080.00, height:37.00)",
+    "fillRect": "(x:-540.00, y:-18.50, width:1080.00, height:37.00)",
+    "fill": 0.478,
+    "compilationFailed": false
+  },
+  "editorHandoffVerified": {
+    "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+    "version": "6000.4.10f1",
+    "dirty": false,
+    "playing": false,
+    "paused": false,
+    "compiling": false,
+    "compilationFailed": false,
+    "objects": 35954,
+    "missingScripts": 0,
+    "persist": true,
+    "saveFolderOverride": null,
+    "testHostFolder": "",
+    "localAdSimulation": true,
+    "localPurchaseSimulation": true,
+    "timeScale": 1.0,
+    "inputOverrides": 0,
+    "mouseFixtures": 0,
+    "runtimePresentationAbsent": true,
+    "newCollection": 65,
+    "buildScenes": [
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredBullets.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForest.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestHUD.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestProgress.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredJoystick.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredSettings.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredTarget.unity",
+        "enabled": true
+      }
+    ]
+  },
+  "finalConsoleGroundTruth": {
+    "sampledUtc": "2026-10-11T16:32:14.250174Z",
+    "ageMs": 239,
+    "compilationFailed": false,
+    "compiling": false,
+    "consoleErrors": 0,
+    "consoleWarnings": 2,
+    "consoleLogs": 5,
+    "seeded": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "originalNativeSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "nativeQueries": "reports/native-plus-consumers-queries.tsv",
+  "status": "native-plus-consumers-reviewed/status.tsv",
+  "completedQueriesIncludingExceptionHelpers": 33,
+  "timeFactors": {
+    "forest": 2,
+    "boss": 2,
+    "mine": 1.2999999523162842,
+    "raidBonusSeconds": 10,
+    "speedrun": "no PlusPack branch in original coroutine"
+  },
+  "rewardFactors": {
+    "boss": 2,
+    "monster": 2,
+    "mine": 1.5,
+    "speedrun": 1,
+    "raid": 1
+  },
+  "nativeMineTimeLiteralPreferredVa": "0x106c1b4",
+  "nativeMineTimeFloat32Bytes": "6666a63f",
+  "mineOrder": "score integer division by10; raw best score saved; float1.5 multiply then fcvtzs truncation; multiplied payout retained for ad extra3x",
+  "expiry": "UTC now strictly before purchase+7 days; real verified clock replaced by local clock; separate local simulation ledger required",
+  "uiSource": "Frozen original fields and seven item paths; native active/nonpurchase and countdown restored through explicit runtime bridge",
+  "raidTimerCoroutine": "native-raid-client-reviewed/_Game_Cor_d__87_MoveNext.c",
+  "speedrunTimerCoroutine": "native-speedrun-client-reviewed/_Game_Cor_d__26_MoveNext.c"
+}

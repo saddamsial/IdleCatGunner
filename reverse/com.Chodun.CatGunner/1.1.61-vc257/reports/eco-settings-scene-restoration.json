@@ -1,0 +1,25 @@
+{
+  "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+  "objects": 34790,
+  "missingScripts": 0,
+  "restoredRoots": [
+    9651,
+    694,
+    1069,
+    1810
+  ],
+  "newObjects": 52,
+  "camera": "Main Camera",
+  "ecoButton": "EcoMode_Change",
+  "disabledUnsupported": [
+    "RedeemOpen_Btn: SetActive",
+    "Restore_Btn: Restore",
+    "WriteUs_Btn: SendEmail",
+    "Login_Btn: GoogleLogin_Click",
+    "Login_Btn (ios): GoogleLogin_Click",
+    "Save_Btn: DataSave_Click",
+    "Load_Btn: DataLoad_Click"
+  ],
+  "tutorialReferences": 5,
+  "ecoStateIsSaved": false
+}

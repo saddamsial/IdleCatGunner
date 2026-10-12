@@ -1,0 +1,6 @@
+02c06c64  mov w8,#0x46e10000
+02c06c68  mov x1,xzr
+02c06c6c  str w8,[x0, #0x20]
+02c06c70  mov x8,#0x404e000000000000
+02c06c74  str x8,[x0, #0x28]
+02c06c78  b 0x057e2ee0

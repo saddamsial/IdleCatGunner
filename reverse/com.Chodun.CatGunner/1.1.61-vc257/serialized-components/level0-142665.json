@@ -1,0 +1,92 @@
+{
+  "identity": {
+    "file": "level0",
+    "path_id": 142665,
+    "type_index": 7261,
+    "type": "DailyCheck",
+    "game_object": "DailyCheck"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 28531
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 208
+    },
+    "m_Name": "",
+    "DailyCheck_Panel_obj": {
+      "m_FileID": 0,
+      "m_PathID": 11219
+    },
+    "LastCheck_Date": {},
+    "CheckNum": 0,
+    "TotalCheckNum": 0,
+    "Reward_list": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 140797
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 136807
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 137651
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 146695
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 134383
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 129759
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 134001
+      }
+    ],
+    "DiaReward_list": [
+      70,
+      200,
+      400,
+      600,
+      800,
+      1000,
+      1500
+    ],
+    "Coupang_Panel": {
+      "m_FileID": 0,
+      "m_PathID": 113
+    },
+    "Coupang_Active_obj": {
+      "m_FileID": 0,
+      "m_PathID": 918
+    },
+    "Coupang_NonActive_obj": {
+      "m_FileID": 0,
+      "m_PathID": 955
+    },
+    "Coupang_Loading_obj": {
+      "m_FileID": 0,
+      "m_PathID": 2150
+    },
+    "Coupang_Remain_text": {
+      "m_FileID": 0,
+      "m_PathID": 117233
+    },
+    "Coupang_LastGet_Date": {},
+    "Coupang_hud_obj": {
+      "m_FileID": 0,
+      "m_PathID": 1366
+    }
+  }
+}

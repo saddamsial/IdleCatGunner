@@ -1,0 +1,281 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 arm64",
+  "native_sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "scope": "Forest hero mode0; not companion AI or other modes",
+  "evidence": "exact-native with exact-serialized fields; explicit forest integration bridge",
+  "methods": [
+    {
+      "name": "Cat_Update",
+      "preferred_va": "0x2b3a3a8",
+      "end_preferred_va": "0x2b3a678",
+      "first_16_bytes": "e80f1dfcfe5701a9f44f02a914b101d0",
+      "c_sha256": "21c7a4802edf9cab2efdd49d2d1afec482271a218498e5404bd524d78aed40c7",
+      "asm_sha256": "d647dbe052d927b520d9985bf5acc1c5f8f58771954dfc5c3db5a58b97a43492"
+    },
+    {
+      "name": "Cat_HandleAutoMove",
+      "preferred_va": "0x2b3c100",
+      "end_preferred_va": "0x2b3d234",
+      "first_16_bytes": "ff4302d1ef3b026ded33036deb2b046d",
+      "c_sha256": "8a6b790f241c054e2d01a9594595c8bc95ba55c7a8c719689dd79504f0dd5254",
+      "asm_sha256": "c3a2fb9613f2f85a08b279fa8d7fb0cab9d9d1bc3b187dd311cded253b6c6028"
+    },
+    {
+      "name": "Cat_FindNearestTreeByGrid",
+      "preferred_va": "0x2b3ecd8",
+      "end_preferred_va": "0x2b3f3d4",
+      "first_16_bytes": "ff8302d1ed33016deb2b026de923036d",
+      "c_sha256": "9a8097e7de5b9c6a6b5e973b2c4c2e707e9e3201ee85f16c44ea06e1ca5ea6fc",
+      "asm_sha256": "f83e07facbbb7aebe8ed6534ae711d5a2f5e3580b9717cdf079539cabdfcb2db"
+    },
+    {
+      "name": "Cat_FindBossTarget",
+      "preferred_va": "0x2b3ec6c",
+      "end_preferred_va": "0x2b3ecd8",
+      "first_16_bytes": "fe0f1ef8f44f01a9f4b001d0f39001f0",
+      "c_sha256": "c261bbc6b7c2c49ec6fdf48e48438096548cfb69a530ac5a55290b73250f1cce",
+      "asm_sha256": "bb9c35cf4775b6727341b3d97cb1362a500964e91efc855f238795b1e5a4ec22"
+    },
+    {
+      "name": "Cat_AutoSmoothStop",
+      "preferred_va": "0x2b3f3d4",
+      "end_preferred_va": "0x2b3f530",
+      "first_16_bytes": "ff4301d1eb2b016de923026dfe5703a9",
+      "c_sha256": "7d66a1a57b9059117ebb6cd2d27a7f0d37938d43d3221ffb08ef56dadd50c206",
+      "asm_sha256": "66757809ae2ef8dae320f5e9959d5d4c8aae27d8760c6aadd22cc152ec788423"
+    },
+    {
+      "name": "Cat_ClearAutoTarget",
+      "preferred_va": "0x2b3af70",
+      "end_preferred_va": "0x2b3b00c",
+      "first_16_bytes": "fe0f1ef8f44f01a9f30300aa1fbc00f9",
+      "c_sha256": "ebf0cd9243ee514862e2bd4249a4da9a7ee13e555d26db2487e52e13ac836cfb",
+      "asm_sha256": "40b850bf8336819e41a4969406f09a88d936618c970562d8dcaf867d6c49fb73"
+    },
+    {
+      "name": "Cat_ResolveAttackTarget",
+      "preferred_va": "0x2b3bad0",
+      "end_preferred_va": "0x2b3bf38",
+      "first_16_bytes": "ed33bb6deb2b016de923026dfe5703a9",
+      "c_sha256": "d2ab923935f7f1852102dbccc29c8719304524cdc2f7162262b998ed10ad170f",
+      "asm_sha256": "9e313a964970fdc718231dea495c1f9b56285f4bdfb7ecd236b9a5b25242aee7"
+    },
+    {
+      "name": "Cat__ctor",
+      "preferred_va": "0x2b42f24",
+      "end_preferred_va": "0x2b430c4",
+      "first_16_bytes": "fe0f1cf8f85f01a9f65702a9f44f03a9",
+      "c_sha256": "89ad080fac7d9dcad3c8216d4f3dea51d7bf7ddd07372dc853805dd1b4d45831",
+      "asm_sha256": "b9ede30a473443824325aac7b256968cacca1aa806fc53b539359f4c51685eae"
+    },
+    {
+      "name": "Cat_ScreenSpeedMultiplier",
+      "preferred_va": "0x2b38be8",
+      "end_preferred_va": "0x2b38cd0",
+      "first_16_bytes": "ea0f1dfce9a3006dfe0f00f9f44f02a9",
+      "c_sha256": "3e8c268d1121f4c164e48e2f77e3ec0a6e6ef4b7d6d0203a9d0e24249282ddf5",
+      "asm_sha256": "5a9441e88ee40f1b0f164027df732a6710fdae721ad34242987adb1a9f97eefb"
+    },
+    {
+      "name": "Cat__cctor",
+      "preferred_va": "0x2b430c4",
+      "end_preferred_va": "0x2b432dc",
+      "first_16_bytes": "eb2bbb6de923016dfe5f02a9f65703a9",
+      "c_sha256": "927b953b82b3c7f90f2348baf88143c5dba94dc9243beff089881c489b727f32",
+      "asm_sha256": "2c92b6eedfde9f0c8c63553fa9c551444a559bab9fb46965173ec00e748d4ed3"
+    },
+    {
+      "name": "AutoRetreat_DegenerateDirection",
+      "preferred_va": "0x2b432dc",
+      "end_preferred_va": "0x2b43320",
+      "first_16_bytes": "fe4fbfa9d3b001b068fe4239c8000035",
+      "c_sha256": "f7306004aa7ff3224352accac64d6790cfcfc8a4d6f2a517d5342dae66bae8d9",
+      "asm_sha256": "ca45803ca9ab3d504f067708bc943f5f837e8d1fdb8825e080e4d052f48c9dc1"
+    }
+  ],
+  "export_queries": 17,
+  "completed_queries": 17,
+  "generic_identities": [
+    {
+      "global_preferred_va": "0x5d613d0",
+      "type": "UnityEngine.Component",
+      "method": "GetComponent",
+      "token": "0x6000c86",
+      "instantiations": [
+        null,
+        [
+          "UnityEngine.Collider"
+        ]
+      ]
+    },
+    {
+      "global_preferred_va": "0x5d63228",
+      "type": "UnityEngine.Component",
+      "method": "GetComponentInChildren",
+      "token": "0x6000c8d",
+      "instantiations": [
+        null,
+        [
+          "UnityEngine.Collider"
+        ]
+      ]
+    }
+  ],
+  "degenerate_retreat": {
+    "preferred_va": "0x2b432dc",
+    "type_usage": "0x5eb0c88",
+    "type": "UnityEngine.Vector3",
+    "field": "backVector",
+    "static_offset": "0x54",
+    "proof": "ASM ldp s0,s1 [static+0x54], ldr s2 [static+0x5c]; metadata static field backVector=84; all XYZ registers reviewed"
+  },
+  "float_constants": {
+    "0x106c1b8": 0.5773502588272095,
+    "0x106c200": 9.999999747378752e-05,
+    "0x106c268": 0.0010000000474974513,
+    "0x106c088": 0.009999999776482582,
+    "0x106c094": 0.05000000074505806,
+    "0x106c190": 0.30000001192092896,
+    "0x106bea0": 0.8999999761581421,
+    "0x106c060": 0.20000000298023224,
+    "0x106bf18": 0.7853981852531433
+  },
+  "screen_speed_k": 1.2000000476837158,
+  "serialized_sources": [
+    {
+      "path": "serialized-components/level0-136808.json",
+      "sha256": "5453969b985d014d572d418796dba9020c0ab69df3f751cbc46b9eebf1dc03ba",
+      "fields": {
+        "moveSpeed": 14.0,
+        "AutoMove": true,
+        "AutoStopDistance": 10.0,
+        "AutoZOffsetMax": -15.0,
+        "AutoZOffsetMinDist": 3.0,
+        "AutoZOffsetFullDist": 10.0,
+        "AutoSearchInterval": 0.30000001192092896,
+        "AutoStopRatio": 0.800000011920929,
+        "AutoDecelerationRange": 2.0,
+        "AutoZWeight": 0.4000000059604645,
+        "AutoNearbyRadius": 8.0,
+        "AutoOreSearchRadius": 25.0,
+        "AutoOreSearchRadiusFallbackMult": 3.0,
+        "is_AI": true,
+        "MinEnemyDist": 5.0,
+        "VelocitySmoothSpeed": 8.0
+      }
+    },
+    {
+      "path": "serialized-components/level0-136809.json",
+      "sha256": "1867a28b171006aa5f9a097eab4d14a2846259cf49fd938761417b84cd884309",
+      "fields": {
+        "moveSpeed": 14.0,
+        "AutoMove": true,
+        "AutoStopDistance": 10.0,
+        "AutoZOffsetMax": -15.0,
+        "AutoZOffsetMinDist": 3.0,
+        "AutoZOffsetFullDist": 10.0,
+        "AutoSearchInterval": 0.30000001192092896,
+        "AutoStopRatio": 0.800000011920929,
+        "AutoDecelerationRange": 2.0,
+        "AutoZWeight": 0.4000000059604645,
+        "AutoNearbyRadius": 8.0,
+        "AutoOreSearchRadius": 25.0,
+        "AutoOreSearchRadiusFallbackMult": 3.0,
+        "is_AI": true,
+        "MinEnemyDist": 5.0,
+        "VelocitySmoothSpeed": 8.0
+      }
+    },
+    {
+      "path": "serialized-components/level0-136810.json",
+      "sha256": "120241011b6d5973d717981d591148003afe287eaefd0ea149f8f7b34449a0f9",
+      "fields": {
+        "moveSpeed": 14.0,
+        "AutoMove": true,
+        "AutoStopDistance": 10.0,
+        "AutoZOffsetMax": -15.0,
+        "AutoZOffsetMinDist": 3.0,
+        "AutoZOffsetFullDist": 10.0,
+        "AutoSearchInterval": 0.30000001192092896,
+        "AutoStopRatio": 0.800000011920929,
+        "AutoDecelerationRange": 2.0,
+        "AutoZWeight": 0.4000000059604645,
+        "AutoNearbyRadius": 8.0,
+        "AutoOreSearchRadius": 25.0,
+        "AutoOreSearchRadiusFallbackMult": 3.0,
+        "is_AI": true,
+        "MinEnemyDist": 5.0,
+        "VelocitySmoothSpeed": 8.0
+      }
+    },
+    {
+      "path": "serialized-components/level0-147400.json",
+      "sha256": "566842f025c76fa31a49925a8937c16f8c2e6af156afe032f4b24773b32518d1",
+      "fields": {
+        "moveSpeed": 13.0,
+        "AutoMove": true,
+        "AutoStopDistance": 10.0,
+        "AutoZOffsetMax": -15.0,
+        "AutoZOffsetMinDist": 3.0,
+        "AutoZOffsetFullDist": 10.0,
+        "AutoSearchInterval": 0.30000001192092896,
+        "AutoStopRatio": 0.800000011920929,
+        "AutoDecelerationRange": 2.0,
+        "AutoZWeight": 0.4000000059604645,
+        "AutoNearbyRadius": 8.0,
+        "AutoOreSearchRadius": 25.0,
+        "AutoOreSearchRadiusFallbackMult": 3.0,
+        "is_AI": false,
+        "MinEnemyDist": 5.0,
+        "VelocitySmoothSpeed": 8.0
+      }
+    }
+  ],
+  "native_review_notes": [
+    "Ghidra +0x100000 vs preferred ELF VA; exact first16 bytes and unwind end checked",
+    "ARM64 HFA XYZ/Quaternion s0-s3 results reviewed; decompiled scalar expressions alone are insufficient",
+    "FindNearestTreeByGrid outer rank w29 and inner slot x26 are separate; C aliases variables across loops",
+    "Old native-cat-initialization Cat__cctor C lost tail after managed write barrier; bounded auto export supplies non-inline reference, full body plus ASM retained",
+    "ScreenSpeedMultiplier uses rotated X/Z, projection0.57735026 and static K1.2; retreat helper reads Vector3.back, not guessed forward"
+  ],
+  "rules": [
+    "Frame order: ray timer, ResolveAttackTarget, spread, movement, hands, face, attack cooldown",
+    "Auto enabled and input squared<0.0001 selects automatic movement; otherwise ClearAutoTarget then manual. Resolver allows equality to use auto target",
+    "Search every0.3 seconds or null target, inactive target immediately reselected. Stable grid Z bounds and strict tree score ties; boss participates only at wave4 after nonempty active grids",
+    "Tree score=XZ distance; beyond8 radius add0.4*max(0,forwardZ). Active tree and active Enemy are required, no invented health or death flag filter",
+    "Automatic attack target chooses Collider then child Collider, closest point, valid viewport and full3D distance<=40; out-of-range clears attack/lock but retains closest point",
+    "Approach target Z offset interpolates0 to-15 with distance3..10 and caps magnitude to0.9*stopDistance; serialized AutoStopRatio0.8 unused in this method",
+    "Distance uses nearHitPoint XZ when attack target exists, otherwise movement targetXZ. Stop<=10; near attack point<5 retreats toward distance5.5, degenerate direction Vector3.back, movement cutoff<=0.05",
+    "Approach desired displacement<0.3 smooth-stops; distance10..12 uses cubic smoothstep blended with0.2 floor",
+    "Desired velocity uses moveSpeed15*ratio*screen multiplier; Vector3.Lerp dt*8; body always preserves current Y. Smooth-stop snaps squared speed<0.01; ClearAutoTarget clears smooth velocity only if squared>0.001",
+    "No-input forest gameplay follows recovered update ordering. Manual-only fallback remains for independently disabled targeting fixtures; movement disabled fixture prevents combat bridge writing body"
+  ],
+  "implementation": [
+    {
+      "path": "Assets/Recovery/Scripts/Cat.cs",
+      "sha256": "2bbb8c224f09d8e3d103fec0d61294f75f51f01555f2493ed703630f8db5ec86"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/CatAutoMovement.cs",
+      "sha256": "1634bba8a574066227a0fac2d23153d0ef5a7b4e13b6dcbf6c93ec60dd1cf6b8"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/CatCombat.cs",
+      "sha256": "4cebb23d9b38cca617feef3d56977e6de312d6153a6e2fb348056b586c393123"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/ForestMovementAcceptance.cs",
+      "sha256": "e5981411dfbbe10001bec3396945c6538e1740f60a125d63f8459e15b9d989f5"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/ForestCombatAcceptance.cs",
+      "sha256": "c16c589360ac567db7ce88fcdda268761bb659b34a66c8652c5b782fe9a6c863"
+    }
+  ],
+  "differences": [
+    "Full original Cat.Update breadcrumb/leader-history and companion AI not integrated",
+    "Other native modes SpeedRun/Boss/Ore/Monster/Arena target providers remain separate; forest boss tree wave4 supported",
+    "Original Gamemanager startup, wave settlement/progression/economy/equipment ownership/save/UI remain pending",
+    "Local Unity6 PlayMode and visual evidence are separate from original phone/device/performance/backend parity"
+  ]
+}

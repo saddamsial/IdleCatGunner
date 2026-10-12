@@ -1,0 +1,39 @@
+02c678d0  str x30,[sp, #-0x20]!
+02c678d4  stp x20,x19,[sp, #0x10]
+02c678d8  ldr x8,[x0, #0x40]
+02c678dc  mov x19,x0
+02c678e0  cbz x8,0x02c678ec
+02c678e4  ldr w1,[x8, #0x18]
+02c678e8  b 0x02c678f0
+02c678ec  mov w1,#0x10
+02c678f0  mov x20,x19
+02c678f4  ldr x0,[x20, #0x60]!
+02c678f8  cbz x0,0x02c67908
+02c678fc  ldr w8,[x0, #0x18]
+02c67900  cmp w1,w8
+02c67904  b.eq 0x02c6791c
+02c67908  bl 0x02c67e38
+02c6790c  mov x1,x0
+02c67910  str x0,[x20]
+02c67914  mov x0,x20
+02c67918  bl 0x029f59f4
+02c6791c  ldr x8,[x19, #0x28]
+02c67920  cbz x8,0x02c6792c
+02c67924  ldr w1,[x8, #0x18]
+02c67928  b 0x02c67930
+02c6792c  mov w1,wzr
+02c67930  ldr x0,[x19, #0x68]!
+02c67934  cbz x0,0x02c67950
+02c67938  ldr w8,[x0, #0x18]
+02c6793c  cmp w1,w8
+02c67940  b.ne 0x02c67950
+02c67944  ldp x20,x19,[sp, #0x10]
+02c67948  ldr x30,[sp], #0x20
+02c6794c  ret
+02c67950  bl 0x02c67e38
+02c67954  mov x1,x0
+02c67958  mov x0,x19
+02c6795c  str x1,[x19]
+02c67960  ldp x20,x19,[sp, #0x10]
+02c67964  ldr x30,[sp], #0x20
+02c67968  b 0x029f59f4

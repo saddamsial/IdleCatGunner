@@ -1,0 +1,39 @@
+{
+  "counts": [
+    0,
+    2,
+    5
+  ],
+  "entries": [
+    {
+      "message": "[PipelineTestRunner] Reattaching result collector after domain reload\nUnityEngine.Debug:Log (object)\nUnity.Pipeline.Editor.Testing.PipelineTestRunner:CheckForPendingTests () (at ./Packages/com.unity.pipeline/Editor/Testing/PipelineTestRunner.cs:500)\nUnityEditor.EditorApplication:Internal_CallDelayFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:416)\n",
+      "mode": 8406016
+    },
+    {
+      "message": "[TestResultCollector] Run started: 8175 test(s)\nUnityEngine.Debug:Log (object)\nUnity.Pipeline.Editor.Testing.TestResultCollector:RunStarted (UnityEditor.TestTools.TestRunner.Api.ITestAdaptor) (at ./Packages/com.unity.pipeline/Editor/Testing/TestResultCollector.cs:54)\nUnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)\n",
+      "mode": 8406016
+    },
+    {
+      "message": "Ignoring depth surface load action as it is memoryless\n",
+      "mode": 512
+    },
+    {
+      "message": "Ignoring depth surface store action as it is memoryless\n",
+      "mode": 512
+    },
+    {
+      "message": "Saving results to: /Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/TestResults.xml\n",
+      "mode": 8668160
+    },
+    {
+      "message": "[TestResultCollector] Run finished: 4 total, 4 passed, 0 failed\nUnityEngine.Debug:Log (object)\nUnity.Pipeline.Editor.Testing.TestResultCollector:RunFinished (UnityEditor.TestTools.TestRunner.Api.ITestResultAdaptor) (at ./Packages/com.unity.pipeline/Editor/Testing/TestResultCollector.cs:106)\nUnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)\n",
+      "mode": 8406016
+    },
+    {
+      "message": "Executing IPostBuildCleanup for: Unity.PerformanceTesting.Editor.TestRunBuilder.\nUnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:401)\n",
+      "mode": 8406016
+    }
+  ],
+  "compiling": false,
+  "playing": false
+}

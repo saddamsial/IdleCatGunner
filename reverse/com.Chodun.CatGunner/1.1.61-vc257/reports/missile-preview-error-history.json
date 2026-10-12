@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "command": "command console",
+  "data": {
+    "command": "console",
+    "parameters": {
+      "level": "error",
+      "tail": "2"
+    },
+    "result": {
+      "entries": [
+        {
+          "seq": 240,
+          "timestampUtc": "2026-10-08T21:10:54.003949Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "InvalidOperationException: No missile fired",
+          "stackTrace": "MissilePreview+<CaptureFlight>d__6.MoveNext () (at Assets/Recovery/Editor/MissilePreview.cs:54)\nUnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)\n",
+          "seeded": false
+        },
+        {
+          "seq": 241,
+          "timestampUtc": "2026-10-08T21:13:57.313519Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "InvalidOperationException: No missile fired",
+          "stackTrace": "MissilePreview+<CaptureFlight>d__7.MoveNext () (at Assets/Recovery/Editor/MissilePreview.cs:55)\nUnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)\n",
+          "seeded": false
+        }
+      ],
+      "cursor": 241,
+      "session": "de7e1c4674474160b93724b1761ddfea",
+      "returned": 2,
+      "dropped": false,
+      "reset": false,
+      "counts": {
+        "error": 6,
+        "warn": 93,
+        "log": 142
+      },
+      "groundTruth": {
+        "sampledUtc": "2026-10-08T21:15:10.941921Z",
+        "ageMs": 57,
+        "compilationFailed": false,
+        "compiling": false,
+        "consoleErrors": 1,
+        "consoleWarnings": 0,
+        "consoleLogs": 0,
+        "seeded": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

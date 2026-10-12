@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene();var c=UnityEngine.Object.FindAnyObjectByType<CatGunner.Recovery.RecoveryForestClient>();var s=UnityEngine.Object.FindAnyObjectByType<Setting>();return new{scene=scene.path,dirty=scene.isDirty,playing=UnityEditor.EditorApplication.isPlaying,compiling=UnityEditor.EditorApplication.isCompiling,persist=c.Persist,saveOverride=c.SaveFolderOverride,cameraActive=s.Camera_obj.activeSelf,ecoVisible=s.EcoPanel_obj.activeSelf};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "dirty": false,
+        "playing": false,
+        "compiling": false,
+        "persist": true,
+        "saveOverride": null,
+        "cameraActive": true,
+        "ecoVisible": false
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

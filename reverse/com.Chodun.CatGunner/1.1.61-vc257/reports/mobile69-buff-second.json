@@ -1,0 +1,98 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 76.83,
+      "summary": {
+        "total": 10,
+        "passed": 10,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalShortBuffTests.BossAndMonsterPreviewsUseSeparatePowerAndSpeedBuffs",
+          "Status": "Passed",
+          "Duration": 7.1633999,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalShortBuffTests.DisabledCancelledDuplicateAndClosedPageAdsCannotGrant",
+          "Status": "Passed",
+          "Duration": 6.1422378,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalShortBuffTests.NativeDurationFormatsClampsAndAdPlacementsMatch",
+          "Status": "Passed",
+          "Duration": 6.0685292,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalShortBuffTests.OriginalBuffMenuAndAdvertGrantAreAvailable",
+          "Status": "Passed",
+          "Duration": 10.2152474,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalShortBuffTests.OriginalMineAdvertGrantsOnlySpeedAndUsesTicketGate",
+          "Status": "Passed",
+          "Duration": 6.727517,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalShortBuffTests.OriginalUpgradePanelsShowIndependentBuffMultipliers",
+          "Status": "Passed",
+          "Duration": 6.1975078,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalShortBuffTests.PermanentLocalPackFreezesRawTimersAndHidesAds",
+          "Status": "Passed",
+          "Duration": 8.3076319,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalShortBuffTests.ReloadRetainsSeparateTimersWithoutWallClockDeductionOrRewardReplay",
+          "Status": "Passed",
+          "Duration": 12.2909087,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalShortBuffTests.ScaledClockPausesButPopupAndStoppedForestStillCountDown",
+          "Status": "Passed",
+          "Duration": 7.0234225,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalShortBuffTests.ThreeEffectsAreIndependentAndSuperFallsBackAfterExpiry",
+          "Status": "Passed",
+          "Duration": 6.5827993,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,367 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257",
+  "native_sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "native_methods": [
+    {
+      "name": "Bullet_HitPierce",
+      "preferred_va": "0x2b66980",
+      "ghidra_va": "0x2c66980",
+      "end_preferred_va": "0x2b66c1c",
+      "first_16_bytes": "ff4302d1ea2300fde923056dfe5f06a9",
+      "c_sha256": "b8a9514fc98ea60a8b6c7afcc73f4917838cf5481ea339e63970c0ab07c9f8d0",
+      "asm_sha256": "286b7b4b2cc891e0c189f49627936e51dbcb429ffbfd10021b03bb702685f719"
+    },
+    {
+      "name": "Bullet_HitExplosive",
+      "preferred_va": "0x2b66c1c",
+      "ghidra_va": "0x2c66c1c",
+      "end_preferred_va": "0x2b66c64",
+      "first_16_bytes": "ea0f1dfce923016dfe4f02a94840201e",
+      "c_sha256": "00b16a7706c4162ce84351b7b994e208cdd6fd6dbe371aadad0cdd27e784b5c5",
+      "asm_sha256": "4e920d3393dc5b92698fb1f6123b7e22bd8e55a8d46d31a1aad1ad1608b4604a"
+    },
+    {
+      "name": "Bullet_HitBlastSniper",
+      "preferred_va": "0x2b66c64",
+      "ghidra_va": "0x2c66c64",
+      "end_preferred_va": "0x2b66e24",
+      "first_16_bytes": "ea0f1bfce923016dfe5f02a9f65703a9",
+      "c_sha256": "bc74ce289f60ff33585adaa6418e384a980fd9049b5f977a49950fa07a2518cf",
+      "asm_sha256": "81f31967fcb8d91fa26eec11905818fa1508fbe25e8e21bb88321ca2373b110e"
+    },
+    {
+      "name": "Bullet_Explode",
+      "preferred_va": "0x2b65edc",
+      "ghidra_va": "0x2c65edc",
+      "end_preferred_va": "0x2b66180",
+      "first_16_bytes": "ff4303d1ed33046deb2b056de923066d",
+      "c_sha256": "7975b943a69216cdbe43f9919578782926dbb1b1fc37cf4e2055f950bfef93ee",
+      "asm_sha256": "09988d24d97a528d8a6da38319f2a306af46d7b574b0ab1f7641358c290b41c5"
+    },
+    {
+      "name": "Bullet_SpawnFX_Once",
+      "preferred_va": "0x2b66e24",
+      "ghidra_va": "0x2c66e24",
+      "end_preferred_va": "0x2b66e3c",
+      "first_16_bytes": "0870433948000034c0035fd628008052",
+      "c_sha256": "2ff5e8d38de731fa33b75b35296000290a8ab819feac6fb0020241990bd3ff10",
+      "asm_sha256": "baa89d4437efc31d58c6307686fca7314d953e13b9cc33ae4271a203634243ae"
+    },
+    {
+      "name": "Bullet_Destroy",
+      "preferred_va": "0x2b6708c",
+      "ghidra_va": "0x2c6708c",
+      "end_preferred_va": "0x2b67104",
+      "first_16_bytes": "fe4fbfa908a0413968000034fe4fc1a8",
+      "c_sha256": "3b607e1cf2fed908f8bce764379e4527cdf37176b8903f843640ebf2696279af",
+      "asm_sha256": "be733d2622e7a31ea7163926dea804429f74283a8a7519c3425c295f2f96c945"
+    },
+    {
+      "name": "Bullet_SpawnEx",
+      "preferred_va": "0x2b655a8",
+      "ghidra_va": "0x2c655a8",
+      "end_preferred_va": "0x2b656f0",
+      "first_16_bytes": "ffc302d1ef3b026ded33036deb2b046d",
+      "c_sha256": "038ede4d1900ab4b4e45333893769278b1fc521e5680b7488515a72b974a8921",
+      "asm_sha256": "3aef386d4608693ef13be2ad15914e4897ed31de5b9c96b5e2cf4a44a5ba8eb1"
+    }
+  ],
+  "caller": {
+    "preferred_va": "0x2b3d4ac",
+    "end_preferred_va": "0x2b3d9a0",
+    "first_16_bytes": "ffc305d1ef3b106ded33116deb2b126d",
+    "c_sha256": "b9e602e1e80aaced8d81b49ac213eb9e1f32594bb5a0cf0a9afa5c90408d15c6",
+    "asm_sha256": "b8d0f5f16b3baf6505695162e7abca1a924fdcc1b6278e88ece9c6876f3ce8a0"
+  },
+  "abi": {
+    "Explode": "this x0; center s0/s1/s2",
+    "HitExplosive": "this x0; hit position s0/s1/s2",
+    "HitBlastSniper": "this x0, other x1, isEnemy w2, id w3; hit position s0/s1/s2"
+  },
+  "overlap_signature": {
+    "image": "UnityEngine.PhysicsModule.dll",
+    "token": "0x600004d",
+    "method": "OverlapSphere",
+    "parameters": [
+      "UnityEngine.Vector3",
+      "System.Single",
+      "System.Int32"
+    ],
+    "behavior": "three-argument Physics.OverlapSphere, allocating Collider[] with global query trigger setting; no sorting/dedup by enemy"
+  },
+  "generic_identity_proof": "penetrating-generic-identities.json; same Add/Contains/EnemyColl metadata usages, reviewed aliases",
+  "fields": {
+    "explosion_radius": "0x9c",
+    "enemy_layer": "0xa0",
+    "first_hit_done": "0xcc",
+    "hit_ids": "0xd0",
+    "pierce_count": "0xd8",
+    "fx_spawned": "0xdc"
+  },
+  "serialized_source": {
+    "path": "serialized-components/level0-123082.json",
+    "sha256": "b8a6e1a9c9f4a7a49545fbb7630cdb7f0b3a4baa75365bab54118f8006046ce4"
+  },
+  "guns": [
+    {
+      "gun": 14,
+      "type": 4,
+      "damage": {
+        "s_digits": "120",
+        "s_exponent": 0
+      },
+      "interval": 0.699999988079071,
+      "explosion_radius": 5.0,
+      "blast_sniper_radius": 3.0,
+      "penetrating_lifetime": 2.0
+    },
+    {
+      "gun": 18,
+      "type": 4,
+      "damage": {
+        "s_digits": "300",
+        "s_exponent": 0
+      },
+      "interval": 0.699999988079071,
+      "explosion_radius": 5.5,
+      "blast_sniper_radius": 3.0,
+      "penetrating_lifetime": 2.0
+    },
+    {
+      "gun": 22,
+      "type": 4,
+      "damage": {
+        "s_digits": "800",
+        "s_exponent": 0
+      },
+      "interval": 0.30000001192092896,
+      "explosion_radius": 6.0,
+      "blast_sniper_radius": 3.0,
+      "penetrating_lifetime": 2.0
+    },
+    {
+      "gun": 26,
+      "type": 4,
+      "damage": {
+        "s_digits": "2800",
+        "s_exponent": 0
+      },
+      "interval": 0.30000001192092896,
+      "explosion_radius": 6.5,
+      "blast_sniper_radius": 3.0,
+      "penetrating_lifetime": 2.0
+    },
+    {
+      "gun": 29,
+      "type": 6,
+      "damage": {
+        "s_digits": "1600",
+        "s_exponent": 0
+      },
+      "interval": 0.3499999940395355,
+      "explosion_radius": 3.0,
+      "blast_sniper_radius": 5.5,
+      "penetrating_lifetime": 2.0
+    },
+    {
+      "gun": 31,
+      "type": 4,
+      "damage": {
+        "s_digits": "11200",
+        "s_exponent": 0
+      },
+      "interval": 0.15000000596046448,
+      "explosion_radius": 7.0,
+      "blast_sniper_radius": 5.5,
+      "penetrating_lifetime": 2.0
+    },
+    {
+      "gun": 34,
+      "type": 6,
+      "damage": {
+        "s_digits": "6400",
+        "s_exponent": 0
+      },
+      "interval": 0.20000000298023224,
+      "explosion_radius": 3.0,
+      "blast_sniper_radius": 6.5,
+      "penetrating_lifetime": 2.0
+    },
+    {
+      "gun": 36,
+      "type": 4,
+      "damage": {
+        "s_digits": "42000",
+        "s_exponent": 0
+      },
+      "interval": 0.07000000029802322,
+      "explosion_radius": 9.0,
+      "blast_sniper_radius": 3.0,
+      "penetrating_lifetime": 2.0
+    },
+    {
+      "gun": 39,
+      "type": 6,
+      "damage": {
+        "s_digits": "24000",
+        "s_exponent": 0
+      },
+      "interval": 0.10000000149011612,
+      "explosion_radius": 3.0,
+      "blast_sniper_radius": 8.0,
+      "penetrating_lifetime": 2.0
+    },
+    {
+      "gun": 41,
+      "type": 4,
+      "damage": {
+        "s_digits": "168000",
+        "s_exponent": 0
+      },
+      "interval": 0.07000000029802322,
+      "explosion_radius": 9.0,
+      "blast_sniper_radius": 3.0,
+      "penetrating_lifetime": 2.0
+    },
+    {
+      "gun": 44,
+      "type": 6,
+      "damage": {
+        "s_digits": "96000",
+        "s_exponent": 0
+      },
+      "interval": 0.10000000149011612,
+      "explosion_radius": 3.0,
+      "blast_sniper_radius": 8.0,
+      "penetrating_lifetime": 2.0
+    },
+    {
+      "gun": 46,
+      "type": 4,
+      "damage": {
+        "s_digits": "630000",
+        "s_exponent": 0
+      },
+      "interval": 0.07000000029802322,
+      "explosion_radius": 9.0,
+      "blast_sniper_radius": 5.5,
+      "penetrating_lifetime": 2.0
+    },
+    {
+      "gun": 49,
+      "type": 6,
+      "damage": {
+        "s_digits": "360000",
+        "s_exponent": 0
+      },
+      "interval": 0.10000000149011612,
+      "explosion_radius": 3.0,
+      "blast_sniper_radius": 8.0,
+      "penetrating_lifetime": 2.0
+    },
+    {
+      "gun": 51,
+      "type": 4,
+      "damage": {
+        "s_digits": "7000000",
+        "s_exponent": 0
+      },
+      "interval": 0.07000000029802322,
+      "explosion_radius": 9.0,
+      "blast_sniper_radius": 5.5,
+      "penetrating_lifetime": 2.0
+    },
+    {
+      "gun": 54,
+      "type": 6,
+      "damage": {
+        "s_digits": "4000000",
+        "s_exponent": 0
+      },
+      "interval": 0.10000000149011612,
+      "explosion_radius": 3.0,
+      "blast_sniper_radius": 8.0,
+      "penetrating_lifetime": 2.0
+    },
+    {
+      "gun": 56,
+      "type": 4,
+      "damage": {
+        "s_digits": "140000000",
+        "s_exponent": 0
+      },
+      "interval": 0.07000000029802322,
+      "explosion_radius": 9.0,
+      "blast_sniper_radius": 5.5,
+      "penetrating_lifetime": 2.0
+    },
+    {
+      "gun": 59,
+      "type": 6,
+      "damage": {
+        "s_digits": "80000000",
+        "s_exponent": 0
+      },
+      "interval": 0.10000000149011612,
+      "explosion_radius": 3.0,
+      "blast_sniper_radius": 8.0,
+      "penetrating_lifetime": 2.0
+    },
+    {
+      "gun": 61,
+      "type": 4,
+      "damage": {
+        "s_digits": "3500000000",
+        "s_exponent": 0
+      },
+      "interval": 0.07000000029802322,
+      "explosion_radius": 9.0,
+      "blast_sniper_radius": 5.5,
+      "penetrating_lifetime": 2.0
+    },
+    {
+      "gun": 64,
+      "type": 6,
+      "damage": {
+        "s_digits": "2000000000",
+        "s_exponent": 0
+      },
+      "interval": 0.10000000149011612,
+      "explosion_radius": 3.0,
+      "blast_sniper_radius": 8.0,
+      "penetrating_lifetime": 2.0
+    }
+  ],
+  "rules": [
+    "Explode only if radius>0; query center/radius/mask; process original array order, skip null or currently inactive colliders",
+    "Each previously unseen collider ID recorded before ClosestPoint(center) and full damage/text/critical dispatch; no distance falloff and no Enemy identity dedup",
+    "Distinct colliders linked to one surviving Enemy may each damage it; if prior dispatch deactivates the object later entries skip",
+    "HitExplosive ignores enemy tag for detonation: Explode(hit point), SpawnFX, DieAndWait; no additional direct-hit damage",
+    "Destroy: dead guard; types4/5 explode at current position and SpawnFX then DieAndWait. Type6 expires without explosion. Missile flight follows original-missile-contract.json",
+    "BlastSniper firstHitDone set before validation; live Enemy initial damage>=pre-hit health allows continuation; otherwise stops after explosion/first FX",
+    "First blast records all queried IDs; later already splashed colliders do not hit again; subsequent unseen contacts use HitPierce and start count0",
+    "Blast first FX uses shared fx_spawned; original pierce rule/splash survivor suppression and reset on reuse retained",
+    "Cat Attack4 applies ordinary spread, original ExplosionRadius, request1.5s; Attack6 applies ordinary spread, BlastSniperExplosionRadius, original PenetratingBulletLifetime",
+    "One critical choice/full damage for all splash colliders; pool-full failure/retry and feedback on success unchanged;50-unit travel cap applies"
+  ],
+  "implementation": [
+    {
+      "path": "Assets/Recovery/Scripts/Bullet.cs",
+      "sha256": "263206451c60faea28a2ad028c18fb7eff7d5ed47dddfef20ec9694283bf639a"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/CatCombat.cs",
+      "sha256": "4cebb23d9b38cca617feef3d56977e6de312d6153a6e2fb348056b586c393123"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/ForestCombatAcceptance.cs",
+      "sha256": "c16c589360ac567db7ce88fcdda268761bb659b34a66c8652c5b782fe9a6c863"
+    }
+  ],
+  "differences": [
+    "Ordinary forest only; forest hero auto movement follows original-auto-move-contract.json; full Cat.Update/AI and original manager/UI mode5/Ore not integrated",
+    "Independent DecimalAmount and text/ForestDamageDispatch adapters; damage text UI/economy pending",
+    "Missile movement/aim forest follows original-missile-contract.json; full original Main/backend/phone/visual parity pending",
+    "Initial package slot gun0 remains; test equipment/targets never saved as player ownership/progress"
+  ]
+}

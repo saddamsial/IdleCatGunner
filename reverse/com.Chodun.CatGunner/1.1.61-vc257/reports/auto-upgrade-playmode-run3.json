@@ -1,0 +1,125 @@
+{
+  "status": "completed",
+  "duration": 57.21,
+  "summary": {
+    "total": 16,
+    "passed": 16,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.DayBoundaryRequiresInactiveBudgetAndNeverCreatesPackOwnership",
+      "Status": "Passed",
+      "Duration": 0.119847,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.ExactOriginalLiteralTruncatesTime(600.0f,\"10:00\")",
+      "Status": "Passed",
+      "Duration": 0.0004695,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.ExactOriginalLiteralTruncatesTime(59.99f,\"0:59\")",
+      "Status": "Passed",
+      "Duration": 2.59E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.ExactOriginalLiteralTruncatesTime(0.0f,\"0:00\")",
+      "Status": "Passed",
+      "Duration": 2.28E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.FrameCapAdPauseAndPaidBudgetAreNativeGates",
+      "Status": "Passed",
+      "Duration": 0.0001811,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.NativeLoadClampsTimerAndNormalizesNullDate(-1.0f,0.0f)",
+      "Status": "Passed",
+      "Duration": 0.0004096,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.NativeLoadClampsTimerAndNormalizesNullDate(901.0f,600.0f)",
+      "Status": "Passed",
+      "Duration": 3.06E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.NativeLoadClampsTimerAndNormalizesNullDate(float.NaN,0.0f)",
+      "Status": "Passed",
+      "Duration": 1.92E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeRulesTests.NativeLoadClampsTimerAndNormalizesNullDate(float.PositiveInfinity,600.0f)",
+      "Status": "Passed",
+      "Duration": 2.26E-05,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.ClosingOfferCancelsRewardAndRepeatedRequestsCannotDoubleGrant",
+      "Status": "Passed",
+      "Duration": 9.6803193,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.ColdSceneReloadPreservesBudgetWithoutConsumingOfflineSeconds",
+      "Status": "Passed",
+      "Duration": 12.5620336,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.OriginalAutoUpgradeHudAndPopupArePresentForPlay",
+      "Status": "Passed",
+      "Duration": 6.097926,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.OriginalCloseButtonRestoresBatchSoundAndAllThreeUpgradeAnimations",
+      "Status": "Passed",
+      "Duration": 7.1493257,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.PaidStateSkipsAdAndKeepsTimedBudgetWithoutGrantingNewEntitlement",
+      "Status": "Passed",
+      "Duration": 6.2800457,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.RealHudAdAndSwitchButtonsBuyNativeAffordableLowestLevelsAndSave",
+      "Status": "Passed",
+      "Duration": 8.5509174,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalAutoUpgradeTests.ScaledPauseExpirySameDayAndNextDayReloadUseOriginalVisibility",
+      "Status": "Passed",
+      "Duration": 6.5550018,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

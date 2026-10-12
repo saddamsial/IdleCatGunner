@@ -1,0 +1,94 @@
+{
+  "historicalFiles": 129,
+  "changedRegressionsArchivedThenRestored": [
+    {
+      "path": "playtest-fixes-insufficient-diamonds-gpu.png",
+      "beforeSha256": "c72fd27c3a2e1a42a040e65f761738e277bfe17e717e5156d0aa244c94a2f96b",
+      "regressionSha256": "5ae4c971b4b62c01e258062913691772ba5a91400c63d50f9bc9087051b4612e",
+      "regressionArchive": "reports/visual/auto-upgrade-regressions/playtest-fixes-insufficient-diamonds-gpu.png",
+      "restoredSha256": "c72fd27c3a2e1a42a040e65f761738e277bfe17e717e5156d0aa244c94a2f96b"
+    },
+    {
+      "path": "playtest-fixes-offline-result-gpu.png",
+      "beforeSha256": "9fad1f14adb72a58f4023e70cdb8ad11b6bfd4540ad5bbb4886b4b951c0dd1de",
+      "regressionSha256": "cef15c228acb764242704b9e785973c3370fdffe16af5021af149d64dc96b5c4",
+      "regressionArchive": "reports/visual/auto-upgrade-regressions/playtest-fixes-offline-result-gpu.png",
+      "restoredSha256": "9fad1f14adb72a58f4023e70cdb8ad11b6bfd4540ad5bbb4886b4b951c0dd1de"
+    },
+    {
+      "path": "playtest-fixes-speedrun-gpu.png",
+      "beforeSha256": "433d35cc8fe6ee0aec0da5206190d1359a26ad1b3e29a0a60500c46a7b0ee0ae",
+      "regressionSha256": "0ab9a3f69b9f5b533c7488ee8871aff155b36b72e42cd8e7da977fd8e7beb682",
+      "regressionArchive": "reports/visual/auto-upgrade-regressions/playtest-fixes-speedrun-gpu.png",
+      "restoredSha256": "433d35cc8fe6ee0aec0da5206190d1359a26ad1b3e29a0a60500c46a7b0ee0ae"
+    },
+    {
+      "path": "playtest-fixes-monster-gpu.png",
+      "beforeSha256": "c5995c19e27d72b0146296a884653f577d4f5aacde331c2560a6df26d765e547",
+      "regressionSha256": "33d7fd870d3174b5fdcad3047b44740538586f101f2d9dd83071e33605384577",
+      "regressionArchive": "reports/visual/auto-upgrade-regressions/playtest-fixes-monster-gpu.png",
+      "restoredSha256": "c5995c19e27d72b0146296a884653f577d4f5aacde331c2560a6df26d765e547"
+    },
+    {
+      "path": "playtest-fixes-boss-gpu.png",
+      "beforeSha256": "e9bd5b59eef69aa0f4c2ec7df84e33e133c89540327c19bb0b3d79ebfc83c828",
+      "regressionSha256": "2ba660b5a65ca91ec2ed4f721b4c06a3fd8d77b1da793dd2d4b87dfd899bdc62",
+      "regressionArchive": "reports/visual/auto-upgrade-regressions/playtest-fixes-boss-gpu.png",
+      "restoredSha256": "e9bd5b59eef69aa0f4c2ec7df84e33e133c89540327c19bb0b3d79ebfc83c828"
+    },
+    {
+      "path": "playtest-fixes-startup-auto-combat-gpu.png",
+      "beforeSha256": "bb480f129b890d38fe037e9ea9ee9a27e67254b8451c8a83bee25b2a92341d4a",
+      "regressionSha256": "ff4f0559e77ccc2a6257c5fdc556aeb2f41e3211dd9217cffa67b292b50a5994",
+      "regressionArchive": "reports/visual/auto-upgrade-regressions/playtest-fixes-startup-auto-combat-gpu.png",
+      "restoredSha256": "bb480f129b890d38fe037e9ea9ee9a27e67254b8451c8a83bee25b2a92341d4a"
+    },
+    {
+      "path": "playtest-fixes-new-season-gpu.png",
+      "beforeSha256": "1a8397f32c4a4fcf4230bf7560c32dc4c1e5bc53b5868d860dcc81112181abad",
+      "regressionSha256": "7cf8cc0e8ee5a3d042d796eaffd027135f28be19503c843d8835f83a39ba3c60",
+      "regressionArchive": "reports/visual/auto-upgrade-regressions/playtest-fixes-new-season-gpu.png",
+      "restoredSha256": "1a8397f32c4a4fcf4230bf7560c32dc4c1e5bc53b5868d860dcc81112181abad"
+    },
+    {
+      "path": "forest-real-tree-cash-gpu.png",
+      "beforeSha256": "a59df6dcbc62b6b2b6e81d8cef560e91ab5d9e5391720126758e8af2c68a8bae",
+      "regressionSha256": "327a071b0e89add30d5429bbf5ef7c7c90f2e4068f044a8bfb83b67c214e5988",
+      "regressionArchive": "reports/visual/auto-upgrade-regressions/forest-real-tree-cash-gpu.png",
+      "restoredSha256": "a59df6dcbc62b6b2b6e81d8cef560e91ab5d9e5391720126758e8af2c68a8bae"
+    },
+    {
+      "path": "forest-real-hit-damage-gpu.png",
+      "beforeSha256": "416919a16ff1424be93c77068ef7854809928d4c0372b6cd88956d932454fa61",
+      "regressionSha256": "ea0c58aa8ee719417c2365e0d04e657cef96e344cf9669eef1ba77b667ea28e0",
+      "regressionArchive": "reports/visual/auto-upgrade-regressions/forest-real-hit-damage-gpu.png",
+      "restoredSha256": "416919a16ff1424be93c77068ef7854809928d4c0372b6cd88956d932454fa61"
+    },
+    {
+      "path": "onboarding-equip-arrow-gpu.png",
+      "beforeSha256": "247b1db719ebc832ac2f1ef9c50837eaef3dae43f9b72ba58633ea4f57b5b0ad",
+      "regressionSha256": "7936597d7dc9740aaf2cd6a38474ab7f6d5eae57f71b1ac02ac261b36b731eff",
+      "regressionArchive": "reports/visual/auto-upgrade-regressions/onboarding-equip-arrow-gpu.png",
+      "restoredSha256": "247b1db719ebc832ac2f1ef9c50837eaef3dae43f9b72ba58633ea4f57b5b0ad"
+    },
+    {
+      "path": "onboarding-upgrade-hand-gpu.png",
+      "beforeSha256": "70e190b67c8e795afeb3c2a58680d66746cd9c2a6a4e131c8b3a2aa8c8f1c1a6",
+      "regressionSha256": "a6771313ab240f6e3c6a3f7d34b5dde53e315d4c789d6583c81ef3eab2b6552e",
+      "regressionArchive": "reports/visual/auto-upgrade-regressions/onboarding-upgrade-hand-gpu.png",
+      "restoredSha256": "70e190b67c8e795afeb3c2a58680d66746cd9c2a6a4e131c8b3a2aa8c8f1c1a6"
+    },
+    {
+      "path": "playtest-fixes-startup-walking-cat-gpu.png",
+      "beforeSha256": "272aaee2fae485ce91f6ce9241276e6b544c042fe633fb8b6fb04d820ec27fa9",
+      "regressionSha256": "a3878bfb202c53abe4ccdff518942f8676f3858c5a7107f4a5b693377296d466",
+      "regressionArchive": "reports/visual/auto-upgrade-regressions/playtest-fixes-startup-walking-cat-gpu.png",
+      "restoredSha256": "272aaee2fae485ce91f6ce9241276e6b544c042fe633fb8b6fb04d820ec27fa9"
+    }
+  ],
+  "allHistoricalRestored": true,
+  "newAutoUpgradeScreensRetained": [
+    "auto-upgrade-offer-gpu.png",
+    "auto-upgrade-active-gpu.png"
+  ]
+}

@@ -1,0 +1,75 @@
+02c415f0  stp x30,x21,[sp, #-0x20]!
+02c415f4  stp x20,x19,[sp, #0x10]
+02c415f8  adrp x20,0x625c000
+02c415fc  adrp x21,0x5e59000
+02c41600  mov x19,x0
+02c41604  ldrb w8,[x20, #0xae]
+02c41608  ldr x21,[x21, #0x1c0]
+02c4160c  tbnz w8,#0x0,0x02c41624
+02c41610  adrp x0,0x5e59000
+02c41614  ldr x0,[x0, #0x1c0]
+02c41618  bl 0x029f5a50
+02c4161c  mov w8,#0x1
+02c41620  strb w8,[x20, #0xae]
+02c41624  ldr x0,[x21]
+02c41628  ldr x20,[x19, #0x110]
+02c4162c  ldr w8,[x0, #0xe4]
+02c41630  cbnz w8,0x02c41638
+02c41634  bl 0x029f5bd0
+02c41638  mov x0,x20
+02c4163c  mov x1,xzr
+02c41640  mov x2,xzr
+02c41644  bl 0x057dfa70
+02c41648  tbz w0,#0x0,0x02c4170c
+02c4164c  ldr x0,[x21]
+02c41650  ldr x20,[x19, #0x1e0]
+02c41654  ldr w8,[x0, #0xe4]
+02c41658  cbnz w8,0x02c41660
+02c4165c  bl 0x029f5bd0
+02c41660  mov x0,x20
+02c41664  mov x1,xzr
+02c41668  mov x2,xzr
+02c4166c  bl 0x057dfa70
+02c41670  mov w8,w0
+02c41674  ldr x0,[x19, #0x110]
+02c41678  tbz w8,#0x0,0x02c416e0
+02c4167c  cbz x0,0x02c41718
+02c41680  mov x1,xzr
+02c41684  bl 0x057dfcf4
+02c41688  ldr x8,[x19, #0x1e0]
+02c4168c  cbz x8,0x02c41718
+02c41690  mov x20,x0
+02c41694  mov x0,x8
+02c41698  mov x1,xzr
+02c4169c  bl 0x057dc0f8
+02c416a0  cbz x0,0x02c41718
+02c416a4  mov x1,xzr
+02c416a8  bl 0x057eed98
+02c416ac  cbz x20,0x02c41718
+02c416b0  mov x0,x20
+02c416b4  mov x1,xzr
+02c416b8  bl 0x057eee74
+02c416bc  ldr x0,[x19, #0x110]
+02c416c0  cbz x0,0x02c41718
+02c416c4  mov x1,xzr
+02c416c8  bl 0x057e0000
+02c416cc  tbnz w0,#0x0,0x02c4170c
+02c416d0  ldr x0,[x19, #0x110]
+02c416d4  cbz x0,0x02c41718
+02c416d8  mov w1,#0x1
+02c416dc  b 0x02c416fc
+02c416e0  cbz x0,0x02c41718
+02c416e4  mov x1,xzr
+02c416e8  bl 0x057e0000
+02c416ec  tbz w0,#0x0,0x02c4170c
+02c416f0  ldr x0,[x19, #0x110]
+02c416f4  cbz x0,0x02c41718
+02c416f8  mov w1,wzr
+02c416fc  ldp x20,x19,[sp, #0x10]
+02c41700  mov x2,xzr
+02c41704  ldp x30,x21,[sp], #0x20
+02c41708  b 0x057dff3c
+02c4170c  ldp x20,x19,[sp, #0x10]
+02c41710  ldp x30,x21,[sp], #0x20
+02c41714  ret
+02c41718  bl 0x029f5cfc

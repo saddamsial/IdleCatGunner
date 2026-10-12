@@ -1,0 +1,42 @@
+{
+  "rule": 57,
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "editor": "6000.4.10f1",
+  "scope": [
+    "enhanced rebirth original popup and original Animator event settlement",
+    "once per calendar date ad gate, triple Ruby, persistence",
+    "authorized local rewarded ad and existing cash rebirth popup"
+  ],
+  "labels": [
+    "exact-native",
+    "exact-serialized",
+    "offline-substitute"
+  ],
+  "exclusions": [
+    "ad/store SDK, real charge/receipt/entitlement, FreeCash/backend/trusted time",
+    "temporary guns and unrelated remaining presentation",
+    "APK/device acceptance and Git delivery"
+  ],
+  "checkpoint": "checkpoints/enhanced-rebirth-before",
+  "testIsolation": "GUID save folders + SessionState test host; latest main+backup preserved",
+  "sceneMutation": "None intended; original UI runtime listeners only",
+  "scopeComplete": false,
+  "immutableInputHashes": [
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/assetripper-baseline/ExportedProject/Assets/Scenes/Main.unity",
+      "sha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+      "expectedSha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b"
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/base/assets/bin/Data/Managed/Metadata/global-metadata.dat",
+      "sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+      "expectedSha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884"
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/split_config.arm64_v8a/lib/arm64-v8a/libil2cpp.so",
+      "expectedSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583"
+    }
+  ],
+  "nativeInputSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "acceptanceLayers": "Native/serialized audit, Unity compilation, independent PlayMode, actual GPU inspection and clean Editor handoff; no Player/device/original-side-by-side acceptance"
+}

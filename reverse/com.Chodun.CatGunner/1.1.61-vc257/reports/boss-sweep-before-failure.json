@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "duration": 8.97,
+  "summary": {
+    "total": 1,
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalBossSweepTests.OriginalPlusAutoPackRevealsSweepEntrance",
+      "Status": "Failed",
+      "Duration": 8.4849851,
+      "Message": "  Original PlusPack2 sweep entrance must be restored\n  Expected: True\n  But was:  False\n",
+      "StackTrace": "at OriginalBossSweepTests+<OriginalPlusAutoPackRevealsSweepEntrance>d__6.MoveNext () [0x00075] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalBossSweepTests.cs:7\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+/* Native pseudocode, not original C#. Exact input bytes checked; preferred VA 0x2ba1174, Ghidra VA 02ca1174. */
+
+bool StarGem_Pig__get_Is_SoldOut(long param_1)
+
+{
+  int iVar1;
+  int iVar2;
+  
+  if (*(int *)(param_1 + 0x20) < 3) {
+    return false;
+  }
+  iVar1 = *(int *)(param_1 + 0x28);
+  iVar2 = StarGem_Pig__get_PurchaseMax_Now();
+  return iVar2 <= iVar1;
+}
+

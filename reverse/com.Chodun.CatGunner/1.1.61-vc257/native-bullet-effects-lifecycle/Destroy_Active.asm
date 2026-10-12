@@ -1,0 +1,28 @@
+02c17820  str x30,[sp, #-0x20]!
+02c17824  stp x20,x19,[sp, #0x10]
+02c17828  mov x1,xzr
+02c1782c  mov x19,x0
+02c17830  bl 0x057dc1c8
+02c17834  cbz x0,0x02c1788c
+02c17838  mov w1,#0x1
+02c1783c  mov x2,xzr
+02c17840  bl 0x057dff3c
+02c17844  mov x20,x19
+02c17848  ldr x1,[x20, #0x28]!
+02c1784c  cbz x1,0x02c1785c
+02c17850  mov x0,x19
+02c17854  mov x2,xzr
+02c17858  bl 0x057e2250
+02c1785c  mov x0,x19
+02c17860  bl 0x02c17890
+02c17864  mov x1,x0
+02c17868  str x0,[x19, #0x28]
+02c1786c  mov x0,x20
+02c17870  bl 0x029f59f4
+02c17874  ldr x1,[x19, #0x28]
+02c17878  mov x0,x19
+02c1787c  mov x2,xzr
+02c17880  ldp x20,x19,[sp, #0x10]
+02c17884  ldr x30,[sp], #0x20
+02c17888  b 0x057e2120
+02c1788c  bl 0x029f5cfc

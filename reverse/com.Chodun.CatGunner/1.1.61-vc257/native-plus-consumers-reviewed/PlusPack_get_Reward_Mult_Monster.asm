@@ -1,0 +1,25 @@
+02c90718  str x30,[sp, #-0x20]!
+02c9071c  stp x20,x19,[sp, #0x10]
+02c90720  adrp x19,0x625c000
+02c90724  adrp x20,0x5e5e000
+02c90728  ldrb w8,[x19, #0x3e5]
+02c9072c  ldr x20,[x20, #0xb8]
+02c90730  tbnz w8,#0x0,0x02c90748
+02c90734  adrp x0,0x5e5e000
+02c90738  ldr x0,[x0, #0xb8]
+02c9073c  bl 0x029f5a50
+02c90740  mov w8,#0x1
+02c90744  strb w8,[x19, #0x3e5]
+02c90748  ldr x0,[x20]
+02c9074c  ldr w8,[x0, #0xe4]
+02c90750  cbnz w8,0x02c90758
+02c90754  bl 0x029f5bd0
+02c90758  mov w0,#0x1
+02c9075c  bl 0x02c9077c
+02c90760  fmov s0,0x3f800000
+02c90764  fmov s1,0x40000000
+02c90768  tst w0,#0x1
+02c9076c  ldp x20,x19,[sp, #0x10]
+02c90770  fcsel s0,s1,s0,ne
+02c90774  ldr x30,[sp], #0x20
+02c90778  ret

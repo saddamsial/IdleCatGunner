@@ -1,0 +1,22 @@
+02c60024  stp x30,x19,[sp, #-0x10]!
+02c60028  mov x19,x0
+02c6002c  ldr x0,[x0, #0x58]
+02c60030  cbz x0,0x02c60078
+02c60034  fmov s0,0x3f800000
+02c60038  mov x1,xzr
+02c6003c  bl 0x05a9eedc
+02c60040  ldr x0,[x19, #0x58]
+02c60044  cbz x0,0x02c60078
+02c60048  mov w1,wzr
+02c6004c  mov x2,xzr
+02c60050  bl 0x05a9f064
+02c60054  ldr x0,[x19, #0x58]
+02c60058  cbz x0,0x02c60078
+02c6005c  mov w1,wzr
+02c60060  mov x2,xzr
+02c60064  bl 0x05a9f1dc
+02c60068  mov x0,x19
+02c6006c  mov w1,wzr
+02c60070  ldp x30,x19,[sp], #0x10
+02c60074  b 0x02c6007c
+02c60078  bl 0x029f5cfc

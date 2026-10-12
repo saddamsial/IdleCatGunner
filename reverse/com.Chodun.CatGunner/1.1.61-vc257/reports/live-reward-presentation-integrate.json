@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "try{RewardPresentationClientEditor.Integrate();return \"integrated\";}catch(Exception ex){return ex.ToString();}"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": "System.InvalidOperationException: World rotation requires identity parents for this bounded adapter\n  at RewardPresentationClientEditor.Integrate () [0x001d9] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/RewardPresentationClientEditor.cs:35 \n  at PipelineEvaluation.PipelineEval_995c1790.Execute () [0x00002] in <ce8b779f10e24fbf9af61ee40bcd4ad1>:0 "
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

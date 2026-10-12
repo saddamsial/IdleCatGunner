@@ -1,0 +1,148 @@
+{
+  "tests": {
+    "diapig": {
+      "report": "live-diapig-final-status.json",
+      "status": "completed",
+      "duration": 47.88,
+      "summary": {
+        "total": 7,
+        "passed": 7,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "onboarding": {
+      "report": "live-diapig-onboarding-status.json",
+      "status": "completed",
+      "duration": 74.09,
+      "summary": {
+        "total": 5,
+        "passed": 5,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "eco": {
+      "report": "live-diapig-eco-status.json",
+      "status": "completed",
+      "duration": 85.58,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "feedback": {
+      "report": "live-diapig-feedback-status.json",
+      "status": "completed",
+      "duration": 30.13,
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "startup": {
+      "report": "live-diapig-startup-status.json",
+      "status": "completed",
+      "duration": 24,
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    }
+  },
+  "editor": {
+    "unity": "6000.4.10f1",
+    "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+    "playing": false,
+    "paused": false,
+    "compiling": false,
+    "dirty": false,
+    "persist": true,
+    "saveOverride": null,
+    "objects": 34853,
+    "missingScripts": 0,
+    "connectedTutorialReferences": 6,
+    "pigPanelActive": false,
+    "pigMaximum": 500,
+    "eventSystems": 1,
+    "inputOverrides": 0,
+    "readyForUserPlay": true,
+    "purchaseProviderAvailable": false,
+    "scopeComplete": false
+  },
+  "scene_audit": {
+    "oldDocuments": 129370,
+    "newDocuments": 129628,
+    "newOriginalObjects": 63,
+    "newDocumentIdentities": 258,
+    "preservedExistingIdentities": 129370,
+    "semanticallyUnchangedExistingDocuments": 129366,
+    "intentionalExistingChanges": [
+      {
+        "oldId": "102990",
+        "newId": "102990",
+        "type": 224,
+        "name": "Shop_manager",
+        "script": null
+      },
+      {
+        "oldId": "103041",
+        "newId": "103041",
+        "type": 224,
+        "name": "Right_Menu",
+        "script": null
+      },
+      {
+        "oldId": "103366",
+        "newId": "103366",
+        "type": 114,
+        "name": "Tutorial_manager",
+        "script": "326bba145e7e452888a7fbf4f8bef13b"
+      },
+      {
+        "oldId": "124873",
+        "newId": "124873",
+        "type": 114,
+        "name": "Tree_manager",
+        "script": "bab892657d9fc4e34a43a11a63ba6aec"
+      }
+    ],
+    "editorLocalIdRemapping": {
+      "124049": "301984007",
+      "129922": "129926",
+      "137529": "920001415",
+      "147146": "1071812833",
+      "148943": "148947"
+    },
+    "removedExistingObjectsOrComponents": 0,
+    "audit": "References normalized only through verified same hierarchy/name/component identities; all existing serialized fields must match except two parent child lists, the client binding and the original Tutorial_manager DiaPig control reference."
+  },
+  "user_save": [
+    {
+      "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json",
+      "checkpoint": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/checkpoints/diapig-before/NoSaveFile.json",
+      "sha256": "bd1f1d84ad30c058d4aba941507e7ca57dffe879322cdb6e8cc39aec844c099d",
+      "bytes": 9364,
+      "unchanged_from_turn_start": true
+    },
+    {
+      "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json.bak",
+      "checkpoint": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/checkpoints/diapig-before/NoSaveFile.json.bak",
+      "sha256": "bd1f1d84ad30c058d4aba941507e7ca57dffe879322cdb6e8cc39aec844c099d",
+      "bytes": 9364,
+      "unchanged_from_turn_start": true
+    }
+  ],
+  "scope_complete": false
+}

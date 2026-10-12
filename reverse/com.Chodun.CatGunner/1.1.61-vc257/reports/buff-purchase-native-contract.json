@@ -1,0 +1,132 @@
+{
+  "rule": 56,
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "methods": [
+    {
+      "name": "_RunCoroutine_d__13_MoveNext",
+      "preferredVa": "0x2b0a470",
+      "end": "0x2b0b364",
+      "sha256": "e0d47783eb85c7f104b1d8252148906d627bc7226d303eb0a405f0724d64c724",
+      "reviewedOutput": "native-offline-simulation-reviewed/_RunCoroutine_d__13_MoveNext",
+      "reusedCompletedQuery": true
+    },
+    {
+      "name": "OfflineProgressSimulator_CalcClearInfo",
+      "preferredVa": "0x2b077b0",
+      "end": "0x2b086e8",
+      "sha256": "c9f4c51d14a6872b98450ed8c9343d699b487d3a9da6f12a6827e1f2a1dc9c8d",
+      "reviewedOutput": "native-offline-simulation-reviewed/OfflineProgressSimulator_CalcClearInfo",
+      "reusedCompletedQuery": true
+    },
+    {
+      "name": "OfflineProgressSimulator_CalcFarmMoneyPerSec",
+      "preferredVa": "0x2b08d84",
+      "end": "0x2b090c8",
+      "sha256": "7d5086da3e01a5bfdbe66e8f4f515f4b6eb5290e48cd52b1c93fbbc457ad4411",
+      "reviewedOutput": "native-offline-simulation-reviewed/OfflineProgressSimulator_CalcFarmMoneyPerSec",
+      "reusedCompletedQuery": true
+    },
+    {
+      "name": "OfflineProgressSimulator_CalcMoneyPerStage",
+      "preferredVa": "0x2b09480",
+      "end": "0x2b0987c",
+      "sha256": "67e34707a08edaeb097009b7401c3af4e820d8d815672eb254993e3dea12ba1a",
+      "reviewedOutput": "native-offline-simulation-reviewed/OfflineProgressSimulator_CalcMoneyPerStage",
+      "reusedCompletedQuery": true
+    },
+    {
+      "name": "Inapp_Purchase_Popup_Purchase",
+      "preferredVa": "0x2ba6008",
+      "end": "0x2ba60a4",
+      "sha256": "d23b319ac919547b93064d1138b71ae0efe469d8aa15a32f115b63a320f135c4",
+      "reviewedOutput": "native-local-purchase-content-reviewed/Inapp_Purchase_Popup_Purchase",
+      "reusedCompletedQuery": true
+    },
+    {
+      "name": "Shop_manager_ApplyNonConsumable",
+      "preferredVa": "0x2b967e4",
+      "end": "0x2b96d50",
+      "sha256": "d76ab809cdd06f1e564c0b32c79cac86fe35e8bb0a5d37bbfb2fec207c8e1564",
+      "reviewedOutput": "native-local-purchase-content-reviewed/Shop_manager_ApplyNonConsumable",
+      "reusedCompletedQuery": true
+    },
+    {
+      "name": "Shop_manager_TryApplyPurchase",
+      "preferredVa": "0x2b977fc",
+      "end": "0x2b97f0c",
+      "sha256": "97555d68f7dd3fdbfef2b2f9f9ebbb91df5c1fba31d198c0eb17ea691926e791",
+      "reviewedOutput": "native-local-purchase-content-reviewed/Shop_manager_TryApplyPurchase",
+      "reusedCompletedQuery": true
+    }
+  ],
+  "originalRoute": {
+    "path": [
+      {
+        "name": "Canvas",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_manager",
+        "ordinal": 0
+      },
+      {
+        "name": "Buff_UI",
+        "ordinal": 0
+      },
+      {
+        "name": "InApp & FREECASH",
+        "ordinal": 0
+      },
+      {
+        "name": "BuffPack (Inapp)",
+        "ordinal": 0
+      },
+      {
+        "name": "BuffPack",
+        "ordinal": 0
+      }
+    ],
+    "label": "Canvas/Buff_manager/Buff_UI/InApp & FREECASH/BuffPack (Inapp)/BuffPack",
+    "buttonSourceId": 123680,
+    "method": "Purchase",
+    "targetType": "Inapp_Purchase_Popup",
+    "targetSourceId": 125109,
+    "callIndex": 0,
+    "productId": "buff_pack"
+  },
+  "fieldOffsets": {
+    "ownedSaveFlag": 511,
+    "ownedShopFlag": 11,
+    "offlineSnapshot": 376,
+    "temporarySaveTimers": [
+      808,
+      812,
+      816
+    ],
+    "popupType": 32
+  },
+  "offlineOracle": "ldrb SaveData+0x1ff; select4/1; str coroutine+0x178, snapshot passed to clear/farm/per-stage; temporary timers excluded",
+  "purchaseOracle": "type3 popup -> Purchase_Banner; reviewed local nonconsumable reward once: owned flag and1000 diamonds",
+  "adapter": "Runtime listener on existing original button; local asynchronous payment-success simulator; optional visible-page/revision/mode guard; null original commercial target retained; FreeCash remains disabled; runtime selects original IAP branch and hides overlapping promotional branch, serialized scene unchanged",
+  "sceneEdited": false,
+  "realPayment": false,
+  "newNativeQueries": 0,
+  "scopeComplete": false,
+  "originalPresentation": {
+    "group": 2079,
+    "purchaseBranch": 1798,
+    "purchaseStartsActive": false,
+    "promotionalBranch": 336,
+    "promotionStartsActive": true,
+    "rectSize": [
+      970.1,
+      286.19995
+    ],
+    "branchesOverlap": true
+  },
+  "offlineSavedDataField": {
+    "name": "data",
+    "signature": "SaveData",
+    "nativeOffset": 32
+  }
+}

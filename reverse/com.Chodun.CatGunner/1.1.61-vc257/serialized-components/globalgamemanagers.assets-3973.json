@@ -1,0 +1,45 @@
+{
+  "identity": {
+    "file": "globalgamemanagers.assets",
+    "path_id": 3973,
+    "type_index": 9904,
+    "type": "UnityEngine.Rendering.Universal.LensDistortion",
+    "game_object": "LensDistortion"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": 3020
+    },
+    "m_Name": "LensDistortion",
+    "active": true,
+    "intensity": {
+      "m_OverrideState": true,
+      "m_Value": 0.0
+    },
+    "xMultiplier": {
+      "m_OverrideState": true,
+      "m_Value": 1.0
+    },
+    "yMultiplier": {
+      "m_OverrideState": true,
+      "m_Value": 1.0
+    },
+    "center": {
+      "m_OverrideState": true,
+      "m_Value": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "scale": {
+      "m_OverrideState": true,
+      "m_Value": 1.0
+    }
+  }
+}

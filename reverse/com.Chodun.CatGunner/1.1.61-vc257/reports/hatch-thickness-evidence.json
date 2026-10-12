@@ -1,0 +1,77 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257",
+  "sourceHeight": 37,
+  "runtimeHeight": 60,
+  "customization": "User requested thicker Hatch; runtime presentation override, not an original native dimension. Existing scene geometry and user save bytes retained.",
+  "width": 1080,
+  "uvHeight": 0.6,
+  "scrollSpeed": [
+    -1,
+    0
+  ],
+  "headerOffset": -23,
+  "shifted": [
+    "Time_Slider",
+    "Game_Slider",
+    "Currency",
+    "Setting_Btn",
+    "DailyCheck_Btn",
+    "EcoMode_Btn"
+  ],
+  "batches": [
+    {
+      "report": "hatch-thickness-validation.json",
+      "summary": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 6.98
+    },
+    {
+      "report": "hatch-thickness-startup.json",
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 23.79
+    }
+  ],
+  "preservation": [
+    {
+      "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json",
+      "sha256": "ccba54572d12cd1fa43b14c4ae18f8d014bd14634ef9a97dccd2b0cdf101d95e"
+    },
+    {
+      "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json.bak",
+      "sha256": "cda53b8e91c9b8ff716e574f9c9669b18eacee2c841350abd005deb8bea0ae0d"
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scenes/RecoveredClient.unity",
+      "sha256": "7098cda216746e36fea3a41e38c69c82979f8ba97b1eeb1d360cee8c74d5cc95"
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Resources/StarChineseFallback.asset",
+      "sha256": "d122df113d6c73a678919fd11f6f01a1c6d44ac12870980d3cfe99ed19c523a7"
+    }
+  ],
+  "gpu": [
+    {
+      "path": "reports/visual/hatch-thickness-full-gpu.png",
+      "sha256": "975a7a18e5977b4efcc0c8c4bbff3e09d69150405cabe5347dba2b5ba41d5bda"
+    },
+    {
+      "path": "reports/visual/hatch-thickness-quarter-gpu.png",
+      "sha256": "11b72e21ee1f2945cf5ea9a706c422ad1544ee35c42fb9685622bcba49c98d52"
+    }
+  ],
+  "scopeComplete": false,
+  "playerOrDeviceAcceptance": false,
+  "superseded": true,
+  "finalEvidence": "hatch-ppu-evidence.json"
+}

@@ -1,0 +1,36 @@
+{
+  "editor": "6000.4.10f1",
+  "pipelinePort": 7800,
+  "mainThreadTimeoutMs": 5000,
+  "observations": [
+    {
+      "operation": "initial synchronous StarGemPigClientEditor.Restore",
+      "cli": "timed out",
+      "verifiedOutcome": "read-only followup showed zero pig components; did not execute"
+    },
+    {
+      "operation": "Editor delayCall Restore after focus",
+      "verifiedOutcome": "persistent stargem-pig-scene-restoration.json; three original controllers, zero new GameObjects, saved scene independently audited"
+    },
+    {
+      "operation": "Refresh explicit null guards",
+      "cli": "timed out",
+      "verifiedOutcome": "15:37:42 recompile status completed with no errors; refreshed assembly written, full 11/11 subsequent tests passed"
+    },
+    {
+      "operation": "read-only post-refresh eval",
+      "cli": "timed out",
+      "verifiedOutcome": "no scene mutation attempted"
+    },
+    {
+      "operation": "CUA focus attempts after recompile",
+      "error": "noWindowsAvailable",
+      "resolution": "Screenshot/AX title activation available; AX title click succeeded for handoff focus, next CLI succeeded; no Play button or user progress intervention"
+    },
+    {
+      "operation": "first test-host-end after last test",
+      "cli": "timed out",
+      "verification": "after title AX activation, subsequent clear succeeded; persisted handoff has empty testHostFolder, EditMode, no save/input overrides. Second end report previousFolder empty, so first execution timing remains uncertain."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "rule": 59,
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "scope": "Weapon original localized type/description, Chinese glyph rendering and inventory click audio; original acquired toast animation/restart/scaled autohide",
+  "reference": "weapon-detail-native-contract.json",
+  "preserve": [
+    "Current real profile and backup",
+    "Original scene bytes/layout/serialized events",
+    "Existing .cs.meta GUIDs and source art/animation/audio"
+  ],
+  "exactNative": [
+    "Seven type -> I2 Gun/<type> and Gun/<type>_ex",
+    "14 original translations per term",
+    "Catalogue name and original grade/sprite/background",
+    "float.ToString within literal {0}s",
+    "Gun_Item normal/ad valid click -> Button1 entry volume (null override), pitch1",
+    "NewGun original off/on Open2seconds and hidden nonmodal background / scaled2sec autohide"
+  ],
+  "adapters": [
+    "Local system-language mapping (complete I2 state/setting lifecycle pending)",
+    "Existing click/drag routing adapter retained",
+    "Existing independent decimal damage display, not complete native InfVal",
+    "No real SDK/store/server",
+    "Runtime Chinese original NotoSansSC face and per-label coherent material, source fonts/assets and scene unchanged"
+  ],
+  "verificationPlan": [
+    "Failed baseline original65description UI",
+    "All65detail texts/grade/sprite/no profile mutation",
+    "Actual inventory mouse dispatch, button sound/mute/drag/auto guards and close",
+    "All65 acquired type text and original2second animator restart/scaled autohide/pause",
+    "Targeted temporary-ad/inventory/startup regressions",
+    "GPU actual inspection and hashes/EditMode cleanup"
+  ],
+  "scopeComplete": false
+}

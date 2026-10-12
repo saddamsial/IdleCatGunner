@@ -1,0 +1,29 @@
+{
+  "actual_pixels_inspected": true,
+  "map_and_relic_tabs_visible": true,
+  "reward_and_cancel_legible": true,
+  "pet_slot_labels_match_native": true,
+  "images": [
+    {
+      "path": "visual/adventure-menu-test-gpu.png",
+      "sha256": "00047181581697822c5c28bde9f7885479c57ac7a8a73e4cde43f19c577bde07"
+    },
+    {
+      "path": "visual/adventure-enter-test-gpu.png",
+      "sha256": "594281804ae06a82f721dba99dda564d9c4b65bafb9e8ae805cbf3221c4472a5"
+    },
+    {
+      "path": "visual/adventure-reward-test-gpu.png",
+      "sha256": "3254a3b497e333037ff479e3da56387301bd1ed80a7eb4af14133198046f2715"
+    },
+    {
+      "path": "visual/adventure-cancel-test-gpu.png",
+      "sha256": "1edbaeeee8bdc19a0eb0e9d6f414279f45861c0a80e4c4f22387abec51fa2d6a"
+    }
+  ],
+  "inspection": "Actual GPU1080x1920: three original maps, Map/Relic tabs,19-choice selection exercised by topmost raycasts; chosen pink pet,0/2/7 slot gates labeledLv1/3/8,fee1 and20tickets,20core/10exp result,44core/20exp canceled preview. Original Korean labels/assets retained; unlock labels local English.",
+  "pending": "Original Pet_Dummy/Spine/RenderTexture preview hidden. Source static third slotLv13 differs from native7; runtime label correctedLv8. Whole UI/I2/device/player parity unaccepted.",
+  "fixture": "Independent memory/temporary saves with injected Sunday and elapsed clock, actual rules award cores. No user profile currency/gear/level changes.",
+  "final_full_run_images_inspected": true,
+  "recorded_utc": "2026-10-10T10:13:30.916304+00:00"
+}

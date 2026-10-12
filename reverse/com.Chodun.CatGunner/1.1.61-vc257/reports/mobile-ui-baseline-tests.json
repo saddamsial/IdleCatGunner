@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 7.55,
+      "summary": {
+        "total": 1,
+        "passed": 0,
+        "failed": 1,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalMobilePresentationTests.PresentRemainingPrimaryLabelsUseSourceChineseAndPreserveDynamicWallet",
+          "Status": "Failed",
+          "Duration": 7.4971881,
+          "Message": "  SafeArea/Shop_UI/Panel/Scroll View/Viewport/Content/Dia (List)/Dia_Pack (4)/FirstPurchase_obj/I2_txt(Outline)\n  Expected string length 8 but was 16. Strings differ at index 0.\n  Expected: \"首购 +8000\"\n  But was:  \"1-я покупка +240\"\n  -----------^\n",
+          "StackTrace": "at OriginalMobilePresentationTests+<PresentRemainingPrimaryLabelsUseSourceChineseAndPreserveDynamicWallet>d__10.MoveNext () [0x00083] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMobilePresentationTests.cs:13\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

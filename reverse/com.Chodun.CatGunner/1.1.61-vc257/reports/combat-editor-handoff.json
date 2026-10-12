@@ -1,0 +1,26 @@
+{
+  "playing": false,
+  "timeScale": 1.0,
+  "scene": "Assets/Recovery/Scenes/RecoveredForest.unity",
+  "sceneDirty": false,
+  "sceneGameObjects": 11602,
+  "gun": 27,
+  "type": "LASER",
+  "damage": "0",
+  "attacks_enabled": false,
+  "targeting": true,
+  "buildScenes": [
+    {
+      "path": "Assets/Recovery/Scenes/RecoveredSettings.unity",
+      "enabled": true
+    },
+    {
+      "path": "Assets/Recovery/Scenes/RecoveredForest.unity",
+      "enabled": true
+    },
+    {
+      "path": "Assets/Recovery/Scenes/RecoveredJoystick.unity",
+      "enabled": true
+    }
+  ]
+}

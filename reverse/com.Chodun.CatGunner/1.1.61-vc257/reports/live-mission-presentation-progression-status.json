@@ -1,0 +1,84 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 15.29,
+      "summary": {
+        "total": 8,
+        "passed": 8,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalProgressionTests.ActualNavigationRaycastsOpenPetMissionAndRebirthAboveJoystick",
+          "Status": "Passed",
+          "Duration": 6.2840628,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalProgressionTests.DailyMissionClaimsOnceAndRollsCountersWithoutResettingSeasonRewards",
+          "Status": "Passed",
+          "Duration": 0.064726,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalProgressionTests.FullInventoryDispatchLocksStaleMergeAndMaximumPetCannotLoseItemsOrCurrency",
+          "Status": "Passed",
+          "Duration": 0.0603069,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalProgressionTests.MissionRewardRequiresLevelOrderSpaceAndAdWhileHighestGunsUseVerifiedStaticArray",
+          "Status": "Passed",
+          "Duration": 0.0453067,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalProgressionTests.OriginalPetPanelDragAndMissionAndRebirthButtonsUseOneIsolatedProfile",
+          "Status": "Passed",
+          "Duration": 8.6268719,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalProgressionTests.PermanentUpgradeChargesExactOriginalCachePriceAndHonoursLevelCap",
+          "Status": "Passed",
+          "Duration": 0.040929,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalProgressionTests.PetDrawMergeEquipAndSavePreserveCostsSparseSlotsAndDuplicateBuffs",
+          "Status": "Passed",
+          "Duration": 0.0456523,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalProgressionTests.RebirthRejectsEarlyStageThenResetsForestAndKeepsEquipmentCollectionAndPermanentLevels",
+          "Status": "Passed",
+          "Duration": 0.0424285,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

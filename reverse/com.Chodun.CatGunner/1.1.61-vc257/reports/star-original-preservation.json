@@ -1,0 +1,39 @@
+{
+  "original_metas": [
+    {
+      "script": "StarUpgrade_manager",
+      "sha256": "47a7b3d87256d8c50ec05bda99bad334abd6486512a1093e72f0ae3d4805e29d",
+      "byte_identical": true
+    },
+    {
+      "script": "StarUpgrade_popup",
+      "sha256": "8098a01f72f8467dea4c7a7637797dd7dec493231f109ed1226b80b7bcc5cd8a",
+      "byte_identical": true
+    },
+    {
+      "script": "Alert",
+      "sha256": "dd99e7a4a14bf073e8a610957fec9850e73cd3b308289bf3aeada282a27d4772",
+      "byte_identical": true
+    }
+  ],
+  "original_fonts": [
+    {
+      "font": "NotoSansSC-Bold.ttf",
+      "sha256": "9a38ae0ab28cd5a256f9ea8e00dedc688aac17f7915fcb000572990afa956b96",
+      "byte_identical": true
+    },
+    {
+      "font": "NotoSansSC-Bold.ttf.meta",
+      "sha256": "a21d3f6d51a902a5c54aeea54cd6bb878f054476212c0d3637f56903f7149b5c",
+      "byte_identical": true
+    }
+  ],
+  "working_scene_meta_preserved": true,
+  "frozen_inputs": {
+    "original_scene_sha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+    "native_sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+    "metadata_sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884"
+  },
+  "pre_star_checkpoint": "../checkpoints/pre-star-client",
+  "full_regression": "actual111/111 completed686.76seconds"
+}

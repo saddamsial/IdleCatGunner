@@ -1,0 +1,745 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61/vc257/arm64",
+  "native_sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "metadata_sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+  "original_scene_sha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+  "native_exports": {
+    "business_methods": 34,
+    "helpers": 6,
+    "completed": 40,
+    "first16bytes_verified": true
+  },
+  "rows": [
+    {
+      "Damage": 0,
+      "Speed": 0,
+      "Money": 0
+    },
+    {
+      "Damage": 16,
+      "Speed": 10,
+      "Money": 5
+    },
+    {
+      "Damage": 32,
+      "Speed": 20,
+      "Money": 10
+    },
+    {
+      "Damage": 48,
+      "Speed": 30,
+      "Money": 15
+    },
+    {
+      "Damage": 64,
+      "Speed": 40,
+      "Money": 20
+    },
+    {
+      "Damage": 80,
+      "Speed": 50,
+      "Money": 25
+    },
+    {
+      "Damage": 96,
+      "Speed": 60,
+      "Money": 30
+    },
+    {
+      "Damage": 112,
+      "Speed": 70,
+      "Money": 35
+    },
+    {
+      "Damage": 128,
+      "Speed": 80,
+      "Money": 40
+    },
+    {
+      "Damage": 144,
+      "Speed": 90,
+      "Money": 45
+    },
+    {
+      "Damage": 160,
+      "Speed": 100,
+      "Money": 50
+    },
+    {
+      "Damage": 176,
+      "Speed": 110,
+      "Money": 55
+    },
+    {
+      "Damage": 192,
+      "Speed": 120,
+      "Money": 60
+    },
+    {
+      "Damage": 208,
+      "Speed": 130,
+      "Money": 65
+    },
+    {
+      "Damage": 224,
+      "Speed": 140,
+      "Money": 70
+    },
+    {
+      "Damage": 240,
+      "Speed": 150,
+      "Money": 75
+    },
+    {
+      "Damage": 256,
+      "Speed": 160,
+      "Money": 80
+    },
+    {
+      "Damage": 272,
+      "Speed": 170,
+      "Money": 85
+    },
+    {
+      "Damage": 288,
+      "Speed": 180,
+      "Money": 90
+    },
+    {
+      "Damage": 304,
+      "Speed": 190,
+      "Money": 95
+    },
+    {
+      "Damage": 320,
+      "Speed": 200,
+      "Money": 100
+    },
+    {
+      "Damage": 336,
+      "Speed": 210,
+      "Money": 105
+    },
+    {
+      "Damage": 352,
+      "Speed": 220,
+      "Money": 110
+    },
+    {
+      "Damage": 368,
+      "Speed": 230,
+      "Money": 115
+    },
+    {
+      "Damage": 384,
+      "Speed": 240,
+      "Money": 120
+    }
+  ],
+  "prices": [
+    0,
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900,
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600,
+    1700,
+    1800,
+    1900,
+    2000,
+    2100,
+    2200,
+    2300,
+    2400
+  ],
+  "initial_unlock": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "colors": [
+    {
+      "r": 0.9450981,
+      "g": 0.8235295,
+      "b": 0.6745098,
+      "a": 1
+    },
+    {
+      "r": 0.7176471,
+      "g": 0.72156864,
+      "b": 0.7176471,
+      "a": 1
+    },
+    {
+      "r": 0.9490197,
+      "g": 0.7960785,
+      "b": 0.46274513,
+      "a": 1
+    },
+    {
+      "r": 0.8745099,
+      "g": 0.7686275,
+      "b": 0.6666667,
+      "a": 1
+    },
+    {
+      "r": 1,
+      "g": 0.9803922,
+      "b": 0.9450981,
+      "a": 1
+    },
+    {
+      "r": 0.54509807,
+      "g": 0.39607847,
+      "b": 0.29411766,
+      "a": 1
+    },
+    {
+      "r": 0.40784317,
+      "g": 0.41176474,
+      "b": 0.3921569,
+      "a": 1
+    },
+    {
+      "r": 0.9607844,
+      "g": 0.91372555,
+      "b": 0.8117648,
+      "a": 1
+    },
+    {
+      "r": 0.6509804,
+      "g": 0.8352942,
+      "b": 0.91372555,
+      "a": 1
+    },
+    {
+      "r": 0.96470594,
+      "g": 0.87843144,
+      "b": 0.7254902,
+      "a": 1
+    },
+    {
+      "r": 0.9686275,
+      "g": 0.8470589,
+      "b": 0.8352942,
+      "a": 1
+    },
+    {
+      "r": 0.6392157,
+      "g": 0.8235295,
+      "b": 0.8941177,
+      "a": 1
+    },
+    {
+      "r": 0.77647066,
+      "g": 0.69411767,
+      "b": 0.6,
+      "a": 1
+    },
+    {
+      "r": 0.7568628,
+      "g": 0.6627451,
+      "b": 0.8313726,
+      "a": 1
+    },
+    {
+      "r": 0.9607844,
+      "g": 0.77647066,
+      "b": 0.61960787,
+      "a": 1
+    },
+    {
+      "r": 0.7725491,
+      "g": 0.56078434,
+      "b": 0.34901962,
+      "a": 1
+    },
+    {
+      "r": 0.6431373,
+      "g": 0.8235295,
+      "b": 0.8980393,
+      "a": 1
+    },
+    {
+      "r": 0.85098046,
+      "g": 0.7058824,
+      "b": 0.8705883,
+      "a": 1
+    },
+    {
+      "r": 0.9725491,
+      "g": 0.9176471,
+      "b": 0.5921569,
+      "a": 1
+    },
+    {
+      "r": 0.57254905,
+      "g": 0.6627451,
+      "b": 0.7568628,
+      "a": 1
+    },
+    {
+      "r": 0.96470594,
+      "g": 0.909804,
+      "b": 0.60784316,
+      "a": 1
+    },
+    {
+      "r": 0.9725491,
+      "g": 0.7960785,
+      "b": 0.8078432,
+      "a": 1
+    },
+    {
+      "r": 0.8470589,
+      "g": 0.7843138,
+      "b": 0.9450981,
+      "a": 1
+    },
+    {
+      "r": 0.93725497,
+      "g": 0.7960785,
+      "b": 0.47450984,
+      "a": 1
+    },
+    {
+      "r": 0.96470594,
+      "g": 0.8000001,
+      "b": 0.81568635,
+      "a": 1
+    }
+  ],
+  "portrait_sprites": [
+    {
+      "fileID": 21300000,
+      "guid": "73241abe53f9a5b4a93165a10ad65c1f",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "0fa39ae4d4744e741a5e2665280e1314",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "114202f1baf0eb94c9c95bf07802724a",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "29b2ad32acefb9b4ca2acbad77b4068d",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "2a012a023b233644b87f4a0751331387",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "83e8b9fe0b4231c4d9604691c321c493",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "72ad83896184f4b468234eea973c8e6c",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "693552c85b58e7942898e86f9a7b2d7d",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "c1c43d3a842265145819e4d830dc55b4",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "0e661e137895bf24a8a55ab4feb0e8f9",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "23b2bcf308dbdf54ab5fbfd01c24c96d",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "592129b9649c73f479b9f328e53445fc",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "4401bd181d2f94f49a7015963cf3f103",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "3f6d698cedcb88344b6487e11930f522",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "6e6c97e271ef8a34cae96cc7be1ed99b",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "082a0ec896bb8b2448ecda68d38488ad",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "0b9e7140aa1cd1747bf997f089ac1dec",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "3f10fd86401b77c429fe399b7264757d",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "2340185b897a21f43b22004d8242e63c",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "cd1b2d38cdd116d41843f254b8bc9186",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "c9f1c94e60a034846856b392a4d68757",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "5874d1282a85c57478adbc2abfe1a2bd",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "52138d95fb7e1af4a9f9b2e782a527bf",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "d669d8f4716b77e4e905a71047b2df26",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "31d8094da4d0cd9498ea7ee56ecb663e",
+      "type": 2
+    }
+  ],
+  "bone_sprites": [
+    {
+      "fileID": 21300000,
+      "guid": "e4d02163ccacd2540a13a7b668001fa8",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "c3b23b9ea6892584681618caf55c6793",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "f556e72c06c2ef94485311352229dba0",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "1ebf7bc3f15905149b8c2a8e0c634df5",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "b2b3f9a914f1aff4db4b998e806233a9",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "038b50d2527da34458f00825a99d1b6b",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "0b04c2152deee484aad4e103e8e4a899",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "00f99eb858627554d8d2c9eaa04444d9",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "d80e2fa66ec7ad8458acd2dea22a630e",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "51eb64c7048e98c41869454bea34d7b6",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "885e9a7634338b644a511a261ec2876f",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "f4c6495e78e198b44b5d1cd7cfa993e0",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "1fdebf3c362a0aa4c8d7918ca492aa53",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "0c3b51417454c234e9ebd711aaeadfd1",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "100b656fcefd3f341910caa799cf90b6",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "c50da60a8576c6340b3c8104729840ec",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "1c1cc15bc73705a439b108096648e3e4",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "9e8de0376163db44d837ef73e2e788d9",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "8b9bb62b6a7265d4d921330ebfefa929",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "78f66e5d812daa14fb9c820ad2339405",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "ef66157cfd96f364fb7abbc99c31a2a3",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "85769013ca30b8243b7e4a3a811c95ab",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "aadc533629ec5174dae94c20f77b36fb",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "a2a36627a99f9a94db5a9c1179c86fff",
+      "type": 2
+    },
+    {
+      "fileID": 21300000,
+      "guid": "2fe0705785befab40b56813ca795d524",
+      "type": 2
+    }
+  ],
+  "item_components": [
+    {
+      "fileID": 147372
+    },
+    {
+      "fileID": 128497
+    },
+    {
+      "fileID": 128500
+    },
+    {
+      "fileID": 128489
+    },
+    {
+      "fileID": 128498
+    },
+    {
+      "fileID": 128512
+    },
+    {
+      "fileID": 128496
+    },
+    {
+      "fileID": 128495
+    },
+    {
+      "fileID": 128510
+    },
+    {
+      "fileID": 128491
+    },
+    {
+      "fileID": 128493
+    },
+    {
+      "fileID": 128501
+    },
+    {
+      "fileID": 128509
+    },
+    {
+      "fileID": 128502
+    },
+    {
+      "fileID": 128494
+    },
+    {
+      "fileID": 128507
+    },
+    {
+      "fileID": 128492
+    },
+    {
+      "fileID": 128511
+    },
+    {
+      "fileID": 128505
+    },
+    {
+      "fileID": 128506
+    },
+    {
+      "fileID": 128499
+    },
+    {
+      "fileID": 128508
+    },
+    {
+      "fileID": 128504
+    },
+    {
+      "fileID": 128503
+    },
+    {
+      "fileID": 128490
+    }
+  ],
+  "cat_renderers": [
+    {
+      "original_component": 136808,
+      "gameObject": 15237,
+      "skin_renderer": 86466,
+      "hand_renderer": 83243
+    },
+    {
+      "original_component": 136809,
+      "gameObject": 15239,
+      "skin_renderer": 86467,
+      "hand_renderer": 83245
+    },
+    {
+      "original_component": 136810,
+      "gameObject": 15238,
+      "skin_renderer": 86468,
+      "hand_renderer": 83244
+    },
+    {
+      "original_component": 147400,
+      "gameObject": 29892,
+      "skin_renderer": 88628,
+      "hand_renderer": 87086
+    }
+  ],
+  "literals": {
+    "0x5d63810": "+{0}%",
+    "0x5d63398": "<sprite=1>{0}",
+    "0x5d649c8": "+0%"
+  },
+  "roots": [
+    480,
+    1160
+  ],
+  "popup_original_component": 124065,
+  "rules": {
+    "balance": "Damage=16*i; Speed=10*i; Money=5*i; Price=100*i",
+    "purchase": "Locked && Dia>=price: Lose_Dia(price,reason2), then unlock. Does not select. _useDia += price*3 in native Lose_Dia. Local save hook replaces global5s throttle and external analytics.",
+    "select": "Unlocked only; set Selected_num; update all ordinary cat sprites and hand colors; no bonus change on selection. Paid helper excluded.",
+    "bonuses": "100 + sum of each stat across all unlocked skins, independent of selected skin. Skin money multiplier follows rebirth and precedes pet in native money chain.",
+    "ui": "Previous/next bounded; locked overlay, purchase/selected/select exclusive; price interactable and white/disabled color based on diamond balance."
+  },
+  "adapters": [
+    "independent recovery profile, strict malformed nonempty state rejection, absent neutral legacy skin array initialized to original first skin",
+    "original serialized skin renderer references restored through Editor API",
+    "local wallet notifications and save hooks; existing decimal numeric backend",
+    "original TMP material/font compatibility"
+  ],
+  "excluded": [
+    "developer Unlock_All / Skin_Value_Zero",
+    "AppsFlyer analytics",
+    "paid helper entitlement",
+    "full I2 localization and device/pixel parity",
+    "Original extraUI BounceBtn/SFX_BtnScript/Hatch/Mute_Panel and Localize components are retained in frozen source; unsupported working components omitted. Purchase/select method audio restored; generic button bounce/audio and fullUI lifecycle remain pending."
+  ],
+  "runtime_validation": "Actual final focused5/5 and one full116/116 completed; original whole game/player/device pending",
+  "unsupported_ui_types": {
+    "BounceBtn": 30,
+    "SFX_BtnScript": 30,
+    "Hatch": 2,
+    "Localize": 7,
+    "Mute_Panel": 1
+  },
+  "validation": {
+    "focused": "5/5,58.5seconds",
+    "full": "116/116,723.98seconds",
+    "visual_player_device": "unaccepted"
+  }
+}

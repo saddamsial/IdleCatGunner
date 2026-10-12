@@ -1,0 +1,1404 @@
+{
+  "rule": 65,
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "staticBindings": 96,
+  "staticTerms": 13,
+  "taskTerms": [
+    {
+      "Type": 0,
+      "Description": false,
+      "Key": "Mission/TreeCount_Name",
+      "Values": [
+        "Chop Trees",
+        "나무 부수기",
+        "木を壊す",
+        "破坏树木",
+        "破壞樹木",
+        "Cortar Árvores",
+        "Bäume fällen",
+        "Couper Arbres",
+        "Cortar Árboles",
+        "ตัดต้นไม้",
+        "Chop Trees",
+        "Chop Trees",
+        "Chop Trees",
+        "Рубить деревья"
+      ],
+      "NativeKeyPointer": "0x5d5e710"
+    },
+    {
+      "Type": 0,
+      "Description": true,
+      "Key": "Mission/TreeCount_Explain",
+      "Values": [
+        "Chop {0} trees!",
+        "나무를 {0}개 이상 부수세요!",
+        "木を{0}本以上壊そう！",
+        "破坏{0}棵树！",
+        "破壞{0}棵樹！",
+        "Corte {0} árvores!",
+        "Fälle {0} Bäume!",
+        "Coupez {0} arbres!",
+        "¡Corta {0} árboles!",
+        "ทำลายต้นไม้ {0} ต้น!",
+        "Tebang {0} pohon!",
+        "Tebang {0} pokok!",
+        "Chặt {0} cây!",
+        "Срубите {0} деревьев!"
+      ],
+      "NativeKeyPointer": "0x5d5e780"
+    },
+    {
+      "Type": 1,
+      "Description": false,
+      "Key": "Mission/StageClear_Name",
+      "Values": [
+        "Clear Stages",
+        "스테이지 클리어",
+        "ステージクリア",
+        "通关关卡",
+        "通關關卡",
+        "Limpar Stages",
+        "Stages schaffen",
+        "Terminer Stages",
+        "Completar Stages",
+        "เคลียร์ด่าน",
+        "Clear Stages",
+        "Clear Stages",
+        "Clear Stages",
+        "Пройти этапы"
+      ],
+      "NativeKeyPointer": "0x5d5e708"
+    },
+    {
+      "Type": 1,
+      "Description": true,
+      "Key": "Mission/StageClear_Explain",
+      "Values": [
+        "Clear {0} stages!",
+        "스테이지 {0}번 이상 클리어하세요!",
+        "ステージを{0}回クリアしよう！",
+        "通关关卡{0}次！",
+        "通關關卡{0}次！",
+        "Limpe {0} Stages!",
+        "Schließe {0} Stages ab!",
+        "Terminez {0} Stages!",
+        "¡Completa {0} Stages!",
+        "เคลียร์ด่าน {0} ครั้ง!",
+        "Selesaikan {0} Stage!",
+        "Selesaikan {0} Stage!",
+        "Qua {0} Stage!",
+        "Пройдите {0} этапов!"
+      ],
+      "NativeKeyPointer": "0x5d5e778"
+    },
+    {
+      "Type": 2,
+      "Description": false,
+      "Key": "Mission/Rebirth_Name",
+      "Values": [
+        "Rebirth",
+        "환생하기",
+        "転生する",
+        "转生",
+        "轉生",
+        "Rebirth",
+        "Rebirth",
+        "Rebirth",
+        "Rebirth",
+        "จุติใหม่",
+        "Rebirth",
+        "Rebirth",
+        "Rebirth",
+        "Сброс"
+      ],
+      "NativeKeyPointer": "0x5d5e718"
+    },
+    {
+      "Type": 2,
+      "Description": true,
+      "Key": "Mission/Rebirth_Explain",
+      "Values": [
+        "Rebirth {0} times!",
+        "환생을 {0}번 하세요!",
+        "{0}回転生しよう！",
+        "转生{0}次！",
+        "轉生{0}次！",
+        "Renasça {0} vezes!",
+        "Rebirth {0} Mal!",
+        "Effectuez {0} Rebirth!",
+        "¡Haz Rebirth {0} veces!",
+        "จุติใหม่ {0} ครั้ง!",
+        "Rebirth {0} kali!",
+        "Rebirth {0} kali!",
+        "Rebirth {0} lần!",
+        "Сбросьте {0} раз!"
+      ],
+      "NativeKeyPointer": "0x5d5e788"
+    },
+    {
+      "Type": 3,
+      "Description": false,
+      "Key": "Mission/PlayMine_Name",
+      "Values": [
+        "Play Mine",
+        "광산 플레이",
+        "鉱山プレイ",
+        "游玩矿山",
+        "遊玩礦山",
+        "Jogar Mina",
+        "Mine spielen",
+        "Jouer Mine",
+        "Jugar Mina",
+        "เล่นเหมือง",
+        "Main Tambang",
+        "Main Lombong",
+        "Chơi Mỏ",
+        "Играть в шахте"
+      ],
+      "NativeKeyPointer": "0x5d5e720"
+    },
+    {
+      "Type": 3,
+      "Description": true,
+      "Key": "Mission/PlayMine_Explain",
+      "Values": [
+        "Play mine {0} times!",
+        "광산을 {0}번 이상 플레이하세요!",
+        "鉱山を{0}回以上プレイしよう！",
+        "游玩矿山{0}次！",
+        "遊玩礦山{0}次！",
+        "Jogue na Mina {0} vezes!",
+        "Spiele Mine {0} Mal!",
+        "Jouez à la Mine {0} fois!",
+        "¡Juega en la Mina {0} veces!",
+        "เล่นเหมือง {0} ครั้ง!",
+        "Main Tambang {0} kali!",
+        "Main Lombong {0} kali!",
+        "Chơi Mỏ {0} lần!",
+        "Играйте в шахте {0} раз!"
+      ],
+      "NativeKeyPointer": "0x5d5e770"
+    }
+  ],
+  "excluded": [
+    {
+      "component": 125950,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (17)/Explain_txt",
+      "key": "-"
+    },
+    {
+      "component": 125951,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (21)/Explain_txt",
+      "key": "-"
+    },
+    {
+      "component": 125952,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (8)/Explain_txt",
+      "key": "-"
+    },
+    {
+      "component": 125953,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (7)/Explain_txt",
+      "key": "-"
+    },
+    {
+      "component": 125954,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (11)/Explain_txt",
+      "key": "-"
+    },
+    {
+      "component": 125955,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (18)/Explain_txt",
+      "key": "-"
+    },
+    {
+      "component": 125956,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (10)/Explain_txt",
+      "key": "-"
+    },
+    {
+      "component": 125957,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (6)/Explain_txt",
+      "key": "-"
+    },
+    {
+      "component": 125958,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (5)/Explain_txt",
+      "key": "-"
+    },
+    {
+      "component": 125959,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (3)/Explain_txt",
+      "key": "-"
+    },
+    {
+      "component": 125960,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (2)/Explain_txt",
+      "key": "-"
+    },
+    {
+      "component": 125961,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (1)/Explain_txt",
+      "key": "-"
+    },
+    {
+      "component": 125962,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (9)/Explain_txt",
+      "key": "-"
+    },
+    {
+      "component": 125963,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (15)/Explain_txt",
+      "key": "-"
+    },
+    {
+      "component": 125964,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (14)/Explain_txt",
+      "key": "-"
+    },
+    {
+      "component": 125965,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (4)/Explain_txt",
+      "key": "-"
+    },
+    {
+      "component": 125966,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (22)/Explain_txt",
+      "key": "-"
+    },
+    {
+      "component": 125967,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (16)/Explain_txt",
+      "key": "-"
+    },
+    {
+      "component": 125968,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (20)/Explain_txt",
+      "key": "-"
+    },
+    {
+      "component": 125969,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (12)/Explain_txt",
+      "key": "-"
+    },
+    {
+      "component": 125970,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (13)/Explain_txt",
+      "key": "-"
+    },
+    {
+      "component": 125971,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (19)/Explain_txt",
+      "key": "-"
+    },
+    {
+      "component": 126123,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 1/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 128018,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 19/Mission_Reward_Normal/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 128019,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 20/Mission_Reward_Normal/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 128020,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 13/Mission_Reward_Normal/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 128021,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 21/Mission_Reward_Normal/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 128022,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 16/Mission_Reward_Normal/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 128023,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 9/Mission_Reward_Normal/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 128024,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 5/Mission_Reward_Normal/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 128025,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 4/Mission_Reward_Normal/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 128026,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 22/Mission_Reward_Normal/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 128027,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 6/Mission_Reward_Normal/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 128028,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 7/Mission_Reward_Normal/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 128029,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 12/Mission_Reward_Normal/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 128030,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 3/Mission_Reward_Normal/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 128031,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 10/Mission_Reward_Normal/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 128032,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 15/Mission_Reward_Normal/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 128033,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 23/Mission_Reward_Normal/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 128034,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 2/Mission_Reward_Normal/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 128035,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 8/Mission_Reward_Normal/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 128036,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 25/Mission_Reward_Normal/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 128037,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 24/Mission_Reward_Normal/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 128038,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 18/Mission_Reward_Normal/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 128039,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 11/Mission_Reward_Normal/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 128040,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 14/Mission_Reward_Normal/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 128041,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 0/Mission_Reward_Normal/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 128042,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 17/Mission_Reward_Normal/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 131722,
+      "path": "Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 131723,
+      "path": "Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 131724,
+      "path": "Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 131725,
+      "path": "Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 131726,
+      "path": "Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 131727,
+      "path": "Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 134887,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 15/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 134888,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 2/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 134889,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 23/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 134890,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 8/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 134891,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 12/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 134892,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 3/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 134893,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 10/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 134894,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 7/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 134895,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 17/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 134896,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 0/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 134897,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 11/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 134898,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 14/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 134899,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 25/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 134900,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 24/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 134901,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 18/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 134902,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 5/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 134903,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 16/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 134904,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 21/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 134905,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 9/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 134906,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 20/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 134907,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 13/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 134908,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 19/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 134909,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 6/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 134910,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 22/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 134911,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 4/Mission_Reward_Epic/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 135509,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (10)/Name_txt",
+      "key": "-"
+    },
+    {
+      "component": 135510,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (11)/Name_txt",
+      "key": "-"
+    },
+    {
+      "component": 135511,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (18)/Name_txt",
+      "key": "-"
+    },
+    {
+      "component": 135512,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (17)/Name_txt",
+      "key": "-"
+    },
+    {
+      "component": 135513,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (7)/Name_txt",
+      "key": "-"
+    },
+    {
+      "component": 135514,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (8)/Name_txt",
+      "key": "-"
+    },
+    {
+      "component": 135515,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (21)/Name_txt",
+      "key": "-"
+    },
+    {
+      "component": 135516,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (2)/Name_txt",
+      "key": "-"
+    },
+    {
+      "component": 135517,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (3)/Name_txt",
+      "key": "-"
+    },
+    {
+      "component": 135518,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (9)/Name_txt",
+      "key": "-"
+    },
+    {
+      "component": 135519,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (15)/Name_txt",
+      "key": "-"
+    },
+    {
+      "component": 135520,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (1)/Name_txt",
+      "key": "-"
+    },
+    {
+      "component": 135521,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (6)/Name_txt",
+      "key": "-"
+    },
+    {
+      "component": 135522,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (5)/Name_txt",
+      "key": "-"
+    },
+    {
+      "component": 135523,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (22)/Name_txt",
+      "key": "-"
+    },
+    {
+      "component": 135524,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (16)/Name_txt",
+      "key": "-"
+    },
+    {
+      "component": 135525,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (14)/Name_txt",
+      "key": "-"
+    },
+    {
+      "component": 135526,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (4)/Name_txt",
+      "key": "-"
+    },
+    {
+      "component": 135527,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (20)/Name_txt",
+      "key": "-"
+    },
+    {
+      "component": 135528,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (12)/Name_txt",
+      "key": "-"
+    },
+    {
+      "component": 135529,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (13)/Name_txt",
+      "key": "-"
+    },
+    {
+      "component": 135530,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item (19)/Name_txt",
+      "key": "-"
+    },
+    {
+      "component": 135626,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 1/Mission_Reward_Normal/Gun/Type_txt",
+      "key": "-"
+    },
+    {
+      "component": 137812,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item/Name_txt",
+      "key": "-"
+    },
+    {
+      "component": 139822,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Pass_Purchase_Btn/I2_txt(Outline)",
+      "key": "-"
+    },
+    {
+      "component": 148534,
+      "path": "Canvas/SafeArea/Mission_maanger/Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Mission_Item/Explain_txt",
+      "key": "-"
+    }
+  ],
+  "sourceHashes": {
+    "assetripper-baseline/ExportedProject/Assets/Scenes/Main.unity": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+    "assetripper-baseline/ExportedProject/Assets/Resources/I2Languages.asset": "151dc691a395ca83d006e9aaa717803e6c62b1a90fcbbb6dbc9fe13411a9697f",
+    "extracted/split_config.arm64_v8a/lib/arm64-v8a/libil2cpp.so": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+    "extracted/base/assets/bin/Data/Managed/Metadata/global-metadata.dat": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884"
+  },
+  "nativeRules": [
+    "type0..3 -> original primary I2 names/explanations; unsupported type returns null",
+    "UI_First_Reload formats explanation with MissionValue before passing text to First_Reload",
+    "First_Reload writes numeric Exp without extra XP suffix; keeps separate original XP image"
+  ],
+  "status": [
+    {
+      "preferred_va": "0x2aa4768",
+      "ghidra_va": "02ba4768",
+      "name": "Mission_manager_Mission_Name_str_return",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x2aa5b08",
+      "ghidra_va": "02ba5b08",
+      "name": "Mission_manager_Mission_Explain_str_return",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x2b03d5c",
+      "ghidra_va": "02c03d5c",
+      "name": "Mission_Item_UI_First_Reload",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x28f5cfc",
+      "ghidra_va": "029f5cfc",
+      "name": "Throw_NullReference_Wrapper",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x28f5d04",
+      "ghidra_va": "029f5d04",
+      "name": "Throw_Index_Wrapper",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x293e6a8",
+      "ghidra_va": "02a3e6a8",
+      "name": "Throw_NullReference_Create",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x293e6bc",
+      "ghidra_va": "02a3e6bc",
+      "name": "Throw_NullReference_Raise",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x293e6f4",
+      "ghidra_va": "02a3e6f4",
+      "name": "Throw_Index_Raise",
+      "completed": "true",
+      "error": ""
+    },
+    {
+      "preferred_va": "0x293e610",
+      "ghidra_va": "02a3e610",
+      "name": "Managed_Exception_CxaThrow",
+      "completed": "true",
+      "error": ""
+    }
+  ],
+  "resourceSha256": "9aa16ae389b0d57220a3011a91a33a3a0eb3f486fcf3f41fec90f67304bfd315",
+  "ghidraImageBase": "0x100000",
+  "managedTypes": [
+    {
+      "index": 7286,
+      "image": "Assembly-CSharp.dll",
+      "namespace": "",
+      "name": "Mission_Item_UI",
+      "token": "0x2000078",
+      "byval_type_index": 35426,
+      "declaring_type_index": -1,
+      "parent_type_index": 35501,
+      "flags": 1048577,
+      "bitfield": 3072,
+      "fields": [
+        {
+          "index": 33103,
+          "name": "Mission_Index",
+          "raw_type_index": 33506,
+          "token": "0x40002bc",
+          "signature": {
+            "kind": 8,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f489a0",
+            "name": "System.Int32"
+          },
+          "native_offset": 32,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33104,
+          "name": "_baseExp",
+          "raw_type_index": 33506,
+          "token": "0x40002bd",
+          "signature": {
+            "kind": 8,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f489a0",
+            "name": "System.Int32"
+          },
+          "native_offset": 36,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33105,
+          "name": "_isVipMission",
+          "raw_type_index": 26067,
+          "token": "0x40002be",
+          "signature": {
+            "kind": 2,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f45250",
+            "name": "System.Boolean"
+          },
+          "native_offset": 40,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33106,
+          "name": "Exp_txt",
+          "raw_type_index": 41451,
+          "token": "0x40002bf",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f8ebd0",
+            "type_definition_index": 11999,
+            "name": "TMPro.TextMeshProUGUI"
+          },
+          "native_offset": 48,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33107,
+          "name": "Name_txt",
+          "raw_type_index": 41451,
+          "token": "0x40002c0",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f8ebd0",
+            "type_definition_index": 11999,
+            "name": "TMPro.TextMeshProUGUI"
+          },
+          "native_offset": 56,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33108,
+          "name": "Explain_txt",
+          "raw_type_index": 41451,
+          "token": "0x40002c1",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f8ebd0",
+            "type_definition_index": 11999,
+            "name": "TMPro.TextMeshProUGUI"
+          },
+          "native_offset": 64,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33109,
+          "name": "Value_txt",
+          "raw_type_index": 41451,
+          "token": "0x40002c2",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f8ebd0",
+            "type_definition_index": 11999,
+            "name": "TMPro.TextMeshProUGUI"
+          },
+          "native_offset": 72,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33110,
+          "name": "Fill",
+          "raw_type_index": 40027,
+          "token": "0x40002c3",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f89dc0",
+            "type_definition_index": 7393,
+            "name": "SlicedFilledImage"
+          },
+          "native_offset": 80,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33111,
+          "name": "NonClear_obj",
+          "raw_type_index": 30477,
+          "token": "0x40002c4",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f47670",
+            "type_definition_index": 9113,
+            "name": "UnityEngine.GameObject"
+          },
+          "native_offset": 88,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33112,
+          "name": "GetAble_obj",
+          "raw_type_index": 30477,
+          "token": "0x40002c5",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f47670",
+            "type_definition_index": 9113,
+            "name": "UnityEngine.GameObject"
+          },
+          "native_offset": 96,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33113,
+          "name": "Get_obj",
+          "raw_type_index": 30477,
+          "token": "0x40002c6",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f47670",
+            "type_definition_index": 9113,
+            "name": "UnityEngine.GameObject"
+          },
+          "native_offset": 104,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33114,
+          "name": "LuxuryBonus_obj",
+          "raw_type_index": 30477,
+          "token": "0x40002c7",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f47670",
+            "type_definition_index": 9113,
+            "name": "UnityEngine.GameObject"
+          },
+          "native_offset": 112,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33115,
+          "name": "VIP_Panel_obj",
+          "raw_type_index": 30477,
+          "token": "0x40002c8",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f47670",
+            "type_definition_index": 9113,
+            "name": "UnityEngine.GameObject"
+          },
+          "native_offset": 120,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33116,
+          "name": "VIP_Star_obj",
+          "raw_type_index": 30477,
+          "token": "0x40002c9",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f47670",
+            "type_definition_index": 9113,
+            "name": "UnityEngine.GameObject"
+          },
+          "native_offset": 128,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33117,
+          "name": "Luxury_Panel_obj",
+          "raw_type_index": 30477,
+          "token": "0x40002ca",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f47670",
+            "type_definition_index": 9113,
+            "name": "UnityEngine.GameObject"
+          },
+          "native_offset": 136,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33118,
+          "name": "LuxuryLocked_obj",
+          "raw_type_index": 30477,
+          "token": "0x40002cb",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f47670",
+            "type_definition_index": 9113,
+            "name": "UnityEngine.GameObject"
+          },
+          "native_offset": 144,
+          "attribute_types": [],
+          "serialization_visibility": true
+        },
+        {
+          "index": 33119,
+          "name": "VIPLocked_obj",
+          "raw_type_index": 30477,
+          "token": "0x40002cc",
+          "signature": {
+            "kind": 18,
+            "attrs": 6,
+            "byref": false,
+            "pointer": "0x5f47670",
+            "type_definition_index": 9113,
+            "name": "UnityEngine.GameObject"
+          },
+          "native_offset": 152,
+          "attribute_types": [],
+          "serialization_visibility": true
+        }
+      ],
+      "methods": [
+        {
+          "index": 50463,
+          "name": "First_Reload",
+          "token": "0x6000385",
+          "parameter_count": 5,
+          "raw_return_type_index": 43650,
+          "parameter_start": 53971,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": [
+            {
+              "index": 53971,
+              "name": "Num",
+              "token": "0x80001bb",
+              "signature": {
+                "kind": 8,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f48940",
+                "name": "System.Int32"
+              }
+            },
+            {
+              "index": 53972,
+              "name": "Exp",
+              "token": "0x80001bc",
+              "signature": {
+                "kind": 8,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f48940",
+                "name": "System.Int32"
+              }
+            },
+            {
+              "index": 53973,
+              "name": "Name",
+              "token": "0x80001bd",
+              "signature": {
+                "kind": 14,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f4c1e0",
+                "name": "System.String"
+              }
+            },
+            {
+              "index": 53974,
+              "name": "Explain",
+              "token": "0x80001be",
+              "signature": {
+                "kind": 14,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f4c1e0",
+                "name": "System.String"
+              }
+            },
+            {
+              "index": 53975,
+              "name": "is_VIP_Mission",
+              "token": "0x80001bf",
+              "signature": {
+                "kind": 2,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f451f0",
+                "name": "System.Boolean"
+              }
+            }
+          ]
+        },
+        {
+          "index": 50464,
+          "name": "Value_Reload",
+          "token": "0x6000386",
+          "parameter_count": 3,
+          "raw_return_type_index": 43650,
+          "parameter_start": 53976,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": [
+            {
+              "index": 53976,
+              "name": "NowValue",
+              "token": "0x80001c0",
+              "signature": {
+                "kind": 8,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f48940",
+                "name": "System.Int32"
+              }
+            },
+            {
+              "index": 53977,
+              "name": "TargetValue",
+              "token": "0x80001c1",
+              "signature": {
+                "kind": 8,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f48940",
+                "name": "System.Int32"
+              }
+            },
+            {
+              "index": 53978,
+              "name": "status",
+              "token": "0x80001c2",
+              "signature": {
+                "kind": 17,
+                "attrs": 0,
+                "byref": false,
+                "pointer": "0x5f859c0",
+                "type_definition_index": 7276,
+                "name": "RewardStatus_Type"
+              }
+            }
+          ]
+        },
+        {
+          "index": 50465,
+          "name": "Reward_Get",
+          "token": "0x6000387",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50466,
+          "name": "Luxury_Bonus_Get",
+          "token": "0x6000388",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 134,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        },
+        {
+          "index": 50467,
+          "name": ".ctor",
+          "token": "0x6000389",
+          "parameter_count": 0,
+          "raw_return_type_index": 43650,
+          "parameter_start": 4294967295,
+          "flags": 6278,
+          "iflags": 0,
+          "native_address": null,
+          "body_status": "not recovered",
+          "return_signature": {
+            "kind": 1,
+            "attrs": 0,
+            "byref": false,
+            "pointer": "0x5f963d0",
+            "name": "System.Void"
+          },
+          "attribute_types": [],
+          "parameters": []
+        }
+      ],
+      "full_name": "Mission_Item_UI",
+      "parent_type_signature": {
+        "kind": 18,
+        "attrs": 0,
+        "byref": false,
+        "pointer": "0x5f79970",
+        "type_definition_index": 9120,
+        "name": "UnityEngine.MonoBehaviour"
+      },
+      "declaring_type_signature": null,
+      "attribute_types": []
+    }
+  ],
+  "methods": [
+    {
+      "preferredVa": "0x2aa4768",
+      "end": "0x2aa48ac",
+      "first16": "ffc300d1fe0b00f9f44f02a9b4b501f0",
+      "sha256": "1e54e321a88cbcefef4896686be1aa8108f2c0c24d1dcae4adb82c7955d5e3a7",
+      "outputs": {
+        "native-mission-text-reviewed/Mission_manager_Mission_Name_str_return.c": "9f7c35284fbadd8a08653e3a1e51bab47814a1cebd060c917d08855900e9119d",
+        "native-mission-text-reviewed/Mission_manager_Mission_Name_str_return.asm": "002608fb39573f6ec69e814f1abad0c4e84a12184b205ae8ecd613cb0ad9c512"
+      }
+    },
+    {
+      "preferredVa": "0x2aa5b08",
+      "end": "0x2aa5c4c",
+      "first16": "ffc300d1fe0b00f9f44f02a9b4b501d0",
+      "sha256": "3c79c1ac0a1b4b77a62fbc32ee3a5f128fc6f3f3c9e0cfaf9dee58a7179e4b16",
+      "outputs": {
+        "native-mission-text-reviewed/Mission_manager_Mission_Explain_str_return.c": "185626ad2b51d37161741a359388c570051d14a4b4bbb24bde5c795654596ba1",
+        "native-mission-text-reviewed/Mission_manager_Mission_Explain_str_return.asm": "bf39c09b823a290e13e07590ddc382d0916f32c5bc972cf3198a9ec42dc42de0"
+      }
+    },
+    {
+      "preferredVa": "0x2b03d5c",
+      "end": "0x2b03e2c",
+      "first16": "ff0301d1fe5f01a9f65702a9f44f03a9",
+      "sha256": "4f4bcea9fbde429eb1aab4629c8878f209d6f4234aae8502f21c2fd5c8545e8b",
+      "outputs": {
+        "native-mission-text-reviewed/Mission_Item_UI_First_Reload.c": "07b1366c8fb52e98f496aa9a1451052568233edc44f2fa1e46eac5cf3fc97899",
+        "native-mission-text-reviewed/Mission_Item_UI_First_Reload.asm": "afc74ce4a5f37818e7b012172026087e8f9adecd79ece9fcbcdfa4852bd9001c"
+      }
+    },
+    {
+      "preferredVa": "0x28f5cfc",
+      "end": "0x28f5d04",
+      "first16": "fe0f1ff86a220194fe0f1ff87b220194",
+      "sha256": "fd826c34b9ef2518b1f3f6d39e7562b9946c1a4ca9651bc3c25e81558d412348",
+      "outputs": {
+        "native-mission-text-reviewed/Throw_NullReference_Wrapper.c": "4dbe5415e169f90b0ce5055036cca1b94bf1565f8d9d2308c08bf4bd707fcb91",
+        "native-mission-text-reviewed/Throw_NullReference_Wrapper.asm": "eec6b09062497629de85a27e3a8cad918b42764b2a1c0f544152a636461e5fdd"
+      }
+    },
+    {
+      "preferredVa": "0x28f5d04",
+      "end": "0x28f5d0c",
+      "first16": "fe0f1ff87b220194c03cff90006c0191",
+      "sha256": "4443063a785929eff8fbdd73652167a28163cc8bee6d193aa1d2d34ba13cefaa",
+      "outputs": {
+        "native-mission-text-reviewed/Throw_Index_Wrapper.c": "b554c9aba53206d804e9fc370e97cf27027d10930f18eb2a6be625e055cb8dd1",
+        "native-mission-text-reviewed/Throw_Index_Wrapper.asm": "5581995141036f8f8cb7598583a54ae3c1a567e77a4bbff543774e6d542c448c"
+      }
+    },
+    {
+      "preferredVa": "0x293e6a8",
+      "end": "0x293e6bc",
+      "first16": "ff8300d1fffb00a9e0030091ff0300f9",
+      "sha256": "cdbf0bcca450bcc5619d3bedfd51ab6ee40fa3f25845c22f256f2b52ded52c13",
+      "outputs": {
+        "native-mission-text-reviewed/Throw_NullReference_Create.c": "07933b7cac27ee4d3e9d7c27b53882e222ed878cead5f8d79e73b3adba1fff6f",
+        "native-mission-text-reviewed/Throw_NullReference_Create.asm": "428c28c0278566bbd155390442ae395ecf5d111ac48dd41afa23cc88ab7051b2"
+      }
+    },
+    {
+      "preferredVa": "0x293e6bc",
+      "end": "0x293e6cc",
+      "first16": "fe0f1ff803000094e1031faad2ffff97",
+      "sha256": "5ca19850cf19c59741f496304fb81f88760711935ae81e9878b9291de917db2c",
+      "outputs": {
+        "native-mission-text-reviewed/Throw_NullReference_Raise.c": "aded7644ecb862bc0a5476706b21810f9257b367ac0397bdc541e91af2615d80",
+        "native-mission-text-reviewed/Throw_NullReference_Raise.asm": "5aafa322c11ce154d2ee31e138ead7810e48a24e419b8885131feb71851f1d71"
+      }
+    },
+    {
+      "preferredVa": "0x293e6f4",
+      "end": "0x293e704",
+      "first16": "fe0f1ff803000094e1031faac4ffff97",
+      "sha256": "cc88e424aa2cedbec18e703dcec784e753947ba52264006468b82ee358e7e4dd",
+      "outputs": {
+        "native-mission-text-reviewed/Throw_Index_Raise.c": "f7b9c1233cebb3659705feb97a706251cb1dd6dcac5b14dcbcd482f99b3529a7",
+        "native-mission-text-reviewed/Throw_Index_Raise.asm": "53f08a0cd65a4fe4ba45d72673ff66e057b405fd9658b230d54ec9cb96fab4ed"
+      }
+    },
+    {
+      "preferredVa": "0x293e610",
+      "end": "0x293e638",
+      "first16": "fe4fbfa9f30300aa71ffff9700018052",
+      "sha256": "3baf58d6dd416adb6ec9a1aa884940ecdc8bcb00a7fd1ff5efd9d6fd84aa48a1",
+      "outputs": {
+        "native-mission-text-reviewed/Managed_Exception_CxaThrow.c": "f034685b9e5e3c23ca134caf66dd8742db361f79a48e68bfefb6bb0b28479155",
+        "native-mission-text-reviewed/Managed_Exception_CxaThrow.asm": "79d2db030a3cd3519ea853008b8d9e435cee4ca33d345340c0a40c9ffa737b80"
+      }
+    }
+  ],
+  "formattingCaller": {
+    "path": "native-mission-sorting-reviewed/Mission_manager_UI_First_Reload.c",
+    "sha256": "0828e7cf5598dddb7585da6f07c45596a530e82574606b00943a0a48e3545fa9"
+  }
+}

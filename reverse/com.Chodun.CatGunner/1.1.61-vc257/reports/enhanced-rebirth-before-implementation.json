@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "duration": 11.39,
+  "summary": {
+    "total": 1,
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalEnhancedRebirthTests.OriginalAdEntryAndConfirmationAreClickable",
+      "Status": "Failed",
+      "Duration": 10.4727994,
+      "Message": "  Expected: True\n  But was:  False\n",
+      "StackTrace": "at OriginalEnhancedRebirthTests+<OriginalAdEntryAndConfirmationAreClickable>d__13.MoveNext () [0x00045] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalEnhancedRebirthTests.cs:36\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    }
+  ]
+}

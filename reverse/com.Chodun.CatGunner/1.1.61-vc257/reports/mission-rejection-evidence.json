@@ -1,0 +1,129 @@
+{
+  "rule": "original-game-rules/40_MISSION_SEQUENCE_WARNING.md",
+  "contract": "mission-rejection-contract.json",
+  "tests": {
+    "accepted": {
+      "report": "live-mission-rejection-accepted-status.json",
+      "status": "completed",
+      "duration": 44.15,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "sorting": {
+      "report": "live-mission-rejection-sorting-status.json",
+      "status": "completed",
+      "duration": 42.69,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "navigation": {
+      "report": "live-mission-rejection-navigation-status.json",
+      "status": "completed",
+      "duration": 41.09,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "presentation": {
+      "report": "live-mission-rejection-presentation-status.json",
+      "status": "completed",
+      "duration": 46.48,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "startup": {
+      "report": "live-mission-rejection-startup-status.json",
+      "status": "completed",
+      "duration": 25.34,
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    }
+  },
+  "before": {
+    "report": "live-mission-rejection-before-status.json",
+    "summary": {
+      "total": 6,
+      "passed": 1,
+      "failed": 5,
+      "skipped": 0,
+      "inconclusive": 0
+    }
+  },
+  "testBatchBoundary": "Five separate current-source completed PlayMode batches; not full suite or Player/device. Dedicated6 includes original sequence-locked reward and season Buttons with top raycast plus StandaloneInputModule Down/Up; normal claims persist and cold-load with isolated save.",
+  "nativeEvidence": "mission-rejection-native-evidence.json",
+  "sourceDiff": "mission-rejection-source-diff.json",
+  "preservationAudit": "mission-rejection-preservation-audit.json",
+  "historicalVisualAudit": "mission-rejection-historical-visual-preservation.json",
+  "handoff": "mission-rejection-editor-handoff.json",
+  "actualEditor": "mission-rejection-actual-editor-scene.json",
+  "console": "mission-rejection-final-console.json",
+  "runner": "mission-rejection-final-runner.json",
+  "sceneSha256": "69b30e938815261522df3ba90b204fcbfb95a5549916cf07ea77d5aea6d93169",
+  "sourceSha256": {
+    "Assets/Recovery/Scripts/Mission_manager.cs": "5cd710395209db463ec042842b0f01659c527916b04adc109d5e058172077c3a",
+    "Assets/Recovery/Scripts/Mission_Reward_Item.cs": "eaa61dac41557d8653df293d9205dd48c03bc7a4db36509fd9d3e1f94354848a",
+    "Assets/Recovery/Scripts/OriginalMissions.cs": "266a3c56c2f4a637dcfb6d1985d6bd490eefb88837190e11635ce2b5586adab9",
+    "Assets/Recovery/Scripts/OriginalMissionFeedback.cs": "380c9d54527f7801bb217c89292ed21504b19ab4ed881c0ea19561b512bc7eab",
+    "Assets/Recovery/Tests/PlayMode/OriginalMissionRejectionTests.cs": "0eb383a72a029f05bffb2cbfdda4a25913ad3d9babf9bebd8f072ee0e601c33c",
+    "Assets/Recovery/Resources/OriginalMissionFeedback.json": "cdb40a96eaec2dd49d44a42441c04c010f92514f33a1f1f128bb47d8cbef5e9a"
+  },
+  "visual": [
+    {
+      "file": "visual/mission-rejection-maximum-level-gpu.png",
+      "sha256": "f05844a7057bffb4df43a6b57f3be08536dedb4af06d5d435423953c9dbd0330",
+      "actuallyViewed": true
+    },
+    {
+      "file": "visual/mission-rejection-sequence-warning-gpu.png",
+      "sha256": "e9abd055bdc05904560f7a80889d7be16dac088fbb6ef78d65fa7dded16b1ffe",
+      "actuallyViewed": true
+    },
+    {
+      "file": "visual/mission-rejection-unlocked-claims-gpu.png",
+      "sha256": "5f3c04c55112ff2ea43fd6fcbba67cb3203201e1c3fa57f28dd4f514fa733725",
+      "actuallyViewed": true
+    }
+  ],
+  "localAdapters": [
+    "reuse original star alert object instead of global UI_manager alert pool",
+    "Chinese simplified/traditional or original English selection, not full I2",
+    "expired/paid/ad claims still unavailable",
+    "full season-reset/date algorithm unchanged"
+  ],
+  "remaining": [
+    "full season reset/date algorithms including manual early-season restart",
+    "full I2/detailed mission presentation",
+    "inventory-full original reward warning",
+    "four missing Tutorial HUDs",
+    "offline simulation and relic row300",
+    "trusted time",
+    "commercial/backend/WeeklyShop fulfillment",
+    "other UI/FX/full DOTween lifecycle",
+    "Player/device/original fidelity acceptance"
+  ],
+  "scopeComplete": false
+}

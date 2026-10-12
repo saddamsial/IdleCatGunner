@@ -1,0 +1,10 @@
+{
+  "userConfirmedResumedPlay": true,
+  "userRequested": "Preserve latest new progress",
+  "earlierRestoreAttempt": "Hash guard assertion failed; no completed restoration report. Subsequent stable current profile differs from old baseline. Final handoff preserves the latest user-approved profile checkpoint; no further rollback.",
+  "liveSnapshot": "auto-upgrade-latest-live-preservation.json",
+  "stableEditorState": "auto-upgrade-stable-before-restore.json",
+  "finalVerificationBaseline": "checkpoints/auto-upgrade-before/latest-user-play-baseline-user-save.json",
+  "attributionCorrection": "Profile changes cannot be attributed solely to tests; the user confirmed resuming gameplay. Earlier test-runner attribution is withdrawn.",
+  "rollbackToInitialPauseForFinalHandoff": false
+}

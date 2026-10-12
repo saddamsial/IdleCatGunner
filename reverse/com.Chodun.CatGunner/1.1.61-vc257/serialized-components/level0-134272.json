@@ -1,0 +1,44 @@
+{
+  "identity": {
+    "file": "level0",
+    "path_id": 134272,
+    "type_index": 7511,
+    "type": "Enemy",
+    "game_object": "Tree_SpeedRun (73)"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 17649
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 2790
+    },
+    "m_Name": "",
+    "_type": 1,
+    "is_Die": false,
+    "Health_Now": {
+      "s_digits": "1000",
+      "s_exponent": 0
+    },
+    "Health_Max": {
+      "s_digits": "1000",
+      "s_exponent": 0
+    },
+    "Money": {
+      "s_digits": "10",
+      "s_exponent": 0
+    },
+    "Slider": {
+      "m_FileID": 0,
+      "m_PathID": 141969
+    },
+    "_bounce": {
+      "m_FileID": 0,
+      "m_PathID": 133568
+    },
+    "is_MoneyDontDrop": false
+  }
+}

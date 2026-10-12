@@ -1,0 +1,77 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 47.28,
+      "summary": {
+        "total": 7,
+        "passed": 7,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalDiaPigTests.InvalidFutureAndRollbackClocksResetWithoutWallOnlyCatchup",
+          "Status": "Passed",
+          "Duration": 6.4984285,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalDiaPigTests.LockedCounterNeverAccumulatesOrConsumesExistingFunds",
+          "Status": "Passed",
+          "Duration": 5.4146312,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalDiaPigTests.LockedSaveKeepsCountAndTimestampAcrossColdReloadAndCannotClaim",
+          "Status": "Passed",
+          "Duration": 10.8234398,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalDiaPigTests.MinuteTicksKeepRemainderAndUseSlowerClock",
+          "Status": "Passed",
+          "Duration": 5.4331111,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalDiaPigTests.ModeEntryClosesPigAndReturnsToUsableForest",
+          "Status": "Passed",
+          "Duration": 6.995569,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalDiaPigTests.OriginalHudOpensLockedPageAndClosesWithRealInputWithoutGrant",
+          "Status": "Passed",
+          "Duration": 6.6264806,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalDiaPigTests.PartialClaimKeepsRemainderFullClaimResetsClockAndDiamondLedger",
+          "Status": "Passed",
+          "Duration": 5.4153802,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

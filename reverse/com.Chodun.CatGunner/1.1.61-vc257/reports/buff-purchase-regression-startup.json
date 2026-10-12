@@ -1,0 +1,41 @@
+{
+  "status": "completed",
+  "duration": 29.45,
+  "summary": {
+    "total": 4,
+    "passed": 4,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalStartupTests.ActualLegacyProfileStartsWithWalkingCatThenMovesAndShootsWithoutInputAndReloads",
+      "Status": "Passed",
+      "Duration": 18.8676202,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalStartupTests.FailedInitializationCannotEnableAutosaveOrOverwriteMainAndBackup",
+      "Status": "Passed",
+      "Duration": 9.1760652,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalStartupTests.NativeBestArrayKeepsLegacyPrefixAndDoesNotAlterInput",
+      "Status": "Passed",
+      "Duration": 0.2350123,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalStartupTests.UnsupportedRaidValuesRejectBeforeStateMutation",
+      "Status": "Passed",
+      "Duration": 0.2152294,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

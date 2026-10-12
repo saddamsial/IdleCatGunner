@@ -1,0 +1,44 @@
+{
+  "identity": {
+    "file": "globalgamemanagers.assets",
+    "path_id": 3944,
+    "type_index": 9916,
+    "type": "UnityEngine.Rendering.Universal.SplitToning",
+    "game_object": "SplitToning"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": 1742
+    },
+    "m_Name": "SplitToning",
+    "active": true,
+    "shadows": {
+      "m_OverrideState": true,
+      "m_Value": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "a": 1.0
+      }
+    },
+    "highlights": {
+      "m_OverrideState": true,
+      "m_Value": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "a": 1.0
+      }
+    },
+    "balance": {
+      "m_OverrideState": true,
+      "m_Value": 0.0
+    }
+  }
+}

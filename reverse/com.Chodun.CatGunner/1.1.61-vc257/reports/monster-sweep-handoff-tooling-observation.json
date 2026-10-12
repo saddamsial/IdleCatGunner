@@ -1,0 +1,7 @@
+{
+  "action": "eval_file host-end after tests",
+  "attempt": "CLI 400 Main thread operation timed out after5000ms; no result file initially; CUA raised unfocused Unity; EditMode visible",
+  "category": "Editor bridge timeout, not PlayMode test/game failure",
+  "preservedAllCompleteTestReports": true,
+  "resolution": "After Raise, first pending eval had completed and written host-end file. Repeated erase was idempotent; latest host-end records empty previous/current keys. Initial owned folder remains recorded in host-start. Then fresh Editor inventory and Console check."
+}

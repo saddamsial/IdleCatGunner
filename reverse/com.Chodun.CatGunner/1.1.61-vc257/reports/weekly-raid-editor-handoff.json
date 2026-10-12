@@ -1,0 +1,84 @@
+{
+  "unity": "6000.4.10f1",
+  "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+  "objects": 34734,
+  "missingScripts": 0,
+  "playing": false,
+  "paused": false,
+  "compiling": false,
+  "dirty": false,
+  "persist": true,
+  "saveFolderOverride": null,
+  "weeklyItems": 3,
+  "countdownPanels": 2,
+  "raidMissionItems": 8,
+  "raidTaskFieldsConnected": true,
+  "tweenAdapters": 10,
+  "tutorialReferences": 4,
+  "originalMonoScriptGuid": [
+    {
+      "name": "WeeklyShop",
+      "guid": "31844dbc54db8adb4044549d9d2251b6"
+    },
+    {
+      "name": "DailyGun",
+      "guid": "32ca2694bc0c3dbcec258cb539f851fa"
+    },
+    {
+      "name": "DailyGun_Item",
+      "guid": "0707994a56d0b6fa234e95e6d8ab1d1d"
+    },
+    {
+      "name": "DailyGun_popup",
+      "guid": "4299b0ada11a2d2e174b3ff0a4cc5ed2"
+    },
+    {
+      "name": "Raid_Mission_manager",
+      "guid": "3a71538eda0f09f4dd29218bfcce1bc5"
+    },
+    {
+      "name": "Raid_Mission_UI",
+      "guid": "09526d92fe6727639c904030010be6ee"
+    },
+    {
+      "name": "Raid_Mission_Item",
+      "guid": "96d4b538250b2cd6881f7140fc029025"
+    },
+    {
+      "name": "Raid_Mission_HUD",
+      "guid": "a525b14b1cf8997851ce0fe04b0a6af1"
+    },
+    {
+      "name": "Raid_Mission_Ticket_UI",
+      "guid": "a6c85412a737f9f77e761d2019a8d24c"
+    }
+  ],
+  "weeklyPopupClosed": true,
+  "raidTaskPopupClosed": true,
+  "ticketPopupClosed": true,
+  "sourceWeeklyPreviewCallbacks": [
+    {
+      "name": "GunItem_Demo",
+      "enabled": true,
+      "methods": [
+        "Preview"
+      ]
+    },
+    {
+      "name": "GunItem_Demo",
+      "enabled": true,
+      "methods": [
+        "Preview"
+      ]
+    },
+    {
+      "name": "GunItem_Demo",
+      "enabled": true,
+      "methods": [
+        "Preview"
+      ]
+    }
+  ],
+  "fullClientAccepted": false,
+  "ready_for_user_play": true
+}

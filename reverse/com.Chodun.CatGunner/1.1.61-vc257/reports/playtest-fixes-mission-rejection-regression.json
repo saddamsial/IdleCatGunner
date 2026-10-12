@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "duration": 48.34,
+  "summary": {
+    "total": 6,
+    "passed": 6,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalMissionRejectionTests.ClaimedFutureAndExpiredClaimsDoNotProduceSequenceWarningOrScroll",
+      "Status": "Passed",
+      "Duration": 8.96827,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalMissionRejectionTests.ClaimingPreviousRewardUnlocksTheOriginalNextButtonAndColdReloadPreservesBothClaims",
+      "Status": "Passed",
+      "Duration": 12.7367156,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalMissionRejectionTests.EarlierUnclaimedVipTrackWarnsWithoutGrantingPremiumOrSkippingAd",
+      "Status": "Passed",
+      "Duration": 6.3707245,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalMissionRejectionTests.RepeatedWarningsUseScaledScrollAndClosingCancelsOwnedMovement",
+      "Status": "Passed",
+      "Duration": 7.1056038,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalMissionRejectionTests.SeasonButtonUsesMaximumLevelEvenDuringActiveSeasonAndOpensOriginalModal",
+      "Status": "Passed",
+      "Duration": 6.2127334,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalMissionRejectionTests.SequenceLockedOriginalButtonShowsWarningRejectsAndScrollsBackWithoutSaving",
+      "Status": "Passed",
+      "Duration": 6.761167,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

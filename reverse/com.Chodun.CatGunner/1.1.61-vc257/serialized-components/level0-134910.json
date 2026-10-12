@@ -1,0 +1,57 @@
+{
+  "identity": {
+    "file": "level0",
+    "path_id": 134910,
+    "type_index": 7784,
+    "type": "I2.Loc.Localize",
+    "game_object": "Type_txt"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 8442
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 814
+    },
+    "m_Name": "",
+    "mTerm": "-",
+    "mTermSecondary": "font",
+    "PrimaryTermModifier": 0,
+    "SecondaryTermModifier": 0,
+    "TermPrefix": "",
+    "TermSuffix": "",
+    "LocalizeOnAwake": true,
+    "IgnoreRTL": false,
+    "MaxCharactersInRTL": 0,
+    "IgnoreNumbersInRTL": true,
+    "CorrectAlignmentForRTL": true,
+    "AddSpacesToJoinedLanguages": false,
+    "AllowLocalizedParameters": true,
+    "AllowParameters": true,
+    "TranslatedObjects": [],
+    "LocalizeEvent": {
+      "m_PersistentCalls": {
+        "m_Calls": []
+      }
+    },
+    "AlwaysForceLocalize": false,
+    "LocalizeCallBack": {
+      "Target": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "MethodName": ""
+    },
+    "mGUI_ShowReferences": false,
+    "mGUI_ShowTems": true,
+    "mGUI_ShowCallback": false,
+    "mLocalizeTarget": {
+      "m_FileID": 0,
+      "m_PathID": 122862
+    },
+    "mLocalizeTargetName": "I2.Loc.LocalizeTarget_TextMeshPro_UGUI"
+  }
+}

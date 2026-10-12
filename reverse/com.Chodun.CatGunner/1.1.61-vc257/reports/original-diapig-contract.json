@@ -1,0 +1,391 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "editor": "6000.4.10f1",
+  "original_engine": "6000.0.61f1 IL2CPP",
+  "frozen_inputs": [
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/assetripper-baseline/ExportedProject/Assets/Scenes/Main.unity",
+      "sha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/split_config.arm64_v8a/lib/arm64-v8a/libil2cpp.so",
+      "sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/base/assets/bin/Data/Managed/Metadata/global-metadata.dat",
+      "sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+      "unchanged": true
+    }
+  ],
+  "scope": "Original DiaPig HUD open/locked page/close, serialized renderer/text references, native ordinary counter/timer/remainder/claim rules in isolated fixtures. Commercial state/provider and trusted-time service excluded.",
+  "native_methods": [
+    {
+      "name": "DiaPig.IsUnlocked",
+      "va": "0x2b8c7d0"
+    },
+    {
+      "name": "DiaPig.Awake",
+      "va": "0x2b8c978"
+    },
+    {
+      "name": "DiaPig.SetLastTick",
+      "va": "0x2b8c9d0"
+    },
+    {
+      "name": "DiaPig.Init",
+      "va": "0x2b8ca3c"
+    },
+    {
+      "name": "DiaPig.Tick_Accumulate",
+      "va": "0x2b8cc74"
+    },
+    {
+      "name": "DiaPig.Update",
+      "va": "0x2b8d44c"
+    },
+    {
+      "name": "DiaPig.Dia_Get",
+      "va": "0x2b8d4c4"
+    },
+    {
+      "name": "DiaPig.GetSecondsUntilNextTick",
+      "va": "0x2b8d5f4"
+    },
+    {
+      "name": "DiaPig.GetSaveData",
+      "va": "0x2b8d6f0"
+    },
+    {
+      "name": "DiaPig..ctor",
+      "va": "0x2b8d7f8"
+    },
+    {
+      "name": "DiaPig_UI.OnEnable",
+      "va": "0x2b8d808"
+    },
+    {
+      "name": "DiaPig_UI.OnDisable",
+      "va": "0x2b8d98c"
+    },
+    {
+      "name": "DiaPig_UI.UI_Reload",
+      "va": "0x2b8cfd8"
+    },
+    {
+      "name": "DiaPig_UI.Update",
+      "va": "0x2b8db08"
+    },
+    {
+      "name": "DiaPig_UI.Get_Dia",
+      "va": "0x2b8dcb4"
+    },
+    {
+      "name": "DiaPig_UI..ctor",
+      "va": "0x2b8dd04"
+    },
+    {
+      "name": "Shop_manager.is_DiaPig_Unlock",
+      "va": "0x2b8c8f4"
+    },
+    {
+      "name": "Shop_manager.DiaPig_TickAmount",
+      "va": "0x2b8d3cc"
+    }
+  ],
+  "labels": {
+    "native": "exact-native",
+    "scene": "exact-serialized",
+    "local_binding": "offline-substitute; unavailable purchase status always locked; no preview entitlement or production reward",
+    "clock": "local UTC/monotonic adapter; native trusted wall-clock catch-up unavailable; never accept wall-clock-only gain"
+  },
+  "remaining": [
+    "Paid access and trusted-time catch-up unavailable",
+    "I2 localization and SDK tweens not complete",
+    "Offline simulation and remaining UI/effects",
+    "Player/device acceptance"
+  ],
+  "scope_complete": false,
+  "native_export_status": {
+    "new_business": 18,
+    "exception_helper_rows": 12,
+    "complete_rows": 30,
+    "exports": [
+      {
+        "name": "DiaPig_IsUnlocked",
+        "preferred_va": "0x2b8c7d0",
+        "ghidra_va": "02c8c7d0",
+        "completed": true,
+        "c_sha256": "9de3ec2a45e490f002276a24344e577aded962af7f2195727800396a31c47802",
+        "asm_sha256": "08ddfe4ce3f68614faffa013d35f326aa35709900a8e8301ade0a98abe9db70f"
+      },
+      {
+        "name": "DiaPig_Awake",
+        "preferred_va": "0x2b8c978",
+        "ghidra_va": "02c8c978",
+        "completed": true,
+        "c_sha256": "27ee141eebd0019614f8d8308e0b50b4961de9f552334bf39abeb0cd7da7cc5c",
+        "asm_sha256": "50b5f1fd46b13898871cbe0a24e188d84727d3e60a082d40a3864916cf65a964"
+      },
+      {
+        "name": "DiaPig_SetLastTick",
+        "preferred_va": "0x2b8c9d0",
+        "ghidra_va": "02c8c9d0",
+        "completed": true,
+        "c_sha256": "15b03b75e6e211bd70d595d83d45f69d9bfd496136346ce9e7a0a7647d8ce153",
+        "asm_sha256": "a652d053dc7b5353d4392e07c981305d91cbacf5bc4ec9c132d935300a8342e4"
+      },
+      {
+        "name": "DiaPig_Init",
+        "preferred_va": "0x2b8ca3c",
+        "ghidra_va": "02c8ca3c",
+        "completed": true,
+        "c_sha256": "d98b0d66d60e84e797215a1d7528bb26446d6230743aad0ec34d9310e370435f",
+        "asm_sha256": "d467076e6007a02712608c7b3d48de2c7c222a75e5f2cf8d1d4ef602c3b46315"
+      },
+      {
+        "name": "DiaPig_Tick_Accumulate",
+        "preferred_va": "0x2b8cc74",
+        "ghidra_va": "02c8cc74",
+        "completed": true,
+        "c_sha256": "98afdd55b977d1b4ebdd614d7c4f3c7ec9c960a6cb5724d3241e19d4091e71db",
+        "asm_sha256": "68748d94d9e043d3ee9ed0a5103ddd6fa35c46e4af85a2a19045b5995816bf5d"
+      },
+      {
+        "name": "DiaPig_Update",
+        "preferred_va": "0x2b8d44c",
+        "ghidra_va": "02c8d44c",
+        "completed": true,
+        "c_sha256": "e4a473afa8a75ff9a0e1add7278b4f959d960d21f5292a7dad8859155263adfd",
+        "asm_sha256": "4baf15332462cbdcedc838eb69b1c93c8187f38835274f7ae30bbf8b712e7d35"
+      },
+      {
+        "name": "DiaPig_Dia_Get",
+        "preferred_va": "0x2b8d4c4",
+        "ghidra_va": "02c8d4c4",
+        "completed": true,
+        "c_sha256": "b59706e4034c6ed784b772dec86c416a22d401ab41b9988fb9b3ebe0de21d80b",
+        "asm_sha256": "6ee92bf9d387e5f2731887dab8e9f1d89b8f36da2836ff75d0d8a2e886997af2"
+      },
+      {
+        "name": "DiaPig_GetSecondsUntilNextTick",
+        "preferred_va": "0x2b8d5f4",
+        "ghidra_va": "02c8d5f4",
+        "completed": true,
+        "c_sha256": "fb2885046a569d61f4fd2ab53b2270c3d8103b18ff3f79673e726cc34c805e63",
+        "asm_sha256": "e3984e128b8c4b94677d715e65f6c49104d36e8e8d6cefc167e30b3c4c9a58b9"
+      },
+      {
+        "name": "DiaPig_GetSaveData",
+        "preferred_va": "0x2b8d6f0",
+        "ghidra_va": "02c8d6f0",
+        "completed": true,
+        "c_sha256": "4b3e50205260b1b13b32ed07932de88816ac65d754cad3f7eb4bc79d98aebf1d",
+        "asm_sha256": "426be8a137d1e93411e592b89ef76e65aeadbb6118290c50b001f918d914419a"
+      },
+      {
+        "name": "DiaPig__ctor",
+        "preferred_va": "0x2b8d7f8",
+        "ghidra_va": "02c8d7f8",
+        "completed": true,
+        "c_sha256": "c93dc44aac9f9a8f37eb7652da3ed0fe0ca2ec61f72bb8158d7a66175b3c81dc",
+        "asm_sha256": "4a1197755a2f092e36b690f4909bd9feb0be33c091ed8046695829755737ce65"
+      },
+      {
+        "name": "DiaPig_UI_OnEnable",
+        "preferred_va": "0x2b8d808",
+        "ghidra_va": "02c8d808",
+        "completed": true,
+        "c_sha256": "8df1119f68f0ef8ca04ab80c7ed7b0480e7eedb33ac7624cb0d38f522914e1df",
+        "asm_sha256": "a107042f09a60fcb088836af6ae48cf40f071b854d50cd2da7e9395d93dc66b3"
+      },
+      {
+        "name": "DiaPig_UI_OnDisable",
+        "preferred_va": "0x2b8d98c",
+        "ghidra_va": "02c8d98c",
+        "completed": true,
+        "c_sha256": "b81c2e188747ca4dcd218c4f4b88da1924e099e985b3f41f9799f106bfde00e8",
+        "asm_sha256": "6f82c545111421d9a1084103f4ae38a2d25ed1e6983376e8d3f624aeb9a3617c"
+      },
+      {
+        "name": "DiaPig_UI_UI_Reload",
+        "preferred_va": "0x2b8cfd8",
+        "ghidra_va": "02c8cfd8",
+        "completed": true,
+        "c_sha256": "b804b9797a2658d6b2c9b5f1173eff0c62ac454b5ac9d8f860cd53985f1bb8a5",
+        "asm_sha256": "b9c6c695748d0111627c5d1e6802336e83c8a127157d9c6b222d16bd06c57a33"
+      },
+      {
+        "name": "DiaPig_UI_Update",
+        "preferred_va": "0x2b8db08",
+        "ghidra_va": "02c8db08",
+        "completed": true,
+        "c_sha256": "89fd6d9296e7f11ad4b960e0cd9fb8d21b880985082bbb330287b7a6a915c236",
+        "asm_sha256": "3a1abb2cc6087a49a65ddf7cb464ac246f0193f8451d1014556fe1dad325a806"
+      },
+      {
+        "name": "DiaPig_UI_Get_Dia",
+        "preferred_va": "0x2b8dcb4",
+        "ghidra_va": "02c8dcb4",
+        "completed": true,
+        "c_sha256": "ee41958d17ab1f8220a1ed5f6ea3103309f1f0704308b8f89da599de4bbcf818",
+        "asm_sha256": "742007854be998948dd1d285323a3316433981d37bb4fde0906e7485ac37e841"
+      },
+      {
+        "name": "DiaPig_UI__ctor",
+        "preferred_va": "0x2b8dd04",
+        "ghidra_va": "02c8dd04",
+        "completed": true,
+        "c_sha256": "85ba9370ffb0468e40ba04aae38d3525490e550e64aeff4c24e4f7bad862190c",
+        "asm_sha256": "2014b279bfcffb52cf034521c4ebc6ea0675e38a215da431142976d50d176320"
+      },
+      {
+        "name": "Throw_NullReference_Wrapper",
+        "preferred_va": "0x28f5cfc",
+        "ghidra_va": "029f5cfc",
+        "completed": true,
+        "c_sha256": "4dbe5415e169f90b0ce5055036cca1b94bf1565f8d9d2308c08bf4bd707fcb91",
+        "asm_sha256": "eec6b09062497629de85a27e3a8cad918b42764b2a1c0f544152a636461e5fdd"
+      },
+      {
+        "name": "Throw_Index_Wrapper",
+        "preferred_va": "0x28f5d04",
+        "ghidra_va": "029f5d04",
+        "completed": true,
+        "c_sha256": "b554c9aba53206d804e9fc370e97cf27027d10930f18eb2a6be625e055cb8dd1",
+        "asm_sha256": "5581995141036f8f8cb7598583a54ae3c1a567e77a4bbff543774e6d542c448c"
+      },
+      {
+        "name": "Throw_NullReference_Create",
+        "preferred_va": "0x293e6a8",
+        "ghidra_va": "02a3e6a8",
+        "completed": true,
+        "c_sha256": "07933b7cac27ee4d3e9d7c27b53882e222ed878cead5f8d79e73b3adba1fff6f",
+        "asm_sha256": "428c28c0278566bbd155390442ae395ecf5d111ac48dd41afa23cc88ab7051b2"
+      },
+      {
+        "name": "Throw_NullReference_Raise",
+        "preferred_va": "0x293e6bc",
+        "ghidra_va": "02a3e6bc",
+        "completed": true,
+        "c_sha256": "aded7644ecb862bc0a5476706b21810f9257b367ac0397bdc541e91af2615d80",
+        "asm_sha256": "5aafa322c11ce154d2ee31e138ead7810e48a24e419b8885131feb71851f1d71"
+      },
+      {
+        "name": "Throw_Index_Raise",
+        "preferred_va": "0x293e6f4",
+        "ghidra_va": "02a3e6f4",
+        "completed": true,
+        "c_sha256": "f7b9c1233cebb3659705feb97a706251cb1dd6dcac5b14dcbcd482f99b3529a7",
+        "asm_sha256": "53f08a0cd65a4fe4ba45d72673ff66e057b405fd9658b230d54ec9cb96fab4ed"
+      },
+      {
+        "name": "Managed_Exception_CxaThrow",
+        "preferred_va": "0x293e610",
+        "ghidra_va": "02a3e610",
+        "completed": true,
+        "c_sha256": "f034685b9e5e3c23ca134caf66dd8742db361f79a48e68bfefb6bb0b28479155",
+        "asm_sha256": "79d2db030a3cd3519ea853008b8d9e435cee4ca33d345340c0a40c9ffa737b80"
+      },
+      {
+        "name": "Shop_manager_is_DiaPig_Unlock",
+        "preferred_va": "0x2b8c8f4",
+        "ghidra_va": "02c8c8f4",
+        "completed": true,
+        "c_sha256": "0f549a620c2188c3706f64e41996b3f9a2810a83d0f7da0c74d7f5e1f72a8469",
+        "asm_sha256": "5390e5b623412339566119be58106598aef89c2b8c66d99e352be9232885a981"
+      },
+      {
+        "name": "Shop_manager_DiaPig_TickAmount",
+        "preferred_va": "0x2b8d3cc",
+        "ghidra_va": "02c8d3cc",
+        "completed": true,
+        "c_sha256": "a54555450af13c405a4197288056e6344dc873a4bc8c2f10998e15e735096153",
+        "asm_sha256": "dd6f3964f612815a43d9bfaa3628b7436d69a639bddc1f9d1e42af96f1447257"
+      },
+      {
+        "name": "Throw_NullReference_Wrapper",
+        "preferred_va": "0x28f5cfc",
+        "ghidra_va": "029f5cfc",
+        "completed": true,
+        "c_sha256": "4dbe5415e169f90b0ce5055036cca1b94bf1565f8d9d2308c08bf4bd707fcb91",
+        "asm_sha256": "eec6b09062497629de85a27e3a8cad918b42764b2a1c0f544152a636461e5fdd"
+      },
+      {
+        "name": "Throw_Index_Wrapper",
+        "preferred_va": "0x28f5d04",
+        "ghidra_va": "029f5d04",
+        "completed": true,
+        "c_sha256": "b554c9aba53206d804e9fc370e97cf27027d10930f18eb2a6be625e055cb8dd1",
+        "asm_sha256": "5581995141036f8f8cb7598583a54ae3c1a567e77a4bbff543774e6d542c448c"
+      },
+      {
+        "name": "Throw_NullReference_Create",
+        "preferred_va": "0x293e6a8",
+        "ghidra_va": "02a3e6a8",
+        "completed": true,
+        "c_sha256": "07933b7cac27ee4d3e9d7c27b53882e222ed878cead5f8d79e73b3adba1fff6f",
+        "asm_sha256": "428c28c0278566bbd155390442ae395ecf5d111ac48dd41afa23cc88ab7051b2"
+      },
+      {
+        "name": "Throw_NullReference_Raise",
+        "preferred_va": "0x293e6bc",
+        "ghidra_va": "02a3e6bc",
+        "completed": true,
+        "c_sha256": "aded7644ecb862bc0a5476706b21810f9257b367ac0397bdc541e91af2615d80",
+        "asm_sha256": "5aafa322c11ce154d2ee31e138ead7810e48a24e419b8885131feb71851f1d71"
+      },
+      {
+        "name": "Throw_Index_Raise",
+        "preferred_va": "0x293e6f4",
+        "ghidra_va": "02a3e6f4",
+        "completed": true,
+        "c_sha256": "f7b9c1233cebb3659705feb97a706251cb1dd6dcac5b14dcbcd482f99b3529a7",
+        "asm_sha256": "53f08a0cd65a4fe4ba45d72673ff66e057b405fd9658b230d54ec9cb96fab4ed"
+      },
+      {
+        "name": "Managed_Exception_CxaThrow",
+        "preferred_va": "0x293e610",
+        "ghidra_va": "02a3e610",
+        "completed": true,
+        "c_sha256": "f034685b9e5e3c23ca134caf66dd8742db361f79a48e68bfefb6bb0b28479155",
+        "asm_sha256": "79d2db030a3cd3519ea853008b8d9e435cee4ca33d345340c0a40c9ffa737b80"
+      }
+    ]
+  },
+  "literals": {
+    "0x5d63f50": "{0}<size=30>/{1}",
+    "0x5d63f58": "DiaPig/DiaPigDescription",
+    "0x5d63f70": "s",
+    "0x5d63080": "Max",
+    "0x5d62030": "o",
+    "0x5d5d528": "+"
+  },
+  "rules": {
+    "access": "Shop_manager static forced offset8 OR all offset9; TickAmount=sum of booleans (0/1/2). No configured provider in recovered client => always locked.",
+    "ticks": "60sec/tick; max500 serialized; ordinary elapsed=min(UTCdelta,Monodelta) when difference<=300s; future last tick resets; add unchecked tickAmount*ticks then min(max). Both last timestamps advance by integral minutes and preserve fractional remainder.",
+    "excluded_catchup": "Native trusted CanGrantTimedReward/PendingCount<3/RecordGain branch not connected; local monotonic elapsed only on wall-only jump; no provider, no production reward.",
+    "claim": "Unlocked && count>0: capture count then clear; reset both clocks only when old count>=max; native Get_Dia increments Dia by amount and _getDia by3*amount; Fill0/UIReload/FusionSfx(index3,override1).",
+    "save": "Native round-trip o/invariant UTC. Runtime locked branch keeps existing diaPig data untouched via current archive, explicit preservation adapter rather than native rewritten timestamp.",
+    "ui": "Locked/Unlock and description variants; count native format; +tickAmount fallback due absent I2; native remaining seconds+s or Max only unlocked. Paid event subscriptions and buttons disabled."
+  },
+  "scene_restoration": {
+    "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+    "objects": 34853,
+    "newObjects": 63,
+    "missingScripts": 0,
+    "disabledUnsupported": [
+      "Locked_obj: Panel_Open",
+      "Remove_AD_All: Purchase",
+      "Remove_AD_Forced: Purchase"
+    ],
+    "connectedTutorialReferences": 6,
+    "purchaseProviderAvailable": false
+  },
+  "source_preparation": "diapig-slice-preparation.json",
+  "production_entitlements_granted": false,
+  "first16bytes_verified": true,
+  "ordinary_clock_tolerance_seconds": 300,
+  "arithmetic_scope": "Native ordinary finite elapsed domain; SDK trusted-time catch-up and extreme/infinite clock values unavailable."
+}

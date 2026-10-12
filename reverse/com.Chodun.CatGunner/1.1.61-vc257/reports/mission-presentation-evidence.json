@@ -1,0 +1,95 @@
+{
+  "rule": "original-game-rules/37_MISSION_REWARD_PRESENTATION.md",
+  "contract": "mission-presentation-contract.json",
+  "tests": {
+    "mission": {
+      "report": "live-mission-presentation-accepted-final-status.json",
+      "status": "completed",
+      "duration": 47.15,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "sharedReward": {
+      "report": "live-mission-presentation-shared-final-status.json",
+      "status": "completed",
+      "duration": 40.05,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "progression": {
+      "report": "live-mission-presentation-progression-final-status.json",
+      "status": "completed",
+      "duration": 16.13,
+      "summary": {
+        "total": 8,
+        "passed": 8,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "startup": {
+      "report": "live-mission-presentation-startup-final-status.json",
+      "status": "completed",
+      "duration": 23.6,
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    }
+  },
+  "boundary": "Four independent completed batches, not a full suite or Player/device acceptance. Before5 had three missing behaviors and one invalid gun fixture; corrected max-level before1 reproduced XP27 vs17. First4/5 and task diagnostic0/1 used raycast before newly enabled Canvas registration; waited two frames without production input changes. Historical5/5 then accepted5/5 after screenshot timing correction. Added real-input sound test exposed duplicate persistent+runtime claim0/1; final6/6 covers correct single-success feedback after repeated Bind. Wrong post-close image retained. Relative eval_file rejected before mutation, absolute queued integration succeeded.",
+  "nativeBusinessQueries": 7,
+  "nativeExceptionQueries": 6,
+  "sourceParameters": "mission-presentation-source-parameters.json",
+  "sceneAudit": "mission-presentation-scene-document-diff.json",
+  "preservationAudit": "mission-presentation-preservation-audit.json",
+  "referenceAudit": "mission-presentation-reference-audit.json",
+  "handoff": "mission-presentation-editor-handoff.json",
+  "console": "mission-presentation-final-console.json",
+  "runner": "mission-presentation-final-runner.json",
+  "sceneSha256": "b487f5b20ca618e5848f6217f7c0917080e4aa4ed93fcbf7db9ee461e066c739",
+  "sourceSha256": {
+    "Assets/Recovery/Scripts/Mission_Reward_Item.cs": "00bb0c747a52d332d4dea2d4658747a818b3e3993e1fa3a189f8fccad2fccc53",
+    "Assets/Recovery/Scripts/Mission_Reward_Slot.cs": "fdafc673c3753fc2237e026a333f76d7130c94292f0898df25b2221fff97626d",
+    "Assets/Recovery/Scripts/Mission_Exp_Slider.cs": "c0ce606358353bc48dbb2aeed8d09e129bfad8a38a40419451f3b7b69247d259",
+    "Assets/Recovery/Scripts/Mission_Item_UI.cs": "33c784ae1b3ee03165ba3671e4ed12b170d8996b860d0fa2135dd1a4affa9f84",
+    "Assets/Recovery/Scripts/Mission_manager.cs": "c6201a5cf6e340f7b5a22eab722e3a263f2938e1ed0e6d9ff74fc5dfc99ebd4b",
+    "Assets/Recovery/Scripts/OriginalMissions.cs": "f31daf081d6d6bc5a71f95b3f39b22327b8678fe953a606f540b1340d6528464",
+    "Assets/Recovery/Tests/PlayMode/OriginalMissionPresentationTests.cs": "1bcbb8f5961476fbf65b3e80dc9f1049aaebab055702ce2ed3f685a5ff8bd3c9",
+    "Assets/Recovery/Editor/MissionPresentationClientEditor.cs": "1d47c035a81e5422701c83081f64fde9a9f084b7f67e08be9033b6044941f00f"
+  },
+  "gpu": [
+    {
+      "path": "visual/mission-diamonds-flight-gpu.png",
+      "sha256": "c5b90afeedc26daa8a4832e70d0741d3f2d37fc707955ac8066d43bde052f2ee",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/mission-diamonds-settled-gpu.png",
+      "sha256": "3fe130dad6f60e8e332a691f9a828356a783a8103670bd5e3b3dbb504c308b25",
+      "actuallyViewed": true
+    }
+  ],
+  "scopeComplete": false,
+  "differences": [
+    "Recovered UI bootstrap/model event bridge replaces complete original manager lifecycle",
+    "Shared bounded ParticleImage renderer and Bounce bootstrap remain rule36 local adapters",
+    "Original alert loop/scroll-to-next reward/analytics and complete original localized formatting are not closed",
+    "VIP/Luxury and advertising claims remain unavailable without actual providers",
+    "Local date remains an offline time substitute; no live backend or physical device acceptance"
+  ]
+}

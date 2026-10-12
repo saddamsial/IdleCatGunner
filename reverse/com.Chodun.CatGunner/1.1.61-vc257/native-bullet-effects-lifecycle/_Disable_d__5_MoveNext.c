@@ -1,0 +1,39 @@
+/* Native pseudocode, not original C#. Exact input bytes checked; preferred VA 0x2b179c8, Ghidra VA 02c179c8. */
+
+bool _Disable_d__5_MoveNext(long param_1)
+
+{
+  int iVar1;
+  long lVar2;
+  undefined8 uVar3;
+  undefined4 uVar4;
+  
+  if ((bRam000000000625befe & 1) == 0) {
+    func_0x029f5a50(PTR_DAT_05e5a710);
+    bRam000000000625befe = 1;
+  }
+  iVar1 = *(int *)(param_1 + 0x10);
+  lVar2 = *(long *)(param_1 + 0x20);
+  if (iVar1 == 0) {
+    *(undefined4 *)(param_1 + 0x10) = 0xffffffff;
+    if (lVar2 == 0) {
+LAB_02c17a94:
+                    /* WARNING: Subroutine does not return */
+      Throw_NullReference_Wrapper();
+    }
+    uVar4 = *(undefined4 *)(lVar2 + 0x20);
+    uVar3 = func_0x029f5cec(*(undefined8 *)PTR_DAT_05e5a710);
+    WaitForSeconds__ctor_0x6000e26(uVar4,uVar3,0);
+    *(undefined8 *)(param_1 + 0x18) = uVar3;
+    func_0x029f59f4((undefined8 *)(param_1 + 0x18),uVar3);
+    *(undefined4 *)(param_1 + 0x10) = 1;
+  }
+  else if (iVar1 == 1) {
+    *(undefined4 *)(param_1 + 0x10) = 0xffffffff;
+    if ((lVar2 == 0) || (lVar2 = Component_get_gameObject_0x6000c83(lVar2,0), lVar2 == 0))
+    goto LAB_02c17a94;
+    GameObject_SetActive_0x6000cfe(lVar2,0,0);
+  }
+  return iVar1 == 0;
+}
+

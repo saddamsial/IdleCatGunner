@@ -1,0 +1,99 @@
+{
+  "target": "com.Chodun.CatGunner/1.1.61-vc257/arm64",
+  "lib_sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "evidence": "exact-native control and exact-serialized values through local client service adapters",
+  "native_export": {
+    "directory": "native-boss-client-reviewed",
+    "business_methods": 43,
+    "exception_helpers": 6,
+    "all_completed": true
+  },
+  "health": {
+    "source": "serialized-components/level0-124699.json",
+    "count": 1000,
+    "first": "50e3",
+    "last": "45e698",
+    "outside_cache": "Native multiply-five / ToPrecision(2) extrapolation pending; mode refuses unsupported entry before mutating save"
+  },
+  "normal": {
+    "seconds": 60,
+    "diamonds_once": 150,
+    "head_and_skin": "stage % 9",
+    "cat_spawn": [
+      -100,
+      0,
+      0
+    ],
+    "boss_local_spawn": [
+      -15,
+      0,
+      15
+    ],
+    "entry_delay": 2,
+    "return_delays": [
+      1.5,
+      0.2
+    ],
+    "continue_before_return": 2
+  },
+  "wander": {
+    "center": [
+      -100,
+      0,
+      0
+    ],
+    "radius": 60,
+    "speed": 15,
+    "arrival_threshold": 0.5,
+    "wait_seconds": [
+      1,
+      3
+    ],
+    "avoid_cat_radius": 4,
+    "point_attempts": 10,
+    "fallback": "One extra random point",
+    "path_projection": "3D segment, clamped endpoint projection; strict distance < radius; zero cat sentinel sq < 1e-10; short segment < .001"
+  },
+  "source_components": {
+    "manager": 124699,
+    "boss": 125471,
+    "enemy": 125470,
+    "slider": 123248,
+    "start_ui": 123706
+  },
+  "death": "Enemy type2 routes to Boss; keeps root active for original Die trigger, head sprite replaced, movement coroutine stopped and velocity zero",
+  "adapters": [
+    "Independent decimal arithmetic and plain-integer health labels instead of InfVal normalization/abbreviation",
+    "RecoveryForestClient supplies save, normal wallet, mode, cat balance and transitions",
+    "Unity coroutines/Update supply timer; original method families recovered, not original C# source"
+  ],
+  "excluded": [
+    "Rank/result transport",
+    "IAP/PlusPack/auto bonus",
+    "Ad multiplier",
+    "Paid sweep",
+    "Beyond-cache health normalization",
+    "Phone and Player acceptance"
+  ],
+  "runtime": "Focused4/4 and complete91/91 PlayMode passed. Actual isolated Gun20 automatic projectiles; no pixel/phone/Player/backend parity.",
+  "legacy_save_compatibility": "Empty pet collection/rebirth level arrays from early recovery initialize neutral records; independent codec roundtrip covers preservation and malformed populated array rejection",
+  "script_guid_and_source": {
+    "Boss": {
+      "meta_sha256": "dcd4dec0869f60b0b1687164e808a8a22029e24a9445527afd97101f1a6a1ad1",
+      "source_sha256": "b207ae415a41c256a48d41db674d211b422ba65a489c096f384a2753d7c28829"
+    },
+    "Boss_manager": {
+      "meta_sha256": "1229c593e0191893e7d37136b1e17c2ec1d1040e84aa9405e39267ee1135a538",
+      "source_sha256": "841644a46fb1bcfa24bbcc869a55137263de207f8fbac02be3bee48701e38493"
+    },
+    "Boss_Slider": {
+      "meta_sha256": "c049c2fddd32ad06b71c158040e5093c31332a71ea5199de439d3ce39a7f3823",
+      "source_sha256": "60af0a86dccfd3d2f9ac2cf6df2c6080d256291ef4faf303a05fb630350e8183"
+    },
+    "Boss_Start_UI": {
+      "meta_sha256": "8eac1bce339300321ecefdfef03a580b16c9923ea7bb6f7dbd0d40f0014426ae",
+      "source_sha256": "4802f5f0d95ba5e7e5ac35505779c7ccbcbcf715851d1a6c91103e79a48a7f95"
+    }
+  },
+  "original_main_sha256_unchanged": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b"
+}

@@ -1,0 +1,96 @@
+{
+  "businessQueries": 16,
+  "exceptionHelpers": 6,
+  "allComplete": true,
+  "stateMachineOwnership": [
+    {
+      "type": "<AlertLoop_Co>d__33",
+      "owner": "Mission_manager",
+      "offset": 32
+    },
+    {
+      "type": "<ScrollToRewardLv>d__58",
+      "owner": "Mission_manager",
+      "offset": 32
+    },
+    {
+      "type": "<ScrollTo_RewardSlot_Co>d__68",
+      "owner": "Mission_manager",
+      "offset": 32
+    }
+  ],
+  "scrollDuration": {
+    "preferredVa": "0x106c190",
+    "ghidraVa": "0x116c190",
+    "bytes": "9a99993e",
+    "float": 0.30000001192092896
+  },
+  "alertWait": {
+    "instruction": "WaitForSeconds(0x40000000)",
+    "seconds": 2,
+    "scaled": true
+  },
+  "positionFormula": "Clamp01((slotLocalX-content.rect.xMin-viewport.rect.width*0.5)/(content.rect.width-viewport.rect.width))",
+  "proofOfRectAbi": "Scroll iterator asm 02c03968-02c03a18: rect s2 widths stored s8/s9; second rect s0 xMin; denominator s8-s9. Not param_3 guessed from pseudocode.",
+  "openDelay": "yield null once, immediate horizontalNormalizedPosition",
+  "claimMovement": "yield null once; velocity=Vector2.zero; .3s deltaTime; t*t*(3-2*t); replace prior owned coroutine",
+  "alertPredicate": "mission VIP filter; type counter >= MissionValue; !normal claimed OR (Luxury flag AND !luxury claimed); no season-date gate in Alert_Check",
+  "selectors": "first normal unclaimed or VIP epic unclaimed; next requires index<Reward_Lv; open target first eligible otherwise Reward_Lv clamped",
+  "dependencies": [
+    "native-mission-presentation-reviewed/Mission_manager_Mission_Reward_Get.c",
+    "native-mission-presentation-reviewed/Mission_manager_Reward_Grant.c",
+    "native-inventory-dependencies-reviewed/Mission_manager_Reward_Get.c"
+  ],
+  "localDifferences": [
+    "Time_manager server-sync bootstrap remains replaced by existing injected local clock/Bind",
+    "owner disable/panel close cancel local owned presentation jobs",
+    "VIP/Luxury eligibility is only indicator/navigation evidence; actions remain unavailable",
+    "general I2 and full particle SDK are not restored"
+  ],
+  "files": {
+    "Mission_manager_First_Unclaimed_Reward_Lv_return.asm": "ab1047560cf8efab358fedc8bacb4a1ce88a0346c44191384a867f56134de22e",
+    "Throw_Index_Raise.c": "f7b9c1233cebb3659705feb97a706251cb1dd6dcac5b14dcbcd482f99b3529a7",
+    "Mission_manager_RestartAlertLoop.asm": "081d3869a8ebb9eb93635aca78ca70e9b7b7906d652bcfad5719f53b64e70187",
+    "Throw_Index_Wrapper.c": "b554c9aba53206d804e9fc370e97cf27027d10930f18eb2a6be625e055cb8dd1",
+    "Mission_manager_Panel_Open.c": "211af4a0d75f685e7b745fdb085eaa2c0993f50cba3306df0323975ebe66a1f7",
+    "Throw_NullReference_Create.asm": "428c28c0278566bbd155390442ae395ecf5d111ac48dd41afa23cc88ab7051b2",
+    "Throw_NullReference_Wrapper.asm": "eec6b09062497629de85a27e3a8cad918b42764b2a1c0f544152a636461e5fdd",
+    "Mission_manager_OnEnable.asm": "5ac506bd54abc47d907d263408cdeafe46c6d62a7996a187be4d9aab86fa8ed0",
+    "Mission_manager_ScrollToRewardLv.c": "400ee154caee16ca544c3d6a1714348b00399ee112196f2c04b1f0513752c325",
+    "Throw_NullReference_Create.c": "07933b7cac27ee4d3e9d7c27b53882e222ed878cead5f8d79e73b3adba1fff6f",
+    "Throw_Index_Raise.asm": "53f08a0cd65a4fe4ba45d72673ff66e057b405fd9658b230d54ec9cb96fab4ed",
+    "_ScrollToRewardLv_d__58_MoveNext.c": "7e448155b276f9a7ba32fc9a67181c2641737b7b73f959426896293643aeea96",
+    "_ScrollTo_RewardSlot_Co_d__68_MoveNext.c": "492d6ef6144aeaeb3d127eaa94489fb974e98bb8b482385f2a448e62f8bdaed5",
+    "Throw_NullReference_Raise.c": "aded7644ecb862bc0a5476706b21810f9257b367ac0397bdc541e91af2615d80",
+    "Mission_manager_ScrollToRewardLv.asm": "458dccb1827d29c83e2f89320b1126275e439e183b3c212d8cbfcc3d59afa367",
+    "Mission_manager_Scroll_Target_Lv_return.asm": "60b6dc08afb52624c6dbd40184f59b4feaa3634f3ce73dca61ee5ffb985cc04e",
+    "Managed_Exception_CxaThrow.asm": "79d2db030a3cd3519ea853008b8d9e435cee4ca33d345340c0a40c9ffa737b80",
+    "Mission_manager_AlertLoop_Co.c": "8af487660dee2746fec122b219fb7094e914b345e197a530251d2c9ade8443b4",
+    "_AlertLoop_Co_d__33_MoveNext.c": "ed4034091e17a1733fae94603560016fec76cf62b3ef59d3d68cc01d135c88d9",
+    "Mission_manager_OnDisable.asm": "ea538859f528809d0fa233a7046d2d4d9c1b6cfb8892c85ceef6c41f9d4b347e",
+    "Mission_manager_OnEnable.c": "593cbdcf668054e814fc030b3d0a1ec1b5a9eea719a47b72051f6fdf4f6cc5c1",
+    "Mission_manager_ScrollTo_RewardSlot.c": "7507852d6fd3def8622469921bf8532f92eb351247b78fa6efbe551f37e08e69",
+    "Mission_manager_ScrollTo_RewardSlot.asm": "9c6ea578b8435b0158eb65f040ee4c163e69a36895f67537c6b61393013c62b1",
+    "Throw_NullReference_Raise.asm": "5aafa322c11ce154d2ee31e138ead7810e48a24e419b8885131feb71851f1d71",
+    "Mission_manager_Next_GetAble_Reward_Lv_return.c": "13bcb3de6acda998d920e196f40673083fd1d08cf886648a9058ec76af19fe50",
+    "Throw_Index_Wrapper.asm": "5581995141036f8f8cb7598583a54ae3c1a567e77a4bbff543774e6d542c448c",
+    "Mission_manager_Alert_Check.c": "df5c9bee3537e12550aa6ddf3659d44f5ac7698375b931c41249b4a877c7d2a0",
+    "Mission_manager_AlertLoop_Co.asm": "c25174eab9da44625cc71dc145af03523bee7612667e4b7f0de33595a14cdd33",
+    "Mission_manager_First_Unclaimed_Reward_Lv_return.c": "b7bdbd13077c373c8816410863e864b99b5f26c0b7dba52edcb51d63f0fa5c4c",
+    "Mission_manager_Scroll_Target_Lv_return.c": "ef6c88207a829d3855ccb08c9d440bc197cf37fcdfb0a9581251abdc723b40c9",
+    "Mission_manager_Panel_Open.asm": "91d54c23178e170aaf2ed9c85611d26ab45823df7bd8049842b6c5f7cf710644",
+    "Managed_Exception_CxaThrow.c": "f034685b9e5e3c23ca134caf66dd8742db361f79a48e68bfefb6bb0b28479155",
+    "Mission_manager_Check_All_Reward_Get.asm": "79c0f48337b9b057cdb94e050150acc4226c1f6a016a5e54640d07ae1459679e",
+    "Mission_manager_Next_GetAble_Reward_Lv_return.asm": "77ad9d87cbb22709007728f0c670b03571f9195df8b9dac7761cb654b71ca75e",
+    "Mission_manager_ScrollTo_RewardSlot_Co.c": "b1355e3ddc229d80bc9ac2f304d8155d590e04cab22595c8cc8f2e5599b82122",
+    "Mission_manager_RestartAlertLoop.c": "1b2a95aeb47e5f2dd3d053f6d3cbf8c63a9230b2c1550a33ee6a07e5b9b99b25",
+    "Throw_NullReference_Wrapper.c": "4dbe5415e169f90b0ce5055036cca1b94bf1565f8d9d2308c08bf4bd707fcb91",
+    "Mission_manager_ScrollTo_RewardSlot_Co.asm": "7d17e9de59dbc19dd707c7181524b344a27f4fd73c412d485ca630a475d3493b",
+    "_AlertLoop_Co_d__33_MoveNext.asm": "1831296e077a11d5bb7a087efb0d4e394e8b1e59ea88c41c06544320afc85a41",
+    "_ScrollToRewardLv_d__58_MoveNext.asm": "31b006d57cc1e26a294b027b1315d652af993b75e8e578a70dc9bb2ea7fdac6a",
+    "Mission_manager_Alert_Check.asm": "9196b9ca01a1b9218cfed4182db0cf2b35abbeb9033c88cdcc5e048cbd4a175b",
+    "_ScrollTo_RewardSlot_Co_d__68_MoveNext.asm": "253d2352eaea269502a63616a9492e563c4fd9da39a39ada3e9a03b603b5cdd4",
+    "Mission_manager_OnDisable.c": "9e85c6b4f1d86bcaa5cec8f126a681df1db528ec5a516f3a3cce5180f4da6b9d",
+    "Mission_manager_Check_All_Reward_Get.c": "4224d69f10909f7f5e91e20181de5a27c7113ea1364d8ffcb426b58f154ad31c"
+  }
+}

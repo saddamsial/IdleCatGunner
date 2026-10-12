@@ -1,0 +1,68 @@
+{
+  "rule": 70,
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "uiManager": {
+    "component": 125656,
+    "originalUiObjs": [
+      455,
+      1457,
+      1165,
+      233,
+      1993,
+      1879
+    ],
+    "paths": [
+      "Main_UI",
+      "SpeedRun_UI",
+      "Mine_UI",
+      "Boss_UI",
+      "Monster_UI",
+      "Raid_UI"
+    ],
+    "native": "native-inventory-dependencies-reviewed/UI_manager_UI_Reload.c",
+    "selector": "active iff index equals requested mode; separate runtime binder"
+  },
+  "floor": {
+    "shader": "Custom/DiamondClipSprite",
+    "glsl": "reports/monster-floor-original-gles3.glsl",
+    "fragment": "discard if dot(rawUV-.5, rawUV-.5) > .25; sample tiled UV and multiply uniform _Color",
+    "tile": [
+      7,
+      3.74
+    ],
+    "blend": [
+      5,
+      10
+    ],
+    "depthTest": 4,
+    "depthWrite": 0,
+    "cull": 0,
+    "sourceMaterial": "assetripper-baseline/ExportedProject/Assets/Material/Monster_Main_Floor.mat",
+    "texture": "Grass-8",
+    "boundary": "Matching GLES3 formula/pass state ported to a new HLSL shader; source transform/art unchanged"
+  },
+  "mission": {
+    "native": "native-mission-presentation-reviewed/Mission_Item_UI_Value_Reload.c",
+    "statuses": {
+      "0": "NonClear",
+      "1": "GetAble",
+      "2": "Get; both claims already collected",
+      "3": "LuxuryBonus and Luxury_Panel; ordinary claimed, bonus unclaimed"
+    },
+    "status3Experience": "RoundToInt(baseExp * .5)",
+    "claimService": "Existing user-authorized local purchase adapter; no production entitlement"
+  },
+  "referenceVideos": [
+    "Screenrecorder-2026-10-08-18-53-03-74.mp4",
+    "Screenrecorder-2026-10-08-18-55-23-308.mp4"
+  ],
+  "nativeQueryIncrease": 0,
+  "scopeComplete": false,
+  "sourceHashes": {
+    "native-inventory-dependencies-reviewed/UI_manager_UI_Reload.c": "19aeddd457137e4fe91c8629bf27e0c150c99fe645284b7683b48aea012b59b0",
+    "native-mission-presentation-reviewed/Mission_Item_UI_Value_Reload.c": "122fa0708de934e1f018617219d3fe3e6d77b637c729a512ab12376217e9da33",
+    "native-mission-sorting-reviewed/Mission_manager_Mission_UI_Reload.c": "5a0c29dd78c86bb17a946a6f3b52df245cc5f1878836da176a264ac7bb504de8",
+    "assetripper-baseline/ExportedProject/Assets/Material/Monster_Main_Floor.mat": "fbf2977bb799eb6126a18913c08610c997ea7db787e400ebf972e7166edbf0d5",
+    "reports/monster-floor-original-gles3.glsl": "b4619a46abc3154b57c57a6cf54700a2bcc3d6ab99c574e4277de332258f8905"
+  }
+}

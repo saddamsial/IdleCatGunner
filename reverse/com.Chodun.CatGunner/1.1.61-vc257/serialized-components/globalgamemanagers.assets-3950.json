@@ -1,0 +1,70 @@
+{
+  "identity": {
+    "file": "globalgamemanagers.assets",
+    "path_id": 3950,
+    "type_index": 8298,
+    "type": "UnityEngine.Rendering.ProbeVolumesOptions",
+    "game_object": "ProbeVolumesOptions"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": 1650
+    },
+    "m_Name": "ProbeVolumesOptions",
+    "active": true,
+    "normalBias": {
+      "m_OverrideState": true,
+      "m_Value": 0.33000001311302185
+    },
+    "viewBias": {
+      "m_OverrideState": true,
+      "m_Value": 0.0
+    },
+    "scaleBiasWithMinProbeDistance": {
+      "m_OverrideState": true,
+      "m_Value": false
+    },
+    "samplingNoise": {
+      "m_OverrideState": true,
+      "m_Value": 0.10000000149011612
+    },
+    "animateSamplingNoise": {
+      "m_OverrideState": true,
+      "m_Value": true
+    },
+    "leakReductionMode": {
+      "m_OverrideState": true,
+      "m_Value": 1
+    },
+    "minValidDotProductValue": {
+      "m_OverrideState": true,
+      "m_Value": 0.10000000149011612
+    },
+    "occlusionOnlyReflectionNormalization": {
+      "m_OverrideState": true,
+      "m_Value": true
+    },
+    "intensityMultiplier": {
+      "m_OverrideState": true,
+      "m_Value": 1.0
+    },
+    "skyOcclusionIntensityMultiplier": {
+      "m_OverrideState": true,
+      "m_Value": 1.0
+    },
+    "worldOffset": {
+      "m_OverrideState": true,
+      "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  }
+}

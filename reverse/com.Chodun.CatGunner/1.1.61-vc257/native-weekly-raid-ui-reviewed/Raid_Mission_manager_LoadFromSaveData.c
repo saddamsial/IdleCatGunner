@@ -1,0 +1,45 @@
+/* Native pseudocode, not original C#. Exact input bytes checked; preferred VA 0x2b54fc4, Ghidra VA 02c54fc4. */
+
+void Raid_Mission_manager_LoadFromSaveData(long param_1,long param_2)
+
+{
+  undefined *puVar1;
+  undefined8 uVar2;
+  long lVar3;
+  
+  if ((bRam000000000625c183 & 1) == 0) {
+    func_0x029f5a50(PTR_DAT_05e5e068);
+    bRam000000000625c183 = 1;
+  }
+  if ((*(long *)(param_1 + 0x20) == 0) || (*(int *)(*(long *)(param_1 + 0x20) + 0x18) != 8)) {
+    Raid_Mission_manager_Balance_Reload(param_1);
+  }
+  puVar1 = PTR_DAT_05e5e068;
+  Raid_Mission_manager_EnsureArrays(param_1);
+  Array_Clear_0x6000d48(*(undefined8 *)(param_1 + 0x30),0,8,0);
+  Array_Clear_0x6000d48(*(undefined8 *)(param_1 + 0x38),0,8,0);
+  Array_Clear_0x6000d48(*(undefined8 *)(param_1 + 0x40),0,8,0);
+  *(undefined1 *)(param_1 + 0x48) = 0;
+  *(undefined4 *)(param_1 + 0x28) = 0xffffffff;
+  if (param_2 != 0) {
+    uVar2 = *(undefined8 *)(param_2 + 0x408);
+    *(undefined4 *)(param_1 + 0x28) = *(undefined4 *)(param_2 + 0x400);
+    Raid_Mission_manager_CopyFlags(uVar2,*(undefined8 *)(param_1 + 0x30));
+    Raid_Mission_manager_CopyFlags(*(undefined8 *)(param_2 + 0x410),*(undefined8 *)(param_1 + 0x38))
+    ;
+    Raid_Mission_manager_CopyFlags(*(undefined8 *)(param_2 + 0x418),*(undefined8 *)(param_1 + 0x40))
+    ;
+    *(undefined1 *)(param_1 + 0x48) = *(undefined1 *)(param_2 + 0x420);
+  }
+  Raid_Mission_manager_Season_Check(param_1);
+  Raid_Mission_manager_Refresh_Clear(param_1);
+  lVar3 = *(long *)(*(long *)(*(long *)puVar1 + 0xb8) + 8);
+  if (lVar3 != 0) {
+                    /* WARNING: Could not recover jumptable at 0x02c550d4. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+    (**(code **)(lVar3 + 0x18))(*(undefined8 *)(lVar3 + 0x40),*(undefined8 *)(lVar3 + 0x28));
+    return;
+  }
+  return;
+}
+

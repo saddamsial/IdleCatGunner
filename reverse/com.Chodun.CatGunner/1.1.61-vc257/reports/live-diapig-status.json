@@ -1,0 +1,77 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 45.1,
+      "summary": {
+        "total": 7,
+        "passed": 5,
+        "failed": 2,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalDiaPigTests.InvalidFutureAndRollbackClocksResetWithoutWallOnlyCatchup",
+          "Status": "Passed",
+          "Duration": 6.3144938,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalDiaPigTests.LockedCounterNeverAccumulatesOrConsumesExistingFunds",
+          "Status": "Passed",
+          "Duration": 5.4284239,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalDiaPigTests.LockedSaveKeepsCountAndTimestampAcrossColdReloadAndCannotClaim",
+          "Status": "Passed",
+          "Duration": 11.0519608,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalDiaPigTests.MinuteTicksKeepRemainderAndUseSlowerClock",
+          "Status": "Passed",
+          "Duration": 5.438487,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalDiaPigTests.ModeEntryClosesPigAndReturnsToUsableForest",
+          "Status": "Failed",
+          "Duration": 5.6665427,
+          "Message": "  Expected: 0\n  But was:  1\n",
+          "StackTrace": "at OriginalDiaPigTests+<ModeEntryClosesPigAndReturnsToUsableForest>d__13.MoveNext () [0x000a5] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDiaPigTests.cs:83\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalDiaPigTests.OriginalHudOpensLockedPageAndClosesWithRealInputWithoutGrant",
+          "Status": "Failed",
+          "Duration": 5.711778,
+          "Message": "  Expected: False\n  But was:  True\n",
+          "StackTrace": "at OriginalDiaPigTests+<OriginalHudOpensLockedPageAndClosesWithRealInputWithoutGrant>d__11.MoveNext () [0x00376] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDiaPigTests.cs:65\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalDiaPigTests.PartialClaimKeepsRemainderFullClaimResetsClockAndDiamondLedger",
+          "Status": "Passed",
+          "Duration": 5.4245164,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

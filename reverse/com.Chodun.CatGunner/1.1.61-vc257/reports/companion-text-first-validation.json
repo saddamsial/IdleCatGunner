@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 31.83,
+      "summary": {
+        "total": 5,
+        "passed": 3,
+        "failed": 2,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalCompanionStaticTextTests.FishDeleteCancelAndNewFishKeepOriginalInventoryAndText",
+          "Status": "Passed",
+          "Duration": 7.0979434,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalCompanionStaticTextTests.FishInformationAndDetailReopenKeepProbabilitiesAndInventory",
+          "Status": "Failed",
+          "Duration": 6.5460012,
+          "Message": "  Normal|Inside Mask|Panel|Background|FishTank\n  Expected: same as <Background (UnityEngine.UI.Button)>\n  But was:  null\n",
+          "StackTrace": "at OriginalCompanionStaticTextTests+<Click>d__12.MoveNext () [0x00101] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalCompanionStaticTextTests.cs:48\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalCompanionStaticTextTests.LabelsFollowOriginalTermsAtNormalStartup",
+          "Status": "Passed",
+          "Duration": 5.7153883,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalCompanionStaticTextTests.PetInformationDetailAndAcquisitionKeepBalancesAndReopen",
+          "Status": "Failed",
+          "Duration": 6.5942464,
+          "Message": "  Inside Mask|Panel|Background|Hatch|PetItem_list\n  Expected: same as <Background (UnityEngine.UI.Button)>\n  But was:  null\n",
+          "StackTrace": "at OriginalCompanionStaticTextTests+<Click>d__12.MoveNext () [0x00101] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalCompanionStaticTextTests.cs:48\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalCompanionStaticTextTests.RepeatedLocaleRefreshPreservesDynamicOwnersAndReleasesFontMaterial",
+          "Status": "Passed",
+          "Duration": 5.8355688,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

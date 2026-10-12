@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 25.28,
+      "summary": {
+        "total": 5,
+        "passed": 5,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalStarTests.IndependentSaveResumeKeepsSlotIdentityAcrossSwapRebirthAndRaid",
+          "Status": "Passed",
+          "Duration": 13.8924102,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalStarTests.NativeGatesChargeBeforeRollAndFailedPityNeverLosesStarsOrSpendsOtherWallets",
+          "Status": "Passed",
+          "Duration": 0.0034586,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalStarTests.NativeTwentyLevelTablesKeepUnroundedAccumulatorAndExactInitializerRates",
+          "Status": "Passed",
+          "Duration": 0.0005181,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalStarTests.OriginalSlotPopupUsesRealRaycastSuccessFailureAlertAndMaximumPresentation",
+          "Status": "Passed",
+          "Duration": 6.020322,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalStarTests.UpgradedOriginalGunZeroKillsOriginalTreeWithTwoNaturalProjectiles",
+          "Status": "Passed",
+          "Duration": 5.3254754,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

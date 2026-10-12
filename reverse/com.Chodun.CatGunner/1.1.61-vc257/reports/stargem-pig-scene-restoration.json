@@ -1,0 +1,205 @@
+{
+  "objects": 35834,
+  "missingScripts": 0,
+  "newObjects": 0,
+  "controllers": [
+    {
+      "type": "StarGem_Pig",
+      "originalGo": 693,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "StarGem_Pig",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "Lv": 1,
+        "Gem": 0,
+        "PurchaseCount": 0,
+        "Season_Index": -1,
+        "pig_ui": {
+          "fileID": 124938
+        }
+      }
+    },
+    {
+      "type": "StarGem_Pig_UI",
+      "originalGo": 1664,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "StarGem_Pig",
+          "ordinal": 0
+        },
+        {
+          "name": "StarGemPig_UI",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "Lv_txt": {
+          "fileID": 117204
+        },
+        "GemCount_txt": {
+          "fileID": 117211
+        },
+        "Price_txt": {
+          "fileID": 120957
+        },
+        "Gem_Fill": {
+          "fileID": 123984
+        },
+        "Sale_obj": {
+          "fileID": 1723
+        },
+        "Locked_obj": {
+          "fileID": 546
+        },
+        "Purchase_Btn_obj": {
+          "fileID": 1220
+        },
+        "SoldOut_obj": {
+          "fileID": 10289
+        },
+        "Sale_Value_txt": {
+          "fileID": 117353
+        }
+      }
+    },
+    {
+      "type": "StarGem_Pig_HUD",
+      "originalGo": 718,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Start_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "StarPig_Btn",
+          "ordinal": 0
+        }
+      ],
+      "fields": {
+        "Gem_Fill": {
+          "fileID": 123363
+        },
+        "Percent_txt": {
+          "fileID": 117126
+        },
+        "Alert_obj": {
+          "fileID": 0
+        },
+        "Glow_obj": {
+          "fileID": 974
+        }
+      }
+    }
+  ],
+  "buttons": [
+    {
+      "sourceId": 124439,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "StarGem_Pig",
+          "ordinal": 0
+        },
+        {
+          "name": "StarGemPig_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Purchase_Btn",
+          "ordinal": 0
+        }
+      ],
+      "type": "StarGem_Pig_UI",
+      "method": "onClick_Purchase"
+    },
+    {
+      "sourceId": 123807,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Start_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "StarPig_Btn",
+          "ordinal": 0
+        }
+      ],
+      "type": "StarGem_Pig_HUD",
+      "method": "onClick_Open"
+    }
+  ]
+}

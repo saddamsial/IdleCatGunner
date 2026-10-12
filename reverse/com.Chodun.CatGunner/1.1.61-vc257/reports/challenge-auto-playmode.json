@@ -1,0 +1,83 @@
+{
+  "status": "completed",
+  "duration": 284.2,
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "AutoChallengeRewardsTests.ColdReloadKeepsLocalEntitlementProgressAndWalletWithoutReplayingResults",
+      "Status": "Passed",
+      "Duration": 17.4226156,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AutoChallengeRewardsTests.DisabledPurchaseSimulationKeepsOrdinaryMineSettlementAndAdFlow",
+      "Status": "Passed",
+      "Duration": 7.2342089,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AutoChallengeRewardsTests.ForcedRemovalUsesOrdinarySpeedRewardAndOneLocalAdCompletesFourTimes",
+      "Status": "Passed",
+      "Duration": 7.1743439,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AutoChallengeRewardsTests.FullRemovalMineSettlementCreditsOriginalFourTimes",
+      "Status": "Passed",
+      "Duration": 7.1669229,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AutoChallengeRewardsTests.NaturalMineTimerKeepsTicketBestAndPlusPackFloorWhileCreditingFourTimes",
+      "Status": "Passed",
+      "Duration": 71.1238172,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AutoChallengeRewardsTests.NaturalMonsterClearPaysDoublePerLevelAndOriginalNoAdsExitDoesNotPayAgain",
+      "Status": "Passed",
+      "Duration": 47.9892573,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AutoChallengeRewardsTests.NaturalSpeedRunVictoryCredits120AndOriginalNoAdsButtonReturnsToForest",
+      "Status": "Passed",
+      "Duration": 25.5957597,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AutoChallengeRewardsTests.OrdinaryMonsterRewardUsesOneAdAndClosedResultsRejectLateCallbacks",
+      "Status": "Passed",
+      "Duration": 81.0966481,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AutoChallengeRewardsTests.SpeedTimeoutWithFullRemovalDoesNotGrantVictoryOrAdvance",
+      "Status": "Passed",
+      "Duration": 9.775198,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "AutoChallengeRewardsTests.ZeroMineRewardAndRepeatedEndKeepWalletBestAndTicketUnchanged",
+      "Status": "Passed",
+      "Duration": 9.0234062,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

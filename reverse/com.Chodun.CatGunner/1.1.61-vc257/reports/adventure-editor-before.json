@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "return new { scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().path, playing=UnityEditor.EditorApplication.isPlaying, paused=UnityEditor.EditorApplication.isPaused, dirty=UnityEngine.SceneManagement.SceneManager.GetActiveScene().isDirty, version=UnityEngine.Application.unityVersion };"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "playing": false,
+        "paused": false,
+        "dirty": false,
+        "version": "6000.4.10f1"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

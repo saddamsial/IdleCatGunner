@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "command": "command eval_file",
+  "data": {
+    "command": "eval_file",
+    "parameters": {
+      "file": "/tmp/catgunner-detail-hold-handoff.cs"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "unity": "6000.4.10f1",
+        "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "playing": false,
+        "paused": false,
+        "compiling": false,
+        "dirty": false,
+        "persist": true,
+        "saveFolderOverride": null,
+        "objects": 34363,
+        "missingScripts": 0,
+        "pet_arrow_buttons_enabled": true,
+        "hold_rows": 3,
+        "ready_for_user_play": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

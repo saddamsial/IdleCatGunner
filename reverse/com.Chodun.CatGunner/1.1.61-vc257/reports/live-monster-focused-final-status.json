@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 122.63,
+      "summary": {
+        "total": 5,
+        "passed": 5,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalMonsterTests.FifthLevelBigEnemiesRollIntoNextWaveAndRestoreOriginalHud",
+          "Status": "Passed",
+          "Duration": 20.2664724,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMonsterTests.KnockbackSlimeDeathReplacementAndLastLifeFailureAreDistinct",
+          "Status": "Passed",
+          "Duration": 8.0558042,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMonsterTests.NativeInitializerAndPrecisionAndSpawnEllipseContract",
+          "Status": "Passed",
+          "Duration": 0.0020823,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMonsterTests.NaturalOriginalSingleLifeBreachAndEntryCancellationCannotAwardOrRestart",
+          "Status": "Passed",
+          "Duration": 51.5029355,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMonsterTests.OriginalNavigationZeroInputProjectilesClearNinetyAndKeepRewardOnGiveUp",
+          "Status": "Passed",
+          "Duration": 42.7797169,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

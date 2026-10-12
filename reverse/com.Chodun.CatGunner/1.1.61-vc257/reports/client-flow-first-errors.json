@@ -1,0 +1,222 @@
+{
+  "success": true,
+  "command": "command console",
+  "data": {
+    "command": "console",
+    "parameters": {
+      "level": "error",
+      "tail": "20"
+    },
+    "result": {
+      "entries": [
+        {
+          "seq": 865,
+          "timestampUtc": "2026-10-09T03:44:39.15918Z",
+          "level": "error",
+          "logType": "Error",
+          "message": "Scene 'RecoveredTarget' couldn't be loaded because it has not been added to the active build profile or shared scene list or the AssetBundle has not been loaded.\nTo add a scene to the active build profile or shared scene list use the menu File->Build Profiles",
+          "stackTrace": "UnityEngine.SceneManagement.SceneManager:LoadSceneAsync (string)\nOriginalClientFlowTests/<TearDown>d__4:MoveNext () (at Assets/Recovery/Tests/PlayMode/OriginalClientFlowTests.cs:41)\nUnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)\n",
+          "seeded": false
+        },
+        {
+          "seq": 866,
+          "timestampUtc": "2026-10-09T03:44:39.171968Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "GameSlider.Time_Reload (System.Single value) (at Assets/Recovery/Scripts/GameSlider.cs:25)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:91)\n",
+          "seeded": false
+        },
+        {
+          "seq": 867,
+          "timestampUtc": "2026-10-09T03:44:39.179646Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "GameSlider.Time_Reload (System.Single value) (at Assets/Recovery/Scripts/GameSlider.cs:25)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:91)\n",
+          "seeded": false
+        },
+        {
+          "seq": 868,
+          "timestampUtc": "2026-10-09T03:44:41.336816Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "GameSlider.Time_Reload (System.Single value) (at Assets/Recovery/Scripts/GameSlider.cs:25)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:91)\n",
+          "seeded": false
+        },
+        {
+          "seq": 869,
+          "timestampUtc": "2026-10-09T03:44:41.595672Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "GameSlider.Value_Reload (System.Single value) (at Assets/Recovery/Scripts/GameSlider.cs:22)\nCatGunner.Recovery.RecoveryForestClient.GameStart () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:79)\nCatGunner.Recovery.RecoveryForestClient.Initialize () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:61)\nCatGunner.Recovery.RecoveryForestClient.Start () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:39)\n",
+          "seeded": false
+        },
+        {
+          "seq": 870,
+          "timestampUtc": "2026-10-09T03:44:41.59586Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "GameSlider.Time_Reload (System.Single value) (at Assets/Recovery/Scripts/GameSlider.cs:25)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:91)\n",
+          "seeded": false
+        },
+        {
+          "seq": 871,
+          "timestampUtc": "2026-10-09T03:44:41.641949Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "GameSlider.Time_Reload (System.Single value) (at Assets/Recovery/Scripts/GameSlider.cs:25)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:91)\n",
+          "seeded": false
+        },
+        {
+          "seq": 872,
+          "timestampUtc": "2026-10-09T03:44:41.642163Z",
+          "level": "error",
+          "logType": "Error",
+          "message": "Scene 'RecoveredTarget' couldn't be loaded because it has not been added to the active build profile or shared scene list or the AssetBundle has not been loaded.\nTo add a scene to the active build profile or shared scene list use the menu File->Build Profiles",
+          "stackTrace": "UnityEngine.SceneManagement.SceneManager:LoadSceneAsync (string)\nOriginalClientFlowTests/<TearDown>d__4:MoveNext () (at Assets/Recovery/Tests/PlayMode/OriginalClientFlowTests.cs:41)\nUnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)\n",
+          "seeded": false
+        },
+        {
+          "seq": 873,
+          "timestampUtc": "2026-10-09T03:44:41.655297Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "GameSlider.Time_Reload (System.Single value) (at Assets/Recovery/Scripts/GameSlider.cs:25)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:91)\n",
+          "seeded": false
+        },
+        {
+          "seq": 874,
+          "timestampUtc": "2026-10-09T03:44:41.664178Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "GameSlider.Time_Reload (System.Single value) (at Assets/Recovery/Scripts/GameSlider.cs:25)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:91)\n",
+          "seeded": false
+        },
+        {
+          "seq": 875,
+          "timestampUtc": "2026-10-09T03:44:43.814323Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "GameSlider.Time_Reload (System.Single value) (at Assets/Recovery/Scripts/GameSlider.cs:25)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:91)\n",
+          "seeded": false
+        },
+        {
+          "seq": 876,
+          "timestampUtc": "2026-10-09T03:44:44.127671Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "GameSlider.Value_Reload (System.Single value) (at Assets/Recovery/Scripts/GameSlider.cs:22)\nCatGunner.Recovery.RecoveryForestClient.GameStart () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:79)\nCatGunner.Recovery.RecoveryForestClient.Initialize () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:61)\nCatGunner.Recovery.RecoveryForestClient.Start () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:39)\n",
+          "seeded": false
+        },
+        {
+          "seq": 877,
+          "timestampUtc": "2026-10-09T03:44:44.128098Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "GameSlider.Time_Reload (System.Single value) (at Assets/Recovery/Scripts/GameSlider.cs:25)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:91)\n",
+          "seeded": false
+        },
+        {
+          "seq": 878,
+          "timestampUtc": "2026-10-09T03:44:44.177766Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "GameSlider.Time_Reload (System.Single value) (at Assets/Recovery/Scripts/GameSlider.cs:25)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:91)\n",
+          "seeded": false
+        },
+        {
+          "seq": 879,
+          "timestampUtc": "2026-10-09T03:44:44.177977Z",
+          "level": "error",
+          "logType": "Error",
+          "message": "Scene 'RecoveredTarget' couldn't be loaded because it has not been added to the active build profile or shared scene list or the AssetBundle has not been loaded.\nTo add a scene to the active build profile or shared scene list use the menu File->Build Profiles",
+          "stackTrace": "UnityEngine.SceneManagement.SceneManager:LoadSceneAsync (string)\nOriginalClientFlowTests/<TearDown>d__4:MoveNext () (at Assets/Recovery/Tests/PlayMode/OriginalClientFlowTests.cs:41)\nUnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)\n",
+          "seeded": false
+        },
+        {
+          "seq": 880,
+          "timestampUtc": "2026-10-09T03:44:44.190266Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "GameSlider.Time_Reload (System.Single value) (at Assets/Recovery/Scripts/GameSlider.cs:25)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:91)\n",
+          "seeded": false
+        },
+        {
+          "seq": 881,
+          "timestampUtc": "2026-10-09T03:44:44.198657Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "GameSlider.Time_Reload (System.Single value) (at Assets/Recovery/Scripts/GameSlider.cs:25)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:91)\n",
+          "seeded": false
+        },
+        {
+          "seq": 884,
+          "timestampUtc": "2026-10-09T03:44:44.2342Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "GameSlider.Time_Reload (System.Single value) (at Assets/Recovery/Scripts/GameSlider.cs:25)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:91)\n",
+          "seeded": false
+        },
+        {
+          "seq": 885,
+          "timestampUtc": "2026-10-09T03:44:44.236255Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "GameSlider.Time_Reload (System.Single value) (at Assets/Recovery/Scripts/GameSlider.cs:25)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:91)\n",
+          "seeded": false
+        },
+        {
+          "seq": 886,
+          "timestampUtc": "2026-10-09T03:44:44.243087Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "NullReferenceException: Object reference not set to an instance of an object",
+          "stackTrace": "GameSlider.Time_Reload (System.Single value) (at Assets/Recovery/Scripts/GameSlider.cs:25)\nCatGunner.Recovery.RecoveryForestClient.Update () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:91)\n",
+          "seeded": false
+        }
+      ],
+      "cursor": 887,
+      "session": "b591959995fa495b84e026bb2825e5f3",
+      "returned": 20,
+      "dropped": false,
+      "reset": false,
+      "counts": {
+        "error": 61,
+        "warn": 788,
+        "log": 38
+      },
+      "groundTruth": {
+        "sampledUtc": "2026-10-09T03:45:15.526778Z",
+        "ageMs": 26,
+        "compilationFailed": false,
+        "compiling": false,
+        "consoleErrors": 15,
+        "consoleWarnings": 0,
+        "consoleLogs": 5,
+        "seeded": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

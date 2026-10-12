@@ -1,0 +1,114 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257",
+  "native_sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "evidence": "Matching existing bounded native output, verified bytes and ARM64 ABI; no new build or external game used",
+  "methods": [
+    {
+      "name": "Cat_Attack",
+      "preferred_va": "0x2b3d4ac",
+      "ghidra_va": "0x2c3d4ac",
+      "end_preferred_va": "0x2b3d9a0",
+      "first_16_bytes": "ffc305d1ef3b106ded33116deb2b126d",
+      "c_sha256": "b9e602e1e80aaced8d81b49ac213eb9e1f32594bb5a0cf0a9afa5c90408d15c6",
+      "asm_sha256": "b8d0f5f16b3baf6505695162e7abca1a924fdcc1b6278e88ece9c6876f3ce8a0"
+    },
+    {
+      "name": "Cat_TryFireShotgun",
+      "preferred_va": "0x2b41fbc",
+      "ghidra_va": "0x2c41fbc",
+      "end_preferred_va": "0x2b421b4",
+      "first_16_bytes": "ff4303d1ef3b036ded33046deb2b056d",
+      "c_sha256": "c6326edc1b3258d9e3014f9df522bc254a1d92e5c6e1c745547b6d6bc931de05",
+      "asm_sha256": "d1c939e42d5864d256aaec49cb267ea0aa0ae50b57c026a2e258fd8090f4aa31"
+    }
+  ],
+  "serialized_source": {
+    "path": "serialized-components/level0-123082.json",
+    "sha256": "b8a6e1a9c9f4a7a49545fbb7630cdb7f0b3a4baa75365bab54118f8006046ce4"
+  },
+  "native_parameters": {
+    "TryFireShotgun": "this x0; spawnPos s0-s2; baseDir s3-s5; InfVal pointer x1; string x2; bool w3"
+  },
+  "constants": {
+    "minimum_pellets": 1,
+    "lifespan": {
+      "preferred_va": "0x106c218",
+      "value": 0.699999988079071
+    },
+    "degrees_to_radians": {
+      "preferred_va": "0x106c26c",
+      "value": 0.01745329238474369
+    }
+  },
+  "rules": [
+    "Random.value critical selection once per Attack, shared amount/text/bool across all pellets",
+    "No ApplySpread and no spread growth for SHOTGUN",
+    "Count max(1, ShotgunPelletCount); independent Random.Range(-angle,+angle), not evenly spaced",
+    "Acquire pool0 before angle sampling; zero pellets false; any emitted pellet true on pool shortage, no rollback",
+    "Each pellet SpawnEx original gun id, position, rotated direction, full damage, SHOTGUN3, radius0, enemyLayer, lifetime.7",
+    "One recoil/muzzle/sound feedback phase after any successful emission; none on zero-pellet failure",
+    "Shared native cooldown: zero emission retry next frame, partial success consumes regular cooldown"
+  ],
+  "serialized_shotguns": [
+    {
+      "gun": 3,
+      "pellets": 2,
+      "spread_degrees": 10.0,
+      "damage_coefficient": "80",
+      "damage_exponent": 0,
+      "interval": 1.0
+    },
+    {
+      "gun": 4,
+      "pellets": 2,
+      "spread_degrees": 10.0,
+      "damage_coefficient": "90",
+      "damage_exponent": 0,
+      "interval": 1.100000023841858
+    },
+    {
+      "gun": 7,
+      "pellets": 2,
+      "spread_degrees": 10.0,
+      "damage_coefficient": "240",
+      "damage_exponent": 0,
+      "interval": 1.100000023841858
+    },
+    {
+      "gun": 12,
+      "pellets": 3,
+      "spread_degrees": 10.0,
+      "damage_coefficient": "250",
+      "damage_exponent": 0,
+      "interval": 1.0
+    },
+    {
+      "gun": 16,
+      "pellets": 3,
+      "spread_degrees": 10.0,
+      "damage_coefficient": "350",
+      "damage_exponent": 0,
+      "interval": 0.800000011920929
+    }
+  ],
+  "implementation": [
+    {
+      "path": "Assets/Recovery/Scripts/CatCombat.cs",
+      "sha256": "4cebb23d9b38cca617feef3d56977e6de312d6153a6e2fb348056b586c393123"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/CatShotgun.cs",
+      "sha256": "d948e9def46c859dd5dbc4e546583a7dc3793acf37f2b59f4254e8c105302228"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/ForestCombatAcceptance.cs",
+      "sha256": "c16c589360ac567db7ce88fcdda268761bb659b34a66c8652c5b782fe9a6c863"
+    }
+  ],
+  "differences": [
+    "ForestCombatAcceptance substitutes full Cat.Update; equipped-slot fixtures only, no inventory grant/save",
+    "Independent DecimalAmount/text and local sound gates; original global mute/background checks pending",
+    "Forest auto movement follows original-auto-move-contract.json; AI, economic settlement and full Main pending; missile forest follows original-missile-contract.json; linear/explosive/BlastSniper forest follow original-penetrating-contract.json and original-explosion-contract.json",
+    "Native shaders/phone parity not accepted"
+  ]
+}

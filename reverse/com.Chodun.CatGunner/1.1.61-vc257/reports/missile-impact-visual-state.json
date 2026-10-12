@@ -1,0 +1,60 @@
+{
+  "gun": 24,
+  "type": "MISSILE",
+  "damage": "600",
+  "critical_damage": "750",
+  "chance": 0.0,
+  "interval": 0.4,
+  "speed": 50.0,
+  "radius": 9.0,
+  "start": [
+    -104.416931,
+    2.0,
+    5.26149368
+  ],
+  "end": [
+    -99.0,
+    0.0,
+    17.0
+  ],
+  "position": [
+    -100.560066,
+    4.817547,
+    13.61934
+  ],
+  "arc_height": 5.17123842,
+  "duration": 0.2585619,
+  "timer": 0.185705721,
+  "last_position": [
+    -100.586731,
+    4.86283064,
+    13.5615568
+  ],
+  "dead": true,
+  "health_before": [
+    "250",
+    "250"
+  ],
+  "health_after": [
+    "-350",
+    "-350"
+  ],
+  "tree_deaths": [
+    true,
+    true
+  ],
+  "count_before": 28,
+  "count_after": 26,
+  "kinematic": true,
+  "source": "OriginalGun24 damage600/critical750/chance0/interval0.4/speed50/radius9, native missile trajectory and original visual assets",
+  "fixture": "Slot24; two existing250-health trees repositioned3 apart; other trees hidden; bullet/FX pools reset; flight capture timeScale0.05; no player-stat injection/ownership/save",
+  "paused_for_capture": true,
+  "capture": {
+    "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/visual/forest-missile-impact.png",
+    "sha256": "c534bfcdd536d6de99f6358b2e33daa720dcb53015da9797d3afea171865151f",
+    "width": 540,
+    "height": 960,
+    "reviewed": true,
+    "review": "Original golden blast/trail; two trees deactivated after actual splash"
+  }
+}

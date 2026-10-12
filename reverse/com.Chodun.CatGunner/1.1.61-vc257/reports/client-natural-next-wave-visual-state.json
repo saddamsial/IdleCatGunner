@@ -1,0 +1,59 @@
+{
+  "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+  "stage": 0,
+  "wave": 1,
+  "tree_count": 60,
+  "tree_count_max": 60,
+  "rounds_started": 2,
+  "failures": 0,
+  "is_transitioning": false,
+  "wallet": "114400000000e-8",
+  "wallet_integer": "1144",
+  "accumulated": "124400000000e-8",
+  "before_upgrade": "0e0",
+  "upgrade_levels": [
+    1,
+    1,
+    0
+  ],
+  "damage": "108e0",
+  "gun": 0,
+  "upgrade_kind": 0,
+  "before_level": 0,
+  "spent": "0e0",
+  "pointer_first_hit": null,
+  "input": [
+    0.0,
+    0.0
+  ],
+  "position": [
+    -100.4263,
+    0.0,
+    2.581882
+  ],
+  "stage_label": "Stage 1-2",
+  "value_label": "0%",
+  "time": 179.724274,
+  "power_label": "Lv.1",
+  "power_price": "68",
+  "power_value": "108",
+  "speed_label": "Lv.1",
+  "speed_price": "68",
+  "speed_value": "108",
+  "bgm_playing": false,
+  "bgm_playing_observed_while_running": true,
+  "save_folder": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257",
+  "fixture": "Current independent local recovery profile, existing earned progress preserved. Original Gun0/zero input/positions/pools/stats retained. Upgrade dispatches actual raycast PointerDown/Up/Click to original persistent callback and consumes earned money; progression persists normally.",
+  "paused_for_capture": true,
+  "time_scale": 1.0,
+  "screenshot": {
+    "absolute_path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/visual/client-natural-next-wave.png",
+    "sha256": "28c0f56ad6a7c407b0ac295b3b18d99e37523466aa5f4b68202d7f7e8cafcb93",
+    "width": 1080,
+    "height": 1920,
+    "actually_read": true,
+    "capture": "Actual GameView ScreenCapture then Step, original overlay visible, no pixel editing",
+    "review": "Stage1-2/0percent/wallet1144/Dia0, original cat/Gun0/new forest60tree layout, PowerLv1/SpeedLv1/MoneyLv0 visible."
+  },
+  "observation": "Naturally cleared first30-tree wave and entered second60-tree wave with zero input and unchanged original target positions/pools/stats. Own previously earned1/1/0 upgrades retained. No upgrade or forced death during this run."
+}

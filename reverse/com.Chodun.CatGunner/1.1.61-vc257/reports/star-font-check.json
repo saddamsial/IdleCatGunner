@@ -1,0 +1,12 @@
+{
+  "success": false,
+  "command": "unity command eval",
+  "data": null,
+  "errors": [
+    {
+      "code": "COMMAND_FAILED",
+      "message": "Compilation Failed\n  Argument 2: cannot convert from 'out string' to 'out uint[]' (line 1, col 230)\n  Argument 2: cannot convert from 'out string' to 'out uint[]' (line 1, col 343)\n  Unreachable code detected (line 2, col 12)"
+    }
+  ],
+  "warnings": []
+}

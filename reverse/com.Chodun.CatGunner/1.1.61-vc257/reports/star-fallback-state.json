@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var f=UnityEditor.AssetDatabase.LoadAssetAtPath<TMPro.TMP_FontAsset>(\"Assets/Recovery/Resources/StarChineseFallback.asset\"); return new {playing=UnityEditor.EditorApplication.isPlaying,scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().name,shader=f.material.shader.name,texture=f.material.mainTexture==null?null:f.material.mainTexture.name,atlas=f.atlasTexture.name};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "playing": false,
+        "scene": "RecoveredTarget",
+        "shader": "TextMeshPro/Mobile/Distance Field",
+        "texture": "Noto Sans SC - Bold Atlas",
+        "atlas": "Noto Sans SC - Bold Atlas"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

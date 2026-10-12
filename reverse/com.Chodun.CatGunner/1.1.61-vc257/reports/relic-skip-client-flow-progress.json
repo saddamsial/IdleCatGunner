@@ -1,0 +1,71 @@
+{
+  "success": true,
+  "command": "command eval_file",
+  "data": {
+    "command": "eval_file",
+    "parameters": {
+      "file": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/tools/onboarding_test_progress.cs"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "playing": true,
+        "compiling": false,
+        "step": "Done",
+        "collector": [
+          {
+            "FullName": "OriginalClientFlowTests.ActualRaycastRoutesAllUpgradeClicksAboveJoystickAndLeavesWorldDragAvailable",
+            "Status": "Passed",
+            "Duration": 5.7736827,
+            "Message": null,
+            "StackTrace": null
+          },
+          {
+            "FullName": "OriginalClientFlowTests.AllFiveWavesAutomaticallyContinueThroughBossIntoNextStage",
+            "Status": "Passed",
+            "Duration": 24.4290992,
+            "Message": null,
+            "StackTrace": null
+          },
+          {
+            "FullName": "OriginalClientFlowTests.HoldStartsAfterDelayRepeatsAndStopsOnPointerUp",
+            "Status": "Passed",
+            "Duration": 6.4253671,
+            "Message": null,
+            "StackTrace": null
+          },
+          {
+            "FullName": "OriginalClientFlowTests.IndependentSaveRestoresWalletUpgradesWaveAndUnrelatedFields",
+            "Status": "Passed",
+            "Duration": 10.7902699,
+            "Message": null,
+            "StackTrace": null
+          },
+          {
+            "FullName": "OriginalClientFlowTests.OriginalButtonsSpendWalletAndApplyAllThreeUpgradeBalances",
+            "Status": "Passed",
+            "Duration": 5.5154452,
+            "Message": null,
+            "StackTrace": null
+          },
+          {
+            "FullName": "OriginalClientFlowTests.OriginalHudAndDefaultZeroInputAutoMovementRunTogether",
+            "Status": "Passed",
+            "Duration": 8.4896255,
+            "Message": null,
+            "StackTrace": null
+          }
+        ]
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

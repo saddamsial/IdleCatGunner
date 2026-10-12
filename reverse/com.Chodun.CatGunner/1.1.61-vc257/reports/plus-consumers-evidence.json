@@ -1,0 +1,407 @@
+{
+  "updatedUtc": "2026-10-11T05:06:10.477104+00:00",
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "rule": 44,
+  "editor": "6000.4.10f1",
+  "native": {
+    "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+    "originalNativeSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+    "nativeQueries": "reports/native-plus-consumers-queries.tsv",
+    "status": "native-plus-consumers-reviewed/status.tsv",
+    "completedQueriesIncludingExceptionHelpers": 33,
+    "timeFactors": {
+      "forest": 2,
+      "boss": 2,
+      "mine": 1.2999999523162842,
+      "raidBonusSeconds": 10,
+      "speedrun": "no PlusPack branch in original coroutine"
+    },
+    "rewardFactors": {
+      "boss": 2,
+      "monster": 2,
+      "mine": 1.5,
+      "speedrun": 1,
+      "raid": 1
+    },
+    "nativeMineTimeLiteralPreferredVa": "0x106c1b4",
+    "nativeMineTimeFloat32Bytes": "6666a63f",
+    "mineOrder": "score integer division by10; raw best score saved; float1.5 multiply then fcvtzs truncation; multiplied payout retained for ad extra3x",
+    "expiry": "UTC now strictly before purchase+7 days; real verified clock replaced by local clock; separate local simulation ledger required",
+    "uiSource": "Frozen original fields and seven item paths; native active/nonpurchase and countdown restored through explicit runtime bridge",
+    "raidTimerCoroutine": "native-raid-client-reviewed/_Game_Cor_d__87_MoveNext.c",
+    "speedrunTimerCoroutine": "native-speedrun-client-reviewed/_Game_Cor_d__26_MoveNext.c"
+  },
+  "itemManifest": "reports/plus-item-manifest.json",
+  "productionChanges": [
+    {
+      "path": "Assets/Recovery/Scripts/RecoveryLocalStore.cs",
+      "sha256": "7a0efe0b57e3dfac14d4c5f3de9583201abab6ba7d114a7176c1440a3f40214f",
+      "baselineSha256": "233e83f850acd3be1f9a053afa675c481d66a3b85b6941e4b577ef705e7c8d3b"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/OriginalLocalPurchases.cs",
+      "sha256": "0b8327b50196ee56f78d35a8be01026e6b06964490ed9fd65e396184117cc23b",
+      "baselineSha256": "c7111d78e17c94b1489d5ae109dd121d8e5acfa80301d1444e74b1b811d2b6c2"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/Raid_manager.cs",
+      "sha256": "8bd23c81ecb6289f1e5e2236a6e108f1e1bf3ee75b2a7890ad5914e8539fa0dd",
+      "baselineSha256": "39305e4d216a9d73cad01a539beb87b9577695e6557921881ab25a523239a4cb"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/Mine_Start_UI.cs",
+      "sha256": "4f37181e988e53e63ca6bc5e3a2ac18d12d94168f85102d7ac7044d5d752846f",
+      "baselineSha256": "1340aa59d56559f3898cba123cf8b34f7b8554fd1e9666a27bf77fffcc592d69"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/RecoveryForestClient.cs",
+      "sha256": "e90952e646530826a292d18670e84fbb9da8f05994321d5e3fbf41032870e5d7",
+      "baselineSha256": "fee4c9af424cf9602e50f3efe92afddc8eef02aacfd2311badd2fbd1db0496f8"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/Monster_manager.cs",
+      "sha256": "2788e6b398231e920c36d5dc497397cdff53145787c564a96e2c6fc8f7cfc6df",
+      "baselineSha256": "d430b8b622c817187cb078cd89801d1475e63b3a66d6486b0761283c6ab212fd"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/Monster_Start_UI.cs",
+      "sha256": "179a507ea59274303100201d41e6f0ccd9555bb2f9e193f32ecb499c45ce9757",
+      "baselineSha256": "de7ab63ab35434e2923c26bf6f46b9a7d7512851e1797fbfdfcc03b87fdc6038"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/SpeedRun_Start_UI.cs",
+      "sha256": "d61c301e5d74b94c586ea8f713293199bdb60602b45e225fd48021345eeaa1a7",
+      "baselineSha256": "0f1b1cc97f2f84396f3b055ed3c79cd57f692564afbfcb534f14873fce8fbeb0"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/Boss_Start_UI.cs",
+      "sha256": "9be87cb9ca1828890441dd1559bb4c7ffff3d0f4a21a8ab9de6a4135536ec29c",
+      "baselineSha256": "4802f5f0d95ba5e7e5ac35505779c7ccbcbcf715851d1a6c91103e79a48a7f95"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/Boss_manager.cs",
+      "sha256": "3120671cc7fa4899764ec437f60fa78b65cd63cc98ac0db4879e582c24883857",
+      "baselineSha256": "6dbb1957d4140418f0b7a1c72f8f49360824cef014a3f749bc43f768835857fd"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/RecoveryPlusPackItem.cs",
+      "sha256": "4743633f46f07e7fba8f6fae7e221aa5eb5cabc2241568ce3f2b31546771b91f",
+      "baselineSha256": null
+    },
+    {
+      "path": "Assets/Recovery/Scripts/Mine_manager.cs",
+      "sha256": "d5c9a596e7f0006fb9b725d6764fd7bbd8cd9f0a3063104ac3e5c99b07e3626d",
+      "baselineSha256": "562e03c7c094042231064ce86914d61298b86307bfe8c2d422ebb2357cc68ab5"
+    }
+  ],
+  "testSourceSha256": "f5d9909ac191de8a3a30fc03db114678a4bce688550fcd64435be3647664dfcf",
+  "resourcesSha256": "a8d8796a796f6a62682aaab1c5f5ddea7dd0776edada43927ba2e1a8ef2bf480",
+  "separateCompletedRuns": [
+    {
+      "report": "plus-consumers-playmode-accepted.json",
+      "durationSeconds": 119.5,
+      "summary": {
+        "total": 12,
+        "passed": 12,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "overlapsAcceptedSpecialty": false
+    },
+    {
+      "report": "plus-consumers-settlement-visual-check.json",
+      "durationSeconds": 72.53,
+      "summary": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "overlapsAcceptedSpecialty": true
+    },
+    {
+      "report": "plus-consumers-playtest-issues-regression.json",
+      "durationSeconds": 60.14,
+      "summary": {
+        "total": 15,
+        "passed": 15,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "overlapsAcceptedSpecialty": false
+    },
+    {
+      "report": "plus-consumers-shared-modes-regression.json",
+      "durationSeconds": 94.32,
+      "summary": {
+        "total": 17,
+        "passed": 17,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "overlapsAcceptedSpecialty": false
+    },
+    {
+      "report": "plus-consumers-startup-regression.json",
+      "durationSeconds": 26.84,
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "overlapsAcceptedSpecialty": false
+    }
+  ],
+  "allSuiteSingleRun": false,
+  "failureHistory": [
+    {
+      "report": "plus-consumers-before-tests.json",
+      "reason": "Two unimplemented consumers reproduced"
+    },
+    {
+      "report": "plus-consumers-tests-attempt1.json",
+      "reason": "Fixture collect-array shape and original weapon/time observation corrected; production difficulty unchanged"
+    }
+  ],
+  "visualRecheck": "Only fixture capture delay and three method names changed after the 12/12 run; production identical",
+  "gpuImages": [
+    {
+      "path": "reports/visual/plus-consumers-plus-purchased-gpu.png",
+      "sha256": "c496bc9ff7549d8947105895c96c9907e2863810dcfb6ce540f6b4650e8942a6",
+      "viewed": true
+    },
+    {
+      "path": "reports/visual/plus-consumers-plus-active-gpu.png",
+      "sha256": "9413e2d7b20e4e0cb49256b5b7ad94c74ed5cc2fb52e8f51efcb0f686a2788af",
+      "viewed": true
+    },
+    {
+      "path": "reports/visual/plus-consumers-boss-time-gpu.png",
+      "sha256": "96409df81f0d3f85ecee9691a1148bf6845df4db5655ac1cf8f15d1c7ca41473",
+      "viewed": true
+    },
+    {
+      "path": "reports/visual/plus-consumers-raid-time-gpu.png",
+      "sha256": "46fc5f6b1a603ee652066291b2d8e4d1ab47ba3f933c234923b03900f2127629",
+      "viewed": true
+    },
+    {
+      "path": "reports/visual/plus-consumers-boss-reward-gpu.png",
+      "sha256": "151f00d3f8edcadb781495cd13727575b2b03f277bd2135ab5d4d20d786b5908",
+      "viewed": true
+    },
+    {
+      "path": "reports/visual/plus-consumers-mine-reward-gpu.png",
+      "sha256": "5227cca771a56090b91ba4c18e2232822e7835f183243ad3ea85a747770a6e87",
+      "viewed": true
+    },
+    {
+      "path": "reports/visual/plus-consumers-monster-reward-gpu.png",
+      "sha256": "ac67805d85c2aa99f2bc5283eba8e407eb6894a52f327a4031f6a42fe4e881d4",
+      "viewed": true
+    }
+  ],
+  "settlementImageAmounts": "Before advertising: Boss wallet300/panel900, mine wallet4/panel16, monster wallet60/panel120. Panels show potential total; separate tests verify additional claim and once guards.",
+  "fixtureBoundary": "Isolated original Gun20 naturally clears Boss/monster; mine score39 is explicit test input. No user equipment or progress modified.",
+  "timeSeconds": {
+    "forest": 360,
+    "boss": 120,
+    "mine": 78,
+    "raid": 70
+  },
+  "rewardFactors": {
+    "boss": 2,
+    "monster": 2,
+    "mine": 1.5
+  },
+  "localAdapters": [
+    "Explicit simulated purchase ledger",
+    "Local clock and countdown formatting",
+    "Runtime original UI bindings",
+    "Round-start time snapshot in recovered coordinator"
+  ],
+  "preservation": {
+    "target": "com.Chodun.CatGunner 1.1.61 vc257",
+    "userMainAndBackupUnchanged": true,
+    "normalSceneByteUnchanged": true,
+    "baselineAndCurrent": [
+      {
+        "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json",
+        "sha256": "3e35e03edb6ec9af2fd766fb84e894093d942772e4b50f7687faba6a3e7106b0",
+        "currentSha256": "3e35e03edb6ec9af2fd766fb84e894093d942772e4b50f7687faba6a3e7106b0"
+      },
+      {
+        "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json.bak",
+        "sha256": "ef1e1c0d75505343cb9cdd210386f0c68821fa7bc8493dee6749835c80f2a313",
+        "currentSha256": "ef1e1c0d75505343cb9cdd210386f0c68821fa7bc8493dee6749835c80f2a313"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scenes/RecoveredClient.unity",
+        "sha256": "ee7fcdfcc73343fa87edac777006550e1cf48d5fe0b672e415b190980ac909b7",
+        "currentSha256": "ee7fcdfcc73343fa87edac777006550e1cf48d5fe0b672e415b190980ac909b7"
+      }
+    ],
+    "existingScriptMetasUnchanged": 215,
+    "frozenMainAndMetadataUnchanged": true,
+    "nativeSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+    "changedSource": [
+      {
+        "path": "Assets/Recovery/Scripts/RecoveryLocalStore.cs",
+        "sha256": "7a0efe0b57e3dfac14d4c5f3de9583201abab6ba7d114a7176c1440a3f40214f",
+        "baselineSha256": "233e83f850acd3be1f9a053afa675c481d66a3b85b6941e4b577ef705e7c8d3b"
+      },
+      {
+        "path": "Assets/Recovery/Scripts/OriginalLocalPurchases.cs",
+        "sha256": "0b8327b50196ee56f78d35a8be01026e6b06964490ed9fd65e396184117cc23b",
+        "baselineSha256": "c7111d78e17c94b1489d5ae109dd121d8e5acfa80301d1444e74b1b811d2b6c2"
+      },
+      {
+        "path": "Assets/Recovery/Scripts/Raid_manager.cs",
+        "sha256": "8bd23c81ecb6289f1e5e2236a6e108f1e1bf3ee75b2a7890ad5914e8539fa0dd",
+        "baselineSha256": "39305e4d216a9d73cad01a539beb87b9577695e6557921881ab25a523239a4cb"
+      },
+      {
+        "path": "Assets/Recovery/Scripts/Mine_Start_UI.cs",
+        "sha256": "4f37181e988e53e63ca6bc5e3a2ac18d12d94168f85102d7ac7044d5d752846f",
+        "baselineSha256": "1340aa59d56559f3898cba123cf8b34f7b8554fd1e9666a27bf77fffcc592d69"
+      },
+      {
+        "path": "Assets/Recovery/Scripts/RecoveryForestClient.cs",
+        "sha256": "e90952e646530826a292d18670e84fbb9da8f05994321d5e3fbf41032870e5d7",
+        "baselineSha256": "fee4c9af424cf9602e50f3efe92afddc8eef02aacfd2311badd2fbd1db0496f8"
+      },
+      {
+        "path": "Assets/Recovery/Scripts/Monster_manager.cs",
+        "sha256": "2788e6b398231e920c36d5dc497397cdff53145787c564a96e2c6fc8f7cfc6df",
+        "baselineSha256": "d430b8b622c817187cb078cd89801d1475e63b3a66d6486b0761283c6ab212fd"
+      },
+      {
+        "path": "Assets/Recovery/Scripts/Monster_Start_UI.cs",
+        "sha256": "179a507ea59274303100201d41e6f0ccd9555bb2f9e193f32ecb499c45ce9757",
+        "baselineSha256": "de7ab63ab35434e2923c26bf6f46b9a7d7512851e1797fbfdfcc03b87fdc6038"
+      },
+      {
+        "path": "Assets/Recovery/Scripts/SpeedRun_Start_UI.cs",
+        "sha256": "d61c301e5d74b94c586ea8f713293199bdb60602b45e225fd48021345eeaa1a7",
+        "baselineSha256": "0f1b1cc97f2f84396f3b055ed3c79cd57f692564afbfcb534f14873fce8fbeb0"
+      },
+      {
+        "path": "Assets/Recovery/Scripts/Boss_Start_UI.cs",
+        "sha256": "9be87cb9ca1828890441dd1559bb4c7ffff3d0f4a21a8ab9de6a4135536ec29c",
+        "baselineSha256": "4802f5f0d95ba5e7e5ac35505779c7ccbcbcf715851d1a6c91103e79a48a7f95"
+      },
+      {
+        "path": "Assets/Recovery/Scripts/Boss_manager.cs",
+        "sha256": "3120671cc7fa4899764ec437f60fa78b65cd63cc98ac0db4879e582c24883857",
+        "baselineSha256": "6dbb1957d4140418f0b7a1c72f8f49360824cef014a3f749bc43f768835857fd"
+      },
+      {
+        "path": "Assets/Recovery/Scripts/RecoveryPlusPackItem.cs",
+        "sha256": "4743633f46f07e7fba8f6fae7e221aa5eb5cabc2241568ce3f2b31546771b91f",
+        "baselineSha256": null
+      },
+      {
+        "path": "Assets/Recovery/Scripts/Mine_manager.cs",
+        "sha256": "d5c9a596e7f0006fb9b725d6764fd7bbd8cd9f0a3063104ac3e5c99b07e3626d",
+        "baselineSha256": "562e03c7c094042231064ce86914d61298b86307bfe8c2d422ebb2357cc68ab5"
+      }
+    ],
+    "originalFieldsManifest": "reports/plus-item-manifest.json",
+    "runtimeBridgeOnly": true,
+    "scopeComplete": false
+  },
+  "editorHandoff": {
+    "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+    "dirty": false,
+    "playing": false,
+    "compiling": false,
+    "updating": false,
+    "testHostFolder": "",
+    "runtimePlusItems": 0,
+    "objects": 35255,
+    "missingScripts": 0,
+    "persist": true,
+    "saveFolderOverride": null,
+    "localRewardedAdDefault": true,
+    "earlyWeaponAdPreview": true,
+    "localPurchaseSimulation": true,
+    "stores": [
+      {
+        "shopBound": true,
+        "shopActive": false
+      }
+    ],
+    "automaticUpgradeBound": true,
+    "autoPopupBound": true,
+    "autoHud": 1,
+    "autoDisabled": false,
+    "offlineBound": true,
+    "offlineMaxSeconds": 28800.0,
+    "inputOverrides": 0,
+    "mouseFixtures": 0,
+    "timeScale": 1.0,
+    "buildScenes": [
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredBullets.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForest.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestHUD.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestProgress.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredJoystick.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredSettings.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredTarget.unity",
+        "enabled": true
+      }
+    ]
+  },
+  "finalConsole": "reports/plus-consumers-final-console.json",
+  "testHostEnd": {
+    "previousFolder": "/var/folders/0k/qp8lhvk15x76rnqz89z7xmf40000gn/T/CatGunner-TestHost-b37c0b4185e1497d8648d455cf91bfb5",
+    "currentFolder": "",
+    "playing": false
+  },
+  "historicalVisuals": "reports/plus-consumers-historical-visual-preservation.json",
+  "losslessGeneratedHistoryCompression": "reports/plus-consumers-compressed-history.json",
+  "restoreTool": "tools/restore_scene_checkpoint.py",
+  "pending": [
+    "Paid helper gameplay",
+    "StepUp original page and Offer",
+    "Pig full accumulation UI",
+    "Remove-all-ads automatic bonus and sweeps",
+    "Trusted clock and live services",
+    "Full visual fidelity and device acceptance"
+  ],
+  "realPayments": false,
+  "productionReceipts": false,
+  "playerBuilt": false,
+  "deviceAcceptance": false,
+  "gitSubmitted": false,
+  "scopeComplete": false
+}

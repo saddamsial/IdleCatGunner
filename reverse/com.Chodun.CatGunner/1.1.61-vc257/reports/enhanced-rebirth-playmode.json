@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "duration": 73.9,
+  "summary": {
+    "total": 7,
+    "passed": 7,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalEnhancedRebirthTests.CancelledEnhancedPopupThenOrdinaryRebirthUsesSingleRewardWithoutAds",
+      "Status": "Passed",
+      "Duration": 14.879808,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalEnhancedRebirthTests.ClosedReopenedDayChangedAndModeChangedPagesRejectLateAdCallbacks",
+      "Status": "Passed",
+      "Duration": 7.200434,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalEnhancedRebirthTests.DisabledCancelledDuplicateAndUnauthorizedCallbacksDoNotConsumeQuota",
+      "Status": "Passed",
+      "Duration": 9.0403218,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalEnhancedRebirthTests.InterruptedAnimationDropsPendingTripleAndDoesNotUseDailyQuota",
+      "Status": "Passed",
+      "Duration": 9.8932101,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalEnhancedRebirthTests.NativeQuotaDayBoundaryAndLegacyIsoDatesPreserveIndependentPaidCount",
+      "Status": "Passed",
+      "Duration": 6.3456235,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalEnhancedRebirthTests.OriginalPaidPopupCancelsStalePurchaseThenAwardsTripleOnlyOnce",
+      "Status": "Passed",
+      "Duration": 9.6281939,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalEnhancedRebirthTests.OriginalRealClicksRunAnimationTripleRewardConsumeOnceAndColdReload",
+      "Status": "Passed",
+      "Duration": 15.9439405,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

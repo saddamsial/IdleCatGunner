@@ -1,0 +1,32 @@
+{
+  "package": "com.ravanla.idlecatgunner.recovery",
+  "version": "0.70.0",
+  "installed": true,
+  "sameCertificate": true,
+  "saveChecks": {
+    "Selected_items": true,
+    "Star_Slot_Lv": true,
+    "Owned_Gun_list": true,
+    "Is_Remove_AD_All": true,
+    "Is_Buff_Pack": true,
+    "Mission_is_Vip": true,
+    "Mission_is_Luxury": true,
+    "Gun_Collect": true,
+    "Pet_Collect": true
+  },
+  "upgradesBefore": [
+    118,
+    118,
+    117
+  ],
+  "upgradesAfter": [
+    120,
+    120,
+    120
+  ],
+  "maxStageBefore": 202,
+  "maxStageAfter": 204,
+  "managedErrors": [],
+  "logcat": "mobile70-phone-logcat.txt",
+  "boundary": "Existing physical-device profile retained. Natural idle progression/auto upgrades can advance during observation; this is not full-game or long-session acceptance."
+}

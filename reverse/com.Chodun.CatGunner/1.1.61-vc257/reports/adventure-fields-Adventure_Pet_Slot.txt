@@ -1,0 +1,7 @@
+ public int SlotNum;
+ public Adventure_PetSlot_Status _status;
+ public GameObject Selected_obj;
+ public GameObject Empty_obj;
+ public GameObject Locked_obj;
+ public Pet_Item_Demo pet_item;
+ public Adventure_Enter_popup popup;

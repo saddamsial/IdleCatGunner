@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 33.9,
+      "summary": {
+        "total": 5,
+        "passed": 0,
+        "failed": 5,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalCurrencyFeedbackTests.CurrencyDisablingDetachesWalletAndReenableRefreshesLatestValue",
+          "Status": "Failed",
+          "Duration": 7.6015897,
+          "Message": "  Native OnDisable must detach its wallet listener\n  Expected string length 1 but was 3. Strings differ at index 0.\n  Expected: \"0\"\n  But was:  \"100\"\n  -----------^\n",
+          "StackTrace": "at OriginalCurrencyFeedbackTests+<CurrencyDisablingDetachesWalletAndReenableRefreshesLatestValue>d__11.MoveNext () [0x00071] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalCurrencyFeedbackTests.cs:94\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalCurrencyFeedbackTests.MoneyAndDamageShareNativeCellThrottleWithoutLosingAnyIncome",
+          "Status": "Failed",
+          "Duration": 6.0748848,
+          "Message": "  Expected: 2\n  But was:  1\n",
+          "StackTrace": "at OriginalCurrencyFeedbackTests+<MoneyAndDamageShareNativeCellThrottleWithoutLosingAnyIncome>d__12.MoveNext () [0x001b6] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalCurrencyFeedbackTests.cs:112\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalCurrencyFeedbackTests.OreFractionTextDoesNotCreditWalletBeforeOrdinarySettlement",
+          "Status": "Failed",
+          "Duration": 7.1688608,
+          "Message": "  Expected: \"+0.1\"\n  But was:  null\n",
+          "StackTrace": "at OriginalCurrencyFeedbackTests+<OreFractionTextDoesNotCreditWalletBeforeOrdinarySettlement>d__9.MoveNext () [0x0013e] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalCurrencyFeedbackTests.cs:66\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalCurrencyFeedbackTests.SpeedRunRewardUsesNativeTripleCounterAndReloadDoesNotGrantAgain",
+          "Status": "Failed",
+          "Duration": 7.5339822,
+          "Message": "  Expected: 90\n  But was:  30\n",
+          "StackTrace": "at OriginalCurrencyFeedbackTests+<SpeedRunRewardUsesNativeTripleCounterAndReloadDoesNotGrantAgain>d__10.MoveNext () [0x000e1] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalCurrencyFeedbackTests.cs:83\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalCurrencyFeedbackTests.TreeRewardShowsOriginalMoneyGlyphOnceAfterActualCredit",
+          "Status": "Failed",
+          "Duration": 5.4817674,
+          "Message": "  Expected: \"+20\"\n  But was:  null\n",
+          "StackTrace": "at OriginalCurrencyFeedbackTests+<TreeRewardShowsOriginalMoneyGlyphOnceAfterActualCredit>d__8.MoveNext () [0x000d3] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalCurrencyFeedbackTests.cs:46\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

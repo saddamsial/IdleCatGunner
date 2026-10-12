@@ -1,0 +1,10 @@
+if(UnityEditor.EditorApplication.isPlaying)throw new InvalidOperationException("Wait for tests to finish");
+UnityEngine.Time.timeScale=1;
+UnityEditor.EditorApplication.isPaused=false;
+var scene=UnityEditor.SceneManagement.EditorSceneManager.OpenScene("Assets/Recovery/Scenes/RecoveredClient.unity");
+var c=UnityEngine.Object.FindAnyObjectByType<CatGunner.Recovery.RecoveryForestClient>();
+var transforms=scene.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<UnityEngine.Transform>(true)).ToArray();
+var missing=transforms.Sum(t=>UnityEditor.GameObjectUtility.GetMonoBehavioursWithMissingScriptCount(t.gameObject));
+var report=new {unity=UnityEngine.Application.unityVersion,scene=scene.path,playing=UnityEditor.EditorApplication.isPlaying,paused=UnityEditor.EditorApplication.isPaused,compiling=UnityEditor.EditorApplication.isCompiling,dirty=scene.isDirty,persist=c.Persist,saveFolderOverride=c.SaveFolderOverride,objects=transforms.Length,missingScripts=missing,contentGateConnected=c.ContentUnlock!=null,contentRows=c.ContentUnlock.Content_list.Length,original_callbacks=c.ContentUnlock.Content_list.Select(i=>new {type=i.Type.ToString(),target_is_original_manager=i.Btn_obj.GetComponent<UnityEngine.UI.Button>().onClick.GetPersistentTarget(0)==c.ContentUnlock,method=i.Btn_obj.GetComponent<UnityEngine.UI.Button>().onClick.GetPersistentMethodName(0)}).ToArray(),tutorialAdapter="Original tutorial controller absent; no completion record written",ready_for_user_play=!UnityEditor.EditorApplication.isPaused&&missing==0&&!scene.isDirty&&c.Persist&&c.SaveFolderOverride==null&&c.ContentUnlock!=null&&!UnityEditor.EditorApplication.isCompiling};
+System.IO.File.WriteAllText("/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/content-unlock-editor-handoff.json",Newtonsoft.Json.JsonConvert.SerializeObject(report,Newtonsoft.Json.Formatting.Indented));
+return report;

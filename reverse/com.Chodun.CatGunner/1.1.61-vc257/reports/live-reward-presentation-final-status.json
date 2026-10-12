@@ -1,0 +1,70 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 38.75,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalRewardPresentationTests.EligibleGlowRotatesOnScaledTimeAndResetsOnReopen",
+          "Status": "Passed",
+          "Duration": 7.1673961,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRewardPresentationTests.OriginalBounceRestartsTimeAndRestoresScale",
+          "Status": "Passed",
+          "Duration": 6.1036953,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRewardPresentationTests.PigBannerGlowRotatesWithoutGrantingPurchase",
+          "Status": "Passed",
+          "Duration": 6.0794923,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRewardPresentationTests.RealClaimEmitsEightOriginalDiamondsAndArrivalDoesNotGrantAgain",
+          "Status": "Passed",
+          "Duration": 7.1278229,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRewardPresentationTests.TargetStackAndClosingDuringFlightKeepWalletStable",
+          "Status": "Passed",
+          "Duration": 6.710104,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRewardPresentationTests.VelocityAndVortexAreAppliedBeforeAttraction",
+          "Status": "Passed",
+          "Duration": 5.481821,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,30 @@
+046544b8  str x30,[sp, #-0x30]!
+046544bc  stp x22,x21,[sp, #0x10]
+046544c0  stp x20,x19,[sp, #0x20]
+046544c4  adrp x22,0x6260000
+046544c8  adrp x21,0x5e5a000
+046544cc  mov w19,w0
+046544d0  ldrb w9,[x22, #0x9eb]
+046544d4  ldr x21,[x21, #0x290]
+046544d8  mov x20,x8
+046544dc  tbnz w9,#0x0,0x046544f4
+046544e0  adrp x0,0x5e5a000
+046544e4  ldr x0,[x0, #0x290]
+046544e8  bl 0x029f5a50
+046544ec  mov w8,#0x1
+046544f0  strb w8,[x22, #0x9eb]
+046544f4  ldr x2,[x21]
+046544f8  add x0,sp,#0x8
+046544fc  mov w1,#0x5
+04654500  str xzr,[sp, #0x8]
+04654504  bl 0x035f6d90
+04654508  movi v0.2D,#0x0
+0465450c  ldr x2,[sp, #0x8]
+04654510  mov x0,x20
+04654514  mov w1,w19
+04654518  stp q0,q0,[x20]
+0465451c  bl 0x04655b64
+04654520  ldp x20,x19,[sp, #0x20]
+04654524  ldp x22,x21,[sp, #0x10]
+04654528  ldr x30,[sp], #0x30
+0465452c  ret

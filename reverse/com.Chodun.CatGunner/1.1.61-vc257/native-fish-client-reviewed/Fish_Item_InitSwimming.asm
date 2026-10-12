@@ -1,0 +1,17 @@
+02c61374  stp x30,x19,[sp, #-0x10]!
+02c61378  mov w8,#0x420c0000
+02c6137c  fmov s0,0x41700000
+02c61380  mov x19,x0
+02c61384  fmov s1,w8
+02c61388  mov x0,xzr
+02c6138c  bl 0x057d55d4
+02c61390  mov x0,x19
+02c61394  str s0,[x19, #0xbc]
+02c61398  bl 0x02c6197c
+02c6139c  fmov s0,0x40000000
+02c613a0  fmov s1,0x40a00000
+02c613a4  mov x0,xzr
+02c613a8  bl 0x057d55d4
+02c613ac  stp s0,s0,[x19, #0xc0]
+02c613b0  ldp x30,x19,[sp], #0x10
+02c613b4  ret

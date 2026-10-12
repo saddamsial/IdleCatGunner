@@ -1,0 +1,522 @@
+{
+  "rule": 58,
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "nativeSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "businessMethods": 26,
+  "helpers": 6,
+  "allCompleted": true,
+  "firstQueriesAcrossHistoricalFolders": [
+    "0x2b19370",
+    "0x2b68408",
+    "0x2b693b4",
+    "0x2b69e40",
+    "0x2b6a6c8",
+    "0x2b6a6d8",
+    "0x2b6a7b4",
+    "0x2b6a910",
+    "0x2b6a994",
+    "0x2b6a9e4",
+    "0x2b6aa10",
+    "0x2b6aa84",
+    "0x2b6ab84",
+    "0x2b7078c",
+    "0x2b707e4",
+    "0x2b71680",
+    "0x2b71778"
+  ],
+  "historicalQueryAddressUnion": 1704,
+  "methods": [
+    {
+      "preferredVa": "0x2b19370",
+      "ghidraVa": "0x2c19370",
+      "end": "0x2b193d4",
+      "name": "ServerConfig_manager_get_Weapon02AdOn",
+      "first16": "fe0f1ef8f44f01a913b201d034920190",
+      "sha256": "1ddb349f809a1f0457bf013193c6dfbd0be24be3a5f8e78fcda30c3c71104e02",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/ServerConfig_manager_get_Weapon02AdOn.c": "ec70c24219eb51b0ab8991314234bb7287dd0e80c5b8af03a89afa84305c8cc5",
+        "native-temporary-gun-client-reviewed/ServerConfig_manager_get_Weapon02AdOn.asm": "7230b164c4f734886739d1a59de5c344be6ea221375f7a987b79771260e10223"
+      }
+    },
+    {
+      "preferredVa": "0x2b38f10",
+      "ghidraVa": "0x2c38f10",
+      "end": "0x2b399cc",
+      "name": "Cat_Balance_Reload",
+      "first16": "e80f19fcfd7b01a9fc6f02a9fa6703a9",
+      "sha256": "4a3955575a5baa6bd9bef120ed9032cc796abbf8c95d1a3c3a65640ad0b5fba6",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Cat_Balance_Reload.c": "359fee401d86c600f38654335fcc04f77638181d875cd25bfb67d9c8b3173d41",
+        "native-temporary-gun-client-reviewed/Cat_Balance_Reload.asm": "eb69eef1dd1524db4fa72f116c1ce870b861bb415c1040cbba01ce05fa2dd058"
+      }
+    },
+    {
+      "preferredVa": "0x2b43fa0",
+      "ghidraVa": "0x2c43fa0",
+      "end": "0x2b43fcc",
+      "name": "Cat_manager_get_Cat_Count_All",
+      "first16": "fe4fbfa9081040f9680000b4131940b9",
+      "sha256": "a2ab920d32579f94fd9bbc57d263350cbf65c55b779b00c87941a9cb4587a367",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Cat_manager_get_Cat_Count_All.c": "5add5d45e24802b12701f864d21c6396ee1fa6bc1e9c5f14497a62991e3617b6",
+        "native-temporary-gun-client-reviewed/Cat_manager_get_Cat_Count_All.asm": "c2a63ec4191ac20bb7e672d185b3005d0f1ac1249b6cd841f6b13a17345c5a17"
+      }
+    },
+    {
+      "preferredVa": "0x2b434c0",
+      "ghidraVa": "0x2c434c0",
+      "end": "0x2b43740",
+      "name": "Cat_manager_SetupFormation",
+      "first16": "ff8301d1e80b00fdfe0f00f9fa6702a9",
+      "sha256": "7054a3c5426aa913bac8074ed523695a944ce4d505cc6383a9f9eb8cd1a731a0",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Cat_manager_SetupFormation.c": "2debb274e0c67630dcb4d3cfd51e289d059dbf91836f85077988479e1c57cf58",
+        "native-temporary-gun-client-reviewed/Cat_manager_SetupFormation.asm": "1a30e0494cb2832f7ce15223cfe37c5f2a03a4ad067a65569b610912e01afbb1"
+      }
+    },
+    {
+      "preferredVa": "0x2b43744",
+      "ghidraVa": "0x2c43744",
+      "end": "0x2b43b78",
+      "name": "Cat_manager_Balance_Reload",
+      "first16": "fd7bbaa9fc6f01a9fa6702a9f85f03a9",
+      "sha256": "5e910ba52805b14bbb7a34b6e8508b6c4bd1c5be11ec339619c9adf373e9c61f",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Cat_manager_Balance_Reload.c": "b572dd4e1f130ed70a5b889a112d92def34b5fc56dc873e03d8cea241ec28bb5",
+        "native-temporary-gun-client-reviewed/Cat_manager_Balance_Reload.asm": "1651d6acdacc09818b5b2135218365fd9ee9b9889b38dba04c0be6c9d912bd52"
+      }
+    },
+    {
+      "preferredVa": "0x2b6841c",
+      "ghidraVa": "0x2c6841c",
+      "end": "0x2b685d8",
+      "name": "Gun_manager_ReloadGunUI",
+      "first16": "fe0f1df8f65701a9f44f02a9b4af0190",
+      "sha256": "dce273738ba1df2f67654c2bfd13fa9ab6f6d7c0a00f899b67e9de90ca5a78b2",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Gun_manager_ReloadGunUI.c": "102a53c0e5b5856797c81323cd3d55889948a5b0cdb5528c615cfe0aeee22603",
+        "native-temporary-gun-client-reviewed/Gun_manager_ReloadGunUI.asm": "54852e4ac73707888a19bb2bb25aa49353bc599a369607d5e9038f79020454d1"
+      }
+    },
+    {
+      "preferredVa": "0x2b69e40",
+      "ghidraVa": "0x2c69e40",
+      "end": "0x2b69f50",
+      "name": "Gun_manager_NewGun_UI_ForceShow",
+      "first16": "fe57bea9f44f01a995af01f0f303012a",
+      "sha256": "b41612cf58a0fa43fcca1814a422939c4f8ffe3fcfd214ac2a4750dd4f943a21",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Gun_manager_NewGun_UI_ForceShow.c": "4c1f4ff64a2358ccb146ef64a43f35aac195079617f9a065a7de90b9ae8a9df4",
+        "native-temporary-gun-client-reviewed/Gun_manager_NewGun_UI_ForceShow.asm": "57a4890b892edf0ca4cf1fa73078f69a79762bbc4bf990544fe68c4664967803"
+      }
+    },
+    {
+      "preferredVa": "0x2b68ac8",
+      "ghidraVa": "0x2c68ac8",
+      "end": "0x2b68cd4",
+      "name": "Gun_manager_OnWeaponAcquired",
+      "first16": "fe57bea9f44f01a9b5af0190f303012a",
+      "sha256": "f7fa9e1ed70cf12c75258da83d50ad0054d2e8cfa1ec258fc0486c29cbce601e",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Gun_manager_OnWeaponAcquired.c": "7193e214517420f6e7858b16e415eaf3ced397ec9dbcc31e0828b497290b80b9",
+        "native-temporary-gun-client-reviewed/Gun_manager_OnWeaponAcquired.asm": "489ed70a376842a958eb906feff8148a471c97199a7350d9bccbd7f2e271f280"
+      }
+    },
+    {
+      "preferredVa": "0x2b6a65c",
+      "ghidraVa": "0x2c6a65c",
+      "end": "0x2b6a6c8",
+      "name": "Gun_manager_Has_Degree_Or_Higher",
+      "first16": "fe0f1ff8081840f9a80200b42908010b",
+      "sha256": "b4fbadc999b69f0fa4560bba6b46ecd06b7c19d3244565f75741e37358e76e27",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Gun_manager_Has_Degree_Or_Higher.c": "c6a2ac1e3e453a8650527b95b37e0797734d71bd1c7be312207b3b2901300d5c",
+        "native-temporary-gun-client-reviewed/Gun_manager_Has_Degree_Or_Higher.asm": "919419e0254c7636c6049133fab66eea0c6295d08238271ecf143f6df4e08bd4"
+      }
+    },
+    {
+      "preferredVa": "0x2b6a6c8",
+      "ghidraVa": "0x2c6a6c8",
+      "end": "0x2b6a6d8",
+      "name": "Gun_manager_get_Has_AdRewardGun",
+      "first16": "08c040b91f050031e0079f1ac0035fd6",
+      "sha256": "4b2e511511c36e7dceba48a8ccef15632912b08cb2a128165f7cd01987a29b54",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Gun_manager_get_Has_AdRewardGun.c": "a4150cf1abde54ad17ffa5dd07dc5918c1bfead99c234ae6b23fa0b3c0c15192",
+        "native-temporary-gun-client-reviewed/Gun_manager_get_Has_AdRewardGun.asm": "b446b96f47a81a57f81353878c2f02c9d7945ec116bd29cda7d5e89d1a991a74"
+      }
+    },
+    {
+      "preferredVa": "0x2b68408",
+      "ghidraVa": "0x2c68408",
+      "end": "0x2b6841c",
+      "name": "Gun_manager_Is_AdRewardSlot",
+      "first16": "08c040b91f0500310011417ae0179f1a",
+      "sha256": "79e989227397fa66fd88b25c684847b57dd216dd95dc40a842e92c3d04459429",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Gun_manager_Is_AdRewardSlot.c": "5a8144d4c893403383a2e7873582b8218e729ec503ca80ce6ef995c2dc28b8b2",
+        "native-temporary-gun-client-reviewed/Gun_manager_Is_AdRewardSlot.asm": "43a75f790a75b31e626717cd3baf09ac7d072278fff02365ba2198e245db9852"
+      }
+    },
+    {
+      "preferredVa": "0x2b6a6d8",
+      "ghidraVa": "0x2c6a6d8",
+      "end": "0x2b6a7b4",
+      "name": "Gun_manager_get_AD_Gun_RemainSec",
+      "first16": "ffc300d1fe5701a9f44f02a994af01d0",
+      "sha256": "6b9466840741e4d81a6a92c20570a1a90c8d7745df4b44568210e88337815cf7",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Gun_manager_get_AD_Gun_RemainSec.c": "66c9fc5e674d30a191b809ed384c37e579cfb38f67b86d44a82de3c2f6273682",
+        "native-temporary-gun-client-reviewed/Gun_manager_get_AD_Gun_RemainSec.asm": "7efc25feb5a0deb34bd06fa1bf2ef9783be93d79f5d85b1c2f4dfd55e602dd32"
+      }
+    },
+    {
+      "preferredVa": "0x2b6a7b4",
+      "ghidraVa": "0x2c6a7b4",
+      "end": "0x2b6a910",
+      "name": "Gun_manager_AddAdRewardGun",
+      "first16": "e80f1dfcfe5701a9f44f02a90840201e",
+      "sha256": "f4131372f2b3e1fb1446cd9c52254c03bf7a60d4ff942f75392998804dbc8f06",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Gun_manager_AddAdRewardGun.c": "ebbed54c80a684faa6915726f822eb129cd72248fe71e15b70cad0e410e2a34a",
+        "native-temporary-gun-client-reviewed/Gun_manager_AddAdRewardGun.asm": "6cf44fc6776d97195f8133c2b72f3f603df1d1041479c295b30ba4580837e025"
+      }
+    },
+    {
+      "preferredVa": "0x2b6a910",
+      "ghidraVa": "0x2c6a910",
+      "end": "0x2b6a994",
+      "name": "Gun_manager_AdRewardGun_TryWatch",
+      "first16": "fe0f1ef8f44f01a994af01d0f30300aa",
+      "sha256": "40989a5105873e0d10774374e2b45630f722363ea37a028d6aaef8dc92579594",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Gun_manager_AdRewardGun_TryWatch.c": "dbdeec3d8b6f9319c32106313df09828fb73fa7389281a449f51f654c3b481aa",
+        "native-temporary-gun-client-reviewed/Gun_manager_AdRewardGun_TryWatch.asm": "1e4eefcd66873a35c010316fcac069e349026a2a858f49be73d4fafdac4d80bd"
+      }
+    },
+    {
+      "preferredVa": "0x2b6a994",
+      "ghidraVa": "0x2c6a994",
+      "end": "0x2b6a9e4",
+      "name": "Gun_manager_AdRewardGun_Acquire",
+      "first16": "08c040b91f05003120020054fe0f1ef8",
+      "sha256": "59471ce1e967e65ba350a8bfc22c5c236cbaefa5c4429882edfce4a52a5df657",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Gun_manager_AdRewardGun_Acquire.c": "c4fc111e896b8cb8ba8fe65b7e23fb4eaa296e429a1916663888f2dbe436ed0b",
+        "native-temporary-gun-client-reviewed/Gun_manager_AdRewardGun_Acquire.asm": "0f03acf5bead80a3a1d47823f3ac6e93c94a7924f65c44cab2e4d649582ea8ac"
+      }
+    },
+    {
+      "preferredVa": "0x2b6a9e4",
+      "ghidraVa": "0x2c6a9e4",
+      "end": "0x2b6aa10",
+      "name": "Gun_manager_AdRewardGun_Expire",
+      "first16": "08c040b91f05003100010054fe4fbfa9",
+      "sha256": "fc9d139ebae4c728162b83f4c50d6b6a12cd09c4bc34f29133908bd9036e1c68",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Gun_manager_AdRewardGun_Expire.c": "dee5fae521937feb066e2dc80db88f4700fe325028d6954e0db1326473f3eed0",
+        "native-temporary-gun-client-reviewed/Gun_manager_AdRewardGun_Expire.asm": "2060726c14e094f19b18955a35f512d0044e938ce0188cd66b695ad4fc35bde7"
+      }
+    },
+    {
+      "preferredVa": "0x2b693b4",
+      "ghidraVa": "0x2c693b4",
+      "end": "0x2b69420",
+      "name": "Gun_manager_AD_Gun_Clear",
+      "first16": "fe4fbfa9f30300aa6102003668c240b9",
+      "sha256": "e81bacaf750968f92f80baac37cf4659235a940c9e6d5785625ec0157461bccb",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Gun_manager_AD_Gun_Clear.c": "d693e7392dcd1e59f0e0ad8aea180b7c14cc1a44d69dff2713d7001125f20d26",
+        "native-temporary-gun-client-reviewed/Gun_manager_AD_Gun_Clear.asm": "6fd663dca6a0fa71f3897cc1c3d6d5111c623614fe2208ccb35c7a702e26c9e6"
+      }
+    },
+    {
+      "preferredVa": "0x2b6aa10",
+      "ghidraVa": "0x2c6aa10",
+      "end": "0x2b6aa84",
+      "name": "Gun_manager_AD_Gun_OnLoaded",
+      "first16": "fe4fbfa908c040b91f050031e0020054",
+      "sha256": "71f304bcc67a8372c574cced8bb9469f87505d8c42433bdfc91d3aa0b43efd83",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Gun_manager_AD_Gun_OnLoaded.c": "61840d3617f629958444ce3a3d8cdda5ca3a576b958e66689fef06a548d5b27b",
+        "native-temporary-gun-client-reviewed/Gun_manager_AD_Gun_OnLoaded.asm": "471cfc39b794a1755a08d235e016e2a422b28ff3f56b50cacb4b04d7468142b8"
+      }
+    },
+    {
+      "preferredVa": "0x2b6aa84",
+      "ghidraVa": "0x2c6aa84",
+      "end": "0x2b6ab84",
+      "name": "Gun_manager_Update",
+      "first16": "e80f1dfcfe5701a9f44f02a994af01d0",
+      "sha256": "704c424ea09ac05b295eaba1ca648cf56ea2de6f8fa789d72714da06255ea222",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Gun_manager_Update.c": "6faa9483068f8235b75633727d606228c681812323633fa968d9e7fdd332d42e",
+        "native-temporary-gun-client-reviewed/Gun_manager_Update.asm": "67c93e9d0e665436ce7c803932b6c3827f1f4753aa317e62b2a1e736b4b743e4"
+      }
+    },
+    {
+      "preferredVa": "0x2b6ab84",
+      "ghidraVa": "0x2c6ab84",
+      "end": "0x2b6ac38",
+      "name": "Gun_manager_CheckAdGunEvent",
+      "first16": "fe0f1ef8f44f01a994af01d0f30300aa",
+      "sha256": "64a439712fbf3de58e9ba4b5b95b935725dacaa0612a22e0303628a38df28dc4",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Gun_manager_CheckAdGunEvent.c": "b005413506bca852519e9546845b772f33b5ca871078015429c78d1aaadc3466",
+        "native-temporary-gun-client-reviewed/Gun_manager_CheckAdGunEvent.asm": "24e71dfc23a32a558a04e614a7ecbd24b3220ab6103d6696ef45cc27b2717dec"
+      }
+    },
+    {
+      "preferredVa": "0x2b6ac38",
+      "ghidraVa": "0x2c6ac38",
+      "end": "0x2b6ad2c",
+      "name": "Gun_manager__ctor",
+      "first16": "fe5fbda9f65701a9f44f02a997af01d0",
+      "sha256": "c2a7150090bb777c1d470bfcda703bdd57e8e76570ee26956bd5d53616016cb1",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Gun_manager__ctor.c": "225176b08751422a49ad2a8b44f3a0c79f7b4fde1fb69c85c4d28f5022824f8c",
+        "native-temporary-gun-client-reviewed/Gun_manager__ctor.asm": "3b56cf481489146f2439f0fceaf79fafd82de13844e836eba7b5d3391971d7bc"
+      }
+    },
+    {
+      "preferredVa": "0x2b7078c",
+      "ghidraVa": "0x2c7078c",
+      "end": "0x2b707e4",
+      "name": "Gun_Item_Update",
+      "first16": "e80f1efcfe4f01a908c0413968010034",
+      "sha256": "721c74bf4ecc5f0d201f78790941b5349bb37e5133754b0b083d2a401ab921a7",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Gun_Item_Update.c": "4bc8f2bf4b2a7f8b6850d50dcb173c0487be034d4757815dd83ca5b012da88f4",
+        "native-temporary-gun-client-reviewed/Gun_Item_Update.asm": "0245cf78d788211b1424d057795d1163e5ce510b629cd1b7869385e41bddef6d"
+      }
+    },
+    {
+      "preferredVa": "0x2b707e4",
+      "ghidraVa": "0x2c707e4",
+      "end": "0x2b70974",
+      "name": "Gun_Item_UpdateAdTimeText",
+      "first16": "e80f1cfcfe5f01a9f65702a9f44f03a9",
+      "sha256": "aee1c9b2188bb9377439fbcdc02288c31b896bfb2095172db27cb74b165e0b7f",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Gun_Item_UpdateAdTimeText.c": "1f129f5b85849a21af999d9b0ffcb10b6f21c8b27db12f645397506b85184472",
+        "native-temporary-gun-client-reviewed/Gun_Item_UpdateAdTimeText.asm": "06ede5a97e2755ea4f30419d32aa09868094be06d4b0df4dab5407c7a7142ccf"
+      }
+    },
+    {
+      "preferredVa": "0x2b70974",
+      "ghidraVa": "0x2c70974",
+      "end": "0x2b70c88",
+      "name": "Gun_Item_Reload",
+      "first16": "fe67bca9f85f01a9f65702a9f44f03a9",
+      "sha256": "39af06976f9b4cab97da4dd9632f4ed33c1bf76c126016c64b641f06538f5580",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Gun_Item_Reload.c": "dee0fc094a78612fae2eb44703ed074ced5e4076aed8f02e56efd14a9b2d74ef",
+        "native-temporary-gun-client-reviewed/Gun_Item_Reload.asm": "135bf6bdcf5da8df12ed1d39a5b782067fd7c18330a2432b6006e0b24d77deff"
+      }
+    },
+    {
+      "preferredVa": "0x2b71680",
+      "ghidraVa": "0x2c71680",
+      "end": "0x2b716e4",
+      "name": "Gun_Item_OnPointerDown",
+      "first16": "08e4413948000034c0035fd6fe4fbfa9",
+      "sha256": "26b0d0d866b1a58a44791220084c8776d116c85d046146de03284849e5fe1cf2",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Gun_Item_OnPointerDown.c": "a982e0b099b6a6d4687589548e89df1ec383a2d2a63299b6fc805ec273daf5c7",
+        "native-temporary-gun-client-reviewed/Gun_Item_OnPointerDown.asm": "e22d8495cbf978a5a2daa9c9e073080cc2df1884dce1c907822c18407f44afca"
+      }
+    },
+    {
+      "preferredVa": "0x2b71778",
+      "ghidraVa": "0x2c71778",
+      "end": "0x2b71894",
+      "name": "Gun_Item_OnPointerUp",
+      "first16": "fe0f1ef8f44f01a954af01f0f30300aa",
+      "sha256": "2733e3911a4fe2937d3ec6602790f9343299c325bcea77561d359ed2d25b9054",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Gun_Item_OnPointerUp.c": "97921dc993851f28dd8bc2a312d19e9714a83abcdc1b6ff3ae3793bc4896ea24",
+        "native-temporary-gun-client-reviewed/Gun_Item_OnPointerUp.asm": "9831775312d75cc8cc3d1a14e5f10dfcd635a234c16988be21c0298d96714594"
+      }
+    },
+    {
+      "preferredVa": "0x28f5cfc",
+      "ghidraVa": "0x29f5cfc",
+      "end": "0x28f5d04",
+      "name": "Throw_NullReference_Wrapper",
+      "first16": "fe0f1ff86a220194fe0f1ff87b220194",
+      "sha256": "fd826c34b9ef2518b1f3f6d39e7562b9946c1a4ca9651bc3c25e81558d412348",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Throw_NullReference_Wrapper.c": "4dbe5415e169f90b0ce5055036cca1b94bf1565f8d9d2308c08bf4bd707fcb91",
+        "native-temporary-gun-client-reviewed/Throw_NullReference_Wrapper.asm": "eec6b09062497629de85a27e3a8cad918b42764b2a1c0f544152a636461e5fdd"
+      }
+    },
+    {
+      "preferredVa": "0x28f5d04",
+      "ghidraVa": "0x29f5d04",
+      "end": "0x28f5d0c",
+      "name": "Throw_Index_Wrapper",
+      "first16": "fe0f1ff87b220194c03cff90006c0191",
+      "sha256": "4443063a785929eff8fbdd73652167a28163cc8bee6d193aa1d2d34ba13cefaa",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Throw_Index_Wrapper.c": "b554c9aba53206d804e9fc370e97cf27027d10930f18eb2a6be625e055cb8dd1",
+        "native-temporary-gun-client-reviewed/Throw_Index_Wrapper.asm": "5581995141036f8f8cb7598583a54ae3c1a567e77a4bbff543774e6d542c448c"
+      }
+    },
+    {
+      "preferredVa": "0x293e6a8",
+      "ghidraVa": "0x2a3e6a8",
+      "end": "0x293e6bc",
+      "name": "Throw_NullReference_Create",
+      "first16": "ff8300d1fffb00a9e0030091ff0300f9",
+      "sha256": "cdbf0bcca450bcc5619d3bedfd51ab6ee40fa3f25845c22f256f2b52ded52c13",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Throw_NullReference_Create.c": "07933b7cac27ee4d3e9d7c27b53882e222ed878cead5f8d79e73b3adba1fff6f",
+        "native-temporary-gun-client-reviewed/Throw_NullReference_Create.asm": "428c28c0278566bbd155390442ae395ecf5d111ac48dd41afa23cc88ab7051b2"
+      }
+    },
+    {
+      "preferredVa": "0x293e6bc",
+      "ghidraVa": "0x2a3e6bc",
+      "end": "0x293e6cc",
+      "name": "Throw_NullReference_Raise",
+      "first16": "fe0f1ff803000094e1031faad2ffff97",
+      "sha256": "5ca19850cf19c59741f496304fb81f88760711935ae81e9878b9291de917db2c",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Throw_NullReference_Raise.c": "aded7644ecb862bc0a5476706b21810f9257b367ac0397bdc541e91af2615d80",
+        "native-temporary-gun-client-reviewed/Throw_NullReference_Raise.asm": "5aafa322c11ce154d2ee31e138ead7810e48a24e419b8885131feb71851f1d71"
+      }
+    },
+    {
+      "preferredVa": "0x293e6f4",
+      "ghidraVa": "0x2a3e6f4",
+      "end": "0x293e704",
+      "name": "Throw_Index_Raise",
+      "first16": "fe0f1ff803000094e1031faac4ffff97",
+      "sha256": "cc88e424aa2cedbec18e703dcec784e753947ba52264006468b82ee358e7e4dd",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Throw_Index_Raise.c": "f7b9c1233cebb3659705feb97a706251cb1dd6dcac5b14dcbcd482f99b3529a7",
+        "native-temporary-gun-client-reviewed/Throw_Index_Raise.asm": "53f08a0cd65a4fe4ba45d72673ff66e057b405fd9658b230d54ec9cb96fab4ed"
+      }
+    },
+    {
+      "preferredVa": "0x293e610",
+      "ghidraVa": "0x2a3e610",
+      "end": "0x293e638",
+      "name": "Managed_Exception_CxaThrow",
+      "first16": "fe4fbfa9f30300aa71ffff9700018052",
+      "sha256": "3baf58d6dd416adb6ec9a1aa884940ecdc8bcb00a7fd1ff5efd9d6fd84aa48a1",
+      "outputs": {
+        "native-temporary-gun-client-reviewed/Managed_Exception_CxaThrow.c": "f034685b9e5e3c23ca134caf66dd8742db361f79a48e68bfefb6bb0b28479155",
+        "native-temporary-gun-client-reviewed/Managed_Exception_CxaThrow.asm": "79d2db030a3cd3519ea853008b8d9e435cee4ca33d345340c0a40c9ffa737b80"
+      }
+    }
+  ],
+  "fields": {
+    "Gun_manager": {
+      "Gun_list": 32,
+      "Selected_items": 40,
+      "Gun_Collect": 48,
+      "Weapon_Get_Counts": 56,
+      "Owned_Gun_list": 64,
+      "Gun_sprites": 72,
+      "Degree_Colors": 80,
+      "gunItemList": 88,
+      "instance": 0,
+      "Owned_Gun_Pause": 96,
+      "Selected_Pause": 104,
+      "URL": 0,
+      "is_AutoMerge": 112,
+      "AutoMerge_Degree": 116,
+      "OnOff_UI": 120,
+      "Auto_Explain_obj": 128,
+      "NonAuto_Explain_obj": 136,
+      "Auto_Btn_obj": 144,
+      "AutoMerge_Exclude_Degree": 0,
+      "Gun_Slot_List": 152,
+      "gun_info_ui": 160,
+      "newGun_ui": 168,
+      "AD_Draw_Btn_obj": 176,
+      "AD_Daily_Gun_LastDate": 184,
+      "AD_DAILY_GUN_UNLOCK_STAGE_VALUE": 0,
+      "AD_DAILY_GUN_DEGREE": 0,
+      "AD_Gun_SlotIndex": 192,
+      "AD_Gun_Num": 196,
+      "AD_Gun_EndUtcTicks": 200,
+      "_adGunCheckTimer": 208,
+      "Gacha_Draw_Count": 212,
+      "AD_Gun_Event_Given": 216,
+      "AD_GUN_EVENT_GUN_NUM": 0,
+      "AD_GUN_EVENT_COOLTIME": 0,
+      "merge_tutorial_ui": 224,
+      "Has_Merged": 232,
+      "Merge_Tutorial_Logged": 233
+    },
+    "Gun_Item": {
+      "Gun_img": 32,
+      "Shadow_img": 40,
+      "Panel_img": 48,
+      "FusionAble_obj": 56,
+      "Degree_objs": 64,
+      "Type_txt": 72,
+      "Pause_obj": 80,
+      "AD_Reward_obj": 88,
+      "AD_Time_txt": 96,
+      "AutoMerge_obj": 104,
+      "<IsAdReward>k__BackingField": 112,
+      "_adTxtTimer": 116,
+      "<IsPaused>k__BackingField": 120,
+      "<IsAutoMerging>k__BackingField": 121,
+      "OverlapShrink": 124,
+      "PressScale": 128,
+      "PressAnimDuration": 132,
+      "PressBounceBackDuration": 136,
+      "GunNum": 140,
+      "ListIndex": 144,
+      "_rect": 152,
+      "_rootCanvas": 160,
+      "_canvasGroup": 168,
+      "_dragOffset": 176,
+      "_isDragging": 184,
+      "_isPressed": 185,
+      "_fusionTarget": 192,
+      "_pauseBlocked": 200,
+      "_swapTarget": 208,
+      "_swapTargetDestSlot": 216,
+      "_myOriginalSlotIndex": 220,
+      "_hoveredSlot": 224,
+      "_overSafeHUD": 232,
+      "_scaleCoroutine": 240,
+      "_normalScale": 248,
+      "FusionHighlightScale": 0,
+      "ScaleAnimDuration": 0,
+      "_pressCoroutine": 264,
+      "_spawnCoroutine": 272
+    }
+  },
+  "timerLiteral": {
+    "pointer": "0x5d63b78",
+    "index": 22131,
+    "value": "{0:00}:{1:00}"
+  },
+  "itemRefreshSeconds": 0.20000000298023224,
+  "rules": {
+    "event": "Weapon02AdOn==1; not given; collected grade>=2 sets given without offer; otherwise Has_Merged and no current offer and free owned slot: AddAdRewardGun(14,1800) then mark given",
+    "timer": "DateTime.UtcNow ticks; manager expiry every0.25 unscaled sec, skip while reward ad busy; Gun_Item countdown every0.2 sec truncation max(0,remaining), format00:00",
+    "acquire": "clear metadata without removing item; force original NewGun UI; collection and per-grade acquisition count; become regular owned weapon",
+    "expire": "clear owned cell only if recorded slot still contains recorded weapon; clear metadata; reload",
+    "load": "mismatched/out-of-range slot clears metadata only; expired valid offer removed"
+  },
+  "dependencyEvidence": [
+    "native-inventory-dependencies-reviewed/Gun_Item_List_FuseItems.c: successful merge sets Has_Merged then CheckAdGunEvent",
+    "native-adventure-save-load-reviewed/LoadData_Load.c: imports AD fields then AD_Gun_OnLoaded",
+    "native-offline-dependencies-reviewed/_Reward_Get_d__70_MoveNext.c: placement9 acquire versus placement10 daily weapon"
+  ],
+  "scopeComplete": false,
+  "registeredQueryCount": {
+    "before": 882,
+    "afterIncludingThisFolder": 901,
+    "newToDeclaredFolders": 19,
+    "firstQueryAcrossAllHistoricalFolders": 17,
+    "note": "Query addresses are not reviewed behavior counts or a game-recovery percentage."
+  }
+}

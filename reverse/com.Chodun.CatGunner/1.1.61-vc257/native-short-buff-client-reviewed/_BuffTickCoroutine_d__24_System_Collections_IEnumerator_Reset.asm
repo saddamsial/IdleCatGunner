@@ -1,0 +1,14 @@
+02c38418  stp x30,x19,[sp, #-0x10]!
+02c3841c  adrp x0,0x5e5a000
+02c38420  ldr x0,[x0, #0x3b8]
+02c38424  bl 0x029f5a64
+02c38428  bl 0x029f5cec
+02c3842c  mov x1,xzr
+02c38430  mov x19,x0
+02c38434  bl 0x0485363c
+02c38438  adrp x0,0x5e63000
+02c3843c  ldr x0,[x0, #0x1c0]
+02c38440  bl 0x029f5a64
+02c38444  mov x1,x0
+02c38448  mov x0,x19
+02c3844c  bl 0x029f5bc0

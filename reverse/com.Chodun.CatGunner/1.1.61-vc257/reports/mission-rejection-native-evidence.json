@@ -1,0 +1,556 @@
+{
+  "terms": {
+    "SequenceLocked": {
+      "preferredPointer": "0x5d5e798",
+      "literal": "Mission/SequenceLocked",
+      "values": [
+        "Claim the previous reward first!",
+        "이전 보상을 먼저 획득하세요",
+        "先に前の報酬を受け取ってください。",
+        "请先领取上一个奖励。",
+        "請先領取上一個獎勵。",
+        "Resgate a recompensa anterior primeiro.",
+        "Hole zuerst die vorherige Belohnung ab.",
+        "Réclamez d'abord la récompense précédente.",
+        "Reclama primero la recompensa anterior.",
+        "รับรางวัลก่อนหน้าก่อน",
+        "Klaim hadiah sebelumnya dulu.",
+        "Tuntut ganjaran sebelumnya dahulu.",
+        "Nhận phần thưởng trước đó trước.",
+        "Сначала заберите предыдущую награду."
+      ]
+    },
+    "InventoryWarn": {
+      "preferredPointer": "0x5d5e7a0",
+      "literal": "Mission/Inventory_Warn",
+      "values": [
+        "Weapon inventory is full!",
+        "인벤토리에 총이 가득차있습니다!",
+        "武器インベントリがいっぱいです！",
+        "武器栏已满！",
+        "武器欄已滿！",
+        "Inventário de armas cheio!",
+        "Waffen-Inventar ist voll!",
+        "Inventaire d'armes plein!",
+        "¡Inventario de armas lleno!",
+        "ช่องเก็บอาวุธเต็มแล้ว!",
+        "Inventaris senjata penuh!",
+        "Inventori senjata penuh!",
+        "Kho vũ khí đã đầy!",
+        "Инвентарь оружия заполнен!"
+      ]
+    }
+  },
+  "languageSha256": "151dc691a395ca83d006e9aaa717803e6c62b1a90fcbbb6dbc9fe13411a9697f",
+  "originalButtons": {
+    "9587": {
+      "fields": {
+        "serializedVersion": 6,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_Component": [
+          {
+            "component": {
+              "fileID": 113677
+            }
+          },
+          {
+            "component": {
+              "fileID": 93997
+            }
+          },
+          {
+            "component": {
+              "fileID": 134818
+            }
+          },
+          {
+            "component": {
+              "fileID": 129131
+            }
+          },
+          {
+            "component": {
+              "fileID": 142243
+            }
+          },
+          {
+            "component": {
+              "fileID": 140259
+            }
+          }
+        ],
+        "m_Layer": 5,
+        "m_Name": "Mission_Reward_Normal",
+        "m_TagString": "Untagged",
+        "m_Icon": {
+          "fileID": 0
+        },
+        "m_NavMeshLayer": 0,
+        "m_StaticEditorFlags": 0,
+        "m_IsActive": 1
+      },
+      "buttons": [
+        {
+          "fileID": 142243,
+          "fields": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 9587
+            },
+            "m_Enabled": 1,
+            "m_EditorHideFlags": 0,
+            "m_Script": {
+              "fileID": 11500000,
+              "guid": "18d0a90695249463551c00f45766e642",
+              "type": 3
+            },
+            "m_Name": null,
+            "m_EditorClassIdentifier": null,
+            "m_Navigation": {
+              "m_Mode": 3,
+              "m_WrapAround": 0,
+              "m_SelectOnUp": {
+                "fileID": 0
+              },
+              "m_SelectOnDown": {
+                "fileID": 0
+              },
+              "m_SelectOnLeft": {
+                "fileID": 0
+              },
+              "m_SelectOnRight": {
+                "fileID": 0
+              }
+            },
+            "m_Transition": 1,
+            "m_Colors": {
+              "m_NormalColor": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              },
+              "m_HighlightedColor": {
+                "r": 0.9607843,
+                "g": 0.9607843,
+                "b": 0.9607843,
+                "a": 1
+              },
+              "m_PressedColor": {
+                "r": 0.78431374,
+                "g": 0.78431374,
+                "b": 0.78431374,
+                "a": 1
+              },
+              "m_SelectedColor": {
+                "r": 0.9607843,
+                "g": 0.9607843,
+                "b": 0.9607843,
+                "a": 1
+              },
+              "m_DisabledColor": {
+                "r": 0.78431374,
+                "g": 0.78431374,
+                "b": 0.78431374,
+                "a": 0.5019608
+              },
+              "m_ColorMultiplier": 1,
+              "m_FadeDuration": 0.1
+            },
+            "m_SpriteState": {
+              "m_HighlightedSprite": {
+                "fileID": 0
+              },
+              "m_PressedSprite": {
+                "fileID": 0
+              },
+              "m_SelectedSprite": {
+                "fileID": 0
+              },
+              "m_DisabledSprite": {
+                "fileID": 0
+              }
+            },
+            "m_AnimationTriggers": {
+              "m_NormalTrigger": "Normal",
+              "m_HighlightedTrigger": "Highlighted",
+              "m_PressedTrigger": "Pressed",
+              "m_SelectedTrigger": "Selected",
+              "m_DisabledTrigger": "Disabled"
+            },
+            "m_Interactable": 1,
+            "m_TargetGraphic": {
+              "fileID": 134818
+            },
+            "m_OnClick": {
+              "m_PersistentCalls": {
+                "m_Calls": [
+                  {
+                    "m_Target": {
+                      "fileID": 132996
+                    },
+                    "m_TargetAssemblyTypeName": "Mission_Reward_Slot, Assembly-CSharp",
+                    "m_MethodName": "Normal_Reward_Click",
+                    "m_Mode": 1,
+                    "m_Arguments": {
+                      "m_ObjectArgument": {
+                        "fileID": 0
+                      },
+                      "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                      "m_IntArgument": 0,
+                      "m_FloatArgument": 0,
+                      "m_StringArgument": null,
+                      "m_BoolArgument": 0
+                    },
+                    "m_CallState": 2
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "900": {
+      "fields": {
+        "serializedVersion": 6,
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_Component": [
+          {
+            "component": {
+              "fileID": 103498
+            }
+          },
+          {
+            "component": {
+              "fileID": 90126
+            }
+          },
+          {
+            "component": {
+              "fileID": 124061
+            }
+          },
+          {
+            "component": {
+              "fileID": 124060
+            }
+          },
+          {
+            "component": {
+              "fileID": 124062
+            }
+          }
+        ],
+        "m_Layer": 5,
+        "m_Name": "NewSeason_Btn",
+        "m_TagString": "Untagged",
+        "m_Icon": {
+          "fileID": 0
+        },
+        "m_NavMeshLayer": 0,
+        "m_StaticEditorFlags": 0,
+        "m_IsActive": 1
+      },
+      "buttons": [
+        {
+          "fileID": 124060,
+          "fields": {
+            "m_ObjectHideFlags": 0,
+            "m_CorrespondingSourceObject": {
+              "fileID": 0
+            },
+            "m_PrefabInstance": {
+              "fileID": 0
+            },
+            "m_PrefabAsset": {
+              "fileID": 0
+            },
+            "m_GameObject": {
+              "fileID": 900
+            },
+            "m_Enabled": 1,
+            "m_EditorHideFlags": 0,
+            "m_Script": {
+              "fileID": 11500000,
+              "guid": "18d0a90695249463551c00f45766e642",
+              "type": 3
+            },
+            "m_Name": null,
+            "m_EditorClassIdentifier": null,
+            "m_Navigation": {
+              "m_Mode": 3,
+              "m_WrapAround": 0,
+              "m_SelectOnUp": {
+                "fileID": 0
+              },
+              "m_SelectOnDown": {
+                "fileID": 0
+              },
+              "m_SelectOnLeft": {
+                "fileID": 0
+              },
+              "m_SelectOnRight": {
+                "fileID": 0
+              }
+            },
+            "m_Transition": 1,
+            "m_Colors": {
+              "m_NormalColor": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              },
+              "m_HighlightedColor": {
+                "r": 0.9607843,
+                "g": 0.9607843,
+                "b": 0.9607843,
+                "a": 1
+              },
+              "m_PressedColor": {
+                "r": 0.78431374,
+                "g": 0.78431374,
+                "b": 0.78431374,
+                "a": 1
+              },
+              "m_SelectedColor": {
+                "r": 0.9607843,
+                "g": 0.9607843,
+                "b": 0.9607843,
+                "a": 1
+              },
+              "m_DisabledColor": {
+                "r": 0.78431374,
+                "g": 0.78431374,
+                "b": 0.78431374,
+                "a": 0.5019608
+              },
+              "m_ColorMultiplier": 1,
+              "m_FadeDuration": 0.1
+            },
+            "m_SpriteState": {
+              "m_HighlightedSprite": {
+                "fileID": 0
+              },
+              "m_PressedSprite": {
+                "fileID": 0
+              },
+              "m_SelectedSprite": {
+                "fileID": 0
+              },
+              "m_DisabledSprite": {
+                "fileID": 0
+              }
+            },
+            "m_AnimationTriggers": {
+              "m_NormalTrigger": "Normal",
+              "m_HighlightedTrigger": "Highlighted",
+              "m_PressedTrigger": "Pressed",
+              "m_SelectedTrigger": "Selected",
+              "m_DisabledTrigger": "Disabled"
+            },
+            "m_Interactable": 1,
+            "m_TargetGraphic": {
+              "fileID": 124061
+            },
+            "m_OnClick": {
+              "m_PersistentCalls": {
+                "m_Calls": [
+                  {
+                    "m_Target": {
+                      "fileID": 1110
+                    },
+                    "m_TargetAssemblyTypeName": "UnityEngine.GameObject, UnityEngine",
+                    "m_MethodName": "SetActive",
+                    "m_Mode": 6,
+                    "m_Arguments": {
+                      "m_ObjectArgument": {
+                        "fileID": 0
+                      },
+                      "m_ObjectArgumentAssemblyTypeName": "UnityEngine.Object, UnityEngine",
+                      "m_IntArgument": 0,
+                      "m_FloatArgument": 0,
+                      "m_StringArgument": null,
+                      "m_BoolArgument": 1
+                    },
+                    "m_CallState": 2
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "rewardItemFields": {
+    "m_ObjectHideFlags": 0,
+    "m_CorrespondingSourceObject": {
+      "fileID": 0
+    },
+    "m_PrefabInstance": {
+      "fileID": 0
+    },
+    "m_PrefabAsset": {
+      "fileID": 0
+    },
+    "m_GameObject": {
+      "fileID": 9587
+    },
+    "m_Enabled": 1,
+    "m_EditorHideFlags": 0,
+    "m_Script": {
+      "fileID": 11500000,
+      "guid": "6546875ce64aaca605fee40a23286690",
+      "type": 3
+    },
+    "m_Name": null,
+    "m_EditorClassIdentifier": null,
+    "_degree": 0,
+    "_Lv": 0,
+    "Dia_obj": {
+      "fileID": 20752
+    },
+    "Gun_obj": {
+      "fileID": 19172
+    },
+    "Core_obj": {
+      "fileID": 15554
+    },
+    "Dia_Reward_txt": {
+      "fileID": 118567
+    },
+    "Core_Reward_txt": {
+      "fileID": 122336
+    },
+    "Gun_img": {
+      "fileID": 141788
+    },
+    "Shadow_img": {
+      "fileID": 143849
+    },
+    "Panel_img": {
+      "fileID": 132616
+    },
+    "Degree_objs": [
+      {
+        "fileID": 37285
+      },
+      {
+        "fileID": 13839
+      },
+      {
+        "fileID": 19745
+      },
+      {
+        "fileID": 6941
+      },
+      {
+        "fileID": 30626
+      },
+      {
+        "fileID": 8055
+      },
+      {
+        "fileID": 20686
+      },
+      {
+        "fileID": 26903
+      }
+    ],
+    "Type_txt": {
+      "fileID": 120720
+    },
+    "NonClear_obj": {
+      "fileID": 25211
+    },
+    "GetAble_obj": {
+      "fileID": 14879
+    },
+    "Get_obj": {
+      "fileID": 4790
+    },
+    "Locked_obj": {
+      "fileID": 35478
+    },
+    "SequenceLocked_obj": {
+      "fileID": 19641
+    },
+    "SequenceLocked_obj2": {
+      "fileID": 24847
+    },
+    "AD_Reward_obj": {
+      "fileID": 28821
+    }
+  },
+  "businessMethods": 8,
+  "allComplete": true,
+  "nativeMethods": [
+    {
+      "preferredVA": "0x2aa4028",
+      "name": "Mission_manager_UI_Reload"
+    },
+    {
+      "preferredVA": "0x2aa5e74",
+      "name": "Mission_manager_Reward_Get"
+    },
+    {
+      "preferredVA": "0x2aa6acc",
+      "name": "Mission_manager_Reward_Status_return"
+    },
+    {
+      "preferredVA": "0x2aa629c",
+      "name": "Mission_manager_is_Reward_SequenceLocked"
+    },
+    {
+      "preferredVA": "0x2b04394",
+      "name": "Mission_Reward_Item_Value_Reload"
+    },
+    {
+      "preferredVA": "0x2b0478c",
+      "name": "Mission_Reward_Slot_Value_Reload"
+    },
+    {
+      "preferredVA": "0x2b04908",
+      "name": "Mission_Reward_Slot_Normal_Reward_Click"
+    },
+    {
+      "preferredVA": "0x2b04978",
+      "name": "Mission_Reward_Slot_Epic_Reward_Click"
+    }
+  ],
+  "localAdapters": [
+    "reuse original star alert object instead of global UI_manager alert pool",
+    "Chinese simplified/traditional or original English selection, not full I2",
+    "expired/paid/ad claims still unavailable",
+    "full season-reset/date algorithm unchanged"
+  ]
+}

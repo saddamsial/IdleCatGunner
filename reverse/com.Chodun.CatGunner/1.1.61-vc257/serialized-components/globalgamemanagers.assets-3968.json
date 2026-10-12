@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "file": "globalgamemanagers.assets",
+    "path_id": 3968,
+    "type_index": 9899,
+    "type": "UnityEngine.Rendering.Universal.DepthOfField",
+    "game_object": "DepthOfField"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": 2951
+    },
+    "m_Name": "DepthOfField",
+    "active": true,
+    "mode": {
+      "m_OverrideState": true,
+      "m_Value": 0
+    },
+    "gaussianStart": {
+      "m_OverrideState": true,
+      "m_Value": 10.0
+    },
+    "gaussianEnd": {
+      "m_OverrideState": true,
+      "m_Value": 30.0
+    },
+    "gaussianMaxRadius": {
+      "m_OverrideState": true,
+      "m_Value": 1.0
+    },
+    "highQualitySampling": {
+      "m_OverrideState": true,
+      "m_Value": false
+    },
+    "focusDistance": {
+      "m_OverrideState": true,
+      "m_Value": 10.0
+    },
+    "aperture": {
+      "m_OverrideState": true,
+      "m_Value": 5.599999904632568
+    },
+    "focalLength": {
+      "m_OverrideState": true,
+      "m_Value": 50.0
+    },
+    "bladeCount": {
+      "m_OverrideState": true,
+      "m_Value": 5
+    },
+    "bladeCurvature": {
+      "m_OverrideState": true,
+      "m_Value": 1.0
+    },
+    "bladeRotation": {
+      "m_OverrideState": true,
+      "m_Value": 0.0
+    }
+  }
+}

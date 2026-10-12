@@ -1,0 +1,22 @@
+{
+  "status": "completed",
+  "duration": 59.15,
+  "summary": {
+    "total": 7,
+    "passed": 6,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "observedVia": "catgunner-wait-test.py output; original Temp status was removed by next async run before archival; this is the observed summary, not a fabricated full result list",
+  "failures": [
+    {
+      "FullName": "OriginalMineSweepTests.TwoTicketsExhaustPurchasePanelAndSixTicketPackRespectLimits",
+      "Status": "Failed",
+      "Duration": 6.0810798,
+      "Message": "Expected: True; But was: False",
+      "sourceLine": 113
+    }
+  ],
+  "diagnosis": "Fixture set State.Stage_Value_Max=190 but not Forest.Stage_Value_Max. RecoveryForestClient.SaveNow writes runtime forest maximum into the save; prior sweeps erased only the incomplete fixture threshold. Production banner guard not changed; fix both fixture values and rerun entire suite."
+}

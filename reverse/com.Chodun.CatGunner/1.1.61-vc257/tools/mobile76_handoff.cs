@@ -1,0 +1,12 @@
+if(UnityEditor.EditorApplication.isPlaying||UnityEditor.EditorApplication.isCompiling)throw new System.Exception("Finish tests/compilation first");
+UnityEditor.SessionState.EraseString("CatGunner.Recovery.TestHostFolder");
+UnityEditor.SessionState.EraseBool("CatGunner.ProgressionVisualClone");
+UnityEditor.EditorApplication.isPaused=false;Time.timeScale=1;
+var scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene();
+if(scene.path!="Assets/Recovery/Scenes/RecoveredClient.unity")scene=UnityEditor.SceneManagement.EditorSceneManager.OpenScene("Assets/Recovery/Scenes/RecoveredClient.unity");
+var objects=scene.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<Transform>(true)).Select(t=>t.gameObject).ToArray();
+var client=objects.Select(g=>g.GetComponent<CatGunner.Recovery.RecoveryForestClient>()).Single(c=>c!=null);
+var fill=new UnityEditor.SerializedObject(client.Slider.Value_Fill);
+var h=new {scene=scene.path,version=Application.unityVersion,dirty=scene.isDirty,playing=UnityEditor.EditorApplication.isPlaying,paused=UnityEditor.EditorApplication.isPaused,compiling=UnityEditor.EditorApplication.isCompiling,compilationFailed=UnityEditor.EditorUtility.scriptCompilationFailed,objects=objects.Length,missingScripts=objects.Sum(g=>UnityEditor.GameObjectUtility.GetMonoBehavioursWithMissingScriptCount(g)),persist=client.Persist,saveFolderOverride=client.SaveFolderOverride,testHostFolder=UnityEditor.SessionState.GetString("CatGunner.Recovery.TestHostFolder",""),localAdSimulation=client.OfflineRewardedAdSimulation,localPurchaseSimulation=client.OfflinePurchaseSimulation,timeScale=Time.timeScale,inputOverrides=objects.Select(g=>g.GetComponent<UnityEngine.EventSystems.StandaloneInputModule>()).Count(x=>x!=null&&x.inputOverride!=null),userFillPPU=fill.FindProperty("m_PixelsPerUnitMultiplier").floatValue,fillHeight=client.Slider.Value_Fill.rectTransform.rect.height,buildScenes=UnityEditor.EditorBuildSettings.scenes.Select(s=>new{s.path,s.enabled}).ToArray()};
+System.IO.File.WriteAllText(System.IO.Path.GetFullPath(System.IO.Path.Combine(Application.dataPath,"../../../reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/mobile76-handoff.json")),Newtonsoft.Json.JsonConvert.SerializeObject(h,Newtonsoft.Json.Formatting.Indented));
+return h;

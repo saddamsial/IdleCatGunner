@@ -1,0 +1,153 @@
+{
+  "rule": 63,
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "updatedUtc": "2026-10-11T18:28:44.728778+00:00",
+  "nativeContract": "target-rotation-native-contract.json",
+  "nativeMethods": {
+    "newLifecycle": 4,
+    "reusedQuaternion": 3,
+    "exceptionHelpers": 6,
+    "registeredAddressCount": {
+      "before": 939,
+      "after": 943,
+      "new": 4
+    },
+    "boundary": "Only selected local-rotation branch reviewed; exports and address counts are not feature coverage"
+  },
+  "metadataLifecycleHooks": {
+    "DOTweenAnimation": [
+      "Awake",
+      "Start",
+      "OnDestroy"
+    ],
+    "ABSAnimationComponent": []
+  },
+  "tests": [
+    {
+      "report": "target-rotation-corrected-validation.json",
+      "summary": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 25.01
+    },
+    {
+      "report": "target-rotation-startup-validation.json",
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 24.31
+    }
+  ],
+  "attempts": [
+    "target-rotation-baseline-validation.json",
+    "target-rotation-baseline-retry-validation.json",
+    "target-rotation-first-validation.json"
+  ],
+  "attemptExplanation": "Initial0/0 ran before updated test discovery; not a pass. Baseline0/1 and first0/2 fixtures allowed ForestCombatAcceptance to clear the target every frame when IsGaming=false. Corrected isolated fixture suppresses that owner; separate natural zero-input gameplay test keeps it enabled.",
+  "visuals": [
+    {
+      "path": "visual/target-rotation-first-gpu.png",
+      "sha256": "6eb96ac570b6b0e545cfa2a802cdfb3993077ec3027b88f48862619bc04d787b",
+      "actuallyViewed": true,
+      "observation": "Visible original crosshair at different rotations/positions"
+    },
+    {
+      "path": "visual/target-rotation-second-gpu.png",
+      "sha256": "9d3b2f0b9425b67f2a9650c505c19ba1dfa25a5db4e2b2467bcea859173cc491",
+      "actuallyViewed": true,
+      "observation": "Visible original crosshair at different rotations/positions"
+    },
+    {
+      "path": "visual/target-rotation-natural-gpu.png",
+      "sha256": "b4a69b5c0bf552382e5a921aa92297c3a0a0891783f83845b84ce6b1adf7014c",
+      "actuallyViewed": true,
+      "observation": "Natural cat firing captured; marker not clearly visible in this frame, activation/rotation verified separately by runtime assertions"
+    }
+  ],
+  "preservation": "target-rotation-preservation.json",
+  "fontCache": "target-rotation-font-cache.json",
+  "historicalReports": "../checkpoints/target-rotation-before/historical-reports.json",
+  "handoff": {
+    "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+    "version": "6000.4.10f1",
+    "dirty": false,
+    "playing": false,
+    "paused": false,
+    "compiling": false,
+    "compilationFailed": false,
+    "objects": 35954,
+    "missingScripts": 0,
+    "persist": true,
+    "saveFolderOverride": null,
+    "testHostFolder": "",
+    "localAdSimulation": true,
+    "localPurchaseSimulation": true,
+    "timeScale": 1.0,
+    "inputOverrides": 0,
+    "userFillPPU": 10.0,
+    "fillHeight": 37.0,
+    "buildScenes": [
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredBullets.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForest.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestHUD.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestProgress.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredJoystick.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredSettings.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredTarget.unity",
+        "enabled": true
+      }
+    ]
+  },
+  "console": {
+    "currentError": 0,
+    "currentWarnings": 2,
+    "history": "target-rotation-error-history.json",
+    "historicalError": "One Pipeline AssetDatabase.Refresh main-thread5000ms timeout; compilation subsequently succeeded and tests ran. No console clear in this turn."
+  },
+  "sources": {
+    "Assets/Recovery/Scripts/RecoveryClientPresentation.cs": "487dc858d350c7107beafb7355385d35a733b8cf01219cf22d7da04e2c8b736c",
+    "Assets/Recovery/Scripts/RecoveryTargetRotation.cs": "7e5e69e5497dbff118810747d028361cbc5701469d3f335fb018df5545ea3add",
+    "Assets/Recovery/Tests/PlayMode/OriginalTargetRotationTests.cs": "804cc15df1a968116bc9238078007e96cc5d816c218531397f2fa31956921e89",
+    "Assets/Recovery/Resources/OriginalTargetRotation.json": "89eed12cfe47019c8fda2dbba863aaa9b88700f0567c296c3cb7675658096f05"
+  },
+  "adapters": [
+    "Runtime component and frame scheduler replace DOTween tween allocation/global manager; not full plugin lifecycle or all quaternion modes",
+    "Original sprite, tilt, transform offsets/scale and existing compatibility material retained; disabled Shapes.Disc not enabled",
+    "Lazy hidden-transform evaluation and local first-frame scheduling replace original DOTween global manager"
+  ],
+  "scopeComplete": false,
+  "playerBuild": false,
+  "deviceAcceptance": false,
+  "gitDelivery": false
+}

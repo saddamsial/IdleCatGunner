@@ -1,0 +1,76 @@
+{
+  "success": true,
+  "command": "command eval_file",
+  "data": {
+    "command": "eval_file",
+    "parameters": {
+      "file": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/tools/weapon_static_text_handoff.cs"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "version": "6000.4.10f1",
+        "dirty": false,
+        "playing": false,
+        "paused": false,
+        "compiling": false,
+        "compilationFailed": false,
+        "objects": 35954,
+        "missingScripts": 0,
+        "persist": true,
+        "saveFolderOverride": null,
+        "testHostFolder": "",
+        "localAdSimulation": true,
+        "localPurchaseSimulation": true,
+        "timeScale": 1,
+        "inputOverrides": 0,
+        "userFillPPU": 10,
+        "fillHeight": 37,
+        "buildScenes": [
+          {
+            "path": "Assets/Recovery/Scenes/RecoveredClient.unity",
+            "enabled": true
+          },
+          {
+            "path": "Assets/Recovery/Scenes/RecoveredBullets.unity",
+            "enabled": true
+          },
+          {
+            "path": "Assets/Recovery/Scenes/RecoveredForest.unity",
+            "enabled": true
+          },
+          {
+            "path": "Assets/Recovery/Scenes/RecoveredForestHUD.unity",
+            "enabled": true
+          },
+          {
+            "path": "Assets/Recovery/Scenes/RecoveredForestProgress.unity",
+            "enabled": true
+          },
+          {
+            "path": "Assets/Recovery/Scenes/RecoveredJoystick.unity",
+            "enabled": true
+          },
+          {
+            "path": "Assets/Recovery/Scenes/RecoveredSettings.unity",
+            "enabled": true
+          },
+          {
+            "path": "Assets/Recovery/Scenes/RecoveredTarget.unity",
+            "enabled": true
+          }
+        ]
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var c=UnityEngine.Object.FindFirstObjectByType<CatGunner.Recovery.RecoveryForestClient>();var raw=c.Slider.Value_Fill.GetComponentInChildren<UnityEngine.UI.RawImage>(true);return new{scrollCount=raw.GetComponents<Scrolling>().Length,speed=raw.GetComponent<Scrolling>().Speed.ToString(),uv=raw.uvRect.ToString(),rect=raw.rectTransform.rect.ToString(),fillRect=c.Slider.Value_Fill.rectTransform.rect.ToString(),fill=c.Slider.Value_Fill.fillAmount,compilationFailed=UnityEditor.EditorUtility.scriptCompilationFailed};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "scrollCount": 1,
+        "speed": "(-1.00, 0.00)",
+        "uv": "(x:0.00, y:0.00, width:10.80, height:0.37)",
+        "rect": "(x:-540.00, y:-18.50, width:1080.00, height:37.00)",
+        "fillRect": "(x:-540.00, y:-18.50, width:1080.00, height:37.00)",
+        "fill": 0.478,
+        "compilationFailed": false
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,70 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 49.21,
+      "summary": {
+        "total": 6,
+        "passed": 4,
+        "failed": 2,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalSeasonPreviewTests.BothPanelsRefreshRewardTypesAndAllBoundaryLevelsWithoutGranting",
+          "Status": "Passed",
+          "Duration": 9.1345737,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalSeasonPreviewTests.ForcedEntryHidesOfferForVipAndColdReloadShowsFreshRewardState",
+          "Status": "Passed",
+          "Duration": 13.0140151,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalSeasonPreviewTests.NormalEntryUsesLatestThreeEpicRewardsAndPreservesWallet",
+          "Status": "Passed",
+          "Duration": 7.6668829,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalSeasonPreviewTests.PreviewRangeClampsToSourceWindowIncludingShortArrays",
+          "Status": "Passed",
+          "Duration": 6.3970467,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalSeasonPreviewTests.RealCancelPreservesSeasonAndConfirmResetsProgressOnce",
+          "Status": "Failed",
+          "Duration": 6.5103691,
+          "Message": "  Expected: 2\n  But was:  1\n",
+          "StackTrace": "at OriginalSeasonPreviewTests+<RealCancelPreservesSeasonAndConfirmResetsProgressOnce>d__20.MoveNext () [0x00208] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalSeasonPreviewTests.cs:112\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalSeasonPreviewTests.RebindingAndPreviewClicksRetainSourceRouteWithoutAwardingUnownedVip",
+          "Status": "Failed",
+          "Duration": 6.4268992,
+          "Message": "  Mission_Reward_Epic (1)\n  Expected: True\n  But was:  False\n",
+          "StackTrace": "at OriginalSeasonPreviewTests+<Click>d__13.MoveNext () [0x0002b] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalSeasonPreviewTests.cs:36\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

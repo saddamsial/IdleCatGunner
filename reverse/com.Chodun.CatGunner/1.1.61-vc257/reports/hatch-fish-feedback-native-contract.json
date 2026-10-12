@@ -1,0 +1,78 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 arm64",
+  "nativeSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "reusedVerifiedMethods": [
+    {
+      "name": "Scrolling_Start",
+      "preferredVa": "0x2b27404",
+      "end": "0x2b2745c",
+      "first16": "fe57bea9f44f01a9b4b10190d59101f0",
+      "bodySha256": "e6d737b65b34f52c8d5eb91e03286b4cca2ebc8ed0f16f2882d34da72af8a513",
+      "nativeExport": "native-settlement-scrolling-reviewed/Scrolling_Start.c",
+      "nativeExportSha256": "f1c31399e2a8145d051ed60f7cdef298cb9ddb4253aa99706fd2372419b60a87"
+    },
+    {
+      "name": "Scrolling_Update",
+      "preferredVa": "0x2b2745c",
+      "end": "0x2b274e8",
+      "first16": "ec0f1cfcebab006de9a3016dfe1700f9",
+      "bodySha256": "81dffbe156e7ee7b2aeca3e9a90b4f1f4ad2ff229a3a85111d43ba690eecea05",
+      "nativeExport": "native-settlement-scrolling-reviewed/Scrolling_Update.c",
+      "nativeExportSha256": "5287448be19ee5a71fdfb5493e77fe5f523f60ca1c41bcb578333cbb7ff02c90"
+    },
+    {
+      "name": "Fish_manager_TryFusion",
+      "preferredVa": "0x2b5ece8",
+      "end": "0x2b5eeb0",
+      "first16": "fe0f1cf8f85f01a9f65702a9f44f03a9",
+      "bodySha256": "52800a5f531538f403b7ee7553305e091476ecfbf793135eb6532137aa088776",
+      "nativeExport": "native-fish-client-reviewed/Fish_manager_TryFusion.c",
+      "nativeExportSha256": "52e666f62258653864c4f959484d42819c09d7bff955822ca873089d11cb96d9"
+    },
+    {
+      "name": "Fish_manager_UpdateStatTexts",
+      "preferredVa": "0x2b5d820",
+      "end": "0x2b5db28",
+      "first16": "ff4305d1fd7b12a9f65713a9f44f14a9",
+      "bodySha256": "3b3c4cb7256887e2dc229861d6c636610ad3df43b4d627ff279d429968243ce0",
+      "nativeExport": "native-fish-client-reviewed/Fish_manager_UpdateStatTexts.c",
+      "nativeExportSha256": "43cb6fcce71757499f3d85a85c9859d7f20f3c7e3f02d34c435a9a54f8a95344"
+    },
+    {
+      "name": "Fish_manager_RecalculateTotals",
+      "preferredVa": "0x2b5f404",
+      "end": "0x2b5f590",
+      "first16": "ff8301d1fe1b00f9f65704a9f44f05a9",
+      "bodySha256": "46cf94efdfef6ef1a26f972b5b299db6f65db5f402486a56eb73f3385b056ac4",
+      "nativeExport": "native-fish-client-reviewed/Fish_manager_RecalculateTotals.c",
+      "nativeExportSha256": "4c6550782ed9695d0b768d7a4cfe568a81576ffd418e8d0a3c4519c5918a14b1"
+    }
+  ],
+  "sourceDocuments": "reports/hatch-fish-original-documents.txt",
+  "source": {
+    "fillGo": 795,
+    "hatchGo": 11797,
+    "scrollingComponent": 148332,
+    "speed": [
+      -1,
+      0
+    ],
+    "fillRect": [
+      1080,
+      37
+    ],
+    "uv": [
+      0,
+      0,
+      10.8,
+      0.37
+    ]
+  },
+  "scopeComplete": false,
+  "adapters": [
+    "OriginalNumberText implements previously verified default nonnegative InfVal display; independent DecimalAmount arithmetic and archive remain.",
+    "Hatch Scrolling uses native scaled deltaTime; restored exact serialized Speed via Editor API.",
+    "Fish cold-clock/save and offline entitlement remain local adapters."
+  ],
+  "fish": "Same-grade pairs0..11 only; current user grades[1,2] have no pair. Native aggregate sums inventory; HUD damage uses +{0}%, critical probability clamp0..100, critical multiplier125+sum."
+}

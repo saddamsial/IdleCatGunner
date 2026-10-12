@@ -1,0 +1,84 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 172.55,
+      "summary": {
+        "total": 8,
+        "passed": 8,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalAdventureTests.OriginalMapEnterPetChoiceClaimAndRelicDrawUseActualRaycasts",
+          "Status": "Passed",
+          "Duration": 12.6592794,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalBossTests.AutomaticProjectilesWinOnceAndExitPreservesForest",
+          "Status": "Passed",
+          "Duration": 16.72685,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.FishAutoMergeSuspendsForDeleteAndClosingAndFinishesLowestGradeChain",
+          "Status": "Passed",
+          "Duration": 8.5120121,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalFishAndAutoMergeTests.FishEntranceDrawSwimmingDetailsMergeAndDeleteUseOriginalUI",
+          "Status": "Passed",
+          "Duration": 7.722606,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMineTests.AutomaticProjectilesMineWithZeroInputAndNaturalSixtySecondSettlement",
+          "Status": "Passed",
+          "Duration": 69.9265386,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMonsterTests.OriginalNavigationZeroInputProjectilesClearNinetyAndKeepRewardOnGiveUp",
+          "Status": "Passed",
+          "Duration": 45.7835693,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalProgressionTests.ActualNavigationRaycastsOpenPetMissionAndRebirthAboveJoystick",
+          "Status": "Passed",
+          "Duration": 5.4502432,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRaidTests.OriginalLoadoutUsesItemIdentitySortsWeakDamageAndCannotRemoveLastGun",
+          "Status": "Passed",
+          "Duration": 5.4981792,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

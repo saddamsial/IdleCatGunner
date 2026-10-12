@@ -1,0 +1,210 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "rule": 53,
+  "verifiedNativeFields": {
+    "Mine_manager": {
+      "Ore_list": 32,
+      "mineStart_ui": 40,
+      "Map_obj": 48,
+      "GameEnd_UI": 56,
+      "Ore_sprites": 64,
+      "MineTicket_Inapp_UI_obj": 72,
+      "TicketUse_Count": 80,
+      "TicketCharge_Date": 88,
+      "Best_Reward": 96,
+      "Dia_Score": 100,
+      "instance": 0,
+      "_resultSent": 104,
+      "_clearedThisRun": 105,
+      "_bonusAdWatched": 106,
+      "OreCount_Now": 108,
+      "OreCount_Max": 112,
+      "GameTime_Now": 116,
+      "GameTime_Max": 120,
+      "Game_Coroutine": 128,
+      "CatSpawnPos": 136,
+      "gameSlider": 152,
+      "orePerFrame": 160,
+      "Reward_txt": 168,
+      "Bonus_txt": 176,
+      "Bonus_Btn_obj": 184,
+      "NoAds_Btn_obj": 192,
+      "Skip_obj": 200,
+      "Reward_Value": 208,
+      "GameSweep_UI": 216,
+      "SweepBonus_Btn_obj": 224,
+      "SweepNoAds_Btn_obj": 232,
+      "SweepSkip_obj": 240,
+      "SweepReward_txt": 248,
+      "SweepBonus_txt": 256,
+      "_sweepPending": 264,
+      "outerRadius": 268,
+      "innerRadius": 272,
+      "center": 276,
+      "noiseScale": 288,
+      "noiseThreshold": 292
+    },
+    "Mine_Start_UI": {
+      "TicketCount_txt": 32,
+      "Color_Disable": 40,
+      "NonAuto_obj": 56,
+      "Auto_obj": 64,
+      "Value_txt": 72,
+      "AD_SpeedBuff_obj": 80,
+      "AD_SpeedBuff_obj_Auto": 88,
+      "PlusPack_Banner_obj": 96
+    }
+  },
+  "shopMinePackStaticOffset": 13,
+  "allQueriesCompleted": true,
+  "businessMethods": 10,
+  "exceptionHelpers": 6,
+  "methods": [
+    {
+      "preferredVa": "0x2b4a0a0",
+      "name": "Mine_manager_is_SweepAble",
+      "end": "0x2b4a114",
+      "first16": "fe57bea9f44f01a994b001d0b5900190",
+      "sha256": "81d94c72fe2223b8e1c3a3a443763b89f469faad3c1fae4a08d66435aca54eeb",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b4a114",
+      "name": "Mine_manager_Game_Sweep",
+      "end": "0x2b4a454",
+      "first16": "fe0f1df8f65701a9f44f02a994b001d0",
+      "sha256": "e2d59d023114d232bfbfef3d35e91c4c5874f0c0393ff4f1c3a2f0aebf0e7c0e",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b4a454",
+      "name": "Mine_manager_SweepBonus_AD_Show",
+      "end": "0x2b4a4ac",
+      "first16": "fe0f1ef8f44f01a993b001d0949001f0",
+      "sha256": "67af53c4bba29e965dc0b7a552597103cf156689e77952c96c39fcc3a45ea001",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b4a034",
+      "name": "Mine_manager_SweepBonus_Get",
+      "end": "0x2b4a0a0",
+      "first16": "fe57bea9f44f01a995b001d0949001f0",
+      "sha256": "5187022edaf6e745d3a406e208a50e1329fb42c62a01bcac6039acf4d4ebc28d",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b4a4ac",
+      "name": "Mine_manager_Sweep_Close",
+      "end": "0x2b4a5ac",
+      "first16": "fe0f1ef8f44f01a994b001d0f30300aa",
+      "sha256": "77088adcb211aaf965170af11554867533717a81a919bcfc8c101e08e8f6a272",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b4a5ac",
+      "name": "Mine_manager_SweepReward_return",
+      "end": "0x2b4a66c",
+      "first16": "e80f1dfcfe5701a9f44f02a995b001d0",
+      "sha256": "cd96dc2d65cd8f9ad88bbcec3e0d10ff89f29b1454f952f4368ab23a333ad737",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b49110",
+      "name": "Mine_Start_UI_Reload",
+      "end": "0x2b49324",
+      "first16": "ff8301d1fe0b00f9fa6702a9f85f03a9",
+      "sha256": "fbf54f7a775775286ba21424abea9866b1b6c4835f77f4d5db108c624a7ea921",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b4bf0c",
+      "name": "Mine_Start_UI_OnEnable",
+      "end": "0x2b4c004",
+      "first16": "fe0f1cf8f85f01a9f65702a9f44f03a9",
+      "sha256": "75c2e4020cbfec0d04bcb60247a1e1fec939e1721a353842dcd478ab214b0e49",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b4bb74",
+      "name": "Mine_Start_UI_Banner_Reload",
+      "end": "0x2b4bd28",
+      "first16": "fe0f1df8f65701a9f44f02a994b001b0",
+      "sha256": "7b0b0fda06dcf02a5f8be2cf787e909540af272faf7f16a2a53e3f0a54f5bdd1",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b4c0fc",
+      "name": "Mine_Start_UI_Game_Sweep",
+      "end": "0x2b4c14c",
+      "first16": "fe0f1ef8f44f01a993b00190949001b0",
+      "sha256": "239f61ee78bcb72a29b4a42cf883eb3893aed38552a1a7151397ebc295044c9e",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x28f5cfc",
+      "name": "Throw_NullReference_Wrapper",
+      "end": "0x28f5d04",
+      "first16": "fe0f1ff86a220194fe0f1ff87b220194",
+      "sha256": "fd826c34b9ef2518b1f3f6d39e7562b9946c1a4ca9651bc3c25e81558d412348",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x28f5d04",
+      "name": "Throw_Index_Wrapper",
+      "end": "0x28f5d0c",
+      "first16": "fe0f1ff87b220194c03cff90006c0191",
+      "sha256": "4443063a785929eff8fbdd73652167a28163cc8bee6d193aa1d2d34ba13cefaa",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x293e6a8",
+      "name": "Throw_NullReference_Create",
+      "end": "0x293e6bc",
+      "first16": "ff8300d1fffb00a9e0030091ff0300f9",
+      "sha256": "cdbf0bcca450bcc5619d3bedfd51ab6ee40fa3f25845c22f256f2b52ded52c13",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x293e6bc",
+      "name": "Throw_NullReference_Raise",
+      "end": "0x293e6cc",
+      "first16": "fe0f1ff803000094e1031faad2ffff97",
+      "sha256": "5ca19850cf19c59741f496304fb81f88760711935ae81e9878b9291de917db2c",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x293e6f4",
+      "name": "Throw_Index_Raise",
+      "end": "0x293e704",
+      "first16": "fe0f1ff803000094e1031faac4ffff97",
+      "sha256": "cc88e424aa2cedbec18e703dcec784e753947ba52264006468b82ee358e7e4dd",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x293e610",
+      "name": "Managed_Exception_CxaThrow",
+      "end": "0x293e638",
+      "first16": "fe4fbfa9f30300aa71ffff9700018052",
+      "sha256": "3baf58d6dd416adb6ec9a1aa884940ecdc8bcb00a7fd1ff5efd9d6fd84aa48a1",
+      "completed": true
+    }
+  ],
+  "nativeRules": {
+    "gate": "PlusPack.Is_Active(2) && Best_Reward>0; no combat power gate",
+    "ticket": "Ticket_Reload; TicketUse_Count<2 (Mine pack6); increment once; exhausted alert and MineTicket purchase panel unless Mine pack",
+    "baseReward": "float32 Best_Reward * PlusPack.Reward_Mult_Mine (Plus1=1.5 otherwise1), truncate to int",
+    "settlement": "base or base*4 when Is_RewardBonus_Auto; popup base and base*4; mission3 +1; Best_Reward unchanged; forest/game mode unchanged",
+    "bonus": "ad placement3; add Reward_Value*3 then close; original serialized button actually Bonus_AD_Show",
+    "preview": "Mine_Start_UI switches NonAuto/Auto by is_SweepAble; sprite1 reward preview includes automatic4x",
+    "banner": "Only Is_Mine_Pack (Shop static offset13), no ticket-purchase popup, and Plus1 Banner_ShouldShow; ordinary non-pack player hides banner",
+    "close": "pending false; hide popup; native interstitial placement1 if no rewarded watch and not auto"
+  },
+  "adapters": [
+    "User-authorized shared local ads and purchases only, no real SDK/production receipts",
+    "Local page/mode/revision/in-flight guards for duplicates and stale rewards",
+    "Existing local date ticket rollover; trusted server clock not restored",
+    "SendDgResult, FreeCash/production entitlement and close interstitial not restored",
+    "Local observer updates seven-day expiry/reward preview"
+  ],
+  "scopeComplete": false
+}

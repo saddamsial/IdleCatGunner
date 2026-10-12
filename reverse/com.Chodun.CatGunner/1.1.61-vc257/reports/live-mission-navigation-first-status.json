@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 34.4,
+      "summary": {
+        "total": 5,
+        "passed": 5,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalMissionNavigationTests.AlertPollsEveryTwoScaledSecondsAndClaimRestartsImmediately",
+          "Status": "Passed",
+          "Duration": 10.7533386,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissionNavigationTests.AllRewardsPromptRequiresBothTracksOnlyWhenVip",
+          "Status": "Passed",
+          "Duration": 5.5673045,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissionNavigationTests.ClaimScrollsToNextRewardAndReplacementHonorsPauseAndClamp",
+          "Status": "Passed",
+          "Duration": 6.6452933,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissionNavigationTests.OpeningSelectsFirstUnclaimedThenCurrentLevelAndResetsTaskScroll",
+          "Status": "Passed",
+          "Duration": 5.8132177,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissionNavigationTests.SelectorsPreservePremiumOrderingAndAdSlotsWithoutGranting",
+          "Status": "Passed",
+          "Duration": 5.515488,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

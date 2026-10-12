@@ -1,0 +1,1429 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 arm64",
+  "inputs": [
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/assetripper-baseline/ExportedProject/Assets/Scenes/Main.unity",
+      "sha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+      "expected": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/split_config.arm64_v8a/lib/arm64-v8a/libil2cpp.so",
+      "sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+      "expected": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/base/assets/bin/Data/Managed/Metadata/global-metadata.dat",
+      "sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+      "expected": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+      "unchanged": true
+    }
+  ],
+  "native_methods": [
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b524c8",
+      "name": "Raid_Mission_HUD_OnEnable",
+      "end": "0x2b5254c",
+      "input16": "fe0f1df8f65701a9f44f02a955b001d0",
+      "c_sha256": "3bca92742b00f5943cd956a26ec77e95a515fef310d10b023bd92e7dd4e4eb0a",
+      "asm_sha256": "6e85618527f70319023c8475cc7d548250e2cad7fb6b1503384ec29c377714f2"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b526f0",
+      "name": "Raid_Mission_HUD_OnDisable",
+      "end": "0x2b5276c",
+      "input16": "fe0f1df8f65701a9f44f02a955b001d0",
+      "c_sha256": "4adeb5a6e23b2d2d77c726f2227ec1bf360f9116fc3ed1def3b61a21fd2b5ddc",
+      "asm_sha256": "c4692000dfea855e55e56e2c4d1b8c71a27f5d72375a95477d27d46b226b63a7"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b52608",
+      "name": "Raid_Mission_HUD_Reload",
+      "end": "0x2b526f0",
+      "input16": "fe0f1df8f65701a9f44f02a954b001d0",
+      "c_sha256": "25ceb40d96d4d32f61c811b468d460b2fe67a67e519e2c950f8c334449ee02db",
+      "asm_sha256": "7d4b4c82c0b7366dd591475f3e7b68b71183ac9742ccc45378caa467022cc0e4"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b52888",
+      "name": "Raid_Mission_HUD_onClick_Open",
+      "end": "0x2b52928",
+      "input16": "fe57bea9f44f01a955b001d074900190",
+      "c_sha256": "f787713c33bebf9e89380d2b049f6da4737ce73d1fa8c5229367d4258bdfb5e5",
+      "asm_sha256": "54466bc5acac4de76dfa1821064fafac6ac41198979cbd8c0fb5eeb7bcd09893"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b529f0",
+      "name": "Raid_Mission_HUD__ctor",
+      "end": "0x2b529f8",
+      "input16": "e1031faa3b41ae14016000b901000014",
+      "c_sha256": "810495f0fcdf74c410b46edb3942789fb01b89890729598325e785df2a526a8c",
+      "asm_sha256": "2b693dafd0655d9fb2edf657fadebd06c4833a6034ee84bd75d0f0bcb2912cb1"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b529f8",
+      "name": "Raid_Mission_Item_Reload_0x60008a3",
+      "end": "0x2b52a00",
+      "input16": "016000b901000014ff4301d1fe0b00f9",
+      "c_sha256": "ed14530736157b11e3e42d7dcf5f00d58412928b95d48ca7cbfbfd73374e6d35",
+      "asm_sha256": "8f0b3f8c50abc3609c1ade214fa9077d48f515a6d928ae72488bc8dd50514984"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b52a00",
+      "name": "Raid_Mission_Item_Reload_0x60008a4",
+      "end": "0x2b52db8",
+      "input16": "ff4301d1fe0b00f9f85f02a9f65703a9",
+      "c_sha256": "ec6933f18f12997bb49940ad685e7400ee2a003242dc0db27b531195aa96c78b",
+      "asm_sha256": "27d4d540edc73e972e9a06580f35b2659a8edcd2a9a2a2d89049eabd64303b9a"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b53124",
+      "name": "Raid_Mission_Item_onClick_Reward",
+      "end": "0x2b531d8",
+      "input16": "fe0f1df8f65701a9f44f02a956b001b0",
+      "c_sha256": "4e79957611d57ea0b0e94afbe9d35c8df941ef9b96dcd49606611d403bb8a15d",
+      "asm_sha256": "63cc377bdb503895880c0521aaf1799b6b11bb1db182e0162f7979f661457cc9"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b53500",
+      "name": "Raid_Mission_Item_onClick_ReReward",
+      "end": "0x2b535b4",
+      "input16": "fe0f1df8f65701a9f44f02a956b001b0",
+      "c_sha256": "1653e2210a83597b1775b236a75d8b351097b4362585c787a1854ac7b244904c",
+      "asm_sha256": "8e610f5297332f7509a417aae52f4e2ae97c4b10d7a0da5e19b9b28b0a053ddc"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b53a28",
+      "name": "Raid_Mission_Item__ctor",
+      "end": "0x2b53a38",
+      "input16": "08008012e1031faa086000b92b3dae14",
+      "c_sha256": "242a77340fcf1f9c28c2a06c2ecc88818ef13d84ba35aeef1bb6c7fcc8a346ef",
+      "asm_sha256": "b062cf4d4e35133559885d6799015dc5f7a4b3024af0208c495c505d47b0c1d5"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b54544",
+      "name": "Raid_Mission_Info__ctor",
+      "end": "0x2b5454c",
+      "input16": "e1031faa3cfb7014fe0f1ff83f1c0071",
+      "c_sha256": "f0e12ff8c89bdee0cda60e83393a88d1cdc2328c65c9881a70c858307eccc144",
+      "asm_sha256": "7faeca2f71faa9bd646b89f96287d94dbbf822f3097f82987dee0221a4a3d625"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b5254c",
+      "name": "Raid_Mission_manager_add_OnChanged",
+      "end": "0x2b52608",
+      "input16": "fe0f1df8f65701a9f44f02a954b001d0",
+      "c_sha256": "d0bf7a2153114f21dda5204850f40eef6b78bc6312827255c071ed12166fec01",
+      "asm_sha256": "63d8d5b6b5917a050c4242fc05929fcf8ca38e7226d6b7000e2f8f86f58e4a6b"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b5276c",
+      "name": "Raid_Mission_manager_remove_OnChanged",
+      "end": "0x2b52828",
+      "input16": "fe0f1df8f65701a9f44f02a954b001d0",
+      "c_sha256": "855ed1248ded325ea0f22d98dbb5d4ec624dc15fd268e6fb8b6f76d8e5ba6b22",
+      "asm_sha256": "ab0fed2a6522a5df95ffed0f1dae439db61c4b26b77a7ee6635c38bc5c82d223"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b53a38",
+      "name": "Raid_Mission_manager_Awake",
+      "end": "0x2b53ab4",
+      "input16": "fe57bea9f44f01a955b001b0549001f0",
+      "c_sha256": "c8107b91900c13788416022b6c6790bcd60fe24049bb40bb51a3a5a3cf65dc71",
+      "asm_sha256": "144b88d15115299da77248f6f675eaacd3eaca0a1f890038303ed04cff934429"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b53af4",
+      "name": "Raid_Mission_manager_OnEnable",
+      "end": "0x2b53bc0",
+      "input16": "fe5fbda9f65701a9f44f02a954b001b0",
+      "c_sha256": "da513b3266ce2288b592d35496b6747bb55df1d2f2aa35ce9360b2f97cdbe8f1",
+      "asm_sha256": "4c6ca5e6fc8c2c52e23d3adcf152671f095cba2d362f5a60c47d8a7a1aeff5d1"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b53bc0",
+      "name": "Raid_Mission_manager_OnDisable",
+      "end": "0x2b53c8c",
+      "input16": "fe5fbda9f65701a9f44f02a954b001b0",
+      "c_sha256": "89c30715effea20e24f177cc36c9f995bfa5dfc965e8282ce6346c69e9939d27",
+      "asm_sha256": "fdca4430f025d7f0b8a70974683459e6a6fb57e409dc393b2aa7a4f0dcd129dc"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b52928",
+      "name": "Raid_Mission_manager_Open_Popup",
+      "end": "0x2b529f0",
+      "input16": "fe57bea9f44f01a955b001d0349001f0",
+      "c_sha256": "b86fb7238b110ae00676e6d09afc929459e6987edc40a77e791fb33d0e839fde",
+      "asm_sha256": "d397dad1f92ee5044a765100bd14cb03d7d5472097b8fe6b48ff280c554f44e3"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b53e84",
+      "name": "Raid_Mission_manager_Close_Popup",
+      "end": "0x2b53f04",
+      "input16": "fe57bea9f44f01a955b001b0349001d0",
+      "c_sha256": "40361d24f728134c40fad6080271216a1fe0b12200b3cef90c1f18b5f7798f51",
+      "asm_sha256": "8b50525876b67af9bc97e4bcfc880c46b544032218ae67932809b36039b1afa1"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b53f28",
+      "name": "Raid_Mission_manager_Ticket_Popup_Open",
+      "end": "0x2b53fc0",
+      "input16": "fe0f1ef8f44f01a954b001b0f30300aa",
+      "c_sha256": "8ee4ebe8199f42f16e572f5ac71be0bdb3c9bd5f0f3bb764a7622af1c5dbbc32",
+      "asm_sha256": "1550a1c328befd1be7731cc098e0da50a0d95b84cee44f414a9995676f40b5d3"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b540a4",
+      "name": "Raid_Mission_manager_Ticket_Popup_Close",
+      "end": "0x2b5412c",
+      "input16": "fe57bea9f44f01a955b00190349001b0",
+      "c_sha256": "9dc2615487c260bfbc23342bcf1562759bbc6ce52ed721ad7555f5c8b3480768",
+      "asm_sha256": "ab09527103eb0aa98cb898729a1df717d23f361c34e997c5e01ffd6ca18cc8f1"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b52e0c",
+      "name": "Raid_Mission_manager_Explain_return",
+      "end": "0x2b52fb8",
+      "input16": "ffc300d1fe5701a9f44f02a955b001d0",
+      "c_sha256": "9bf05bc962b706fde1fa2c6e6517830602dfe599694fc5445b5e1f5db4c7f6ad",
+      "asm_sha256": "3d8697fd90519f09d0163d7fb4fc1888097032c0e2fa2786760a6b03f84cc348"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b53ab4",
+      "name": "Raid_Mission_manager_EnsureMissions",
+      "end": "0x2b53ad0",
+      "input16": "081040f9a80000b4081940b91f210071",
+      "c_sha256": "d3deabba3716131dea120eddf26045a88a52d12f61ff81d8be340c03f7d462d1",
+      "asm_sha256": "27934cb29c85442de3dde9c60d4d59ac302057e8f3a2653c740a8401a0953e41"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b53ad0",
+      "name": "Raid_Mission_manager_EnsureArrays",
+      "end": "0x2b53af4",
+      "input16": "fe4fbfa9f30300aa00c0009171020094",
+      "c_sha256": "b09fc9976a94e7bb76d87b5911c5c0c18fef12eb3173bb3cb3c97c8a80896de0",
+      "asm_sha256": "6e07b4ee12b31463b80f9bf3b07fdff94d16524850bdd21c97688ffb94d2e36a"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b544a0",
+      "name": "Raid_Mission_manager_Resize",
+      "end": "0x2b54544",
+      "input16": "fe0f1ef8f44f01a954b00190f30300aa",
+      "c_sha256": "c5bcbaf9646f333dac161808c31ab13b557df1f60a95858adcab58c73e677a8e",
+      "asm_sha256": "8ef91c4bda1e9847d36a1eecb730fb854d6a64bd65483dd07dfcd8a7339d3882"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b5412c",
+      "name": "Raid_Mission_manager_Balance_Reload",
+      "end": "0x2b544a0",
+      "input16": "fe0f1df8f65701a9f44f02a954b00190",
+      "c_sha256": "5551263d78a60aa77df10662644d4aa116df7418ebebbf0b833deb0d0d93acd6",
+      "asm_sha256": "809c5bcff1964a3986fb74175ce8def20d8f1a29b1b9bbb02af343135a509620"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b52db8",
+      "name": "Raid_Mission_manager_IsValid",
+      "end": "0x2b52dc4",
+      "input16": "3f200071e0279f1ac0035fd6fe0f1ff8",
+      "c_sha256": "bfcc6a9dbb17e7319e69bbf1ea63889efeb23efa6d59de95a03898e27228e04b",
+      "asm_sha256": "c2fe17526e1ff4de400076987d8c143634d0a0f2f02a1168cbf5c940c792c5b3"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b5454c",
+      "name": "Raid_Mission_manager_Info_return",
+      "end": "0x2b5458c",
+      "input16": "fe0f1ff83f1c007128010054081040f9",
+      "c_sha256": "3347a02dc099a1544f769002b5c0c838d697257d6509422d87b4029a81baf974",
+      "asm_sha256": "2946ef83f37013389b2bb50c10c00ae699b461395cfe15f33ffff55efeb9a80c"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b52dc4",
+      "name": "Raid_Mission_manager_Reward_return",
+      "end": "0x2b52e0c",
+      "input16": "fe0f1ff83f1c007168010054081040f9",
+      "c_sha256": "5218b25b11f1061912b4f20b707a75a353fe58f56d6178e67a916471c12c4fa1",
+      "asm_sha256": "e4ee30454a1d35823a102bf3927afb592a1968121dbb9236454e7543058c5b0c"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b5458c",
+      "name": "Raid_Mission_manager_get_Reward_Total",
+      "end": "0x2b545e0",
+      "input16": "fe0f1ff80a1040f92a0200b4491940b9",
+      "c_sha256": "64d0a0820be65b53a6ad0b556785df6702d5ee949d7db95594db068fe1e87bdc",
+      "asm_sha256": "aae4bc3850039d7b698e4380585e85b1c7699f0c3d68d00a5716c17a80f94b79"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b545e0",
+      "name": "Raid_Mission_manager_get_Ticket_Active_Now",
+      "end": "0x2b545f8",
+      "input16": "fe4fbfa9f30300aa76feff9760224139",
+      "c_sha256": "60f746d646b533867d93e8248d89f2bdda3a0657824c511fdcacda6e1694dc96",
+      "asm_sha256": "e58ef30911150b32b192c6ed4b805abbf03bac7d7fc3b61c05d0027c1b123722"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b545f8",
+      "name": "Raid_Mission_manager_get_Is_Ticket_Purchased",
+      "end": "0x2b54600",
+      "input16": "00204139c0035fd6fe4fbfa9f30300aa",
+      "c_sha256": "b2910d6a5cd66b70fc06c606b5467502a21ad946fbea4b335d05d948d5d49512",
+      "asm_sha256": "7b74d1ecaee15662c466a8bab8e52e2fe8b784a5855f2d9c156d4e0f88c18bee"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b54600",
+      "name": "Raid_Mission_manager_get_Clear_Count",
+      "end": "0x2b54650",
+      "input16": "fe4fbfa9f30300aaa1fdff976a1a40f9",
+      "c_sha256": "db4dfca1116b2cdc22185d6058e5a8f772754ed21c244ccff57eb68b574640b8",
+      "asm_sha256": "46c3833c52a99b0e26331665a860dfc9df3f95cfb29fde03ae6a1fc3eacce963"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b54650",
+      "name": "Raid_Mission_manager_get_ReGet_Count",
+      "end": "0x2b54698",
+      "input16": "fe0f1ff80a2040f9ea0100b4490d40f9",
+      "c_sha256": "ed9aa369d7a2e81930421ae0cb28ef479d57b3c66c1e7fec8591dc3272e2dfbf",
+      "asm_sha256": "4fe1697e6778f6bc7d95374970647636ca06366e8822ada626ac3fbe945b8263"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b54698",
+      "name": "Raid_Mission_manager_get_ReClaimable_Reward",
+      "end": "0x2b54730",
+      "input16": "fe4fbfa9f30300aa7bfdff976a1a40f9",
+      "c_sha256": "bdf5a3c3f3e86c682d2c4479f4e1dc105ddbb615d3ad4767a33d1306d4623326",
+      "asm_sha256": "4e369bcc249b8bead7de2be117156be63fbea1dd5e27070503afab8c1c8283a4"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b54730",
+      "name": "Raid_Mission_manager_get_Season_Remain",
+      "end": "0x2b5477c",
+      "input16": "fe0f1ef8f44f01a953b00190549001d0",
+      "c_sha256": "1ef1ceaa59c431fc960b1e9aa8f736555fb14015b37550cdd57310324154db4a",
+      "asm_sha256": "0655c513db8f9b3a9fb0e507d8f6789aaaaf4bb555b5043b9acbaeb52bf15258"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b547cc",
+      "name": "Raid_Mission_manager_Current_Value",
+      "end": "0x2b548dc",
+      "input16": "fe57bea9f44f01a954b00190559001d0",
+      "c_sha256": "d495450c4930300637bb45623804b61bb95c0a07ea4135335df7a29da71c8512",
+      "asm_sha256": "89a437acfe1684db79de9e5a4e74ddb3942b74e29c18c4591ead394201e45b68"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b52fb8",
+      "name": "Raid_Mission_manager_Progress_return",
+      "end": "0x2b53078",
+      "input16": "fe0f1df8f65701a9f44f02a928008052",
+      "c_sha256": "fb39b95f2f4e410f14a3ba5eead3765e72430994babd403014baee7ac5b57af3",
+      "asm_sha256": "f6f048b17a00a878d13a42018372545405a787e1a65861411bf8deb8b257d7d4"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b54944",
+      "name": "Raid_Mission_manager_Is_Clear",
+      "end": "0x2b549a0",
+      "input16": "fe0f1ef8f44f01a93f1c0071c8010054",
+      "c_sha256": "182d283069b7fcf322c97eff2d55ee66a4fcb895f2f267558664b1488230e1ea",
+      "asm_sha256": "b85b807e3e3e4a8661c5211c5510ba3a0accb9f5b672e64a2fafbba243c518e3"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b53078",
+      "name": "Raid_Mission_manager_State_return",
+      "end": "0x2b53124",
+      "input16": "fe0f1ef8f44f01a93f1c007108040054",
+      "c_sha256": "e3421bd0c1e324f5a33c883e29991f4d5c7bf34e5675c33265ed72d560ffe243",
+      "asm_sha256": "718627991cf8a312aea6c275b030e5e72d37364f7c189c68f0e3146b8c3f0f3b"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b52828",
+      "name": "Raid_Mission_manager_get_Has_Claimable",
+      "end": "0x2b52888",
+      "input16": "fe57bea9f44f01a9f30300aaf4031f2a",
+      "c_sha256": "2b449b8d536329fa6a8e2a4c9a78a4eb99ab3433ed611a4a2bcd4906eed21b44",
+      "asm_sha256": "32e7ac57847d2624e5128bf27799cb8bdde2e8a6b382d8c959c3f0d61dd81e96"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b53fc0",
+      "name": "Raid_Mission_manager_Season_Check",
+      "end": "0x2b540a4",
+      "input16": "fe57bea9f44f01a954b001b0559001f0",
+      "c_sha256": "78c7861472ce058ca27a3940f9b26b4a604fb10baf88e83ac35b1e699d019e8b",
+      "asm_sha256": "fbe2b6e3ad0a622d3f937b3f88e25825f7c5c27c137fdb9a0105d48c6820ca0a"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b53c8c",
+      "name": "Raid_Mission_manager_Refresh_Clear",
+      "end": "0x2b53e54",
+      "input16": "fe57bea9f44f01a954b001b0559001f0",
+      "c_sha256": "5ed8ce7d81eec4fa5a85e79cf6821c73aaa862cdf041f658ca91dc853db64825",
+      "asm_sha256": "d11becacd6b618c5f624885e95ef60082af95effa3fcaff0b89d58e32f8dce69"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b531d8",
+      "name": "Raid_Mission_manager_Reward_Get",
+      "end": "0x2b53500",
+      "input16": "fe0f1cf8f85f01a9f65702a9f44f03a9",
+      "c_sha256": "ebb73f759201543c621590c84ff141868daf45145f7d435539ecdaac293b6957",
+      "asm_sha256": "94d1221eafcd79de7254baaf1878859505ed4d04e0ab5e956d8d1f7b33736d64"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b535b4",
+      "name": "Raid_Mission_manager_Reward_ReGet",
+      "end": "0x2b53a28",
+      "input16": "ff4301d1fe6701a9f85f02a9f65703a9",
+      "c_sha256": "3e737fe829add02c2fcfb096bcd71c27c25a65dbc157709981a67333bb4f91fa",
+      "asm_sha256": "163bed599ac594119cc3ad04f7222e8b3a05b68bb80192b0723335cadbcbe2e4"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b54b24",
+      "name": "Raid_Mission_manager_Reward_GetAll",
+      "end": "0x2b54b9c",
+      "input16": "fe57bea9f44f01a9f30300aaf4031f2a",
+      "c_sha256": "c02e632c08619b1695cd543ac5d0ee932628a255b8f53cf686cf9055c8c9f7d6",
+      "asm_sha256": "f2304d5afcbc27433b3879b780c87c4e9bd26a2454607d23dc884f9a0a846fb1"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b54b9c",
+      "name": "Raid_Mission_manager_Ticket_Purchase",
+      "end": "0x2b54d8c",
+      "input16": "fe5fbda9f65701a9f44f02a955b00190",
+      "c_sha256": "6df0f306c7c0a6e261072f31ec3cd08a73d5327fcd2db115c4d29d565e6ac3d0",
+      "asm_sha256": "212e9460f50af7fb08345b53b234a787a168ef4d373a4c1b347b31b29a34be74"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b54d8c",
+      "name": "Raid_Mission_manager_Ticket_Apply",
+      "end": "0x2b54e5c",
+      "input16": "fe0f1ef8f44f01a954b00190f30300aa",
+      "c_sha256": "995348ac770819bdb31022a1a2379ceef03b1500efcb4412fdcf3eed4fe3d244",
+      "asm_sha256": "0da1cb907329b8ed1104c89f017bc3f81c0984dd11a57996dcfbbf48c961f35f"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b54e5c",
+      "name": "Raid_Mission_manager_SaveClear_return",
+      "end": "0x2b54ed4",
+      "input16": "fe0f1ef8f44f01a954b00190f30300aa",
+      "c_sha256": "c821b2f90cd1e6fc3e8bfa80aa804c50056c11a082237a64c6aba084c5a57f16",
+      "asm_sha256": "20ffa169fd13220eddf74d9b28454c206a1acd29c49c2a4fc96095627ae26d6b"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b54ed4",
+      "name": "Raid_Mission_manager_SaveRewardGet_return",
+      "end": "0x2b54f4c",
+      "input16": "fe0f1ef8f44f01a954b00190f30300aa",
+      "c_sha256": "0b5cfd35ba928c7c76f11daca4cff81d2a6f414722af59ea0b3a885995ed4be6",
+      "asm_sha256": "83e4e8388d537c616841ee97f87afcea842fe7626d27d472cd51bd42ea413fe3"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b54f4c",
+      "name": "Raid_Mission_manager_SaveRewardReGet_return",
+      "end": "0x2b54fc4",
+      "input16": "fe0f1ef8f44f01a954b00190f30300aa",
+      "c_sha256": "861a5acfafeb1b8ab958a7331e4af3d2c2f18bd90aea3daca0d6f9d125ec3278",
+      "asm_sha256": "9ed80762e090e7b5fae6ddf8b8087ecd77d818247bc31b741d93499dc47876f2"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b54fc4",
+      "name": "Raid_Mission_manager_LoadFromSaveData",
+      "end": "0x2b550e4",
+      "input16": "fe57bea9f44f01a955b00190f40301aa",
+      "c_sha256": "9d44070f14ef14c74c301eb6a51e1d2425390c0100d9bcb4d316fad362264e2e",
+      "asm_sha256": "060d5291e3fde9a8f4b71b47dc21af88d10bcf06ffc613e45fb12f7ce3228ec2"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b550e4",
+      "name": "Raid_Mission_manager_CopyFlags",
+      "end": "0x2b55144",
+      "input16": "fe0f1ff8800200b4610200b4090c40f9",
+      "c_sha256": "eddbc3a48e1999388b1915a1a26ed86f35c5a11f63cc636585c5b55ece8f329b",
+      "asm_sha256": "b76405411ca1d2b13e5042d59810f50bef92f9a6a3611eb56def1202cee8c253"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b549f0",
+      "name": "Raid_Mission_manager_SendLog_MissionRaid",
+      "end": "0x2b54b24",
+      "input16": "fe5fbda9f65701a9f44f02a957b00190",
+      "c_sha256": "ee5b8d59cc3486cd76c60e62d1fad3cac6b08c213bd1c2133f815a81fb37243c",
+      "asm_sha256": "c74961d8b6070624825b240a18f0c6a8625e38ec53fd1c40904ce1189c9371e6"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b55144",
+      "name": "Raid_Mission_manager_Cheat_ClearAll",
+      "end": "0x2b551f8",
+      "input16": "fe0f1ef8f44f01a934b001f0f30300aa",
+      "c_sha256": "7b67f3d8aa3a7ea7ae11ff7e96d2eda82025421835593e8ecfa250e1c0ce833e",
+      "asm_sha256": "cf7acc4c3cb1dee7ed8cb93d1cb9fa8107564ed3e10a184e84bb13f91fa8e6c8"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b551f8",
+      "name": "Raid_Mission_manager_Cheat_Ticket",
+      "end": "0x2b55220",
+      "input16": "fe4fbfa9f30300aae0031faaa5f4fc97",
+      "c_sha256": "7c2ed2a12d33805cfb525b155ff2d32f15fb9dd92db2017d58ff5665a77032a1",
+      "asm_sha256": "dbc25ee1c1d6fdc7c90a190ae0cc44d420db0a2f58a0d80805fbeda65d8df54f"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b55220",
+      "name": "Raid_Mission_manager_Cheat_Reset",
+      "end": "0x2b55258",
+      "input16": "fe4fbfa9f30300aae0031faa9bf4fc97",
+      "c_sha256": "23f5c35c5bb71503d4b2f111b870193ea3668fb5c8a975efe07f3eeded3a3cb7",
+      "asm_sha256": "15f4c9861dd32851215af3c3b37a0cca5c369a21a69a4cd461f269a3a30743cf"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b55258",
+      "name": "Raid_Mission_manager__ctor",
+      "end": "0x2b55268",
+      "input16": "08008012e1031faa082800b91f37ae14",
+      "c_sha256": "247e39cce04748b06b94612452ecfc2b55bb13cae1a52e780b25dc66eca3a8d9",
+      "asm_sha256": "4e911166a2e7ff3e2c9e9d3655e7992e8c86b767cb46ab877123ed3ca652142b"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b55268",
+      "name": "Raid_Mission_Ticket_UI_OnEnable",
+      "end": "0x2b552ec",
+      "input16": "fe0f1df8f65701a9f44f02a935b001f0",
+      "c_sha256": "6b38611f48d941f10fb5fe188e2eb115e83b7b64ef79244017038032df86c330",
+      "asm_sha256": "6ddf251e103701b5608bf44473252c94e3343084ae5475f900b674b60287aaad"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b55470",
+      "name": "Raid_Mission_Ticket_UI_OnDisable",
+      "end": "0x2b554ec",
+      "input16": "fe0f1df8f65701a9f44f02a935b001f0",
+      "c_sha256": "0e10769df92270ca62f61ef8466bb0fe0cc3c241cbce163b8ce6f5e241862e46",
+      "asm_sha256": "1ea328ae18c143457e172ae786f69081ab2ddbc9780339eca7e4025e90b3e244"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b552ec",
+      "name": "Raid_Mission_Ticket_UI_Reload",
+      "end": "0x2b55470",
+      "input16": "fe0f1df8f65701a9f44f02a935b001f0",
+      "c_sha256": "fa03a782a7528ebb5a9b95918c05da126357a77a0394a25d46239c586311790b",
+      "asm_sha256": "035397235ee484171a1b8dba4fd6ffed5de639392dde26ce7c147e9f5a6a9e49"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b554ec",
+      "name": "Raid_Mission_Ticket_UI_onClick_Ticket_Purchase",
+      "end": "0x2b555cc",
+      "input16": "fe0f1df8f65701a9f44f02a936b001f0",
+      "c_sha256": "cd50f0546248b958107a513f3fa0da3733176eb4affcb5e76e128d53f3da6e75",
+      "asm_sha256": "35d5e43199bb711fe2e4d112e93ef9ad0ee823dde20ea3013eddd0682661c8af"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b555cc",
+      "name": "Raid_Mission_Ticket_UI__ctor",
+      "end": "0x2b55624",
+      "input16": "fe57bea9f44f01a934b001f0759001d0",
+      "c_sha256": "d389895592df148b3ef5962594ebb15c33d0f4f61cfec3db270f6f2ffb7ae5bf",
+      "asm_sha256": "9ef5989cd746a6f4345c8bbf4d7083536b8764b183bfecce3607ff540bb8fef2"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b55624",
+      "name": "Raid_Mission_UI_OnEnable",
+      "end": "0x2b556a8",
+      "input16": "fe0f1df8f65701a9f44f02a935b001f0",
+      "c_sha256": "721edadd342923fe38bf688cd47e8cc04779a9968d2d5fd9e2ce3db16b357301",
+      "asm_sha256": "48985e0c1b19647b49474f89bfa21b84f741ac85115661a08e3be0a912c21ca9"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b557e8",
+      "name": "Raid_Mission_UI_OnDisable",
+      "end": "0x2b55864",
+      "input16": "fe0f1df8f65701a9f44f02a935b001f0",
+      "c_sha256": "6cbccf17915849cc819ee03e7e26d5fd71da0b2abf9123938d17a771ff7f7af8",
+      "asm_sha256": "2b778fc789102fe5827613eda7dadf3ff01460041c58828578de8c7b42764f89"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b55864",
+      "name": "Raid_Mission_UI_Update",
+      "end": "0x2b558b0",
+      "input16": "e80f1efcfe4f01a9f30300aa083040bd",
+      "c_sha256": "972e09c3d7ea029ebb07892e5d4251aaa18ca0c14e80bc3c0a1e4334e63dbf8e",
+      "asm_sha256": "f80646a801e32cc91b4b041803e5ef989972573fe7bfcf2f3c5e76c765d76af3"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b53e54",
+      "name": "Raid_Mission_UI_Open",
+      "end": "0x2b53e84",
+      "input16": "fe4fbfa9e1031faaf30300aada20ae94",
+      "c_sha256": "343654dfd8a5dbad7a23e4c2cc6b79e2e3e044ddfa49c583ecd6f2a5b5b85e0a",
+      "asm_sha256": "a9335db4be8261984428c494f3937b22a8e91734071eb71a772389c9229e2c3f"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b53f04",
+      "name": "Raid_Mission_UI_Close",
+      "end": "0x2b53f28",
+      "input16": "fe0f1ff8e1031faaaf20ae94a00000b4",
+      "c_sha256": "3898f2777f6114fcdc65eec65ac2f2de6fc9343cbce0082b918f8838f663ab15",
+      "asm_sha256": "3a155440884a35faffeb4e16cf0769d45ba59ef91f670d706cf6f2f4430cc835"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b55b44",
+      "name": "Raid_Mission_UI_onClick_Close",
+      "end": "0x2b55b48",
+      "input16": "f0f8ff17fd7bbaa9fc6f01a9fa6702a9",
+      "c_sha256": "065966c52aee87ad7e73a9dd2d3ed4e6b6b7b2ac7a1a249f09eda1fd408dc259",
+      "asm_sha256": "421a9a0d9b0120c376714987d5d796cabaccb9bdfc79d8e2255f56f8fb9b67fe"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b556a8",
+      "name": "Raid_Mission_UI_Reload",
+      "end": "0x2b557e8",
+      "input16": "fe5fbda9f65701a9f44f02a934b001f0",
+      "c_sha256": "354fdc413fcf96be0f42309bf64b5369812f309d1133b963092b41adc0507c39",
+      "asm_sha256": "f79e2c005a030ba2b2eec0872882261d716e2ccba89cb4b19ff00d42f74e40cf"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b55b48",
+      "name": "Raid_Mission_UI_Sort_Items",
+      "end": "0x2b55e08",
+      "input16": "fd7bbaa9fc6f01a9fa6702a9f85f03a9",
+      "c_sha256": "e871ec878ae0ead3a6d8b2930d1c191970f1d5db040ff22f9794d964a57dc715",
+      "asm_sha256": "86c16092021a22652536944fcc3c5354887a3bf953a3737b27b89912e5260599"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b558b0",
+      "name": "Raid_Mission_UI_Remain_Reload",
+      "end": "0x2b55b44",
+      "input16": "ff0301d1fe0b00f9f65702a9f44f03a9",
+      "c_sha256": "06fad39f173a31da3926565acfc61fd1e9bf64a32c04bad1ca94eecb22ecc15e",
+      "asm_sha256": "394c0228b9edfb8f62aa759994bcd5a81f2c135900d2149ac225e900bc3b1516"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2b55e10",
+      "name": "Raid_Mission_UI__ctor",
+      "end": "0x2b55e18",
+      "input16": "e1031faa3334ae14e80300aa3f040071",
+      "c_sha256": "1ed7cde0c38963dec579f82e3a7654ae83f13efc684bead6a243613ce12fd158",
+      "asm_sha256": "b9bbf51d129711e0ef0d93f446ca12f398a8f719dc4ec9b489eec84d192b26b6"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2ba6ea0",
+      "name": "WeeklyShop_get_Open_Place",
+      "end": "0x2ba6ea8",
+      "input16": "001040f9c0035fd6010c02f8d23af517",
+      "c_sha256": "bf117b6ba884f9f911d673095cfa188ae84b6dfba190535a267c9c645996399d",
+      "asm_sha256": "171a810b0dd48a1e50e055a9727b497e8201f1d0167d508bdc2ecaa9eeafbc69"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2ba6ea8",
+      "name": "WeeklyShop_set_Open_Place",
+      "end": "0x2ba6eb0",
+      "input16": "010c02f8d23af517fe57bea9f44f01a9",
+      "c_sha256": "015803e6b99dadbf5786e604997a946536643f254ea8be65d13c714275ff5490",
+      "asm_sha256": "e5847c537e3065e2f9957bba61aae559256b580b2eac61b9781d318df1d36d27"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2ba6eb0",
+      "name": "WeeklyShop_Awake",
+      "end": "0x2ba6f08",
+      "input16": "fe57bea9f44f01a9b5ad01d0f48d01b0",
+      "c_sha256": "914734f302f76fd42dfbe8cce6c8135b88a9b7f3d277d51bb769c715f711c23a",
+      "asm_sha256": "649b58e22963d79ac351848fd7f99d5dca0af53a0ef34743aa21d199ea59a72a"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2ba6f08",
+      "name": "WeeklyShop_Btn_Reload",
+      "end": "0x2ba7008",
+      "input16": "fe0f1df8f65701a9f44f02a9b4ad01d0",
+      "c_sha256": "a80d4f33e5b6bd7f189ceba10705ed60c4636f5f984610ba70e7775603012a75",
+      "asm_sha256": "634667b1848cf88470eb7652025b1e281fef83263e212c080bfc2b35b95521df"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2ba7008",
+      "name": "WeeklyShop_Is_VIP_Unlocked",
+      "end": "0x2ba70d4",
+      "input16": "fe0f1ef8f44f01a9b3ad01b0b48d01d0",
+      "c_sha256": "eb26b30cb2210012008b624711b742fa6f25f80b9dbf536e4a27e7f6c0c27be3",
+      "asm_sha256": "777c8c6d2b4e59c21c6719f0935e73eb17e0adffab1c25bceb80a844db1f653e"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2ba70d4",
+      "name": "WeeklyShop_Menu_Btn_Reload",
+      "end": "0x2ba7100",
+      "input16": "fe4fbfa9132440f9cbffff97f30000b4",
+      "c_sha256": "dbfe439f8120161a65adfdfeaa83654cf430a82914149c47a533c12ee1288fba",
+      "asm_sha256": "c1e5f039d9767a74f9d1ff9f4e0c42caaa4a2c7f0912dd5275ebfe7bab6b143d"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2ba7100",
+      "name": "WeeklyShop_Open_Auto",
+      "end": "0x2ba71a8",
+      "input16": "fe57bea9f44f01a9b5ad01b0f40301aa",
+      "c_sha256": "64b7c469e8b8e121f010f97d5d5db4afb44fe58c20e66a1c0a66d2640d7ea1e3",
+      "asm_sha256": "f254f920e042b8f5f7cc6b70fa6fc2715a55cb477a3d3d88f98ffe8f76014e9e"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2ba724c",
+      "name": "WeeklyShop_Panel_Open",
+      "end": "0x2ba72c8",
+      "input16": "fe57bea9f44f01a9b4ad01b0b58d01d0",
+      "c_sha256": "0ff04937b6e189b219964f7988fee3f4f4f4775ea0ae7e4ec16f8e9f3e8ea99d",
+      "asm_sha256": "9d0939318d3c45b455d16753a58068864760af33dc908bd793697dcdb4530321"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2ba72c8",
+      "name": "WeeklyShop_Get_Default_Menu",
+      "end": "0x2ba7338",
+      "input16": "fe0f1ef8f44f01a9b4ad01b0f30300aa",
+      "c_sha256": "e648c250aba341c4391c1b3f71d6b80479519b9f9345ec3a93dd037fa741e0d7",
+      "asm_sha256": "71127e6b2bbf7baf4a692f44cbbe327f3e41f6a06bedacb952e28fab693494d0"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2ba7338",
+      "name": "WeeklyShop_Menu_Open_Gun",
+      "end": "0x2ba7398",
+      "input16": "fe4fbfa9e1031f2a9affff97b3ad0190",
+      "c_sha256": "e4b2740fb63714e0d2e6ce58b7163a6d3ce32a0c16af7302cb539e7e5a10e6c3",
+      "asm_sha256": "8f81e8de0ff5e91da42e41714efc631f278bd9acb35d9620b8ca4bcccbbefa2c"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2ba7398",
+      "name": "WeeklyShop_Menu_Open_VIP",
+      "end": "0x2ba74a8",
+      "input16": "fe0f1ef8f44f01a9f30300aa19ffff97",
+      "c_sha256": "a5b9d12924a3d1754642e58c14c3a1a7949fb7c338f8994ca3bfbf1805023fa7",
+      "asm_sha256": "7a5498656d8771684e3fc828cbea2033b1c158510edd1d5b1b5e519ee67e4b79"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2ba71a8",
+      "name": "WeeklyShop_Menu_Open",
+      "end": "0x2ba724c",
+      "input16": "fe57bea9f44f01a9b5ad01b0f303012a",
+      "c_sha256": "c63e6ae612784f80631cf405757fa2195ccb8ab9f8f22f4fca2dc4fd0e46b058",
+      "asm_sha256": "4e8fa5a7e6c21cd0a82fd063ed74390a2426200c4a8de851ae7a7207e9e731c6"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x2ba74a8",
+      "name": "WeeklyShop__ctor",
+      "end": "0x2ba7500",
+      "input16": "fe57bea9f44f01a9b4ad01b0b58d01d0",
+      "c_sha256": "05f42506cc5d5bf7b6548f2405e33c2fd6bcf624f913385ffd67aa24e46d083a",
+      "asm_sha256": "35e5bf2ac3c21de827f6ac7936beb696660bfc39af9966dd72e1c6d44178e71e"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x28f5cfc",
+      "name": "Throw_NullReference_Wrapper",
+      "end": "0x28f5d04",
+      "input16": "fe0f1ff86a220194fe0f1ff87b220194",
+      "c_sha256": "4dbe5415e169f90b0ce5055036cca1b94bf1565f8d9d2308c08bf4bd707fcb91",
+      "asm_sha256": "eec6b09062497629de85a27e3a8cad918b42764b2a1c0f544152a636461e5fdd"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x28f5d04",
+      "name": "Throw_Index_Wrapper",
+      "end": "0x28f5d0c",
+      "input16": "fe0f1ff87b220194c03cff90006c0191",
+      "c_sha256": "b554c9aba53206d804e9fc370e97cf27027d10930f18eb2a6be625e055cb8dd1",
+      "asm_sha256": "5581995141036f8f8cb7598583a54ae3c1a567e77a4bbff543774e6d542c448c"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x293e6a8",
+      "name": "Throw_NullReference_Create",
+      "end": "0x293e6bc",
+      "input16": "ff8300d1fffb00a9e0030091ff0300f9",
+      "c_sha256": "07933b7cac27ee4d3e9d7c27b53882e222ed878cead5f8d79e73b3adba1fff6f",
+      "asm_sha256": "428c28c0278566bbd155390442ae395ecf5d111ac48dd41afa23cc88ab7051b2"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x293e6bc",
+      "name": "Throw_NullReference_Raise",
+      "end": "0x293e6cc",
+      "input16": "fe0f1ff803000094e1031faad2ffff97",
+      "c_sha256": "aded7644ecb862bc0a5476706b21810f9257b367ac0397bdc541e91af2615d80",
+      "asm_sha256": "5aafa322c11ce154d2ee31e138ead7810e48a24e419b8885131feb71851f1d71"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x293e6f4",
+      "name": "Throw_Index_Raise",
+      "end": "0x293e704",
+      "input16": "fe0f1ff803000094e1031faac4ffff97",
+      "c_sha256": "f7b9c1233cebb3659705feb97a706251cb1dd6dcac5b14dcbcd482f99b3529a7",
+      "asm_sha256": "53f08a0cd65a4fe4ba45d72673ff66e057b405fd9658b230d54ec9cb96fab4ed"
+    },
+    {
+      "scope": "weekly-raid-ui",
+      "preferred_va": "0x293e610",
+      "name": "Managed_Exception_CxaThrow",
+      "end": "0x293e638",
+      "input16": "fe4fbfa9f30300aa71ffff9700018052",
+      "c_sha256": "f034685b9e5e3c23ca134caf66dd8742db361f79a48e68bfefb6bb0b28479155",
+      "asm_sha256": "79d2db030a3cd3519ea853008b8d9e435cee4ca33d345340c0a40c9ffa737b80"
+    },
+    {
+      "scope": "weekly-gun-ui",
+      "preferred_va": "0x2b6a65c",
+      "name": "Gun_manager_Has_Degree_Or_Higher",
+      "end": "0x2b6a6c8",
+      "input16": "fe0f1ff8081840f9a80200b42908010b",
+      "c_sha256": "c6a2ac1e3e453a8650527b95b37e0797734d71bd1c7be312207b3b2901300d5c",
+      "asm_sha256": "919419e0254c7636c6049133fab66eea0c6295d08238271ecf143f6df4e08bd4"
+    },
+    {
+      "scope": "weekly-gun-ui",
+      "preferred_va": "0x2b8aac0",
+      "name": "DailyGun_Awake",
+      "end": "0x2b8ab78",
+      "input16": "fe57bea9f44f01a995ae01d0d48e0190",
+      "c_sha256": "c63902d343d72aec25bcf8b0ed7545bf7660e3da85165f68aea8492992617ecd",
+      "asm_sha256": "8d9458b446c38dfdb9180d4eb2287930b9439bea00f4f3332609da2b8d69d9ed"
+    },
+    {
+      "scope": "weekly-gun-ui",
+      "preferred_va": "0x2b8ab78",
+      "name": "DailyGun_WeekStart_return",
+      "end": "0x2b8ac2c",
+      "input16": "ffc300d1fe0b00f9f44f02a994ae01d0",
+      "c_sha256": "cf78ca7773fef24cfca77f666553fd8f20decc08da090e5f29f89a36a8cf93c3",
+      "asm_sha256": "6e8721fb17840bcdb090eb68ca3ab4eb01cfcb21c0f57307ffee9b670e7784b6"
+    },
+    {
+      "scope": "weekly-gun-ui",
+      "preferred_va": "0x2b8ac2c",
+      "name": "DailyGun_Remain_return",
+      "end": "0x2b8ad70",
+      "input16": "ffc300d1fe5701a9f44f02a994ae01d0",
+      "c_sha256": "230d7b1dee654181c3c057eca265956922dedaa4f8a446ad5f4d641a3c492d94",
+      "asm_sha256": "ce8665744f7732d2a50e6f881493826125c9920e0a84b3c49b5b7ac04172ff8a"
+    },
+    {
+      "scope": "weekly-gun-ui",
+      "preferred_va": "0x2b8ad70",
+      "name": "DailyGun_Remain_str_return",
+      "end": "0x2b8b074",
+      "input16": "ff0301d1fe0b00f9f65702a9f44f03a9",
+      "c_sha256": "2820d662c544f963ed5eda943e9c55c4892c86c08d0bfa0f7f8715289d7fc80e",
+      "asm_sha256": "805d85a1d8ee4f8724282f3e2c36c194eda6d812f28f6741ef5b64be8dc875ee"
+    },
+    {
+      "scope": "weekly-gun-ui",
+      "preferred_va": "0x2b8b074",
+      "name": "DailyGun_WeekIndex_return",
+      "end": "0x2b8b1c0",
+      "input16": "fe0f1df8f65701a9f44f02a994ae01b0",
+      "c_sha256": "ae5fdcc6430fd13e21280c2fec69572c3e7fd58805467c98a8e688f94d1f37b3",
+      "asm_sha256": "11a9eba2068504e0a92fc77a4aca9d4efbfc1c37ea0a91f08b0d7a8e5b0ade8f"
+    },
+    {
+      "scope": "weekly-gun-ui",
+      "preferred_va": "0x2b8b1c0",
+      "name": "DailyGun_Week_Offset_return",
+      "end": "0x2b8b23c",
+      "input16": "fe0f1ef8f44f01a993ae01b0b48e01f0",
+      "c_sha256": "6c1ea127fb1d9038aeb7210f6a5678aad8bfa1f6bcf77bcca0e363dd158fdf1d",
+      "asm_sha256": "2ad20d61be6e2d869d85ca8299de71f974fbf940de2a37cb465f9e92e1a129af"
+    },
+    {
+      "scope": "weekly-gun-ui",
+      "preferred_va": "0x2b8b23c",
+      "name": "DailyGun_GunNum_return",
+      "end": "0x2b8b2d0",
+      "input16": "fe0f1ef8f44f01a994ae01b0f303002a",
+      "c_sha256": "c79e302993584feb4ec57cbebdad3c117de1cb1afbe9e67d4a148eb9454d65d0",
+      "asm_sha256": "a66df469f65fadc5cd2b893e801d7ebbaf554d0211162e078499a6cd69577c70"
+    },
+    {
+      "scope": "weekly-gun-ui",
+      "preferred_va": "0x2b8b2d0",
+      "name": "DailyGun_Week_Refresh",
+      "end": "0x2b8b42c",
+      "input16": "fe0f1df8f65701a9f44f02a995ae01b0",
+      "c_sha256": "199f6be3327521b140c050af323d5b75e01d5aec53e91999283c0dc94be5c2ed",
+      "asm_sha256": "4a14400ace30d5693d6d72427caaacfd469ca13e22f00f24eb6b05703552bfb6"
+    },
+    {
+      "scope": "weekly-gun-ui",
+      "preferred_va": "0x2b8b42c",
+      "name": "DailyGun_Remain_Count_return",
+      "end": "0x2b8b4e4",
+      "input16": "fe57bea9f44f01a995ae01b0f303012a",
+      "c_sha256": "a8c5024c0e51e65ca406bea0f0ff4d61e887f3f104aa6b8cb2a62af9fe60c9ee",
+      "asm_sha256": "56ba74b65a962bc50ceb27871e93c826817290dadc4be176d260c2eb0cfc9d83"
+    },
+    {
+      "scope": "weekly-gun-ui",
+      "preferred_va": "0x2b8b4e4",
+      "name": "DailyGun_Is_Purchasable",
+      "end": "0x2b8b528",
+      "input16": "3f080071c8010054fe0f1ef8f44f01a9",
+      "c_sha256": "afa3ffe9bf67d0f020a6edead229f6c861394654526dffa8f597be64133b9480",
+      "asm_sha256": "d88af1a6db7bb0f68d02863f38da007de0288724b87aac2858c21d792577c835"
+    },
+    {
+      "scope": "weekly-gun-ui",
+      "preferred_va": "0x2b8b528",
+      "name": "DailyGun_ApplyReward",
+      "end": "0x2b8b80c",
+      "input16": "ff0301d1fe5f01a9f65702a9f44f03a9",
+      "c_sha256": "ef3ea6faa7532e3f494fadaf7b9c1d8575d621d9ece3c5f6045c906c5ef31447",
+      "asm_sha256": "c3d6673cdc2f0fee709365aa2e77f8ebacdcab226bf5715560ae9e43e9ccfae5"
+    },
+    {
+      "scope": "weekly-gun-ui",
+      "preferred_va": "0x2b8b868",
+      "name": "DailyGun_LoadFromSaveData",
+      "end": "0x2b8b940",
+      "input16": "fe57bea9f44f01a995ae01b0f40301aa",
+      "c_sha256": "9a4284ee916b6f6a34a906471c69461881ec93b37114af46bfb27494e3f06fe7",
+      "asm_sha256": "5a34d1fa9e6d8a06a9ebb52c2944bf2b9a0622a87446618ccacd89c1b04bf912"
+    },
+    {
+      "scope": "weekly-gun-ui",
+      "preferred_va": "0x2b8b940",
+      "name": "DailyGun_Btn_Reload",
+      "end": "0x2b8b994",
+      "input16": "fe0f1ef8f44f01a993ae01b0d48e0190",
+      "c_sha256": "92f20efae31988d5656e17ae2067a6a0c0fd014d28dd03385de3f67edd7f2248",
+      "asm_sha256": "8c665937f0e18c3ddc44baafcbbaad38800de19d66aaa12621905eef0dc875ed"
+    },
+    {
+      "scope": "weekly-gun-ui",
+      "preferred_va": "0x2b8b994",
+      "name": "DailyGun__ctor",
+      "end": "0x2b8ba24",
+      "input16": "fe0f1df8f65701a9f44f02a995ae01b0",
+      "c_sha256": "169dbeb5d4e49d381ce3975e7f87880b2f4713fbdd210be56822084c341e793c",
+      "asm_sha256": "2c02a39670093f9f6f5ed4b1f3f643dfa6d3e029a45c98910ec966ae5969494e"
+    },
+    {
+      "scope": "weekly-gun-ui",
+      "preferred_va": "0x2b8ba24",
+      "name": "DailyGun__cctor",
+      "end": "0x2b8bb7c",
+      "input16": "fe0f1cf8f85f01a9f65702a9f44f03a9",
+      "c_sha256": "099c595cff9d46fcf05ceff17bca34e509b6bf9b656c7f46c568cfc0a429aae4",
+      "asm_sha256": "2f63c5ef009dcd8929169aeb53f3fdec8d16e2937734a36d0b6301ec8209ac39"
+    },
+    {
+      "scope": "weekly-gun-ui",
+      "preferred_va": "0x2b8bb7c",
+      "name": "DailyGun_Item_First_Reload",
+      "end": "0x2b8bcd4",
+      "input16": "fe5fbda9f65701a9f44f02a994ae01b0",
+      "c_sha256": "498fcfdf61df03a9f0bdd01b167b9e2aed42e5d22744c1904aa9942a85aac9ce",
+      "asm_sha256": "e55b97e7fe37ab47df3fb5b0c1782fd72faffcf3dea6fb91d88876f50f0a016e"
+    },
+    {
+      "scope": "weekly-gun-ui",
+      "preferred_va": "0x2b8bcd4",
+      "name": "DailyGun_Item_Reload",
+      "end": "0x2b8bf38",
+      "input16": "ff4301d1fe6701a9f85f02a9f65703a9",
+      "c_sha256": "d4b898bc669d8e60032e8344758352af0464148483a292aab6673ec0a55ac58b",
+      "asm_sha256": "89fab9daa122f6ce4a453bbefb6c42dbc980ea05fc6aa4cbfae47db2a3ad596b"
+    },
+    {
+      "scope": "weekly-gun-ui",
+      "preferred_va": "0x2b8bf38",
+      "name": "DailyGun_Item_OnClick_Purchase",
+      "end": "0x2b8c1e8",
+      "input16": "ffc300d1fe5701a9f44f02a994ae01b0",
+      "c_sha256": "d5fc97ed19e7e6b8ec7b3c766e83329ae24c082d4b4b403532533fbf0aae1984",
+      "asm_sha256": "b21dcb8c0953f0deba1a38cfc3ee5a758cc7a912866e4003801feb739c375d99"
+    },
+    {
+      "scope": "weekly-gun-ui",
+      "preferred_va": "0x2b8c36c",
+      "name": "DailyGun_Item__ctor",
+      "end": "0x2b8c374",
+      "input16": "e1031faadc5aad14fe57bea9f44f01a9",
+      "c_sha256": "5d0e8ae63f5f81be0186b18925934dfecf52f79df4c6c6c3b7ed88ea853d68e5",
+      "asm_sha256": "2059ef834be3ed1398976c0de1bda3c09e28b39223fcfe2dade615265439ef4a"
+    },
+    {
+      "scope": "weekly-gun-ui",
+      "preferred_va": "0x28f5cfc",
+      "name": "Throw_NullReference_Wrapper",
+      "end": "0x28f5d04",
+      "input16": "fe0f1ff86a220194fe0f1ff87b220194",
+      "c_sha256": "4dbe5415e169f90b0ce5055036cca1b94bf1565f8d9d2308c08bf4bd707fcb91",
+      "asm_sha256": "eec6b09062497629de85a27e3a8cad918b42764b2a1c0f544152a636461e5fdd"
+    },
+    {
+      "scope": "weekly-gun-ui",
+      "preferred_va": "0x28f5d04",
+      "name": "Throw_Index_Wrapper",
+      "end": "0x28f5d0c",
+      "input16": "fe0f1ff87b220194c03cff90006c0191",
+      "c_sha256": "b554c9aba53206d804e9fc370e97cf27027d10930f18eb2a6be625e055cb8dd1",
+      "asm_sha256": "5581995141036f8f8cb7598583a54ae3c1a567e77a4bbff543774e6d542c448c"
+    },
+    {
+      "scope": "weekly-gun-ui",
+      "preferred_va": "0x293e6a8",
+      "name": "Throw_NullReference_Create",
+      "end": "0x293e6bc",
+      "input16": "ff8300d1fffb00a9e0030091ff0300f9",
+      "c_sha256": "07933b7cac27ee4d3e9d7c27b53882e222ed878cead5f8d79e73b3adba1fff6f",
+      "asm_sha256": "428c28c0278566bbd155390442ae395ecf5d111ac48dd41afa23cc88ab7051b2"
+    },
+    {
+      "scope": "weekly-gun-ui",
+      "preferred_va": "0x293e6bc",
+      "name": "Throw_NullReference_Raise",
+      "end": "0x293e6cc",
+      "input16": "fe0f1ff803000094e1031faad2ffff97",
+      "c_sha256": "aded7644ecb862bc0a5476706b21810f9257b367ac0397bdc541e91af2615d80",
+      "asm_sha256": "5aafa322c11ce154d2ee31e138ead7810e48a24e419b8885131feb71851f1d71"
+    },
+    {
+      "scope": "weekly-gun-ui",
+      "preferred_va": "0x293e6f4",
+      "name": "Throw_Index_Raise",
+      "end": "0x293e704",
+      "input16": "fe0f1ff803000094e1031faac4ffff97",
+      "c_sha256": "f7b9c1233cebb3659705feb97a706251cb1dd6dcac5b14dcbcd482f99b3529a7",
+      "asm_sha256": "53f08a0cd65a4fe4ba45d72673ff66e057b405fd9658b230d54ec9cb96fab4ed"
+    },
+    {
+      "scope": "weekly-gun-ui",
+      "preferred_va": "0x293e610",
+      "name": "Managed_Exception_CxaThrow",
+      "end": "0x293e638",
+      "input16": "fe4fbfa9f30300aa71ffff9700018052",
+      "c_sha256": "f034685b9e5e3c23ca134caf66dd8742db361f79a48e68bfefb6bb0b28479155",
+      "asm_sha256": "79d2db030a3cd3519ea853008b8d9e435cee4ca33d345340c0a40c9ffa737b80"
+    },
+    {
+      "scope": "raid-mission-sort",
+      "preferred_va": "0x2b55e18",
+      "name": "__c__DisplayClass10_0__Sort_Items_g__Priority_0",
+      "end": "0x2b55e7c",
+      "input16": "e80300aa3f040071600c8052cc000054",
+      "c_sha256": "f2fdd35a10efbe22b4f8ca35f8f35723056bc4a3b31bb62c9e4ec30e01a53298",
+      "asm_sha256": "1fd02575d3433237e3a90dba7f67a1f852f67dfcddf1f872c765984172081bf9"
+    },
+    {
+      "scope": "raid-mission-sort",
+      "preferred_va": "0x2b55e7c",
+      "name": "__c__DisplayClass10_0__Sort_Items_b__1",
+      "end": "0x2b55f84",
+      "input16": "ff4301d1fe0b00f9f85f02a9f65703a9",
+      "c_sha256": "35d3d875a921ac5c79c2dede51de001373d1935accc6ef69c7306583118ca4f3",
+      "asm_sha256": "a58ebdb75d21ab2fbb9aaddf73ca3f92107625fa8d162d395589260fbe87512a"
+    },
+    {
+      "scope": "raid-mission-sort",
+      "preferred_va": "0x28f5cfc",
+      "name": "Throw_NullReference_Wrapper",
+      "end": "0x28f5d04",
+      "input16": "fe0f1ff86a220194fe0f1ff87b220194",
+      "c_sha256": "4dbe5415e169f90b0ce5055036cca1b94bf1565f8d9d2308c08bf4bd707fcb91",
+      "asm_sha256": "eec6b09062497629de85a27e3a8cad918b42764b2a1c0f544152a636461e5fdd"
+    },
+    {
+      "scope": "raid-mission-sort",
+      "preferred_va": "0x28f5d04",
+      "name": "Throw_Index_Wrapper",
+      "end": "0x28f5d0c",
+      "input16": "fe0f1ff87b220194c03cff90006c0191",
+      "c_sha256": "b554c9aba53206d804e9fc370e97cf27027d10930f18eb2a6be625e055cb8dd1",
+      "asm_sha256": "5581995141036f8f8cb7598583a54ae3c1a567e77a4bbff543774e6d542c448c"
+    },
+    {
+      "scope": "raid-mission-sort",
+      "preferred_va": "0x293e6a8",
+      "name": "Throw_NullReference_Create",
+      "end": "0x293e6bc",
+      "input16": "ff8300d1fffb00a9e0030091ff0300f9",
+      "c_sha256": "07933b7cac27ee4d3e9d7c27b53882e222ed878cead5f8d79e73b3adba1fff6f",
+      "asm_sha256": "428c28c0278566bbd155390442ae395ecf5d111ac48dd41afa23cc88ab7051b2"
+    },
+    {
+      "scope": "raid-mission-sort",
+      "preferred_va": "0x293e6bc",
+      "name": "Throw_NullReference_Raise",
+      "end": "0x293e6cc",
+      "input16": "fe0f1ff803000094e1031faad2ffff97",
+      "c_sha256": "aded7644ecb862bc0a5476706b21810f9257b367ac0397bdc541e91af2615d80",
+      "asm_sha256": "5aafa322c11ce154d2ee31e138ead7810e48a24e419b8885131feb71851f1d71"
+    },
+    {
+      "scope": "raid-mission-sort",
+      "preferred_va": "0x293e6f4",
+      "name": "Throw_Index_Raise",
+      "end": "0x293e704",
+      "input16": "fe0f1ff803000094e1031faac4ffff97",
+      "c_sha256": "f7b9c1233cebb3659705feb97a706251cb1dd6dcac5b14dcbcd482f99b3529a7",
+      "asm_sha256": "53f08a0cd65a4fe4ba45d72673ff66e057b405fd9658b230d54ec9cb96fab4ed"
+    },
+    {
+      "scope": "raid-mission-sort",
+      "preferred_va": "0x293e610",
+      "name": "Managed_Exception_CxaThrow",
+      "end": "0x293e638",
+      "input16": "fe4fbfa9f30300aa71ffff9700018052",
+      "c_sha256": "f034685b9e5e3c23ca134caf66dd8742db361f79a48e68bfefb6bb0b28479155",
+      "asm_sha256": "79d2db030a3cd3519ea853008b8d9e435cee4ca33d345340c0a40c9ffa737b80"
+    },
+    {
+      "scope": "weekly-countdown-ui",
+      "preferred_va": "0x2b8c580",
+      "name": "_Timer_Routine_d__7_MoveNext",
+      "end": "0x2b8c788",
+      "input16": "fe0f1df8f65701a9f44f02a994ae0190",
+      "c_sha256": "6b00e2c883fb75d1c99ae65b21614b964e21b21d5189f676fd4e7354fc9aeca1",
+      "asm_sha256": "1998c8e9572414b2cf4df252aa012828a524de79a8d8eb2cc009512194874af4"
+    },
+    {
+      "scope": "weekly-countdown-ui",
+      "preferred_va": "0x2b8c374",
+      "name": "DailyGun_popup_OnEnable",
+      "end": "0x2b8c484",
+      "input16": "fe57bea9f44f01a995ae0190b48e01d0",
+      "c_sha256": "702d05e9f6a5a4e586ff2967dc8e6284ba1ec5ad56bb4604ff241f5e0bb6b570",
+      "asm_sha256": "3445a097896120e1d6100788173a2cefc7af36779e8411a1db0360dbe589ac16"
+    },
+    {
+      "scope": "weekly-countdown-ui",
+      "preferred_va": "0x2b8c4f0",
+      "name": "DailyGun_popup_Panel_Close",
+      "end": "0x2b8c54c",
+      "input16": "fe0f1ef8f44f01a9f40300aaf30300aa",
+      "c_sha256": "5f0ef1af4a2803004c6db8c34b64cec229c69c85291070d51a084603c1c1f4d4",
+      "asm_sha256": "43f13923d5021f062852c3ed8dfcdde62f3a67a71b76fcf34b9506d74a8779be"
+    },
+    {
+      "scope": "weekly-countdown-ui",
+      "preferred_va": "0x2b8b80c",
+      "name": "DailyGun_popup_Panel_Reload",
+      "end": "0x2b8b868",
+      "input16": "fe0f1ef8f44f01a9081040f9e80100b4",
+      "c_sha256": "8f07754589f29d52db79046dec7e83eee31a8f48b813b75a0f9a3857176bb3a0",
+      "asm_sha256": "795a251303ea0535ff24ebed69a8ac95c77a8c2dda4887255a4ec7fb8b08d11f"
+    },
+    {
+      "scope": "weekly-countdown-ui",
+      "preferred_va": "0x2b8c484",
+      "name": "DailyGun_popup_Timer_Routine",
+      "end": "0x2b8c4f0",
+      "input16": "fe57bea9f44f01a994ae0190b58e01f0",
+      "c_sha256": "f2d52966291d693049248f1262c87ed597081c476920144e26c22e35efaf9e22",
+      "asm_sha256": "59ccb6aa2116e4dc2fc0ad79747b5d102afbd5953e3b24a7f3baa549a6169476"
+    },
+    {
+      "scope": "weekly-countdown-ui",
+      "preferred_va": "0x2b8c574",
+      "name": "DailyGun_popup__ctor",
+      "end": "0x2b8c57c",
+      "input16": "e1031faa5a5aad14c0035fd6fe0f1df8",
+      "c_sha256": "637b7e66b30128eda900618e6e0085889864ba7b741e2ba6855b9aa128b0e70b",
+      "asm_sha256": "fa01b4e68088bb3834b5dc4bca5981a6b02408b6262e132d66a81ac435b18e38"
+    },
+    {
+      "scope": "weekly-countdown-ui",
+      "preferred_va": "0x28f5cfc",
+      "name": "Throw_NullReference_Wrapper",
+      "end": "0x28f5d04",
+      "input16": "fe0f1ff86a220194fe0f1ff87b220194",
+      "c_sha256": "4dbe5415e169f90b0ce5055036cca1b94bf1565f8d9d2308c08bf4bd707fcb91",
+      "asm_sha256": "eec6b09062497629de85a27e3a8cad918b42764b2a1c0f544152a636461e5fdd"
+    },
+    {
+      "scope": "weekly-countdown-ui",
+      "preferred_va": "0x28f5d04",
+      "name": "Throw_Index_Wrapper",
+      "end": "0x28f5d0c",
+      "input16": "fe0f1ff87b220194c03cff90006c0191",
+      "c_sha256": "b554c9aba53206d804e9fc370e97cf27027d10930f18eb2a6be625e055cb8dd1",
+      "asm_sha256": "5581995141036f8f8cb7598583a54ae3c1a567e77a4bbff543774e6d542c448c"
+    },
+    {
+      "scope": "weekly-countdown-ui",
+      "preferred_va": "0x293e6a8",
+      "name": "Throw_NullReference_Create",
+      "end": "0x293e6bc",
+      "input16": "ff8300d1fffb00a9e0030091ff0300f9",
+      "c_sha256": "07933b7cac27ee4d3e9d7c27b53882e222ed878cead5f8d79e73b3adba1fff6f",
+      "asm_sha256": "428c28c0278566bbd155390442ae395ecf5d111ac48dd41afa23cc88ab7051b2"
+    },
+    {
+      "scope": "weekly-countdown-ui",
+      "preferred_va": "0x293e6bc",
+      "name": "Throw_NullReference_Raise",
+      "end": "0x293e6cc",
+      "input16": "fe0f1ff803000094e1031faad2ffff97",
+      "c_sha256": "aded7644ecb862bc0a5476706b21810f9257b367ac0397bdc541e91af2615d80",
+      "asm_sha256": "5aafa322c11ce154d2ee31e138ead7810e48a24e419b8885131feb71851f1d71"
+    },
+    {
+      "scope": "weekly-countdown-ui",
+      "preferred_va": "0x293e6f4",
+      "name": "Throw_Index_Raise",
+      "end": "0x293e704",
+      "input16": "fe0f1ff803000094e1031faac4ffff97",
+      "c_sha256": "f7b9c1233cebb3659705feb97a706251cb1dd6dcac5b14dcbcd482f99b3529a7",
+      "asm_sha256": "53f08a0cd65a4fe4ba45d72673ff66e057b405fd9658b230d54ec9cb96fab4ed"
+    },
+    {
+      "scope": "weekly-countdown-ui",
+      "preferred_va": "0x293e610",
+      "name": "Managed_Exception_CxaThrow",
+      "end": "0x293e638",
+      "input16": "fe4fbfa9f30300aa71ffff9700018052",
+      "c_sha256": "f034685b9e5e3c23ca134caf66dd8742db361f79a48e68bfefb6bb0b28479155",
+      "asm_sha256": "79d2db030a3cd3519ea853008b8d9e435cee4ca33d345340c0a40c9ffa737b80"
+    }
+  ],
+  "export_runs": {
+    "weekly-raid-ui": {
+      "business": 85,
+      "helpers": 6,
+      "completed": 91
+    },
+    "weekly-gun-ui": {
+      "business": 20,
+      "helpers": 6,
+      "completed": 26
+    },
+    "raid-mission-sort": {
+      "business": 2,
+      "helpers": 6,
+      "completed": 8
+    },
+    "weekly-countdown-ui": {
+      "business": 6,
+      "helpers": 6,
+      "completed": 12
+    }
+  },
+  "native_balance_pairs": {
+    "0x1070310": [
+      0,
+      1
+    ],
+    "0x106f920": [
+      0,
+      4
+    ],
+    "0x106fc20": [
+      0,
+      7
+    ],
+    "0x10703c8": [
+      1,
+      5
+    ],
+    "0x1070198": [
+      1,
+      10
+    ],
+    "0x106fc28": [
+      1,
+      20
+    ],
+    "0x106ff48": [
+      1,
+      30
+    ]
+  },
+  "weekly_gun_initializer_blobs": [
+    {
+      "pointer": "0x5d63f20",
+      "field_token": "0x4001478",
+      "metadata_offset": 9609048,
+      "sha256": "C17F23B1052241C68988BF2246C6697CAF6FF570AA003D783EBE4B24E7DC7CC9",
+      "values": [
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "pointer": "0x5d63f28",
+      "field_token": "0x400147e",
+      "metadata_offset": 9609192,
+      "sha256": "FC11158635DBB47C808249ACEB7757AE1E5AE675DABBDE355547A8597FAEB3F2",
+      "values": [
+        300,
+        700,
+        1500
+      ]
+    },
+    {
+      "pointer": "0x5d63f30",
+      "field_token": "0x400147a",
+      "metadata_offset": 9609088,
+      "sha256": "DF18D0DD6218A31A496F4209870FD07DCD2A050900975B16D661FBC997EFB53F",
+      "values": [
+        20,
+        30,
+        35
+      ]
+    }
+  ],
+  "original_monoscript_metas": [
+    {
+      "class": "WeeklyShop",
+      "sha256": "3db1f65bad56d036add7d89ad6c44e879c010b6cd12e39433c2742e10752fa97",
+      "unchanged": true
+    },
+    {
+      "class": "Raid_Mission_manager",
+      "sha256": "b002d46278b3d3fa2fb94c711e8a211ed4c1b6aa4b2105d3edea2e5ee559fa41",
+      "unchanged": true
+    },
+    {
+      "class": "Raid_Mission_UI",
+      "sha256": "dec2c366798136ca87ae1ab4503d890bf4f7a6b9c3c3822ee729a6173577cc73",
+      "unchanged": true
+    },
+    {
+      "class": "Raid_Mission_Item",
+      "sha256": "cea6264785187273352bcc16942990e4a50e05c646be0bd8e9dfc0c3244d6ac2",
+      "unchanged": true
+    },
+    {
+      "class": "Raid_Mission_HUD",
+      "sha256": "9a914f929ad2933fdc76ca17f64f5c7661992a16dbb51ec206a858bb059661ce",
+      "unchanged": true
+    },
+    {
+      "class": "Raid_Mission_Ticket_UI",
+      "sha256": "e2a253e57e0ef8c71869047a75e04db56da409a0060e25ec47f563b787f872ce",
+      "unchanged": true
+    },
+    {
+      "class": "DailyGun",
+      "sha256": "38ba202c0f6941481622ed8c8b16da788b8e482d3663612f0cd5e09aa162e0ea",
+      "unchanged": true
+    },
+    {
+      "class": "DailyGun_Item",
+      "sha256": "7049a614d187ac927f480cfc14f9313fd3db95d6ad1b3c5a803ab5a80ce539da",
+      "unchanged": true
+    },
+    {
+      "class": "DailyGun_popup",
+      "sha256": "9d2d5a8422dd6f2f00eea3eae7050148826a1b6dcbc2c7efd0242eb9d8cdb52e",
+      "unchanged": true
+    }
+  ],
+  "manifest": "Assets/Recovery/Editor/OriginalWeeklyRaid.json",
+  "manifest_sha256": "877fc27a92023c0c4ba06e330b50d5ae880972d023194bb67ec6635463d32d72",
+  "rules": {
+    "shop_entry": "Gun_Collect any true starting at3*5; WeeklyShop_Btn is absent from the11 tutorial disable references. VIP requires historical Stage_Value_Max>=190; alert Stage20.",
+    "shop_navigation": "Panel_Open hud place -> VIP first time when unlocked, otherwise last menu (initial0). VIP first-open native PlayerPrefs logical flag captured as Recovery_WeeklyVipFirstOpened in independent archive. Open_Auto sets place and selects VIP; commercial PlusPack view movement pending.",
+    "weekly_guns": "Monday00:00, epoch2024-01-01, positive mod5 offsets+20/30/35; weekly key yyyyMMdd resets counts. Maxcounts2/2/1; PetCoin300/700/1500 is bundle reward, not price. SDK purchases do not run.",
+    "raid_tasks": "8 tasks: tries1/4/7 reward300/500/800; best1/5/10/20/30 reward200/300/400/500/600. Values read from Raid season counters. Clear flags stay latched within season.",
+    "raid_states": "0unfinished;1ordinaryclaimable;2ordinaryclaimed/premiumreclaim;3bothclaimed. Claim only state1. Reclaim only state2 with loaded current-season ticket; absent ticket opens purchase explanation. Offline purchase function grants nothing.",
+    "raid_season": "Same Raid week index. Reset all3flag arrays andticket only on changed season. Prefix-copy null/short legacy arrays, reject oversized independent profiles before mutation.",
+    "raid_sort": "Claimable state1 priority0; state2 priority0 withticket else1; unfinished priority1 withticket else2; done priority2 withticket else3; ties type then original index.",
+    "ui_timer": "native unscaled1second display update. Source mission descriptions from I2 English strings; full localization pending.",
+    "effects": "Ten original DOTweenAnimation loops: six DailyGun glow rotations (three WeeklyShop plus three legacy popup), Raid HUD glow rotation, two ticket-sale scale loops and daily-mission alert scale loop; source durations/ease/loop/targets retained with local presenter."
+  },
+  "adapters": [
+    "Independent archive and Raid local clock replace original global singleton save/time services. No device/trusted server proof.",
+    "Source prefab/UI hierarchy and nine MonoScript meta identities retained; Editor API binds callbacks. Source purchase/cheat callbacks excluded.",
+    "RecoveryWeeklyUiTween is explicitly a parameter-preserving local presenter, not original DOTween implementation. Shared original SFX/Bounce/Hatch helpers rebound for new source branches.",
+    "Weekly gun preview dispatches existing informational Gun_Info_UI in read-only context. Receipt/provider/fulfillment not connected.",
+    "Locally generated Chinese fallback atlas repaired independently from shipped dynamic font PNGs."
+  ],
+  "runtime_sources": {
+    "Assets/Recovery/Scripts/WeeklyShop.cs": "f68a966b2a3a356a438947584ade6b993920b5d34c854d9b397cece4f87538d0",
+    "Assets/Recovery/Scripts/Raid_Mission_manager.cs": "562f75f4ceadee907758b16556e625c0f19e2f23a19794570d9e6516df0bbf0b",
+    "Assets/Recovery/Scripts/Raid_Mission_UI.cs": "42a7d0280c48388e8b1e1919a239abf509a8b8240aac6298e3718cb1f4c76486",
+    "Assets/Recovery/Scripts/Raid_Mission_Item.cs": "bbe8887f6b76c6cef66630103e642b41344b88141da35a767ed282caacceecb9",
+    "Assets/Recovery/Scripts/Raid_Mission_HUD.cs": "6f68252ff9092f627a9ee25021d9bcd68d618713d80032f57140ec6edf214781",
+    "Assets/Recovery/Scripts/Raid_Mission_Ticket_UI.cs": "9347b0e72adb078e2821b1f25adf0137a229923ed618b87a3335a8d4312d8ea6",
+    "Assets/Recovery/Scripts/DailyGun.cs": "6f3a26a1baa7d11c563212df10b86283af9e6586be88d64a7d2733507d47b371",
+    "Assets/Recovery/Scripts/DailyGun_Item.cs": "ceaa3420a98e32b4540f8e4b4ec45ab233b2cbe1294ac6e2a93403672d2b67e0",
+    "Assets/Recovery/Scripts/DailyGun_popup.cs": "d396dae0dba3062f04420c0c3e36eee8e18016b4b434cdf18c27ce138472413f",
+    "Assets/Recovery/Scripts/RecoveryWeeklyUiTween.cs": "1315249f7a020f13eeccffc263c0e025d7970b7c9c339b780f8983ffdc2e734a",
+    "Assets/Recovery/Scripts/RecoveryForestClient.cs": "de214e8a72fa1912f24499d4209fc15878cbeda2071a1c26e8a23f08397d8020",
+    "Assets/Recovery/Scripts/Raid_manager.cs": "c34de5f91dbfb9b11e747f8ab20e893d4985a3367f697d4256101ee38a1aa9fc",
+    "Assets/Recovery/Scripts/OriginalSaveData.cs": "7903b0b5da5e681ea5893b24c31100cd7f4b50e4faae0f2fba0870dbd4d12047",
+    "Assets/Recovery/Scripts/Fish_Item.cs": "de09f2f45e03e6996e6b27a27cbd80cdb3e6342995a0431c437f98a495a0edc6"
+  },
+  "boundary": "Ordinary Raid tasks and WeeklyShop local UI/catalog only. Paid fulfillment, remaining UI/FX/localization, relic consumers/table300, Player/device and online still pending. Native counts are static analysis only."
+}

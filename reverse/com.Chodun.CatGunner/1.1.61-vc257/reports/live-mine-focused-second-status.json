@@ -1,0 +1,48 @@
+{
+  "status": "completed",
+  "duration": 25.08,
+  "summary": {
+    "total": 5,
+    "passed": 3,
+    "failed": 2,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalMineTests.AutomaticProjectilesMineWithZeroInputAndNaturalSixtySecondSettlement",
+      "Status": "Failed",
+      "Duration": 8.0361378,
+      "Message": "Unhandled log message: '[Exception] UnassignedReferenceException: The variable _spriteRenderer of Ore has not been assigned.\nYou probably need to assign the _spriteRenderer variable of the Ore script in the inspector.'. Use UnityEngine.TestTools.LogAssert.Expect",
+      "StackTrace": "UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/UnityEngineObject.bindings.cs:1124)\nUnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/BindingsHelpers.cs:61)\nUnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) (at <bb1a76fe3b594ec1901df841d117fe0b>:0)\nOre.Spawn (UnityEngine.Vector3 position, System.Int32 degree, UnityEngine.Sprite sprite) (at Assets/Recovery/Scripts/Ore.cs:12)\nMine_manager+<PlaceOres>d__57.MoveNext () (at Assets/Recovery/Scripts/Mine_manager.cs:67)\nUnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)\n\n"
+    },
+    {
+      "FullName": "OriginalMineTests.DailyTicketsKeepSameAndFutureDatesAndRenewOnlyOnNextDay",
+      "Status": "Passed",
+      "Duration": 0.0067612,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalMineTests.EntryCancellationAndExhaustedTicketsCannotRestartOrAward",
+      "Status": "Passed",
+      "Duration": 11.418838,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalMineTests.NativeLatticeRanksNoiseAndMarksExactlyOneHundredRarePositions",
+      "Status": "Passed",
+      "Duration": 0.0293711,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalMineTests.UnitHitRoutingRareHealthFloorRewardDustAndLateHits",
+      "Status": "Failed",
+      "Duration": 5.5091147,
+      "Message": "Unhandled log message: '[Exception] UnassignedReferenceException: The variable _spriteRenderer of Ore has not been assigned.\nYou probably need to assign the _spriteRenderer variable of the Ore script in the inspector.'. Use UnityEngine.TestTools.LogAssert.Expect",
+      "StackTrace": "UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/UnityEngineObject.bindings.cs:1124)\nUnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/BindingsHelpers.cs:61)\nUnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) (at <bb1a76fe3b594ec1901df841d117fe0b>:0)\nOre.Spawn (UnityEngine.Vector3 position, System.Int32 degree, UnityEngine.Sprite sprite) (at Assets/Recovery/Scripts/Ore.cs:12)\nMine_manager+<PlaceOres>d__57.MoveNext () (at Assets/Recovery/Scripts/Mine_manager.cs:67)\nUnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)\n\n"
+    }
+  ]
+}

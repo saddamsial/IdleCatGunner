@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 31.03,
+      "summary": {
+        "total": 4,
+        "passed": 3,
+        "failed": 1,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalMobile69Tests.ActualSettingsLanguageChoiceChangesHudSettingsAndPersistsWithoutProgressLoss",
+          "Status": "Failed",
+          "Duration": 12.5552036,
+          "Message": "  Expected string length 9788 but was 9824. Strings differ at index 3616.\n  Expected: \"...pmYWxzZSwiTGFzdFNhdmVUaW1lIjoiIiwiUGxheUZhYl9FbWFpbCI6IiIs...\"\n  But was:  \"...pmYWxzZSwiTGFzdFNhdmVUaW1lIjoiMjAyNi0xMC0xMlQwNDoxNTozMS44...\"\n  --------------------------------------------^\n",
+          "StackTrace": "at OriginalMobile69Tests+<ActualSettingsLanguageChoiceChangesHudSettingsAndPersistsWithoutProgressLoss>d__11.MoveNext () [0x00205] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMobile69Tests.cs:37\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalMobile69Tests.OriginalLanguageRowsAreCompleteAndThreeLocalesUseOneIndex",
+          "Status": "Passed",
+          "Duration": 6.140395,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMobile69Tests.SafeAreaInsetsChangeOnlyOriginalSafeAreaAndPreserveFill",
+          "Status": "Passed",
+          "Duration": 6.1164719,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMobile69Tests.SharedChineseMaterialSurvivesOneReleaseAndRestoresOriginals",
+          "Status": "Passed",
+          "Duration": 6.119769,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

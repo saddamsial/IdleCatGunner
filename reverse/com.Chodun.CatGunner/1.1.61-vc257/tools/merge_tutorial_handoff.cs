@@ -1,0 +1,11 @@
+if(UnityEditor.EditorApplication.isPlaying)throw new InvalidOperationException("Wait for tests to finish");
+UnityEngine.Time.timeScale=1;UnityEditor.EditorApplication.isPaused=false;
+var scene=UnityEditor.SceneManagement.EditorSceneManager.OpenScene("Assets/Recovery/Scenes/RecoveredClient.unity");
+var c=UnityEngine.Object.FindAnyObjectByType<CatGunner.Recovery.RecoveryForestClient>();
+var transforms=scene.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<UnityEngine.Transform>(true)).ToArray();
+var missing=transforms.Sum(t=>UnityEditor.GameObjectUtility.GetMonoBehavioursWithMissingScriptCount(t.gameObject));
+var cue=c.Guns.merge_tutorial_ui;var arrow=cue.tutorial_arrow;var image=arrow.GetComponentInChildren<UnityEngine.UI.Image>(true);
+var handGuid=UnityEditor.AssetDatabase.AssetPathToGUID(UnityEditor.AssetDatabase.GetAssetPath(image.sprite));
+var report=new{unity=UnityEngine.Application.unityVersion,scene=scene.path,playing=UnityEditor.EditorApplication.isPlaying,paused=UnityEditor.EditorApplication.isPaused,compiling=UnityEditor.EditorApplication.isCompiling,dirty=scene.isDirty,persist=c.Persist,saveFolderOverride=c.SaveFolderOverride,objects=transforms.Length,missingScripts=missing,mergeCueConnected=cue!=null,arrowCount=transforms.Count(t=>t.GetComponent<TutorialArrow_UI>()!=null),handSpriteGuid=handGuid,handRaycastTarget=image.raycastTarget,moveDuration=arrow.moveDuration,pauseAtTarget=arrow.pauseAtTarget,scaleSmall=arrow.scaleSmall,scaleDuration=arrow.scaleDuration,fullOnboardingIntegrated=false,ready_for_user_play=missing==0&&!scene.isDirty&&c.Persist&&c.SaveFolderOverride==null&&!UnityEditor.EditorApplication.isCompiling&&!UnityEditor.EditorApplication.isPaused&&cue!=null&&arrow!=null&&!image.raycastTarget&&handGuid=="c87086e8c08e0ea41a7daaaa490ec64b"};
+System.IO.File.WriteAllText("/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/merge-tutorial-editor-handoff.json",Newtonsoft.Json.JsonConvert.SerializeObject(report,Newtonsoft.Json.Formatting.Indented));
+return report;

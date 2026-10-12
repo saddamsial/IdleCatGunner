@@ -1,0 +1,46 @@
+{
+  "images": [
+    {
+      "image": "visual/skin-locked-test-gpu.png",
+      "sha256": "f14f57193f24f589063e5297e6aae676950e979bc979d0d0161abff7c8b5f77e",
+      "resolution": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "image": "visual/skin-selected-test-gpu.png",
+      "sha256": "a4f4b99c04b882185d785ccb13b1fa3b0e55e6ef2edd1050b138875e5f9eb703",
+      "resolution": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "image": "visual/skin-world-test-gpu.png",
+      "sha256": "4f73eb861b5d3268f6e7fe4507c6fca37fa4283b54c0e938218e7a21cdcbe406",
+      "resolution": [
+        1080,
+        1920
+      ]
+    }
+  ],
+  "actual_pixels_inspected": true,
+  "details_currency_selection_and_world_skin_legible": true,
+  "observed": [
+    "Actual final full116 run GPU screenshots read with view_image",
+    "Locked skin2 portrait, +16%/+10%/+5%, original diamond100 icon/price visible",
+    "After purchase and explicit select: gray armored cat portrait, no lock, green selected check and all-unlocked totals +16%/+10%/+5%, diamond0",
+    "Closed original list/info show gray armored forest cat holding original Gun0 with gray hand/body presentation",
+    "Original Korean static explanation and navigation labels retained",
+    "Existing star final full run GPU screenshot also inspected: Chinese title/alert, original green gem icon and150->240 damage still legible"
+  ],
+  "full_visual_player_device": "unaccepted",
+  "pending_ui_components": [
+    "BounceBtn",
+    "SFX_BtnScript",
+    "Hatch",
+    "Mute_Panel",
+    "fullLocalize"
+  ]
+}

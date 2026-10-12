@@ -1,0 +1,33 @@
+{
+  "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+  "sourceObjects": 747,
+  "gameObjects": 32162,
+  "canvasCount": 1,
+  "missingScripts": 0,
+  "relicCount": 15,
+  "pageSize": 12,
+  "coreWallets": 4,
+  "runtimeValidation": "pending",
+  "validation": {
+    "focused": {
+      "report": "live-relic-focused-final-status.json",
+      "total": 7,
+      "passed": 7,
+      "failed": 0,
+      "skipped": 0,
+      "inconclusive": 0,
+      "duration": 32.74
+    },
+    "full": {
+      "report": "live-relic-assembly-final-status.json",
+      "total": 123,
+      "passed": 123,
+      "failed": 0,
+      "skipped": 0,
+      "inconclusive": 0,
+      "duration": 748.23
+    },
+    "visual_player_device": "whole visual/player/device unaccepted"
+  },
+  "runtime_validation": "Actual final focused7/7 and one full123/123 completed; partial relic/whole game boundaries retained"
+}

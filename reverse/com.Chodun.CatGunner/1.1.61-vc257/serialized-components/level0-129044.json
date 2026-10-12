@@ -1,0 +1,153 @@
+{
+  "identity": {
+    "file": "level0",
+    "path_id": 129044,
+    "type_index": 17108,
+    "type": "DG.Tweening.DOTweenAnimation",
+    "game_object": "Glow"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 8402
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 1180
+    },
+    "m_Name": "",
+    "updateType": 0,
+    "isSpeedBased": false,
+    "hasOnStart": false,
+    "hasOnPlay": false,
+    "hasOnUpdate": false,
+    "hasOnStepComplete": false,
+    "hasOnComplete": false,
+    "hasOnTweenCreated": false,
+    "hasOnRewind": false,
+    "onStart": {
+      "m_PersistentCalls": {
+        "m_Calls": []
+      }
+    },
+    "onPlay": {
+      "m_PersistentCalls": {
+        "m_Calls": []
+      }
+    },
+    "onUpdate": {
+      "m_PersistentCalls": {
+        "m_Calls": []
+      }
+    },
+    "onStepComplete": {
+      "m_PersistentCalls": {
+        "m_Calls": []
+      }
+    },
+    "onComplete": {
+      "m_PersistentCalls": {
+        "m_Calls": []
+      }
+    },
+    "onTweenCreated": {
+      "m_PersistentCalls": {
+        "m_Calls": []
+      }
+    },
+    "onRewind": {
+      "m_PersistentCalls": {
+        "m_Calls": []
+      }
+    },
+    "targetIsSelf": true,
+    "targetGO": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "tweenTargetIsTargetGO": true,
+    "delay": 0.0,
+    "duration": 2.0,
+    "easeType": 1,
+    "easeCurve": {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": 1.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    "loopType": 2,
+    "loops": -1,
+    "id": "",
+    "isRelative": false,
+    "isFrom": false,
+    "isIndependentUpdate": false,
+    "autoKill": true,
+    "autoGenerate": true,
+    "isActive": true,
+    "isValid": true,
+    "target": {
+      "m_FileID": 0,
+      "m_PathID": 111077
+    },
+    "animationType": 4,
+    "targetType": 11,
+    "forcedTargetType": 0,
+    "autoPlay": true,
+    "useTargetAsV3": false,
+    "endValueFloat": 0.0,
+    "endValueV3": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 180.0
+    },
+    "endValueV2": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "endValueColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "endValueString": "",
+    "endValueRect": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 0.0,
+      "height": 0.0
+    },
+    "endValueTransform": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "optionalBool0": false,
+    "optionalBool1": false,
+    "optionalFloat0": 0.0,
+    "optionalInt0": 0,
+    "optionalRotationMode": 0,
+    "optionalScrambleMode": 0,
+    "optionalShakeRandomnessMode": 0,
+    "optionalString": ""
+  }
+}

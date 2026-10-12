@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var cat=UnityEngine.Object.FindObjectsByType<Cat>(UnityEngine.FindObjectsInactive.Include).Single(c=>!c.is_AI); var b=cat.GetComponent<CatGunner.Recovery.ForestCombatAcceptance>(); return new {playing=UnityEditor.EditorApplication.isPlaying,compiling=UnityEditor.EditorApplication.isCompiling,time_scale=UnityEngine.Time.timeScale,scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().path,dirty=UnityEngine.SceneManagement.SceneManager.GetActiveScene().isDirty,raw_gun=cat.GunNum,raw_type=cat._gunInfo.type.ToString(),raw_damage=cat.Damage.s_digits,load_package_equipment=b.LoadPackageEquipment,single=b.EnableSingleAttacks,shotgun=b.EnableShotgunAttacks,penetrating=b.EnablePenetratingAttacks,initial_slots=CatGunner.Recovery.OriginalEquipmentCatalogue.Load().Selected_items,scene_objects=UnityEngine.SceneManagement.SceneManager.GetActiveScene().GetRootGameObjects().Sum(go=>go.GetComponentsInChildren<UnityEngine.Transform>(true).Length)};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "playing": false,
+        "compiling": false,
+        "time_scale": 1,
+        "scene": "Assets/Recovery/Scenes/RecoveredForest.unity",
+        "dirty": false,
+        "raw_gun": 27,
+        "raw_type": "LASER",
+        "raw_damage": "0",
+        "load_package_equipment": true,
+        "single": false,
+        "shotgun": false,
+        "penetrating": false,
+        "initial_slots": [
+          0,
+          -1,
+          -1
+        ],
+        "scene_objects": 11602
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

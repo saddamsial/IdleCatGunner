@@ -1,0 +1,45 @@
+{
+  "fonts": [
+    {
+      "name": "I2_txt(Outline) (2)",
+      "text": "\ud3ed\ubc1c\ud615 - \uc801\uacfc \ubd80\ub52a\ud788\uba74 \uad11\uc5ed\uacf5\uaca9\uc744 \uac00\ud55c\ub2e4",
+      "font": "Mitme_Outline",
+      "path": "Assets/MonoBehaviour/Mitme_Outline.asset",
+      "mode": "Dynamic",
+      "source": "Mitme",
+      "fallbacks": [
+        {
+          "name": "JP (Outline)",
+          "path": "Assets/MonoBehaviour/JP (Outline).asset",
+          "mode": "Dynamic",
+          "source": "NotoSansJP-Bold"
+        },
+        {
+          "name": "StarChineseFallback",
+          "path": "Assets/Recovery/Resources/StarChineseFallback.asset",
+          "mode": "Dynamic",
+          "source": "NotoSansSC-Bold"
+        }
+      ]
+    },
+    {
+      "name": "Type_txt",
+      "text": "\ud3ed\ubc1c",
+      "font": "Mitme SDF",
+      "path": "Assets/MonoBehaviour/Mitme SDF.asset",
+      "mode": "Dynamic",
+      "source": "Mitme",
+      "fallbacks": [
+        {
+          "name": "StarChineseFallback",
+          "path": "Assets/Recovery/Resources/StarChineseFallback.asset",
+          "mode": "Dynamic",
+          "source": "NotoSansSC-Bold"
+        }
+      ]
+    }
+  ],
+  "fallback": [
+    "Assets/Recovery/Resources/StarChineseFallback.asset"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "target": "com.Chodun.CatGunner1.1.61/vc257",
+  "editor": "Unity6000.4.10f1",
+  "starting_state": "normal clean RecoveredClient EditMode; actual state checked with CLI; two real profile SHA backed up",
+  "checkpoint": "checkpoints/pre-relic-client",
+  "native_export": {
+    "queries": "native-relic-client-queries.tsv",
+    "references": "native-relic-client-references.tsv",
+    "status": "../native-relic-client-reviewed/status.tsv",
+    "business": 71,
+    "helpers": 6,
+    "initial_failure": "Initial alias filename incorrectly used call-aliases, exporter reported missing file before writing results; corrected to generated references; final77 all byte-verified complete"
+  },
+  "integration": {
+    "inputs": [
+      "RecoveredRelic.unity",
+      "RecoveredRelicRepair.unity"
+    ],
+    "reports": [
+      "relic-client-scene-restoration.json",
+      "relic-original-component-repair.json"
+    ],
+    "first_issue": "Original CloseBtn_obj container had child Button; corrected component lookup and completed pending existing integration without duplicate merge",
+    "reference_issue": "Initial whitelist omitted16SlicedFilledImage+15BounceStart; original relic tag inactive. Source repair retained actual existing original script GUIDs and fixed references via Editor API",
+    "mapping_issue": "Canonical Canvas fileID changed on relocation; repair now validates original hierarchy and same-name ordinal, not a fixed working ID",
+    "font_compatibility": "reuse existing repaired original fonts; no global embedded-atlas PNG rebuild"
+  },
+  "runs": [
+    {
+      "report": "live-relic-red-status.json",
+      "status": "completed",
+      "summary": {
+        "total": 1,
+        "passed": 0,
+        "failed": 1,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 0.03
+    },
+    {
+      "report": "live-relic-focused-first-status.json",
+      "status": "completed",
+      "summary": {
+        "total": 7,
+        "passed": 3,
+        "failed": 4,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 18.65
+    },
+    {
+      "report": "live-relic-focused-second-status.json",
+      "status": "completed",
+      "summary": {
+        "total": 7,
+        "passed": 6,
+        "failed": 1,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 28.14
+    },
+    {
+      "report": "live-relic-focused-final-status.json",
+      "status": "completed",
+      "summary": {
+        "total": 7,
+        "passed": 7,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 32.74
+    }
+  ],
+  "focused_failures": [
+    "3/7: inactive menu/stripped Fill refs",
+    "6/7: reload forgot Rebirth.RewardPercent initialization"
+  ],
+  "full_run": {
+    "start": "live-relic-assembly-final-start.json",
+    "status": "live-relic-assembly-final-status.json",
+    "acceptance": "actual completed full assembly123/123",
+    "summary": {
+      "total": 123,
+      "passed": 123,
+      "failed": 0,
+      "skipped": 0,
+      "inconclusive": 0
+    },
+    "duration": 748.23
+  },
+  "adapters": [
+    "fresh immutable-source inputs; all working scene changes through Editor APIs",
+    "normal four core wallets, independent save/time/display/decimal backend",
+    "local Adventure button to original relic tag; full dispatch/unlock/I2 pending",
+    "atomic duplicate-counter staging, table-row guard",
+    "user profile not reset/funded; unique test temp folders"
+  ],
+  "handoff": {
+    "report": "relic-editor-handoff.json",
+    "status": "normal clean EditMode; Persist=true, no save override, visual clone false, timeScale1, no missing scripts",
+    "restore_command": "relic-editor-restore.json",
+    "restore_timeout": "CLI timeout6s after5s; read-only handoff confirmed actual operation completed; not blindly rerun",
+    "gpu": "relic-gpu-inspection.json",
+    "save": "relic-user-save-after-tests.json"
+  },
+  "console": {
+    "report": "relic-console-final-status.json",
+    "compilationFailed": false,
+    "current_console_errors": 0,
+    "current_console_warnings": 0,
+    "historical_stream_counts": "7errors/83warnings remain historical cached counts; groundTruth0 after clearing; failed runs preserved in reports"
+  }
+}

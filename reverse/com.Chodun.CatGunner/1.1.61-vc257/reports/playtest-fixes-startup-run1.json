@@ -1,0 +1,41 @@
+{
+  "status": "completed",
+  "duration": 26.52,
+  "summary": {
+    "total": 4,
+    "passed": 3,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalStartupTests.ActualLegacyProfileStartsWithWalkingCatThenMovesAndShootsWithoutInputAndReloads",
+      "Status": "Failed",
+      "Duration": 16.8192979,
+      "Message": "  String lengths are both 9740. Strings differ at index 3677.\n  Expected: \"...UaW1lIjoiMjAyNi0xMC0xMVQwMjozNDo1Ny45ODg5NDMwWiIsIlBsYXlGY...\"\n  But was:  \"...UaW1lIjoiMjAyNi0xMC0xMVQwMjozNTowMS4xMDc0OTYwWiIsIlBsYXlGY...\"\n  --------------------------------------------^\n",
+      "StackTrace": "at OriginalStartupTests+<ActualLegacyProfileStartsWithWalkingCatThenMovesAndShootsWithoutInputAndReloads>d__8.MoveNext () [0x006d4] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalStartupTests.cs:111\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalStartupTests.FailedInitializationCannotEnableAutosaveOrOverwriteMainAndBackup",
+      "Status": "Passed",
+      "Duration": 9.1159689,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalStartupTests.NativeBestArrayKeepsLegacyPrefixAndDoesNotAlterInput",
+      "Status": "Passed",
+      "Duration": 0.2359897,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalStartupTests.UnsupportedRaidValuesRejectBeforeStateMutation",
+      "Status": "Passed",
+      "Duration": 0.1881761,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

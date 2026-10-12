@@ -1,0 +1,31 @@
+{
+  "counts": [
+    1,
+    4,
+    0
+  ],
+  "entries": [
+    {
+      "message": "Assets/Recovery/Tests/PlayMode/OriginalCurrencyFeedbackTests.cs(81,65): error CS0176: Member 'SpeedRun_manager.Reward_Value' cannot be accessed with an instance reference; qualify it with a type name instead\n",
+      "mode": 272384
+    },
+    {
+      "message": "Assets/Recovery/Tests/PlayMode/OriginalFishAndAutoMergeTests.cs(33,117): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'\n",
+      "mode": 266240
+    },
+    {
+      "message": "Assets/Recovery/Tests/PlayMode/OriginalFishAndAutoMergeTests.cs(33,44): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'\n",
+      "mode": 266240
+    },
+    {
+      "message": "Assets/Recovery/Tests/PlayMode/OriginalWeeklyRaidTests.cs(54,232): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'\n",
+      "mode": 266240
+    },
+    {
+      "message": "Assets/Recovery/Tests/PlayMode/OriginalWeeklyRaidTests.cs(54,144): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'\n",
+      "mode": 266240
+    }
+  ],
+  "compiling": false,
+  "playing": false
+}

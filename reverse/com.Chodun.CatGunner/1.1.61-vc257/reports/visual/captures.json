@@ -1,0 +1,54 @@
+[
+  {
+    "image": "reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/visual/settings-game-view.png",
+    "sha256": "749bc5a23151f7b73be3c4dc5a020e46f710e80dd7e63cd69a607a682f8781cb"
+  },
+  {
+    "image": "reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/visual/settings-font-repaired.png",
+    "sha256": "3995623c34fc7944c8f353172118dca6255557c8e66282137ddc08440c3b522a"
+  },
+  {
+    "image": "reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/visual/settings-portrait.png",
+    "sha256": "b92e1e935c13e85bf7c5266dc227a95d3eac20b0521fff4c4a23dede91bf4476"
+  },
+  {
+    "image": "reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/visual/forest-first-wave.png",
+    "sha256": "ee25ced63b6d54439739685db47baef68065fdae4433c1c70d2de0168c844972",
+    "evidence_note": "Historical pre-SpriteSkin/slider reference repair; not final visual evidence"
+  },
+  {
+    "image": "reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/visual/forest-bones.png",
+    "sha256": "2ab049addfea6ca441f1c12a7dfbedb70645c7b12d87d5d6bcf3bcea61c64c6c",
+    "evidence_note": "Historical after 9 original bones, before health slider reference repair"
+  },
+  {
+    "image": "reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/visual/forest-movement-idle.png",
+    "sha256": "74ffc4bed96cb5cbbc40987845f3fe30c6aa7157ca527904f5c5a05fc48ea71d",
+    "evidence_note": "Actual Unity6 portrait GameView: original forest, bones, native hidden spawn sliders, merged input scene; manual movement slice only"
+  },
+  {
+    "image": "reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/visual/forest-movement-drag.png",
+    "sha256": "bf5f22ae288bc1dd4b56b45c1b816b7a879954ec7eb13ec44346d17ec2447cdd",
+    "evidence_note": "Actual GameView with original floating joystick shown by pointer events. Time paused only for capture stability; actual physics movement checked independently in PlayMode tests"
+  },
+  {
+    "image": "reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/visual/forest-projectile-hit.png",
+    "sha256": "f2aa99954ae20affeda557fc6a168452db21addbd9df658cac43ddb8e0e84531",
+    "evidence_note": "Actual Unity6 GameView reviewed: original projectile impact particles and original tree health bar, real collision health250->150. Editor-only explicit target/damage coroutine, time paused only for capture; automatic aim/balance/continuous attack not integrated. Compatibility particle shader, no full URP pixel parity."
+  },
+  {
+    "image": "reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/visual/forest-continuous-attack.png",
+    "sha256": "8570a0d3986e4fd0d154629738460a17a7abc5b150ced7bc1a152c538aa372b4",
+    "evidence_note": "Actual Unity6 GameView reviewed: Cat aiming with original gun0, muzzle and impact particles, injured original tree. Native rays/lock/aim/cooldown/factory/real hit run, explicit SINGLE/damage100/positioned-tree fixture; original equipment/balance/AutoMove/AI and target DOTween rotation pending."
+  },
+  {
+    "image": "reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/visual/forest-package-equipment.png",
+    "sha256": "3691766394291a1362981ed035a94cd31986c8b4e4aadfbec398cf10eaed3db4",
+    "evidence_note": "Actual Unity6 GameView; package initial gun0/stats100/125/0.6/15; original tree position isolated, health250 to150, no player stats injected; full parity pending"
+  },
+  {
+    "image": "reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/visual/forest-shotgun-impact.png",
+    "sha256": "e8e0c62ce5e47e362e3c5d72da0a136c4b24704b935a22f565157ff6f7534ea8",
+    "evidence_note": "Actual Unity6 GameView, original gun3 fixture using catalogue80 damage/2pellets/+-10degrees/1sec, tree250 to90; independent equipped slot and target position/pool/RNG isolation, no ownership grant; full parity pending"
+  }
+]

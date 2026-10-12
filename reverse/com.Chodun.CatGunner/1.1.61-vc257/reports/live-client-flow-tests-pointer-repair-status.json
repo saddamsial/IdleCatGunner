@@ -1,0 +1,84 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 55.73,
+      "summary": {
+        "total": 8,
+        "passed": 8,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalClientFlowTests.ActualRaycastRoutesAllUpgradeClicksAboveJoystickAndLeavesWorldDragAvailable",
+          "Status": "Passed",
+          "Duration": 3.1665593,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalClientFlowTests.AllFiveWavesAutomaticallyContinueThroughBossIntoNextStage",
+          "Status": "Passed",
+          "Duration": 21.7017253,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalClientFlowTests.HoldStartsAfterDelayRepeatsAndStopsOnPointerUp",
+          "Status": "Passed",
+          "Duration": 3.9359123,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalClientFlowTests.IndependentSaveRestoresWalletUpgradesWaveAndUnrelatedFields",
+          "Status": "Passed",
+          "Duration": 5.3499032,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalClientFlowTests.OriginalButtonsSpendWalletAndApplyAllThreeUpgradeBalances",
+          "Status": "Passed",
+          "Duration": 2.6942811,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalClientFlowTests.OriginalHudAndDefaultZeroInputAutoMovementRunTogether",
+          "Status": "Passed",
+          "Duration": 5.6602365,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalClientFlowTests.TimeoutRetriesSameWaveAndRestartCancelsPendingTransition",
+          "Status": "Passed",
+          "Duration": 10.5041369,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalClientFlowTests.TreeDeathAwardsNativeAmountOnceAndHonorsDontDropAndGamingGate",
+          "Status": "Passed",
+          "Duration": 2.6840168,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

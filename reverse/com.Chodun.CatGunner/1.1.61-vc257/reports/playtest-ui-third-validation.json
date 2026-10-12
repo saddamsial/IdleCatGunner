@@ -1,0 +1,112 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 76.62,
+      "summary": {
+        "total": 12,
+        "passed": 12,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalPlaytestUITests.ClearedForestDoublesActualPhysicsMovementAndResetsAtFrontier",
+          "Status": "Passed",
+          "Duration": 6.6592315,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalPlaytestUITests.CompanionsUseAnimatedBonesAndOriginalPlacement",
+          "Status": "Passed",
+          "Duration": 6.3077531,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalPlaytestUITests.NativeNumberTruncationAndUnitsKeepArithmetic(999,\"999\")",
+          "Status": "Passed",
+          "Duration": 5.7149059,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalPlaytestUITests.NativeNumberTruncationAndUnitsKeepArithmetic(1000,\"1a\")",
+          "Status": "Passed",
+          "Duration": 5.6578287,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalPlaytestUITests.NativeNumberTruncationAndUnitsKeepArithmetic(1050,\"1.05a\")",
+          "Status": "Passed",
+          "Duration": 5.6974235,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalPlaytestUITests.NativeNumberTruncationAndUnitsKeepArithmetic(1234,\"1.23a\")",
+          "Status": "Passed",
+          "Duration": 5.7031144,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalPlaytestUITests.NativeNumberTruncationAndUnitsKeepArithmetic(99999,\"99.99a\")",
+          "Status": "Passed",
+          "Duration": 5.6596416,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalPlaytestUITests.NativeNumberTruncationAndUnitsKeepArithmetic(1000000,\"1b\")",
+          "Status": "Passed",
+          "Duration": 5.6832124,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalPlaytestUITests.OriginalInformationCollectionAndWalletUseActualMouseClicks",
+          "Status": "Passed",
+          "Duration": 7.1925819,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalPlaytestUITests.SideMenusRespectOrderAndOnlyNearestLockedFeatures",
+          "Status": "Passed",
+          "Duration": 6.1039277,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalPlaytestUITests.StageAndPercentBarsExpandTheirActualRenderedMeshes",
+          "Status": "Passed",
+          "Duration": 6.143775,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalPlaytestUITests.STierLaserTransparencyAndSSSXOriginalParticlesRemainBound",
+          "Status": "Passed",
+          "Duration": 10.0202791,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

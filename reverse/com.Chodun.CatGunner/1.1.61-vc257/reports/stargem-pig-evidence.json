@@ -1,0 +1,2121 @@
+{
+  "updatedUtc": "2026-10-11T07:50:33.662198+00:00",
+  "target": "com.Chodun.CatGunner 1.1.61 vc257",
+  "rule": 48,
+  "editor": "6000.4.10f1",
+  "native": {
+    "methods": [
+      {
+        "name": "Raid_manager__Game_Start",
+        "preferredVA": "0x2b58a38",
+        "first16": "fe0f1df8f65701a9f44f02a935b00190",
+        "end": "0x2b58bd0",
+        "c_sha256": "50c18cf196b7a7a7b5818bbbb8fc54a688f7b1ddbf3386058a49ac405804e947",
+        "asm_sha256": "c03b3d1742899b33db44cab02b2f8d7a11322097eca7b86cc73a3ce9f4f811a7"
+      },
+      {
+        "name": "Raid_manager__Boss_Destroyed",
+        "preferredVA": "0x2b561a8",
+        "first16": "fe57bea9f44f01a935b001d0349001f0",
+        "end": "0x2b562bc",
+        "c_sha256": "812bc5cad5932ed283cc4cf3bf79bc8472aad7bdaa41224770b0f7670b85d867",
+        "asm_sha256": "372a05d48eda2ad7bdc9b13ea95a4cfd156271f38cba5bd8ac7023a070705f69"
+      },
+      {
+        "name": "StarGem_Pig__Product_id_return",
+        "preferredVA": "0x2b9fa6c",
+        "first16": "fe0f1ef8f44f01a9f4ad01b0338e01b0",
+        "end": "0x2b9facc",
+        "c_sha256": "ff07e6dd68ddcb3fdf690100599970bcbdda9a595ac72efc8c3bded048c89e38",
+        "asm_sha256": "3ef532a426f6416d31770cecfed0a47f345ae8e9da7f2821f4dd06799cc29933"
+      },
+      {
+        "name": "StarGem_Pig__TryGetLvFromId",
+        "preferredVA": "0x2ba0470",
+        "first16": "fe57bea9f44f01a9f5ad0190f30301aa",
+        "end": "0x2ba0528",
+        "c_sha256": "6509a747d89f0daa851cff55d6de9322c70504fd0b5212dcde5c52f8b7a2e79f",
+        "asm_sha256": "b36314e08767821978b5cbc1cb39cba6fa048fac12d2ef7ce1925fc367945a74"
+      },
+      {
+        "name": "StarGem_Pig__add_OnChanged",
+        "preferredVA": "0x2ba0528",
+        "first16": "fe5fbda9f65701a9f44f02a9f4ad0190",
+        "end": "0x2ba0604",
+        "c_sha256": "bd507d9c65f0b4633f065ab7c5872b6990bfd9042b1864a4464972adf7377df1",
+        "asm_sha256": "d431d0cf270747d5d75e60bf769618afbdc60359d77b9821f3f2451f8dc986c8"
+      },
+      {
+        "name": "StarGem_Pig__remove_OnChanged",
+        "preferredVA": "0x2ba0604",
+        "first16": "fe5fbda9f65701a9f44f02a9f4ad0190",
+        "end": "0x2ba06e0",
+        "c_sha256": "456ccfd30ce210f1b9c41cbdfa8eff828735fd088ccb508d6540b8737091dd80",
+        "asm_sha256": "f7dc953067950bc54dae4e291acf7028b33571dd3b4f3c0bcf07ae090a0f183f"
+      },
+      {
+        "name": "StarGem_Pig__Awake",
+        "preferredVA": "0x2ba06e0",
+        "first16": "fe57bea9f44f01a9f5ad0190f48d01d0",
+        "end": "0x2ba0748",
+        "c_sha256": "f63e7b3cf913cb4cc144c2a7078dc6d6f6883013374e555e6c835a84f3befd35",
+        "asm_sha256": "1a445b06ac0390eba6edc7c6e4ec8f57579a70ddc4c38ba44de63bc4249d6ce4"
+      },
+      {
+        "name": "StarGem_Pig__Open_Popup",
+        "preferredVA": "0x2ba0748",
+        "first16": "fe57bea9f44f01a9f5ad0190d48d01b0",
+        "end": "0x2ba0830",
+        "c_sha256": "6c136cf7d5db2b42facf60bdf23576576ec1e8be4694cac373bde9e6d70a13b6",
+        "asm_sha256": "0ea46d6bec9ac97225de8196c23ee5450b78544ec459517b61c29b2efeed4316"
+      },
+      {
+        "name": "StarGem_Pig__Close_Popup",
+        "preferredVA": "0x2ba0d60",
+        "first16": "fe57bea9f44f01a9f5ad0190d48d01b0",
+        "end": "0x2ba0df4",
+        "c_sha256": "7acc6b0252b2f3398ae3857be678861ccd72ca76cf49eacccfe00b36b53d6268",
+        "asm_sha256": "bf5c35b7652d299cdf81df34cb9f36762ddebb658456c1cac405601154e4c16b"
+      },
+      {
+        "name": "StarGem_Pig__OnEnable",
+        "preferredVA": "0x2ba0df4",
+        "first16": "fe5fbda9f65701a9f44f02a9f4ad0190",
+        "end": "0x2ba0ec0",
+        "c_sha256": "0f0341c4ebdcd919f4484560a22a882203f3112ca27a162c2aeec91ed2f7258c",
+        "asm_sha256": "321c3cd473c0611dbb38c2e1ceae33a6857a5e50f4bc8e83762a94ed4fb4b765"
+      },
+      {
+        "name": "StarGem_Pig__OnDisable",
+        "preferredVA": "0x2ba0ec0",
+        "first16": "fe5fbda9f65701a9f44f02a9f4ad0190",
+        "end": "0x2ba0f8c",
+        "c_sha256": "81d6440751e95b8ed6d476ff444279aedd9af41c704ed04a3b5f2f1edeb27693",
+        "asm_sha256": "f659c6edac1d7afc43b2861134de314fac048581dc9844e7113490a2ad2e54a1"
+      },
+      {
+        "name": "StarGem_Pig__LvIndex",
+        "preferredVA": "0x2ba0f8c",
+        "first16": "680080521f0c007108b0881a1f050071",
+        "end": "0x2ba0fa8",
+        "c_sha256": "67d406f37d362a53b9b4ff5b81e8c1f0ca6c2ad0fa5a5834ba894ee95b73aa66",
+        "asm_sha256": "b54cfd5054ce06aed907c41fa36c32cc29dba7feb55015b8c13ac2e56b539bfc"
+      },
+      {
+        "name": "StarGem_Pig__get_Capacity_Now",
+        "preferredVA": "0x2ba0fa8",
+        "first16": "fe57bea9f44f01a9f5ad0190f48d01d0",
+        "end": "0x2ba1040",
+        "c_sha256": "6cc221dee95d9f2cbca9ab60349ebf016a52010383d66b4d15760b0884918203",
+        "asm_sha256": "bf8d3a0241eca1ef88dca1444cb6fa10b88d11eb17b18af3ac6124dcfd2e8d9f"
+      },
+      {
+        "name": "StarGem_Pig__get_PurchaseMax_Now",
+        "preferredVA": "0x2ba1040",
+        "first16": "fe57bea9f44f01a9d5ad01f0f48d01b0",
+        "end": "0x2ba10d8",
+        "c_sha256": "3c104169a3949d660c435f8fbbde954050a5f0dad0e83b134744679493a67749",
+        "asm_sha256": "a32ba215ffe2c16f4501c0817a8158879513a8869193fcaf1899b75aa3d682b7"
+      },
+      {
+        "name": "StarGem_Pig__get_Gem_Now",
+        "preferredVA": "0x2ba10d8",
+        "first16": "fe4fbfa9132440b9b2ffff977f02006b",
+        "end": "0x2ba10fc",
+        "c_sha256": "294cfc630a9673eeec5502842f7e29aaec85ac935ec01180d9a41db99ad3882d",
+        "asm_sha256": "1252f27bfa29fb933e50404cfd80a04a0bc0897fc0574c8c6210536c28ae3f5c"
+      },
+      {
+        "name": "StarGem_Pig__get_Fill_Ratio",
+        "preferredVA": "0x2ba10fc",
+        "first16": "e80f1efcfe4f01a9f30300aaa8ffff97",
+        "end": "0x2ba1158",
+        "c_sha256": "35dc0058235746cfb6fdaa2bfc49be12fb2049fc65a4e04e15b83dd6502e473d",
+        "asm_sha256": "48e8d3224b40ede1852831d535d858572255aab011f0502d0fb0b371db1dbbe2"
+      },
+      {
+        "name": "StarGem_Pig__get_Is_Full",
+        "preferredVA": "0x2ba1158",
+        "first16": "fe4fbfa9132440b992ffff977f02006b",
+        "end": "0x2ba1174",
+        "c_sha256": "d7f812c86bc56319f4e57a027c9aa9515e798ea275a45bf9c9aef51c1e170d24",
+        "asm_sha256": "eed15495d3e244eeb1bb7dc95fe3473204d4ce61580f07bc04d6f63a1f88d0ef"
+      },
+      {
+        "name": "StarGem_Pig__get_Is_SoldOut",
+        "preferredVA": "0x2ba1174",
+        "first16": "082040b91f0d00716a000054e0031f2a",
+        "end": "0x2ba11a4",
+        "c_sha256": "999827dc0522d888b74fcbd70ffc4b8ae820b69e03b2fd39a68edcf160363612",
+        "asm_sha256": "d5e68b3a60939edd44541b37b5cade6a4a0d3273b46acd69a613d95ec718b69c"
+      },
+      {
+        "name": "StarGem_Pig__get_Is_Purchasable",
+        "preferredVA": "0x2ba11a4",
+        "first16": "fe0f1ef8f44f01a9142440b9f30300aa",
+        "end": "0x2ba11fc",
+        "c_sha256": "2cc583492e23dc2c7a6ac3fff71480fdab98eb8362dda0711a6203f2492e5912",
+        "asm_sha256": "a23ed7511c7316e7d300ef7617781329c562151ee5f7b962f2f0f527ffc4a825"
+      },
+      {
+        "name": "StarGem_Pig__get_Product_id_Now",
+        "preferredVA": "0x2ba11fc",
+        "first16": "fe57bea9f44f01a9d5ad01f0f48d01b0",
+        "end": "0x2ba1254",
+        "c_sha256": "0df73367615a66bca76c1e6954ab0283c330b338db9849688059680da043a993",
+        "asm_sha256": "60fd579b60ed616b4c8f1943abd2d12bc4629a767f30a554b25f5ae449b9af3d"
+      },
+      {
+        "name": "StarGem_Pig__Season_Check",
+        "preferredVA": "0x2ba0830",
+        "first16": "fe57bea9f44f01a9f4ad0190f58d01d0",
+        "end": "0x2ba08f4",
+        "c_sha256": "4ee43748b087ab677dcba13a6f17274c212edf19fcc657226334bb60a1b78882",
+        "asm_sha256": "57ddf6aad2f36a81f188e7331093288e1e8ce2b004adf9d9ac19cdb7a076f413"
+      },
+      {
+        "name": "StarGem_Pig__OnRaidEnter",
+        "preferredVA": "0x2ba1254",
+        "first16": "fe4fbfa9f30300aa75fdff97e00313aa",
+        "end": "0x2ba1270",
+        "c_sha256": "821cbc2cdb96f2b96e1164495c2b5b6c2e19ad402a2a91d26d02d48c854e9e89",
+        "asm_sha256": "3b87375f1b56db0b275ae3ad8db850215a890b0fbe899864249e1b3cd35946a3"
+      },
+      {
+        "name": "StarGem_Pig__OnBossBarCleared",
+        "preferredVA": "0x2ba1338",
+        "first16": "21038052cdffff17fe5fbda9f65701a9",
+        "end": "0x2ba1340",
+        "c_sha256": "01da95f9eccb4c86c4bcede3c43ec6ccf45578984870b8d36015d5f15bb1d4e2",
+        "asm_sha256": "68c84a0825b267d20d22df918185019dde530820d307c19a99009b4cb55b01b2"
+      },
+      {
+        "name": "StarGem_Pig__Add",
+        "preferredVA": "0x2ba1270",
+        "first16": "fe57bea9f44f01a9d5ad01f0f403012a",
+        "end": "0x2ba1338",
+        "c_sha256": "6ae47f867eb4ab8e04de542c5b309106bc7cdb9346ffde8783bfa06553b3f5d0",
+        "asm_sha256": "5cdb1224e29a56833232796840fdba804e695a142093069ea98c21e19c6a733c"
+      },
+      {
+        "name": "StarGem_Pig__Purchase",
+        "preferredVA": "0x2ba1340",
+        "first16": "fe5fbda9f65701a9f44f02a9d5ad01f0",
+        "end": "0x2ba157c",
+        "c_sha256": "88f18f1f8517f1511f2705c27e5aa668b02cb8cf92a55f29041da93260f6eaa6",
+        "asm_sha256": "c2ed4898a6a09b879d717f265490d0bd1c5783f02c26f34cea82e34c2cec64da"
+      },
+      {
+        "name": "StarGem_Pig__ApplyReward",
+        "preferredVA": "0x2ba157c",
+        "first16": "ff4301d1fe6701a9f85f02a9f65703a9",
+        "end": "0x2ba1940",
+        "c_sha256": "302ba3c8a428ba48e8d570e561f586039142efe576bb3f9faba45076614f17a4",
+        "asm_sha256": "e7d04632a64e498b638d1d063a75d833f2d131bea95d225988cdf32bbc52e65d"
+      },
+      {
+        "name": "StarGem_Pig__LoadFromSaveData",
+        "preferredVA": "0x2ba1940",
+        "first16": "fe57bea9f44f01a9d5ad01f0f40301aa",
+        "end": "0x2ba1a18",
+        "c_sha256": "d05a540ad5477c8780242c8e95fecfbea974dd1db777d975cb1af14c4908399a",
+        "asm_sha256": "5e6e5ac264054346c0388382e41656e318a38570e7c248cc8030f6347ab28b49"
+      },
+      {
+        "name": "StarGem_Pig___ctor",
+        "preferredVA": "0x2ba1b04",
+        "first16": "28008052e1031faa082000b908008012",
+        "end": "0x2ba1b1c",
+        "c_sha256": "dd352b287a662e9ff2edc5d8c4421899885cd89ad4b24c7ec67ef441c3fc4908",
+        "asm_sha256": "8c14b5d34aa7afc0aa42f9ee2fc137856339fce125969eb3f72a2fb17d07ef02"
+      },
+      {
+        "name": "StarGem_Pig___cctor",
+        "preferredVA": "0x2ba1b1c",
+        "first16": "fe5fbda9f65701a9f44f02a9f68d0190",
+        "end": "0x2ba1bf8",
+        "c_sha256": "b864c88e40f105680400feca1b3d5606f63f7514544751ab3a6400b64c81e0e7",
+        "asm_sha256": "6d50ef70c889be9b177a22786364344a3d64fbf8564123475f6b32af259d84d4"
+      },
+      {
+        "name": "StarGem_Pig_HUD__OnEnable",
+        "preferredVA": "0x2ba1bf8",
+        "first16": "fe5fbda9f65701a9f44f02a9d6ad01f0",
+        "end": "0x2ba1ca0",
+        "c_sha256": "65adf3ae904e638aed6eee173b956fe6cf6eeacb893aafc3ef5cad65e372e146",
+        "asm_sha256": "931a54c10cecf53b1b48ade6bab492e359ec6a8be4bb64e832dd9c16f6713645"
+      },
+      {
+        "name": "StarGem_Pig_HUD__OnDisable",
+        "preferredVA": "0x2ba1f10",
+        "first16": "fe5fbda9f65701a9f44f02a9d6ad01f0",
+        "end": "0x2ba1fb0",
+        "c_sha256": "30a9a617357c61a0b793290ec1ef068bf11758262113f18c850b5f7d468f80d0",
+        "asm_sha256": "9731462845b2c315014f801a33072f713f8636a58be1c8d8e47379cbc773efa7"
+      },
+      {
+        "name": "StarGem_Pig_HUD__Reload",
+        "preferredVA": "0x2ba1ca0",
+        "first16": "ff4301d1e923016dfe5f02a9f65703a9",
+        "end": "0x2ba1f10",
+        "c_sha256": "6cc40a89eb00470f909d4a9c150b7be15609d26159f79040bbad9bc112477a8c",
+        "asm_sha256": "ce9d453e87ec7edb6148e3fdf0b1441dd49b4211f55a48981b7987c6788b54f3"
+      },
+      {
+        "name": "StarGem_Pig_HUD__onClick_Open",
+        "preferredVA": "0x2ba1fb0",
+        "first16": "fe0f1ef8f44f01a9d3ad01f0f48d01b0",
+        "end": "0x2ba2074",
+        "c_sha256": "04d96c08308d1c82a287d145f044a28591cec9541b963d5f3e7d48bab9a251ae",
+        "asm_sha256": "3e93e403cf6023686ec9252ea61bef68b0b50b85e1007706e3d01c924f95659d"
+      },
+      {
+        "name": "StarGem_Pig_HUD___ctor",
+        "preferredVA": "0x2ba2074",
+        "first16": "e1031faa9a03ad14fe0f1cf8f85f01a9",
+        "end": "0x2ba207c",
+        "c_sha256": "ee6aab1e4d9b5ac355bda0707f458f580217179337f1dcd05e9429a8fa1b0e60",
+        "asm_sha256": "7b9beb96e8d6658094f24acfe8b067580943abb4c33bf0649e7dc54f35a4e609"
+      },
+      {
+        "name": "StarGem_Pig_UI__OnEnable",
+        "preferredVA": "0x2ba207c",
+        "first16": "fe0f1cf8f85f01a9f65702a9f44f03a9",
+        "end": "0x2ba2178",
+        "c_sha256": "58a7c0c5f9e0f5ecd0a9405f0fa3c8f624b3bea070d8d1cc2aed98365959a822",
+        "asm_sha256": "5aca9773607f8c6ea555540a697e7aa2cc4ed3a92bad39a3fe1af1faa06ff672"
+      },
+      {
+        "name": "StarGem_Pig_UI__OnDisable",
+        "preferredVA": "0x2ba2178",
+        "first16": "fe0f1cf8f85f01a9f65702a9f44f03a9",
+        "end": "0x2ba226c",
+        "c_sha256": "55b9d5397d53e76376dfae82cda04b147b3290cdcc0faac24c71c383aa595c86",
+        "asm_sha256": "a2e7f61bc3c5399a0b7764429c3531017e24961dbc84eb1b023c1f00d5387f76"
+      },
+      {
+        "name": "StarGem_Pig_UI__Reload",
+        "preferredVA": "0x2ba08f4",
+        "first16": "ff4301d1fe6701a9f85f02a9f65703a9",
+        "end": "0x2ba0d60",
+        "c_sha256": "00bbd51fdc3a9a3dc9a41ebb47feb2dfeaa06d136a8d7f7b91a1046c49bfafb9",
+        "asm_sha256": "931f687bf44965277a321cc9efa942beea9ec66a38a6b12fe854436ef9893b3b"
+      },
+      {
+        "name": "StarGem_Pig_UI__Sale_str_return",
+        "preferredVA": "0x2ba244c",
+        "first16": "ffc300d1fe5701a9f44f02a9d5ad01d0",
+        "end": "0x2ba2528",
+        "c_sha256": "11077d4097fd81ce64ae97a61258d1311edbc0e25cf4e9b55b5033bdd60ae93e",
+        "asm_sha256": "dc5e7f677f218269cb835f0677ef3878b20de9f69ec6870161f6c987b441568c"
+      },
+      {
+        "name": "StarGem_Pig_UI__Price_str_return",
+        "preferredVA": "0x2ba226c",
+        "first16": "fe0f1df8f65701a9f44f02a9d4ad01d0",
+        "end": "0x2ba244c",
+        "c_sha256": "dd96e28d2e5362989422678ca2637cabec403bc533e76bfd60dcd475d4054254",
+        "asm_sha256": "1075b72b3ad90370628e96ab5e261908cab268837a77029b8a636a0640b8be8e"
+      },
+      {
+        "name": "StarGem_Pig_UI__onClick_Purchase",
+        "preferredVA": "0x2ba2528",
+        "first16": "fe0f1ef8f44f01a9d3ad01d0f48d0190",
+        "end": "0x2ba2604",
+        "c_sha256": "6772e8659b5fd07384668fac90163ce925fb7e48fb227d3ef5a7ed76753c520e",
+        "asm_sha256": "07016866ed33b20ac0ae82913b06ee19f905ea2d14367710dfe1550c212eb924"
+      },
+      {
+        "name": "StarGem_Pig_UI___ctor",
+        "preferredVA": "0x2ba2604",
+        "first16": "e1031faa3602ad14fe0f1df8f65701a9",
+        "end": "0x2ba260c",
+        "c_sha256": "6939e953e77c371087c665260531fc44efceecb055db7135511ad39a18f973b7",
+        "asm_sha256": "94ae5734d7e4aef117295dd57d686102cb73f729b9c70ed13dfca52f79b9c160"
+      },
+      {
+        "name": "StarGem_Pig_UI___cctor",
+        "preferredVA": "0x2ba260c",
+        "first16": "fe0f1df8f65701a9f44f02a9d3ad01d0",
+        "end": "0x2ba2784",
+        "c_sha256": "1537c3ac5c96712e194b27bc99ba31297f90e80504b077e40cdc9d2e42778ba8",
+        "asm_sha256": "de0b890089dc0920a47bbca6c788325719e4d66e03d1f5a9268236e500da1262"
+      },
+      {
+        "name": "Throw_NullReference_Wrapper",
+        "preferredVA": "0x28f5cfc",
+        "first16": "fe0f1ff86a220194fe0f1ff87b220194",
+        "end": "0x28f5d04",
+        "c_sha256": "4dbe5415e169f90b0ce5055036cca1b94bf1565f8d9d2308c08bf4bd707fcb91",
+        "asm_sha256": "eec6b09062497629de85a27e3a8cad918b42764b2a1c0f544152a636461e5fdd"
+      },
+      {
+        "name": "Throw_Index_Wrapper",
+        "preferredVA": "0x28f5d04",
+        "first16": "fe0f1ff87b220194c03cff90006c0191",
+        "end": "0x28f5d0c",
+        "c_sha256": "b554c9aba53206d804e9fc370e97cf27027d10930f18eb2a6be625e055cb8dd1",
+        "asm_sha256": "5581995141036f8f8cb7598583a54ae3c1a567e77a4bbff543774e6d542c448c"
+      },
+      {
+        "name": "Throw_NullReference_Create",
+        "preferredVA": "0x293e6a8",
+        "first16": "ff8300d1fffb00a9e0030091ff0300f9",
+        "end": "0x293e6bc",
+        "c_sha256": "07933b7cac27ee4d3e9d7c27b53882e222ed878cead5f8d79e73b3adba1fff6f",
+        "asm_sha256": "428c28c0278566bbd155390442ae395ecf5d111ac48dd41afa23cc88ab7051b2"
+      },
+      {
+        "name": "Throw_NullReference_Raise",
+        "preferredVA": "0x293e6bc",
+        "first16": "fe0f1ff803000094e1031faad2ffff97",
+        "end": "0x293e6cc",
+        "c_sha256": "aded7644ecb862bc0a5476706b21810f9257b367ac0397bdc541e91af2615d80",
+        "asm_sha256": "5aafa322c11ce154d2ee31e138ead7810e48a24e419b8885131feb71851f1d71"
+      },
+      {
+        "name": "Throw_Index_Raise",
+        "preferredVA": "0x293e6f4",
+        "first16": "fe0f1ff803000094e1031faac4ffff97",
+        "end": "0x293e704",
+        "c_sha256": "f7b9c1233cebb3659705feb97a706251cb1dd6dcac5b14dcbcd482f99b3529a7",
+        "asm_sha256": "53f08a0cd65a4fe4ba45d72673ff66e057b405fd9658b230d54ec9cb96fab4ed"
+      },
+      {
+        "name": "Managed_Exception_CxaThrow",
+        "preferredVA": "0x293e610",
+        "first16": "fe4fbfa9f30300aa71ffff9700018052",
+        "end": "0x293e638",
+        "c_sha256": "f034685b9e5e3c23ca134caf66dd8742db361f79a48e68bfefb6bb0b28479155",
+        "asm_sha256": "79d2db030a3cd3519ea853008b8d9e435cee4ca33d345340c0a40c9ffa737b80"
+      }
+    ],
+    "businessMethods": 42,
+    "exceptionHelpers": 6,
+    "staticValues": {
+      "capacity": {
+        "values": [
+          660,
+          1500,
+          2500
+        ],
+        "pointer": "0x5d648d0",
+        "sha256": "1BBDA682263D39944BDA133CD332AAFCAA9C4E5970A5FD766B7D0F0E41E76AE7",
+        "offset": 9571000
+      },
+      "purchaseMax": {
+        "values": [
+          2,
+          2,
+          1
+        ],
+        "pointer": "0x5d63f20",
+        "sha256": "C17F23B1052241C68988BF2246C6697CAF6FF570AA003D783EBE4B24E7DC7CC9",
+        "offset": 9609048
+      },
+      "salePercent": {
+        "values": [
+          50,
+          35,
+          35
+        ],
+        "pointer": "0x5d648f0",
+        "sha256": "1D8D95949D1A7B2D22033D09A64804F919119B5016B1EC55B6D23E7E37BA331A",
+        "offset": 9571016
+      },
+      "price1": {
+        "value": "$0.99",
+        "pointer": "0x5d648f8"
+      },
+      "price2": {
+        "value": "$2.99",
+        "pointer": "0x5d64900"
+      },
+      "price3": {
+        "value": "$4.99",
+        "pointer": "0x5d64908"
+      },
+      "saleFormat": {
+        "value": "Sale {0}%",
+        "pointer": "0x5d648e8"
+      },
+      "levelFormat": {
+        "value": "Lv.{0}",
+        "pointer": "0x5d61f18"
+      },
+      "countFormat": {
+        "value": "{0}/{1}",
+        "pointer": "0x5d61f28"
+      },
+      "place": {
+        "value": "raid",
+        "pointer": "0x5d635a8"
+      }
+    },
+    "allQueriesCompleted": true
+  },
+  "connected": [
+    "original raid HUD -> original StarGem pig page and close",
+    "native Game_Start +50 and Boss_Destroyed +25 -> shared original save state",
+    "capacity 660/1500/2500, purchase limits 2/2/1 -> tier promotion and sold out",
+    "original cash button -> authorized asynchronous payment simulation -> star wallet, UI and archive",
+    "local weekly observer -> reset and reject pending previous tier",
+    "independent cold reload -> unclaimed amount, count, level and simulation ledger"
+  ],
+  "adapters": [
+    "user-authorized local payment success/cancel/disabled simulator; no money charged or production receipts",
+    "native fallback prices; live store prices unavailable",
+    "shared local calendar provider with quarter-second observer and mirrored UI reconciliation; trusted Time_manager services absent",
+    "explicit Unity object null guard for original Alert_obj=0",
+    "long intermediate for malformed local save addition; existing decimal/combat adapters",
+    "Editor transient layout tracker restoration preserves existing original rects"
+  ],
+  "independentTests": [
+    {
+      "report": "reports/stargem-pig-playmode.json",
+      "duration": 65.23,
+      "summary": {
+        "total": 11,
+        "passed": 11,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "independentCompleteRun": true
+    },
+    {
+      "report": "reports/stargem-pig-regression-raid.json",
+      "duration": 94.27,
+      "summary": {
+        "total": 5,
+        "passed": 5,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "independentCompleteRun": true
+    },
+    {
+      "report": "reports/stargem-pig-regression-playtest-issues.json",
+      "duration": 52.92,
+      "summary": {
+        "total": 15,
+        "passed": 15,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "independentCompleteRun": true
+    },
+    {
+      "report": "reports/stargem-pig-regression-raid-helper.json",
+      "duration": 111.0,
+      "summary": {
+        "total": 11,
+        "passed": 11,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "independentCompleteRun": true
+    },
+    {
+      "report": "reports/stargem-pig-regression-startup.json",
+      "duration": 25.39,
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "independentCompleteRun": true
+    }
+  ],
+  "historicalAttempts": [
+    "reports/stargem-pig-before-failure.json",
+    "reports/stargem-pig-null-reference-failure.json"
+  ],
+  "projectileObservation": {
+    "score": 1,
+    "gem": 75,
+    "moved": 7.670083045959473,
+    "fixture": "Independent original Gun30; zero input; native Boss health/timer; actual projectile damage, no injected damage/health; one cancelled loading entry gives no fill"
+  },
+  "gpu": [
+    {
+      "path": "reports/visual/stargem-pig-locked-page-gpu.png",
+      "sha256": "41fa756a7bcfeb79c3e6a440436229c9029ddba593fd675688758e7c25b66ecf",
+      "actuallyViewed": true
+    },
+    {
+      "path": "reports/visual/stargem-pig-full-page-gpu.png",
+      "sha256": "4e2e14ed09e2678d68441de5d2d134073c2b9167391622c70079caf1ef5ead38",
+      "actuallyViewed": true
+    },
+    {
+      "path": "reports/visual/stargem-pig-level-two-gpu.png",
+      "sha256": "a121dee2821d0565f7080094ec81f6686521d729542545fedacbb8b991effe37",
+      "actuallyViewed": true
+    },
+    {
+      "path": "reports/visual/stargem-pig-sold-out-gpu.png",
+      "sha256": "936af28cd070c4246040afa1487d3d372ca7192c8925bc895602464a96956d23",
+      "actuallyViewed": true
+    }
+  ],
+  "preservation": {
+    "target": "com.Chodun.CatGunner 1.1.61 vc257",
+    "userMainAndBackupUnchanged": true,
+    "records": [
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scenes/RecoveredClient.unity",
+        "sha256": "c992894ae03ba5773406863f334cd3a512a7aa5004250c74cae639e92369e145",
+        "currentSha256": "3766861a22db2d596a7b8dd3e54b8f324fed4e92dc408775db3eba36610b22cf",
+        "unchanged": false
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalOfflineSimulation.cs.meta",
+        "sha256": "cb6410e35fe7b90067fe78a2193910d02e6923a819242b204bca00235d91105e",
+        "currentSha256": "cb6410e35fe7b90067fe78a2193910d02e6923a819242b204bca00235d91105e",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Skin_manager.cs.meta",
+        "sha256": "cea61fb455cd22337ba00dd6587a9c7e941fbfb8574585b12897f588a1bc8e20",
+        "currentSha256": "cea61fb455cd22337ba00dd6587a9c7e941fbfb8574585b12897f588a1bc8e20",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Mission_manager.cs.meta",
+        "sha256": "b1dfb32fdd5f8d63a197680ff5423f967ac1c648e234a960c83e62977b77ccfa",
+        "currentSha256": "b1dfb32fdd5f8d63a197680ff5423f967ac1c648e234a960c83e62977b77ccfa",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Gun_manager.cs.meta",
+        "sha256": "991e68f23e56942e71a2eaeb3808513874d95f06f0cf197f3d57a580d6120557",
+        "currentSha256": "991e68f23e56942e71a2eaeb3808513874d95f06f0cf197f3d57a580d6120557",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Disc.cs.meta",
+        "sha256": "c8c02f68d6047e028517707612a42736022bd5787f420b592d9c2abbe5076e36",
+        "currentSha256": "c8c02f68d6047e028517707612a42736022bd5787f420b592d9c2abbe5076e36",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/StepUp_popup.cs.meta",
+        "sha256": "1aa371117bd8ec6d3a09c9f7c89f7d279eee2a2449ce1adcd88fb272ba5bea33",
+        "currentSha256": "1aa371117bd8ec6d3a09c9f7c89f7d279eee2a2449ce1adcd88fb272ba5bea33",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryAutoMergeAccess.cs.meta",
+        "sha256": "cc5c03e889f54f63218931cca0d8fe2eec3f85df329443485da10fb9a69c6f97",
+        "currentSha256": "cc5c03e889f54f63218931cca0d8fe2eec3f85df329443485da10fb9a69c6f97",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalBalanceCatalogue.cs.meta",
+        "sha256": "f30874159218b96b8762eb4379e04d8f1902cb5e7aa0c20c755d2348e42f56d1",
+        "currentSha256": "f30874159218b96b8762eb4379e04d8f1902cb5e7aa0c20c755d2348e42f56d1",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_Exit_Panel.cs.meta",
+        "sha256": "d2d611bcc385a903d159f8d5f25a26176268a73763e1bb9d11db7a6eed07d777",
+        "currentSha256": "d2d611bcc385a903d159f8d5f25a26176268a73763e1bb9d11db7a6eed07d777",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Cat.cs.meta",
+        "sha256": "b860ee09745c5bf02cd94e74b931a1f14dfbf1105b5cf462471885ee7c449380",
+        "currentSha256": "b860ee09745c5bf02cd94e74b931a1f14dfbf1105b5cf462471885ee7c449380",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Menu.cs.meta",
+        "sha256": "483dc7fa3eb4dcac0b10c247878a79de6b111455895043d4472525c9158163c4",
+        "currentSha256": "483dc7fa3eb4dcac0b10c247878a79de6b111455895043d4472525c9158163c4",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Boss.cs.meta",
+        "sha256": "dcd4dec0869f60b0b1687164e808a8a22029e24a9445527afd97101f1a6a1ad1",
+        "currentSha256": "dcd4dec0869f60b0b1687164e808a8a22029e24a9445527afd97101f1a6a1ad1",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Pet_Item_List.cs.meta",
+        "sha256": "5e19ae6c02bf352bbb366af59c1a4f2a7b6cea6255680c58cab78c91f11c8176",
+        "currentSha256": "5e19ae6c02bf352bbb366af59c1a4f2a7b6cea6255680c58cab78c91f11c8176",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalGunInventory.cs.meta",
+        "sha256": "9818a2672d5f7ca3cffc69f613f78f5f9864caf8ef67a393381d1a358690de51",
+        "currentSha256": "9818a2672d5f7ca3cffc69f613f78f5f9864caf8ef67a393381d1a358690de51",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Mine_Start_UI.cs.meta",
+        "sha256": "ee27712a2cf8fde76a0150c662f01cca81137934302d1d11af8447a529877428",
+        "currentSha256": "ee27712a2cf8fde76a0150c662f01cca81137934302d1d11af8447a529877428",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalAdventureRules.cs.meta",
+        "sha256": "4d957cf65e236353073fe46a7a67fff584dcb5dbf50ddb7457babb38e969b221",
+        "currentSha256": "4d957cf65e236353073fe46a7a67fff584dcb5dbf50ddb7457babb38e969b221",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Boss_manager.cs.meta",
+        "sha256": "1229c593e0191893e7d37136b1e17c2ec1d1040e84aa9405e39267ee1135a538",
+        "currentSha256": "1229c593e0191893e7d37136b1e17c2ec1d1040e84aa9405e39267ee1135a538",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Currency_PetCoin.cs.meta",
+        "sha256": "ed3b18a602e2e04823b1bcbfd02cbe863b4e4e6faadad70cde914bf86190603f",
+        "currentSha256": "ed3b18a602e2e04823b1bcbfd02cbe863b4e4e6faadad70cde914bf86190603f",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/CatMineTargeting.cs.meta",
+        "sha256": "470083b48e45b0331d1f9c93af1bbffa27955ed3f857c9c35ead68aed628185e",
+        "currentSha256": "470083b48e45b0331d1f9c93af1bbffa27955ed3f857c9c35ead68aed628185e",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Mission_Reward_Item.cs.meta",
+        "sha256": "8580236eb800aaf0fc93563dd7f7528f20e9432041e09e7a8ac6a15ddea80191",
+        "currentSha256": "8580236eb800aaf0fc93563dd7f7528f20e9432041e09e7a8ac6a15ddea80191",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Tree.cs.meta",
+        "sha256": "402545d522fed6b73f5b373660dba7845f53eb70a89ec7daa56cc3b600f7501d",
+        "currentSha256": "402545d522fed6b73f5b373660dba7845f53eb70a89ec7daa56cc3b600f7501d",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/DailyCheck_Reward.cs.meta",
+        "sha256": "9c461cb829a1a52a340444db364d8825cc2963a83077f384de98f9478fb40492",
+        "currentSha256": "9c461cb829a1a52a340444db364d8825cc2963a83077f384de98f9478fb40492",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryLocalStore.cs.meta",
+        "sha256": "62bdd5bc8d28e2c9065221d217490663d34bb679cafc33490dcbc46838c9536f",
+        "currentSha256": "62bdd5bc8d28e2c9065221d217490663d34bb679cafc33490dcbc46838c9536f",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Mission_UI.cs.meta",
+        "sha256": "6048952da705ebec59013d00826a917bd5b0b7fffdb7b53ca5cfe0b24d0004c2",
+        "currentSha256": "6048952da705ebec59013d00826a917bd5b0b7fffdb7b53ca5cfe0b24d0004c2",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Map_Grid.cs.meta",
+        "sha256": "40ad865324d15015e14075c92f4032158e631333d090e7401bec156855db5450",
+        "currentSha256": "40ad865324d15015e14075c92f4032158e631333d090e7401bec156855db5450",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Hatch.cs.meta",
+        "sha256": "47bd005d01c2b6a9f8bbdd75200a4e169a8561f9b4ef4faf56ee0e7301200de3",
+        "currentSha256": "47bd005d01c2b6a9f8bbdd75200a4e169a8561f9b4ef4faf56ee0e7301200de3",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryForestClient.cs.meta",
+        "sha256": "e3b87cfa34a9470f53fea4d56361421920e094234dd9dba13796901b29c787c1",
+        "currentSha256": "e3b87cfa34a9470f53fea4d56361421920e094234dd9dba13796901b29c787c1",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalLocalPurchases.cs.meta",
+        "sha256": "63481e924383207ea8d4ab8252f2baa151f62c496383fab90b37b78796f88378",
+        "currentSha256": "63481e924383207ea8d4ab8252f2baa151f62c496383fab90b37b78796f88378",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Gun_Item.cs.meta",
+        "sha256": "01c04bfd98330d2ce8a742ee4dde1e991a325052ca1dd816e34ae01457a5c2e3",
+        "currentSha256": "01c04bfd98330d2ce8a742ee4dde1e991a325052ca1dd816e34ae01457a5c2e3",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/FloatingJoystick.cs.meta",
+        "sha256": "cae44e22bb9733b5ebf87fbc0b19124d2701fc27a936a09b06c81980d7c73c1c",
+        "currentSha256": "cae44e22bb9733b5ebf87fbc0b19124d2701fc27a936a09b06c81980d7c73c1c",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/GunType.cs.meta",
+        "sha256": "087a39ccfb9b0f6987702c4b0bc8261d09386383f9f42e883c4b34151f718c25",
+        "currentSha256": "087a39ccfb9b0f6987702c4b0bc8261d09386383f9f42e883c4b34151f718c25",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Bullet_FX.cs.meta",
+        "sha256": "df1cff8d72fe0949d25410ebbcf122d8d1cc3f1fcd8d1ef867101bf6feed6fa1",
+        "currentSha256": "df1cff8d72fe0949d25410ebbcf122d8d1cc3f1fcd8d1ef867101bf6feed6fa1",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalRelicRules.cs.meta",
+        "sha256": "5f59504dca255f14f2eef90d6173af154c211371c4e67846d48709d63a7c154d",
+        "currentSha256": "5f59504dca255f14f2eef90d6173af154c211371c4e67846d48709d63a7c154d",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Fish_DeletePopup.cs.meta",
+        "sha256": "ed93c71865330f9bc2da9b877b742222ecc1a90261f27eb30f6fa6cbd383a07f",
+        "currentSha256": "ed93c71865330f9bc2da9b877b742222ecc1a90261f27eb30f6fa6cbd383a07f",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryEcoTween.cs.meta",
+        "sha256": "9a792ce7c6f195274b42337a9330ca3e7c1bc33921a02775b7c67f696af1c6b7",
+        "currentSha256": "9a792ce7c6f195274b42337a9330ca3e7c1bc33921a02775b7c67f696af1c6b7",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Cat_manager.cs.meta",
+        "sha256": "c0d269028b2b7783d53a8c0b70332f5566a5571b35f4625819d44d7c67f8e4c3",
+        "currentSha256": "c0d269028b2b7783d53a8c0b70332f5566a5571b35f4625819d44d7c67f8e4c3",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalSafeInventory.cs.meta",
+        "sha256": "86ddae2292cdbc09c0cdfe53f5829701a7f2ff6247e4a9a6756921eef53d4853",
+        "currentSha256": "86ddae2292cdbc09c0cdfe53f5829701a7f2ff6247e4a9a6756921eef53d4853",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalMissionFeedback.cs.meta",
+        "sha256": "c87e1603d39078d8068af7ecfbc3e93119ca899f9d2f5966db7a8f60d3b8241e",
+        "currentSha256": "c87e1603d39078d8068af7ecfbc3e93119ca899f9d2f5966db7a8f60d3b8241e",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryPlusPackItem.cs.meta",
+        "sha256": "0b25edf2fb9a0d289cdf1db77b8b10d45522b701dee2357a3b64afb66d88e2a0",
+        "currentSha256": "0b25edf2fb9a0d289cdf1db77b8b10d45522b701dee2357a3b64afb66d88e2a0",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryWeeklyUiTween.cs.meta",
+        "sha256": "7cb3fb47bcabc456c56c9e7c3a86ced30f36cf45052bed957fcf7c9fc7cecae6",
+        "currentSha256": "7cb3fb47bcabc456c56c9e7c3a86ced30f36cf45052bed957fcf7c9fc7cecae6",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Joystick.cs.meta",
+        "sha256": "7bb788139b71fa4f4c762c1fff08c641501b57b4d5e1053b69a51f063c25c600",
+        "currentSha256": "7bb788139b71fa4f4c762c1fff08c641501b57b4d5e1053b69a51f063c25c600",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Follow.cs.meta",
+        "sha256": "95dd0e0baae9c71295dae1000161f53ccd82c488ea4cc10702f991a78baeebf9",
+        "currentSha256": "95dd0e0baae9c71295dae1000161f53ccd82c488ea4cc10702f991a78baeebf9",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Relic_Item_Demo.cs.meta",
+        "sha256": "b5a02503d749cb7510256516596b6dcfdf6c66e7c0ac52b5551a8cea452916d8",
+        "currentSha256": "b5a02503d749cb7510256516596b6dcfdf6c66e7c0ac52b5551a8cea452916d8",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/SlicedFilledImage.cs.meta",
+        "sha256": "8c4e0557f25295fae83f8e54d346645186384d26b24e291119bf2b68ecbcf9e6",
+        "currentSha256": "8c4e0557f25295fae83f8e54d346645186384d26b24e291119bf2b68ecbcf9e6",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/CatAutoMovement.cs.meta",
+        "sha256": "82af946fbadf73d649168d9209d4777dc3ffe64dcb11eb44e3f397a95a3d252a",
+        "currentSha256": "82af946fbadf73d649168d9209d4777dc3ffe64dcb11eb44e3f397a95a3d252a",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_PetSelect_popup.cs.meta",
+        "sha256": "09e21f90e9b9e4f9c08e3bcf09b809a84f3d5d9b0962bdf73962f9a4fa534938",
+        "currentSha256": "09e21f90e9b9e4f9c08e3bcf09b809a84f3d5d9b0962bdf73962f9a4fa534938",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/NewPet_UI.cs.meta",
+        "sha256": "62e08a5ccc233860a01e01128051a9343410c802763aa0e35c49f21e82e1ffe0",
+        "currentSha256": "62e08a5ccc233860a01e01128051a9343410c802763aa0e35c49f21e82e1ffe0",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Safe_HUD.cs.meta",
+        "sha256": "efcf73a560ef23ed371578edeb48a9dc1457e007c73ba824facfd0640d40baa3",
+        "currentSha256": "efcf73a560ef23ed371578edeb48a9dc1457e007c73ba824facfd0640d40baa3",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_Start_UI.cs.meta",
+        "sha256": "4fac52d4c26ba9144b3c34e00cf2a38f280b60807db12d038a4ee5008d0d0a56",
+        "currentSha256": "4fac52d4c26ba9144b3c34e00cf2a38f280b60807db12d038a4ee5008d0d0a56",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Safe_manager.cs.meta",
+        "sha256": "6a12de505fb7680d629d053cf1283e33cb175446964bbda88c4c55793690612e",
+        "currentSha256": "6a12de505fb7680d629d053cf1283e33cb175446964bbda88c4c55793690612e",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalRaidRules.cs.meta",
+        "sha256": "d473d5075e246c00a690317e0c70ef6e742829e4dc44bb3bb739bf8988eedf68",
+        "currentSha256": "d473d5075e246c00a690317e0c70ef6e742829e4dc44bb3bb739bf8988eedf68",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalProgressionCatalogue.cs.meta",
+        "sha256": "7c237d97fe7f613daac3d7a9777f9186e21ed7d66594a2ee42bb8018e4207c89",
+        "currentSha256": "7c237d97fe7f613daac3d7a9777f9186e21ed7d66594a2ee42bb8018e4207c89",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalDiaPigCounter.cs.meta",
+        "sha256": "cc07a1dcb5d9e102da0387ea6cfd42d6c157f3e4e17ce446d1e8fa916214e8f2",
+        "currentSha256": "cc07a1dcb5d9e102da0387ea6cfd42d6c157f3e4e17ce446d1e8fa916214e8f2",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalRaidHelperRules.cs.meta",
+        "sha256": "1d7bed8c4b075906ff7f50992e30a73120abd54af9ae188318c68948af2d76e5",
+        "currentSha256": "1d7bed8c4b075906ff7f50992e30a73120abd54af9ae188318c68948af2d76e5",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_Info.cs.meta",
+        "sha256": "82a970657d640a40e6d6644fbd9ce10433b18bbe371258f52241693c2824e548",
+        "currentSha256": "82a970657d640a40e6d6644fbd9ce10433b18bbe371258f52241693c2824e548",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OnOff.cs.meta",
+        "sha256": "4dbabaa4449336fc7785d27220365e0deba32110360c94c2f5865989e4baa2e2",
+        "currentSha256": "4dbabaa4449336fc7785d27220365e0deba32110360c94c2f5865989e4baa2e2",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Dia_Attraction_Target.cs.meta",
+        "sha256": "b71bc7f52c5de9484555e858eb4d482927146fe04fb56b31c7cebdabb4fa4c49",
+        "currentSha256": "b71bc7f52c5de9484555e858eb4d482927146fe04fb56b31c7cebdabb4fa4c49",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryDiamondParticles.cs.meta",
+        "sha256": "c32feba1f75b1c96e66719efe2247f0a6365a23eb38eaf12b31c48ac021074e4",
+        "currentSha256": "c32feba1f75b1c96e66719efe2247f0a6365a23eb38eaf12b31c48ac021074e4",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryStarSuccessFeedback.cs.meta",
+        "sha256": "9a1031413d30f75bfd0f073024922c4a226aaee7ccab7c850d3e4e61e9d969bd",
+        "currentSha256": "9a1031413d30f75bfd0f073024922c4a226aaee7ccab7c850d3e4e61e9d969bd",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Gun.cs.meta",
+        "sha256": "7b5fe14f4afda11bfdcbb3c9063f8ebf6fac2f578e682c69f3ff5eae570d78a7",
+        "currentSha256": "7b5fe14f4afda11bfdcbb3c9063f8ebf6fac2f578e682c69f3ff5eae570d78a7",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/ForestDamageDispatch.cs.meta",
+        "sha256": "7898c894a71e7026b56ba7afae14efb315bdae255db779d942296b5642b78ee9",
+        "currentSha256": "7898c894a71e7026b56ba7afae14efb315bdae255db779d942296b5642b78ee9",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryDamageTextPresenter.cs.meta",
+        "sha256": "bb3fe4889d3c4ad2066d6aece7e6fb66de2ae627ddb54a5f28024c1d333301e8",
+        "currentSha256": "bb3fe4889d3c4ad2066d6aece7e6fb66de2ae627ddb54a5f28024c1d333301e8",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/DailyGun_popup.cs.meta",
+        "sha256": "9d2d5a8422dd6f2f00eea3eae7050148826a1b6dcbc2c7efd0242eb9d8cdb52e",
+        "currentSha256": "9d2d5a8422dd6f2f00eea3eae7050148826a1b6dcbc2c7efd0242eb9d8cdb52e",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_Mission_HUD.cs.meta",
+        "sha256": "9a914f929ad2933fdc76ca17f64f5c7661992a16dbb51ec206a858bb059661ce",
+        "currentSha256": "9a914f929ad2933fdc76ca17f64f5c7661992a16dbb51ec206a858bb059661ce",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_Mission_manager.cs.meta",
+        "sha256": "b002d46278b3d3fa2fb94c711e8a211ed4c1b6aa4b2105d3edea2e5ee559fa41",
+        "currentSha256": "b002d46278b3d3fa2fb94c711e8a211ed4c1b6aa4b2105d3edea2e5ee559fa41",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/StepUp_Item_UI.cs.meta",
+        "sha256": "37b851915365b8aeb422deb3cdbd5b6ab59acdd9808b023ae45aaef44407d1c0",
+        "currentSha256": "37b851915365b8aeb422deb3cdbd5b6ab59acdd9808b023ae45aaef44407d1c0",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryAdventurePreview.cs.meta",
+        "sha256": "41e35d6f372c2dfa0048e4082c670155660e40cb4649ee26b188ae12e48c86dc",
+        "currentSha256": "41e35d6f372c2dfa0048e4082c670155660e40cb4649ee26b188ae12e48c86dc",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/EnemyColl.cs.meta",
+        "sha256": "1f36af65f7ab985fc56e143e649a39fb864ec34e98f61b3766eaa676ad29b7d4",
+        "currentSha256": "1f36af65f7ab985fc56e143e649a39fb864ec34e98f61b3766eaa676ad29b7d4",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Mine_Slider.cs.meta",
+        "sha256": "2dda1b3b912561cb837f6c82676c8f281caae48462cebd278351efeb2113cf89",
+        "currentSha256": "2dda1b3b912561cb837f6c82676c8f281caae48462cebd278351efeb2113cf89",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Mute_Panel.cs.meta",
+        "sha256": "c5236d6c1dbc6e53aa2cbb387418a205cee55f026ae6830a1bc625fde8199183",
+        "currentSha256": "c5236d6c1dbc6e53aa2cbb387418a205cee55f026ae6830a1bc625fde8199183",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalStepUpOffer.cs.meta",
+        "sha256": "2ce02cc07222e955ac12c8f199c40611a967cbf947667000d435dec78418672b",
+        "currentSha256": "2ce02cc07222e955ac12c8f199c40611a967cbf947667000d435dec78418672b",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Menu_Btn.cs.meta",
+        "sha256": "b815a9eb469c15bdd32ffb205c639a321e0286a84b43c278cf886824a9ccd52f",
+        "currentSha256": "b815a9eb469c15bdd32ffb205c639a321e0286a84b43c278cf886824a9ccd52f",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_Ticket_UI.cs.meta",
+        "sha256": "38ee02cded9ea4edbe53c89d41eff8d46b910c269d012400ecf23f2e3be05896",
+        "currentSha256": "38ee02cded9ea4edbe53c89d41eff8d46b910c269d012400ecf23f2e3be05896",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/DamageTextAnimation.cs.meta",
+        "sha256": "2e592b79dd7c6a58990db4fb6b118899e14c8a969f57439e2b6095677516c58e",
+        "currentSha256": "2e592b79dd7c6a58990db4fb6b118899e14c8a969f57439e2b6095677516c58e",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/SpeedRun_Start_UI.cs.meta",
+        "sha256": "da00bae77778893a2fae8d006a95f7af5dc0c12d86a444bac6c5c99e3ee3a359",
+        "currentSha256": "da00bae77778893a2fae8d006a95f7af5dc0c12d86a444bac6c5c99e3ee3a359",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_Mission_UI.cs.meta",
+        "sha256": "dec2c366798136ca87ae1ab4503d890bf4f7a6b9c3c3822ee729a6173577cc73",
+        "currentSha256": "dec2c366798136ca87ae1ab4503d890bf4f7a6b9c3c3822ee729a6173577cc73",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Enemy_Slider.cs.meta",
+        "sha256": "6967f160adb7f02d4af948c24ae4290fbf2414e9013f864405b77057bcaff3c5",
+        "currentSha256": "6967f160adb7f02d4af948c24ae4290fbf2414e9013f864405b77057bcaff3c5",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/GameSlider.cs.meta",
+        "sha256": "925867e6556af209443741f5f0d80c7d4fd602e7f7e13695b501dff7dbba8a3d",
+        "currentSha256": "925867e6556af209443741f5f0d80c7d4fd602e7f7e13695b501dff7dbba8a3d",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_Ingame_UI.cs.meta",
+        "sha256": "46162acbba64bfe21151ceb99f5a7b140d30067ff89ee3ffdb702e8f07230bc5",
+        "currentSha256": "46162acbba64bfe21151ceb99f5a7b140d30067ff89ee3ffdb702e8f07230bc5",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_HelperSlot.cs.meta",
+        "sha256": "f3442dbd1e2b6bcf6869f5fb1e803cfca1d6f4489a2ec2ec92512f0fb6704960",
+        "currentSha256": "f3442dbd1e2b6bcf6869f5fb1e803cfca1d6f4489a2ec2ec92512f0fb6704960",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/SpriteFill.cs.meta",
+        "sha256": "88cda856c7604784bd0c15bb1d5cab93d40e49571592b6c099d6583936b2246d",
+        "currentSha256": "88cda856c7604784bd0c15bb1d5cab93d40e49571592b6c099d6583936b2246d",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_Panel.cs.meta",
+        "sha256": "d48e9f0bff3ac67405c838c6d2b7e84d877f1d8ee75d388684dc963a32716ed7",
+        "currentSha256": "d48e9f0bff3ac67405c838c6d2b7e84d877f1d8ee75d388684dc963a32716ed7",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_Helper_Purchase_Popup.cs.meta",
+        "sha256": "7eb6850e74f3431aae9dd20b5697a6c26a952ce5d2bb29930050f57e95d5688b",
+        "currentSha256": "7eb6850e74f3431aae9dd20b5697a6c26a952ce5d2bb29930050f57e95d5688b",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Gun_Info.cs.meta",
+        "sha256": "399b22f9d7ab89ddb8fa8b898e23de691f69b37cdafaa72730c88c687c1e35da",
+        "currentSha256": "399b22f9d7ab89ddb8fa8b898e23de691f69b37cdafaa72730c88c687c1e35da",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Alert.cs.meta",
+        "sha256": "dd99e7a4a14bf073e8a610957fec9850e73cd3b308289bf3aeada282a27d4772",
+        "currentSha256": "dd99e7a4a14bf073e8a610957fec9850e73cd3b308289bf3aeada282a27d4772",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalSkinRules.cs.meta",
+        "sha256": "92ae508c3f6cfa2ad4cfc8cc14a1aebda8774facfbed6060fcb24ee9049b1c45",
+        "currentSha256": "92ae508c3f6cfa2ad4cfc8cc14a1aebda8774facfbed6060fcb24ee9049b1c45",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Upgrade_Ingame.cs.meta",
+        "sha256": "f1e977540880b300c1dd40e18b6d55df64a9a301ee29dff2e51102d37d081aed",
+        "currentSha256": "f1e977540880b300c1dd40e18b6d55df64a9a301ee29dff2e51102d37d081aed",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Bounce_Custom.cs.meta",
+        "sha256": "133575b946aba988b0e85a77b1cd0d42dd5a6463c22a7169a1fa39fa3cbd29bc",
+        "currentSha256": "133575b946aba988b0e85a77b1cd0d42dd5a6463c22a7169a1fa39fa3cbd29bc",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Relic_Draw_Panel.cs.meta",
+        "sha256": "843a87a2af438d0c31bb5ef108e58aa6ccfcc6c7ff0a5cca8bba5d053d7d9a19",
+        "currentSha256": "843a87a2af438d0c31bb5ef108e58aa6ccfcc6c7ff0a5cca8bba5d053d7d9a19",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/DailyGun_Item.cs.meta",
+        "sha256": "7049a614d187ac927f480cfc14f9313fd3db95d6ad1b3c5a803ab5a80ce539da",
+        "currentSha256": "7049a614d187ac927f480cfc14f9313fd3db95d6ad1b3c5a803ab5a80ce539da",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalForestRules.cs.meta",
+        "sha256": "0a5eb36c9293beef49199505d2a6669ac52440085de1757b612b581ca78f7e06",
+        "currentSha256": "0a5eb36c9293beef49199505d2a6669ac52440085de1757b612b581ca78f7e06",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Monster_Game_Slider.cs.meta",
+        "sha256": "1a20fa462b6c3801e6d4a729900089eb00848a8f793071ed0ec53da5e40bb91d",
+        "currentSha256": "1a20fa462b6c3801e6d4a729900089eb00848a8f793071ed0ec53da5e40bb91d",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Gun_Item_Demo.cs.meta",
+        "sha256": "65ff6a5ecb9c2dcb87863f6838f5b2517d2919b34077133d2e46b64342457384",
+        "currentSha256": "65ff6a5ecb9c2dcb87863f6838f5b2517d2919b34077133d2e46b64342457384",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Tutorial_manager.cs.meta",
+        "sha256": "9d79ece8185d2287a04096bafe8b565c21320c1ac2a97eb9cba0931b28f38e67",
+        "currentSha256": "9d79ece8185d2287a04096bafe8b565c21320c1ac2a97eb9cba0931b28f38e67",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/WeeklyShop.cs.meta",
+        "sha256": "3db1f65bad56d036add7d89ad6c44e879c010b6cd12e39433c2742e10752fa97",
+        "currentSha256": "3db1f65bad56d036add7d89ad6c44e879c010b6cd12e39433c2742e10752fa97",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/DailyGun.cs.meta",
+        "sha256": "38ba202c0f6941481622ed8c8b16da788b8e482d3663612f0cd5e09aa162e0ea",
+        "currentSha256": "38ba202c0f6941481622ed8c8b16da788b8e482d3663612f0cd5e09aa162e0ea",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalMineTickets.cs.meta",
+        "sha256": "5ab479825f7fc2fa3d71f4fd89a14f90e650bfe10b3fc2f459fa770471a0a2b4",
+        "currentSha256": "5ab479825f7fc2fa3d71f4fd89a14f90e650bfe10b3fc2f459fa770471a0a2b4",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Skin_info.cs.meta",
+        "sha256": "20d7147e1e481ae5083af7674657c1aedecac2edef500d4ed96073f63b39a23f",
+        "currentSha256": "20d7147e1e481ae5083af7674657c1aedecac2edef500d4ed96073f63b39a23f",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/BounceStart.cs.meta",
+        "sha256": "7def8db42f7aec29ddecb62ba534507920938f2229597658edf7763b7dbbc682",
+        "currentSha256": "7def8db42f7aec29ddecb62ba534507920938f2229597658edf7763b7dbbc682",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalRebirth.cs.meta",
+        "sha256": "96dec6d292263f7c34fde89d3bcd4cc98a986063ad5eb07e475a96b9c7a7db97",
+        "currentSha256": "96dec6d292263f7c34fde89d3bcd4cc98a986063ad5eb07e475a96b9c7a7db97",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/CatGunner.Recovery.asmdef.meta",
+        "sha256": "ba50112eb36d1d70402323062ae94ed7064ebda54a7dfcd73ae15504bf23fa03",
+        "currentSha256": "ba50112eb36d1d70402323062ae94ed7064ebda54a7dfcd73ae15504bf23fa03",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Mission_Reward_Slot.cs.meta",
+        "sha256": "5664e9801c18f0469514e0d2685e7bc32df8091fe2fd087ab8f31cc00db60fd8",
+        "currentSha256": "5664e9801c18f0469514e0d2685e7bc32df8091fe2fd087ab8f31cc00db60fd8",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Gun_Slot.cs.meta",
+        "sha256": "62a71a0e0dbfef0cab76d1143f90556ede07b22ac3aa5bb7100da1f107228c58",
+        "currentSha256": "62a71a0e0dbfef0cab76d1143f90556ede07b22ac3aa5bb7100da1f107228c58",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_GunSelect_item.cs.meta",
+        "sha256": "b729bd528db90871b4c5f22e4073ebdf931bbf79581da6341646f7cf6070e563",
+        "currentSha256": "b729bd528db90871b4c5f22e4073ebdf931bbf79581da6341646f7cf6070e563",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Destroy.cs.meta",
+        "sha256": "ee34091f6df585746964bb32852422cea024aba6a55076bfebd3825953d60766",
+        "currentSha256": "ee34091f6df585746964bb32852422cea024aba6a55076bfebd3825953d60766",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/CatCompanions.cs.meta",
+        "sha256": "237e3f0477323cc0259cf1dd5f0836f89760809620caac617f1bd76a5510759e",
+        "currentSha256": "237e3f0477323cc0259cf1dd5f0836f89760809620caac617f1bd76a5510759e",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/CatMonsterMovement.cs.meta",
+        "sha256": "bf0912ff9992160d6cf9361f7ccf6900d2865b23375aca4886bd7c486892eb0b",
+        "currentSha256": "bf0912ff9992160d6cf9361f7ccf6900d2865b23375aca4886bd7c486892eb0b",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Gun_Info_UI.cs.meta",
+        "sha256": "f1051fe4b0c104ed7b094324b2822079e07cfd12d6178c7ab267bdde241d93a9",
+        "currentSha256": "f1051fe4b0c104ed7b094324b2822079e07cfd12d6178c7ab267bdde241d93a9",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Enemy.cs.meta",
+        "sha256": "63647ff85b35c009bd11858328e4948d7ce54234674d79ae73f28f08a7a29020",
+        "currentSha256": "63647ff85b35c009bd11858328e4948d7ce54234674d79ae73f28f08a7a29020",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Content_Type.cs.meta",
+        "sha256": "62b3b5b9fc8441817e44a358f2522f74259213fe0619af882996cb185f3c2c67",
+        "currentSha256": "62b3b5b9fc8441817e44a358f2522f74259213fe0619af882996cb185f3c2c67",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/NewGun_UI.cs.meta",
+        "sha256": "83999ceee39c974baeec0a5367b169ddfaa636ba07a2777e0273cf5221f6f66e",
+        "currentSha256": "83999ceee39c974baeec0a5367b169ddfaa636ba07a2777e0273cf5221f6f66e",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Skin_Info_UI.cs.meta",
+        "sha256": "8be95461ee46258a3edb78fad6def89db9399490408ff46b8e8b2f7c497a326c",
+        "currentSha256": "8be95461ee46258a3edb78fad6def89db9399490408ff46b8e8b2f7c497a326c",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryAutomaticUpgrade.cs.meta",
+        "sha256": "9caff358cb867a2f088115db3c4d85560fe1c49760b2352a3d57161cf845448d",
+        "currentSha256": "9caff358cb867a2f088115db3c4d85560fe1c49760b2352a3d57161cf845448d",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Scrolling.cs.meta",
+        "sha256": "583b09bb342d35340d9cef79722a7f80887dcad4cc550236c9dd956d5775db86",
+        "currentSha256": "583b09bb342d35340d9cef79722a7f80887dcad4cc550236c9dd956d5775db86",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalEquipmentCatalogue.cs.meta",
+        "sha256": "e8c5fc2cae5183ddb7fa9935247d9c100a997d68ded502ff303bec6cb420bca5",
+        "currentSha256": "e8c5fc2cae5183ddb7fa9935247d9c100a997d68ded502ff303bec6cb420bca5",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/New_Fish_UI.cs.meta",
+        "sha256": "8a1e1fbda2077c06b98cd72f846b1945e155f2fd05ff85f5fd40fa53991193e7",
+        "currentSha256": "8a1e1fbda2077c06b98cd72f846b1945e155f2fd05ff85f5fd40fa53991193e7",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalFishRules.cs.meta",
+        "sha256": "a4670883f25c58c1298e9203986e4036e4cf116ead98a97c164522507283fdc8",
+        "currentSha256": "a4670883f25c58c1298e9203986e4036e4cf116ead98a97c164522507283fdc8",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Mine_manager.cs.meta",
+        "sha256": "00beb28e8188af668f8eb593375721d7c6d240eb14bf81e4707a5000f7624cf1",
+        "currentSha256": "00beb28e8188af668f8eb593375721d7c6d240eb14bf81e4707a5000f7624cf1",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Mission_Exp_Slider.cs.meta",
+        "sha256": "033d8b5eb15614bfdcda3f81f319e244b9032c40bbe33049851f5cb6cb187bd6",
+        "currentSha256": "033d8b5eb15614bfdcda3f81f319e244b9032c40bbe33049851f5cb6cb187bd6",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/StepUp.cs.meta",
+        "sha256": "5eab717415296e14084ef57590c14b75c678476f28a1b581f2593a31abe985f4",
+        "currentSha256": "5eab717415296e14084ef57590c14b75c678476f28a1b581f2593a31abe985f4",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/SFX_BtnScript.cs.meta",
+        "sha256": "2f645c23819ed7aa02304380e42b9a3c9a50a03deaf7a6c91f52ed942316de62",
+        "currentSha256": "2f645c23819ed7aa02304380e42b9a3c9a50a03deaf7a6c91f52ed942316de62",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Rebirth_Upgrade_Item.cs.meta",
+        "sha256": "1841dee1824bee384ae9b00e9ed83bd604562f21eed613c2ec882c84a7014171",
+        "currentSha256": "1841dee1824bee384ae9b00e9ed83bd604562f21eed613c2ec882c84a7014171",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Relic_manager.cs.meta",
+        "sha256": "150a9199de52e868055c9ee61c7c344d39b9a19a5a32ac16bfb6d08e1e46baad",
+        "currentSha256": "150a9199de52e868055c9ee61c7c344d39b9a19a5a32ac16bfb6d08e1e46baad",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/TutorialArrow_UI.cs.meta",
+        "sha256": "d018c97559d7b74775cdaa9596e6d151cfe2c9d58ad3e6dc6c4c497d2a5028c0",
+        "currentSha256": "d018c97559d7b74775cdaa9596e6d151cfe2c9d58ad3e6dc6c4c497d2a5028c0",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Dia_Attraction.cs.meta",
+        "sha256": "2473fbe7a1126619d1f46e5932b84da2afa9353c767e3b505dd2db109036b3e2",
+        "currentSha256": "2473fbe7a1126619d1f46e5932b84da2afa9353c767e3b505dd2db109036b3e2",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryRewardFeedback.cs.meta",
+        "sha256": "253c73be8861b673248f53d304791d18b1cae99a82d43d37e1ef60c69369ea9a",
+        "currentSha256": "253c73be8861b673248f53d304791d18b1cae99a82d43d37e1ef60c69369ea9a",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryLocalPurchaseButton.cs.meta",
+        "sha256": "b0221c77e2e458333a2619294db1217e79d5fd36d3bfa10d2dbe7cd39615b239",
+        "currentSha256": "b0221c77e2e458333a2619294db1217e79d5fd36d3bfa10d2dbe7cd39615b239",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/StepUp_Hud.cs.meta",
+        "sha256": "c1e1736ae99dc4352707f520843af7d80325d218e8f69e675254cb9a02ed7de8",
+        "currentSha256": "c1e1736ae99dc4352707f520843af7d80325d218e8f69e675254cb9a02ed7de8",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalSpeedRunLayout.cs.meta",
+        "sha256": "a7d0f8de86860f7cf25ea664aa1385daf08c0119994c63edeba25533a79bd173",
+        "currentSha256": "a7d0f8de86860f7cf25ea664aa1385daf08c0119994c63edeba25533a79bd173",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_Pet_Slot.cs.meta",
+        "sha256": "6293517b5ffa51ddafe3c33a2573ab4ce5b9ca3d11f3d6cc849f6666f06184a8",
+        "currentSha256": "6293517b5ffa51ddafe3c33a2573ab4ce5b9ca3d11f3d6cc849f6666f06184a8",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_manager.cs.meta",
+        "sha256": "70eebb32fbe7b330d9f2a08ad48c2299e49b19b6954aeded86cf59f00d675d6b",
+        "currentSha256": "70eebb32fbe7b330d9f2a08ad48c2299e49b19b6954aeded86cf59f00d675d6b",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_Mission_Ticket_UI.cs.meta",
+        "sha256": "e2a253e57e0ef8c71869047a75e04db56da409a0060e25ec47f563b787f872ce",
+        "currentSha256": "e2a253e57e0ef8c71869047a75e04db56da409a0060e25ec47f563b787f872ce",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_GunSlot.cs.meta",
+        "sha256": "d419821a9b062f50d8248f0fc17a91f37e3b31a99c28d1bc29cba0d8a31648d5",
+        "currentSha256": "d419821a9b062f50d8248f0fc17a91f37e3b31a99c28d1bc29cba0d8a31648d5",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Safe_UI.cs.meta",
+        "sha256": "0a2f6b0a49b74a3ae8cb3c8ec588a3e0108d07de7e416dc04e5a21e28b0bec81",
+        "currentSha256": "0a2f6b0a49b74a3ae8cb3c8ec588a3e0108d07de7e416dc04e5a21e28b0bec81",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Monster_Start_UI.cs.meta",
+        "sha256": "f76e4aa5a4034e0c57bcc6919558823f5dbd206d3738a83795d4c1d144dc3caa",
+        "currentSha256": "f76e4aa5a4034e0c57bcc6919558823f5dbd206d3738a83795d4c1d144dc3caa",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Polling_manager.cs.meta",
+        "sha256": "78021f4bfb6a995586ac6d135dab2a63e3eb0fb94c501a43e84893891a060617",
+        "currentSha256": "78021f4bfb6a995586ac6d135dab2a63e3eb0fb94c501a43e84893891a060617",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Bullet.cs.meta",
+        "sha256": "2cfac2aa540f6e761f623010add7d1f74778deeb3b14202c60a7a5d4349921b5",
+        "currentSha256": "2cfac2aa540f6e761f623010add7d1f74778deeb3b14202c60a7a5d4349921b5",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/BarrierCollider.cs.meta",
+        "sha256": "415f1dce27599c316637117c0258a98bc8aeab86ae79b442155f74da735d8d89",
+        "currentSha256": "415f1dce27599c316637117c0258a98bc8aeab86ae79b442155f74da735d8d89",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Particle_Polling.cs.meta",
+        "sha256": "31a42b2a9666bbfbe97db8541313502bce03899441b2592fbafec047360d3b57",
+        "currentSha256": "31a42b2a9666bbfbe97db8541313502bce03899441b2592fbafec047360d3b57",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/DiaPig_UI.cs.meta",
+        "sha256": "ebd7915cdf9c71ad1cc445f0fc7c1e24b5d8b2ffcb4157edff0075600dee0612",
+        "currentSha256": "ebd7915cdf9c71ad1cc445f0fc7c1e24b5d8b2ffcb4157edff0075600dee0612",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Sound_manager.cs.meta",
+        "sha256": "ae691c36b4ab0488a75938f25ed8b8b72dcf573072f9c48b30fc8899afc5f261",
+        "currentSha256": "ae691c36b4ab0488a75938f25ed8b8b72dcf573072f9c48b30fc8899afc5f261",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalStarRules.cs.meta",
+        "sha256": "91eb2dda50573801f0a2a551b9eee5741a20c28aeeb99f2762ba9c31c00267a5",
+        "currentSha256": "91eb2dda50573801f0a2a551b9eee5741a20c28aeeb99f2762ba9c31c00267a5",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/DamageTextAnimationSetting.cs.meta",
+        "sha256": "b31773fa4f47339f2df9c22ea213e352489e3464658e434fe0bc0687de366d65",
+        "currentSha256": "b31773fa4f47339f2df9c22ea213e352489e3464658e434fe0bc0687de366d65",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_Enter_popup.cs.meta",
+        "sha256": "6851c10a5e16f8e7005d5c8785b19c6ec705bcdccccd0cb4b3be48b10c019551",
+        "currentSha256": "6851c10a5e16f8e7005d5c8785b19c6ec705bcdccccd0cb4b3be48b10c019551",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Gun_Item_List.cs.meta",
+        "sha256": "88116947edcc5acc01546132908d3afef50ab314335959ecbdeda347ae8f727a",
+        "currentSha256": "88116947edcc5acc01546132908d3afef50ab314335959ecbdeda347ae8f727a",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Fish_Tank.cs.meta",
+        "sha256": "b4d8f69ab99352a19fe98cbed1c679313b2ec24d0301f5975fc6f7a83946dff7",
+        "currentSha256": "b4d8f69ab99352a19fe98cbed1c679313b2ec24d0301f5975fc6f7a83946dff7",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Bounce_Position.cs.meta",
+        "sha256": "953c018e3057b847afb9c3f675fbd1d379aca6b3d86622f7b4c7fbf958a471eb",
+        "currentSha256": "953c018e3057b847afb9c3f675fbd1d379aca6b3d86622f7b4c7fbf958a471eb",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Pet_Item.cs.meta",
+        "sha256": "4deaf12a39cc667b7756dcfe693dae342df29142b2d7657b2da76333082e9a4a",
+        "currentSha256": "4deaf12a39cc667b7756dcfe693dae342df29142b2d7657b2da76333082e9a4a",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_Mission_Item.cs.meta",
+        "sha256": "cea6264785187273352bcc16942990e4a50e05c646be0bd8e9dfc0c3244d6ac2",
+        "currentSha256": "cea6264785187273352bcc16942990e4a50e05c646be0bd8e9dfc0c3244d6ac2",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Relic_Item.cs.meta",
+        "sha256": "09c72a40bb00070818651bb1a9142601329c2abd24f4cb61f9dd66b5f04673f7",
+        "currentSha256": "09c72a40bb00070818651bb1a9142601329c2abd24f4cb61f9dd66b5f04673f7",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Pet_Info_UI.cs.meta",
+        "sha256": "347703cde6aa38e89a5c94455c590e0b351b616390f4f0e06ecb5cf4749adad1",
+        "currentSha256": "347703cde6aa38e89a5c94455c590e0b351b616390f4f0e06ecb5cf4749adad1",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Rebirth_FX.cs.meta",
+        "sha256": "d5f0cbd76459e6f3dae78fa664fdacf6a0ba2519ed64aecfab529c3844fb43e4",
+        "currentSha256": "d5f0cbd76459e6f3dae78fa664fdacf6a0ba2519ed64aecfab529c3844fb43e4",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_manager.cs.meta",
+        "sha256": "17f43765a9338f6b7b59bf2c6b76486564c931e4848af31bd5309f782f9e38f8",
+        "currentSha256": "17f43765a9338f6b7b59bf2c6b76486564c931e4848af31bd5309f782f9e38f8",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/CatShotgun.cs.meta",
+        "sha256": "5db88f861fa14dc59e9f23393eda8e8da36a4d6ab5aa5a657426487b5be2568e",
+        "currentSha256": "5db88f861fa14dc59e9f23393eda8e8da36a4d6ab5aa5a657426487b5be2568e",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Fish_manager.cs.meta",
+        "sha256": "ecd7accdd73bbe61f82329fa4992e05745f2dc65cd475dff8537f703829176bf",
+        "currentSha256": "ecd7accdd73bbe61f82329fa4992e05745f2dc65cd475dff8537f703829176bf",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Contents_Unlock_manager.cs.meta",
+        "sha256": "286145379bb1c727222853d4334f8053c0f643a0d283e561834c3961fe3829dd",
+        "currentSha256": "286145379bb1c727222853d4334f8053c0f643a0d283e561834c3961fe3829dd",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_PetSelect_Slot.cs.meta",
+        "sha256": "f1c276750dc73381b620262e2dc37118b74b0563ad6325fe912f486fa6152e31",
+        "currentSha256": "f1c276750dc73381b620262e2dc37118b74b0563ad6325fe912f486fa6152e31",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalMissions.cs.meta",
+        "sha256": "6c218725f7da4ed5534f2794179b90b605a31a97de983510b4f9076f60c08e67",
+        "currentSha256": "6c218725f7da4ed5534f2794179b90b605a31a97de983510b4f9076f60c08e67",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_GunSelect_Panel.cs.meta",
+        "sha256": "c796076df17d40267042f6f8b5547621d412f3cd79926e54d073384ce1afae21",
+        "currentSha256": "c796076df17d40267042f6f8b5547621d412f3cd79926e54d073384ce1afae21",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/ForestRuntimeAcceptance.cs.meta",
+        "sha256": "c50708e1f7f1da63df94aa3c81247d9e460ab4e0bf345e7cd2771d25efac6ff4",
+        "currentSha256": "c50708e1f7f1da63df94aa3c81247d9e460ab4e0bf345e7cd2771d25efac6ff4",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Mission_Item_UI.cs.meta",
+        "sha256": "40fa78eaa0d27487270ac765c383e3fcaad69d38b516660e3df2622c0b6bbf8f",
+        "currentSha256": "40fa78eaa0d27487270ac765c383e3fcaad69d38b516660e3df2622c0b6bbf8f",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Pet_Ingame_manager.cs.meta",
+        "sha256": "3f93b8add44a0e7577f7c23a6e43d6e1c75c33d6660d7a2b3ccc663fdc68d41f",
+        "currentSha256": "3f93b8add44a0e7577f7c23a6e43d6e1c75c33d6660d7a2b3ccc663fdc68d41f",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/StarUpgrade_popup.cs.meta",
+        "sha256": "8098a01f72f8467dea4c7a7637797dd7dec493231f109ed1226b80b7bcc5cd8a",
+        "currentSha256": "8098a01f72f8467dea4c7a7637797dd7dec493231f109ed1226b80b7bcc5cd8a",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Skin_Item_UI.cs.meta",
+        "sha256": "9a1e4265e4907c79798345f54f4eac3455155a7ec2146bf90568035dd84ee2f9",
+        "currentSha256": "9a1e4265e4907c79798345f54f4eac3455155a7ec2146bf90568035dd84ee2f9",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryTutorialPulse.cs.meta",
+        "sha256": "a3579e6d1af40127817326dc25455ea6f13684ebbfbe5f199f6817cf7d5ac4ee",
+        "currentSha256": "a3579e6d1af40127817326dc25455ea6f13684ebbfbe5f199f6817cf7d5ac4ee",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_Boss.cs.meta",
+        "sha256": "3d91359dce81d5b3fb5deb5b26d04005650a1032de20d0cd30da86fc5deaa3af",
+        "currentSha256": "3d91359dce81d5b3fb5deb5b26d04005650a1032de20d0cd30da86fc5deaa3af",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Fish_Info.cs.meta",
+        "sha256": "7fceb5122be0927258be2a3dd770fd6a4916739336595c62d390831fdb0a285a",
+        "currentSha256": "7fceb5122be0927258be2a3dd770fd6a4916739336595c62d390831fdb0a285a",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Tree_manager.cs.meta",
+        "sha256": "94ab5c9c73fafffc06846a65fe9ea66ce857b39a2dc8f00fb95779bc3a03e4e5",
+        "currentSha256": "94ab5c9c73fafffc06846a65fe9ea66ce857b39a2dc8f00fb95779bc3a03e4e5",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/DiaPig.cs.meta",
+        "sha256": "914670b872b9a4d5e87a724fc54cce3510300ab6a0f043a99a257a192308956c",
+        "currentSha256": "914670b872b9a4d5e87a724fc54cce3510300ab6a0f043a99a257a192308956c",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Pet_Dummy.cs.meta",
+        "sha256": "2f87ff39991514ded04975ba70cb4ea877619185af40cbce057977368216e6d9",
+        "currentSha256": "2f87ff39991514ded04975ba70cb4ea877619185af40cbce057977368216e6d9",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/BounceBtn.cs.meta",
+        "sha256": "c0d7e4c0e3ab4bd5a7dde4ca196ec638c5c405551505709901fc0144d74d8f9d",
+        "currentSha256": "c0d7e4c0e3ab4bd5a7dde4ca196ec638c5c405551505709901fc0144d74d8f9d",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/StarUpgrade_manager.cs.meta",
+        "sha256": "47a7b3d87256d8c50ec05bda99bad334abd6486512a1093e72f0ae3d4805e29d",
+        "currentSha256": "47a7b3d87256d8c50ec05bda99bad334abd6486512a1093e72f0ae3d4805e29d",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Monster.cs.meta",
+        "sha256": "6a2c0ff99e53fa458d10c9002668ae312e7a35234c64bb425ba68d0d4886f6bb",
+        "currentSha256": "6a2c0ff99e53fa458d10c9002668ae312e7a35234c64bb425ba68d0d4886f6bb",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryRewardedAds.cs.meta",
+        "sha256": "120d570ced7a52ca5f63a13019b501eccae37f973f855962c1942aa85ae38c1c",
+        "currentSha256": "120d570ced7a52ca5f63a13019b501eccae37f973f855962c1942aa85ae38c1c",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryRewardRotation.cs.meta",
+        "sha256": "3c4bc9e790b5d7a0d050e52d8a2ac9ffd87099734a04f4ba11b35858a91c859f",
+        "currentSha256": "3c4bc9e790b5d7a0d050e52d8a2ac9ffd87099734a04f4ba11b35858a91c859f",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Gun_Merge_Tutorial.cs.meta",
+        "sha256": "59d93870b3be05b88e4502730677d2a02c21d7f69d683b3ddabdbbccb2009db6",
+        "currentSha256": "59d93870b3be05b88e4502730677d2a02c21d7f69d683b3ddabdbbccb2009db6",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalSaveData.cs.meta",
+        "sha256": "81a691de0f77607eaf40daeb31e9d389872a70e54499264970b9804852f24c92",
+        "currentSha256": "81a691de0f77607eaf40daeb31e9d389872a70e54499264970b9804852f24c92",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalPetInventory.cs.meta",
+        "sha256": "015f39836dbcd04700e0de6345aeaf0e44becafe95524c87a045cf7f6deb6840",
+        "currentSha256": "015f39836dbcd04700e0de6345aeaf0e44becafe95524c87a045cf7f6deb6840",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Tree_SpeedRun.cs.meta",
+        "sha256": "ae786541072a24a6488f5decd255a705aeb10dadff38f6d0b7c6f3756a336ecb",
+        "currentSha256": "ae786541072a24a6488f5decd255a705aeb10dadff38f6d0b7c6f3756a336ecb",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Content_Info.cs.meta",
+        "sha256": "6f6c72042b8b8247c7de2fce4e114cfcd4d4c27993a61aea4197d0e08643f3d6",
+        "currentSha256": "6f6c72042b8b8247c7de2fce4e114cfcd4d4c27993a61aea4197d0e08643f3d6",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalMineLayout.cs.meta",
+        "sha256": "8152135f6762b37f7d59180d99ae68de0cc8836b1b951d1bb56aa1aac6bfc23e",
+        "currentSha256": "8152135f6762b37f7d59180d99ae68de0cc8836b1b951d1bb56aa1aac6bfc23e",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Relic_DrawMode_Btn.cs.meta",
+        "sha256": "cf490ec44be8ff9585d4e1918a6ba910fb5c03b4760a8bc245760cf598711e06",
+        "currentSha256": "cf490ec44be8ff9585d4e1918a6ba910fb5c03b4760a8bc245760cf598711e06",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/DailyCheck.cs.meta",
+        "sha256": "1035ba52713c2d754011880a9d6c1899a29fd6f1a7cd267b118f5760acb03637",
+        "currentSha256": "1035ba52713c2d754011880a9d6c1899a29fd6f1a7cd267b118f5760acb03637",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/ForestCombatAcceptance.cs.meta",
+        "sha256": "cb81627b9d89ffb1e510914f9b41d8505ba99ca8894f9841ce1028aa3d4a9166",
+        "currentSha256": "cb81627b9d89ffb1e510914f9b41d8505ba99ca8894f9841ce1028aa3d4a9166",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_Map_info_item.cs.meta",
+        "sha256": "dc9346053eba0aafdce0651fc118fe8122c11d287d41937c6aa8b1f9115328c7",
+        "currentSha256": "dc9346053eba0aafdce0651fc118fe8122c11d287d41937c6aa8b1f9115328c7",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Boss_Slider.cs.meta",
+        "sha256": "c049c2fddd32ad06b71c158040e5093c31332a71ea5199de439d3ce39a7f3823",
+        "currentSha256": "c049c2fddd32ad06b71c158040e5093c31332a71ea5199de439d3ce39a7f3823",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Tree_Grid.cs.meta",
+        "sha256": "ea7a5e6ebada36d4d958b089ee2ea7bee5a5f27a5b387493ff31ce31a9e27c87",
+        "currentSha256": "ea7a5e6ebada36d4d958b089ee2ea7bee5a5f27a5b387493ff31ce31a9e27c87",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Offline_Panel_UI.cs.meta",
+        "sha256": "38b90b732f767a408100132bdeb86a3d77eba99a9dbd9f96d6fac54e271e551c",
+        "currentSha256": "38b90b732f767a408100132bdeb86a3d77eba99a9dbd9f96d6fac54e271e551c",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Pet_Item_Demo.cs.meta",
+        "sha256": "5a2a59f4364e409939d86d4f47c3495c8e2e8385a54a8035e8baa8b14a727306",
+        "currentSha256": "5a2a59f4364e409939d86d4f47c3495c8e2e8385a54a8035e8baa8b14a727306",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/SpeedRun_Slider.cs.meta",
+        "sha256": "7edc87005e669f1123656084f0dc9457aab625e3fd429952e5b78d5a43dd7ae1",
+        "currentSha256": "7edc87005e669f1123656084f0dc9457aab625e3fd429952e5b78d5a43dd7ae1",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Pet_manager.cs.meta",
+        "sha256": "5d3d2292705fa3ade8b520cf6b0fc643c2a3469e955ac922313257d2844bc10e",
+        "currentSha256": "5d3d2292705fa3ade8b520cf6b0fc643c2a3469e955ac922313257d2844bc10e",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_Reward_popup.cs.meta",
+        "sha256": "bd010414e72c6c64060d6669beec4ce0ac8dc049fb6872366bb9a15dc122ffc3",
+        "currentSha256": "bd010414e72c6c64060d6669beec4ce0ac8dc049fb6872366bb9a15dc122ffc3",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/AutoUpgrade_UI.cs.meta",
+        "sha256": "be1d2fd542b2f84506d6466bcd5fa2ee71282884ea2e53a74617eb83aa6122c8",
+        "currentSha256": "be1d2fd542b2f84506d6466bcd5fa2ee71282884ea2e53a74617eb83aa6122c8",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Currency.cs.meta",
+        "sha256": "10890bf4f4a310e20a2aeee5d4f6f174b4247595644a6897a660f90f658690f7",
+        "currentSha256": "10890bf4f4a310e20a2aeee5d4f6f174b4247595644a6897a660f90f658690f7",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Pet_Slot.cs.meta",
+        "sha256": "5a112d8dbf248cc5417a319733781bfcbd7bac765836dcb6c1830185ffd505c5",
+        "currentSha256": "5a112d8dbf248cc5417a319733781bfcbd7bac765836dcb6c1830185ffd505c5",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/SpeedRun_manager.cs.meta",
+        "sha256": "51d3b44eea8b00f67b11d20e74e6c63fb5f1fec6c17c99a599cd59038b799d88",
+        "currentSha256": "51d3b44eea8b00f67b11d20e74e6c63fb5f1fec6c17c99a599cd59038b799d88",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Fish_Info_UI.cs.meta",
+        "sha256": "f64c67b4a77381456812888dbedab727b12f196cc30ee971350afc76a89611a1",
+        "currentSha256": "f64c67b4a77381456812888dbedab727b12f196cc30ee971350afc76a89611a1",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/ForestMovementAcceptance.cs.meta",
+        "sha256": "a72e3a7455a80038b6bbe8d977627d47b708d3eb5af70be8ca7e4169ab0d1122",
+        "currentSha256": "a72e3a7455a80038b6bbe8d977627d47b708d3eb5af70be8ca7e4169ab0d1122",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Ore.cs.meta",
+        "sha256": "10545d708758405ed7fc59be8d2e0ca112416ce765a238c74f6265189ecf01db",
+        "currentSha256": "10545d708758405ed7fc59be8d2e0ca112416ce765a238c74f6265189ecf01db",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Relic_Info.cs.meta",
+        "sha256": "a841d0baf6796f0be5b9716c1b322decf2ca196cc634cbf5454297b6af8fdf39",
+        "currentSha256": "a841d0baf6796f0be5b9716c1b322decf2ca196cc634cbf5454297b6af8fdf39",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Fish_Draw_Btn.cs.meta",
+        "sha256": "5cd3a1617b9a1a04cb0ff16b715e1d016facabef709f288fddcd76f3a667ab8b",
+        "currentSha256": "5cd3a1617b9a1a04cb0ff16b715e1d016facabef709f288fddcd76f3a667ab8b",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Rebirth_manager.cs.meta",
+        "sha256": "2a604bd084f6083c230126d39d03ad825156f783ed83b88daf4e41d7cb308d54",
+        "currentSha256": "2a604bd084f6083c230126d39d03ad825156f783ed83b88daf4e41d7cb308d54",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Boss_Start_UI.cs.meta",
+        "sha256": "8eac1bce339300321ecefdfef03a580b16c9923ea7bb6f7dbd0d40f0014426ae",
+        "currentSha256": "8eac1bce339300321ecefdfef03a580b16c9923ea7bb6f7dbd0d40f0014426ae",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Setting.cs.meta",
+        "sha256": "1762b4282169dab3a968a51c775dcb1c96e1b2375cd9d66c434f6aa4ff348a97",
+        "currentSha256": "1762b4282169dab3a968a51c775dcb1c96e1b2375cd9d66c434f6aa4ff348a97",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Rebirth_Panel_UI.cs.meta",
+        "sha256": "bb224d30c08f93b64b904b0f337218748fbbec17c929672fdc81f4d8ae5bdaa7",
+        "currentSha256": "bb224d30c08f93b64b904b0f337218748fbbec17c929672fdc81f4d8ae5bdaa7",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_Map_item.cs.meta",
+        "sha256": "c454fabf7610f7fc8800d2c61b812a67bb17b7de761be2aa05695089b8d442ce",
+        "currentSha256": "c454fabf7610f7fc8800d2c61b812a67bb17b7de761be2aa05695089b8d442ce",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalMonsterRules.cs.meta",
+        "sha256": "cc9fc490b262a89f85930888837da03068644e988825f7244e79e75569fd667d",
+        "currentSha256": "cc9fc490b262a89f85930888837da03068644e988825f7244e79e75569fd667d",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Safe_Slot.cs.meta",
+        "sha256": "43635cdac9e80d8495b98a70819802c7b525af1f174c8e27e1e8212012414f28",
+        "currentSha256": "43635cdac9e80d8495b98a70819802c7b525af1f174c8e27e1e8212012414f28",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalSaveArchive.cs.meta",
+        "sha256": "accf80ad2961006fc2524319950e5d1a66cb90ec6b8b038363c880f4a8236b67",
+        "currentSha256": "accf80ad2961006fc2524319950e5d1a66cb90ec6b8b038363c880f4a8236b67",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/CatMissile.cs.meta",
+        "sha256": "62110973718b08a6364a9744ecd6bf02d7d23e6472b5a6f25792138355451e1e",
+        "currentSha256": "62110973718b08a6364a9744ecd6bf02d7d23e6472b5a6f25792138355451e1e",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Relic_Info_UI.cs.meta",
+        "sha256": "af4c71996e28a4e6e24ec2084831a57b00a9f3de27d35e05144a75b7aa75f33e",
+        "currentSha256": "af4c71996e28a4e6e24ec2084831a57b00a9f3de27d35e05144a75b7aa75f33e",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Monster_manager.cs.meta",
+        "sha256": "487afb478d32b3ddb1b4ea85a1bbb86220c29b359c417d6cf5589703bf78d8ba",
+        "currentSha256": "487afb478d32b3ddb1b4ea85a1bbb86220c29b359c417d6cf5589703bf78d8ba",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Fish_Item.cs.meta",
+        "sha256": "825f4124c0b380407082e1c6e1fb05e08a619c6d7dae64ed9a8f38f73a3b2cb3",
+        "currentSha256": "825f4124c0b380407082e1c6e1fb05e08a619c6d7dae64ed9a8f38f73a3b2cb3",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/FXThrottle.cs.meta",
+        "sha256": "3610621b27595a443345936d6d4867a3b67676989e9c8835a27c948dd3984aa8",
+        "currentSha256": "3610621b27595a443345936d6d4867a3b67676989e9c8835a27c948dd3984aa8",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Draw_Relic_Btn.cs.meta",
+        "sha256": "71dc67ee93b9da3239028e83b425d299e650ab50398ca93b369cdfa620975a54",
+        "currentSha256": "71dc67ee93b9da3239028e83b425d299e650ab50398ca93b369cdfa620975a54",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OfflineProgressManager.cs.meta",
+        "sha256": "11499d081b46b0a3ab81ec89a38db6637d5013bc8846c4403f7e996980d5ac5e",
+        "currentSha256": "11499d081b46b0a3ab81ec89a38db6637d5013bc8846c4403f7e996980d5ac5e",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalDiamondReward.cs.meta",
+        "sha256": "c9f78e4a882f8ad9fd2fe00fcd8ea1d3f79d4855a5d47f72e7b33138ec1169e7",
+        "currentSha256": "c9f78e4a882f8ad9fd2fe00fcd8ea1d3f79d4855a5d47f72e7b33138ec1169e7",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Pet.cs.meta",
+        "sha256": "f327f3ab6119fb4b45262602e681ccf8033af2ed1671b1c1cd4a6470d7dfd79b",
+        "currentSha256": "f327f3ab6119fb4b45262602e681ccf8033af2ed1671b1c1cd4a6470d7dfd79b",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalAutoUpgradeRules.cs.meta",
+        "sha256": "de450f1e4b2cdcab56400fadb7ed20754458f5eab683def3d6c80372e0a07f43",
+        "currentSha256": "de450f1e4b2cdcab56400fadb7ed20754458f5eab683def3d6c80372e0a07f43",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Fish_DeleteZone.cs.meta",
+        "sha256": "9c1527f7127accf1f9eff8faa17f10bfe503fc8536e4342198316efe2df18706",
+        "currentSha256": "9c1527f7127accf1f9eff8faa17f10bfe503fc8536e4342198316efe2df18706",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Bullet_Mesh.cs.meta",
+        "sha256": "42bab7d75e28cbb72bd1fb05a9832693afba8889f155349eb81adb551e795092",
+        "currentSha256": "42bab7d75e28cbb72bd1fb05a9832693afba8889f155349eb81adb551e795092",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Relic_DownPanel.cs.meta",
+        "sha256": "39c24df8ab857daf760c20bd4252b68ce074ba09d3e15d5e76a0079848bc4a7e",
+        "currentSha256": "39c24df8ab857daf760c20bd4252b68ce074ba09d3e15d5e76a0079848bc4a7e",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/StepUp_Banner.cs.meta",
+        "sha256": "07ff7472d4654ab3d93d091b9922c41d486819db2b0f72c6caa9cf0b7d0c44ea",
+        "currentSha256": "07ff7472d4654ab3d93d091b9922c41d486819db2b0f72c6caa9cf0b7d0c44ea",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Bounce.cs.meta",
+        "sha256": "1135ad5d9bdf256a70bc381469f4fab051fff5b3709ffd50f8bf6b31eca98f06",
+        "currentSha256": "1135ad5d9bdf256a70bc381469f4fab051fff5b3709ffd50f8bf6b31eca98f06",
+        "unchanged": true
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/CatCombat.cs.meta",
+        "sha256": "152675ee07d0d61097e37503442ffe6312c669672b8160c89f9c7b0f9217ab95",
+        "currentSha256": "152675ee07d0d61097e37503442ffe6312c669672b8160c89f9c7b0f9217ab95",
+        "unchanged": true
+      },
+      {
+        "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json",
+        "sha256": "3e35e03edb6ec9af2fd766fb84e894093d942772e4b50f7687faba6a3e7106b0",
+        "currentSha256": "3e35e03edb6ec9af2fd766fb84e894093d942772e4b50f7687faba6a3e7106b0",
+        "unchanged": true
+      },
+      {
+        "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json.bak",
+        "sha256": "ef1e1c0d75505343cb9cdd210386f0c68821fa7bc8493dee6749835c80f2a313",
+        "currentSha256": "ef1e1c0d75505343cb9cdd210386f0c68821fa7bc8493dee6749835c80f2a313",
+        "unchanged": true
+      }
+    ],
+    "existingScriptMetasUnchanged": 225,
+    "originalNewMetas": [
+      {
+        "name": "StarGem_Pig",
+        "sha256": "caf80b3e547d4ff52e366af06c2137be1f5fb49faec3739835f03d58d19fe0a3",
+        "guid": "f43c97183db227f346d2aa55ba1b7262"
+      },
+      {
+        "name": "StarGem_Pig_UI",
+        "sha256": "a872387c926fd5f1fe9c07dc053bf2ce49c08ea080a9a547b6dc7f874ef06994",
+        "guid": "9d8be73bf60fc7be875bd8dc9435fd4a"
+      },
+      {
+        "name": "StarGem_Pig_HUD",
+        "sha256": "d0f5f940fd20f5f737da2d0a63ac29c537fc892e0dd6f8f1e75b7652e7890fc3",
+        "guid": "7cc114193a097d0c78a2c059b359d72c"
+      }
+    ],
+    "immutableInputs": [
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/assetripper-baseline/ExportedProject/Assets/Scenes/Main.unity",
+        "sha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+        "expectedSha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/base/assets/bin/Data/Managed/Metadata/global-metadata.dat",
+        "sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+        "expectedSha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884"
+      },
+      {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/split_config.arm64_v8a/lib/arm64-v8a/libil2cpp.so",
+        "expectedSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583"
+      }
+    ],
+    "existingIdentitiesPreserved": 133432,
+    "existingDocumentsChanged": 6,
+    "existingRectTransformsChanged": 0,
+    "removedExistingIdentities": 0,
+    "newOriginalObjects": 0,
+    "newOriginalComponents": 3,
+    "changedSources": [
+      {
+        "path": "Assets/Recovery/Scripts/StarGem_Pig_HUD.cs",
+        "sha256": "9933d075e258552a44f181df49031c082aae14a5f36901e914bfd063bb8d8b6a",
+        "baselineSha256": null
+      },
+      {
+        "path": "Assets/Recovery/Scripts/StarGem_Pig.cs",
+        "sha256": "fcd6088e84817b9a7a1ebec8f088585f77deabe8fdf3b3a49f2542b59853bb7b",
+        "baselineSha256": null
+      },
+      {
+        "path": "Assets/Recovery/Scripts/RecoveryLocalStore.cs",
+        "sha256": "6bc535d0b58c03e93877b2bd2fdb9d4928542a66377109427508e83eda81eafa",
+        "baselineSha256": "852f8bcf5b43f658b163e5a5a815eae5bc07f8a57f420e21688c1b46eb88542c"
+      },
+      {
+        "path": "Assets/Recovery/Scripts/OriginalLocalPurchases.cs",
+        "sha256": "bcec34d92a2353e394e8a6fba848054025c6a3caa359199040106330db33d0f1",
+        "baselineSha256": "ad9197ba95e692f8c0e8b9f4d9e822b15b8a61e7b7c97c21d386870b64c727b5"
+      },
+      {
+        "path": "Assets/Recovery/Scripts/Raid_manager.cs",
+        "sha256": "3368dabc485596d320bd14d60ded4553ca3c2b16e9ecce0473e2706e07b5cbf0",
+        "baselineSha256": "8a5be70d4471d37c8b79ed4e9235197984c1868387dc307c9126b27cda9e4186"
+      },
+      {
+        "path": "Assets/Recovery/Scripts/RecoveryForestClient.cs",
+        "sha256": "f7af6355bacb124869af9af4e59b267fa9db6a1f383cbbc403b52fca584816af",
+        "baselineSha256": "df04e03079e1165e2478b57bed12bb788b4f7b169f9eb1fcd2be6e4ee6bf4022"
+      },
+      {
+        "path": "Assets/Recovery/Scripts/StarGem_Pig_UI.cs",
+        "sha256": "2f3112bf05135de746a6e0b9449bb2022332e100be4ad45197f5c570e696112e",
+        "baselineSha256": null
+      },
+      {
+        "path": "Assets/Recovery/Scripts/OriginalStarGemPig.cs",
+        "sha256": "805cc241d3a41805204c7a3017d37cbb68db6b01d5e2f0f9791b0667fe35c4df",
+        "baselineSha256": null
+      }
+    ],
+    "historicalGpuFramesPreserved": 201,
+    "scopeComplete": false
+  },
+  "handoff": {
+    "starGemPigBound": true,
+    "starGemPigPageHidden": true,
+    "starGemHudBound": true,
+    "starGemNativeAlertIsNull": true,
+    "helperPresent": true,
+    "helperStartsHidden": true,
+    "helperGuns": 65,
+    "helperUiBound": true,
+    "stepUpBound": true,
+    "stepUpItems": 5,
+    "stepUpMissingGunDegreeReferences": 0,
+    "tutorialHudReferences": 9,
+    "originalPopupStartsHidden": true,
+    "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+    "dirty": false,
+    "playing": false,
+    "compiling": false,
+    "updating": false,
+    "testHostFolder": "",
+    "runtimePlusItems": 0,
+    "objects": 35834,
+    "missingScripts": 0,
+    "persist": true,
+    "saveFolderOverride": null,
+    "localRewardedAdDefault": true,
+    "earlyWeaponAdPreview": true,
+    "localPurchaseSimulation": true,
+    "stores": [
+      {
+        "shopBound": true,
+        "shopActive": false
+      }
+    ],
+    "automaticUpgradeBound": true,
+    "autoPopupBound": true,
+    "autoHud": 1,
+    "autoDisabled": false,
+    "offlineBound": true,
+    "offlineMaxSeconds": 28800.0,
+    "inputOverrides": 0,
+    "mouseFixtures": 0,
+    "timeScale": 1.0,
+    "buildScenes": [
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredBullets.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForest.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestHUD.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestProgress.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredJoystick.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredSettings.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredTarget.unity",
+        "enabled": true
+      }
+    ]
+  },
+  "finalConsole": {
+    "sampledUtc": "2026-10-11T07:50:26.373086Z",
+    "ageMs": 160,
+    "compilationFailed": false,
+    "compiling": false,
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "consoleLogs": 0,
+    "seeded": true
+  },
+  "realPaymentCharged": false,
+  "realReceiptOrStoreTransactionHistoryForged": false,
+  "userProgressRestoredOrReset": false,
+  "apkBuilt": false,
+  "deviceAcceptance": false,
+  "gitCommitOrPush": false,
+  "scopeComplete": false,
+  "pending": "SpriteSkin component149337, advanced energy/mesh VFX and full skeletal deformation; remove-ads automatic rewards/sweeps; trusted timing; remaining I2/UI/buff/ad-rebirth/temp-gun/service workflows; two unbound tutorial HUDs; Player/device acceptance"
+}

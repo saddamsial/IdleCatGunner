@@ -1,0 +1,48 @@
+{
+  "status": "completed",
+  "duration": 79.29,
+  "summary": {
+    "total": 5,
+    "passed": 4,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalOnboardingTests.ClearedSaveAndExistingAttackUpgradeSkipWithoutDiamondTopup",
+      "Status": "Passed",
+      "Duration": 14.348198,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalOnboardingTests.FreshProfileStartsNativeUpgradeAndHandFollowsAffordabilityWithoutGrant",
+      "Status": "Failed",
+      "Duration": 5.6401864,
+      "Message": "  Expected: 8\n  But was:  9\n",
+      "StackTrace": "at OriginalOnboardingTests+<FreshProfileStartsNativeUpgradeAndHandFollowsAffordabilityWithoutGrant>d__9.MoveNext () [0x000c0] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalOnboardingTests.cs:40\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalOnboardingTests.NativeFiveStepsThroughActualChallengePurchaseAndRaycastEquipThenColdReload",
+      "Status": "Passed",
+      "Duration": 46.5917931,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalOnboardingTests.RealUpgradeClicksUnlockChallengeAtThreeAndFailedPurchaseCannotAdvance",
+      "Status": "Passed",
+      "Duration": 6.5043577,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalOnboardingTests.RequestNoopAndSetClearedStopAllHandLoopsAndCaptureOnlyOnSave",
+      "Status": "Passed",
+      "Duration": 5.8610692,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json",
+      "backup": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/checkpoints/season-preview-before/0-NoSaveFile.json",
+      "sha256": "ccba54572d12cd1fa43b14c4ae18f8d014bd14634ef9a97dccd2b0cdf101d95e",
+      "after": "ccba54572d12cd1fa43b14c4ae18f8d014bd14634ef9a97dccd2b0cdf101d95e",
+      "unchanged": true,
+      "expectedCodeChange": false
+    },
+    {
+      "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json.bak",
+      "backup": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/checkpoints/season-preview-before/1-NoSaveFile.json.bak",
+      "sha256": "cda53b8e91c9b8ff716e574f9c9669b18eacee2c841350abd005deb8bea0ae0d",
+      "after": "cda53b8e91c9b8ff716e574f9c9669b18eacee2c841350abd005deb8bea0ae0d",
+      "unchanged": true,
+      "expectedCodeChange": false
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scenes/RecoveredClient.unity",
+      "backup": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/checkpoints/season-preview-before/2-RecoveredClient.unity",
+      "sha256": "d6c0e89621f7cd6196db22521a898cb7073635f81118f3a84c007143799c36b6",
+      "after": "d6c0e89621f7cd6196db22521a898cb7073635f81118f3a84c007143799c36b6",
+      "unchanged": true,
+      "expectedCodeChange": false
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Resources/StarChineseFallback.asset",
+      "backup": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/checkpoints/season-preview-before/3-StarChineseFallback.asset",
+      "sha256": "d122df113d6c73a678919fd11f6f01a1c6d44ac12870980d3cfe99ed19c523a7",
+      "after": "d122df113d6c73a678919fd11f6f01a1c6d44ac12870980d3cfe99ed19c523a7",
+      "unchanged": true,
+      "expectedCodeChange": false
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Mission_Reward_Item.cs",
+      "backup": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/checkpoints/season-preview-before/4-Mission_Reward_Item.cs",
+      "sha256": "32cf9f61b1b7e6ad8771712e65191508b1dc1e1af5e0ee94955964b7324351a6",
+      "after": "2858ba08337de7276b07a5585f022cc8e2e03e46948dcb0797392680fc62ae11",
+      "unchanged": false,
+      "expectedCodeChange": true
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryClientPresentation.cs",
+      "backup": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/checkpoints/season-preview-before/5-RecoveryClientPresentation.cs",
+      "sha256": "6d1bbe9dcb72a35f5c94aee479892f158ed84ba3e9414aacce08b38e4d365f7c",
+      "after": "b64b40642486c340c247c758f1e3ebcb0a7cf320d4242e427842fd12d4b381e7",
+      "unchanged": false,
+      "expectedCodeChange": true
+    }
+  ],
+  "existingMetaCount": 536,
+  "existingMetasChanged": [],
+  "newMetas": [
+    "Assets/Recovery/Resources/OriginalSeasonPreview.json.meta",
+    "Assets/Recovery/Tests/PlayMode/OriginalSeasonPreviewTests.cs.meta",
+    "Assets/Recovery/Scripts/NewSeason_UI.cs.meta",
+    "Assets/Recovery/Scripts/OriginalSeasonPreview.cs.meta"
+  ]
+}

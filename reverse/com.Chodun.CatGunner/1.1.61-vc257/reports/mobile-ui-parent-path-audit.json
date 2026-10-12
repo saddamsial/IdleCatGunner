@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var d=JsonUtility.FromJson<CatGunner.Recovery.OriginalModeText>(System.IO.File.ReadAllText(System.IO.Path.GetFullPath(System.IO.Path.Combine(Application.dataPath,\"../../../reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/remaining-ui-text-data.json\"))));var canvas=UnityEngine.Object.FindObjectsByType<Canvas>(UnityEngine.FindObjectsInactive.Include,UnityEngine.FindObjectsSortMode.None).First(x=>x.name==\"Canvas\").transform;string PathFor(Transform t){var n=new System.Collections.Generic.List<string>();while(t!=canvas){n.Insert(0,t.name);t=t.parent;if(t==null)return \"\";}return string.Join(\"/\",n);}var all=canvas.GetComponentsInChildren<TMPro.TMP_Text>(true);return d.Rows.Where(r=>d.Resolve(canvas,r)==null).Select(r=>new{r.Path,matches=all.Count(t=>PathFor(t.transform)==r.Path)}).Where(x=>x.matches>0).ToArray();"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": [
+        {
+          "Path": "Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Locked_obj/Image/I2_txt(Outline)",
+          "matches": 1
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,27 @@
+02c36504  stp x30,x21,[sp, #-0x20]!
+02c36508  stp x20,x19,[sp, #0x10]
+02c3650c  adrp x20,0x625c000
+02c36510  adrp x21,0x5e63000
+02c36514  mov x19,x0
+02c36518  ldrb w8,[x20, #0x6c]
+02c3651c  ldr x21,[x21, #0x158]
+02c36520  tbnz w8,#0x0,0x02c36538
+02c36524  adrp x0,0x5e63000
+02c36528  ldr x0,[x0, #0x158]
+02c3652c  bl 0x029f5a50
+02c36530  mov w8,#0x1
+02c36534  strb w8,[x20, #0x6c]
+02c36538  ldr x0,[x21]
+02c3653c  bl 0x029f5cec
+02c36540  mov x1,xzr
+02c36544  mov x20,x0
+02c36548  bl 0x04893238
+02c3654c  mov x0,x20
+02c36550  mov x1,x19
+02c36554  str wzr,[x20, #0x10]
+02c36558  str x19,[x0, #0x20]!
+02c3655c  bl 0x029f59f4
+02c36560  mov x0,x20
+02c36564  ldp x20,x19,[sp, #0x10]
+02c36568  ldp x30,x21,[sp], #0x20
+02c3656c  ret

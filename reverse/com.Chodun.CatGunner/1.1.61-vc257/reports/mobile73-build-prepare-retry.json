@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "if(UnityEditor.EditorApplication.isPlaying||UnityEditor.EditorApplication.isCompiling)throw new System.Exception(\"Finish tests first\");\nvar root=System.IO.Path.GetFullPath(System.IO.Path.Combine(Application.dataPath,\"../../..\"));\nvar report=System.IO.Path.Combine(root,\"reverse/com.Chodun.CatGunner/1.1.61-vc257/reports\");\nSystem.IO.Directory.CreateDirectory(System.IO.Path.Combine(root,\"Build/gradle-cache\"));System.IO.Directory.CreateDirectory(System.IO.Path.Combine(root,\"Build/tmp\"));\nSystem.IO.File.WriteAllText(System.IO.Path.Combine(report,\"mobile73-build-environment-before.json\"),Newtonsoft.Json.JsonConvert.SerializeObject(new {gradle=System.Environment.GetEnvironmentVariable(\"GRADLE_USER_HOME\"),tmp=System.Environment.GetEnvironmentVariable(\"TMPDIR\"),target=UnityEditor.EditorUserBuildSettings.activeBuildTarget.ToString()},Newtonsoft.Json.Formatting.Indented));\nSystem.Environment.SetEnvironmentVariable(\"GRADLE_USER_HOME\",System.IO.Path.Combine(root,\"Build/gradle-cache\"));\nSystem.Environment.SetEnvironmentVariable(\"TMPDIR\",System.IO.Path.Combine(root,\"Build/tmp\"));\nUnityEditor.PlayerSettings.SetApplicationIdentifier(UnityEditor.Build.NamedBuildTarget.Android,\"com.ravanla.idlecatgunner.recovery\");\nUnityEditor.PlayerSettings.companyName=\"Ravanla\";UnityEditor.PlayerSettings.productName=\"CatGunner 恢复试玩\";UnityEditor.PlayerSettings.bundleVersion=\"0.73.0\";\nUnityEditor.PlayerSettings.Android.bundleVersionCode=73;\nUnityEditor.PlayerSettings.SetScriptingBackend(UnityEditor.Build.NamedBuildTarget.Android,UnityEditor.ScriptingImplementation.IL2CPP);\nUnityEditor.PlayerSettings.SetManagedStrippingLevel(UnityEditor.Build.NamedBuildTarget.Android,UnityEditor.ManagedStrippingLevel.Low);\nUnityEditor.PlayerSettings.Android.targetArchitectures=UnityEditor.AndroidArchitecture.ARM64;\nUnityEditor.PlayerSettings.Android.minSdkVersion=UnityEditor.AndroidSdkVersions.AndroidApiLevel26;\nUnityEditor.PlayerSettings.Android.targetSdkVersion=UnityEditor.AndroidSdkVersions.AndroidApiLevel36;\nUnityEditor.PlayerSettings.defaultInterfaceOrientation=UnityEditor.UIOrientation.Portrait;\nUnityEditor.PlayerSettings.SetUseDefaultGraphicsAPIs(UnityEditor.BuildTarget.Android,false);\nUnityEditor.PlayerSettings.SetGraphicsAPIs(UnityEditor.BuildTarget.Android,new[]{UnityEngine.Rendering.GraphicsDeviceType.OpenGLES3});\nUnityEditor.PlayerSettings.Android.useCustomKeystore=true;\nUnityEditor.PlayerSettings.Android.keystoreName=System.IO.Path.Combine(root,\"Build/.local-signing/CatGunner-Recovery-Test.jks\");\nvar pass=System.IO.File.ReadAllText(System.IO.Path.Combine(root,\"Build/.local-signing/keystore-password.txt\"));\nUnityEditor.PlayerSettings.Android.keystorePass=pass;UnityEditor.PlayerSettings.Android.keyaliasName=\"catgunner-recovery-test\";UnityEditor.PlayerSettings.Android.keyaliasPass=pass;\nUnityEditor.PlayerSettings.Android.optimizedFramePacing=true;\nUnityEditor.EditorUserBuildSettings.development=false;\nUnityEditor.EditorUserBuildSettings.allowDebugging=false;\nUnityEditor.EditorUserBuildSettings.connectProfiler=false;\nUnityEditor.EditorUserBuildSettings.buildAppBundle=false;UnityEditor.EditorUserBuildSettings.exportAsGoogleAndroidProject=false;\nreturn new {package=\"com.ravanla.idlecatgunner.recovery\",version=\"0.73.0\",code=73,abi=\"arm64-v8a\",minApi=26,targetApi=36,graphics=\"OpenGLES3\",signing=\"Independent local recovery test key; not original developer\",tempOnExternalVolume=true};\n"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "package": "com.ravanla.idlecatgunner.recovery",
+        "version": "0.73.0",
+        "code": 73,
+        "abi": "arm64-v8a",
+        "minApi": 26,
+        "targetApi": 36,
+        "graphics": "OpenGLES3",
+        "signing": "Independent local recovery test key; not original developer",
+        "tempOnExternalVolume": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

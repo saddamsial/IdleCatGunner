@@ -1,0 +1,62 @@
+--------- beginning of system
+D/MiuiDownscaleImpl(12276): set override inverted scale : 1.0
+I/ActivityThread(12276): TrafficStats init done
+I/ActivityThread(12276): Miui Feature Init done
+D/MiuiMultiWindowUtils(12276): freeform resolution args raw data:{  "wide_default":{    "freeform_args": {        "vertical_portrait":{"aspect_ratio":0.626, "original_ratio":0.5643,"original_scale":0.74,"top_margin":0.168,"left_margin":0.484},        "horizontal_portrait":{"aspect_ratio":0.626, "original_ratio":0.5643,"original_scale":0.74,"top_margin":0.1222,"left_margin":0.59745},        "vertical_landscape":{"aspect_ratio":1.6, "original_ratio":1,"original_scale":0.604,"top_margin":0.2596,"left_margin":0.2624},        "horizontal_landscape":{"aspect_ratio":1.6, "original_ratio":1,"original_scale":0.604,"top_margin":0.213,"left_margin":0.3758}    },    "mini_freeform_args":{        "vertical_portrait":{"original_ratio":0.147},        "horizontal_portrait":{"original_ratio":0.147},        "vertical_landscape":{"original_ratio":0.165},        "horizontal_landscape":{"original_ratio":0.165}    }  },  "narrow_default": {    "freeform_args": {        "vertical_portrait":{"aspect_ratio":0.626, "original_ratio":1,"original_scale":0.74,"top_margin":0.0753,"left_margin":-1},        "horizontal_portrait":{"aspect_ratio":0.626, "original_ratio":1,"original_scale":0.5756,"top_margin":-1,"left_margin":0.0753},        "vertical_landscape":{"aspect_ratio":1.6, "original_ratio":0.6847,"original_scale":0.587,"top_margin":0.0753,"left_margin":-1},        "horizontal_landscape":{"aspect_ratio":1.6, "original_ratio":0.6847,"original_scale":0.587,"top_margin":-1,"left_margin":0.0753}    },    "mini_freeform_args":{        "vertical_portrait":{"original_ratio":0.26},        "horizontal_portrait":{"original_ratio":0.26},        "vertical_landscape":{"original_ratio":0.293},        "horizontal_landscape":{"original_ratio":0.293}    }  },  "regular_default": {    "freeform_args": {      "vertical_portrait":{"aspect_ratio":0.625, "original_ratio":1,"original_scale":0.7,"top_margin":0.109,"left_margin":-1},      "horizontal_portrait":{"aspect_ratio":0.6667, "original_ratio":1,"original_scale":0.6102,"top_margin":-1,"left_margin":0.026},      "vertical_landscape":{"aspect_ratio":1.6, "original_ratio":1,"original_scale":0.4244,"top_margin":0.109,"left_margin":-1},      "horizontal_landscape":{"aspect_ratio":1.6, "original_ratio":1,"original_scale":0.4244,"top_margin":-1,"left_margin":0.026}    },    "mini_freeform_args":{      "vertical_portrait":{"original_ratio":0.25},      "horizontal_portrait":{"original_ratio":0.25},      "vertical_landscape":{"original_ratio":0.25},      "horizontal_landscape":{"original_ratio":0.25}    }  },  "pad_default": {    "freeform_args": {      "vertical_portrait":{"aspect_ratio":0.5625, "original_ratio":0.375,"original_scale":0.835,"top_margin":0.049,"left_margin":0.2775},      "horizontal_portrait":{"aspect_ratio":0.5625, "original_ratio":0.375,"original_scale":0.835,"top_margin":-1,"left_margin":0.6525},      "vertical_landscape":{"aspect_ratio":-1, "original_ratio":1,"original_scale":0.468,"top_margin":0.049,"left_margin":-1},      "horizontal_landscape":{"aspect_ratio":-1, "original_ratio":1,"original_scale":0.468,"top_margin":-1,"left_margin":0.4976}    },    "mini_freeform_args":{      "vertical_portrait":{"original_ratio":0.144},      "horizontal_portrait":{"original_ratio":0.144},      "vertical_landscape":{"original_ratio":0.2},      "horizontal_landscape":{"original_ratio":0.2}    }  }}
+D/MiuiMultiWindowUtils(12276): initFreeFormResolutionArgs failed, device is shennong
+D/FramePredict(12276): FramePredict init: false
+D/FramePredict(12276): init success
+D/DecorViewImmersiveImpl(12276): onAttachedToWindow:com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity
+E/FramePredict(12276): registerContentObserver fail
+V/ViewRootImplStubImpl(12276): enableSyncSurfaceView: do not sync surface view, vri:com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity, surfaceView:SurfaceView[com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity], vri size:1440x3200, surfaceView size:1440x3200
+I/ContentCatcher_TaplusBlackListHelper(12276):  mActivities isEmpty
+I/ContentCatcher_TaplusBlackListHelper(12276):  blackList size: 13 package is com.ravanla.idlecatgunner.recovery isInTaplusWhiteList: true
+--------- beginning of main
+D/AudioTrackImpl(12276): [audioTrackData][fine] 15s(f:15013 m:0 s:0 k:0 z:0) : pid 12276 uid 10631 sessionId 48961 sr 24000 ch 2 fmt 5 maxAmplitude 255
+I/MIUIInput(12276): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=497370170, downTime=497370170, phoneEventTime=17:20:28.518 } moveCount:0
+I/MIUIInput(12276): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=497370170, downTime=497370170, phoneEventTime=17:20:28.517 } moveCount:0
+I/MIUIInput(12276): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=497370533, downTime=497370533, phoneEventTime=17:20:28.881 } moveCount:0
+I/MIUIInput(12276): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=497370533, downTime=497370533, phoneEventTime=17:20:28.880 } moveCount:0
+I/MIUIInput(12276): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=497370900, downTime=497370900, phoneEventTime=17:20:29.247 } moveCount:0
+I/MIUIInput(12276): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=497370900, downTime=497370900, phoneEventTime=17:20:29.248 } moveCount:0
+D/AudioTrackImpl(12276): [audioTrackData][fine] 20s(f:20012 m:0 s:0 k:0 z:0) : pid 12276 uid 10631 sessionId 48961 sr 24000 ch 2 fmt 5 maxAmplitude 253
+D/AudioTrackImpl(12276): [audioTrackData][fine] 25s(f:25012 m:0 s:0 k:0 z:0) : pid 12276 uid 10631 sessionId 48961 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(12276): [audioTrackData][fine] 30s(f:30013 m:0 s:0 k:0 z:0) : pid 12276 uid 10631 sessionId 48961 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(12276): [audioTrackData][fine] 35s(f:35001 m:0 s:0 k:0 z:0) : pid 12276 uid 10631 sessionId 48961 sr 24000 ch 2 fmt 5 maxAmplitude 255
+I/MIUIInput(12276): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=497406202, downTime=497406202, phoneEventTime=17:21:04.549 } moveCount:0
+I/MIUIInput(12276): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=497406202, downTime=497406202, phoneEventTime=17:21:04.549 } moveCount:0
+D/AudioTrackImpl(12276): [audioTrackData][fine] 40s(f:40000 m:0 s:0 k:0 z:0) : pid 12276 uid 10631 sessionId 48961 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(12276): [audioTrackData][fine] 45s(f:45002 m:0 s:0 k:0 z:0) : pid 12276 uid 10631 sessionId 48961 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(12276): [audioTrackData][fine] 50s(f:50009 m:0 s:0 k:0 z:0) : pid 12276 uid 10631 sessionId 48961 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(12276): [audioTrackData][fine] 55s(f:55000 m:0 s:0 k:0 z:0) : pid 12276 uid 10631 sessionId 48961 sr 24000 ch 2 fmt 5 maxAmplitude 254
+D/AudioTrackImpl(12276): [audioTrackData][fine] 60s(f:60009 m:0 s:0 k:0 z:0) : pid 12276 uid 10631 sessionId 48961 sr 24000 ch 2 fmt 5 maxAmplitude 254
+I/MIUIInput(12276): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=497453187, downTime=497453187, phoneEventTime=17:21:51.534 } moveCount:0
+I/MIUIInput(12276): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=497453187, downTime=497453187, phoneEventTime=17:21:51.535 } moveCount:0
+I/MIUIInput(12276): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=497453554, downTime=497453554, phoneEventTime=17:21:51.902 } moveCount:0
+I/MIUIInput(12276): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=497453554, downTime=497453554, phoneEventTime=17:21:51.901 } moveCount:0
+D/AudioTrackImpl(12276): [audioTrackData][fine] 5s(f:5019 m:0 s:0 k:0 z:0) : pid 12276 uid 10631 sessionId 48961 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(12276): [audioTrackData][fine] 10s(f:10010 m:0 s:0 k:0 z:0) : pid 12276 uid 10631 sessionId 48961 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(12276): [audioTrackData][fine] 15s(f:15010 m:0 s:0 k:0 z:0) : pid 12276 uid 10631 sessionId 48961 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(12276): [audioTrackData][fine] 20s(f:20006 m:0 s:0 k:0 z:0) : pid 12276 uid 10631 sessionId 48961 sr 24000 ch 2 fmt 5 maxAmplitude 252
+D/AudioTrackImpl(12276): [audioTrackData][fine] 25s(f:25004 m:0 s:0 k:0 z:0) : pid 12276 uid 10631 sessionId 48961 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(12276): [audioTrackData][fine] 30s(f:30005 m:0 s:0 k:0 z:0) : pid 12276 uid 10631 sessionId 48961 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(12276): [audioTrackData][fine] 35s(f:35014 m:0 s:0 k:0 z:0) : pid 12276 uid 10631 sessionId 48961 sr 24000 ch 2 fmt 5 maxAmplitude 254
+D/AudioTrackImpl(12276): [audioTrackData][fine] 40s(f:40005 m:0 s:0 k:0 z:0) : pid 12276 uid 10631 sessionId 48961 sr 24000 ch 2 fmt 5 maxAmplitude 252
+I/MIUIInput(12276): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=497526381, downTime=497526381, phoneEventTime=17:23:04.728 } moveCount:0
+I/MIUIInput(12276): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=497526515, downTime=497526381, phoneEventTime=17:23:04.862 } moveCount:0
+D/AudioTrackImpl(12276): [audioTrackData][fine] 45s(f:45015 m:0 s:0 k:0 z:0) : pid 12276 uid 10631 sessionId 48961 sr 24000 ch 2 fmt 5 maxAmplitude 255
+I/ContentCatcher(12276): SettingTrigger : unregister status observer com.unity3d.player.UnityPlayerGameActivity
+I/Unity   (12276): Handle cmd APP_CMD_PAUSE(14)
+I/Unity   (12276): Handle cmd APP_CMD_LOST_FOCUS(8)
+I/Unity   (12276): Handle cmd APP_CMD_TERM_WINDOW(2)
+D/AAudio  (12276): AAudioStream_requestStop(s#1) called
+D/AAudioStream(12276): setState(s#1) from 4 to 9
+I/AudioTrack(12276): stop(sessionID=48961), packageName: com.ravanla.idlecatgunner.recovery
+D/AudioTrack(12276): stop(6672): prior state:STATE_ACTIVE
+D/AudioTrack(12276): stop(6672): called with 12093600 frames delivered
+D/AAudioStream(12276): setState(s#1) from 9 to 10
+W/WindowOnBackDispatcher(12276): sendCancelIfRunning: isInProgress=false callback=com.unity3d.player.a.e@867a693
+V/ViewRootImplStubImpl(12276): enableSyncSurfaceView: do not sync surface view, vri:com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity, surfaceView:SurfaceView[com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity], vri size:1440x3200, surfaceView size:1440x3200
+I/Unity   (12276): Handle cmd APP_CMD_STOP(15)
+I/Unity   (12276): Handle cmd APP_CMD_SAVE_STATE(13)
+I/Unity   (12276): Handle cmd APP_CMD_LOW_MEMORY(10)

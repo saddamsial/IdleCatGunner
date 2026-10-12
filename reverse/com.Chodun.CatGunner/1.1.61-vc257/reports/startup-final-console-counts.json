@@ -1,0 +1,36 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var t=typeof(UnityEditor.EditorApplication).Assembly.GetType(\"UnityEditor.LogEntries\");var m=t.GetMethod(\"GetCountsByType\",System.Reflection.BindingFlags.Static|System.Reflection.BindingFlags.Public|System.Reflection.BindingFlags.NonPublic);var a=new object[]{0,0,0};m.Invoke(null,a);return m.GetParameters().Select((p,i)=>new {p.Name,count=a[i]}).ToArray();"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": [
+        {
+          "Name": "errorCount",
+          "count": 0
+        },
+        {
+          "Name": "warningCount",
+          "count": 2
+        },
+        {
+          "Name": "logCount",
+          "count": 5
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

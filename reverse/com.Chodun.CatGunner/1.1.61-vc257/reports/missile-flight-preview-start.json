@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "if(!UnityEditor.EditorApplication.isPlaying) throw new System.Exception(\"Not playing\"); UnityEngine.Object.FindFirstObjectByType<CatGunner.Recovery.ForestRuntimeAcceptance>().StartCoroutine(MissilePreview.CaptureFlight()); return \"capturing\";"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": "capturing"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

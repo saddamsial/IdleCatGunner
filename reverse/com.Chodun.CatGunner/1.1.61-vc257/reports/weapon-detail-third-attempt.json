@@ -1,0 +1,41 @@
+{
+  "status": "completed",
+  "duration": 39.15,
+  "summary": {
+    "total": 4,
+    "passed": 3,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalWeaponPresentationTests.ActualInventoryClickUsesOriginalDescriptionButtonSoundAndMuteDragGuards",
+      "Status": "Passed",
+      "Duration": 12.8075007,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalWeaponPresentationTests.All14OriginalLanguageRowsAndSevenNativeTypeMappingsArePreserved",
+      "Status": "Passed",
+      "Duration": 6.0059213,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalWeaponPresentationTests.All65AcquiredTypesAndOriginalAnimationAutohideRestartAndPausedLifetime",
+      "Status": "Failed",
+      "Duration": 12.8808068,
+      "Message": "  Expected string length 9788 but was 9824. Strings differ at index 3616.\n  Expected: \"...pmYWxzZSwiTGFzdFNhdmVUaW1lIjoiIiwiUGxheUZhYl9FbWFpbCI6IiIs...\"\n  But was:  \"...pmYWxzZSwiTGFzdFNhdmVUaW1lIjoiMjAyNi0xMC0xMVQxMzo1MDo0Mi41...\"\n  --------------------------------------------^\n",
+      "StackTrace": "at OriginalWeaponPresentationTests+<All65AcquiredTypesAndOriginalAnimationAutohideRestartAndPausedLifetime>d__20.MoveNext () [0x0044d] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalWeaponPresentationTests.cs:92\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalWeaponPresentationTests.All65WeaponDetailsUseOriginalDescriptionsAndGradeSprites",
+      "Status": "Passed",
+      "Duration": 6.4085209,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

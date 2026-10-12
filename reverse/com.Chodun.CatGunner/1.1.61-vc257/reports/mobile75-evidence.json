@@ -1,0 +1,719 @@
+{
+  "rules": [
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76
+  ],
+  "target": "com.Chodun.CatGunner1.1.61 vc257 ARM64",
+  "updatedUtc": "2026-10-12T09:27:10.491463+00:00",
+  "tests": [
+    {
+      "report": "mobile75-viewport-language.json",
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 29.56
+    },
+    {
+      "report": "mobile72-accepted.json",
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 39.88
+    },
+    {
+      "report": "mobile73-accepted.json",
+      "summary": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 23.85
+    },
+    {
+      "report": "mobile75-mode-regression.json",
+      "summary": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 51.96
+    },
+    {
+      "report": "mobile75-startup.json",
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 24.75
+    },
+    {
+      "report": "mobile74-pet-wallet.json",
+      "summary": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 8.1
+    },
+    {
+      "report": "mobile75-accepted.json",
+      "summary": {
+        "total": 5,
+        "passed": 5,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 36.39
+    }
+  ],
+  "build": {
+    "result": "Succeeded",
+    "errors": 0,
+    "warnings": 167,
+    "durationMs": 55548,
+    "development": false
+  },
+  "apk": {
+    "path": "/Volumes/ZHITAI_1T/IdleCatGunner/Build/CatGunner-Recovery-20261012-r75.apk",
+    "bytes": 80814567,
+    "mib": 77.07,
+    "sha256": "c77db8761959bc9ba76e9d5149da2ef1febac55a98f91bb43453678f920bac5c",
+    "package": "com.ravanla.idlecatgunner.recovery",
+    "version": "0.75.0",
+    "versionCode": 75,
+    "minApi": 26,
+    "targetApi": 36,
+    "abi": "arm64-v8a",
+    "archiveIntegrity": true,
+    "signature": "Verifies\nVerified using v1 scheme (JAR signing): false\nVerified using v2 scheme (APK Signature Scheme v2): true\nVerified using v3 scheme (APK Signature Scheme v3): false\nVerified using v3.1 scheme (APK Signature Scheme v3.1): false\nVerified using v4 scheme (APK Signature Scheme v4): false\nVerified for SourceStamp: false\nNumber of signers: 1\nSigner #1 certificate DN: CN=CatGunner Local Recovery Test, OU=Local Testing, O=Recovery Project, C=SG\nSigner #1 certificate SHA-256 digest: 7e43feba1a5cba1251d925eee68b7c85819f3262bb84c020694ed4fbfddec6ef\nSigner #1 certificate SHA-1 digest: bf69b720ec5d2323cf2324978f9d3c3339d202cb\nSigner #1 certificate MD5 digest: 2f9b02a19d23c5b2fe206ef7783542b1\nSigner #1 key algorithm: RSA\nSigner #1 key size (bits): 2048\nSigner #1 public key SHA-256 digest: 08ab510502aed52ebbd59105e2a1716259cb547688798d0ef4b93ef9db613303\nSigner #1 public key SHA-1 digest: 45b828b56e11c1c9741f4e3c95e33b1a8d961169\nSigner #1 public key MD5 digest: 772e934574fa697f432ea8e1a78d0741",
+    "badging": "package: name='com.ravanla.idlecatgunner.recovery' versionCode='75' versionName='0.75.0' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'\ninstall-location:'preferExternal'\nminSdkVersion:'26'\ntargetSdkVersion:'36'\nuses-permission: name='com.ravanla.idlecatgunner.recovery.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'\napplication-label:'CatGunner 恢复试玩'\napplication-label-af:'CatGunner 恢复试玩'\napplication-label-am:'CatGunner 恢复试玩'\napplication-label-ar:'CatGunner 恢复试玩'\napplication-label-as:'CatGunner 恢复试玩'\napplication-label-az:'CatGunner 恢复试玩'\napplication-label-be:'CatGunner 恢复试玩'\napplication-label-bg:'CatGunner 恢复试玩'\napplication-label-bn:'CatGunner 恢复试玩'\napplication-label-bs:'CatGunner 恢复试玩'\napplication-label-ca:'CatGunner 恢复试玩'\napplication-label-cs:'CatGunner 恢复试玩'\napplication-label-da:'CatGunner 恢复试玩'\napplication-label-de:'CatGunner 恢复试玩'\napplication-label-el:'CatGunner 恢复试玩'\napplication-label-en-AU:'CatGunner 恢复试玩'\napplication-label-en-CA:'CatGunner 恢复试玩'\napplication-label-en-GB:'CatGunner 恢复试玩'\napplication-label-en-IN:'CatGunner 恢复试玩'\napplication-label-en-XC:'CatGunner 恢复试玩'\napplication-label-es:'CatGunner 恢复试玩'\napplication-label-es-US:'CatGunner 恢复试玩'\napplication-label-et:'CatGunner 恢复试玩'\napplication-label-eu:'CatGunner 恢复试玩'\napplication-label-fa:'CatGunner 恢复试玩'\napplication-label-fi:'CatGunner 恢复试玩'\napplication-label-fr:'CatGunner 恢复试玩'\napplication-label-fr-CA:'CatGunner 恢复试玩'\napplication-label-gl:'CatGunner 恢复试玩'\napplication-label-gu:'CatGunner 恢复试玩'\napplication-label-hi:'CatGunner 恢复试玩'\napplication-label-hr:'CatGunner 恢复试玩'\napplication-label-hu:'CatGunner 恢复试玩'\napplication-label-hy:'CatGunner 恢复试玩'\napplication-label-in:'CatGunner 恢复试玩'\napplication-label-is:'CatGunner 恢复试玩'\napplication-label-it:'CatGunner 恢复试玩'\napplication-label-iw:'CatGunner 恢复试玩'\napplication-label-ja:'CatGunner 恢复试玩'\napplication-label-ka:'CatGunner 恢复试玩'\napplication-label-kk:'CatGunner 恢复试玩'\napplication-label-km:'CatGunner 恢复试玩'\napplication-label-kn:'CatGunner 恢复试玩'\napplication-label-ko:'CatGunner 恢复试玩'\napplication-label-ky:'CatGunner 恢复试玩'\napplication-label-lo:'CatGunner 恢复试玩'\napplication-label-lt:'CatGunner 恢复试玩'\napplication-label-lv:'CatGunner 恢复试玩'\napplication-label-mk:'CatGunner 恢复试玩'\napplication-label-ml:'CatGunner 恢复试玩'\napplication-label-mn:'CatGunner 恢复试玩'\napplication-label-mr:'CatGunner 恢复试玩'\napplication-label-ms:'CatGunner 恢复试玩'\napplication-label-my:'CatGunner 恢复试玩'\napplication-label-nb:'CatGunner 恢复试玩'\napplication-label-ne:'CatGunner 恢复试玩'\napplication-label-nl:'CatGunner 恢复试玩'\napplication-label-or:'CatGunner 恢复试玩'\napplication-label-pa:'CatGunner 恢复试玩'\napplication-label-pl:'CatGunner 恢复试玩'\napplication-label-pt:'CatGunner 恢复试玩'\napplication-label-pt-BR:'CatGunner 恢复试玩'\napplication-label-pt-PT:'CatGunner 恢复试玩'\napplication-label-ro:'CatGunner 恢复试玩'\napplication-label-ru:'CatGunner 恢复试玩'\napplication-label-si:'CatGunner 恢复试玩'\napplication-label-sk:'CatGunner 恢复试玩'\napplication-label-sl:'CatGunner 恢复试玩'\napplication-label-sq:'CatGunner 恢复试玩'\napplication-label-sr:'CatGunner 恢复试玩'\napplication-label-sr-Latn:'CatGunner 恢复试玩'\napplication-label-sv:'CatGunner 恢复试玩'\napplication-label-sw:'CatGunner 恢复试玩'\napplication-label-ta:'CatGunner 恢复试玩'\napplication-label-te:'CatGunner 恢复试玩'\napplication-label-th:'CatGunner 恢复试玩'\napplication-label-tl:'CatGunner 恢复试玩'\napplication-label-tr:'CatGunner 恢复试玩'\napplication-label-uk:'CatGunner 恢复试玩'\napplication-label-ur:'CatGunner 恢复试玩'\napplication-label-uz:'CatGunner 恢复试玩'\napplication-label-vi:'CatGunner 恢复试玩'\napplication-label-zh-CN:'CatGunner 恢复试玩'\napplication-label-zh-HK:'CatGunner 恢复试玩'\napplication-label-zh-TW:'CatGunner 恢复试玩'\napplication-label-zu:'CatGunner 恢复试玩'\napplication-icon-160:'res/Qu.xml'\napplication-icon-240:'res/Qu.xml'\napplication-icon-320:'res/Qu.xml'\napplication-icon-480:'res/Qu.xml'\napplication-icon-640:'res/Qu.xml'\napplication-icon-65534:'res/Qu.xml'\napplication: label='CatGunner 恢复试玩' icon='res/Qu.xml'\nlaunchable-activity: name='com.unity3d.player.UnityPlayerGameActivity'  label='' icon=''\nfeature-group: label=''\n  uses-gl-es: '0x30000'\n  uses-feature-not-required: name='android.hardware.touchscreen'\n  uses-feature-not-required: name='android.hardware.touchscreen.multitouch'\n  uses-feature-not-required: name='android.hardware.touchscreen.multitouch.distinct'\n  uses-feature: name='android.hardware.screen.portrait'\n  uses-implied-feature: name='android.hardware.screen.portrait' reason='one or more activities have specified a portrait orientation'\nmain\nsupports-screens: 'small' 'normal' 'large' 'xlarge'\nsupports-any-density: 'true'\nlocales: '--_--' 'af' 'am' 'ar' 'as' 'az' 'be' 'bg' 'bn' 'bs' 'ca' 'cs' 'da' 'de' 'el' 'en-AU' 'en-CA' 'en-GB' 'en-IN' 'en-XC' 'es' 'es-US' 'et' 'eu' 'fa' 'fi' 'fr' 'fr-CA' 'gl' 'gu' 'hi' 'hr' 'hu' 'hy' 'in' 'is' 'it' 'iw' 'ja' 'ka' 'kk' 'km' 'kn' 'ko' 'ky' 'lo' 'lt' 'lv' 'mk' 'ml' 'mn' 'mr' 'ms' 'my' 'nb' 'ne' 'nl' 'or' 'pa' 'pl' 'pt' 'pt-BR' 'pt-PT' 'ro' 'ru' 'si' 'sk' 'sl' 'sq' 'sr' 'sr-Latn' 'sv' 'sw' 'ta' 'te' 'th' 'tl' 'tr' 'uk' 'ur' 'uz' 'vi' 'zh-CN' 'zh-HK' 'zh-TW' 'zu'\ndensities: '160' '240' '320' '480' '640' '65534'\nnative-code: 'arm64-v8a'",
+    "permissions": "package: com.ravanla.idlecatgunner.recovery\npermission: com.ravanla.idlecatgunner.recovery.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION\nuses-permission: name='com.ravanla.idlecatgunner.recovery.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'",
+    "zipAlignment16KiB": "Verification successful",
+    "nativeLibraries": [
+      {
+        "path": "lib/arm64-v8a/lib_burst_generated.so",
+        "bytes": 88424,
+        "sha256": "85069cbef6ff7e1cd07f5567bce13d67833721b175c7fb8d2efcd2e450598607",
+        "loadSegments": [
+          {
+            "offset": 0,
+            "virtualAddress": 0,
+            "alignment": 16384
+          },
+          {
+            "offset": 45504,
+            "virtualAddress": 61888,
+            "alignment": 16384
+          },
+          {
+            "offset": 82816,
+            "virtualAddress": 115584,
+            "alignment": 16384
+          },
+          {
+            "offset": 84464,
+            "virtualAddress": 133616,
+            "alignment": 16384
+          }
+        ]
+      },
+      {
+        "path": "lib/arm64-v8a/libc++_shared.so",
+        "bytes": 1292904,
+        "sha256": "4397241b4bd20a8e579bfb41d21107857e12985f6a01ca0c2a5f83380d1270b4",
+        "loadSegments": [
+          {
+            "offset": 0,
+            "virtualAddress": 0,
+            "alignment": 16384
+          },
+          {
+            "offset": 634032,
+            "virtualAddress": 650416,
+            "alignment": 16384
+          },
+          {
+            "offset": 1250032,
+            "virtualAddress": 1282800,
+            "alignment": 16384
+          },
+          {
+            "offset": 1289792,
+            "virtualAddress": 1338944,
+            "alignment": 16384
+          }
+        ]
+      },
+      {
+        "path": "lib/arm64-v8a/libgame.so",
+        "bytes": 152488,
+        "sha256": "9121e3bad5b4fdff6e2ac7a2605aa9dca4f29c37675353689c417c48cbf78e9b",
+        "loadSegments": [
+          {
+            "offset": 0,
+            "virtualAddress": 0,
+            "alignment": 16384
+          },
+          {
+            "offset": 144992,
+            "virtualAddress": 161376,
+            "alignment": 16384
+          },
+          {
+            "offset": 149416,
+            "virtualAddress": 182184,
+            "alignment": 16384
+          }
+        ]
+      },
+      {
+        "path": "lib/arm64-v8a/libil2cpp.so",
+        "bytes": 40298136,
+        "sha256": "7bad5000a1854b5619c4c77ce7d3d195c5fca87576a928102e5c8dd55f7bb23d",
+        "loadSegments": [
+          {
+            "offset": 0,
+            "virtualAddress": 0,
+            "alignment": 16384
+          },
+          {
+            "offset": 15218160,
+            "virtualAddress": 15234544,
+            "alignment": 16384
+          },
+          {
+            "offset": 37579792,
+            "virtualAddress": 37612560,
+            "alignment": 16384
+          },
+          {
+            "offset": 39153416,
+            "virtualAddress": 39202568,
+            "alignment": 16384
+          }
+        ]
+      },
+      {
+        "path": "lib/arm64-v8a/libmain.so",
+        "bytes": 6696,
+        "sha256": "25f18f97d911bce506eb7b6980cba808df1a7de6f8e9381ef3fcd3659d0f1a1d",
+        "loadSegments": [
+          {
+            "offset": 0,
+            "virtualAddress": 0,
+            "alignment": 16384
+          },
+          {
+            "offset": 2592,
+            "virtualAddress": 18976,
+            "alignment": 16384
+          },
+          {
+            "offset": 3872,
+            "virtualAddress": 36640,
+            "alignment": 16384
+          },
+          {
+            "offset": 4432,
+            "virtualAddress": 53584,
+            "alignment": 16384
+          }
+        ]
+      },
+      {
+        "path": "lib/arm64-v8a/libswappywrapper.so",
+        "bytes": 226400,
+        "sha256": "317a900d78ff204371fcd73da8f23cce66d8106084d6ff4fcb210ac8ae2ac839",
+        "loadSegments": [
+          {
+            "offset": 0,
+            "virtualAddress": 0,
+            "alignment": 16384
+          },
+          {
+            "offset": 208352,
+            "virtualAddress": 224736,
+            "alignment": 16384
+          },
+          {
+            "offset": 215152,
+            "virtualAddress": 247920,
+            "alignment": 16384
+          }
+        ]
+      },
+      {
+        "path": "lib/arm64-v8a/libunity.so",
+        "bytes": 19829056,
+        "sha256": "cb5ef7eebbcbb241a4ba5a13edc3daa47e99e08efed340f9aaa79f482854e8b4",
+        "loadSegments": [
+          {
+            "offset": 0,
+            "virtualAddress": 0,
+            "alignment": 16384
+          },
+          {
+            "offset": 4518656,
+            "virtualAddress": 4535040,
+            "alignment": 16384
+          },
+          {
+            "offset": 19451216,
+            "virtualAddress": 19483984,
+            "alignment": 16384
+          },
+          {
+            "offset": 19727808,
+            "virtualAddress": 19776960,
+            "alignment": 16384
+          }
+        ]
+      }
+    ],
+    "entries": 1043,
+    "physicalDeviceAcceptance": false
+  },
+  "phone": {
+    "installedCode": 75,
+    "signatureMatchesR73": true,
+    "progressRetained": {
+      "Selected_items": true,
+      "Star_Slot_Lv": true,
+      "Owned_Gun_list": true,
+      "FishInventory": true,
+      "Is_Remove_AD_All": true,
+      "Is_Buff_Pack": true,
+      "Is_Mine_Pack": true,
+      "Mission_is_Vip": true,
+      "Mission_is_Luxury": true,
+      "Gun_Collect": true,
+      "Pet_Collect": true,
+      "Recovery_SimulatedPurchases": true,
+      "RaidMission_Ticket": true,
+      "RaidMission_Clear": true,
+      "RaidMission_Reward_Get": true,
+      "RaidMission_Reward_ReGet": true,
+      "Adventure_Currency_Core": true,
+      "Pet_Selected_items": true,
+      "Owned_Pet_list": true,
+      "Raid_Helper_Season_Index": true,
+      "Raid_Best_Level_ByType": true
+    },
+    "upgradeBefore": [
+      226,
+      225,
+      225
+    ],
+    "upgradeAfter": [
+      226,
+      225,
+      225
+    ],
+    "managedErrors": [],
+    "keepScreenOnFlag": true,
+    "systemScreenOffTimeoutMs": "120000",
+    "phone": "Xiaomi23116PN5BC physical85906d12",
+    "topInsetCovered": true,
+    "topInsetPixels": [
+      118,
+      96,
+      46
+    ],
+    "originalSlicedBackground": true,
+    "firstCapture": "visual/mobile75-phone-first.png",
+    "originalGameTouched": false,
+    "offlinePurchaseOnly": true,
+    "fullAcceptance": false,
+    "physicalTouchChecks": {
+      "travelBannerOpensOriginalOffers": true,
+      "travelOffersClosedWithoutBuying": true,
+      "raidMissionOpens": true,
+      "tasksVisibleWhileBackgroundStageChanged": true,
+      "ticketPurchasedGreenCheckVisible": true,
+      "taskAndRaidCloseWorked": true,
+      "resourcesClaimedByAutomation": 0
+    },
+    "newUserProgressPreserved": {
+      "stage": [
+        9,
+        0
+      ],
+      "upgrades": [
+        70,
+        70,
+        70
+      ],
+      "dia": 14891,
+      "selected": [
+        44,
+        43,
+        40
+      ],
+      "raidTicket": true,
+      "note": "User resumed between first update capture and touch checks, then explicitly paused again. Retained new rebirth/draw state; no snapshot restore."
+    }
+  },
+  "sources": {
+    "Assets/Recovery/Scripts/RecoveryMobileViewport.cs": "462ecb22bca850122a4ea88c6dadf228282de173301633723e48333bdd2ebceb",
+    "Assets/Recovery/Scripts/RecoveryMobilePerformance.cs": "f7a29a7b2b2e6406ceaee743303de961109520b1e15fa43f989ae5c54dd620f6",
+    "Assets/Recovery/Scripts/RecoveryLanguage.cs": "26c342e64d527bfed95272cd273dad846afd380610efc72c221bbca5239b575b",
+    "Assets/Recovery/Scripts/RecoveryModePresentation.cs": "c641549d6c27426a9ace593fa5de68bac0ae6fc8c8615ffc452fddad4817afd8",
+    "Assets/Recovery/Scripts/Adventure_manager.cs": "4b1fedbf16ca4c317370c9a2d0e5ed6830f442bef5a026260acf96967ae47e8a",
+    "Assets/Recovery/Scripts/Raid_Mission_Ticket_UI.cs": "93136b75a28d4c838f99144fc25d3027a6e741318814783f6e0b605e3864fcc0",
+    "Assets/Recovery/Scripts/Raid_Ingame_UI.cs": "1792473cdaabb1154fd7334dc0ea1dd9151b74e4d939efe43a53570935477f15",
+    "Assets/Recovery/Scripts/Raid_GunSlot.cs": "390371334d10b3b9cccd496e95478bdb48ba568f56dab15f1ccbc8802c584927",
+    "Assets/Recovery/Scripts/Raid_HelperSlot.cs": "f4f44b0b0b362d0ace6217e05643b70b7a2c72cd1a1eff60581312786d683f04",
+    "Assets/Recovery/Scripts/Boss_Start_UI.cs": "2d241997331f28a815e284f3f1cc47eb4bdf2603eed485dcb9df335f9ffc7134",
+    "Assets/Recovery/Scripts/Boss_Slider.cs": "32d27ce2bd03aab2b149dc0ce797275a23fbd26c2874389b6c1b00bb7835b05e",
+    "Assets/Recovery/Scripts/Offline_Panel_UI.cs": "65ddc05a947916da1b612e2c71322f70faa1a05fc533be8b12afdfe9367a7016",
+    "Assets/Recovery/Scripts/Pet_Slot.cs": "4d022ffdd2deb883e8ac155e4533e93c95d56905d5a7d76f9ac52f8b622b48a8",
+    "Assets/Recovery/Scripts/Pet_Info_UI.cs": "1fed475e6eaf7ace3e33ad90f93a2c35933bf46d1a3f6779d32ec6f57ec26de1",
+    "Assets/Recovery/Scripts/Relic_Info_UI.cs": "572c493dee8871c89221160b9f8a9a1703fbd72f9abb61fb0c42269662663f73",
+    "Assets/Recovery/Scripts/Pet_manager.cs": "18b9810ac2ff7f7d0e03b7cd4d5d43d45d8612aeea41ca78e4a4c08ce09c7f4d",
+    "Assets/Recovery/Scripts/Fish_Item.cs": "ec578ac069197dfcab1ba6e3ff12a0cf970ccdba6e8138b6a13c8f9d87c90c42",
+    "Assets/Recovery/Scripts/Gun_manager.cs": "8e99d59e435eef36a8bbad78fd00ca178c6488024a75507a033b8df9dbb178f8",
+    "Assets/Recovery/Scripts/Mine_Start_UI.cs": "e2b994e4f20d27793042f5805dc1c06b13ab63ae48b947ef7c5cffb7aaf9b816",
+    "Assets/Recovery/Scripts/Mine_manager.cs": "6116ce597ff5f233de49b7121be1920576340f5b0ac7b2cc705b58476d453c0c",
+    "Assets/Recovery/Scripts/RecoveryLocalStore.cs": "a24282393fe5547136b3c6928f3ab10cae5bacda36e08945db0b503cdda4c15d",
+    "Assets/Recovery/Scripts/RecoveryLocalPurchaseButton.cs": "e4857085f3e5c430f9ccd4c85f61b58bdde6744c1ac1d0c95f38587db0140167",
+    "Assets/Recovery/Scripts/RecoveryForestClient.cs": "79462a71b8698c2c0844956059e70d961e89af78c66d63d339ed93ee7eea5165",
+    "Assets/Recovery/Scripts/Boss_manager.cs": "6f9a450d38e4a44337119e529e8132a5fa6b2718c7293133b8fd284f4966ada3",
+    "Assets/Recovery/Scripts/Monster_manager.cs": "1fdb9f81081f2cd5a731d93c8898c869d9e1e657b8d2ca7bed6cf8f1969cdd42",
+    "Assets/Recovery/Scripts/Raid_manager.cs": "6464699224acb93b05c7573ce059c83b68f0056a0a285938e0583124c3a7bbbd",
+    "Assets/Recovery/Scripts/SpeedRun_manager.cs": "a22b2a7425677b22773f1ae1913bca3f8c755dfcaaf6124e27c23c9a880ff821",
+    "Assets/Recovery/Scripts/Rebirth_Panel_UI.cs": "e4fc22e67c90300ea6169ea1f3e20ff93962868aca4aa0f9c81b9190a6176a1d",
+    "Assets/Recovery/Scripts/Rebirth_Upgrade_Item.cs": "2330816afae809fd0931790153819b7fcc490ca3e8fb4085da1ef41b9ba25a95",
+    "Assets/Recovery/Scripts/StarUpgrade_popup.cs": "2ed7da723cd76c8a684f056c6fa996347c68a5c4e34cafc63e8ba8f53a361cc5",
+    "Assets/Recovery/MineGroundCompatibility.shader": "39a47558c9c754090a5d13d42f48f3b9bd45cc2b54f39d80b83cd85bd9b37f4a"
+  },
+  "visuals": [
+    {
+      "path": "visual/mobile75-top-inset-gpu.png",
+      "sha256": "00ebd883f6e84a34a264764771e5b097bf2da58a24484685dcdb4f1e1199c401"
+    },
+    {
+      "path": "visual/mobile72-fish-merged-upper-gpu.png",
+      "sha256": "34a41c4fb1dd4b4ff0abce718917d04def3a8585d58e1b3c29309920c80f64cb"
+    },
+    {
+      "path": "visual/mobile72-fish-reopened-gpu.png",
+      "sha256": "18c6c1ff12839c459a3ea80ef37d8357c4d699bf4f18697de55cabc18b3737a5"
+    },
+    {
+      "path": "visual/mobile72-mine-owned-gpu.png",
+      "sha256": "ab10fbaa89ec136d307e32b69869551522ff69f28189b139c571337cb84a48c6"
+    },
+    {
+      "path": "visual/mobile72-mine-unowned-gpu.png",
+      "sha256": "a4ece639cc055f25875c8cab39a656ba3c36e1af4a194d6677bb7f7b16e9fd34"
+    },
+    {
+      "path": "visual/mobile72-pass-owned-gpu.png",
+      "sha256": "357fc0115ccb824ee296e31ca39dcbce1af28b0f782a7b22c00dfa55d5d58e7d"
+    },
+    {
+      "path": "visual/mobile72-pet-unaffordable-gpu.png",
+      "sha256": "c56283123e423a99533c0b202a0b0b84bac88c70312869e9c2cdf600f541eaa2"
+    },
+    {
+      "path": "visual/mobile73-mine-circle-gpu.png",
+      "sha256": "ab5025f60ef3cb8e1994b3f70035189dfab3838b88ac4883acd49a8e3be4d8ca"
+    },
+    {
+      "path": "visual/mobile73-mine-entry-loading-gpu.png",
+      "sha256": "b6212e800e5e9f8b6964c4652cb9fd22554cbb377381cd6c6da6f9d9a5ff24ee"
+    },
+    {
+      "path": "visual/mobile73-mine-exit-loading-gpu.png",
+      "sha256": "c25cbec1d3c057f09d020ba70d9f438d82a37d22f01e32eca0d059188da3eef9"
+    },
+    {
+      "path": "visual/mobile73-rebirth-compact-gpu.png",
+      "sha256": "9e48f184f07987ae9adb1c8cbdcf7da68ef18961c9b12c956ac169381b0cf158"
+    },
+    {
+      "path": "visual/mobile73-regression-daily-bonus-gpu.png",
+      "sha256": "3d1d915561675cc0a1dd6308d2842516a0dc3c391ae1a8f83f494c0e1bb1a394"
+    },
+    {
+      "path": "visual/mobile73-regression-daily-claimed-gpu.png",
+      "sha256": "03696dd4e6969ef262c5a27d74a5d6bbe385f0c7e18f6bb565f03667eaa01a10"
+    },
+    {
+      "path": "visual/mobile73-regression-mode-1-gpu.png",
+      "sha256": "5d0b1ccf39a75956f6d1d7b631e11430bb3a6892e235a19a5dc1d782f35d363e"
+    },
+    {
+      "path": "visual/mobile73-regression-mode-2-gpu.png",
+      "sha256": "06e9e3473d22fa0550aeee44d90062446e7a2dffa4ac3bcae28bf80bb304ab01"
+    },
+    {
+      "path": "visual/mobile73-regression-mode-3-gpu.png",
+      "sha256": "6fd2ee620de8ce21cc78b9c5e2a511b9921e4bc7e51a4881939a2e13837cfe37"
+    },
+    {
+      "path": "visual/mobile73-regression-mode-4-gpu.png",
+      "sha256": "a21146dfff6746540229d1ef0ce485163a9df66cf99ab7a952c7ec4b58c22eac"
+    },
+    {
+      "path": "visual/mobile73-regression-mode-5-gpu.png",
+      "sha256": "ce3fc9643d555c4dc21f3197000d1a59ab4d7f6954b4607aab0dfe531af13e07"
+    },
+    {
+      "path": "visual/mobile73-phone-first.png",
+      "sha256": "1a8bd09bd78b9918af2b8022e6e54fb8db6fbf251dceed6d14693313c3d596ba"
+    },
+    {
+      "path": "visual/mobile73-phone-pet.png",
+      "sha256": "846db4eafe2328c30566f453d75ea345b27ce3b34df241339ef774881761276c"
+    },
+    {
+      "path": "visual/mobile74-phone-first.png",
+      "sha256": "f3529b02048ce95ac8dcc7ce6c2877ee49e9ec2d8336682efc6ef74f1fcf1472"
+    },
+    {
+      "path": "visual/mobile74-phone-pet-ready.png",
+      "sha256": "bd293041308f244fdf70ed6c4242b14bdbb50b0a1491b1940bd2356237eca789"
+    },
+    {
+      "path": "visual/mobile74-phone-pet.png",
+      "sha256": "347c174173eaaf969d48e1ca8de39a77f003667f84e0f151ed41d597213f47eb"
+    },
+    {
+      "path": "visual/mobile75-loading-fullscreen-gpu.png",
+      "sha256": "35d711a2db141516b53ec005a9b1f6b1a34e7414adc9971e1e0f5a27cc1b2677"
+    },
+    {
+      "path": "visual/mobile75-raid-tasks-above-loading-gpu.png",
+      "sha256": "17e5897c8a9cbeb6a2b1ffe5a8fcdf5275c5e78f38ba092dc3bd82bdea971d73"
+    },
+    {
+      "path": "visual/mobile75-raid-ticket-purchased-gpu.png",
+      "sha256": "0bd43c5186c55666392b9e8550b4784b4cb4b8b73ead23629a4e2e4ff17448c1"
+    },
+    {
+      "path": "visual/mobile75-regression-daily-bonus-gpu.png",
+      "sha256": "4df6182b1bc4199d5f722ace029b9e2bc176d874d656a55bd16b019f1152d557"
+    },
+    {
+      "path": "visual/mobile75-regression-daily-claimed-gpu.png",
+      "sha256": "43478b20fb29663476ad8fd33eec5951184ea4c417735d58ecbe380823d1bc7a"
+    },
+    {
+      "path": "visual/mobile75-regression-mode-1-gpu.png",
+      "sha256": "98548bd43d78540c90e1ef12e26a63db29496f3c13060edd0ce040c558570edf"
+    },
+    {
+      "path": "visual/mobile75-regression-mode-2-gpu.png",
+      "sha256": "e2e2f65ff84c72a402e8709884be9d98f86effab993e0da31e0546e8dfc36cc0"
+    },
+    {
+      "path": "visual/mobile75-regression-mode-3-gpu.png",
+      "sha256": "4b3acc496f060359ad0e8162994c3e5494e2cd65d9b026bc288036a0e27bddd2"
+    },
+    {
+      "path": "visual/mobile75-regression-mode-4-gpu.png",
+      "sha256": "823fe9cc3a1d1b8a54162307e6e21bb78a924d1fe28344139e985fe38ed22209"
+    },
+    {
+      "path": "visual/mobile75-regression-mode-5-gpu.png",
+      "sha256": "515b2b9088d2775b620262744054039fb7bce049b74576668566d78674ee19a3"
+    },
+    {
+      "path": "visual/mobile75-startup-walking-cat-gpu.png",
+      "sha256": "d238dbd676257812e751f79e0b0ac4fe28654bea2cca208ad21700545035a792"
+    },
+    {
+      "path": "visual/mobile75-top-inset-gpu.png",
+      "sha256": "00ebd883f6e84a34a264764771e5b097bf2da58a24484685dcdb4f1e1199c401"
+    },
+    {
+      "path": "visual/mobile75-travel-core-bought-gpu.png",
+      "sha256": "a83fc068c7ba79e85d81af14f022d19dfec4968ebea212693e06156102d42226"
+    },
+    {
+      "path": "visual/mobile75-travel-core-offers-gpu.png",
+      "sha256": "743fe95da864fa69be534dc775eac8f7c9f6be6ccb22fbb95bdb364d9f83f530"
+    },
+    {
+      "path": "visual/mobile75-phone-first.png",
+      "sha256": "c9e413b437e0a271f4283309ebc75e69ae28696e023ac2e32ac88ba349e0dee2"
+    },
+    {
+      "path": "visual/mobile75-phone-raid-menu.png",
+      "sha256": "d84d4748d939c1d235168a4e86badb040b619cd4ce04044ec15c8447868d899e"
+    },
+    {
+      "path": "visual/mobile75-phone-raid-tasks-later.png",
+      "sha256": "aa11cfba05ff4f2aa301e4a967397cc8e5601e606dcf78d6e7333e9bd0016085"
+    },
+    {
+      "path": "visual/mobile75-phone-raid-tasks.png",
+      "sha256": "b9fbd1943ec74ca280b5bedbd70e488fe388f8805600100337b0e4c2e8928946"
+    },
+    {
+      "path": "visual/mobile75-phone-return-forest.png",
+      "sha256": "3f530cfe7764b14d010974ba0197ac491b7896aabc4717b5d909eea51778811f"
+    },
+    {
+      "path": "visual/mobile75-phone-travel-core-offers.png",
+      "sha256": "1601240a62173a0cf309b8443d97670e346bfddc8ef69c70d519b32f5a8aa8cd"
+    },
+    {
+      "path": "visual/mobile75-phone-travel-ready.png",
+      "sha256": "8249d5a97f4a4b2846085ceac53da6d01c3d5a99d3590e919a88424b1a6329c1"
+    },
+    {
+      "path": "visual/mobile75-phone-travel.png",
+      "sha256": "bd56d187993fdaa58480f468e1b7669807b46138041456c9df29b93c28773a80"
+    }
+  ],
+  "protected": [
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scenes/RecoveredClient.unity",
+      "unchanged": false,
+      "allowed": true,
+      "after": "be24caf9736a5bcb60db770bafc9169f2fdb5c62f6c27b6442d3511b94a8ea7e"
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryMobileViewport.cs",
+      "unchanged": false,
+      "allowed": true,
+      "after": "462ecb22bca850122a4ea88c6dadf228282de173301633723e48333bdd2ebceb"
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Resources/StarChineseFallback.asset",
+      "unchanged": false,
+      "allowed": true,
+      "after": "a0062fb9a36563b8d3fd6c0d2cbb699da2ac322ee607a82cd440387f5ca8de2b"
+    },
+    {
+      "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json",
+      "unchanged": true,
+      "allowed": false,
+      "after": "009f3459b5ad2a373c3b6f9c0d5047591a02b8a0629e1ef640627bc4ca156981"
+    },
+    {
+      "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json.bak",
+      "unchanged": true,
+      "allowed": false,
+      "after": "aeacbf19ee16aeb4e2d1c5865b1458a7870ef5009a7cc5d65dd42f9ae13b8080"
+    }
+  ],
+  "sceneDelta": {
+    "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scenes/RecoveredClient.unity",
+    "before": "9684f7d5fd83c9ece923393c4b5fa4213d6f15dfe6cbbfa5614a126f7e4ad858",
+    "after": "be24caf9736a5bcb60db770bafc9169f2fdb5c62f6c27b6442d3511b94a8ea7e",
+    "onlyChange": {
+      "component": 124537,
+      "gameObject": 1312,
+      "path": "Canvas/SafeArea/Main_UI/Value_Slider",
+      "property": "Image.pixelsPerUnitMultiplier",
+      "before": 1,
+      "after": 10
+    },
+    "note": "Observed current Editor scene setting preserved; no hand YAML edits. User main Fill remains PPU10/height37; all other scene bytes match r71 snapshot.",
+    "diff": "--- /Volumes/ZHITAI_1T/IdleCatGunner/Build/r71-before/0-RecoveredClient.unity\t2026-10-12 12:02:05\n+++ /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scenes/RecoveredClient.unity\t2026-10-12 16:11:56\n@@ -19981245,5 +19981245,5 @@\n   m_FillOrigin: 0\n   m_UseSpriteMesh: 0\n-  m_PixelsPerUnitMultiplier: 1\n+  m_PixelsPerUnitMultiplier: 10\n --- !u!114 &124538\n MonoBehaviour:\n"
+  },
+  "existingMetas": 555,
+  "changedMetas": [],
+  "fontCache": "Generated dynamic glyph/atlas cache retained, source font GUID unchanged",
+  "handoff": {
+    "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+    "version": "6000.4.10f1",
+    "dirty": false,
+    "playing": false,
+    "paused": false,
+    "compiling": false,
+    "compilationFailed": false,
+    "objects": 35954,
+    "missingScripts": 0,
+    "persist": true,
+    "saveFolderOverride": null,
+    "testHostFolder": "",
+    "localAdSimulation": true,
+    "localPurchaseSimulation": true,
+    "timeScale": 1.0,
+    "inputOverrides": 0,
+    "userFillPPU": 10.0,
+    "fillHeight": 37.0,
+    "buildScenes": [
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredBullets.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForest.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestHUD.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestProgress.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredJoystick.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredSettings.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredTarget.unity",
+        "enabled": true
+      }
+    ]
+  },
+  "frameSample": "mobile70-phone-after-contiguous-frames.json",
+  "invalidFrameAggregate": "mobile70-phone-after-frames.json used4s polling against127-frame60FPSbuffer, causing sampling gaps; not actual stalls",
+  "attempts": [
+    "mobile71-tests-stale-assembly.json",
+    "mobile72-tests-first-completed.json",
+    "mobile72-loading-first-failure.json",
+    "mobile73-first.json",
+    "mobile73-build-first-failure.json",
+    "mobile73-build-restart-note.json",
+    "mobile75-first.json",
+    "mobile75-viewport-language-first.json",
+    "mobile75-startup-first.json"
+  ],
+  "attemptNotes": "Stale Editor assembly; three initial fixture errors (wrong page scope/stage/ancestors); Unity fake-null Canvas corrected; inactive Canvas sorting reset corrected. Burst temp-file build failed on full system disk; restarted Editor with external-volume TMPDIR before successful retry. Rule75 first fixture selected an authored hidden offer; later material fixture shared a cache with newly bound core labels and needed an isolated original material; startup fixture still expected Korean rather than the selected I2 term. Final distinct runs retained. Keep failures separate from accepted runs.",
+  "nativeUniqueCompletedQueries": 951,
+  "nativeQueryIncrease": 0,
+  "scopeComplete": false,
+  "physicalDeviceFullAcceptance": false,
+  "gitDelivery": false,
+  "remaining": "Complete original UI/tutorial/FX/locale/service parity and sustained all-scene physical performance remain open. Authorized ads/payments are independent local simulation only."
+}

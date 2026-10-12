@@ -1,0 +1,32 @@
+from pathlib import Path
+from datetime import datetime,timezone
+import json,hashlib,re
+R=Path(__file__).resolve().parents[1];Q=R/'reports';W=R.parents[2];P=W/'reconstruction/CatGunnerUnityClient'
+def read(n):return json.loads((Q/n).read_text())
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+checks=[]
+for n,c in [('mobile71-tests-accepted.json',4),('mobile72-accepted.json',4),('mobile73-accepted.json',3),('mobile73-mode-regression.json',3),('mobile73-startup.json',4),('mobile74-pet-wallet.json',1)]:
+ x=read(n)['data']['result'];assert x['status']=='completed' and x['summary']['passed']==c and x['summary']['failed']==0;checks.append(dict(report=n,summary=x['summary'],duration=x['duration']))
+b=read('mobile74-build-status.json')['data']['result'];assert b['result']=='Succeeded' and b['totalErrors']==0
+apk=read('mobile74-apk-audit.json');assert sha(Path(apk['path']))==apk['sha256']
+phone=read('mobile74-phone-evidence.json');assert phone['installedCode']==74 and all(phone['progressRetained'].values()) and phone['topInsetCovered'] and not phone['managedErrors']
+h=read('mobile74-handoff.json');assert not any(h[k] for k in ['dirty','playing','paused','compiling','compilationFailed','missingScripts','inputOverrides']);assert h['persist'] and not h['saveFolderOverride'] and not h['testHostFolder'] and h['userFillPPU']==10 and h['fillHeight']==37
+before=read('mobile71-before.json');metaChanges=[p for p,v in before['metas'].items() if sha(Path(p))!=v];assert not metaChanges
+protected=[]
+for row in before['files']:
+ actual=sha(Path(row['path']));allowed=row['path'].endswith(('RecoveryMobileViewport.cs','StarChineseFallback.asset'));assert allowed or actual==row['sha256'];protected.append(dict(path=row['path'],unchanged=actual==row['sha256'],allowed=allowed,after=actual))
+sourceNames=['RecoveryMobileViewport','RecoveryMobilePerformance','RecoveryLanguage','RecoveryModePresentation','Pet_manager','Fish_Item','Gun_manager','Mine_Start_UI','Mine_manager','RecoveryLocalStore','RecoveryLocalPurchaseButton','RecoveryForestClient','Boss_manager','Monster_manager','Raid_manager','SpeedRun_manager','Rebirth_Panel_UI','Rebirth_Upgrade_Item','StarUpgrade_popup']
+sources={str(p.relative_to(P)):sha(p) for p in [P/'Assets/Recovery/Scripts'/(n+'.cs') for n in sourceNames]+[P/'Assets/Recovery/MineGroundCompatibility.shader']}
+visuals=[dict(path=str(f.relative_to(Q)),sha256=sha(f)) for pattern in ['mobile71-top-inset-gpu.png','mobile72-*-gpu.png','mobile73-*-gpu.png','mobile73-phone-*.png','mobile74-phone-*.png'] for f in sorted((Q/'visual').glob(pattern))]
+e=dict(rules=[69,70,71,72,73,74],target='com.Chodun.CatGunner1.1.61 vc257 ARM64',updatedUtc=datetime.now(timezone.utc).isoformat(),tests=checks,build=dict(result=b['result'],errors=0,warnings=b['totalWarnings'],durationMs=b['buildTimeMs'],development=False),apk=apk,phone=phone,sources=sources,visuals=visuals,protected=protected,existingMetas=len(before['metas']),changedMetas=metaChanges,fontCache='Generated dynamic glyph/atlas cache retained, source font GUID unchanged',handoff=h,frameSample='mobile70-phone-after-contiguous-frames.json',invalidFrameAggregate='mobile70-phone-after-frames.json used4s polling against127-frame60FPSbuffer, causing sampling gaps; not actual stalls',attempts=['mobile71-tests-stale-assembly.json','mobile72-tests-first-completed.json','mobile72-loading-first-failure.json','mobile73-first.json','mobile73-build-first-failure.json','mobile73-build-restart-note.json'],attemptNotes='Stale Editor assembly; three initial fixture errors (wrong page scope/stage/ancestors); Unity fake-null Canvas corrected; inactive Canvas sorting reset corrected. Burst temp-file build failed on full system disk; restarted Editor with external-volume TMPDIR before successful retry. Keep failures separate from accepted runs.',nativeUniqueCompletedQueries=951,nativeQueryIncrease=0,scopeComplete=False,physicalDeviceFullAcceptance=False,gitDelivery=False,remaining='Complete original UI/tutorial/FX/locale/service parity and sustained all-scene physical performance remain open. Authorized ads/payments are independent local simulation only.')
+(Q/'mobile74-evidence.json').write_text(json.dumps(e,ensure_ascii=False,indent=2)+'\n')
+v=read('VERIFICATION.json');v['mobile69_74_evidence']=dict(report='mobile74-evidence.json',tests=checks,apk=apk['path'],phone='mobile74-phone-evidence.json',scopeComplete=False);v['scope_complete']=False;v['updated_utc']=e['updatedUtc'];(Q/'VERIFICATION.json').write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n')
+summary='修复刘海上方深棕色背景遮挡，保留Fill倍率10/高度37；宠物抽取余额不足标红并同步宠物页钻石余额；鱼缸上半部Canvas层级0导致鱼被背景盖住，改为可见层级；每日广告武器抽取用完隐藏；矿山礼包显示互斥；挂机前台保持屏幕常亮；VIP/Luxury通行证显示原已购买勾选并冷重载保留。恢复矿山及共用Floor2材质的圆形裁剪；五个战斗模式进出共用小猫移动中遮挡；重生/强化可见数字用原数字简写。设置可选简中/繁中/英文/韩文/系统，共享文字材质与60FPS本地移动预算也包括在包内。'
+validation='独立存档的语言/安全区4/4、六项修复4/4、矿山/数字3/3、模式回归3/3、启动4/4分别通过。新版已覆盖安装到小米真机，进度保留；Editor正常干净停止、无缺脚本、Fill10/37。帧率22.46秒打树采样59.53FPS；不是长时保证，也不是同负载对照。原场景、玩家存档、既有meta保留；生成字体缓存已记录。'
+delivery=f"Android试玩包：`Build/CatGunner-Recovery-20261012-r74.apk`，{apk['mib']}MiB，0.74.0/code74，同一包名与本地签名，IL2CPP ARM64 Release/API26起；构建0错误/{b['totalWarnings']}警告，归档/签名/16KiB对齐通过。覆盖安装保留恢复版进度。广告和现金购买仍是已授权本地模拟，不扣款。"
+boundary='本轮修复闭环；完整原版恢复仍未完成，真实服务和全部UI/教程/特效一致性仍开放。证据：`reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/mobile74-evidence.json`。'
+f=W/'README.md';s=f.read_text().replace('## 最新恢复与Android试玩包（规则68）','## 历史恢复与Android试玩包（规则68）',1);f.write_text(s.replace('# IdleCatGunner\n','# IdleCatGunner\n\n## 最新手机试玩修复（规则69–74）\n\n'+summary+'\n\n'+validation+'\n\n'+delivery+'\n\n'+boundary+'\n',1))
+f=Q/'RECOVERY_PROGRESS.md';s=f.read_text().replace('## 当前阶段：剩余静态UI与Android试玩包（规则68，2026-10-12）','## 历史阶段：剩余静态UI与Android试玩包（规则68，2026-10-12）',1);i=s.index('## 历史阶段：剩余静态UI');f.write_text(s[:i]+'## 当前阶段：手机试玩缺陷修复（规则69–74）\n\n'+summary+'\n\n'+validation+'\n\n'+delivery+'\n\n'+boundary+'\n\n'+s[i:])
+f=R/'original-game-rules/00_INDEX.md';s=f.read_text();heading=s.splitlines()[0];links='\n'.join('- ['+n+']('+next((R/'original-game-rules').glob(n+'_*')).name+')' for n in ['69','70','71','72','73','74']);f.write_text(s.replace(heading,heading+'\n\n'+links,1))
+(W/'Build/试玩说明.md').write_text('# CatGunner 恢复试玩0.74.0\n\n'+delivery+'\n\n'+summary+'\n\n手机已覆盖更新，可直接打开。手动安装同目录APK时选择更新，不要卸载旧恢复版；原版游戏包独立。Unity打开RecoveredClient.unity点Play。设置中语言按钮可切换四种语言及系统。Luxury已购买会显示勾选，不能重复购买。\n\n'+validation+'\n\n'+boundary+'\n\nSHA256：`'+apk['sha256']+'`\n')
+print(dict(apk=apk['path'],mib=apk['mib'],tests=[x['summary'] for x in checks],phoneUpdated=True))

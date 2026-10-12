@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "duration": 12.48,
+  "summary": {
+    "total": 1,
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalWeaponPresentationTests.All65WeaponDetailsUseOriginalDescriptionsAndGradeSprites",
+      "Status": "Failed",
+      "Duration": 11.448478,
+      "Message": "  gun0 must show original explanation, not enum\n  Expected string length 12 but was 6. Strings differ at index 0.\n  Expected: \"单发 - 发射1颗子弹。\"\n  But was:  \"SINGLE\"\n  -----------^\n",
+      "StackTrace": "at OriginalWeaponPresentationTests+<All65WeaponDetailsUseOriginalDescriptionsAndGradeSprites>d__11.MoveNext () [0x00064] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalWeaponPresentationTests.cs:30\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    }
+  ]
+}

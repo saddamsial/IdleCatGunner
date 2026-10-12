@@ -1,0 +1,49 @@
+{
+  "rule": 58,
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "scope": [
+    "One-time post-merge gun14 timed ad offer",
+    "original inventory timer and pointer interaction",
+    "permanent acquire and safe expiry/load",
+    "local asynchronous rewarded placement9"
+  ],
+  "exactNative": {
+    "event": "Weapon02AdOn==1; not given; collected grade>=2 sets given without offer; otherwise Has_Merged and no current offer and free owned slot: AddAdRewardGun(14,1800) then mark given",
+    "timer": "DateTime.UtcNow ticks; manager expiry every0.25 unscaled sec, skip while reward ad busy; Gun_Item countdown every0.2 sec truncation max(0,remaining), format00:00",
+    "acquire": "clear metadata without removing item; force original NewGun UI; collection and per-grade acquisition count; become regular owned weapon",
+    "expire": "clear owned cell only if recorded slot still contains recorded weapon; clear metadata; reload",
+    "load": "mismatched/out-of-range slot clears metadata only; expired valid offer removed"
+  },
+  "adapters": [
+    "User authorized local rewarded simulation replacing SDK placement9; no real ad, receipt, account, telemetry or service",
+    "OfflineTemporaryWeaponOffer switch selects enabled client event branch because live ServerConfig is unavailable; not a claim about live config",
+    "UTC clock delegate for isolated tests; production DateTime.UtcNow",
+    "late callback uses captured slot/gun/end and visible inventory session guards; cannot reward a different offer"
+  ],
+  "preserve": [
+    "current user main and backup",
+    "original scene and GUIDs",
+    "ordinary and daily ad weapons",
+    "earlier systems"
+  ],
+  "acceptance": "native evidence + independent Unity6 PlayMode and GPU frames; no Android/Player or human parity claim",
+  "scopeComplete": false,
+  "nativeInputSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "immutableInputHashes": [
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/assetripper-baseline/ExportedProject/Assets/Scenes/Main.unity",
+      "sha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+      "expectedSha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b"
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/base/assets/bin/Data/Managed/Metadata/global-metadata.dat",
+      "sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+      "expectedSha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884"
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/split_config.arm64_v8a/lib/arm64-v8a/libil2cpp.so",
+      "expectedSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583"
+    }
+  ],
+  "currentSourceBinding": "Inventory.Merged hook applies native merge event; model owns saved state; Changed notifications refresh team/save/StepUp/safe and original slots; original forced NewGun prompt opens once through manager after model acquisition. Local notification ordering is an adapter, not original manager call sequencing."
+}

@@ -1,0 +1,21 @@
+02c8953c  str x30,[sp, #-0x20]!
+02c89540  stp x20,x19,[sp, #0x10]
+02c89544  mov x20,x0
+02c89548  mov x19,x0
+02c8954c  ldr x1,[x20, #0x60]!
+02c89550  cbz x1,0x02c89560
+02c89554  mov x0,x19
+02c89558  mov x2,xzr
+02c8955c  bl 0x057e237c
+02c89560  mov x0,x19
+02c89564  bl 0x02c89590
+02c89568  mov x1,x0
+02c8956c  mov x0,x19
+02c89570  mov x2,xzr
+02c89574  bl 0x057e2120
+02c89578  mov x1,x0
+02c8957c  mov x0,x20
+02c89580  str x1,[x19, #0x60]
+02c89584  ldp x20,x19,[sp, #0x10]
+02c89588  ldr x30,[sp], #0x20
+02c8958c  b 0x029f59f4

@@ -1,0 +1,131 @@
+{
+  "roots": [
+    2205
+  ],
+  "rows": [
+    {
+      "originalGo": 866,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "originalGo": 1303,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "UI_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "DiaAttraction",
+          "ordinal": 0
+        },
+        {
+          "name": "Particle Image",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "originalGo": 1977,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "UI_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "DiaAttraction",
+          "ordinal": 0
+        },
+        {
+          "name": "Particle Image",
+          "ordinal": 0
+        },
+        {
+          "name": "Trails",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "originalGo": 2205,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "UI_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "DiaAttraction",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "originalGo": 2254,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "UI_manager",
+          "ordinal": 0
+        }
+      ]
+    }
+  ],
+  "parentOrders": {
+    "2205": [
+      "Contents_Unlock_manager",
+      "DiaAttraction",
+      "Banner_Place_Holder",
+      "SpeedBuff_Explain_UI",
+      "NewGun_UI",
+      "Loading_UI",
+      "DataLoadExit_UI",
+      "Error_UI",
+      "Update_Panel",
+      "Update_Panel (Forced)",
+      "Loading_UI (AD)",
+      "Alert_list",
+      "GameExit_panel"
+    ]
+  },
+  "objects": 5,
+  "documents": 16,
+  "dropped": [
+    {
+      "component": 125331,
+      "script": "58bb7fd298386f91062a5e03747e6ae7"
+    },
+    {
+      "component": 125656,
+      "script": "6cacfc8a057c01946b8a08e80afb30c7"
+    },
+    {
+      "component": 124527,
+      "script": "c496def4ab12df00d24f250312307cf6"
+    }
+  ],
+  "externalReferences": [
+    {
+      "owner": 125602,
+      "reference": 124527
+    }
+  ]
+}

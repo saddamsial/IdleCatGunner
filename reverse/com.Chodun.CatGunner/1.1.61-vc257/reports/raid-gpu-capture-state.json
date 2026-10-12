@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var c=CatGunner.Recovery.RecoveryForestClient.Instance; if(c!=null&&c.Mode==5){UnityEngine.ScreenCapture.CaptureScreenshot(\"/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/visual/raid-test-gpu.png\");return new {mode=c.Mode,score=c.RaidMode.Score_Now,seconds=c.RaidMode.GameTime_Now,persist=c.Persist};} return \"No live Raid frame captured\";"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "mode": 5,
+        "score": 2,
+        "seconds": 23.6047344,
+        "persist": false
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

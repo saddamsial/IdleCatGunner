@@ -1,0 +1,110 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "scopes": [
+    {
+      "scope": "content",
+      "statusFile": "native-local-purchase-content-reviewed/status.tsv",
+      "rowsIncludingHelpers": 52,
+      "allExportedAndInputByteVerified": true
+    },
+    {
+      "scope": "dependencies",
+      "statusFile": "native-local-purchase-dependencies-reviewed/status.tsv",
+      "rowsIncludingHelpers": 34,
+      "allExportedAndInputByteVerified": true
+    },
+    {
+      "scope": "perks",
+      "statusFile": "native-local-purchase-perks-reviewed/status.tsv",
+      "rowsIncludingHelpers": 19,
+      "allExportedAndInputByteVerified": true
+    },
+    {
+      "scope": "final",
+      "statusFile": "native-local-purchase-final-reviewed/status.tsv",
+      "rowsIncludingHelpers": 17,
+      "allExportedAndInputByteVerified": true
+    }
+  ],
+  "metadataArrayAssertions": [
+    {
+      "source": "StepUp__cctor.c",
+      "fieldSha256": "EA64A4C1CC6D391A86B770318230AF8472825A8432BDB61295B8CD7D6453AEC9",
+      "rawSha256": "ea64a4c1cc6d391a86b770318230af8472825a8432bdb61295b8cd7d6453aec9",
+      "decodedInt32": [
+        23,
+        28,
+        33,
+        39,
+        44
+      ]
+    },
+    {
+      "source": "StepUp__cctor.c",
+      "fieldSha256": "AA8387001BECFC9F4A7BE8BCC8B02FDF50F3C34CE2490614D29C014ADF1FFB59",
+      "rawSha256": "aa8387001becfc9f4a7be8bcc8b02fdf50f3c34ce2490614d29c014adf1ffb59",
+      "decodedInt32": [
+        0,
+        200,
+        400,
+        600,
+        1000
+      ]
+    },
+    {
+      "source": "DailyGun__cctor.c",
+      "fieldSha256": "FC11158635DBB47C808249ACEB7757AE1E5AE675DABBDE355547A8597FAEB3F2",
+      "rawSha256": "fc11158635dbb47c808249aceb7757ae1e5ae675dabbde355547a8597faeb3f2",
+      "decodedInt32": [
+        300,
+        700,
+        1500
+      ]
+    },
+    {
+      "source": "DailyGun__cctor.c",
+      "fieldSha256": "DF18D0DD6218A31A496F4209870FD07DCD2A050900975B16D661FBC997EFB53F",
+      "rawSha256": "df18d0dd6218a31a496f4209870fd07dcd2a050900975b16d661fbc997efb53f",
+      "decodedInt32": [
+        20,
+        30,
+        35
+      ]
+    },
+    {
+      "source": "StarGem_Pig__cctor.c",
+      "fieldSha256": "C17F23B1052241C68988BF2246C6697CAF6FF570AA003D783EBE4B24E7DC7CC9",
+      "rawSha256": "c17f23b1052241c68988bf2246c6697caf6ff570aa003d783ebe4b24e7dc7cc9",
+      "decodedInt32": [
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "source": "Shop_manager__cctor.c",
+      "fieldSha256": "F68B19717F6E87BE479ABFC2C7C7549B977772BC6B970D16AD7AA6E841AD97D2",
+      "rawSha256": "f68b19717f6e87be479abfc2c7c7549b977772bc6b970d16ad7aa6e841ad97d2",
+      "decodedInt32": [
+        240,
+        600,
+        1500,
+        3500,
+        8000
+      ]
+    },
+    {
+      "source": "StarGem_Pig__cctor.c",
+      "fieldSha256": "1BBDA682263D39944BDA133CD332AAFCAA9C4E5970A5FD766B7D0F0E41E76AE7",
+      "rawSha256": "1bbda682263d39944bda133cd332aafcaa9c4e5970a5fd766b7d0f0e41e76ae7",
+      "decodedInt32": [
+        660,
+        1500,
+        2500
+      ]
+    }
+  ],
+  "rule43": "original-game-rules/43_PLAYTEST_WEAPON_MATERIAL_PURCHASE_PROGRESS.md",
+  "nativeRulesVsLocalAdapter": "Native rewards and eligibility, explicit local clock and asynchronous payment-success boundary; no real receipt/SDK/network",
+  "trueFullRecovery": false
+}

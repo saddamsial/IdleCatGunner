@@ -1,0 +1,19 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "nativeSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "scope": [
+    "Original AutoUpgrade_UI navigation and timed reward",
+    "600 seconds, one local day, timer gating and persistence",
+    "native affordable-lowest-level auto purchasing and UI refresh",
+    "explicitly user authorized local rewarded-ad completion"
+  ],
+  "exclusions": [
+    "production purchase entitlement",
+    "real ad SDK",
+    "trusted server clock",
+    "Player/device acceptance",
+    "seamless Editor script hot reload"
+  ],
+  "scopeComplete": false,
+  "localEditorProtection": "Old session with missing nonserializable archive/State rejects saves; restart Play to reinitialize"
+}

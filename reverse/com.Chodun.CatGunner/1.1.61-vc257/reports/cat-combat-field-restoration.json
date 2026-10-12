@@ -1,0 +1,21 @@
+{
+  "original_component": "serialized-components/level0-147400.json",
+  "previous_movement_report": "cat-movement-field-restoration.json is historical before combat fields",
+  "new_supported_fields": [
+    "_gunInfo",
+    "Damage",
+    "CriDmg",
+    "Gun_bounce",
+    "Rebound_bounce",
+    "Gun_list"
+  ],
+  "source_decimal_adapter": "OriginalAmount preserves s_digits/s_exponent; independent arithmetic",
+  "original_gun_components": 65,
+  "all_serialized_cat_fields_supported": true,
+  "target_original_identity": 1748,
+  "presentation_binding": "Native Balance_Reload tail copies gun muzzle at runtime; original serialized Shoot_particle null recorded",
+  "pending_runtime": "Full numeric balance/modifiers, inventory/equipment load, Cat.Update/AI/AutoMove, unsupported weapons and Target tween",
+  "verified_native_serialized_fields": 68,
+  "missing_serialized_fields": [],
+  "editor_evidence": "combat-static-editor-check.json"
+}

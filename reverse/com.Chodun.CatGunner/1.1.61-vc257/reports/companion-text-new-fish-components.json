@@ -1,0 +1,61 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var c=UnityEngine.Object.FindFirstObjectByType<CatGunner.Recovery.RecoveryForestClient>();var g=c.Fish.new_fish_ui.gameObject;return new{playing=UnityEditor.EditorApplication.isPlaying,compiling=UnityEditor.EditorApplication.isCompiling,failed=UnityEditor.EditorUtility.scriptCompilationFailed,components=g.GetComponents<UnityEngine.Component>().Select(t=>new{type=t.GetType().Name,data=UnityEditor.EditorJsonUtility.ToJson(t)}).ToArray(),ancestors=g.GetComponentsInParent<UnityEngine.Canvas>(true).Select(t=>new{name=t.name,enabled=t.enabled,sorting=t.sortingOrder,overrideSorting=t.overrideSorting}).ToArray()};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "playing": false,
+        "compiling": false,
+        "failed": false,
+        "components": [
+          {
+            "type": "RectTransform",
+            "data": "{\"RectTransform\":{\"m_LocalRotation\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"m_LocalPosition\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_ConstrainProportionsScale\":false,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"m_AnchorMin\":{\"x\":0.0,\"y\":0.5},\"m_AnchorMax\":{\"x\":1.0,\"y\":0.5},\"m_AnchoredPosition\":{\"x\":0.0,\"y\":789.0},\"m_SizeDelta\":{\"x\":-82.57109832763672,\"y\":226.9801025390625},\"m_Pivot\":{\"x\":0.5,\"y\":0.5}}}"
+          },
+          {
+            "type": "CanvasRenderer",
+            "data": "{\"CanvasRenderer\":{\"m_CullTransparentMesh\":true}}"
+          },
+          {
+            "type": "Image",
+            "data": "{\"MonoBehaviour\":{\"m_Enabled\":false,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"\",\"m_Material\":{\"instanceID\":0},\"m_Color\":{\"r\":0.0,\"g\":0.0,\"b\":0.0,\"a\":0.7960784435272217},\"m_RaycastTarget\":false,\"m_RaycastPadding\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":0.0},\"m_Maskable\":true,\"m_OnCullStateChanged\":{\"m_PersistentCalls\":{\"m_Calls\":[]}},\"m_Sprite\":{\"instanceID\":0},\"m_Type\":0,\"m_PreserveAspect\":false,\"m_FillCenter\":true,\"m_FillMethod\":4,\"m_FillAmount\":1.0,\"m_FillClockwise\":true,\"m_FillOrigin\":0,\"m_UseSpriteMesh\":false,\"m_PixelsPerUnitMultiplier\":1.0}}"
+          },
+          {
+            "type": "New_Fish_UI",
+            "data": "{\"MonoBehaviour\":{\"m_Enabled\":true,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"\",\"Fish_img\":{\"instanceID\":0},\"Degree_objs\":[{\"instanceID\":0},{\"instanceID\":0},{\"instanceID\":0},{\"instanceID\":0},{\"instanceID\":0},{\"instanceID\":0},{\"instanceID\":0}]}}"
+          },
+          {
+            "type": "Destroy",
+            "data": "{\"MonoBehaviour\":{\"m_Enabled\":true,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"\",\"Destroy_Time\":1.8300000429153443}}"
+          },
+          {
+            "type": "Animator",
+            "data": "{\"Animator\":{\"serializedVersion\":\"7\",\"m_Enabled\":true,\"m_Avatar\":{\"instanceID\":0},\"m_Controller\":{\"fileID\":9100000,\"guid\":\"d5a3e07b68bb1a94e941d71dfe213200\",\"type\":2},\"m_CullingMode\":0,\"m_UpdateMode\":0,\"m_ApplyRootMotion\":false,\"m_LinearVelocityBlending\":false,\"m_StabilizeFeet\":false,\"m_AnimatePhysics\":false,\"m_WarningMessage\":\"\",\"m_HasTransformHierarchy\":true,\"m_AllowConstantClipSamplingOptimization\":true,\"m_KeepAnimatorStateOnDisable\":false,\"m_WriteDefaultValuesOnDisable\":false}}"
+          }
+        ],
+        "ancestors": [
+          {
+            "name": "Canvas",
+            "enabled": true,
+            "sorting": 0,
+            "overrideSorting": false
+          }
+        ]
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

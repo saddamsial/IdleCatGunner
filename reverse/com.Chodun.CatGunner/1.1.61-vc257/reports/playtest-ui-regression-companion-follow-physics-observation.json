@@ -1,0 +1,8 @@
+{
+    "displacement": 33.31093215942383,
+    "leader_distance": 6.988239288330078,
+    "native_follow_max": 20.0,
+    "gun": 9,
+    "state_after_two_seconds": "Assist",
+    "fixture": "Independent inventory/UI test; original follow algorithm, gear, speed and real Rigidbody movement. Stationary hero bridge disabled for UI; leader trail explicitly recorded. Follow checked before movement; arrival may legitimately transition to Assist/Chase/Attack."
+}

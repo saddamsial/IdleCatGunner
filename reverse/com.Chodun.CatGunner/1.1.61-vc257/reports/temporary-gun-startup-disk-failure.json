@@ -1,0 +1,41 @@
+{
+  "status": "completed",
+  "duration": 2.79,
+  "summary": {
+    "total": 4,
+    "passed": 2,
+    "failed": 2,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalStartupTests.ActualLegacyProfileStartsWithWalkingCatThenMovesAndShootsWithoutInputAndReloads",
+      "Status": "Failed",
+      "Duration": 0.2194041,
+      "Message": "System.IO.IOException : No space left on device",
+      "StackTrace": "  at System.IO.FileSystem.CreateDirectory (System.String fullPath) [0x00191] in <67e9686a86934ae8b0ef7cc81c6b4608>:0 \n  at System.IO.Directory.CreateDirectory (System.String path) [0x0002c] in <67e9686a86934ae8b0ef7cc81c6b4608>:0 \n  at OriginalStartupTests+<ActualLegacyProfileStartsWithWalkingCatThenMovesAndShootsWithoutInputAndReloads>d__8.MoveNext () [0x00051] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalStartupTests.cs:77 \n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44 "
+    },
+    {
+      "FullName": "OriginalStartupTests.FailedInitializationCannotEnableAutosaveOrOverwriteMainAndBackup",
+      "Status": "Failed",
+      "Duration": 0.2585713,
+      "Message": "System.IO.IOException : No space left on device",
+      "StackTrace": "  at System.IO.FileSystem.CreateDirectory (System.String fullPath) [0x00191] in <67e9686a86934ae8b0ef7cc81c6b4608>:0 \n  at System.IO.Directory.CreateDirectory (System.String path) [0x0002c] in <67e9686a86934ae8b0ef7cc81c6b4608>:0 \n  at CatGunner.Recovery.OriginalSaveArchive.SaveEncoded (System.String encoded) [0x00009] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalSaveArchive.cs:33 \n  at CatGunner.Recovery.OriginalSaveArchive.Save (CatGunner.Recovery.OriginalSaveData data) [0x00009] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalSaveArchive.cs:28 \n  at OriginalStartupTests+<FailedInitializationCannotEnableAutosaveOrOverwriteMainAndBackup>d__9.MoveNext () [0x00076] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalStartupTests.cs:121 \n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44 "
+    },
+    {
+      "FullName": "OriginalStartupTests.NativeBestArrayKeepsLegacyPrefixAndDoesNotAlterInput",
+      "Status": "Passed",
+      "Duration": 0.9788418,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalStartupTests.UnsupportedRaidValuesRejectBeforeStateMutation",
+      "Status": "Passed",
+      "Duration": 0.2297275,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

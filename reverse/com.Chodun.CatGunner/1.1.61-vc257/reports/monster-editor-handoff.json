@@ -1,0 +1,51 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene();var c=UnityEngine.Object.FindAnyObjectByType<CatGunner.Recovery.RecoveryForestClient>();var m=c.MonsterMode;var gos=scene.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<UnityEngine.Transform>(true)).Select(t=>t.gameObject).ToArray();var folder=System.IO.Path.Combine(UnityEngine.Application.persistentDataPath,\"RecoveredClient-vc257\");var state=CatGunner.Recovery.OriginalSaveArchive.Decode(System.IO.File.ReadAllText(System.IO.Path.Combine(folder,\"NoSaveFile.json\")));CatGunner.Recovery.RecoveryForestClient.ValidateSupportedState(state);return new {scene=scene.path,version=UnityEngine.Application.unityVersion,playing=UnityEditor.EditorApplication.isPlaying,paused=UnityEditor.EditorApplication.isPaused,compiling=UnityEditor.EditorApplication.isCompiling,dirty=scene.isDirty,timeScale=UnityEngine.Time.timeScale,persist=c.Persist,saveOverride=c.SaveFolderOverride,visualClone=UnityEditor.SessionState.GetBool(\"CatGunner.ProgressionVisualClone\",false),objects=gos.Length,canvases=UnityEngine.Object.FindObjectsByType<UnityEngine.Canvas>(UnityEngine.FindObjectsInactive.Include).Length,missingScripts=gos.Sum(g=>g.GetComponents<UnityEngine.MonoBehaviour>().Count(b=>b==null)),monsterPool=m.NonSpawned_Monster.Count,monsterMissing=m.NonSpawned_Monster.Count(o=>o==null||o._spriteRenderer==null||o.FX_Spawn_trans==null||o.rb==null||o.enemy==null||o.enemy.Slider.Fill==null),monsterSprites=m.Monster_sprites.Length,monsterTexturesValid=m.Monster_sprites.All(s=>s!=null&&s.texture!=null&&s.texture.width>0),healthCache=m.Health_Balance.Length,monsterMapActive=m.Map_obj.activeSelf,monsterHUDActive=m.ModeHUD.activeSelf,monsterStartActive=m.StartPanel.activeSelf,orePool=c.MineMode.Ore_list.Length,readOnlyUserProfileAccepted=true,readOnlyMonsterProgress=new[]{state.Wave_Now,state.Lv_Now}};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "version": "6000.4.10f1",
+        "playing": false,
+        "paused": false,
+        "compiling": false,
+        "dirty": false,
+        "timeScale": 1,
+        "persist": true,
+        "saveOverride": null,
+        "visualClone": false,
+        "objects": 29869,
+        "canvases": 1,
+        "missingScripts": 0,
+        "monsterPool": 240,
+        "monsterMissing": 0,
+        "monsterSprites": 20,
+        "monsterTexturesValid": true,
+        "healthCache": 2000,
+        "monsterMapActive": false,
+        "monsterHUDActive": false,
+        "monsterStartActive": false,
+        "orePool": 1000,
+        "readOnlyUserProfileAccepted": true,
+        "readOnlyMonsterProgress": [
+          0,
+          0
+        ]
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

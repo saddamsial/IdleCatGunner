@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 17.81,
+      "summary": {
+        "total": 5,
+        "passed": 4,
+        "failed": 1,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalRaidTests.EntryCancellationConsumesTicketWithoutRunRewardAndNativeBossReloadKeepsSkin",
+          "Status": "Passed",
+          "Duration": 11.003753,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRaidTests.LocalClockCalendarRetainsFutureDatesAndOnlyRollsOwnRaidEntryFields",
+          "Status": "Passed",
+          "Duration": 0.0027582,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRaidTests.NativeRuntimeHealthReplacesOldSerializedCacheAndRewardTiersAreExact",
+          "Status": "Passed",
+          "Duration": 0.000332,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRaidTests.OriginalLoadoutUsesItemIdentitySortsWeakDamageAndCannotRemoveLastGun",
+          "Status": "Passed",
+          "Duration": 3.5115382,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRaidTests.ZeroInputOriginalGunThirtyNaturalSixtySecondRaidAwardsOnceAndReturnsForestLoadout",
+          "Status": "Failed",
+          "Duration": 3.2591599,
+          "Message": "  Expected: same as <Enter_Btn (Normal) (UnityEngine.UI.Button)>\n  But was:  null\n",
+          "StackTrace": "at OriginalRaidTests.Click (UnityEngine.UI.Button button) [0x00089] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalRaidTests.cs:23\nat OriginalRaidTests+<ZeroInputOriginalGunThirtyNaturalSixtySecondRaidAwardsOnceAndReturnsForestLoadout>d__6.MoveNext () [0x001b5] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalRaidTests.cs:72\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

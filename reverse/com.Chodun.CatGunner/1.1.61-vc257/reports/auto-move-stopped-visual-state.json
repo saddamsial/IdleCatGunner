@@ -1,0 +1,56 @@
+{
+  "scene": "Assets/Recovery/Scenes/RecoveredForest.unity",
+  "gun": 0,
+  "type": "SINGLE",
+  "damage": "100",
+  "auto_move": true,
+  "input": [
+    0.0,
+    0.0
+  ],
+  "walk": false,
+  "start": [
+    -99.98182,
+    0.0,
+    0.0373030268
+  ],
+  "position": [
+    -97.95076,
+    0.0,
+    18.2791252
+  ],
+  "velocity": [
+    -8.156897,
+    0.0,
+    2.61416721
+  ],
+  "distance_moved": 18.3545437,
+  "target": "Tree_4",
+  "target_position": [
+    -102.194618,
+    0.0,
+    28.6392212
+  ],
+  "target_health": "250",
+  "attack_target": "Coll",
+  "attack_point": [
+    -101.194618,
+    2.0,
+    27.6392212
+  ],
+  "count_at_observation_start": 30,
+  "count_now": 29,
+  "count_max": 30,
+  "fixture": "None: default forest, original initial Gun0, zero input, no target/pool/stat/save modifications; paused only for capture",
+  "time_scale": 1.0,
+  "paused_for_capture": true,
+  "screenshot": {
+    "path": "reports/visual/forest-auto-stopped.png",
+    "sha256": "324424802a8a29b7404df1d18b37edc21c164b2a5fbb3eb4605ed41a7cc5a89c",
+    "width": 540,
+    "height": 960,
+    "source": "GameView screen",
+    "actually_reviewed": true
+  },
+  "visual_boundary": "Original forest/cat/Gun0 visible; compatibility materials and complete original visual parity still pending"
+}

@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "return PlaytestUIPresentationEditor.BuildWeaponPages();"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "paths": [
+          "Assets/Recovery/Resources/OriginalWeaponDrawInformation.prefab",
+          "Assets/Recovery/Resources/OriginalWeaponCollection.prefab"
+        ],
+        "objects": 1739,
+        "missingScripts": 0
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

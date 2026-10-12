@@ -1,0 +1,16 @@
+02c5454c  str x30,[sp, #-0x10]!
+02c54550  cmp w1,#0x7
+02c54554  b.hi 0x02c54578
+02c54558  ldr x8,[x0, #0x20]
+02c5455c  cbz x8,0x02c54584
+02c54560  ldr w9,[x8, #0x18]
+02c54564  cmp w9,w1
+02c54568  b.ls 0x02c54588
+02c5456c  add x8,x8,w1, UXTW  #0x3
+02c54570  ldr x0,[x8, #0x20]
+02c54574  b 0x02c5457c
+02c54578  mov x0,xzr
+02c5457c  ldr x30,[sp], #0x10
+02c54580  ret
+02c54584  bl 0x029f5cfc
+02c54588  bl 0x029f5d04

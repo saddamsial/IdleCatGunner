@@ -1,0 +1,165 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "businessMethods": 9,
+  "exceptionHelpers": 6,
+  "allQueriesCompleted": true,
+  "methods": [
+    {
+      "preferredVa": "0x2b2a560",
+      "end": "0x2b2a5dc",
+      "name": "UI_manager_UI_Reload",
+      "first16": "fe57bea9f44f01a9081c40f9012000b9",
+      "sha256": "35e36f239f82de1bc82cd4e42f0a58a8009f69282f842180bdd2c046ff3e85f7",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b38f10",
+      "end": "0x2b399cc",
+      "name": "Cat_Balance_Reload",
+      "first16": "e80f19fcfd7b01a9fc6f02a9fa6703a9",
+      "sha256": "4a3955575a5baa6bd9bef120ed9032cc796abbf8c95d1a3c3a65640ad0b5fba6",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b399cc",
+      "end": "0x2b39be8",
+      "name": "Cat_CalculateAtkCoolMax",
+      "first16": "ff0302d1e923046dfe5f05a9f65706a9",
+      "sha256": "2dc1f3eaa25eec3deb2f503580b7d4de86d436496780ca0e4a3f318ae6e8cdc4",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b39c0c",
+      "end": "0x2b39c30",
+      "name": "Cat_AtkCool_Boss_return",
+      "first16": "082440f9c80000b4004140bd21008052",
+      "sha256": "c6e792396b12533ef573a65eaa36d0a53ae72d8e2a3ae77f6c28ac0c8e5124d5",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b39c30",
+      "end": "0x2b3a200",
+      "name": "Cat_ExpectedDamage_Boss_return",
+      "first16": "fd0f1cf8fe5f01a9f65702a9f44f03a9",
+      "sha256": "7b06f7c831e8db7be9888b7d9543ff13feae38a8ae902596b9f1b5dd783f833a",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b43744",
+      "end": "0x2b43b78",
+      "name": "Cat_manager_Balance_Reload",
+      "first16": "fd7bbaa9fc6f01a9fa6702a9f85f03a9",
+      "sha256": "5e910ba52805b14bbb7a34b6e8508b6c4bd1c5be11ec339619c9adf373e9c61f",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b45fdc",
+      "end": "0x2b461d0",
+      "name": "Boss_manager_Game_Enter",
+      "first16": "fe57bea9f44f01a9b5b001f0d4900190",
+      "sha256": "bcdaaa76aeb0ac0209d4ae607ca151ac7cd306f353678c2b8d02b714b8046b89",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b462c8",
+      "end": "0x2b46350",
+      "name": "Boss_manager_Game_Start",
+      "first16": "fe57bea9f44f01a9b5b001d0b49001f0",
+      "sha256": "ccf5dc44a1f2e95e949d240f6d44a88d8a1ac9b824058d8ae00e05aa5bb97cae",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b46450",
+      "end": "0x2b46584",
+      "name": "Boss_manager_Game_Exit",
+      "first16": "fe57bea9f44f01a9b5b001d0b49001f0",
+      "sha256": "e361e116f910868bb154c4ccf3502717aa138e022a38e8780d100db5e4e4b39e",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x28f5cfc",
+      "end": "0x28f5d04",
+      "name": "Throw_NullReference_Wrapper",
+      "first16": "fe0f1ff86a220194fe0f1ff87b220194",
+      "sha256": "fd826c34b9ef2518b1f3f6d39e7562b9946c1a4ca9651bc3c25e81558d412348",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x28f5d04",
+      "end": "0x28f5d0c",
+      "name": "Throw_Index_Wrapper",
+      "first16": "fe0f1ff87b220194c03cff90006c0191",
+      "sha256": "4443063a785929eff8fbdd73652167a28163cc8bee6d193aa1d2d34ba13cefaa",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x293e6a8",
+      "end": "0x293e6bc",
+      "name": "Throw_NullReference_Create",
+      "first16": "ff8300d1fffb00a9e0030091ff0300f9",
+      "sha256": "cdbf0bcca450bcc5619d3bedfd51ab6ee40fa3f25845c22f256f2b52ded52c13",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x293e6bc",
+      "end": "0x293e6cc",
+      "name": "Throw_NullReference_Raise",
+      "first16": "fe0f1ff803000094e1031faad2ffff97",
+      "sha256": "5ca19850cf19c59741f496304fb81f88760711935ae81e9878b9291de917db2c",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x293e6f4",
+      "end": "0x293e704",
+      "name": "Throw_Index_Raise",
+      "first16": "fe0f1ff803000094e1031faac4ffff97",
+      "sha256": "cc88e424aa2cedbec18e703dcec784e753947ba52264006468b82ee358e7e4dd",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x293e610",
+      "end": "0x293e638",
+      "name": "Managed_Exception_CxaThrow",
+      "first16": "fe4fbfa9f30300aa71ffff9700018052",
+      "sha256": "3baf58d6dd416adb6ec9a1aa884940ecdc8bcb00a7fd1ff5efd9d6fd84aa48a1",
+      "completed": true
+    }
+  ],
+  "currentUiTypeField": {
+    "index": 33891,
+    "name": "currentType",
+    "raw_type_index": 42328,
+    "token": "0x40005d0",
+    "signature": {
+      "kind": 17,
+      "attrs": 6,
+      "byref": false,
+      "pointer": "0x5f91cb0",
+      "type_definition_index": 7394,
+      "name": "UI_type"
+    },
+    "native_offset": 32,
+    "attribute_types": [],
+    "serialization_visibility": true
+  },
+  "bossModeProof": "Boss_manager.Game_Enter explicitly invokes UI_manager.UI_Reload(3) before Cat_manager.Balance_Reload; UI_Reload assigns its parameter to instance currentType+0x20",
+  "nativeRules": {
+    "skipForestUpgrades": "Cat.Balance_Reload: unsigned(currentType-3)<3 -> gun base damage, no Upgrade_manager.Power_return; same condition passes skipUpgrade=true to CalculateAtkCoolMax",
+    "modeScope": "Boss3, Monster4, Raid5 skip forest power/speed; original existing raid-specific modifiers remain separate",
+    "damage": "Boss retains rebirth, skin, fish, relic percentages -> discard fraction -> power buff -> compact-slot star; critical applies125+fishCritical then relicCritical and discard",
+    "cooldown": "skinSpeed+rebirthSpeed-200; ignore forest speed/wave; clamp100..10000; (baseInterval/speed)*100 / speedBuff; clamp0.05..2",
+    "previewParity": "Cat.AtkCool_Boss_return explicitly calls CalculateAtkCoolMax(baseInterval,this,1,0,0), matching actual Boss currentType3",
+    "forestReturn": "Boss.Game_Exit calls UI_Reload(0), reloads ordinary cat balance; existing client Restart clears Boss mode and restores retained upgrades"
+  },
+  "minimumCooldown": {
+    "preferredVa": "0x106c094",
+    "float32": 0.05000000074505806,
+    "bytes": "cdcc4c3d"
+  },
+  "adapters": [
+    "Existing local DecimalAmount and original 65-gun data adapter; not full native InfVal implementation",
+    "Existing local rewarded-ad/payment simulators authorized by user; no real ad/store/receipt/server integration",
+    "Independent runtime fixtures equip shipped guns and specified upgrades; not starter-equipment or user-profile progression acceptance"
+  ],
+  "scopeComplete": false
+}

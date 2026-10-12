@@ -1,0 +1,31 @@
+{
+  "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+  "original_hud_objects": 121,
+  "upgrade_panels": [
+    {
+      "name": "Upgrade_Panel",
+      "type": 0,
+      "button_callback": "original persistent Touch"
+    },
+    {
+      "name": "Upgrade_Panel (1)",
+      "type": 1,
+      "button_callback": "original persistent Touch"
+    },
+    {
+      "name": "Upgrade_Panel (2)",
+      "type": 2,
+      "button_callback": "original persistent Touch"
+    }
+  ],
+  "client_objects": 11726,
+  "original_forest_scene_preserved": true,
+  "initial_equipment": [
+    0,
+    -1,
+    -1
+  ],
+  "local_save": "RecoveredClient-vc257/NoSaveFile.json",
+  "runtime_validation": "pending",
+  "full_client_restored": false
+}

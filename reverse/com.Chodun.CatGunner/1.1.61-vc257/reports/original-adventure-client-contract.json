@@ -1,0 +1,2302 @@
+{
+  "target": "com.Chodun.CatGunner",
+  "version": "1.1.61",
+  "versionCode": 257,
+  "ABI": "arm64-v8a",
+  "native_sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "metadata_sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+  "engine": "Unity6000.0.61f1/IL2CPP",
+  "editor": "Unity6000.4.10f1",
+  "included": [
+    "ordinary dispatch/tickets/map unlock/open days",
+    "owned/equipped pet selection and lock groups",
+    "ordinary core/experience settlement/save/reload/cancel",
+    "original Adventure page/enter/select/result presentation"
+  ],
+  "excluded": [
+    "reward ads/time reduction",
+    "IAP/membership entitlements",
+    "cheats/force finish",
+    "server trusted clock/online services",
+    "other package root XAPK"
+  ],
+  "evidence_labels": [
+    "exact-native",
+    "exact-serialized",
+    "offline-substitute",
+    "unknown"
+  ],
+  "offline_adapters": [
+    "explicit local clock instead of original trusted clock; no paid reductions",
+    "existing local OriginalSaveData/decimal/scene bridge"
+  ],
+  "native_status": "136 selected business methods and6helpers all byte-verified completed",
+  "runtime_validation": "Actual focused8/8 and one complete131/131 run; ordinary dispatch slice only",
+  "checkpoint": "../checkpoints/pre-adventure-client",
+  "native_exports": {
+    "business": 136,
+    "helpers": 6,
+    "completed": 142
+  },
+  "initializer_blobs": [
+    {
+      "preferred_pointer": "0x5d63018",
+      "field_reference": 38,
+      "token": "0x4001479",
+      "metadata_offset": 9609064,
+      "sha256": "CD82F8CBBAE0E08AD97DD079F1608973F971CABDB23C2762E7366147665A9CFD",
+      "values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ]
+    },
+    {
+      "preferred_pointer": "0x5d63020",
+      "field_reference": 30,
+      "token": "0x4001471",
+      "metadata_offset": 9608736,
+      "sha256": "8AEF684EEABCE76B03F2140D9F554FE27D7D103FCF3FB7B2BF205105C9D350F4",
+      "values": [
+        0,
+        1,
+        3,
+        6,
+        10
+      ]
+    }
+  ],
+  "serialized_components": {
+    "123096": {
+      "type": "Adventure_Enter_popup",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 126
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "267a7e5b873c994f7d00ba05f1662765",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Map_img_objs": [
+          {
+            "fileID": 1939
+          },
+          {
+            "fileID": 93
+          },
+          {
+            "fileID": 1979
+          }
+        ],
+        "Stage_txt": {
+          "fileID": 121582
+        },
+        "Time_txt": {
+          "fileID": 117397
+        },
+        "Exp_txt": {
+          "fileID": 117128
+        },
+        "Core_txt": {
+          "fileID": 117232
+        },
+        "petSelect_popup": {
+          "fileID": 124453
+        },
+        "RewardCore_img": {
+          "fileID": 123723
+        },
+        "RewardCore_Panel_img": {
+          "fileID": 124917
+        },
+        "EnterTicket_txt": {
+          "fileID": 117415
+        },
+        "Enter_Btn_img": {
+          "fileID": 122966
+        },
+        "CorePanel_Colors": [
+          {
+            "r": 0.6117647,
+            "g": 1,
+            "b": 0.5647059,
+            "a": 1
+          },
+          {
+            "r": 1,
+            "g": 0.7529412,
+            "b": 0.1764706,
+            "a": 1
+          },
+          {
+            "r": 0.54509807,
+            "g": 0.99215686,
+            "b": 1,
+            "a": 1
+          }
+        ],
+        "Color_EnterAble_txt": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "Color_EnterDisable_txt": {
+          "r": 1,
+          "g": 0.5058824,
+          "b": 0.5058824,
+          "a": 1
+        },
+        "Color_EnterAble": {
+          "r": 0.60784316,
+          "g": 0.9137255,
+          "b": 0.58431375,
+          "a": 1
+        },
+        "Color_EnterDisable": {
+          "r": 0.68235296,
+          "g": 0.68235296,
+          "b": 0.68235296,
+          "a": 1
+        },
+        "Pet_Slot_list": [
+          {
+            "fileID": 148041
+          },
+          {
+            "fileID": 147188
+          },
+          {
+            "fileID": 147189
+          }
+        ]
+      }
+    },
+    "123441": {
+      "type": "Adventure_manager",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 406
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "45aab3cb937e9fa752124e8078e78e65",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Map_list": [
+          {
+            "Name": "Forest",
+            "Map_info_list": [
+              {
+                "is_Enter": 0,
+                "Enter_dateTime": {}
+              },
+              {
+                "is_Enter": 0,
+                "Enter_dateTime": {}
+              },
+              {
+                "is_Enter": 0,
+                "Enter_dateTime": {}
+              },
+              {
+                "is_Enter": 0,
+                "Enter_dateTime": {}
+              },
+              {
+                "is_Enter": 0,
+                "Enter_dateTime": {}
+              }
+            ]
+          },
+          {
+            "Name": "Desert",
+            "Map_info_list": [
+              {
+                "is_Enter": 0,
+                "Enter_dateTime": {}
+              },
+              {
+                "is_Enter": 0,
+                "Enter_dateTime": {}
+              },
+              {
+                "is_Enter": 0,
+                "Enter_dateTime": {}
+              },
+              {
+                "is_Enter": 0,
+                "Enter_dateTime": {}
+              },
+              {
+                "is_Enter": 0,
+                "Enter_dateTime": {}
+              }
+            ]
+          },
+          {
+            "Name": "Tundra",
+            "Map_info_list": [
+              {
+                "is_Enter": 0,
+                "Enter_dateTime": {}
+              },
+              {
+                "is_Enter": 0,
+                "Enter_dateTime": {}
+              },
+              {
+                "is_Enter": 0,
+                "Enter_dateTime": {}
+              },
+              {
+                "is_Enter": 0,
+                "Enter_dateTime": {}
+              },
+              {
+                "is_Enter": 0,
+                "Enter_dateTime": {}
+              }
+            ]
+          }
+        ],
+        "Currency_Core": 0,
+        "Lv": 0,
+        "Exp": 0,
+        "Exp_balance": "0a0000003c0000006400000082000000b4000000e6000000180100005401000090010000d60100002602000076020000d00200003403000098030000",
+        "adventure_panel_ui": {
+          "fileID": 124152
+        },
+        "adventure_exit_panel": {
+          "fileID": 124886
+        },
+        "Alert_obj": {
+          "fileID": 528
+        },
+        "Ticket_Now": 20,
+        "Last_Ticket_Charge_dateTime": {},
+        "AD_Reduce_UseCount": 0,
+        "AD_Reduce_LastDate": null,
+        "Core_sprites": [
+          {
+            "fileID": 21300000,
+            "guid": "9e151ed839cb4d24b8c4b921bf8b35c1",
+            "type": 2
+          },
+          {
+            "fileID": 21300000,
+            "guid": "43516b2a24216524199d6dc4af0b77a8",
+            "type": 2
+          },
+          {
+            "fileID": 21300000,
+            "guid": "4114c717ba60d6344bd2ce350952821c",
+            "type": 2
+          },
+          {
+            "fileID": 21300000,
+            "guid": "3df1ee78e73b4f64dac1b1c218c260e0",
+            "type": 2
+          }
+        ]
+      }
+    },
+    "123676": {
+      "type": "Adventure_Reward_popup",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 611
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "fee69a47c46702fb94eea081179d5c03",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "ExpSlider_obj": {
+          "fileID": 456
+        },
+        "Endtxt_obj": {
+          "fileID": 10225
+        },
+        "Exp_obj": {
+          "fileID": 2082
+        },
+        "Core_obj": {
+          "fileID": 780
+        },
+        "Exit_obj": {
+          "fileID": 2105
+        },
+        "ExpSlider_Fill": {
+          "fileID": 123314
+        },
+        "Slider_Lv_txt": {
+          "fileID": 117281
+        },
+        "Slider_Exp_txt": {
+          "fileID": 117410
+        },
+        "Reward_Exp_txt": {
+          "fileID": 117244
+        },
+        "Reward_Core_txt": {
+          "fileID": 117165
+        },
+        "Reward_Core_img": {
+          "fileID": 124267
+        },
+        "RewardCore_Panel_img": {
+          "fileID": 123593
+        },
+        "CorePanel_Colors": [
+          {
+            "r": 0.6117647,
+            "g": 1,
+            "b": 0.5647059,
+            "a": 1
+          },
+          {
+            "r": 1,
+            "g": 0.7529412,
+            "b": 0.1764706,
+            "a": 1
+          },
+          {
+            "r": 0.54509807,
+            "g": 0.99215686,
+            "b": 1,
+            "a": 1
+          }
+        ],
+        "ElementGap": 0.15,
+        "SliderFillDuration": 0.8,
+        "ExitDelay": 0.3
+      }
+    },
+    "123767": {
+      "type": "Adventure_Ticket_UI",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 688
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "a8d77f3ffe9af219e94dbbbb242fa03f",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Count_txt": [
+          {
+            "fileID": 117237
+          },
+          {
+            "fileID": 117172
+          }
+        ],
+        "Cooltime_txt": [
+          {
+            "fileID": 117357
+          },
+          {
+            "fileID": 117182
+          }
+        ]
+      }
+    },
+    "124152": {
+      "type": "Adventure_Panel",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 977
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "85405c16d884254e7ffc92b97e25964a",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Lv_txt": {
+          "fileID": 117252
+        },
+        "Exp_txt": {
+          "fileID": 117245
+        },
+        "Exp_Fill": {
+          "fileID": 125252
+        },
+        "RenderTexture_Map_obj": {
+          "fileID": 1744
+        },
+        "Pet_Dummy_list": [
+          {
+            "fileID": 133675
+          },
+          {
+            "fileID": 133676
+          },
+          {
+            "fileID": 133689
+          },
+          {
+            "fileID": 133682
+          },
+          {
+            "fileID": 133673
+          },
+          {
+            "fileID": 133684
+          },
+          {
+            "fileID": 133678
+          },
+          {
+            "fileID": 133690
+          },
+          {
+            "fileID": 133679
+          },
+          {
+            "fileID": 133674
+          },
+          {
+            "fileID": 133686
+          },
+          {
+            "fileID": 133685
+          },
+          {
+            "fileID": 133677
+          },
+          {
+            "fileID": 133687
+          },
+          {
+            "fileID": 133681
+          },
+          {
+            "fileID": 133683
+          },
+          {
+            "fileID": 133688
+          },
+          {
+            "fileID": 133691
+          },
+          {
+            "fileID": 133680
+          }
+        ],
+        "Adventure_Maplist_popup": {
+          "fileID": 1248
+        },
+        "Adventure_Map_list": [
+          {
+            "fileID": 140373
+          },
+          {
+            "fileID": 128437
+          },
+          {
+            "fileID": 128436
+          }
+        ],
+        "Adventure_Map_Info_list": [
+          {
+            "fileID": 149315
+          },
+          {
+            "fileID": 139742
+          },
+          {
+            "fileID": 139743
+          },
+          {
+            "fileID": 139744
+          },
+          {
+            "fileID": 139745
+          }
+        ],
+        "Adventure_Enter_popup": {
+          "fileID": 123096
+        },
+        "Adventure_Reward_popup": {
+          "fileID": 123676
+        },
+        "MapInfo_Panel_img": {
+          "fileID": 124627
+        },
+        "MapInfo_Panel_Colors": [
+          {
+            "r": 0.7058824,
+            "g": 0.90588236,
+            "b": 0.7372549,
+            "a": 1
+          },
+          {
+            "r": 1,
+            "g": 0.91764706,
+            "b": 0.7294118,
+            "a": 1
+          },
+          {
+            "r": 0.73333335,
+            "g": 1,
+            "b": 0.9764706,
+            "a": 1
+          }
+        ],
+        "Map_Alert_obj": {
+          "fileID": 33903
+        },
+        "Core_Alert_obj": {
+          "fileID": 9625
+        }
+      }
+    },
+    "124453": {
+      "type": "Adventure_PetSelect_popup",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 1228
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "d7c3d7bbe405ab1b1b2f01d53b65bd4f",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Pet_Slot_list": [
+          {
+            "fileID": 145526
+          },
+          {
+            "fileID": 139721
+          },
+          {
+            "fileID": 139714
+          },
+          {
+            "fileID": 139719
+          },
+          {
+            "fileID": 139718
+          },
+          {
+            "fileID": 139722
+          },
+          {
+            "fileID": 139726
+          },
+          {
+            "fileID": 139728
+          },
+          {
+            "fileID": 139717
+          },
+          {
+            "fileID": 139725
+          },
+          {
+            "fileID": 139723
+          },
+          {
+            "fileID": 139727
+          },
+          {
+            "fileID": 139715
+          },
+          {
+            "fileID": 139720
+          },
+          {
+            "fileID": 139729
+          },
+          {
+            "fileID": 139724
+          },
+          {
+            "fileID": 139730
+          },
+          {
+            "fileID": 139716
+          },
+          {
+            "fileID": 139731
+          }
+        ],
+        "enter_popup": {
+          "fileID": 0
+        }
+      }
+    },
+    "124886": {
+      "type": "Adventure_Exit_Panel",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 1612
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "5794e6607783a70257d0f280cbdc849a",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "_type": 0,
+        "_index": 0,
+        "Reward_Exp_txt": {
+          "fileID": 117341
+        },
+        "Reward_Core_txt": {
+          "fileID": 117376
+        },
+        "Reward_Core_img": {
+          "fileID": 124235
+        },
+        "RewardCore_Panel_img": {
+          "fileID": 124216
+        },
+        "CorePanel_Colors": [
+          {
+            "r": 0.6117647,
+            "g": 1,
+            "b": 0.5647059,
+            "a": 1
+          },
+          {
+            "r": 1,
+            "g": 0.7529412,
+            "b": 0.1764706,
+            "a": 1
+          },
+          {
+            "r": 0.54509807,
+            "g": 0.99215686,
+            "b": 1,
+            "a": 1
+          }
+        ]
+      }
+    },
+    "128436": {
+      "type": "Adventure_Map_item",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 3700
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "fa27cb0a0402dc41eff4cd44cfd8fb10",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "_type": 2,
+        "adventure_panel": {
+          "fileID": 124152
+        },
+        "Finished_obj": {
+          "fileID": 30265
+        },
+        "Locked_obj": {
+          "fileID": 17354
+        }
+      }
+    },
+    "128437": {
+      "type": "Adventure_Map_item",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 3701
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "fa27cb0a0402dc41eff4cd44cfd8fb10",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "_type": 1,
+        "adventure_panel": {
+          "fileID": 124152
+        },
+        "Finished_obj": {
+          "fileID": 30264
+        },
+        "Locked_obj": {
+          "fileID": 17353
+        }
+      }
+    },
+    "139714": {
+      "type": "Adventure_PetSelect_Slot",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 37044
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "87ebb343384a2f1092843b7f27b7f974",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "SelectAble_obj": {
+          "fileID": 18100
+        },
+        "Disable_obj": {
+          "fileID": 15151
+        },
+        "pet_item_demo": {
+          "fileID": 141107
+        },
+        "popup": {
+          "fileID": 0
+        }
+      }
+    },
+    "139715": {
+      "type": "Adventure_PetSelect_Slot",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 37045
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "87ebb343384a2f1092843b7f27b7f974",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "SelectAble_obj": {
+          "fileID": 18099
+        },
+        "Disable_obj": {
+          "fileID": 15152
+        },
+        "pet_item_demo": {
+          "fileID": 141106
+        },
+        "popup": {
+          "fileID": 0
+        }
+      }
+    },
+    "139716": {
+      "type": "Adventure_PetSelect_Slot",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 37046
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "87ebb343384a2f1092843b7f27b7f974",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "SelectAble_obj": {
+          "fileID": 18102
+        },
+        "Disable_obj": {
+          "fileID": 15153
+        },
+        "pet_item_demo": {
+          "fileID": 141105
+        },
+        "popup": {
+          "fileID": 0
+        }
+      }
+    },
+    "139717": {
+      "type": "Adventure_PetSelect_Slot",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 37047
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "87ebb343384a2f1092843b7f27b7f974",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "SelectAble_obj": {
+          "fileID": 18101
+        },
+        "Disable_obj": {
+          "fileID": 15154
+        },
+        "pet_item_demo": {
+          "fileID": 141104
+        },
+        "popup": {
+          "fileID": 0
+        }
+      }
+    },
+    "139718": {
+      "type": "Adventure_PetSelect_Slot",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 37042
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "87ebb343384a2f1092843b7f27b7f974",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "SelectAble_obj": {
+          "fileID": 18104
+        },
+        "Disable_obj": {
+          "fileID": 15149
+        },
+        "pet_item_demo": {
+          "fileID": 141103
+        },
+        "popup": {
+          "fileID": 0
+        }
+      }
+    },
+    "139719": {
+      "type": "Adventure_PetSelect_Slot",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 37043
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "87ebb343384a2f1092843b7f27b7f974",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "SelectAble_obj": {
+          "fileID": 18103
+        },
+        "Disable_obj": {
+          "fileID": 15150
+        },
+        "pet_item_demo": {
+          "fileID": 141102
+        },
+        "popup": {
+          "fileID": 0
+        }
+      }
+    },
+    "139720": {
+      "type": "Adventure_PetSelect_Slot",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 37035
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "87ebb343384a2f1092843b7f27b7f974",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "SelectAble_obj": {
+          "fileID": 18089
+        },
+        "Disable_obj": {
+          "fileID": 15160
+        },
+        "pet_item_demo": {
+          "fileID": 141119
+        },
+        "popup": {
+          "fileID": 0
+        }
+      }
+    },
+    "139721": {
+      "type": "Adventure_PetSelect_Slot",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 37034
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "87ebb343384a2f1092843b7f27b7f974",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "SelectAble_obj": {
+          "fileID": 18090
+        },
+        "Disable_obj": {
+          "fileID": 15159
+        },
+        "pet_item_demo": {
+          "fileID": 141118
+        },
+        "popup": {
+          "fileID": 0
+        }
+      }
+    },
+    "139722": {
+      "type": "Adventure_PetSelect_Slot",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 37036
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "87ebb343384a2f1092843b7f27b7f974",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "SelectAble_obj": {
+          "fileID": 18088
+        },
+        "Disable_obj": {
+          "fileID": 15162
+        },
+        "pet_item_demo": {
+          "fileID": 141116
+        },
+        "popup": {
+          "fileID": 0
+        }
+      }
+    },
+    "139723": {
+      "type": "Adventure_PetSelect_Slot",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 37037
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "87ebb343384a2f1092843b7f27b7f974",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "SelectAble_obj": {
+          "fileID": 18087
+        },
+        "Disable_obj": {
+          "fileID": 15161
+        },
+        "pet_item_demo": {
+          "fileID": 141117
+        },
+        "popup": {
+          "fileID": 0
+        }
+      }
+    },
+    "139724": {
+      "type": "Adventure_PetSelect_Slot",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 37038
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "87ebb343384a2f1092843b7f27b7f974",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "SelectAble_obj": {
+          "fileID": 18094
+        },
+        "Disable_obj": {
+          "fileID": 15163
+        },
+        "pet_item_demo": {
+          "fileID": 141115
+        },
+        "popup": {
+          "fileID": 0
+        }
+      }
+    },
+    "139725": {
+      "type": "Adventure_PetSelect_Slot",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 37039
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "87ebb343384a2f1092843b7f27b7f974",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "SelectAble_obj": {
+          "fileID": 18093
+        },
+        "Disable_obj": {
+          "fileID": 15165
+        },
+        "pet_item_demo": {
+          "fileID": 141113
+        },
+        "popup": {
+          "fileID": 0
+        }
+      }
+    },
+    "139726": {
+      "type": "Adventure_PetSelect_Slot",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 37040
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "87ebb343384a2f1092843b7f27b7f974",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "SelectAble_obj": {
+          "fileID": 18092
+        },
+        "Disable_obj": {
+          "fileID": 15164
+        },
+        "pet_item_demo": {
+          "fileID": 141114
+        },
+        "popup": {
+          "fileID": 0
+        }
+      }
+    },
+    "139727": {
+      "type": "Adventure_PetSelect_Slot",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 37041
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "87ebb343384a2f1092843b7f27b7f974",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "SelectAble_obj": {
+          "fileID": 18091
+        },
+        "Disable_obj": {
+          "fileID": 15166
+        },
+        "pet_item_demo": {
+          "fileID": 141112
+        },
+        "popup": {
+          "fileID": 0
+        }
+      }
+    },
+    "139728": {
+      "type": "Adventure_PetSelect_Slot",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 37030
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "87ebb343384a2f1092843b7f27b7f974",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "SelectAble_obj": {
+          "fileID": 18098
+        },
+        "Disable_obj": {
+          "fileID": 15155
+        },
+        "pet_item_demo": {
+          "fileID": 141111
+        },
+        "popup": {
+          "fileID": 0
+        }
+      }
+    },
+    "139729": {
+      "type": "Adventure_PetSelect_Slot",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 37031
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "87ebb343384a2f1092843b7f27b7f974",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "SelectAble_obj": {
+          "fileID": 18097
+        },
+        "Disable_obj": {
+          "fileID": 15156
+        },
+        "pet_item_demo": {
+          "fileID": 141110
+        },
+        "popup": {
+          "fileID": 0
+        }
+      }
+    },
+    "139730": {
+      "type": "Adventure_PetSelect_Slot",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 37032
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "87ebb343384a2f1092843b7f27b7f974",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "SelectAble_obj": {
+          "fileID": 18096
+        },
+        "Disable_obj": {
+          "fileID": 15158
+        },
+        "pet_item_demo": {
+          "fileID": 141108
+        },
+        "popup": {
+          "fileID": 0
+        }
+      }
+    },
+    "139731": {
+      "type": "Adventure_PetSelect_Slot",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 37033
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "87ebb343384a2f1092843b7f27b7f974",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "SelectAble_obj": {
+          "fileID": 18095
+        },
+        "Disable_obj": {
+          "fileID": 15157
+        },
+        "pet_item_demo": {
+          "fileID": 141109
+        },
+        "popup": {
+          "fileID": 0
+        }
+      }
+    },
+    "139742": {
+      "type": "Adventure_Map_info_item",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 18445
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "a0bac8f8d419c7f6e3905f213c266a95",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Block_obj": {
+          "fileID": 19607
+        },
+        "EnterAble_obj": {
+          "fileID": 30442
+        },
+        "Entered_obj": {
+          "fileID": 28326
+        },
+        "Finish_obj": {
+          "fileID": 4373
+        },
+        "Daylock_obj": {
+          "fileID": 19499
+        },
+        "Pet_imgs": [
+          {
+            "fileID": 132214
+          },
+          {
+            "fileID": 125940
+          },
+          {
+            "fileID": 140999
+          }
+        ],
+        "Map_img_objs": [
+          {
+            "fileID": 24738
+          },
+          {
+            "fileID": 33375
+          },
+          {
+            "fileID": 36882
+          }
+        ],
+        "Core_img": {
+          "fileID": 127798
+        },
+        "Stage_txt": {
+          "fileID": 118761
+        },
+        "Time_txt": {
+          "fileID": 118549
+        },
+        "Remaining_Duration_txt": {
+          "fileID": 122088
+        },
+        "LvLock_txt": {
+          "fileID": 117793
+        },
+        "AD_Btn_obj": {
+          "fileID": 12209
+        },
+        "AD_Count_txt": {
+          "fileID": 117844
+        }
+      }
+    },
+    "139743": {
+      "type": "Adventure_Map_info_item",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 18442
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "a0bac8f8d419c7f6e3905f213c266a95",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Block_obj": {
+          "fileID": 19608
+        },
+        "EnterAble_obj": {
+          "fileID": 30444
+        },
+        "Entered_obj": {
+          "fileID": 28325
+        },
+        "Finish_obj": {
+          "fileID": 4372
+        },
+        "Daylock_obj": {
+          "fileID": 19502
+        },
+        "Pet_imgs": [
+          {
+            "fileID": 132211
+          },
+          {
+            "fileID": 125941
+          },
+          {
+            "fileID": 141001
+          }
+        ],
+        "Map_img_objs": [
+          {
+            "fileID": 24741
+          },
+          {
+            "fileID": 33377
+          },
+          {
+            "fileID": 36884
+          }
+        ],
+        "Core_img": {
+          "fileID": 127796
+        },
+        "Stage_txt": {
+          "fileID": 118760
+        },
+        "Time_txt": {
+          "fileID": 118547
+        },
+        "Remaining_Duration_txt": {
+          "fileID": 122089
+        },
+        "LvLock_txt": {
+          "fileID": 117791
+        },
+        "AD_Btn_obj": {
+          "fileID": 12206
+        },
+        "AD_Count_txt": {
+          "fileID": 117842
+        }
+      }
+    },
+    "139744": {
+      "type": "Adventure_Map_info_item",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 18443
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "a0bac8f8d419c7f6e3905f213c266a95",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Block_obj": {
+          "fileID": 19609
+        },
+        "EnterAble_obj": {
+          "fileID": 30445
+        },
+        "Entered_obj": {
+          "fileID": 28324
+        },
+        "Finish_obj": {
+          "fileID": 4371
+        },
+        "Daylock_obj": {
+          "fileID": 19501
+        },
+        "Pet_imgs": [
+          {
+            "fileID": 132212
+          },
+          {
+            "fileID": 125942
+          },
+          {
+            "fileID": 141002
+          }
+        ],
+        "Map_img_objs": [
+          {
+            "fileID": 24740
+          },
+          {
+            "fileID": 33376
+          },
+          {
+            "fileID": 36885
+          }
+        ],
+        "Core_img": {
+          "fileID": 127797
+        },
+        "Stage_txt": {
+          "fileID": 118759
+        },
+        "Time_txt": {
+          "fileID": 118546
+        },
+        "Remaining_Duration_txt": {
+          "fileID": 122090
+        },
+        "LvLock_txt": {
+          "fileID": 117792
+        },
+        "AD_Btn_obj": {
+          "fileID": 12207
+        },
+        "AD_Count_txt": {
+          "fileID": 117843
+        }
+      }
+    },
+    "139745": {
+      "type": "Adventure_Map_info_item",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 18444
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "a0bac8f8d419c7f6e3905f213c266a95",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Block_obj": {
+          "fileID": 19610
+        },
+        "EnterAble_obj": {
+          "fileID": 30443
+        },
+        "Entered_obj": {
+          "fileID": 28323
+        },
+        "Finish_obj": {
+          "fileID": 4370
+        },
+        "Daylock_obj": {
+          "fileID": 19500
+        },
+        "Pet_imgs": [
+          {
+            "fileID": 132213
+          },
+          {
+            "fileID": 125943
+          },
+          {
+            "fileID": 141000
+          }
+        ],
+        "Map_img_objs": [
+          {
+            "fileID": 24739
+          },
+          {
+            "fileID": 33378
+          },
+          {
+            "fileID": 36883
+          }
+        ],
+        "Core_img": {
+          "fileID": 127795
+        },
+        "Stage_txt": {
+          "fileID": 118758
+        },
+        "Time_txt": {
+          "fileID": 118548
+        },
+        "Remaining_Duration_txt": {
+          "fileID": 122091
+        },
+        "LvLock_txt": {
+          "fileID": 117790
+        },
+        "AD_Btn_obj": {
+          "fileID": 12208
+        },
+        "AD_Count_txt": {
+          "fileID": 117841
+        }
+      }
+    },
+    "140373": {
+      "type": "Adventure_Map_item",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 19528
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "fa27cb0a0402dc41eff4cd44cfd8fb10",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "_type": 0,
+        "adventure_panel": {
+          "fileID": 124152
+        },
+        "Finished_obj": {
+          "fileID": 11909
+        },
+        "Locked_obj": {
+          "fileID": 38917
+        }
+      }
+    },
+    "145526": {
+      "type": "Adventure_PetSelect_Slot",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 23280
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "87ebb343384a2f1092843b7f27b7f974",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "SelectAble_obj": {
+          "fileID": 6765
+        },
+        "Disable_obj": {
+          "fileID": 3594
+        },
+        "pet_item_demo": {
+          "fileID": 148223
+        },
+        "popup": {
+          "fileID": 0
+        }
+      }
+    },
+    "147188": {
+      "type": "Adventure_Pet_Slot",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 17005
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "734eee56ac7728ffd122d7d08d397ed0",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "SlotNum": 1,
+        "_status": 0,
+        "Selected_obj": {
+          "fileID": 24829
+        },
+        "Empty_obj": {
+          "fileID": 20490
+        },
+        "Locked_obj": {
+          "fileID": 3989
+        },
+        "pet_item": {
+          "fileID": 137181
+        },
+        "popup": {
+          "fileID": 0
+        }
+      }
+    },
+    "147189": {
+      "type": "Adventure_Pet_Slot",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 17004
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "734eee56ac7728ffd122d7d08d397ed0",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "SlotNum": 2,
+        "_status": 0,
+        "Selected_obj": {
+          "fileID": 24830
+        },
+        "Empty_obj": {
+          "fileID": 20491
+        },
+        "Locked_obj": {
+          "fileID": 3988
+        },
+        "pet_item": {
+          "fileID": 137182
+        },
+        "popup": {
+          "fileID": 0
+        }
+      }
+    },
+    "148041": {
+      "type": "Adventure_Pet_Slot",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 15481
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "734eee56ac7728ffd122d7d08d397ed0",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "SlotNum": 0,
+        "_status": 0,
+        "Selected_obj": {
+          "fileID": 25567
+        },
+        "Empty_obj": {
+          "fileID": 19267
+        },
+        "Locked_obj": {
+          "fileID": 2662
+        },
+        "pet_item": {
+          "fileID": 135610
+        },
+        "popup": {
+          "fileID": 0
+        }
+      }
+    },
+    "149315": {
+      "type": "Adventure_Map_info_item",
+      "data": {
+        "m_ObjectHideFlags": 0,
+        "m_CorrespondingSourceObject": {
+          "fileID": 0
+        },
+        "m_PrefabInstance": {
+          "fileID": 0
+        },
+        "m_PrefabAsset": {
+          "fileID": 0
+        },
+        "m_GameObject": {
+          "fileID": 4962
+        },
+        "m_Enabled": 1,
+        "m_EditorHideFlags": 0,
+        "m_Script": {
+          "fileID": 11500000,
+          "guid": "a0bac8f8d419c7f6e3905f213c266a95",
+          "type": 3
+        },
+        "m_Name": null,
+        "m_EditorClassIdentifier": null,
+        "Block_obj": {
+          "fileID": 35635
+        },
+        "EnterAble_obj": {
+          "fileID": 25409
+        },
+        "Entered_obj": {
+          "fileID": 32967
+        },
+        "Finish_obj": {
+          "fileID": 18733
+        },
+        "Daylock_obj": {
+          "fileID": 36016
+        },
+        "Pet_imgs": [
+          {
+            "fileID": 130224
+          },
+          {
+            "fileID": 135139
+          },
+          {
+            "fileID": 146096
+          }
+        ],
+        "Map_img_objs": [
+          {
+            "fileID": 30760
+          },
+          {
+            "fileID": 28246
+          },
+          {
+            "fileID": 22828
+          }
+        ],
+        "Core_img": {
+          "fileID": 137399
+        },
+        "Stage_txt": {
+          "fileID": 118360
+        },
+        "Time_txt": {
+          "fileID": 119371
+        },
+        "Remaining_Duration_txt": {
+          "fileID": 120209
+        },
+        "LvLock_txt": {
+          "fileID": 119564
+        },
+        "AD_Btn_obj": {
+          "fileID": 6478
+        },
+        "AD_Count_txt": {
+          "fileID": 120094
+        }
+      }
+    }
+  },
+  "literals": {
+    "0x5d61f28": "{0}/{1}",
+    "0x5d61f18": "Lv.{0}",
+    "0x5d63110": "- {0}",
+    "0x5d59050": "",
+    "0x5d62128": "{0}m {1}s",
+    "0x5d5e6d0": "{0}s",
+    "0x5d5e540": "{0}h {1}m",
+    "0x5d63140": "{0}h {1}m {2}s",
+    "0x5d626f0": "NoSaveFile.json",
+    "0x5d626f8": "NoSaveFile.json.bak",
+    "0x5d626d8": "/saves/",
+    "0x5d62730": "[SaveSystem] main save broken, trying backup",
+    "0x5d63080": "Max",
+    "0x5d630d0": "Stage {0}",
+    "0x5d630d8": "{0}h",
+    "0x5d62f98": "Alert_Tick"
+  },
+  "rules": {
+    "duration_hours": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "unlock_levels": [
+      0,
+      1,
+      3,
+      6,
+      10
+    ],
+    "pet_slot_unlock_levels": [
+      0,
+      2,
+      7
+    ],
+    "core_reward": "int(single-precision sum(grade*0.1+1)*20*base duration hours)",
+    "exp_reward": "10*base hours*count of locked nonempty pets",
+    "exp_balance_shipped": [
+      10,
+      60,
+      100,
+      130,
+      180,
+      230,
+      280,
+      340,
+      400,
+      470,
+      550,
+      630,
+      720,
+      820,
+      920
+    ],
+    "optional_exp_reload_formula": "(20+3*Lv)*Lv+50; Awake/Start do not invoke; retain shipped table",
+    "ticket": "max20,4-hour intervals, cost selected count; first absent charge timestamp initialized Now; retain fractional interval; full-cap uses reset clock on spending",
+    "weekdays": "Forest Sun/Mon/Thu; Desert Sun/Tue/Fri; Tundra Sun/Wed/Sat; gates visible EnterAble UI only; finish/cancel still reachable on closed day",
+    "lock_group": "map index + map type*100, owned and equipped locks, selected candidates filtered unique/available and capped3; UI open slots byLv",
+    "start_boundary": "native manager only rejects entered/locked/zero valid pets; UI gates weekday/tickets/open slots; local transaction validates before spending to avoid race-loss",
+    "settlement": "must entered+Remaining<=0; calculate from live locked grades, core andExp, unlockgroup, clear entered, original popup; repeated claim no reward",
+    "cancel": "unlockgroup/clear entered, no refund/reward; local immediately persists (native function has no direct Save)",
+    "commercial": "PlusPack type2 would subtract16hours; absent entitlement ordinary duration retained; ad/time/cheat controls unavailable",
+    "unsupported_save": "nonempty legacy Dispatched_Pet_Slots rejected explicitly (native ordinary path ignores it); malformed maps/dates/orphan group locks rejected without replacing save"
+  },
+  "additional_evidence": {
+    "dependencies": "../native-adventure-dependencies-reviewed/status.tsv",
+    "save_load": "../native-adventure-save-load-reviewed/status.tsv",
+    "state": "../native-adventure-state-reviewed/status.tsv",
+    "loaded_experience": "ContinueLoad only invokes Exp_Balance_Reload if missing/empty; retain shipped15-entry table",
+    "save_contract": "CreateFromCurrentState writes map is_Enter and Enter_dateTime; owned/selected lock groups persisted separately; Dispatched_Pet_Slots is not written or loaded in ordinary path",
+    "new_state": "ContinueLoad absent Adventure_Maps sets Ticket20/chargeNow; local neutral legacy migration matches this"
+  },
+  "ui_animation": {
+    "bounce_y_keyframes": [
+      [
+        1.1,
+        0.15
+      ],
+      [
+        1,
+        0.1
+      ]
+    ],
+    "clock": "unscaled",
+    "element_gap": 0.15,
+    "slider_base_duration": 0.8,
+    "slider_duration": "base*max(0.01,abs(to-from)), linear interpolation and nearest-even integer text",
+    "exit_delay": 0.3,
+    "levelup_sfx": 11
+  },
+  "validation": {
+    "focused": {
+      "report": "live-adventure-focused-final-status.json",
+      "total": 8,
+      "passed": 8,
+      "failed": 0,
+      "skipped": 0,
+      "inconclusive": 0,
+      "duration": 35.33
+    },
+    "full": {
+      "report": "live-adventure-assembly-final-status.json",
+      "total": 131,
+      "passed": 131,
+      "failed": 0,
+      "skipped": 0,
+      "inconclusive": 0,
+      "duration": 808.07
+    },
+    "visual_player_device": "Selected Editor GPU inspected; whole visual/Player/device unaccepted"
+  }
+}

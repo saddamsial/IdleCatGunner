@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 25.01,
+      "summary": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalTargetRotationTests.NativeTiltDirectionLoopsAndHiddenPhaseArePreserved",
+          "Status": "Passed",
+          "Duration": 10.8707174,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalTargetRotationTests.NaturalZeroInputBattleShowsAnimatedTargetAndHidesItWhenStopped",
+          "Status": "Passed",
+          "Duration": 6.3631491,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalTargetRotationTests.TrackedMarkerRotatesPausesAndFollowsTargetSwitch",
+          "Status": "Passed",
+          "Duration": 7.7492489,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

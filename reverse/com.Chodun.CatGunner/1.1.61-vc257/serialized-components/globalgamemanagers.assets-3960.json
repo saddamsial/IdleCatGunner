@@ -1,0 +1,102 @@
+{
+  "identity": {
+    "file": "globalgamemanagers.assets",
+    "path_id": 3960,
+    "type_index": 9848,
+    "type": "UnityEngine.Rendering.Universal.UniversalRendererData",
+    "game_object": "Mobile_Renderer"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": 3428
+    },
+    "m_Name": "Mobile_Renderer",
+    "debugShaders": {
+      "debugReplacementPS": {
+        "m_FileID": 0,
+        "m_PathID": 15
+      },
+      "hdrDebugViewPS": {
+        "m_FileID": 0,
+        "m_PathID": 11
+      }
+    },
+    "probeVolumeResources": {
+      "probeVolumeDebugShader": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "probeVolumeFragmentationDebugShader": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "probeVolumeOffsetDebugShader": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "probeVolumeSamplingDebugShader": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "probeSamplingDebugMesh": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "probeSamplingDebugTexture": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "probeVolumeBlendStatesCS": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    "m_RendererFeatures": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 3969
+      }
+    ],
+    "m_RendererFeatureMap": [
+      4335799584582668859
+    ],
+    "m_UseNativeRenderPass": true,
+    "xrSystemData": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "postProcessData": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_AssetVersion": 2,
+    "m_OpaqueLayerMask": {
+      "m_Bits": 4294967295
+    },
+    "m_TransparentLayerMask": {
+      "m_Bits": 503
+    },
+    "m_DefaultStencilState": {
+      "overrideStencilState": false,
+      "stencilReference": 0,
+      "stencilCompareFunction": 8,
+      "passOperation": 2,
+      "failOperation": 0,
+      "zFailOperation": 0
+    },
+    "m_ShadowTransparentReceive": false,
+    "m_RenderingMode": 2,
+    "m_DepthPrimingMode": 0,
+    "m_CopyDepthMode": 0,
+    "m_DepthAttachmentFormat": 0,
+    "m_DepthTextureFormat": 0,
+    "m_AccurateGbufferNormals": false,
+    "m_IntermediateTextureMode": 0
+  }
+}

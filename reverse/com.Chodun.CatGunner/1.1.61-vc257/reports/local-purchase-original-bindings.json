@@ -1,0 +1,3097 @@
+{
+  "routes": [
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Helper_Purchase_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Purchase_Btn",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Contents_UI/Raid_UI/Helper_Purchase_Popup/Panel/Purchase_Btn",
+      "buttonSourceId": 123016,
+      "method": "OnClick_Purchase",
+      "targetType": "Raid_Helper_Purchase_Popup",
+      "targetSourceId": 123163,
+      "callIndex": 0,
+      "productId": "catgunner_raid_helper"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Ads_Remove (Forced)",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove Ads (Force) Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove Ads Fored (Inapp)",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove_AD_Forced",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Ads_Remove (Forced)/Remove Ads (Force) Popup/Remove Ads Fored (Inapp)/Remove_AD_Forced",
+      "buttonSourceId": 123042,
+      "method": "Purchase",
+      "targetType": "Remove_ForceAds_UI",
+      "targetSourceId": 123867,
+      "callIndex": 0,
+      "productId": "remove_forced_ads"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "NewSeason_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "VIP Panel (Inapp)",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel",
+      "buttonSourceId": 123100,
+      "method": "Purchase",
+      "targetType": "VIP_Purchase_popup",
+      "targetSourceId": 125515,
+      "callIndex": 0,
+      "productId": "vip_pass"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mine_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mine_Start_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "MinePack",
+          "ordinal": 0
+        },
+        {
+          "name": "MinePack_Panel",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Contents_UI/Mine_UI/Mine_Start_UI/MinePack/MinePack_Panel",
+      "buttonSourceId": 123435,
+      "method": "Purchase",
+      "targetType": "Inapp_Purchase_Popup",
+      "targetSourceId": 124852,
+      "callIndex": 0,
+      "productId": "mine_pack"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Buff_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Buff_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "InApp & FREECASH",
+          "ordinal": 0
+        },
+        {
+          "name": "BuffPack (Inapp)",
+          "ordinal": 0
+        },
+        {
+          "name": "BuffPack",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Buff_manager/Buff_UI/InApp & FREECASH/BuffPack (Inapp)/BuffPack",
+      "buttonSourceId": 123680,
+      "method": "Purchase",
+      "targetType": "Inapp_Purchase_Popup",
+      "targetSourceId": 125109,
+      "callIndex": 0,
+      "productId": "buff_pack"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mine_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "MinePack_Purchase_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "MinePack",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Contents_UI/Mine_UI/MinePack_Purchase_UI/Panel/MinePack",
+      "buttonSourceId": 123920,
+      "method": "Purchase",
+      "targetType": "Inapp_Purchase_Panel",
+      "targetSourceId": 123918,
+      "callIndex": 0,
+      "productId": "mine_pack"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Rebirth_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Rebirth_Popup_UI (IAP)",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Rebirth_btn",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Rebirth_manager/Rebirth_Popup_UI (IAP)/Panel/Rebirth_btn",
+      "buttonSourceId": 124099,
+      "method": "UpgradeRebirth_IAP_Purchase_Btn",
+      "targetType": "Rebirth_Panel_UI",
+      "targetSourceId": 124779,
+      "callIndex": 0,
+      "productId": "catgunner_rebirth_single"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "NewSeason_UI (forced)",
+          "ordinal": 0
+        },
+        {
+          "name": "VIP Panel (Inapp)",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel",
+      "buttonSourceId": 124163,
+      "method": "Purchase",
+      "targetType": "VIP_Purchase_popup",
+      "targetSourceId": 123597,
+      "callIndex": 0,
+      "productId": "vip_pass"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "StarGem_Pig",
+          "ordinal": 0
+        },
+        {
+          "name": "StarGemPig_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Purchase_Btn",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Contents_UI/Raid_UI/StarGem_Pig/StarGemPig_UI/Panel/Purchase_Btn",
+      "buttonSourceId": 124439,
+      "method": "onClick_Purchase",
+      "targetType": "StarGem_Pig_UI",
+      "targetSourceId": 124938,
+      "callIndex": 0,
+      "productId": "stargem_pig_dynamic"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Main_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Btn_list",
+          "ordinal": 0
+        },
+        {
+          "name": "Left_Menu",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_Btn",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Main_UI/Btn_list/Left_Menu/Shop_Btn",
+      "buttonSourceId": 124658,
+      "method": "Panel_Open",
+      "targetType": "Shop_manager",
+      "targetSourceId": 123394,
+      "callIndex": 0,
+      "productId": "navigation_Panel_Open"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Package",
+          "ordinal": 0
+        },
+        {
+          "name": "DiaPack",
+          "ordinal": 0
+        },
+        {
+          "name": "Purchase_Btn",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Shop_UI/Panel/Scroll View/Viewport/Content/Package/DiaPack/Purchase_Btn",
+      "buttonSourceId": 124674,
+      "method": "Purchase",
+      "targetType": "Inapp_Purchase_Panel",
+      "targetSourceId": 125211,
+      "callIndex": 0,
+      "productId": "dia_pack"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "LuxuryPass_Purchase_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "VIP_Pass_ui",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Mission_maanger/LuxuryPass_Purchase_UI/Panel/VIP_Pass_ui",
+      "buttonSourceId": 125052,
+      "method": "Purchase",
+      "targetType": "VIP_Purchase_Ingame",
+      "targetSourceId": 125050,
+      "callIndex": 0,
+      "productId": "vip_pass"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "LuxuryPass_Purchase_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "VIP_Pass_ui",
+          "ordinal": 0
+        },
+        {
+          "name": "Purchase_Btn",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Mission_maanger/LuxuryPass_Purchase_UI/Panel/VIP_Pass_ui/Purchase_Btn",
+      "buttonSourceId": 125085,
+      "method": "Purchase",
+      "targetType": "VIP_Purchase_Ingame",
+      "targetSourceId": 125050,
+      "callIndex": 0,
+      "productId": "vip_pass"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "VipPass_Purchase_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "VIP_Pass_ui",
+          "ordinal": 0
+        },
+        {
+          "name": "Purchase_Btn",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Mission_maanger/VipPass_Purchase_UI/Panel/VIP_Pass_ui/Purchase_Btn",
+      "buttonSourceId": 125170,
+      "method": "Purchase",
+      "targetType": "VIP_Purchase_Ingame",
+      "targetSourceId": 125402,
+      "callIndex": 0,
+      "productId": "vip_pass"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "AutoUpgrade_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "AutoUpgrade (InApp)",
+          "ordinal": 0
+        },
+        {
+          "name": "AutoUpgrade",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Shop_manager/AutoUpgrade_UI/AutoUpgrade (InApp)/AutoUpgrade",
+      "buttonSourceId": 125184,
+      "method": "Purchase",
+      "targetType": "Inapp_Purchase_Popup",
+      "targetSourceId": 124560,
+      "callIndex": 0,
+      "productId": "autoupgrade_pack"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Package",
+          "ordinal": 0
+        },
+        {
+          "name": "DiaPack",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Shop_UI/Panel/Scroll View/Viewport/Content/Package/DiaPack",
+      "buttonSourceId": 125213,
+      "method": "Purchase",
+      "targetType": "Inapp_Purchase_Panel",
+      "targetSourceId": 125211,
+      "callIndex": 0,
+      "productId": "dia_pack"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Start_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Enter_Btn (IAP)",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Enter_Btn (IAP)",
+      "buttonSourceId": 125328,
+      "method": "Game_Enter_IAP",
+      "targetType": "Raid_manager",
+      "targetSourceId": 123118,
+      "callIndex": 0,
+      "productId": "catgunner_raid_ticket"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mine_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "MinePack_Purchase_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "MinePack",
+          "ordinal": 0
+        },
+        {
+          "name": "Purchase_Btn",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Contents_UI/Mine_UI/MinePack_Purchase_UI/Panel/MinePack/Purchase_Btn",
+      "buttonSourceId": 125337,
+      "method": "Purchase",
+      "targetType": "Inapp_Purchase_Panel",
+      "targetSourceId": 123918,
+      "callIndex": 0,
+      "productId": "mine_pack"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "VipPass_Purchase_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "VIP_Pass_ui",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Mission_maanger/VipPass_Purchase_UI/Panel/VIP_Pass_ui",
+      "buttonSourceId": 125400,
+      "method": "Purchase",
+      "targetType": "VIP_Purchase_Ingame",
+      "targetSourceId": 125402,
+      "callIndex": 0,
+      "productId": "vip_pass"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mine_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mine_Start_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Banner_PlusPack",
+          "ordinal": 0
+        },
+        {
+          "name": "Plus_Reward",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Contents_UI/Mine_UI/Mine_Start_UI/Banner_PlusPack/Plus_Reward",
+      "buttonSourceId": 127651,
+      "method": "OnClick",
+      "targetType": "PlusPack_Inapp_item",
+      "targetSourceId": 147377,
+      "callIndex": 0,
+      "productId": "catgunner_pluspack_1"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Dia (List)",
+          "ordinal": 0
+        },
+        {
+          "name": "Dia_Pack",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Shop_UI/Panel/Scroll View/Viewport/Content/Dia (List)/Dia_Pack",
+      "buttonSourceId": 128921,
+      "method": "Purchase",
+      "targetType": "Dia_Purchase_Panel",
+      "targetSourceId": 133971,
+      "callIndex": 0,
+      "productId": "dia_0"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Package",
+          "ordinal": 0
+        },
+        {
+          "name": "BuffPack",
+          "ordinal": 0
+        },
+        {
+          "name": "Purchase_Btn",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Shop_UI/Panel/Scroll View/Viewport/Content/Package/BuffPack/Purchase_Btn",
+      "buttonSourceId": 129096,
+      "method": "Purchase",
+      "targetType": "Inapp_Purchase_Panel",
+      "targetSourceId": 146505,
+      "callIndex": 0,
+      "productId": "buff_pack"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Menu_Plus",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Plus_Reward",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_Plus/Scroll View/Viewport/Content/Plus_Reward",
+      "buttonSourceId": 129612,
+      "method": "OnClick",
+      "targetType": "PlusPack_Inapp_item",
+      "targetSourceId": 146100,
+      "callIndex": 0,
+      "productId": "catgunner_pluspack_1"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Adventure_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "PrismCore_Purchase_popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Prism_Pack (Limited) (2)",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Adventure_manager/PrismCore_Purchase_popup/Panel/Prism_Pack (Limited) (2)",
+      "buttonSourceId": 130276,
+      "method": "Purchase",
+      "targetType": "Core_Purchase_Panel",
+      "targetSourceId": 146808,
+      "callIndex": 0,
+      "productId": "catgunner_core_weekly_6000"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Adventure_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "PrismCore_Purchase_popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Prism_Pack (Limited) (1)",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Adventure_manager/PrismCore_Purchase_popup/Panel/Prism_Pack (Limited) (1)",
+      "buttonSourceId": 130277,
+      "method": "Purchase",
+      "targetType": "Core_Purchase_Panel",
+      "targetSourceId": 146807,
+      "callIndex": 0,
+      "productId": "catgunner_core_weekly_1750"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Dia (List)",
+          "ordinal": 0
+        },
+        {
+          "name": "Dia_Pack (1)",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Shop_UI/Panel/Scroll View/Viewport/Content/Dia (List)/Dia_Pack (1)",
+      "buttonSourceId": 131966,
+      "method": "Purchase",
+      "targetType": "Dia_Purchase_Panel",
+      "targetSourceId": 137534,
+      "callIndex": 0,
+      "productId": "dia_1"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Menu_DailyGun",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_item",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item",
+      "buttonSourceId": 131978,
+      "method": "OnClick_Purchase",
+      "targetType": "DailyGun_Item",
+      "targetSourceId": 132660,
+      "callIndex": 0,
+      "productId": "catgunner_dailygun_0"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Menu_DailyGun",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_item (1)",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)",
+      "buttonSourceId": 131979,
+      "method": "OnClick_Purchase",
+      "targetType": "DailyGun_Item",
+      "targetSourceId": 132659,
+      "callIndex": 0,
+      "productId": "catgunner_dailygun_1"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Menu_DailyGun",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_item (2)",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)",
+      "buttonSourceId": 131980,
+      "method": "OnClick_Purchase",
+      "targetType": "DailyGun_Item",
+      "targetSourceId": 132661,
+      "callIndex": 0,
+      "productId": "catgunner_dailygun_2"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_item (2)",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item (2)",
+      "buttonSourceId": 131981,
+      "method": "OnClick_Purchase",
+      "targetType": "DailyGun_Item",
+      "targetSourceId": 132663,
+      "callIndex": 0,
+      "productId": "catgunner_dailygun_2"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_item (1)",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item (1)",
+      "buttonSourceId": 131982,
+      "method": "OnClick_Purchase",
+      "targetType": "DailyGun_Item",
+      "targetSourceId": 132662,
+      "callIndex": 0,
+      "productId": "catgunner_dailygun_1"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "AutoUpgrade_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "NonPurchase_obj",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_Btn",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Shop_manager/AutoUpgrade_UI/Panel/NonPurchase_obj/Shop_Btn",
+      "buttonSourceId": 132116,
+      "method": "Panel_Open",
+      "targetType": "Shop_manager",
+      "targetSourceId": 123394,
+      "callIndex": 1,
+      "productId": "navigation_Panel_Open"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Pack_list",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp_Gun_Pack",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack",
+      "buttonSourceId": 133094,
+      "method": "OnClick",
+      "targetType": "StepUp_Item_UI",
+      "targetSourceId": 129854,
+      "callIndex": 0,
+      "productId": "catgunner_stepup_0"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Pack_list",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp_Gun_Pack (3)",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)",
+      "buttonSourceId": 133418,
+      "method": "OnClick",
+      "targetType": "StepUp_Item_UI",
+      "targetSourceId": 131821,
+      "callIndex": 0,
+      "productId": "catgunner_stepup_3"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Pack_list",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp_Gun_Pack (2)",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)",
+      "buttonSourceId": 133419,
+      "method": "OnClick",
+      "targetType": "StepUp_Item_UI",
+      "targetSourceId": 131822,
+      "callIndex": 0,
+      "productId": "catgunner_stepup_2"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Pack_list",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp_Gun_Pack (1)",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)",
+      "buttonSourceId": 133420,
+      "method": "OnClick",
+      "targetType": "StepUp_Item_UI",
+      "targetSourceId": 131823,
+      "callIndex": 0,
+      "productId": "catgunner_stepup_1"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Pack_list",
+          "ordinal": 0
+        },
+        {
+          "name": "StepUp_Gun_Pack (4)",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)",
+      "buttonSourceId": 133421,
+      "method": "OnClick",
+      "targetType": "StepUp_Item_UI",
+      "targetSourceId": 131824,
+      "callIndex": 0,
+      "productId": "catgunner_stepup_4"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Dia (List)",
+          "ordinal": 0
+        },
+        {
+          "name": "Dia_Pack (3)",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Shop_UI/Panel/Scroll View/Viewport/Content/Dia (List)/Dia_Pack (3)",
+      "buttonSourceId": 133806,
+      "method": "Purchase",
+      "targetType": "Dia_Purchase_Panel",
+      "targetSourceId": 127983,
+      "callIndex": 0,
+      "productId": "dia_3"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "VipPass_Purchase_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "VIP",
+          "ordinal": 0
+        },
+        {
+          "name": "VIP_Pass_ui",
+          "ordinal": 0
+        },
+        {
+          "name": "Purchase_Btn",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Mission_maanger/VipPass_Purchase_UI/VIP/VIP_Pass_ui/Purchase_Btn",
+      "buttonSourceId": 133849,
+      "method": "Purchase",
+      "targetType": "VIP_Purchase_Ingame",
+      "targetSourceId": 135508,
+      "callIndex": 0,
+      "productId": "vip_pass"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove Ads",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove_AD_Forced",
+          "ordinal": 0
+        },
+        {
+          "name": "Purchase_Btn",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Shop_UI/Panel/Scroll View/Viewport/Content/Remove Ads/Remove_AD_Forced/Purchase_Btn",
+      "buttonSourceId": 134860,
+      "method": "Purchase",
+      "targetType": "Inapp_Purchase_Panel",
+      "targetSourceId": 140501,
+      "callIndex": 0,
+      "productId": "remove_forced_ads"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Adventure_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "PrismCore_Purchase_popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Prism_Pack (Limited)",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Adventure_manager/PrismCore_Purchase_popup/Panel/Prism_Pack (Limited)",
+      "buttonSourceId": 135166,
+      "method": "Purchase",
+      "targetType": "Core_Purchase_Panel",
+      "targetSourceId": 137576,
+      "callIndex": 0,
+      "productId": "catgunner_core_daily_750"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove Ads",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove_AD_All",
+          "ordinal": 0
+        },
+        {
+          "name": "Purchase_Btn",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Shop_UI/Panel/Scroll View/Viewport/Content/Remove Ads/Remove_AD_All/Purchase_Btn",
+      "buttonSourceId": 135321,
+      "method": "Purchase",
+      "targetType": "Inapp_Purchase_Panel",
+      "targetSourceId": 140821,
+      "callIndex": 0,
+      "productId": "remove_all_ads"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Boss_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "GameFail_obj",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove Ads ALL (Inapp)",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove_AD_All",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Contents_UI/Boss_UI/GameFail_obj/Remove Ads ALL (Inapp)/Remove_AD_All",
+      "buttonSourceId": 135390,
+      "method": "Purchase",
+      "targetType": "RemoveAds_Purchase_BannerReward",
+      "targetSourceId": 144186,
+      "callIndex": 0,
+      "productId": "remove_all_ads"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Monster_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "GameSweep_obj",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove Ads ALL (Inapp)",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove_AD_All",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Contents_UI/Monster_UI/GameSweep_obj/Remove Ads ALL (Inapp)/Remove_AD_All",
+      "buttonSourceId": 135391,
+      "method": "Purchase",
+      "targetType": "RemoveAds_Purchase_BannerReward",
+      "targetSourceId": 144188,
+      "callIndex": 0,
+      "productId": "remove_all_ads"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "SpeedRun_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "GameSweep_obj",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove Ads ALL (Inapp)",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove_AD_All",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Contents_UI/SpeedRun_UI/GameSweep_obj/Remove Ads ALL (Inapp)/Remove_AD_All",
+      "buttonSourceId": 135392,
+      "method": "Purchase",
+      "targetType": "RemoveAds_Purchase_BannerReward",
+      "targetSourceId": 144187,
+      "callIndex": 0,
+      "productId": "remove_all_ads"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mine_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "GameSweep_obj",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove Ads ALL (Inapp)",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove_AD_All",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Contents_UI/Mine_UI/GameSweep_obj/Remove Ads ALL (Inapp)/Remove_AD_All",
+      "buttonSourceId": 135393,
+      "method": "Purchase",
+      "targetType": "RemoveAds_Purchase_BannerReward",
+      "targetSourceId": 144183,
+      "callIndex": 0,
+      "productId": "remove_all_ads"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Boss_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "GameWin_obj",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove Ads ALL (Inapp)",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove_AD_All",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Contents_UI/Boss_UI/GameWin_obj/Remove Ads ALL (Inapp)/Remove_AD_All",
+      "buttonSourceId": 135394,
+      "method": "Purchase",
+      "targetType": "RemoveAds_Purchase_BannerReward",
+      "targetSourceId": 144184,
+      "callIndex": 0,
+      "productId": "remove_all_ads"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "SpeedRun_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "GameFail_obj",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove Ads ALL (Inapp)",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove_AD_All",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Contents_UI/SpeedRun_UI/GameFail_obj/Remove Ads ALL (Inapp)/Remove_AD_All",
+      "buttonSourceId": 135395,
+      "method": "Purchase",
+      "targetType": "RemoveAds_Purchase_BannerReward",
+      "targetSourceId": 144185,
+      "callIndex": 0,
+      "productId": "remove_all_ads"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mine_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "GameEnd_obj",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove Ads ALL (Inapp)",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove_AD_All",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Contents_UI/Mine_UI/GameEnd_obj/Remove Ads ALL (Inapp)/Remove_AD_All",
+      "buttonSourceId": 135396,
+      "method": "Purchase",
+      "targetType": "RemoveAds_Purchase_BannerReward",
+      "targetSourceId": 144191,
+      "callIndex": 0,
+      "productId": "remove_all_ads"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "SpeedRun_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "GameWin_obj",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove Ads ALL (Inapp)",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove_AD_All",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Contents_UI/SpeedRun_UI/GameWin_obj/Remove Ads ALL (Inapp)/Remove_AD_All",
+      "buttonSourceId": 135397,
+      "method": "Purchase",
+      "targetType": "RemoveAds_Purchase_BannerReward",
+      "targetSourceId": 144190,
+      "callIndex": 0,
+      "productId": "remove_all_ads"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Monster_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "GameEnd_obj ",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove Ads ALL (Inapp)",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove_AD_All",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Contents_UI/Monster_UI/GameEnd_obj /Remove Ads ALL (Inapp)/Remove_AD_All",
+      "buttonSourceId": 135398,
+      "method": "Purchase",
+      "targetType": "RemoveAds_Purchase_BannerReward",
+      "targetSourceId": 144192,
+      "callIndex": 0,
+      "productId": "remove_all_ads"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Boss_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "GameSweep_obj",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove Ads ALL (Inapp)",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove_AD_All",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Contents_UI/Boss_UI/GameSweep_obj/Remove Ads ALL (Inapp)/Remove_AD_All",
+      "buttonSourceId": 135399,
+      "method": "Purchase",
+      "targetType": "RemoveAds_Purchase_BannerReward",
+      "targetSourceId": 144189,
+      "callIndex": 0,
+      "productId": "remove_all_ads"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_item",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item",
+      "buttonSourceId": 136860,
+      "method": "OnClick_Purchase",
+      "targetType": "DailyGun_Item",
+      "targetSourceId": 125977,
+      "callIndex": 0,
+      "productId": "catgunner_dailygun_0"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Adventure_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "PrismCore_Purchase_popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Prism_Pack (5)",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Adventure_manager/PrismCore_Purchase_popup/Panel/Prism_Pack (5)",
+      "buttonSourceId": 136864,
+      "method": "Purchase",
+      "targetType": "Core_Purchase_Panel",
+      "targetSourceId": 133106,
+      "callIndex": 0,
+      "productId": "catgunner_core_1050"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Adventure_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "PrismCore_Purchase_popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Prism_Pack (3)",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Adventure_manager/PrismCore_Purchase_popup/Panel/Prism_Pack (3)",
+      "buttonSourceId": 136865,
+      "method": "Purchase",
+      "targetType": "Core_Purchase_Panel",
+      "targetSourceId": 133105,
+      "callIndex": 0,
+      "productId": "catgunner_core_500"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Adventure_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "PrismCore_Purchase_popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Prism_Pack (4)",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Adventure_manager/PrismCore_Purchase_popup/Panel/Prism_Pack (4)",
+      "buttonSourceId": 136866,
+      "method": "Purchase",
+      "targetType": "Core_Purchase_Panel",
+      "targetSourceId": 133104,
+      "callIndex": 0,
+      "productId": "catgunner_core_3300"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Adventure_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "PrismCore_Purchase_popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Prism_Pack (2)",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Adventure_manager/PrismCore_Purchase_popup/Panel/Prism_Pack (2)",
+      "buttonSourceId": 136867,
+      "method": "Purchase",
+      "targetType": "Core_Purchase_Panel",
+      "targetSourceId": 133103,
+      "callIndex": 0,
+      "productId": "catgunner_core_100"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Menu_Plus",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Plus_Auto",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_Plus/Scroll View/Viewport/Content/Plus_Auto",
+      "buttonSourceId": 137183,
+      "method": "OnClick",
+      "targetType": "PlusPack_Inapp_item",
+      "targetSourceId": 125836,
+      "callIndex": 0,
+      "productId": "catgunner_pluspack_2"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "DiaPig",
+          "ordinal": 0
+        },
+        {
+          "name": "DiaPig_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Locked_obj",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Shop_manager/DiaPig/DiaPig_UI/Panel/Locked_obj",
+      "buttonSourceId": 137529,
+      "method": "Panel_Open",
+      "targetType": "Shop_manager",
+      "targetSourceId": 123394,
+      "callIndex": 1,
+      "productId": "navigation_Panel_Open"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Dia (List)",
+          "ordinal": 0
+        },
+        {
+          "name": "Dia_Pack (4)",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Shop_UI/Panel/Scroll View/Viewport/Content/Dia (List)/Dia_Pack (4)",
+      "buttonSourceId": 137604,
+      "method": "Purchase",
+      "targetType": "Dia_Purchase_Panel",
+      "targetSourceId": 144320,
+      "callIndex": 0,
+      "productId": "dia_4"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Dia (List)",
+          "ordinal": 0
+        },
+        {
+          "name": "Dia_Pack (2)",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Shop_UI/Panel/Scroll View/Viewport/Content/Dia (List)/Dia_Pack (2)",
+      "buttonSourceId": 137986,
+      "method": "Purchase",
+      "targetType": "Dia_Purchase_Panel",
+      "targetSourceId": 144172,
+      "callIndex": 0,
+      "productId": "dia_2"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "DiaPig",
+          "ordinal": 0
+        },
+        {
+          "name": "DiaPig_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove Ads ALL (Inapp)",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove_AD_All",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Shop_manager/DiaPig/DiaPig_UI/Remove Ads ALL (Inapp)/Remove_AD_All",
+      "buttonSourceId": 139416,
+      "method": "Purchase",
+      "targetType": "Inapp_Purchase_Popup",
+      "targetSourceId": 125268,
+      "callIndex": 0,
+      "productId": "remove_all_ads"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "DiaPig",
+          "ordinal": 0
+        },
+        {
+          "name": "DiaPig_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove Ads Fored (Inapp)",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove_AD_Forced",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Shop_manager/DiaPig/DiaPig_UI/Remove Ads Fored (Inapp)/Remove_AD_Forced",
+      "buttonSourceId": 139670,
+      "method": "Purchase",
+      "targetType": "Inapp_Purchase_Popup",
+      "targetSourceId": 125334,
+      "callIndex": 0,
+      "productId": "remove_forced_ads"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "VipPass_Purchase_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "VIP",
+          "ordinal": 0
+        },
+        {
+          "name": "VIP_Pass_ui",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Mission_maanger/VipPass_Purchase_UI/VIP/VIP_Pass_ui",
+      "buttonSourceId": 140486,
+      "method": "Purchase",
+      "targetType": "VIP_Purchase_Ingame",
+      "targetSourceId": 135508,
+      "callIndex": 0,
+      "productId": "vip_pass"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Boss_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Boss_Start_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Banner_PlusPack",
+          "ordinal": 0
+        },
+        {
+          "name": "Plus_Time",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Contents_UI/Boss_UI/Boss_Start_UI/Banner_PlusPack/Plus_Time",
+      "buttonSourceId": 140787,
+      "method": "OnClick",
+      "targetType": "PlusPack_Inapp_item",
+      "targetSourceId": 126114,
+      "callIndex": 0,
+      "productId": "catgunner_pluspack_0"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Monster_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Monster_Start_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Banner_PlusPack",
+          "ordinal": 0
+        },
+        {
+          "name": "Plus_Auto",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Contents_UI/Monster_UI/Monster_Start_UI/Banner_PlusPack/Plus_Auto",
+      "buttonSourceId": 141321,
+      "method": "OnClick",
+      "targetType": "PlusPack_Inapp_item",
+      "targetSourceId": 146256,
+      "callIndex": 0,
+      "productId": "catgunner_pluspack_2"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "SpeedRun_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "SpeedRun_Start_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Banner_PlusPack",
+          "ordinal": 0
+        },
+        {
+          "name": "Plus_Auto",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Contents_UI/SpeedRun_UI/SpeedRun_Start_UI/Banner_PlusPack/Plus_Auto",
+      "buttonSourceId": 141322,
+      "method": "OnClick",
+      "targetType": "PlusPack_Inapp_item",
+      "targetSourceId": 146257,
+      "callIndex": 0,
+      "productId": "catgunner_pluspack_2"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Package",
+          "ordinal": 0
+        },
+        {
+          "name": "AutoUpgrade",
+          "ordinal": 0
+        },
+        {
+          "name": "Purchase_Btn",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Shop_UI/Panel/Scroll View/Viewport/Content/Package/AutoUpgrade/Purchase_Btn",
+      "buttonSourceId": 142075,
+      "method": "Purchase",
+      "targetType": "Inapp_Purchase_Panel",
+      "targetSourceId": 145680,
+      "callIndex": 0,
+      "productId": "autoupgrade_pack"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Ticket",
+          "ordinal": 0
+        },
+        {
+          "name": "PurchaseAble_obj",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Mission_Panel/Raid_Mission_Ticket/PurchaseAble_obj/Reward_Get_Btn",
+      "buttonSourceId": 142489,
+      "method": "onClick_Ticket_Purchase",
+      "targetType": "Raid_Mission_Ticket_UI",
+      "targetSourceId": 142255,
+      "callIndex": 0,
+      "productId": "catgunner_raid_mission_ticket"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Package",
+          "ordinal": 0
+        },
+        {
+          "name": "AutoUpgrade",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Shop_UI/Panel/Scroll View/Viewport/Content/Package/AutoUpgrade",
+      "buttonSourceId": 146088,
+      "method": "Purchase",
+      "targetType": "Inapp_Purchase_Panel",
+      "targetSourceId": 145680,
+      "callIndex": 0,
+      "productId": "autoupgrade_pack"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "LuxuryPass_Purchase_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "VIP empty",
+          "ordinal": 0
+        },
+        {
+          "name": "Luxury_Pass_ui",
+          "ordinal": 0
+        },
+        {
+          "name": "Purchase_Btn",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Mission_maanger/LuxuryPass_Purchase_UI/VIP empty/Luxury_Pass_ui/Purchase_Btn",
+      "buttonSourceId": 146094,
+      "method": "Purchase",
+      "targetType": "VIP_Purchase_Ingame",
+      "targetSourceId": 140332,
+      "callIndex": 0,
+      "productId": "catgunner_luxury_pass"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Ticket_Purchase_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Ticket (1)",
+          "ordinal": 0
+        },
+        {
+          "name": "PurchaseAble_obj",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Mission_Ticket_Purchase_Popup/Raid_Mission_Ticket (1)/PurchaseAble_obj/Reward_Get_Btn",
+      "buttonSourceId": 146098,
+      "method": "onClick_Ticket_Purchase",
+      "targetType": "Raid_Mission_Ticket_UI",
+      "targetSourceId": 143915,
+      "callIndex": 0,
+      "productId": "catgunner_raid_mission_ticket"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Package",
+          "ordinal": 0
+        },
+        {
+          "name": "BuffPack",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Shop_UI/Panel/Scroll View/Viewport/Content/Package/BuffPack",
+      "buttonSourceId": 146276,
+      "method": "Purchase",
+      "targetType": "Inapp_Purchase_Panel",
+      "targetSourceId": 146505,
+      "callIndex": 0,
+      "productId": "buff_pack"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "LuxuryPass_Purchase_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "VIP empty",
+          "ordinal": 0
+        },
+        {
+          "name": "Luxury_Pass_ui",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Mission_maanger/LuxuryPass_Purchase_UI/VIP empty/Luxury_Pass_ui",
+      "buttonSourceId": 146289,
+      "method": "Purchase",
+      "targetType": "VIP_Purchase_Ingame",
+      "targetSourceId": 140332,
+      "callIndex": 0,
+      "productId": "catgunner_luxury_pass"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Menu_Plus",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Plus_Time",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_Plus/Scroll View/Viewport/Content/Plus_Time",
+      "buttonSourceId": 147066,
+      "method": "OnClick",
+      "targetType": "PlusPack_Inapp_item",
+      "targetSourceId": 137191,
+      "callIndex": 0,
+      "productId": "catgunner_pluspack_0"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Close_Btn",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Shop_UI/Close_Btn",
+      "buttonSourceId": 147306,
+      "method": "Panel_Close",
+      "targetType": "Shop_manager",
+      "targetSourceId": 123394,
+      "callIndex": 0,
+      "productId": "navigation_Panel_Close"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "VipPass_Purchase_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Luxury",
+          "ordinal": 0
+        },
+        {
+          "name": "Luxury_Pass_ui",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Mission_maanger/VipPass_Purchase_UI/Luxury/Luxury_Pass_ui",
+      "buttonSourceId": 147641,
+      "method": "Purchase",
+      "targetType": "VIP_Purchase_Ingame",
+      "targetSourceId": 141694,
+      "callIndex": 0,
+      "productId": "catgunner_luxury_pass"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove Ads",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove_AD_All",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Shop_UI/Panel/Scroll View/Viewport/Content/Remove Ads/Remove_AD_All",
+      "buttonSourceId": 148549,
+      "method": "Purchase",
+      "targetType": "Inapp_Purchase_Panel",
+      "targetSourceId": 140821,
+      "callIndex": 0,
+      "productId": "remove_all_ads"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_maanger",
+          "ordinal": 0
+        },
+        {
+          "name": "VipPass_Purchase_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Luxury",
+          "ordinal": 0
+        },
+        {
+          "name": "Luxury_Pass_ui",
+          "ordinal": 0
+        },
+        {
+          "name": "Purchase_Btn",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Mission_maanger/VipPass_Purchase_UI/Luxury/Luxury_Pass_ui/Purchase_Btn",
+      "buttonSourceId": 148786,
+      "method": "Purchase",
+      "targetType": "VIP_Purchase_Ingame",
+      "targetSourceId": 141694,
+      "callIndex": 0,
+      "productId": "catgunner_luxury_pass"
+    },
+    {
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove Ads",
+          "ordinal": 0
+        },
+        {
+          "name": "Remove_AD_Forced",
+          "ordinal": 0
+        }
+      ],
+      "label": "Canvas/SafeArea/Shop_UI/Panel/Scroll View/Viewport/Content/Remove Ads/Remove_AD_Forced",
+      "buttonSourceId": 149061,
+      "method": "Purchase",
+      "targetType": "Inapp_Purchase_Panel",
+      "targetSourceId": 140501,
+      "callIndex": 0,
+      "productId": "remove_forced_ads"
+    }
+  ],
+  "unresolved": [
+    {
+      "path": "Canvas/Skin_manager/SkinInfo_UI/Panel/Purchase_Btn",
+      "method": "Purchase",
+      "targetType": "Skin_Info_UI",
+      "targetFields": "ifier:\n  Cat_img: {fileID: 125501}\n  Shadow_img: {fileID: 123154}\n  Locked_img: {fileID: 123228}\n  Next_Btn_obj: {fileID: 1746}\n  Before_Btn_obj: {fileID: 1360}\n  Num_txt: {fileID: 117384}\n  Damage_txt: {fileID: 117183}\n  Speed_txt: {fileID: 117379}\n  Money_txt: {fileID: 117381}\n  Purchase_Btn_obj: {fileID: 282}\n  Select_Btn_obj: {fileID: 1637}\n  Selected_obj: {fileID: 310}\n  Price_txt: {fileID: 117197}\n  Purchase_Btn: {fileID: 123293}\n  Color_Disable: {r: 1, g: 0.49803922, b: 0.49803922, a: 1}\n",
+      "intArg": 0
+    }
+  ]
+}

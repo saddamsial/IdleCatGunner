@@ -1,0 +1,1 @@
+if(UnityEditor.EditorApplication.isPlaying)throw new System.InvalidOperationException("Play active; do not isolate user session");UnityEditor.SessionState.SetString("CatGunner.Recovery.TestHostFolder","/tmp/CatGunner-PlaytestUI-TestHost");return new{folder=UnityEditor.SessionState.GetString("CatGunner.Recovery.TestHostFolder",""),playing=UnityEditor.EditorApplication.isPlaying};

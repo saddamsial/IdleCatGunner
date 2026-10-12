@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "file": "level0",
+    "path_id": 137635,
+    "type_index": 7514,
+    "type": "Fish_manager",
+    "game_object": "Fish_manager"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 9575
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 3032
+    },
+    "m_Name": "",
+    "Fish_info_list": [
+      {
+        "Name": "",
+        "Damage": 4,
+        "CriPer": 1,
+        "CriVal": 8,
+        "is_Unlock": false
+      },
+      {
+        "Name": "",
+        "Damage": 12,
+        "CriPer": 2,
+        "CriVal": 20,
+        "is_Unlock": false
+      },
+      {
+        "Name": "",
+        "Damage": 36,
+        "CriPer": 6,
+        "CriVal": 50,
+        "is_Unlock": false
+      },
+      {
+        "Name": "",
+        "Damage": 110,
+        "CriPer": 16,
+        "CriVal": 120,
+        "is_Unlock": false
+      },
+      {
+        "Name": "",
+        "Damage": 320,
+        "CriPer": 39,
+        "CriVal": 310,
+        "is_Unlock": false
+      },
+      {
+        "Name": "",
+        "Damage": 970,
+        "CriPer": 98,
+        "CriVal": 780,
+        "is_Unlock": false
+      },
+      {
+        "Name": "",
+        "Damage": 2900,
+        "CriPer": 100,
+        "CriVal": 2000,
+        "is_Unlock": false
+      },
+      {
+        "Name": "",
+        "Damage": 8700,
+        "CriPer": 100,
+        "CriVal": 4900,
+        "is_Unlock": false
+      },
+      {
+        "Name": "",
+        "Damage": 26000,
+        "CriPer": 100,
+        "CriVal": 12000,
+        "is_Unlock": false
+      },
+      {
+        "Name": "",
+        "Damage": 79000,
+        "CriPer": 100,
+        "CriVal": 31000,
+        "is_Unlock": false
+      },
+      {
+        "Name": "",
+        "Damage": 240000,
+        "CriPer": 100,
+        "CriVal": 76000,
+        "is_Unlock": false
+      },
+      {
+        "Name": "",
+        "Damage": 710000,
+        "CriPer": 100,
+        "CriVal": 190000,
+        "is_Unlock": false
+      },
+      {
+        "Name": "",
+        "Damage": 2100000,
+        "CriPer": 100,
+        "CriVal": 480000,
+        "is_Unlock": false
+      }
+    ],
+    "Fish_sprites": [
+      {
+        "m_FileID": 2,
+        "m_PathID": 516
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 529
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 864
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 848
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 464
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 488
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 404
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 504
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 639
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 699
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 698
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 741
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 739
+      }
+    ],
+    "Fish_Real_sprites": [
+      {
+        "m_FileID": 2,
+        "m_PathID": 813
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 866
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 585
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 470
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 631
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 419
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 581
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 525
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 744
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 747
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 469
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 788
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 682
+      }
+    ],
+    "Fish_Outline_sprites": [
+      {
+        "m_FileID": 2,
+        "m_PathID": 455
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 431
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 792
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 507
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 757
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 626
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 724
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 836
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 437
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 547
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 407
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 607
+      },
+      {
+        "m_FileID": 2,
+        "m_PathID": 799
+      }
+    ],
+    "new_fish_ui": {
+      "m_FileID": 0,
+      "m_PathID": 148850
+    },
+    "fish_ui_obj": {
+      "m_FileID": 0,
+      "m_PathID": 18739
+    },
+    "fish_info_ui": {
+      "m_FileID": 0,
+      "m_PathID": 146909
+    },
+    "All_Damage_txt": {
+      "m_FileID": 0,
+      "m_PathID": 117351
+    },
+    "All_CriPer_txt": {
+      "m_FileID": 0,
+      "m_PathID": 117309
+    },
+    "All_CriVal_txt": {
+      "m_FileID": 0,
+      "m_PathID": 117200
+    },
+    "Free_GachaDate": {},
+    "FreeGachaCount": 0,
+    "Inventory": [],
+    "GachaChances": [
+      60.0,
+      30.0,
+      10.0,
+      0.0
+    ],
+    "fishTank": {
+      "m_FileID": 0,
+      "m_PathID": 141083
+    },
+    "is_AutoMerge": false,
+    "OnOff_UI": {
+      "m_FileID": 0,
+      "m_PathID": 134600
+    },
+    "Auto_Explain_obj": {
+      "m_FileID": 0,
+      "m_PathID": 10163
+    },
+    "NonAuto_Explain_obj": {
+      "m_FileID": 0,
+      "m_PathID": 27982
+    },
+    "Auto_Btn_obj": {
+      "m_FileID": 0,
+      "m_PathID": 18805
+    },
+    "AD_Gacha_Btn_obj": {
+      "m_FileID": 0,
+      "m_PathID": 124726
+    },
+    "AD_Gacha_Count_txt": {
+      "m_FileID": 0,
+      "m_PathID": 118878
+    },
+    "Color_Disable_Btn": {
+      "r": 0.6431372761726379,
+      "g": 0.6431372761726379,
+      "b": 0.6431372761726379,
+      "a": 1.0
+    },
+    "AD_Draw_Icon_obj": {
+      "m_FileID": 0,
+      "m_PathID": 1670
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "if(UnityEditor.EditorApplication.isPlaying||UnityEditor.EditorApplication.isCompiling)throw new System.Exception(\"Finish tests/compilation first\");\nUnityEditor.SessionState.EraseString(\"CatGunner.Recovery.TestHostFolder\");\nUnityEditor.SessionState.EraseBool(\"CatGunner.ProgressionVisualClone\");\nUnityEditor.EditorApplication.isPaused=false;Time.timeScale=1;\nvar scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene();\nif(scene.path!=\"Assets/Recovery/Scenes/RecoveredClient.unity\")scene=UnityEditor.SceneManagement.EditorSceneManager.OpenScene(\"Assets/Recovery/Scenes/RecoveredClient.unity\");\nvar objects=scene.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<Transform>(true)).Select(t=>t.gameObject).ToArray();\nvar client=objects.Select(g=>g.GetComponent<CatGunner.Recovery.RecoveryForestClient>()).Single(c=>c!=null);\nvar fill=new UnityEditor.SerializedObject(client.Slider.Value_Fill);\nvar h=new {scene=scene.path,version=Application.unityVersion,dirty=scene.isDirty,playing=UnityEditor.EditorApplication.isPlaying,paused=UnityEditor.EditorApplication.isPaused,compiling=UnityEditor.EditorApplication.isCompiling,compilationFailed=UnityEditor.EditorUtility.scriptCompilationFailed,objects=objects.Length,missingScripts=objects.Sum(g=>UnityEditor.GameObjectUtility.GetMonoBehavioursWithMissingScriptCount(g)),persist=client.Persist,saveFolderOverride=client.SaveFolderOverride,testHostFolder=UnityEditor.SessionState.GetString(\"CatGunner.Recovery.TestHostFolder\",\"\"),localAdSimulation=client.OfflineRewardedAdSimulation,localPurchaseSimulation=client.OfflinePurchaseSimulation,timeScale=Time.timeScale,inputOverrides=objects.Select(g=>g.GetComponent<UnityEngine.EventSystems.StandaloneInputModule>()).Count(x=>x!=null&&x.inputOverride!=null),userFillPPU=fill.FindProperty(\"m_PixelsPerUnitMultiplier\").floatValue,fillHeight=client.Slider.Value_Fill.rectTransform.rect.height,buildScenes=UnityEditor.EditorBuildSettings.scenes.Select(s=>new{s.path,s.enabled}).ToArray()};\nSystem.IO.File.WriteAllText(System.IO.Path.GetFullPath(System.IO.Path.Combine(Application.dataPath,\"../../../reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/mobile73-handoff.json\")),Newtonsoft.Json.JsonConvert.SerializeObject(h,Newtonsoft.Json.Formatting.Indented));\nreturn h;\n"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "version": "6000.4.10f1",
+        "dirty": false,
+        "playing": false,
+        "paused": false,
+        "compiling": false,
+        "compilationFailed": false,
+        "objects": 35954,
+        "missingScripts": 0,
+        "persist": true,
+        "saveFolderOverride": null,
+        "testHostFolder": "",
+        "localAdSimulation": true,
+        "localPurchaseSimulation": true,
+        "timeScale": 1,
+        "inputOverrides": 0,
+        "userFillPPU": 10,
+        "fillHeight": 37,
+        "buildScenes": [
+          {
+            "path": "Assets/Recovery/Scenes/RecoveredClient.unity",
+            "enabled": true
+          },
+          {
+            "path": "Assets/Recovery/Scenes/RecoveredBullets.unity",
+            "enabled": true
+          },
+          {
+            "path": "Assets/Recovery/Scenes/RecoveredForest.unity",
+            "enabled": true
+          },
+          {
+            "path": "Assets/Recovery/Scenes/RecoveredForestHUD.unity",
+            "enabled": true
+          },
+          {
+            "path": "Assets/Recovery/Scenes/RecoveredForestProgress.unity",
+            "enabled": true
+          },
+          {
+            "path": "Assets/Recovery/Scenes/RecoveredJoystick.unity",
+            "enabled": true
+          },
+          {
+            "path": "Assets/Recovery/Scenes/RecoveredSettings.unity",
+            "enabled": true
+          },
+          {
+            "path": "Assets/Recovery/Scenes/RecoveredTarget.unity",
+            "enabled": true
+          }
+        ]
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

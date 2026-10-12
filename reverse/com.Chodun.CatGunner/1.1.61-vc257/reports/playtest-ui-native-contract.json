@@ -1,0 +1,370 @@
+{
+  "rule": 60,
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "nativeSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "allCompleted": true,
+  "methods": [
+    {
+      "preferredVa": "0x2a9e3d4",
+      "name": "Contents_Unlock_manager_Reload",
+      "end": "0x2a9e588",
+      "first16": "fe6fbba9fa6701a9f85f02a9f65703a9",
+      "sha256": "54f9f17f0a35bd6568ccaf5cf3aaf4d16367f0e1b7ae1a55f899b45a7478589f",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/Contents_Unlock_manager_Reload.c": "9bf939a36ecea32fccef93186bbc97de16204e85d6699e2982175c3d463d8f46",
+        "native-playtest-ui-client-reviewed/Contents_Unlock_manager_Reload.asm": "a0d43f253658ea5c9371a721e655909dfe6f3fddfb9c5cd0e4e64b26382f09cf"
+      }
+    },
+    {
+      "preferredVa": "0x2b38f10",
+      "name": "Cat_Balance_Reload",
+      "end": "0x2b399cc",
+      "first16": "e80f19fcfd7b01a9fc6f02a9fa6703a9",
+      "sha256": "4a3955575a5baa6bd9bef120ed9032cc796abbf8c95d1a3c3a65640ad0b5fba6",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/Cat_Balance_Reload.c": "a7680fe55c11be0a8e30bad132d123f29cae45878c9c01aacfb69f901d242798",
+        "native-playtest-ui-client-reviewed/Cat_Balance_Reload.asm": "eb69eef1dd1524db4fa72f116c1ce870b861bb415c1040cbba01ce05fa2dd058"
+      }
+    },
+    {
+      "preferredVa": "0x2b6841c",
+      "name": "Gun_manager_ReloadGunUI",
+      "end": "0x2b685d8",
+      "first16": "fe0f1df8f65701a9f44f02a9b4af0190",
+      "sha256": "dce273738ba1df2f67654c2bfd13fa9ab6f6d7c0a00f899b67e9de90ca5a78b2",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/Gun_manager_ReloadGunUI.c": "102a53c0e5b5856797c81323cd3d55889948a5b0cdb5528c615cfe0aeee22603",
+        "native-playtest-ui-client-reviewed/Gun_manager_ReloadGunUI.asm": "54852e4ac73707888a19bb2bb25aa49353bc599a369607d5e9038f79020454d1"
+      }
+    },
+    {
+      "preferredVa": "0x2b6f754",
+      "name": "Gun_Collection_UI_UI_Reload",
+      "end": "0x2b6f7cc",
+      "first16": "fe0f1ef8f44f01a9081040f9080200b4",
+      "sha256": "a630fdf4960a0d4ade8bcd2bfb2d60f012177026e1fd0ce3b69e93985543f703",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/Gun_Collection_UI_UI_Reload.c": "55e0e78aa02fc8db2e180128dfa217862278f04b22c899509e8db8622c48752d",
+        "native-playtest-ui-client-reviewed/Gun_Collection_UI_UI_Reload.asm": "bd345ecd66c4ceba6578fc505801838a6e88bdc7f583dee1978c0e5441aa9771"
+      }
+    },
+    {
+      "preferredVa": "0x2b6f7cc",
+      "name": "Gun_Item_Collection_Reload",
+      "end": "0x2b6f97c",
+      "first16": "fe67bca9f85f01a9f65702a9f44f03a9",
+      "sha256": "8cd254233bd71210bdeb14da667063547b260260c6f5fcb640ff0abaa3b1af57",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/Gun_Item_Collection_Reload.c": "7dc899b86d321f3d5d5401efc4a32d26ccd622b7a1fee9ad6bb00971dc93d1e6",
+        "native-playtest-ui-client-reviewed/Gun_Item_Collection_Reload.asm": "9235722400eb02bd81b7009d09df26eed1bf81d8691db8e1bd9afb96cf1682ec"
+      }
+    },
+    {
+      "preferredVa": "0x2b75a64",
+      "name": "Gun_Item_Collection_Touch",
+      "end": "0x2b75ac0",
+      "first16": "fe57bea9f44f01a934af01f0558f0190",
+      "sha256": "907b068a66cbdb48bdd9490b9838c94b760479022642d7c55fd73a8c52290019",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/Gun_Item_Collection_Touch.c": "c2a3f4a8b93e2e51434bccd6d74836cc0dd2feed6fdeb7d32b7b0b98d4e78141",
+        "native-playtest-ui-client-reviewed/Gun_Item_Collection_Touch.asm": "b4d7b1159d7b9a98505b77398c48e13f1cc5fc0edc2be7db586dd1f38c8eb62f"
+      }
+    },
+    {
+      "preferredVa": "0x2b7a338",
+      "name": "GameSlider_Stage_Reload",
+      "end": "0x2b7a4f0",
+      "first16": "fe0f1cf8f85f01a9f65702a9f44f03a9",
+      "sha256": "c835baa7d853ab3dce2d59a3e3962324a78838fba81e5fdc9bc4b891f405b50c",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/GameSlider_Stage_Reload.c": "3d414bb364410e0cdace26aa6a0678017a7d5f19509929fa89de72612b25c590",
+        "native-playtest-ui-client-reviewed/GameSlider_Stage_Reload.asm": "1ea3bb3d799932cf1bf2b2d25011a4b34009c64312646279b780779656bfbe8d"
+      }
+    },
+    {
+      "preferredVa": "0x2b7a4f0",
+      "name": "GameSlider_Value_Reload",
+      "end": "0x2b7a5cc",
+      "first16": "ffc300d1e80b00fdfe0f00f9f44f02a9",
+      "sha256": "0117093cc03a9e83fa0f1a181698dee4a4986190afbae200d4410780698a15b8",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/GameSlider_Value_Reload.c": "bb703f9f575f41b2df9bee5e4e88d82a8407cfb1ed3ec63778fa72337910a4fd",
+        "native-playtest-ui-client-reviewed/GameSlider_Value_Reload.asm": "59a84e49912b875029e20a42438772c5cd373fecbf10b1e82199ca769e7c4e7f"
+      }
+    },
+    {
+      "preferredVa": "0x2bad054",
+      "name": "Tree_manager_is_Clear_Stage",
+      "end": "0x2bad070",
+      "first16": "08284529490180520829091b093040b9",
+      "sha256": "9537636da0b2349f367027ab9a019831bad604fd793d5e6bee73b58735bfdc3f",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/Tree_manager_is_Clear_Stage.c": "2f5401507b2f5485ef00a9a9ba08db74cd0f81d9bbc3c2aa2b1df82c4ec156dc",
+        "native-playtest-ui-client-reviewed/Tree_manager_is_Clear_Stage.asm": "aa7aa9375a82a93af75481d3953c25d984f70f7c26fee20530b888398deed6f2"
+      }
+    },
+    {
+      "preferredVa": "0x4553178",
+      "name": "InfVal_ToString_0x600009e",
+      "end": "0x455323c",
+      "first16": "ffc302d1fe6707a9f85f08a9f65709a9",
+      "sha256": "83acc94d5ba084f409ab341e1b7a92704c2cd5fe3fb606fedb09912d70df0f90",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/InfVal_ToString_0x600009e.c": "6c0c158f9c9140fa4fce460d5e8c77399f6b8445968138ef7c7d8cd32df0ea1a",
+        "native-playtest-ui-client-reviewed/InfVal_ToString_0x600009e.asm": "e303eb2e99a6690bd7d2dd8989b1f7241d099630df3527953d1780a770d791c1"
+      }
+    },
+    {
+      "preferredVa": "0x455b03c",
+      "name": "InfVal_ToString_0x600009f",
+      "end": "0x455b0bc",
+      "first16": "fe5fbda9f65701a9f44f02a936e000b0",
+      "sha256": "f5d82fa87dbaa21d1ff6ba2396f1edb4c0385d00887a5d682b238e2979dfd131",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/InfVal_ToString_0x600009f.c": "4479114a909e3994e85b6de8b5d246470ebd965e639718c8383c63407c69470f",
+        "native-playtest-ui-client-reviewed/InfVal_ToString_0x600009f.asm": "dc6a1a26a85b6985463b8f72892aabbca61ee274686a6cb17e5198df432c4b34"
+      }
+    },
+    {
+      "preferredVa": "0x455b0bc",
+      "name": "InfVal_ToString_0x60000a0",
+      "end": "0x455b140",
+      "first16": "fe0f1cf8f85f01a9f65702a9f44f03a9",
+      "sha256": "2243b9bb6c011327fcaf4e0f7a6470c39772c217780cdc1bde36c64774a28ce8",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/InfVal_ToString_0x60000a0.c": "6957ad939c1ba49e1b253a9c144dba8111197258746faa1e6b1cf0073aa1a52d",
+        "native-playtest-ui-client-reviewed/InfVal_ToString_0x60000a0.asm": "b241e683720588ad3144dad86e8cb8b15e192bd1975924a3bb40de865d42dc47"
+      }
+    },
+    {
+      "preferredVa": "0x455b140",
+      "name": "InfVal_ToString_0x60000a1",
+      "end": "0x455b1c4",
+      "first16": "fe0f1cf8f85f01a9f65702a9f44f03a9",
+      "sha256": "e4ae844fc078c61d51341ee2f12b7fcb759f799206349861435c159cf8ccc348",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/InfVal_ToString_0x60000a1.c": "a238981901f95a8e8355246785e2fb69bcde0c6bd40fa865d93e285e8cf96e07",
+        "native-playtest-ui-client-reviewed/InfVal_ToString_0x60000a1.asm": "9b81a4b75a7b98f7a1128be69941dafc8834c8df4f0b0f7a0c9544f068afbfa7"
+      }
+    },
+    {
+      "preferredVa": "0x455b1c4",
+      "name": "InfVal_ToString_0x60000a2",
+      "end": "0x455b244",
+      "first16": "fe5fbda9f65701a9f44f02a936e000b0",
+      "sha256": "6191b3a6103e7eb3a73eee40905a46380be423a686240267f31d70f308ba6bbd",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/InfVal_ToString_0x60000a2.c": "e89178016f35f715068ff5e0dfd1d95e1c75d14d3f9813216af84ed6e03f1847",
+        "native-playtest-ui-client-reviewed/InfVal_ToString_0x60000a2.asm": "9dcc57455d45647ec0c2ffc574e7fe1e04bb863122d2a568d27efe87af23c47b"
+      }
+    },
+    {
+      "preferredVa": "0x455b244",
+      "name": "InfVal_ToString_0x60000a3",
+      "end": "0x455b2c8",
+      "first16": "fe0f1cf8f85f01a9f65702a9f44f03a9",
+      "sha256": "4bbbdea64f0d263440e7dde39f68258e329ca877e89efc4e557b2f1cbb450499",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/InfVal_ToString_0x60000a3.c": "f2e0eede3025560e350b68465b7826536baed8ab0e6cc54f67e6699af07f62aa",
+        "native-playtest-ui-client-reviewed/InfVal_ToString_0x60000a3.asm": "83805e068fecd86f102be434ed5acf4a81ccc013e7c44f5d7c14631b71ed7249"
+      }
+    },
+    {
+      "preferredVa": "0x455b2c8",
+      "name": "InfVal_ToString_0x60000a4",
+      "end": "0x455b348",
+      "first16": "fe5fbda9f65701a9f44f02a936e000b0",
+      "sha256": "b5a2f8eae0b7302c09b5133541583727a7622974319d896eb93402b8aa5ccf75",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/InfVal_ToString_0x60000a4.c": "6a96ba0ad883e102a75cc048e9c380eee0c44f163e69889a46f47f13d5dac565",
+        "native-playtest-ui-client-reviewed/InfVal_ToString_0x60000a4.asm": "8324a5faae31059b0f803906e1f9fafd77a0b8555ec1f3a9f036e71e9a0b8eb6"
+      }
+    },
+    {
+      "preferredVa": "0x455b348",
+      "name": "InfVal_ToString_0x60000a5",
+      "end": "0x455b3b4",
+      "first16": "ff4302d1fe3b00f9f44f08a9f40300aa",
+      "sha256": "a62ee81a85de70fc18b7a078746c2919d7a484f1d01e3fdfe292eaed2af9feb6",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/InfVal_ToString_0x60000a5.c": "c0f23e9396e6dd30350172322d536478e4d129eff836022383c15cd285224760",
+        "native-playtest-ui-client-reviewed/InfVal_ToString_0x60000a5.asm": "741d90d77e23b04fc98acde92fd7c778e1a4c2cb39b9e6b7de5dcd1bc505a11c"
+      }
+    },
+    {
+      "preferredVa": "0x4557d64",
+      "name": "InfVal_ToString_0x60000a6",
+      "end": "0x4557de8",
+      "first16": "fe0f1df8f65701a9f44f02a955e000b0",
+      "sha256": "847d6a7039316b25f144ddff562f290f1c9db5cd7ae1db83506248b0ec4a27a6",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/InfVal_ToString_0x60000a6.c": "7c5d2c859d6d8c5feee1ef1f7b0ec2efa2f754f6e2d36337f40bdea8eb851285",
+        "native-playtest-ui-client-reviewed/InfVal_ToString_0x60000a6.asm": "e87187c00fc0c463594342f33fe2255b587f4e82b6f814863ccf5b9af9fd7797"
+      }
+    },
+    {
+      "preferredVa": "0x455bd64",
+      "name": "InfVal_ToString_0x60000a7",
+      "end": "0x455bddc",
+      "first16": "fe57bea9f44f01a934e000b0b5c000d0",
+      "sha256": "24c7ef997ab1366fa4a9aa7e8a9febb20b1923c17781d6d4dd81272fa2847808",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/InfVal_ToString_0x60000a7.c": "23d17ac3f048854b320faca10931c4ecdd4dbefde360ffb851b37fa4277d6659",
+        "native-playtest-ui-client-reviewed/InfVal_ToString_0x60000a7.asm": "f54aca5b4400b4516cfb8d870830230776a2c04d0382d5919bb142a3b73a1b10"
+      }
+    },
+    {
+      "preferredVa": "0x455bddc",
+      "name": "InfVal_InfVal_change",
+      "end": "0x455be94",
+      "first16": "ffc300d1fe5701a9f44f02a935e000b0",
+      "sha256": "b9406ddc404083d9c901e8ad0aef985fe6c53343a48f87418aa2db738d4e76e2",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/InfVal_InfVal_change.c": "597c0c19e8ccbcf3b8edc786797d25c69f2d94df50498592d60922d1764dbf47",
+        "native-playtest-ui-client-reviewed/InfVal_InfVal_change.asm": "24582f52fe20b5ff511c1c4e544b119c108297d925092b74286b968f4623d5ab"
+      }
+    },
+    {
+      "preferredVa": "0x455a9a0",
+      "name": "InfVal_InternalToString",
+      "end": "0x455b03c",
+      "first16": "ffc301d1fe5f04a9f65705a9f44f06a9",
+      "sha256": "abf69a58a929b4f8e3cd7972471669a6a91d4917def28baf52f5fb1ead19aee9",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/InfVal_InternalToString.c": "99cf7b28aa7062e4a0c166efa96ad6a9d62ad4710ce60e74c0024d642904590e",
+        "native-playtest-ui-client-reviewed/InfVal_InternalToString.asm": "ae1edf551b850d316595169cb75e7d724b1354819f0d749c1c5657e5cea4bf4b"
+      }
+    },
+    {
+      "preferredVa": "0x455a75c",
+      "name": "InfVal_ProviderToFormatParams",
+      "end": "0x455a9a0",
+      "first16": "fe0f1df8f65701a9f44f02a935e000d0",
+      "sha256": "40c2ac06b632f49fb6076145f60801d68cd609e11898518d5cf950087e886cbb",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/InfVal_ProviderToFormatParams.c": "4de7a09276f01e4cd87b619bdd3b6b75acb6b2a010854c6216f2e7dc168620be",
+        "native-playtest-ui-client-reviewed/InfVal_ProviderToFormatParams.asm": "dae819e34cae3f6f55c3d895293935aa0d61fbe521fd118bef0bda358a5d2dc2"
+      }
+    },
+    {
+      "preferredVa": "0x45530c0",
+      "name": "Configuration_get_maxDisplayedDigits",
+      "end": "0x455311c",
+      "first16": "fe0f1ef8f44f01a973e000b0f4c000d0",
+      "sha256": "313a0432b9bb071186c717646c25b910d4ed98d1f393a2715d1efac0c067126e",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/Configuration_get_maxDisplayedDigits.c": "170c5788d7031d785f4167e9ee9a734f92783c8da0c177b974ee6c61f8dc8946",
+        "native-playtest-ui-client-reviewed/Configuration_get_maxDisplayedDigits.asm": "05b28ce9d6ab7708884ac94603ed8f1d1373ac960e3c5ed9124bfda339805f74"
+      }
+    },
+    {
+      "preferredVa": "0x4552ff8",
+      "name": "Configuration_get_unitsList",
+      "end": "0x4553054",
+      "first16": "fe0f1ef8f44f01a973e000b0f4c000d0",
+      "sha256": "fc775793bf73ed233d3c239b2b3426dddca324e46dee6af56f4fc1c3eeb4840e",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/Configuration_get_unitsList.c": "0ec4dcf1c54c14707081ad0f27b2107ebee25240b286f787c4d0302365594ef0",
+        "native-playtest-ui-client-reviewed/Configuration_get_unitsList.asm": "3a549cbeb1cc154317346e55f4a458fb64d035cbf6c560f946a7897bec3083f1"
+      }
+    },
+    {
+      "preferredVa": "0x455311c",
+      "name": "Configuration_get_displayOptions",
+      "end": "0x4553178",
+      "first16": "fe0f1ef8f44f01a973e000b0f4c000d0",
+      "sha256": "4e4a5317a9a4fe85cf942d34d82853141d9bc41ed583db337965a3c88e0e5fe9",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/Configuration_get_displayOptions.c": "f68241b45b55bab6bc0f7c084ee94ba98c154097fd636164805f644e291e483b",
+        "native-playtest-ui-client-reviewed/Configuration_get_displayOptions.asm": "0b43d1278494680589b55a0d12a5783455e862f63f386c423203e8f2b92a5bdf"
+      }
+    },
+    {
+      "preferredVa": "0x28f5cfc",
+      "name": "Throw_NullReference_Wrapper",
+      "end": "0x28f5d04",
+      "first16": "fe0f1ff86a220194fe0f1ff87b220194",
+      "sha256": "fd826c34b9ef2518b1f3f6d39e7562b9946c1a4ca9651bc3c25e81558d412348",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/Throw_NullReference_Wrapper.c": "4dbe5415e169f90b0ce5055036cca1b94bf1565f8d9d2308c08bf4bd707fcb91",
+        "native-playtest-ui-client-reviewed/Throw_NullReference_Wrapper.asm": "eec6b09062497629de85a27e3a8cad918b42764b2a1c0f544152a636461e5fdd"
+      }
+    },
+    {
+      "preferredVa": "0x28f5d04",
+      "name": "Throw_Index_Wrapper",
+      "end": "0x28f5d0c",
+      "first16": "fe0f1ff87b220194c03cff90006c0191",
+      "sha256": "4443063a785929eff8fbdd73652167a28163cc8bee6d193aa1d2d34ba13cefaa",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/Throw_Index_Wrapper.c": "b554c9aba53206d804e9fc370e97cf27027d10930f18eb2a6be625e055cb8dd1",
+        "native-playtest-ui-client-reviewed/Throw_Index_Wrapper.asm": "5581995141036f8f8cb7598583a54ae3c1a567e77a4bbff543774e6d542c448c"
+      }
+    },
+    {
+      "preferredVa": "0x293e6a8",
+      "name": "Throw_NullReference_Create",
+      "end": "0x293e6bc",
+      "first16": "ff8300d1fffb00a9e0030091ff0300f9",
+      "sha256": "cdbf0bcca450bcc5619d3bedfd51ab6ee40fa3f25845c22f256f2b52ded52c13",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/Throw_NullReference_Create.c": "07933b7cac27ee4d3e9d7c27b53882e222ed878cead5f8d79e73b3adba1fff6f",
+        "native-playtest-ui-client-reviewed/Throw_NullReference_Create.asm": "428c28c0278566bbd155390442ae395ecf5d111ac48dd41afa23cc88ab7051b2"
+      }
+    },
+    {
+      "preferredVa": "0x293e6bc",
+      "name": "Throw_NullReference_Raise",
+      "end": "0x293e6cc",
+      "first16": "fe0f1ff803000094e1031faad2ffff97",
+      "sha256": "5ca19850cf19c59741f496304fb81f88760711935ae81e9878b9291de917db2c",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/Throw_NullReference_Raise.c": "aded7644ecb862bc0a5476706b21810f9257b367ac0397bdc541e91af2615d80",
+        "native-playtest-ui-client-reviewed/Throw_NullReference_Raise.asm": "5aafa322c11ce154d2ee31e138ead7810e48a24e419b8885131feb71851f1d71"
+      }
+    },
+    {
+      "preferredVa": "0x293e6f4",
+      "name": "Throw_Index_Raise",
+      "end": "0x293e704",
+      "first16": "fe0f1ff803000094e1031faac4ffff97",
+      "sha256": "cc88e424aa2cedbec18e703dcec784e753947ba52264006468b82ee358e7e4dd",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/Throw_Index_Raise.c": "f7b9c1233cebb3659705feb97a706251cb1dd6dcac5b14dcbcd482f99b3529a7",
+        "native-playtest-ui-client-reviewed/Throw_Index_Raise.asm": "53f08a0cd65a4fe4ba45d72673ff66e057b405fd9658b230d54ec9cb96fab4ed"
+      }
+    },
+    {
+      "preferredVa": "0x293e610",
+      "name": "Managed_Exception_CxaThrow",
+      "end": "0x293e638",
+      "first16": "fe4fbfa9f30300aa71ffff9700018052",
+      "sha256": "3baf58d6dd416adb6ec9a1aa884940ecdc8bcb00a7fd1ff5efd9d6fd84aa48a1",
+      "outputs": {
+        "native-playtest-ui-client-reviewed/Managed_Exception_CxaThrow.c": "f034685b9e5e3c23ca134caf66dd8742db361f79a48e68bfefb6bb0b28479155",
+        "native-playtest-ui-client-reviewed/Managed_Exception_CxaThrow.asm": "79d2db030a3cd3519ea853008b8d9e435cee4ca33d345340c0a40c9ffa737b80"
+      }
+    }
+  ],
+  "registeredQueryCount": {
+    "before": 919,
+    "after": 939,
+    "new": 20
+  },
+  "sourceRules": {
+    "movement": "mode0 and Stage_Now*10+Level_Now<Stage_Value_Max doubles moveSpeed (15/17 base) after pet/relic percentages",
+    "format": "InfVal_change total decimal digits chooses precision3/4/5, truncates significant digits, default flags0 remove trailing zeros and original702 a..zz units; supported client nonnegative display branch only",
+    "collection": "65 original Gun_Item_Collection.Reload callbacks: sprites/color/grade/type and !Gun_Collect lock; Touch opens readonly detail",
+    "progress": "Stage fill wave/4, value fill completed tree count/total; geometry independently tested25/75",
+    "laser": "frozen ToonCircle02_Add_3x3 material built-in shaderfileID203 (Legacy Particles Alpha Blended), stale Standard blend1/0 ignored by original shader; compatiblealpha5/10 material override"
+  },
+  "adapters": [
+    "Runtime restoration of omitted SpriteSkin/layout components without working scene save",
+    "Extracted immutable pages saved as new Resources prefabs; unsupported I2 localizers omitted",
+    "User-requested left menu order and diamonds-only inventory wallet; local modal stacking/raycast callbacks",
+    "Independent DecimalAmount arithmetic; only verified native default formatter display branch reconstructed",
+    "Compiled particle shader still independent compatibility shader, not full original platform shader",
+    "Existing local ads/payments remain simulations; no production services or charges"
+  ],
+  "scopeComplete": false
+}

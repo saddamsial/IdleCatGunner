@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 32.68,
+      "summary": {
+        "total": 5,
+        "passed": 1,
+        "failed": 4,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalMergeTutorialTests.ActualRaycastDragMergeStopsCueAndDoesNotChargeOrGrantCurrency",
+          "Status": "Failed",
+          "Duration": 5.6844721,
+          "Message": "  Expected: same as <Gun_Btn (UnityEngine.UI.Button)>\n  But was:  null\n",
+          "StackTrace": "at OriginalMergeTutorialTests.ClickGun () [0x00095] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMergeTutorialTests.cs:20\nat OriginalMergeTutorialTests+<ActualRaycastDragMergeStopsCueAndDoesNotChargeOrGrantCurrency>d__6.MoveNext () [0x000a3] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMergeTutorialTests.cs:85\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalMergeTutorialTests.IndependentColdReloadRetainsFirstMergeFlagAndNeverShowsCueAgain",
+          "Status": "Passed",
+          "Duration": 11.2178969,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMergeTutorialTests.NativeEligibilitySkipsPausedAdAndHigherGunsAndKeepsSaveUnchanged",
+          "Status": "Failed",
+          "Duration": 5.2199134,
+          "Message": "  Expected: same as <Gun_Btn (UnityEngine.UI.Button)>\n  But was:  null\n",
+          "StackTrace": "at OriginalMergeTutorialTests.ClickGun () [0x00095] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMergeTutorialTests.cs:20\nat OriginalMergeTutorialTests+<NativeEligibilitySkipsPausedAdAndHigherGunsAndKeepsSaveUnchanged>d__4.MoveNext () [0x000a7] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMergeTutorialTests.cs:51\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalMergeTutorialTests.OriginalHandMovesScalesReopensAndInvalidTargetsStopMotion",
+          "Status": "Failed",
+          "Duration": 5.183877,
+          "Message": "  Expected: same as <Gun_Btn (UnityEngine.UI.Button)>\n  But was:  null\n",
+          "StackTrace": "at OriginalMergeTutorialTests.ClickGun () [0x00095] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMergeTutorialTests.cs:20\nat OriginalMergeTutorialTests+<OriginalHandMovesScalesReopensAndInvalidTargetsStopMotion>d__5.MoveNext () [0x000bb] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMergeTutorialTests.cs:69\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalMergeTutorialTests.OriginalMergeCueComponentAndTwoItemArrowAreReconnected",
+          "Status": "Failed",
+          "Duration": 5.3333853,
+          "Message": "  Expected: same as <Gun_Btn (UnityEngine.UI.Button)>\n  But was:  null\n",
+          "StackTrace": "at OriginalMergeTutorialTests.ClickGun () [0x00095] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMergeTutorialTests.cs:20\nat OriginalMergeTutorialTests+<OriginalMergeCueComponentAndTwoItemArrowAreReconnected>d__3.MoveNext () [0x0011d] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMergeTutorialTests.cs:39\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

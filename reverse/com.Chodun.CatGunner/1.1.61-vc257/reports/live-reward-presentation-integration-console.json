@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "command": "command eval_file",
+  "data": {
+    "command": "eval_file",
+    "parameters": {
+      "file": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/tools/reward_presentation_console.cs"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "counts": [
+          0,
+          4,
+          0
+        ],
+        "entries": [
+          {
+            "message": "Assets/Recovery/Tests/PlayMode/OriginalFishAndAutoMergeTests.cs(33,117): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'\n",
+            "mode": 266240
+          },
+          {
+            "message": "Assets/Recovery/Tests/PlayMode/OriginalFishAndAutoMergeTests.cs(33,44): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'\n",
+            "mode": 266240
+          },
+          {
+            "message": "Assets/Recovery/Tests/PlayMode/OriginalWeeklyRaidTests.cs(54,232): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'\n",
+            "mode": 266240
+          },
+          {
+            "message": "Assets/Recovery/Tests/PlayMode/OriginalWeeklyRaidTests.cs(54,144): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'\n",
+            "mode": 266240
+          }
+        ],
+        "compiling": false,
+        "playing": false
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

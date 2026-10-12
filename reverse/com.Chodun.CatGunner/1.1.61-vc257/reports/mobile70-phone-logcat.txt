@@ -1,0 +1,159 @@
+--------- beginning of system
+D/MiuiDownscaleImpl(19502): set override inverted scale : 1.0
+I/ActivityThread(19502): TrafficStats init done
+I/ActivityThread(19502): Miui Feature Init done
+D/MiuiMultiWindowUtils(19502): freeform resolution args raw data:{  "wide_default":{    "freeform_args": {        "vertical_portrait":{"aspect_ratio":0.626, "original_ratio":0.5643,"original_scale":0.74,"top_margin":0.168,"left_margin":0.484},        "horizontal_portrait":{"aspect_ratio":0.626, "original_ratio":0.5643,"original_scale":0.74,"top_margin":0.1222,"left_margin":0.59745},        "vertical_landscape":{"aspect_ratio":1.6, "original_ratio":1,"original_scale":0.604,"top_margin":0.2596,"left_margin":0.2624},        "horizontal_landscape":{"aspect_ratio":1.6, "original_ratio":1,"original_scale":0.604,"top_margin":0.213,"left_margin":0.3758}    },    "mini_freeform_args":{        "vertical_portrait":{"original_ratio":0.147},        "horizontal_portrait":{"original_ratio":0.147},        "vertical_landscape":{"original_ratio":0.165},        "horizontal_landscape":{"original_ratio":0.165}    }  },  "narrow_default": {    "freeform_args": {        "vertical_portrait":{"aspect_ratio":0.626, "original_ratio":1,"original_scale":0.74,"top_margin":0.0753,"left_margin":-1},        "horizontal_portrait":{"aspect_ratio":0.626, "original_ratio":1,"original_scale":0.5756,"top_margin":-1,"left_margin":0.0753},        "vertical_landscape":{"aspect_ratio":1.6, "original_ratio":0.6847,"original_scale":0.587,"top_margin":0.0753,"left_margin":-1},        "horizontal_landscape":{"aspect_ratio":1.6, "original_ratio":0.6847,"original_scale":0.587,"top_margin":-1,"left_margin":0.0753}    },    "mini_freeform_args":{        "vertical_portrait":{"original_ratio":0.26},        "horizontal_portrait":{"original_ratio":0.26},        "vertical_landscape":{"original_ratio":0.293},        "horizontal_landscape":{"original_ratio":0.293}    }  },  "regular_default": {    "freeform_args": {      "vertical_portrait":{"aspect_ratio":0.625, "original_ratio":1,"original_scale":0.7,"top_margin":0.109,"left_margin":-1},      "horizontal_portrait":{"aspect_ratio":0.6667, "original_ratio":1,"original_scale":0.6102,"top_margin":-1,"left_margin":0.026},      "vertical_landscape":{"aspect_ratio":1.6, "original_ratio":1,"original_scale":0.4244,"top_margin":0.109,"left_margin":-1},      "horizontal_landscape":{"aspect_ratio":1.6, "original_ratio":1,"original_scale":0.4244,"top_margin":-1,"left_margin":0.026}    },    "mini_freeform_args":{      "vertical_portrait":{"original_ratio":0.25},      "horizontal_portrait":{"original_ratio":0.25},      "vertical_landscape":{"original_ratio":0.25},      "horizontal_landscape":{"original_ratio":0.25}    }  },  "pad_default": {    "freeform_args": {      "vertical_portrait":{"aspect_ratio":0.5625, "original_ratio":0.375,"original_scale":0.835,"top_margin":0.049,"left_margin":0.2775},      "horizontal_portrait":{"aspect_ratio":0.5625, "original_ratio":0.375,"original_scale":0.835,"top_margin":-1,"left_margin":0.6525},      "vertical_landscape":{"aspect_ratio":-1, "original_ratio":1,"original_scale":0.468,"top_margin":0.049,"left_margin":-1},      "horizontal_landscape":{"aspect_ratio":-1, "original_ratio":1,"original_scale":0.468,"top_margin":-1,"left_margin":0.4976}    },    "mini_freeform_args":{      "vertical_portrait":{"original_ratio":0.144},      "horizontal_portrait":{"original_ratio":0.144},      "vertical_landscape":{"original_ratio":0.2},      "horizontal_landscape":{"original_ratio":0.2}    }  }}
+D/MiuiMultiWindowUtils(19502): initFreeFormResolutionArgs failed, device is shennong
+D/FramePredict(19502): FramePredict init: false
+D/FramePredict(19502): init success
+E/FramePredict(19502): registerContentObserver fail
+D/DecorViewImmersiveImpl(19502): onAttachedToWindow:com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity
+V/ViewRootImplStubImpl(19502): enableSyncSurfaceView: do not sync surface view, vri:com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity, surfaceView:SurfaceView[com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity], vri size:1440x3200, surfaceView size:1440x3200
+I/ContentCatcher_TaplusBlackListHelper(19502):  mActivities isEmpty
+I/ContentCatcher_TaplusBlackListHelper(19502):  blackList size: 13 package is com.ravanla.idlecatgunner.recovery isInTaplusWhiteList: true
+--------- beginning of main
+I/Unity   (19502): Company Name: Ravanla
+I/Unity   (19502): Product Name: CatGunner 恢复试玩
+W/libc    (19502): Access denied finding property "vendor.migl.debug"
+D/libMiGL (19502): SuperResolution SR initSR mBaseSRWidthSize: 0, mBaseSRHeightSize: 0, mTargetSRWidthSize: 0, mTargetSRHeightSize: 0
+I/libMiGL (19502): EnableDR: 0
+D/libMiGL (19502): mDFIInterval: -1
+V/GameActivity(19502): onImeInsetsChanged from Text Listener
+I/AdrenoGLES-0(19502): QUALCOMM build                   : 0c7c4b37d5, I3988f0db60
+I/AdrenoGLES-0(19502): Build Date                       : 10/18/24
+I/AdrenoGLES-0(19502): OpenGL ES Shader Compiler Version: E031.45.02.19
+I/AdrenoGLES-0(19502): Local Branch                     : 
+I/AdrenoGLES-0(19502): Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.VENDOR.14.3.0.R1.00.00.00.000.168
+I/AdrenoGLES-0(19502): Remote Branch                    : NONE
+I/AdrenoGLES-0(19502): Reconstruct Branch               : NOTHING
+I/AdrenoGLES-0(19502): Build Config                     : S P 16.1.2 AArch64
+I/AdrenoGLES-0(19502): Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+I/AdrenoGLES-0(19502): Driver Version                   : 0762.30
+I/AdrenoGLES-0(19502): Process Name                     : com.ravanla.idlecatgunner.recovery
+I/AdrenoGLES-0(19502): PFP: 0x01520175, ME: 0x01520023
+I/AdrenoUtils(19502): <ReadGpuID:357>: Reading chip ID through GSL
+D/nativeloader(19502): Load liblibswappywrapper.so using ns clns-7 from class loader (caller=/data/app/~~LPcEEH2fkTxdgSJZGXly5Q==/com.ravanla.idlecatgunner.recovery--whUmhyCbswhI5KB7ZN01g==/base.apk): dlopen failed: library "liblibswappywrapper.so" not found
+D/nativeloader(19502): Load /data/app/~~LPcEEH2fkTxdgSJZGXly5Q==/com.ravanla.idlecatgunner.recovery--whUmhyCbswhI5KB7ZN01g==/lib/arm64/libswappywrapper.so using ns clns-7 from class loader (caller=/data/app/~~LPcEEH2fkTxdgSJZGXly5Q==/com.ravanla.idlecatgunner.recovery--whUmhyCbswhI5KB7ZN01g==/base.apk): ok
+I/SwappyWrapper(19502): SwappyWrapperInit() succeeded. Build: Mon Oct 12 14:58:46 2026
+E/SwappyDisplayManager(19502): dalvik.system.InMemoryDexClassLoader[DexPathList[[dex file "InMemoryDexFile[cookie=[0, -5476376613426473904]]"],nativeLibraryDirectories=[/system/lib64, /system_ext/lib64]]] couldn't find "libgame.so"
+I/SwappyDisplayManager(19502): Starting looper thread
+I/AAudio  (19502): AAudioStreamBuilder_openStream() called ----------------------------------------
+I/AudioStreamBuilder(19502): rate   =  24000, channels  = 2, channelMask = 0x80000003, format   = 5, sharing = SH, dir = OUTPUT
+I/AudioStreamBuilder(19502): device =      0, sessionId = 0, perfMode = 12, callback: ON with frames = 512
+I/AudioStreamBuilder(19502): usage  =      0, contentType = 0, inputPreset = 0, allowedCapturePolicy = 0
+I/AudioStreamBuilder(19502): privacy sensitive = false, opPackageName = (null), attributionTag = (null)
+D/AudioStreamBuilder(19502): build() MMAP not used because sessionId specified.
+D/gunner.recovery(19502): PlayerBase::PlayerBase()
+D/AudioStreamTrack(19502): open(), request notificationFrames = 0, frameCount = 8192
+D/AudioTrackStub(19502): AudioTrackStub() create
+I/AudioTrackImpl(19502): initAudioTrackImpl()
+D/AudioTrackImpl(19502): binder call: getPackageName com.ravanla.idlecatgunner.recovery for uid 10631
+D/AudioTrack(19502): set(): (sessionId=0), mcallback is 1, streamType -1, sampleRate 24000, format 0x5, channelMask 0x3, frameCount 8192, flags 0x4, notificationFrames 0,transferType 1, mClientAttributionSource AttributionSourceState{pid: -1, uid: -1, deviceId: 0, packageName: com.ravanla.idlecatgunner.recovery, attributionTag: (null), token: (null), renouncedPermissions: (null), next: []}
+D/AudioTrackImpl(19502): [APM]-AT reScheduleCpu() cpuSet=248 tid=26814
+E/libprocessgroup(19502): set_timerslack_ns write failed: Operation not permitted
+I/AudioTrackImpl(19502): before scaleVolumeForVideo L:1.000000 R:1.000000 and the pakage is com.ravanla.idlecatgunner.recovery
+I/AudioTrack(19502): AudioTrack::setVolume L:1.000000 R:1.000000 sessionid=48849
+D/AudioStreamTrack(19502): open() flags changed from 0x00000004 to 0x00000000
+D/AudioStreamTrack(19502): open() perfMode changed from 12 to 10
+D/AAudioStream(19502): setState(s#1) from 0 to 2
+I/AAudio  (19502): AAudioStreamBuilder_openStream() returns 0 = AAUDIO_OK for s#1 ----------------
+D/AAudio  (19502): AAudioStream_requestStart(s#1) called --------------
+D/AAudioStream(19502): setState(s#1) from 2 to 3
+I/AudioTrack(19502): start(6663): prior state:STATE_STOPPED packageName: com.ravanla.idlecatgunner.recovery
+D/AudioTrackImpl(19502): [APM]-AT reScheduleCpu() cpuSet=248 tid=26699
+D/AAudio  (19502): AAudioStream_requestStart(s#1) returned 0 ---------
+V/xlog_client(19502): xlog_check_permission event name audio_track_message level 0
+V/xlog_client(19502): xlog_check_permission event name audio_repeat_start_stop level 0
+V/xlog_client(19502): xlog_check_permission event name audio_zero_data level 0
+D/AudioStreamLegacy(19502): onAudioDeviceUpdate(deviceId = 3)
+D/AAudioStream(19502): setState(s#1) from 3 to 4
+W/InteractionJankMonitor(19502): Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.ravanla.idlecatgunner.recovery
+I/Unity   (19502):     HasWindow = 1, HasFocus = 0
+I/Unity   (19502): Handle cmd APP_CMD_WINDOW_RESIZED(3)
+I/Unity   (19502): Handle cmd APP_CMD_WINDOW_REDRAW_NEEDED(4)
+I/Unity   (19502): Handle cmd APP_CMD_GAINED_FOCUS(7)
+I/Unity   (19502): Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+V/MediaRouter(19502): Selecting route: RouteInfo{ name=手机, description=null, status=null, category=RouteCategory{ name=系统 types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+I/MediaRouter(19502): Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=true, BT route=null
+W/UnityGfxDeviceW(19502): type=1400 audit(0.0:531656): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(19502): type=1400 audit(0.0:531657): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(19502): type=1400 audit(0.0:531658): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(19502): type=1400 audit(0.0:531659): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(19502): type=1400 audit(0.0:531660): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+D/AudioTrackImpl(19502): [audioTrackData][zero] 1s(f:0 m:0 s:0 k:0 z:1005) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5
+I/IL2CPP  (19502): Locale zh-CN
+W/UnityGfxDeviceW(19502): type=1400 audit(0.0:531686): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(19502): type=1400 audit(0.0:531687): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(19502): type=1400 audit(0.0:531688): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(19502): type=1400 audit(0.0:531689): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(19502): type=1400 audit(0.0:531690): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+D/AudioTrackImpl(19502): [audioTrackData][zero] 2s(f:0 m:0 s:0 k:0 z:2006) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5
+D/GameActivity(19502): ************** mainWorkCallback *********
+D/gti.InputConnection(19502): setSoftKeyboardActive, active: false
+I/ImeTracker(19502): com.ravanla.idlecatgunner.recovery:cede12d4: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+I/HandWritingStubImpl(19502): getCurrentKeyboardType: 1
+D/nativeloader(19502): Load /data/app/~~LPcEEH2fkTxdgSJZGXly5Q==/com.ravanla.idlecatgunner.recovery--whUmhyCbswhI5KB7ZN01g==/lib/arm64/lib_burst_generated.so using ns clns-7 from class loader (caller=/data/app/~~LPcEEH2fkTxdgSJZGXly5Q==/com.ravanla.idlecatgunner.recovery--whUmhyCbswhI5KB7ZN01g==/base.apk): ok
+D/nativeloader(19502): Load liblib_burst_0_0.so using ns clns-7 from class loader (caller=/data/app/~~LPcEEH2fkTxdgSJZGXly5Q==/com.ravanla.idlecatgunner.recovery--whUmhyCbswhI5KB7ZN01g==/base.apk): dlopen failed: library "liblib_burst_0_0.so" not found
+D/nativeloader(19502): Load lib_burst_0_0.so using ns clns-7 from class loader (caller=/data/app/~~LPcEEH2fkTxdgSJZGXly5Q==/com.ravanla.idlecatgunner.recovery--whUmhyCbswhI5KB7ZN01g==/base.apk): dlopen failed: library "lib_burst_0_0.so" not found
+W/UnityGfxDeviceW(19502): type=1400 audit(0.0:531713): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+D/AudioTrackImpl(19502): [audioTrackData][zero] 3s(f:0 m:0 s:0 k:0 z:3008) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5
+W/UnityGfxDeviceW(19502): type=1400 audit(0.0:531714): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(19502): type=1400 audit(0.0:531715): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(19502): type=1400 audit(0.0:531716): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(19502): type=1400 audit(0.0:531717): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(19502): type=1400 audit(0.0:531724): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(19502): type=1400 audit(0.0:531725): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(19502): type=1400 audit(0.0:531726): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(19502): type=1400 audit(0.0:531727): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(19502): type=1400 audit(0.0:531728): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+I/gunner.recovery(19502): ProcessProfilingInfo new_methods=7 is saved saved_to_disk=1 resolve_classes_delay=8000
+D/AudioTrackImpl(19502): [audioTrackData][fine] 5s(f:5002 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(19502): [audioTrackData][fine] 10s(f:10001 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(19502): [audioTrackData][fine] 15s(f:15002 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(19502): [audioTrackData][fine] 20s(f:20002 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(19502): [audioTrackData][fine] 25s(f:25002 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+I/gunner.recovery(19502): This is non sticky GC, maxfree is 16777216 minfree is 8388608
+W/gunner.recovery(19502): ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/ContentCatcherOS2/ContentCatcherOS2.apk' with 1 weak references
+W/FinalizerDaemon(19502): type=1400 audit(0.0:531748): avc:  denied  { getopt } for  path="/dev/socket/usap_pool_primary" scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:r:zygote:s0 tclass=unix_stream_socket permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/gunner.recovery(19502): ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/app/miuisystem/miuisystem.apk' with 1 weak references
+D/AudioTrackImpl(19502): [audioTrackData][fine] 30s(f:30002 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(19502): [audioTrackData][fine] 35s(f:35003 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 254
+D/AudioTrackImpl(19502): [audioTrackData][fine] 40s(f:40001 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(19502): [audioTrackData][fine] 45s(f:45002 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(19502): [audioTrackData][fine] 50s(f:50001 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(19502): [audioTrackData][fine] 55s(f:55006 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(19502): [audioTrackData][fine] 60s(f:60006 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(19502): [audioTrackData][fine] 5s(f:5000 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(19502): [audioTrackData][fine] 10s(f:10000 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(19502): [audioTrackData][fine] 15s(f:15000 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(19502): [audioTrackData][fine] 20s(f:20007 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(19502): [audioTrackData][fine] 25s(f:25000 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(19502): [audioTrackData][fine] 30s(f:30000 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(19502): [audioTrackData][fine] 35s(f:35000 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 254
+D/AudioTrackImpl(19502): [audioTrackData][fine] 40s(f:40000 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+I/MIUIInput(19502): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=489275825, downTime=489275825, phoneEventTime=15:05:34.172 } moveCount:0
+I/MIUIInput(19502): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=489275842, downTime=489275825, phoneEventTime=15:05:34.189 } moveCount:0
+I/MIUIInput(19502): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=489276931, downTime=489276931, phoneEventTime=15:05:35.278 } moveCount:0
+I/MIUIInput(19502): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=489277007, downTime=489276931, phoneEventTime=15:05:35.355 } moveCount:0
+I/MIUIInput(19502): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=489279002, downTime=489279002, phoneEventTime=15:05:37.350 } moveCount:0
+I/MIUIInput(19502): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=489279019, downTime=489279002, phoneEventTime=15:05:37.366 } moveCount:0
+D/AudioTrackImpl(19502): [audioTrackData][fine] 45s(f:45020 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+I/MIUIInput(19502): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=489280681, downTime=489280681, phoneEventTime=15:05:39.028 } moveCount:0
+I/MIUIInput(19502): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=489280765, downTime=489280681, phoneEventTime=15:05:39.113 } moveCount:0
+D/AudioTrackImpl(19502): [audioTrackData][fine] 50s(f:50000 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(19502): [audioTrackData][fine] 55s(f:55019 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(19502): [audioTrackData][fine] 60s(f:60000 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(19502): [audioTrackData][fine] 5s(f:5020 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(19502): [audioTrackData][fine] 10s(f:10017 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+I/MIUIInput(19502): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=489309271, downTime=489309271, phoneEventTime=15:06:07.619 } moveCount:0
+I/MIUIInput(19502): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=489309287, downTime=489309271, phoneEventTime=15:06:07.635 } moveCount:0
+D/AudioTrackImpl(19502): [audioTrackData][fine] 15s(f:15005 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+I/MIUIInput(19502): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=489311150, downTime=489311150, phoneEventTime=15:06:09.498 } moveCount:0
+I/MIUIInput(19502): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=489311243, downTime=489311150, phoneEventTime=15:06:09.591 } moveCount:0
+I/MIUIInput(19502): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_DOWN, id[0]=0, pointerCount=1, eventTime=489314419, downTime=489314419, phoneEventTime=15:06:12.767 } moveCount:0
+I/MIUIInput(19502): [MotionEvent] ViewRootImpl windowName 'com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity', { action=ACTION_UP, id[0]=0, pointerCount=1, eventTime=489314435, downTime=489314419, phoneEventTime=15:06:12.782 } moveCount:0
+D/AudioTrackImpl(19502): [audioTrackData][fine] 20s(f:20005 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(19502): [audioTrackData][fine] 25s(f:25005 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(19502): [audioTrackData][fine] 30s(f:30005 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(19502): [audioTrackData][fine] 35s(f:35005 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255
+D/AudioTrackImpl(19502): [audioTrackData][fine] 40s(f:40005 m:0 s:0 k:0 z:0) : pid 19502 uid 10631 sessionId 48849 sr 24000 ch 2 fmt 5 maxAmplitude 255

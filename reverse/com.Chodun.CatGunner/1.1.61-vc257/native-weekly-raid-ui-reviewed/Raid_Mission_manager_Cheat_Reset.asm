@@ -1,0 +1,14 @@
+02c55220  stp x30,x19,[sp, #-0x10]!
+02c55224  mov x19,x0
+02c55228  mov x0,xzr
+02c5522c  bl 0x02b92498
+02c55230  tbz w0,#0x0,0x02c55250
+02c55234  mov w8,#0xffffffff
+02c55238  mov x0,x19
+02c5523c  str w8,[x19, #0x28]
+02c55240  bl 0x02c53fc0
+02c55244  mov x0,x19
+02c55248  ldp x30,x19,[sp], #0x10
+02c5524c  b 0x02c53c8c
+02c55250  ldp x30,x19,[sp], #0x10
+02c55254  ret

@@ -1,0 +1,70 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 47.93,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalCurrencyFeedbackTests.CurrencyDisablingDetachesWalletAndReenableRefreshesLatestValue",
+          "Status": "Passed",
+          "Duration": 7.1730209,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalCurrencyFeedbackTests.MoneyAndDamageShareNativeCellThrottleWithoutLosingAnyIncome",
+          "Status": "Passed",
+          "Duration": 5.6864511,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalCurrencyFeedbackTests.OrdinaryDiamondCounterKeepsExistingPrefixAndNativeIntegerArithmetic",
+          "Status": "Passed",
+          "Duration": 5.4470222,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalCurrencyFeedbackTests.OreFractionTextDoesNotCreditWalletBeforeOrdinarySettlement",
+          "Status": "Passed",
+          "Duration": 7.3457972,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalCurrencyFeedbackTests.SpeedRunRewardUsesNativeTripleCounterAndReloadDoesNotGrantAgain",
+          "Status": "Passed",
+          "Duration": 14.7883128,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalCurrencyFeedbackTests.TreeRewardShowsOriginalMoneyGlyphOnceAfterActualCredit",
+          "Status": "Passed",
+          "Duration": 7.4401789,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

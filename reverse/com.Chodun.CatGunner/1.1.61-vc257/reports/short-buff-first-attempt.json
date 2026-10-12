@@ -1,0 +1,76 @@
+{
+  "status": "completed",
+  "duration": 73.73,
+  "summary": {
+    "total": 9,
+    "passed": 8,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalShortBuffTests.BossAndMonsterPreviewsUseSeparatePowerAndSpeedBuffs",
+      "Status": "Passed",
+      "Duration": 10.7488052,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalShortBuffTests.DisabledCancelledDuplicateAndClosedPageAdsCannotGrant",
+      "Status": "Passed",
+      "Duration": 6.012833,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalShortBuffTests.NativeDurationFormatsClampsAndAdPlacementsMatch",
+      "Status": "Passed",
+      "Duration": 6.2125491,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalShortBuffTests.OriginalBuffMenuAndAdvertGrantAreAvailable",
+      "Status": "Failed",
+      "Duration": 7.9629547,
+      "Message": "  AD_Btn\n  Expected: True\n  But was:  False\n",
+      "StackTrace": "at OriginalShortBuffTests+<Click>d__11.MoveNext () [0x0002b] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalShortBuffTests.cs:43\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalShortBuffTests.OriginalMineAdvertGrantsOnlySpeedAndUsesTicketGate",
+      "Status": "Passed",
+      "Duration": 6.4952216,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalShortBuffTests.PermanentLocalPackFreezesRawTimersAndHidesAds",
+      "Status": "Passed",
+      "Duration": 8.099015,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalShortBuffTests.ReloadRetainsSeparateTimersWithoutWallClockDeductionOrRewardReplay",
+      "Status": "Passed",
+      "Duration": 12.7528962,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalShortBuffTests.ScaledClockPausesButPopupAndStoppedForestStillCountDown",
+      "Status": "Passed",
+      "Duration": 8.1990561,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalShortBuffTests.ThreeEffectsAreIndependentAndSuperFallsBackAfterExpiry",
+      "Status": "Passed",
+      "Duration": 6.3680048,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

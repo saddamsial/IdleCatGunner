@@ -1,0 +1,58 @@
+{
+  "inputs": [
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/assetripper-baseline/ExportedProject/Assets/Scenes/Main.unity",
+      "sha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/split_config.arm64_v8a/lib/arm64-v8a/libil2cpp.so",
+      "sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/base/assets/bin/Data/Managed/Metadata/global-metadata.dat",
+      "sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+      "unchanged": true
+    }
+  ],
+  "saves": [
+    {
+      "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json",
+      "sha256": "bd1f1d84ad30c058d4aba941507e7ca57dffe879322cdb6e8cc39aec844c099d",
+      "currentSha256": "bd1f1d84ad30c058d4aba941507e7ca57dffe879322cdb6e8cc39aec844c099d",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json.bak",
+      "sha256": "bd1f1d84ad30c058d4aba941507e7ca57dffe879322cdb6e8cc39aec844c099d",
+      "currentSha256": "bd1f1d84ad30c058d4aba941507e7ca57dffe879322cdb6e8cc39aec844c099d",
+      "unchanged": true
+    }
+  ],
+  "metas": [
+    {
+      "script": "Mission_manager",
+      "metaSha256": "b1dfb32fdd5f8d63a197680ff5423f967ac1c648e234a960c83e62977b77ccfa",
+      "matchesFrozen": true
+    },
+    {
+      "script": "Mission_Item_UI",
+      "metaSha256": "40fa78eaa0d27487270ac765c383e3fcaad69d38b516660e3df2622c0b6bbf8f",
+      "matchesFrozen": true
+    },
+    {
+      "script": "Mission_Reward_Item",
+      "metaSha256": "8580236eb800aaf0fc93563dd7f7528f20e9432041e09e7a8ac6a15ddea80191",
+      "matchesFrozen": true
+    }
+  ],
+  "sourceSha256": {
+    "Assets/Recovery/Scripts/Mission_manager.cs": "8d2049b9c71ff1cde5006fc7088f599b111cc2a91d7894214047e6c662b13a2d",
+    "Assets/Recovery/Scripts/Mission_Item_UI.cs": "aa6fd9cff3f9decf739d2975bb573b49e00e74eac2bf5c2639734567108409ab",
+    "Assets/Recovery/Scripts/Mission_Reward_Item.cs": "ca4e2c0bb515e90970648ed93c1ffed30126feb3afd096428d99993786db632c",
+    "Assets/Recovery/Scripts/OriginalMissions.cs": "5b1a9c9218b97d5c898d12bc1529991e00d2fcb7be22acdcf87475ce2bbfbdd0",
+    "Assets/Recovery/Tests/PlayMode/OriginalMissionNavigationTests.cs": "54564db758c262110781e81b2c88a9de0ba2bc37d567ebc9c3eb26adef7b1ed9"
+  },
+  "sceneSha256": "69b30e938815261522df3ba90b204fcbfb95a5549916cf07ea77d5aea6d93169"
+}

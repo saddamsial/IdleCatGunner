@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "return new {systemLanguage=UnityEngine.Application.systemLanguage,title=string.Format(CatGunner.Recovery.OriginalStarRules.Catalogue.Text(CatGunner.Recovery.OriginalStarRules.Catalogue.SlotUpgrade),1),playing=UnityEditor.EditorApplication.isPlaying};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "systemLanguage": 40,
+        "title": "强化槽位1",
+        "playing": false
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

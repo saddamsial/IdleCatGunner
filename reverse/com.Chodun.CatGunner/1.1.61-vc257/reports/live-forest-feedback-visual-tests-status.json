@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 27.39,
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalForestFeedbackTests.AutomaticProjectilesEmitOriginalDamageGlyphsAndCashParticles",
+          "Status": "Passed",
+          "Duration": 8.4401686,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalForestFeedbackTests.OriginalGlyphAnimationExpiresReusesAndCannotBlockUi",
+          "Status": "Passed",
+          "Duration": 7.1436045,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalForestFeedbackTests.RealInputModuleDispatchesAllThreeUpgradeButtonsOnceAndSaves",
+          "Status": "Passed",
+          "Duration": 5.922611,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalForestFeedbackTests.TreeDeathEmitsFiveOrFifteenOnceAtOriginalAnchorWithoutExtraIncome",
+          "Status": "Passed",
+          "Duration": 5.8500262,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

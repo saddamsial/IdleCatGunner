@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "duration": 11.56,
+  "summary": {
+    "total": 1,
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalShortBuffTests.OriginalUpgradePanelsShowIndependentBuffMultipliers",
+      "Status": "Failed",
+      "Duration": 10.7212619,
+      "Message": "  Expected: True\n  But was:  False\n",
+      "StackTrace": "at OriginalShortBuffTests+<OriginalUpgradePanelsShowIndependentBuffMultipliers>d__21.MoveNext () [0x00087] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalShortBuffTests.cs:132\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    }
+  ]
+}

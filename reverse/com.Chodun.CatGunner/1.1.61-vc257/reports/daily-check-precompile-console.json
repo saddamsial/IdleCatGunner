@@ -1,0 +1,99 @@
+{
+  "counts": [
+    0,
+    22,
+    0
+  ],
+  "entries": [
+    {
+      "message": "Assets/Recovery/Scripts/BounceBtn.cs(8,146): warning CS0108: 'BounceBtn.animation' hides inherited member 'Component.animation'. Use the new keyword if hiding was intended.\n",
+      "mode": 266240
+    },
+    {
+      "message": "Assets/Recovery/Scripts/Bullet.cs(98,39): warning CS0618: 'Object.GetInstanceID()' is obsolete: 'GetInstanceID is deprecated. Use GetEntityId instead. This will be removed in a future version.'\n",
+      "mode": 266240
+    },
+    {
+      "message": "Assets/Recovery/Scripts/Bullet.cs(103,71): warning CS0618: 'Object.GetInstanceID()' is obsolete: 'GetInstanceID is deprecated. Use GetEntityId instead. This will be removed in a future version.'\n",
+      "mode": 266240
+    },
+    {
+      "message": "Assets/Recovery/Scripts/Bullet.cs(104,69): warning CS0618: 'Object.GetInstanceID()' is obsolete: 'GetInstanceID is deprecated. Use GetEntityId instead. This will be removed in a future version.'\n",
+      "mode": 266240
+    },
+    {
+      "message": "Assets/Recovery/Scripts/Bullet.cs(106,82): warning CS0618: 'Object.GetInstanceID()' is obsolete: 'GetInstanceID is deprecated. Use GetEntityId instead. This will be removed in a future version.'\n",
+      "mode": 266240
+    },
+    {
+      "message": "Assets/Recovery/Scripts/Bullet.cs(149,20): warning CS0618: 'Object.GetInstanceID()' is obsolete: 'GetInstanceID is deprecated. Use GetEntityId instead. This will be removed in a future version.'\n",
+      "mode": 266240
+    },
+    {
+      "message": "Assets/Recovery/Scripts/CatCompanions.cs(28,26): warning CS0618: 'Object.GetInstanceID()' is obsolete: 'GetInstanceID is deprecated. Use GetEntityId instead. This will be removed in a future version.'\n",
+      "mode": 266240
+    },
+    {
+      "message": "Assets/Recovery/Editor/CatGunnerProgressionPreview.cs(41,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'\n",
+      "mode": 266240
+    },
+    {
+      "message": "Assets/Recovery/Editor/ContentUnlockClientEditor.cs(54,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'\n",
+      "mode": 266240
+    },
+    {
+      "message": "Assets/Recovery/Editor/ForestClientEditor.cs(29,21): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'\n",
+      "mode": 266240
+    },
+    {
+      "message": "Assets/Recovery/Editor/ForestClientEditor.cs(84,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'\n",
+      "mode": 266240
+    },
+    {
+      "message": "Assets/Recovery/Editor/ForestClientEditor.cs(108,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'\n",
+      "mode": 266240
+    },
+    {
+      "message": "Assets/Recovery/Editor/InventoryClientEditor.cs(16,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'\n",
+      "mode": 266240
+    },
+    {
+      "message": "Assets/Recovery/Editor/ProgressionNavEditor.cs(15,89): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'\n",
+      "mode": 266240
+    },
+    {
+      "message": "Assets/Recovery/Editor/ProgressionDependencyEditor.cs(12,89): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'\n",
+      "mode": 266240
+    },
+    {
+      "message": "Assets/Recovery/Editor/ProgressionActivationEditor.cs(13,84): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'\n",
+      "mode": 266240
+    },
+    {
+      "message": "Assets/Recovery/Editor/ProgressionClientEditor.cs(15,89): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'\n",
+      "mode": 266240
+    },
+    {
+      "message": "Assets/Recovery/Editor/SpeedRunClientEditor.cs(15,89): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'\n",
+      "mode": 266240
+    },
+    {
+      "message": "Assets/Recovery/Tests/PlayMode/OriginalFishAndAutoMergeTests.cs(33,117): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'\n",
+      "mode": 266240
+    },
+    {
+      "message": "Assets/Recovery/Tests/PlayMode/OriginalFishAndAutoMergeTests.cs(33,44): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'\n",
+      "mode": 266240
+    },
+    {
+      "message": "Assets/Recovery/Tests/PlayMode/OriginalWeeklyRaidTests.cs(54,232): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'\n",
+      "mode": 266240
+    },
+    {
+      "message": "Assets/Recovery/Tests/PlayMode/OriginalWeeklyRaidTests.cs(54,144): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'\n",
+      "mode": 266240
+    }
+  ],
+  "compiling": false,
+  "playing": false
+}

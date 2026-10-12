@@ -1,0 +1,904 @@
+{
+  "identity": {
+    "file": "level0",
+    "path_id": 123118,
+    "type_index": 7502,
+    "type": "Raid_manager",
+    "game_object": "Raid_manager"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 141
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 1661
+    },
+    "m_Name": "",
+    "Health_Balance": [
+      {
+        "s_digits": "10",
+        "s_exponent": 8
+      },
+      {
+        "s_digits": "30",
+        "s_exponent": 8
+      },
+      {
+        "s_digits": "92",
+        "s_exponent": 8
+      },
+      {
+        "s_digits": "29",
+        "s_exponent": 9
+      },
+      {
+        "s_digits": "96",
+        "s_exponent": 9
+      },
+      {
+        "s_digits": "32",
+        "s_exponent": 10
+      },
+      {
+        "s_digits": "11",
+        "s_exponent": 11
+      },
+      {
+        "s_digits": "40",
+        "s_exponent": 11
+      },
+      {
+        "s_digits": "14",
+        "s_exponent": 12
+      },
+      {
+        "s_digits": "56",
+        "s_exponent": 12
+      },
+      {
+        "s_digits": "22",
+        "s_exponent": 13
+      },
+      {
+        "s_digits": "89",
+        "s_exponent": 13
+      },
+      {
+        "s_digits": "37",
+        "s_exponent": 14
+      },
+      {
+        "s_digits": "15",
+        "s_exponent": 15
+      },
+      {
+        "s_digits": "69",
+        "s_exponent": 15
+      },
+      {
+        "s_digits": "31",
+        "s_exponent": 16
+      },
+      {
+        "s_digits": "14",
+        "s_exponent": 17
+      },
+      {
+        "s_digits": "70",
+        "s_exponent": 17
+      },
+      {
+        "s_digits": "35",
+        "s_exponent": 18
+      },
+      {
+        "s_digits": "17",
+        "s_exponent": 19
+      },
+      {
+        "s_digits": "93",
+        "s_exponent": 19
+      },
+      {
+        "s_digits": "50",
+        "s_exponent": 20
+      },
+      {
+        "s_digits": "28",
+        "s_exponent": 21
+      },
+      {
+        "s_digits": "16",
+        "s_exponent": 22
+      },
+      {
+        "s_digits": "95",
+        "s_exponent": 22
+      },
+      {
+        "s_digits": "58",
+        "s_exponent": 23
+      },
+      {
+        "s_digits": "36",
+        "s_exponent": 24
+      },
+      {
+        "s_digits": "23",
+        "s_exponent": 25
+      },
+      {
+        "s_digits": "15",
+        "s_exponent": 26
+      },
+      {
+        "s_digits": "10",
+        "s_exponent": 27
+      },
+      {
+        "s_digits": "75",
+        "s_exponent": 27
+      },
+      {
+        "s_digits": "55",
+        "s_exponent": 28
+      },
+      {
+        "s_digits": "41",
+        "s_exponent": 29
+      },
+      {
+        "s_digits": "31",
+        "s_exponent": 30
+      },
+      {
+        "s_digits": "25",
+        "s_exponent": 31
+      },
+      {
+        "s_digits": "20",
+        "s_exponent": 32
+      },
+      {
+        "s_digits": "17",
+        "s_exponent": 33
+      },
+      {
+        "s_digits": "15",
+        "s_exponent": 34
+      },
+      {
+        "s_digits": "13",
+        "s_exponent": 35
+      },
+      {
+        "s_digits": "12",
+        "s_exponent": 36
+      },
+      {
+        "s_digits": "11",
+        "s_exponent": 37
+      },
+      {
+        "s_digits": "11",
+        "s_exponent": 38
+      },
+      {
+        "s_digits": "11",
+        "s_exponent": 39
+      },
+      {
+        "s_digits": "11",
+        "s_exponent": 40
+      },
+      {
+        "s_digits": "12",
+        "s_exponent": 41
+      },
+      {
+        "s_digits": "13",
+        "s_exponent": 42
+      },
+      {
+        "s_digits": "15",
+        "s_exponent": 43
+      },
+      {
+        "s_digits": "18",
+        "s_exponent": 44
+      },
+      {
+        "s_digits": "21",
+        "s_exponent": 45
+      },
+      {
+        "s_digits": "27",
+        "s_exponent": 46
+      },
+      {
+        "s_digits": "34",
+        "s_exponent": 47
+      },
+      {
+        "s_digits": "45",
+        "s_exponent": 48
+      },
+      {
+        "s_digits": "61",
+        "s_exponent": 49
+      },
+      {
+        "s_digits": "85",
+        "s_exponent": 50
+      },
+      {
+        "s_digits": "12",
+        "s_exponent": 52
+      },
+      {
+        "s_digits": "18",
+        "s_exponent": 53
+      },
+      {
+        "s_digits": "27",
+        "s_exponent": 54
+      },
+      {
+        "s_digits": "43",
+        "s_exponent": 55
+      },
+      {
+        "s_digits": "70",
+        "s_exponent": 56
+      },
+      {
+        "s_digits": "11",
+        "s_exponent": 58
+      },
+      {
+        "s_digits": "19",
+        "s_exponent": 59
+      },
+      {
+        "s_digits": "35",
+        "s_exponent": 60
+      },
+      {
+        "s_digits": "63",
+        "s_exponent": 61
+      },
+      {
+        "s_digits": "11",
+        "s_exponent": 63
+      },
+      {
+        "s_digits": "22",
+        "s_exponent": 64
+      },
+      {
+        "s_digits": "45",
+        "s_exponent": 65
+      },
+      {
+        "s_digits": "93",
+        "s_exponent": 66
+      },
+      {
+        "s_digits": "19",
+        "s_exponent": 68
+      },
+      {
+        "s_digits": "42",
+        "s_exponent": 69
+      },
+      {
+        "s_digits": "95",
+        "s_exponent": 70
+      },
+      {
+        "s_digits": "21",
+        "s_exponent": 72
+      },
+      {
+        "s_digits": "52",
+        "s_exponent": 73
+      },
+      {
+        "s_digits": "12",
+        "s_exponent": 75
+      },
+      {
+        "s_digits": "32",
+        "s_exponent": 76
+      },
+      {
+        "s_digits": "83",
+        "s_exponent": 77
+      },
+      {
+        "s_digits": "22",
+        "s_exponent": 79
+      },
+      {
+        "s_digits": "60",
+        "s_exponent": 80
+      },
+      {
+        "s_digits": "17",
+        "s_exponent": 82
+      },
+      {
+        "s_digits": "50",
+        "s_exponent": 83
+      },
+      {
+        "s_digits": "15",
+        "s_exponent": 85
+      },
+      {
+        "s_digits": "46",
+        "s_exponent": 86
+      },
+      {
+        "s_digits": "14",
+        "s_exponent": 88
+      },
+      {
+        "s_digits": "48",
+        "s_exponent": 89
+      },
+      {
+        "s_digits": "16",
+        "s_exponent": 91
+      },
+      {
+        "s_digits": "57",
+        "s_exponent": 92
+      },
+      {
+        "s_digits": "20",
+        "s_exponent": 94
+      },
+      {
+        "s_digits": "76",
+        "s_exponent": 95
+      },
+      {
+        "s_digits": "29",
+        "s_exponent": 97
+      },
+      {
+        "s_digits": "11",
+        "s_exponent": 99
+      },
+      {
+        "s_digits": "45",
+        "s_exponent": 100
+      },
+      {
+        "s_digits": "18",
+        "s_exponent": 102
+      },
+      {
+        "s_digits": "81",
+        "s_exponent": 103
+      },
+      {
+        "s_digits": "35",
+        "s_exponent": 105
+      },
+      {
+        "s_digits": "16",
+        "s_exponent": 107
+      },
+      {
+        "s_digits": "75",
+        "s_exponent": 108
+      },
+      {
+        "s_digits": "36",
+        "s_exponent": 110
+      },
+      {
+        "s_digits": "18",
+        "s_exponent": 112
+      },
+      {
+        "s_digits": "93",
+        "s_exponent": 113
+      },
+      {
+        "s_digits": "49",
+        "s_exponent": 115
+      },
+      {
+        "s_digits": "26",
+        "s_exponent": 117
+      },
+      {
+        "s_digits": "14",
+        "s_exponent": 119
+      },
+      {
+        "s_digits": "85",
+        "s_exponent": 120
+      },
+      {
+        "s_digits": "50",
+        "s_exponent": 122
+      },
+      {
+        "s_digits": "30",
+        "s_exponent": 124
+      },
+      {
+        "s_digits": "19",
+        "s_exponent": 126
+      },
+      {
+        "s_digits": "12",
+        "s_exponent": 128
+      },
+      {
+        "s_digits": "83",
+        "s_exponent": 129
+      },
+      {
+        "s_digits": "57",
+        "s_exponent": 131
+      },
+      {
+        "s_digits": "40",
+        "s_exponent": 133
+      },
+      {
+        "s_digits": "29",
+        "s_exponent": 135
+      },
+      {
+        "s_digits": "22",
+        "s_exponent": 137
+      },
+      {
+        "s_digits": "17",
+        "s_exponent": 139
+      },
+      {
+        "s_digits": "13",
+        "s_exponent": 141
+      },
+      {
+        "s_digits": "11",
+        "s_exponent": 143
+      },
+      {
+        "s_digits": "94",
+        "s_exponent": 144
+      },
+      {
+        "s_digits": "82",
+        "s_exponent": 146
+      },
+      {
+        "s_digits": "74",
+        "s_exponent": 148
+      },
+      {
+        "s_digits": "68",
+        "s_exponent": 150
+      },
+      {
+        "s_digits": "65",
+        "s_exponent": 152
+      },
+      {
+        "s_digits": "63",
+        "s_exponent": 154
+      },
+      {
+        "s_digits": "64",
+        "s_exponent": 156
+      },
+      {
+        "s_digits": "67",
+        "s_exponent": 158
+      },
+      {
+        "s_digits": "72",
+        "s_exponent": 160
+      },
+      {
+        "s_digits": "79",
+        "s_exponent": 162
+      },
+      {
+        "s_digits": "90",
+        "s_exponent": 164
+      },
+      {
+        "s_digits": "10",
+        "s_exponent": 167
+      },
+      {
+        "s_digits": "12",
+        "s_exponent": 169
+      },
+      {
+        "s_digits": "15",
+        "s_exponent": 171
+      },
+      {
+        "s_digits": "19",
+        "s_exponent": 173
+      },
+      {
+        "s_digits": "26",
+        "s_exponent": 175
+      },
+      {
+        "s_digits": "35",
+        "s_exponent": 177
+      },
+      {
+        "s_digits": "49",
+        "s_exponent": 179
+      },
+      {
+        "s_digits": "71",
+        "s_exponent": 181
+      },
+      {
+        "s_digits": "10",
+        "s_exponent": 184
+      },
+      {
+        "s_digits": "16",
+        "s_exponent": 186
+      },
+      {
+        "s_digits": "25",
+        "s_exponent": 188
+      },
+      {
+        "s_digits": "41",
+        "s_exponent": 190
+      },
+      {
+        "s_digits": "69",
+        "s_exponent": 192
+      },
+      {
+        "s_digits": "11",
+        "s_exponent": 195
+      },
+      {
+        "s_digits": "20",
+        "s_exponent": 197
+      },
+      {
+        "s_digits": "38",
+        "s_exponent": 199
+      },
+      {
+        "s_digits": "71",
+        "s_exponent": 201
+      },
+      {
+        "s_digits": "13",
+        "s_exponent": 204
+      },
+      {
+        "s_digits": "27",
+        "s_exponent": 206
+      },
+      {
+        "s_digits": "56",
+        "s_exponent": 208
+      },
+      {
+        "s_digits": "11",
+        "s_exponent": 211
+      },
+      {
+        "s_digits": "25",
+        "s_exponent": 213
+      },
+      {
+        "s_digits": "58",
+        "s_exponent": 215
+      },
+      {
+        "s_digits": "13",
+        "s_exponent": 218
+      },
+      {
+        "s_digits": "31",
+        "s_exponent": 220
+      },
+      {
+        "s_digits": "78",
+        "s_exponent": 222
+      },
+      {
+        "s_digits": "19",
+        "s_exponent": 225
+      },
+      {
+        "s_digits": "51",
+        "s_exponent": 227
+      },
+      {
+        "s_digits": "13",
+        "s_exponent": 230
+      },
+      {
+        "s_digits": "37",
+        "s_exponent": 232
+      },
+      {
+        "s_digits": "10",
+        "s_exponent": 235
+      },
+      {
+        "s_digits": "31",
+        "s_exponent": 237
+      },
+      {
+        "s_digits": "94",
+        "s_exponent": 239
+      },
+      {
+        "s_digits": "29",
+        "s_exponent": 242
+      },
+      {
+        "s_digits": "93",
+        "s_exponent": 244
+      },
+      {
+        "s_digits": "30",
+        "s_exponent": 247
+      },
+      {
+        "s_digits": "10",
+        "s_exponent": 250
+      },
+      {
+        "s_digits": "36",
+        "s_exponent": 252
+      },
+      {
+        "s_digits": "13",
+        "s_exponent": 255
+      },
+      {
+        "s_digits": "48",
+        "s_exponent": 257
+      },
+      {
+        "s_digits": "18",
+        "s_exponent": 260
+      },
+      {
+        "s_digits": "72",
+        "s_exponent": 262
+      },
+      {
+        "s_digits": "29",
+        "s_exponent": 265
+      },
+      {
+        "s_digits": "12",
+        "s_exponent": 268
+      },
+      {
+        "s_digits": "52",
+        "s_exponent": 270
+      },
+      {
+        "s_digits": "23",
+        "s_exponent": 273
+      },
+      {
+        "s_digits": "10",
+        "s_exponent": 276
+      },
+      {
+        "s_digits": "49",
+        "s_exponent": 278
+      },
+      {
+        "s_digits": "23",
+        "s_exponent": 281
+      },
+      {
+        "s_digits": "11",
+        "s_exponent": 284
+      },
+      {
+        "s_digits": "60",
+        "s_exponent": 286
+      },
+      {
+        "s_digits": "32",
+        "s_exponent": 289
+      },
+      {
+        "s_digits": "17",
+        "s_exponent": 292
+      },
+      {
+        "s_digits": "97",
+        "s_exponent": 294
+      },
+      {
+        "s_digits": "56",
+        "s_exponent": 297
+      },
+      {
+        "s_digits": "33",
+        "s_exponent": 300
+      },
+      {
+        "s_digits": "20",
+        "s_exponent": 303
+      },
+      {
+        "s_digits": "12",
+        "s_exponent": 306
+      },
+      {
+        "s_digits": "83",
+        "s_exponent": 308
+      },
+      {
+        "s_digits": "56",
+        "s_exponent": 311
+      },
+      {
+        "s_digits": "38",
+        "s_exponent": 314
+      },
+      {
+        "s_digits": "27",
+        "s_exponent": 317
+      },
+      {
+        "s_digits": "20",
+        "s_exponent": 320
+      },
+      {
+        "s_digits": "15",
+        "s_exponent": 323
+      },
+      {
+        "s_digits": "11",
+        "s_exponent": 326
+      },
+      {
+        "s_digits": "93",
+        "s_exponent": 328
+      },
+      {
+        "s_digits": "77",
+        "s_exponent": 331
+      },
+      {
+        "s_digits": "65",
+        "s_exponent": 334
+      },
+      {
+        "s_digits": "57",
+        "s_exponent": 337
+      },
+      {
+        "s_digits": "51",
+        "s_exponent": 340
+      },
+      {
+        "s_digits": "47",
+        "s_exponent": 343
+      },
+      {
+        "s_digits": "45",
+        "s_exponent": 346
+      },
+      {
+        "s_digits": "44",
+        "s_exponent": 349
+      },
+      {
+        "s_digits": "45",
+        "s_exponent": 352
+      },
+      {
+        "s_digits": "47",
+        "s_exponent": 355
+      }
+    ],
+    "raidStart_ui": {
+      "m_FileID": 0,
+      "m_PathID": 124505
+    },
+    "gunSelect_panel": {
+      "m_FileID": 0,
+      "m_PathID": 124204
+    },
+    "GameEnd_UI": {
+      "m_FileID": 0,
+      "m_PathID": 1268
+    },
+    "Reward_txt": {
+      "m_FileID": 0,
+      "m_PathID": 117317
+    },
+    "Score_txt": {
+      "m_FileID": 0,
+      "m_PathID": 117203
+    },
+    "HighScore_txt": {
+      "m_FileID": 0,
+      "m_PathID": 117219
+    },
+    "Reward_Value": 0,
+    "Entry_Charge_Date": {},
+    "Free_Use_Count": 0,
+    "AD_Enter_Used": false,
+    "IAP_Enter_Used": false,
+    "Season_Index": -1,
+    "Season_TryCount": 0,
+    "Season_BestLevel": 0,
+    "Gun_List": [
+      -1,
+      -1,
+      -1
+    ],
+    "Gun_Index_List": [
+      -1,
+      -1,
+      -1
+    ],
+    "GameTime_Now": 0.0,
+    "ingame_ui": {
+      "m_FileID": 0,
+      "m_PathID": 125222
+    },
+    "Ingame_Upgrade_UI_obj": {
+      "m_FileID": 0,
+      "m_PathID": 277
+    },
+    "Remove_ForceAds_ingame_obj": {
+      "m_FileID": 0,
+      "m_PathID": 760
+    },
+    "Map_obj": {
+      "m_FileID": 0,
+      "m_PathID": 2234
+    },
+    "_boss": {
+      "m_FileID": 0,
+      "m_PathID": 146861
+    },
+    "Best_Level_ByType": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Helper_Season_Index": -1,
+    "helperSlot": {
+      "m_FileID": 0,
+      "m_PathID": 133360
+    },
+    "Helper_Popup_obj": {
+      "m_FileID": 0,
+      "m_PathID": 171
+    }
+  }
+}

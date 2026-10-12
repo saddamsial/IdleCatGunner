@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "command": "command capture_game_view",
+  "data": {
+    "command": "capture_game_view",
+    "parameters": {
+      "source": "screen",
+      "width": "540",
+      "height": "960",
+      "save_path": "Temp/Recovery/forest-missile-impact.png"
+    },
+    "result": {
+      "width": 540,
+      "height": 960,
+      "encoding": "png",
+      "bytes": 147498,
+      "source": "screen",
+      "savedPath": "Assets/Temp/Recovery/forest-missile-impact.png"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

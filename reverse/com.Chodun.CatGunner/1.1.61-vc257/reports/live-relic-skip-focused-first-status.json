@@ -1,0 +1,91 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 77.58,
+      "summary": {
+        "total": 9,
+        "passed": 9,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalRelicSkipFlowTests.AllThreeOriginalBannerScrollsPreserveUvsAndPauseWithTimeScaleAndInactiveHierarchy",
+          "Status": "Passed",
+          "Duration": 7.8116072,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRelicSkipFlowTests.FailureAndLocalTransitionCancellationCannotAwardOrLeakSkipCue",
+          "Status": "Passed",
+          "Duration": 9.5572352,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRelicSkipFlowTests.NaturalProjectilesClearWaveSkipOnceAndPlayOriginalNextWaveNotification",
+          "Status": "Passed",
+          "Duration": 48.0749013,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRelicSkipFlowTests.SaveReloadKeepsAdvancedWaveWithoutReplayingCueOrDuplicatingRewards",
+          "Status": "Passed",
+          "Duration": 12.0362799,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRelicSkipRuleTests.OriginalUnlockedRelicTotalsAreNotClampedToOneHundred",
+          "Status": "Passed",
+          "Duration": 0.0017951,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRelicSkipRuleTests.PercentageAndOldFrontierBothUseStrictLessThan",
+          "Status": "Passed",
+          "Duration": 0.0002052,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRelicSkipRuleTests.PositiveChanceRollsOnceEvenWhenCandidateIsBeyondFrontier",
+          "Status": "Passed",
+          "Duration": 0.0004204,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRelicSkipRuleTests.SkipCanCrossStageBoundaryButNeverChainsOrSkipsPastMaximum",
+          "Status": "Passed",
+          "Duration": 0.0003187,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRelicSkipRuleTests.ZeroChanceConsumesNoRollAndNormalAdvanceRaisesFrontier",
+          "Status": "Passed",
+          "Duration": 0.0001694,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

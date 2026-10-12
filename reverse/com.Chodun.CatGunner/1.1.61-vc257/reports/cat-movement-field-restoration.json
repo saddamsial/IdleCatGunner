@@ -1,0 +1,32 @@
+{
+  "source": "level0-147400.json; exact metadata field names and public types",
+  "supported_serialized_fields": 62,
+  "not_yet_supported": [
+    {
+      "name": "_gunInfo",
+      "type": "Gun_Info"
+    },
+    {
+      "name": "Damage",
+      "type": "InfiniteValue.InfVal"
+    },
+    {
+      "name": "CriDmg",
+      "type": "InfiniteValue.InfVal"
+    },
+    {
+      "name": "Gun_bounce",
+      "type": "Bounce_Custom"
+    },
+    {
+      "name": "Rebound_bounce",
+      "type": "Bounce_Position"
+    },
+    {
+      "name": "Gun_list",
+      "type": "Gun[]"
+    }
+  ],
+  "update_loop": "NOT restored; manual movement-only acceptance bridge",
+  "AutoMove": "original true retained, automatic movement pending"
+}

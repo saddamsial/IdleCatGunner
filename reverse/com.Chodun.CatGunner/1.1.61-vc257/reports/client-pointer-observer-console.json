@@ -1,0 +1,246 @@
+{
+  "success": true,
+  "command": "command console",
+  "data": {
+    "command": "console",
+    "parameters": {},
+    "result": {
+      "entries": [
+        {
+          "seq": 916,
+          "timestampUtc": "2026-10-09T04:03:51.911198Z",
+          "level": "log",
+          "logType": "Log",
+          "message": "Executing IPrebuildSetup for: Unity.PerformanceTesting.Editor.TestRunBuilder.",
+          "stackTrace": "UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:401)\n",
+          "seeded": false
+        },
+        {
+          "seq": 917,
+          "timestampUtc": "2026-10-09T04:03:54.310871Z",
+          "level": "log",
+          "logType": "Log",
+          "message": "[PipelineTestRunner] Reattaching result collector after domain reload",
+          "stackTrace": "UnityEngine.Debug:Log (object)\nUnity.Pipeline.Editor.Testing.PipelineTestRunner:CheckForPendingTests () (at ./Packages/com.unity.pipeline/Editor/Testing/PipelineTestRunner.cs:500)\nUnityEditor.EditorApplication:Internal_CallDelayFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:416)\n",
+          "seeded": false
+        },
+        {
+          "seq": 918,
+          "timestampUtc": "2026-10-09T04:03:54.36124Z",
+          "level": "log",
+          "logType": "Log",
+          "message": "[TestResultCollector] Run started: 8065 test(s)",
+          "stackTrace": "UnityEngine.Debug:Log (object)\nUnity.Pipeline.Editor.Testing.TestResultCollector:RunStarted (UnityEditor.TestTools.TestRunner.Api.ITestAdaptor) (at ./Packages/com.unity.pipeline/Editor/Testing/TestResultCollector.cs:54)\nUnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)\n",
+          "seeded": false
+        },
+        {
+          "seq": 919,
+          "timestampUtc": "2026-10-09T04:04:50.096741Z",
+          "level": "log",
+          "logType": "Log",
+          "message": "Saving results to: /Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/TestResults.xml",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 920,
+          "timestampUtc": "2026-10-09T04:04:50.113832Z",
+          "level": "log",
+          "logType": "Log",
+          "message": "[TestResultCollector] Run finished: 8 total, 8 passed, 0 failed",
+          "stackTrace": "UnityEngine.Debug:Log (object)\nUnity.Pipeline.Editor.Testing.TestResultCollector:RunFinished (UnityEditor.TestTools.TestRunner.Api.ITestResultAdaptor) (at ./Packages/com.unity.pipeline/Editor/Testing/TestResultCollector.cs:106)\nUnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)\n",
+          "seeded": false
+        },
+        {
+          "seq": 921,
+          "timestampUtc": "2026-10-09T04:04:50.540449Z",
+          "level": "log",
+          "logType": "Log",
+          "message": "Executing IPostBuildCleanup for: Unity.PerformanceTesting.Editor.TestRunBuilder.",
+          "stackTrace": "UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:401)\n",
+          "seeded": false
+        },
+        {
+          "seq": 922,
+          "timestampUtc": "2026-10-09T04:09:22.243134Z",
+          "level": "log",
+          "logType": "Log",
+          "message": "Executing IPrebuildSetup for: Unity.PerformanceTesting.Editor.TestRunBuilder.",
+          "stackTrace": "UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:401)\n",
+          "seeded": false
+        },
+        {
+          "seq": 923,
+          "timestampUtc": "2026-10-09T04:09:24.836641Z",
+          "level": "log",
+          "logType": "Log",
+          "message": "[PipelineTestRunner] Reattaching result collector after domain reload",
+          "stackTrace": "UnityEngine.Debug:Log (object)\nUnity.Pipeline.Editor.Testing.PipelineTestRunner:CheckForPendingTests () (at ./Packages/com.unity.pipeline/Editor/Testing/PipelineTestRunner.cs:500)\nUnityEditor.EditorApplication:Internal_CallDelayFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:416)\n",
+          "seeded": false
+        },
+        {
+          "seq": 924,
+          "timestampUtc": "2026-10-09T04:09:25.021237Z",
+          "level": "log",
+          "logType": "Log",
+          "message": "[TestResultCollector] Run started: 8065 test(s)",
+          "stackTrace": "UnityEngine.Debug:Log (object)\nUnity.Pipeline.Editor.Testing.TestResultCollector:RunStarted (UnityEditor.TestTools.TestRunner.Api.ITestAdaptor) (at ./Packages/com.unity.pipeline/Editor/Testing/TestResultCollector.cs:54)\nUnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)\n",
+          "seeded": false
+        },
+        {
+          "seq": 925,
+          "timestampUtc": "2026-10-09T04:13:07.94645Z",
+          "level": "log",
+          "logType": "Log",
+          "message": "Saving results to: /Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/TestResults.xml",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 926,
+          "timestampUtc": "2026-10-09T04:13:07.967063Z",
+          "level": "log",
+          "logType": "Log",
+          "message": "[TestResultCollector] Run finished: 69 total, 69 passed, 0 failed",
+          "stackTrace": "UnityEngine.Debug:Log (object)\nUnity.Pipeline.Editor.Testing.TestResultCollector:RunFinished (UnityEditor.TestTools.TestRunner.Api.ITestResultAdaptor) (at ./Packages/com.unity.pipeline/Editor/Testing/TestResultCollector.cs:106)\nUnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)\n",
+          "seeded": false
+        },
+        {
+          "seq": 927,
+          "timestampUtc": "2026-10-09T04:13:08.677442Z",
+          "level": "log",
+          "logType": "Log",
+          "message": "Executing IPostBuildCleanup for: Unity.PerformanceTesting.Editor.TestRunBuilder.",
+          "stackTrace": "UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:401)\n",
+          "seeded": false
+        },
+        {
+          "seq": 928,
+          "timestampUtc": "2026-10-09T04:14:30.986697Z",
+          "level": "error",
+          "logType": "Error",
+          "message": "Assets/Recovery/Editor/ForestClientPreview.cs(28,87): error CS0117: 'DecimalAmount' does not contain a definition for 'FromInt'",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 929,
+          "timestampUtc": "2026-10-09T04:14:30.986795Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets/Recovery/Editor/ForestClientEditor.cs(29,21): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 930,
+          "timestampUtc": "2026-10-09T04:14:30.986812Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets/Recovery/Editor/ForestClientEditor.cs(75,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 931,
+          "timestampUtc": "2026-10-09T04:14:30.986826Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets/Recovery/Editor/ForestClientEditor.cs(99,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 932,
+          "timestampUtc": "2026-10-09T04:14:51.210615Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets/Recovery/Editor/ForestClientEditor.cs(29,21): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 933,
+          "timestampUtc": "2026-10-09T04:14:51.210676Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets/Recovery/Editor/ForestClientEditor.cs(75,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 934,
+          "timestampUtc": "2026-10-09T04:14:51.210689Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets/Recovery/Editor/ForestClientEditor.cs(99,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 935,
+          "timestampUtc": "2026-10-09T04:15:46.414214Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Ignoring depth surface load action as it is memoryless",
+          "stackTrace": "\n",
+          "seeded": true
+        },
+        {
+          "seq": 936,
+          "timestampUtc": "2026-10-09T04:15:46.414214Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Ignoring depth surface store action as it is memoryless",
+          "stackTrace": "\n",
+          "seeded": true
+        },
+        {
+          "seq": 937,
+          "timestampUtc": "2026-10-09T04:15:56.491023Z",
+          "level": "error",
+          "logType": "Exception",
+          "message": "InvalidOperationException: Original upgrade button intercepted by another UI layer",
+          "stackTrace": "ForestClientPreview+<UpgradeFromEarnedWallet>d__7.MoveNext () (at Assets/Recovery/Editor/ForestClientPreview.cs:53)\nUnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)\nUnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)\nPipelineEvaluation.PipelineEval_bd9b5105:Execute()\nSystem.Reflection.MethodBase:Invoke(Object, Object[])\nUnity.Pipeline.Compilation.EvalCodeCompiler:ExecuteCompiledAssembly(Assembly) (at ./Packages/com.unity.pipeline/Runtime/Compilation/EvalCodeCompiler.cs:190)\nUnity.Pipeline.Compilation.EvalCodeCompiler:CompileAndExecuteOnMainThread(String, Int32, Stopwatch) (at ./Packages/com.unity.pipeline/Runtime/Compilation/EvalCodeCompiler.cs:54)\nUnity.Pipeline.Runtime.Commands.CodeEvalCommand:EvaluateSource(String, Int32, String) (at ./Packages/com.unity.pipeline/Runtime/Commands/CodeEvalCommand.cs:112)\nUnity.Pipeline.Runtime.Commands.CodeEvalCommand:EvaluateCode(String, Int32) (at ./Packages/com.unity.pipeline/Runtime/Commands/CodeEvalCommand.cs:24)\nSystem.Reflection.MethodBase:Invoke(Object, Object[])\nUnity.Pipeline.BasePipelineServer:ExecuteCommandDirect(CommandInfo, Object[]) (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2820)\nUnity.Pipeline.<>c__DisplayClass138_0:<ExecuteCommand>b__1() (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2694)\nUnity.Pipeline.Threading.WorkItem`1:ExecuteCore() (at ./Packages/com.unity.pipeline/Runtime/Common/Dispatcher.cs:284)\nUnity.Pipeline.Threading.WorkItem:Execute() (at ./Packages/com.unity.pipeline/Runtime/Common/Dispatcher.cs:229)\nUnity.Pipeline.Threading.Dispatcher:ProcessWorkQueue(Int32) (at ./Packages/com.unity.pipeline/Runtime/Common/Dispatcher.cs:195)\nUnity.Pipeline.Threading.Dispatcher:ProcessWorkQueue() (at ./Packages/com.unity.pipeline/Runtime/Common/Dispatcher.cs:210)\nUnityEditor.EditorApplication:Internal_CallUpdateFunctions() (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:401)\n",
+          "seeded": false
+        },
+        {
+          "seq": 938,
+          "timestampUtc": "2026-10-09T04:16:25.122931Z",
+          "level": "error",
+          "logType": "Error",
+          "message": "ExecuteCommandByName: No command named 'get_logs' is available. Available: [set_serialized_field, clear_baked_lighting, set_player_settings, remove_animation_curve, open_scene, set_selection, cancel_occlusion_bake, add_animator_transition, delete_gameobject, set_build_settings, get_player_settings, set_active, set_authoring_root, set_tags_layers, create_timeline, clear_occlusion_culling, set_layer, instantiate_prefab, add_component, cancel_lighting_bake, set_time_settings, bake_navmesh_surfaces, set_transform, get_lighting_settings, build, attach_script, write_text_file, get_navmesh_settings, remove_component, set_autotick, read_text_file, set_active_scene, wait_for, unpack_prefab, create_animation_clip, add_scene_to_build, switch_build_target, get_input_settings, find_gameobjects, get_timeline, set_input_settings, cancel_navmesh_bake, delete_asset, add_animator_state, create_scene, create_prefab_variant, package_add, get_component_properties, screenshot, get_graphics_settings, set_graphics_settings, list_open_scenes, get_tags_layers, rename_asset, get_performance_stats, get_quality_settings, audit, package_list, set_runtime_pipeline_settings, create_prefab, set_navmesh_settings, wait_status, build_status, batch, list_shaders, create_folder, test_status, set_audio_settings, menu, get_audio_settings, set_animation_curve, get_runtime_pipeline_settings, package_remove, set_lighting_settings, get_shader_properties, revert_prefab_overrides, editor_stop, switch_build_target_status, save_all, move_asset, wait_cancel, apply_prefab_overrides, reload_file_player_interpreter, set_parent, copy_asset, create_asset, get_serialized_fields, package_search, get_scene_hierarchy, set_component_properties, set_quality_settings, navmesh_bake_status, import_asset, occlusion_bake_status, set_import_settings, bake_occlusion_culling, list_build_profiles, get_build_settings, get_animation_clip, editor_play, get_time_settings, audit_status, set_physics_settings, capture_scene_view, recompile, clear_navmesh, add_animator_layer, search, capture_game_view, create_script, add_animator_parameter, save_prefab_contents, package_status, rename_gameobject, editor_focus, create_gameobjects, bake_navmesh, get_animator_controller, create_animator_controller, save_scene, editor_status, get_selection, recompile_status, find_assets, get_material_properties, get_physics_settings, add_timeline_track, create_gameobject, get_import_settings, add_timeline_clip, set_tag, set_material_properties, editor_pause, list_tests, run_script, remove_scene_from_build, package_resolve, bake_lighting, list_build_targets, run_tests, get_authoring_root, cancel_tests, lighting_bake_status, clear_console, eval_file, console_status, report_evals, cleanup_codereload, reload_file_editor_interpreter, codereload_status, simulate_pointer, runtime_status, quit, set_target_framerate, log, simulate_key, set_timescale, console, eval, reload_file]",
+          "stackTrace": "UnityEngine.Debug:LogError (object)\nUnity.Pipeline.BasePipelineServer:ResolveCommand (string) (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2622)\nUnity.Pipeline.BasePipelineServer/<HandleExecRequest>d__119:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2085)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<int>:SetResult (int)\nUnity.Pipeline.MaxLengthStream/<ReadAsync>d__6:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/MaxLengthStream.cs:46)\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n",
+          "seeded": false
+        }
+      ],
+      "cursor": 938,
+      "session": "b591959995fa495b84e026bb2825e5f3",
+      "returned": 23,
+      "dropped": false,
+      "reset": false,
+      "counts": {
+        "error": 3,
+        "warn": 8,
+        "log": 12
+      },
+      "groundTruth": {
+        "sampledUtc": "2026-10-09T04:16:33.939961Z",
+        "ageMs": 238,
+        "compilationFailed": false,
+        "compiling": false,
+        "consoleErrors": 2,
+        "consoleWarnings": 2,
+        "consoleLogs": 0,
+        "seeded": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

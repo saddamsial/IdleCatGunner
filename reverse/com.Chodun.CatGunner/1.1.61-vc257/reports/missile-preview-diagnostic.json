@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var c=Cat.instance; return new {cool=c.AtkCool_Now,scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().name,trees=UnityEngine.Object.FindObjectsByType<Tree>(UnityEngine.FindObjectsInactive.Exclude).Select(t=>new {health=t.enemy.Health_Now.Value.PlainInteger(),position=t.transform.position.ToString(),screen=c.IsOnScreen(t.transform.position),collider=t.GetComponentsInChildren<UnityEngine.Collider>().First().bounds.center.ToString()}).ToArray(),bullets=Polling_manager.instance.Polling_List[0].Objects.Where(go=>go.activeSelf).Select(go=>new {type=go.GetComponent<Bullet>().gunType.ToString(),dead=go.GetComponent<Bullet>().is_Die}).ToArray()};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "cool": 1.11307311,
+        "scene": "RecoveredForest",
+        "trees": [],
+        "bullets": [
+          {
+            "type": "MISSILE",
+            "dead": true
+          }
+        ]
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

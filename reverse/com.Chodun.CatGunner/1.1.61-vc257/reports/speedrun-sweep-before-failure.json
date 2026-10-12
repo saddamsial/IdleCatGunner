@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "duration": 10.29,
+  "summary": {
+    "total": 1,
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalSpeedRunSweepTests.OriginalSweepEntranceCompletesStageAndPaysThirtyOnce",
+      "Status": "Failed",
+      "Duration": 9.656505,
+      "Message": "  Expected: 1\n  But was:  0\n",
+      "StackTrace": "at OriginalSpeedRunSweepTests+<OriginalSweepEntranceCompletesStageAndPaysThirtyOnce>d__9.MoveNext () [0x00077] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalSpeedRunSweepTests.cs:47\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    }
+  ]
+}

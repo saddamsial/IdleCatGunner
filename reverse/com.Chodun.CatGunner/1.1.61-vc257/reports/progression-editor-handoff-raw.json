@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var s=UnityEngine.SceneManagement.SceneManager.GetActiveScene(); var c=UnityEngine.Object.FindAnyObjectByType<CatGunner.Recovery.RecoveryForestClient>(); return new { editor=UnityEngine.Application.unityVersion, scene=s.path, dirty=s.isDirty, playing=UnityEditor.EditorApplication.isPlaying, paused=UnityEditor.EditorApplication.isPaused, compiling=UnityEditor.EditorApplication.isCompiling, time_scale=UnityEngine.Time.timeScale, persist=c.Persist, save_override=c.SaveFolderOverride, preview_enabled=UnityEditor.SessionState.GetBool(\"CatGunner.ProgressionVisualClone\",false), game_objects=s.GetRootGameObjects().Sum(g=>g.GetComponentsInChildren<UnityEngine.Transform>(true).Length), canvases=UnityEngine.Object.FindObjectsByType<UnityEngine.Canvas>(UnityEngine.FindObjectsInactive.Include).Length, gun_inventory_slots=c.Guns.gunItemList.Gun_Item_Pool.Length, gun_sprites=c.Guns.Gun_sprites.Count(x=>x!=null), equipped_gun_slots=c.Guns.Gun_Slot_List.Length, cats=c.Team.Cat_list.Length, pet_slots=c.PetUI.gunItemList.Pet_Item_Pool.Length, followers=c.PetFollowers.Pets.Length, mission_rows=c.MissionUI.Mission_Item_UI_List.Length, reward_rows=c.MissionUI.Mission_Reward_Slot_List.Length, rebirth_upgrades=c.RebirthUI.rebirth_panel_ui.Upgrade_item_list.Length, speedrun_trees=c.SpeedRun.Tree_list.Length, speedrun_health_fills=c.SpeedRun.Tree_list.Count(t=>t.enemy.Slider!=null&&t.enemy.Slider.Fill!=null) };"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "editor": "6000.4.10f1",
+        "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "dirty": false,
+        "playing": false,
+        "paused": false,
+        "compiling": false,
+        "time_scale": 1,
+        "persist": true,
+        "save_override": null,
+        "preview_enabled": false,
+        "game_objects": 19677,
+        "canvases": 1,
+        "gun_inventory_slots": 16,
+        "gun_sprites": 65,
+        "equipped_gun_slots": 3,
+        "cats": 3,
+        "pet_slots": 16,
+        "followers": 3,
+        "mission_rows": 23,
+        "reward_rows": 25,
+        "rebirth_upgrades": 3,
+        "speedrun_trees": 190,
+        "speedrun_health_fills": 190
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var a=typeof(UnityEditor.EditorApplication).Assembly;var t=a.GetType(\"UnityEditor.LogEntries\");var e=a.GetType(\"UnityEditor.LogEntry\");var f=System.Reflection.BindingFlags.Public|System.Reflection.BindingFlags.NonPublic|System.Reflection.BindingFlags.Static;var entries=new List<object>();int n=(int)t.GetMethod(\"StartGettingEntries\",f).Invoke(null,null);try{for(int i=0;i<n;i++){var o=Activator.CreateInstance(e);t.GetMethod(\"GetEntryInternal\",f).Invoke(null,new[]{(object)i,o});entries.Add(e.GetField(\"message\",System.Reflection.BindingFlags.Public|System.Reflection.BindingFlags.NonPublic|System.Reflection.BindingFlags.Instance).GetValue(o));}}finally{t.GetMethod(\"EndGettingEntries\",f).Invoke(null,null);}return entries;"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": [
+        "Assets/Recovery/Tests/PlayMode/OriginalFishAndAutoMergeTests.cs(33,117): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'\n",
+        "Assets/Recovery/Tests/PlayMode/OriginalFishAndAutoMergeTests.cs(33,44): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'\n",
+        "Assets/Recovery/Tests/PlayMode/OriginalForestFeedbackTests.cs(67,36): warning CS0618: 'StandaloneInputModule.forceModuleActive' is obsolete: 'forceModuleActive has been deprecated. There is no need to force the module awake as StandaloneInputModule works for all platforms'\n",
+        "Assets/Recovery/Tests/PlayMode/OriginalForestFeedbackTests.cs(78,79): error CS0103: The name 'Newtonsoft' does not exist in the current context\n",
+        "Assets/Recovery/Tests/PlayMode/OriginalForestFeedbackTests.cs(78,262): error CS0103: The name 'Newtonsoft' does not exist in the current context\n",
+        "Assets/Recovery/Tests/PlayMode/OriginalForestFeedbackTests.cs(101,82): error CS0103: The name 'Newtonsoft' does not exist in the current context\n",
+        "Assets/Recovery/Tests/PlayMode/OriginalForestFeedbackTests.cs(101,347): error CS0103: The name 'Newtonsoft' does not exist in the current context\n",
+        "Assets/Recovery/Tests/PlayMode/OriginalWeeklyRaidTests.cs(54,232): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'\n",
+        "Assets/Recovery/Tests/PlayMode/OriginalWeeklyRaidTests.cs(54,144): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'\n"
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

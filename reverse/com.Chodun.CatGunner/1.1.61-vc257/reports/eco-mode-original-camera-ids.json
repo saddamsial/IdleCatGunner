@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene();return new{cameras=UnityEngine.Object.FindObjectsByType<UnityEngine.Camera>(UnityEngine.FindObjectsInactive.Include).Select(c=>new{name=c.name,id=UnityEditor.GlobalObjectId.GetGlobalObjectIdSlow(c.gameObject).targetObjectId,tag=c.tag,active=c.gameObject.activeSelf}).ToArray(),settingsNamed=scene.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<UnityEngine.Transform>(true)).Where(t=>t.name.Contains(\"Setting\")||t.name.Contains(\"EcoMode\")).Select(t=>new{t.name,id=UnityEditor.GlobalObjectId.GetGlobalObjectIdSlow(t.gameObject).targetObjectId}).ToArray()};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "cameras": [
+          {
+            "name": "Camera",
+            "id": 2299,
+            "tag": "Untagged",
+            "active": true
+          },
+          {
+            "name": "Main Camera",
+            "id": 350,
+            "tag": "MainCamera",
+            "active": true
+          }
+        ],
+        "settingsNamed": [
+          {
+            "name": "Text_Setting",
+            "id": 8804
+          }
+        ]
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

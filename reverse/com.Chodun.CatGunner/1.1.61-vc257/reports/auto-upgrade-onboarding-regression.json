@@ -1,0 +1,48 @@
+{
+  "status": "completed",
+  "duration": 84.87,
+  "summary": {
+    "total": 5,
+    "passed": 5,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalOnboardingTests.ClearedSaveAndExistingAttackUpgradeSkipWithoutDiamondTopup",
+      "Status": "Passed",
+      "Duration": 15.2019715,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalOnboardingTests.FreshProfileStartsNativeUpgradeAndHandFollowsAffordabilityWithoutGrant",
+      "Status": "Passed",
+      "Duration": 7.1393691,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalOnboardingTests.NativeFiveStepsThroughActualChallengePurchaseAndRaycastEquipThenColdReload",
+      "Status": "Passed",
+      "Duration": 49.7471555,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalOnboardingTests.RealUpgradeClicksUnlockChallengeAtThreeAndFailedPurchaseCannotAdvance",
+      "Status": "Passed",
+      "Duration": 6.6772299,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalOnboardingTests.RequestNoopAndSetClearedStopAllHandLoopsAndCaptureOnlyOnSave",
+      "Status": "Passed",
+      "Duration": 5.9012087,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

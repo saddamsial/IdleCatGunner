@@ -1,0 +1,23 @@
+{
+  "rule": 60,
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "editor": "6000.4.10f1",
+  "scope": [
+    "companion visual and transform",
+    "Stage fill geometry",
+    "HUD menu order and nearest locked content",
+    "wallet and price abbreviation",
+    "weapon information and collection buttons/wallet/star/affordability",
+    "S-tier projectile appearance",
+    "cleared-stage movement multiplier",
+    "related original tutorial and effect flows"
+  ],
+  "acceptance": [
+    "native/serialized provenance",
+    "isolated PlayMode",
+    "GPU view"
+  ],
+  "preserveUserProgress": true,
+  "localAdsAndPayments": "previously user-authorized offline simulation",
+  "scopeComplete": false
+}

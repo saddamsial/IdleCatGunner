@@ -1,0 +1,277 @@
+{
+  "elf_machine": 183,
+  "sections": [
+    {
+      "name": "",
+      "offset": 0,
+      "va": 0,
+      "size": 0,
+      "type": 0
+    },
+    {
+      "name": ".note.android.ident",
+      "offset": 624,
+      "va": 624,
+      "size": 152,
+      "type": 7
+    },
+    {
+      "name": ".note.gnu.build-id",
+      "offset": 776,
+      "va": 776,
+      "size": 36,
+      "type": 7
+    },
+    {
+      "name": ".dynsym",
+      "offset": 816,
+      "va": 816,
+      "size": 62016,
+      "type": 11
+    },
+    {
+      "name": ".gnu.version",
+      "offset": 62832,
+      "va": 62832,
+      "size": 5168,
+      "type": 1879048191
+    },
+    {
+      "name": ".gnu.version_r",
+      "offset": 68000,
+      "va": 68000,
+      "size": 96,
+      "type": 1879048190
+    },
+    {
+      "name": ".gnu.hash",
+      "offset": 68096,
+      "va": 68096,
+      "size": 15592,
+      "type": 1879048182
+    },
+    {
+      "name": ".dynstr",
+      "offset": 83688,
+      "va": 83688,
+      "size": 107921,
+      "type": 3
+    },
+    {
+      "name": ".rela.dyn",
+      "offset": 191616,
+      "va": 191616,
+      "size": 16120488,
+      "type": 4
+    },
+    {
+      "name": ".rela.plt",
+      "offset": 16312104,
+      "va": 16312104,
+      "size": 14328,
+      "type": 4
+    },
+    {
+      "name": ".gcc_except_table",
+      "offset": 16326432,
+      "va": 16326432,
+      "size": 892704,
+      "type": 1
+    },
+    {
+      "name": ".rodata",
+      "offset": 17219136,
+      "va": 17219136,
+      "size": 6251524,
+      "type": 1
+    },
+    {
+      "name": ".eh_frame_hdr",
+      "offset": 23470660,
+      "va": 23470660,
+      "size": 2934404,
+      "type": 1
+    },
+    {
+      "name": ".eh_frame",
+      "offset": 26405064,
+      "va": 26405064,
+      "size": 12547092,
+      "type": 1
+    },
+    {
+      "name": ".text",
+      "offset": 38952160,
+      "va": 38968544,
+      "size": 4975716,
+      "type": 1
+    },
+    {
+      "name": "il2cpp",
+      "offset": 43927876,
+      "va": 43944260,
+      "size": 50407492,
+      "type": 1
+    },
+    {
+      "name": ".plt",
+      "offset": 94335376,
+      "va": 94351760,
+      "size": 9584,
+      "type": 1
+    },
+    {
+      "name": ".data.rel.ro",
+      "offset": 94344960,
+      "va": 94377728,
+      "size": 3502200,
+      "type": 1
+    },
+    {
+      "name": ".fini_array",
+      "offset": 97847160,
+      "va": 97879928,
+      "size": 16,
+      "type": 15
+    },
+    {
+      "name": ".init_array",
+      "offset": 97847176,
+      "va": 97879944,
+      "size": 176,
+      "type": 14
+    },
+    {
+      "name": ".dynamic",
+      "offset": 97847352,
+      "va": 97880120,
+      "size": 448,
+      "type": 6
+    },
+    {
+      "name": ".got",
+      "offset": 97847800,
+      "va": 97880568,
+      "size": 599504,
+      "type": 1
+    },
+    {
+      "name": ".got.plt",
+      "offset": 98447304,
+      "va": 98480072,
+      "size": 4800,
+      "type": 1
+    },
+    {
+      "name": ".relro_padding",
+      "offset": 98452104,
+      "va": 98484872,
+      "size": 3448,
+      "type": 8
+    },
+    {
+      "name": ".data",
+      "offset": 98452104,
+      "va": 98501256,
+      "size": 3583856,
+      "type": 1
+    },
+    {
+      "name": ".bss",
+      "offset": 102035960,
+      "va": 102085120,
+      "size": 2283008,
+      "type": 8
+    },
+    {
+      "name": ".comment",
+      "offset": 102035960,
+      "va": 0,
+      "size": 362,
+      "type": 1
+    },
+    {
+      "name": ".shstrtab",
+      "offset": 102036322,
+      "va": 0,
+      "size": 297,
+      "type": 3
+    },
+    {
+      "name": ".gnu_debuglink",
+      "offset": 102036620,
+      "va": 0,
+      "size": 24,
+      "type": 1
+    }
+  ],
+  "symbols": [
+    {
+      "name": "__stop_il2cpp",
+      "va": "0x59fb188",
+      "size": 0
+    },
+    {
+      "name": "__start_il2cpp",
+      "va": "0x29e8944",
+      "size": 0
+    }
+  ],
+  "loader_string_locations": [
+    {
+      "text": "global-metadata.dat",
+      "file_offsets": []
+    },
+    {
+      "text": "MetadataLoader",
+      "file_offsets": []
+    },
+    {
+      "text": "MetadataCache",
+      "file_offsets": []
+    },
+    {
+      "text": "LoadMetadataFile",
+      "file_offsets": []
+    }
+  ],
+  "metadata": {
+    "first_32_bytes": "81379cc4fbe03ebcf9ff449996cfd5e2ca714bc1ebc0e3878e7172814cf657dd",
+    "entropy_first_4096": 7.960791144764919,
+    "entropy_middle_4096": 7.953985753419295,
+    "standard_magic_offsets": [],
+    "sample_name_locations": {
+      "Assembly-CSharp": [
+        "0xf8a4d1",
+        "0xfca350",
+        "0xfca36d",
+        "0x10472b2",
+        "0x10472d9",
+        "0x105a5de",
+        "0x1060269",
+        "0x1060290"
+      ],
+      "Stage": [
+        "0x91fae1",
+        "0x92049d",
+        "0x9349f1",
+        "0x9850a2",
+        "0x9852c1",
+        "0x9852e5",
+        "0x98530f",
+        "0x985338"
+      ],
+      "Cat": [
+        "0x9105c5",
+        "0x9105ea",
+        "0x910619",
+        "0x91064c",
+        "0x910df6",
+        "0x910e26",
+        "0x915f60",
+        "0x915f8d"
+      ],
+      "System.String": []
+    }
+  }
+}

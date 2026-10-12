@@ -1,0 +1,70 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 106.68,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalWeeklyRaidTests.MissionLegacyPrefixSeasonResetPaidFlagsAndBatchClaimAreIndependent",
+          "Status": "Passed",
+          "Duration": 6.3609388,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalWeeklyRaidTests.NaturalRaidFeedsBothTaskTypesRealClaimAndColdReloadCannotDuplicate",
+          "Status": "Passed",
+          "Duration": 75.9526799,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalWeeklyRaidTests.OversizedWeeklyArraysRejectedBeforeAnySaveAndSortUsesOriginalStatePriority",
+          "Status": "Passed",
+          "Duration": 0.1904144,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalWeeklyRaidTests.SourceLoopsAnimateAndResetWithoutTouchingCurrencyOrInterceptingButtons",
+          "Status": "Passed",
+          "Duration": 6.4426974,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalWeeklyRaidTests.WeeklyRotationPrefixLimitsAndUnavailableStoreNeverGrant",
+          "Status": "Passed",
+          "Duration": 6.6106658,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalWeeklyRaidTests.WeeklySourceEntryGateVipNavigationPreviewAndIsolatedFirstVisitReload",
+          "Status": "Passed",
+          "Duration": 11.0885362,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

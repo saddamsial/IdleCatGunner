@@ -1,0 +1,12 @@
+{
+  "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+  "canvas_count_before": 3,
+  "canvas_count_after": 1,
+  "original_canvas": 866,
+  "original_safearea": 415,
+  "original_safearea_order": "Floating Joystick(0), Main_UI(1), Ingame(7)",
+  "original_anchors_and_panel_positions_preserved": true,
+  "game_objects": 11730,
+  "reason": "Separate acceptance-scene Canvas copies gave the input Canvas higher renderOrder and blocked upgrade touches. Restore shared original ancestry and sibling order.",
+  "runtime_raycast_validation": "pending"
+}

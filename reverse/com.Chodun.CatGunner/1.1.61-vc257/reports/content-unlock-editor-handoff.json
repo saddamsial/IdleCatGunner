@@ -1,0 +1,58 @@
+{
+  "unity": "6000.4.10f1",
+  "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+  "playing": false,
+  "paused": false,
+  "compiling": false,
+  "dirty": false,
+  "persist": true,
+  "saveFolderOverride": null,
+  "objects": 34364,
+  "missingScripts": 0,
+  "contentGateConnected": true,
+  "contentRows": 8,
+  "original_callbacks": [
+    {
+      "type": "Rebirth",
+      "target_is_original_manager": true,
+      "method": "Content_Btn_Rebirth"
+    },
+    {
+      "type": "Mine",
+      "target_is_original_manager": true,
+      "method": "Content_Btn_Mine"
+    },
+    {
+      "type": "Fish",
+      "target_is_original_manager": true,
+      "method": "Content_Btn_Fish"
+    },
+    {
+      "type": "Boss",
+      "target_is_original_manager": true,
+      "method": "Content_Btn_Boss"
+    },
+    {
+      "type": "Pet",
+      "target_is_original_manager": true,
+      "method": "Content_Btn_Pet"
+    },
+    {
+      "type": "Monster",
+      "target_is_original_manager": true,
+      "method": "Content_Btn_Monster"
+    },
+    {
+      "type": "Adventure",
+      "target_is_original_manager": true,
+      "method": "Content_Btn_Adventure"
+    },
+    {
+      "type": "Raid",
+      "target_is_original_manager": true,
+      "method": "Content_Btn_Raid"
+    }
+  ],
+  "tutorialAdapter": "Original tutorial controller absent; no completion record written",
+  "ready_for_user_play": true
+}

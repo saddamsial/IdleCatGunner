@@ -1,0 +1,126 @@
+{
+  "rule": 62,
+  "target": "com.Chodun.CatGunner 1.1.61 vc257",
+  "updatedUtc": "2026-10-11T18:09:03.802323+00:00",
+  "sourceContract": "weapon-static-text-source-contract.json",
+  "tests": [
+    {
+      "report": "weapon-static-text-first-validation.json",
+      "summary": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 13.86
+    },
+    {
+      "report": "weapon-static-text-weapon-regression.json",
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 30.96
+    }
+  ],
+  "visuals": [
+    {
+      "path": "visual/weapon-static-text-inventory-gpu.png",
+      "sha256": "1e395f4e51fdb063850aeb1a7e5469f7934e5340225c85bd2b09f62610271974",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/weapon-static-text-information-gpu.png",
+      "sha256": "d0d15b7232bbad0b7c2ddf44044d9bc4d5b79040f8f79f69e4783c1cf548c90c",
+      "actuallyViewed": true
+    }
+  ],
+  "preservation": "weapon-static-text-preservation.json",
+  "fontCache": "weapon-static-text-font-cache.json",
+  "historicalGPU": "../checkpoints/weapon-static-text-before/historical-visual.json",
+  "handoff": {
+    "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+    "version": "6000.4.10f1",
+    "dirty": false,
+    "playing": false,
+    "paused": false,
+    "compiling": false,
+    "compilationFailed": false,
+    "objects": 35954,
+    "missingScripts": 0,
+    "persist": true,
+    "saveFolderOverride": null,
+    "testHostFolder": "",
+    "localAdSimulation": true,
+    "localPurchaseSimulation": true,
+    "timeScale": 1.0,
+    "inputOverrides": 0,
+    "userFillPPU": 10.0,
+    "fillHeight": 37.0,
+    "buildScenes": [
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredBullets.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForest.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestHUD.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestProgress.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredJoystick.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredSettings.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredTarget.unity",
+        "enabled": true
+      }
+    ]
+  },
+  "console": {
+    "error": 0,
+    "currentWarnings": 2,
+    "warningReport": "weapon-static-text-warnings.json",
+    "notes": "Two current Metal memoryless depth load/store warnings; historical compiler warnings include existing obsolete Unity APIs. No console clearing in this turn."
+  },
+  "sources": {
+    "Assets/Recovery/Scripts/OriginalWeaponText.cs": "0ff97dfaed1a13488b2e7a553c726459805f4c083b8e1507f4650331f73e2817",
+    "Assets/Recovery/Scripts/RecoveryWeaponTextStyle.cs": "3df3c06282ab396231e281d30312c9bbc9531960c7ca695dd8e21c66fb8b5159",
+    "Assets/Recovery/Scripts/RecoveryClientPresentation.cs": "89c07ce52b97c5ea3bf143420b0a15b82e4f2ab8738a83d44202d6c36b37a862",
+    "Assets/Recovery/Scripts/OriginalWeaponStaticText.cs": "2dae90fe7cfa46954af6ddd8b48dd5b4264e416fa82a6af037743ec37380ca01",
+    "Assets/Recovery/Tests/PlayMode/OriginalWeaponStaticTextTests.cs": "c9246aa995eaa3dd93e969faacd93ecb6d3cd4f62171154f78e6594c56214f75",
+    "Assets/Recovery/Resources/OriginalWeaponStaticText.json": "10e650b05f3d3095ebd5aaf959e8fbb937c7a9510b537af3a43173534ca06d72"
+  },
+  "styleChangeAudit": {
+    "beforeHash": "df62c799c7cb919db82ff21e25770372b9f210e79ddd5141987e45ceda474773",
+    "afterHash": "3df3c06282ab396231e281d30312c9bbc9531960c7ca695dd8e21c66fb8b5159",
+    "baseline": "Historical Rule61 checkpoint matches exact reverse of this turn patch, not an independent fresh pre-edit file hash"
+  },
+  "adapters": [
+    "System-language selection only for these static primary terms; full I2 language settings, secondary fonts, RTL and parameter lifecycle excluded",
+    "Chinese source-font rendering uses existing local generated fallback and runtime materials; not original pixel parity"
+  ],
+  "scopeComplete": false,
+  "playerBuild": false,
+  "deviceAcceptance": false,
+  "gitDelivery": false
+}

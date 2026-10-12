@@ -1,0 +1,118 @@
+{
+  "status": "completed",
+  "duration": 52.92,
+  "summary": {
+    "total": 15,
+    "passed": 15,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "PlaytestIssuesRulesTests.AdPreviewKeepsNativeGateDailyLimitAndFullInventoryGuard",
+      "Status": "Passed",
+      "Duration": 0.5346359,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlaytestIssuesRulesTests.CoreSpecialsUseRollingIntervalsRatherThanCalendarRollover",
+      "Status": "Passed",
+      "Duration": 0.0451425,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlaytestIssuesRulesTests.LocalPremiumUnlocksEpicAndLuxuryXpAndExpiresAtSeasonReset",
+      "Status": "Passed",
+      "Duration": 0.0689885,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlaytestIssuesRulesTests.NativeDiamondFirstBuyAndPackRewardsNeverCreateRealTransactions",
+      "Status": "Passed",
+      "Duration": 0.0746232,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlaytestIssuesRulesTests.PlusPackKeepsSevenDayExpiryAndPigKeepsNativeCapacityAndPurchaseLimit",
+      "Status": "Passed",
+      "Duration": 0.0391978,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlaytestIssuesRulesTests.SaveCodecRoundTripRetainsSimulationLedgerAndPremiumEligibility",
+      "Status": "Passed",
+      "Duration": 0.0853948,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlaytestIssuesRulesTests.TrackAdvancesThroughFractionLevelCarryAndCap",
+      "Status": "Passed",
+      "Duration": 0.0431902,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlaytestIssuesRulesTests.WeeklyAndStepGunsRejectFullInventoryWithoutPartialRewards",
+      "Status": "Passed",
+      "Duration": 0.0726641,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlaytestIssuesRuntimeTests.CancellationDisabledSimulatorAndDuplicateRequestDoNotGrant",
+      "Status": "Passed",
+      "Duration": 8.2603905,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlaytestIssuesRuntimeTests.DailyMissionRealClaimMovesRewardTrackByXpFractionAndPersists",
+      "Status": "Passed",
+      "Duration": 6.8145204,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlaytestIssuesRuntimeTests.EquippingAllThreeCatsUsesSupportedBodyGunAndParticleMaterials",
+      "Status": "Passed",
+      "Duration": 5.9212591,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlaytestIssuesRuntimeTests.OriginalCashButtonSimulatesOnceAndRetainsRewardOnColdReload",
+      "Status": "Passed",
+      "Duration": 12.3100114,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlaytestIssuesRuntimeTests.PaidBuffAndMinePackApplyTheirLiveBenefitsAndKeepNativeAmounts",
+      "Status": "Passed",
+      "Duration": 5.9234989,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlaytestIssuesRuntimeTests.WeaponAdRealClickBeforeStage30GrantsOnceAndPersists",
+      "Status": "Passed",
+      "Duration": 6.2591972,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PlaytestIssuesRuntimeTests.WeeklyGunPaymentUpdatesLiveCountersWalletAndArchive",
+      "Status": "Passed",
+      "Duration": 5.9369396,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

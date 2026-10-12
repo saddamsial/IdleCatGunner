@@ -1,0 +1,69 @@
+{
+  "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+  "dirty": false,
+  "playing": false,
+  "compiling": false,
+  "updating": false,
+  "objects": 35954,
+  "missingScripts": 0,
+  "persist": true,
+  "saveFolderOverride": null,
+  "testHostFolder": "",
+  "localAdSimulation": true,
+  "localPurchaseSimulation": true,
+  "timeScale": 1.0,
+  "inputOverrides": 0,
+  "mouseFixtures": 0,
+  "rebirthReferencesBound": true,
+  "rebirthPagesHidden": true,
+  "originalAnimator": "Rebirth",
+  "clipEvents": [
+    {
+      "clip": "rebirth",
+      "length": 2.0,
+      "events": [
+        {
+          "functionName": "Rebirth",
+          "time": 2.0
+        }
+      ]
+    }
+  ],
+  "originalAdMethod": "Rebirth_Start",
+  "runtimeConfirmationAbsentInEditMode": true,
+  "originalPaidMethod": "Purchase",
+  "buildScenes": [
+    {
+      "path": "Assets/Recovery/Scenes/RecoveredClient.unity",
+      "enabled": true
+    },
+    {
+      "path": "Assets/Recovery/Scenes/RecoveredBullets.unity",
+      "enabled": true
+    },
+    {
+      "path": "Assets/Recovery/Scenes/RecoveredForest.unity",
+      "enabled": true
+    },
+    {
+      "path": "Assets/Recovery/Scenes/RecoveredForestHUD.unity",
+      "enabled": true
+    },
+    {
+      "path": "Assets/Recovery/Scenes/RecoveredForestProgress.unity",
+      "enabled": true
+    },
+    {
+      "path": "Assets/Recovery/Scenes/RecoveredJoystick.unity",
+      "enabled": true
+    },
+    {
+      "path": "Assets/Recovery/Scenes/RecoveredSettings.unity",
+      "enabled": true
+    },
+    {
+      "path": "Assets/Recovery/Scenes/RecoveredTarget.unity",
+      "enabled": true
+    }
+  ]
+}

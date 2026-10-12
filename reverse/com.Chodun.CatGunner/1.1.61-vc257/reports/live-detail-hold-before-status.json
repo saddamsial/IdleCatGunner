@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 21.85,
+      "summary": {
+        "total": 4,
+        "passed": 0,
+        "failed": 4,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalDetailHoldTests.HoldStopsWhenUnaffordableMaxedOrPanelClosedAndRestartDoesNotDuplicate",
+          "Status": "Failed",
+          "Duration": 5.8131186,
+          "Message": "  Original UI must receive the real raycast\n  Expected: same as <Upgrade_Btn (UnityEngine.UI.Button)>\n  But was:  null\n",
+          "StackTrace": "at OriginalDetailHoldTests.Pointer (UnityEngine.UI.Button button) [0x00069] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDetailHoldTests.cs:35\nat OriginalDetailHoldTests.Down (UnityEngine.UI.Button b) [0x00000] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDetailHoldTests.cs:39\nat OriginalDetailHoldTests+<HoldStopsWhenUnaffordableMaxedOrPanelClosedAndRestartDoesNotDuplicate>d__8.MoveNext () [0x0010c] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDetailHoldTests.cs:107\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalDetailHoldTests.OrdinaryHoldUpgradeSurvivesIndependentColdReloadWithoutTouchingUserProfile",
+          "Status": "Failed",
+          "Duration": 5.3970488,
+          "Message": "  Original UI must receive the real raycast\n  Expected: same as <Upgrade_Btn (UnityEngine.UI.Button)>\n  But was:  <Upgrade_Panel (2) (UnityEngine.UI.Button)>\n",
+          "StackTrace": "at OriginalDetailHoldTests.Pointer (UnityEngine.UI.Button button) [0x00069] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDetailHoldTests.cs:35\nat OriginalDetailHoldTests.Down (UnityEngine.UI.Button b) [0x00000] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDetailHoldTests.cs:39\nat OriginalDetailHoldTests+<OrdinaryHoldUpgradeSurvivesIndependentColdReloadWithoutTouchingUserProfile>d__9.MoveNext () [0x00115] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDetailHoldTests.cs:126\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalDetailHoldTests.OriginalPetArrowsBrowseAllGradesIncludingUncollectedWithoutChangingInventory",
+          "Status": "Failed",
+          "Duration": 5.3129844,
+          "Message": "  Expected: True\n  But was:  False\n",
+          "StackTrace": "at OriginalDetailHoldTests+<OriginalPetArrowsBrowseAllGradesIncludingUncollectedWithoutChangingInventory>d__6.MoveNext () [0x00172] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDetailHoldTests.cs:60\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalDetailHoldTests.OriginalRebirthEventsRespectDelayRepeatPriceAndReleaseOrExitForAllThreeKinds",
+          "Status": "Failed",
+          "Duration": 5.2899159,
+          "Message": "  Original UI must receive the real raycast\n  Expected: same as <Upgrade_Btn (UnityEngine.UI.Button)>\n  But was:  null\n",
+          "StackTrace": "at OriginalDetailHoldTests.Pointer (UnityEngine.UI.Button button) [0x00069] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDetailHoldTests.cs:35\nat OriginalDetailHoldTests.Down (UnityEngine.UI.Button b) [0x00000] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDetailHoldTests.cs:39\nat OriginalDetailHoldTests+<OriginalRebirthEventsRespectDelayRepeatPriceAndReleaseOrExitForAllThreeKinds>d__7.MoveNext () [0x00146] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDetailHoldTests.cs:87\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

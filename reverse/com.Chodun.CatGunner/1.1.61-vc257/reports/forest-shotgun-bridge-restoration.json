@@ -1,0 +1,16 @@
+{
+  "scene": "Assets/Recovery/Scenes/RecoveredForest.unity",
+  "load_package_equipment": true,
+  "single_attacks_editmode": false,
+  "shotgun_attacks_editmode": false,
+  "raw_gun": 27,
+  "raw_damage": "0",
+  "initial_slots": [
+    0,
+    -1,
+    -1
+  ],
+  "runtime": "Start enables corresponding SINGLE/SHOTGUN branch after package-profile load; initial gun remains0",
+  "boundary": "Original manager/ownership/save/UI lifecycle remains pending; no fixture weapon saved",
+  "scene_objects": 11602
+}

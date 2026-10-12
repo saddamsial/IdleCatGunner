@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "duration": 9.41,
+  "summary": {
+    "total": 1,
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalRaidHelperTests.OriginalFourthCatIsPresentAndLockedOutsideRaid",
+      "Status": "Failed",
+      "Duration": 9.017788,
+      "Message": "  original paid raid helper model is still missing\n  Expected: not null\n  But was:  null\n",
+      "StackTrace": "at OriginalRaidHelperTests+<OriginalFourthCatIsPresentAndLockedOutsideRaid>d__5.MoveNext () [0x00021] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalRaidHelperTests.cs:16\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    }
+  ]
+}

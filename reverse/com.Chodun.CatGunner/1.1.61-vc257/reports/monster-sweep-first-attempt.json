@@ -1,0 +1,76 @@
+{
+  "status": "completed",
+  "duration": 71.26,
+  "summary": {
+    "total": 9,
+    "passed": 8,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalMonsterSweepTests.DisabledCancelledDuplicateAndStaleAdsCannotPayWrongResult",
+      "Status": "Passed",
+      "Duration": 9.9316868,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalMonsterSweepTests.NativeThresholdAndTargetFixturesStopAtFirstGateAndCapOneHundred",
+      "Status": "Passed",
+      "Duration": 5.8779419,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalMonsterSweepTests.NativeWeaponMultipliersAndCentisecondQuantization",
+      "Status": "Passed",
+      "Duration": 5.9861822,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalMonsterSweepTests.OriginalMouseButtonsPayPerClearedLevelAndReloadWithoutRepeatingReward",
+      "Status": "Passed",
+      "Duration": 14.8175113,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalMonsterSweepTests.OriginalSweepAdvancesMonsterProgressAndPaysPetCoin",
+      "Status": "Passed",
+      "Duration": 6.0578898,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalMonsterSweepTests.PowerExcludesForestUpgradesAndStoredCombatDamageAndInactiveCats",
+      "Status": "Passed",
+      "Duration": 6.0464793,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalMonsterSweepTests.RewardPackForcedRemovalAndFullRemovalUseNativeDoubles",
+      "Status": "Passed",
+      "Duration": 7.887482,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalMonsterSweepTests.WeakGateExpiryAndPreviewUseOriginalPanels",
+      "Status": "Failed",
+      "Duration": 7.9106482,
+      "Message": "  Expected: True\n  But was:  False\n",
+      "StackTrace": "at OriginalMonsterSweepTests.Ready () [0x00000] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMonsterSweepTests.cs:47\nat OriginalMonsterSweepTests+<WeakGateExpiryAndPreviewUseOriginalPanels>d__17.MoveNext () [0x001a4] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMonsterSweepTests.cs:90\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalMonsterSweepTests.WrongModeHiddenPageDisabledPurchaseAndExtendedHealthCacheAreBounded",
+      "Status": "Passed",
+      "Duration": 5.9581282,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

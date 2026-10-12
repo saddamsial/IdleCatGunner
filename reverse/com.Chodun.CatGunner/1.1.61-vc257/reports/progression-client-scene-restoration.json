@@ -1,0 +1,19 @@
+{
+  "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+  "original_objects": 4575,
+  "game_objects": 17819,
+  "canvas_count": 1,
+  "mission_rows": 23,
+  "reward_rows": 25,
+  "pet_inventory": 16,
+  "pet_equipped": 3,
+  "rebirth_upgrades": 3,
+  "excluded": "SDK rewards and purchases, server time trust, pet dispatch, Spine pet animation (static original sprite fallback)",
+  "runtime_validation": {
+    "report": "live-progression-assembly-final-status.json",
+    "passed": 86,
+    "total": 86,
+    "failed": 0,
+    "boundary": "Current whole recovery assembly PlayMode; new panel pixels, phone, player and full restoration not accepted"
+  }
+}

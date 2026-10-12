@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var m=UnityEngine.Object.FindAnyObjectByType<Mission_manager>(UnityEngine.FindObjectsInactive.Include);var t=m.Mission_Alert_obj.GetComponent<RecoveryWeeklyUiTween>();return new{t.AnimationType,t.LoopType,t.EaseType,t.Duration,t.EndScale,sourceX=t.SourceScale.x,sourceY=t.SourceScale.y,sourceZ=t.SourceScale.z,currentX=t.transform.localScale.x,rows=m.Mission_Item_UI_List.Length,parents=m.Mission_Item_UI_List.Select(r=>r.transform.parent.name).Distinct().ToArray()};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "AnimationType": 5,
+        "LoopType": 1,
+        "EaseType": 6,
+        "Duration": 1,
+        "EndScale": 1.1,
+        "sourceX": 0.89393,
+        "sourceY": 0.89393,
+        "sourceZ": 0.89393,
+        "currentX": 0.89393,
+        "rows": 23,
+        "parents": [
+          "Content"
+        ]
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

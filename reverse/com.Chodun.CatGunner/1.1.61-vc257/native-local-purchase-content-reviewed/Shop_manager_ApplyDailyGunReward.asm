@@ -1,0 +1,85 @@
+02c9412c  sub sp,sp,#0x30
+02c94130  stp x30,x21,[sp, #0x10]
+02c94134  stp x20,x19,[sp, #0x20]
+02c94138  adrp x21,0x625c000
+02c9413c  adrp x20,0x5e5d000
+02c94140  mov x19,x1
+02c94144  ldrb w8,[x21, #0x416]
+02c94148  ldr x20,[x20, #0x920]
+02c9414c  tbnz w8,#0x0,0x02c94194
+02c94150  adrp x0,0x5e62000
+02c94154  ldr x0,[x0, #0x660]
+02c94158  bl 0x029f5a50
+02c9415c  adrp x0,0x5e58000
+02c94160  ldr x0,[x0, #0xf08]
+02c94164  bl 0x029f5a50
+02c94168  adrp x0,0x5e59000
+02c9416c  ldr x0,[x0, #0x1c0]
+02c94170  bl 0x029f5a50
+02c94174  adrp x0,0x5e5d000
+02c94178  ldr x0,[x0, #0x920]
+02c9417c  bl 0x029f5a50
+02c94180  adrp x0,0x5e64000
+02c94184  ldr x0,[x0, #0x300]
+02c94188  bl 0x029f5a50
+02c9418c  mov w8,#0x1
+02c94190  strb w8,[x21, #0x416]
+02c94194  ldr x0,[x20]
+02c94198  str wzr,[sp, #0xc]
+02c9419c  ldr w8,[x0, #0xe4]
+02c941a0  cbnz w8,0x02c941a8
+02c941a4  bl 0x029f5bd0
+02c941a8  add x1,sp,#0xc
+02c941ac  mov x0,x19
+02c941b0  bl 0x02c94078
+02c941b4  tbz w0,#0x0,0x02c94238
+02c941b8  adrp x20,0x5e62000
+02c941bc  adrp x19,0x5e59000
+02c941c0  ldr x20,[x20, #0x660]
+02c941c4  ldr x0,[x20]
+02c941c8  ldr w8,[x0, #0xe4]
+02c941cc  ldr x19,[x19, #0x1c0]
+02c941d0  cbnz w8,0x02c941dc
+02c941d4  bl 0x029f5bd0
+02c941d8  ldr x0,[x20]
+02c941dc  ldr x8,[x19]
+02c941e0  ldr x9,[x0, #0xb8]
+02c941e4  ldr w10,[x8, #0xe4]
+02c941e8  ldr x19,[x9]
+02c941ec  cbnz w10,0x02c941f8
+02c941f0  mov x0,x8
+02c941f4  bl 0x029f5bd0
+02c941f8  mov x0,x19
+02c941fc  mov x1,xzr
+02c94200  mov x2,xzr
+02c94204  bl 0x057e14b4
+02c94208  tbz w0,#0x0,0x02c94240
+02c9420c  adrp x8,0x5e58000
+02c94210  ldr x8,[x8, #0xf08]
+02c94214  ldr x0,[x8]
+02c94218  ldr w8,[x0, #0xe4]
+02c9421c  cbnz w8,0x02c94224
+02c94220  bl 0x029f5bd0
+02c94224  adrp x8,0x5e64000
+02c94228  mov x1,xzr
+02c9422c  ldr x8,[x8, #0x300]
+02c94230  ldr x0,[x8]
+02c94234  bl 0x0579a8d0
+02c94238  mov w0,wzr
+02c9423c  b 0x02c94268
+02c94240  ldr x0,[x20]
+02c94244  ldr w8,[x0, #0xe4]
+02c94248  cbnz w8,0x02c94254
+02c9424c  bl 0x029f5bd0
+02c94250  ldr x0,[x20]
+02c94254  ldr x8,[x0, #0xb8]
+02c94258  ldr x0,[x8]
+02c9425c  cbz x0,0x02c9427c
+02c94260  ldr w1,[sp, #0xc]
+02c94264  bl 0x02c8b528
+02c94268  ldp x20,x19,[sp, #0x20]
+02c9426c  and w0,w0,#0x1
+02c94270  ldp x30,x21,[sp, #0x10]
+02c94274  add sp,sp,#0x30
+02c94278  ret
+02c9427c  bl 0x029f5cfc

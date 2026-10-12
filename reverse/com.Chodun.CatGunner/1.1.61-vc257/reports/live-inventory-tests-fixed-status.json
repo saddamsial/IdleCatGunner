@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "duration": 5.76,
+  "summary": {
+    "total": 6,
+    "passed": 6,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalInventoryTests.DrawChargesDiamondsOnceAndFullInventoryDoesNotConsumeCurrencyOrRandomness",
+      "Status": "Passed",
+      "Duration": 0.0080952,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalInventoryTests.EquipSwapsOwnershipAndPauseWhileLastEquippedWeaponCannotBeRemoved",
+      "Status": "Passed",
+      "Duration": 0.0017813,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalInventoryTests.LegacyArrayExpansionAndSaveRoundTripPreserveSparseInventoryAndDuplicates",
+      "Status": "Passed",
+      "Duration": 0.0023563,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalInventoryTests.OriginalOpenButtonAndDragMergeEquipActivateCorrectCompanion",
+      "Status": "Passed",
+      "Duration": 5.708374,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalInventoryTests.PausedAdMaximumGradeAndStaleMergeDoNotMutateOrDrawRandomness",
+      "Status": "Passed",
+      "Duration": 0.0007578,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalInventoryTests.SameGradeDifferentTypesMergeIntoTargetWithCorrectNextGradeRange",
+      "Status": "Passed",
+      "Duration": 0.000859,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

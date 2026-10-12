@@ -1,0 +1,47 @@
+{
+  "identity": {
+    "file": "level0",
+    "path_id": 123481,
+    "type_index": 7447,
+    "type": "Cat_manager",
+    "game_object": "Cat_manager"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 446
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 675
+    },
+    "m_Name": "",
+    "Cat_list": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 147400
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 136809
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 136808
+      }
+    ],
+    "Helper_Cat": {
+      "m_FileID": 0,
+      "m_PathID": 136810
+    },
+    "Helper_FormationOffset": {
+      "x": 7.0,
+      "y": 0.0,
+      "z": -7.0
+    },
+    "FormationRadius": 2.5,
+    "SeparationRadius": 1.7999999523162842,
+    "SeparationStrength": 3.0
+  }
+}

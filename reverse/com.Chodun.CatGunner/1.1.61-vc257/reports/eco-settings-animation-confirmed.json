@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var s=UnityEngine.Object.FindAnyObjectByType<Setting>(UnityEngine.FindObjectsInactive.Include);var tweens=s.EcoPanel_obj.GetComponentsInChildren<CatGunner.Recovery.RecoveryEcoTween>(true);if(tweens.Length!=2)throw new InvalidOperationException(\"eco tweens missing\");return new{count=tweens.Length,dirty=UnityEngine.SceneManagement.SceneManager.GetActiveScene().isDirty,animations=tweens.Select(t=>new{name=t.name,t.Scale,t.Duration,t.From,t.To}).ToArray()};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": "{ count = 2, dirty = False, animations = <>f__AnonymousType1`5[System.String,System.Boolean,System.Single,UnityEngine.Vector3,UnityEngine.Vector3][] }"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

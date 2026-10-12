@@ -1,0 +1,123 @@
+{
+  "rule": "original-game-rules/39_MISSION_SORTING_AND_PULSE_CHECK.md",
+  "contract": "mission-sorting-contract.json",
+  "tests": {
+    "sorting": {
+      "report": "live-mission-sorting-accepted-status.json",
+      "status": "completed",
+      "duration": 43.13,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "navigation": {
+      "report": "live-mission-sorting-navigation-status.json",
+      "status": "completed",
+      "duration": 41.37,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "presentation": {
+      "report": "live-mission-sorting-presentation-status.json",
+      "status": "completed",
+      "duration": 46.52,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "progression": {
+      "report": "live-mission-sorting-progression-status.json",
+      "status": "completed",
+      "duration": 16.94,
+      "summary": {
+        "total": 8,
+        "passed": 8,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "startup": {
+      "report": "live-mission-sorting-startup-status.json",
+      "status": "completed",
+      "duration": 24.25,
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    }
+  },
+  "testBatchBoundary": "Five separate complete current-source batches, not a full suite or Player/device. Before1/6 already passed the existing pulse and five missing-sort/status cases failed; no new pulse implementation. Sorting6/6 includes original EventSystem clicks on task12 and task18, independent save reload and fixed golden ordering.",
+  "nativeEvidence": "mission-sorting-native-evidence.json",
+  "sourceParameters": "mission-sorting-source-parameters.json",
+  "existingPulseEvidence": "mission-sorting-existing-pulse.json",
+  "sceneAudit": "mission-sorting-scene-audit.json",
+  "preservationAudit": "mission-sorting-preservation-audit.json",
+  "historicalVisualAudit": "mission-sorting-historical-visual-preservation.json",
+  "handoff": "mission-sorting-editor-handoff.json",
+  "actualEditor": "mission-sorting-actual-editor-scene.json",
+  "console": "mission-sorting-final-console.json",
+  "runner": "mission-sorting-final-runner.json",
+  "visual": [
+    {
+      "file": "visual/mission-sorting-ready-order-gpu.png",
+      "sha256": "bc588c03c676fee9bf3fc4789af765f5d897b615d0646eec9e5d8244599d9469",
+      "actuallyViewed": true
+    },
+    {
+      "file": "visual/mission-sorting-claimed-order-gpu.png",
+      "sha256": "8cf385c0cc5564ccf56304dc3cd8737ff66dbb6395ff329957017c20b974dcaf",
+      "actuallyViewed": true
+    },
+    {
+      "file": "visual/mission-sorting-alert-small-gpu.png",
+      "sha256": "eb5e8cef97a968c8cd0e4f7c0061e3020d5cf3f6bfac5fc0427113aba7e8d687",
+      "actuallyViewed": true
+    },
+    {
+      "file": "visual/mission-sorting-alert-large-gpu.png",
+      "sha256": "d9c43719b9f150055ab00c39f9975f4e0b696032e8bfce8468da9dd3a8115294",
+      "actuallyViewed": true
+    }
+  ],
+  "sceneSha256": "69b30e938815261522df3ba90b204fcbfb95a5549916cf07ea77d5aea6d93169",
+  "sourceSha256": {
+    "Assets/Recovery/Scripts/Mission_manager.cs": "4bbb684874ea58d13cc6fbbc86ae675ba86a35fda4d7d1c773b84866f54c467f",
+    "Assets/Recovery/Scripts/OriginalMissions.cs": "266a3c56c2f4a637dcfb6d1985d6bd490eefb88837190e11635ce2b5586adab9",
+    "Assets/Recovery/Scripts/RecoveryWeeklyUiTween.cs": "1315249f7a020f13eeccffc263c0e025d7970b7c9c339b780f8983ffdc2e734a",
+    "Assets/Recovery/Tests/PlayMode/OriginalMissionSortingTests.cs": "cf343a26d526a9cd16dd69ac3c25097af39ace2875821f0b47172b832ab79871"
+  },
+  "boundaries": [
+    "Native status/priority independent from local paid/expired claim rejection",
+    "No new entitlements or save schema",
+    "Full I2/SDK tween lifecycle remains adapter; existing local enable/disable resets phase"
+  ],
+  "remaining": [
+    "full I2 and detailed original task presentation",
+    "failed reward-sequence alert/scroll-back path",
+    "four absent Tutorial HUDs",
+    "OfflineProgressManager/Simulator and offline relic/row300",
+    "trusted time",
+    "commercial/backend providers and WeeklyShop fulfillment",
+    "other UI/FX",
+    "full DOTween lifecycle",
+    "Player/device/original fidelity acceptance"
+  ],
+  "scopeComplete": false
+}

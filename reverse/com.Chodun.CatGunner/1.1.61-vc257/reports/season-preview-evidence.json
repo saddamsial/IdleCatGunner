@@ -1,0 +1,172 @@
+{
+  "rule": 66,
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "updatedUtc": "2026-10-11T19:34:35.728782+00:00",
+  "sourceContract": "season-preview-source-contract.json",
+  "roots": 2,
+  "previewItems": 6,
+  "nativeQueries": 11,
+  "nativeCount": {
+    "before": 946,
+    "after": 951,
+    "new": 5
+  },
+  "tests": [
+    {
+      "report": "season-preview-final-validation.json",
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 49.6
+    },
+    {
+      "report": "season-preview-text-regression.json",
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 33.21
+    },
+    {
+      "report": "season-preview-mission-regression.json",
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 47.49
+    },
+    {
+      "report": "season-preview-startup-regression.json",
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "duration": 24.48
+    }
+  ],
+  "attempts": [
+    "season-preview-baseline-validation.json",
+    "season-preview-corrected-baseline-validation.json",
+    "season-preview-first-validation.json",
+    "season-preview-second-validation.json",
+    "season-preview-third-validation.json"
+  ],
+  "attemptExplanation": "Baseline scroll fixture corrected, then 0/1 proved missing preview controller. First5/6 had incorrect callback-slot fixture expectation; original array proved index5. Second4/6 exposed pointer press during source popup entry animation. Third5/6 fixed animation timing but revealed disabled source child Buttons bubble to the parent purchase Panel. Final batch verifies that original route and local VIP500 bonus, with no preview reward flags granted; no production callback changes and no combined partial passes.",
+  "visuals": [
+    {
+      "path": "visual/season-preview-core-gpu.png",
+      "sha256": "6fff6b0de244299f123d2b80527a7e226bb40f4a349262132603b8035eac96d4",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/season-preview-first-season-gpu.png",
+      "sha256": "349d9a512239aab72b78e6341c6183b7347273ff61daee6f10aee1e20b7cde7f",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/season-preview-last-three-gpu.png",
+      "sha256": "8f9666baf272e56089dcc427172e8e86a8c27e1c0a64fb45a8068f7b0e8ca20d",
+      "actuallyViewed": true
+    },
+    {
+      "path": "visual/season-preview-vip-hidden-gpu.png",
+      "sha256": "958eb8c461bc92ee34e10158f282b8670c68b37ee193bd8d4fdc604aa6a609b9",
+      "actuallyViewed": true
+    }
+  ],
+  "preservation": "season-preview-preservation.json",
+  "fontCache": "season-preview-font-cache.json",
+  "historicalReports": "../checkpoints/season-preview-before/historical/manifest.json",
+  "handoff": {
+    "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+    "version": "6000.4.10f1",
+    "dirty": false,
+    "playing": false,
+    "paused": false,
+    "compiling": false,
+    "compilationFailed": false,
+    "objects": 35954,
+    "missingScripts": 0,
+    "persist": true,
+    "saveFolderOverride": null,
+    "testHostFolder": "",
+    "localAdSimulation": true,
+    "localPurchaseSimulation": true,
+    "timeScale": 1.0,
+    "inputOverrides": 0,
+    "userFillPPU": 10.0,
+    "fillHeight": 37.0,
+    "buildScenes": [
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredBullets.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForest.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestHUD.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestProgress.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredJoystick.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredSettings.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredTarget.unity",
+        "enabled": true
+      }
+    ]
+  },
+  "console": {
+    "currentErrors": 0,
+    "currentWarnings": 2,
+    "history": "season-preview-error-history.json",
+    "notes": "Console not cleared; historical failed tests/tool commands kept separate."
+  },
+  "sources": {
+    "Assets/Recovery/Scripts/NewSeason_UI.cs": "5f2105cbbb972ce792d63dac3342955923139aff908f5516880f4d64930920a9",
+    "Assets/Recovery/Scripts/OriginalSeasonPreview.cs": "222bee724fc6212378086f7aa4717f1a4d6ba886094ea597238c2e34b1338143",
+    "Assets/Recovery/Scripts/Mission_Reward_Item.cs": "2858ba08337de7276b07a5585f022cc8e2e03e46948dcb0797392680fc62ae11",
+    "Assets/Recovery/Scripts/RecoveryClientPresentation.cs": "b64b40642486c340c247c758f1e3ebcb0a7cf320d4242e427842fd12d4b381e7",
+    "Assets/Recovery/Resources/OriginalSeasonPreview.json": "3a06382c2a2e927850ef5544f99f7239ed289d7b10f4afaa300ed743ad176a0a",
+    "Assets/Recovery/Tests/PlayMode/OriginalSeasonPreviewTests.cs": "5791711137d68dada4960991e77e82da0691809f294d1c3edd56a074ecc14d84"
+  },
+  "adapters": [
+    "Runtime-only reattachment to source objects with original fields/GUID; local ready guard; no scene/prefab/layout edits",
+    "Original is_Vip controls offer visibility; explicit local purchase ownership still gates awards",
+    "Selected Value_Reload(status,false,false) epic preview branch only; other existing claim/ad branches unchanged",
+    "All six source preview Buttons remain disabled; stored callbacks point to original sixth main reward slot. Actual child pointer events bubble to parent Purchase+close; local VIP pack500 diamonds verified, preview reward flags and guns unchanged",
+    "Actual EventSystem mouse fixture in isolated save, not phone touch or Player acceptance"
+  ],
+  "scopeComplete": false,
+  "playerBuild": false,
+  "deviceAcceptance": false,
+  "gitDelivery": false
+}

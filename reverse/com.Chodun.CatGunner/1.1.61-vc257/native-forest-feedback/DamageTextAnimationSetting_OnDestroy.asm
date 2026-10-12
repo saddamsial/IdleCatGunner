@@ -1,0 +1,16 @@
+02b83238  stp x30,x19,[sp, #-0x10]!
+02b8323c  bl 0x02b80610
+02b83240  cbz x0,0x02b83274
+02b83244  mov x1,xzr
+02b83248  mov x19,x0
+02b8324c  str xzr,[x0, #0x10]!
+02b83250  bl 0x029f59f4
+02b83254  str xzr,[x19, #0x18]!
+02b83258  mov x0,x19
+02b8325c  mov x1,xzr
+02b83260  bl 0x029f59f4
+02b83264  bl 0x02b82db0
+02b83268  cbz x0,0x02b83274
+02b8326c  ldp x30,x19,[sp], #0x10
+02b83270  b 0x02b832a0
+02b83274  bl 0x029f5cfc

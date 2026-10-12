@@ -1,0 +1,285 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61/vc257/arm64",
+  "unity_working": "6000.4.10f1",
+  "native_sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "metadata_sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+  "original_scene_sha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+  "native_exports": [
+    {
+      "scope": "star-client",
+      "completed": 43,
+      "business_methods": 37,
+      "first16bytes_verified": true
+    },
+    {
+      "scope": "star-numeric",
+      "completed": 46,
+      "business_methods": 40,
+      "first16bytes_verified": true
+    },
+    {
+      "scope": "star-feedback",
+      "completed": 9,
+      "business_methods": 3,
+      "first16bytes_verified": true
+    }
+  ],
+  "initializer": {
+    "preferred_pointer": "0x5d63b40",
+    "fieldref": 36,
+    "metadata_offset": 9608960,
+    "sha256": "AE5203495C151C4C45F6458D93B5D328E0C31EAE61946243D5D5D8BDAB1D4BCD",
+    "token": "0x4001477",
+    "success_rates": [
+      100,
+      90,
+      80,
+      70,
+      60,
+      50,
+      40,
+      30,
+      20,
+      10,
+      10,
+      10,
+      10,
+      10,
+      5,
+      5,
+      5,
+      1,
+      1,
+      1
+    ]
+  },
+  "growth": {
+    "preferred_va": "0x1070928",
+    "double": 1.07,
+    "step": "1.5 * Pow(1.07,targetLevel-1)",
+    "cumulative": "multiply unrounded double accumulator at every level; bonus=ToPrecision((mult-1)*100,2); multiplier100=100+bonus"
+  },
+  "bonus_percent_anchors": [
+    0,
+    50,
+    140,
+    310,
+    650,
+    1300,
+    3000,
+    6900,
+    16000,
+    43000,
+    120000,
+    350000,
+    1100000,
+    3800000,
+    13000000,
+    53000000,
+    220000000,
+    970000000,
+    4600000000,
+    23000000000,
+    120000000000
+  ],
+  "cost_next_level": [
+    50,
+    100,
+    150,
+    200,
+    250,
+    300,
+    350,
+    400,
+    450,
+    500,
+    550,
+    600,
+    650,
+    700,
+    750,
+    800,
+    850,
+    900,
+    950,
+    1000
+  ],
+  "rules": {
+    "max_level": 20,
+    "unlock_stage_value": 390,
+    "pity_target_from": 18,
+    "pity_added_per_fail": 1,
+    "pity_rate_cap": 5,
+    "roll": "Unity integer Random.Range(0,100); success iff roll < rate",
+    "charge": "deduct before random, both success and failure pay; failure retains level and adds fail count; success adds level and resets fail count",
+    "slot": "Star levels belong to three slots; cats use Array.IndexOf(Cat_list,this), including compacted weapon gaps; Raid uses same slot stars. Swapping guns does not swap stars."
+  },
+  "ui_literals": [
+    {
+      "preferred_pointer": "0x5d63b50",
+      "index": 11169,
+      "literal": "StarUpgrade/SlotUpgrade"
+    },
+    {
+      "preferred_pointer": "0x5d63b58",
+      "index": 695,
+      "literal": "%"
+    },
+    {
+      "preferred_pointer": "0x5d63338",
+      "index": 22238,
+      "literal": "{0}%"
+    },
+    {
+      "preferred_pointer": "0x5d62d68",
+      "index": 2753,
+      "literal": "<sprite=0>{0}"
+    },
+    {
+      "preferred_pointer": "0x5d5acc0",
+      "index": 1291,
+      "literal": "-"
+    },
+    {
+      "preferred_pointer": "0x5d5d528",
+      "index": 1214,
+      "literal": "+"
+    },
+    {
+      "preferred_pointer": "0x5d63b60",
+      "index": 11168,
+      "literal": "StarUpgrade/NotEnoughGem"
+    },
+    {
+      "preferred_pointer": "0x5d63b68",
+      "index": 11170,
+      "literal": "StarUpgrade/StarUpgradeFail"
+    },
+    {
+      "preferred_pointer": "0x5d63b70",
+      "index": 11171,
+      "literal": "StarUpgrade/StarUpgradeSuccess"
+    },
+    {
+      "preferred_pointer": "0x5d719b8",
+      "index": 6495,
+      "literal": "G17"
+    }
+  ],
+  "original_roots": [
+    1201,
+    274,
+    1753
+  ],
+  "meta_preservation": [
+    "StarUpgrade_manager",
+    "StarUpgrade_popup",
+    "Alert"
+  ],
+  "adapters": [
+    "independent recovery wallet/save hooks",
+    "BigInteger decimal backend and plain numeric text",
+    "strict nonempty corrupt profile rejection; absent/empty star arrays become neutral three-slot state",
+    "local success feedback replacing commercial ParticleImage; original emitter source retained",
+    "direct dynamic title using original NotoSansSC face and official SDF material; original outline fallback incompatible; currency original textures use official TMP/Sprite"
+  ],
+  "excluded": [
+    "AppsFlyer log",
+    "commercial full ParticleImage/InfVal source",
+    "full localization and visual parity",
+    "backend/player/device acceptance"
+  ],
+  "runtime_validation": "Actual final focused5/5 and one full111/111 completed; original whole game/player/device pending",
+  "localization_source": {
+    "source": "assetripper-baseline/ExportedProject/Assets/Resources/I2Languages.asset",
+    "sha256": "151dc691a395ca83d006e9aaa717803e6c62b1a90fcbbb6dbc9fe13411a9697f",
+    "locale_codes": [
+      "en",
+      "ko",
+      "ja",
+      "zh-CN",
+      "zh-TW",
+      "pt-BR",
+      "de",
+      "fr-FR",
+      "es-ES",
+      "th",
+      "id",
+      "ms",
+      "vi",
+      "ru"
+    ],
+    "terms": {
+      "SlotUpgrade": [
+        "Enhance Slot {0}",
+        "슬롯 {0} 강화",
+        "スロット{0}強化",
+        "强化槽位{0}",
+        "強化槽位{0}",
+        "Aprimorar Slot {0}",
+        "Slot {0} verstärken",
+        "Améliorer Slot {0}",
+        "Mejorar Slot {0}",
+        "เสริมพลังช่อง {0}",
+        "Perkuat Slot {0}",
+        "Perkukuh Slot {0}",
+        "Cường hóa Slot {0}",
+        "Усилить слот {0}"
+      ],
+      "Success": [
+        "Enhancement succeeded!",
+        "강화를 성공하였습니다!",
+        "強化に成功しました！",
+        "强化成功！",
+        "強化成功！",
+        "Aprimoramento bem-sucedido!",
+        "Verstärkung erfolgreich!",
+        "Amélioration réussie !",
+        "¡Mejora exitosa!",
+        "เสริมพลังสำเร็จ!",
+        "Peningkatan berhasil!",
+        "Peningkatan berjaya!",
+        "Cường hóa thành công!",
+        "Усиление успешно!"
+      ],
+      "Fail": [
+        "Enhancement failed..",
+        "강화 실패..",
+        "強化失敗..",
+        "强化失败..",
+        "強化失敗..",
+        "Aprimoramento falhou..",
+        "Verstärkung fehlgeschlagen..",
+        "Amélioration échouée..",
+        "Mejora fallida..",
+        "เสริมพลังล้มเหลว..",
+        "Peningkatan gagal..",
+        "Peningkatan gagal..",
+        "Cường hóa thất bại..",
+        "Усиление не удалось.."
+      ],
+      "NotEnoughGem": [
+        "Not enough Enhance Stones",
+        "강화석이 충분하지 않습니다",
+        "強化石が足りません",
+        "强化石不足",
+        "強化石不足",
+        "Pedras de Aprimoramento insuficientes",
+        "Nicht genug Verstärkungssteine",
+        "Pas assez de Pierres d’amélioration",
+        "Piedras de mejora insuficientes",
+        "หินเสริมพลังไม่พอ",
+        "Batu Peningkatan tidak cukup",
+        "Batu Peningkatan tidak cukup",
+        "Không đủ Đá cường hóa",
+        "Недостаточно камней усиления"
+      ]
+    },
+    "adapter": "Chinese system locale uses original zh-CN; all other locales use original English; full I2 lifecycle pending"
+  },
+  "validation": {
+    "focused": "5/5,23.61seconds",
+    "full": "111/111,686.76seconds",
+    "visual_player_device": "unaccepted"
+  }
+}

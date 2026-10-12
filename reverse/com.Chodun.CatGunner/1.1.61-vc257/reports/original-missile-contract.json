@@ -1,0 +1,235 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257",
+  "native_sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "methods": [
+    {
+      "name": "Cat_TryFireMissile",
+      "preferred_va": "0x2b421b4",
+      "ghidra_va": "0x2c421b4",
+      "end_preferred_va": "0x2b424cc",
+      "first16": "ff0303d1ef3b036ded33046deb2b056d",
+      "c_sha256": "5598c832b1419cb3c9cf26c42d6573195e310b9c4905e8df57f85347b332de62",
+      "asm_sha256": "b4fc25d72c7eab45dbae6e59386505037db919940fd8872b778f61bd96f4aeb6"
+    },
+    {
+      "name": "Cat_UpdateHandRotation",
+      "preferred_va": "0x2b3b00c",
+      "ghidra_va": "0x2c3b00c",
+      "end_preferred_va": "0x2b3b64c",
+      "first16": "ff0302d1ef3b016ded33026deb2b036d",
+      "c_sha256": "e602522ddcd9dafc95b4569239f1a054f1e78e33b58bff60c2d00708f0672066",
+      "asm_sha256": "2af97e4166ebd33a48c9840353ff265ebcd6de7f05eb35890882d4269a8184ad"
+    },
+    {
+      "name": "Cat_Attack",
+      "preferred_va": "0x2b3d4ac",
+      "ghidra_va": "0x2c3d4ac",
+      "end_preferred_va": "0x2b3d9a0",
+      "first16": "ffc305d1ef3b106ded33116deb2b126d",
+      "c_sha256": "4e8b3f9e90e41379ebefeacbd6042fb212558af89c47a890dc243db8275306f6",
+      "asm_sha256": "b8d0f5f16b3baf6505695162e7abca1a924fdcc1b6278e88ece9c6876f3ce8a0"
+    },
+    {
+      "name": "Bullet_SpawnMissile",
+      "preferred_va": "0x2b65958",
+      "ghidra_va": "0x2c65958",
+      "end_preferred_va": "0x2b65c44",
+      "first16": "ff4302d1ef3b016ded33026deb2b036d",
+      "c_sha256": "bff2471191df2915ff45f132d099346ea839fd8b50050af47c66040b7905e5b3",
+      "asm_sha256": "3822710f069796ad7704e9042a8e32f781a40227b3203b9fdfd779625615f980"
+    },
+    {
+      "name": "Bullet_Update",
+      "preferred_va": "0x2b65c44",
+      "ghidra_va": "0x2c65c44",
+      "end_preferred_va": "0x2b65edc",
+      "first16": "ffc301d1ef3b016ded33026deb2b036d",
+      "c_sha256": "6d7688e7b3707b28b98a80728d5a4e9486fb17caf514becc8e2a0ef51c9c2db6",
+      "asm_sha256": "e893de2549510468f6f78ad10d26f8d298b8b23f70fff836bbab20b00833f472"
+    }
+  ],
+  "math_import": {
+    "preferred_va": "0x59fb2f0",
+    "got": "0x5deb080",
+    "symbol": "tanf",
+    "proof": "AArch64 ADRP/LDR GOT target matched to ELF rela.plt/dynsym/dynstr"
+  },
+  "generic_identity": {
+    "global_preferred_va": "0x5d62770",
+    "method_spec_index": 165138,
+    "type": "UnityEngine.GameObject",
+    "method": "GetComponent",
+    "token": "0x6000cdb",
+    "instantiation": [
+      "Bullet"
+    ]
+  },
+  "abi": {
+    "TryFireMissile": "this x0, target x1, damage x2, text x3, critical w4; spawn s0-2, spread s3",
+    "SpawnMissile": "this x0, gun w1, damage x2, text x3, critical w4, layer w5; start s0-2, target s3-5, radius s6, duration s7; arc multiplier0.4 on stack"
+  },
+  "fields": {
+    "_msStart": "0xa8 Vector3",
+    "_msEnd": "0xb4 Vector3",
+    "_msArcHeight": "0xc0 Single",
+    "_msDuration": "0xc4 Single",
+    "_msTimer": "0xc8 Single"
+  },
+  "serialized_source": {
+    "path": "serialized-components/level0-123082.json",
+    "sha256": "b8a6e1a9c9f4a7a49545fbb7630cdb7f0b3a4baa75365bab54118f8006046ce4"
+  },
+  "guns": [
+    {
+      "gun": 24,
+      "type": 5,
+      "Damage": {
+        "s_digits": "600",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.4000000059604645,
+      "MissileSpeed": 50.0,
+      "MissileExplosionRadius": 9.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0
+    },
+    {
+      "gun": 28,
+      "type": 5,
+      "Damage": {
+        "s_digits": "1600",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.3499999940395355,
+      "MissileSpeed": 50.0,
+      "MissileExplosionRadius": 10.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0
+    },
+    {
+      "gun": 33,
+      "type": 5,
+      "Damage": {
+        "s_digits": "6400",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.20000000298023224,
+      "MissileSpeed": 50.0,
+      "MissileExplosionRadius": 11.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0
+    },
+    {
+      "gun": 38,
+      "type": 5,
+      "Damage": {
+        "s_digits": "24000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.10000000149011612,
+      "MissileSpeed": 35.0,
+      "MissileExplosionRadius": 13.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0
+    },
+    {
+      "gun": 43,
+      "type": 5,
+      "Damage": {
+        "s_digits": "96000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.10000000149011612,
+      "MissileSpeed": 50.0,
+      "MissileExplosionRadius": 13.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0
+    },
+    {
+      "gun": 48,
+      "type": 5,
+      "Damage": {
+        "s_digits": "360000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.10000000149011612,
+      "MissileSpeed": 50.0,
+      "MissileExplosionRadius": 13.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0
+    },
+    {
+      "gun": 53,
+      "type": 5,
+      "Damage": {
+        "s_digits": "4000000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.10000000149011612,
+      "MissileSpeed": 50.0,
+      "MissileExplosionRadius": 13.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0
+    },
+    {
+      "gun": 58,
+      "type": 5,
+      "Damage": {
+        "s_digits": "80000000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.10000000149011612,
+      "MissileSpeed": 50.0,
+      "MissileExplosionRadius": 13.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0
+    },
+    {
+      "gun": 63,
+      "type": 5,
+      "Damage": {
+        "s_digits": "2000000000",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.10000000149011612,
+      "MissileSpeed": 50.0,
+      "MissileExplosionRadius": 13.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0
+    }
+  ],
+  "rules": [
+    "Acquire pool0 before scatter RNG; target transform position, else nearHitPoint",
+    "Spread strictly>0.01: angle Range(0,360) then radius Range(0, XZdistance*tan(spread*Deg2Rad)); cos to X, sin to Z, preserve Y",
+    "Duration final scattered XZdistance/max(MissileSpeed,0.1); arc height XZdistance*0.4; fixed endpoint, no homing",
+    "Spawn kinematic; initial direction only if full delta squared>0.001; clone damage/text/critical; activate, particle Clear; Destroy invoke duration+0.5 without50-unit cap",
+    "Scaled deltaTime; t Clamp01(timer/duration); position Lerp(start,end,t) with Y+=4*arcHeight*t*(1-t)",
+    "LastPos previous full XYZ position; forward updated if movement squared>0.0001",
+    "Endpoint Explode then SpawnFX then DieAndWait; early trigger uses LastPos ClosestPoint and same HitExplosive; dead guard prevents repeated expiry",
+    "Hand aim deltaY+=4*(XZdistance*0.4), normalize, aimpoint hand+direction*10; common parent-local angle and interpolation; serialized elevation min/max unused here",
+    "Attack performs one critical choice, missile-specific scatter, shared nonshot spread growth and recoil/muzzle/sound on success"
+  ],
+  "implementation": [
+    {
+      "path": "Assets/Recovery/Scripts/Bullet.cs",
+      "sha256": "263206451c60faea28a2ad028c18fb7eff7d5ed47dddfef20ec9694283bf639a"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/CatCombat.cs",
+      "sha256": "4cebb23d9b38cca617feef3d56977e6de312d6153a6e2fb348056b586c393123"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/ForestCombatAcceptance.cs",
+      "sha256": "c16c589360ac567db7ce88fcdda268761bb659b34a66c8652c5b782fe9a6c863"
+    },
+    {
+      "path": "Assets/Recovery/Scripts/CatMissile.cs",
+      "sha256": "d37abb0acd755510760a67764d0ece81b78669ce0efb62acb0fcdb0fcec5df87"
+    }
+  ],
+  "differences": [
+    "Forest-only integration; forest hero auto movement follows original-auto-move-contract.json; full Cat.Update, AI, inventory/save selection and original manager lifecycle pending",
+    "Independent DecimalAmount and forest damage/text/economy adapters; no original commercial library implementation",
+    "Unity6 Editor acceptance separate from Player/device/original visual/backend parity"
+  ]
+}

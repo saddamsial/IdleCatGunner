@@ -1,0 +1,1030 @@
+{
+  "playing": false,
+  "dirty": false,
+  "texts": [
+    {
+      "name": "StepUP_txt",
+      "text": "Step Up!",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "Explain_txt",
+      "text": "무기를 구매하고 더욱 강해지세요",
+      "font": "Mitme_Outline",
+      "fontPath": "Assets/MonoBehaviour/Mitme_Outline.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/Mitme Atlas Material_0.mat",
+      "fallbacks": [
+        {
+          "name": "JP (Outline)",
+          "shader": "Hidden/InternalErrorShader"
+        },
+        {
+          "name": "StarChineseFallback",
+          "shader": "TextMeshPro/Distance Field"
+        }
+      ]
+    },
+    {
+      "name": "D",
+      "text": "D",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "C",
+      "text": "C",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "B",
+      "text": "B",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "A",
+      "text": "A",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "S",
+      "text": "S",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "SS",
+      "text": "SS",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "SSS",
+      "text": "SSS",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "X",
+      "text": "X",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "XX",
+      "text": "XX",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "XXX",
+      "text": "XXX",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "Z",
+      "text": "Z",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "ZZ",
+      "text": "ZZ",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "ZZZ",
+      "text": "ZZZ",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "Type_txt",
+      "text": "단발",
+      "font": "Mitme SDF",
+      "fontPath": "Assets/MonoBehaviour/Mitme SDF.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/Mitme Atlas Material.mat",
+      "fallbacks": [
+        {
+          "name": "StarChineseFallback",
+          "shader": "TextMeshPro/Distance Field"
+        }
+      ]
+    },
+    {
+      "name": "Dia_txt",
+      "text": "100",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "I2_txt(Outline)",
+      "text": "Step 1 구매 시 해제",
+      "font": "Mitme_Outline",
+      "fontPath": "Assets/MonoBehaviour/Mitme_Outline.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/Mitme Atlas Material_0.mat",
+      "fallbacks": [
+        {
+          "name": "JP (Outline)",
+          "shader": "Hidden/InternalErrorShader"
+        },
+        {
+          "name": "StarChineseFallback",
+          "shader": "TextMeshPro/Distance Field"
+        }
+      ]
+    },
+    {
+      "name": "Value_txt (1)",
+      "text": "$0.99",
+      "font": "MPLUS_white",
+      "fontPath": "Assets/MonoBehaviour/MPLUS_white.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material_0.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "Step_txt",
+      "text": "Step 1",
+      "font": "MPLUS_white",
+      "fontPath": "Assets/MonoBehaviour/MPLUS_white.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material_0.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "I2_txt(Outline)",
+      "text": "x12 가치",
+      "font": "Mitme_Outline",
+      "fontPath": "Assets/MonoBehaviour/Mitme_Outline.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/Mitme Atlas Material_0.mat",
+      "fallbacks": [
+        {
+          "name": "JP (Outline)",
+          "shader": "Hidden/InternalErrorShader"
+        },
+        {
+          "name": "StarChineseFallback",
+          "shader": "TextMeshPro/Distance Field"
+        }
+      ]
+    },
+    {
+      "name": "D",
+      "text": "D",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "C",
+      "text": "C",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "B",
+      "text": "B",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "A",
+      "text": "A",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "S",
+      "text": "S",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "SS",
+      "text": "SS",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "SSS",
+      "text": "SSS",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "X",
+      "text": "X",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "XX",
+      "text": "XX",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "XXX",
+      "text": "XXX",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "Z",
+      "text": "Z",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "ZZ",
+      "text": "ZZ",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "ZZZ",
+      "text": "ZZZ",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "Type_txt",
+      "text": "단발",
+      "font": "Mitme SDF",
+      "fontPath": "Assets/MonoBehaviour/Mitme SDF.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/Mitme Atlas Material.mat",
+      "fallbacks": [
+        {
+          "name": "StarChineseFallback",
+          "shader": "TextMeshPro/Distance Field"
+        }
+      ]
+    },
+    {
+      "name": "Dia_txt",
+      "text": "100",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "I2_txt(Outline)",
+      "text": "Step 1 구매 시 해제",
+      "font": "Mitme_Outline",
+      "fontPath": "Assets/MonoBehaviour/Mitme_Outline.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/Mitme Atlas Material_0.mat",
+      "fallbacks": [
+        {
+          "name": "JP (Outline)",
+          "shader": "Hidden/InternalErrorShader"
+        },
+        {
+          "name": "StarChineseFallback",
+          "shader": "TextMeshPro/Distance Field"
+        }
+      ]
+    },
+    {
+      "name": "Value_txt (1)",
+      "text": "$4.99",
+      "font": "MPLUS_white",
+      "fontPath": "Assets/MonoBehaviour/MPLUS_white.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material_0.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "Step_txt",
+      "text": "Step 1",
+      "font": "MPLUS_white",
+      "fontPath": "Assets/MonoBehaviour/MPLUS_white.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material_0.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "I2_txt(Outline)",
+      "text": "x5 가치",
+      "font": "Mitme_Outline",
+      "fontPath": "Assets/MonoBehaviour/Mitme_Outline.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/Mitme Atlas Material_0.mat",
+      "fallbacks": [
+        {
+          "name": "JP (Outline)",
+          "shader": "Hidden/InternalErrorShader"
+        },
+        {
+          "name": "StarChineseFallback",
+          "shader": "TextMeshPro/Distance Field"
+        }
+      ]
+    },
+    {
+      "name": "D",
+      "text": "D",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "C",
+      "text": "C",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "B",
+      "text": "B",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "A",
+      "text": "A",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "S",
+      "text": "S",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "SS",
+      "text": "SS",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "SSS",
+      "text": "SSS",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "X",
+      "text": "X",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "XX",
+      "text": "XX",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "XXX",
+      "text": "XXX",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "Z",
+      "text": "Z",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "ZZ",
+      "text": "ZZ",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "ZZZ",
+      "text": "ZZZ",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "Type_txt",
+      "text": "단발",
+      "font": "Mitme SDF",
+      "fontPath": "Assets/MonoBehaviour/Mitme SDF.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/Mitme Atlas Material.mat",
+      "fallbacks": [
+        {
+          "name": "StarChineseFallback",
+          "shader": "TextMeshPro/Distance Field"
+        }
+      ]
+    },
+    {
+      "name": "Dia_txt",
+      "text": "100",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "I2_txt(Outline)",
+      "text": "Step 1 구매 시 해제",
+      "font": "Mitme_Outline",
+      "fontPath": "Assets/MonoBehaviour/Mitme_Outline.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/Mitme Atlas Material_0.mat",
+      "fallbacks": [
+        {
+          "name": "JP (Outline)",
+          "shader": "Hidden/InternalErrorShader"
+        },
+        {
+          "name": "StarChineseFallback",
+          "shader": "TextMeshPro/Distance Field"
+        }
+      ]
+    },
+    {
+      "name": "Value_txt (1)",
+      "text": "$9.99",
+      "font": "MPLUS_white",
+      "fontPath": "Assets/MonoBehaviour/MPLUS_white.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material_0.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "Step_txt",
+      "text": "Step 1",
+      "font": "MPLUS_white",
+      "fontPath": "Assets/MonoBehaviour/MPLUS_white.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material_0.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "I2_txt(Outline)",
+      "text": "x5 가치",
+      "font": "Mitme_Outline",
+      "fontPath": "Assets/MonoBehaviour/Mitme_Outline.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/Mitme Atlas Material_0.mat",
+      "fallbacks": [
+        {
+          "name": "JP (Outline)",
+          "shader": "Hidden/InternalErrorShader"
+        },
+        {
+          "name": "StarChineseFallback",
+          "shader": "TextMeshPro/Distance Field"
+        }
+      ]
+    },
+    {
+      "name": "D",
+      "text": "D",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "C",
+      "text": "C",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "B",
+      "text": "B",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "A",
+      "text": "A",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "S",
+      "text": "S",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "SS",
+      "text": "SS",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "SSS",
+      "text": "SSS",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "X",
+      "text": "X",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "XX",
+      "text": "XX",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "XXX",
+      "text": "XXX",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "Z",
+      "text": "Z",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "ZZ",
+      "text": "ZZ",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "ZZZ",
+      "text": "ZZZ",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "Type_txt",
+      "text": "단발",
+      "font": "Mitme SDF",
+      "fontPath": "Assets/MonoBehaviour/Mitme SDF.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/Mitme Atlas Material.mat",
+      "fallbacks": [
+        {
+          "name": "StarChineseFallback",
+          "shader": "TextMeshPro/Distance Field"
+        }
+      ]
+    },
+    {
+      "name": "Dia_txt",
+      "text": "100",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "I2_txt(Outline)",
+      "text": "Step 1 구매 시 해제",
+      "font": "Mitme_Outline",
+      "fontPath": "Assets/MonoBehaviour/Mitme_Outline.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/Mitme Atlas Material_0.mat",
+      "fallbacks": [
+        {
+          "name": "JP (Outline)",
+          "shader": "Hidden/InternalErrorShader"
+        },
+        {
+          "name": "StarChineseFallback",
+          "shader": "TextMeshPro/Distance Field"
+        }
+      ]
+    },
+    {
+      "name": "Value_txt (1)",
+      "text": "$19.99",
+      "font": "MPLUS_white",
+      "fontPath": "Assets/MonoBehaviour/MPLUS_white.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material_0.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "Step_txt",
+      "text": "Step 1",
+      "font": "MPLUS_white",
+      "fontPath": "Assets/MonoBehaviour/MPLUS_white.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material_0.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "I2_txt(Outline)",
+      "text": "x5 가치",
+      "font": "Mitme_Outline",
+      "fontPath": "Assets/MonoBehaviour/Mitme_Outline.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/Mitme Atlas Material_0.mat",
+      "fallbacks": [
+        {
+          "name": "JP (Outline)",
+          "shader": "Hidden/InternalErrorShader"
+        },
+        {
+          "name": "StarChineseFallback",
+          "shader": "TextMeshPro/Distance Field"
+        }
+      ]
+    },
+    {
+      "name": "D",
+      "text": "D",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "C",
+      "text": "C",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "B",
+      "text": "B",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "A",
+      "text": "A",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "S",
+      "text": "S",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "SS",
+      "text": "SS",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "SSS",
+      "text": "SSS",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "X",
+      "text": "X",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "XX",
+      "text": "XX",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "XXX",
+      "text": "XXX",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "Z",
+      "text": "Z",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "ZZ",
+      "text": "ZZ",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "ZZZ",
+      "text": "ZZZ",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "Type_txt",
+      "text": "단발",
+      "font": "Mitme SDF",
+      "fontPath": "Assets/MonoBehaviour/Mitme SDF.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/Mitme Atlas Material.mat",
+      "fallbacks": [
+        {
+          "name": "StarChineseFallback",
+          "shader": "TextMeshPro/Distance Field"
+        }
+      ]
+    },
+    {
+      "name": "Dia_txt",
+      "text": "100",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "I2_txt(Outline)",
+      "text": "Step 1 구매 시 해제",
+      "font": "Mitme_Outline",
+      "fontPath": "Assets/MonoBehaviour/Mitme_Outline.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/Mitme Atlas Material_0.mat",
+      "fallbacks": [
+        {
+          "name": "JP (Outline)",
+          "shader": "Hidden/InternalErrorShader"
+        },
+        {
+          "name": "StarChineseFallback",
+          "shader": "TextMeshPro/Distance Field"
+        }
+      ]
+    },
+    {
+      "name": "Value_txt (1)",
+      "text": "$39.99",
+      "font": "MPLUS_white",
+      "fontPath": "Assets/MonoBehaviour/MPLUS_white.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material_0.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "Step_txt",
+      "text": "Step 1",
+      "font": "MPLUS_white",
+      "fontPath": "Assets/MonoBehaviour/MPLUS_white.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material_0.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "I2_txt(Outline)",
+      "text": "x5 가치",
+      "font": "Mitme_Outline",
+      "fontPath": "Assets/MonoBehaviour/Mitme_Outline.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/Mitme Atlas Material_0.mat",
+      "fallbacks": [
+        {
+          "name": "JP (Outline)",
+          "shader": "Hidden/InternalErrorShader"
+        },
+        {
+          "name": "StarChineseFallback",
+          "shader": "TextMeshPro/Distance Field"
+        }
+      ]
+    },
+    {
+      "name": "Time_txt",
+      "text": "7d 3:23:30",
+      "font": "MPLUS",
+      "fontPath": "Assets/MonoBehaviour/MPLUS.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/MPLUSRounded1c-Black Atlas Material.mat",
+      "fallbacks": []
+    },
+    {
+      "name": "I2_txt(Outline)",
+      "text": "x12",
+      "font": "Mitme_Outline",
+      "fontPath": "Assets/MonoBehaviour/Mitme_Outline.asset",
+      "shader": "TextMeshPro/Distance Field",
+      "material": "Assets/Material/Mitme Atlas Material_0.mat",
+      "fallbacks": [
+        {
+          "name": "JP (Outline)",
+          "shader": "Hidden/InternalErrorShader"
+        },
+        {
+          "name": "StarChineseFallback",
+          "shader": "TextMeshPro/Distance Field"
+        }
+      ]
+    }
+  ]
+}

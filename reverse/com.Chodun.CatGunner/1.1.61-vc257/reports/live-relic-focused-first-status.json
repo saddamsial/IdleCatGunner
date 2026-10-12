@@ -1,0 +1,77 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 18.65,
+      "summary": {
+        "total": 7,
+        "passed": 3,
+        "failed": 4,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalRelicTests.CoreDrawUnlockDuplicateUpgradeAndCandidateMaxFallbackRespectNativeGates",
+          "Status": "Passed",
+          "Duration": 0.0183809,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRelicTests.IndependentSaveReloadRebirthAndRaidRetainRelicsCoresAndDecimalBonuses",
+          "Status": "Failed",
+          "Duration": 4.5357221,
+          "Message": "System.NullReferenceException : Object reference not set to an instance of an object",
+          "StackTrace": "  at Relic_Item.Reload (Relic_Info info) [0x000f5] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Relic_Item.cs:13 \n  at Relic_manager.UI_Reload () [0x00013] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Relic_manager.cs:25 \n  at Relic_manager.Upgrade (System.Int32 i) [0x00027] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Relic_manager.cs:27 \n  at OriginalRelicTests+<IndependentSaveReloadRebirthAndRaidRetainRelicsCoresAndDecimalBonuses>d__9.MoveNext () [0x00165] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalRelicTests.cs:113 \n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44 "
+        },
+        {
+          "FullName": "OriginalRelicTests.InvalidWalletProfileOverflowAndMissingFinalTableRowPreserveBeforeMutation",
+          "Status": "Passed",
+          "Duration": 0.0036479,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRelicTests.MaxBatchDrawHasCeilingPagesNativeRevealDelaysAndRealArrowNavigation",
+          "Status": "Failed",
+          "Duration": 4.1931872,
+          "Message": "  Draw_Mode_Btn (3)\n  Expected: True\n  But was:  False\n",
+          "StackTrace": "at OriginalRelicTests.Click (UnityEngine.UI.Button b) [0x00000] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalRelicTests.cs:23\nat OriginalRelicTests+<MaxBatchDrawHasCeilingPagesNativeRevealDelaysAndRealArrowNavigation>d__8.MoveNext () [0x000ef] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalRelicTests.cs:93\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalRelicTests.NativeRowsDecimalTierOrderAndSpecialTotalsMatchShippedTables",
+          "Status": "Passed",
+          "Duration": 0.0049389,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRelicTests.OriginalEntrySingleDrawDetailsAndUpgradeUseActualPointerRaycasts",
+          "Status": "Failed",
+          "Duration": 4.1543744,
+          "Message": "  Draw_Relic_Btn\n  Expected: True\n  But was:  False\n",
+          "StackTrace": "at OriginalRelicTests.Click (UnityEngine.UI.Button b) [0x00000] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalRelicTests.cs:23\nat OriginalRelicTests+<OriginalEntrySingleDrawDetailsAndUpgradeUseActualPointerRaycasts>d__7.MoveNext () [0x0017a] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalRelicTests.cs:74\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalRelicTests.UnlockedRelicsChangeNaturalProjectilesCriticalBalanceAndMoneyDrop",
+          "Status": "Failed",
+          "Duration": 5.6788386,
+          "Message": "Unhandled log message: '[Exception] NullReferenceException: Object reference not set to an instance of an object'. Use UnityEngine.TestTools.LogAssert.Expect",
+          "StackTrace": "Relic_Item.Reload (Relic_Info info) (at Assets/Recovery/Scripts/Relic_Item.cs:13)\nRelic_manager.UI_Reload () (at Assets/Recovery/Scripts/Relic_manager.cs:25)\nCatGunner.Recovery.RecoveryForestClient.MissionChanged () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:181)\nCatGunner.Recovery.OriginalMissions.Increase (System.Int32 kind) (at Assets/Recovery/Scripts/OriginalMissions.cs:41)\nCatGunner.Recovery.RecoveryForestClient.CountTreeMission () (at Assets/Recovery/Scripts/RecoveryForestClient.cs:182)\nTree_manager.Tree_Destroyed () (at Assets/Recovery/Scripts/Tree_manager.cs:63)\nTree.Die_Reload () (at Assets/Recovery/Scripts/Tree.cs:27)\nEnemy.Die () (at Assets/Recovery/Scripts/Enemy.cs:57)\nEnemy.Damaged (CatGunner.Recovery.OriginalAmount damage) (at Assets/Recovery/Scripts/Enemy.cs:33)\nCatGunner.Recovery.ForestDamageDispatch.Damage_Collider (UnityEngine.Collider coll, CatGunner.Recovery.OriginalAmount damage, UnityEngine.Vector3 point, System.String text, System.Boolean critical) (at Assets/Recovery/Scripts/ForestDamageDispatch.cs:18)\nBullet.HitSingle (UnityEngine.Vector3 point, UnityEngine.Collider coll) (at Assets/Recovery/Scripts/Bullet.cs:111)\nBullet.OnTriggerEnter (UnityEngine.Collider coll) (at Assets/Recovery/Scripts/Bullet.cs:102)\n\n"
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

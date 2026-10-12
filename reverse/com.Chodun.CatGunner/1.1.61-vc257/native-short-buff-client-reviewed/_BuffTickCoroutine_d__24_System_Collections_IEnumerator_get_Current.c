@@ -1,0 +1,8 @@
+/* Native pseudocode, not original C#. Exact input bytes checked; preferred VA 0x2b38450, Ghidra VA 02c38450. */
+
+undefined8 _BuffTickCoroutine_d__24_System_Collections_IEnumerator_get_Current(long param_1)
+
+{
+  return *(undefined8 *)(param_1 + 0x18);
+}
+

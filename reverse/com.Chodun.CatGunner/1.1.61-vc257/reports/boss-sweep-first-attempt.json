@@ -1,0 +1,90 @@
+{
+  "status": "completed",
+  "duration": 64.92,
+  "summary": {
+    "total": 11,
+    "passed": 8,
+    "failed": 3,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalBossSweepRulesTests.ExpectedDamageDiscardsBeforeBuffAndCriticalAndClampsChance",
+      "Status": "Passed",
+      "Duration": 0.1638846,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalBossSweepRulesTests.NativePercentClampsAndCentisecondQuantizationIsRetained",
+      "Status": "Passed",
+      "Duration": 0.0004879,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalBossSweepRulesTests.NativeRequiredPowerRoundsSecondsToEvenAndTruncatesFiveDigits",
+      "Status": "Passed",
+      "Duration": 0.0016075,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalBossSweepTests.AutomaticRealProjectileVictoryUsesOriginalNoAdsExitButton",
+      "Status": "Failed",
+      "Duration": 18.6776678,
+      "Message": "  NoAds_Btn\n  Expected: True\n  But was:  False\n",
+      "StackTrace": "at OriginalBossSweepTests+<Click>d__14.MoveNext () [0x0002b] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalBossSweepTests.cs:12\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalBossSweepTests.CancelledDisabledDuplicateAndClosedAdCallbacksCannotGrant",
+      "Status": "Passed",
+      "Duration": 5.9836189,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalBossSweepTests.DisabledPurchaseSimulationAndExpiringRewardPackKeepSettlementSnapshot",
+      "Status": "Passed",
+      "Duration": 5.7356271,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalBossSweepTests.ForcedAdRemovalIsOrdinaryAndFullRemovalAutoCreditsWithPlusReward",
+      "Status": "Failed",
+      "Duration": 6.7965633,
+      "Message": "  NoAds_Btn\n  Expected: True\n  But was:  False\n",
+      "StackTrace": "at OriginalBossSweepTests+<Click>d__14.MoveNext () [0x0002b] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalBossSweepTests.cs:12\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalBossSweepTests.OriginalPlusAutoPackRevealsSweepEntrance",
+      "Status": "Passed",
+      "Duration": 7.0498929,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalBossSweepTests.OriginalSweepAndBonusButtonsAdvanceOnceCreditTripleAndColdReload",
+      "Status": "Failed",
+      "Duration": 7.6855655,
+      "Message": "  Bonus_Btn\n  Expected: True\n  But was:  False\n",
+      "StackTrace": "at OriginalBossSweepTests+<Click>d__14.MoveNext () [0x0002b] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalBossSweepTests.cs:12\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "OriginalBossSweepTests.PreviewUsesActiveOrdinaryCatsAndExcludesForestUpgradeLevels",
+      "Status": "Passed",
+      "Duration": 6.4009168,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalBossSweepTests.UnsupportedHealthCacheRejectsBeforeStageAndRewardMutation",
+      "Status": "Passed",
+      "Duration": 5.9133572,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

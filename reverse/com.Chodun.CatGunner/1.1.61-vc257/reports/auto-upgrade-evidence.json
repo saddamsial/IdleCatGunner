@@ -1,0 +1,205 @@
+{
+  "rule": 42,
+  "updatedUtc": "2026-10-11T03:50:21.936074+00:00",
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "contract": "reports/auto-upgrade-contract.json",
+  "nativeEvidence": "reports/auto-upgrade-native-evidence.json",
+  "tests": [
+    {
+      "report": "reports/auto-upgrade-playmode-accepted.json",
+      "summary": {
+        "total": 17,
+        "passed": 17,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "durationSeconds": 65.48,
+      "completeIndependentBatch": true
+    },
+    {
+      "report": "reports/auto-upgrade-onboarding-regression.json",
+      "summary": {
+        "total": 5,
+        "passed": 5,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "durationSeconds": 84.87,
+      "completeIndependentBatch": true
+    },
+    {
+      "report": "reports/auto-upgrade-startup-regression.json",
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "durationSeconds": 25.63,
+      "completeIndependentBatch": true
+    },
+    {
+      "report": "reports/auto-upgrade-playtest-regression.json",
+      "summary": {
+        "total": 17,
+        "passed": 17,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "durationSeconds": 92.07,
+      "completeIndependentBatch": true
+    },
+    {
+      "report": "reports/auto-upgrade-forest-feedback-regression.json",
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "durationSeconds": 31.15,
+      "completeIndependentBatch": true
+    },
+    {
+      "report": "reports/auto-upgrade-progression-regression.json",
+      "summary": {
+        "total": 8,
+        "passed": 8,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "durationSeconds": 18.44,
+      "completeIndependentBatch": true
+    }
+  ],
+  "testBatchBoundary": "Six separate completed independent batches; not one full suite. Auto-upgrade and startup rerun after the final local archive guard and Editor test-host isolation; the other four precede that guard and use the same original scene and auto-upgrade implementation.",
+  "history": [
+    "reports/auto-upgrade-playmode-before.json",
+    "reports/auto-upgrade-playmode-run1.json",
+    "reports/auto-upgrade-playmode-run2.json",
+    "reports/auto-upgrade-playmode-run3.json",
+    "reports/auto-upgrade-playmode-run4.json",
+    "reports/auto-upgrade-playmode-run5.json",
+    "reports/auto-upgrade-playmode-run6.json",
+    "reports/auto-upgrade-startup-regression-run3.json",
+    "reports/auto-upgrade-progression-start-race.json"
+  ],
+  "historyNote": "Initial missing-entry fixture failed as expected; first full batch 14/15 found missing immediate HUD reload; second batch 15/15; 16/16 verifies native shooting-mute audio gate; 17/17 adds independent lost-service archive protection. Run5 16/17 was interrupted by an agent status-query transport timeout log in SetUp, then the entire batch reran without that query.",
+  "editorReloadGuard": "reports/auto-upgrade-editor-reload-save-boundary.json",
+  "testHostStart": "reports/auto-upgrade-test-host-start.json",
+  "testHostEnd": "reports/auto-upgrade-test-host-end.json",
+  "userProgressClarification": "reports/auto-upgrade-progress-preservation-clarification.json",
+  "saveBaseline": "Latest user-resumed gameplay, captured after stable stop before final isolated verification; no rollback to old pause snapshot",
+  "sceneAudit": "reports/auto-upgrade-scene-document-diff.json",
+  "sceneIntegration": "reports/auto-upgrade-scene-restoration.json",
+  "preservationAudit": "reports/auto-upgrade-preservation-audit.json",
+  "historicalVisualAudit": "reports/auto-upgrade-historical-visual-audit.json",
+  "finalHistoricalVisualAudit": "reports/auto-upgrade-final-historical-visual-audit.json",
+  "historicalConsole": "reports/auto-upgrade-final-console-history.json",
+  "handoff": {
+    "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+    "dirty": false,
+    "playing": false,
+    "compiling": false,
+    "updating": false,
+    "testHostFolder": "",
+    "objects": 35083,
+    "missingScripts": 0,
+    "persist": true,
+    "saveFolderOverride": null,
+    "localRewardedAdDefault": true,
+    "automaticUpgradeBound": true,
+    "autoPopupBound": true,
+    "autoHud": 1,
+    "autoDisabled": false,
+    "offlineBound": true,
+    "offlineMaxSeconds": 28800.0,
+    "inputOverrides": 0,
+    "mouseFixtures": 0,
+    "timeScale": 1.0,
+    "buildScenes": [
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredBullets.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForest.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestHUD.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestProgress.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredJoystick.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredSettings.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredTarget.unity",
+        "enabled": true
+      }
+    ]
+  },
+  "console": "reports/auto-upgrade-console.json",
+  "runner": "reports/auto-upgrade-final-runner.json",
+  "sceneSha256": "eb85cd9f14a226d12463c53a66569c4c149bb4d24007decbb722c3a8fe9deb6a",
+  "sourceSha256": {
+    "Assets/Recovery/Scripts/RecoveryForestClient.cs": "c707e9e95ed57d1840202a80e9dbc7753eb7ec90686603e1c302d2b46ba1a01b",
+    "Assets/Recovery/Scripts/AutoUpgrade_UI.cs": "6be6f155091a034fff56ad9077e9d2f0b093abf53a11334282916300f04e533a",
+    "Assets/Recovery/Scripts/OriginalAutoUpgradeRules.cs": "0c597c5c9958a2e35a1079964c474a5dd4ab278baedcf0ec27dba4c071c96f15",
+    "Assets/Recovery/Scripts/RecoveryAutomaticUpgrade.cs": "e4f9beacb77ee7a71f592ab9d8cfbf6dc23d69552e029aaed9c12276d301a1bb",
+    "Assets/Recovery/Scripts/RecoveryAutomaticUpgrade.cs.meta": "9caff358cb867a2f088115db3c4d85560fe1c49760b2352a3d57161cf845448d",
+    "Assets/Recovery/Scripts/AutoUpgrade_UI.cs.meta": "be1d2fd542b2f84506d6466bcd5fa2ee71282884ea2e53a74617eb83aa6122c8",
+    "Assets/Recovery/Scripts/OriginalAutoUpgradeRules.cs.meta": "de450f1e4b2cdcab56400fadb7ed20754458f5eab683def3d6c80372e0a07f43",
+    "Assets/Recovery/Tests/PlayMode/OriginalOnboardingTests.cs": "809157ce0212855dee1255030ba25ff03e1a281a6352664f0bb33c47a526ebff",
+    "Assets/Recovery/Tests/PlayMode/OriginalAutoUpgradeTests.cs": "42830490d8ac1646528bc13da1d2070354c81afe7c5946faa966c539585b15fe",
+    "Assets/Recovery/Tests/PlayMode/OriginalAutoUpgradeTests.cs.meta": "d8508470b35e9dfddef2efc83c1c60d8700abe406b155c50f28635da291b0b44"
+  },
+  "visual": [
+    {
+      "path": "reports/visual/auto-upgrade-offer-gpu.png",
+      "sha256": "6627d90cc3531a1aba2f186f35b756aef1fb19a5a0b61db3e392a4c0515dd09d",
+      "gpuViewed": true
+    },
+    {
+      "path": "reports/visual/auto-upgrade-active-gpu.png",
+      "sha256": "6a42a2a329fb6b577f5cf7232cba8f636680533b5004d8357a24caa671de8075",
+      "gpuViewed": true
+    }
+  ],
+  "localAdapters": [
+    "RecoveryAutomaticUpgrade bridges owner/events rather than replacing original source code",
+    "User-authorized next-frame rewarded-ad simulation with duplicate/close gates; no real SDK or purchase entitlement",
+    "DateTime.Now replaces Time_manager.Now; no trusted clock proof",
+    "Existing exact base-ten DecimalAmount adapter, not complete commercial InfVal",
+    "Existing BounceStart/BounceBtn local playback and dynamic font compatibility; local lost-service guard rejects partial old-session saves, requires normal Play restart"
+  ],
+  "remaining": [
+    "Three short buffs, enhanced rebirth, temporary ad weapons, sweep rewards and other UI",
+    "Three remaining tutorial HUDs: Buff, Shop, Rank; full I2 and remaining animation/material/Shapes/GPU effects",
+    "Real IAP, ads, login, cloud and ranking; missing relic table300 and full InfVal/time precision",
+    "Player build and device/original visual acceptance"
+  ],
+  "playerBuilt": false,
+  "deviceAccepted": false,
+  "gitCommittedOrPushedThisRound": false,
+  "scopeComplete": false
+}

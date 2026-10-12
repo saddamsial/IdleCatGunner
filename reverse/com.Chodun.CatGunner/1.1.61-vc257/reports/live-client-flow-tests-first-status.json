@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "duration": 18.54,
+  "summary": {
+    "total": 7,
+    "passed": 0,
+    "failed": 7,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalClientFlowTests.AllFiveWavesAutomaticallyContinueThroughBossIntoNextStage",
+      "Status": "Failed",
+      "Duration": 2.9775907,
+      "Message": "SetUp : Unhandled log message: '[Exception] NullReferenceException: Object reference not set to an instance of an object'. Use UnityEngine.TestTools.LogAssert.Expect\nTearDown : Unhandled log message: '[Error] Scene 'RecoveredTarget' couldn't be loaded because it has not been added to the active build profile or shared scene list or the AssetBundle has not been loaded.\nTo add a scene to the active build profile or shared scene list use the menu File->Build Profiles'. Use UnityEngine.TestTools.LogAssert.Expect",
+      "StackTrace": "UnityEngine.SceneManagement.SceneManager:LoadSceneAsync (string)\nOriginalClientFlowTests/<TearDown>d__4:MoveNext () (at Assets/Recovery/Tests/PlayMode/OriginalClientFlowTests.cs:41)\nUnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)\n\n"
+    },
+    {
+      "FullName": "OriginalClientFlowTests.HoldStartsAfterDelayRepeatsAndStopsOnPointerUp",
+      "Status": "Failed",
+      "Duration": 2.8442129,
+      "Message": "SetUp : Unhandled log message: '[Exception] NullReferenceException: Object reference not set to an instance of an object'. Use UnityEngine.TestTools.LogAssert.Expect\nTearDown : Unhandled log message: '[Error] Scene 'RecoveredTarget' couldn't be loaded because it has not been added to the active build profile or shared scene list or the AssetBundle has not been loaded.\nTo add a scene to the active build profile or shared scene list use the menu File->Build Profiles'. Use UnityEngine.TestTools.LogAssert.Expect",
+      "StackTrace": "UnityEngine.SceneManagement.SceneManager:LoadSceneAsync (string)\nOriginalClientFlowTests/<TearDown>d__4:MoveNext () (at Assets/Recovery/Tests/PlayMode/OriginalClientFlowTests.cs:41)\nUnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)\n\n"
+    },
+    {
+      "FullName": "OriginalClientFlowTests.IndependentSaveRestoresWalletUpgradesWaveAndUnrelatedFields",
+      "Status": "Failed",
+      "Duration": 2.6080221,
+      "Message": "SetUp : Unhandled log message: '[Exception] NullReferenceException: Object reference not set to an instance of an object'. Use UnityEngine.TestTools.LogAssert.Expect\nTearDown : Unhandled log message: '[Error] Scene 'RecoveredTarget' couldn't be loaded because it has not been added to the active build profile or shared scene list or the AssetBundle has not been loaded.\nTo add a scene to the active build profile or shared scene list use the menu File->Build Profiles'. Use UnityEngine.TestTools.LogAssert.Expect",
+      "StackTrace": "UnityEngine.SceneManagement.SceneManager:LoadSceneAsync (string)\nOriginalClientFlowTests/<TearDown>d__4:MoveNext () (at Assets/Recovery/Tests/PlayMode/OriginalClientFlowTests.cs:41)\nUnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)\n\n"
+    },
+    {
+      "FullName": "OriginalClientFlowTests.OriginalButtonsSpendWalletAndApplyAllThreeUpgradeBalances",
+      "Status": "Failed",
+      "Duration": 2.5467215,
+      "Message": "SetUp : Unhandled log message: '[Exception] NullReferenceException: Object reference not set to an instance of an object'. Use UnityEngine.TestTools.LogAssert.Expect\nTearDown : Unhandled log message: '[Error] Scene 'RecoveredTarget' couldn't be loaded because it has not been added to the active build profile or shared scene list or the AssetBundle has not been loaded.\nTo add a scene to the active build profile or shared scene list use the menu File->Build Profiles'. Use UnityEngine.TestTools.LogAssert.Expect",
+      "StackTrace": "UnityEngine.SceneManagement.SceneManager:LoadSceneAsync (string)\nOriginalClientFlowTests/<TearDown>d__4:MoveNext () (at Assets/Recovery/Tests/PlayMode/OriginalClientFlowTests.cs:41)\nUnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)\n\n"
+    },
+    {
+      "FullName": "OriginalClientFlowTests.OriginalHudAndDefaultZeroInputAutoMovementRunTogether",
+      "Status": "Failed",
+      "Duration": 2.4861715,
+      "Message": "SetUp : Unhandled log message: '[Exception] NullReferenceException: Object reference not set to an instance of an object'. Use UnityEngine.TestTools.LogAssert.Expect\nTearDown : Unhandled log message: '[Error] Scene 'RecoveredTarget' couldn't be loaded because it has not been added to the active build profile or shared scene list or the AssetBundle has not been loaded.\nTo add a scene to the active build profile or shared scene list use the menu File->Build Profiles'. Use UnityEngine.TestTools.LogAssert.Expect",
+      "StackTrace": "UnityEngine.SceneManagement.SceneManager:LoadSceneAsync (string)\nOriginalClientFlowTests/<TearDown>d__4:MoveNext () (at Assets/Recovery/Tests/PlayMode/OriginalClientFlowTests.cs:41)\nUnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)\n\n"
+    },
+    {
+      "FullName": "OriginalClientFlowTests.TimeoutRetriesSameWaveAndRestartCancelsPendingTransition",
+      "Status": "Failed",
+      "Duration": 2.4837911,
+      "Message": "SetUp : Unhandled log message: '[Exception] NullReferenceException: Object reference not set to an instance of an object'. Use UnityEngine.TestTools.LogAssert.Expect\nTearDown : Unhandled log message: '[Error] Scene 'RecoveredTarget' couldn't be loaded because it has not been added to the active build profile or shared scene list or the AssetBundle has not been loaded.\nTo add a scene to the active build profile or shared scene list use the menu File->Build Profiles'. Use UnityEngine.TestTools.LogAssert.Expect",
+      "StackTrace": "UnityEngine.SceneManagement.SceneManager:LoadSceneAsync (string)\nOriginalClientFlowTests/<TearDown>d__4:MoveNext () (at Assets/Recovery/Tests/PlayMode/OriginalClientFlowTests.cs:41)\nUnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)\n\n"
+    },
+    {
+      "FullName": "OriginalClientFlowTests.TreeDeathAwardsNativeAmountOnceAndHonorsDontDropAndGamingGate",
+      "Status": "Failed",
+      "Duration": 2.5344921,
+      "Message": "SetUp : Unhandled log message: '[Exception] NullReferenceException: Object reference not set to an instance of an object'. Use UnityEngine.TestTools.LogAssert.Expect\nTearDown : Unhandled log message: '[Error] Scene 'RecoveredTarget' couldn't be loaded because it has not been added to the active build profile or shared scene list or the AssetBundle has not been loaded.\nTo add a scene to the active build profile or shared scene list use the menu File->Build Profiles'. Use UnityEngine.TestTools.LogAssert.Expect",
+      "StackTrace": "UnityEngine.SceneManagement.SceneManager:LoadSceneAsync (string)\nOriginalClientFlowTests/<TearDown>d__4:MoveNext () (at Assets/Recovery/Tests/PlayMode/OriginalClientFlowTests.cs:41)\nUnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)\n\n"
+    }
+  ]
+}

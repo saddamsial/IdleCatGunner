@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "duration": 4.27,
+  "summary": {
+    "total": 1,
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalProgressionTests.ActualNavigationRaycastsOpenPetMissionAndRebirthAboveJoystick",
+      "Status": "Failed",
+      "Duration": 4.2477862,
+      "Message": "  Original navigation must be the actual top hit above the joystick: Canvas/Pet_manager/Draw_Info_UI/Background\n  Expected: same as <Pet_Btn  (UnityEngine.UI.Button)>\n  But was:  <Background (UnityEngine.UI.Button)>\n",
+      "StackTrace": "at OriginalProgressionTests+<ActualNavigationRaycastsOpenPetMissionAndRebirthAboveJoystick>d__0.MoveNext () [0x001be] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalProgressionTests.cs:28\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    }
+  ]
+}

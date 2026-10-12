@@ -1,0 +1,58 @@
+{
+  "identity": {
+    "file": "globalgamemanagers.assets",
+    "path_id": 3974,
+    "type_index": 9893,
+    "type": "UnityEngine.Rendering.Universal.ChannelMixer",
+    "game_object": "ChannelMixer"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": 3157
+    },
+    "m_Name": "ChannelMixer",
+    "active": true,
+    "redOutRedIn": {
+      "m_OverrideState": true,
+      "m_Value": 100.0
+    },
+    "redOutGreenIn": {
+      "m_OverrideState": true,
+      "m_Value": 0.0
+    },
+    "redOutBlueIn": {
+      "m_OverrideState": true,
+      "m_Value": 0.0
+    },
+    "greenOutRedIn": {
+      "m_OverrideState": true,
+      "m_Value": 0.0
+    },
+    "greenOutGreenIn": {
+      "m_OverrideState": true,
+      "m_Value": 100.0
+    },
+    "greenOutBlueIn": {
+      "m_OverrideState": true,
+      "m_Value": 0.0
+    },
+    "blueOutRedIn": {
+      "m_OverrideState": true,
+      "m_Value": 0.0
+    },
+    "blueOutGreenIn": {
+      "m_OverrideState": true,
+      "m_Value": 0.0
+    },
+    "blueOutBlueIn": {
+      "m_OverrideState": true,
+      "m_Value": 100.0
+    }
+  }
+}

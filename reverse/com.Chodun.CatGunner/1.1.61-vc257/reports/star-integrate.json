@@ -1,0 +1,12 @@
+{
+  "success": false,
+  "command": "unity command eval",
+  "data": null,
+  "errors": [
+    {
+      "code": "COMMAND_FAILED",
+      "message": "Compilation Failed\n  The name 'StarClientEditor' does not exist in the current context (line 1, col 12)\n  Unreachable code detected (line 2, col 12)"
+    }
+  ],
+  "warnings": []
+}

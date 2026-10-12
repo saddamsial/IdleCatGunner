@@ -1,0 +1,776 @@
+{
+  "target": {
+    "package": "com.Chodun.CatGunner",
+    "version": "1.1.61",
+    "version_code": 257,
+    "abi": "arm64-v8a"
+  },
+  "native_sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "metadata_sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+  "native_exports": {
+    "folder": "native-client-flow-reviewed-v4",
+    "queries": 63,
+    "completed": 63,
+    "methods": [
+      {
+        "preferred_va": "0x2a7e1cc",
+        "ghidra_va": "02b7e1cc",
+        "name": "Gamemanager_MoneyValue_return",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "559b4e94f2adb37da670c2732276b533b6ef636ac4991599083ffffeaaf7d468",
+        "asm_sha256": "5a84ebbb79df75479cf50aa643465206dfedf7ac0ad505179758d95ef1f0cec0"
+      },
+      {
+        "preferred_va": "0x2a7e718",
+        "ghidra_va": "02b7e718",
+        "name": "Gamemanager_Get_Money_0x6000074",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "f3ec15f67f8361220e7c6f8c6b11274c8255c4d6534fb6afb1328f11b36a1fc5",
+        "asm_sha256": "94b1f6d6c01d40aa5ea3c3aca80d22517bf478e260f9ebb7385a4f357d6a2ad8"
+      },
+      {
+        "preferred_va": "0x2a7e82c",
+        "ghidra_va": "02b7e82c",
+        "name": "Gamemanager_Get_Money_0x6000075",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "b4be518ac389e040f67ee5b130534e5204a6640eeeab91b9485d770e73395f1b",
+        "asm_sha256": "ae452bff4e98508c8575a032c45f1ce4985709415f36227118bd4549ea747e5d"
+      },
+      {
+        "preferred_va": "0x2a7eadc",
+        "ghidra_va": "02b7eadc",
+        "name": "Gamemanager_Get_Money_0x6000076",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "e766c25ca0a46452a56af1b16c466052ebb216c90b3c861a8d98cf41c2b3662a",
+        "asm_sha256": "d99ecc227a478719a8f76609730fccf6edc45e12efbb30c1fd1f4fba8d27747b"
+      },
+      {
+        "preferred_va": "0x2a7ec3c",
+        "ghidra_va": "02b7ec3c",
+        "name": "Gamemanager_Money_Reset",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "d3d2d22a90c804db4d1fc918c1bb4f273bc4ec5fb47123e70498d81e2185594d",
+        "asm_sha256": "2278efc589ef4bdc958bff28c24431f53a3bf12c09e338b9f748ab5b55032064"
+      },
+      {
+        "preferred_va": "0x2a7f11c",
+        "ghidra_va": "02b7f11c",
+        "name": "Gamemanager_Lose_Money",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "a0c08dcf119e1e55441f8e77d77f3546298e603418b366ac3b226be09fef2060",
+        "asm_sha256": "9435bcfb54453a9c2811ae57b2084e923747f5ea05a67793927b8a737a6cc6b1"
+      },
+      {
+        "preferred_va": "0x2aa6a18",
+        "ghidra_va": "02ba6a18",
+        "name": "Mission_manager_MissionValue_Increase",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "29be43d9680292a8a0b97bd4752d6fa0a0bee46abeafce46a41cc5994bdd9e4e",
+        "asm_sha256": "ce8c7771a3bbfdedd1419104bad19a3e2a313da7029646f44382b72efda6090f"
+      },
+      {
+        "preferred_va": "0x2b0b844",
+        "ghidra_va": "02c0b844",
+        "name": "Particle_Polling_Spawn",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "e0a43147968f192deb9589b4a1f9536a891c6ad0e60ef67caa51a163320cb242",
+        "asm_sha256": "57d3a0c119214b5495398e03dc5a27ae267cfa9e5869507a053b0074ad9a3038"
+      },
+      {
+        "preferred_va": "0x2b26598",
+        "ghidra_va": "02c26598",
+        "name": "Currency_Start",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "664ed7706edb70a7c311d53f0e85a5bd14a803726931cd63c72e5bd236f4837b",
+        "asm_sha256": "96225ff59702e8fc2db0c5a63ee906499ee4fe69e990e5d76839f9d28f3a420f"
+      },
+      {
+        "preferred_va": "0x2b26654",
+        "ghidra_va": "02c26654",
+        "name": "Currency_OnEnable",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "bb03d6be0cdd2b204780ac66613b60646a4214e8d5fba181c6548a9fc26e39f8",
+        "asm_sha256": "7396b08551cf85e8b8258d0d6b1bede23b0799297338783ee4c9389d87f3b2f6"
+      },
+      {
+        "preferred_va": "0x2b26788",
+        "ghidra_va": "02c26788",
+        "name": "Currency_OnDisable",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "3b8c53b755bd50033c70f5d80b269ba58733f9b89d3005aca00783c21b50b0a7",
+        "asm_sha256": "bcb1f5530d3a04e85d0c524676d98fd57ee2484e7c0bd62eb99bc9dedb554f7f"
+      },
+      {
+        "preferred_va": "0x2b2659c",
+        "ghidra_va": "02c2659c",
+        "name": "Currency_OnValueChanged",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "4925513645ba50e297b51e09ead5f8ebaa242f545fa37922bbbe0a78f00c5b3e",
+        "asm_sha256": "cd46f8f0f2b648197f9a9c5edf1075cc6a3cf26bb8d03951ba88e206d5875f6c"
+      },
+      {
+        "preferred_va": "0x2b28290",
+        "ghidra_va": "02c28290",
+        "name": "SlicedFilledImage_set_fillAmount",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "97b8e1258e9219fe61f839c8297f5f2c89c62fe6a572af422dc46e5dc97d86cc",
+        "asm_sha256": "6c5e02496277a054735c04aae852775dcc7a19964a432fc1c599c0e8118ae5dd"
+      },
+      {
+        "preferred_va": "0x2b2894c",
+        "ghidra_va": "02c2894c",
+        "name": "SlicedFilledImage__ctor",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "6311989d61ee8e3f796cadb1e0271b37957ef14af18ffaef1ccd3ce5fc9b45da",
+        "asm_sha256": "98d4df4c8f810d1825c699eb9b7958c7a697cc535c2cf4ce16f03badd3e5e773"
+      },
+      {
+        "preferred_va": "0x2b28a4c",
+        "ghidra_va": "02c28a4c",
+        "name": "SlicedFilledImage_OnPopulateMesh",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "c7ba6dfbc762cac6c8ac25a5918dec3b5c673aa647fcb64c695a0079adec6ebd",
+        "asm_sha256": "df9c8f5e366c41244fdbc1cbdac92b589163e066a1d81db1513fed73b99436c3"
+      },
+      {
+        "preferred_va": "0x2b28af0",
+        "ghidra_va": "02c28af0",
+        "name": "SlicedFilledImage_GenerateSlicedFilledSprite",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "849209d7e79206d09526c4613cf9fee454fb1ebeb311eb1f347cdf985923e5ac",
+        "asm_sha256": "bd44a82c9099e8846fc0eee46c93d276fcdadcdab57ff8a414a8cb18124fdc0b"
+      },
+      {
+        "preferred_va": "0x2b29820",
+        "ghidra_va": "02c29820",
+        "name": "SlicedFilledImage_GetAdjustedBorders",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "8b5d370fdaf87d5abb10c9fd657374ad91954e1468574b34c87881734a89e308",
+        "asm_sha256": "4f79f48a9047a9b0ef58536dd4da723d2413b0fa4aaf89bd92798e8c99c09c92"
+      },
+      {
+        "preferred_va": "0x2b29454",
+        "ghidra_va": "02c29454",
+        "name": "SlicedFilledImage_GenerateFilledSprite",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "307324191f70cd22478e13303460b241ee4614df828518b45118bd3beea9ee29",
+        "asm_sha256": "843b808a928609961eb6b2b376534e1e4b97c30ff9b6928ac44a70aac322880e"
+      },
+      {
+        "preferred_va": "0x2b7a338",
+        "ghidra_va": "02c7a338",
+        "name": "GameSlider_Stage_Reload",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "4d551e6f600e5d354d434a65f4ccb213e336f7685596da4d151d303aa3cef459",
+        "asm_sha256": "1ea3bb3d799932cf1bf2b2d25011a4b34009c64312646279b780779656bfbe8d"
+      },
+      {
+        "preferred_va": "0x2b7a4f0",
+        "ghidra_va": "02c7a4f0",
+        "name": "GameSlider_Value_Reload",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "a050e2aaf3f46251c7d461b823e5e7ceb1107e5283815b44f5d2b01f3b0b00ed",
+        "asm_sha256": "59a84e49912b875029e20a42438772c5cd373fecbf10b1e82199ca769e7c4e7f"
+      },
+      {
+        "preferred_va": "0x2b7a5cc",
+        "ghidra_va": "02c7a5cc",
+        "name": "GameSlider_Time_Reload",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "78614276b5b78a077c2105fc6bfe724879d549437d383c7a543b16789aa72e36",
+        "asm_sha256": "d74a14646fd0f6a3294464d990bb5bed70063e677805a788dcde4467d4acc2a9"
+      },
+      {
+        "preferred_va": "0x2b87564",
+        "ghidra_va": "02c87564",
+        "name": "Rebirth_manager_Money_return",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "43b42a49ade911e731e16997d79ad77731b29c4ebbedb7f7a9066aeb3960108a",
+        "asm_sha256": "86f86398f80d68356bc7757f28c528b7e95f4dce1eeabde4db6f56dcc0873295"
+      },
+      {
+        "preferred_va": "0x2ba7618",
+        "ghidra_va": "02ca7618",
+        "name": "Skin_manager_Skin_Value_Reload",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "7c440446929a100c865af52987b52be7b39d556182d33dbf7088006800ff57a5",
+        "asm_sha256": "af500c8d898530b2953e970ca092e4c7716e4cef7f7c8482e87797311b2799e3"
+      },
+      {
+        "preferred_va": "0x2ba7d74",
+        "ghidra_va": "02ca7d74",
+        "name": "Skin_manager_Money_Accum_return",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "bd5c56d1b85bb8452abc0f298910fe02b7f3f8977d09752e1488dc7e864caef5",
+        "asm_sha256": "f8f6f24776ea88e275714b6d02ac5f19031ca27cc2fc1d775d235ea4aa3c1e1e"
+      },
+      {
+        "preferred_va": "0x2babeb4",
+        "ghidra_va": "02cabeb4",
+        "name": "Tree_Die_Reload",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "43fbc9858c40b9eb0c727afa4717c5f31aa9e18951b748321cddc5de972d6747",
+        "asm_sha256": "b81286ea98d0e866db2ff3b6f958d4fcd0e605bc40e0b065c1e542fdf565d701"
+      },
+      {
+        "preferred_va": "0x2bae16c",
+        "ghidra_va": "02cae16c",
+        "name": "_Game_Cor_d__42_MoveNext",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "04e5e9733754f1f7af5d1d7b721098a7e8ed0af5a94bb2693e9bff6f91c11b75",
+        "asm_sha256": "d5ead999f22fa5e4630a3ef48d6c8ef0b060b922a5e68a2c37dfa9a163ead244"
+      },
+      {
+        "preferred_va": "0x2bae2dc",
+        "ghidra_va": "02cae2dc",
+        "name": "_Loading_Then_Start_d__47_MoveNext",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "7c4a13592aecff57e33e3c11f17a47c2fcc949fcdd60c0a551001dd573c318c0",
+        "asm_sha256": "ea304dfa81e2eb77a710d49fd6a854ab961a865b218a1c1e68eceeca2e27da4b"
+      },
+      {
+        "preferred_va": "0x2baac18",
+        "ghidra_va": "02caac18",
+        "name": "Tree_manager_Game_Start",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "ba4427d54c2982c44b0b30015a7904898d63da0ca53c83335d51d0c78c640530",
+        "asm_sha256": "4a76837be803f0bb98a988d19eb0aed973e788f2ed02efe716244fab24a85bf5"
+      },
+      {
+        "preferred_va": "0x2bad0dc",
+        "ghidra_va": "02cad0dc",
+        "name": "Tree_manager_GameTime_Max_return",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "0ce439b156378660d09134c9bf4d6290d632552b9c2789a332610cedbb655128",
+        "asm_sha256": "492623232ebef324db8409d46a5db37c73ac4ff3b05a6cd0ecaa43ac02d897f9"
+      },
+      {
+        "preferred_va": "0x2bad070",
+        "ghidra_va": "02cad070",
+        "name": "Tree_manager_Game_Cor",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "8da011bd165953f2da8a41b5120986dea89b63a00483699f12fc77c6c69c6a61",
+        "asm_sha256": "438ab3470e8c49057ac51bfe3807592b04632b88dde124104aaf57a343dd4bd0"
+      },
+      {
+        "preferred_va": "0x2ba8b2c",
+        "ghidra_va": "02ca8b2c",
+        "name": "Tree_manager_Game_Exit",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "47ff7a82419da0ee5aaa5bf5aba83aadc03cf7f468366bfeb7f66e084b5d7851",
+        "asm_sha256": "db4aeab949fdbc8a1c83b35490bbad567d57092b693f1454996d6b4a51ddc75a"
+      },
+      {
+        "preferred_va": "0x2bad174",
+        "ghidra_va": "02cad174",
+        "name": "Tree_manager_Game_Win",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "59bb38622e589b6fb0ae739e22ab96cbf581ef6a53b60ffeccb3efc119ba7296",
+        "asm_sha256": "3d9bd7901156118847291c39d7818cc77772e255dbe7eb7b0a857543985e5574"
+      },
+      {
+        "preferred_va": "0x2bad740",
+        "ghidra_va": "02cad740",
+        "name": "Tree_manager_Game_Fail",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "ef23f2dfb650b64bbe4db9efced21133da348d179133aceea58211fe9078f75b",
+        "asm_sha256": "2f02ef1d3cabb85f358ea6fd0059064d7822c8dbe265e822c23d6f378b02a211"
+      },
+      {
+        "preferred_va": "0x2bad6d4",
+        "ghidra_va": "02cad6d4",
+        "name": "Tree_manager_Loading_Then_Start",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "490c923cad2210860c940040af36fa5da91758b4f8669aac62610adea923caa3",
+        "asm_sha256": "92f3f07c113b372db93137f220fd08304f4ba6363c4fcefa73b0dbbfc9d474bf"
+      },
+      {
+        "preferred_va": "0x2badc38",
+        "ghidra_va": "02cadc38",
+        "name": "Tree_manager_Next_Map",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "e1522f7bce91a61e3db72236420087c76526e33b9e090dc0b55fd10a6c442212",
+        "asm_sha256": "9077e6daf5c71c15e5bf8e500b992fed6ff6cbf9b6c5a7a8ce98f48cbce15954"
+      },
+      {
+        "preferred_va": "0x2badce4",
+        "ghidra_va": "02cadce4",
+        "name": "Tree_manager_Reload_Map",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "5921c23eedc85f6040cb2ee3acb9a3f3eb056cf5d627492cd157302e8ce5323c",
+        "asm_sha256": "4760a4cd36552a9bf2803dcf73ef4a3736b831122270b0444f5977f68999f530"
+      },
+      {
+        "preferred_va": "0x2bade00",
+        "ghidra_va": "02cade00",
+        "name": "Tree_manager__ctor",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "0c896574a01f594e25a9c2b990f4e81b550bc0bfdabd5990e54d58e3ff646aca",
+        "asm_sha256": "1ced4f8fabf1f806ef98d2077f20e66fc75e08cb4a1f009c9467f078db40db59"
+      },
+      {
+        "preferred_va": "0x2bb19e0",
+        "ghidra_va": "02cb19e0",
+        "name": "_HoldUpgradeRoutine_d__36_MoveNext",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "4bd2aa91a7c4f895ddc3dbd0174c9e0fbab798be6c2202c5883d654cd41d5e35",
+        "asm_sha256": "c3eab13f214676095d22437c93fad6e275fb24d3e6b22c7810c9180c957ad400"
+      },
+      {
+        "preferred_va": "0x2bb0d4c",
+        "ghidra_va": "02cb0d4c",
+        "name": "Upgrade_Ingame_Awake",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "897f89301574113fbff78a859041c552974c31fdebdb6a0a265a1072d7d3fa02",
+        "asm_sha256": "a51c9040e6fc78b12180296e5daa79e57fc57e5b4f22be0f5a2374781683819b"
+      },
+      {
+        "preferred_va": "0x2bb0e4c",
+        "ghidra_va": "02cb0e4c",
+        "name": "Upgrade_Ingame_Reload",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "d641a3cd73ec2ca526bcc8e1e6a9cf5899a4e88c4d0b13d1a0d9c9677db46117",
+        "asm_sha256": "364a9163bac50efe2e5a289ea20e3da189b4792a9e9e24dcf61bdd1198c9071e"
+      },
+      {
+        "preferred_va": "0x2bb0ecc",
+        "ghidra_va": "02cb0ecc",
+        "name": "Upgrade_Ingame_Reload_Level",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "7fdb14dabc70465325d2015178ac3f7fde8f63a3d57575e4bb7afe4519958e3c",
+        "asm_sha256": "73331edf1d6e24f0c048464437ff9d8326c96548a7acaeabcb14d08d224eaa71"
+      },
+      {
+        "preferred_va": "0x2bb10b0",
+        "ghidra_va": "02cb10b0",
+        "name": "Upgrade_Ingame_Reload_Money",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "e825158c9761a9c52ad1940c95cae32c009a6e3f9ce48b6afa4cf3098cc38a2f",
+        "asm_sha256": "d70401da272588eb56f3fc71086ad69b5a52c4ae63e6a490390407c57a4ae8bc"
+      },
+      {
+        "preferred_va": "0x2bb154c",
+        "ghidra_va": "02cb154c",
+        "name": "Upgrade_Ingame_Touch",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "4d96f9d71b32658cfe33db0a7531866dacbd48ee644e3488f34c7dc6c362b8ff",
+        "asm_sha256": "d83f605ffb0a14db71e64ea97a9da518cedf9ada0fe98be8f14e1c2b2fc6b1d7"
+      },
+      {
+        "preferred_va": "0x2bb1884",
+        "ghidra_va": "02cb1884",
+        "name": "Upgrade_Ingame_OnPointerDown",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "a9784878c5e499b1448869c3c8d09bf0fe222a9fe5a0c929ab2c74f907ed39ed",
+        "asm_sha256": "b11eec2f7d22272fafbc5db977bce6ef91757452e602af63187b3fedd67146ad"
+      },
+      {
+        "preferred_va": "0x2bb1944",
+        "ghidra_va": "02cb1944",
+        "name": "Upgrade_Ingame_OnPointerUp",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "fc2c8f6f364a9680a2a9a56280c4791b99c4f682ddfe0d86fecfb6d2baf2a8fd",
+        "asm_sha256": "3fc89695659b66712f0cbbcb71f08ab4ae9c1a0836c784c9d2356082033f752e"
+      },
+      {
+        "preferred_va": "0x2bb1948",
+        "ghidra_va": "02cb1948",
+        "name": "Upgrade_Ingame_StopHold",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "057335079b333574254eae97ebb0d20dc99c494d3d4802610b92a8b30064e895",
+        "asm_sha256": "68a214ba6b839cce671543ecc338c880b815ccf664da2d72fab736586d17601b"
+      },
+      {
+        "preferred_va": "0x2bb19b8",
+        "ghidra_va": "02cb19b8",
+        "name": "Upgrade_Ingame__ctor",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "e686e7cd87dd62a4381e56a8aaa067e8a6f7c48d1d5dcf58b436d2760855e320",
+        "asm_sha256": "406d6072c8fb9a77e9986f8d355f4d05589e8464873efd7e3f6e5789d3010de3"
+      },
+      {
+        "preferred_va": "0x2bb1b18",
+        "ghidra_va": "02cb1b18",
+        "name": "Upgrade_list_OnEnable",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "fbcb3b4e567c99d14c3889dfa2c4056e3aa10c9d7ec98002f75d8f2edccf1e80",
+        "asm_sha256": "7513f95e28b3c9e3f1f50f813b4bea60596f990aa7fd42d11c9aafaf7ea0a19d"
+      },
+      {
+        "preferred_va": "0x2bb1bc8",
+        "ghidra_va": "02cb1bc8",
+        "name": "Upgrade_list_OnDisable",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "3c4b1a0867f954f0fd21f2d76f67ddea99a6edd65ae29f070ee204c90f4647bf",
+        "asm_sha256": "65e9794f6f43878555be480afd18b7e542bb13b0620a862461903e93a3e3bdc0"
+      },
+      {
+        "preferred_va": "0x2bb1c6c",
+        "ghidra_va": "02cb1c6c",
+        "name": "Upgrade_list_SetDirty",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "abbcd1b26c14214b26f8e699f2155b776e1ddcdb6c1a39b150d69f5854d11944",
+        "asm_sha256": "5fe177c8598f62290ae2a8c2ca286beb2149584f9392b4ebbe7c8c89a0b9953c"
+      },
+      {
+        "preferred_va": "0x2bb1c78",
+        "ghidra_va": "02cb1c78",
+        "name": "Upgrade_list_Update",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "dc244c45e21d996ed8ad0816eb9e4ddf2e6db66406a3ec2109b1e5a2065afe83",
+        "asm_sha256": "04a49f38a0034d7c31fe302f0eac81905529dafa60d7ffb485874871f0e6a596"
+      },
+      {
+        "preferred_va": "0x2bb2310",
+        "ghidra_va": "02cb2310",
+        "name": "Upgrade_list_Reload",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "d5e845bdbe4eac2665daff179c8a57e98691d7b91fd9e1c2b2171bc9929ee555",
+        "asm_sha256": "39427086d6844fbaec11ae1826903bea0a638623dd885c8c829221a83f387bfe"
+      },
+      {
+        "preferred_va": "0x2bb15b4",
+        "ghidra_va": "02cb15b4",
+        "name": "Upgrade_manager_Upgrade",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "4a6dc39178f4f97c0192c25f051293c6a083cf828a375914f079d50d7d81152a",
+        "asm_sha256": "8c692e067f90931ea140650db0539a82004d8e761592ce1928f7b93e1aaac731"
+      },
+      {
+        "preferred_va": "0x2bb2acc",
+        "ghidra_va": "02cb2acc",
+        "name": "Upgrade_manager_UI_Reload",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "7094e4a7ed530ff6564c7b23e5f0141eeb0d1047a39be355a89fb9afb5adf17e",
+        "asm_sha256": "acf0148c1f1e8dcb593c299bdc35d2b57423879ef9a40644b6084b4e6e8d4021"
+      },
+      {
+        "preferred_va": "0x2baf208",
+        "ghidra_va": "02caf208",
+        "name": "Upgrade_manager_Lv_return",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "5c99044352087e705dd38a83c40c2ee32a390666c820253c90982c284163af01",
+        "asm_sha256": "988a5add1812f4f77d8ddd7b76f8af41d088b231d0d3ba7af5b225c78a52a4b3"
+      },
+      {
+        "preferred_va": "0x2bb0710",
+        "ghidra_va": "02cb0710",
+        "name": "Upgrade_manager_Price_return",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "75d63aa63fe83c70a252fae40df5c369de31b9ab16021398880c3486a6470ee6",
+        "asm_sha256": "3122e37eb40fa2aecb78e4888028b72bf920464b437d0685649d1c398fb9f17e"
+      },
+      {
+        "preferred_va": "0x2bb1464",
+        "ghidra_va": "02cb1464",
+        "name": "Upgrade_manager_Value_str_Return",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "5a6da184c84b6dc6edcba20aabe5d692e05b72945aa628a4d925492d02e01aa5",
+        "asm_sha256": "4c02fd148fe33e388d8845e29e36a58b0909b74167a3043ad299fb019959dad1"
+      },
+      {
+        "preferred_va": "0x28f5cfc",
+        "ghidra_va": "029f5cfc",
+        "name": "Throw_NullReference_Wrapper",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "4dbe5415e169f90b0ce5055036cca1b94bf1565f8d9d2308c08bf4bd707fcb91",
+        "asm_sha256": "eec6b09062497629de85a27e3a8cad918b42764b2a1c0f544152a636461e5fdd"
+      },
+      {
+        "preferred_va": "0x28f5d04",
+        "ghidra_va": "029f5d04",
+        "name": "Throw_Index_Wrapper",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "b554c9aba53206d804e9fc370e97cf27027d10930f18eb2a6be625e055cb8dd1",
+        "asm_sha256": "5581995141036f8f8cb7598583a54ae3c1a567e77a4bbff543774e6d542c448c"
+      },
+      {
+        "preferred_va": "0x293e6a8",
+        "ghidra_va": "02a3e6a8",
+        "name": "Throw_NullReference_Create",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "07933b7cac27ee4d3e9d7c27b53882e222ed878cead5f8d79e73b3adba1fff6f",
+        "asm_sha256": "428c28c0278566bbd155390442ae395ecf5d111ac48dd41afa23cc88ab7051b2"
+      },
+      {
+        "preferred_va": "0x293e6bc",
+        "ghidra_va": "02a3e6bc",
+        "name": "Throw_NullReference_Raise",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "aded7644ecb862bc0a5476706b21810f9257b367ac0397bdc541e91af2615d80",
+        "asm_sha256": "5aafa322c11ce154d2ee31e138ead7810e48a24e419b8885131feb71851f1d71"
+      },
+      {
+        "preferred_va": "0x293e6f4",
+        "ghidra_va": "02a3e6f4",
+        "name": "Throw_Index_Raise",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "f7b9c1233cebb3659705feb97a706251cb1dd6dcac5b14dcbcd482f99b3529a7",
+        "asm_sha256": "53f08a0cd65a4fe4ba45d72673ff66e057b405fd9658b230d54ec9cb96fab4ed"
+      },
+      {
+        "preferred_va": "0x293e610",
+        "ghidra_va": "02a3e610",
+        "name": "Managed_Exception_CxaThrow",
+        "completed": "true",
+        "error": "",
+        "c_sha256": "f034685b9e5e3c23ca134caf66dd8742db361f79a48e68bfefb6bb0b28479155",
+        "asm_sha256": "79d2db030a3cd3519ea853008b8d9e435cee4ca33d345340c0a40c9ffa737b80"
+      }
+    ],
+    "meaning": "Bounded C/ASM export, not automatically restored full C# source"
+  },
+  "forest": {
+    "evidence": "exact-native",
+    "spawn_position": [
+      -100,
+      0,
+      0
+    ],
+    "base_timer_seconds": 180,
+    "wave_range": [
+      0,
+      4
+    ],
+    "advance": "waves0..3 increment; wave4 becomes next stage wave0",
+    "win_order": [
+      "gaming false",
+      "progress1",
+      "advance stage/wave",
+      "update maximum stage*10+wave",
+      "Win SFX11",
+      "Win UI on",
+      "loading coroutine"
+    ],
+    "fail_order": [
+      "gaming false",
+      "current tree progress",
+      "Fail UI on",
+      "Fail SFX12",
+      "same stage/wave loading coroutine"
+    ],
+    "loading_seconds": {
+      "at_max": [
+        2,
+        1.5,
+        0.2
+      ],
+      "below_max": [
+        1,
+        0.75,
+        0.2
+      ]
+    },
+    "loading_order": [
+      "wait",
+      "loading UI on",
+      "wait",
+      "GameStart",
+      "wait",
+      "win/fail/loading UI off"
+    ],
+    "relic_skip_original": "Strict Random.value*100<skipPercent, an extra advance only if candidate stage*10+wave<maximum; fresh profile skip0; nonneutral manager not integrated",
+    "premium_timer_original": "PlusPack.Is_Active(0) doubles timer. No production entitlement granted; current local initial profile uses180."
+  },
+  "economy": {
+    "evidence": "exact-native",
+    "credit_trigger": "Enemy.Die BEFORE Tree.Die_Reload; not particle arrival",
+    "gates": [
+      "is_Die false",
+      "is_gaming true",
+      "is_MoneyDontDrop false"
+    ],
+    "chain": [
+      "UpgradeMoney percent",
+      "RebirthMoney percent",
+      "SkinMoney percent",
+      "PetMoney percent",
+      "RelicMoney percent",
+      "active Money buff multiplier"
+    ],
+    "current_binding": "Initial neutral profile, ordinary UpgradeMoney catalogue. Nonneutral collections and buffs explicitly pending.",
+    "credits": [
+      "wallet",
+      "accumulated wallet",
+      "money changed event"
+    ],
+    "no_extra_wave_cash": true,
+    "upgrades": {
+      "types": [
+        "Power",
+        "Speed",
+        "Money"
+      ],
+      "price_source": "original10001-entry cache at current level",
+      "max_level": 10000,
+      "affordable": "wallet>=price",
+      "success": [
+        "subtract price",
+        "increment level",
+        "refresh hero damage/cooldown",
+        "refresh original panel",
+        "Upgrade SFX4",
+        "restart original animation object"
+      ],
+      "hold_delay": 0.4,
+      "hold_interval": 0.1,
+      "hold_stops": "pointer up, disable, or first failed upgrade"
+    }
+  },
+  "ui": {
+    "evidence": "exact-serialized plus exact-native control",
+    "stage_literal": "Stage {0}-{1}",
+    "stage_numbers": "stage+1,wave+1",
+    "stage_fill": "wave/4",
+    "progress_literal": "{0}%",
+    "percent": "truncate(value*100)",
+    "level_literal": "Lv.{0}",
+    "max_literal": "Max",
+    "roots": [
+      947,
+      277,
+      36876,
+      308,
+      1095,
+      746,
+      755,
+      1372,
+      38821,
+      5572,
+      5571
+    ],
+    "external_progress_roots": [
+      795,
+      57,
+      1290
+    ],
+    "external_progress_components": [
+      123917,
+      123014,
+      117282
+    ],
+    "persistent_callbacks": "Original Button.onClick→Upgrade_Ingame.Touch preserved, no duplicate runtime listener",
+    "shared_canvas": {
+      "count": 1,
+      "game_objects": 11730,
+      "original_roots": [
+        866,
+        415,
+        455
+      ],
+      "safe_area_order": {
+        "FloatingJoystick": 0,
+        "Main_UI": 1,
+        "Ingame": 7
+      },
+      "repair_report": "forest-client-canvas-merge.json",
+      "original_order_report": "original-client-ui-sibling-order.json",
+      "meaning": "Original shared ancestry merged through Editor APIs; upgrade screen positions unchanged. Actual pointer routing and world joystick checked separately."
+    },
+    "renderer": "Original MaskableGraphic, fields, directional nine-slice cell clipping restored through public VertexHelper. Atlas/material tracking, alpha hit testing and full visual parity remain compatibility boundaries."
+  },
+  "local_state": {
+    "evidence": "offline-substitute integration with recovered original codec",
+    "codec": "UTF8 JSON→Base64; .tmp/main/.bak rotation and fallback",
+    "folder": "Application.persistentDataPath/RecoveredClient-vc257",
+    "phone_save_read": false,
+    "original_161_fields_preserved": true,
+    "bound_fields": [
+      "Money",
+      "Money_Accum",
+      "Upgrade_Lv",
+      "Stage_Now",
+      "Level_Now",
+      "Stage_Value_Max",
+      "initial Selected_items"
+    ],
+    "local_autosave_seconds": 5,
+    "autosave_native_parity": false,
+    "unsupported_profiles": "rejected without replacing existing files",
+    "no_paid_or_ad_entitlements_granted": true
+  },
+  "implementation_sha256": {
+    "RecoveryForestClient": "da0948003829b555f17bf77bf29c33bfa56696e70c69b90092aa0b00f748340d",
+    "GameSlider": "4d1406264f7b210811c9fe90c119411e469a4d8e80ed7dba2c21ac9eebdae12d",
+    "SlicedFilledImage": "a7f84261b7973f0e33fde1b1ce4e477d01ea82ca9c6bae5422e932684e5de1a5",
+    "Upgrade_Ingame": "8b8b582562c5f33692fce3b09f2feb270730fa56b8f2cb3b1dbba527dd2d4678",
+    "Currency": "eede13c2127bdbabd28daacc57b1498f4d5b04f2964ab9ba9ba3b0d6a4c70874",
+    "OriginalSaveArchive": "9a2193ff6e138fac72b95b855e0cd54439bd1c92374b9a64be51285ccafddc87",
+    "OriginalBalanceCatalogue": "e2aea0848ce0878e5d7f63f94840e2db045aaaa49517ed1ee0b73ff587f747d0"
+  },
+  "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+  "original_forest_acceptance_scene_preserved": true,
+  "pending": [
+    "full Main startup and all pages",
+    "inventory/equipment changes and companions",
+    "nonneutral rebirth/pet/skin/relic/fish/buff managers",
+    "missions/season rollover/rewards",
+    "other game modes",
+    "native floating money text and tree death particle pool",
+    "original commercial InfVal precision/abbreviation",
+    "full visual/Player/phone/service acceptance"
+  ],
+  "full_client_restored": false
+}

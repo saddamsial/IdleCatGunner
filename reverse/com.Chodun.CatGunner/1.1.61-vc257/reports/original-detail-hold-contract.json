@@ -1,0 +1,298 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 arm64",
+  "inputs": [
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/assetripper-baseline/ExportedProject/Assets/Scenes/Main.unity",
+      "sha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+      "expected": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/split_config.arm64_v8a/lib/arm64-v8a/libil2cpp.so",
+      "sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+      "expected": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/base/assets/bin/Data/Managed/Metadata/global-metadata.dat",
+      "sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+      "expected": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+      "unchanged": true
+    }
+  ],
+  "native_queries": [
+    {
+      "preferred_va": "0x2b7da80",
+      "ghidra_va": "0x2c7da80",
+      "end": "0x2b7dd1c",
+      "name": "Pet_Info_UI_Reload",
+      "token": "0x6000bf8",
+      "input16": "fe67bca9f85f01a9f65702a9f44f03a9",
+      "outputs": {
+        "native-detail-hold-ui-reviewed/Pet_Info_UI_Reload.c": "8972ae0950dbe44c6fd80109e70b5dc528e8730dddab7e391a29fe688271488d",
+        "native-detail-hold-ui-reviewed/Pet_Info_UI_Reload.asm": "8de53e7f87c2ad626a16921b4231d44cdc4778692aed776eb4ace8aaf1f30627"
+      }
+    },
+    {
+      "preferred_va": "0x2b7e644",
+      "ghidra_va": "0x2c7e644",
+      "end": "0x2b7e658",
+      "name": "Pet_Info_UI_Show_LowerPet",
+      "token": "0x6000bf9",
+      "input16": "086040b9010500714b0000540cfdff17",
+      "outputs": {
+        "native-detail-hold-ui-reviewed/Pet_Info_UI_Show_LowerPet.c": "8074e880f49de3a18be3e0f94df4f953e9a8e580cfac688517cc43bd32dfe314",
+        "native-detail-hold-ui-reviewed/Pet_Info_UI_Show_LowerPet.asm": "ccd508e2ecfd1bac534eb30edf6e078cd1ff55a6105bc8333824b3ba66dc1dd2"
+      }
+    },
+    {
+      "preferred_va": "0x2b7e658",
+      "ghidra_va": "0x2c7e658",
+      "end": "0x2b7e6f0",
+      "name": "Pet_Info_UI_Show_HigherPet",
+      "token": "0x6000bfa",
+      "input16": "fe57bea9f44f01a9f4ae01d0f58e01f0",
+      "outputs": {
+        "native-detail-hold-ui-reviewed/Pet_Info_UI_Show_HigherPet.c": "1c2f914991b042f2a5be082b9941bc1f4ebb8e7361e42f2f594e490fa8b8b571",
+        "native-detail-hold-ui-reviewed/Pet_Info_UI_Show_HigherPet.asm": "47d6cd5dbdfc414fde1482ea3d0a802da720f27bbc34995e7bca4fb257be2a10"
+      }
+    },
+    {
+      "preferred_va": "0x2b7e6f0",
+      "ghidra_va": "0x2c7e6f0",
+      "end": "0x2b7e700",
+      "name": "Pet_Info_UI__ctor",
+      "token": "0x6000bfb",
+      "input16": "08008012e1031faa086000b9f991ad14",
+      "outputs": {
+        "native-detail-hold-ui-reviewed/Pet_Info_UI__ctor.c": "6f3702631e70700d0952e553c1c609295217c1756854178925cfc6f66cc2874d",
+        "native-detail-hold-ui-reviewed/Pet_Info_UI__ctor.asm": "da0564f667202247e35b3de7baa747709bece57a6087a050cafb848ee515e2ea"
+      }
+    },
+    {
+      "preferred_va": "0x2b89688",
+      "ghidra_va": "0x2c89688",
+      "end": "0x2b89800",
+      "name": "_HoldUpgradeRoutine_d__15_MoveNext",
+      "token": "0x6000cb4",
+      "input16": "e80f1dfcfe5701a9f44f02a994ae01f0",
+      "outputs": {
+        "native-detail-hold-ui-reviewed/_HoldUpgradeRoutine_d__15_MoveNext.c": "84048c2827d6aa4f01ac64009d18582fed76d821f331852d127ca09126561403",
+        "native-detail-hold-ui-reviewed/_HoldUpgradeRoutine_d__15_MoveNext.asm": "5c3b29c5f10fc40be8ba511ac757af96dba433acf85bc2b24359e3d3ec59062a"
+      }
+    },
+    {
+      "preferred_va": "0x2b88ae4",
+      "ghidra_va": "0x2c88ae4",
+      "end": "0x2b88d7c",
+      "name": "Rebirth_Upgrade_Item_Reload",
+      "token": "0x6000caa",
+      "input16": "ff0303d1fe6f07a9fa6708a9f85f09a9",
+      "outputs": {
+        "native-detail-hold-ui-reviewed/Rebirth_Upgrade_Item_Reload.c": "138bf984b8e8e6673ef0ba38f9d329f4e588f8e2e099d027562b3320265f4a4e",
+        "native-detail-hold-ui-reviewed/Rebirth_Upgrade_Item_Reload.asm": "4e2c865720271f084aab7e4006b2bdb7721730fa00621e30e88c94ad5d4fb865"
+      }
+    },
+    {
+      "preferred_va": "0x2b894e4",
+      "ghidra_va": "0x2c894e4",
+      "end": "0x2b8953c",
+      "name": "Rebirth_Upgrade_Item_Upgrade",
+      "token": "0x6000cab",
+      "input16": "fe57bea9f44f01a994ae01f0b58e0190",
+      "outputs": {
+        "native-detail-hold-ui-reviewed/Rebirth_Upgrade_Item_Upgrade.c": "bcaf47354be777d30a09d1f2f9567aa66d10cc7c48b8ba69f459106364a6266c",
+        "native-detail-hold-ui-reviewed/Rebirth_Upgrade_Item_Upgrade.asm": "539b93dd498dfac50be08dcaf1966f05d29c7bcd485951ab6b12e872e0d06c57"
+      }
+    },
+    {
+      "preferred_va": "0x2b8953c",
+      "ghidra_va": "0x2c8953c",
+      "end": "0x2b89590",
+      "name": "Rebirth_Upgrade_Item_OnHoldStart",
+      "token": "0x6000cac",
+      "input16": "fe0f1ef8f44f01a9f40300aaf30300aa",
+      "outputs": {
+        "native-detail-hold-ui-reviewed/Rebirth_Upgrade_Item_OnHoldStart.c": "2666ee5294c5b29ac9cd0c7dcbf7c5d0bbdda2b85fb5a307e4818e9472b59615",
+        "native-detail-hold-ui-reviewed/Rebirth_Upgrade_Item_OnHoldStart.asm": "d4b4fa3945cd3507732eaa95d416a744bc5f12c252786d9a2cf1fd339f7a4452"
+      }
+    },
+    {
+      "preferred_va": "0x2b895fc",
+      "ghidra_va": "0x2c895fc",
+      "end": "0x2b89600",
+      "name": "Rebirth_Upgrade_Item_OnHoldEnd",
+      "token": "0x6000cad",
+      "input16": "01000014fe0f1ef8f44f01a9f40300aa",
+      "outputs": {
+        "native-detail-hold-ui-reviewed/Rebirth_Upgrade_Item_OnHoldEnd.c": "a4c85aa29345205524400387d07933db2d30c9140380e8e713c855fe9daf9c3a",
+        "native-detail-hold-ui-reviewed/Rebirth_Upgrade_Item_OnHoldEnd.asm": "45a108c4fd36a5eda59a3b3e42d1c1fb9ae0c94d393db42632f86303ff325902"
+      }
+    },
+    {
+      "preferred_va": "0x2b89644",
+      "ghidra_va": "0x2c89644",
+      "end": "0x2b89648",
+      "name": "Rebirth_Upgrade_Item_OnDisable",
+      "token": "0x6000cae",
+      "input16": "efffff17fe0f1ef8f44f01a9f303012a",
+      "outputs": {
+        "native-detail-hold-ui-reviewed/Rebirth_Upgrade_Item_OnDisable.c": "55eca0af5126f47c217b92cad7c0b667497de8af282c45dafc7922f4bf941802",
+        "native-detail-hold-ui-reviewed/Rebirth_Upgrade_Item_OnDisable.asm": "cd75b5f3bf52ab67d6f7177c3be36bd3b7e1f71d63d5d59da8473dbc01ba27c3"
+      }
+    },
+    {
+      "preferred_va": "0x2b89600",
+      "ghidra_va": "0x2c89600",
+      "end": "0x2b89644",
+      "name": "Rebirth_Upgrade_Item_StopHold",
+      "token": "0x6000caf",
+      "input16": "fe0f1ef8f44f01a9f40300aa810e46f8",
+      "outputs": {
+        "native-detail-hold-ui-reviewed/Rebirth_Upgrade_Item_StopHold.c": "13b8420454da7a5007bce8ec7ac03288b42c6f59978c0e48c3a7225c6b3ee033",
+        "native-detail-hold-ui-reviewed/Rebirth_Upgrade_Item_StopHold.asm": "c346620de17b6bcba2683970e8976a625639b5914c76642b099b6cb296d3bd06"
+      }
+    },
+    {
+      "preferred_va": "0x2b89590",
+      "ghidra_va": "0x2c89590",
+      "end": "0x2b895fc",
+      "name": "Rebirth_Upgrade_Item_HoldUpgradeRoutine",
+      "token": "0x6000cb0",
+      "input16": "fe57bea9f44f01a994ae01f0d58e01d0",
+      "outputs": {
+        "native-detail-hold-ui-reviewed/Rebirth_Upgrade_Item_HoldUpgradeRoutine.c": "cef5b6bdddd03afd5b63159fcbae3f6dd39c326713b358b457eb38a423f72f31",
+        "native-detail-hold-ui-reviewed/Rebirth_Upgrade_Item_HoldUpgradeRoutine.asm": "aac226198c9042a1e10529e5716257c8acd982a82996b828abdf9381894a42b8"
+      }
+    },
+    {
+      "preferred_va": "0x2b89670",
+      "ghidra_va": "0x2c89670",
+      "end": "0x2b89684",
+      "name": "Rebirth_Upgrade_Item__ctor",
+      "token": "0x6000cb1",
+      "input16": "2827fff0e1031faa000540fd002c00fd",
+      "outputs": {
+        "native-detail-hold-ui-reviewed/Rebirth_Upgrade_Item__ctor.c": "9c35cbdf0ef4aea7d68e9b573d4fb5e7acd6359038aec8ce9842f2e91f354649",
+        "native-detail-hold-ui-reviewed/Rebirth_Upgrade_Item__ctor.asm": "dc80b9444d59ec26e00ce28b30849deadfdf27b9f3b80d0c8b0fe3585a8cf448"
+      }
+    },
+    {
+      "preferred_va": "0x28f5cfc",
+      "ghidra_va": "0x29f5cfc",
+      "end": "0x28f5d04",
+      "name": "Throw_NullReference_Wrapper",
+      "token": null,
+      "input16": "fe0f1ff86a220194fe0f1ff87b220194",
+      "outputs": {
+        "native-detail-hold-ui-reviewed/Throw_NullReference_Wrapper.c": "4dbe5415e169f90b0ce5055036cca1b94bf1565f8d9d2308c08bf4bd707fcb91",
+        "native-detail-hold-ui-reviewed/Throw_NullReference_Wrapper.asm": "eec6b09062497629de85a27e3a8cad918b42764b2a1c0f544152a636461e5fdd"
+      }
+    },
+    {
+      "preferred_va": "0x28f5d04",
+      "ghidra_va": "0x29f5d04",
+      "end": "0x28f5d0c",
+      "name": "Throw_Index_Wrapper",
+      "token": null,
+      "input16": "fe0f1ff87b220194c03cff90006c0191",
+      "outputs": {
+        "native-detail-hold-ui-reviewed/Throw_Index_Wrapper.c": "b554c9aba53206d804e9fc370e97cf27027d10930f18eb2a6be625e055cb8dd1",
+        "native-detail-hold-ui-reviewed/Throw_Index_Wrapper.asm": "5581995141036f8f8cb7598583a54ae3c1a567e77a4bbff543774e6d542c448c"
+      }
+    },
+    {
+      "preferred_va": "0x293e6a8",
+      "ghidra_va": "0x2a3e6a8",
+      "end": "0x293e6bc",
+      "name": "Throw_NullReference_Create",
+      "token": null,
+      "input16": "ff8300d1fffb00a9e0030091ff0300f9",
+      "outputs": {
+        "native-detail-hold-ui-reviewed/Throw_NullReference_Create.c": "07933b7cac27ee4d3e9d7c27b53882e222ed878cead5f8d79e73b3adba1fff6f",
+        "native-detail-hold-ui-reviewed/Throw_NullReference_Create.asm": "428c28c0278566bbd155390442ae395ecf5d111ac48dd41afa23cc88ab7051b2"
+      }
+    },
+    {
+      "preferred_va": "0x293e6bc",
+      "ghidra_va": "0x2a3e6bc",
+      "end": "0x293e6cc",
+      "name": "Throw_NullReference_Raise",
+      "token": null,
+      "input16": "fe0f1ff803000094e1031faad2ffff97",
+      "outputs": {
+        "native-detail-hold-ui-reviewed/Throw_NullReference_Raise.c": "aded7644ecb862bc0a5476706b21810f9257b367ac0397bdc541e91af2615d80",
+        "native-detail-hold-ui-reviewed/Throw_NullReference_Raise.asm": "5aafa322c11ce154d2ee31e138ead7810e48a24e419b8885131feb71851f1d71"
+      }
+    },
+    {
+      "preferred_va": "0x293e6f4",
+      "ghidra_va": "0x2a3e6f4",
+      "end": "0x293e704",
+      "name": "Throw_Index_Raise",
+      "token": null,
+      "input16": "fe0f1ff803000094e1031faac4ffff97",
+      "outputs": {
+        "native-detail-hold-ui-reviewed/Throw_Index_Raise.c": "f7b9c1233cebb3659705feb97a706251cb1dd6dcac5b14dcbcd482f99b3529a7",
+        "native-detail-hold-ui-reviewed/Throw_Index_Raise.asm": "53f08a0cd65a4fe4ba45d72673ff66e057b405fd9658b230d54ec9cb96fab4ed"
+      }
+    },
+    {
+      "preferred_va": "0x293e610",
+      "ghidra_va": "0x2a3e610",
+      "end": "0x293e638",
+      "name": "Managed_Exception_CxaThrow",
+      "token": null,
+      "input16": "fe4fbfa9f30300aa71ffff9700018052",
+      "outputs": {
+        "native-detail-hold-ui-reviewed/Managed_Exception_CxaThrow.c": "f034685b9e5e3c23ca134caf66dd8742db361f79a48e68bfefb6bb0b28479155",
+        "native-detail-hold-ui-reviewed/Managed_Exception_CxaThrow.asm": "79d2db030a3cd3519ea853008b8d9e435cee4ca33d345340c0a40c9ffa737b80"
+      }
+    }
+  ],
+  "completed_queries": 19,
+  "business_methods": 13,
+  "exception_helpers": 6,
+  "pet_text_literal": "+{0}%",
+  "image_set_native_size": {
+    "metadata_method_index": 115865,
+    "slot": 45,
+    "native_virtual_call_offset": "0x408 = class vtable base 0x138 + slot45 * 16"
+  },
+  "constructor_timing": {
+    "preferred_va": "0x1070008",
+    "float32_values": [
+      0.4000000059604645,
+      0.10000000149011612
+    ]
+  },
+  "rules": {
+    "pet_navigation": "0 through Pet_list.Length-1 (10 grades); includes uncollected grades; no inventory mutation or wrap",
+    "hold": "WaitForSeconds(holdDelay), check UpgradeAble, ordinary upgrade, WaitForSeconds(holdInterval), repeat; no immediate upgrade at pointer down",
+    "restart": "Stop prior coroutine before starting a fresh delay",
+    "stop": "PointerUp, PointerExit original EventTrigger -> OnHoldEnd; OnDisable -> StopHold; no affordability -> clear coroutine and stop",
+    "timing": "Original three serialized rows: holdDelay0.4, holdInterval0.04 (scaled game time)",
+    "price_color": "white if affordable, Color_Disable otherwise; max price label Max"
+  },
+  "script_metas": [
+    {
+      "type": "Pet_Info_UI",
+      "sha256": "347703cde6aa38e89a5c94455c590e0b351b616390f4f0e06ecb5cf4749adad1",
+      "original_guid_retained": true
+    },
+    {
+      "type": "Rebirth_Upgrade_Item",
+      "sha256": "1841dee1824bee384ae9b00e9ed83bd604562f21eed613c2ec882c84a7014171",
+      "original_guid_retained": true
+    }
+  ],
+  "runtime_sources": {
+    "Assets/Recovery/Scripts/Pet_Info_UI.cs": "db86a0686b8af4d0e15328b0840e5610cd491c4999f06a2c5d0cd907accebd4c",
+    "Assets/Recovery/Scripts/Rebirth_Upgrade_Item.cs": "f3b10e25bac5f82982b35fa8cf9b3d4e82aea38a497e0048a9d8223e9e75bc4b"
+  },
+  "adapters": [
+    "Existing local decimal/save/backend and feedback remain; recovered native event/coroutine semantics wired to that backend.",
+    "Editor re-enables previously disabled original pet arrow Buttons after native methods become available; original events/GUIDs unchanged."
+  ],
+  "boundary": "This slice is pet detail navigation and ordinary rebirth hold UI only. Content unlock/tutorial/WeeklyShop, remaining effects/offline consumers, device parity and online/commercial services remain pending."
+}

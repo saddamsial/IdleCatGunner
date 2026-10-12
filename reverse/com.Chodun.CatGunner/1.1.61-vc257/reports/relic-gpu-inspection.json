@@ -1,0 +1,51 @@
+{
+  "actual_pixels_inspected": true,
+  "inspected_phase": "Final actual full123/123 screenshots, manually viewed after the completed full run",
+  "screenshots": [
+    {
+      "path": "visual/relic-menu-test-gpu.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "7da63d22837b2d6fa3463c00bcb651dd7e8b6d235b29ddb790c21d3dc34ac808"
+    },
+    {
+      "path": "visual/relic-single-test-gpu.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "91f7a455cfe55d855516c240fad7e09689db9760ab19abdc768d68d1d9d59536"
+    },
+    {
+      "path": "visual/relic-upgrade-test-gpu.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "d2705bc8469c3de51af7abfc1eb17f758647a47ed7d5271bdf064b703a1e3ef6"
+    },
+    {
+      "path": "visual/relic-first-page-test-gpu.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "ce5b1ea278bb12e550ae6694244c56ddab7ca03ad82527ee2ce205b5eafdfedc"
+    },
+    {
+      "path": "visual/relic-last-page-test-gpu.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "0c831cb5f9ecab5c24c5c85584238cf7aae9654e83ccd504ce68d9be949ce7c8"
+    }
+  ],
+  "menu_currency_and_details_legible": true,
+  "twelve_card_page_and_last_page_legible": true,
+  "observations": [
+    "Original menu cards/core selectors/currency20core prices legible; source Adventure header/dispatch omitted.",
+    "Original single green Sword result and detail Lv2,0/4,Damage+15% readable; static Korean and explicit local English labels retained.",
+    "Final first page has12 original icon/core/panel cards in3x4; final last page has1 card; native arrows and actual pointer interactions passed.",
+    "Final full-run first-page title and confirm background absent at captured frame; last-page heading also absent. Earlier focused frames differ. These animation/visual details remain unaccepted despite working interactions."
+  ],
+  "unaccepted": [
+    "complete Adventure frame/dispatch/header",
+    "full I2 localization/all visual effects",
+    "whole-game pixel parity",
+    "Player/device acceptance",
+    "result title/confirm-background animation consistency across captured frames"
+  ]
+}

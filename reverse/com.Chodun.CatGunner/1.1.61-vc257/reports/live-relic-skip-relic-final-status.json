@@ -1,0 +1,77 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 41.98,
+      "summary": {
+        "total": 7,
+        "passed": 7,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalRelicTests.CoreDrawUnlockDuplicateUpgradeAndCandidateMaxFallbackRespectNativeGates",
+          "Status": "Passed",
+          "Duration": 0.0171844,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRelicTests.IndependentSaveReloadRebirthAndRaidRetainRelicsCoresAndDecimalBonuses",
+          "Status": "Passed",
+          "Duration": 16.3098129,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRelicTests.InvalidWalletProfileOverflowAndMissingFinalTableRowPreserveBeforeMutation",
+          "Status": "Passed",
+          "Duration": 0.0039389,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRelicTests.MaxBatchDrawHasCeilingPagesNativeRevealDelaysAndRealArrowNavigation",
+          "Status": "Passed",
+          "Duration": 10.5332535,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRelicTests.NativeRowsDecimalTierOrderAndSpecialTotalsMatchShippedTables",
+          "Status": "Passed",
+          "Duration": 0.0042158,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRelicTests.OriginalEntrySingleDrawDetailsAndUpgradeUseActualPointerRaycasts",
+          "Status": "Passed",
+          "Duration": 7.7308519,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalRelicTests.UnlockedRelicsChangeNaturalProjectilesCriticalBalanceAndMoneyDrop",
+          "Status": "Passed",
+          "Duration": 7.3381608,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

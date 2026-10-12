@@ -1,0 +1,296 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "businessMethods": 9,
+  "exceptionHelpers": 6,
+  "allQueriesCompleted": true,
+  "methods": [
+    {
+      "preferredVa": "0x2b49be0",
+      "end": "0x2b49cf0",
+      "name": "Mine_manager_Game_End",
+      "first16": "fe57bea9f44f01a995b001f0b4900190",
+      "sha256": "e765de53c78efd84d039e8ed99745e1d3606020f00d8abbec11c010721b5f9d6",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b49d80",
+      "end": "0x2b49f58",
+      "name": "Mine_manager_Reward_Panel_Reload",
+      "first16": "ff0301d1fe5f01a9f65702a9f44f03a9",
+      "sha256": "5471f53c6b4260dcbc0160a8d4c679bb0678159b479937f0342292f7030b260a",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b49fb0",
+      "end": "0x2b4a034",
+      "name": "Mine_manager_Bonus_Get",
+      "first16": "fe0f1ef8f44f01a994b001f0f30300aa",
+      "sha256": "167fd414b0df70e888885c08691d654fcb43d5292e66c57d8459282340c0f157",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b4de0c",
+      "end": "0x2b4e05c",
+      "name": "Monster_manager_LevelClear",
+      "first16": "fe5fbda9f65701a9f44f02a974b001f0",
+      "sha256": "1dcbe78118c69bad21cda0f2937d3f16659fc95fd87b18b83b0983d97c85bd0c",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b4fb6c",
+      "end": "0x2b4fbf0",
+      "name": "Monster_manager_Bonus_Get",
+      "first16": "fe0f1ef8f44f01a974b001b0f30300aa",
+      "sha256": "fff3ec627ffe33f3cffbdc0f7962024a916330d9f338c10e484c041128a43abb",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b4e810",
+      "end": "0x2b4e924",
+      "name": "Monster_manager_GameEnd_Panel_Reload",
+      "first16": "ffc300d1fe5701a9f44f02a974b001d0",
+      "sha256": "f02d7ddecb52654707118225e89095a0912fc282c4050548841f7970eabbdfdf",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2b92704",
+      "end": "0x2b92774",
+      "name": "Shop_manager_get_Is_RewardBonus_Auto",
+      "first16": "fe0f1ef8f44f01a954ae01d0538e01f0",
+      "sha256": "3f6d6cf91ac750ada3070162ffcf68b2c7f142dc4204c1d0fb8a745850844a64",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2ba8ed4",
+      "end": "0x2ba90e8",
+      "name": "SpeedRun_manager_Game_Win",
+      "first16": "fe0f1df8f65701a9f44f02a9b4ad0190",
+      "sha256": "b2fbc222b8d434e92cf018af9d7db3ca6d8d5525c1969400e01bd59e8d757b96",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x2ba93c0",
+      "end": "0x2ba9474",
+      "name": "SpeedRun_manager_Bonus_Get",
+      "first16": "fe0f1ef8f44f01a994ad01f0f30300aa",
+      "sha256": "2c3b2cb042e50c9f0a9809f70f97f6898be2fd0aab14eec0237d98052e55851b",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x28f5cfc",
+      "end": "0x28f5d04",
+      "name": "Throw_NullReference_Wrapper",
+      "first16": "fe0f1ff86a220194fe0f1ff87b220194",
+      "sha256": "fd826c34b9ef2518b1f3f6d39e7562b9946c1a4ca9651bc3c25e81558d412348",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x28f5d04",
+      "end": "0x28f5d0c",
+      "name": "Throw_Index_Wrapper",
+      "first16": "fe0f1ff87b220194c03cff90006c0191",
+      "sha256": "4443063a785929eff8fbdd73652167a28163cc8bee6d193aa1d2d34ba13cefaa",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x293e6a8",
+      "end": "0x293e6bc",
+      "name": "Throw_NullReference_Create",
+      "first16": "ff8300d1fffb00a9e0030091ff0300f9",
+      "sha256": "cdbf0bcca450bcc5619d3bedfd51ab6ee40fa3f25845c22f256f2b52ded52c13",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x293e6bc",
+      "end": "0x293e6cc",
+      "name": "Throw_NullReference_Raise",
+      "first16": "fe0f1ff803000094e1031faad2ffff97",
+      "sha256": "5ca19850cf19c59741f496304fb81f88760711935ae81e9878b9291de917db2c",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x293e6f4",
+      "end": "0x293e704",
+      "name": "Throw_Index_Raise",
+      "first16": "fe0f1ff803000094e1031faac4ffff97",
+      "sha256": "cc88e424aa2cedbec18e703dcec784e753947ba52264006468b82ee358e7e4dd",
+      "completed": true
+    },
+    {
+      "preferredVa": "0x293e610",
+      "end": "0x293e638",
+      "name": "Managed_Exception_CxaThrow",
+      "first16": "fe4fbfa9f30300aa71ffff9700018052",
+      "sha256": "3baf58d6dd416adb6ec9a1aa884940ecdc8bcb00a7fd1ff5efd9d6fd84aa48a1",
+      "completed": true
+    }
+  ],
+  "automaticBonusField": {
+    "index": 35898,
+    "name": "Is_Remove_AD_All",
+    "raw_type_index": 26070,
+    "token": "0x4000da7",
+    "signature": {
+      "kind": 2,
+      "attrs": 22,
+      "byref": false,
+      "pointer": "0x5f45280",
+      "name": "System.Boolean"
+    },
+    "native_offset": 9,
+    "attribute_types": [],
+    "serialization_visibility": false
+  },
+  "originalButtons": [
+    {
+      "name": "Bonus_Btn",
+      "active": true,
+      "buttons": [
+        {
+          "name": "Bonus_Btn",
+          "callbacks": [
+            {
+              "target": "SpeedRun_manager",
+              "method": "Bonus_AD_Show"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NoAds_Btn",
+      "active": false,
+      "buttons": [
+        {
+          "name": "NoAds_Btn",
+          "callbacks": [
+            {
+              "target": "SpeedRun_manager",
+              "method": "Game_Exit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Skip_obj",
+      "active": true,
+      "buttons": [
+        {
+          "name": "Exit_Btn",
+          "callbacks": [
+            {
+              "target": "SpeedRun_manager",
+              "method": "Game_Exit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bonus_Btn",
+      "active": true,
+      "buttons": [
+        {
+          "name": "Bonus_Btn",
+          "callbacks": [
+            {
+              "target": "Mine_manager",
+              "method": "Bonus_AD_Show"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NoAds_Btn",
+      "active": false,
+      "buttons": [
+        {
+          "name": "NoAds_Btn",
+          "callbacks": [
+            {
+              "target": "Mine_manager",
+              "method": "Game_Exit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Skip_obj",
+      "active": true,
+      "buttons": [
+        {
+          "name": "Exit_Btn",
+          "callbacks": [
+            {
+              "target": "Mine_manager",
+              "method": "Game_Exit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bonus_Btn",
+      "active": true,
+      "buttons": [
+        {
+          "name": "Bonus_Btn",
+          "callbacks": [
+            {
+              "target": "Monster_manager",
+              "method": "Bonus_AD_Show"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NoAds_Btn",
+      "active": false,
+      "buttons": [
+        {
+          "name": "NoAds_Btn",
+          "callbacks": [
+            {
+              "target": "Monster_manager",
+              "method": "Game_Exit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Skip_obj",
+      "active": true,
+      "buttons": [
+        {
+          "name": "Exit_Btn",
+          "callbacks": [
+            {
+              "target": "Monster_manager",
+              "method": "Game_Exit"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "nativeRules": {
+    "entitlement": "Shop_manager.get_Is_RewardBonus_Auto: static Is_Remove_AD_All offset9 OR FreeCash.RewardAdRemoved; forced-only offset8 excluded",
+    "speedrun": "Game_Win stage+1 once; automatic pays base30*4=120 now; regular pays30 now then Bonus_Get adds90. Toggle Bonus/Skip off and NoAds on for auto. No PlusPack multiplier on30.",
+    "mine": "Reward_Panel_Reload: base=Dia_Score/10 int division; Best_Reward=max(previous,base); Reward_Value=(int)(base*PlusPack mine multiplier); automatic pays Reward_Value*4 now, regular base now and Bonus_Get adds3x; ticket and mission count unchanged",
+    "monster": "LevelClear adds base PlusPack reward to PetCoin_Accum and HUD, but awards base*2 for automatic, base otherwise. At end text base and base*2, automaticNoAds versus Bonus/Skip; no second payout on end. Ordinary Bonus_Get adds PetCoin_Accum once.",
+    "buttons": "All three original NoAds_Btn persistent callbacks target corresponding Game_Exit; no scene changes required",
+    "idempotence": "Existing playing/clearing and local claimed/scene/page guards prevent repeated victory/clear/end/ad callbacks. Auto settlement marks claimed before exposing original return."
+  },
+  "adapters": [
+    "User-authorized shared local ad/purchase simulators; no real payment/ad SDK/production account or receipts",
+    "FreeCash promotional entitlement remains unavailable and is not fabricated",
+    "Existing DecimalAmount, mode combat, local clock/save adapters remain bounded; no full InfVal/native services parity",
+    "Tests distinguish manually specified score/settlement fixtures from actual natural projectile/timer/clear observations"
+  ],
+  "scopeComplete": false
+}

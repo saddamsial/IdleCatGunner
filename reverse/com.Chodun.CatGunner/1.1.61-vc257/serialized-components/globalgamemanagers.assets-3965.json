@@ -1,0 +1,218 @@
+{
+  "identity": {
+    "file": "globalgamemanagers.assets",
+    "path_id": 3965,
+    "type_index": 9896,
+    "type": "UnityEngine.Rendering.Universal.ColorCurves",
+    "game_object": "ColorCurves"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 0,
+      "m_PathID": 974
+    },
+    "m_Name": "ColorCurves",
+    "active": true,
+    "master": {
+      "m_OverrideState": true,
+      "m_Value": {
+        "<length>k__BackingField": 2,
+        "m_Loop": false,
+        "m_ZeroValue": 0.0,
+        "m_Range": 1.0,
+        "m_Curve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inSlope": 1.0,
+              "outSlope": 1.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 1.0,
+              "inSlope": 1.0,
+              "outSlope": 1.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        }
+      }
+    },
+    "red": {
+      "m_OverrideState": true,
+      "m_Value": {
+        "<length>k__BackingField": 2,
+        "m_Loop": false,
+        "m_ZeroValue": 0.0,
+        "m_Range": 1.0,
+        "m_Curve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inSlope": 1.0,
+              "outSlope": 1.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 1.0,
+              "inSlope": 1.0,
+              "outSlope": 1.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        }
+      }
+    },
+    "green": {
+      "m_OverrideState": true,
+      "m_Value": {
+        "<length>k__BackingField": 2,
+        "m_Loop": false,
+        "m_ZeroValue": 0.0,
+        "m_Range": 1.0,
+        "m_Curve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inSlope": 1.0,
+              "outSlope": 1.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 1.0,
+              "inSlope": 1.0,
+              "outSlope": 1.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        }
+      }
+    },
+    "blue": {
+      "m_OverrideState": true,
+      "m_Value": {
+        "<length>k__BackingField": 2,
+        "m_Loop": false,
+        "m_ZeroValue": 0.0,
+        "m_Range": 1.0,
+        "m_Curve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inSlope": 1.0,
+              "outSlope": 1.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 1.0,
+              "inSlope": 1.0,
+              "outSlope": 1.0,
+              "weightedMode": 0,
+              "inWeight": 0.0,
+              "outWeight": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        }
+      }
+    },
+    "hueVsHue": {
+      "m_OverrideState": true,
+      "m_Value": {
+        "<length>k__BackingField": 0,
+        "m_Loop": true,
+        "m_ZeroValue": 0.5,
+        "m_Range": 1.0,
+        "m_Curve": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        }
+      }
+    },
+    "hueVsSat": {
+      "m_OverrideState": true,
+      "m_Value": {
+        "<length>k__BackingField": 0,
+        "m_Loop": true,
+        "m_ZeroValue": 0.5,
+        "m_Range": 1.0,
+        "m_Curve": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        }
+      }
+    },
+    "satVsSat": {
+      "m_OverrideState": true,
+      "m_Value": {
+        "<length>k__BackingField": 0,
+        "m_Loop": false,
+        "m_ZeroValue": 0.5,
+        "m_Range": 1.0,
+        "m_Curve": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        }
+      }
+    },
+    "lumVsSat": {
+      "m_OverrideState": true,
+      "m_Value": {
+        "<length>k__BackingField": 0,
+        "m_Loop": false,
+        "m_ZeroValue": 0.5,
+        "m_Range": 1.0,
+        "m_Curve": {
+          "m_Curve": [],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2,
+          "m_RotationOrder": 4
+        }
+      }
+    }
+  }
+}

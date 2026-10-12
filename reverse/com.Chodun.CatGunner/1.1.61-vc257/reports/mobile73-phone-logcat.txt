@@ -1,0 +1,205 @@
+--------- beginning of main
+E/Zygote  (20546): process_name_ptr:20546 com.ravanla.idlecatgunner.recovery
+E/Zygote  (20546): SetMemoryProtected process_name_ptr:20546 com.ravanla.idlecatgunner.recovery
+I/gunner.recovery(20546): Using CollectorTypeCC GC.
+E/gunner.recovery(20546): Not starting debugger since process cannot load the jdwp agent.
+D/nativeloader(20546): Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+I/MessageMonitor(20546): Load libmiui_runtime
+--------- beginning of system
+D/MiuiDownscaleImpl(20546): set override inverted scale : 1.0
+D/AppScoutStateMachine(20546): 20546-ScoutStateMachinecreated
+I/JavaheapMonitor(20546): Java heap monitor start.
+D/MiuiMonitorThread(20546): Shared singleton Thread for stability monitor start
+D/ActivityThread(20546): setEmbeddedParam packageName=com.ravanla.idlecatgunner.recovery processName=com.ravanla.idlecatgunner.recovery isEmbedded=false isIsolated=false
+D/nativeloader(20546): Configuring clns-7 for other apk /data/app/~~osojqSvY67wy3VA6_tTSCQ==/com.ravanla.idlecatgunner.recovery-3iqO30YEhUGC5ylh3rGpEA==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~osojqSvY67wy3VA6_tTSCQ==/com.ravanla.idlecatgunner.recovery-3iqO30YEhUGC5ylh3rGpEA==/lib/arm64:/data/app/~~osojqSvY67wy3VA6_tTSCQ==/com.ravanla.idlecatgunner.recovery-3iqO30YEhUGC5ylh3rGpEA==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.ravanla.idlecatgunner.recovery
+I/Perf    (20546): Connecting to perf service.
+V/GraphicsEnvironment(20546): Currently set values for:
+V/GraphicsEnvironment(20546):   angle_gl_driver_selection_pkgs=[]
+V/GraphicsEnvironment(20546):   angle_gl_driver_selection_values=[]
+V/GraphicsEnvironment(20546): Global.Settings values are invalid: number of packages: 0, number of values: 0
+V/GraphicsEnvironment(20546): App is not on the allowlist for updatable production driver.
+I/ActivityThread(20546): TrafficStats init done
+I/ForceDarkHelperStubImpl(20546): initialize for com.ravanla.idlecatgunner.recovery , ForceDarkOrigin
+D/nativeloader(20546): Load libforcedarkimpl.so using system ns (caller=/system_ext/framework/miui-framework.jar): ok
+D/HWUI    (20546): JNI_OnLoad success
+I/MiuiForceDarkConfig(20546): setConfig density:3.500000, mainRule:0, secondaryRule:0, tertiaryRule:0
+I/ActivityThread(20546): Miui Feature Init done
+D/nativeloader(20546): Load /data/app/~~osojqSvY67wy3VA6_tTSCQ==/com.ravanla.idlecatgunner.recovery-3iqO30YEhUGC5ylh3rGpEA==/lib/arm64/libgame.so using ns clns-7 from class loader (caller=/data/app/~~osojqSvY67wy3VA6_tTSCQ==/com.ravanla.idlecatgunner.recovery-3iqO30YEhUGC5ylh3rGpEA==/base.apk): ok
+D/GameActivity(20546): GameActivity_register
+D/AppCompatDelegate(20546): Checking for metadata for AppLocalesMetadataHolderService : Service not found
+D/MiuiMultiWindowUtils(20546): freeform resolution args raw data:{  "wide_default":{    "freeform_args": {        "vertical_portrait":{"aspect_ratio":0.626, "original_ratio":0.5643,"original_scale":0.74,"top_margin":0.168,"left_margin":0.484},        "horizontal_portrait":{"aspect_ratio":0.626, "original_ratio":0.5643,"original_scale":0.74,"top_margin":0.1222,"left_margin":0.59745},        "vertical_landscape":{"aspect_ratio":1.6, "original_ratio":1,"original_scale":0.604,"top_margin":0.2596,"left_margin":0.2624},        "horizontal_landscape":{"aspect_ratio":1.6, "original_ratio":1,"original_scale":0.604,"top_margin":0.213,"left_margin":0.3758}    },    "mini_freeform_args":{        "vertical_portrait":{"original_ratio":0.147},        "horizontal_portrait":{"original_ratio":0.147},        "vertical_landscape":{"original_ratio":0.165},        "horizontal_landscape":{"original_ratio":0.165}    }  },  "narrow_default": {    "freeform_args": {        "vertical_portrait":{"aspect_ratio":0.626, "original_ratio":1,"original_scale":0.74,"top_margin":0.0753,"left_margin":-1},        "horizontal_portrait":{"aspect_ratio":0.626, "original_ratio":1,"original_scale":0.5756,"top_margin":-1,"left_margin":0.0753},        "vertical_landscape":{"aspect_ratio":1.6, "original_ratio":0.6847,"original_scale":0.587,"top_margin":0.0753,"left_margin":-1},        "horizontal_landscape":{"aspect_ratio":1.6, "original_ratio":0.6847,"original_scale":0.587,"top_margin":-1,"left_margin":0.0753}    },    "mini_freeform_args":{        "vertical_portrait":{"original_ratio":0.26},        "horizontal_portrait":{"original_ratio":0.26},        "vertical_landscape":{"original_ratio":0.293},        "horizontal_landscape":{"original_ratio":0.293}    }  },  "regular_default": {    "freeform_args": {      "vertical_portrait":{"aspect_ratio":0.625, "original_ratio":1,"original_scale":0.7,"top_margin":0.109,"left_margin":-1},      "horizontal_portrait":{"aspect_ratio":0.6667, "original_ratio":1,"original_scale":0.6102,"top_margin":-1,"left_margin":0.026},      "vertical_landscape":{"aspect_ratio":1.6, "original_ratio":1,"original_scale":0.4244,"top_margin":0.109,"left_margin":-1},      "horizontal_landscape":{"aspect_ratio":1.6, "original_ratio":1,"original_scale":0.4244,"top_margin":-1,"left_margin":0.026}    },    "mini_freeform_args":{      "vertical_portrait":{"original_ratio":0.25},      "horizontal_portrait":{"original_ratio":0.25},      "vertical_landscape":{"original_ratio":0.25},      "horizontal_landscape":{"original_ratio":0.25}    }  },  "pad_default": {    "freeform_args": {      "vertical_portrait":{"aspect_ratio":0.5625, "original_ratio":0.375,"original_scale":0.835,"top_margin":0.049,"left_margin":0.2775},      "horizontal_portrait":{"aspect_ratio":0.5625, "original_ratio":0.375,"original_scale":0.835,"top_margin":-1,"left_margin":0.6525},      "vertical_landscape":{"aspect_ratio":-1, "original_ratio":1,"original_scale":0.468,"top_margin":0.049,"left_margin":-1},      "horizontal_landscape":{"aspect_ratio":-1, "original_ratio":1,"original_scale":0.468,"top_margin":-1,"left_margin":0.4976}    },    "mini_freeform_args":{      "vertical_portrait":{"original_ratio":0.144},      "horizontal_portrait":{"original_ratio":0.144},      "vertical_landscape":{"original_ratio":0.2},      "horizontal_landscape":{"original_ratio":0.2}    }  }}
+D/MiuiMultiWindowUtils(20546): initFreeFormResolutionArgs failed, device is shennong
+D/IS_CTS_MODE(20546): false
+D/MULTI_WINDOW_SWITCH_ENABLED(20546): false
+D/gti.InputConnection(20546): InputConnection created
+D/gti.InputConnection(20546): setEditorInfo
+D/nativeloader(20546): Load /data/app/~~osojqSvY67wy3VA6_tTSCQ==/com.ravanla.idlecatgunner.recovery-3iqO30YEhUGC5ylh3rGpEA==/lib/arm64/libmain.so using ns clns-7 from class loader (caller=/data/app/~~osojqSvY67wy3VA6_tTSCQ==/com.ravanla.idlecatgunner.recovery-3iqO30YEhUGC5ylh3rGpEA==/base.apk): ok
+I/IL2CPP  (20546): JNI_OnLoad
+V/Unity   (20546): Context Type: GameActivity
+I/GameActivity(20546): Looking for library libgame.so
+I/GameActivity(20546): Found library libgame.so. Loading...
+D/GameActivity(20546): SDK version: 35
+I/Unity   (20546): UnityApplication::CreateInstance
+I/Unity   (20546): GameActivity Package Version '4.4.0'
+I/Unity   (20546): Starting Game Loop
+I/Unity   (20546): Handle cmd APP_CMD_START(11)
+D/nativeloader(20546): Configuring clns-8 for other apk /system_ext/app/miuisystem/miuisystem.apk. target_sdk_version=34, uses_libraries=ALL, library_path=/product/app/ContentCatcherOS2/lib/arm64:/product/app/ContentCatcherOS2/ContentCatcherOS2.apk!/lib/arm64-v8a:/system_ext/priv-app/RtMiCloudSDK/RtMiCloudSDK.apk!/lib/arm64-v8a:/system_ext/app/miuisystem/miuisystem.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+D/nativeloader(20546): Extending system_exposed_libraries: libbinauralrenderer_wrapper.qti.so:libhoaeffects.qti.so:libmisys_jni.xiaomi.so:libpag.hyperos.so:libffavc.hyperos.so:libxiaomi_modemdumpsdx55_jni.modem.so:libxiaomi_modemdump_jni.modem.so:libmodemsmartengine_jni.modem.so:libupdateprof.qti.so:libthermalclient.qti.so:libdiag_system.qti.so:libqape.qti.so:libqesdk_ndk_platform.qti.so:liblistenjni.qti.so
+W/libc    (20546): Access denied finding property "ro.vendor.df.effect.conflict"
+I/Unity   (20546): Handle cmd APP_CMD_RESUME(12)
+W/gunner.recovery(20546): type=1400 audit(0.0:532049): avc:  denied  { read } for  name="u:object_r:vendor_displayfeature_prop:s0" dev="tmpfs" ino=479 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:vendor_displayfeature_prop:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+D/nativeloader(20546): Configuring clns-9 for other apk /system_ext/priv-app/RtMiCloudSDK/RtMiCloudSDK.apk. target_sdk_version=34, uses_libraries=ALL, library_path=/product/app/ContentCatcherOS2/lib/arm64:/product/app/ContentCatcherOS2/ContentCatcherOS2.apk!/lib/arm64-v8a:/system_ext/priv-app/RtMiCloudSDK/RtMiCloudSDK.apk!/lib/arm64-v8a:/system_ext/app/miuisystem/miuisystem.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+D/nativeloader(20546): Extending system_exposed_libraries: libbinauralrenderer_wrapper.qti.so:libhoaeffects.qti.so:libmisys_jni.xiaomi.so:libpag.hyperos.so:libffavc.hyperos.so:libxiaomi_modemdumpsdx55_jni.modem.so:libxiaomi_modemdump_jni.modem.so:libmodemsmartengine_jni.modem.so:libupdateprof.qti.so:libthermalclient.qti.so:libdiag_system.qti.so:libqape.qti.so:libqesdk_ndk_platform.qti.so:liblistenjni.qti.so
+W/ziparchive(20546): Unable to open '/system/framework/QXPerformance.dm': No such file or directory
+W/ziparchive(20546): Unable to open '/system/framework/QXPerformance.dm': No such file or directory
+D/ApplicationLoaders(20546): Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+D/ApplicationLoaders(20546): Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+D/ApplicationLoaders(20546): Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+D/RenderLite(20546): trim renderNode enable: false
+D/nativeloader(20546): InitLlndkLibrariesProduct: libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libRS.so:libandroid_net.so:libapexsupport.so:libbinder_ndk.so:libc.so:libcgrouprc.so:libclang_rt.asan-aarch64-android.so:libclang_rt.asan-arm-android.so:libclang_rt.hwasan-aarch64-android.so:libcom.android.tethering.connectivity_native.so:libdl.so:libft2.so:liblog.so:libm.so:libmediandk.so:libnativewindow.so:libneuralnetworks.so:libselinux.so:libsync.so:libvendorsupport.so:libvndksupport.so:libvulkan.so
+D/nativeloader(20546): Configuring product-clns-10 for unbundled product apk /product/app/ContentCatcherOS2/ContentCatcherOS2.apk. target_sdk_version=34, uses_libraries=, library_path=/product/app/ContentCatcherOS2/lib/arm64:/product/app/ContentCatcherOS2/ContentCatcherOS2.apk!/lib/arm64-v8a:/system_ext/priv-app/RtMiCloudSDK/RtMiCloudSDK.apk!/lib/arm64-v8a:/system_ext/app/miuisystem/miuisystem.apk!/lib/arm64-v8a:/product/lib64:/system/product/lib64, permitted_path=/data:/mnt/expand:/product/lib64:/system/product/lib64
+D/nativeloader(20546): InitVndkspLibrariesProduct: VNDK is deprecated with product
+D/FramePredict(20546): FramePredict init: false
+D/FramePredict(20546): init success
+W/libc    (20546): Access denied finding property "vendor.boostfwk.frameprefetcher"
+I/ViewRootImpl(20546): com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity use first frame acceleration
+D/ViewContentFactory(20546): initViewContentFetcherClass
+D/ViewContentFactory(20546): getInterceptorPackageInfo
+D/ViewContentFactory(20546): getInitialApplication took 0ms
+D/ViewContentFactory(20546): packageInfo.packageName: com.miui.contentcatcher
+D/ViewContentFactory(20546): initViewContentFetcherClass took 0ms
+I/ContentCatcher(20546): ViewContentFetcher : ViewContentFetcher
+D/ViewContentFactory(20546): createInterceptor took 0ms
+E/FramePredict(20546): registerContentObserver fail
+I/ContentCatcher(20546): Interceptor_Catcher : Catcher list invalid for com.ravanla.idlecatgunner.recovery@com.unity3d.player.UnityPlayerGameActivity@205120843
+I/ContentCatcher(20546): Interceptor_Catcher : Get featureInfo from config image_pick_mode
+I/ContentCatcher(20546): Interceptor_Catcher : Get featureInfo from config pick_mode
+I/ContentCatcher(20546): SettingTrigger : register screen QA status observer com.unity3d.player.UnityPlayerGameActivity
+I/ContentCatcher(20546): SettingTrigger : register global collect status observer com.unity3d.player.UnityPlayerGameActivity
+I/ContentCatcher_TaplusBlackListHelper(20546):  mActivities isEmpty
+I/ContentCatcher_TaplusBlackListHelper(20546):  blackList size: 13 package is com.ravanla.idlecatgunner.recovery isInTaplusWhiteList: true
+D/DecorViewImmersiveImpl(20546): onAttachedToWindow:com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity
+V/GameActivity(20546): onImeInsetsChanged from Text Listener
+I/Unity   (20546): Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+D/AChoreographer(20546): Attaching thread to JVM for AChoreographer
+W/libc    (20546): Access denied finding property "vendor.gpp.create_frc_extension"
+V/GameActivity(20546): onImeInsetsChanged from Text Listener
+I/Unity   (20546): Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+I/Unity   (20546): Handle cmd APP_CMD_CONTENT_RECT_CHANGED(5)
+D/VRI[UnityPlayerGameActivity](20546): vri.reportNextDraw android.view.ViewRootImpl.performTraversals:4949 android.view.ViewRootImpl.doTraversal:3549 android.view.ViewRootImpl$TraversalRunnable.run:11526 android.view.Choreographer$CallbackRecord.run:1717 android.view.Choreographer$CallbackRecord.run:1726 
+D/SurfaceView(20546): UPDATE null, mIsCastMode = false
+V/ViewRootImplStubImpl(20546): enableSyncSurfaceView: do not sync surface view, vri:com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity, surfaceView:SurfaceView[com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity], vri size:1440x3200, surfaceView size:1440x3200
+W/libc    (20546): Access denied finding property "vendor.gpp.create_frc_extension"
+I/Unity   (20546): Handle cmd APP_CMD_INIT_WINDOW(1)
+D/VRI[UnityPlayerGameActivity](20546): vri.Setup new sync=wmsSync-VRI[UnityPlayerGameActivity]#1
+I/Unity   (20546): MemoryManager: Using 'Dynamic Heap' Allocator.
+I/Unity   (20546): SystemInfo CPU = ARM64 FP ASIMD AES, Cores = 8, Memory = 15160mb
+I/Unity   (20546): SystemInfo ARM big.LITTLE configuration: 6 big (mask: 0xfc), 2 little (mask: 0x3)
+I/Unity   (20546): ApplicationInfo 'com.ravanla.idlecatgunner.recovery', Version '0.73.0', Min API Level '26', Target API Level '36'
+I/Unity   (20546): Built from '6000.4/staging' branch, Version '6000.4.10f1 (feeafc12a938)', Build type 'Release', Scripting Backend 'il2cpp', CPU 'arm64-v8a', Stripping 'Enabled'
+W/gunner.recovery(20546): type=1400 audit(0.0:532050): avc:  denied  { read } for  name="libubwcp.so" dev="dm-13" ino=19816953 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+I/Unity   (20546): Device Model 'Xiaomi 23116PN5BC', OS 'Android OS 15 (API 35)'
+W/qdgralloc(20546): Failed to load libubwcp.so
+W/gunner.recovery(20546): type=1400 audit(0.0:532051): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+D/VRI[UnityPlayerGameActivity](20546): vri.reportDrawFinished
+I/Choreographer(20546): first vsync insert message into MessageQueue Head
+D/SurfaceView(20546): UPDATE Surface(name=SurfaceView[com.ravanla.idlecatgunner.recovery/com.unity3d.player.UnityPlayerGameActivity]#126195)/@0xc0836e7, mIsProjectionMode = false
+D/ViewRootImplStubImpl(20546): requestedTypes: 1
+D/VRI[UnityPlayerGameActivity](20546): vri.reportNextDraw android.view.ViewRootImpl.handleResized:2762 android.view.ViewRootImpl.-$$Nest$mhandleResized:0 android.view.ViewRootImpl$W.resized:12678 android.app.servertransaction.WindowStateResizeItem.execute:64 android.app.servertransaction.WindowStateTransactionItem.execute:59 
+D/VRI[UnityPlayerGameActivity](20546): vri.Setup new sync=wmsSync-VRI[UnityPlayerGameActivity]#3
+W/gunner.recovery(20546): type=1400 audit(0.0:532052): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+D/VRI[UnityPlayerGameActivity](20546): vri.reportDrawFinished
+I/HandWritingStubImpl(20546): refreshLastKeyboardType: 1
+I/HandWritingStubImpl(20546): getCurrentKeyboardType: 1
+I/HandWritingStubImpl(20546): getCurrentKeyboardType: 1
+W/gunner.recovery(20546): type=1400 audit(0.0:532053): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+I/Unity   (20546): Company Name: Ravanla
+I/Unity   (20546): Product Name: CatGunner 恢复试玩
+W/libc    (20546): Access denied finding property "vendor.migl.debug"
+D/libMiGL (20546): SuperResolution SR initSR mBaseSRWidthSize: 0, mBaseSRHeightSize: 0, mTargetSRWidthSize: 0, mTargetSRHeightSize: 0
+I/libMiGL (20546): EnableDR: 0
+D/libMiGL (20546): mDFIInterval: -1
+V/GameActivity(20546): onImeInsetsChanged from Text Listener
+I/AdrenoGLES-0(20546): QUALCOMM build                   : 0c7c4b37d5, I3988f0db60
+I/AdrenoGLES-0(20546): Build Date                       : 10/18/24
+I/AdrenoGLES-0(20546): OpenGL ES Shader Compiler Version: E031.45.02.19
+I/AdrenoGLES-0(20546): Local Branch                     : 
+I/AdrenoGLES-0(20546): Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.VENDOR.14.3.0.R1.00.00.00.000.168
+I/AdrenoGLES-0(20546): Remote Branch                    : NONE
+I/AdrenoGLES-0(20546): Reconstruct Branch               : NOTHING
+I/AdrenoGLES-0(20546): Build Config                     : S P 16.1.2 AArch64
+I/AdrenoGLES-0(20546): Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+I/AdrenoGLES-0(20546): Driver Version                   : 0762.30
+I/AdrenoGLES-0(20546): Process Name                     : com.ravanla.idlecatgunner.recovery
+I/AdrenoGLES-0(20546): PFP: 0x01520175, ME: 0x01520023
+I/AdrenoUtils(20546): <ReadGpuID:357>: Reading chip ID through GSL
+D/nativeloader(20546): Load liblibswappywrapper.so using ns clns-7 from class loader (caller=/data/app/~~osojqSvY67wy3VA6_tTSCQ==/com.ravanla.idlecatgunner.recovery-3iqO30YEhUGC5ylh3rGpEA==/base.apk): dlopen failed: library "liblibswappywrapper.so" not found
+D/nativeloader(20546): Load /data/app/~~osojqSvY67wy3VA6_tTSCQ==/com.ravanla.idlecatgunner.recovery-3iqO30YEhUGC5ylh3rGpEA==/lib/arm64/libswappywrapper.so using ns clns-7 from class loader (caller=/data/app/~~osojqSvY67wy3VA6_tTSCQ==/com.ravanla.idlecatgunner.recovery-3iqO30YEhUGC5ylh3rGpEA==/base.apk): ok
+I/SwappyWrapper(20546): SwappyWrapperInit() succeeded. Build: Mon Oct 12 15:56:17 2026
+E/SwappyDisplayManager(20546): dalvik.system.InMemoryDexClassLoader[DexPathList[[dex file "InMemoryDexFile[cookie=[-5476376613695136016, -5476376613426491600]]"],nativeLibraryDirectories=[/system/lib64, /system_ext/lib64]]] couldn't find "libgame.so"
+I/SwappyDisplayManager(20546): Starting looper thread
+I/AAudio  (20546): AAudioStreamBuilder_openStream() called ----------------------------------------
+I/AudioStreamBuilder(20546): rate   =  24000, channels  = 2, channelMask = 0x80000003, format   = 5, sharing = SH, dir = OUTPUT
+I/AudioStreamBuilder(20546): device =      0, sessionId = 0, perfMode = 12, callback: ON with frames = 512
+I/AudioStreamBuilder(20546): usage  =      0, contentType = 0, inputPreset = 0, allowedCapturePolicy = 0
+I/AudioStreamBuilder(20546): privacy sensitive = false, opPackageName = (null), attributionTag = (null)
+D/AudioStreamBuilder(20546): build() MMAP not used because sessionId specified.
+D/gunner.recovery(20546): PlayerBase::PlayerBase()
+D/AudioStreamTrack(20546): open(), request notificationFrames = 0, frameCount = 8192
+D/AudioTrackStub(20546): AudioTrackStub() create
+I/AudioTrackImpl(20546): initAudioTrackImpl()
+D/AudioTrackImpl(20546): binder call: getPackageName com.ravanla.idlecatgunner.recovery for uid 10631
+D/AudioTrack(20546): set(): (sessionId=0), mcallback is 1, streamType -1, sampleRate 24000, format 0x5, channelMask 0x3, frameCount 8192, flags 0x4, notificationFrames 0,transferType 1, mClientAttributionSource AttributionSourceState{pid: -1, uid: -1, deviceId: 0, packageName: com.ravanla.idlecatgunner.recovery, attributionTag: (null), token: (null), renouncedPermissions: (null), next: []}
+D/AudioTrackImpl(20546): [APM]-AT reScheduleCpu() cpuSet=248 tid=13874
+E/libprocessgroup(20546): set_timerslack_ns write failed: Operation not permitted
+I/AudioTrackImpl(20546): before scaleVolumeForVideo L:1.000000 R:1.000000 and the pakage is com.ravanla.idlecatgunner.recovery
+I/AudioTrack(20546): AudioTrack::setVolume L:1.000000 R:1.000000 sessionid=48897
+D/AudioStreamTrack(20546): open() flags changed from 0x00000004 to 0x00000000
+D/AudioStreamTrack(20546): open() perfMode changed from 12 to 10
+D/AAudioStream(20546): setState(s#1) from 0 to 2
+I/AAudio  (20546): AAudioStreamBuilder_openStream() returns 0 = AAUDIO_OK for s#1 ----------------
+D/AAudio  (20546): AAudioStream_requestStart(s#1) called --------------
+D/AAudioStream(20546): setState(s#1) from 2 to 3
+I/AudioTrack(20546): start(6670): prior state:STATE_STOPPED packageName: com.ravanla.idlecatgunner.recovery
+D/AudioTrackImpl(20546): [APM]-AT reScheduleCpu() cpuSet=248 tid=13775
+D/AAudio  (20546): AAudioStream_requestStart(s#1) returned 0 ---------
+V/xlog_client(20546): xlog_check_permission event name audio_track_message level 0
+V/xlog_client(20546): xlog_check_permission event name audio_repeat_start_stop level 0
+V/xlog_client(20546): xlog_check_permission event name audio_zero_data level 0
+D/AudioStreamLegacy(20546): onAudioDeviceUpdate(deviceId = 3)
+D/AAudioStream(20546): setState(s#1) from 3 to 4
+W/InteractionJankMonitor(20546): Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.ravanla.idlecatgunner.recovery
+I/Unity   (20546):     HasWindow = 1, HasFocus = 0
+I/Unity   (20546): Handle cmd APP_CMD_WINDOW_RESIZED(3)
+I/Unity   (20546): Handle cmd APP_CMD_WINDOW_REDRAW_NEEDED(4)
+I/Unity   (20546): Handle cmd APP_CMD_GAINED_FOCUS(7)
+I/Unity   (20546): Handle cmd APP_CMD_WINDOW_INSETS_CHANGED(17)
+V/MediaRouter(20546): Selecting route: RouteInfo{ name=手机, description=null, status=null, category=RouteCategory{ name=系统 types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+I/MediaRouter(20546): Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=true, BT route=null
+W/UnityGfxDeviceW(20546): type=1400 audit(0.0:532054): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(20546): type=1400 audit(0.0:532070): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(20546): type=1400 audit(0.0:532071): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(20546): type=1400 audit(0.0:532072): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(20546): type=1400 audit(0.0:532073): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(20546): type=1400 audit(0.0:532074): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+D/AudioTrackImpl(20546): [audioTrackData][zero] 1s(f:0 m:0 s:0 k:0 z:1012) : pid 20546 uid 10631 sessionId 48897 sr 24000 ch 2 fmt 5
+I/IL2CPP  (20546): Locale zh-CN
+W/UnityGfxDeviceW(20546): type=1400 audit(0.0:532101): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(20546): type=1400 audit(0.0:532102): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(20546): type=1400 audit(0.0:532103): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(20546): type=1400 audit(0.0:532104): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(20546): type=1400 audit(0.0:532105): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+D/AudioTrackImpl(20546): [audioTrackData][zero] 2s(f:0 m:0 s:0 k:0 z:2012) : pid 20546 uid 10631 sessionId 48897 sr 24000 ch 2 fmt 5
+D/GameActivity(20546): ************** mainWorkCallback *********
+D/gti.InputConnection(20546): setSoftKeyboardActive, active: false
+I/ImeTracker(20546): com.ravanla.idlecatgunner.recovery:34f5777d: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+I/HandWritingStubImpl(20546): getCurrentKeyboardType: 1
+D/nativeloader(20546): Load /data/app/~~osojqSvY67wy3VA6_tTSCQ==/com.ravanla.idlecatgunner.recovery-3iqO30YEhUGC5ylh3rGpEA==/lib/arm64/lib_burst_generated.so using ns clns-7 from class loader (caller=/data/app/~~osojqSvY67wy3VA6_tTSCQ==/com.ravanla.idlecatgunner.recovery-3iqO30YEhUGC5ylh3rGpEA==/base.apk): ok
+D/nativeloader(20546): Load liblib_burst_0_0.so using ns clns-7 from class loader (caller=/data/app/~~osojqSvY67wy3VA6_tTSCQ==/com.ravanla.idlecatgunner.recovery-3iqO30YEhUGC5ylh3rGpEA==/base.apk): dlopen failed: library "liblib_burst_0_0.so" not found
+D/nativeloader(20546): Load lib_burst_0_0.so using ns clns-7 from class loader (caller=/data/app/~~osojqSvY67wy3VA6_tTSCQ==/com.ravanla.idlecatgunner.recovery-3iqO30YEhUGC5ylh3rGpEA==/base.apk): dlopen failed: library "lib_burst_0_0.so" not found
+D/AudioTrackImpl(20546): [audioTrackData][zero] 3s(f:0 m:0 s:0 k:0 z:3012) : pid 20546 uid 10631 sessionId 48897 sr 24000 ch 2 fmt 5
+W/UnityGfxDeviceW(20546): type=1400 audit(0.0:532119): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(20546): type=1400 audit(0.0:532120): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(20546): type=1400 audit(0.0:532121): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(20546): type=1400 audit(0.0:532122): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery
+W/UnityGfxDeviceW(20546): type=1400 audit(0.0:532123): avc:  denied  { getattr } for  path="/sys/module/metis/parameters/minor_window_app" dev="sysfs" ino=77904 scontext=u:r:untrusted_app:s0:c119,c258,c512,c768 tcontext=u:object_r:sysfs_migt:s0 tclass=file permissive=0 app=com.ravanla.idlecatgunner.recovery

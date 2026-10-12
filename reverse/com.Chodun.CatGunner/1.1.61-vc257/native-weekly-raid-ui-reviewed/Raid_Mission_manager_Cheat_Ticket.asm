@@ -1,0 +1,10 @@
+02c551f8  stp x30,x19,[sp, #-0x10]!
+02c551fc  mov x19,x0
+02c55200  mov x0,xzr
+02c55204  bl 0x02b92498
+02c55208  tbz w0,#0x0,0x02c55218
+02c5520c  mov x0,x19
+02c55210  ldp x30,x19,[sp], #0x10
+02c55214  b 0x02c54d8c
+02c55218  ldp x30,x19,[sp], #0x10
+02c5521c  ret

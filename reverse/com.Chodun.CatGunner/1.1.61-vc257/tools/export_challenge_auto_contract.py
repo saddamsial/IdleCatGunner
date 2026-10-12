@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+"""Byte-check vc257 native end/clear reward branches and original result callbacks."""
+import csv,hashlib,json
+from map_game_methods import ROOT as R,native,raw
+Q=R/'reports';D=R/'native-challenge-auto-client-reviewed';rows=list(csv.DictReader((D/'status.tsv').open(),delimiter='\t'))
+assert len(rows)==15 and all(x['completed']=='true' and not x['error'] for x in rows)
+methods=[]
+for va,label,prefix,end in [x.split('\t') for x in (Q/'native-challenge-auto-client-queries.tsv').read_text().splitlines()]:
+ start=int(va,16);stop=int(end,16);assert native[raw(start):raw(start)+16].hex()==prefix
+ for ext in ['c','asm']:assert (D/f'{label}.{ext}').exists()
+ methods.append({'preferredVa':va,'end':end,'name':label,'first16':prefix,'sha256':hashlib.sha256(native[raw(start):raw(start)+stop-start]).hexdigest(),'completed':True})
+types=json.loads((Q/'resolved-type-schema.json').read_text());field=next(f for x in types if x['name']=='Shop_manager' for f in x['fields'] if f['name']=='Is_Remove_AD_All');assert field['native_offset']==9
+buttons=json.loads((Q/'challenge-auto-original-buttons.json').read_text())
+assert all(x['buttons'][0]['callbacks'][0]['method']=='Game_Exit' for x in buttons if x['name']=='NoAds_Btn')
+out={'target':'com.Chodun.CatGunner 1.1.61 vc257 ARM64','businessMethods':9,'exceptionHelpers':6,'allQueriesCompleted':True,'methods':methods,'automaticBonusField':field,'originalButtons':buttons,'nativeRules':{'entitlement':'Shop_manager.get_Is_RewardBonus_Auto: static Is_Remove_AD_All offset9 OR FreeCash.RewardAdRemoved; forced-only offset8 excluded','speedrun':'Game_Win stage+1 once; automatic pays base30*4=120 now; regular pays30 now then Bonus_Get adds90. Toggle Bonus/Skip off and NoAds on for auto. No PlusPack multiplier on30.','mine':'Reward_Panel_Reload: base=Dia_Score/10 int division; Best_Reward=max(previous,base); Reward_Value=(int)(base*PlusPack mine multiplier); automatic pays Reward_Value*4 now, regular base now and Bonus_Get adds3x; ticket and mission count unchanged','monster':'LevelClear adds base PlusPack reward to PetCoin_Accum and HUD, but awards base*2 for automatic, base otherwise. At end text base and base*2, automaticNoAds versus Bonus/Skip; no second payout on end. Ordinary Bonus_Get adds PetCoin_Accum once.','buttons':'All three original NoAds_Btn persistent callbacks target corresponding Game_Exit; no scene changes required','idempotence':'Existing playing/clearing and local claimed/scene/page guards prevent repeated victory/clear/end/ad callbacks. Auto settlement marks claimed before exposing original return.'},'adapters':['User-authorized shared local ad/purchase simulators; no real payment/ad SDK/production account or receipts','FreeCash promotional entitlement remains unavailable and is not fabricated','Existing DecimalAmount, mode combat, local clock/save adapters remain bounded; no full InfVal/native services parity','Tests distinguish manually specified score/settlement fixtures from actual natural projectile/timer/clear observations'],'scopeComplete':False}
+(Q/'challenge-auto-native-contract.json').write_text(json.dumps(out,ensure_ascii=False,indent=2));print({'queries':15,'business':9,'helpers':6,'allCompleted':True})

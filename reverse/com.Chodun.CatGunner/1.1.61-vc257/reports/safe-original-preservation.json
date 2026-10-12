@@ -1,0 +1,49 @@
+{
+  "frozen_inputs_unchanged": true,
+  "inputs": [
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/assetripper-baseline/ExportedProject/Assets/Scenes/Main.unity",
+      "sha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+      "expected": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/split_config.arm64_v8a/lib/arm64-v8a/libil2cpp.so",
+      "sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+      "expected": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/base/assets/bin/Data/Managed/Metadata/global-metadata.dat",
+      "sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+      "expected": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+      "unchanged": true
+    }
+  ],
+  "original_metas_verified": 4,
+  "metas": [
+    {
+      "name": "Safe_manager",
+      "source": "6a12de505fb7680d629d053cf1283e33cb175446964bbda88c4c55793690612e",
+      "working": "6a12de505fb7680d629d053cf1283e33cb175446964bbda88c4c55793690612e"
+    },
+    {
+      "name": "Safe_UI",
+      "source": "0a2f6b0a49b74a3ae8cb3c8ec588a3e0108d07de7e416dc04e5a21e28b0bec81",
+      "working": "0a2f6b0a49b74a3ae8cb3c8ec588a3e0108d07de7e416dc04e5a21e28b0bec81"
+    },
+    {
+      "name": "Safe_HUD",
+      "source": "efcf73a560ef23ed371578edeb48a9dc1457e007c73ba824facfd0640d40baa3",
+      "working": "efcf73a560ef23ed371578edeb48a9dc1457e007c73ba824facfd0640d40baa3"
+    },
+    {
+      "name": "Safe_Slot",
+      "source": "43635cdac9e80d8495b98a70819802c7b525af1f174c8e27e1e8212012414f28",
+      "working": "43635cdac9e80d8495b98a70819802c7b525af1f174c8e27e1e8212012414f28"
+    }
+  ],
+  "working_scene_sha256": "1a7d0cb7cc4b4309aefa0b4754a31d5bc37d8e0ac01746881431c33f96a454eb",
+  "scene_restoration": "safe-client-scene-restoration.json",
+  "old_scene_snapshot": "../checkpoints/pre-safe-client/RecoveredClient.unity"
+}

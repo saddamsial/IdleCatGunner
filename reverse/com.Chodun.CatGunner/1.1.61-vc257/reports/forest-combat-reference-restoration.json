@@ -1,0 +1,23 @@
+{
+  "scene": "Assets/Recovery/Scenes/RecoveredForest.unity",
+  "target": "Target",
+  "target_original_game_object": 1748,
+  "guns": 65,
+  "all_gun_muzzles": true,
+  "current_gun": 27,
+  "current_muzzle": "Muzzle",
+  "particle_material_repairs": [
+    "Compatibility material | original=magic_line_ADD | texture=Assets/Texture2D/magic_line.png | override=Assets/Recovery/ParticleMaterials/4fb2667e811c0ea4ab365ccc06f022ee.mat; original compiled shader not reconstructed",
+    "Compatibility material | original=glow1_ADD | texture=Assets/Texture2D/glow1.png | override=Assets/Recovery/ParticleMaterials/e79b9a00dea744047a441fe7dd401c40.mat; original compiled shader not reconstructed"
+  ],
+  "target_sprite_shader": "Sprites/Default",
+  "target_animation": "Original serialized DOTween animation not integrated; static marker only",
+  "gun_bounce": "Bounce",
+  "rebound_bounce": "Rebound_Pivot",
+  "gun_info_original_type": "LASER",
+  "damage_original": "0",
+  "targeted": true,
+  "automatic_attacks_enabled": false,
+  "scene_objects": 11602,
+  "boundary": "Original initial laser/zero damage retained. Normal continuous attacks require explicit SINGLE/equipment/damage input; original equipment/balance loading, auto movement and full Cat.Update pending"
+}

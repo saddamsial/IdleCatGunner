@@ -1,0 +1,321 @@
+{
+  "target": "com.Chodun.CatGunner 1.1.61/vc257/arm64",
+  "frozen_inputs": [
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/assetripper-baseline/ExportedProject/Assets/Scenes/Main.unity",
+      "sha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/split_config.arm64_v8a/lib/arm64-v8a/libil2cpp.so",
+      "sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/base/assets/bin/Data/Managed/Metadata/global-metadata.dat",
+      "sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+      "unchanged": true
+    }
+  ],
+  "methods": [
+    {
+      "name": "Setting_EcoMode_Change",
+      "preferred_va": "0x2b21548",
+      "ghidra_va": "0x2c21548",
+      "exclusive_bound": "0x2b21688",
+      "first16bytes_verified": true,
+      "query": "native-eco-mode-queries.tsv",
+      "c": "native-eco-mode-panel-reviewed/Setting_EcoMode_Change.c",
+      "c_sha256": "55d24d8f796ed78eb84e172de9315523ec8f24f3b6b6b64832b475c8ff93b2fb",
+      "asm_sha256": "d23eb2bd328a776a9ec4134780df7579972240f78eaf986fdae8a50e203f0f57"
+    },
+    {
+      "name": "Setting_EcoMode_Off",
+      "preferred_va": "0x2b21688",
+      "ghidra_va": "0x2c21688",
+      "exclusive_bound": "0x2b216e8",
+      "first16bytes_verified": true,
+      "query": "native-eco-mode-queries.tsv",
+      "c": "native-eco-mode-panel-reviewed/Setting_EcoMode_Off.c",
+      "c_sha256": "89df6b0a2c417ed7c97d3847c8482c57c4d2559a0d2d431a29a00137815a803a",
+      "asm_sha256": "8fb5c91b54ebb816d967ad4eaa67b0a55a39ff5fe36ec3151277e32f9b17c3a1"
+    },
+    {
+      "name": "Mute_Panel_OnEnable",
+      "preferred_va": "0x2b44ac8",
+      "ghidra_va": "0x2c44ac8",
+      "exclusive_bound": "0x2b44b14",
+      "first16bytes_verified": true,
+      "query": "native-eco-mode-panel-queries.tsv",
+      "c": "native-eco-mode-panel-reviewed/Mute_Panel_OnEnable.c",
+      "c_sha256": "43cfae550fde9444f073abbf01679819e31393d60490b8f4737b8989f2a011e2",
+      "asm_sha256": "49fb1bfb73b2ec1974f81913d58fa9fc211476dc906e8a57e42a3855ccb736c8"
+    },
+    {
+      "name": "Mute_Panel_OnDisable",
+      "preferred_va": "0x2b44b14",
+      "ghidra_va": "0x2c44b14",
+      "exclusive_bound": "0x2b44b5c",
+      "first16bytes_verified": true,
+      "query": "native-eco-mode-panel-queries.tsv",
+      "c": "native-eco-mode-panel-reviewed/Mute_Panel_OnDisable.c",
+      "c_sha256": "d457b0b307c79c88bd0e33e53d48f94d019132d17aaee34445730660e4e2104f",
+      "asm_sha256": "e97e66600a7c9360bb5bde239292d8e487fefbf1b0940af1db7bbc260e1511ee"
+    },
+    {
+      "name": "Cat_Attack",
+      "preferred_va": "0x2b3d4ac",
+      "ghidra_va": "0x2c3d4ac",
+      "exclusive_bound": "0x2b3d9a0",
+      "first16bytes_verified": true,
+      "query": "native-missile-queries.tsv",
+      "c": "native-cat-initialization/Cat_Attack.c",
+      "c_sha256": "b9e602e1e80aaced8d81b49ac213eb9e1f32594bb5a0cf0a9afa5c90408d15c6",
+      "asm_sha256": "b8d0f5f16b3baf6505695162e7abca1a924fdcc1b6278e88ece9c6876f3ce8a0"
+    },
+    {
+      "name": "Scrolling_Start",
+      "preferred_va": "0x2b27404",
+      "ghidra_va": "0x2c27404",
+      "exclusive_bound": "0x2b2745c",
+      "first16bytes_verified": true,
+      "query": "native-settlement-scrolling-queries.tsv",
+      "c": "native-settlement-scrolling-reviewed/Scrolling_Start.c",
+      "c_sha256": "f1c31399e2a8145d051ed60f7cdef298cb9ddb4253aa99706fd2372419b60a87",
+      "asm_sha256": "7ebe94746f48fb8f8578f0e5005244d568e26d7c5e373f1cbe9da4b0b2be6bbd"
+    },
+    {
+      "name": "Scrolling_Update",
+      "preferred_va": "0x2b2745c",
+      "ghidra_va": "0x2c2745c",
+      "exclusive_bound": "0x2b274e8",
+      "first16bytes_verified": true,
+      "query": "native-settlement-scrolling-queries.tsv",
+      "c": "native-settlement-scrolling-reviewed/Scrolling_Update.c",
+      "c_sha256": "5287448be19ee5a71fdfb5493e77fe5f523f60ca1c41bcb578333cbb7ff02c90",
+      "asm_sha256": "443a59eff7de717180bbdfbaa06b511cbb4f2bbbf341574107f378a7525f2e38"
+    },
+    {
+      "name": "SpeedRun_manager_Game_Enter",
+      "preferred_va": "0x2ba8828",
+      "ghidra_va": "0x2ca8828",
+      "exclusive_bound": "0x2ba8b2c",
+      "first16bytes_verified": true,
+      "query": "native-speedrun-client-queries.tsv",
+      "c": "native-speedrun-client-reviewed/SpeedRun_manager_Game_Enter.c",
+      "c_sha256": "7aa78b35e5972ac57ae229787a254463296be5f10decf58000187f4d51cf59ae",
+      "asm_sha256": "368166fb8c546e2c9925753e17d431a91a386984f012f0d386d58a32f3027b69"
+    },
+    {
+      "name": "Boss_manager_Game_Enter",
+      "preferred_va": "0x2b45fdc",
+      "ghidra_va": "0x2c45fdc",
+      "exclusive_bound": "0x2b461d0",
+      "first16bytes_verified": true,
+      "query": "native-boss-client-queries.tsv",
+      "c": "native-boss-client-reviewed/Boss_manager_Game_Enter.c",
+      "c_sha256": "461bf612f6377c08a1b5848f35de39df21153e5c90811e1e836a52942f3fee53",
+      "asm_sha256": "6fd3cad1128bcd2bfc05b446060723e1146eaf1ba2cf527e8b5577146542c4eb"
+    },
+    {
+      "name": "Mine_manager_Game_Enter",
+      "preferred_va": "0x2b4957c",
+      "ghidra_va": "0x2c4957c",
+      "exclusive_bound": "0x2b49874",
+      "first16bytes_verified": true,
+      "query": "native-mine-client-queries.tsv",
+      "c": "native-mine-client-reviewed/Mine_manager_Game_Enter.c",
+      "c_sha256": "830ef30e99a4661b456d444161c26434dca0dd4982b252e4465c26dbd03e4e30",
+      "asm_sha256": "9e93fe5fc12de08c7e58919d97aa0eede483080cc6d9e1cf04d28d4fa2f7f12c"
+    },
+    {
+      "name": "Monster_manager_Game_Enter",
+      "preferred_va": "0x2b4d7a4",
+      "ghidra_va": "0x2c4d7a4",
+      "exclusive_bound": "0x2b4d9f8",
+      "first16bytes_verified": true,
+      "query": "native-monster-client-queries.tsv",
+      "c": "native-monster-client-reviewed/Monster_manager_Game_Enter.c",
+      "c_sha256": "1ee5fa53cab7500d4fb0ce4320e16e6f472bcd975bb0d927a6e901cd78ee7dff",
+      "asm_sha256": "212d24002f0526ada43adca4d12fbe4515ee97ec4dd2a1196d8a2035ddc284b9"
+    },
+    {
+      "name": "Raid_manager_Game_Enter",
+      "preferred_va": "0x2b577f8",
+      "ghidra_va": "0x2c577f8",
+      "exclusive_bound": "0x2b57ad4",
+      "first16bytes_verified": true,
+      "query": "native-raid-client-queries.tsv",
+      "c": "native-raid-client-reviewed/Raid_manager_Game_Enter.c",
+      "c_sha256": "e4ca69710944695c9915a93d96ddee745ed4a62088bea2f8edc9207eac97b15a",
+      "asm_sha256": "380642dab73f22ac80e0811dac81a19828a8da9e4984129594e6fabd7d8fcd95"
+    }
+  ],
+  "native_export_status": {
+    "business": 4,
+    "helpers": 6,
+    "completed": 10
+  },
+  "fields": {
+    "Setting": [
+      {
+        "name": "EcoMode_Btn_img",
+        "token": "0x400051f",
+        "native_offset": 168,
+        "serialization_visibility": true
+      },
+      {
+        "name": "EcoCat_img",
+        "token": "0x4000520",
+        "native_offset": 176,
+        "serialization_visibility": true
+      },
+      {
+        "name": "ExoMode_Color_Disable",
+        "token": "0x4000521",
+        "native_offset": 184,
+        "serialization_visibility": true
+      },
+      {
+        "name": "ExoMode_Color_Able",
+        "token": "0x4000522",
+        "native_offset": 200,
+        "serialization_visibility": true
+      },
+      {
+        "name": "Camera_obj",
+        "token": "0x4000523",
+        "native_offset": 216,
+        "serialization_visibility": true
+      },
+      {
+        "name": "EcoPanel_obj",
+        "token": "0x4000524",
+        "native_offset": 224,
+        "serialization_visibility": true
+      },
+      {
+        "name": "is_eco",
+        "token": "0x4000525",
+        "native_offset": 16,
+        "serialization_visibility": false
+      }
+    ],
+    "Cat_manager": [
+      {
+        "name": "is_Shoot_Mute",
+        "token": "0x40007d3",
+        "native_offset": 0,
+        "serialization_visibility": false
+      }
+    ],
+    "Skin_manager": [
+      {
+        "name": "Selected_num",
+        "token": "0x4000ea6",
+        "native_offset": 48,
+        "serialization_visibility": true
+      },
+      {
+        "name": "Skin_sprites",
+        "token": "0x4000ead",
+        "native_offset": 80,
+        "serialization_visibility": true
+      },
+      {
+        "name": "instance",
+        "token": "0x4000eaf",
+        "native_offset": 16,
+        "serialization_visibility": false
+      }
+    ]
+  },
+  "type_usage_proof": {
+    "Ghidra_PTR_05e5d5b0": "ELF 0x5d5d5b0 relocation -> cell 0x5ea6b68 -> encoded 0x2000cf55 -> kind1/type26538 = Cat_manager; static offset0 is is_Shoot_Mute",
+    "Ghidra_PTR_05e62670": "encoded 0x200135f3 -> type39673 Setting; static is_eco offset0x10",
+    "Ghidra_PTR_05e5d4e0": "encoded 0x200138a3 -> type40017 Skin_manager; static instance0x10, Selected_num0x30, Skin_sprites0x50"
+  },
+  "rules": {
+    "EcoMode_Change": "XOR static is_eco; use original enabled/disabled image colors; original Main Camera GO350 active=!is_eco; original EcoPanel GO694 active=is_eco; sprite=Skin_sprites[Selected_num] on both transitions. No gameplay/timeScale/FPS/rewards/persistence mutation.",
+    "EcoMode_Off": "Only calls Change if currently enabled; otherwise returns without touching UI/sprite.",
+    "Mute_Panel": "OnEnable sets Cat_manager.is_Shoot_Mute=true; OnDisable false. Native Cat.Attack retains projectile/recoil/muzzle FX and calls Shoot SFX only when !is_Shoot_Mute && !Setting.is_eco. BGM/other SFX unchanged by these gates.",
+    "exit": "Source Main_UI order puts EcoMode_Panel_UI before Btn_list. Same original EcoMode_Btn remains reachable and invokes Change. No invented full-screen tap exit; frozen scene contains no EcoMode_Off persistent callback.",
+    "mode_entry": "Five native Game_Enter bodies call Setting.EcoMode_Off after Tree.Game_Exit and before arena setup. Common RecoveryForestClient.SuspendForestForMode now reconnects that call before arena methods access Camera.main.",
+    "settings": "Original Setting_Btn opens GO3171, Close_Btn closes it, and native mute toggles use six original ON/OFF objects. Existing local audio preference bridge retained; cloud/restore/email controls disabled when unsupported.",
+    "scroll": "Original Hatch source137352 and Scrolling124384, Speed(-.1,-.1), source Pattern texture retained.",
+    "animation": "Two source DOTween records 125065/123640: infinite Yoyo/InOutQuad/scaled-time; cat scale1s to(1.05,.85,1), text anchoredPosition2s to(0,120,0). Explicit local RecoveryEcoTween presenters reproduce source parameters; SDK lifecycle not reconstructed."
+  },
+  "original_roots": [
+    9651,
+    694,
+    1069,
+    1810
+  ],
+  "preserved_assets": [
+    {
+      "asset": "Assets/Recovery/Scripts/Setting.cs.meta",
+      "sha256": "1762b4282169dab3a968a51c775dcb1c96e1b2375cd9d66c434f6aa4ff348a97",
+      "original_meta_preserved": true
+    },
+    {
+      "asset": "Assets/Recovery/Scripts/Mute_Panel.cs.meta",
+      "sha256": "c5236d6c1dbc6e53aa2cbb387418a205cee55f026ae6830a1bc625fde8199183",
+      "original_meta_preserved": true
+    },
+    {
+      "asset": "Assets/Recovery/Scripts/Scrolling.cs.meta",
+      "sha256": "583b09bb342d35340d9cef79722a7f80887dcad4cc550236c9dd956d5775db86",
+      "original_meta_preserved": true
+    },
+    {
+      "asset": "Assets/Recovery/Scripts/Hatch.cs.meta",
+      "sha256": "47bd005d01c2b6a9f8bbdd75200a4e169a8561f9b4ef4faf56ee0e7301200de3",
+      "original_meta_preserved": true
+    },
+    {
+      "asset": "Assets/Sprite/ui 1 (Small.asset.meta",
+      "sha256": "a8b2d361cd45a5bfa7050bfa8d80517a6771ab24b89787d6a9b87e806daa6f3b",
+      "byte_identical": true
+    },
+    {
+      "asset": "Assets/Sprite/ui 1 (Small.asset",
+      "sha256": "e92c883e1cf88bfc9e0e6590eb76f7fd5e37de3229e415ea5841af9a921b0493",
+      "byte_identical": true
+    },
+    {
+      "asset": "Assets/Sprite/Setting.asset.meta",
+      "sha256": "f1a4b8e4a1e6ba8a04829c1ec447da22091a7b3e8e1fcec5568463b02864550c",
+      "byte_identical": true
+    },
+    {
+      "asset": "Assets/Sprite/Setting.asset",
+      "sha256": "a9c9023ef032fb9026e500f4ee8914945e00b6fe39b1da0faddf948c2698410b",
+      "byte_identical": true
+    },
+    {
+      "asset": "Assets/Texture2D/Cat_Foot.png.meta",
+      "sha256": "95604b81df785abc0d328d77175c6eeeb57d4c9feb5b7696a2a6c0e5c2a0b43e",
+      "byte_identical": true
+    },
+    {
+      "asset": "Assets/Texture2D/Cat_Foot.png",
+      "sha256": "54df06226b611497319b2cb7e16cdabbaf4f31b177637dc1fa5f64df1edf22b1",
+      "byte_identical": true
+    }
+  ],
+  "adapters": [
+    "Runtime scene-unload state cleanup; never persists Eco mode.",
+    "Existing local audio PlayerPrefs bridge, now exposed in normal client; nonserialized test-only PersistPreferences=false prevents fixture writes.",
+    "Two local tween presenters reset on reopen; source SDK autoKill/tween lifetime not reconstructed.",
+    "Unconfigured commercial/online/email actions remain disabled."
+  ],
+  "remaining": [
+    "OfflineProgressManager/Simulator and offline relic consumer",
+    "Missing relic table row300",
+    "Six remaining absent tutorial HUD controls",
+    "Remaining UI/effects/localization and numeric consumers",
+    "SDK/cloud/online/trusted clock",
+    "Player/device/power consumption acceptance"
+  ],
+  "scope_complete": false
+}

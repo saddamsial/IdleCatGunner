@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "duration": 10.32,
+  "summary": {
+    "total": 1,
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalMonsterSweepTests.OriginalSweepAdvancesMonsterProgressAndPaysPetCoin",
+      "Status": "Failed",
+      "Duration": 9.5798597,
+      "Message": "  Expected: greater than 0\n  But was:  0\n",
+      "StackTrace": "at OriginalMonsterSweepTests+<OriginalSweepAdvancesMonsterProgressAndPaysPetCoin>d__8.MoveNext () [0x000b8] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMonsterSweepTests.cs:42\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "identity": {
+    "file": "level0",
+    "path_id": 137998,
+    "type_index": 7198,
+    "type": "DamageTextAnimationSetting",
+    "game_object": "Text_Setting"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 8804
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 3217
+    },
+    "m_Name": "",
+    "settings": [
+      {
+        "key": "money",
+        "setting": {
+          "m_FileID": 2,
+          "m_PathID": 960
+        }
+      },
+      {
+        "key": "damage",
+        "setting": {
+          "m_FileID": 2,
+          "m_PathID": 961
+        }
+      },
+      {
+        "key": "dia",
+        "setting": {
+          "m_FileID": 2,
+          "m_PathID": 962
+        }
+      },
+      {
+        "key": "critical",
+        "setting": {
+          "m_FileID": 2,
+          "m_PathID": 963
+        }
+      }
+    ],
+    "renderCamera": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "minSortingOrder": 1000
+  }
+}

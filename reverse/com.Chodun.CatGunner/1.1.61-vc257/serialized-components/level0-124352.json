@@ -1,0 +1,785 @@
+{
+  "identity": {
+    "file": "level0",
+    "path_id": 124352,
+    "type_index": 7284,
+    "type": "Mission_manager",
+    "game_object": "Mission_maanger"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 1146
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 370
+    },
+    "m_Name": "",
+    "Mission_list": [
+      {
+        "Name": "0.나무 부수기",
+        "type": 0,
+        "MissionValue": 100,
+        "ExpValue": 10,
+        "Mission_Exp_Get": false,
+        "Mission_Exp_Get_Luxury": false,
+        "is_VIP_Mission": false
+      },
+      {
+        "Name": "1.나무 부수기",
+        "type": 0,
+        "MissionValue": 300,
+        "ExpValue": 10,
+        "Mission_Exp_Get": false,
+        "Mission_Exp_Get_Luxury": false,
+        "is_VIP_Mission": false
+      },
+      {
+        "Name": "2.나무 부수기",
+        "type": 0,
+        "MissionValue": 700,
+        "ExpValue": 10,
+        "Mission_Exp_Get": false,
+        "Mission_Exp_Get_Luxury": false,
+        "is_VIP_Mission": false
+      },
+      {
+        "Name": "3.나무 부수기",
+        "type": 0,
+        "MissionValue": 2000,
+        "ExpValue": 10,
+        "Mission_Exp_Get": false,
+        "Mission_Exp_Get_Luxury": false,
+        "is_VIP_Mission": false
+      },
+      {
+        "Name": "4.나무 부수기",
+        "type": 0,
+        "MissionValue": 10000,
+        "ExpValue": 10,
+        "Mission_Exp_Get": false,
+        "Mission_Exp_Get_Luxury": false,
+        "is_VIP_Mission": false
+      },
+      {
+        "Name": "5.나무 부수기",
+        "type": 0,
+        "MissionValue": 20000,
+        "ExpValue": 10,
+        "Mission_Exp_Get": false,
+        "Mission_Exp_Get_Luxury": false,
+        "is_VIP_Mission": false
+      },
+      {
+        "Name": "6.스테이지 클리어",
+        "type": 1,
+        "MissionValue": 5,
+        "ExpValue": 10,
+        "Mission_Exp_Get": false,
+        "Mission_Exp_Get_Luxury": false,
+        "is_VIP_Mission": false
+      },
+      {
+        "Name": "7.스테이지 클리어",
+        "type": 1,
+        "MissionValue": 15,
+        "ExpValue": 10,
+        "Mission_Exp_Get": false,
+        "Mission_Exp_Get_Luxury": false,
+        "is_VIP_Mission": false
+      },
+      {
+        "Name": "8.스테이지 클리어",
+        "type": 1,
+        "MissionValue": 25,
+        "ExpValue": 10,
+        "Mission_Exp_Get": false,
+        "Mission_Exp_Get_Luxury": false,
+        "is_VIP_Mission": false
+      },
+      {
+        "Name": "9.스테이지 클리어",
+        "type": 1,
+        "MissionValue": 50,
+        "ExpValue": 10,
+        "Mission_Exp_Get": false,
+        "Mission_Exp_Get_Luxury": false,
+        "is_VIP_Mission": false
+      },
+      {
+        "Name": "10.스테이지 클리어",
+        "type": 1,
+        "MissionValue": 100,
+        "ExpValue": 10,
+        "Mission_Exp_Get": false,
+        "Mission_Exp_Get_Luxury": false,
+        "is_VIP_Mission": false
+      },
+      {
+        "Name": "11.스테이지 클리어",
+        "type": 1,
+        "MissionValue": 200,
+        "ExpValue": 10,
+        "Mission_Exp_Get": false,
+        "Mission_Exp_Get_Luxury": false,
+        "is_VIP_Mission": false
+      },
+      {
+        "Name": "12.환생하기",
+        "type": 2,
+        "MissionValue": 1,
+        "ExpValue": 10,
+        "Mission_Exp_Get": false,
+        "Mission_Exp_Get_Luxury": false,
+        "is_VIP_Mission": false
+      },
+      {
+        "Name": "13.환생하기",
+        "type": 2,
+        "MissionValue": 2,
+        "ExpValue": 10,
+        "Mission_Exp_Get": false,
+        "Mission_Exp_Get_Luxury": false,
+        "is_VIP_Mission": false
+      },
+      {
+        "Name": "14.환생하기",
+        "type": 2,
+        "MissionValue": 3,
+        "ExpValue": 10,
+        "Mission_Exp_Get": false,
+        "Mission_Exp_Get_Luxury": false,
+        "is_VIP_Mission": false
+      },
+      {
+        "Name": "15.환생하기",
+        "type": 2,
+        "MissionValue": 4,
+        "ExpValue": 10,
+        "Mission_Exp_Get": false,
+        "Mission_Exp_Get_Luxury": false,
+        "is_VIP_Mission": false
+      },
+      {
+        "Name": "16.환생하기",
+        "type": 2,
+        "MissionValue": 5,
+        "ExpValue": 10,
+        "Mission_Exp_Get": false,
+        "Mission_Exp_Get_Luxury": false,
+        "is_VIP_Mission": false
+      },
+      {
+        "Name": "17.환생하기",
+        "type": 2,
+        "MissionValue": 6,
+        "ExpValue": 10,
+        "Mission_Exp_Get": false,
+        "Mission_Exp_Get_Luxury": false,
+        "is_VIP_Mission": false
+      },
+      {
+        "Name": "18.광산 플레이",
+        "type": 3,
+        "MissionValue": 1,
+        "ExpValue": 10,
+        "Mission_Exp_Get": false,
+        "Mission_Exp_Get_Luxury": false,
+        "is_VIP_Mission": false
+      },
+      {
+        "Name": "19.광산 플레이",
+        "type": 3,
+        "MissionValue": 2,
+        "ExpValue": 10,
+        "Mission_Exp_Get": false,
+        "Mission_Exp_Get_Luxury": false,
+        "is_VIP_Mission": false
+      },
+      {
+        "Name": "20.나무 부수기",
+        "type": 0,
+        "MissionValue": 50000,
+        "ExpValue": 20,
+        "Mission_Exp_Get": false,
+        "Mission_Exp_Get_Luxury": false,
+        "is_VIP_Mission": true
+      },
+      {
+        "Name": "21.나무 부수기",
+        "type": 0,
+        "MissionValue": 100000,
+        "ExpValue": 20,
+        "Mission_Exp_Get": false,
+        "Mission_Exp_Get_Luxury": false,
+        "is_VIP_Mission": true
+      },
+      {
+        "Name": "22.스테이지 클리어",
+        "type": 1,
+        "MissionValue": 300,
+        "ExpValue": 20,
+        "Mission_Exp_Get": false,
+        "Mission_Exp_Get_Luxury": false,
+        "is_VIP_Mission": true
+      }
+    ],
+    "Reward_Normal_list": [
+      {
+        "Lv": 0,
+        "type": 0,
+        "RewardValue": 200
+      },
+      {
+        "Lv": 1,
+        "type": 0,
+        "RewardValue": 240
+      },
+      {
+        "Lv": 2,
+        "type": 1,
+        "RewardValue": 10
+      },
+      {
+        "Lv": 3,
+        "type": 0,
+        "RewardValue": 320
+      },
+      {
+        "Lv": 4,
+        "type": 0,
+        "RewardValue": 360
+      },
+      {
+        "Lv": 5,
+        "type": 1,
+        "RewardValue": 14
+      },
+      {
+        "Lv": 6,
+        "type": 0,
+        "RewardValue": 440
+      },
+      {
+        "Lv": 7,
+        "type": 0,
+        "RewardValue": 480
+      },
+      {
+        "Lv": 8,
+        "type": 1,
+        "RewardValue": 15
+      },
+      {
+        "Lv": 9,
+        "type": 0,
+        "RewardValue": 560
+      },
+      {
+        "Lv": 10,
+        "type": 0,
+        "RewardValue": 600
+      },
+      {
+        "Lv": 11,
+        "type": 1,
+        "RewardValue": 19
+      },
+      {
+        "Lv": 12,
+        "type": 0,
+        "RewardValue": 680
+      },
+      {
+        "Lv": 13,
+        "type": 0,
+        "RewardValue": 720
+      },
+      {
+        "Lv": 14,
+        "type": 1,
+        "RewardValue": 20
+      },
+      {
+        "Lv": 15,
+        "type": 0,
+        "RewardValue": 800
+      },
+      {
+        "Lv": 16,
+        "type": 0,
+        "RewardValue": 840
+      },
+      {
+        "Lv": 17,
+        "type": 1,
+        "RewardValue": 24
+      },
+      {
+        "Lv": 18,
+        "type": 0,
+        "RewardValue": 920
+      },
+      {
+        "Lv": 19,
+        "type": 0,
+        "RewardValue": 960
+      },
+      {
+        "Lv": 20,
+        "type": 1,
+        "RewardValue": 25
+      },
+      {
+        "Lv": 21,
+        "type": 0,
+        "RewardValue": 1040
+      },
+      {
+        "Lv": 22,
+        "type": 0,
+        "RewardValue": 1080
+      },
+      {
+        "Lv": 23,
+        "type": 1,
+        "RewardValue": 29
+      },
+      {
+        "Lv": 24,
+        "type": 0,
+        "RewardValue": 1160
+      }
+    ],
+    "Reward_Epic_list": [
+      {
+        "Lv": 0,
+        "type": 0,
+        "RewardValue": 600
+      },
+      {
+        "Lv": 1,
+        "type": 0,
+        "RewardValue": 720
+      },
+      {
+        "Lv": 2,
+        "type": 1,
+        "RewardValue": 15
+      },
+      {
+        "Lv": 3,
+        "type": 0,
+        "RewardValue": 960
+      },
+      {
+        "Lv": 4,
+        "type": 0,
+        "RewardValue": 1080
+      },
+      {
+        "Lv": 5,
+        "type": 1,
+        "RewardValue": 19
+      },
+      {
+        "Lv": 6,
+        "type": 0,
+        "RewardValue": 1320
+      },
+      {
+        "Lv": 7,
+        "type": 0,
+        "RewardValue": 1440
+      },
+      {
+        "Lv": 8,
+        "type": 1,
+        "RewardValue": 20
+      },
+      {
+        "Lv": 9,
+        "type": 0,
+        "RewardValue": 1680
+      },
+      {
+        "Lv": 10,
+        "type": 0,
+        "RewardValue": 1800
+      },
+      {
+        "Lv": 11,
+        "type": 1,
+        "RewardValue": 24
+      },
+      {
+        "Lv": 12,
+        "type": 0,
+        "RewardValue": 2040
+      },
+      {
+        "Lv": 13,
+        "type": 0,
+        "RewardValue": 2160
+      },
+      {
+        "Lv": 14,
+        "type": 1,
+        "RewardValue": 25
+      },
+      {
+        "Lv": 15,
+        "type": 0,
+        "RewardValue": 2400
+      },
+      {
+        "Lv": 16,
+        "type": 0,
+        "RewardValue": 2520
+      },
+      {
+        "Lv": 17,
+        "type": 1,
+        "RewardValue": 29
+      },
+      {
+        "Lv": 18,
+        "type": 0,
+        "RewardValue": 2760
+      },
+      {
+        "Lv": 19,
+        "type": 0,
+        "RewardValue": 2880
+      },
+      {
+        "Lv": 20,
+        "type": 1,
+        "RewardValue": 30
+      },
+      {
+        "Lv": 21,
+        "type": 0,
+        "RewardValue": 3120
+      },
+      {
+        "Lv": 22,
+        "type": 0,
+        "RewardValue": 3240
+      },
+      {
+        "Lv": 23,
+        "type": 1,
+        "RewardValue": 34
+      },
+      {
+        "Lv": 24,
+        "type": 0,
+        "RewardValue": 3480
+      }
+    ],
+    "NormalReward_Get": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "EpicReward_Get": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "Reward_Lv": 0,
+    "Reward_Exp": 0,
+    "TreeCount_Value": 0,
+    "StageClear_Value": 0,
+    "Rebirth_Value": 0,
+    "PlayMine_Value": 0,
+    "Season_Num": 0,
+    "is_GunSeason": false,
+    "is_SeasonStart": false,
+    "SeasonEnd_Date": {},
+    "MissionStart_Date": {},
+    "NewSeason_Btn_obj": {
+      "m_FileID": 0,
+      "m_PathID": 900
+    },
+    "Mission_UI_Panel": {
+      "m_FileID": 0,
+      "m_PathID": 124586
+    },
+    "Mission_Item_UI_List": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 128971
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 146624
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 146620
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 146621
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 146630
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 146626
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 146625
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 146617
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 146618
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 146623
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 146613
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 146614
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 146632
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 146634
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 146629
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 146622
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 146628
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 146616
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 146615
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 146633
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 146631
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 146619
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 146627
+      }
+    ],
+    "Mission_Reward_Slot_List": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 129860
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 132996
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 133003
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 132995
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 132989
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 132993
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 133000
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 132998
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 132986
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 133001
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 133010
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 133002
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 132991
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 133009
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 132999
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 132987
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 133004
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 133006
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 132990
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 132992
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 132988
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 132994
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 132997
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 133008
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 133007
+      }
+    ],
+    "Exp_Slider": {
+      "m_FileID": 0,
+      "m_PathID": 125149
+    },
+    "Vip_Purchase_Panel_obj": {
+      "m_FileID": 0,
+      "m_PathID": 978
+    },
+    "Luxury_Purchase_Panel_obj": {
+      "m_FileID": 0,
+      "m_PathID": 819
+    },
+    "Mission_Alert_obj": {
+      "m_FileID": 0,
+      "m_PathID": 891
+    },
+    "Reward_Scroll": {
+      "m_FileID": 0,
+      "m_PathID": 125462
+    },
+    "Mission_Scroll": {
+      "m_FileID": 0,
+      "m_PathID": 125096
+    },
+    "NewSeason_Panel_obj": {
+      "m_FileID": 0,
+      "m_PathID": 1110
+    },
+    "NewSeason_Panel_Forced_obj": {
+      "m_FileID": 0,
+      "m_PathID": 1211
+    }
+  }
+}

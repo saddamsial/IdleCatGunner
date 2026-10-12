@@ -1,0 +1,425 @@
+{
+  "target": "com.Chodun.CatGunner1.1.61 vc257 arm64",
+  "inputs": [
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/assetripper-baseline/ExportedProject/Assets/Scenes/Main.unity",
+      "sha256": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+      "expected": "e672f743a687af8268ef45408c922d6ddc7edce2cf40b9b2531fe3ede23aba7b",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/split_config.arm64_v8a/lib/arm64-v8a/libil2cpp.so",
+      "sha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+      "expected": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+      "unchanged": true
+    },
+    {
+      "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/extracted/base/assets/bin/Data/Managed/Metadata/global-metadata.dat",
+      "sha256": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+      "expected": "86af4f8faf83d791c0a8679d3643056d8a643ce9d41bf71afd2c4e100f466884",
+      "unchanged": true
+    }
+  ],
+  "native_methods": [
+    {
+      "preferred_va": "0x2a9ed30",
+      "ghidra_va": "0x2b9ed30",
+      "end": "0x2a9ed38",
+      "name": "Content_Info__ctor",
+      "token": "0x60002b9",
+      "input16": "e1031faa41d17314fe0f1cf8f85f01a9",
+      "outputs": {
+        "Content_Info__ctor.c": "6bddad0abefcd24fc5f77e84df6366288ad4e2da35f1cfeae38c3dd7643ac282",
+        "Content_Info__ctor.asm": "6aff96909ec212fdcf76be748682dc50ef3704ad983a47ca9b7817d22b888027"
+      }
+    },
+    {
+      "preferred_va": "0x2a9df6c",
+      "ghidra_va": "0x2b9df6c",
+      "end": "0x2a9dfd4",
+      "name": "Contents_Unlock_manager_Awake",
+      "token": "0x60002a6",
+      "input16": "fe57bea9f44f01a9f5b501d0149601b0",
+      "outputs": {
+        "Contents_Unlock_manager_Awake.c": "43e5278d806ce8b1d42346ecf1c62ba5f8f831766168144cad4eb67a30776c92",
+        "Contents_Unlock_manager_Awake.asm": "417400671d11d4d647f8954e0d9595ab3fb5213db7e8fa4f161c944f67f70550"
+      }
+    },
+    {
+      "preferred_va": "0x2a9dfd4",
+      "ghidra_va": "0x2b9dfd4",
+      "end": "0x2a9e050",
+      "name": "Contents_Unlock_manager_Unlock_Stage_return",
+      "token": "0x60002a7",
+      "input16": "fe57bea9f44f01a9f5b501d0149601b0",
+      "outputs": {
+        "Contents_Unlock_manager_Unlock_Stage_return.c": "9b84d9316367ee5299325891c44f05ac41b2dda12457a991395f980fb406484b",
+        "Contents_Unlock_manager_Unlock_Stage_return.asm": "ca469b2bcea940c6efa4181bc5b8dc7904ba823d270b68bc272dc250f7d31cec"
+      }
+    },
+    {
+      "preferred_va": "0x2a9e050",
+      "ghidra_va": "0x2b9e050",
+      "end": "0x2a9e130",
+      "name": "Contents_Unlock_manager_get_MaxStage_Display",
+      "token": "0x60002a8",
+      "input16": "fe0f1ef8f44f01a9f3b501b0f49501f0",
+      "outputs": {
+        "Contents_Unlock_manager_get_MaxStage_Display.c": "5266ccbbe49ffa3b03bdc7ed6ef15deba54927d7aa0cdd03687d5fcd43882dd1",
+        "Contents_Unlock_manager_get_MaxStage_Display.asm": "64906640c98d52f2927b481ba7f8cfd35191fc5d24aea7954cf99d2c58c2516f"
+      }
+    },
+    {
+      "preferred_va": "0x2a9e130",
+      "ghidra_va": "0x2b9e130",
+      "end": "0x2a9e198",
+      "name": "Contents_Unlock_manager_Is_Unlocked",
+      "token": "0x60002a9",
+      "input16": "fe57bea9f44f01a9f4b501b015960190",
+      "outputs": {
+        "Contents_Unlock_manager_Is_Unlocked.c": "19910067c6c97f0b668b7071720e44fd31cf8d638c9ed5a69cca70751f1fabda",
+        "Contents_Unlock_manager_Is_Unlocked.asm": "065503dc08850eff12e8b7ad9a9f18a6668387d3c9e0644e4ac1aa150c35c14f"
+      }
+    },
+    {
+      "preferred_va": "0x2a9e198",
+      "ghidra_va": "0x2b9e198",
+      "end": "0x2a9e240",
+      "name": "Contents_Unlock_manager_get_Is_Tutorial",
+      "token": "0x60002aa",
+      "input16": "fe57bea9f44f01a9f5b501b014960190",
+      "outputs": {
+        "Contents_Unlock_manager_get_Is_Tutorial.c": "4b74d94fc14672ccc8c997a95e5def1553c936d48ae4e506ac056bd647b2cdbc",
+        "Contents_Unlock_manager_get_Is_Tutorial.asm": "4cd24e73ba8efb36388086b1f42640c8ac5629e0c12b0d6ca1a43fa62cda3aa3"
+      }
+    },
+    {
+      "preferred_va": "0x2a9e240",
+      "ghidra_va": "0x2b9e240",
+      "end": "0x2a9e348",
+      "name": "Contents_Unlock_manager_Next_Unlock_Stage_return",
+      "token": "0x60002ab",
+      "input16": "fe0f1df8f65701a9f44f02a9f3b501b0",
+      "outputs": {
+        "Contents_Unlock_manager_Next_Unlock_Stage_return.c": "dd226d22254e21eeeb020e6f36894ad2ca6d3f5411c320ba3976daaecf3f9756",
+        "Contents_Unlock_manager_Next_Unlock_Stage_return.asm": "6e8341e543ae12cba89f954735cca0ac2378b522bdee1846c212b70bf971205d"
+      }
+    },
+    {
+      "preferred_va": "0x2a9e348",
+      "ghidra_va": "0x2b9e348",
+      "end": "0x2a9e3d4",
+      "name": "Contents_Unlock_manager_Is_Next",
+      "token": "0x60002ac",
+      "input16": "fe57bea9f44f01a9f5b501b014960190",
+      "outputs": {
+        "Contents_Unlock_manager_Is_Next.c": "67ec81194f6cdc55d3e9d624fab83c3b295e07048c2c74e5b9381fc800b95cad",
+        "Contents_Unlock_manager_Is_Next.asm": "67a582ae2ff731c67e2f91a3995a3e984abd8ed762102bb63e3d4d8122c1954a"
+      }
+    },
+    {
+      "preferred_va": "0x2a9e3d4",
+      "ghidra_va": "0x2b9e3d4",
+      "end": "0x2a9e588",
+      "name": "Contents_Unlock_manager_Reload",
+      "token": "0x60002ad",
+      "input16": "fe6fbba9fa6701a9f85f02a9f65703a9",
+      "outputs": {
+        "Contents_Unlock_manager_Reload.c": "732da62cf231815914543e1cc5e1a5be43372cc11e3f3e8717edbe5f65742b10",
+        "Contents_Unlock_manager_Reload.asm": "a0d43f253658ea5c9371a721e655909dfe6f3fddfb9c5cd0e4e64b26382f09cf"
+      }
+    },
+    {
+      "preferred_va": "0x2a9e588",
+      "ghidra_va": "0x2b9e588",
+      "end": "0x2a9e650",
+      "name": "Contents_Unlock_manager_Try_Open",
+      "token": "0x60002ae",
+      "input16": "ffc300d1fe5701a9f44f02a9f3b501b0",
+      "outputs": {
+        "Contents_Unlock_manager_Try_Open.c": "8a522bc64348260d9e23e5083628e3e9b38dcbacfcf283813132a8b7e4455934",
+        "Contents_Unlock_manager_Try_Open.asm": "483a8736d95b24cd7c4be3e44a8f69616908eb6cf8460973b0b518ec0e0c7406"
+      }
+    },
+    {
+      "preferred_va": "0x2a9e650",
+      "ghidra_va": "0x2b9e650",
+      "end": "0x2a9e6e8",
+      "name": "Contents_Unlock_manager_Content_Btn_Rebirth",
+      "token": "0x60002af",
+      "input16": "fe0f1ef8f44f01a9f3b501b014960190",
+      "outputs": {
+        "Contents_Unlock_manager_Content_Btn_Rebirth.c": "f184e3034f97a002a618efebff9d9379bc7ff8aa0b46b321fe388f3f1e442d0c",
+        "Contents_Unlock_manager_Content_Btn_Rebirth.asm": "5ef2cbfb0cc8281517657aeb35c0cb0f74f17b5d9d2a12e938acd91bc5dc9a54"
+      }
+    },
+    {
+      "preferred_va": "0x2a9e6e8",
+      "ghidra_va": "0x2b9e6e8",
+      "end": "0x2a9e7b0",
+      "name": "Contents_Unlock_manager_Content_Btn_Mine",
+      "token": "0x60002b0",
+      "input16": "fe0f1ef8f44f01a9f3b501b014960190",
+      "outputs": {
+        "Contents_Unlock_manager_Content_Btn_Mine.c": "0482a61529986f9cfee98d179676e7ebc5fc05841e16c71cfbbc7eb637630afd",
+        "Contents_Unlock_manager_Content_Btn_Mine.asm": "c87387f51b5a3187f142f8fb51c4ab467711abcc7aaf32f2a425fe9b9a4a60d7"
+      }
+    },
+    {
+      "preferred_va": "0x2a9e7b0",
+      "ghidra_va": "0x2b9e7b0",
+      "end": "0x2a9e864",
+      "name": "Contents_Unlock_manager_Content_Btn_Fish",
+      "token": "0x60002b1",
+      "input16": "fe0f1ef8f44f01a9f3b501b014960190",
+      "outputs": {
+        "Contents_Unlock_manager_Content_Btn_Fish.c": "5f7382240f45fd89f22797eba98c87afaff004b6b68af7ffa4bf4c8bcc711183",
+        "Contents_Unlock_manager_Content_Btn_Fish.asm": "25741bfaf4d8281fd88b73fb9a98c556aa366f54ec44de3dc3956d9651662734"
+      }
+    },
+    {
+      "preferred_va": "0x2a9e864",
+      "ghidra_va": "0x2b9e864",
+      "end": "0x2a9e90c",
+      "name": "Contents_Unlock_manager_Content_Btn_Boss",
+      "token": "0x60002b2",
+      "input16": "fe0f1ef8f44f01a9f3b501b014960190",
+      "outputs": {
+        "Contents_Unlock_manager_Content_Btn_Boss.c": "2f4efcd110b9c1255bbeef5d2fb07c8e54c85279e8372e30fc618443080c53f5",
+        "Contents_Unlock_manager_Content_Btn_Boss.asm": "88d107229210b5798a07224d22548231547f0619ad4428b8854ff188411ccb01"
+      }
+    },
+    {
+      "preferred_va": "0x2a9e90c",
+      "ghidra_va": "0x2b9e90c",
+      "end": "0x2a9e9ac",
+      "name": "Contents_Unlock_manager_Content_Btn_Pet",
+      "token": "0x60002b3",
+      "input16": "fe0f1ef8f44f01a9f3b501b014960190",
+      "outputs": {
+        "Contents_Unlock_manager_Content_Btn_Pet.c": "99e9f4966aa5d3e1401d7db5b623dbf2e684d50c2c81e4de84338fc9e0383ba2",
+        "Contents_Unlock_manager_Content_Btn_Pet.asm": "b2b064cb980b5e86c158b5742460d89e23810dcdb2ccd912a8e6f7193a810e4d"
+      }
+    },
+    {
+      "preferred_va": "0x2a9e9ac",
+      "ghidra_va": "0x2b9e9ac",
+      "end": "0x2a9ea54",
+      "name": "Contents_Unlock_manager_Content_Btn_Monster",
+      "token": "0x60002b4",
+      "input16": "fe0f1ef8f44f01a9f3b501b014960190",
+      "outputs": {
+        "Contents_Unlock_manager_Content_Btn_Monster.c": "cad2cb94b27ea8c3fa6bb59969cf6aad6149dd5e56f50c96ec0cd81b7980afc8",
+        "Contents_Unlock_manager_Content_Btn_Monster.asm": "ebccac68636ae143ff3a665cbc7e5cf7fde562b8ac3b56e1d2723fa7868d4cf2"
+      }
+    },
+    {
+      "preferred_va": "0x2a9ea54",
+      "ghidra_va": "0x2b9ea54",
+      "end": "0x2a9eb0c",
+      "name": "Contents_Unlock_manager_Content_Btn_Adventure",
+      "token": "0x60002b5",
+      "input16": "fe0f1ef8f44f01a9f3b501b014960190",
+      "outputs": {
+        "Contents_Unlock_manager_Content_Btn_Adventure.c": "37226749d826454dd0e07f9920e64fb7a2e7a7ea7240f207f3285be668c48198",
+        "Contents_Unlock_manager_Content_Btn_Adventure.asm": "0465952b256a8382b7f6f308cb5f971beda48b34fb40eb10d8e2b9bf3d258456"
+      }
+    },
+    {
+      "preferred_va": "0x2a9eb0c",
+      "ghidra_va": "0x2b9eb0c",
+      "end": "0x2a9ebac",
+      "name": "Contents_Unlock_manager_Content_Btn_Raid",
+      "token": "0x60002b6",
+      "input16": "fe0f1ef8f44f01a9f3b501b014960190",
+      "outputs": {
+        "Contents_Unlock_manager_Content_Btn_Raid.c": "ef1318065962967690495fdb4cd71f34fa22b459bb72cf57b17ede81ba652e1a",
+        "Contents_Unlock_manager_Content_Btn_Raid.asm": "e765fb26bda1524c0c485ffbcd7193abc052c593d8c0fb03ab8223c29d958194"
+      }
+    },
+    {
+      "preferred_va": "0x2a9ebac",
+      "ghidra_va": "0x2b9ebac",
+      "end": "0x2a9ebb4",
+      "name": "Contents_Unlock_manager__ctor",
+      "token": "0x60002b7",
+      "input16": "e1031faacc10b114fe5fbda9f65701a9",
+      "outputs": {
+        "Contents_Unlock_manager__ctor.c": "2ac8406323daaa831946bc16d01f13c21013c1d3a251227a2501ea6b6349a25d",
+        "Contents_Unlock_manager__ctor.asm": "a4c7bec564860f2e8dfd0f91d9d7b493da462b332e076d45ddb6bf30459685bc"
+      }
+    },
+    {
+      "preferred_va": "0x2a9ebb4",
+      "ghidra_va": "0x2b9ebb4",
+      "end": "0x2a9ed30",
+      "name": "Contents_Unlock_manager__cctor",
+      "token": "0x60002b8",
+      "input16": "fe5fbda9f65701a9f44f02a9f69501f0",
+      "outputs": {
+        "Contents_Unlock_manager__cctor.c": "1b81b1e3e63bdc279b191394772df1a8aa465d55cca8afef82cdba5a107363db",
+        "Contents_Unlock_manager__cctor.asm": "a551883c1e49875cff3b62e7266f71b5b68773ae85ce452fa99848db6263e6aa"
+      }
+    },
+    {
+      "preferred_va": "0x28f5cfc",
+      "ghidra_va": "0x29f5cfc",
+      "end": "0x28f5d04",
+      "name": "Throw_NullReference_Wrapper",
+      "token": null,
+      "input16": "fe0f1ff86a220194fe0f1ff87b220194",
+      "outputs": {
+        "Throw_NullReference_Wrapper.c": "4dbe5415e169f90b0ce5055036cca1b94bf1565f8d9d2308c08bf4bd707fcb91",
+        "Throw_NullReference_Wrapper.asm": "eec6b09062497629de85a27e3a8cad918b42764b2a1c0f544152a636461e5fdd"
+      }
+    },
+    {
+      "preferred_va": "0x28f5d04",
+      "ghidra_va": "0x29f5d04",
+      "end": "0x28f5d0c",
+      "name": "Throw_Index_Wrapper",
+      "token": null,
+      "input16": "fe0f1ff87b220194c03cff90006c0191",
+      "outputs": {
+        "Throw_Index_Wrapper.c": "b554c9aba53206d804e9fc370e97cf27027d10930f18eb2a6be625e055cb8dd1",
+        "Throw_Index_Wrapper.asm": "5581995141036f8f8cb7598583a54ae3c1a567e77a4bbff543774e6d542c448c"
+      }
+    },
+    {
+      "preferred_va": "0x293e6a8",
+      "ghidra_va": "0x2a3e6a8",
+      "end": "0x293e6bc",
+      "name": "Throw_NullReference_Create",
+      "token": null,
+      "input16": "ff8300d1fffb00a9e0030091ff0300f9",
+      "outputs": {
+        "Throw_NullReference_Create.c": "07933b7cac27ee4d3e9d7c27b53882e222ed878cead5f8d79e73b3adba1fff6f",
+        "Throw_NullReference_Create.asm": "428c28c0278566bbd155390442ae395ecf5d111ac48dd41afa23cc88ab7051b2"
+      }
+    },
+    {
+      "preferred_va": "0x293e6bc",
+      "ghidra_va": "0x2a3e6bc",
+      "end": "0x293e6cc",
+      "name": "Throw_NullReference_Raise",
+      "token": null,
+      "input16": "fe0f1ff803000094e1031faad2ffff97",
+      "outputs": {
+        "Throw_NullReference_Raise.c": "aded7644ecb862bc0a5476706b21810f9257b367ac0397bdc541e91af2615d80",
+        "Throw_NullReference_Raise.asm": "5aafa322c11ce154d2ee31e138ead7810e48a24e419b8885131feb71851f1d71"
+      }
+    },
+    {
+      "preferred_va": "0x293e6f4",
+      "ghidra_va": "0x2a3e6f4",
+      "end": "0x293e704",
+      "name": "Throw_Index_Raise",
+      "token": null,
+      "input16": "fe0f1ff803000094e1031faac4ffff97",
+      "outputs": {
+        "Throw_Index_Raise.c": "f7b9c1233cebb3659705feb97a706251cb1dd6dcac5b14dcbcd482f99b3529a7",
+        "Throw_Index_Raise.asm": "53f08a0cd65a4fe4ba45d72673ff66e057b405fd9658b230d54ec9cb96fab4ed"
+      }
+    },
+    {
+      "preferred_va": "0x293e610",
+      "ghidra_va": "0x2a3e610",
+      "end": "0x293e638",
+      "name": "Managed_Exception_CxaThrow",
+      "token": null,
+      "input16": "fe4fbfa9f30300aa71ffff9700018052",
+      "outputs": {
+        "Managed_Exception_CxaThrow.c": "f034685b9e5e3c23ca134caf66dd8742db361f79a48e68bfefb6bb0b28479155",
+        "Managed_Exception_CxaThrow.asm": "79d2db030a3cd3519ea853008b8d9e435cee4ca33d345340c0a40c9ffa737b80"
+      }
+    }
+  ],
+  "completed": 26,
+  "business": 20,
+  "exception_helpers": 6,
+  "initializer": {
+    "preferred_pointer": "0x5d5e4e0",
+    "field_token": "0x400146b",
+    "metadata_offset": 9595024,
+    "sha256": "36F10BBAD162CAAB5563B7010CDC05C7340B439659CEFAA9683F10593AF502EB",
+    "values": [
+      3,
+      4,
+      6,
+      10,
+      12,
+      12,
+      35,
+      40
+    ]
+  },
+  "enum": [
+    {
+      "name": "Rebirth",
+      "encoded_byte": 0,
+      "value": 0
+    },
+    {
+      "name": "Mine",
+      "encoded_byte": 2,
+      "value": 1
+    },
+    {
+      "name": "Fish",
+      "encoded_byte": 4,
+      "value": 2
+    },
+    {
+      "name": "Boss",
+      "encoded_byte": 6,
+      "value": 3
+    },
+    {
+      "name": "Pet",
+      "encoded_byte": 8,
+      "value": 4
+    },
+    {
+      "name": "Monster",
+      "encoded_byte": 10,
+      "value": 5
+    },
+    {
+      "name": "Adventure",
+      "encoded_byte": 12,
+      "value": 6
+    },
+    {
+      "name": "Raid",
+      "encoded_byte": 14,
+      "value": 7
+    }
+  ],
+  "serialized_manifest": "Assets/Recovery/Editor/OriginalContentUnlock.json",
+  "serialized_manifest_sha256": "956a166b5a9713cbccac78b571b4ce24c78b3dfed289478130a82bf3923124df",
+  "original_monoscript_meta": {
+    "sha256": "286145379bb1c727222853d4334f8053c0f643a0d283e561834c3961fe3829dd",
+    "unchanged": true
+  },
+  "rules": {
+    "max_stage": "Tree_manager.Stage_Value_Max / 10 + 1; absent tree manager ->0; current stage/rebirth do not replace historical frontier",
+    "unlocked": "MaxStage_Display >= Unlock_Stage_return(type)",
+    "next": "minimum threshold across all locked enum types; none -> -1; tied Pet/Monster both displayed",
+    "reload": "tutorial present and CurrentStep !=5: hide all Content_list.Btn_obj; otherwise display unlocked OR next, activate Locked_obj only for next",
+    "try_open": "reject locked before panel mutation, show original Alert with stage formatting; no resource/reward mutation",
+    "callbacks": "original single Content_Btn_* callback and original manager script identity restored for all8 button roots"
+  },
+  "adapters": [
+    "Existing RecoveryForestClient owns stage/backend/controller binding; explicit Update detects changed display stage/tutorial predicate in place of unrecovered UI_manager refresh loop.",
+    "Original Tutorial_manager is absent; native absence branch is false. Injectable tutorial step used only for isolated tests, no player tutorial completion written.",
+    "Eight native callback gates dispatch to existing recovered local panel entry methods so each already-restored controller owns refresh/lifecycle.",
+    "Original Alert object and Animator reused; English Unlock at Stage N text until complete I2/localization restoration."
+  ],
+  "runtime_sources": {
+    "Assets/Recovery/Scripts/Contents_Unlock_manager.cs": "c9ac08b3a8dfbaf8098265aed01c644539a6715c4aa8972fa8f97cbb4bd130ec",
+    "Assets/Recovery/Scripts/Content_Type.cs": "942d7d276ee7f32ac66513860abca827ffe83eaabb26a93f6352a06bf1547ed3",
+    "Assets/Recovery/Scripts/Content_Info.cs": "70b0b1cde69c00d3278810ca8bfa1205c1493d01d36db34a3a536c8b9121bb19",
+    "Assets/Recovery/Scripts/RecoveryForestClient.cs": "4be0ad00c0ece16163fa33a64d1ddb66e2ef7a44d883e320ef81af2e72c2b8e2"
+  },
+  "boundary": "Ordinary content-entry gates restored only. Tutorial steps/WeeklyShop/full UI/particles/offline relic consumers/Player/device/online/commercial still pending. No recovery percentage inferred from26 export completions."
+}

@@ -1,0 +1,14 @@
+02b88060  stp x30,x19,[sp, #-0x10]!
+02b88064  mov x19,x0
+02b88068  ldr x0,[x0, #0x30]
+02b8806c  cbz x0,0x02b88094
+02b88070  mov x1,xzr
+02b88074  bl 0x057dc1c8
+02b88078  cbz x0,0x02b88094
+02b8807c  mov w1,wzr
+02b88080  mov x2,xzr
+02b88084  bl 0x057dff3c
+02b88088  mov x0,x19
+02b8808c  ldp x30,x19,[sp], #0x10
+02b88090  b 0x02b87bc0
+02b88094  bl 0x029f5cfc

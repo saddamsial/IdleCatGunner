@@ -1,0 +1,70 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 41.09,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalMissionNavigationTests.AlertPollsEveryTwoScaledSecondsAndClaimRestartsImmediately",
+          "Status": "Passed",
+          "Duration": 11.9141641,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissionNavigationTests.AllRewardsPromptRequiresBothTracksOnlyWhenVip",
+          "Status": "Passed",
+          "Duration": 5.5440091,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissionNavigationTests.ClaimScrollsToNextRewardAndReplacementHonorsPauseAndClamp",
+          "Status": "Passed",
+          "Duration": 6.5121088,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissionNavigationTests.OpeningSelectsFirstUnclaimedThenCurrentLevelAndResetsTaskScroll",
+          "Status": "Passed",
+          "Duration": 5.5480183,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissionNavigationTests.PremiumIndicatorsAndOwnerLifecycleNeverCreateEntitlements",
+          "Status": "Passed",
+          "Duration": 5.9770387,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMissionNavigationTests.SelectorsPreservePremiumOrderingAndAdSlotsWithoutGranting",
+          "Status": "Passed",
+          "Duration": 5.4719538,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

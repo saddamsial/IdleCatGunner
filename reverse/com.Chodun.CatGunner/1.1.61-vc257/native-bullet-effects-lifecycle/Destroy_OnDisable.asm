@@ -1,0 +1,17 @@
+02c17950  stp x30,x19,[sp, #-0x10]!
+02c17954  ldr x1,[x0, #0x28]
+02c17958  cbz x1,0x02c17988
+02c1795c  mov x2,xzr
+02c17960  mov x19,x0
+02c17964  bl 0x057e2250
+02c17968  mov x0,x19
+02c1796c  mov x1,xzr
+02c17970  bl 0x057dc1c8
+02c17974  cbz x0,0x02c17990
+02c17978  mov w1,wzr
+02c1797c  mov x2,xzr
+02c17980  ldp x30,x19,[sp], #0x10
+02c17984  b 0x057dff3c
+02c17988  ldp x30,x19,[sp], #0x10
+02c1798c  ret
+02c17990  bl 0x029f5cfc

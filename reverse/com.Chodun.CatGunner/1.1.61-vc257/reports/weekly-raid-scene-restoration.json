@@ -1,0 +1,2369 @@
+{
+  "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+  "objects": 34734,
+  "missingScripts": 0,
+  "controllers": 33,
+  "missionItems": 8,
+  "weeklyGunItems": 6,
+  "sourceTweenAdapters": 10,
+  "helperAdded": 0,
+  "bound": [
+    {
+      "go": 4,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Background",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 268,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Ticket_Purchase_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Background",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 377,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Background",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 492,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Main_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Btn_list",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 822,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Close_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 1010,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "SafeArea",
+          "ordinal": 0
+        },
+        {
+          "name": "Main_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Btn_list",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 1105,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Ticket_Purchase_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Close",
+          "ordinal": 0
+        },
+        {
+          "name": "Close_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 1168,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Image",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 1222,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Close_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 1686,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Close_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 1934,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Start_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 10756,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Menu_DailyGun",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_item",
+          "ordinal": 0
+        },
+        {
+          "name": "GunItem_Demo",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 10755,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Menu_DailyGun",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_item (1)",
+          "ordinal": 0
+        },
+        {
+          "name": "GunItem_Demo",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 10757,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Menu_DailyGun",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_item (2)",
+          "ordinal": 0
+        },
+        {
+          "name": "GunItem_Demo",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 10759,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_item (1)",
+          "ordinal": 0
+        },
+        {
+          "name": "GunItem_Demo",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 10758,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_item (2)",
+          "ordinal": 0
+        },
+        {
+          "name": "GunItem_Demo",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 13987,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Menu_DailyGun",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_item",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 13988,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Menu_DailyGun",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_item (1)",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 13986,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Menu_DailyGun",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_item (2)",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 13984,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_item (2)",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 13985,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_item (1)",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 35043,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Item",
+          "ordinal": 0
+        },
+        {
+          "name": "Re Claimable",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 28654,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Item (1)",
+          "ordinal": 0
+        },
+        {
+          "name": "Claimable",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 28653,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Item (2)",
+          "ordinal": 0
+        },
+        {
+          "name": "Claimable",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 28657,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Item (3)",
+          "ordinal": 0
+        },
+        {
+          "name": "Claimable",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 28659,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Item (6)",
+          "ordinal": 0
+        },
+        {
+          "name": "Claimable",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 28658,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Item (5)",
+          "ordinal": 0
+        },
+        {
+          "name": "Claimable",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 28656,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Item (7)",
+          "ordinal": 0
+        },
+        {
+          "name": "Claimable",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 28655,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Item (4)",
+          "ordinal": 0
+        },
+        {
+          "name": "Claimable",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 2528,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_item",
+          "ordinal": 0
+        },
+        {
+          "name": "GunItem_Demo",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 34448,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Item (2)",
+          "ordinal": 0
+        },
+        {
+          "name": "Re Claimable",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 34447,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Item (1)",
+          "ordinal": 0
+        },
+        {
+          "name": "Re Claimable",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 34453,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Item (4)",
+          "ordinal": 0
+        },
+        {
+          "name": "Re Claimable",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 34452,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Item (7)",
+          "ordinal": 0
+        },
+        {
+          "name": "Re Claimable",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 34450,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Item (5)",
+          "ordinal": 0
+        },
+        {
+          "name": "Re Claimable",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 34449,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Item (6)",
+          "ordinal": 0
+        },
+        {
+          "name": "Re Claimable",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 34451,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Item (3)",
+          "ordinal": 0
+        },
+        {
+          "name": "Re Claimable",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 19728,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Item",
+          "ordinal": 0
+        },
+        {
+          "name": "Claimable",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 5042,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "DailyGun_item",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 15622,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Menu",
+          "ordinal": 0
+        },
+        {
+          "name": "Menu_Btn_0",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 37191,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Ticket",
+          "ordinal": 0
+        },
+        {
+          "name": "PurchaseAble_obj",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 20527,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Ticket_Purchase_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Ticket (1)",
+          "ordinal": 0
+        },
+        {
+          "name": "PurchaseAble_obj",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 4046,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Menu",
+          "ordinal": 0
+        },
+        {
+          "name": "Menu_Btn_1",
+          "ordinal": 0
+        }
+      ]
+    }
+  ],
+  "unavailable": [
+    {
+      "go": 542,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Test_obj",
+          "ordinal": 0
+        },
+        {
+          "name": "Image (1)",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 726,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Test_obj",
+          "ordinal": 0
+        },
+        {
+          "name": "Image",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 15912,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Menu_Plus",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Plus_Reward",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 30005,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Menu_Plus",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Plus_Auto",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 15621,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Menu",
+          "ordinal": 0
+        },
+        {
+          "name": "Menu_Btn_2",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 5305,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Item (1)",
+          "ordinal": 0
+        },
+        {
+          "name": "Locked",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 5306,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Item (2)",
+          "ordinal": 0
+        },
+        {
+          "name": "Locked",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 5303,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Item (7)",
+          "ordinal": 0
+        },
+        {
+          "name": "Locked",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 5301,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Item (6)",
+          "ordinal": 0
+        },
+        {
+          "name": "Locked",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 5300,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Item (5)",
+          "ordinal": 0
+        },
+        {
+          "name": "Locked",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 5302,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Item (3)",
+          "ordinal": 0
+        },
+        {
+          "name": "Locked",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 5304,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Item (4)",
+          "ordinal": 0
+        },
+        {
+          "name": "Locked",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 6975,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Contents_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_UI",
+          "ordinal": 0
+        },
+        {
+          "name": "Mission_Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Raid_Mission_Item",
+          "ordinal": 0
+        },
+        {
+          "name": "Locked",
+          "ordinal": 0
+        },
+        {
+          "name": "Reward_Get_Btn",
+          "ordinal": 0
+        }
+      ]
+    },
+    {
+      "go": 32373,
+      "path": [
+        {
+          "name": "Canvas",
+          "ordinal": 0
+        },
+        {
+          "name": "Shop_manager",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop",
+          "ordinal": 0
+        },
+        {
+          "name": "WeeklyShop_Popup",
+          "ordinal": 0
+        },
+        {
+          "name": "Panel",
+          "ordinal": 0
+        },
+        {
+          "name": "Menu_Plus",
+          "ordinal": 0
+        },
+        {
+          "name": "Scroll View",
+          "ordinal": 0
+        },
+        {
+          "name": "Viewport",
+          "ordinal": 0
+        },
+        {
+          "name": "Content",
+          "ordinal": 0
+        },
+        {
+          "name": "Plus_Time",
+          "ordinal": 0
+        }
+      ]
+    }
+  ],
+  "scope": "Original WeeklyShop and ordinary Raid missions; purchase completion/SDK fulfillment unavailable; ten source loops rendered with local adapters",
+  "count_audit": "Actual Editor handoff and frozen manifest both contain10; corrected initial hardcoded report count7. No scene change."
+}

@@ -1,0 +1,90 @@
+{
+  "status": "completed",
+  "duration": 40.59,
+  "summary": {
+    "total": 11,
+    "passed": 11,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalPlayableRecoveryTests.AdSimulationSupportsDailyGunAndFishButCancelsDisabledOrRepeatedCallbacks",
+      "Status": "Passed",
+      "Duration": 7.019594,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.DailyAdInventoryRetainsProgressionDayCapacityAndCurrencyGates",
+      "Status": "Passed",
+      "Duration": 0.2656971,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.NativeDailyFirstRewardIs70WhileNewWalletIsZero",
+      "Status": "Passed",
+      "Duration": 0.1702884,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.OfflineNativeFarmHasIndependentKnownOracleAndDoesNotAdvanceFrontier",
+      "Status": "Passed",
+      "Duration": 0.220213,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.OfflineSimulationUsesSelectedWeaponKindsTraversalAndStageTimeLimit",
+      "Status": "Passed",
+      "Duration": 0.1856881,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.OfflineTimeUses30SecondMinimum8HourCapAndRejectsInvalidOrFutureTime",
+      "Status": "Passed",
+      "Duration": 0.1777163,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.Real100DiamondButtonShowsInsufficientBalanceThenSpawnsWeaponAndColdSaves",
+      "Status": "Passed",
+      "Duration": 5.9704176,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.SeasonBootstrapStaysZeroThenManualCappedResetClearsBothTracksAndCounters",
+      "Status": "Passed",
+      "Duration": 0.2342447,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.SeasonExpiryUsesDateBoundaryAndReloadCannotIncrementTwice",
+      "Status": "Passed",
+      "Duration": 0.2129019,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.SpeedRunOriginalRewardAdGivesBonusOnceAndAllChallengeMaterialsRender",
+      "Status": "Passed",
+      "Duration": 7.7871344,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalPlayableRecoveryTests.StartupOfflinePanelCommitsOnceAndColdReloadDoesNotAwardAgain",
+      "Status": "Passed",
+      "Duration": 18.1928116,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

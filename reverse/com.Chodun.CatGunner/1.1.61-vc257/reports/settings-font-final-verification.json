@@ -1,0 +1,210 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "return UnityEngine.Object.FindObjectsByType<TMPro.TMP_Text>(UnityEngine.FindObjectsInactive.Include).Select(t=>new{text=t.text,font=t.font.name,format=t.font.atlasTexture.format.ToString(),missing=t.text.Where(c=>!char.IsWhiteSpace(c)&&!t.font.HasCharacter(c)).Select(c=>(int)c).ToArray()}).ToArray();"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": [
+        {
+          "text": "Stage 0-0",
+          "font": "MPLUS",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "문의하기",
+          "font": "Mitme_Outline",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "저장하기",
+          "font": "Mitme_Outline",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "리딤 코드",
+          "font": "Mitme_Outline",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "3 / 4",
+          "font": "MPLUS",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "저장 시간",
+          "font": "Mitme SDF",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "게임을 저장하시겠습니까?",
+          "font": "Mitme_Outline",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "불러오기",
+          "font": "Mitme_Outline",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "교환",
+          "font": "Mitme_Outline",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "코드를 입력해주세요.",
+          "font": "Mitme SDF",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "Sound",
+          "font": "Mitme SDF",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "​",
+          "font": "Mitme_Outline",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "최대 스테이지",
+          "font": "Mitme SDF",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "Stage 0-0",
+          "font": "MPLUS",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "! 이미 저장되어있는 정보는 사라집니다 !",
+          "font": "Mitme SDF",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "Google Login",
+          "font": "Mitme_Outline",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "취소",
+          "font": "Mitme_Outline",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "저장하기",
+          "font": "Mitme_Outline",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "게임을 불러오시겠습니까?",
+          "font": "Mitme_Outline",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "최대 스테이지",
+          "font": "Mitme SDF",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "BGM",
+          "font": "Mitme SDF",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "취소",
+          "font": "Mitme_Outline",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "3 / 4",
+          "font": "MPLUS",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "Restore",
+          "font": "Mitme_Outline",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "<경고> 현제 게임 데이터가 사라집니다.",
+          "font": "Mitme_Outline",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "저장 시간",
+          "font": "Mitme SDF",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "Vibration",
+          "font": "Mitme SDF",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "불러오기",
+          "font": "Mitme_Outline",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "Cloud Save",
+          "font": "Mitme_Outline",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "리딤코드",
+          "font": "Mitme_Outline",
+          "format": "Alpha8",
+          "missing": []
+        },
+        {
+          "text": "Loading",
+          "font": "Mitme_Outline",
+          "format": "Alpha8",
+          "missing": []
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

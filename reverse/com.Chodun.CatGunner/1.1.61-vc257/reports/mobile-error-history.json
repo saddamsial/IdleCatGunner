@@ -1,0 +1,96 @@
+{
+  "success": true,
+  "command": "command console",
+  "data": {
+    "command": "console",
+    "parameters": {
+      "level": "error",
+      "tail": "30"
+    },
+    "result": {
+      "entries": [
+        {
+          "seq": 1425,
+          "timestampUtc": "2026-10-11T18:15:42.840994Z",
+          "level": "error",
+          "logType": "Error",
+          "message": "Failed to handle /api/exec request: Main thread operation timed out after 5000ms",
+          "stackTrace": "UnityEngine.Debug:LogError (object)\nUnity.Pipeline.BasePipelineServer/<HandleExecRequest>d__119:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2257)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteGated>d__109:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:1589)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<>c__DisplayClass119_0/<<HandleExecRequest>b__0>d:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2218)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object>:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteCommandByName>d__137:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2664)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object>:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteCommand>d__138:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2703)\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n",
+          "seeded": false
+        },
+        {
+          "seq": 1534,
+          "timestampUtc": "2026-10-11T18:36:56.699657Z",
+          "level": "error",
+          "logType": "Error",
+          "message": "Assets/Recovery/Tests/PlayMode/OriginalCompanionStaticTextTests.cs(93,97): error CS1061: 'OriginalSaveData' does not contain a definition for 'PetInventory' and no accessible extension method 'PetInventory' accepting a first argument of type 'OriginalSaveData' could be found (are you missing a using directive or an assembly reference?)",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 1535,
+          "timestampUtc": "2026-10-11T18:36:56.699671Z",
+          "level": "error",
+          "logType": "Error",
+          "message": "Assets/Recovery/Tests/PlayMode/OriginalCompanionStaticTextTests.cs(103,34): error CS1061: 'OriginalSaveData' does not contain a definition for 'PetInventory' and no accessible extension method 'PetInventory' accepting a first argument of type 'OriginalSaveData' could be found (are you missing a using directive or an assembly reference?)",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 1946,
+          "timestampUtc": "2026-10-11T19:26:18.289323Z",
+          "level": "error",
+          "logType": "Error",
+          "message": "ExecuteCommandByName: No command named 'refresh' is available. Available: [set_serialized_field, clear_baked_lighting, set_player_settings, remove_animation_curve, open_scene, set_selection, cancel_occlusion_bake, add_animator_transition, delete_gameobject, set_build_settings, get_player_settings, set_active, set_authoring_root, set_tags_layers, create_timeline, clear_occlusion_culling, set_layer, instantiate_prefab, add_component, cancel_lighting_bake, set_time_settings, bake_navmesh_surfaces, set_transform, get_lighting_settings, build, attach_script, write_text_file, get_navmesh_settings, remove_component, set_autotick, read_text_file, set_active_scene, wait_for, unpack_prefab, create_animation_clip, add_scene_to_build, switch_build_target, get_input_settings, find_gameobjects, get_timeline, set_input_settings, cancel_navmesh_bake, delete_asset, add_animator_state, create_scene, create_prefab_variant, package_add, get_component_properties, screenshot, get_graphics_settings, set_graphics_settings, list_open_scenes, get_tags_layers, rename_asset, get_performance_stats, get_quality_settings, audit, package_list, set_runtime_pipeline_settings, create_prefab, set_navmesh_settings, wait_status, build_status, batch, list_shaders, create_folder, test_status, set_audio_settings, menu, get_audio_settings, set_animation_curve, get_runtime_pipeline_settings, package_remove, set_lighting_settings, get_shader_properties, revert_prefab_overrides, editor_stop, switch_build_target_status, save_all, move_asset, wait_cancel, apply_prefab_overrides, reload_file_player_interpreter, set_parent, copy_asset, create_asset, get_serialized_fields, package_search, get_scene_hierarchy, set_component_properties, set_quality_settings, navmesh_bake_status, import_asset, occlusion_bake_status, set_import_settings, bake_occlusion_culling, list_build_profiles, get_build_settings, get_animation_clip, editor_play, get_time_settings, audit_status, set_physics_settings, capture_scene_view, recompile, clear_navmesh, add_animator_layer, search, capture_game_view, create_script, add_animator_parameter, save_prefab_contents, package_status, rename_gameobject, editor_focus, create_gameobjects, bake_navmesh, get_animator_controller, create_animator_controller, save_scene, editor_status, get_selection, recompile_status, find_assets, get_material_properties, get_physics_settings, add_timeline_track, create_gameobject, get_import_settings, add_timeline_clip, set_tag, set_material_properties, editor_pause, list_tests, run_script, remove_scene_from_build, package_resolve, bake_lighting, list_build_targets, run_tests, get_authoring_root, cancel_tests, lighting_bake_status, clear_console, eval_file, console_status, report_evals, cleanup_codereload, reload_file_editor_interpreter, codereload_status, simulate_pointer, runtime_status, quit, set_target_framerate, log, simulate_key, set_timescale, console, eval, reload_file]",
+          "stackTrace": "UnityEngine.Debug:LogError (object)\nUnity.Pipeline.BasePipelineServer:ResolveCommand (string) (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2622)\nUnity.Pipeline.BasePipelineServer/<HandleExecRequest>d__119:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2085)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<int>:SetResult (int)\nUnity.Pipeline.MaxLengthStream/<ReadAsync>d__6:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/MaxLengthStream.cs:46)\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n",
+          "seeded": false
+        },
+        {
+          "seq": 2160,
+          "timestampUtc": "2026-10-11T20:01:50.670458Z",
+          "level": "error",
+          "logType": "Error",
+          "message": "ExecuteCommandByName: No command named 'refresh' is available. Available: [set_serialized_field, clear_baked_lighting, set_player_settings, remove_animation_curve, open_scene, set_selection, cancel_occlusion_bake, add_animator_transition, delete_gameobject, set_build_settings, get_player_settings, set_active, set_authoring_root, set_tags_layers, create_timeline, clear_occlusion_culling, set_layer, instantiate_prefab, add_component, cancel_lighting_bake, set_time_settings, bake_navmesh_surfaces, set_transform, get_lighting_settings, build, attach_script, write_text_file, get_navmesh_settings, remove_component, set_autotick, read_text_file, set_active_scene, wait_for, unpack_prefab, create_animation_clip, add_scene_to_build, switch_build_target, get_input_settings, find_gameobjects, get_timeline, set_input_settings, cancel_navmesh_bake, delete_asset, add_animator_state, create_scene, create_prefab_variant, package_add, get_component_properties, screenshot, get_graphics_settings, set_graphics_settings, list_open_scenes, get_tags_layers, rename_asset, get_performance_stats, get_quality_settings, audit, package_list, set_runtime_pipeline_settings, create_prefab, set_navmesh_settings, wait_status, build_status, batch, list_shaders, create_folder, test_status, set_audio_settings, menu, get_audio_settings, set_animation_curve, get_runtime_pipeline_settings, package_remove, set_lighting_settings, get_shader_properties, revert_prefab_overrides, editor_stop, switch_build_target_status, save_all, move_asset, wait_cancel, apply_prefab_overrides, reload_file_player_interpreter, set_parent, copy_asset, create_asset, get_serialized_fields, package_search, get_scene_hierarchy, set_component_properties, set_quality_settings, navmesh_bake_status, import_asset, occlusion_bake_status, set_import_settings, bake_occlusion_culling, list_build_profiles, get_build_settings, get_animation_clip, editor_play, get_time_settings, audit_status, set_physics_settings, capture_scene_view, recompile, clear_navmesh, add_animator_layer, search, capture_game_view, create_script, add_animator_parameter, save_prefab_contents, package_status, rename_gameobject, editor_focus, create_gameobjects, bake_navmesh, get_animator_controller, create_animator_controller, save_scene, editor_status, get_selection, recompile_status, find_assets, get_material_properties, get_physics_settings, add_timeline_track, create_gameobject, get_import_settings, add_timeline_clip, set_tag, set_material_properties, editor_pause, list_tests, run_script, remove_scene_from_build, package_resolve, bake_lighting, list_build_targets, run_tests, get_authoring_root, cancel_tests, lighting_bake_status, clear_console, eval_file, console_status, report_evals, cleanup_codereload, reload_file_editor_interpreter, codereload_status, simulate_pointer, runtime_status, quit, set_target_framerate, log, simulate_key, set_timescale, console, eval, reload_file]",
+          "stackTrace": "UnityEngine.Debug:LogError (object)\nUnity.Pipeline.BasePipelineServer:ResolveCommand (string) (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2622)\nUnity.Pipeline.BasePipelineServer/<HandleExecRequest>d__119:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2085)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<int>:SetResult (int)\nUnity.Pipeline.MaxLengthStream/<ReadAsync>d__6:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/MaxLengthStream.cs:46)\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n",
+          "seeded": false
+        },
+        {
+          "seq": 2186,
+          "timestampUtc": "2026-10-12T02:36:51.912031Z",
+          "level": "error",
+          "logType": "Error",
+          "message": "Failed to handle /api/exec request: Main thread operation timed out after 5000ms",
+          "stackTrace": "UnityEngine.Debug:LogError (object)\nUnity.Pipeline.BasePipelineServer/<HandleExecRequest>d__119:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2257)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteGated>d__109:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:1589)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<>c__DisplayClass119_0/<<HandleExecRequest>b__0>d:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2218)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object>:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteCommandByName>d__137:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2664)\nSystem.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<object>:SetException (System.Exception)\nUnity.Pipeline.BasePipelineServer/<ExecuteCommand>d__138:MoveNext () (at ./Packages/com.unity.pipeline/Runtime/Common/BasePipelineServer.cs:2703)\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n",
+          "seeded": false
+        }
+      ],
+      "cursor": 2623,
+      "session": "2c8c59f1371046da9a0f1082eca2aacc",
+      "returned": 6,
+      "dropped": false,
+      "reset": false,
+      "counts": {
+        "error": 6,
+        "warn": 997,
+        "log": 274
+      },
+      "groundTruth": {
+        "sampledUtc": "2026-10-12T03:34:37.906129Z",
+        "ageMs": 248,
+        "compilationFailed": false,
+        "compiling": false,
+        "consoleErrors": 0,
+        "consoleWarnings": 120,
+        "consoleLogs": 0,
+        "seeded": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

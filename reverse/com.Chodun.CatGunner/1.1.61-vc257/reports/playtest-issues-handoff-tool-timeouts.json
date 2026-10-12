@@ -1,0 +1,20 @@
+{
+  "diagnosticSummary": true,
+  "entries": [
+    {
+      "seq": 3623,
+      "timestampUtc": "2026-10-11T04:37:10.106245Z",
+      "message": "Failed to handle /api/exec request: Main thread operation timed out after 5000ms"
+    },
+    {
+      "seq": 3624,
+      "timestampUtc": "2026-10-11T04:37:27.01335Z",
+      "message": "Failed to handle /api/exec request: Main thread operation timed out after 5000ms"
+    }
+  ],
+  "operations": [
+    "clear test host SessionState",
+    "reopen normal scene"
+  ],
+  "result": "Both actions completed; persistent handoff verifies edit mode, correct normal scene, no test folder, and no compile failure."
+}

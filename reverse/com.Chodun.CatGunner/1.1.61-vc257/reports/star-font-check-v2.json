@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var p=UnityEngine.Object.FindAnyObjectByType<StarUpgrade_manager>().popup; return new {spriteShader=UnityEngine.Shader.Find(\"TextMeshPro/Sprite\")!=null,fontEnglish=p.SlotNum_txt.font.HasCharacters(\"Slot Upgrade 1\",out uint[] missing,false,false),missing,alertEnglish=p.RecoveryAlert.txt.font.HasCharacters(\"Upgrade succeeded!\",out uint[] missingAlert,false,false),missingAlert,atlas=p.SlotNum_txt.font.atlasTexture.name};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "spriteShader": true,
+        "fontEnglish": true,
+        "missing": null,
+        "alertEnglish": false,
+        "missingAlert": [
+          99,
+          99
+        ],
+        "atlas": "Mitme Atlas_0"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,307 @@
+{
+  "rule": 41,
+  "updatedUtc": "2026-10-11T02:51:10.490825+00:00",
+  "target": "com.Chodun.CatGunner 1.1.61 vc257 ARM64",
+  "contract": "reports/playtest-fixes-contract.json",
+  "nativeEvidence": "reports/playtest-fixes-native-evidence.json",
+  "tests": [
+    {
+      "report": "reports/playtest-fixes-playmode-accepted.json",
+      "durationSeconds": 90.91,
+      "summary": {
+        "total": 17,
+        "passed": 17,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "completeIndependentBatch": true
+    },
+    {
+      "report": "reports/playtest-fixes-startup-accepted.json",
+      "durationSeconds": 28.16,
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "completeIndependentBatch": true
+    },
+    {
+      "report": "reports/playtest-fixes-mission-rejection-regression.json",
+      "durationSeconds": 48.34,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "completeIndependentBatch": true
+    },
+    {
+      "report": "reports/playtest-fixes-mission-presentation-regression.json",
+      "durationSeconds": 51.34,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "completeIndependentBatch": true
+    },
+    {
+      "report": "reports/playtest-fixes-fish-auto-regression.json",
+      "durationSeconds": 72.23,
+      "summary": {
+        "total": 18,
+        "passed": 18,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "completeIndependentBatch": true
+    },
+    {
+      "report": "reports/playtest-fixes-progression-regression.json",
+      "durationSeconds": 19.15,
+      "summary": {
+        "total": 8,
+        "passed": 8,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "completeIndependentBatch": true
+    }
+  ],
+  "testBatchBoundary": "Six independent completed PlayMode batches, not one whole-suite result. Accepted production changes were followed only by startup/fish test harness and documentation changes.",
+  "history": [
+    {
+      "report": "reports/playtest-fixes-playmode-run1.json",
+      "summary": {
+        "total": 11,
+        "passed": 11,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "durationSeconds": 40.59,
+      "superseded": true
+    },
+    {
+      "report": "reports/playtest-fixes-playmode-run2.json",
+      "summary": {
+        "total": 17,
+        "passed": 10,
+        "failed": 7,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "durationSeconds": 82.18,
+      "superseded": true
+    },
+    {
+      "report": "reports/playtest-fixes-playmode-run3.json",
+      "summary": {
+        "total": 17,
+        "passed": 11,
+        "failed": 6,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "durationSeconds": 88.74,
+      "superseded": true
+    },
+    {
+      "report": "reports/playtest-fixes-startup-run1.json",
+      "summary": {
+        "total": 4,
+        "passed": 3,
+        "failed": 1,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "durationSeconds": 26.52,
+      "superseded": true
+    }
+  ],
+  "testHarnessCompileInterruption": {
+    "status": "cancelled",
+    "reason": "Startup regression temporarily referenced Newtonsoft in a test assembly without that dependency; replaced with Unity JsonUtility comparison excluding only monotonic lifecycle timestamp",
+    "completedTestResult": false
+  },
+  "sceneAudit": "reports/playtest-fixes-scene-document-diff.json",
+  "preservationAudit": "reports/playtest-fixes-preservation-audit.json",
+  "materialRepair": "reports/challenge-material-repair.json",
+  "offlineScene": "reports/offline-scene-restoration.json",
+  "adventureCallbacks": "reports/adventure-ad-button-restoration.json",
+  "historicalVisualAudit": "reports/playtest-fixes-historical-visual-audit.json",
+  "handoff": {
+    "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+    "dirty": false,
+    "playing": false,
+    "compiling": false,
+    "updating": false,
+    "objects": 35042,
+    "missingScripts": 0,
+    "persist": true,
+    "saveFolderOverride": null,
+    "localRewardedAdDefault": true,
+    "offlineBound": true,
+    "offlineMaxSeconds": 28800.0,
+    "inputOverrides": 0,
+    "mouseFixtures": 0,
+    "timeScale": 1.0,
+    "buildScenes": [
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredBullets.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForest.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestHUD.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredForestProgress.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredJoystick.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredSettings.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/Recovery/Scenes/RecoveredTarget.unity",
+        "enabled": true
+      }
+    ]
+  },
+  "console": {
+    "report": "reports/playtest-fixes-console.json",
+    "errors": 0,
+    "archivedTransportDiagnostic": "reports/playtest-fixes-console-cli-timeout.json",
+    "note": "One CLI 5-second main-thread timeout occurred while reading the large scene; persisted handoff completed. Diagnostic archived before Console clear; not a gameplay exception."
+  },
+  "runner": {
+    "status": "completed",
+    "summary": {
+      "total": 8,
+      "passed": 8,
+      "failed": 0,
+      "skipped": 0,
+      "inconclusive": 0
+    },
+    "noActiveJob": true
+  },
+  "sceneSha256": "f44d70e2ca085f46a15282be57c755e9578d27089ab313cc99a54226a7a49258",
+  "sourceSha256": {
+    "Assets/Recovery/Scripts/Mission_UI.cs": "1b03d11e2101175600c818cb64bf6fef569d8d3e276f436c689adb917fba620e",
+    "Assets/Recovery/Scripts/Raid_Start_UI.cs": "c19d5474273f0a48fd9d377d50a471f40feaa0f77ec463f127c3abc06f7d1709",
+    "Assets/Recovery/Scripts/SpeedRun_manager.cs": "31994f0f4a9775eec94cdfb09992d98298b606f5606b5e70068eabd88e44e9f2",
+    "Assets/Recovery/Scripts/Raid_manager.cs": "ae64656787dcb4b22bc6dca7e70ed564c1c41992b69c16e6379f49ddb566115f",
+    "Assets/Recovery/Scripts/Mission_Reward_Item.cs": "ba7f64065b7af7502516081349cc61e207a62483f1716062bcb9e52a38b1bc52",
+    "Assets/Recovery/Scripts/Pet_manager.cs": "c3ee66a3fbe7dc6b35797ba66435faae57972175bed9a0bd5920d628150f7e69",
+    "Assets/Recovery/Scripts/RecoveryForestClient.cs": "11d6826b4cb627a9cd9faae38d87c05bb80d404f1ff141ec8175f885e34b7771",
+    "Assets/Recovery/Scripts/Monster_manager.cs": "d430b8b622c817187cb078cd89801d1475e63b3a66d6486b0761283c6ab212fd",
+    "Assets/Recovery/Scripts/Boss_manager.cs": "6dbb1957d4140418f0b7a1c72f8f49360824cef014a3f749bc43f768835857fd",
+    "Assets/Recovery/Scripts/OriginalGunInventory.cs": "d5a00fc3e60bf527061f43dbe220e816a5b254cdafe423ec0f8c4763f57d4656",
+    "Assets/Recovery/Scripts/Fish_manager.cs": "d401dbeedaaaba6c1dc31cba77e43a48507f6b908f37a26183321f9cb6f769f6",
+    "Assets/Recovery/Scripts/Gun_manager.cs": "8bffbc27abe8107c67d5cd2074e43e752a0d1da8f62bf4353c25aef0f2015cce",
+    "Assets/Recovery/Scripts/OriginalPetInventory.cs": "e4c4807a10274f845b841d1db6bbb06243390bb7daf702f5939299db5c798543",
+    "Assets/Recovery/Scripts/Mission_manager.cs": "4669b15922329f7f91c56d45ec9736b584b0f97564fcedb8ad464061e87c2074",
+    "Assets/Recovery/Scripts/Adventure_manager.cs": "0743037630e85b3130145e6aab0d2d79b612f59a555738ba687dc3c2b11e9867",
+    "Assets/Recovery/Scripts/OriginalMissions.cs": "0c11ad96617895f84646b985ac8677ac23100da7f48c3ae0a8689f1e74d43a5f",
+    "Assets/Recovery/Scripts/Adventure_Map_info_item.cs": "0b8d51e2748d2bbab52670cab4c815297d00aed4aae0c130a04c83dc22ab68fa",
+    "Assets/Recovery/Scripts/Mine_manager.cs": "7b8e8a6931583b21ea4d945ca0edf7d2af400f46738fc3c9aecfe5fc91bf4f80",
+    "Assets/Recovery/Scripts/OriginalFishRules.cs": "a8631595fb7052ccbe05a9d2fa234549a059bdfd3371005a74ef251d145e3888",
+    "Assets/Recovery/Scripts/OriginalOfflineSimulation.cs.meta": "cb6410e35fe7b90067fe78a2193910d02e6923a819242b204bca00235d91105e",
+    "Assets/Recovery/Scripts/Offline_Panel_UI.cs": "a3531770a788b5e0630eea518c8afcdcb948fc13fe07c419e9ab19f5ae2e9ea2",
+    "Assets/Recovery/Scripts/OfflineProgressManager.cs": "161b9eac8fe34aba412d36afd6a182f76b823d44b8f69c353d6a80a43fdb9a1c",
+    "Assets/Recovery/Scripts/RecoveryRewardedAds.cs": "5315f9ba18eb26c356d42107daafb1caabb4b394d4d6abd116c921da9a2ae78d",
+    "Assets/Recovery/Scripts/RecoveryRewardedAds.cs.meta": "120d570ced7a52ca5f63a13019b501eccae37f973f855962c1942aa85ae38c1c",
+    "Assets/Recovery/Scripts/OriginalOfflineSimulation.cs": "e54a5c46d973b1b24744e421529ca364ad654bc96fb1e4355524b4091e1e7698",
+    "Assets/Recovery/Scripts/Offline_Panel_UI.cs.meta": "38b90b732f767a408100132bdeb86a3d77eba99a9dbd9f96d6fac54e271e551c",
+    "Assets/Recovery/Scripts/OfflineProgressManager.cs.meta": "11499d081b46b0a3ab81ec89a38db6637d5013bc8846c4403f7e996980d5ac5e"
+  },
+  "testSourceSha256": {
+    "Assets/Recovery/Tests/PlayMode/OriginalPlayableRecoveryTests.cs": "ed368b4c0b597a093e8acd567e5846341a934714cd362d32763d811ba87b55bf",
+    "Assets/Recovery/Tests/PlayMode/OriginalStartupTests.cs": "0c4f232066b00f78b1fed584f61b8d0aa228e9ae5f9dea0e366e9fe0634f5fb8",
+    "Assets/Recovery/Tests/PlayMode/OriginalFishAndAutoMergeTests.cs": "5d434d0a16f086a9451f192d72457ef97a401b1815d8df5d3e7cdaf88ad7ed1a"
+  },
+  "visual": [
+    {
+      "path": "reports/visual/playtest-fixes-speedrun-gpu.png",
+      "sha256": "433d35cc8fe6ee0aec0da5206190d1359a26ad1b3e29a0a60500c46a7b0ee0ae",
+      "actuallyViewed": true
+    },
+    {
+      "path": "reports/visual/playtest-fixes-boss-gpu.png",
+      "sha256": "e9bd5b59eef69aa0f4c2ec7df84e33e133c89540327c19bb0b3d79ebfc83c828",
+      "actuallyViewed": true
+    },
+    {
+      "path": "reports/visual/playtest-fixes-monster-gpu.png",
+      "sha256": "c5995c19e27d72b0146296a884653f577d4f5aacde331c2560a6df26d765e547",
+      "actuallyViewed": true
+    },
+    {
+      "path": "reports/visual/playtest-fixes-insufficient-diamonds-gpu.png",
+      "sha256": "c72fd27c3a2e1a42a040e65f761738e277bfe17e717e5156d0aa244c94a2f96b",
+      "actuallyViewed": true
+    },
+    {
+      "path": "reports/visual/playtest-fixes-offline-result-gpu.png",
+      "sha256": "9fad1f14adb72a58f4023e70cdb8ad11b6bfd4540ad5bbb4886b4b951c0dd1de",
+      "actuallyViewed": true
+    },
+    {
+      "path": "reports/visual/playtest-fixes-new-season-gpu.png",
+      "sha256": "1a8397f32c4a4fcf4230bf7560c32dc4c1e5bc53b5868d860dcc81112181abad",
+      "actuallyViewed": true
+    },
+    {
+      "path": "reports/visual/playtest-fixes-startup-walking-cat-gpu.png",
+      "sha256": "272aaee2fae485ce91f6ce9241276e6b544c042fe633fb8b6fb04d820ec27fa9",
+      "actuallyViewed": true
+    },
+    {
+      "path": "reports/visual/playtest-fixes-startup-auto-combat-gpu.png",
+      "sha256": "bb480f129b890d38fe037e9ea9ee9a27e67254b8451c8a83bee25b2a92341d4a",
+      "actuallyViewed": true
+    }
+  ],
+  "localAdapters": [
+    "user-authorized next-frame rewarded-ad success with original placement gates",
+    "Built-in compatible challenge shaders, preserving original material files",
+    "local clock and 5-second save timestamp",
+    "DecimalAmount/float-ratio offline numerical adaptation with 4ms frame budget and tiny-progress guard",
+    "extra Chinese insufficient-wallet/inventory Alert feedback"
+  ],
+  "remaining": [
+    "automatic-upgrade ads, three short buffs, enhanced rebirth, temporary ad weapon, sweeps and remaining commercial UI",
+    "complete original InfVal precision/rounding/extreme values and full offline background scheduling",
+    "trusted server time, WeeklyShop fulfillment, cloud accounts/rankings/IAP and live service acceptance",
+    "full I2, four remaining tutorial HUDs, commercial Shapes/GPU effects and original render/animation fidelity; monster health-ring grey rectangle remains a visual difference",
+    "original relic row 300 missing data boundary",
+    "Player build, device playtest and original-video frame comparison"
+  ],
+  "playerBuilt": false,
+  "deviceAccepted": false,
+  "gitCommittedOrPushedThisRound": false,
+  "scopeComplete": false
+}

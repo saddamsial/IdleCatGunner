@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene();var c=UnityEngine.Object.FindAnyObjectByType<CatGunner.Recovery.RecoveryForestClient>();var m=c.MineMode;var gos=scene.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<UnityEngine.Transform>(true)).Select(t=>t.gameObject).ToArray();var folder=System.IO.Path.Combine(UnityEngine.Application.persistentDataPath,\"RecoveredClient-vc257\");var state=CatGunner.Recovery.OriginalSaveArchive.Decode(System.IO.File.ReadAllText(System.IO.Path.Combine(folder,\"NoSaveFile.json\")));CatGunner.Recovery.RecoveryForestClient.ValidateSupportedState(state);CatGunner.Recovery.OriginalMineTickets.Reload(state,System.DateTime.Now);return new {scene=scene.path,version=UnityEngine.Application.unityVersion,playing=UnityEditor.EditorApplication.isPlaying,paused=UnityEditor.EditorApplication.isPaused,compiling=UnityEditor.EditorApplication.isCompiling,dirty=scene.isDirty,timeScale=UnityEngine.Time.timeScale,persist=c.Persist,saveOverride=c.SaveFolderOverride,visualClone=UnityEditor.SessionState.GetBool(\"CatGunner.ProgressionVisualClone\",false),objects=gos.Length,canvases=UnityEngine.Object.FindObjectsByType<UnityEngine.Canvas>(UnityEngine.FindObjectsInactive.Include).Length,missingScripts=gos.Sum(g=>g.GetComponents<UnityEngine.MonoBehaviour>().Count(b=>b==null)),orePool=m.Ore_list.Length,oreMissing=m.Ore_list.Count(o=>o==null||o.spriteRenderer==null||o.DustSpawn_trans==null||o.enemy==null||o.enemy.Slider.Fill==null),mineMapActive=m.Map_obj.activeSelf,mineHUDActive=m.ModeHUD.activeSelf,readOnlyUserProfileAccepted=true,readOnlyNormalMineTickets=2-state.TicketUse_Count};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "version": "6000.4.10f1",
+        "playing": false,
+        "paused": false,
+        "compiling": false,
+        "dirty": false,
+        "timeScale": 1,
+        "persist": true,
+        "saveOverride": null,
+        "visualClone": false,
+        "objects": 27400,
+        "canvases": 1,
+        "missingScripts": 0,
+        "orePool": 1000,
+        "oreMissing": 0,
+        "mineMapActive": false,
+        "mineHUDActive": false,
+        "readOnlyUserProfileAccepted": true,
+        "readOnlyNormalMineTickets": 2
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

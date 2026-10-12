@@ -1,0 +1,47 @@
+[
+  {
+    "global_preferred_va": "0x5d639e0",
+    "method_spec_index": 48044,
+    "type": "System.Collections.Generic.HashSet`1",
+    "method": "Add",
+    "token": "0x6000ce6",
+    "class_inst": 88,
+    "method_inst": -1,
+    "instantiations": [
+      [
+        "System.Int32"
+      ],
+      null
+    ]
+  },
+  {
+    "global_preferred_va": "0x5d639e8",
+    "method_spec_index": 48051,
+    "type": "System.Collections.Generic.HashSet`1",
+    "method": "Contains",
+    "token": "0x6000cdc",
+    "class_inst": 88,
+    "method_inst": -1,
+    "instantiations": [
+      [
+        "System.Int32"
+      ],
+      null
+    ]
+  },
+  {
+    "global_preferred_va": "0x5d5d560",
+    "method_spec_index": 164181,
+    "type": "UnityEngine.Component",
+    "method": "GetComponent",
+    "token": "0x6000c86",
+    "class_inst": -1,
+    "method_inst": 12710,
+    "instantiations": [
+      null,
+      [
+        "EnemyColl"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "call_va": "0x2a7e978",
+    "target": "Money_Txt_Spawn",
+    "nearest_managed_start": "0x2a7e82c",
+    "nearest_method": "Gamemanager.Get_Money"
+  },
+  {
+    "call_va": "0x2a7ec1c",
+    "target": "Money_Txt_Spawn",
+    "nearest_managed_start": "0x2a7eadc",
+    "nearest_method": "Gamemanager.Get_Money"
+  },
+  {
+    "call_va": "0x2a7eed0",
+    "target": "Dia_Txt_Spawn",
+    "nearest_managed_start": "0x2a7ee50",
+    "nearest_method": "Gamemanager.Get_Dia"
+  },
+  {
+    "call_va": "0x2b4c2e0",
+    "target": "Dia_Devide",
+    "nearest_managed_start": "0x2b4c1b0",
+    "nearest_method": "Ore.Die_Reload"
+  }
+]

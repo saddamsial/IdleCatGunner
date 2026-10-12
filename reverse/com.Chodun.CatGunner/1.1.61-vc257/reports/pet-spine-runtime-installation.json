@@ -1,0 +1,1295 @@
+{
+  "source": "https://esotericsoftware.com/files/runtimes/unity/spine-unity-4.1-2024-06-19.unitypackage",
+  "archive_sha256": "6efadc19fcfaa7296788c9bba9cfdba79f222af68a9582b7d33e7853640382c1",
+  "scope": "Official runtime only; no examples/editor auto-importers. Original exported script/shader identities retained. Original Spine4.1.24 data unchanged. Unity6 compatibility subject to actual validation. License headers retained.",
+  "files": [
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Outline/BlendModes/Spine-Skeleton-PMA-Additive-Outline.shader",
+      "sha256": "d7a358d50ab74ebca415d146daa25875f5b2fcc4cd0e9da77792009033450f68",
+      "original_identity": null,
+      "official_guid": "0299ffae826705448b6c80ccc6a53b75",
+      "installed_guid": "0299ffae826705448b6c80ccc6a53b75"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/FollowLocationRigidbody2D.cs",
+      "sha256": "0c5de73b9543264c1f504835b1577ee7a8f14a0003232caffde7234d75ac2b55",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/FollowLocationRigidbody2D.cs.meta",
+      "official_guid": "02aae87c39b869548a9051fbdb1975e6",
+      "installed_guid": "56db1814c9d6d77734d3fd67729b6a5f"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Components/Following/BoundingBoxFollower.cs",
+      "sha256": "ad6ab1f451c9704edbf050ec223355f4ef8f8f6949590c8591d4748094576a42",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/BoundingBoxFollower.cs.meta",
+      "official_guid": "0317ee9ba6e1b1e49a030268e026d372",
+      "installed_guid": "427a3eb912153272b7fb9afaa3f000f6"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Modules/TK2D/SpriteCollectionAttachmentLoader.cs",
+      "sha256": "66741f3582579e4b3879a000ed65c21c2d5facfbfc72b168e4a67a696961c364",
+      "original_identity": null,
+      "official_guid": "03238e4a73953c045a6cb289162532f3",
+      "installed_guid": "03238e4a73953c045a6cb289162532f3"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/MathUtils.cs",
+      "sha256": "93e9cb2ed9deed9ace1c5fd5020372b34722b0e8d3d96bf3fe742ea25eea7c04",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/MathUtils.cs.meta",
+      "official_guid": "03b653e54c5403b4191f5003d64c6e18",
+      "installed_guid": "5da948e42c18ec9f880995a331e58a3f"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/SkeletonStraightMultiply.mat",
+      "sha256": "4177274f3cb45bae0653842da7f2d925d44348e78e279b5d203dbcfe12bd9ba0",
+      "original_identity": null,
+      "official_guid": "053fed1e18e65064ca564f05c4027e1e",
+      "installed_guid": "053fed1e18e65064ca564f05c4027e1e"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/Attachments/Attachment.cs",
+      "sha256": "539b7def13e97d0395bf26ff2264ed7ebd9491c660c28d4bf9eb11dfd3945520",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/Attachment.cs.meta",
+      "official_guid": "05b56321b2ddd8145a888746bc6ab917",
+      "installed_guid": "a2ae40fba385f7baa8201581578b064f"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpriteUnlit.cginc",
+      "sha256": "3ab685859af80ed37afd5add59d511fd26381105e382a021508e579fe910a8b3",
+      "original_identity": null,
+      "official_guid": "072e7b07ec7fb1346a9dcd3bcbbb7111",
+      "installed_guid": "072e7b07ec7fb1346a9dcd3bcbbb7111"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Utility/TimelineExtensions.cs",
+      "sha256": "fc26511aee24b597abdfd732bd115473dbfd44c577ae5534167346492a9940d1",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/AnimationTools/TimelineExtensions.cs.meta",
+      "official_guid": "07807fefbff25484ba41b1d16911fb0e",
+      "installed_guid": "996867ba68fd10558cf7438dc1d1d117"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/SkeletonBounds.cs",
+      "sha256": "3907f20b6a75c928990d777e283931b70b38392285aba1eb80c41ade6f6a33ca",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/SkeletonBounds.cs.meta",
+      "official_guid": "087b328a58c93b149bb977eee3a17258",
+      "installed_guid": "8fc2b35f112ad035b21bc9c0075283f1"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Mesh Generation/DoubleBuffered.cs",
+      "sha256": "65a4adb444db045ab6428f6ed4a27b024b623b86934a8bd653ae6a41455a3a0f",
+      "original_identity": null,
+      "official_guid": "08b76da7751523448a87e528c48a5399",
+      "installed_guid": "08b76da7751523448a87e528c48a5399"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpriteLighting.cginc",
+      "sha256": "b54a70cc4edf0fb00769a17b33f38ff75cf1dfb6faed4e75fc73b88ccc5019a3",
+      "original_identity": null,
+      "official_guid": "0cfb891658099ca4bb0c9544c08e60f9",
+      "installed_guid": "0cfb891658099ca4bb0c9544c08e60f9"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Lit-Outline.shader",
+      "sha256": "398e7a1aca2325b5c26755cec1be4647f829afc8999d9f18835ad317c8e3a4bc",
+      "original_identity": null,
+      "official_guid": "10fab3f69a099be4391fe8a1ad880c65",
+      "installed_guid": "10fab3f69a099be4391fe8a1ad880c65"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/Skeleton.cs",
+      "sha256": "8fd5a7f114dfdbe03d119f692febf8913cf10f3c5d310d744a719c7b14f0ebb6",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/Skeleton.cs.meta",
+      "official_guid": "12ac3c1c7546be24fb9625d3c850619d",
+      "installed_guid": "d68bd5323f7a8f3ee3d5883e44fadf67"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/BlendModeMaterialsAsset.cs",
+      "sha256": "ea49ae8a139bf5757d5ac18af91694ce8e512c105585cd1634e5dead13add66e",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/BlendModeMaterialsAsset.cs.meta",
+      "official_guid": "12b0b98acbcda44468a7ae4e35000abe",
+      "installed_guid": "caba469fcce12ad24f96e445a40ae980"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Asset Types/RegionlessAttachmentLoader.cs",
+      "sha256": "7a6bb271179bcc4b5ee16e1609ec8d9ca5e7d6b82367ef78c096a3033053a62b",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/RegionlessAttachmentLoader.cs.meta",
+      "official_guid": "15f0f78b87720c047a320c5e0e3f91b7",
+      "installed_guid": "fcfcc80aa50cc3e9306c41928cf2c7c4"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-OutlineOnly-ZWrite.shader",
+      "sha256": "1af29b1d52359b1246231a102c91b1eddaf452964a35141e86644141c2a721ab",
+      "original_identity": null,
+      "official_guid": "177da18c3d2e0aa4cb39990ea011973c",
+      "installed_guid": "177da18c3d2e0aa4cb39990ea011973c"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/TextureRegion.cs",
+      "sha256": "c08500219fc3a3a3da12013bb54f6841a53f6cbb3a4e7aaaf60896f689d32181",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/TextureRegion.cs.meta",
+      "official_guid": "17b4075f6e1d4e5478f4730c2f4cc54d",
+      "installed_guid": "b707c20a7157764cf18ef43ecf58cb02"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/SkeletonStraightScreen.mat",
+      "sha256": "f6c57a620557a1e461ede66e10c212fa754b0f60517883e825eff2345b93b907",
+      "original_identity": null,
+      "official_guid": "1a66c2d7ee7642a459bd3831abeb30af",
+      "installed_guid": "1a66c2d7ee7642a459bd3831abeb30af"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderSeparator/SkeletonPartsRenderer.cs",
+      "sha256": "2ec63d1900cda17896ba2c2608dfc5eeccf0fe15228eb504065b7a91b99faccf",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/SkeletonPartsRenderer.cs.meta",
+      "official_guid": "1c0b968d1e7333b499e347acb644f1c1",
+      "installed_guid": "386bb2bb0404e89891923a241f9457aa"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Components/Following/BoundingBoxFollowerGraphic.cs",
+      "sha256": "fc9ff75bf67dfbc055eeb4277150641a29ef7340ce48fcf848cc836bfc6f5c4f",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/BoundingBoxFollowerGraphic.cs.meta",
+      "official_guid": "1c0bf7b497af9f74280040d96cdf88da",
+      "installed_guid": "9485532925c11aa467250cbad9e2b8c8"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Special-Skeleton-Grayscale-Outline.shader",
+      "sha256": "1572a577a151079c92666d6c7fc11ac1d142288210d23853183f1760c6c0a8b9",
+      "original_identity": null,
+      "official_guid": "1d3e1518ae643a749b086bc7972893d2",
+      "installed_guid": "1d3e1518ae643a749b086bc7972893d2"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton.shader",
+      "sha256": "fc1112e6dbc7bdac9a107f7bf62234f78d66942e23daed310141b315e6faf130",
+      "original_identity": "Assets/Shader/Spine_Skeleton.shader.meta",
+      "official_guid": "1e8a610c9e01c3648bac42585e5fc676",
+      "installed_guid": "3b8d14d991dcb8b46aba670f078a042b"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/Default BlendModeMaterials.asset",
+      "sha256": "b676dff9eea70e9bb34be98125a726432bc8e876d1f21f02c0aa6dd158e19fb5",
+      "original_identity": null,
+      "official_guid": "22c0225612a65ee4fb15bad49f644762",
+      "installed_guid": "22c0225612a65ee4fb15bad49f644762"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Utility/AtlasUtilities.cs",
+      "sha256": "6036991c0479c64eefdbc6d54fb0a0d7242f29c99b7271bf15366dee77f56eb7",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/AttachmentTools/AtlasUtilities.cs.meta",
+      "official_guid": "25ceef568a3dad448bf8a14fcc326964",
+      "installed_guid": "3cbd75ad0cbe8c6c3b826294a26bf670"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Components/SkeletonRendererCustomMaterials/SkeletonRendererCustomMaterials.cs",
+      "sha256": "f1618b2fed9e0aa7e0b36503685e7d63c05b7d04c4a9eae781c1fea8a38186e2",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/SkeletonRendererCustomMaterials.cs.meta",
+      "official_guid": "26947ae098a8447408d80c0c86e35b48",
+      "installed_guid": "39573aae3ecd69b1fdbcaa9744280d33"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-DepthOnlyPass.cginc",
+      "sha256": "7f67bc5380a5210be3d727fd93c168376501b1e716b8b457add8a9ed49747793",
+      "original_identity": null,
+      "official_guid": "27351ce55d3beb643ae8d9385db21941",
+      "installed_guid": "27351ce55d3beb643ae8d9385db21941"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Outline/Sprite/SpritesUnlit-Outline.shader",
+      "sha256": "021ddd75c1a4755e90590256dda838492cded3f5d7cdd89c7ac68e1e3c9a4bd7",
+      "original_identity": null,
+      "official_guid": "276c07e3bdd5719458187a5823e9d96a",
+      "installed_guid": "276c07e3bdd5719458187a5823e9d96a"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Outline.shader",
+      "sha256": "f5db22eada452ef3c3f5b14aed88e888675ec98eafe294d11f8a72202e16d510",
+      "original_identity": null,
+      "official_guid": "28b5cf4804845fe4b868531fd0bb81d5",
+      "installed_guid": "28b5cf4804845fe4b868531fd0bb81d5"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/SkeletonData.cs",
+      "sha256": "78f8d648ab74f1c9791a39cd484c22a5c72622f6872bfe2e56db7d3bce496637",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/SkeletonData.cs.meta",
+      "official_guid": "2b813f63abbb6d94a80a5c050590a0be",
+      "installed_guid": "5f7e576b80392f7a1b12d6a93065abed"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Sprite/SpritesVertexLit.shader",
+      "sha256": "6002cffab9089c1921365baac8239c9ea4e646fb5457a98133865e710b61d787",
+      "original_identity": null,
+      "official_guid": "2ce511398fb980f41b7d316c51534590",
+      "installed_guid": "2ce511398fb980f41b7d316c51534590"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/BoneData.cs",
+      "sha256": "67b613e5bed0baf591b9518d4388ac95f0a9ff3e850cfdcf623091bab034eb1a",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/BoneData.cs.meta",
+      "official_guid": "2cf831005966832449a5de742752e578",
+      "installed_guid": "41f3ffca62f9aa323c329183d9d722f5"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/TransformConstraint.cs",
+      "sha256": "fd223ab5758e9d32fcac29a6ef939a2dd30dc5900fd9f188d0357f2c4114e1f4",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/TransformConstraint.cs.meta",
+      "official_guid": "2e30316a9733f8a4b8b6c362c06dfa11",
+      "installed_guid": "2d7d359e0897287de6e9aaa4e6e6331b"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Materials/SkeletonGraphicAdditive.mat",
+      "sha256": "d6e8c54dcb0f8cf9eb38df2a30c57f9281129a60679223f5c774a17d23b7d419",
+      "original_identity": null,
+      "official_guid": "2e8245019faeb8c43b75f9ca3ac8ee34",
+      "installed_guid": "2e8245019faeb8c43b75f9ca3ac8ee34"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Outline/CGIncludes/Spine-Outline-Pass.cginc",
+      "sha256": "7a7d448ccdcc660a2cb55a321015c63139c8ffa308d47e1bb1e569234c5d538e",
+      "original_identity": null,
+      "official_guid": "2ec781e799f97504c8a418e168759f70",
+      "installed_guid": "2ec781e799f97504c8a418e168759f70"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Outline/Sprite/SpritesVertexLit-Outline.shader",
+      "sha256": "271f7107ee8001ed4fba653df05586a726ff641787849c15146cfd07fe12e77b",
+      "original_identity": null,
+      "official_guid": "30ef5dd318033004588a6481c092416a",
+      "installed_guid": "30ef5dd318033004588a6481c092416a"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Mesh Generation/MeshGenerator.cs",
+      "sha256": "edff8c9479f96903918b3d65878d6fc6a7a99afbd4aa265a82fb436ba4637fd4",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/MeshGenerator.cs.meta",
+      "official_guid": "311447d6e56727c4dad7611d5fa5afbf",
+      "installed_guid": "2c805c726d0bfdc081ac0b418620ef9b"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/Attachments/ClippingAttachment.cs",
+      "sha256": "e38ec5a61bdf8330afa65ebe662a2170b1138bbbc62a676d3013efbc60ac1a6f",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/ClippingAttachment.cs.meta",
+      "official_guid": "3380954b107f38b4c85a4cdfeceace42",
+      "installed_guid": "0dcc57fa046c0349cdfcc827be8fd27f"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Utility/AttachmentCloneExtensions.cs",
+      "sha256": "b97d18c2399f1f9de2304763961b66591adad75b91b8d23378b086cf33ce7ce8",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/AttachmentTools/AttachmentCloneExtensions.cs.meta",
+      "official_guid": "3431ed563b2c62f4c8c974a99365ba52",
+      "installed_guid": "bae0da1960b9ae75256b16bf0ae4658f"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/Json.cs",
+      "sha256": "384d6dac3e3d4c6a410fb3b8e46a7d2411a4d4189af8acfeea0cb33a78316d98",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/Json.cs.meta",
+      "official_guid": "371f40ecc08b2eb4cbec49585d41e2c3",
+      "installed_guid": "57fb491dd3e6e326a179dea6d46f3e01"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/EventData.cs",
+      "sha256": "78e86b62c5e40e99fddaba4e0d5dd255d65f5b643ea24d839f6f8d1b97d8bf2e",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/EventData.cs.meta",
+      "official_guid": "37bbfb9fb268a644ba75052961a42b81",
+      "installed_guid": "e8bb2e455bbe3f60a214838bb09327ed"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineAnimationEnd.cs",
+      "sha256": "f5ccb13a019d55b7078f74f8afc4355db71bff32953fd9ec006bdb8c440bb3f7",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/WaitForSpineAnimationEnd.cs.meta",
+      "official_guid": "3c5a5fe930d1ab24da154d76b24c2747",
+      "installed_guid": "9746085c1c55377e808b95516917acd9"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/Attachments/AtlasAttachmentLoader.cs",
+      "sha256": "398412272d73a5841393aec8397940fa711fb9fdc0646302b9eacd77acbf69b7",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/AtlasAttachmentLoader.cs.meta",
+      "official_guid": "3e6ff30e27c28344bad3e67d308c94cd",
+      "installed_guid": "a356a0182a4c76ffbdffea1d8d5b816e"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/SkeletonBinary.cs",
+      "sha256": "61e9b52f35dc7b9a407e99474c296037ed457e8517710da6573414e070a1e5a6",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/SkeletonBinary.cs.meta",
+      "official_guid": "40d8a8f15082f3844a5c9c8c3ef2047f",
+      "installed_guid": "a4ac776c39632af1a159184db44f4ead"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Asset Types/SkeletonDataCompatibility.cs",
+      "sha256": "c3f40284642db5003fbd22b47c85d1b17c8d6abb5cfeac7868a1e85f16b06a51",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/SkeletonDataCompatibility.cs.meta",
+      "official_guid": "4224df6e20549f0449154531ae080201",
+      "installed_guid": "18f21944b2010e4dd54013316c958f70"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Utility/HiddenPass.mat",
+      "sha256": "091db3f5f5f77c6263805cc9a5299e4ac415c690d9eab13daa8a6d96e6fd0ac2",
+      "original_identity": null,
+      "official_guid": "43227e5adadc6f24bb4bf74b92a56fb4",
+      "installed_guid": "43227e5adadc6f24bb4bf74b92a56fb4"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/IUpdatable.cs",
+      "sha256": "e81d9011cf1b02618bc00fa87bce5ad3e7c51b445f0efe20be5eaf5612878692",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/IUpdatable.cs.meta",
+      "official_guid": "44a51df5672fe4249b6763960587a017",
+      "installed_guid": "744a241f4458a457b09719d3424a3588"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-Fill.shader",
+      "sha256": "f9fe656c608ac6c28054321bca15d3108ba7f10f512b8367bdc90210d2ea7ea8",
+      "original_identity": null,
+      "official_guid": "45495790b394f894a967dbf44489b57b",
+      "installed_guid": "45495790b394f894a967dbf44489b57b"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/FollowSkeletonUtilityRootRotation.cs",
+      "sha256": "52289e82a7d70b4af690f639179c96047ac47509b8e47ce58dc689c5984dea97",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/FollowSkeletonUtilityRootRotation.cs.meta",
+      "official_guid": "456a736ebb92ebf4b959fa9c4b704427",
+      "installed_guid": "928b213722eb2efb7d97291f7f856670"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CameraDepthNormalsTexture.shader",
+      "sha256": "2a47b438678f4e6c0d775bac677a2d935292f309fe7bb4d7e95be1c351aa487c",
+      "original_identity": null,
+      "official_guid": "4794ea6b2d07cc546ba97a809b5f9ada",
+      "installed_guid": "4794ea6b2d07cc546ba97a809b5f9ada"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-TintBlack-Outline.shader",
+      "sha256": "37f1c440fa39837769966a605387ee0a80ad6a98c49b86b8fee41cef8fb662dc",
+      "original_identity": null,
+      "official_guid": "49cf725a1e40e7742be92917f83946c3",
+      "installed_guid": "49cf725a1e40e7742be92917f83946c3"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Outline/BlendModes/Spine-Skeleton-PMA-Multiply-Outline.shader",
+      "sha256": "d2c2ed51afe09138f7dd8545cdfdb3d43b975ea031a3c4b6fd2362b9e360414e",
+      "original_identity": null,
+      "official_guid": "4b3566a937643b8498d1ec6df5880b77",
+      "installed_guid": "4b3566a937643b8498d1ec6df5880b77"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/SkeletonPMAAdditive.mat",
+      "sha256": "44e24098c8650b12f015b9636a5eeb5ffb177d9622e0b4d6d56b9b0ba671c465",
+      "original_identity": null,
+      "official_guid": "4deba332d47209e4780b3c5fcf0e3745",
+      "installed_guid": "4deba332d47209e4780b3c5fcf0e3745"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/BlendModes/Spine-Skeleton-PMA-Screen.shader",
+      "sha256": "42c35efb698080117dc783fcfddbbad32f9751bd2bf7bc9bb9935eca146f1636",
+      "original_identity": null,
+      "official_guid": "4e8caa36c07aacf4ab270da00784e4d9",
+      "installed_guid": "4e8caa36c07aacf4ab270da00784e4d9"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Tint-Outline.shader",
+      "sha256": "7fae68b49be8932cf103acfed3dbf18fd90e407699d67d465737cf5653c096d8",
+      "original_identity": null,
+      "official_guid": "4f1fdc166fed03649835949d3b79cba3",
+      "installed_guid": "4f1fdc166fed03649835949d3b79cba3"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/Attachments/PointAttachment.cs",
+      "sha256": "dbc61962470bec83f7b8bfdda9b155daa8aca5c11f4adf811e9477a20b9d6671",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/PointAttachment.cs.meta",
+      "official_guid": "4fdde4cc4df0952468946f4f913dcb36",
+      "installed_guid": "268af8493789802097dfdf267f1f679e"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/ConstraintData.cs",
+      "sha256": "c8baa11cebb3c7630679e5b7c7f0fb404f16943afc32cedfc597060211f7a586",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/ConstraintData.cs.meta",
+      "official_guid": "510354e70dba52c49b35b2c27cd8ed3c",
+      "installed_guid": "e8c7cb594bbeac2895fbb1a6accab1f6"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/SkeletonStraightAdditive.mat",
+      "sha256": "a434a42de718e5deafe5f916ef5e99949269ecdabbbea21735e760152348f45b",
+      "original_identity": null,
+      "official_guid": "517c2df5a5dc5d44a8b3820eca503d13",
+      "installed_guid": "517c2df5a5dc5d44a8b3820eca503d13"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/Attachments/Sequence.cs",
+      "sha256": "32c41a91c07e6c4dfd462444097396f0ceba46434de56836bac2c09aa0a5669b",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/Sequence.cs.meta",
+      "official_guid": "522632bd4e297fe47acf78100bfd8689",
+      "installed_guid": "a9c2debf508fd4be9a2315a9ccccbb5b"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/SkeletonUtilityConstraint.cs",
+      "sha256": "e2723ff795aa720917fd37e6581b68f0bcb958969e9975e5329f8ee1f676d24d",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/SkeletonUtilityConstraint.cs.meta",
+      "official_guid": "522dbfcc6c916df4396f14f35048d185",
+      "installed_guid": "9556b6f98f536e81c08330658e7353c9"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-Tint.shader",
+      "sha256": "25d6115b04822fa73003e42c54c1081001a8f0e1ab4bd20d27aa61dff97fa039",
+      "original_identity": null,
+      "official_guid": "522f03282fd79be47b306e2ef4b593fd",
+      "installed_guid": "522f03282fd79be47b306e2ef4b593fd"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CameraNormalsTexture.shader",
+      "sha256": "1c0aaea404c7d39ea3a65c9787dd766f5e4fc0fd1761b52fe6a01a6929f38cfb",
+      "original_identity": null,
+      "official_guid": "537141eca02c6df4bb8b4f77567e9de2",
+      "installed_guid": "537141eca02c6df4bb8b4f77567e9de2"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/SkeletonPMAMultiply.mat",
+      "sha256": "93fb2199efbd9c66367145083556c285a69573b3bdd9d26f3b902a7e935705b1",
+      "original_identity": null,
+      "official_guid": "53bf0ab317d032d418cf1252d68f51df",
+      "installed_guid": "53bf0ab317d032d418cf1252d68f51df"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/BlendModes/Spine-Skeleton-PMA-Additive.shader",
+      "sha256": "0887aa7c5afed400a66e7bdc0b09a163366c408e1673eada89000aa81a6f8509",
+      "original_identity": null,
+      "official_guid": "53efa1d97f5d9f74285d4330cda14e36",
+      "installed_guid": "53efa1d97f5d9f74285d4330cda14e36"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Asset Types/OnDemandTextureLoader.cs",
+      "sha256": "063add573b1d2d7f4baccc8f1246276011caacea0ad8628f8fdbdaa339befb94",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/OnDemandTextureLoader.cs.meta",
+      "official_guid": "57d54a357da79654aad505112bb63b9e",
+      "installed_guid": "7a75470c132b780ab08c0137c5b86be4"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderSeparator/SkeletonRenderSeparator.cs",
+      "sha256": "2bdeaee56f669638ab1882c388f4e83799ed79d23f46d14529609140bb740f1a",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/SkeletonRenderSeparator.cs.meta",
+      "official_guid": "5c70a5b35f6ff2541aed8e8346b7e4d5",
+      "installed_guid": "a97b08363df68a8ae051b5ba0de27eb6"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/Atlas.cs",
+      "sha256": "62028a4192b40a045aaead7bc71d6740b6efef35b1fc083ccca0977fbec8b8cf",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/Atlas.cs.meta",
+      "official_guid": "60626307629cc034bafd42c53a901fff",
+      "installed_guid": "6c48475c350e489523a75cb567bd4e1d"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Sprite/SpritesUnlit.shader",
+      "sha256": "a33cd818383941e76ba4eb7d060c29509f28d70f1542ea77f31558f39af12568",
+      "original_identity": null,
+      "official_guid": "64005298b9a80bb4899eabd5140dc4a8",
+      "installed_guid": "64005298b9a80bb4899eabd5140dc4a8"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Utility/Hidden-Spine-Bones.shader",
+      "sha256": "6f375aec8971cda3c6b73b88b915e7717b3dbdeca6f1f2548d7f90656d3581a1",
+      "original_identity": null,
+      "official_guid": "66988de88a15abd4e8846c6805485f57",
+      "installed_guid": "66988de88a15abd4e8846c6805485f57"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity.asmdef",
+      "sha256": "4e28142fcdade207d19d23e8097710c2aafd470078bb43a5459c0b842a804b2b",
+      "original_identity": null,
+      "official_guid": "68765d262e2128e4ab49c983f3411946",
+      "installed_guid": "68765d262e2128e4ab49c983f3411946"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/Slot.cs",
+      "sha256": "aff532b2e7f00d0e96aa315c8d5c7a313a8c0b288a382ead08f06870144c383c",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/Slot.cs.meta",
+      "official_guid": "6974c4b5c87687140a2417201ea43066",
+      "installed_guid": "1c518e63cda4a12bceb1d15f7423ee39"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/SkeletonJson.cs",
+      "sha256": "a06abb203836df1b996ff70cb2caef5e2e5327cd88805faf03574963eee30375",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/SkeletonJson.cs.meta",
+      "official_guid": "6c4ab7992894bdb44a480981b1953f76",
+      "installed_guid": "340299dedfef55c59332807e297aa8b1"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Components/SkeletonRendererCustomMaterials/SkeletonGraphicCustomMaterials.cs",
+      "sha256": "d973ea2b22f2ea405ab3bd35bf7b58795da0804a00441eaad4a908f21dc0be66",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/SkeletonGraphicCustomMaterials.cs.meta",
+      "official_guid": "6c8717e10b272bf42b05d363ac2679a6",
+      "installed_guid": "47d05e36010ce3a717c4ef7910947c51"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-BlendModes-NormalPass.cginc",
+      "sha256": "2b03c01a6548bc8a4422986e7b011fc9473c76207252738cc203e83f00886f3d",
+      "original_identity": null,
+      "official_guid": "6e28a50646b0e9542a1c93c2d9d993d0",
+      "installed_guid": "6e28a50646b0e9542a1c93c2d9d993d0"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Asset Types/AnimationReferenceAsset.cs",
+      "sha256": "d50daf7178ce12b1ee088e9d4d02360d9a1bb60040dafca7ace61707ded174e4",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/AnimationReferenceAsset.cs.meta",
+      "official_guid": "6e3e95a05e4c9774397eeeb7bdee8ccb",
+      "installed_guid": "ce405319e432f2d43ae9d0e646616fe9"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Sprite/SpritesPixelLit.shader",
+      "sha256": "fdcb569b1e590cf1bb2ab70cd8bb0a3210ae5a5b5d4a1d09cf1e9d1b7930abcb",
+      "original_identity": null,
+      "official_guid": "6f7a5a97a82637f478494bc40ea8c8a2",
+      "installed_guid": "6f7a5a97a82637f478494bc40ea8c8a2"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/ActivateBasedOnFlipDirection.cs",
+      "sha256": "53d155f7af801b6998f560c1acd86f665e0019670c4d0bb553cf506a22584d7c",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/ActivateBasedOnFlipDirection.cs.meta",
+      "official_guid": "70ae96e4f2feb654681a2f16e4effeec",
+      "installed_guid": "22e69e5ed719a29e2fc6b5a71f2f0b0e"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-Skeleton-Lit-Common.cginc",
+      "sha256": "5d0c664960611637f47814f6bbeed1b0f5f18381eeb7870e5a118802dbc7d70d",
+      "original_identity": null,
+      "official_guid": "70c77c02aabd5e44f94aab48dd0be7b2",
+      "installed_guid": "70c77c02aabd5e44f94aab48dd0be7b2"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/spine-csharp.asmdef",
+      "sha256": "e67300f8f0f0dc4552b03e13f1cb15d2522525bc0e4959778946a3c1da07f53b",
+      "original_identity": null,
+      "official_guid": "72d1fea872bd7a449bf3818f2b0a6708",
+      "installed_guid": "72d1fea872bd7a449bf3818f2b0a6708"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/PathConstraint.cs",
+      "sha256": "04a330c750db27e73d10c09b75af4e745a7e278172e5552cdadbfb71f51c69df",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/PathConstraint.cs.meta",
+      "official_guid": "731d05fbc2874c74984813ce4c5bb8df",
+      "installed_guid": "d82585e6ab88431d6dca6e2fae5127e7"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/SkeletonPMAScreen.mat",
+      "sha256": "95378a21df0a936418128189d738a628a11c1d21607538d7080e9d8214eea787",
+      "original_identity": null,
+      "official_guid": "73f0f46d3177c614baf0fa48d646a9be",
+      "installed_guid": "73f0f46d3177c614baf0fa48d646a9be"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Lit-ZWrite-Outline.shader",
+      "sha256": "a5c8c9cd40dd72f43b9547af94db01fda927faa13174f0843a9c0097535de797",
+      "original_identity": null,
+      "official_guid": "756be4f2f738f6c4583bb1c90e16bf0b",
+      "installed_guid": "756be4f2f738f6c4583bb1c90e16bf0b"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-BlendModes-ShadowCasterPass.cginc",
+      "sha256": "15901cc7d2310d9559911f363e12540b555dc84d6a27656ed5869172ada4896c",
+      "original_identity": null,
+      "official_guid": "76beace455f83a8488bf044605212b2c",
+      "installed_guid": "76beace455f83a8488bf044605212b2c"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Asset Types/AtlasAssetBase.cs",
+      "sha256": "857a6e19e758c629ac9093409ab56ed707a60d14467d563e6f594043784f0649",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/AtlasAssetBase.cs.meta",
+      "official_guid": "787a36933c1c6e14db2104c01ed92dcb",
+      "installed_guid": "366af40054ce9777abfaeca0041a03a5"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Asset Types/SkeletonDataModifierAsset.cs",
+      "sha256": "585eaf6bdd4b0e5b16a2c9edca7ea9772dc6d86961baf37c0d7a9d892b4d74a8",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/SkeletonDataModifierAsset.cs.meta",
+      "official_guid": "79a44aba1f342f440965874280b4c318",
+      "installed_guid": "cf2ecf3639ca7b7c516aba77aaf5f20d"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/SkeletonClipping.cs",
+      "sha256": "e400b6d9e810847c02c81890578f99281b2237d61b673c25620e67f7419174ba",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/SkeletonClipping.cs.meta",
+      "official_guid": "7db809d277afd0e4a8e8c6b703002ee0",
+      "installed_guid": "cfc8c0e7387d5dcfea831855142fe341"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/Skin.cs",
+      "sha256": "12db174b74288ae5ebe4b076f669676fa786d81fa92ab331a93998a830824e9f",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/Skin.cs.meta",
+      "official_guid": "7df8caa3a771f464e803316a6b18c909",
+      "installed_guid": "255bcaa87442c1b1b367b7e7b6010576"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Utility/AttachmentRegionExtensions.cs",
+      "sha256": "6172570f941d58561f5ed850d8f5babc106714deccb3c2ca804458704188eab4",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/AttachmentTools/AttachmentRegionExtensions.cs.meta",
+      "official_guid": "7e7eac783deea004e9bc403eca68a7dc",
+      "installed_guid": "79f764af081fac4a2d1384d347635715"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/CGIncludes/Spine-SkeletonGraphic-NormalPass.cginc",
+      "sha256": "ac90986a8f5600ffb5b77847a8c41c772a19aa38631f948e41200b50eb71c778",
+      "original_identity": null,
+      "official_guid": "7f1f20f6ddb670f4998f78d0417912ee",
+      "installed_guid": "7f1f20f6ddb670f4998f78d0417912ee"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/SkeletonUtility.cs",
+      "sha256": "d86a6d1d3de6200019a708eb1021df8334575f854aaa2d6b69250e8e460ba13a",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/SkeletonUtility.cs.meta",
+      "official_guid": "7f726fb798ad621458c431cb9966d91d",
+      "installed_guid": "d23d9ff7ed339b84f72e642d34b53ea6"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpritePixelLighting.cginc",
+      "sha256": "024d8f3e59a104b5dc817f688b00b87ba4c3f086596def402e98c37723f62aab",
+      "original_identity": null,
+      "official_guid": "7ffc57e05c42ec748838bea0a3aff9f9",
+      "installed_guid": "7ffc57e05c42ec748838bea0a3aff9f9"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineTrackEntryEnd.cs",
+      "sha256": "6afd6bee7942e980b80a10ea8c63874063cd086fefdb3d6cbe9c5381dcc41600",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/WaitForSpineTrackEntryEnd.cs.meta",
+      "official_guid": "8036c6c2897d2764db92f632d2aef568",
+      "installed_guid": "3208edbf3b5d9e5a556ec6bc3b407b47"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/package.json",
+      "sha256": "712dbff9a06edc8d2d0d4bcb971463fd19d733b560fce70f2a1100cbc7ccedd3",
+      "original_identity": null,
+      "official_guid": "84ca0094807afe74295fdf4864a0ceca",
+      "installed_guid": "84ca0094807afe74295fdf4864a0ceca"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/ExposedList.cs",
+      "sha256": "002e031e82bb01a97d27ca7f13670483cd54cf92f7d6de9bd8c66204aa561e77",
+      "original_identity": null,
+      "official_guid": "89690af94a880744989712505f2957b1",
+      "installed_guid": "89690af94a880744989712505f2957b1"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/Attachments/RegionAttachment.cs",
+      "sha256": "b840c849b75da81e29a73104c1c0798062578bd3db9ec0ebb035059d8523cfb5",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/RegionAttachment.cs.meta",
+      "official_guid": "89cefdd024734a941952a05d2b5dff71",
+      "installed_guid": "c321a53b73205970bdf1c47aebd45eea"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/Attachments/VertexAttachment.cs",
+      "sha256": "757df2e2ba144921ab3588c673ec5a76c51a7b17d64cfb799cb7bb1382fe3203",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/VertexAttachment.cs.meta",
+      "official_guid": "8b40cfb462a8b774891e1604e5360d32",
+      "installed_guid": "465aae0b5bc06c7dddc8a2e5de61c09b"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Components/EditorSkeletonPlayer.cs",
+      "sha256": "b7aba661cdbf8f4ad87c7fdbb814bf19425cf099f39040c31a44327e8a042e75",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/EditorSkeletonPlayer.cs.meta",
+      "official_guid": "8b473abb659158442b906826a22f18bc",
+      "installed_guid": "9cca30ccd6b2b8c688348ec9034c0b22"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/BlendModes/Spine-Skeleton-PMA-Multiply.shader",
+      "sha256": "53d8489544a3de5da3eeeea9fdd41f91be1926414585e41c93007934f837ebee",
+      "original_identity": null,
+      "official_guid": "8bdcdc7ee298e594a9c20c61d25c33b6",
+      "installed_guid": "8bdcdc7ee298e594a9c20c61d25c33b6"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Asset Types/EventDataReferenceAsset.cs",
+      "sha256": "8db54252d7c02c1263685b41fd621699e00a75e06408bffdc27c9ac64fa012ed",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/EventDataReferenceAsset.cs.meta",
+      "official_guid": "8e60be42c1473144db0fd3337c25b500",
+      "installed_guid": "590cca6064b0dc62e2a5347d06f88d3c"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Outline/SkeletonGraphic/Spine-SkeletonGraphic-Outline.shader",
+      "sha256": "3485acac888efab7ba1090e3b88fceb2fa8860418e7635c6818bc6627291c06b",
+      "original_identity": null,
+      "official_guid": "8f5d14d2a7fedb84998c50eb96c8b748",
+      "installed_guid": "8f5d14d2a7fedb84998c50eb96c8b748"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Utility/SettingsTriState.cs",
+      "sha256": "3ca3e924129826c75e0f6e0eeac5e4262c9b3b84a513d8c3232e50484b7c1a5e",
+      "original_identity": null,
+      "official_guid": "8f6692d1b45ac11459207a012cafeb03",
+      "installed_guid": "8f6692d1b45ac11459207a012cafeb03"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/Triangulator.cs",
+      "sha256": "c1fb3e7f2e6bca051523eff53bbbe43d491f58fbbf36b26a1489ecb849b926d8",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/Triangulator.cs.meta",
+      "official_guid": "90a8832a1f3c5f846b8773dc0e1c3238",
+      "installed_guid": "9760c11df6874ea4add636525d1d229b"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Utility/HiddenPass.shader",
+      "sha256": "205a19ba22bf2af6d5e9a438b223dcbfe489b6839e4acfcf52bde8f24ba89854",
+      "original_identity": null,
+      "official_guid": "913475501bf19374c84390868a9d6d3d",
+      "installed_guid": "913475501bf19374c84390868a9d6d3d"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/IkConstraint.cs",
+      "sha256": "2e117c699b1f5b73489fe2f14c443a2ce21e088bcd204411d7e5dc0b8de0c208",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/IkConstraint.cs.meta",
+      "official_guid": "916f8e6534860cc40824adfc2916baa7",
+      "installed_guid": "6abbeee667fb6ce96717b331635eb961"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/IkConstraintData.cs",
+      "sha256": "f0bd1db74a6777c5456fd35590beaf775e8c4836724d7cb84859a678d8687f82",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/IkConstraintData.cs.meta",
+      "official_guid": "94ad1e9256073264785f806086a000ba",
+      "installed_guid": "8a219e11cf7a0036231caa736ec5a4bb"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Materials/SkeletonGraphicTintBlackOutline.mat",
+      "sha256": "5dc3f1274f448f17cf6e86299b6ad88676e418679e106cca329f57a8e7aefe87",
+      "original_identity": null,
+      "official_guid": "94fe565c79b0aeb418cd05e4f1f8343c",
+      "installed_guid": "94fe565c79b0aeb418cd05e4f1f8343c"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/Attachments/AttachmentLoader.cs",
+      "sha256": "aab813dc3498751a44e65d410ea9ce2b4ebf8103842e4dcf10de420497f7628c",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/AttachmentLoader.cs.meta",
+      "official_guid": "95466a4f5a30dca4aa69e8ee7df8ae85",
+      "installed_guid": "faa9b059720a8cec7096b6c501a5cbf8"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Components/RootMotion/SkeletonMecanimRootMotion.cs",
+      "sha256": "2a8f62d3aca9cd26854ace75a53692a1310bb9b7442cbe3380f24138aece4b48",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/SkeletonMecanimRootMotion.cs.meta",
+      "official_guid": "95813afe390494344a6ce2cbc8bfb7d1",
+      "installed_guid": "1d31e2c873b33360c2e3625f8b686b02"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/PathConstraintData.cs",
+      "sha256": "34ad452a384bd8b4fdc40da43df49844d084c0061f6c291c520be6c099382a7f",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/PathConstraintData.cs.meta",
+      "official_guid": "9d836858269be96428428fb6764dfc3a",
+      "installed_guid": "f7f521d690f26c8d8ec4953539ef4a60"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/FollowLocationRigidbody.cs",
+      "sha256": "eb67095ec82ba3d53bd174daf50b27882512c446e07fd048dc4c474853d08db1",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/FollowLocationRigidbody.cs.meta",
+      "official_guid": "9fc20d5e917562341a5007777a9d0db2",
+      "installed_guid": "56985abb7e8555b8ce732d625129570f"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic-Additive.shader",
+      "sha256": "3a253c9a07313481901b24e1984697e26c67c9b2a7f75b162942e3cae832c1ea",
+      "original_identity": null,
+      "official_guid": "a1e4ab34b07f81e4e94f0d241c416669",
+      "installed_guid": "a1e4ab34b07f81e4e94f0d241c416669"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Components/Following/BoneFollower.cs",
+      "sha256": "8fd837d6475122144f7c59d560079bc4b880fa0ce189e85fe54d8be24ca02090",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/BoneFollower.cs.meta",
+      "official_guid": "a1fd8daaed7b64148a34acb96ba14ce1",
+      "installed_guid": "20f101d6086ee11eb76e4c7e97048caa"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Outline/Sprite/SpritesPixelLit-Outline.shader",
+      "sha256": "19cb60f3fb7eb225dd2441186aa7fe8a66bd059300dbb62d602d81d9cf0709a6",
+      "original_identity": null,
+      "official_guid": "a27d4b27c8ecd9840a03558ccc5ad8a3",
+      "installed_guid": "a27d4b27c8ecd9840a03558ccc5ad8a3"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Utility/BuildUtilities.cs",
+      "sha256": "12bfdb1b391555a8fadffa24d726220dcf46897700f3ee1202ecb983d4890d85",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/BuildUtilities.cs.meta",
+      "official_guid": "a2f1169aaf0063f4da1c2b6033bbc13f",
+      "installed_guid": "1ad09230865fa71d30a20a9e24342750"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Asset Types/SpineAtlasAsset.cs",
+      "sha256": "8ea2e2aae69608ec4d853af7aafd5abd894e672e4fcf29df7291ac3ad1a2b558",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/SpineAtlasAsset.cs.meta",
+      "official_guid": "a6b194f808b1af6499c93410e504af42",
+      "installed_guid": "fb6a9381bd1153e90fb3841230adf0c3"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/ISkeletonAnimation.cs",
+      "sha256": "3aebe1b8ea4c90b195eaf8ba547c5b973ddcd12210d722b45a60c91b87ee48eb",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/ISkeletonAnimation.cs.meta",
+      "official_guid": "a7b480b941568134891f411137bfbf55",
+      "installed_guid": "2bbe8c90147909dfa3c6f708417464e1"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineAnimationComplete.cs",
+      "sha256": "00886cd9a945bdc25b4a2d8f21a6134d4e1d66a628fb31be7af59801a3431940",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/WaitForSpineAnimationComplete.cs.meta",
+      "official_guid": "a807dd9fb79db3545b6c2859a2bbfc0b",
+      "installed_guid": "5e174e469a5d21457d5546fe72426a55"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-Outline-Common.cginc",
+      "sha256": "4d93af85dbf2d0a5daeb7de28811c381e2caa15f1c8a062dec401269368a750b",
+      "original_identity": null,
+      "official_guid": "a8d610b87be4e82409e18a63a930d335",
+      "installed_guid": "a8d610b87be4e82409e18a63a930d335"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Sprite/SpriteDepthNormalsTexture.shader",
+      "sha256": "4d453f11e9a580a4dd727af1dfcfdb441f01808eb990948c417df52e6bf2bfd4",
+      "original_identity": null,
+      "official_guid": "abbda12fddbb0b048a842a3835470d30",
+      "installed_guid": "abbda12fddbb0b048a842a3835470d30"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/BlendMode.cs",
+      "sha256": "5755c1b1646f2d931592b6fdf8dc69d1b0eab0863ca85930a6e7a1f8babfe59b",
+      "original_identity": null,
+      "official_guid": "b08ef68b8e39f40498ef24ef12cca281",
+      "installed_guid": "b08ef68b8e39f40498ef24ef12cca281"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Mesh Generation/MeshRendererBuffers.cs",
+      "sha256": "993753d40128c54ad7ab8b4d0a5e24612863ed4096e4a0fedd2abd65affae0fa",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/MeshRendererBuffers.cs.meta",
+      "official_guid": "b1ab80744ac17724dbc0d15fdb6f4727",
+      "installed_guid": "bbb283bcd954ebe908a1decd58a8586f"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/SkeletonUtilityBone.cs",
+      "sha256": "34cef929060dbe93321c4dbdace55367bd8f99486159af9ffe9edc135e92d1ef",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/SkeletonUtilityBone.cs.meta",
+      "official_guid": "b238dfcde8209044b97d23f62bcaadf6",
+      "installed_guid": "7d47a7ec83f14fb90bdbf5431cf6e498"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Components/Following/BoneFollowerGraphic.cs",
+      "sha256": "7416ffbbac89d9d0050e28c6d93295dc25499ef13b49cfc0e343e4e9e2df2d44",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/BoneFollowerGraphic.cs.meta",
+      "official_guid": "b42a195b47491d34b9bcbc40898bcb29",
+      "installed_guid": "4ae44f69f9737c9beb252d3b36efdcd6"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Materials/SkeletonGraphicDefault.mat",
+      "sha256": "a9dd443b860c76897a027336997043163e7c2067e1937fc78283ac539f9ad777",
+      "original_identity": null,
+      "official_guid": "b66cf7a186d13054989b33a5c90044e4",
+      "installed_guid": "b66cf7a186d13054989b33a5c90044e4"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpriteShadows.cginc",
+      "sha256": "9f8be32dc2632662dea5b9434d44354ed430bfd6a341df88208f769f49f78359",
+      "original_identity": null,
+      "official_guid": "b7dbdfb1f55ee26459284220ad6d5bc4",
+      "installed_guid": "b7dbdfb1f55ee26459284220ad6d5bc4"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/TransformConstraintData.cs",
+      "sha256": "10f350b4a9e440e33fcd5535468c9b3dab1fc8eb01297ee838b016242bc47ef7",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/TransformConstraintData.cs.meta",
+      "official_guid": "b7edeecc9bd7dd44faabf24f29b119a0",
+      "installed_guid": "37fad6130a57c5e3da6b27fdfdbbfe39"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/Attachments/MeshAttachment.cs",
+      "sha256": "3b45fbb11b2a666b06cd026808b61df9a688aed10ddd4c96c1b528539bc128c5",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/MeshAttachment.cs.meta",
+      "official_guid": "b7f7514a003143844b6d01ecc93ed4d5",
+      "installed_guid": "800f7cf22f2a334c10d5bcb836863492"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Materials/SkeletonGraphicScreen.mat",
+      "sha256": "ec07464492a36c57b7b41688548410c2db320baaec9f470b2870bec65e55a172",
+      "original_identity": null,
+      "official_guid": "bab24c479f34eec45be6ea8595891569",
+      "installed_guid": "bab24c479f34eec45be6ea8595891569"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-Lit.shader",
+      "sha256": "e3f07d327fe28f4f6d2cfa980bda0b3bc34bcdad441147e4af04a0d7f8684e5d",
+      "original_identity": null,
+      "official_guid": "bd83c75f51f5e23498ae22ffcdfe92c3",
+      "installed_guid": "bd83c75f51f5e23498ae22ffcdfe92c3"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Materials/SkeletonGraphicDefaultGrayscale.mat",
+      "sha256": "1fce7d3d67d3e851ca5cf92cd4d5f2dd1b54fb4e0b318fca0b35f5c01c948f96",
+      "original_identity": null,
+      "official_guid": "bfc4ecd22354c4d4fb43b85d82efacde",
+      "installed_guid": "bfc4ecd22354c4d4fb43b85d82efacde"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic-Fill.shader",
+      "sha256": "cc2a30dd43727e2f746d76b2a20ad80235fec5eb5c913777577f8ae33df0dad8",
+      "original_identity": null,
+      "official_guid": "c02377d9afbb50e49ab27049e59fb5f8",
+      "installed_guid": "c02377d9afbb50e49ab27049e59fb5f8"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/ShaderShared.cginc",
+      "sha256": "3767f83b901e37c910594c6bbf01f2125d60999b522149342d589ba55962136a",
+      "original_identity": null,
+      "official_guid": "c18c5cab567666f4d8c5b2bd4e61390b",
+      "installed_guid": "c18c5cab567666f4d8c5b2bd4e61390b"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Materials/SkeletonGraphicFill.mat",
+      "sha256": "d3dd36374417b5adb458c75ec78444049c1165348a13b5915f968068588a4a88",
+      "original_identity": null,
+      "official_guid": "c4cd84769cae11444b3d759bea3d1644",
+      "installed_guid": "c4cd84769cae11444b3d759bea3d1644"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Materials/SkeletonGraphicDefaultOutline.mat",
+      "sha256": "8ed5ef65a9710ff260adc688cd1ce1858e0d2efa7832ba82bfed2a215771e268",
+      "original_identity": null,
+      "official_guid": "c4ee0f8f4be17434aa3df5774a03b366",
+      "installed_guid": "c4ee0f8f4be17434aa3df5774a03b366"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic-Screen.shader",
+      "sha256": "f94ed9bced5f471aa722f657ec7ab060227d3605d4cebf32c56f7f5667260116",
+      "original_identity": null,
+      "official_guid": "c61244023592f95479fddd71b5067683",
+      "installed_guid": "c61244023592f95479fddd71b5067683"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-Skeleton-Lit-Common-Shadow.cginc",
+      "sha256": "580660a59e6a514efa642a3daac781707a525b8fce84621c95704387e3381514",
+      "original_identity": null,
+      "official_guid": "c7297b25c81d2494e8e73b742e3c7345",
+      "installed_guid": "c7297b25c81d2494e8e73b742e3c7345"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpriteVertexLighting.cginc",
+      "sha256": "d7d020201dd3361fa66e5e7a46426b79c2d883b1d12bfcf079b47fb242521f2f",
+      "original_identity": null,
+      "official_guid": "c739dcf9dbcab944898d0b796e11afb9",
+      "installed_guid": "c739dcf9dbcab944898d0b796e11afb9"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/Attachments/PathAttachment.cs",
+      "sha256": "998178abac2076c4e7bb96ec88fa83997520c798f654531bd0d809971d7a9506",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/PathAttachment.cs.meta",
+      "official_guid": "c77d9bf384a1e9f41966464e7e3b4870",
+      "installed_guid": "1d133559cce02eb52483cac84d748e26"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-Skeleton-Tint-Common.cginc",
+      "sha256": "cc34ef195731ae1acefe7a702052b0a0e1cb7019e9ecdd38c4bff3cd689743d6",
+      "original_identity": null,
+      "official_guid": "cc9439c8e75fb7e4c82ad725b649b047",
+      "installed_guid": "cc9439c8e75fb7e4c82ad725b649b047"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/Attachments/BoundingBoxAttachment.cs",
+      "sha256": "401e0333a58252fdf545bcbf97439b3c6656d9a390735fa7499b092dd6a8423f",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/BoundingBoxAttachment.cs.meta",
+      "official_guid": "cd8ad8fc0f5bce448ba26d096ab32e85",
+      "installed_guid": "615d0c6a4d876b7c5da8c5a9b20b0551"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/SpineAttributes.cs",
+      "sha256": "d334158358a7055472ed6d8922a4e936d4af9f6556c253a8315a869ed4258554",
+      "original_identity": null,
+      "official_guid": "ce216f51ebc1d3f40929f4e58d1c65e5",
+      "installed_guid": "ce216f51ebc1d3f40929f4e58d1c65e5"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Asset Types/SpineSpriteAtlasAsset.cs",
+      "sha256": "ec5c9b6da578862c733685b4e1ad56d38ab7ab6bcf036a589d4fc8913c2dd715",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/SpineSpriteAtlasAsset.cs.meta",
+      "official_guid": "ce59897dd7e6cbc4690a05ebaf975dff",
+      "installed_guid": "c46d9c5eb31da3a6950322ced7bfb1da"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Sprite/README.md",
+      "sha256": "498188851b8583290cd83377c711fa8d5cab829c846a601f8d2d8c84a12ad9fa",
+      "original_identity": null,
+      "official_guid": "cecd0ea162097a94c89a97af6baf0a66",
+      "installed_guid": "cecd0ea162097a94c89a97af6baf0a66"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic-Multiply.shader",
+      "sha256": "fc62480150dd33808f0a9f358a272078866ed07830140a13518a648d4c525eea",
+      "original_identity": null,
+      "official_guid": "cfbf95ed0fe6c554c8c2ee6c8325937c",
+      "installed_guid": "cfbf95ed0fe6c554c8c2ee6c8325937c"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Materials/SkeletonGraphicTintBlack.mat",
+      "sha256": "553c5c183ccaf9a7f8619dcbe5d3e272c611e91d2cd6dbd2ef083a3ddc12f612",
+      "original_identity": null,
+      "official_guid": "cfcea0e11aa80bb4b8d05790b905fc31",
+      "installed_guid": "cfcea0e11aa80bb4b8d05790b905fc31"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Asset Types/BlendModeMaterials.cs",
+      "sha256": "20e589622b161708d5c8e0de14dc40895635b5d2bb698ce2fec5424777dcd173",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/BlendModeMaterials.cs.meta",
+      "official_guid": "d03ca55657e89b949a4c07bc9207beac",
+      "installed_guid": "149631d8ffa82b8f3411c65e893eac6f"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Mesh Generation/SkeletonRendererInstruction.cs",
+      "sha256": "fb53a177629a51523a7bf79f4bcfcb6821910355d40c138a0794bd71ead34289",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/SkeletonRendererInstruction.cs.meta",
+      "official_guid": "d07866ade25bd0b44a7bb1d59bacf4cb",
+      "installed_guid": "f3a31f298b53e1c26335983a9d20cce4"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/Attachments/IHasTextureRegion.cs",
+      "sha256": "41f316831b6418cef9bca144bd9c2573f26b9ae424054fc795dea4874a45e6d7",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/IHasTextureRegion.cs.meta",
+      "official_guid": "d0e8b0a33cae75d498aa8c328787cafb",
+      "installed_guid": "3126ba58891161a65aee08d8601469b8"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Components/SkeletonAnimation.cs",
+      "sha256": "02a17bc05485f172e877fe48f664e1aeeb71a63bc4d242c82f0f68846cd4e00e",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/SkeletonAnimation.cs.meta",
+      "official_guid": "d247ba06193faa74d9335f5481b2b56c",
+      "installed_guid": "48efa0cfb8a4d6b4901b88b6bb4a8e09"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Outline/SkeletonGraphic/Spine-SkeletonGraphic-TintBlack-Outline.shader",
+      "sha256": "d200951d8b9d5f76fc14bc881dc5a95ca857b83e11f99771b43297cce6035594",
+      "original_identity": null,
+      "official_guid": "d55d64dd09c46af40a319933a62fa1b2",
+      "installed_guid": "d55d64dd09c46af40a319933a62fa1b2"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/Attachments/AttachmentType.cs",
+      "sha256": "04ea5f4d817d98a336c8f9e4793b759c4a4a22d0155a4a19a6ebc31287012811",
+      "original_identity": null,
+      "official_guid": "d6b1941960a9f6f47be3e865554d8695",
+      "installed_guid": "d6b1941960a9f6f47be3e865554d8695"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Components/SkeletonGraphic.cs",
+      "sha256": "4395aec36f3f745d8f00af1231efc88171e0de706a849aacbec5b5ced3f5d9a8",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/SkeletonGraphic.cs.meta",
+      "official_guid": "d85b887af7e6c3f45a2e2d2920d641bc",
+      "installed_guid": "ff326197253ae4cec0b46632391386ec"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineAnimation.cs",
+      "sha256": "40d560395a4cdecd6f4650d52877cad04f45b348afdb502ed1dba7ada36307bc",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/WaitForSpineAnimation.cs.meta",
+      "official_guid": "d9be5adcaf0003849a1d181173c19635",
+      "installed_guid": "611791e220dd11d0e3c90cd50e52281a"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Components/Following/PointFollower.cs",
+      "sha256": "d25eaadb90396f41130435e12aa164953ae38ecac9e0a6facaa6059f98a0d14e",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/PointFollower.cs.meta",
+      "official_guid": "daf461e4341180341a648c07e1899528",
+      "installed_guid": "5c126072d1502e25605d43fd87ebafb6"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/Event.cs",
+      "sha256": "4167bc8560d3cf670927f882cfafb2770be68aa387c27f6f864f5473647b7545",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/Event.cs.meta",
+      "official_guid": "dec0d9d780605944eb4514125ab6350b",
+      "installed_guid": "1e265fdbc733e7ab178746f8da1285fa"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Components/Internal/SkeletonSubmeshGraphic.cs",
+      "sha256": "cf23f1a1c2af5bee414b3036d4a45cc87d049dcc57e527b1cc70677dbb9f1f3c",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/SkeletonSubmeshGraphic.cs.meta",
+      "official_guid": "deeb12332c062954093c24a3fab10b83",
+      "installed_guid": "a1e790895e5edacc6b732811d26ae2c0"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-TintBlack.shader",
+      "sha256": "9879dcaed0f6560c70ec59a365426396a74f871ae0c0fdc47551d5f27a320a4a",
+      "original_identity": null,
+      "official_guid": "deee23ab4aa38564ead2ac05e112c169",
+      "installed_guid": "deee23ab4aa38564ead2ac05e112c169"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/AnimationStateData.cs",
+      "sha256": "c8491586d7e675ce28d585b63939e5ced75e7d4fdd0e89553c72470b0e483a3e",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/AnimationStateData.cs.meta",
+      "official_guid": "e03d60c517d9b974db35b9fd144a1d09",
+      "installed_guid": "b2875c35b8fe8ac20783a6c019bb8baf"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderer.cs",
+      "sha256": "7bbadf810a78c0c77ebc41872c6651ff2bc4234352bcfac33ac1ac4ebc56044d",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/SkeletonRenderer.cs.meta",
+      "official_guid": "e075b9a3e08e2f74fbd651c858ab16ed",
+      "installed_guid": "854afcd65573b1b8a270f4d7b154d648"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Fill-Outline.shader",
+      "sha256": "9ca249084793dec113dc33f9c60fdd6320e0b3be035e7dc8938f390a05eefbec",
+      "original_identity": null,
+      "official_guid": "e158cbe58baa093438feb3d691f3daba",
+      "installed_guid": "e158cbe58baa093438feb3d691f3daba"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/ShaderMaths.cginc",
+      "sha256": "3f9760aa4645ae2b62e1b6696118d7e8bd3b8218bc96d5b8dfa4e217652d5a42",
+      "original_identity": null,
+      "official_guid": "e1de23de2025abe4a84ff2edd3f24491",
+      "installed_guid": "e1de23de2025abe4a84ff2edd3f24491"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Outline/BlendModes/Spine-Skeleton-PMA-Screen-Outline.shader",
+      "sha256": "818158bbd541c3f0e7d029158a8ae504c05c6e17588cf352bd895f8bdcd0b2e8",
+      "original_identity": null,
+      "official_guid": "e61a8d94e453ff641a7e39c4b11cac95",
+      "installed_guid": "e61a8d94e453ff641a7e39c4b11cac95"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Utility/MaterialChecks.cs",
+      "sha256": "18f7b5664ff3a7cdea95055cc6ae0ef7718ff7e2cb1ce0afe076721d82261dde",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/MaterialChecks.cs.meta",
+      "official_guid": "e68fa8db689084946adce454b83e6d4a",
+      "installed_guid": "764c017bcce3efe12fde0e8e2067987e"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Materials/SkeletonGraphicMultiply.mat",
+      "sha256": "e6b0a0e03b9f6ef90924b1f82911a7ddd95426e76c81b1042d7664493ebad2f3",
+      "original_identity": null,
+      "official_guid": "e74a1f8978a7da348a721508d0d58834",
+      "installed_guid": "e74a1f8978a7da348a721508d0d58834"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Spine-Special-Skeleton-Grayscale.shader",
+      "sha256": "2f7c8117455e6f3559a4d49ade056455efb982f3c7ffd076e29501fddb308243",
+      "original_identity": null,
+      "official_guid": "ea7e7c05f36541b4bb280f98ebda8ba1",
+      "installed_guid": "ea7e7c05f36541b4bb280f98ebda8ba1"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Utility/SkeletonExtensions.cs",
+      "sha256": "1807b743cac0cbf7af072692d02b0a63125c878e1dd88c609ed0954f3cbe98f3",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/SkeletonExtensions.cs.meta",
+      "official_guid": "ea85c8f6a91a6ab45881b0dbdaabb7d0",
+      "installed_guid": "a47e4f7702da21560844723f476dd31f"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/AnimationState.cs",
+      "sha256": "ccdd705b168bf33056b80dee3b9be792a64a23cb983b85dd45c8ac2ec7d3d0da",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/AnimationState.cs.meta",
+      "official_guid": "ec2f0e7143c8a174994595883f4b1e33",
+      "installed_guid": "6b4e34bb242ab4d04dfa88766f26faab"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/Bone.cs",
+      "sha256": "4516e9080600c03fa7794a96bf203654a6c443c96b7a82d4cf5d4b58ac59d257",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/Bone.cs.meta",
+      "official_guid": "ed00e3a4b386a964fb0f1c7ffd5544e5",
+      "installed_guid": "91d5ac83cb4e3fa233a21c9b490b8a6f"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Utility/MathUtilities.cs",
+      "sha256": "c6e5121a8f1930b54a353978a565d8f5c932e864eb796859f8e12521a57f4225",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/MathUtilities.cs.meta",
+      "official_guid": "ef2b5da9383ed474d895b702a9baf79e",
+      "installed_guid": "6c4279fe06096e39d1345c2c45b7fd5a"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-Common.cginc",
+      "sha256": "6d7a655ceeef504d8cd2c3129844ab19ee5ca7a00f488c1d378699dfaca82c78",
+      "original_identity": null,
+      "official_guid": "f0c09e980440e7f4f8db4f9f146d320c",
+      "installed_guid": "f0c09e980440e7f4f8db4f9f146d320c"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpriteSpecular.cginc",
+      "sha256": "2ba344b243bec8bf665f58cb84722d2c3da7d2f539ae21753d7f371086fc40bd",
+      "original_identity": null,
+      "official_guid": "f195336fc94457241a37a0aa85923681",
+      "installed_guid": "f195336fc94457241a37a0aa85923681"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Asset Types/SkeletonDataAsset.cs",
+      "sha256": "f1782b0730cb1ad2da51208446321ca66378d24346ca971aacd9bf7de96a78b6",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/SkeletonDataAsset.cs.meta",
+      "official_guid": "f1b3b4b945939a54ea0b23d3396115fb",
+      "installed_guid": "aecae2a74e033ea0f3031a0758bd00be"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Components/RootMotion/SkeletonRootMotion.cs",
+      "sha256": "5c35f4364e40380070eb32af093ccc9d85cbc7962900109cac3d4960a9f3389c",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/SkeletonRootMotion.cs.meta",
+      "official_guid": "f21c9538588898a45a3da22bf4779ab3",
+      "installed_guid": "76d8890441af423b4c60e1ae387705e9"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/SlotData.cs",
+      "sha256": "a599eb8ccd48aa323700ec601bbfbc61157904afb1ceeff17b45a3e78a3790aa",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/SlotData.cs.meta",
+      "official_guid": "f28cb47bc1e8b434c85e6f69b2c9e15e",
+      "installed_guid": "55c08669a4b3419eca44e0b99c4e93a3"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/SkeletonLoader.cs",
+      "sha256": "464a740802e77bf4a4e264f2844ba8295fe75a3f27763f33c6452a73b01b708c",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/SkeletonLoader.cs.meta",
+      "official_guid": "f649a22108e1468478ef49db96e3b715",
+      "installed_guid": "3a1ca46ce586279e655d7aed64c5da69"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic-TintBlack.shader",
+      "sha256": "1aaadcec3e9abd458034ae47552e330b031b2324681595d27ff4da385728f43e",
+      "original_identity": null,
+      "official_guid": "f64c7bc238bb2c246b8ca1912b2b6b9c",
+      "installed_guid": "f64c7bc238bb2c246b8ca1912b2b6b9c"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CameraDepthTexture.shader",
+      "sha256": "6d166b50c10e4bf7b6532142da27b9cc7e4edcd66820e9456f51e2432fec420a",
+      "original_identity": null,
+      "official_guid": "f768a57e040cc48489ad8c7392a31154",
+      "installed_guid": "f768a57e040cc48489ad8c7392a31154"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Mesh Generation/SpineMesh.cs",
+      "sha256": "591994ba94db1a8742b60aa984afd83189b7cb66377e95b1badf44d84ed6f29c",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/SpineMesh.cs.meta",
+      "official_guid": "f834c8746034db645a52a9506ff1de89",
+      "installed_guid": "b3523d2e77ee4944efc40068ac50c3d2"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Components/SkeletonMecanim.cs",
+      "sha256": "354a1329ccac71a8ec3c6e343527e61bb5604fcf9dc6e16ddbbc1c747d746be6",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/SkeletonMecanim.cs.meta",
+      "official_guid": "f9db98c60740638449864eb028fbe7ad",
+      "installed_guid": "ddec999086d996d056e1e92ef7d1bbe4"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic.shader",
+      "sha256": "3660049c32219cc89242dcae6851ebf0e6e834201e3d698755df476381a8cf5d",
+      "original_identity": null,
+      "official_guid": "fa95b0fb6983c0f40a152e6f9aa82bfb",
+      "installed_guid": "fa95b0fb6983c0f40a152e6f9aa82bfb"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-csharp/Animation.cs",
+      "sha256": "89c72dfb7af69094f063339fc5baf8ae1eaed1d74f2c20e050c2c5675dd87bcc",
+      "original_identity": "Assets/Scripts/spine-csharp/Spine/Animation.cs.meta",
+      "official_guid": "fb7099b9c6ce91740b7041dabb0752c2",
+      "installed_guid": "5633c27e4abde9ff62ac7cbd21c267e3"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineEvent.cs",
+      "sha256": "773b9963235ff6455884f48e5e7567d8c768e6e7905b4f274ea3feb927f7c049",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/WaitForSpineEvent.cs.meta",
+      "official_guid": "fc166d883db083e469872998172f2d38",
+      "installed_guid": "d0983c2f073adfe794cfd6cd22d19d4e"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Components/RootMotion/SkeletonRootMotionBase.cs",
+      "sha256": "eefa75310ab1dc60992f491e3f379e06a0d948a68af3b6982d8552468a79b7c7",
+      "original_identity": "Assets/Scripts/spine-unity/Spine/Unity/SkeletonRootMotionBase.cs.meta",
+      "official_guid": "fc23a4f220b20024ab0592719f92587d",
+      "installed_guid": "bed0a7d0aa92ddefd40e2487f8ad14b4"
+    },
+    {
+      "path": "Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-Lit-ZWrite.shader",
+      "sha256": "64392a808873ab102ea846f94d6bd1b0957647b8ca1d1d2b173003fe174d3931",
+      "original_identity": null,
+      "official_guid": "fde05abf1f7be4b4da1caf8c8de1823a",
+      "installed_guid": "fde05abf1f7be4b4da1caf8c8de1823a"
+    }
+  ]
+}

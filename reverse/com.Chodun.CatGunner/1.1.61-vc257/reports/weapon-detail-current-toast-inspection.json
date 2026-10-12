@@ -1,0 +1,201 @@
+{
+  "components": [
+    {
+      "type": "RectTransform",
+      "serialized": "{\"RectTransform\":{\"m_LocalRotation\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"m_LocalPosition\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_ConstrainProportionsScale\":false,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"m_AnchorMin\":{\"x\":0.0,\"y\":0.0},\"m_AnchorMax\":{\"x\":1.0,\"y\":1.0},\"m_AnchoredPosition\":{\"x\":0.0,\"y\":0.0},\"m_SizeDelta\":{\"x\":980.0,\"y\":1820.0},\"m_Pivot\":{\"x\":0.5,\"y\":0.5}}}"
+    },
+    {
+      "type": "Destroy",
+      "serialized": "{\"MonoBehaviour\":{\"m_Enabled\":true,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"\",\"Destroy_Time\":2.0}}"
+    },
+    {
+      "type": "Animator",
+      "serialized": "{\"Animator\":{\"serializedVersion\":\"7\",\"m_Enabled\":true,\"m_Avatar\":{\"instanceID\":0},\"m_Controller\":{\"fileID\":9100000,\"guid\":\"a146efd18a982fb4ca703dfa3a06e818\",\"type\":2},\"m_CullingMode\":0,\"m_UpdateMode\":0,\"m_ApplyRootMotion\":false,\"m_LinearVelocityBlending\":false,\"m_StabilizeFeet\":false,\"m_AnimatePhysics\":false,\"m_WarningMessage\":\"\",\"m_HasTransformHierarchy\":true,\"m_AllowConstantClipSamplingOptimization\":true,\"m_KeepAnimatorStateOnDisable\":false,\"m_WriteDefaultValuesOnDisable\":false}}"
+    },
+    {
+      "type": "NewGun_UI",
+      "serialized": "{\"MonoBehaviour\":{\"m_Enabled\":true,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"\",\"Gun_img\":{\"instanceID\":0},\"Shadow_img\":{\"instanceID\":0},\"Panel_img\":{\"instanceID\":0},\"Degree_objs\":[{\"instanceID\":0},{\"instanceID\":0},{\"instanceID\":0},{\"instanceID\":0},{\"instanceID\":0},{\"instanceID\":0},{\"instanceID\":0}],\"Type_txt\":{\"instanceID\":0}}}"
+    }
+  ],
+  "children": [
+    {
+      "path": "",
+      "activeSelf": false,
+      "types": [
+        "RectTransform",
+        "Destroy",
+        "Animator",
+        "NewGun_UI"
+      ]
+    },
+    {
+      "path": "Background",
+      "activeSelf": false,
+      "types": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "Button"
+      ]
+    },
+    {
+      "path": "Panel",
+      "activeSelf": true,
+      "types": [
+        "RectTransform",
+        "BounceStart"
+      ]
+    },
+    {
+      "path": "Panel/Glow",
+      "activeSelf": true,
+      "types": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ]
+    },
+    {
+      "path": "Panel/GunItem",
+      "activeSelf": true,
+      "types": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ]
+    },
+    {
+      "path": "Panel/GunItem/Panel",
+      "activeSelf": true,
+      "types": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ]
+    },
+    {
+      "path": "Panel/GunItem/Gun",
+      "activeSelf": true,
+      "types": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ]
+    },
+    {
+      "path": "Panel/GunItem/Gun/Gun_img",
+      "activeSelf": true,
+      "types": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image"
+      ]
+    },
+    {
+      "path": "Panel/GunItem/Degree (1)",
+      "activeSelf": true,
+      "types": [
+        "RectTransform"
+      ]
+    },
+    {
+      "path": "Panel/GunItem/Degree (1)/D",
+      "activeSelf": true,
+      "types": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ]
+    },
+    {
+      "path": "Panel/GunItem/Degree (1)/C",
+      "activeSelf": false,
+      "types": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ]
+    },
+    {
+      "path": "Panel/GunItem/Degree (1)/B",
+      "activeSelf": false,
+      "types": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ]
+    },
+    {
+      "path": "Panel/GunItem/Degree (1)/A",
+      "activeSelf": false,
+      "types": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ]
+    },
+    {
+      "path": "Panel/GunItem/Degree (1)/S",
+      "activeSelf": false,
+      "types": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ]
+    },
+    {
+      "path": "Panel/GunItem/Degree (1)/SS",
+      "activeSelf": false,
+      "types": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ]
+    },
+    {
+      "path": "Panel/GunItem/Degree (1)/SSS",
+      "activeSelf": false,
+      "types": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ]
+    },
+    {
+      "path": "Panel/GunItem/I2_txt(Outline)",
+      "activeSelf": true,
+      "types": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ]
+    },
+    {
+      "path": "Panel/GunItem/Type_txt",
+      "activeSelf": true,
+      "types": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ]
+    },
+    {
+      "path": "Panel/Name_txt",
+      "activeSelf": false,
+      "types": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ]
+    },
+    {
+      "path": "Panel/Money_txt",
+      "activeSelf": false,
+      "types": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TextMeshProUGUI"
+      ]
+    }
+  ]
+}

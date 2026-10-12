@@ -1,0 +1,38 @@
+{
+  "native_cctor": "0x2aa6bcc",
+  "ghidra_field_pointer": "0x5e5e7a8",
+  "native_pointer": "0x5d5e7a8",
+  "relocation_target": "0x5efb9b8",
+  "encoded_source": "0x80000027",
+  "usage_kind": 4,
+  "fieldref_index": 19,
+  "fieldrefs_base": "0xf72694",
+  "validated_fieldref_count": 931,
+  "resolved_field": {
+    "file": "extracted/base/assets/bin/Data/Managed/Metadata/global-metadata.dat",
+    "offset": 9570896,
+    "sha256": "0A692E8C75CA8B61E310C85ED97E1DE9C2762958B8551404A8219BDEFF29442D",
+    "token": "0x4001466",
+    "ints": [
+      16,
+      18,
+      20,
+      22,
+      24,
+      25,
+      27,
+      29
+    ]
+  },
+  "array": [
+    16,
+    18,
+    20,
+    22,
+    24,
+    25,
+    27,
+    29
+  ],
+  "evidence": "FieldInfo low-bit encoding index19, full table type/field domains validated, PrivateImplementationDetails SHA256 exactly matches original 32-byte initializer."
+}

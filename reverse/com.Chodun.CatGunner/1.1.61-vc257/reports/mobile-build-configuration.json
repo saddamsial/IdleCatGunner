@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "command": "command eval_file",
+  "data": {
+    "command": "eval_file",
+    "parameters": {
+      "file": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/tools/mobile_build_prepare.cs"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "package": "com.ravanla.idlecatgunner.recovery",
+        "version": "0.68.0",
+        "code": 68,
+        "abi": "arm64-v8a",
+        "minApi": 26,
+        "targetApi": 36,
+        "graphics": "OpenGLES3",
+        "signing": "Independent local recovery test key; not original developer",
+        "tempOnExternalVolume": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

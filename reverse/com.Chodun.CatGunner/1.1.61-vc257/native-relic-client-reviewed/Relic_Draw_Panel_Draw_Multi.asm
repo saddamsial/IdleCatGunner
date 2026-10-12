@@ -1,0 +1,29 @@
+02c306ec  stp x30,x21,[sp, #-0x20]!
+02c306f0  stp x20,x19,[sp, #0x10]
+02c306f4  adrp x20,0x625c000
+02c306f8  adrp x21,0x5e63000
+02c306fc  mov x19,x0
+02c30700  ldrb w8,[x20, #0x29]
+02c30704  ldr x21,[x21, #0x68]
+02c30708  tbnz w8,#0x0,0x02c30720
+02c3070c  adrp x0,0x5e63000
+02c30710  ldr x0,[x0, #0x68]
+02c30714  bl 0x029f5a50
+02c30718  mov w8,#0x1
+02c3071c  strb w8,[x20, #0x29]
+02c30720  ldr x0,[x21]
+02c30724  bl 0x029f5cec
+02c30728  mov w1,wzr
+02c3072c  mov x2,xzr
+02c30730  mov x20,x0
+02c30734  bl 0x02c30ac8
+02c30738  cbz x20,0x02c3075c
+02c3073c  mov x0,x20
+02c30740  mov x1,x19
+02c30744  str x19,[x0, #0x20]!
+02c30748  bl 0x029f59f4
+02c3074c  mov x0,x20
+02c30750  ldp x20,x19,[sp, #0x10]
+02c30754  ldp x30,x21,[sp], #0x20
+02c30758  ret
+02c3075c  bl 0x029f5cfc

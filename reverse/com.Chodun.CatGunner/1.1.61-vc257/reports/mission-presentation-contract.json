@@ -1,0 +1,28 @@
+{
+  "rule": 37,
+  "package": "com.Chodun.CatGunner",
+  "version": "1.1.61/vc257/ARM64",
+  "scope": "Daily task XP bounce and ordinary season diamond claim presentation",
+  "native": {
+    "Mission_Reward_Slot.Dia_Spawn_Play": "degree zero selects normal item, otherwise epic; non-null item forwards presentation",
+    "Mission_Reward_Item.Dia_Spawn_Play": "requires Dia_Attraction; chooses Dia_obj transform or own transform, requires RectTransform; emits 8",
+    "Mission_manager.Reward_Grant": "successful reward grant and claimed flag/UI reload precede SFX7; only reward type0 forwards diamond presentation",
+    "Mission_manager.Mission_Reward_Get": "valid ordinary task marks claimed and grants XP; SFX7 then Exp_Slider._bounce.Bounce_Start; no diamond grant",
+    "Mission_manager.Exp_Get": "level25 ignores further XP; level below25 accumulates and consumes100 per level",
+    "Mission_Exp_Slider.Reload": "display level +1; XP/100; fill XP/100f",
+    "bounce": {
+      "WantSize": 0.9,
+      "duration": 0.2
+    }
+  },
+  "preservation": "Independent save folders for all tests; user main and backup SHA must match checkpoint. Existing scene identities retained; only EXP_Slider component list/field and Currency component list may change.",
+  "knownDifferences": [
+    "Recovered UI bootstrap/model event bridge replaces complete original manager lifecycle",
+    "Shared bounded ParticleImage renderer and Bounce bootstrap remain rule36 local adapters",
+    "Original alert loop/scroll-to-next reward/analytics and complete original localized formatting are not closed",
+    "VIP/Luxury and advertising claims remain unavailable without actual providers",
+    "Local date remains an offline time substitute; no live backend or physical device acceptance"
+  ],
+  "fullGameComplete": false,
+  "runtimeCallbackBoundary": "Retain active original persistent slot claim callback; add fallback only when absent. Repeated Bind and actual click must emit8/award once, SFX7 without subsequent SFX5."
+}

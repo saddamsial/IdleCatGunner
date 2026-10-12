@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var m=UnityEngine.Object.FindAnyObjectByType<Mine_manager>(UnityEngine.FindObjectsInactive.Include);return m.Map_obj.GetComponentsInChildren<UnityEngine.SpriteRenderer>(true).GroupBy(r=>r.sharedMaterial).Select(g=>new{material=g.Key.name,sprite=g.First().sprite.name,texture=UnityEditor.AssetDatabase.GetAssetPath(g.First().sprite.texture),mode=g.First().drawMode.ToString(),size=g.First().size,color=g.First().color,bounds=g.First().sprite.bounds,scale=g.First().transform.lossyScale}).ToArray();"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": "<>f__AnonymousType0`8[System.String,System.String,System.String,System.String,UnityEngine.Vector2,UnityEngine.Color,UnityEngine.Bounds,UnityEngine.Vector3][]"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

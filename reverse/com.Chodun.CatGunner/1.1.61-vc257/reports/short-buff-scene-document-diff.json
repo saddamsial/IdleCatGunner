@@ -1,0 +1,74 @@
+{
+  "oldDocuments": 133435,
+  "newDocuments": 133897,
+  "newOriginalObjects": 120,
+  "newDocumentIdentities": 462,
+  "preservedExistingIdentities": 133435,
+  "semanticallyUnchangedExistingDocuments": 133429,
+  "intentionalExistingChanges": [
+    {
+      "oldId": "103366",
+      "newId": "103366",
+      "type": 114,
+      "name": "Tutorial_manager",
+      "script": "326bba145e7e452888a7fbf4f8bef13b"
+    },
+    {
+      "oldId": "104481",
+      "newId": "104481",
+      "type": 224,
+      "name": "Left_Menu",
+      "script": null
+    },
+    {
+      "oldId": "124245",
+      "newId": "124245",
+      "type": 114,
+      "name": "AD_Bonus_obj",
+      "script": "4e29b1a8efbd4b44bb3f3716e73f07ff"
+    },
+    {
+      "oldId": "124873",
+      "newId": "124873",
+      "type": 114,
+      "name": "Tree_manager",
+      "script": "bab892657d9fc4e34a43a11a63ba6aec"
+    },
+    {
+      "oldId": "125437",
+      "newId": "125437",
+      "type": 114,
+      "name": "AD_Bonus_obj",
+      "script": "4e29b1a8efbd4b44bb3f3716e73f07ff"
+    },
+    {
+      "oldId": "1167996984",
+      "newId": "1167996984",
+      "type": 224,
+      "name": "Canvas",
+      "script": null
+    }
+  ],
+  "editorLocalIdRemapping": {
+    "1156": "1157",
+    "103613": "103617",
+    "104358": "104360",
+    "115568": "1569860861",
+    "122987": "122989",
+    "123512": "123516",
+    "124362": "124363",
+    "124557": "1739661853",
+    "125217": "125218",
+    "125362": "1871361495",
+    "125397": "125398",
+    "125440": "1326297589",
+    "148619": "148626",
+    "149112": "149117"
+  },
+  "removedExistingObjectsOrComponents": 0,
+  "existingRectValuesUnchanged": true,
+  "existingSiblingRelativeOrderPreserved": true,
+  "scopedFieldValidation": true,
+  "allowedChanges": "Two parent child lists, client Buff reference, one original tutorial reference and two original mine ad-button interactability flags; original callbacks and all old Rect values retained",
+  "currentSceneSha256": "c765c3b2018b27144541f01694127da07c17761dde923d7e3c54c9a85a25d644"
+}

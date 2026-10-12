@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "duration": 3.74,
+  "summary": {
+    "total": 6,
+    "passed": 5,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalInventoryTests.DrawChargesDiamondsOnceAndFullInventoryDoesNotConsumeCurrencyOrRandomness",
+      "Status": "Passed",
+      "Duration": 0.0092299,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalInventoryTests.EquipSwapsOwnershipAndPauseWhileLastEquippedWeaponCannotBeRemoved",
+      "Status": "Passed",
+      "Duration": 0.0019203,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalInventoryTests.LegacyArrayExpansionAndSaveRoundTripPreserveSparseInventoryAndDuplicates",
+      "Status": "Passed",
+      "Duration": 0.0024339,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalInventoryTests.OriginalOpenButtonAndDragMergeEquipActivateCorrectCompanion",
+      "Status": "Failed",
+      "Duration": 3.6920254,
+      "Message": "Unhandled log message: '[Exception] MissingComponentException: There is no 'CanvasGroup' attached to the \"GunItem\" game object, but a script is trying to access it.\nYou probably need to add a CanvasGroup to the game object \"GunItem\". Or your script needs to check if the component is attached before using it.'. Use UnityEngine.TestTools.LogAssert.Expect",
+      "StackTrace": "UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/UnityEngineObject.bindings.cs:1124)\nUnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/BindingsHelpers.cs:61)\nUnityEngine.CanvasGroup.set_blocksRaycasts (System.Boolean value) (at <56ce7535f6df449f9540828eb8e3783e>:0)\nGun_Item.OnBeginDrag (UnityEngine.EventSystems.PointerEventData data) (at Assets/Recovery/Scripts/Gun_Item.cs:41)\nUnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IBeginDragHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at ./Packages/com.unity.ugui/Runtime/UGUI/EventSystem/ExecuteEvents.cs:71)\nUnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at ./Packages/com.unity.ugui/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)\nUnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)\n<OriginalOpenButtonAndDragMergeEquipActivateCorrectCompanion>d__6:MoveNext() (at Assets/Recovery/Tests/PlayMode/OriginalInventoryTests.cs:70)\nUnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)\n\n"
+    },
+    {
+      "FullName": "OriginalInventoryTests.PausedAdMaximumGradeAndStaleMergeDoNotMutateOrDrawRandomness",
+      "Status": "Passed",
+      "Duration": 0.00069,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalInventoryTests.SameGradeDifferentTypesMergeIntoTargetWithCorrectNextGradeRange",
+      "Status": "Passed",
+      "Duration": 0.0007712,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

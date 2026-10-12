@@ -1,0 +1,23 @@
+02c26534  stp x30,x19,[sp, #-0x10]!
+02c26538  mov x19,x0
+02c2653c  ldr x0,[x0, #0x20]
+02c26540  cbz x0,0x02c2658c
+02c26544  ldr x8,[x0]
+02c26548  ldr x9,[x8, #0x558]
+02c2654c  ldr x2,[x8, #0x560]
+02c26550  blr x9
+02c26554  mov x0,x19
+02c26558  mov x1,xzr
+02c2655c  bl 0x057dc1c8
+02c26560  cbz x0,0x02c2658c
+02c26564  mov w1,#0x1
+02c26568  mov x2,xzr
+02c2656c  bl 0x057dff3c
+02c26570  mov x0,x19
+02c26574  mov x1,xzr
+02c26578  bl 0x057dc0f8
+02c2657c  cbz x0,0x02c2658c
+02c26580  mov x1,xzr
+02c26584  ldp x30,x19,[sp], #0x10
+02c26588  b 0x057f0b34
+02c2658c  bl 0x029f5cfc

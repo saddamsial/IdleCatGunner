@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 36.99,
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalDetailHoldTests.HoldStopsWhenUnaffordableMaxedOrPanelClosedAndRestartDoesNotDuplicate",
+          "Status": "Passed",
+          "Duration": 9.6636588,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalDetailHoldTests.OrdinaryHoldUpgradeSurvivesIndependentColdReloadWithoutTouchingUserProfile",
+          "Status": "Passed",
+          "Duration": 12.4261881,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalDetailHoldTests.OriginalPetArrowsBrowseAllGradesIncludingUncollectedWithoutChangingInventory",
+          "Status": "Passed",
+          "Duration": 5.8541023,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalDetailHoldTests.OriginalRebirthEventsRespectDelayRepeatPriceAndReleaseOrExitForAllThreeKinds",
+          "Status": "Passed",
+          "Duration": 9.0228696,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

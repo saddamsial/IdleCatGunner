@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var t=System.AppDomain.CurrentDomain.GetAssemblies().SelectMany(a=>a.GetTypes()).First(x=>x.FullName==\"Unity.Pipeline.Editor.Testing.PipelineTestRunner\");var result=t.GetMethod(\"CancelTests\",System.Reflection.BindingFlags.Public|System.Reflection.BindingFlags.Static).Invoke(null,null);UnityEditor.AssetDatabase.Refresh();return result;"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "status": "cancelled",
+        "message": "Test run cancelled."
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "context": {
+    "reason": "Optional diagnostic serialization mistakenly referenced Newtonsoft from the test assembly; fixed with plain text without new dependency. Pending runner canceled and latest full run started; not accepted as passed.",
+    "prior_fourth_run": "17/17 passed,58.62seconds",
+    "native_runtime_newtonsoft_error": false
+  }
+}

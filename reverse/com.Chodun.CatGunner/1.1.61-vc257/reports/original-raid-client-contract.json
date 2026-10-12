@@ -1,0 +1,111 @@
+{
+  "build": "com.Chodun.CatGunner 1.1.61 vc257 arm64",
+  "input_hashes_verified": true,
+  "native_exports": [
+    {
+      "folder": "native-raid-client-reviewed",
+      "methods": 82,
+      "all_completed": true
+    },
+    {
+      "folder": "native-raid-dependencies-reviewed",
+      "methods": 23,
+      "all_completed": true
+    },
+    {
+      "folder": "native-raid-calendar-demo-reviewed",
+      "methods": 10,
+      "all_completed": true
+    }
+  ],
+  "initializer_blobs": [
+    {
+      "metadata_offset": 9608720,
+      "values": [
+        25,
+        20,
+        10
+      ],
+      "sha256": "8A8C82E3F20E4750C705077DDABCDE554250325EE8676E39260D36F7ED0E84D2",
+      "preferred_field_pointer": "0x5d63750",
+      "fieldref_index": 29,
+      "token": "0x4001470"
+    },
+    {
+      "metadata_offset": 9609088,
+      "values": [
+        20,
+        30,
+        35
+      ],
+      "sha256": "DF18D0DD6218A31A496F4209870FD07DCD2A050900975B16D661FBC997EFB53F",
+      "preferred_field_pointer": "0x5d63f30",
+      "fieldref_index": 39,
+      "token": "0x400147a"
+    }
+  ],
+  "ui_literals": [
+    {
+      "preferred_pointer": "0x5d61f18",
+      "index": 8281,
+      "literal": "Lv.{0}"
+    },
+    {
+      "preferred_pointer": "0x5d61f28",
+      "index": 22263,
+      "literal": "{0}/{1}"
+    },
+    {
+      "preferred_pointer": "0x5d5e6d0",
+      "index": 22334,
+      "literal": "{0}s"
+    },
+    {
+      "preferred_pointer": "0x5d63650",
+      "index": 2752,
+      "literal": "<size=45>Lv.{0}</size>"
+    },
+    {
+      "preferred_pointer": "0x5d63658",
+      "index": 22149,
+      "literal": "{0}"
+    },
+    {
+      "preferred_pointer": "0x5d63660",
+      "index": 10120,
+      "literal": "Raid/HighScore_History"
+    },
+    {
+      "preferred_pointer": "0x5d63630",
+      "index": 22323,
+      "literal": "{0}d {1}h {2}m {3}s"
+    },
+    {
+      "preferred_pointer": "0x5d625c0",
+      "index": 10658,
+      "literal": "Score {0}"
+    }
+  ],
+  "rules": {
+    "first_health": 10000000,
+    "cache_step": "previous * (3.0 * Pow(1.0,previousIndex)), ToPrecision(3); return ToPrecision(2)",
+    "ordinary_time_seconds": 60,
+    "free_entries": 2,
+    "star_gem_per_10_levels": [
+      25,
+      20,
+      10
+    ],
+    "star_gem_after_30_per_level": 5,
+    "weak_damage_multiplier": 10,
+    "week_start": "Monday; epoch 2024-01-01; offset positive modulo 5",
+    "weak_type_source": "Gun_list[30 + bossIndex].type",
+    "loadout": "specific source index selected[0..2], owned[3..], safe[3+ownedLength..]; descending raid damage then ascending index; no duplicate source index; preserve at least one gun"
+  },
+  "scope": "Original ordinary offline Raid entry/loadout/Boss/HUD/reward and exit. Native SDK, trust-time, rankings, paid helper/time bonuses, Raid missions and star upgrades excluded. Local clock and decimal/presentation adapters documented separately.",
+  "validation": {
+    "focused": "5/5,83.25seconds",
+    "full": "106/106,622.26seconds",
+    "visual_player_device": "unaccepted"
+  }
+}

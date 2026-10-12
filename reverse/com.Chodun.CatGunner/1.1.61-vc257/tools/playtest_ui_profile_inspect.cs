@@ -1,0 +1,5 @@
+var c=UnityEngine.Object.FindAnyObjectByType<CatGunner.Recovery.RecoveryForestClient>(FindObjectsInactive.Include);
+Func<Transform,string> path=t=> {var s=t.name;while(t.parent!=null){t=t.parent;s=t.name+"/"+s;}return s;};
+Func<Transform,object> tr=t=>new {path=path(t),pos=t.localPosition.ToString(),world=t.position.ToString(),scale=t.localScale.ToString(),active=t.gameObject.activeSelf};
+var all=UnityEngine.SceneManagement.SceneManager.GetActiveScene().GetRootGameObjects().SelectMany(x=>x.GetComponentsInChildren<Transform>(true)).ToArray();
+var state=CatGunner.Recovery.OriginalSaveArchive.Decode(System.IO.File.ReadAllText("/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/checkpoints/playtest-ui-before/NoSaveFile.json"));var output=new {state.Stage_Now,state.Level_Now,state.Stage_Value_Max,state.Selected_items,state.StarGem,state.Star_Slot_Lv};return output;

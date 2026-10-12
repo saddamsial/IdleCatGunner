@@ -1,0 +1,488 @@
+{
+  "identity": {
+    "file": "level0",
+    "path_id": 136808,
+    "type_index": 7445,
+    "type": "Cat",
+    "game_object": "Cat (2)"
+  },
+  "data": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 15237
+    },
+    "m_Enabled": 1,
+    "m_Script": {
+      "m_FileID": 1,
+      "m_PathID": 1457
+    },
+    "m_Name": "",
+    "moveSpeed": 14.0,
+    "joystick": {
+      "m_FileID": 0,
+      "m_PathID": 147193
+    },
+    "rb": {
+      "m_FileID": 0,
+      "m_PathID": 64723
+    },
+    "anim": {
+      "m_FileID": 0,
+      "m_PathID": 66785
+    },
+    "GunNum": 27,
+    "_gunInfo": {
+      "Name": "",
+      "type": 1,
+      "Damage": {
+        "s_digits": "0",
+        "s_exponent": 0
+      },
+      "AtkSpeed": 0.0,
+      "ShotgunPelletCount": 5,
+      "ShotgunSpreadAngle": 15.0,
+      "ExplosionRadius": 3.0,
+      "MissileExplosionRadius": 5.0,
+      "MissileSpeed": 35.0,
+      "MissileElevationMin": 1.0,
+      "MissileElevationMax": 3.0,
+      "BlastSniperExplosionRadius": 3.0,
+      "PenetratingBulletLifetime": 2.0
+    },
+    "Damage": {
+      "s_digits": "0",
+      "s_exponent": 0
+    },
+    "CriDmg": {
+      "s_digits": "0",
+      "s_exponent": 0
+    },
+    "Damage_str": "0",
+    "CriDmg_str": "",
+    "CriPer": 0.0,
+    "Attack_Length": 40.0,
+    "Raycast_Cool_Max": 0.10000000149011612,
+    "AtkCool_Now": 0.0,
+    "AtkCool_Max": 0.20000000298023224,
+    "EnemyLayer": {
+      "m_Bits": 640
+    },
+    "Pivot_trans": {
+      "m_FileID": 0,
+      "m_PathID": 54045
+    },
+    "Gun_Pivot_trans": {
+      "m_FileID": 0,
+      "m_PathID": 61776
+    },
+    "Face_Pivot_trans": {
+      "m_FileID": 0,
+      "m_PathID": 60235
+    },
+    "LeftHand": {
+      "m_FileID": 0,
+      "m_PathID": 61356
+    },
+    "RightHand": {
+      "m_FileID": 0,
+      "m_PathID": 57078
+    },
+    "Shoot_trans": {
+      "m_FileID": 0,
+      "m_PathID": 60193
+    },
+    "Ray_trans": {
+      "m_FileID": 0,
+      "m_PathID": 54046
+    },
+    "Shoot_Random_trans": [],
+    "Shoot_particle": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "Gun_bounce": {
+      "m_FileID": 0,
+      "m_PathID": 143910
+    },
+    "Rebound_bounce": {
+      "m_FileID": 0,
+      "m_PathID": 134631
+    },
+    "Target_obj": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "Gun_list": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 141048
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 131406
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 134934
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 135498
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 128526
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 127423
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 132275
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 146225
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 125928
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 147528
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 133101
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 127420
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 141092
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 135375
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 141242
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 132068
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 132133
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 126111
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 134843
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 137406
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 137140
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 127428
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 127972
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 141231
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 145522
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 140744
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 149095
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142321
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 146160
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 137178
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 137193
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 149328
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 137261
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 147096
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 127878
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 146558
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 149316
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 140726
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 135223
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 141552
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 139477
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 142670
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 149273
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 133113
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 137945
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 149218
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 140971
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 134060
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 128449
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 128170
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 125791
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 141209
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 148611
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 149182
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 133085
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 137201
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 132295
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 126196
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 127412
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 148716
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 133967
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 134399
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 136737
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 145384
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 137623
+      }
+    ],
+    "HandRotateSpeed": 30.0,
+    "FaceRotateSpeed": 12.0,
+    "RayCount": 36,
+    "SpreadAngleMin": 2.0,
+    "SpreadAngleMax": 20.0,
+    "SpreadGrowthRate": 0.30000001192092896,
+    "SpreadDecayMultiplier": 3.0,
+    "Debug_SpreadAngle": 0.0,
+    "Debug_SpreadMaxAngle": 0.0,
+    "AutoMove": true,
+    "AutoStopDistance": 10.0,
+    "AutoZOffsetMax": -15.0,
+    "AutoZOffsetMinDist": 3.0,
+    "AutoZOffsetFullDist": 10.0,
+    "AutoSearchInterval": 0.30000001192092896,
+    "AutoStopRatio": 0.800000011920929,
+    "AutoDecelerationRange": 2.0,
+    "AutoZWeight": 0.4000000059604645,
+    "AutoNearbyRadius": 8.0,
+    "AutoOreSearchRadius": 25.0,
+    "AutoOreSearchRadiusFallbackMult": 3.0,
+    "OreOverlapBufferSize": 64,
+    "OreLayer": {
+      "m_Bits": 0
+    },
+    "is_AI": true,
+    "ObstacleLayer": {
+      "m_Bits": 129
+    },
+    "MinEnemyDist": 5.0,
+    "FollowIdealDist": 15.0,
+    "FollowMaxDist": 20.0,
+    "FormationOffset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "SeparationForce": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "HysteresisMargin": 0.11999999731779099,
+    "MinStateDuration": 0.30000001192092896,
+    "DecelerationRange": 2.0,
+    "MinSpeedRatio": 0.15000000596046448,
+    "VelocitySmoothSpeed": 8.0,
+    "SlotNum": -1,
+    "skin_spriteRenderer": {
+      "m_FileID": 0,
+      "m_PathID": 86466
+    },
+    "hand_spriteRenderer": {
+      "m_FileID": 0,
+      "m_PathID": 83243
+    },
+    "Gun_Degree_FX_list": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 30835
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 4258
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 15826
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 30346
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 36448
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 30488
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 16195
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 3269
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 17409
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 37195
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 30489
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 10422
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 16350
+      }
+    ]
+  }
+}

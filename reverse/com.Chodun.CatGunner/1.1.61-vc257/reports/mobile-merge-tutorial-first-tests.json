@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 39.46,
+      "summary": {
+        "total": 5,
+        "passed": 4,
+        "failed": 1,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalMergeTutorialTests.ActualRaycastDragMergeStopsCueAndDoesNotChargeOrGrantCurrency",
+          "Status": "Failed",
+          "Duration": 6.6648629,
+          "Message": "  Expected: 1\n  But was:  2\n",
+          "StackTrace": "at OriginalMergeTutorialTests+<ActualRaycastDragMergeStopsCueAndDoesNotChargeOrGrantCurrency>d__6.MoveNext () [0x002d4] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMergeTutorialTests.cs:89\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalMergeTutorialTests.IndependentColdReloadRetainsFirstMergeFlagAndNeverShowsCueAgain",
+          "Status": "Passed",
+          "Duration": 12.1919548,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMergeTutorialTests.NativeEligibilitySkipsPausedAdAndHigherGunsAndKeepsSaveUnchanged",
+          "Status": "Passed",
+          "Duration": 6.4891531,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMergeTutorialTests.OriginalHandMovesScalesReopensAndInvalidTargetsStopMotion",
+          "Status": "Passed",
+          "Duration": 7.9258982,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalMergeTutorialTests.OriginalMergeCueComponentAndTwoItemArrowAreReconnected",
+          "Status": "Passed",
+          "Duration": 6.1326834,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

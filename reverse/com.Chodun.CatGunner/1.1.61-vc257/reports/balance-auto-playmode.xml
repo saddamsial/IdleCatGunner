@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="3" result="Passed" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-08 15:54:35Z" end-time="2026-10-08 15:54:35Z" duration="0.1445049">
+  <test-suite type="TestSuite" id="1614" name="CatGunnerUnityClient" fullname="CatGunnerUnityClient" runstate="Runnable" testcasecount="496" result="Passed" start-time="2026-10-08 15:54:35Z" end-time="2026-10-08 15:54:35Z" duration="0.144505" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1011" name="CatGunner.Recovery.PlayModeTests.dll" fullname="/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Library/ScriptAssemblies/CatGunner.Recovery.PlayModeTests.dll" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-08 15:54:35Z" end-time="2026-10-08 15:54:35Z" duration="0.136261" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="45077" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="OriginalBalanceTests" fullname="OriginalBalanceTests" classname="OriginalBalanceTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-08 15:54:35Z" end-time="2026-10-08 15:54:35Z" duration="0.135408" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1004" name="NativeAutoUpgradePrioritizesAffordableMinimumAndStableTies" fullname="OriginalBalanceTests.NativeAutoUpgradePrioritizesAffordableMinimumAndStableTies" methodname="NativeAutoUpgradePrioritizesAffordableMinimumAndStableTies" classname="OriginalBalanceTests" runstate="Runnable" seed="1068596370" result="Passed" start-time="2026-10-08 15:54:35Z" end-time="2026-10-08 15:54:35Z" duration="0.033609" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1002" name="OriginalFullCachesRetainNativeBoundaryValuesAndUnboundedExponents" fullname="OriginalBalanceTests.OriginalFullCachesRetainNativeBoundaryValuesAndUnboundedExponents" methodname="OriginalFullCachesRetainNativeBoundaryValuesAndUnboundedExponents" classname="OriginalBalanceTests" runstate="Runnable" seed="123318745" result="Passed" start-time="2026-10-08 15:54:35Z" end-time="2026-10-08 15:54:35Z" duration="0.075864" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1003" name="UpgradeTransactionPreservesRejectedStateAndClosesLevel10000Boundary" fullname="OriginalBalanceTests.UpgradeTransactionPreservesRejectedStateAndClosesLevel10000Boundary" methodname="UpgradeTransactionPreservesRejectedStateAndClosesLevel10000Boundary" classname="OriginalBalanceTests" runstate="Runnable" seed="508277337" result="Passed" start-time="2026-10-08 15:54:35Z" end-time="2026-10-08 15:54:35Z" duration="0.020421" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: /Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/balance-auto-playmode.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

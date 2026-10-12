@@ -1,0 +1,142 @@
+{
+  "tests": {
+    "eco": {
+      "report": "live-eco-mode-final-status.json",
+      "status": "completed",
+      "duration": 86.35,
+      "summary": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "onboarding": {
+      "report": "live-eco-onboarding-final-status.json",
+      "status": "completed",
+      "duration": 81.98,
+      "summary": {
+        "total": 5,
+        "passed": 5,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "input_feedback": {
+      "report": "live-eco-forest-feedback-status.json",
+      "status": "completed",
+      "duration": 26.52,
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    },
+    "startup": {
+      "report": "live-eco-startup-status.json",
+      "status": "completed",
+      "duration": 24.73,
+      "summary": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      }
+    }
+  },
+  "editor": {
+    "unity": "6000.4.10f1",
+    "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+    "playing": false,
+    "paused": false,
+    "compiling": false,
+    "dirty": false,
+    "persist": true,
+    "saveOverride": null,
+    "objects": 34790,
+    "missingScripts": 0,
+    "originalCamera": "Main Camera",
+    "cameraActive": true,
+    "ecoPanelActive": false,
+    "ecoState": false,
+    "shootMute": false,
+    "settingsPersistPreferences": true,
+    "ecoTweens": 2,
+    "ecoScrolling": 1,
+    "connectedTutorialReferences": 5,
+    "eventSystems": 1,
+    "inputOverrides": 0,
+    "readyForUserPlay": true,
+    "scopeComplete": false
+  },
+  "scene_audit": {
+    "oldDocuments": 129129,
+    "newDocuments": 129370,
+    "newOriginalObjects": 52,
+    "newDocumentIdentities": 241,
+    "preservedExistingIdentities": 129129,
+    "semanticallyUnchangedExistingDocuments": 129125,
+    "intentionalExistingChanges": [
+      {
+        "oldId": "103366",
+        "newId": "103366",
+        "type": 114,
+        "name": "Tutorial_manager",
+        "script": "326bba145e7e452888a7fbf4f8bef13b"
+      },
+      {
+        "oldId": "103716",
+        "newId": "103716",
+        "type": 224,
+        "name": "Btn_list",
+        "script": null
+      },
+      {
+        "oldId": "147875725",
+        "newId": "147875725",
+        "type": 224,
+        "name": "Main_UI",
+        "script": null
+      },
+      {
+        "oldId": "1167996984",
+        "newId": "1167996984",
+        "type": 224,
+        "name": "Canvas",
+        "script": null
+      }
+    ],
+    "editorLocalIdRemapping": {
+      "104285": "1687055105",
+      "124135": "124138",
+      "140341": "2005582736",
+      "140635": "1701722377",
+      "142263": "142267",
+      "148776": "148777"
+    },
+    "removedExistingObjectsOrComponents": 0,
+    "audit": "References normalized only through verified same hierarchy/name/component identities; all existing serialized fields must match except three parent child lists and the original Tutorial_manager EcoMode control reference."
+  },
+  "user_save": [
+    {
+      "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json",
+      "sha256": "bd1f1d84ad30c058d4aba941507e7ca57dffe879322cdb6e8cc39aec844c099d",
+      "bytes": 9364,
+      "checkpoint": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/checkpoints/eco-mode-before/NoSaveFile.json",
+      "unchanged_from_turn_start": true
+    },
+    {
+      "path": "/Users/rongdahuikeji/Library/Application Support/DefaultCompany/CatGunnerUnityClient/RecoveredClient-vc257/NoSaveFile.json.bak",
+      "sha256": "bd1f1d84ad30c058d4aba941507e7ca57dffe879322cdb6e8cc39aec844c099d",
+      "bytes": 9364,
+      "checkpoint": "/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/checkpoints/eco-mode-before/NoSaveFile.json.bak",
+      "unchanged_from_turn_start": true
+    }
+  ],
+  "scope_complete": false
+}

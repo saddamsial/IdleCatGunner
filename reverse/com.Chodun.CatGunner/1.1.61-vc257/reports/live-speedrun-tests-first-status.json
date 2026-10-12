@@ -1,0 +1,34 @@
+{
+  "status": "completed",
+  "duration": 13.64,
+  "summary": {
+    "total": 3,
+    "passed": 1,
+    "failed": 2,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalSpeedRunTests.NativeTreeCountAndRingLayoutRespectCapsCountAndOriginalJitterBounds",
+      "Status": "Passed",
+      "Duration": 0.010175,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "OriginalSpeedRunTests.OriginalEntryNaturalAutomaticClearPaysOnceAndReturnsToUnchangedForestProgress",
+      "Status": "Failed",
+      "Duration": 7.2104674,
+      "Message": "Unhandled log message: '[Error] 'Rebirth_FX' AnimationEvent 'Rebirth' on animation 'rebirth' has no receiver! Are you missing a component?'. Use UnityEngine.TestTools.LogAssert.Expect",
+      "StackTrace": "\n"
+    },
+    {
+      "FullName": "OriginalSpeedRunTests.TimedFailurePaysNothingAndExplicitExitStopsModeUpdates",
+      "Status": "Failed",
+      "Duration": 6.3781394,
+      "Message": "Unhandled log message: '[Error] 'Rebirth_FX' AnimationEvent 'Rebirth' on animation 'rebirth' has no receiver! Are you missing a component?'. Use UnityEngine.TestTools.LogAssert.Expect",
+      "StackTrace": "\n"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+if(UnityEditor.EditorApplication.isPlaying||UnityEditor.EditorApplication.isCompiling)throw new InvalidOperationException("Stable EditMode required");
+UnityEngine.Time.timeScale=1;UnityEditor.EditorApplication.isPaused=false;
+var scene=UnityEditor.SceneManagement.EditorSceneManager.OpenScene("Assets/Recovery/Scenes/RecoveredClient.unity");
+var client=UnityEngine.Object.FindAnyObjectByType<CatGunner.Recovery.RecoveryForestClient>(UnityEngine.FindObjectsInactive.Include);
+var settings=UnityEngine.Object.FindAnyObjectByType<Setting>(UnityEngine.FindObjectsInactive.Include);
+var transforms=scene.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<UnityEngine.Transform>(true)).ToArray();
+var missing=transforms.Sum(t=>UnityEditor.GameObjectUtility.GetMonoBehavioursWithMissingScriptCount(t.gameObject));
+var systems=transforms.Select(t=>t.GetComponent<UnityEngine.EventSystems.EventSystem>()).Where(e=>e!=null).ToArray();
+var modules=systems.Select(e=>e.GetComponent<UnityEngine.EventSystems.StandaloneInputModule>()).ToArray();
+var tweens=settings.EcoPanel_obj.GetComponentsInChildren<CatGunner.Recovery.RecoveryEcoTween>(true);
+var tutorial=client.Tutorial;
+var ecoTutorial=tutorial.DisableOnTutorial.Single(g=>g!=null&&g.name=="EcoMode_Btn");
+var ready=!scene.isDirty&&missing==0&&client.Persist&&client.SaveFolderOverride==null&&settings.PersistPreferences&&settings.Camera_obj.activeSelf&&!settings.EcoPanel_obj.activeSelf&&tweens.Length==2&&systems.Length==1&&modules.All(m=>m!=null&&m.inputOverride==null)&&!Setting.is_eco&&!Cat_manager.is_Shoot_Mute&&ecoTutorial==settings.EcoMode_Btn_img.gameObject;
+var report=new{unity=UnityEngine.Application.unityVersion,scene=scene.path,playing=UnityEditor.EditorApplication.isPlaying,paused=UnityEditor.EditorApplication.isPaused,compiling=UnityEditor.EditorApplication.isCompiling,dirty=scene.isDirty,persist=client.Persist,saveOverride=client.SaveFolderOverride,objects=transforms.Length,missingScripts=missing,originalCamera=settings.Camera_obj.name,cameraActive=settings.Camera_obj.activeSelf,ecoPanelActive=settings.EcoPanel_obj.activeSelf,ecoState=Setting.is_eco,shootMute=Cat_manager.is_Shoot_Mute,settingsPersistPreferences=settings.PersistPreferences,ecoTweens=tweens.Length,ecoScrolling=settings.EcoPanel_obj.GetComponentsInChildren<Scrolling>(true).Length,connectedTutorialReferences=tutorial.DisableOnTutorial.Count(g=>g!=null),eventSystems=systems.Length,inputOverrides=modules.Count(m=>m!=null&&m.inputOverride!=null),readyForUserPlay=ready,scopeComplete=false};
+System.IO.File.WriteAllText("/Volumes/ZHITAI_1T/IdleCatGunner/reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/eco-mode-editor-handoff.json",Newtonsoft.Json.JsonConvert.SerializeObject(report,Newtonsoft.Json.Formatting.Indented));
+return report;

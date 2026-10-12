@@ -1,0 +1,24 @@
+02c52828  stp x30,x21,[sp, #-0x20]!
+02c5282c  stp x20,x19,[sp, #0x10]
+02c52830  mov x19,x0
+02c52834  mov w20,wzr
+02c52838  mov w21,#0x1
+02c5283c  mov x0,x19
+02c52840  mov w1,w20
+02c52844  bl 0x02c53078
+02c52848  cmp w0,#0x2
+02c5284c  b.eq 0x02c5285c
+02c52850  cmp w0,#0x1
+02c52854  b.ne 0x02c52864
+02c52858  b 0x02c52878
+02c5285c  ldrb w8,[x19, #0x48]
+02c52860  cbnz w8,0x02c52878
+02c52864  cmp w20,#0x7
+02c52868  add w20,w20,#0x1
+02c5286c  cset w21,cc
+02c52870  cmp w20,#0x8
+02c52874  b.ne 0x02c5283c
+02c52878  ldp x20,x19,[sp, #0x10]
+02c5287c  and w0,w21,#0x1
+02c52880  ldp x30,x21,[sp], #0x20
+02c52884  ret

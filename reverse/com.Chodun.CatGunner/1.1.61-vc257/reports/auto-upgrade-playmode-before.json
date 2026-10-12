@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "duration": 17.75,
+  "summary": {
+    "total": 1,
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalAutoUpgradeTests.OriginalAutoUpgradeHudAndPopupArePresentForPlay",
+      "Status": "Failed",
+      "Duration": 17.5728881,
+      "Message": "  Original auto-upgrade HUD button has not yet been integrated\n  Expected: True\n  But was:  False\n",
+      "StackTrace": "at OriginalAutoUpgradeTests+<OriginalAutoUpgradeHudAndPopupArePresentForPlay>d__5.MoveNext () [0x00050] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalAutoUpgradeTests.cs:20\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    }
+  ]
+}
