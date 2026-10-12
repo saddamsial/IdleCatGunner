@@ -1,0 +1,31 @@
+{
+  "projectFiles": 10970,
+  "evidenceFiles": 54201,
+  "releaseFiles": 3,
+  "largeLfsFiles": 39,
+  "largeLfsBytes": 3652119155,
+  "requiredEmbeddedBinaries": 81,
+  "missingEmbeddedBinaries": [],
+  "splitAssetMetaPairs": [],
+  "highConfidenceSecretFindings": [],
+  "scannedTextSizeLimit": 10485760,
+  "apkSha256": "0f5a001294f9e651c795c079cb4a86d5c5e0db4bd72bb882b34fbf570e7dbbfb",
+  "excluded": "Wrong game packages/projects; raw APK inputs; caches/checkpoints; player NoSaveFile saves; Build/signing secrets",
+  "commitsBeforeRelease": [
+    {
+      "commit": "7451a216f3e8a2d1f7a358c2818ea0f2322633d3",
+      "stage": "Unity project and embedded dependencies"
+    },
+    {
+      "commit": "79b108731cf0618ee64f838a710b497ff244d7d2",
+      "stage": "Native evidence and verification"
+    }
+  ],
+  "tag": "v0.77.0-full-game",
+  "releaseLabel": "完整版游戏（用户指定版本名，r77 可玩快照）",
+  "originalParityComplete": false,
+  "frozenStartupFixtureIncluded": "reverse/com.Chodun.CatGunner/1.1.61-vc257/checkpoints/pre-startup-legacy-raid-fix/NoSaveFile.json",
+  "frozenFixtureAccountAndPasswordEmpty": true,
+  "liveSavesAndSigningSecretsExcluded": true,
+  "releaseApkSha256": "0f5a001294f9e651c795c079cb4a86d5c5e0db4bd72bb882b34fbf570e7dbbfb"
+}
