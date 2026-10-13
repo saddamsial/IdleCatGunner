@@ -1,0 +1,25 @@
+{
+  "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+  "isDirty": false,
+  "Persist": true,
+  "SaveFolderOverride": null,
+  "testHost": "",
+  "Radius": 100.0,
+  "MovementPadding": 2.0,
+  "EdgePadding": 24.0,
+  "WallHeight": 10.0,
+  "wallTexture": "Assets/Recovery/PenguinExpedition/vertical-ice-cliff-v3.png",
+  "snow": "Assets/Recovery/PenguinExpedition/snow-ground.png",
+  "shaderMessages": [
+    {
+      "shader": "Recovery/VerticalIceCliff",
+      "isSupported": true,
+      "messages": []
+    },
+    {
+      "shader": "Recovery/SnowPlatformDecor",
+      "isSupported": true,
+      "messages": []
+    }
+  ]
+}

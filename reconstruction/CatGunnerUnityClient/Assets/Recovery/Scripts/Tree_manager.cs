@@ -21,6 +21,7 @@ public sealed class Tree_manager : MonoBehaviour
     public Tree_Grid[] Tree_Grid_list;
     public Tree Boss_tree;
     public Transform LastBorder_trans;
+    public CircularForestMap CircularMap;
     [NonSerialized] public Action WaveCleared;
     [NonSerialized] public Action TreeDestroyed;
     // Original private transient field at native offset 0x50; never saved.
@@ -61,6 +62,7 @@ public sealed class Tree_manager : MonoBehaviour
         LastBorder_trans.localPosition=new Vector3(0,0,OriginalForestRules.LastBorderLocalZ(Level_Now));
         Boss_tree.gameObject.SetActive(Level_Now==4);
         if(Level_Now==4) Boss_tree.Boss_Spawn(healthData[3],moneyData[3],Sprite_return(Stage_Now,3));
+        if(CircularMap!=null&&CircularMap.isActiveAndEnabled)CircularMap.PlaceTrees();
         return OriginalForestRules.TreeCount(Stage_Now,Level_Now);
     }
     public void Map_Batch()

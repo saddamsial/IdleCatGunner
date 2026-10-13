@@ -138,11 +138,14 @@ public sealed partial class Cat
         foreach(var grid in grids) if(grid!=null && grid.gameObject.activeInHierarchy) count++;
         if(count==0) return null;
         var indices=new int[count];var bounds=new float[count];int next=0;
+        // Circular stages redistribute each pool across the disk; original
+        // strip Z bounds no longer describe the positions of those trees.
+        bool circular=manager.CircularMap!=null&&manager.CircularMap.isActiveAndEnabled;
         for(int i=0;i<grids.Length;i++)
         {
             var grid=grids[i];if(grid==null || !grid.gameObject.activeInHierarchy) continue;
             float z=grid.transform.position.z;
-            indices[next]=i;bounds[next]=self.z<z?z-self.z:(self.z>z+45?self.z-(z+45):0);next++;
+            indices[next]=i;bounds[next]=circular?0:self.z<z?z-self.z:(self.z>z+45?self.z-(z+45):0);next++;
         }
         for(int i=1;i<count;i++)
         {
