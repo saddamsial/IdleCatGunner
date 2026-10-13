@@ -1,0 +1,23 @@
+{
+  "sfx": 17,
+  "bgm": [
+    {
+      "name": "Penguin_SnowfieldStroll",
+      "length": 71.1111145,
+      "samples": 3136000,
+      "channels": 2,
+      "loadType": "Streaming"
+    },
+    {
+      "name": "Penguin_CrystalExpedition",
+      "length": 61.9354858,
+      "samples": 2731355,
+      "channels": 2,
+      "loadType": "Streaming"
+    }
+  ],
+  "startup": "Penguin_SnowfieldStroll",
+  "loop": true,
+  "originalClipsRetained": true,
+  "scene": "Assets/Recovery/Scenes/RecoveredClient.unity"
+}

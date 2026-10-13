@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "duration": 9.4,
+  "summary": {
+    "total": 1,
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "RaisedSnowArenaTests.HoldingJoystickAgainstEdgeDoesNotStepOutsidePlatform",
+      "Status": "Failed",
+      "Duration": 9.3350662,
+      "Message": "  Expected: less than or equal to 98.0500031f\n  But was:  98.1500015f\n",
+      "StackTrace": "at RaisedSnowArenaTests+<HoldingJoystickAgainstEdgeDoesNotStepOutsidePlatform>d__13.MoveNext () [0x001da] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/RaisedSnowArenaTests.cs:101\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    }
+  ]
+}

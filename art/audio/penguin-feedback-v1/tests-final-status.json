@@ -1,0 +1,63 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 38.87,
+      "summary": {
+        "total": 5,
+        "passed": 5,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "PenguinFeedbackTests.ActualInputClicksAllFourteenMenusOnceAndKeepsCurrencyAndPersistentBindings",
+          "Status": "Passed",
+          "Duration": 12.5788465,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PenguinFeedbackTests.EquippedSlotActualInputOpensDetailWithoutChangingEquipmentWhilePaused",
+          "Status": "Passed",
+          "Duration": 6.8950705,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PenguinFeedbackTests.FullCatalogueAndStaticAndInstantiatedUiHaveFeedback",
+          "Status": "Passed",
+          "Duration": 5.9619456,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PenguinFeedbackTests.MutingSilencesClickAndPopupAndBusinessSoundWinsRegardlessOfListenerOrder",
+          "Status": "Passed",
+          "Duration": 6.1992224,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PenguinFeedbackTests.PausedPressCancelDisableAndPopupReopenRestoreScalesWithoutStaleAnimation",
+          "Status": "Passed",
+          "Duration": 7.2110891,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

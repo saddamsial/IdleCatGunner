@@ -1,0 +1,50 @@
+{
+  "sample_rate": 44100,
+  "duration": 1.75,
+  "seed": 13106,
+  "weights": {
+    "water": 0.6,
+    "toy": 0.25,
+    "magic": 0.15
+  },
+  "active_rms": 0.105,
+  "peak_cap": 0.64,
+  "fade_out": 0.06,
+  "events": [
+    {
+      "start": 0,
+      "midi": 60,
+      "velocity": 0.5,
+      "decay": 0.3,
+      "pan": 0
+    },
+    {
+      "start": 0.17,
+      "midi": 67,
+      "velocity": 0.6,
+      "decay": 0.25,
+      "pan": 0
+    },
+    {
+      "start": 0.37,
+      "midi": 74,
+      "velocity": 0.6,
+      "decay": 0.27,
+      "pan": 0
+    },
+    {
+      "start": 0.65,
+      "midi": 79,
+      "velocity": 0.8,
+      "decay": 0.35,
+      "pan": 0
+    },
+    {
+      "start": 0.9,
+      "midi": 84,
+      "velocity": 0.6,
+      "decay": 0.4,
+      "pan": 0
+    }
+  ]
+}

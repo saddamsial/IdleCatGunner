@@ -19,9 +19,16 @@ namespace CatGunner.Recovery
         private bool lastBouncing;
         public float RecoilStrength {get;private set;}
         public int Shots {get;private set;}
-        private Mesh gripMesh;
-        private Vector3[] gripVertices=new Vector3[17];
-        private Material gripMaterial;
+        public Vector3 ShoulderLocal {get;private set;}
+        public Vector3 HoldingPointLocal {get;private set;}
+        public float BodyHeight=>height;
+        public float VictoryStrength {get;private set;}
+        public float JumpAmount {get;private set;}
+        public int VictoryCount {get;private set;}
+        private float victoryAge=2;
+        private bool winningBefore;
+        private int victoryRound;
+        private RecoveryForestClient client;
         private SpriteRenderer anchor;
         private float height;
         private Material material;
@@ -56,20 +63,23 @@ namespace CatGunner.Recovery
         }
         private void BuildGrip(SpriteRenderer target)
         {
-            var go=new GameObject("Penguin holding flipper");go.transform.SetParent(transform,false);
-            gripMesh=new Mesh{name="Connected penguin flipper"};gripMesh.MarkDynamic();
-            var colors=new Color[17];var gripUV=new Vector2[17];
-            for(int i=0;i<17;i++){colors[i]=i<8?new Color(.07f,.09f,.14f):new Color(.20f,.23f,.30f);gripUV[i]=Vector2.one*.5f;}
-            var triangles=new int[72];int n=0;
-            for(int i=0;i<8;i++){int j=(i+1)%8;triangles[n++]=i;triangles[n++]=j;triangles[n++]=i+8;triangles[n++]=j;triangles[n++]=j+8;triangles[n++]=i+8;triangles[n++]=16;triangles[n++]=i+8;triangles[n++]=j+8;}
-            gripMesh.vertices=gripVertices;gripMesh.colors=colors;gripMesh.uv=gripUV;gripMesh.triangles=triangles;
-            go.AddComponent<MeshFilter>().sharedMesh=gripMesh;var r=go.AddComponent<MeshRenderer>();r.sortingLayerID=hero.hand_spriteRenderer.sortingLayerID;r.sortingOrder=hero.hand_spriteRenderer.sortingOrder;
-            gripMaterial=new Material(target.sharedMaterial){name="Penguin flipper material"};gripMaterial.mainTexture=Texture2D.whiteTexture;r.sharedMaterial=gripMaterial;
+            client=RecoveryForestClient.Instance;
+            var config=client!=null?client.GetComponent<PenguinActionAssets>():null;
+            if(config!=null&&config.HoldingFlipper!=null)gameObject.AddComponent<PenguinHoldingWing>().Configure(hero,this,target,config.HoldingFlipper);
         }
+        public void Celebrate(){victoryAge=0;victoryRound=client!=null?client.RoundsStarted:0;VictoryCount++;}
         private void LateUpdate()
         {
             if(VisualMesh==null)return;
             float dt=Time.deltaTime;
+            bool winning=client!=null&&client.Mode==0&&client.WinUI!=null&&client.WinUI.activeInHierarchy;
+            if(winning&&!winningBefore)Celebrate();winningBefore=winning;
+            if(client!=null&&client.RoundsStarted!=victoryRound)victoryAge=2;
+            victoryAge+=dt;
+            const float hopDuration=.5f,celebrationDuration=hopDuration*3;
+            VictoryStrength=victoryAge<celebrationDuration?Mathf.SmoothStep(0,1,victoryAge/.10f)*(1-Mathf.SmoothStep(0,1,(victoryAge-(celebrationDuration-.10f))/.10f)):0;
+            float jumpWave=Mathf.Sin(Mathf.Repeat(victoryAge,hopDuration)/hopDuration*Mathf.PI);
+            JumpAmount=VictoryStrength*jumpWave*jumpWave;
             bool walking=hero.anim.GetBool("Walk");
             walkBlend=Mathf.MoveTowards(walkBlend,walking?1:0,dt*7);
             float speed=Mathf.Clamp01(new Vector2(hero.rb.linearVelocity.x,hero.rb.linearVelocity.z).magnitude/Mathf.Max(hero.moveSpeed,.01f));
@@ -82,11 +92,12 @@ namespace CatGunner.Recovery
             float step=Mathf.Sin(walkPhase),stride=walkBlend;
             float sway=step*7.5f*stride;
             float breath=Mathf.Sin(idlePhase)*.012f*(1-stride);
-            float sx=1+breath+RecoilStrength*.025f,sy=1-breath-RecoilStrength*.035f;
+            float landing=VictoryStrength*Mathf.Pow(1-JumpAmount,6)*.045f;
+            float sx=1+breath+RecoilStrength*.025f+landing,sy=1-breath-RecoilStrength*.035f-landing;
             float liftL=Mathf.Max(0,step)*height*.09f*stride,liftR=Mathf.Max(0,-step)*height*.09f*stride;
             var leftOffset=new Vector3(step*height*.013f*stride,liftL,0);var rightOffset=new Vector3(-step*height*.013f*stride,liftR,0);
-            var rootOffset=new Vector3(-step*height*.018f*stride-RecoilStrength*height*.025f,Mathf.Abs(step)*height*.016f*stride,0);
-            float bodyAngle=sway+RecoilStrength*8;
+            var rootOffset=new Vector3(-step*height*.018f*stride-RecoilStrength*height*.025f,Mathf.Abs(step)*height*.016f*stride+JumpAmount*height*.18f,0);
+            float bodyAngle=sway+RecoilStrength*8+VictoryStrength*Mathf.Sin(victoryAge/hopDuration*Mathf.PI*2)*3;
             float faceAngle=Mathf.Clamp(Mathf.DeltaAngle(faceBase,hero.Face_Pivot_trans.localEulerAngles.z),-20,20)*.25f;
             var bodyRotation=Quaternion.Euler(0,0,bodyAngle);var b=anchor.sprite.bounds;
             Vector3 Point(float u,float v)=>new Vector3(Mathf.Lerp(b.min.x,b.max.x,u),Mathf.Lerp(b.min.y,b.max.y,v),0);
@@ -97,29 +108,17 @@ namespace CatGunner.Recovery
             {
                 var p=rest[i];var delta=Vector3.zero;
                 delta+=(lrot*(p-lp)-(p-lp)+leftOffset)*footLeft[i];delta+=(rrot*(p-rp)-(p-rp)+rightOffset)*footRight[i];
-                delta+=(lwrot*(p-lw)-(p-lw))*flipperLeft[i];delta+=(rwrot*(p-rw)-(p-rw))*flipperRight[i];
+                delta+=(rwrot*(p-rw)-(p-rw))*flipperRight[i];
                 delta+=(hrot*(p-neck)-(p-neck))*head[i];
                 p+=delta;p=new Vector3(p.x*sx,p.y*sy,p.z);p=bodyRotation*p+rootOffset;
                 if(anchor.flipX)p.x=-p.x;vertices[i]=p;
             }
             VisualMesh.vertices=vertices;VisualMesh.RecalculateBounds();
-            var shoulder=Point(.22f,.40f);shoulder=bodyRotation*new Vector3(shoulder.x*sx,shoulder.y*sy,0)+rootOffset;
-            if(anchor.flipX)shoulder.x=-shoulder.x;
-            var tip=transform.InverseTransformPoint(hero.hand_spriteRenderer.transform.TransformPoint(hero.hand_spriteRenderer.sprite.bounds.center));tip.z=0;
-            UpdateGrip(shoulder,tip);
+            Vector3 Pose(Vector3 p){p=bodyRotation*new Vector3(p.x*sx,p.y*sy,0)+rootOffset;if(anchor.flipX)p.x=-p.x;return p;}
+            ShoulderLocal=Pose(Point(.22f,.44f));
+            var holding=Point(.41f,.35f);// Keep the same short shoulder-to-grip vector through the hops.
+            HoldingPointLocal=Pose(holding);
         }
-        private void UpdateGrip(Vector3 shoulder,Vector3 tip)
-        {
-            var along=(tip-shoulder).normalized;if(along.sqrMagnitude<.01f)along=Vector3.right;
-            var normal=new Vector3(-along.y,along.x,0);var middle=(shoulder+tip)*.5f+Vector3.up*(height*.014f);
-            for(int ring=0;ring<2;ring++)
-            {
-                float inset=ring*height*.01f,baseWidth=height*.047f-inset,midWidth=height*.039f-inset,tipWidth=height*.028f-inset;int k=ring*8;
-                gripVertices[k]=shoulder+normal*baseWidth;gripVertices[k+1]=middle+normal*midWidth;gripVertices[k+2]=tip+normal*tipWidth;gripVertices[k+3]=tip+along*tipWidth;
-                gripVertices[k+4]=tip-normal*tipWidth;gripVertices[k+5]=middle-normal*midWidth;gripVertices[k+6]=shoulder-normal*baseWidth;gripVertices[k+7]=shoulder-along*baseWidth;
-            }
-            gripVertices[16]=middle;gripMesh.vertices=gripVertices;gripMesh.RecalculateBounds();
-        }
-        private void OnDestroy(){if(VisualMesh!=null)Destroy(VisualMesh);if(gripMesh!=null)Destroy(gripMesh);if(material!=null)Destroy(material);if(gripMaterial!=null)Destroy(gripMaterial);}
+        private void OnDestroy(){if(VisualMesh!=null)Destroy(VisualMesh);if(material!=null)Destroy(material);}
     }
 }

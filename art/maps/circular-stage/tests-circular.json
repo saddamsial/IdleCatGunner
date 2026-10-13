@@ -1,0 +1,48 @@
+{
+  "status": "completed",
+  "duration": 51.15,
+  "summary": {
+    "total": 5,
+    "passed": 5,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "CircularForestMapTests.AllWavesKeepCountsAndIceInsideCircleWithoutBlockingSpawn",
+      "Status": "Passed",
+      "Duration": 10.1680689,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "CircularForestMapTests.AutoTargetSearchIncludesIceFromEveryFormerGrid",
+      "Status": "Passed",
+      "Duration": 10.5773374,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "CircularForestMapTests.CircleUsesSmallerMineFloorAndHidesStripBorders",
+      "Status": "Passed",
+      "Duration": 9.3623537,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "CircularForestMapTests.CircularBoundaryKeepsTeamInsideAndAllowsTangentialMovement",
+      "Status": "Passed",
+      "Duration": 6.7305041,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "CircularForestMapTests.ClearingRoundRestartsCircleAndMineExitRestoresIt",
+      "Status": "Passed",
+      "Duration": 14.2613788,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "method": "Event-score oscillator synthesis with optional supplied stem",
+  "spec": {
+    "sample_rate": 44100,
+    "duration": 0.105,
+    "seed": 13108,
+    "weights": {
+      "wood": 0.35,
+      "toy": 0.6,
+      "water": 0.05
+    },
+    "active_rms": 0.075,
+    "peak_cap": 0.64,
+    "fade_out": 0.034999999999999996,
+    "events": [
+      {
+        "start": 0,
+        "midi": 60,
+        "velocity": 0.7,
+        "decay": 0.032,
+        "pan": 0
+      }
+    ]
+  },
+  "spec_sha256": "a44cbd6571b37c4c6524055031df0cc8547b8e1fa39a4e83628e3d9a36b261ed",
+  "stem": null,
+  "master_gain": 1,
+  "output": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/PenguinAudio/Ice_Shoot.wav",
+  "output_sha256": "3e3298ffef7e16d8a065a707508f440035c6dc057951868847a23ae6d762ffb7",
+  "measurements": {
+    "frames": 4630,
+    "sample_rate": 44100,
+    "channels": 2,
+    "seconds": 0.10498866213151928,
+    "sample_peak_dbfs": -12.367458635005953,
+    "rms_dbfs": -22.802349304688263,
+    "active_rms_dbfs": -21.63175801251049,
+    "dc_mean": [
+      -0.0005142706259280508,
+      -0.0005142706259280508
+    ],
+    "first_active_seconds": 0.0,
+    "last_active_seconds": 0.1,
+    "treble_energy_share_above_4khz": 3.1479303254006924e-08,
+    "power_spectral_centroid_hz": 378.2092311497548,
+    "onset_candidates_seconds": [
+      0.0
+    ],
+    "dominant_peaks": [
+      {
+        "start": 0.0,
+        "dominant_hz": 263.78173828125
+      }
+    ],
+    "rms_envelope_10ms": [
+      0.14778265049614192,
+      0.1305069116681791,
+      0.09009512210566482,
+      0.06188990805960029,
+      0.04339555229596784,
+      0.035620033696970824,
+      0.025047064602835196,
+      0.018564915652072217,
+      0.010388905302722441,
+      0.004171112635938606,
+      0.0009791275496358397
+    ],
+    "limitations": "Heuristic 10ms onset resolution. Dominant spectral peaks are not reliable fundamental pitches. No LUFS/true-peak measurement."
+  }
+}

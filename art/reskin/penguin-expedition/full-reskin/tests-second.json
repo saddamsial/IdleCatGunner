@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 35.85,
+      "summary": {
+        "total": 4,
+        "passed": 3,
+        "failed": 1,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "PenguinFullReskinTests.AllThreePenguinsAnimateSelectedSkinBlinkAndHonorPause",
+          "Status": "Failed",
+          "Duration": 8.6902881,
+          "Message": "System.NullReferenceException : Object reference not set to an instance of an object",
+          "StackTrace": "  at PenguinFullReskinTests+<AllThreePenguinsAnimateSelectedSkinBlinkAndHonorPause>d__7.MoveNext () [0x001db] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/PenguinFullReskinTests.cs:27 \n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44 "
+        },
+        {
+          "FullName": "PenguinFullReskinTests.EveryBossVariantUsesNewBodyAndNativeDeathPaysOnce",
+          "Status": "Passed",
+          "Duration": 11.3468955,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PenguinFullReskinTests.FullCataloguePreservesInputHitboxesStatsAndCanRestore",
+          "Status": "Passed",
+          "Duration": 6.5758951,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PenguinFullReskinTests.NaturalShotsKeepSingleRewardAndHavePolarEffectTextures",
+          "Status": "Passed",
+          "Duration": 9.2006537,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,38 @@
+{
+  "reports": {
+    "tests-raised-platform.json": {
+      "total": 6,
+      "passed": 6,
+      "failed": 0,
+      "skipped": 0,
+      "inconclusive": 0
+    },
+    "tests-snow-footprints.json": {
+      "total": 8,
+      "passed": 8,
+      "failed": 0,
+      "skipped": 0,
+      "inconclusive": 0
+    },
+    "tests-client-flow.json": {
+      "total": 8,
+      "passed": 8,
+      "failed": 0,
+      "skipped": 0,
+      "inconclusive": 0
+    }
+  },
+  "preview": {
+    "frames": 44,
+    "maxHeroRadius": 98.0,
+    "gif": "smooth-camera.gif"
+  },
+  "sourceSha256": {
+    "Assets/Recovery/Scripts/CircularArenaCamera.cs": "87dec860342d2330e54016c9a213a9bd063c4e454e5ab68bf1482266a870bfe9",
+    "Assets/Recovery/Scripts/CircularForestMap.cs": "31f84e248fca99ac841b821f9f9cae68b1d8b01bda3f67a5ef22fed7860b519b",
+    "Assets/Recovery/Scripts/CircularSnowTerrain.cs": "36a92e38f5681acb22b532a771bae8cac3e343145cbf3ae76c26d8341a3d2f21",
+    "Assets/Recovery/CircularSnow.shader": "634566f3ca8ec44941bcb35ce099de61c09474260f7ec698ad18f0006e8dee40",
+    "Assets/Recovery/CircularSnow.mat": "d7449f68a6f66eecdda5caaf0e8ad49bb470d5d39bab00011b8572c0d01ea24b",
+    "Assets/Recovery/GreyLowerSnow.mat": "4f1fb419a95ae163bb2801a228734293a0a983f6d4a0f5d2ede7a69e245e9676"
+  }
+}

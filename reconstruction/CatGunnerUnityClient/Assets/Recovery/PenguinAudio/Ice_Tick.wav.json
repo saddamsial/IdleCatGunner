@@ -1,0 +1,70 @@
+{
+  "method": "Event-score oscillator synthesis with optional supplied stem",
+  "spec": {
+    "sample_rate": 44100,
+    "duration": 0.11,
+    "seed": 13114,
+    "weights": {
+      "water": 0.6,
+      "toy": 0.25,
+      "magic": 0.15
+    },
+    "active_rms": 0.105,
+    "peak_cap": 0.64,
+    "fade_out": 0.03666666666666667,
+    "events": [
+      {
+        "start": 0,
+        "midi": 86,
+        "velocity": 0.5,
+        "decay": 0.045,
+        "pan": 0
+      }
+    ]
+  },
+  "spec_sha256": "3607604c05d6951f2fbf261abbbfdf5345de63afb638cb862e2c83139ae9dca9",
+  "stem": null,
+  "master_gain": 1,
+  "output": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/PenguinAudio/Ice_Tick.wav",
+  "output_sha256": "43755b9748e2118ade846583a50e5f9a8fcca172a3f82ac461163e7d85902c78",
+  "measurements": {
+    "frames": 4851,
+    "sample_rate": 44100,
+    "channels": 2,
+    "seconds": 0.11,
+    "sample_peak_dbfs": -7.88239874047255,
+    "rms_dbfs": -19.725840278563687,
+    "active_rms_dbfs": -19.31276759522914,
+    "dc_mean": [
+      -8.719308035714285e-06,
+      -8.719308035714285e-06
+    ],
+    "first_active_seconds": 0.0,
+    "last_active_seconds": 0.11,
+    "treble_energy_share_above_4khz": 0.0004974770623422801,
+    "power_spectral_centroid_hz": 1231.224030997467,
+    "onset_candidates_seconds": [
+      0.0
+    ],
+    "dominant_peaks": [
+      {
+        "start": 0.0,
+        "dominant_hz": 1173.5595703125
+      }
+    ],
+    "rms_envelope_10ms": [
+      0.17499011106746876,
+      0.19297757219170036,
+      0.10454333829276667,
+      0.09645324731167845,
+      0.10480643922353039,
+      0.09105676990555049,
+      0.0731078737047557,
+      0.05584370486896001,
+      0.03255394599412151,
+      0.01586426474206234,
+      0.004800235348832191
+    ],
+    "limitations": "Heuristic 10ms onset resolution. Dominant spectral peaks are not reliable fundamental pitches. No LUFS/true-peak measurement."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 34.28,
+      "summary": {
+        "total": 4,
+        "passed": 3,
+        "failed": 1,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "PenguinFullReskinTests.AllThreePenguinsAnimateSelectedSkinBlinkAndHonorPause",
+          "Status": "Failed",
+          "Duration": 7.7503877,
+          "Message": "  Expected: greater than 0.00999999978f\n  But was:  0.00129728683f\n",
+          "StackTrace": "at PenguinFullReskinTests+<AllThreePenguinsAnimateSelectedSkinBlinkAndHonorPause>d__7.MoveNext () [0x00296] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/PenguinFullReskinTests.cs:30\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "PenguinFullReskinTests.EveryBossVariantUsesNewBodyAndNativeDeathPaysOnce",
+          "Status": "Passed",
+          "Duration": 11.3933091,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PenguinFullReskinTests.FullCataloguePreservesInputHitboxesStatsAndCanRestore",
+          "Status": "Passed",
+          "Duration": 6.9070757,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PenguinFullReskinTests.NaturalShotsKeepSingleRewardAndHavePolarEffectTextures",
+          "Status": "Passed",
+          "Duration": 8.1599713,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

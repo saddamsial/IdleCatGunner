@@ -1,0 +1,37 @@
+[
+  {
+    "key": "actions-body",
+    "source": "/Users/rongdahuikeji/.codex/generated_images/01a12fe5-78ac-7913-9f0f-dff578ccb965/exec-592393c8-11a9-4c56-80a8-cf59a23ed400.png",
+    "prompt": "Edit/derive a production body-layer sprite for the existing penguin character. Image1 is the exact character identity, pose, silhouette proportions, white face/belly, orange beak/feet reference. Image2 is style reference only: thick charcoal navy hand-drawn outlines and simple flat color patches. Make ONE full-body penguin, same three-quarter pose facing RIGHT, same two eyes and beak position, same foot spacing and body proportions as image1, no clothes/accessories. CRITICAL remove the foreground flipper on the LEFT side of the image: the oval gray flipper across the penguin's left-front torso must be absent, with that area filled by clean continuous charcoal torso plumage. Do not draw a seam, shoulder, stub, finger, forearm or wing in that left-front torso area; a separate animated flipper will be composited there in the game. Preserve the narrow background flipper at RIGHT. Keep the outer body contour smooth and matching the original body so feet/head UV alignment remains compatible. Large flat charcoal regions and white belly, minimal flat shadow, no shiny gradient. Full character centered, all feet visible, transparent alpha, no gun, scarf or backdrop."
+  },
+  {
+    "key": "actions-flipper",
+    "source": "/Users/rongdahuikeji/.codex/generated_images/01a12fe5-78ac-7913-9f0f-dff578ccb965/exec-98a6f8ef-060a-42a1-bd0f-a83840603832.png",
+    "prompt": "Generate ONE separate foreground penguin flipper sprite for compositing over a body and pistol. Style/color reference is attached penguin body: charcoal-gray plumage, dark navy outline, small flat muted-gray shading patch. Shape: a SHORT thick gently curved rounded teardrop wing, narrow rounded shoulder attachment at UPPER LEFT, a broad soft round tip curving toward LOWER RIGHT. Looks like a natural penguin wing folded forward to grasp a pistol. NO long thin arm, straight rod, human fingers, glove or black circular hand blob. Entire flipper is compact, about 1.3 width to 1 height, smooth short rounded silhouette, hand-drawn cartoon consistent with reference. One isolated wing only, no body/gun/accessory/scarf. True transparent alpha with clean edges, no shadow on backdrop."
+  },
+  {
+    "key": "actions-skins-a-bodyonly",
+    "source": "/Users/rongdahuikeji/.codex/generated_images/01a12fe5-78ac-7913-9f0f-dff578ccb965/exec-fa63868b-62da-4f05-b36a-bf6ebc2e5f9e.png",
+    "prompt": "Edit ONLY the attached 12-skin atlas to prepare animation BODY LAYERS. Preserve all 12 outfits, facial expressions, colors, heads, hats, feet, scale, positions, exact 4x3 grid and transparent background. For EVERY penguin, REMOVE the entire FOREGROUND wing/arm/sleeve that appears at the LEFT side of its torso. This includes the obvious oval dark flipper on the sailor, explorer, ski vest, miner, crown, diver, and coat skins. Fill removed regions with continuous torso/clothing that follows that skin's vest/apron/coat design. No oval arm contour, seam around an arm, shoulder stub, arm sleeve or attached hand should remain on the left-front torso. The LEFT body edge should be one uninterrupted smooth body/costume contour connecting shoulder to hip, rather than a bulging arm shape. These images are head+torso+feet body layers; the holding wing is a DIFFERENT image composited later. Keep the small BACKGROUND wing on RIGHT only. Do not change facial expressions, costumes, layout or add any objects. True alpha transparent background."
+  },
+  {
+    "key": "actions-skins-b-bodyonly",
+    "source": "/Users/rongdahuikeji/.codex/generated_images/01a12fe5-78ac-7913-9f0f-dff578ccb965/exec-a14a1c92-c7da-4958-bec8-ebd57a689b93.png",
+    "prompt": "Edit this attached 12-skin penguin atlas into animation BODY LAYERS. Preserve all 12 outfits, expressions, accessories, head/face/feet, positions, size, EXACT 4x3 grid and transparency. Remove EVERY LEFT FRONT arm/flipper/sleeve from EVERY penguin: the large oval arm in backpack and life vest, astronaut arm/suit joint, chef oval flipper, mechanic sleeve/hand, crystal shoulder arm, fisherman oval flipper, pilot sleeve, winter-coat sleeve, royal-cape flipper, and halo flipper. Replace each removed appendage with uninterrupted torso/clothing matching that outfit. No arm contour, joint circle, shoulder stub or arm sleeve on the left-front torso. Reconnect the left edge as a smooth single shoulder-to-hip BODY contour. These are head+torso+feet layers; a separate short holding wing is composited later, so duplicating a wing ruins the animation. Keep small BACKGROUND wing on RIGHT only. Keep costume designs and different facial expressions exactly. Do not add guns, scenery, labels or scarves. True transparent alpha."
+  },
+  {
+    "key": "actions-skins-a-final",
+    "source": "/Users/rongdahuikeji/.codex/generated_images/01a12fe5-78ac-7913-9f0f-dff578ccb965/exec-eee0cac3-b568-4607-9fd5-70b6fd881d92.png",
+    "prompt": "Remove ALL arms and flippers from ALL twelve penguins. Output WINGLESS head + torso + feet body cutouts for animation, not complete armed birds. Remove any oval flipper, blue sleeve, diver flipper, hood-coat arm, miner arm and all side arms on BOTH sides. Fill these areas with continuous torso clothing matching the costume. Each body's left and right edge must be smooth shoulder-to-hip contour, with NO oval arm contour, protruding hand, shoulder stump or arm sleeve. Preserve all faces and varied expressions, hats, costume designs, feet, scale, pose and exact 4x3 grid positions. Keep transparent alpha background. A separate wing is animated by the game later; arms drawn here cause duplicate hands. No new objects."
+  },
+  {
+    "key": "actions-skins-b-final",
+    "source": "/Users/rongdahuikeji/.codex/generated_images/01a12fe5-78ac-7913-9f0f-dff578ccb965/exec-d3d29fa9-c8ad-485e-a379-37da067621f1.png",
+    "prompt": "Remove ALL arms and flippers from ALL twelve penguins in this atlas. These must be WINGLESS head + torso + feet paper-doll body layers. Delete every oval flipper, sleeve, astronaut arm, mechanic arm, pilot sleeve, diver wing and any visible arm on either side; fill with continuous torso clothing. The body outline on both sides must run smoothly from shoulder to hip, with NO attached arm or oval arm contour. Keep ALL twelve faces, their different expressions, costumes, hats, accessories, feet, poses, sizes, exact 4x3 grid positions and alpha background unchanged. A separate arm sprite is added by the game later; any arm drawn here duplicates it. No new objects."
+  },
+  {
+    "key": "actions-flipper-plump",
+    "source": "/Users/rongdahuikeji/.codex/generated_images/01a12fe5-78ac-7913-9f0f-dff578ccb965/exec-b6d49e5e-a914-4df1-a2d8-f77882550279.png",
+    "prompt": "Preserve charcoal feather palette and thick outline; make a much plumper, shorter rounded oval flipper, upper-left rounded shoulder and broad lower-right grip, transparent alpha, no fingers or objects."
+  }
+]

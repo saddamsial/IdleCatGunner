@@ -1,0 +1,69 @@
+{
+  "status": "completed",
+  "duration": 74.58,
+  "summary": {
+    "total": 8,
+    "passed": 8,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "CircularForestMapTests.AllWavesKeepCountsAndIceInsideCircleWithoutBlockingSpawn",
+      "Status": "Passed",
+      "Duration": 9.7772425,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "CircularForestMapTests.AutoTargetSearchIncludesIceFromEveryFormerGrid",
+      "Status": "Passed",
+      "Duration": 6.9275812,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "CircularForestMapTests.CircleUsesSmallerMineFloorAndHidesStripBorders",
+      "Status": "Passed",
+      "Duration": 6.9914792,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "CircularForestMapTests.CircularBoundaryKeepsTeamInsideAndAllowsTangentialMovement",
+      "Status": "Passed",
+      "Duration": 7.2702316,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "CircularForestMapTests.ClearingRoundRestartsCircleAndMineExitRestoresIt",
+      "Status": "Passed",
+      "Duration": 13.675008,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "CircularForestMapTests.SnowFloorAndOriginalWallStyleSurroundEntireSmallerCircle",
+      "Status": "Passed",
+      "Duration": 7.7873176,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "CircularForestMapTests.WalkingLeavesAlternatingPrintsThatPauseFadeAndDisappear",
+      "Status": "Passed",
+      "Duration": 14.4292295,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "CircularForestMapTests.WarpsAndRestartsDoNotLeaveLongTrailsOrPreviousRoundPrints",
+      "Status": "Passed",
+      "Duration": 7.6632545,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

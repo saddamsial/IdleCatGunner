@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // Native control flow and original serialized catalogue, vc257.
-// Audio assets are decoded from the original .resource stream, never substitutes.
+// Recovery scenes retain the original catalogue. RecoveredClient uses the
+// user-requested PenguinAudio replacements via the Editor installer.
 public sealed class Sound_manager : MonoBehaviour
 {
     public static Sound_manager instance { get; private set; }
@@ -16,6 +17,11 @@ public sealed class Sound_manager : MonoBehaviour
     private readonly Dictionary<SfxType,int> lastPlayedFrame = new Dictionary<SfxType,int>();
     private readonly Dictionary<SfxType,float> lastPlayedTime = new Dictionary<SfxType,float>();
     public AudioClip BGM_main, BGM_contents;
+    private int lastActionSoundFrame = -1;
+    private int pendingClickFrame = -1;
+    private SfxType pendingClickSound;
+    public int PlayedSfxCount { get; private set; }
+    public SfxType LastPlayedSfx { get; private set; }
 
     private void Awake()
     {
@@ -60,6 +66,26 @@ public sealed class Sound_manager : MonoBehaviour
         sfxSource.pitch = pitch;
         sfxSource.PlayOneShot(entry.clip,volume);
         sfxSource.pitch = previousPitch;
+        PlayedSfxCount++;
+        LastPlayedSfx = id;
+        if (id != SfxType.Shoot && id != SfxType.Tick && id != SfxType.Pop && id != SfxType.Spawn)
+            lastActionSoundFrame = Time.frameCount;
+    }
+
+    // Business callbacks may already play purchase/rejection/selection sounds.
+    // They take precedence over the generic click in that same dispatch frame.
+    public void PlayButtonFeedback(SfxType id)
+    {
+        pendingClickFrame = Time.frameCount;
+        pendingClickSound = id;
+    }
+
+    private void LateUpdate()
+    {
+        if (pendingClickFrame < 0) return;
+        int frame = pendingClickFrame;
+        pendingClickFrame = -1;
+        if (lastActionSoundFrame < frame) PlaySfx(pendingClickSound);
     }
 
     public void BGM_Change_Main()

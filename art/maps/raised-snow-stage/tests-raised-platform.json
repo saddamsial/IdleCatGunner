@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "duration": 59.57,
+  "summary": {
+    "total": 6,
+    "passed": 6,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "RaisedSnowArenaTests.CameraStopsBeforePenguinReachesAirWallAndBodyStaysVisible",
+      "Status": "Passed",
+      "Duration": 11.3209188,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "RaisedSnowArenaTests.FollowingHasGentleLagAndSettlesAfterMovementStops",
+      "Status": "Passed",
+      "Duration": 9.9056301,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "RaisedSnowArenaTests.HoldingJoystickAgainstEdgeDoesNotStepOutsidePlatform",
+      "Status": "Passed",
+      "Duration": 8.8156204,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "RaisedSnowArenaTests.MineUsesOriginalFollowAndReturningClearsCameraOffset",
+      "Status": "Passed",
+      "Duration": 11.7365045,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "RaisedSnowArenaTests.SnowTextureFormsUpperPlatformAboveGreyLowerFloor",
+      "Status": "Passed",
+      "Duration": 8.338318,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "RaisedSnowArenaTests.WholePenguinRemainsVisibleAtEveryEdgeAcrossScreenShapes",
+      "Status": "Passed",
+      "Duration": 9.36537,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

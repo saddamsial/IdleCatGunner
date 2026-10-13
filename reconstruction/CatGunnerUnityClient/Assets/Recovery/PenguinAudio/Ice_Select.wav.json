@@ -1,0 +1,92 @@
+{
+  "method": "Event-score oscillator synthesis with optional supplied stem",
+  "spec": {
+    "sample_rate": 44100,
+    "duration": 0.21,
+    "seed": 13109,
+    "weights": {
+      "water": 0.6,
+      "toy": 0.25,
+      "magic": 0.15
+    },
+    "active_rms": 0.105,
+    "peak_cap": 0.64,
+    "fade_out": 0.06,
+    "events": [
+      {
+        "start": 0,
+        "midi": 76,
+        "velocity": 0.65,
+        "decay": 0.09,
+        "pan": 0
+      },
+      {
+        "start": 0.055,
+        "midi": 81,
+        "velocity": 0.45,
+        "decay": 0.08,
+        "pan": 0
+      }
+    ]
+  },
+  "spec_sha256": "b46f8aa066cafd3b56dfd8ac8f6639236c0be9ddf45bda5b7a9f873d75d817ae",
+  "stem": null,
+  "master_gain": 1,
+  "output": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/PenguinAudio/Ice_Select.wav",
+  "output_sha256": "a47bc3db8fd5cb1a5289d8f31c8d8a9ac8effb7c6ee7b1e71b31b69d54c01299",
+  "measurements": {
+    "frames": 9261,
+    "sample_rate": 44100,
+    "channels": 2,
+    "seconds": 0.21,
+    "sample_peak_dbfs": -8.087783057797944,
+    "rms_dbfs": -19.694602270797304,
+    "active_rms_dbfs": -19.031811727108074,
+    "dc_mean": [
+      -5.862301207685455e-06,
+      -5.862301207685455e-06
+    ],
+    "first_active_seconds": 0.0,
+    "last_active_seconds": 0.21,
+    "treble_energy_share_above_4khz": 5.882400618011296e-05,
+    "power_spectral_centroid_hz": 855.9325929744965,
+    "onset_candidates_seconds": [
+      0.0,
+      0.06
+    ],
+    "dominant_peaks": [
+      {
+        "start": 0.0,
+        "dominant_hz": 678.2958984375
+      },
+      {
+        "start": 0.06,
+        "dominant_hz": 888.24462890625
+      }
+    ],
+    "rms_envelope_10ms": [
+      0.1265391973173488,
+      0.23863919811031306,
+      0.12044033976458167,
+      0.06278841649702814,
+      0.07612808021151077,
+      0.08567428142380834,
+      0.16354048916942895,
+      0.11738687006093527,
+      0.14698983241220556,
+      0.13505303406720326,
+      0.11468978030417794,
+      0.08950536075121282,
+      0.07647173233369621,
+      0.07055934753282608,
+      0.06246077381492719,
+      0.04915376937647207,
+      0.03376286234765251,
+      0.02426362770504347,
+      0.016317242744724885,
+      0.008560987568472476,
+      0.002567462398938307
+    ],
+    "limitations": "Heuristic 10ms onset resolution. Dominant spectral peaks are not reliable fundamental pitches. No LUFS/true-peak measurement."
+  }
+}

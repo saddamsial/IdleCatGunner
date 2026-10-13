@@ -70,7 +70,7 @@ public sealed class PenguinUiTheme : MonoBehaviour
             }
         }
         var skin = canvas.GetComponentInChildren<Skin_manager>(true);
-        if (skin != null) foreach (var sprite in skin.Skin_sprites) if (sprite != null) replacements[sprite] = Penguin;
+        if (skin != null && GetComponent<PenguinFullReskin>()?.enabled != true) foreach (var sprite in skin.Skin_sprites) if (sprite != null) replacements[sprite] = Penguin;
         foreach (var image in images)
         {
             var oldSprite = image.sprite; var oldColor = image.color; var oldType = image.type;
@@ -94,7 +94,7 @@ public sealed class PenguinUiTheme : MonoBehaviour
         {
             var texture = graphic.texture; var color = graphic.color;
             restore.Add(() => { if (graphic != null) { graphic.texture = texture; graphic.color = color; } });
-            if (texture != null && (texture.name == "Cat_Foot" || texture.name == "Field")) graphic.texture = SnowPattern;
+            if (texture != null && !(texture is RenderTexture) && (texture.name == "Cat_Foot" || texture.name == "Field")) graphic.texture = SnowPattern;
             else if (texture != null && (texture.name == "Hatch" || texture.name == "Pattern")) graphic.texture = IceStripe;
             graphic.color = Palette(color);
         }
@@ -141,6 +141,11 @@ public sealed class PenguinUiTheme : MonoBehaviour
             bool buff = client.ReadyForPlay && client.BuffMultiplier(Upgrade_Ingame.ToBuffType(upgrade.type)) > 1;
             upgrade.Fill.color = upgrade.Fill_Colors[buff ? 1 : 0]; upgrade.Panel_img.color = upgrade.Panel_Colors[buff ? 1 : 0];
         }
+        foreach(var hand in new[]{client.Tutorial.CatHand_Upgrade,client.Tutorial.CatHand_GunOpen,client.Tutorial.CatHand_GunBuy})
+        {
+            if(hand==null)continue;var image=hand.GetComponentInChildren<Image>(true);if(image==null)continue;
+            var pointer=image.gameObject.AddComponent<PenguinGuidePointer>();pointer.Configure(image,Flipper,canvas);restore.Add(()=>{if(pointer!=null)Destroy(pointer);});
+        }
         client.Slider.Hole_Color = new Color[] { new Color32(143, 194, 215, 255), Orange, Blue };
         applied = true;
         Canvas.willRenderCanvases += MaintainDynamicSprites;
@@ -152,7 +157,7 @@ public sealed class PenguinUiTheme : MonoBehaviour
     {
         if (s == null) return false; string n = s.name;
         return n.StartsWith("ui ") || n.StartsWith("u i ") || n.StartsWith("Panel_") || n.StartsWith("Relic_Panel") ||
-            n.StartsWith("Title_Ribbon") || n.StartsWith("StageFrame_") || n == "Frame_TableFrame01_Line";
+            n.StartsWith("Title_Ribbon") || n.StartsWith("StageFrame_") || n == "Frame_TableFrame01_Line" || n.Contains("flat-ui-panel") || n.Contains("flat-ui-fill") || n.Contains("flat-ui-outline");
     }
     private void StyleImage(Image image, string path)
     {
@@ -160,9 +165,10 @@ public sealed class PenguinUiTheme : MonoBehaviour
         if (IsPanel(sprite))
         {
             bool outline = Array.IndexOf(OriginalOutlineSprites, sprite) >= 0 || image.name.ToLowerInvariant().Contains("outline") || n.ToLowerInvariant().Contains("outline") || n.Contains("Ourline") || n.Contains("Frame01_Line");
-            bool fill = n.Contains("Fill") || n.Contains("White") || image.name.Contains("Purchased") || image.name.Contains("Locked");
+            bool fill = n.Contains("Fill") || n.Contains("flat-ui-fill") || n.Contains("White") || image.name.Contains("Purchased") || image.name.Contains("Locked");
             image.sprite = outline ? Outline : fill ? Fill : Panel;
             image.type = Image.Type.Sliced;
+            image.preserveAspect = false;
             image.color = outline ? Color.white : Palette(image.color);
             if (!outline && !fill && image.color.a > .9f && IsNearWhite(image.color)) image.color = Ice;
             if (image.GetComponent<Button>() != null && !image.name.ToLowerInvariant().Contains("close"))
@@ -196,12 +202,13 @@ public sealed class PenguinUiTheme : MonoBehaviour
         {
             if (image == null || !image.isActiveAndEnabled || image.sprite == null) continue;
             if (replacements.TryGetValue(image.sprite, out var replacement)) { image.sprite = replacement; image.preserveAspect = true; }
-            else if (IsPanel(image.sprite)) StyleImage(image, "");
+            else if (IsPanel(image.sprite) && image.sprite != Panel && image.sprite != Fill && image.sprite != Outline) StyleImage(image, "");
         }
         foreach (var text in texts)
         {
-            if (text == null || !text.isActiveAndEnabled) continue;
+            if (text == null) continue;
             ThemeWording(text);
+            if (!text.isActiveAndEnabled) continue;
             var original = text.fontSharedMaterial;
             if (original == null || materials.Contains(original)) continue;
             // Locale changes replace font materials through the original text adapter.
@@ -229,7 +236,7 @@ public sealed class PenguinUiTheme : MonoBehaviour
         // targets and counters remain untouched in their owning controllers.
         string value = source.Replace("树木", "冰块").Replace("棵树", "块冰块").Replace("樹木", "冰塊").Replace("棵樹", "塊冰塊")
             .Replace("小猫", "企鹅").Replace("猫咪", "企鹅").Replace("小貓", "企鵝").Replace("貓咪", "企鵝")
-            .Replace("나무", "얼음").Replace("고양이", "펭귄");
+            .Replace("나무", "얼음").Replace("고양이", "펭귄").Replace("새로운 총 획득!", "获得新武器！");
         if (value != source && (source.Contains("树") || source.Contains("樹"))) value = value.Replace("破坏", "清除").Replace("破壞", "清除");
         if (value == source && (source.IndexOf("tree", StringComparison.OrdinalIgnoreCase) >= 0 || source.IndexOf("cat", StringComparison.OrdinalIgnoreCase) >= 0))
             value = Regex.Replace(Regex.Replace(source, @"\btrees?\b", "ice blocks", RegexOptions.IgnoreCase), @"\bcats?\b", "penguins", RegexOptions.IgnoreCase);

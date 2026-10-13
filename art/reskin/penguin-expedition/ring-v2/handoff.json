@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var c=UnityEngine.Object.FindAnyObjectByType<CatGunner.Recovery.RecoveryForestClient>(UnityEngine.FindObjectsInactive.Include);var t=c.GetComponent<CatGunner.Recovery.PenguinFullReskin>();return new{scene=c.gameObject.scene.path,playing=UnityEditor.EditorApplication.isPlaying,c.Persist,c.SaveFolderOverride,host=UnityEditor.SessionState.GetString(\"CatGunner.Recovery.TestHostFolder\",\"\"),enabled=t.enabled,ringShader=t.RingShader.name,shaderError=UnityEditor.ShaderUtil.ShaderHasError(t.RingShader),dirty=c.gameObject.scene.isDirty};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "scene": "Assets/Recovery/Scenes/RecoveredClient.unity",
+        "playing": false,
+        "Persist": true,
+        "SaveFolderOverride": null,
+        "host": "",
+        "enabled": true,
+        "ringShader": "Recovery/PenguinPolarRing",
+        "shaderError": false,
+        "dirty": false
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

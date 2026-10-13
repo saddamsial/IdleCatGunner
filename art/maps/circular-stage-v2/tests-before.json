@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "duration": 8.14,
+  "summary": {
+    "total": 1,
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "CircularForestMapTests.SnowFloorAndOriginalWallStyleSurroundEntireSmallerCircle",
+      "Status": "Failed",
+      "Duration": 8.1127918,
+      "Message": "  Expected: 100\n  But was:  120.0f\n",
+      "StackTrace": "at CircularForestMapTests+<SnowFloorAndOriginalWallStyleSurroundEntireSmallerCircle>d__13.MoveNext () [0x0002c] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/CircularForestMapTests.cs:128\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    }
+  ]
+}

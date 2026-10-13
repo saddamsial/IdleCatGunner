@@ -1,0 +1,36 @@
+{
+  "sample_rate": 44100,
+  "duration": 0.6,
+  "seed": 13107,
+  "weights": {
+    "water": 0.6,
+    "toy": 0.25,
+    "magic": 0.15
+  },
+  "active_rms": 0.105,
+  "peak_cap": 0.64,
+  "fade_out": 0.06,
+  "events": [
+    {
+      "start": 0,
+      "midi": 79,
+      "velocity": 0.5,
+      "decay": 0.13,
+      "pan": 0
+    },
+    {
+      "start": 0.11,
+      "midi": 76,
+      "velocity": 0.55,
+      "decay": 0.12,
+      "pan": 0
+    },
+    {
+      "start": 0.23,
+      "midi": 84,
+      "velocity": 0.7,
+      "decay": 0.24,
+      "pan": 0
+    }
+  ]
+}

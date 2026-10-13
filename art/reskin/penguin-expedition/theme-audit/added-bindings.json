@@ -1,0 +1,1279 @@
+{
+  "sprites": [
+    {
+      "source": "Assets/Sprite/Gradiann_1.asset",
+      "name": "Gradiann_1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_0ad09b6d1983862409062cdbdf3876f8_extras-gradient-reward.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.05, 0.64, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.05, 0.64, 0.10)",
+      "stretch": true
+    },
+    {
+      "source": "Assets/Sprite/Gradiann_2.asset",
+      "name": "Gradiann_2",
+      "target": "Assets/Recovery/PenguinExtras/Fit_50e55dd575b24b5458fe19b5ffc75b1e_extras-gradient-map-title.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.64, 0.05, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.64, 0.05, 0.10)",
+      "stretch": true
+    },
+    {
+      "source": "Assets/Sprite/Gradiann_3.asset",
+      "name": "Gradiann_3",
+      "target": "Assets/Recovery/PenguinExtras/Fit_4404e86ac51a4244f8f3efc889ab3b98_extras-gradient-prism.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.64, 0.05, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.64, 0.05, 0.10)",
+      "stretch": true
+    },
+    {
+      "source": "Assets/Sprite/Gradiann_4.asset",
+      "name": "Gradiann_4",
+      "target": "Assets/Recovery/PenguinExtras/Fit_fe026808107e38b4994faf362bcac134_extras-gradient-pet-slot.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.64, 0.05, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.64, 0.05, 0.10)",
+      "stretch": true
+    },
+    {
+      "source": "Assets/Sprite/쿠팡.asset",
+      "name": "쿠팡",
+      "target": "Assets/Recovery/PenguinExtras/Fit_742e7e1b5c681924c81f91fbd27150cc_portrait.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.47, 0.46, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.47, 0.46, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/google-play (2).asset",
+      "name": "google-play (2)",
+      "target": "Assets/Recovery/PenguinExtras/Fit_88a04a59196ac4c4e993ca21687d440d_extras-cloud-save.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.77, 0.81, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.77, 0.81, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/icon_icloud.asset",
+      "name": "icon_icloud",
+      "target": "Assets/Recovery/PenguinExtras/Fit_d218d886b4fe2f04b9daf56ab0e490de_extras-cloud-save.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.79, 0.60, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.79, 0.60, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/1_1.asset",
+      "name": "1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_2de9287c536fcbd4d949c62d5bbb1c96_SnowGround.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (5.12, 5.12, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (5.12, 5.12, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/0_6.asset",
+      "name": "0",
+      "target": "Assets/Recovery/PenguinExtras/Fit_99afd0923eb40d94481c3c0ebfd47f44_SnowGround.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (5.12, 5.12, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (5.12, 5.12, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Grass-8.asset",
+      "name": "Grass-8",
+      "target": "Assets/Recovery/PenguinExtras/Fit_9d7b7d7f137fbed4baced5a83e53bcd5_SnowGround.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (5.12, 5.12, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (5.12, 5.12, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Square.asset",
+      "name": "Square",
+      "target": "Assets/Recovery/PenguinExtras/Fit_2cbdb974c10608240a4081bda6e171f7_extras-map-base.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.50, 0.50, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.50, 0.50, 0.10)",
+      "stretch": true
+    },
+    {
+      "source": "Assets/Sprite/Circle.asset",
+      "name": "Circle",
+      "target": "Assets/Recovery/PenguinExtras/Fit_f86102348a8cb504d80a84221464173a_extras-shadow.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.50, 0.50, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.50, 0.50, 0.10)",
+      "stretch": true
+    },
+    {
+      "source": "Assets/Sprite/target.asset",
+      "name": "target",
+      "target": "Assets/Recovery/PenguinExtras/Fit_9641abd451be4cb448a5c463549b5f8a_extras-aim-marker.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.73, 0.73, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.73, 0.73, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Slider (Black).asset",
+      "name": "Slider (Black)",
+      "target": "Assets/Recovery/PenguinExtras/Fit_00bdc9d6ebed0a546a3a1e4c9f55d224_extras-health-frame.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.59, 0.36, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.59, 0.36, 0.10)",
+      "stretch": true
+    },
+    {
+      "source": "Assets/Sprite/Slider (Fill).asset",
+      "name": "Slider (Fill)",
+      "target": "Assets/Recovery/PenguinExtras/Fit_05eed017b8bddc1438c814fab604e7ac_extras-health-fill.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.44, 0.21, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.44, 0.21, 0.10)",
+      "stretch": true
+    },
+    {
+      "source": "Assets/Sprite/Hand.asset",
+      "name": "hand",
+      "target": "Assets/Recovery/PenguinExtras/Fit_25d1ab3306efb1e438827b9a410132f8_extras-guide-hand.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (1.04, 0.87, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (1.04, 0.87, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Currency 2_1_0.asset",
+      "name": "Currency 2_1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_983eee99d849af44780dc2a7e5d69ae0_extras-attack-power.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.79, 0.76, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.79, 0.76, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Currency 2_1.asset",
+      "name": "Currency 2_1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_a5c7a45d43b9db94e95ec43a03e15039_extras-attack-power.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.90, 0.88, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.01, 0.00), Extents: (0.90, 0.89, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Relic_Dmg_0.asset",
+      "name": "Relic_Dmg_0",
+      "target": "Assets/Recovery/PenguinExtras/Fit_abb2c3f5f32298a4bb703b8b9abdba81_extras-attack-power.asset",
+      "bounds": "Center: (-0.01, 0.00, 0.00), Extents: (0.61, 0.62, 0.10)",
+      "replacementBounds": "Center: (-0.01, 0.00, 0.00), Extents: (0.61, 0.62, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Relic_Dmg_1.asset",
+      "name": "Relic_Dmg_1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_221ba11b94f7b8f448dbe5a2e652eed0_extras-attack-power.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.61, 0.62, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.61, 0.62, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Relic_Dmg_2.asset",
+      "name": "Relic_Dmg_2",
+      "target": "Assets/Recovery/PenguinExtras/Fit_706468f198cac94419cba3639afa3308_extras-attack-power.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.61, 0.62, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.61, 0.62, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Currency 2_2_0.asset",
+      "name": "Currency 2_2",
+      "target": "Assets/Recovery/PenguinExtras/Fit_ab889d3cb6547714083176d2ce4c334d_extras-attack-speed.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.78, 0.76, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.01, 0.00), Extents: (0.78, 0.76, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Currency 2_2.asset",
+      "name": "Currency 2_2",
+      "target": "Assets/Recovery/PenguinExtras/Fit_289427bdb8c80ef4080efe582153f983_extras-attack-speed.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.90, 0.88, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.01, 0.00), Extents: (0.90, 0.88, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Icon_Speed.asset",
+      "name": "Icon_Speed",
+      "target": "Assets/Recovery/PenguinExtras/Fit_9f1ef83779c72984abbe4d468fe2a949_extras-attack-speed.asset",
+      "bounds": "Center: (0.01, 0.00, 0.00), Extents: (0.43, 0.44, 0.10)",
+      "replacementBounds": "Center: (0.01, 0.00, 0.00), Extents: (0.43, 0.44, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Currency_SlotGem (thin).asset",
+      "name": "Currency_SlotGem (thin)",
+      "target": "Assets/Recovery/PenguinExtras/Fit_22088cfc9af9fe54597a30283c727210_extras-blue-ticket.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.71, 0.71, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.71, 0.71, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Currency_SlotGem.asset",
+      "name": "Currency_SlotGem",
+      "target": "Assets/Recovery/PenguinExtras/Fit_bd76009b12dd78b4fb3f4676d3ce29a2_extras-blue-ticket.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.74, 0.74, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.74, 0.74, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/UI_Shop_Ticket_03_Green 1.asset",
+      "name": "UI_Shop_Ticket_03_Green 1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_564021624d4901044b42c009ae35bb73_extras-blue-ticket.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (1.22, 1.11, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (1.22, 1.11, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/UI_Shop_Ticket_03_Green.asset",
+      "name": "UI_Shop_Ticket_03_Green",
+      "target": "Assets/Recovery/PenguinExtras/Fit_d5c1d10fb08b00f4884d17571408daa5_extras-blue-ticket.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.64, 0.59, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.64, 0.59, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/0.asset",
+      "name": "0",
+      "target": "Assets/Recovery/PenguinExtras/Fit_9e151ed839cb4d24b8c4b921bf8b35c1_extras-blue-diamond.asset",
+      "bounds": "Center: (0.00, -0.01, 0.00), Extents: (0.70, 0.70, 0.10)",
+      "replacementBounds": "Center: (0.00, -0.01, 0.00), Extents: (0.70, 0.70, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/0_2.asset",
+      "name": "0",
+      "target": "Assets/Recovery/PenguinExtras/Fit_38f908baee0ffe24e9d22225cb8fa25f_extras-blue-diamond.asset",
+      "bounds": "Center: (0.00, 1.43, 0.00), Extents: (1.43, 1.43, 0.10)",
+      "replacementBounds": "Center: (0.00, 1.43, 0.00), Extents: (1.43, 1.43, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/currency_dia_1.asset",
+      "name": "currency_dia_1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_738c6d735d2e58f44af25cb81d992fd4_extras-blue-diamond.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.74, 0.74, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.74, 0.74, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/currency_dia_1_1.asset",
+      "name": "currency_dia_1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_b3b08776c3125814bbceeff0ee2d87ce_extras-blue-diamond.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.74, 0.74, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.74, 0.74, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Currency_Dia_Outline.asset",
+      "name": "Currency_Dia_Outline",
+      "target": "Assets/Recovery/PenguinExtras/Fit_57494fc00c70952448f9701a734c1717_extras-blue-diamond.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.82, 0.81, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.82, 0.81, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/1_11.asset",
+      "name": "1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_43516b2a24216524199d6dc4af0b77a8_extras-purple-diamond.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.70, 0.70, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.70, 0.70, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/1_dia.asset",
+      "name": "1_dia",
+      "target": "Assets/Recovery/PenguinExtras/Fit_6e22725452f363541acea56070692a74_extras-purple-diamond.asset",
+      "bounds": "Center: (0.00, 1.43, 0.00), Extents: (1.43, 1.43, 0.10)",
+      "replacementBounds": "Center: (0.00, 1.43, 0.00), Extents: (1.43, 1.43, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/currency_0_1.asset",
+      "name": "currency_0",
+      "target": "Assets/Recovery/PenguinExtras/Fit_895f76ffa4d6037409e2228345028a0d_extras-purple-diamond.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.74, 0.74, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.74, 0.74, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/2.asset",
+      "name": "2",
+      "target": "Assets/Recovery/PenguinExtras/Fit_4114c717ba60d6344bd2ce350952821c_extras-white-diamond.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.71, 0.70, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.01, 0.00), Extents: (0.71, 0.70, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/3.asset",
+      "name": "3",
+      "target": "Assets/Recovery/PenguinExtras/Fit_3df1ee78e73b4f64dac1b1c218c260e0_extras-amber-diamond.asset",
+      "bounds": "Center: (0.00, -0.01, 0.00), Extents: (0.74, 0.72, 0.10)",
+      "replacementBounds": "Center: (0.00, -0.01, 0.00), Extents: (0.74, 0.73, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Relic_Money0_.asset",
+      "name": "Relic_Money0_",
+      "target": "Assets/Recovery/PenguinExtras/Fit_4f81aae86db29c04f85553a570844775_extras-amber-diamond.asset",
+      "bounds": "Center: (0.01, 0.00, 0.00), Extents: (0.61, 0.67, 0.10)",
+      "replacementBounds": "Center: (0.01, 0.00, 0.00), Extents: (0.61, 0.67, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Relic_Money_1.asset",
+      "name": "Relic_Money_1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_f8588d1c1b0d8cf4c8e4469a67406f4c_extras-amber-diamond.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.62, 0.67, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.62, 0.67, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Relic_Money_2.asset",
+      "name": "Relic_Money_2",
+      "target": "Assets/Recovery/PenguinExtras/Fit_83303312687fc2d439e831ac6af41f81_extras-amber-diamond.asset",
+      "bounds": "Center: (0.01, 0.00, 0.00), Extents: (0.61, 0.67, 0.10)",
+      "replacementBounds": "Center: (0.01, 0.00, 0.00), Extents: (0.61, 0.67, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/0.asset",
+      "name": "0",
+      "target": "Assets/Recovery/PenguinExtras/Fit_9e151ed839cb4d24b8c4b921bf8b35c1_extras-blue-diamond.asset",
+      "bounds": "Center: (0.00, -0.01, 0.00), Extents: (0.70, 0.70, 0.10)",
+      "replacementBounds": "Center: (0.00, -0.01, 0.00), Extents: (0.70, 0.70, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/0_2.asset",
+      "name": "0",
+      "target": "Assets/Recovery/PenguinExtras/Fit_38f908baee0ffe24e9d22225cb8fa25f_extras-blue-diamond.asset",
+      "bounds": "Center: (0.00, 1.43, 0.00), Extents: (1.43, 1.43, 0.10)",
+      "replacementBounds": "Center: (0.00, 1.43, 0.00), Extents: (1.43, 1.43, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/currency_dia_1.asset",
+      "name": "currency_dia_1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_738c6d735d2e58f44af25cb81d992fd4_extras-blue-diamond.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.74, 0.74, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.74, 0.74, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/currency_dia_1_1.asset",
+      "name": "currency_dia_1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_b3b08776c3125814bbceeff0ee2d87ce_extras-blue-diamond.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.74, 0.74, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.74, 0.74, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Currency_Dia_Outline.asset",
+      "name": "Currency_Dia_Outline",
+      "target": "Assets/Recovery/PenguinExtras/Fit_57494fc00c70952448f9701a734c1717_extras-blue-diamond.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.82, 0.81, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.82, 0.81, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/1_11.asset",
+      "name": "1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_43516b2a24216524199d6dc4af0b77a8_extras-purple-diamond.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.70, 0.70, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.70, 0.70, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/1_dia.asset",
+      "name": "1_dia",
+      "target": "Assets/Recovery/PenguinExtras/Fit_6e22725452f363541acea56070692a74_extras-purple-diamond.asset",
+      "bounds": "Center: (0.00, 1.43, 0.00), Extents: (1.43, 1.43, 0.10)",
+      "replacementBounds": "Center: (0.00, 1.43, 0.00), Extents: (1.43, 1.43, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/currency_0_1.asset",
+      "name": "currency_0",
+      "target": "Assets/Recovery/PenguinExtras/Fit_895f76ffa4d6037409e2228345028a0d_extras-purple-diamond.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.74, 0.74, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.74, 0.74, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/2.asset",
+      "name": "2",
+      "target": "Assets/Recovery/PenguinExtras/Fit_4114c717ba60d6344bd2ce350952821c_extras-white-diamond.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.71, 0.70, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.01, 0.00), Extents: (0.71, 0.70, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/3.asset",
+      "name": "3",
+      "target": "Assets/Recovery/PenguinExtras/Fit_3df1ee78e73b4f64dac1b1c218c260e0_extras-amber-diamond.asset",
+      "bounds": "Center: (0.00, -0.01, 0.00), Extents: (0.74, 0.72, 0.10)",
+      "replacementBounds": "Center: (0.00, -0.01, 0.00), Extents: (0.74, 0.73, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Relic_Money0_.asset",
+      "name": "Relic_Money0_",
+      "target": "Assets/Recovery/PenguinExtras/Fit_4f81aae86db29c04f85553a570844775_extras-amber-diamond.asset",
+      "bounds": "Center: (0.01, 0.00, 0.00), Extents: (0.61, 0.67, 0.10)",
+      "replacementBounds": "Center: (0.01, 0.00, 0.00), Extents: (0.61, 0.67, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Relic_Money_1.asset",
+      "name": "Relic_Money_1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_f8588d1c1b0d8cf4c8e4469a67406f4c_extras-amber-diamond.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.62, 0.67, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.62, 0.67, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Relic_Money_2.asset",
+      "name": "Relic_Money_2",
+      "target": "Assets/Recovery/PenguinExtras/Fit_83303312687fc2d439e831ac6af41f81_extras-amber-diamond.asset",
+      "bounds": "Center: (0.01, 0.00, 0.00), Extents: (0.61, 0.67, 0.10)",
+      "replacementBounds": "Center: (0.01, 0.00, 0.00), Extents: (0.61, 0.67, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/DiaPack_2.asset",
+      "name": "DiaPack_2",
+      "target": "Assets/Recovery/PenguinExtras/Fit_064701119d88dbc48ac35c35de0bf6c8_extras-diamond-pack-0.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (1.65, 1.43, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (1.65, 1.43, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Sample.asset",
+      "name": "Sample",
+      "target": "Assets/Recovery/PenguinExtras/Fit_51e8d7d4edcb24c46a56ebc69ec94dbd_extras-diamond-pack-0.asset",
+      "bounds": "Center: (0.00, 1.47, 0.00), Extents: (1.43, 1.34, 0.10)",
+      "replacementBounds": "Center: (0.00, 1.47, 0.00), Extents: (1.43, 1.34, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Prism_0.asset",
+      "name": "Prism_0",
+      "target": "Assets/Recovery/PenguinExtras/Fit_4bee04a2422a2fa45b665136b53e1404_extras-diamond-pack-0.asset",
+      "bounds": "Center: (0.00, 0.01, 0.00), Extents: (2.26, 1.97, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.01, 0.00), Extents: (2.26, 1.97, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Prism_1.asset",
+      "name": "Prism_1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_e3dc89a84ed7af94dabf261dc0dc4860_extras-diamond-pack-1.asset",
+      "bounds": "Center: (0.00, 0.01, 0.00), Extents: (2.26, 2.11, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.01, 0.00), Extents: (2.26, 2.11, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/DiaPack_4.asset",
+      "name": "DiaPack_4",
+      "target": "Assets/Recovery/PenguinExtras/Fit_c3cedaa8bfe45d04f9f3026ae1aa22cc_extras-diamond-pack-2.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (1.71, 1.57, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (1.71, 1.57, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/DiaPack_0.asset",
+      "name": "DiaPack_0",
+      "target": "Assets/Recovery/PenguinExtras/Fit_beec77e4a5b175e4a8b4deaffcad7279_extras-diamond-pack-2.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (1.63, 1.40, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (1.63, 1.40, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Prism_2.asset",
+      "name": "Prism_2",
+      "target": "Assets/Recovery/PenguinExtras/Fit_c8d8f758266dddb4f837a759570ec357_extras-diamond-pack-2.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (2.26, 1.90, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (2.26, 1.90, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Bush_Yellow_Green_05.asset",
+      "name": "Bush_Yellow_Green_05",
+      "target": "Assets/Recovery/PenguinExtras/Fit_fe20bec69dbacd84baece0fc2341e8f0_extras-diamond-pack-2.asset",
+      "bounds": "Center: (0.00, 0.12, 0.00), Extents: (0.42, 0.31, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.12, 0.00), Extents: (0.42, 0.31, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Bush_Yellow_Green_04.asset",
+      "name": "Bush_Yellow_Green_04",
+      "target": "Assets/Recovery/PenguinExtras/Fit_f6280300c60bd96428d2c2b9c9e6d902_extras-diamond-pack-2.asset",
+      "bounds": "Center: (0.00, 0.16, 0.00), Extents: (0.46, 0.35, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.16, 0.00), Extents: (0.46, 0.35, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Bush_Yellow_Green_03.asset",
+      "name": "Bush_Yellow_Green_03",
+      "target": "Assets/Recovery/PenguinExtras/Fit_0bcf916fc552a25488cd492c914fa174_extras-diamond-pack-2.asset",
+      "bounds": "Center: (0.00, 0.25, 0.00), Extents: (1.24, 0.74, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.25, 0.00), Extents: (1.24, 0.74, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Bush_Yellow_Green_02.asset",
+      "name": "Bush_Yellow_Green_02",
+      "target": "Assets/Recovery/PenguinExtras/Fit_0d0c85f3d6e12454ca1e0940b31de5ed_extras-diamond-pack-2.asset",
+      "bounds": "Center: (0.00, 0.31, 0.00), Extents: (0.62, 0.52, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.31, 0.00), Extents: (0.62, 0.52, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Bush_Yellow_Green_01.asset",
+      "name": "Bush_Yellow_Green_01",
+      "target": "Assets/Recovery/PenguinExtras/Fit_a7cd18df90df5e349b49ef5a308c2188_extras-diamond-pack-2.asset",
+      "bounds": "Center: (0.00, 0.40, 0.00), Extents: (0.83, 0.65, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.40, 0.00), Extents: (0.83, 0.65, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Forest_Grass.asset",
+      "name": "Forest_Grass",
+      "target": "Assets/Recovery/PenguinExtras/Fit_8b51cceeb6b8dea48876c627f616d7f7_extras-diamond-pack-2.asset",
+      "bounds": "Center: (0.00, 0.09, 0.00), Extents: (0.23, 0.10, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.09, 0.00), Extents: (0.23, 0.10, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/DiaPack_1.asset",
+      "name": "DiaPack_1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_1484c850edb3f43448555f0ff71d6efb_extras-diamond-pack-3.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (1.61, 1.49, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (1.61, 1.49, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/DiaPack_5.asset",
+      "name": "DiaPack_5",
+      "target": "Assets/Recovery/PenguinExtras/Fit_ac5e5ff46e00f5e48af32fa67a5e2c62_extras-diamond-pack-3.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (1.92, 1.66, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (1.92, 1.66, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Prism_3.asset",
+      "name": "Prism_3",
+      "target": "Assets/Recovery/PenguinExtras/Fit_18706239246706945b193acbe7d7d2c8_extras-diamond-pack-3.asset",
+      "bounds": "Center: (0.00, 0.01, 0.00), Extents: (2.26, 2.07, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.01, 0.00), Extents: (2.26, 2.07, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Currency_SlotGem (thin).asset",
+      "name": "Currency_SlotGem (thin)",
+      "target": "Assets/Recovery/PenguinExtras/Fit_22088cfc9af9fe54597a30283c727210_extras-blue-ticket.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.71, 0.71, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.71, 0.71, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Currency_SlotGem.asset",
+      "name": "Currency_SlotGem",
+      "target": "Assets/Recovery/PenguinExtras/Fit_bd76009b12dd78b4fb3f4676d3ce29a2_extras-blue-ticket.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.74, 0.74, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.74, 0.74, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/UI_Shop_Ticket_03_Green 1.asset",
+      "name": "UI_Shop_Ticket_03_Green 1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_564021624d4901044b42c009ae35bb73_extras-blue-ticket.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (1.22, 1.11, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (1.22, 1.11, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/UI_Shop_Ticket_03_Green.asset",
+      "name": "UI_Shop_Ticket_03_Green",
+      "target": "Assets/Recovery/PenguinExtras/Fit_d5c1d10fb08b00f4884d17571408daa5_extras-blue-ticket.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.64, 0.59, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.64, 0.59, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/1_11.asset",
+      "name": "1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_43516b2a24216524199d6dc4af0b77a8_extras-purple-diamond.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.70, 0.70, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.70, 0.70, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/1_dia.asset",
+      "name": "1_dia",
+      "target": "Assets/Recovery/PenguinExtras/Fit_6e22725452f363541acea56070692a74_extras-purple-diamond.asset",
+      "bounds": "Center: (0.00, 1.43, 0.00), Extents: (1.43, 1.43, 0.10)",
+      "replacementBounds": "Center: (0.00, 1.43, 0.00), Extents: (1.43, 1.43, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/currency_0_1.asset",
+      "name": "currency_0",
+      "target": "Assets/Recovery/PenguinExtras/Fit_895f76ffa4d6037409e2228345028a0d_extras-purple-diamond.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.74, 0.74, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.74, 0.74, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Currency 2_1_0.asset",
+      "name": "Currency 2_1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_983eee99d849af44780dc2a7e5d69ae0_flat-ui-icons-00.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.79, 0.76, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.79, 0.76, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Currency 2_1.asset",
+      "name": "Currency 2_1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_a5c7a45d43b9db94e95ec43a03e15039_flat-ui-icons-00.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.90, 0.88, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.01, 0.00), Extents: (0.90, 0.89, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Relic_Dmg_0.asset",
+      "name": "Relic_Dmg_0",
+      "target": "Assets/Recovery/PenguinExtras/Fit_abb2c3f5f32298a4bb703b8b9abdba81_flat-ui-icons-00.asset",
+      "bounds": "Center: (-0.01, 0.00, 0.00), Extents: (0.61, 0.62, 0.10)",
+      "replacementBounds": "Center: (-0.01, 0.00, 0.00), Extents: (0.61, 0.62, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Relic_Dmg_1.asset",
+      "name": "Relic_Dmg_1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_221ba11b94f7b8f448dbe5a2e652eed0_flat-ui-icons-00.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.61, 0.62, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.61, 0.62, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Relic_Dmg_2.asset",
+      "name": "Relic_Dmg_2",
+      "target": "Assets/Recovery/PenguinExtras/Fit_706468f198cac94419cba3639afa3308_flat-ui-icons-00.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.61, 0.62, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.61, 0.62, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Currency 2_2_0.asset",
+      "name": "Currency 2_2",
+      "target": "Assets/Recovery/PenguinExtras/Fit_ab889d3cb6547714083176d2ce4c334d_flat-ui-icons-01.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.78, 0.76, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.01, 0.00), Extents: (0.78, 0.76, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Currency 2_2.asset",
+      "name": "Currency 2_2",
+      "target": "Assets/Recovery/PenguinExtras/Fit_289427bdb8c80ef4080efe582153f983_flat-ui-icons-01.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.90, 0.88, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.01, 0.00), Extents: (0.90, 0.88, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Icon_Speed.asset",
+      "name": "Icon_Speed",
+      "target": "Assets/Recovery/PenguinExtras/Fit_9f1ef83779c72984abbe4d468fe2a949_flat-ui-icons-01.asset",
+      "bounds": "Center: (0.01, 0.00, 0.00), Extents: (0.43, 0.44, 0.10)",
+      "replacementBounds": "Center: (0.01, 0.00, 0.00), Extents: (0.43, 0.44, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/bomb.asset",
+      "name": "bomb",
+      "target": "Assets/Recovery/PenguinExtras/Fit_f3eaf91db26ee9b478ba354889a75cfd_flat-ui-icons-02.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.62, 0.66, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.62, 0.66, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Relic_CriDmg_0.asset",
+      "name": "Relic_CriDmg_0",
+      "target": "Assets/Recovery/PenguinExtras/Fit_e29371fdbedf33046afb1dce1fd1b152_flat-ui-icons-02.asset",
+      "bounds": "Center: (0.00, -0.01, 0.00), Extents: (0.62, 0.59, 0.10)",
+      "replacementBounds": "Center: (0.00, -0.01, 0.00), Extents: (0.62, 0.59, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Relic_CriDmg_1.asset",
+      "name": "Relic_CriDmg_1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_2334bd0c2572be04e8d67bf54205cd1b_flat-ui-icons-02.asset",
+      "bounds": "Center: (0.00, -0.01, 0.00), Extents: (0.62, 0.59, 0.10)",
+      "replacementBounds": "Center: (0.00, -0.01, 0.00), Extents: (0.62, 0.59, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Relic_CriDmg_2.asset",
+      "name": "Relic_CriDmg_2",
+      "target": "Assets/Recovery/PenguinExtras/Fit_7ed81a3b247095444927d22272ab4d79_flat-ui-icons-02.asset",
+      "bounds": "Center: (0.00, -0.01, 0.00), Extents: (0.62, 0.59, 0.10)",
+      "replacementBounds": "Center: (0.00, -0.01, 0.00), Extents: (0.62, 0.59, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/icon_big_target.asset",
+      "name": "icon_big_target",
+      "target": "Assets/Recovery/PenguinExtras/Fit_cb2e987516645d84792f97dfb64ae994_flat-ui-icons-03.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.53, 0.53, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.53, 0.53, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Relic_MoveSpeed.asset",
+      "name": "Relic_MoveSpeed",
+      "target": "Assets/Recovery/PenguinExtras/Fit_7f168be088f7acb4fb08b672e78ffa5d_flat-ui-icons-04.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.67, 0.67, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.67, 0.67, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Icon_Dictionary.asset",
+      "name": "Icon_Dictionary",
+      "target": "Assets/Recovery/PenguinExtras/Fit_b8f11d2273c42d14f985d83a6b44e146_flat-ui-icons-05.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.37, 0.37, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.37, 0.37, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Currency_SlotGem (thin).asset",
+      "name": "Currency_SlotGem (thin)",
+      "target": "Assets/Recovery/PenguinExtras/Fit_22088cfc9af9fe54597a30283c727210_flat-ui-icons-06.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.71, 0.71, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.71, 0.71, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Currency_SlotGem.asset",
+      "name": "Currency_SlotGem",
+      "target": "Assets/Recovery/PenguinExtras/Fit_bd76009b12dd78b4fb3f4676d3ce29a2_flat-ui-icons-06.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.74, 0.74, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.74, 0.74, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/UI_Shop_Ticket_03_Green 1.asset",
+      "name": "UI_Shop_Ticket_03_Green 1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_564021624d4901044b42c009ae35bb73_flat-ui-icons-06.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (1.22, 1.11, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (1.22, 1.11, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/UI_Shop_Ticket_03_Green.asset",
+      "name": "UI_Shop_Ticket_03_Green",
+      "target": "Assets/Recovery/PenguinExtras/Fit_d5c1d10fb08b00f4884d17571408daa5_flat-ui-icons-06.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.64, 0.59, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.64, 0.59, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Icon_DiaPig 1.asset",
+      "name": "Icon_DiaPig 1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_1008a8e92351e864e93603c5bb76ac75_flat-ui-icons-07.asset",
+      "bounds": "Center: (0.01, 0.00, 0.00), Extents: (0.36, 0.39, 0.10)",
+      "replacementBounds": "Center: (0.01, 0.00, 0.00), Extents: (0.36, 0.39, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Icon_DiaPig.asset",
+      "name": "Icon_DiaPig",
+      "target": "Assets/Recovery/PenguinExtras/Fit_02561826873a77140ac1bd125ec9bb09_flat-ui-icons-07.asset",
+      "bounds": "Center: (0.02, 0.00, 0.00), Extents: (1.18, 1.32, 0.10)",
+      "replacementBounds": "Center: (0.02, -0.01, 0.00), Extents: (1.18, 1.32, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/StarGem_Pig.asset",
+      "name": "StarGem_Pig",
+      "target": "Assets/Recovery/PenguinExtras/Fit_76856bd3592b1de4c8871dbd659c7dfa_flat-ui-icons-07.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (4.14, 2.83, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (4.14, 2.83, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/StarGem_Pig 1.asset",
+      "name": "StarGem_Pig 1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_07b1335acd00d474ba3eee28abacf1ba_flat-ui-icons-07.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (4.02, 2.73, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (4.02, 2.74, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Icon_Pet.asset",
+      "name": "Icon_Pet",
+      "target": "Assets/Recovery/PenguinExtras/Fit_74a0c041bba318e459499eb222d80895_flat-ui-icons-09.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.48, 0.52, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.48, 0.52, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Icon_Fish.asset",
+      "name": "Icon_Fish",
+      "target": "Assets/Recovery/PenguinExtras/Fit_1d7a1918a465b0344a15e8f1d38c2e3b_flat-ui-icons-10.asset",
+      "bounds": "Center: (0.00, -0.01, 0.00), Extents: (0.62, 0.53, 0.10)",
+      "replacementBounds": "Center: (0.00, -0.01, 0.00), Extents: (0.62, 0.53, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Icon_Adventure.asset",
+      "name": "Icon_Adventure",
+      "target": "Assets/Recovery/PenguinExtras/Fit_5896f680e22d5964989672c946156e8d_flat-ui-icons-11.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.64, 0.58, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.64, 0.58, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/UI_Play_Dungeon_03.asset",
+      "name": "UI_Play_Dungeon_03",
+      "target": "Assets/Recovery/PenguinExtras/Fit_52a61ca0cae48064a92220bbf5fce7f7_flat-ui-icons-12.asset",
+      "bounds": "Center: (-0.01, -0.01, 0.00), Extents: (0.61, 0.47, 0.10)",
+      "replacementBounds": "Center: (-0.01, -0.01, 0.00), Extents: (0.61, 0.47, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Icon_StatsIcon_Boss.asset",
+      "name": "Icon_StatsIcon_Boss",
+      "target": "Assets/Recovery/PenguinExtras/Fit_dbddf89f119e6f64e9619dc3f614e727_flat-ui-icons-13.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.35, 0.37, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.35, 0.37, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Icon_StatsIcon_Boss 1.asset",
+      "name": "Icon_StatsIcon_Boss 1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_83db748b74829ad4e91986ccfc754250_flat-ui-icons-13.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.39, 0.41, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.39, 0.41, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Icon_Shop.asset",
+      "name": "Icon_Shop",
+      "target": "Assets/Recovery/PenguinExtras/Fit_8a58b36dcf667744aacabfcb7fb6f5de_flat-ui-icons-14.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.37, 0.34, 0.10)",
+      "replacementBounds": "Center: (0.00, -0.01, 0.00), Extents: (0.37, 0.35, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Icon_CloseBtn.asset",
+      "name": "Icon_CloseBtn",
+      "target": "Assets/Recovery/PenguinExtras/Fit_0bc29a93b7eb304418c1f2cb05e9251d_flat-ui-utilities-00.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.52, 0.52, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.52, 0.52, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/icon_close.asset",
+      "name": "icon_close",
+      "target": "Assets/Recovery/PenguinExtras/Fit_413a6c5b3676bd14ca1220a2e548cd74_flat-ui-utilities-00.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.32, 0.32, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.32, 0.32, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/icon_Lock.asset",
+      "name": "icon_Lock",
+      "target": "Assets/Recovery/PenguinExtras/Fit_bda1a280c10bcff498a5a939ca55b232_flat-ui-utilities-01.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.49, 0.58, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.49, 0.58, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Icon_Plus.asset",
+      "name": "Icon_Plus",
+      "target": "Assets/Recovery/PenguinExtras/Fit_b0d3a2499a4b3784088433c14357c5f2_flat-ui-utilities-02.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.45, 0.45, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.45, 0.45, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Icon_Check.asset",
+      "name": "Icon_Check",
+      "target": "Assets/Recovery/PenguinExtras/Fit_36deb2d97adae5e4ab2baef1e7332397_flat-ui-utilities-03.asset",
+      "bounds": "Center: (0.00, -0.01, 0.00), Extents: (0.24, 0.22, 0.10)",
+      "replacementBounds": "Center: (0.00, -0.01, 0.00), Extents: (0.24, 0.23, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Icon_Arrow_Left.asset",
+      "name": "Icon_Arrow_Left",
+      "target": "Assets/Recovery/PenguinExtras/Fit_45a413c83f399d148a552d214f8d6ba2_flat-ui-utilities-04.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.21, 0.32, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.21, 0.32, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Icon_Arrow_Right.asset",
+      "name": "Icon_Arrow_Right",
+      "target": "Assets/Recovery/PenguinExtras/Fit_65b911370f0e89546a4cb12952951349_flat-ui-utilities-05.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.21, 0.32, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.21, 0.32, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Setting.asset",
+      "name": "Setting",
+      "target": "Assets/Recovery/PenguinExtras/Fit_e005db95ff0734b4284f93c520c4dfdc_flat-ui-utilities-06.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.34, 0.34, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.34, 0.34, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Icon_Magnatic.asset",
+      "name": "Icon_Magnatic",
+      "target": "Assets/Recovery/PenguinExtras/Fit_571008966bdf7134b930eb10a817e913_flat-ui-utilities-09.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.37, 0.38, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.37, 0.38, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Icon_Magnatic 1.asset",
+      "name": "Icon_Magnatic 1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_45c0de25d2005464281f85035a27a82d_flat-ui-utilities-09.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.38, 0.39, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.38, 0.39, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Icon_timer.asset",
+      "name": "Icon_timer",
+      "target": "Assets/Recovery/PenguinExtras/Fit_37f92eebfa387c647b6d6e84479a25dd_flat-ui-utilities-10.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.50, 0.54, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.50, 0.54, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Relic_Offline.asset",
+      "name": "Relic_Offline",
+      "target": "Assets/Recovery/PenguinExtras/Fit_2fa556e9b01a8784e9046f79306e7304_flat-ui-utilities-10.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.93, 0.92, 0.10)",
+      "replacementBounds": "Center: (0.00, -0.01, 0.00), Extents: (0.93, 0.93, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Relic_Skip.asset",
+      "name": "Relic_Skip",
+      "target": "Assets/Recovery/PenguinExtras/Fit_ca1a7e926dc69ba4d99140aaffd61859_flat-ui-utilities-10.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.58, 0.67, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.58, 0.67, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Icon_ImageIcon_Ad_00_s 2.asset",
+      "name": "Icon_ImageIcon_Ad_00_s 2",
+      "target": "Assets/Recovery/PenguinExtras/Fit_a2d18106ce225c443b937c02aa687657_flat-ui-utilities-11.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.37, 0.37, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.37, 0.37, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Icon_ImageIcon_Badge_Popular.asset",
+      "name": "Icon_ImageIcon_Badge_Popular",
+      "target": "Assets/Recovery/PenguinExtras/Fit_d8f667020759c624b8ca48b7cc14c85f_flat-ui-utilities-14.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.60, 0.60, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.60, 0.60, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Icon_ImageIcon_Badge_Best.asset",
+      "name": "Icon_ImageIcon_Badge_Best",
+      "target": "Assets/Recovery/PenguinExtras/Fit_b93bb130bb80a2844821887377e17c2f_flat-ui-utilities-14.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.60, 0.60, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.60, 0.60, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Icon_ImageIcon_Badge_Popular 1.asset",
+      "name": "Icon_ImageIcon_Badge_Popular 1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_ad9349e8275e88c47933214e4a165921_flat-ui-utilities-14.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.58, 0.58, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.58, 0.58, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Icon_ImageIcon_Badge_Popular 2.asset",
+      "name": "Icon_ImageIcon_Badge_Popular 2",
+      "target": "Assets/Recovery/PenguinExtras/Fit_7a238ca22c1fbd54d89bd1c6a38f9726_flat-ui-utilities-14.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.67, 0.67, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.67, 0.67, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Icon_ImageIcon_Pass01 2.asset",
+      "name": "Icon_ImageIcon_Pass01 2",
+      "target": "Assets/Recovery/PenguinExtras/Fit_4150a69cfcfa43546b43b081aeb095a0_flat-ui-utilities-14.asset",
+      "bounds": "Center: (-0.02, 0.02, 0.00), Extents: (0.67, 0.56, 0.10)",
+      "replacementBounds": "Center: (-0.02, 0.03, 0.00), Extents: (0.67, 0.56, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/UI_Common_Mission_03_Blue.asset",
+      "name": "UI_Common_Mission_03_Blue",
+      "target": "Assets/Recovery/PenguinExtras/Fit_b2edcab78b306884b92c7da39b0dcca2_flat-ui-utilities-14.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.56, 0.63, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.56, 0.63, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/icon_bgm.asset",
+      "name": "icon_bgm",
+      "target": "Assets/Recovery/PenguinExtras/Fit_fc5cc00c6a57a8a4b8d81d5413d97893_flat-ui-utilities-17.asset",
+      "bounds": "Center: (-0.06, 0.00, 0.00), Extents: (0.66, 0.66, 0.10)",
+      "replacementBounds": "Center: (-0.06, 0.00, 0.00), Extents: (0.66, 0.66, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/icon_sound.asset",
+      "name": "icon_sound",
+      "target": "Assets/Recovery/PenguinExtras/Fit_8a1ea338c425fd7449e7c57373b5c48e_flat-ui-utilities-18.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.60, 0.50, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.60, 0.50, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/phone-vibration.asset",
+      "name": "phone-vibration",
+      "target": "Assets/Recovery/PenguinExtras/Fit_b090bef51c0e5244aa5d74aa3f3e460d_flat-ui-utilities-19.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.61, 0.61, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.61, 0.61, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Icon_Heart 2.asset",
+      "name": "Icon_Heart 2",
+      "target": "Assets/Recovery/PenguinExtras/Fit_b26bb5662f8f2a6478507db5ccb64e57_flat-ui-utilities-20.asset",
+      "bounds": "Center: (0.00, 0.02, 0.00), Extents: (0.82, 0.71, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.02, 0.00), Extents: (0.82, 0.71, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/chodun (723) 1.asset",
+      "name": "chodun (723) 1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_c38505ef068f0f241b3b4ada0905a420_flat-ui-utilities-21.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.25, 0.24, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.25, 0.24, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Item_Chest_02_01.asset",
+      "name": "Item_Chest_02_01",
+      "target": "Assets/Recovery/PenguinExtras/Fit_9f2f12d4304a4df499a71c6dbeb8b45b_flat-ui-utilities-22.asset",
+      "bounds": "Center: (-0.01, -0.01, 0.00), Extents: (0.67, 0.56, 0.10)",
+      "replacementBounds": "Center: (-0.01, -0.02, 0.00), Extents: (0.67, 0.56, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Item_Chest_02_01 1.asset",
+      "name": "Item_Chest_02_01 1",
+      "target": "Assets/Recovery/PenguinExtras/Fit_fa56d0d4e546c1e4b83317fa9d9529ec_flat-ui-utilities-22.asset",
+      "bounds": "Center: (-0.01, -0.02, 0.00), Extents: (0.64, 0.53, 0.10)",
+      "replacementBounds": "Center: (-0.01, -0.02, 0.00), Extents: (0.64, 0.53, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Relic_Rebirth.asset",
+      "name": "Relic_Rebirth",
+      "target": "Assets/Recovery/PenguinExtras/Fit_41d4cfdcd7812fc4581046c1a7089125_flat-ui-utilities-23.asset",
+      "bounds": "Center: (0.00, 0.01, 0.00), Extents: (0.77, 0.54, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.01, 0.00), Extents: (0.77, 0.54, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/replicate-prediction-k8295c56h9rmt0cwjdpt08j0b0.asset",
+      "name": "replicate-prediction-k8295c56h9rmt0cwjdpt08j0b0",
+      "target": "Assets/Recovery/PenguinExtras/Fit_233f82a405c20db488db515d189c6d52_flat-ui-mascots-05.asset",
+      "bounds": "Center: (-0.03, 0.06, 0.00), Extents: (1.47, 1.44, 0.10)",
+      "replacementBounds": "Center: (-0.03, 0.06, 0.00), Extents: (1.47, 1.44, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/replicate-prediction-rtckr502dhrmr0cwjen8d52vh4.asset",
+      "name": "replicate-prediction-rtckr502dhrmr0cwjen8d52vh4",
+      "target": "Assets/Recovery/PenguinExtras/Fit_70cf1be08ae3a5d49b10e69d7523dba6_flat-ui-mascots-05.asset",
+      "bounds": "Center: (0.00, 0.01, 0.00), Extents: (1.60, 1.59, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.01, 0.00), Extents: (1.60, 1.60, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/replicate-prediction-2h6910s499rmw0cwjfatqwzjcc.asset",
+      "name": "replicate-prediction-2h6910s499rmw0cwjfatqwzjcc",
+      "target": "Assets/Recovery/PenguinExtras/Fit_73903c65c601dea43ada6d844ad8e666_flat-ui-mascots-05.asset",
+      "bounds": "Center: (0.00, 0.01, 0.00), Extents: (1.60, 1.42, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.01, 0.00), Extents: (1.60, 1.43, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/replicate-prediction-f9hcx0mc95rmw0cwjfnt26mc8r.asset",
+      "name": "replicate-prediction-f9hcx0mc95rmw0cwjfnt26mc8r",
+      "target": "Assets/Recovery/PenguinExtras/Fit_84dab6ca7b24332478c555022c7be904_flat-ui-mascots-05.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (1.60, 1.42, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (1.60, 1.43, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/replicate-prediction-nvrtj3wgt1rmw0cz580958zrgw.asset",
+      "name": "replicate-prediction-nvrtj3wgt1rmw0cz580958zrgw",
+      "target": "Assets/Recovery/PenguinExtras/Fit_a7c6baa92a7917344a7dcea802826fae_flat-ui-mascots-05.asset",
+      "bounds": "Center: (0.02, 0.02, 0.00), Extents: (1.35, 1.46, 0.10)",
+      "replacementBounds": "Center: (0.02, 0.01, 0.00), Extents: (1.35, 1.46, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Cat_Gun.asset",
+      "name": "Cat_Gun",
+      "target": "Assets/Recovery/PenguinExtras/Fit_a8af66ef3790b764dad914de2f3b185e_flat-ui-mascots-05.asset",
+      "bounds": "Center: (-0.03, 0.01, 0.00), Extents: (2.53, 2.55, 0.10)",
+      "replacementBounds": "Center: (-0.03, 0.01, 0.00), Extents: (2.53, 2.55, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/쿠팡.asset",
+      "name": "쿠팡",
+      "target": "Assets/Recovery/PenguinExtras/Fit_742e7e1b5c681924c81f91fbd27150cc_flat-ui-mascots-00.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.47, 0.46, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.47, 0.46, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Recovery/PenguinUi/portrait.asset",
+      "name": "portrait",
+      "target": "Assets/Recovery/PenguinExtras/Fit_358d94ca1f2c84818b0e8c0bc5c5e440_flat-ui-mascots-00.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (2.56, 2.56, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (2.56, 2.56, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Recovery/PenguinUi/win.asset",
+      "name": "win",
+      "target": "Assets/Recovery/PenguinExtras/Fit_0bad924c2990341a49fe22469d38f6c8_flat-ui-mascots-02.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (2.22, 2.56, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (2.22, 2.56, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Recovery/PenguinUi/fail.asset",
+      "name": "fail",
+      "target": "Assets/Recovery/PenguinExtras/Fit_71e185b9c16e14afa9ae02287f91be4e_flat-ui-mascots-03.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (2.22, 2.56, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (2.22, 2.56, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Recovery/PenguinUi/rest.asset",
+      "name": "rest",
+      "target": "Assets/Recovery/PenguinExtras/Fit_e657714a367164c9894730680a77a625_flat-ui-mascots-04.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (2.22, 2.56, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (2.22, 2.56, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Recovery/PenguinUi/shop.asset",
+      "name": "shop",
+      "target": "Assets/Recovery/PenguinExtras/Fit_68245e32225af482e88a58a201c051d7_flat-ui-mascots-05.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (2.56, 2.56, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (2.56, 2.56, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Currency 2_0_0.asset",
+      "name": "Currency 2_0",
+      "target": "Assets/Recovery/PenguinExtras/Fit_254dd9bdb2951224b9469fd69fbff0cd_flat-ui-coin.asset",
+      "bounds": "Center: (-0.02, 0.02, 0.00), Extents: (0.81, 0.77, 0.10)",
+      "replacementBounds": "Center: (-0.02, 0.03, 0.00), Extents: (0.81, 0.77, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/Currency 2_0.asset",
+      "name": "Currency 2_0",
+      "target": "Assets/Recovery/PenguinExtras/Fit_30b15dc2150afa64895a8bf7ff64ec4b_flat-ui-coin.asset",
+      "bounds": "Center: (0.00, 0.02, 0.00), Extents: (0.90, 0.88, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.02, 0.00), Extents: (0.90, 0.89, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/currency_dia_0_1.asset",
+      "name": "currency_dia_0",
+      "target": "Assets/Recovery/PenguinExtras/Fit_29a1e9c3d8dba254caa088dbf31d074f_flat-ui-coin.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.74, 0.72, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.01, 0.00), Extents: (0.74, 0.73, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/currency_dia_0.asset",
+      "name": "currency_dia_0",
+      "target": "Assets/Recovery/PenguinExtras/Fit_98f534eabd25a8946819744ebf145882_flat-ui-coin.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.74, 0.72, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.01, 0.00), Extents: (0.74, 0.73, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Recovery/PenguinUi/coin.asset",
+      "name": "coin",
+      "target": "Assets/Recovery/PenguinExtras/Fit_6a03e9981a9834fd8b768297baefc2c3_flat-ui-coin.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (2.56, 2.56, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (2.56, 2.56, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/google-play (2).asset",
+      "name": "google-play (2)",
+      "target": "Assets/Recovery/PenguinExtras/Fit_88a04a59196ac4c4e993ca21687d440d_flat-ui-mascots-07.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.77, 0.81, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.77, 0.81, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Sprite/icon_icloud.asset",
+      "name": "icon_icloud",
+      "target": "Assets/Recovery/PenguinExtras/Fit_d218d886b4fe2f04b9daf56ab0e490de_flat-ui-mascots-07.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.79, 0.60, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.79, 0.60, 0.10)",
+      "stretch": false
+    },
+    {
+      "source": "Assets/Recovery/PenguinUi/IcePanel.asset",
+      "name": "IcePanel",
+      "target": "Assets/Recovery/PenguinExtras/Fit_1b704a94fa1474b83b764d5b5088b114_flat-ui-panel.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.48, 0.48, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.48, 0.48, 0.10)",
+      "stretch": true
+    },
+    {
+      "source": "Assets/Recovery/PenguinUi/IceFill.asset",
+      "name": "IceFill",
+      "target": "Assets/Recovery/PenguinExtras/Fit_768fce86e56bd42e3b002a25b33320e0_flat-ui-fill.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.48, 0.48, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.48, 0.48, 0.10)",
+      "stretch": true
+    },
+    {
+      "source": "Assets/Recovery/PenguinUi/IceOutline.asset",
+      "name": "IceOutline",
+      "target": "Assets/Recovery/PenguinExtras/Fit_2f9ef8a1853aa4308b4e789164d437cc_flat-ui-outline.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.48, 0.48, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.48, 0.48, 0.10)",
+      "stretch": true
+    },
+    {
+      "source": "Assets/Recovery/PenguinUi/IceCircle.asset",
+      "name": "IceCircle",
+      "target": "Assets/Recovery/PenguinExtras/Fit_6c683ba490bfe4a3ba156c0fceccd449_flat-ui-circle.asset",
+      "bounds": "Center: (0.00, 0.00, 0.00), Extents: (0.48, 0.48, 0.10)",
+      "replacementBounds": "Center: (0.00, 0.00, 0.00), Extents: (0.48, 0.48, 0.10)",
+      "stretch": true
+    }
+  ],
+  "textures": [
+    {
+      "source": "Assets/Texture2D/rvxhrapxg9rmr0d0n72a50m7hm.png",
+      "target": "Assets/Recovery/PenguinUi/IceStripe.asset"
+    }
+  ],
+  "totalSpriteBindings": 390,
+  "appIcons": [
+    "Assets/Recovery/PenguinExtras/flat-ui-app-iconTexture.asset"
+  ],
+  "productName": "企鹅破冰探险"
+}
