@@ -1,0 +1,34 @@
+{
+  "status": "completed",
+  "duration": 19.2,
+  "summary": {
+    "total": 3,
+    "passed": 0,
+    "failed": 3,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "PenguinThemeTests.NaturalCombatUsesPenguinAndIceWithoutFractureEffects",
+      "Status": "Failed",
+      "Duration": 7.0904995,
+      "Message": "SetUp : Unhandled log message: '[Exception] NullReferenceException: Object reference not set to an instance of an object'. Use UnityEngine.TestTools.LogAssert.Expect",
+      "StackTrace": "CatGunner.Recovery.PenguinBoneMotion.Configure (Cat cat, UnityEngine.Sprite sprite, UnityEngine.Sprite source, UnityEngine.SpriteRenderer target) (at Assets/Recovery/Scripts/PenguinBoneMotion.cs:61)\nCatGunner.Recovery.PenguinExpeditionTheme.Start () (at Assets/Recovery/Scripts/PenguinExpeditionTheme.cs:54)\n\n"
+    },
+    {
+      "FullName": "PenguinThemeTests.OriginalAnimatorMovesPenguinIdleAndWalkingPoseAndHonorsPause",
+      "Status": "Failed",
+      "Duration": 5.9010327,
+      "Message": "SetUp : Unhandled log message: '[Exception] NullReferenceException: Object reference not set to an instance of an object'. Use UnityEngine.TestTools.LogAssert.Expect",
+      "StackTrace": "CatGunner.Recovery.PenguinBoneMotion.Configure (Cat cat, UnityEngine.Sprite sprite, UnityEngine.Sprite source, UnityEngine.SpriteRenderer target) (at Assets/Recovery/Scripts/PenguinBoneMotion.cs:61)\nCatGunner.Recovery.PenguinExpeditionTheme.Start () (at Assets/Recovery/Scripts/PenguinExpeditionTheme.cs:54)\n\n"
+    },
+    {
+      "FullName": "PenguinThemeTests.TargetDeathPaysOnceAndThemeCanBeDisabled",
+      "Status": "Failed",
+      "Duration": 6.1843333,
+      "Message": "SetUp : Unhandled log message: '[Exception] NullReferenceException: Object reference not set to an instance of an object'. Use UnityEngine.TestTools.LogAssert.Expect",
+      "StackTrace": "CatGunner.Recovery.PenguinBoneMotion.Configure (Cat cat, UnityEngine.Sprite sprite, UnityEngine.Sprite source, UnityEngine.SpriteRenderer target) (at Assets/Recovery/Scripts/PenguinBoneMotion.cs:61)\nCatGunner.Recovery.PenguinExpeditionTheme.Start () (at Assets/Recovery/Scripts/PenguinExpeditionTheme.cs:54)\n\n"
+    }
+  ]
+}

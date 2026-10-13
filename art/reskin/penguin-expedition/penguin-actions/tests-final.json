@@ -1,0 +1,41 @@
+{
+  "status": "completed",
+  "duration": 33.73,
+  "summary": {
+    "total": 4,
+    "passed": 4,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "PenguinThemeTests.NaturalCombatUsesPenguinAndIceWithoutFractureEffects",
+      "Status": "Passed",
+      "Duration": 9.0200084,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PenguinThemeTests.PenguinIdleAndSideToSideWaddleMoveAndHonorPause",
+      "Status": "Passed",
+      "Duration": 10.8508497,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PenguinThemeTests.SuccessfulShotRecoilTriggersOnceAndReturnsToRest",
+      "Status": "Passed",
+      "Duration": 7.39758,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PenguinThemeTests.TargetDeathPaysOnceAndThemeCanBeDisabled",
+      "Status": "Passed",
+      "Duration": 6.426211,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

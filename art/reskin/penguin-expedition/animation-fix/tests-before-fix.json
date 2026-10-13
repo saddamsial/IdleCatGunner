@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "duration": 6.5,
+  "summary": {
+    "total": 1,
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "PenguinThemeTests.OriginalAnimatorMovesPenguinIdleAndWalkingPoseAndHonorsPause",
+      "Status": "Failed",
+      "Duration": 6.477628,
+      "Message": "  A flat static sprite cannot follow the original bone animation\n  Expected: not null\n  But was:  null\n",
+      "StackTrace": "at PenguinThemeTests+<OriginalAnimatorMovesPenguinIdleAndWalkingPoseAndHonorsPause>d__8.MoveNext () [0x0006b] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/PenguinThemeTests.cs:64\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    }
+  ]
+}

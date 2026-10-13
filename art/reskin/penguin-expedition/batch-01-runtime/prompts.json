@@ -1,0 +1,24 @@
+{
+  "penguin": "Edit this exact transparent penguin sprite. Remove the entire orange scarf, neck band, knot and all scarf tails, including the orange patch near right shoulder. Reconstruct the natural black/dark navy upper body and white chest beneath it. Keep the same cute squat penguin identity, orange beak and orange feet, pose looking up-right, flippers, eyes, flat cel shading, dark outline, exact canvas and overall body scale. No clothing, no accessories, no weapon. Preserve true transparent background. Change only scarf region and restore body under it.",
+  "ice": "Create ONE isolated sprite of a chunky blue ice pillar cluster for a mobile 2D cartoon game, on genuinely transparent background, square canvas, centered with clear margin. Reference is STYLE reference only: match its blue ice targets. One main tall irregular angular cyan-blue ice pillar with a smaller pillar at left and low crystal at right, snowy rounded cap, thick dark navy outline, flat cel shading with pale ice-blue front face, cyan midtone face and teal blue shaded side. Straight-on sprite view with a slight view of top planes as in an isometric mobile game, base visibly flat. Simple readable silhouette, big planes, cute soft corners. No ground shadow, no terrain, no text, no character, no trees. The pillar is intact (no cracks); game will add cracks procedurally. Fill roughly 75 percent of canvas height.",
+  "terrain": [
+    {
+      "name": "cliffUp",
+      "file": "cliff-up.png",
+      "transparent": true,
+      "prompt": "Edit this exact 2D game cliff tile into a glacier cliff tile. Preserve the EXACT whole silhouette, diagonal orientation, cropped edges, original transparency mask and proportions. Green grass plateau becomes pale icy snow with scalloped snow cap along cliff edge; all brown rock wall faces become flat cel-shaded cyan/blue glacier facets, dark navy outlines. Small grassy notch becomes pale ice. Keep original camera view and seamless tile geometry, no extra objects, no perspective change, no characters, no text. Output true transparent background where original is transparent. Clean rounded cartoon mobile-game art with broad flat color planes. Do not add a background."
+    },
+    {
+      "name": "cliffDown",
+      "file": "cliff-down.png",
+      "transparent": true,
+      "prompt": "Edit this exact 2D game cliff-edge tile into glacier ice. Preserve the EXACT original diagonal wall silhouette, all cut-off edges, original transparency mask and proportions. Brown rock becomes flat cel-shaded blue/cyan glacier facets, dark navy outlines; green patches become pale icy snow. Add only modest white snow caps along existing upper exposed ledges, preserving outline. Keep original seamless tile geometry and orientation. No additional scenery, no ground behind the transparent areas, no text. True transparent background outside original tile. Match cute flat 2D mobile-game art."
+    },
+    {
+      "name": "snowGround",
+      "file": "ground.png",
+      "transparent": false,
+      "prompt": "Edit this exact square seamless 2D game ground texture from pale green grass into quiet light blue-gray snow. Retain square full-bleed opaque tile format. Remove every grass tuft and replace with only sparse tiny irregular pale blue snowy scuffs. Base color should be pale desaturated ice blue approximately #d8eaf0. Very low contrast flat cartoon texture, almost uniform, repeatable on all four edges; no scenery, no cliffs, no horizon, no footprints trail, no character, no text, no border, no gradient vignette."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "duration": 14.29,
+  "summary": {
+    "total": 2,
+    "passed": 1,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "PenguinThemeTests.NaturalCombatUsesPenguinAndIceWithoutFractureEffects",
+      "Status": "Failed",
+      "Duration": 8.4058844,
+      "Message": "TearDown : Unhandled log message: '[Exception] MissingReferenceException: The object of type 'UnityEngine.SpriteRenderer' has been destroyed but you are still trying to access it.\nYour script should either check if it is null or you should not destroy the object.'. Use UnityEngine.TestTools.LogAssert.Expect",
+      "StackTrace": "UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/UnityEngineObject.bindings.cs:1111)\nUnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/BindingsHelpers.cs:61)\nUnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) (at <bb1a76fe3b594ec1901df841d117fe0b>:0)\nCatGunner.Recovery.PenguinExpeditionTheme.OnDisable () (at Assets/Recovery/Scripts/PenguinExpeditionTheme.cs:106)\n\n"
+    },
+    {
+      "FullName": "PenguinThemeTests.TargetDeathPaysOnceAndThemeCanBeDisabled",
+      "Status": "Passed",
+      "Duration": 5.8694639,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "duration": 13.31,
+  "summary": {
+    "total": 2,
+    "passed": 2,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "PenguinUiTests.ActualInputOpensEveryMainMenuOnceWithoutSpendingCurrency",
+      "Status": "Passed",
+      "Duration": 7.1689072,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PenguinUiTests.ThemePreservesEveryButtonBindingRectAndHitTargetAndRestoresOriginalArt",
+      "Status": "Passed",
+      "Duration": 6.118938,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "duration": 9.21,
+  "summary": {
+    "total": 1,
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "OriginalMobile69Tests.ActualSettingsLanguageChoiceChangesHudSettingsAndPersistsWithoutProgressLoss",
+      "Status": "Failed",
+      "Duration": 9.1854009,
+      "Message": "  (683.00, 967.83) hits=I2_txt(Outline)|Language_Btn|Panel|Background|Floating Joystick\n  Expected: same as <Language_Btn (UnityEngine.GameObject)>\n  But was:  null\n",
+      "StackTrace": "at OriginalMobile69Tests+<Click>d__10.MoveNext () [0x0026a] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMobile69Tests.cs:33\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    }
+  ]
+}

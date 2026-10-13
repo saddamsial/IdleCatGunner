@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "duration": 12.02,
+  "summary": {
+    "total": 2,
+    "passed": 0,
+    "failed": 2,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "PenguinThemeTests.DeathAwardsOnceAndReusedTargetResetsCracks",
+      "Status": "Failed",
+      "Duration": 6.403705,
+      "Message": "SetUp :   Penguin theme must be installed in playable scene\n  Expected: not null\n  But was:  null\n",
+      "StackTrace": "at PenguinThemeTests+<Setup>d__4.MoveNext () [0x000e2] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/PenguinThemeTests.cs:27\nat UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/EnumeratorHelper.cs:35\nat UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:155\n"
+    },
+    {
+      "FullName": "PenguinThemeTests.NaturalCombatShowsPenguinIceAndShardsThenCleansUp",
+      "Status": "Failed",
+      "Duration": 5.591671,
+      "Message": "SetUp :   Penguin theme must be installed in playable scene\n  Expected: not null\n  But was:  null\n",
+      "StackTrace": "at PenguinThemeTests+<Setup>d__4.MoveNext () [0x000e2] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/PenguinThemeTests.cs:27\nat UnityEngine.TestTools.EnumeratorHelper+<ProgressOnEnumerator>d__5.MoveNext () [0x00017] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/EnumeratorHelper.cs:35\nat UnityEngine.TestTools.BeforeAfterTestCommandBase`1+<ExecuteEnumerable>d__16[T].MoveNext () [0x00132] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:155\n"
+    }
+  ]
+}

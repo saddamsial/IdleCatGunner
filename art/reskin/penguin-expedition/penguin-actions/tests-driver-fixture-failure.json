@@ -1,0 +1,41 @@
+{
+  "status": "completed",
+  "duration": 33.07,
+  "summary": {
+    "total": 4,
+    "passed": 3,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "PenguinThemeTests.NaturalCombatUsesPenguinAndIceWithoutFractureEffects",
+      "Status": "Passed",
+      "Duration": 8.8058277,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PenguinThemeTests.PenguinIdleAndSideToSideWaddleMoveAndHonorPause",
+      "Status": "Failed",
+      "Duration": 10.5232444,
+      "Message": "  Expected: less than -0.0199999996f\n  But was:  0.0f\n",
+      "StackTrace": "at PenguinThemeTests+<PenguinIdleAndSideToSideWaddleMoveAndHonorPause>d__8.MoveNext () [0x00317] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/PenguinThemeTests.cs:82\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "PenguinThemeTests.SuccessfulShotRecoilTriggersOnceAndReturnsToRest",
+      "Status": "Passed",
+      "Duration": 7.2552475,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PenguinThemeTests.TargetDeathPaysOnceAndThemeCanBeDisabled",
+      "Status": "Passed",
+      "Duration": 6.4529394,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}
