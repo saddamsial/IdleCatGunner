@@ -1,0 +1,135 @@
+using System;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace CatGunner.Recovery
+{
+    // Optional visual theme. Combat, target colliders, rewards and save state are
+    // still owned by the existing game. No fracture or fragment effects.
+    [DefaultExecutionOrder(150)]
+    public sealed class PenguinExpeditionTheme : MonoBehaviour
+    {
+        public Sprite Penguin;
+        public Sprite[] Ice;
+        public Sprite SnowGround, GlacierUp, GlacierDown;
+        public SpriteRenderer Avatar {get;private set;}
+        private RecoveryForestClient client;
+        private Sprite[] originalTrees, originalGround;
+        private Sprite originalHero;
+        private Color originalHand;
+        private bool originalBodyEnabled;
+        private bool originalHandEnabled;
+        private SpriteRenderer shadow;
+        private readonly List<MapAppearance> maps=new List<MapAppearance>();
+        private readonly List<SpriteRenderer> faces=new List<SpriteRenderer>();
+        private readonly List<bool> faceEnabled=new List<bool>();
+        private readonly List<SpriteRenderer> outlines=new List<SpriteRenderer>();
+        private readonly List<Color> outlineColors=new List<Color>();
+        private readonly List<bool> outlineEnabled=new List<bool>();
+        private bool initialized;
+        private sealed class MapAppearance
+        {
+            public Map_Grid Map;
+            public Sprite[] Up,Down;
+            public Color[] Top;
+            public SpriteRenderer Under;
+            public Color UnderColor;
+            public Color[] UpColors,DownColors;
+        }
+        private void Start()
+        {
+            client=GetComponent<RecoveryForestClient>();
+            if(client==null||Penguin==null||Ice==null||Ice.Length==0||SnowGround==null||GlacierUp==null||GlacierDown==null)
+            {Debug.LogError("Penguin theme assets are incomplete",this);enabled=false;return;}
+            var forest=client.Forest;originalTrees=forest.Tree_sprites;originalGround=forest.Ground_sprite_list;
+            var body=client.Hero.skin_spriteRenderer;originalHero=body.sprite;originalBodyEnabled=body.enabled;originalHand=client.Hero.hand_spriteRenderer.color;
+            originalHandEnabled=client.Hero.hand_spriteRenderer.enabled;
+            foreach(var r in client.Hero.GetComponentsInChildren<SpriteRenderer>(true))
+            {
+                if(r.sprite!=null&&r.sprite.name=="face"){faces.Add(r);faceEnabled.Add(r.enabled);}
+                if(r.name=="hand_outlilne"){outlines.Add(r);outlineColors.Add(r.color);outlineEnabled.Add(r.enabled);}
+                if(r.name=="Shadow")shadow=r;
+            }
+            // Share the original body/weapon SortingGroup so the pistol draws
+            // in front of the new body, while its bone transforms remain intact.
+            var go=new GameObject("Penguin visual");go.transform.SetParent(body.transform,false);
+            Avatar=go.AddComponent<SpriteRenderer>();Avatar.sprite=Penguin;Avatar.sharedMaterial=body.sharedMaterial;Avatar.sortingLayerID=body.sortingLayerID;Avatar.sortingOrder=body.sortingOrder;
+            go.AddComponent<PenguinBoneMotion>().Configure(client.Hero,Penguin,originalHero,Avatar);
+            foreach(var map in forest.Map_Grid_list)
+            {
+                var under=Array.Find(map.GetComponentsInChildren<SpriteRenderer>(true),s=>s.name=="Under_sprite");
+                maps.Add(new MapAppearance{Map=map,Up=map.Border_Up_sprite_list,Down=map.Border_Down_sprite_list,Top=map.Upper_sprite_Color_list,Under=under,UnderColor=under!=null?under.color:Color.white,UpColors=Array.ConvertAll(map.Border_Up,r=>r.color),DownColors=Array.ConvertAll(map.Border_Down,r=>r.color)});
+            }
+            initialized=true;ApplyTerrain();ApplyHero();
+        }
+        private void OnEnable(){if(initialized){ApplyTerrain();Avatar.gameObject.SetActive(true);}}
+        private void ApplyHero()
+        {
+            var hero=client.Hero;hero.skin_spriteRenderer.sprite=Penguin;hero.skin_spriteRenderer.enabled=false;
+            hero.hand_spriteRenderer.color=new Color(.13f,.17f,.24f);
+            hero.hand_spriteRenderer.enabled=false;
+            foreach(var r in faces)if(r!=null)r.enabled=false;
+            foreach(var r in outlines)if(r!=null)r.enabled=false;
+            var camera=Camera.main;if(camera==null||shadow==null)return;
+            // The original bone renderer is parent of the weapon. Keep that whole
+            // hierarchy intact and render the new body independently in camera space.
+            var b=shadow.sprite.bounds;
+            float width=Mathf.Abs(Vector3.Dot(shadow.transform.TransformVector(Vector3.right*b.size.x),camera.transform.right))+Mathf.Abs(Vector3.Dot(shadow.transform.TransformVector(Vector3.up*b.size.y),camera.transform.right));
+            float height=width*1.12f;
+            Avatar.transform.rotation=camera.transform.rotation;
+            float scale=height/Penguin.bounds.size.y;
+            Avatar.transform.localScale=Vector3.one*(scale/Avatar.transform.parent.lossyScale.x);
+            Avatar.transform.position=shadow.bounds.center+camera.transform.up*(height*.5f+.08f);
+            if(hero.AttackTarget!=null)Avatar.flipX=camera.WorldToViewportPoint(hero.AttackTarget.transform.position).x<camera.WorldToViewportPoint(hero.transform.position).x;
+            else if(hero.rb.linearVelocity.sqrMagnitude>.01f)Avatar.flipX=camera.WorldToViewportPoint(hero.transform.position+hero.rb.linearVelocity).x<camera.WorldToViewportPoint(hero.transform.position).x;
+            Avatar.color=Color.white;
+        }
+        private void ApplyTerrain()
+        {
+            var forest=client.Forest;
+            forest.Tree_sprites=new Sprite[originalTrees.Length];
+            for(int i=0;i<forest.Tree_sprites.Length;i++)forest.Tree_sprites[i]=Ice[i%Ice.Length];
+            forest.Ground_sprite_list=new Sprite[originalGround.Length];
+            for(int i=0;i<forest.Ground_sprite_list.Length;i++)forest.Ground_sprite_list[i]=SnowGround;
+            forest.Ground_SpriteRenderer.sprite=SnowGround;
+            foreach(var tree in forest.Map_obj.GetComponentsInChildren<Tree>(true))
+            {
+                int degree=Array.IndexOf(originalTrees,tree.spriteRenderer.sprite);
+                if(degree>=0)tree.spriteRenderer.sprite=Ice[degree%Ice.Length];
+            }
+            foreach(var saved in maps)
+            {
+                var m=saved.Map;m.Border_Up_sprite_list=new Sprite[saved.Up.Length];m.Border_Down_sprite_list=new Sprite[saved.Down.Length];m.Upper_sprite_Color_list=new Color[saved.Top.Length];
+                for(int i=0;i<m.Border_Up_sprite_list.Length;i++)m.Border_Up_sprite_list[i]=GlacierUp;
+                for(int i=0;i<m.Border_Down_sprite_list.Length;i++)m.Border_Down_sprite_list[i]=GlacierDown;
+                for(int i=0;i<m.Upper_sprite_Color_list.Length;i++)m.Upper_sprite_Color_list[i]=new Color(.84f,.94f,.98f);
+                if(saved.Under!=null)saved.Under.color=new Color(.22f,.43f,.58f);
+                foreach(var r in m.Border_Up)r.color=Color.white;
+                foreach(var r in m.Border_Down)r.color=Color.white;
+                m.Reload(forest.Stage_Now%10);
+            }
+        }
+        private void LateUpdate(){if(initialized)ApplyHero();}
+        private void OnDisable()
+        {
+            if(!initialized)return;
+            if(Avatar!=null)Avatar.gameObject.SetActive(false);
+            // Scene teardown may destroy sibling renderers before this component.
+            if(client==null||client.Forest==null||client.Forest.Ground_SpriteRenderer==null||client.Hero==null||client.Hero.skin_spriteRenderer==null||client.Hero.hand_spriteRenderer==null)return;
+            client.Forest.Tree_sprites=originalTrees;client.Forest.Ground_sprite_list=originalGround;
+            client.Forest.Ground_SpriteRenderer.sprite=originalGround[client.Forest.Stage_Now%originalGround.Length];
+            foreach(var tree in client.Forest.Map_obj.GetComponentsInChildren<Tree>(true))
+            {
+                if(tree.spriteRenderer==null)continue;
+                int degree=Array.IndexOf(Ice,tree.spriteRenderer.sprite);
+                if(degree>=0)tree.spriteRenderer.sprite=originalTrees[(client.Forest.Stage_Now*4+degree)%originalTrees.Length];
+            }
+            client.Hero.skin_spriteRenderer.sprite=originalHero;client.Hero.skin_spriteRenderer.enabled=originalBodyEnabled;client.Hero.hand_spriteRenderer.color=originalHand;
+            client.Hero.hand_spriteRenderer.enabled=originalHandEnabled;
+            for(int i=0;i<faces.Count;i++)if(faces[i]!=null)faces[i].enabled=faceEnabled[i];
+            for(int i=0;i<outlines.Count;i++)if(outlines[i]!=null){outlines[i].color=outlineColors[i];outlines[i].enabled=outlineEnabled[i];}
+            foreach(var s in maps)
+            {if(s.Map==null||s.Map.Upper_sprite==null||Array.Exists(s.Map.Border_Up,r=>r==null)||Array.Exists(s.Map.Border_Down,r=>r==null))continue;s.Map.Border_Up_sprite_list=s.Up;s.Map.Border_Down_sprite_list=s.Down;s.Map.Upper_sprite_Color_list=s.Top;if(s.Under!=null)s.Under.color=s.UnderColor;for(int i=0;i<s.UpColors.Length;i++)s.Map.Border_Up[i].color=s.UpColors[i];for(int i=0;i<s.DownColors.Length;i++)s.Map.Border_Down[i].color=s.DownColors[i];s.Map.Reload(client.Forest.Stage_Now%10);}
+        }
+    }
+}
