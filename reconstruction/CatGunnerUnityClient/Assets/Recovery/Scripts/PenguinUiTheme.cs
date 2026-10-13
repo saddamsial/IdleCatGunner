@@ -21,6 +21,8 @@ public sealed class PenguinUiTheme : MonoBehaviour
     private readonly Dictionary<Sprite, Sprite> replacements = new Dictionary<Sprite, Sprite>();
     private readonly Dictionary<Material, Material> textMaterials = new Dictionary<Material, Material>();
     private readonly Dictionary<TextMeshProUGUI, string[]> themedText = new Dictionary<TextMeshProUGUI, string[]>();
+    private readonly HashSet<Transform> headerRoots = new HashSet<Transform>();
+    private Transform canvasRoot;
     private Image[] images;
     private TextMeshProUGUI[] texts;
     private RecoveryForestClient client;
@@ -30,6 +32,11 @@ public sealed class PenguinUiTheme : MonoBehaviour
     public static Color Navy => new Color32(24, 62, 90, 255);
     public static Color Ice => new Color32(215, 242, 251, 255);
     public static Color Blue => new Color32(53, 169, 223, 255);
+    public static Color TextInk => new Color32(37, 83, 115, 255);
+    public static Color MutedInk => new Color32(58, 98, 128, 255);
+    public static Color DisabledInk => new Color32(180, 210, 227, 255);
+    public static Color ProgressBlue => new Color32(34, 121, 165, 255);
+    public static Color HeaderBlue => new Color32(43, 109, 143, 255);
     public static Color Orange => new Color32(255, 178, 76, 255);
 
     private void Start() => Apply();
@@ -39,6 +46,7 @@ public sealed class PenguinUiTheme : MonoBehaviour
         if (applied || Panel == null) return;
         client = GetComponent<RecoveryForestClient>();
         var canvas = client.Slider.GetComponentInParent<Canvas>();
+        canvasRoot = canvas.transform;
         images = canvas.GetComponentsInChildren<Image>(true);
         foreach (var component in canvas.GetComponentsInChildren<MonoBehaviour>(true))
         {
@@ -88,7 +96,7 @@ public sealed class PenguinUiTheme : MonoBehaviour
         {
             var sprite = graphic.sprite; var color = graphic.color;
             restore.Add(() => { if (graphic != null) { graphic.sprite = sprite; graphic.color = color; } });
-            graphic.sprite = Fill; graphic.color = Palette(color);
+            graphic.sprite = Fill; graphic.color = ProgressColor(color);
         }
         foreach (var graphic in canvas.GetComponentsInChildren<RawImage>(true))
         {
@@ -97,6 +105,7 @@ public sealed class PenguinUiTheme : MonoBehaviour
             if (texture != null && !(texture is RenderTexture) && (texture.name == "Cat_Foot" || texture.name == "Field")) graphic.texture = SnowPattern;
             else if (texture != null && (texture.name == "Hatch" || texture.name == "Pattern")) graphic.texture = IceStripe;
             graphic.color = Palette(color);
+            if (graphic.GetComponentInParent<SlicedFilledImage>(true) != null) graphic.color = new Color(1, 1, 1, color.a * .18f);
         }
         texts = canvas.GetComponentsInChildren<TextMeshProUGUI>(true);
         foreach (var text in texts)
@@ -147,6 +156,18 @@ public sealed class PenguinUiTheme : MonoBehaviour
             var pointer=image.gameObject.AddComponent<PenguinGuidePointer>();pointer.Configure(image,Flipper,canvas);restore.Add(()=>{if(pointer!=null)Destroy(pointer);});
         }
         client.Slider.Hole_Color = new Color[] { new Color32(143, 194, 215, 255), Orange, Blue };
+        var pass = canvas.transform.Find("SafeArea/Mission_maanger/Mission_UI/Reward/Pass_Purchase_Btn") as RectTransform;
+        var scaler = canvas.GetComponent<CanvasScaler>();
+        if (pass != null && scaler != null)
+        {
+            var min = pass.anchorMin; var max = pass.anchorMax; var position = pass.anchoredPosition;
+            restore.Add(() => { if (pass != null) { pass.anchorMin = min; pass.anchorMax = max; pass.anchoredPosition = position; } });
+            // The original center-relative offset clips this action on tablets.
+            // Keep its portrait position, then let it follow the page's left edge.
+            var nextMin = min; var nextMax = max; nextMin.x = nextMax.x = 0;
+            var nextPosition = position; nextPosition.x += scaler.referenceResolution.x * min.x;
+            pass.anchorMin = nextMin; pass.anchorMax = nextMax; pass.anchoredPosition = nextPosition;
+        }
         applied = true;
         Canvas.willRenderCanvases += MaintainDynamicSprites;
     }
@@ -193,7 +214,39 @@ public sealed class PenguinUiTheme : MonoBehaviour
         { image.sprite = Penguin; image.preserveAspect = true; }
         else if (sprite != null && replacements.TryGetValue(sprite, out var replacement))
         { image.sprite = replacement; image.preserveAspect = true; }
+        else if (n.StartsWith("Common_Glow_Circle") || n == "grab2 1")
+            image.color = WithAlpha(Blue, image.color.a * .35f);
         else if (sprite == null || n == "Background" || n.StartsWith("Gradiann")) image.color = Palette(image.color);
+        StyleReadability(image, path, n);
+    }
+
+    private void StyleReadability(Image image, string path, string sourceName)
+    {
+        // Roles separate foreground, track and surface; hue mapping alone made
+        // experience fills and their tracks exactly the same lavender.
+        bool shape = image.sprite == Panel || image.sprite == Fill;
+        if (!shape) return;
+        bool track = image.GetComponent<Button>() == null &&
+            (image.name.EndsWith("Slider", StringComparison.Ordinal) ||
+             HasDirectFill(image.transform));
+        if (track) { image.color = WithAlpha(Ice, image.color.a); return; }
+        string name = image.name.ToLowerInvariant();
+        bool header = name == "top" || name == "topbar" || name == "title" || name == "titlebar" || sourceName.StartsWith("Title_Ribbon");
+        if (header)
+        {
+            image.color = WithAlpha(HeaderBlue, image.color.a); headerRoots.Add(image.transform);
+        }
+        else if (image.GetComponent<Button>() != null && image.GetComponentInParent<Mission_Item_UI>(true) != null && path.Contains("/GetAble_obj"))
+            image.color = WithAlpha(Orange, image.color.a);
+    }
+    private static bool HasDirectFill(Transform parent)
+    { foreach (Transform child in parent) if (child.GetComponent<SlicedFilledImage>() != null) return true; return false; }
+    private static Color WithAlpha(Color color, float alpha) { color.a = alpha; return color; }
+    private static Color ProgressColor(Color original)
+    {
+        // Health and unavailable sweep states keep their warning meaning.
+        bool warning = original.r > original.g * 1.4f && original.r > original.b * 1.4f;
+        return WithAlpha(warning ? new Color32(206, 81, 83, 255) : ProgressBlue, original.a);
     }
     private void MaintainDynamicSprites()
     {
@@ -202,32 +255,73 @@ public sealed class PenguinUiTheme : MonoBehaviour
         {
             if (image == null || !image.isActiveAndEnabled || image.sprite == null) continue;
             if (replacements.TryGetValue(image.sprite, out var replacement)) { image.sprite = replacement; image.preserveAspect = true; }
-            else if (IsPanel(image.sprite) && image.sprite != Panel && image.sprite != Fill && image.sprite != Outline) StyleImage(image, "");
+            else if (IsPanel(image.sprite) && image.sprite != Panel && image.sprite != Fill && image.sprite != Outline) StyleImage(image, PathOf(image.transform, canvasRoot));
         }
+    }
+    private void LateUpdate()
+    {
+        if (!applied) return;
+        // TMP rebuilds in the Canvas pre-render callback. Resolve locale/theme
+        // changes before that callback so a rendered frame never sees a cleared mesh.
         foreach (var text in texts)
         {
             if (text == null) continue;
             ThemeWording(text);
             if (!text.isActiveAndEnabled) continue;
             var original = text.fontSharedMaterial;
-            if (original == null || materials.Contains(original)) continue;
-            // Locale changes replace font materials through the original text adapter.
-            if (!textMaterials.TryGetValue(original, out var themed))
+            if (original == null) continue;
+            if (!materials.Contains(original))
             {
-                themed = new Material(original) { name = original.name + " Penguin UI" };
-                if (themed.HasProperty(ShaderUtilities.ID_OutlineColor)) themed.SetColor(ShaderUtilities.ID_OutlineColor, Navy);
-                textMaterials.Add(original, themed); materials.Add(themed);
+                // Locale changes replace font materials through the original text adapter.
+                if (!textMaterials.TryGetValue(original, out var themed))
+                {
+                    themed = new Material(original) { name = original.name + " Penguin UI" };
+                    if (themed.HasProperty(ShaderUtilities.ID_OutlineColor)) themed.SetColor(ShaderUtilities.ID_OutlineColor, Navy);
+                    textMaterials.Add(original, themed); materials.Add(themed);
+                }
+                text.fontSharedMaterial = themed;
             }
             bool outlined = original.HasProperty(ShaderUtilities.ID_OutlineWidth) && original.GetFloat(ShaderUtilities.ID_OutlineWidth) > .01f;
-            var color = text.color; text.fontSharedMaterial = themed;
-            text.color = TextColor(text, color, outlined);
+            var color = TextColor(text, text.color, outlined);
+            // Price/status controllers can assign colors without changing materials.
+            // Canonical colors are idempotent, so stable text does not rebuild.
+            if (text.color != color) text.color = color;
         }
     }
-    private static Color TextColor(TextMeshProUGUI text, Color color, bool outlined)
+    private Color TextColor(TextMeshProUGUI text, Color color, bool outlined)
     {
-        if (outlined && text.name.Contains("Price") && color.r < .5f && color.g < .5f && color.b < .5f) return new Color(1, 1, 1, color.a);
-        return !outlined && IsNearWhite(color) ? new Color(Navy.r, Navy.g, Navy.b, color.a) : Palette(color);
+        for (var t = text.transform.parent; t != null; t = t.parent)
+            if (headerRoots.Contains(t)) return WithAlpha(Color.white, color.a);
+        bool neutral = Mathf.Max(color.r, color.g, color.b) - Mathf.Min(color.r, color.g, color.b) < .08f;
+        bool muted = neutral && !IsNearWhite(color) || SameRgb(color, MutedInk) || SameRgb(color, DisabledInk) || SameRgb(color, new Color32(172, 202, 217, 255));
+        if (outlined)
+        {
+            if (muted) return WithAlpha(DisabledInk, color.a);
+            if (color.r < .5f && color.g < .5f && color.b < .5f) return WithAlpha(Color.white, color.a);
+            return IsThemeAccent(color) ? color : Palette(color);
+        }
+        bool dark = HasDarkSurface(text.transform.parent);
+        if (muted) return WithAlpha(dark ? DisabledInk : MutedInk, color.a);
+        if (dark) return WithAlpha(Ice, color.a);
+        if (color.r > .55f && color.g < .5f && color.r > color.g * 1.4f && color.r > color.b * 1.4f)
+            return WithAlpha(new Color32(173, 68, 75, 255), color.a);
+        if (SameRgb(color, new Color32(30, 108, 147, 255)) || color.b > color.r * 1.4f && color.g > color.r * 1.4f && color.b > .6f && !SameRgb(color, Ice))
+            return WithAlpha(new Color32(30, 108, 147, 255), color.a);
+        return WithAlpha(TextInk, color.a);
     }
+    private bool HasDarkSurface(Transform start)
+    {
+        for (var t = start; t != null && t != canvasRoot; t = t.parent)
+        {
+            var image = t.GetComponent<Image>();
+            if (image != null && image.color.a > .75f && (image.sprite == Panel || image.sprite == Fill || image.sprite == null))
+                return image.color.grayscale < .5f;
+        }
+        return false;
+    }
+    private static bool SameRgb(Color a, Color b) => Mathf.Abs(a.r-b.r)<.002f && Mathf.Abs(a.g-b.g)<.002f && Mathf.Abs(a.b-b.b)<.002f;
+    private static bool IsThemeAccent(Color c) => IsNearWhite(c) || SameRgb(c, Ice) || SameRgb(c, Blue) || SameRgb(c, Orange) ||
+        SameRgb(c, new Color32(255,127,113,255)) || SameRgb(c, new Color32(137,154,219,255)) || SameRgb(c, new Color32(116,203,238,255));
     private void ThemeWording(TextMeshProUGUI text)
     {
         string source = text.text;
@@ -264,7 +358,7 @@ public sealed class PenguinUiTheme : MonoBehaviour
         foreach (var item in themedText) if (item.Key != null && item.Key.text == item.Value[1]) item.Key.text = item.Value[0];
         themedText.Clear();
         for (int i = restore.Count - 1; i >= 0; i--) restore[i]();
-        restore.Clear(); replacements.Clear(); textMaterials.Clear();
+        restore.Clear(); replacements.Clear(); textMaterials.Clear(); headerRoots.Clear();
         foreach (var material in materials) if (material != null) Destroy(material);
         materials.Clear(); applied = false; StyledImageCount = StyledTextCount = 0;
     }
