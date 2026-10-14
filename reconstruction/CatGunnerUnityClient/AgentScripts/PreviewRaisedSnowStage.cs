@@ -8,7 +8,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEditor;
 using UnityEditor.SceneManagement;
-using CatGunner.Recovery;
+using CatGunner.Runtime;
 
 public static class PreviewRaisedSnowStage
 {
@@ -16,15 +16,15 @@ public static class PreviewRaisedSnowStage
     public static string Prepare()
     {
         if(Application.isPlaying)throw new InvalidOperationException("Stop Play first.");
-        EditorSceneManager.OpenScene("Assets/Recovery/Scenes/RecoveredClient.unity");
-        var c=UnityEngine.Object.FindAnyObjectByType<RecoveryForestClient>(FindObjectsInactive.Include);
+        EditorSceneManager.OpenScene("Assets/Game/Scenes/GameClient.unity");
+        var c=UnityEngine.Object.FindAnyObjectByType<GameClient>(FindObjectsInactive.Include);
         SessionState.SetString("CatGunner.Recovery.TestHostFolder",Path.Combine(Application.temporaryCachePath,"RaisedSnowPreview-"+Guid.NewGuid().ToString("N")));
         c.Persist=false;EditorUtility.SetDirty(c);
         return "Isolated raised snow preview prepared; saved scene unchanged.";
     }
     public static string Capture()
     {
-        var c=RecoveryForestClient.Instance;
+        var c=GameClient.Instance;
         if(!Application.isPlaying||c.Persist||c.SaveFolderOverride==null||!c.SaveFolderOverride.Contains("RaisedSnowPreview"))throw new InvalidOperationException("Isolated preview required.");
         Directory.CreateDirectory(Dir);c.StartCoroutine(Run(c));return "Recording actual bounded camera and joystick movement.";
     }
@@ -35,7 +35,7 @@ public static class PreviewRaisedSnowStage
         texture.ReadPixels(new Rect(0,0,texture.width,texture.height),0,0);texture.Apply();File.WriteAllBytes(path,texture.EncodeToPNG());
         RenderTexture.active=previous;UnityEngine.Object.Destroy(texture);
     }
-    static IEnumerator Run(RecoveryForestClient c)
+    static IEnumerator Run(GameClient c)
     {
         while(!c.ReadyForPlay)yield return null;
         c.DailyLogin.AutoShow=false;c.DailyLogin.Close();c.Tutorial.SetCleared();
@@ -79,7 +79,7 @@ public static class PreviewRaisedSnowStage
     public static string Restore()
     {
         if(Application.isPlaying)throw new InvalidOperationException("Stop Play first.");
-        EditorSceneManager.OpenScene("Assets/Recovery/Scenes/RecoveredClient.unity");SessionState.EraseString("CatGunner.Recovery.TestHostFolder");
+        EditorSceneManager.OpenScene("Assets/Game/Scenes/GameClient.unity");SessionState.EraseString("CatGunner.Recovery.TestHostFolder");
         return "Saved raised snow scene restored and temporary test-host override cleared.";
     }
 }

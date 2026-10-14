@@ -1,0 +1,1946 @@
+[
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalBulletTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/BulletTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMissionTextTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/MissionTextTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMissionSortingTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/MissionSortingTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalExplosionTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/ExplosionTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMobilePresentationTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/MobilePresentationTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/RaisedSnowArenaTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/RaisedSnowArenaTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalRelicSkipTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/RelicSkipTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalStarGemPigTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/StarGemPigTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMobile75Tests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/Mobile75Tests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/PenguinFeedbackTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/PenguinFeedbackTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalWeaponStaticTextTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/WeaponStaticTextTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/PenguinFullReskinTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/PenguinFullReskinTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalStartupTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/StartupTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalSettingsTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/SettingsTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalOnboardingTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/OnboardingTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalBossBalanceTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/BossBalanceTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/PenguinPolarRingTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/PenguinPolarRingTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDetailHoldTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/DetailHoldTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalRaidHelperTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/RaidHelperTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMonsterTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/MonsterTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/StepUpRecoveryTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/StepUpRecoveryTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDiaPigTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/DiaPigTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalProgressionTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/ProgressionTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalSpeedRunSweepTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/SpeedRunSweepTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalWeeklyRaidTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/WeeklyRaidTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/SceneArchitectureTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/SceneArchitectureTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMissionNavigationTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/MissionNavigationTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalBuffPurchaseTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/BuffPurchaseTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/PlusPackRecoveryTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/PlusPackRecoveryTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/PenguinMovementBoundsTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/PenguinMovementBoundsTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalSkinTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/SkinTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalPenetratingTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/PenetratingTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalPetSpineTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/PetSpineTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/AutoChallengeRewardsTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/AutoChallengeRewardsTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalInventoryTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/InventoryTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMobile76Tests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/Mobile76Tests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalCurrencyFeedbackTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/CurrencyFeedbackTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalForestFeedbackTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/ForestFeedbackTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMineSweepTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/MineSweepTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalContentUnlockTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/ContentUnlockTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalSeasonPreviewTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/SeasonPreviewTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/CircularForestMapTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/CircularForestMapTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalTargetRotationTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/TargetRotationTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalBossSweepTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/BossSweepTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalBossTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/BossTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMovementTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/MovementTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/RecoveredUiAuthoringTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/UiAuthoringTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMonsterSweepTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/MonsterSweepTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalPlaytestUITests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/PlaytestUITests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMissionRejectionTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/MissionRejectionTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalSaveTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/SaveTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalTemporaryGunTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/TemporaryGunTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalSafeTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/SafeTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalStarTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/StarTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalSpeedRunTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/SpeedRunTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalAdventureTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/AdventureTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalAutoUpgradeTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/AutoUpgradeTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMergeTutorialTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/MergeTutorialTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalClientFlowTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/ClientFlowTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMobile72Tests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/Mobile72Tests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalHatchThicknessTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/HatchThicknessTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalRelicTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/RelicTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMobile73Tests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/Mobile73Tests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalPlayableRecoveryTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/PlayableClientTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalShotgunTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/ShotgunTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/RecoveryEditorDebugTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/EditorDebugTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalShortBuffTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/ShortBuffTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalCompanionStaticTextTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/CompanionStaticTextTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalCombatTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/CombatTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/PlaytestIssuesTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/PlaytestIssuesTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalAutoMoveTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/AutoMoveTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/PenguinPlaytestPolishTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/PenguinPlaytestPolishTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMissionPresentationTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/MissionPresentationTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalHatchFishFeedbackTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/HatchFishFeedbackTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalFishAndAutoMergeTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/FishAndAutoMergeTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/PenguinUiTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/PenguinUiTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalForestTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/ForestTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalRaidTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/RaidTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalEcoModeTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/EcoModeTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalEquipmentTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/EquipmentTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMineTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/MineTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMobile69Tests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/Mobile69Tests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalDailyCheckTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/DailyCheckTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalEnhancedRebirthTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/EnhancedRebirthTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalBalanceTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/BalanceTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/PenguinSpriteSkinTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/PenguinSpriteSkinTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalWeaponPresentationTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/WeaponPresentationTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/PenguinMusicTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/PenguinMusicTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/ContentNavigationFixture.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/ContentNavigationFixture.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalJoystickTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/JoystickTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMissileTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/MissileTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalModeTextTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/ModeTextTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalMobile70Tests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/Mobile70Tests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/PenguinThemeTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/PenguinThemeTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/PenguinActionTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/PenguinActionTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalRewardPresentationTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/RewardPresentationTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/PenguinUiReadabilityTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/PenguinUiReadabilityTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalPresentationTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/PresentationTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalSafeInventory.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/SafeInventory.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalShortBuffRules.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/ShortBuffRules.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinMergeSwitch.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinMergeSwitch.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinMovementBounds.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinMovementBounds.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryAdventurePreview.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/AdventurePreview.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalSpeedRunLayout.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/SpeedRunLayout.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinHoldingWing.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinHoldingWing.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Cat.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Cat.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalSeasonPreview.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/SeasonPreview.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalWeaponText.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/WeaponText.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_Pet_Slot.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Adventure_Pet_Slot.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_Exit_Panel.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Adventure_Exit_Panel.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Relic_manager.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Relic_manager.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Rebirth_Upgrade_Item.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Rebirth_Upgrade_Item.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryStarSuccessFeedback.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/StarSuccessFeedback.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalRelicRules.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/RelicRules.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Pet_Slot.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Pet_Slot.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/StarGem_Pig.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/StarGem_Pig.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Tree_SpeedRun.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Tree_SpeedRun.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_Ticket_UI.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Adventure_Ticket_UI.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Boss.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Boss.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Mission_Item_UI.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Mission_Item_UI.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_Start_UI.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Raid_Start_UI.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/AutoUpgrade_UI.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/AutoUpgrade_UI.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Gun_Info_UI.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Gun_Info_UI.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalBalanceCatalogue.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/BalanceCatalogue.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinUiTheme.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinUiTheme.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinTargetVariety.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinTargetVariety.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalStarRules.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/StarRules.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Offline_Panel_UI.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Offline_Panel_UI.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalAutoUpgradeRules.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/AutoUpgradeRules.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalAdventureRules.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/AdventureRules.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryLocalStore.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/LocalStore.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalDiamondReward.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/DiamondReward.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryDiamondParticles.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/DiamondParticles.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/WeeklyShop.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/WeeklyShop.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinSceneryFacing.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinSceneryFacing.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/ForestCombatAcceptance.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/ForestCombatAcceptance.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Setting.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Setting.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalEquipmentCatalogue.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/EquipmentCatalogue.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalProgressionCatalogue.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/ProgressionCatalogue.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinOfferCard.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinOfferCard.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryAutomaticUpgrade.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/AutomaticUpgrade.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Skin_Item_UI.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Skin_Item_UI.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryUiAuthoring.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/UiAuthoring.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalModeText.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/ModeText.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_Reward_popup.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Adventure_Reward_popup.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Rebirth_FX.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Rebirth_FX.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalLocalPurchases.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/LocalPurchases.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Cat_manager.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Cat_manager.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Tree_manager.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Tree_manager.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Safe_manager.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Safe_manager.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinDegreeGroundRing.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinDegreeGroundRing.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Skin_Info_UI.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Skin_Info_UI.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/StepUp_Item_UI.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/StepUp_Item_UI.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinPetMotion.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinPetMotion.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Menu_Btn.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Menu_Btn.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/SpeedRun_manager.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/SpeedRun_manager.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Gun_Info.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Gun_Info.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Currency_PetCoin.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Currency_PetCoin.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinExpeditionTheme.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinExpeditionTheme.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryLocalPurchaseButton.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/LocalPurchaseButton.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Tree.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Tree.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/StepUp_Banner.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/StepUp_Banner.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_manager.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Raid_manager.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryRebirthConfirmation.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/RebirthConfirmation.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/DamageTextAnimationSetting.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/DamageTextAnimationSetting.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinBoneMotion.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinBoneMotion.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Pet_Ingame_manager.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Pet_Ingame_manager.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/StarUpgrade_manager.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/StarUpgrade_manager.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryWeeklyUiTween.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/WeeklyUiTween.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Mission_Reward_Item.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Mission_Reward_Item.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalForestRules.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/ForestRules.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalRaidRules.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/RaidRules.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_Map_item.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Adventure_Map_item.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Pet_Info_UI.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Pet_Info_UI.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_Boss.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Raid_Boss.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinFeedbackBootstrap.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinFeedbackBootstrap.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Gun_Item_Demo.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Gun_Item_Demo.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryTutorialPulse.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/TutorialPulse.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinGuidePointer.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinGuidePointer.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryWeaponTextStyle.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/WeaponTextStyle.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalSaveData.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/SaveData.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalMineTickets.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/MineTickets.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/CatCombat.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/CatCombat.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryTargetRotation.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/TargetRotation.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Dia_Attraction.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Dia_Attraction.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Gun_Item.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Gun_Item.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Fish_Item.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Fish_Item.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/NewSeason_UI.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/NewSeason_UI.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryRewardFeedback.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/RewardFeedback.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Rebirth_Panel_UI.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Rebirth_Panel_UI.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinLoadingMascot.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinLoadingMascot.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinCatalogActor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinCatalogActor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Pet_manager.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Pet_manager.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/StepUp_Hud.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/StepUp_Hud.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Mine_Start_UI.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Mine_Start_UI.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Contents_Unlock_manager.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Contents_Unlock_manager.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinExpression.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinExpression.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinModePaletteBindings.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinModePaletteBindings.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryForestClient.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/GameClient.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_GunSlot.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Raid_GunSlot.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinPanelBorder.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinPanelBorder.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalSaveArchive.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/SaveArchive.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Ore.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Ore.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinActionAssets.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinActionAssets.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinModalLayer.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinModalLayer.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Upgrade_Ingame.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Upgrade_Ingame.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/SnowFootprintTrail.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/SnowFootprintTrail.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Monster_manager.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Monster_manager.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/CatMissile.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/CatMissile.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryEcoTween.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/EcoTween.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalMonsterRules.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/MonsterRules.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Currency.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Currency.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Monster_Start_UI.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Monster_Start_UI.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalSpeedRunSweepRules.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/SpeedRunSweepRules.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinModePalette.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinModePalette.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/SpeedRun_Start_UI.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/SpeedRun_Start_UI.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalNumberText.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/NumberText.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalRaidHelperRules.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/RaidHelperRules.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/NewGun_UI.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/NewGun_UI.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryLanguage.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Language.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_Mission_manager.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Raid_Mission_manager.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryModePresentation.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/ModePresentation.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryClientPresentation.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/ClientPresentation.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Boss_Start_UI.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Boss_Start_UI.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/ForestRuntimeAcceptance.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/ForestRuntimeAcceptance.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Skin_manager.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Skin_manager.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OfflineProgressManager.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/OfflineProgressManager.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/StarUpgrade_popup.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/StarUpgrade_popup.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Boss_manager.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Boss_manager.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Gun_Item_Collection.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Gun_Item_Collection.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryRewardedAds.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/RewardedAds.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_Enter_popup.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Adventure_Enter_popup.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/DailyGun.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/DailyGun.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_PetSelect_Slot.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Adventure_PetSelect_Slot.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalTemporaryGun.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/TemporaryGun.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/StepUp_popup.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/StepUp_popup.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/ForestMovementAcceptance.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/ForestMovementAcceptance.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Enemy.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Enemy.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Bullet.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Bullet.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Tree_Grid.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Tree_Grid.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryMobileViewport.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/MobileViewport.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_Ingame_UI.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Raid_Ingame_UI.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryMobilePerformance.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/MobilePerformance.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalGunInventory.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/GunInventory.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Buff_Panel.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Buff_Panel.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Fish_manager.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Fish_manager.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_PetSelect_popup.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Adventure_PetSelect_popup.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinTeammateAnchor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinTeammateAnchor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/DailyCheck.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/DailyCheck.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/CircularArenaCamera.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/CircularArenaCamera.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Fish_Draw_Btn.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Fish_Draw_Btn.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalMonsterSweepRules.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/MonsterSweepRules.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinPlaytestPolish.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinPlaytestPolish.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Pet_Item_Demo.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Pet_Item_Demo.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/CatAutoMovement.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/CatAutoMovement.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalMineLayout.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/MineLayout.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Gun_manager.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Gun_manager.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/ForestDamageDispatch.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/ForestDamageDispatch.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalPetInventory.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PetInventory.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalBossSweepRules.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/BossSweepRules.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinPetPreview.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinPetPreview.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Menu.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Menu.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalOfflineSimulation.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/OfflineSimulation.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Safe_UI.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Safe_UI.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Mission_manager.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Mission_manager.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalStarGemPig.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/StarGemPig.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryEditorDebug.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/GameDebugTools.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalMissionText.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/MissionText.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/CatShotgun.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/CatShotgun.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalCompanionStaticText.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/CompanionStaticText.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/CatMonsterMovement.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/CatMonsterMovement.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinModeViewport.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinModeViewport.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalMissionFeedback.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/MissionFeedback.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryDamageTextPresenter.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/DamageTextPresenter.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_Panel.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Adventure_Panel.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinFullReskin.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinFullReskin.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalRebirth.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Rebirth.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/DiaPig.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/DiaPig.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryAutoMergeAccess.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/AutoMergeAccess.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_manager.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Adventure_manager.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Gun_Slot.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Gun_Slot.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalRemainingUIExt.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/RemainingUIExt.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalMissions.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Missions.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalStepUpOffer.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/StepUpOffer.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryRewardRotation.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/RewardRotation.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/CircularSnowTerrain.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/CircularSnowTerrain.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Monster.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Monster.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Adventure_Map_info_item.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Adventure_Map_info_item.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Boss_Slider.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Boss_Slider.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinIconSize.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinIconSize.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinPolarRing.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinPolarRing.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/RecoveryPlusPackItem.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PlusPackItem.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Raid_HelperSlot.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Raid_HelperSlot.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Buff_manager.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Buff_manager.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Relic_Info_UI.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Relic_Info_UI.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Mine_manager.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Mine_manager.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/PenguinFishSwim.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/PenguinFishSwim.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalSkinRules.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/SkinRules.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalDiaPigCounter.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/DiaPigCounter.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Tutorial_manager.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Tutorial_manager.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/StepUp.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/StepUp.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalWeaponStaticText.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/WeaponStaticText.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/CircularForestMap.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/CircularForestMap.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/OriginalFishRules.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/FishRules.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Scripts/Rebirth_manager.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Runtime/Rebirth_manager.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/PackageEquipmentPreview.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/PackageEquipmentPreview.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/RecoveryEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/GameProjectEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/ProgressionNavEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/ProgressionNavEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/ContinuousAttackPreview.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/ContinuousAttackPreview.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/ForestClientPreview.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/ForestClientPreview.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/StarClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/StarClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/RecoveryEditorDebugWindow.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/GameDebugWindow.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/ForestMovementEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/ForestMovementEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/ForestShotgunEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/ForestShotgunEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/MineClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/MineClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/AutoUpgradeClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/AutoUpgradeClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/ProgressionDependencyEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/ProgressionDependencyEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/OfflineClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/OfflineClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/ContentUnlockClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/ContentUnlockClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/MergeTutorialClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/MergeTutorialClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/ForestPenetratingEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/ForestPenetratingEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/ShortBuffClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/ShortBuffClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/RelicClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/RelicClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/RaidHelperClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/RaidHelperClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/ProgressionClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/ProgressionClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/RewardPresentationClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/RewardPresentationClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/MonsterClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/MonsterClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/DailyCheckClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/DailyCheckClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/CatGunnerProgressionPreview.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/CatGunnerProgressionPreview.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/ChallengeMaterialRepairEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/ChallengeMaterialRepairEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/ForestCombatEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/ForestCombatEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/InventoryClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/InventoryClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/ForestExplosionEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/ForestExplosionEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/PenguinSpriteSkinTestRecorder.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/PenguinSpriteSkinTestRecorder.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/ForestBulletEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/ForestBulletEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/AutoMovePreview.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/AutoMovePreview.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/StarGemPigClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/StarGemPigClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/ExplosionPreview.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/ExplosionPreview.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/MissilePreview.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/MissilePreview.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/PlaytestUIPresentationEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/PlaytestUIPresentationEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/AdventureClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/AdventureClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/MissionPresentationClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/MissionPresentationClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/PlaytestIssuesClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/PlaytestIssuesClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/BossClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/BossClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/StepUpClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/StepUpClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/PetPresentationClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/PetPresentationClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/WeeklyRaidClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/WeeklyRaidClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/EcoSettingsClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/EcoSettingsClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/SpeedRunClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/SpeedRunClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/ProjectileHitPreview.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/ProjectileHitPreview.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/SkinClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/SkinClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/DiaPigClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/DiaPigClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/SafeClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/SafeClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/RaidClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/RaidClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/RecoveredUiAuthoringEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/UiAuthoringEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/ShotgunPreview.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/ShotgunPreview.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/ProgressionActivationEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/ProgressionActivationEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/PenguinModePaletteEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/PenguinModePaletteEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/ForestClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/ForestClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/ForestFeedbackEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/ForestFeedbackEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/ForestMissileEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/ForestMissileEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/FishClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/FishClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/SharedUIClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/SharedUIClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/OnboardingClientEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/OnboardingClientEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/ForestEquipmentEditor.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/ForestEquipmentEditor.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/Assets/Recovery/Editor/PenetratingPreview.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/Assets/Game/Editor/PenetratingPreview.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/ModeUiV3Audit.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/ModeUiV3Audit.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewSnowStage.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewSnowStage.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewPenguinFeedbackFinal.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewPenguinFeedbackFinal.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewPenguinUi.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewPenguinUi.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/AuditUiReadability.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/AuditUiReadability.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/CaptureChallengeGuideV8.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/CaptureChallengeGuideV8.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/CapturePlaytestPolish.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/CapturePlaytestPolish.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallPenguin.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallPenguin.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewBordersV9.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewBordersV9.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/VerifyUiAuthoring.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/VerifyUiAuthoring.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectPenguin.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectPenguin.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectPenguinSpriteSkin.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectPenguinSpriteSkin.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallModeUi.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallModeUi.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewNaturalSnowPlatform.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewNaturalSnowPlatform.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/AuditPolishV5.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/AuditPolishV5.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/CapturePolishViewport.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/CapturePolishViewport.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/ModeUiV2Refine.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/ModeUiV2Refine.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/BindPenguinSpriteSkin.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/BindPenguinSpriteSkin.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/FinalizeUiAuthoring.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/FinalizeUiAuthoring.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/CaptureChallengeBordersV9.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/CaptureChallengeBordersV9.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/ModeUiV3PaletteCheck.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/ModeUiV3PaletteCheck.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/VerifyOriginalBgmV5.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/VerifyOriginalBgmV5.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectPenguinHandoff.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectPenguinHandoff.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewPenguinAnimation.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewPenguinAnimation.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/CaptureGuideDiagonalDemo.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/CaptureGuideDiagonalDemo.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectUiLayering.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectUiLayering.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/ModeUiV3MineRefine.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/ModeUiV3MineRefine.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectPenguinRig.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectPenguinRig.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/ModeUiV3Install.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/ModeUiV3Install.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/ModeUiV2Icons.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/ModeUiV2Icons.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/FinalizePenguin.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/FinalizePenguin.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallPenguinActionsV2.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallPenguinActionsV2.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectPlaytestPolish.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectPlaytestPolish.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/VerifyUiLayeringPlay.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/VerifyUiLayeringPlay.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/RenderDegreeFxFixture.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/RenderDegreeFxFixture.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewPolarRing.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewPolarRing.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallPolishV5.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallPolishV5.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallPenguinFull.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallPenguinFull.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewPenguinFaces.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewPenguinFaces.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectArenaCamera.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectArenaCamera.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewPenguin.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewPenguin.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/CaptureWaveRadius.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/CaptureWaveRadius.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewPenguinFull.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewPenguinFull.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewPenguinAudit.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewPenguinAudit.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/PersistUiReferences.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/PersistUiReferences.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallPenguinExtras.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallPenguinExtras.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectPenguinMovementBounds.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectPenguinMovementBounds.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/ReadV5State.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/ReadV5State.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectPenguinFull.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectPenguinFull.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewPenguinSmoothWin.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewPenguinSmoothWin.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/VerifyBuffMascotsV10.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/VerifyBuffMascotsV10.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewCircularStage.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewCircularStage.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/AuditPenguinRemainder.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/AuditPenguinRemainder.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewDegreeFx.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewDegreeFx.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/PersistStartupHudInput.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/PersistStartupHudInput.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/CapturePlaytestV5.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/CapturePlaytestV5.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/BakeRecoveredUi.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/BakeRecoveredUi.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/UiAuthoringSnapshot.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/UiAuthoringSnapshot.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/SetupUiLayeringPreview.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/SetupUiLayeringPreview.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/ModeUiV3Preview.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/ModeUiV3Preview.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallNaturalSnowPlatform.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallNaturalSnowPlatform.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewPenguinActions.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewPenguinActions.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/AuditUiLayeringFinal.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/AuditUiLayeringFinal.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectLivePenguinParticles.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectLivePenguinParticles.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallDegreeFx.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallDegreeFx.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/CompleteV5Preview.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/CompleteV5Preview.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectPenguinAnimation.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectPenguinAnimation.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/AuditFeedback.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/AuditFeedback.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectFeedback.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectFeedback.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/VerifyPlaytestPolish.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/VerifyPlaytestPolish.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/AuditOriginalStyleAudioV3.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/AuditOriginalStyleAudioV3.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectCircularStage.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectCircularStage.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/VerifyDegreeShadowV2.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/VerifyDegreeShadowV2.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/ModeUiV2Palette.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/ModeUiV2Palette.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectRemainingEffects.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectRemainingEffects.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallPlaytestPolish.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallPlaytestPolish.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/RestoreApprovedIce.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/RestoreApprovedIce.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/CompleteV8Preview.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/CompleteV8Preview.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/VerifyPolishV5.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/VerifyPolishV5.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallPolarRing.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallPolarRing.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/ReadPolishV8.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/ReadPolishV8.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/RunWaveRadiusTests.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/RunWaveRadiusTests.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/ModeUiV3Finish.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/ModeUiV3Finish.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/AuditAuthoredUi.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/AuditAuthoredUi.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/ModeUiPreview.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/ModeUiPreview.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectMissionV5.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectMissionV5.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/RestorePetEntry.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/RestorePetEntry.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/RefineModeLabels.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/RefineModeLabels.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/AuditPenguinRemaining.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/AuditPenguinRemaining.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallCircularStage.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallCircularStage.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallPenguinFlatCatalogue.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallPenguinFlatCatalogue.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectWeaponVfx.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectWeaponVfx.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/AuditBasicSfxV6.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/AuditBasicSfxV6.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallPenguinUi.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallPenguinUi.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/AuditModeUi.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/AuditModeUi.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/AuditDegreeFx.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/AuditDegreeFx.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/CompleteModeUi.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/CompleteModeUi.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallModeViewport.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallModeViewport.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/ModeUiV2Preview.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/ModeUiV2Preview.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/CaptureGuideDemo.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/CaptureGuideDemo.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectPenguinUi.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectPenguinUi.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectSnowStage.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectSnowStage.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewPenguinUiSizes.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewPenguinUiSizes.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/VerifyNaturalSnowPlatform.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/VerifyNaturalSnowPlatform.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/CompareDegree10Trail.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/CompareDegree10Trail.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallFeedback.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallFeedback.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/AuditPenguinAudio.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/AuditPenguinAudio.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectPenguinParticleDetails.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InspectPenguinParticleDetails.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/StartSfxAudition.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/StartSfxAudition.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/ExportPenguinFeedback.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/ExportPenguinFeedback.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallCircularRaidGround.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallCircularRaidGround.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/CompleteAuthoredUi.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/CompleteAuthoredUi.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/VerifyBgmPackV4.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/VerifyBgmPackV4.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/FixUiLayering.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/FixUiLayering.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallPenguinMusic.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/InstallPenguinMusic.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewUiReadability.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewUiReadability.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/CaptureBordersGuideV9.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/CaptureBordersGuideV9.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewRaisedSnowStage.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewRaisedSnowStage.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewFeedback.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/PreviewFeedback.cs"
+  },
+  {
+    "source": "reconstruction/CatGunnerUnityClient/AgentScripts/CaptureChallengeGuide.cs",
+    "destination": "reconstruction/CatGunnerUnityClient/AgentScripts/CaptureChallengeGuide.cs"
+  }
+]

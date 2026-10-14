@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "command": "command run_script",
+  "data": {
+    "command": "run_script",
+    "parameters": {
+      "entry": "CleanDeadButtonTargets.Run",
+      "file": "/tmp/CleanDeadButtonTargets.cs"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 91,
+      "executeMs": 4827,
+      "assemblyName": "PipelineRunScript_CleanDeadButtonTargets_63d3535848564c0c9276b3e971f26e58",
+      "success": true,
+      "result": "Removed active callbacks with null targets: 8"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

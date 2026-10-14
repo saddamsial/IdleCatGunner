@@ -1,0 +1,71 @@
+{
+  "success": false,
+  "command": "recompile",
+  "data": {
+    "status": "completed",
+    "compiling": false,
+    "failed": true,
+    "compilationFailed": true,
+    "errors": [
+      {
+        "type": "compile-error",
+        "raw": "Assets/Game/Editor/GameProjectEditor.cs(94,61): error CS1729: 'GameProjectEditor.Bounds' does not contain a constructor that takes 2 arguments",
+        "file": "Assets/Game/Editor/GameProjectEditor.cs",
+        "line": 94,
+        "column": 61,
+        "code": "CS1729",
+        "message": "'GameProjectEditor.Bounds' does not contain a constructor that takes 2 arguments"
+      },
+      {
+        "type": "compile-error",
+        "raw": "Assets/Game/Tests/PlayMode/BulletTests.cs(11,44): error CS0119: 'BulletTests.Amount(int)' is a method, which is not valid in the given context",
+        "file": "Assets/Game/Tests/PlayMode/BulletTests.cs",
+        "line": 11,
+        "column": 44,
+        "code": "CS0119",
+        "message": "'BulletTests.Amount(int)' is a method, which is not valid in the given context"
+      },
+      {
+        "type": "compile-error",
+        "raw": "Assets/Game/Tests/PlayMode/CombatTests.cs(13,46): error CS0119: 'CombatTests.Amount(int)' is a method, which is not valid in the given context",
+        "file": "Assets/Game/Tests/PlayMode/CombatTests.cs",
+        "line": 13,
+        "column": 46,
+        "code": "CS0119",
+        "message": "'CombatTests.Amount(int)' is a method, which is not valid in the given context"
+      },
+      {
+        "type": "compile-error",
+        "raw": "Assets/Game/Tests/PlayMode/ExplosionTests.cs(15,42): error CS0119: 'ExplosionTests.Amount(int)' is a method, which is not valid in the given context",
+        "file": "Assets/Game/Tests/PlayMode/ExplosionTests.cs",
+        "line": 15,
+        "column": 42,
+        "code": "CS0119",
+        "message": "'ExplosionTests.Amount(int)' is a method, which is not valid in the given context"
+      },
+      {
+        "type": "compile-error",
+        "raw": "Assets/Game/Tests/PlayMode/MissileTests.cs(14,42): error CS0119: 'MissileTests.Amount(int)' is a method, which is not valid in the given context",
+        "file": "Assets/Game/Tests/PlayMode/MissileTests.cs",
+        "line": 14,
+        "column": 42,
+        "code": "CS0119",
+        "message": "'MissileTests.Amount(int)' is a method, which is not valid in the given context"
+      },
+      {
+        "type": "compile-error",
+        "raw": "Assets/Game/Tests/PlayMode/PenetratingTests.cs(13,42): error CS0119: 'PenetratingTests.Amount(int)' is a method, which is not valid in the given context",
+        "file": "Assets/Game/Tests/PlayMode/PenetratingTests.cs",
+        "line": 13,
+        "column": 42,
+        "code": "CS0119",
+        "message": "'PenetratingTests.Amount(int)' is a method, which is not valid in the given context"
+      }
+    ],
+    "warnings": [],
+    "summary": {
+      "errors": 6,
+      "warnings": 0
+    }
+  }
+}

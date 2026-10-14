@@ -1,0 +1,17 @@
+{
+  "baselineSceneNodes": 39614,
+  "currentEditSceneNodes": 30771,
+  "removedSceneNodes": 8843,
+  "sceneNodeReductionPercent": 22.32,
+  "baselineSceneBytes": 499417942,
+  "currentSceneBytes": 72867821,
+  "prefabBytes": {
+    "reconstruction/CatGunnerUnityClient/Assets/Game/Resources/Gameplay/ProjectilePoolContent.prefab": 387823233,
+    "reconstruction/CatGunnerUnityClient/Assets/Game/Resources/UI/Draw_Info_UI.prefab": 49928,
+    "reconstruction/CatGunnerUnityClient/Assets/Game/Resources/UI/GunCollection_UI.prefab": 2370565,
+    "reconstruction/CatGunnerUnityClient/Assets/Game/Prefabs/Gameplay/PlayerTeam.prefab": 37884583
+  },
+  "deviceProfiled": false,
+  "frameRateImprovementMeasured": false,
+  "note": "Content moved to prefabs remains part of the game. Node reduction describes edit scene and unloaded optional pages; projectile pool capacity is preserved at runtime."
+}

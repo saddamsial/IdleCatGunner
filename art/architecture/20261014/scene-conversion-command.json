@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "command": "command run_script",
+  "data": {
+    "command": "run_script",
+    "parameters": {
+      "entry": "BuildSceneModules.Run",
+      "file": "/tmp/BuildSceneModules.cs"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 2677,
+      "executeMs": 14280,
+      "assemblyName": "PipelineRunScript_BuildSceneModules_5cad40c8b5bf451c83caff0b2825c0c0",
+      "success": true,
+      "result": "{\n  \"before\": 39614,\n  \"after\": 30771,\n  \"removed\": 8843,\n  \"roots\": [\n    \"World\",\n    \"Systems\",\n    \"UI\"\n  ],\n  \"prefabs\": [\n    \"Gameplay/ProjectilePoolContent\",\n    \"UI/Draw_Info_UI\",\n    \"UI/GunCollection_UI\",\n    \"PlayerTeam\"\n  ]\n}"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

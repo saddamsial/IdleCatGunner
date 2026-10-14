@@ -1,6 +1,6 @@
 using System.Linq;
 using UnityEngine;
-using CatGunner.Recovery;
+using CatGunner.Runtime;
 using UnityEditor;
 using UnityEditor.SceneManagement;
 public static class InspectArenaCamera
@@ -8,7 +8,7 @@ public static class InspectArenaCamera
     public static string VerifySaved()
     {
         var scene=EditorSceneManager.GetActiveScene();
-        var c=Object.FindAnyObjectByType<RecoveryForestClient>(FindObjectsInactive.Include);
+        var c=Object.FindAnyObjectByType<GameClient>(FindObjectsInactive.Include);
         var circle=c.Forest.GetComponent<CircularForestMap>();var terrain=c.Forest.GetComponent<CircularSnowTerrain>();
         var cam=Object.FindObjectsByType<Camera>(FindObjectsInactive.Include).First(x=>x.CompareTag("MainCamera"));
         var bounded=cam.GetComponentInParent<CircularArenaCamera>();
@@ -23,7 +23,7 @@ public static class InspectArenaCamera
     }
     public static string Read()
     {
-        var c=Object.FindAnyObjectByType<RecoveryForestClient>(FindObjectsInactive.Include);
+        var c=Object.FindAnyObjectByType<GameClient>(FindObjectsInactive.Include);
         var cam=Object.FindObjectsByType<Camera>(FindObjectsInactive.Include).First(x=>x.CompareTag("MainCamera"));
         var follow=cam.GetComponentInParent<Follow>();
         return Newtonsoft.Json.JsonConvert.SerializeObject(new{

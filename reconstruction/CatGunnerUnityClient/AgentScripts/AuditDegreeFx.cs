@@ -1,0 +1,16 @@
+using System;using System.IO;using System.Linq;using System.Collections.Generic;using UnityEngine;using UnityEditor;using CatGunner.Runtime;
+public static class AuditDegreeFx {
+ static string P(Transform t){return t.parent==null?t.name:P(t.parent)+"/"+t.name;}
+ public static object Run(){
+ if(Application.dataPath!="/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets")throw new Exception("Wrong project");
+ var dir=Path.GetFullPath(Application.dataPath+"/../../../art/reskin/penguin-expedition/degree-fx-v1");Directory.CreateDirectory(dir+"/original");
+ var all=UnityEngine.SceneManagement.SceneManager.GetActiveScene().GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<Transform>(true)).ToArray();
+ var full=UnityEngine.Object.FindAnyObjectByType<PenguinFullReskin>(FindObjectsInactive.Include);
+ var ps=all.Where(t=>P(t).Contains("Degree_FX")||P(t).Contains("Degree FX")).SelectMany(t=>t.GetComponents<Renderer>()).Distinct().ToArray();
+ var textures=new HashSet<Texture>();var sprites=new HashSet<Sprite>();
+ var items=ps.Select(r=>{var p=r.GetComponent<ParticleSystem>();var sr=r as SpriteRenderer;if(sr!=null&&sr.sprite!=null){sprites.Add(sr.sprite);textures.Add(sr.sprite.texture);}foreach(var m in r.sharedMaterials)if(m!=null&&m.mainTexture!=null)textures.Add(m.mainTexture);return new{path=P(r.transform),type=r.GetType().Name,sprite=sr!=null?AssetDatabase.GetAssetPath(sr.sprite):null,materials=r.sharedMaterials.Where(m=>m!=null).Select(m=>new{path=AssetDatabase.GetAssetPath(m),m.name,shader=m.shader.name,texture=AssetDatabase.GetAssetPath(m.mainTexture),scale=m.mainTextureScale.ToString(),offset=m.mainTextureOffset.ToString()}),sheet=p!=null?new{enabled=p.textureSheetAnimation.enabled,x=p.textureSheetAnimation.numTilesX,y=p.textureSheetAnimation.numTilesY,mode=p.GetComponent<ParticleSystemRenderer>().renderMode.ToString(),size=p.main.startSizeMultiplier}:null};}).ToArray();
+ foreach(var tex in textures){var rt=RenderTexture.GetTemporary(tex.width,tex.height,0,RenderTextureFormat.ARGB32);UnityEngine.Graphics.Blit(tex,rt);var old=RenderTexture.active;RenderTexture.active=rt;var image=new Texture2D(tex.width,tex.height,TextureFormat.RGBA32,false);image.ReadPixels(new Rect(0,0,tex.width,tex.height),0,0);image.Apply();File.WriteAllBytes(dir+"/original/"+tex.name.Replace('/','_')+".png",image.EncodeToPNG());RenderTexture.active=old;RenderTexture.ReleaseTemporary(rt);UnityEngine.Object.DestroyImmediate(image);}
+ var bindings=full.Sources.Select((s,i)=>new{source=s!=null?AssetDatabase.GetAssetPath(s):null,sourceName=s!=null?s.name:null,target=full.Replacements[i]!=null?AssetDatabase.GetAssetPath(full.Replacements[i]):null}).Where(x=>x.target!=null&&(x.target.Contains("effects-")||x.sourceName.ToLowerInvariant().Contains("shadow"))).ToArray();
+ File.WriteAllText(dir+"/audit.json",Newtonsoft.Json.JsonConvert.SerializeObject(new{playing=Application.isPlaying,items,bindings,textures=textures.Select(t=>new{t.name,path=AssetDatabase.GetAssetPath(t),t.width,t.height})},Newtonsoft.Json.Formatting.Indented));return new{count=items.Length,bindings, textures=textures.Select(t=>new{t.name,path=AssetDatabase.GetAssetPath(t),t.width,t.height})};
+ }
+}

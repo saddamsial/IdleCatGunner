@@ -1,8 +1,8 @@
 using System;using System.IO;using System.Linq;using System.Collections.Generic;
-using UnityEngine;using UnityEditor;using UnityEditor.SceneManagement;using CatGunner.Recovery;
+using UnityEngine;using UnityEditor;using UnityEditor.SceneManagement;using CatGunner.Runtime;
 public static class InstallPenguinExtras
 {
- const string Folder="Assets/Recovery/PenguinExtras/";
+ const string Folder="Assets/Game/PenguinExtras/";
  static string Dir=>Path.GetFullPath(Application.dataPath+"/../../../art/reskin/penguin-expedition/theme-audit");
  static readonly Dictionary<Texture2D,Texture2D> copies=new Dictionary<Texture2D,Texture2D>();
  static Texture2D Readable(Texture2D source)
@@ -38,8 +38,8 @@ public static class InstallPenguinExtras
  public static string Run()
  {
   if(Application.dataPath!="/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets"||EditorApplication.isPlaying)throw new Exception("Correct EditMode required");
-  var scene=EditorSceneManager.OpenScene("Assets/Recovery/Scenes/RecoveredClient.unity");AssetDatabase.Refresh();
-  var c=UnityEngine.Object.FindAnyObjectByType<RecoveryForestClient>(FindObjectsInactive.Include);var full=c.GetComponent<PenguinFullReskin>();var ui=c.GetComponent<PenguinUiTheme>();var snow=c.GetComponent<PenguinExpeditionTheme>().SnowGround;
+  var scene=EditorSceneManager.OpenScene("Assets/Game/Scenes/GameClient.unity");AssetDatabase.Refresh();
+  var c=UnityEngine.Object.FindAnyObjectByType<GameClient>(FindObjectsInactive.Include);var full=c.GetComponent<PenguinFullReskin>();var ui=c.GetComponent<PenguinUiTheme>();var snow=c.GetComponent<PenguinExpeditionTheme>().SnowGround;
   var cloud=Art("extras-cloud-save",Png("cloud-save",256));var app=Png("app-icon",1024);
   if(!File.Exists(Path.Combine(Dir,"backup/player-branding.json")))File.WriteAllText(Path.Combine(Dir,"backup/player-branding.json"),Newtonsoft.Json.JsonConvert.SerializeObject(new{PlayerSettings.productName,icons=PlayerSettings.GetIconsForTargetGroup(BuildTargetGroup.Unknown).Select(t=>t==null?null:AssetDatabase.GetAssetPath(t)).ToArray()},Newtonsoft.Json.Formatting.Indented));
   PlayerSettings.SetIconsForTargetGroup(BuildTargetGroup.Unknown,new[]{app});PlayerSettings.productName="企鹅破冰探险";
@@ -104,10 +104,10 @@ public static class InstallPenguinExtras
   }
   if(File.Exists(Folder+"guide-hand-v2.png"))
   {
-   for(int i=0;i<full.OriginalGlyphs.Length;i++)
+   for(int i=0;i<full.SourceGlyphs.Length;i++)
    {
     var source=full.ThemedGlyphs[i];var oldTexture=Readable((Texture2D)source.spriteSheet);var texture=new Texture2D(oldTexture.width,oldTexture.height,TextureFormat.RGBA32,false){name="FeedbackGlyph"+i,filterMode=FilterMode.Bilinear};texture.SetPixels(oldTexture.GetPixels());
-    foreach(var ch in full.OriginalGlyphs[i].spriteCharacterTable)
+    foreach(var ch in full.SourceGlyphs[i].spriteCharacterTable)
     {
      Sprite glyph=ch.name=="currency_dia_0"?ui.Coin:ch.name=="currency_dia_1"?full.Gems[0]:ch.name=="currency_0"?full.Gems[1]:ch.name=="Currency_SlotGem"?full.Icons[6]:null;if(glyph==null)continue;
      var rect=ch.glyph.glyphRect;var pixels=new Color[rect.width*rect.height];float scale=Mathf.Min((float)rect.width/glyph.texture.width,(float)rect.height/glyph.texture.height);float gw=glyph.texture.width*scale,gh=glyph.texture.height*scale;
@@ -119,9 +119,9 @@ public static class InstallPenguinExtras
    }
   }
   full.Sources=mapping.Keys.ToArray();full.Replacements=full.Sources.Select(s=>mapping[s]).ToArray();
-  full.OriginalTextures=new Texture[]{AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/Texture2D/rvxhrapxg9rmr0d0n72a50m7hm.png")};full.ThemedTextures=new Texture[]{ui.IceStripe};
-  full.PreserveOriginalRingStyle=true;EditorUtility.SetDirty(full);EditorSceneManager.MarkSceneDirty(scene);EditorSceneManager.SaveScene(scene);
-  File.WriteAllText(Path.Combine(Dir,"added-bindings.json"),Newtonsoft.Json.JsonConvert.SerializeObject(new{sprites=added,textures=full.OriginalTextures.Select((t,i)=>new{source=AssetDatabase.GetAssetPath(t),target=AssetDatabase.GetAssetPath(full.ThemedTextures[i])}),totalSpriteBindings=full.Sources.Length,appIcons=PlayerSettings.GetIconsForTargetGroup(BuildTargetGroup.Unknown).Select(AssetDatabase.GetAssetPath).ToArray(),PlayerSettings.productName},Newtonsoft.Json.Formatting.Indented));
+  full.SourceTextures=new Texture[]{AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/Texture2D/rvxhrapxg9rmr0d0n72a50m7hm.png")};full.ThemedTextures=new Texture[]{ui.IceStripe};
+  full.PreserveClassicRingStyle=true;EditorUtility.SetDirty(full);EditorSceneManager.MarkSceneDirty(scene);EditorSceneManager.SaveScene(scene);
+  File.WriteAllText(Path.Combine(Dir,"added-bindings.json"),Newtonsoft.Json.JsonConvert.SerializeObject(new{sprites=added,textures=full.SourceTextures.Select((t,i)=>new{source=AssetDatabase.GetAssetPath(t),target=AssetDatabase.GetAssetPath(full.ThemedTextures[i])}),totalSpriteBindings=full.Sources.Length,appIcons=PlayerSettings.GetIconsForTargetGroup(BuildTargetGroup.Unknown).Select(AssetDatabase.GetAssetPath).ToArray(),PlayerSettings.productName},Newtonsoft.Json.Formatting.Indented));
   foreach(var copy in copies.Values)UnityEngine.Object.DestroyImmediate(copy);copies.Clear();
   return "Installed flat cartoon UI with "+added.Count+" exact sprite bindings, 1 RawImage texture mapping, themed app icon and title. Native ring style restored; approved character animation preserved.";
  }

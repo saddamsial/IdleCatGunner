@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "if(UnityEditor.EditorApplication.isPlaying)throw new Exception(\"Tests still playing\");var host=System.IO.Path.Combine(Application.temporaryCachePath,\"ArchitectureTestHost-20261014\");if(UnityEditor.SessionState.GetString(\"CatGunner.Recovery.TestHostFolder\",\"\")==host)UnityEditor.SessionState.EraseString(\"CatGunner.Recovery.TestHostFolder\");PlayerPrefs.SetString(CatGunner.Runtime.Language.PreferenceKey,\"zh-CN\");CatGunner.Runtime.Language.ReloadPreference();var c=UnityEngine.Object.FindAnyObjectByType<CatGunner.Runtime.GameClient>();if(c!=null&&c.SaveFolderOverride==host)c.SaveFolderOverride=null;return \"Test isolation cleared; original language restored\";"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": "Test isolation cleared; original language restored"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,9 +1,9 @@
-using System;using System.Linq;using System.IO;using System.Collections;using UnityEngine;using CatGunner.Recovery;
+using System;using System.Linq;using System.IO;using System.Collections;using UnityEngine;using CatGunner.Runtime;
 public static class PreviewPolarRing
 {
  static string Dir=>Path.GetFullPath(Application.dataPath+"/../../../art/reskin/penguin-expedition/ring-v2/captures");
- public static string Capture(){var c=RecoveryForestClient.Instance;if(!Application.isPlaying||!c.SaveFolderOverride.Contains("PenguinPreview"))throw new Exception("Isolated preview required");Directory.CreateDirectory(Dir);c.StartCoroutine(Run(c));return "Recording native laser combat and GPU ring close-up.";}
- static IEnumerator Run(RecoveryForestClient c)
+ public static string Capture(){var c=GameClient.Instance;if(!Application.isPlaying||!c.SaveFolderOverride.Contains("PenguinPreview"))throw new Exception("Isolated preview required");Directory.CreateDirectory(Dir);c.StartCoroutine(Run(c));return "Recording native laser combat and GPU ring close-up.";}
+ static IEnumerator Run(GameClient c)
  {
   while(!c.ReadyForPlay)yield return null;c.DailyLogin.AutoShow=false;c.Tutorial.SetCleared();c.DailyLogin.Close();if(c.Offline.offlinePanelUI!=null)c.Offline.offlinePanelUI.gameObject.SetActive(false);
   foreach(int gun in new[]{19,23}){c.Inventory.AddRewardGun(gun);c.Inventory.Equip(Array.FindIndex(c.State.Owned_Gun_list,g=>g==gun),gun==19?1:2);}c.ApplyBalance();yield return new WaitForSeconds(2);

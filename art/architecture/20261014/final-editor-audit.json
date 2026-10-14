@@ -1,0 +1,69 @@
+{
+  "scene": "Assets/Game/Scenes/GameClient.unity",
+  "playing": false,
+  "compiling": false,
+  "dirty": false,
+  "missingScripts": 0,
+  "prefabs": [
+    {
+      "path": "Assets/Game/Resources/Gameplay/ProjectilePoolContent.prefab",
+      "guid": "8e2f28b0b0daa42b0b30b679138d15e3",
+      "missing": 0
+    },
+    {
+      "path": "Assets/Game/Resources/UI/Draw_Info_UI.prefab",
+      "guid": "5f20fb7f70bf74ef69d823f1fcf53817",
+      "missing": 0
+    },
+    {
+      "path": "Assets/Game/Resources/UI/GunCollection_UI.prefab",
+      "guid": "a55b9f42f1400440e99a70fcfca243c9",
+      "missing": 0
+    },
+    {
+      "path": "Assets/Game/Prefabs/Gameplay/PlayerTeam.prefab",
+      "guid": "de18d6564e83448c69758f6965222874",
+      "missing": 0
+    }
+  ],
+  "invalidPersistentButtons": [],
+  "disabledLegacyCallbacks": [
+    "Collection_Btn/UI_Reload",
+    "Info_Btn/SetActive",
+    "FreeCash_Banner/OnClick",
+    "FreeCash_Banner/OnClick",
+    "FreeCash_Banner/OnClick",
+    "FreeCash_Banner/OnClick",
+    "FreeCash_Banner/OnClick",
+    "FreeCash_Banner/OnClick",
+    "FreeCash_Banner/OnClick",
+    "FreeCash_Banner/OnClick",
+    "FreeCash_Banner/OnClick",
+    "FreeCash_Banner/OnClick",
+    "FreeCash_Banner/OnClick",
+    "FreeCash_Banner/OnClick"
+  ],
+  "roots": [
+    {
+      "name": "World",
+      "nodes": 16976
+    },
+    {
+      "name": "Systems",
+      "nodes": 17
+    },
+    {
+      "name": "UI",
+      "nodes": 13777
+    }
+  ],
+  "events": 1,
+  "Persist": true,
+  "SaveFolderOverride": null,
+  "lazyPanels": true,
+  "informationLoaded": false,
+  "collectionLoaded": false,
+  "poolObjects": [],
+  "teamPrefab": "Assets/Game/Prefabs/Gameplay/PlayerTeam.prefab",
+  "host": ""
+}

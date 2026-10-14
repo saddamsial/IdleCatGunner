@@ -7,7 +7,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEditor;
 using UnityEditor.SceneManagement;
-using CatGunner.Recovery;
+using CatGunner.Runtime;
 
 public static class PreviewSnowStage
 {
@@ -15,15 +15,15 @@ public static class PreviewSnowStage
     public static string Prepare()
     {
         if(Application.isPlaying)throw new InvalidOperationException("Stop Play first.");
-        EditorSceneManager.OpenScene("Assets/Recovery/Scenes/RecoveredClient.unity");
-        var c=UnityEngine.Object.FindAnyObjectByType<RecoveryForestClient>(FindObjectsInactive.Include);
+        EditorSceneManager.OpenScene("Assets/Game/Scenes/GameClient.unity");
+        var c=UnityEngine.Object.FindAnyObjectByType<GameClient>(FindObjectsInactive.Include);
         string folder=Path.Combine(Application.temporaryCachePath,"SnowStagePreview-"+Guid.NewGuid().ToString("N"));
         SessionState.SetString("CatGunner.Recovery.TestHostFolder",folder);c.Persist=false;EditorUtility.SetDirty(c);
         return "Isolated snow and footprint preview prepared; no saved scene changes.";
     }
     public static string Capture()
     {
-        var c=RecoveryForestClient.Instance;
+        var c=GameClient.Instance;
         if(!Application.isPlaying||c.Persist||c.SaveFolderOverride==null||!c.SaveFolderOverride.Contains("SnowStagePreview"))throw new InvalidOperationException("Isolated preview required.");
         Directory.CreateDirectory(Dir);c.StartCoroutine(Run(c));return "Capturing snow arena and joystick-driven footprint fade cycle.";
     }
@@ -34,7 +34,7 @@ public static class PreviewSnowStage
         texture.ReadPixels(new Rect(0,0,texture.width,texture.height),0,0);texture.Apply();File.WriteAllBytes(path,texture.EncodeToPNG());
         RenderTexture.active=previous;UnityEngine.Object.Destroy(texture);
     }
-    static IEnumerator Run(RecoveryForestClient c)
+    static IEnumerator Run(GameClient c)
     {
         while(!c.ReadyForPlay)yield return null;
         c.DailyLogin.AutoShow=false;c.DailyLogin.Close();c.Tutorial.SetCleared();
@@ -76,7 +76,7 @@ public static class PreviewSnowStage
     public static string Restore()
     {
         if(Application.isPlaying)throw new InvalidOperationException("Stop Play first.");
-        EditorSceneManager.OpenScene("Assets/Recovery/Scenes/RecoveredClient.unity");
+        EditorSceneManager.OpenScene("Assets/Game/Scenes/GameClient.unity");
         SessionState.EraseString("CatGunner.Recovery.TestHostFolder");
         return "Saved snow arena restored; temporary test-host override cleared.";
     }

@@ -1,13 +1,13 @@
 using System;using System.IO;using System.Linq;using System.Reflection;
-using UnityEngine;using UnityEditor;using UnityEditor.SceneManagement;using CatGunner.Recovery;
+using UnityEngine;using UnityEditor;using UnityEditor.SceneManagement;using CatGunner.Runtime;
 public static class PreviewUiReadability
 {
  const string Project="/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets";
  public static string Prepare()
  {
   if(Application.dataPath!=Project||Application.isPlaying)throw new Exception("Correct EditMode required");
-  EditorSceneManager.OpenScene("Assets/Recovery/Scenes/RecoveredClient.unity");SessionState.SetString("CatGunner.Recovery.TestHostFolder",Path.Combine(Application.temporaryCachePath,"PenguinPreview-Readability-"+Guid.NewGuid().ToString("N")));
-  var c=UnityEngine.Object.FindAnyObjectByType<RecoveryForestClient>(FindObjectsInactive.Include);c.Persist=false;SetSize(1080,1920);return "Isolated preview configured in memory only";
+  EditorSceneManager.OpenScene("Assets/Game/Scenes/GameClient.unity");SessionState.SetString("CatGunner.Recovery.TestHostFolder",Path.Combine(Application.temporaryCachePath,"PenguinPreview-Readability-"+Guid.NewGuid().ToString("N")));
+  var c=UnityEngine.Object.FindAnyObjectByType<GameClient>(FindObjectsInactive.Include);c.Persist=false;SetSize(1080,1920);return "Isolated preview configured in memory only";
  }
  public static string Size(int width,int height){if(Application.dataPath!=Project)throw new Exception("Wrong project");SetSize(width,height);return "Game view "+width+" x "+height;}
  static void SetSize(int width,int height)
@@ -21,8 +21,8 @@ public static class PreviewUiReadability
  public static string Finish()
  {
   if(Application.dataPath!=Project||Application.isPlaying)throw new Exception("Correct EditMode required");
-  SessionState.EraseString("CatGunner.Recovery.TestHostFolder");var scene=EditorSceneManager.OpenScene("Assets/Recovery/Scenes/RecoveredClient.unity");SetSize(1080,1920);
-  var c=UnityEngine.Object.FindAnyObjectByType<RecoveryForestClient>(FindObjectsInactive.Include);if(!c.Persist||!string.IsNullOrEmpty(c.SaveFolderOverride))throw new Exception("Ordinary startup settings changed");
+  SessionState.EraseString("CatGunner.Recovery.TestHostFolder");var scene=EditorSceneManager.OpenScene("Assets/Game/Scenes/GameClient.unity");SetSize(1080,1920);
+  var c=UnityEngine.Object.FindAnyObjectByType<GameClient>(FindObjectsInactive.Include);if(!c.Persist||!string.IsNullOrEmpty(c.SaveFolderOverride))throw new Exception("Ordinary startup settings changed");
   return "Ordinary saved scene ready; no test override; Persist=true; no scene changes";
  }
 }

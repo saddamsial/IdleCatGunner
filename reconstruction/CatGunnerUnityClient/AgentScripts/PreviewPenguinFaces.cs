@@ -1,9 +1,9 @@
-using System;using System.Linq;using System.IO;using System.Collections;using UnityEngine;using CatGunner.Recovery;
+using System;using System.Linq;using System.IO;using System.Collections;using UnityEngine;using CatGunner.Runtime;
 public static class PreviewPenguinFaces
 {
  static string Dir=>Path.GetFullPath(Application.dataPath+"/../../../art/reskin/penguin-expedition/full-reskin/expressions");
- public static string Capture(){var c=RecoveryForestClient.Instance;if(!c.SaveFolderOverride.Contains("PenguinPreview"))throw new Exception("Isolated preview required");Directory.CreateDirectory(Dir);c.StartCoroutine(Run(c));return "Recording the actual animated game character through a temporary GPU preview camera.";}
- static IEnumerator Run(RecoveryForestClient c)
+ public static string Capture(){var c=GameClient.Instance;if(!c.SaveFolderOverride.Contains("PenguinPreview"))throw new Exception("Isolated preview required");Directory.CreateDirectory(Dir);c.StartCoroutine(Run(c));return "Recording the actual animated game character through a temporary GPU preview camera.";}
+ static IEnumerator Run(GameClient c)
  {
   ForestRuntimeAcceptance.IsGaming=false;c.Skins.Selected_num=0;c.State.Skin_Selected_num=0;
   foreach(var cat in c.Team.Cat_list){cat.enabled=false;var combat=cat.GetComponent<ForestCombatAcceptance>();if(combat!=null)combat.enabled=false;var move=cat.GetComponent<ForestMovementAcceptance>();if(move!=null)move.enabled=false;cat.rb.linearVelocity=Vector3.zero;cat.anim.SetBool("Walk",false);}

@@ -4,14 +4,14 @@ using System.Linq;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
-using CatGunner.Recovery;
+using CatGunner.Runtime;
 public static class InspectWeaponVfx
 {
  public static string Run()
  {
   var scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene();
-  if(Application.dataPath!="/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets" || Application.isPlaying || scene.path!="Assets/Recovery/Scenes/RecoveredClient.unity")throw new Exception("Correct EditMode required");
-  var roots=scene.GetRootGameObjects();var client=roots.SelectMany(g=>g.GetComponentsInChildren<RecoveryForestClient>(true)).Single();
+  if(Application.dataPath!="/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets" || Application.isPlaying || scene.path!="Assets/Game/Scenes/GameClient.unity")throw new Exception("Correct EditMode required");
+  var roots=scene.GetRootGameObjects();var client=roots.SelectMany(g=>g.GetComponentsInChildren<GameClient>(true)).Single();
   var bullet=roots.SelectMany(g=>g.GetComponentsInChildren<Bullet>(true)).First();
   var hit=roots.SelectMany(g=>g.GetComponentsInChildren<Bullet_FX>(true)).First();
   var rows=new List<object>();

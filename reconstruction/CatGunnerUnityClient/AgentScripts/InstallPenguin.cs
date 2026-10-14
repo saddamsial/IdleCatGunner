@@ -4,17 +4,17 @@ using System.Linq;
 using UnityEngine;
 using UnityEditor;
 using UnityEditor.SceneManagement;
-using CatGunner.Recovery;
+using CatGunner.Runtime;
 
 public static class InstallPenguin
 {
-    private const string Folder="Assets/Recovery/PenguinExpedition/";
+    private const string Folder="Assets/Game/PenguinExpedition/";
     public static string Run()
     {
         if(Application.dataPath!="/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets")throw new Exception("Wrong project");
         if(EditorApplication.isPlaying)throw new Exception("EditMode required");
-        var scene=EditorSceneManager.OpenScene("Assets/Recovery/Scenes/RecoveredClient.unity");
-        var client=UnityEngine.Object.FindAnyObjectByType<RecoveryForestClient>(FindObjectsInactive.Include);
+        var scene=EditorSceneManager.OpenScene("Assets/Game/Scenes/GameClient.unity");
+        var client=UnityEngine.Object.FindAnyObjectByType<GameClient>(FindObjectsInactive.Include);
         AssetDatabase.Refresh();
         foreach(var file in new[]{"penguin","ice","glacier-up","glacier-down","snow-ground"})
         {
@@ -29,9 +29,9 @@ public static class InstallPenguin
         t.GlacierUp=Fit("GlacierUp",Texture("glacier-up"),map.Border_Up_sprite_list[0]);
         t.GlacierDown=Fit("GlacierDown",Texture("glacier-down"),map.Border_Down_sprite_list[0]);
         foreach(var path in new[]{"IceEffects.mat","IceShardTexture.asset","IceShard.asset"})AssetDatabase.DeleteAsset(Folder+path);
-        AssetDatabase.DeleteAsset("Assets/Recovery/Scripts/PenguinIceTarget.cs");
+        AssetDatabase.DeleteAsset("Assets/Game/Runtime/PenguinIceTarget.cs");
         t.enabled=true;EditorUtility.SetDirty(t);EditorSceneManager.MarkSceneDirty(scene);
-        if(!EditorSceneManager.SaveScene(scene))throw new Exception("Save failed");AssetDatabase.SaveAssets();RecoveryEditor.SetPortraitGameView();
+        if(!EditorSceneManager.SaveScene(scene))throw new Exception("Save failed");AssetDatabase.SaveAssets();GameProjectEditor.SetPortraitGameView();
         return "Installed no-scarf penguin, ice targets, snow and glacier tiles; original sprite assets retained. Scene: "+scene.path;
     }
     private static Texture2D Texture(string file)=>AssetDatabase.LoadAssetAtPath<Texture2D>(Folder+file+".png");

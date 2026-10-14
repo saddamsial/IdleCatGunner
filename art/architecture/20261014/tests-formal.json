@@ -1,0 +1,168 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 122.05,
+      "summary": {
+        "total": 20,
+        "passed": 20,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "SaveArchiveCompatibilityTests.BackupFallbackReadsLegacyLedgerAfterMainFileDamage",
+          "Status": "Passed",
+          "Duration": 0.0334683,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SaveArchiveCompatibilityTests.FormalFieldsReadLegacyLedgerAndRetainWireKeys",
+          "Status": "Passed",
+          "Duration": 0.0257336,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SceneArchitectureTests.CancelledDeferredLoadDoesNotCreateOrphan",
+          "Status": "Passed",
+          "Duration": 9.9519721,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SceneArchitectureTests.ClosingInventoryDuringLoadDoesNotOpenStaleModal",
+          "Status": "Passed",
+          "Duration": 6.9428724,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SceneArchitectureTests.ColdBootDefersWeaponPanelsAndLoadsPoolBeforeCombat",
+          "Status": "Passed",
+          "Duration": 6.5190664,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SceneArchitectureTests.FullPoolKeepsLiveProjectilesAndReusesDeadTrails",
+          "Status": "Passed",
+          "Duration": 6.4573237,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SceneArchitectureTests.RepeatedCollectionClicksReuseOnePopulatedCatalogue",
+          "Status": "Passed",
+          "Duration": 6.7954039,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SceneArchitectureTests.RepeatedInformationClicksCreateOneLocalizedReusablePanel",
+          "Status": "Passed",
+          "Duration": 7.331389,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "StartupTests.ActualLegacyProfileStartsWithWalkingCatThenMovesAndShootsWithoutInputAndReloads",
+          "Status": "Passed",
+          "Duration": 14.3778264,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "StartupTests.FailedInitializationCannotEnableAutosaveOrOverwriteMainAndBackup",
+          "Status": "Passed",
+          "Duration": 8.8902727,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "StartupTests.NativeBestArrayKeepsLegacyPrefixAndDoesNotAlterInput",
+          "Status": "Passed",
+          "Duration": 0.4369818,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "StartupTests.UnsupportedRaidValuesRejectBeforeStateMutation",
+          "Status": "Passed",
+          "Duration": 0.3846566,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "UiAuthoringTests.AuthoredCatalogueSpriteIsNotReassignedByBootstrap",
+          "Status": "Passed",
+          "Duration": 6.4938742,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "UiAuthoringTests.AuthoredModalSortingAndBorderThicknessAreRespected",
+          "Status": "Passed",
+          "Duration": 6.7350201,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "UiAuthoringTests.LoadingKeepsHudVisibleDuringStartup",
+          "Status": "Passed",
+          "Duration": 6.5621318,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "UiAuthoringTests.LoadingTransitionsPreserveAuthoredParentAndRect",
+          "Status": "Passed",
+          "Duration": 7.3512579,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "UiAuthoringTests.ManualArtworkHierarchyAndStyleSurviveStartup",
+          "Status": "Passed",
+          "Duration": 6.5651994,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "UiAuthoringTests.ManualProgressAnchorsAreNotRebuilt",
+          "Status": "Passed",
+          "Duration": 6.5309522,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "UiAuthoringTests.RenamedLocalizedCaptionRetainsStyleAndLanguageControlsWork",
+          "Status": "Passed",
+          "Duration": 6.5970472,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "UiAuthoringTests.StaticPresentationExistsAndDoesNotDuplicateOnEnable",
+          "Status": "Passed",
+          "Duration": 6.6506845,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

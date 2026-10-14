@@ -4,7 +4,7 @@ using System.Collections;
 using System.Reflection;
 using UnityEngine;
 using UnityEditor;
-using CatGunner.Recovery;
+using CatGunner.Runtime;
 
 public static class PreviewPenguinUiSizes
 {
@@ -12,9 +12,9 @@ public static class PreviewPenguinUiSizes
     public static string Capture()
     {
         if (!Application.isPlaying || Application.dataPath != "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets") throw new Exception("Correct PlayMode required");
-        Directory.CreateDirectory(Dir); var c = RecoveryForestClient.Instance; c.StartCoroutine(Observe(c)); return "Recording 750x1334 and 1440x3200 actual HUD/settings GPU frames; restoring 1080x1920 afterwards.";
+        Directory.CreateDirectory(Dir); var c = GameClient.Instance; c.StartCoroutine(Observe(c)); return "Recording 750x1334 and 1440x3200 actual HUD/settings GPU frames; restoring 1080x1920 afterwards.";
     }
-    static IEnumerator Observe(RecoveryForestClient c)
+    static IEnumerator Observe(GameClient c)
     {
         var canvas = c.Slider.GetComponentInParent<Canvas>(); var settings = canvas.transform.Find("Setting/Setting_UI").gameObject;
         bool shown = settings.activeSelf;
@@ -28,7 +28,7 @@ public static class PreviewPenguinUiSizes
                 yield return new WaitForEndOfFrame(); ScreenCapture.CaptureScreenshot(Path.Combine(Dir, $"settings-{Screen.width}x{Screen.height}.png"));
             }
         }
-        finally { settings.SetActive(shown); RecoveryEditor.SetPortraitGameView(); }
+        finally { settings.SetActive(shown); GameProjectEditor.SetPortraitGameView(); }
         File.WriteAllText(Path.Combine(Dir, "complete.txt"), "Actual Editor GPU frames at 750x1334 and 1440x3200; original 1080x1920 restored.");
     }
     static void SetSize(int width, int height)

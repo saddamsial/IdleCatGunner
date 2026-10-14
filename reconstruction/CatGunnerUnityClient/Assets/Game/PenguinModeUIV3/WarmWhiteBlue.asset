@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b859fbf4004b14b17b4c39b7bf75d405, type: 3}
+  m_Name: WarmWhiteBlue
+  m_EditorClassIdentifier: CatGunner.Recovery::CatGunner.Recovery.PenguinModePalette
+  Background: {r: 0.98039216, g: 0.9647059, b: 0.92941177, a: 1}
+  Title: {r: 0.16862746, g: 0.41960785, b: 0.6, a: 1}
+  Text: {r: 0.14509805, g: 0.29411766, b: 0.4117647, a: 1}
+  Content: {r: 0.8784314, g: 0.9254902, b: 0.9529412, a: 1}
+  Reward: {r: 1, g: 0.99215686, b: 0.9764706, a: 1}
+  Button: {r: 0.16862746, g: 0.41960785, b: 0.6, a: 1}
+  OnButton: {r: 1, g: 1, b: 1, a: 1}
+  Disabled: {r: 0.7647059, g: 0.83137256, b: 0.8784314, a: 1}
+  Outline: {r: 0.09411765, g: 0.20784314, b: 0.29803923, a: 1}
+  GradeA: {r: 1, g: 0.9019608, b: 0.47843137, a: 1}
+  HoverTint: {r: 0.8784314, g: 0.9607843, b: 1, a: 1}
+  PressedTint: {r: 0.7294118, g: 0.85490197, b: 0.9411765, a: 1}
+  DisabledTint: {r: 0.7490196, g: 0.8, b: 0.8392157, a: 1}

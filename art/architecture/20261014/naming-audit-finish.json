@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "command": "command run_script",
+  "data": {
+    "command": "run_script",
+    "parameters": {
+      "entry": "FinishNamingAudit.Run",
+      "file": "/tmp/FinishNamingAudit.cs"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 8763,
+      "executeMs": 214,
+      "assemblyName": "PipelineRunScript_FinishNamingAudit_a67a43630cb2493dac453aad465790de",
+      "success": true,
+      "result": "Embedded temporary names removed"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,12 +1,12 @@
 using System;using System.IO;using System.Linq;using System.Collections;using System.Collections.Generic;
-using UnityEngine;using UnityEngine.UI;using CatGunner.Recovery;
+using UnityEngine;using UnityEngine.UI;using CatGunner.Runtime;
 public static class PreviewPenguinAudit
 {
  static string Dir=>Path.GetFullPath(Application.dataPath+"/../../../art/reskin/penguin-expedition/flat-catalogue/captures");
- public static string Capture(){var c=RecoveryForestClient.Instance;if(!Application.isPlaying||!c.SaveFolderOverride.Contains("PenguinPreview"))throw new Exception("Isolated preview required");Directory.CreateDirectory(Dir);c.StartCoroutine(Run(c));return "Capturing real tutorial, stats, blue gems, original rings, all menus and secondary modes.";}
+ public static string Capture(){var c=GameClient.Instance;if(!Application.isPlaying||!c.SaveFolderOverride.Contains("PenguinPreview"))throw new Exception("Isolated preview required");Directory.CreateDirectory(Dir);c.StartCoroutine(Run(c));return "Capturing real tutorial, stats, blue gems, original rings, all menus and secondary modes.";}
  static IEnumerator Shot(string name,float wait=.30f){yield return new WaitForSecondsRealtime(wait);yield return new WaitForEndOfFrame();ScreenCapture.CaptureScreenshot(Path.Combine(Dir,name+".png"));yield return null;}
- static IEnumerator WaitReady(Func<bool> entering){float until=Time.realtimeSinceStartup+10;while(entering()&&Time.realtimeSinceStartup<until)yield return null;ForestRuntimeAcceptance.IsGaming=false;foreach(var c in RecoveryForestClient.Instance.Team.Cat_list)c.rb.linearVelocity=Vector3.zero;}
- static IEnumerator Run(RecoveryForestClient c)
+ static IEnumerator WaitReady(Func<bool> entering){float until=Time.realtimeSinceStartup+10;while(entering()&&Time.realtimeSinceStartup<until)yield return null;ForestRuntimeAcceptance.IsGaming=false;foreach(var c in GameClient.Instance.Team.Cat_list)c.rb.linearVelocity=Vector3.zero;}
+ static IEnumerator Run(GameClient c)
  {
   while(!c.ReadyForPlay||c.IsTransitioning)yield return null;c.DailyLogin.AutoShow=false;c.DailyLogin.Close();if(c.Offline.offlinePanelUI!=null)c.Offline.offlinePanelUI.gameObject.SetActive(false);
   yield return new WaitForSeconds(1.2f);yield return Shot("01-guide");

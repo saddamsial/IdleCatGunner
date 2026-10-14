@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using UnityEditor.SceneManagement;
-using CatGunner.Recovery;
+using CatGunner.Runtime;
 using Newtonsoft.Json.Linq;
 public static class InstallFeedback
 {
@@ -13,9 +13,9 @@ public static class InstallFeedback
  {
   if(EditorApplication.isPlaying || Application.dataPath!="/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets")throw new Exception("Correct EditMode required");
   var scene=EditorSceneManager.GetActiveScene();
-  if(scene.path!="Assets/Recovery/Scenes/RecoveredClient.unity" || scene.isDirty)throw new Exception("Saved RecoveredClient required; preserve pending edits");
+  if(scene.path!="Assets/Game/Scenes/GameClient.unity" || scene.isDirty)throw new Exception("Saved GameClient required; preserve pending edits");
   AssetDatabase.Refresh();
-  var client=UnityEngine.Object.FindAnyObjectByType<RecoveryForestClient>(FindObjectsInactive.Include);
+  var client=UnityEngine.Object.FindAnyObjectByType<GameClient>(FindObjectsInactive.Include);
   var canvas=client.Slider.GetComponentInParent<Canvas>();
   string folder=Path.GetFullPath(Path.Combine(Application.dataPath,"../../../art/audio/penguin-feedback-v1"));
   var manifest=JObject.Parse(File.ReadAllText(Path.Combine(folder,"manifest.json")));
@@ -24,7 +24,7 @@ public static class InstallFeedback
   if(entries.arraySize!=17)throw new Exception("Expected 17 original sound slots");
   foreach(var row in (JArray)manifest["clips"])
   {
-   string name=(string)row["type"]; string path="Assets/Recovery/PenguinAudio/Ice_"+name+".wav";
+   string name=(string)row["type"]; string path="Assets/Game/PenguinAudio/Ice_"+name+".wav";
    var importer=(AudioImporter)AssetImporter.GetAtPath(path);if(importer==null)throw new Exception("Missing "+path);
    importer.forceToMono=true;importer.loadInBackground=false;
    var settings=importer.defaultSampleSettings;settings.loadType=AudioClipLoadType.DecompressOnLoad;settings.preloadAudioData=true;settings.compressionFormat=AudioCompressionFormat.PCM;settings.sampleRateSetting=AudioSampleRateSetting.PreserveSampleRate;importer.defaultSampleSettings=settings;importer.SaveAndReimport();

@@ -1,6 +1,6 @@
 using System;
 using System.Linq;
-using CatGunner.Recovery;
+using CatGunner.Runtime;
 using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
@@ -12,9 +12,9 @@ public static class InstallCircularStage
         if(Application.dataPath!="/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets")throw new InvalidOperationException("Wrong project.");
         if(EditorApplication.isPlaying)throw new InvalidOperationException("Stop Play Mode first.");
         var scene=EditorSceneManager.GetActiveScene();
-        if(scene.path!="Assets/Recovery/Scenes/RecoveredClient.unity")
-            scene=EditorSceneManager.OpenScene("Assets/Recovery/Scenes/RecoveredClient.unity");
-        var client=UnityEngine.Object.FindAnyObjectByType<RecoveryForestClient>(FindObjectsInactive.Include);
+        if(scene.path!="Assets/Game/Scenes/GameClient.unity")
+            scene=EditorSceneManager.OpenScene("Assets/Game/Scenes/GameClient.unity");
+        var client=UnityEngine.Object.FindAnyObjectByType<GameClient>(FindObjectsInactive.Include);
         var f=client.Forest;
         var circle=f.GetComponent<CircularForestMap>();
         if(circle==null)circle=Undo.AddComponent<CircularForestMap>(f.gameObject);
@@ -34,22 +34,22 @@ public static class InstallCircularStage
         floor=f.Map_obj.transform.Find("Circular forest ground");
         Undo.RecordObject(floor,"Shrink circular floor");floor.localScale=mineFloor.transform.localScale*(2f/3f);
         var terrain=f.GetComponent<CircularSnowTerrain>();if(terrain==null)terrain=Undo.AddComponent<CircularSnowTerrain>(f.gameObject);
-        terrain.SnowMaterial=Material("CircularSnow","Recovery/CircularSnow");
-        var snow=AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/Recovery/PenguinExpedition/snow-ground.png");
+        terrain.SnowMaterial=Material("CircularSnow","Game/CircularSnow");
+        var snow=AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/Game/PenguinExpedition/snow-ground.png");
         if(snow==null)throw new InvalidOperationException("Requested snow-ground.png is missing.");
         terrain.SnowMaterial.SetTexture("_SnowTex",snow);terrain.SnowMaterial.SetColor("_Tint",Color.white);
         terrain.SnowMaterial.SetFloat("_Desaturate",0);terrain.SnowMaterial.SetFloat("_WhiteMix",.35f);terrain.SnowMaterial.SetFloat("_TileSize",24);
-        terrain.LowerMaterial=Material("GreyLowerSnow","Recovery/CircularSnow");
+        terrain.LowerMaterial=Material("GreyLowerSnow","Game/CircularSnow");
         terrain.LowerMaterial.SetTexture("_SnowTex",snow);terrain.LowerMaterial.SetColor("_Tint",new Color(.65f,.67f,.68f,1));
         terrain.LowerMaterial.SetFloat("_Desaturate",1);terrain.LowerMaterial.SetFloat("_WhiteMix",0);terrain.LowerMaterial.SetFloat("_Radius",600);
         terrain.LowerMaterial.SetFloat("_TileSize",24);terrain.LowerMaterial.SetVector("_Center",f.Map_obj.transform.position);
         terrain.SnowMaterial.SetFloat("_Radius",100);terrain.SnowMaterial.SetVector("_Center",f.Map_obj.transform.position);
-        terrain.WallMaterial=Material("VerticalIceCliff-v3","Recovery/VerticalIceCliff");
-        terrain.WallMaterial.mainTexture=AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/Recovery/PenguinExpedition/vertical-ice-cliff-v3.png");
-        terrain.DecorationMaterial=Material("SnowPlatformDecor-v3","Recovery/SnowPlatformDecor");
+        terrain.WallMaterial=Material("VerticalIceCliff-v3","Game/VerticalIceCliff");
+        terrain.WallMaterial.mainTexture=AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/Game/PenguinExpedition/vertical-ice-cliff-v3.png");
+        terrain.DecorationMaterial=Material("SnowPlatformDecor-v3","Game/SnowPlatformDecor");
         floor.GetComponent<SpriteRenderer>().sharedMaterial=terrain.SnowMaterial;
         var prints=f.GetComponent<SnowFootprintTrail>();if(prints==null)prints=Undo.AddComponent<SnowFootprintTrail>(f.gameObject);
-        prints.FootprintMaterial=Material("SnowFootprint","Recovery/SnowFootprint");
+        prints.FootprintMaterial=Material("SnowFootprint","Game/SnowFootprint");
         var view=UnityEngine.Object.FindObjectsByType<Camera>(FindObjectsInactive.Include).Single(cam=>cam.CompareTag("MainCamera"));
         var follow=view.GetComponentInParent<Follow>();
         var bounded=follow.GetComponent<CircularArenaCamera>();if(bounded==null)bounded=Undo.AddComponent<CircularArenaCamera>(follow.gameObject);
@@ -71,7 +71,7 @@ public static class InstallCircularStage
     }
     static Material Material(string name,string shaderName)
     {
-        string path="Assets/Recovery/"+name+".mat";
+        string path="Assets/Game/"+name+".mat";
         var shader=Shader.Find(shaderName);if(shader==null||!shader.isSupported)throw new InvalidOperationException("Missing shader: "+shaderName);
         var material=AssetDatabase.LoadAssetAtPath<Material>(path);
         if(material==null){material=new Material(shader);AssetDatabase.CreateAsset(material,path);}

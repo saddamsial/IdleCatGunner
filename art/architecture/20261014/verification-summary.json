@@ -1,0 +1,29 @@
+{
+  "uniqueTests": 21,
+  "passed": 21,
+  "results": {
+    "SaveArchiveCompatibilityTests.BackupFallbackReadsLegacyLedgerAfterMainFileDamage": "Passed",
+    "SaveArchiveCompatibilityTests.FormalFieldsReadLegacyLedgerAndRetainWireKeys": "Passed",
+    "SceneArchitectureTests.CancelledDeferredLoadDoesNotCreateOrphan": "Passed",
+    "SceneArchitectureTests.ClosingInventoryDuringLoadDoesNotOpenStaleModal": "Passed",
+    "SceneArchitectureTests.ColdBootDefersWeaponPanelsAndLoadsPoolBeforeCombat": "Passed",
+    "SceneArchitectureTests.FullPoolKeepsLiveProjectilesAndReusesDeadTrails": "Passed",
+    "SceneArchitectureTests.RepeatedCollectionClicksReuseOnePopulatedCatalogue": "Passed",
+    "SceneArchitectureTests.RepeatedInformationClicksCreateOneLocalizedReusablePanel": "Passed",
+    "StartupTests.ActualLegacyProfileStartsWithWalkingCatThenMovesAndShootsWithoutInputAndReloads": "Passed",
+    "StartupTests.FailedInitializationCannotEnableAutosaveOrOverwriteMainAndBackup": "Passed",
+    "StartupTests.NativeBestArrayKeepsLegacyPrefixAndDoesNotAlterInput": "Passed",
+    "StartupTests.UnsupportedRaidValuesRejectBeforeStateMutation": "Passed",
+    "UiAuthoringTests.AuthoredCatalogueSpriteIsNotReassignedByBootstrap": "Passed",
+    "UiAuthoringTests.AuthoredModalSortingAndBorderThicknessAreRespected": "Passed",
+    "UiAuthoringTests.LoadingKeepsHudVisibleDuringStartup": "Passed",
+    "UiAuthoringTests.LoadingTransitionsPreserveAuthoredParentAndRect": "Passed",
+    "UiAuthoringTests.ManualArtworkHierarchyAndStyleSurviveStartup": "Passed",
+    "UiAuthoringTests.ManualProgressAnchorsAreNotRebuilt": "Passed",
+    "UiAuthoringTests.RenamedLocalizedCaptionRetainsStyleAndLanguageControlsWork": "Passed",
+    "UiAuthoringTests.StaticPresentationExistsAndDoesNotDuplicateOnEnable": "Passed",
+    "SceneArchitectureTests.BoundMenuButtonsLoadPanels": "Passed"
+  },
+  "compileReport": "delivery-compile.json",
+  "deviceProfiled": false
+}

@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using UnityEditor;
 using UnityEngine;
-using CatGunner.Recovery;
+using CatGunner.Runtime;
 
 public static class PreviewPenguin
 {
@@ -13,14 +13,14 @@ public static class PreviewPenguin
     {
         Check();if(EditorApplication.isPlaying)throw new Exception("Stop Play first");
         Directory.CreateDirectory(Dir);SessionState.SetString("CatGunner.Recovery.TestHostFolder",Path.Combine(Path.GetTempPath(),"PenguinPreview-"+Guid.NewGuid().ToString("N")));
-        RecoveryEditor.SetPortraitGameView();return "Isolated preview profile configured; normal save untouched.";
+        GameProjectEditor.SetPortraitGameView();return "Isolated preview profile configured; normal save untouched.";
     }
     public static string Capture()
     {
-        Check();var client=UnityEngine.Object.FindAnyObjectByType<RecoveryForestClient>();
+        Check();var client=UnityEngine.Object.FindAnyObjectByType<GameClient>();
         client.StartCoroutine(Observe(client));return "Capturing actual gameplay and natural combat into "+Dir;
     }
-    private static IEnumerator Observe(RecoveryForestClient c)
+    private static IEnumerator Observe(GameClient c)
     {
         float deadline=Time.realtimeSinceStartup+40;
         while(!c.ReadyForPlay&&Time.realtimeSinceStartup<deadline)yield return null;

@@ -5,7 +5,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEditor;
 using UnityEditor.SceneManagement;
-using CatGunner.Recovery;
+using CatGunner.Runtime;
 
 public static class PreviewCircularStage
 {
@@ -13,8 +13,8 @@ public static class PreviewCircularStage
     public static string Prepare()
     {
         if(EditorApplication.isPlaying)throw new InvalidOperationException("Stop Play first.");
-        var scene=EditorSceneManager.OpenScene("Assets/Recovery/Scenes/RecoveredClient.unity");
-        var c=UnityEngine.Object.FindAnyObjectByType<RecoveryForestClient>(FindObjectsInactive.Include);
+        var scene=EditorSceneManager.OpenScene("Assets/Game/Scenes/GameClient.unity");
+        var c=UnityEngine.Object.FindAnyObjectByType<GameClient>(FindObjectsInactive.Include);
         c.SaveFolderOverride=Path.Combine(Application.temporaryCachePath,"CircularStagePreview-"+Guid.NewGuid().ToString("N"));
         SessionState.SetString("CircularStagePreview.PreviousHost",SessionState.GetString("CatGunner.Recovery.TestHostFolder",string.Empty));
         SessionState.SetBool("CircularStagePreview.Active",true);
@@ -24,11 +24,11 @@ public static class PreviewCircularStage
     }
     public static string Capture()
     {
-        var c=RecoveryForestClient.Instance;
+        var c=GameClient.Instance;
         if(!Application.isPlaying||c.Persist||string.IsNullOrEmpty(c.SaveFolderOverride)||!(c.SaveFolderOverride.Contains("CircularStagePreview")||c.SaveFolderOverride.Contains("PenguinPreview")))throw new InvalidOperationException("Isolated preview required.");
         Directory.CreateDirectory(Dir);c.StartCoroutine(Run(c));return "Capturing ordinary gameplay and full circular terrain.";
     }
-    static IEnumerator Run(RecoveryForestClient c)
+    static IEnumerator Run(GameClient c)
     {
         while(!c.ReadyForPlay)yield return null;
         c.DailyLogin.AutoShow=false;c.Tutorial.SetCleared();c.DailyLogin.Close();
@@ -53,7 +53,7 @@ public static class PreviewCircularStage
     public static string Restore()
     {
         if(EditorApplication.isPlaying)throw new InvalidOperationException("Stop Play first.");
-        EditorSceneManager.OpenScene("Assets/Recovery/Scenes/RecoveredClient.unity");
+        EditorSceneManager.OpenScene("Assets/Game/Scenes/GameClient.unity");
         if(SessionState.GetBool("CircularStagePreview.Active",false))
         {
             SessionState.SetString("CatGunner.Recovery.TestHostFolder",SessionState.GetString("CircularStagePreview.PreviousHost",string.Empty));

@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene();var c=UnityEngine.Object.FindAnyObjectByType<CatGunner.Runtime.GameClient>();return new {scene=scene.path,dirty=scene.isDirty,client=c!=null,compileFailed=UnityEditor.EditorUtility.scriptCompilationFailed,assembly=typeof(CatGunner.Runtime.GameClient).Assembly.GetName().Name};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "scene": "Assets/Game/Scenes/GameClient.unity",
+        "dirty": false,
+        "client": true,
+        "compileFailed": false,
+        "assembly": "CatGunner.Runtime"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

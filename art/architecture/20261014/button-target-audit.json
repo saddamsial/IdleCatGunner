@@ -1,0 +1,156 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var roots=UnityEngine.SceneManagement.SceneManager.GetActiveScene().GetRootGameObjects();return roots.SelectMany(r=>r.GetComponentsInChildren<UnityEngine.UI.Button>(true)).SelectMany(b=>Enumerable.Range(0,b.onClick.GetPersistentEventCount()).Where(i=>b.onClick.GetPersistentTarget(i)==null&&!string.IsNullOrEmpty(b.onClick.GetPersistentMethodName(i))).Select(i=>new {button=b.name,index=i,method=b.onClick.GetPersistentMethodName(i),state=b.onClick.GetPersistentListenerState(i).ToString()})).ToArray();"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": [
+        {
+          "button": "SpeedBuff_Active_obj",
+          "index": 0,
+          "method": "SetActive",
+          "state": "RuntimeOnly"
+        },
+        {
+          "button": "Collection_Btn",
+          "index": 0,
+          "method": "UI_Reload",
+          "state": "Off"
+        },
+        {
+          "button": "Info_Btn",
+          "index": 0,
+          "method": "SetActive",
+          "state": "Off"
+        },
+        {
+          "button": "Collection_Btn",
+          "index": 0,
+          "method": "UI_Reload",
+          "state": "RuntimeOnly"
+        },
+        {
+          "button": "OfferWall_Bannner",
+          "index": 0,
+          "method": "Open_Shop",
+          "state": "RuntimeOnly"
+        },
+        {
+          "button": "FreeCash_Banner",
+          "index": 0,
+          "method": "OnClick",
+          "state": "Off"
+        },
+        {
+          "button": "Rebirth_btn",
+          "index": 0,
+          "method": "Rebirth_Start",
+          "state": "RuntimeOnly"
+        },
+        {
+          "button": "BuffPack",
+          "index": 0,
+          "method": "Purchase",
+          "state": "RuntimeOnly"
+        },
+        {
+          "button": "FreeCash_Banner",
+          "index": 0,
+          "method": "OnClick",
+          "state": "Off"
+        },
+        {
+          "button": "RedeemOpen_Btn",
+          "index": 0,
+          "method": "SetActive",
+          "state": "RuntimeOnly"
+        },
+        {
+          "button": "FreeCash_Banner",
+          "index": 0,
+          "method": "OnClick",
+          "state": "Off"
+        },
+        {
+          "button": "FreeCash_Banner",
+          "index": 0,
+          "method": "OnClick",
+          "state": "Off"
+        },
+        {
+          "button": "FreeCash_Banner",
+          "index": 0,
+          "method": "OnClick",
+          "state": "Off"
+        },
+        {
+          "button": "FreeCash_Banner",
+          "index": 0,
+          "method": "OnClick",
+          "state": "Off"
+        },
+        {
+          "button": "FreeCash_Banner",
+          "index": 0,
+          "method": "OnClick",
+          "state": "Off"
+        },
+        {
+          "button": "FreeCash_Banner",
+          "index": 0,
+          "method": "OnClick",
+          "state": "Off"
+        },
+        {
+          "button": "FreeCash_Banner",
+          "index": 0,
+          "method": "OnClick",
+          "state": "Off"
+        },
+        {
+          "button": "FreeCash_Banner",
+          "index": 0,
+          "method": "OnClick",
+          "state": "Off"
+        },
+        {
+          "button": "FreeCash_Banner",
+          "index": 0,
+          "method": "OnClick",
+          "state": "Off"
+        },
+        {
+          "button": "FreeCash_Banner",
+          "index": 0,
+          "method": "OnClick",
+          "state": "Off"
+        },
+        {
+          "button": "Star_obj",
+          "index": 0,
+          "method": "onClick_StarUpgrade",
+          "state": "RuntimeOnly"
+        },
+        {
+          "button": "Background",
+          "index": 0,
+          "method": "SetActive",
+          "state": "RuntimeOnly"
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

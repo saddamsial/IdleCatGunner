@@ -5,7 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using CatGunner.Recovery;
+using CatGunner.Runtime;
 
 public static class PreviewPenguinUi
 {
@@ -13,10 +13,10 @@ public static class PreviewPenguinUi
     public static string Capture()
     {
         if (!Application.isPlaying || Application.dataPath != "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets") throw new Exception("Correct PlayMode required");
-        Directory.CreateDirectory(Dir); var c = RecoveryForestClient.Instance; c.StartCoroutine(Observe(c));
+        Directory.CreateDirectory(Dir); var c = GameClient.Instance; c.StartCoroutine(Observe(c));
         return "Recording actual UI pages in an isolated preview profile; no purchase callbacks invoked.";
     }
-    static IEnumerator Observe(RecoveryForestClient c)
+    static IEnumerator Observe(GameClient c)
     {
         while (!c.ReadyForPlay) yield return null;
         yield return new WaitForSeconds(.4f);

@@ -1,28 +1,28 @@
-using System;using System.IO;using System.Linq;using System.Collections.Generic;using System.Reflection;using UnityEditor;using UnityEditor.SceneManagement;using UnityEngine;using UnityEngine.UI;using TMPro;using CatGunner.Recovery;
+using System;using System.IO;using System.Linq;using System.Collections.Generic;using System.Reflection;using UnityEditor;using UnityEditor.SceneManagement;using UnityEngine;using UnityEngine.UI;using TMPro;using CatGunner.Runtime;
 public static class BakeRecoveredUi
 {
- const string Output="Assets/Recovery/AuthoredUI";
+ const string Output="Assets/Game/AuthoredUI";
  public static object Main()
  {
   var scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene();
-  if(Application.isPlaying||scene.path!="Assets/Recovery/Scenes/RecoveredClient.unity")throw new Exception("RecoveredClient EditMode required");
-  var c=UnityEngine.Object.FindAnyObjectByType<RecoveryForestClient>(FindObjectsInactive.Include);var canvas=c.Slider.GetComponentInParent<Canvas>();
+  if(Application.isPlaying||scene.path!="Assets/Game/Scenes/GameClient.unity")throw new Exception("GameClient EditMode required");
+  var c=UnityEngine.Object.FindAnyObjectByType<GameClient>(FindObjectsInactive.Include);var canvas=c.Slider.GetComponentInParent<Canvas>();
   if(c.GetComponent<PenguinUiTheme>().StaticUiBaked)throw new Exception("Already baked: manual edits must be preserved");
   Directory.CreateDirectory(Output+"/Materials");AssetDatabase.Refresh();
-  var aliases=canvas.gameObject.GetComponent<RecoveryUiAuthoring>()??canvas.gameObject.AddComponent<RecoveryUiAuthoring>();aliases.CaptureAliases();
+  var aliases=canvas.gameObject.GetComponent<UiAuthoring>()??canvas.gameObject.AddComponent<UiAuthoring>();aliases.CaptureAliases();
   int before=canvas.GetComponentsInChildren<Transform>(true).Length;
-  c.Tutorial.BakeChallengeCue();RecoveryPlusPackItem.BindAll(c);
-  var viewport=c.GetComponent<RecoveryMobileViewport>()??c.gameObject.AddComponent<RecoveryMobileViewport>();viewport.BakeStaticLayout((RectTransform)RecoveryUiAuthoring.Find(canvas.transform,"SafeArea"));
-  var presentation=c.GetComponent<RecoveryClientPresentation>()??c.gameObject.AddComponent<RecoveryClientPresentation>();presentation.BakeStaticUi(c);
-  var language=c.GetComponent<RecoveryLanguage>()??c.gameObject.AddComponent<RecoveryLanguage>();language.BakeStaticUi(canvas.transform,presentation);
-  OriginalSeasonPreview.Bind(canvas.transform);
+  c.Tutorial.BakeChallengeCue();PlusPackItem.BindAll(c);
+  var viewport=c.GetComponent<MobileViewport>()??c.gameObject.AddComponent<MobileViewport>();viewport.BakeStaticLayout((RectTransform)UiAuthoring.Find(canvas.transform,"SafeArea"));
+  var presentation=c.GetComponent<ClientPresentation>()??c.gameObject.AddComponent<ClientPresentation>();presentation.BakeStaticUi(c);
+  var language=c.GetComponent<Language>()??c.gameObject.AddComponent<Language>();language.BakeStaticUi(canvas.transform,presentation);
+  SeasonPreview.Bind(canvas.transform);
   foreach(var name in new[]{"SpeedRun_UI","Boss_UI","Raid_UI"})
   {
-   var root=RecoveryUiAuthoring.Find(canvas.transform,"SafeArea/"+name+"/Currency");if(root==null)continue;
-   var currency=root.GetComponent<Currency>()??root.gameObject.AddComponent<Currency>();currency.Money_txt=RecoveryUiAuthoring.Find(root,"Money/Price_txt").GetComponent<TextMeshProUGUI>();currency.Dia_txt=RecoveryUiAuthoring.Find(root,"Dia/Price_txt").GetComponent<TextMeshProUGUI>();
+   var root=UiAuthoring.Find(canvas.transform,"SafeArea/"+name+"/Currency");if(root==null)continue;
+   var currency=root.GetComponent<Currency>()??root.gameObject.AddComponent<Currency>();currency.Money_txt=UiAuthoring.Find(root,"Money/Price_txt").GetComponent<TextMeshProUGUI>();currency.Dia_txt=UiAuthoring.Find(root,"Dia/Price_txt").GetComponent<TextMeshProUGUI>();
   }
   var full=c.GetComponent<PenguinFullReskin>();var map=new Dictionary<Sprite,Sprite>();
-  for(int i=0;i<full.Sources.Length;i++)if(full.Sources[i]!=null&&full.Replacements[i]!=null&&!(full.PreserveOriginalRingStyle&&PenguinFullReskin.IsOriginalGlow(full.Sources[i])))map[full.Sources[i]]=full.Replacements[i];
+  for(int i=0;i<full.Sources.Length;i++)if(full.Sources[i]!=null&&full.Replacements[i]!=null&&!(full.PreserveClassicRingStyle&&PenguinFullReskin.IsClassicGlow(full.Sources[i])))map[full.Sources[i]]=full.Replacements[i];
   Sprite Replace(Sprite original)=>original!=null&&map.TryGetValue(original,out var next)?next:original;
   foreach(var behaviour in canvas.GetComponentsInChildren<MonoBehaviour>(true))
   {
@@ -40,9 +40,9 @@ public static class BakeRecoveredUi
    if(old!=null&&image.transform.name=="Cat_img"&&AncestorNameContains(image.transform,"Weekly"))image.sprite=full.WeeklyShop;
   }
   foreach(var raw in canvas.GetComponentsInChildren<RawImage>(true))
-  {int index=Array.IndexOf(full.OriginalTextures,raw.texture);if(index>=0&&!(raw.texture is RenderTexture))raw.texture=full.ThemedTextures[index];}
+  {int index=Array.IndexOf(full.SourceTextures,raw.texture);if(index>=0&&!(raw.texture is RenderTexture))raw.texture=full.ThemedTextures[index];}
   foreach(var text in canvas.GetComponentsInChildren<TMP_Text>(true))
-  {int index=Array.IndexOf(full.OriginalGlyphs,text.spriteAsset);if(index>=0)text.spriteAsset=full.ThemedGlyphs[index];}
+  {int index=Array.IndexOf(full.SourceGlyphs,text.spriteAsset);if(index>=0)text.spriteAsset=full.ThemedGlyphs[index];}
   c.GetComponent<PenguinUiTheme>().BakeStaticUi();
   c.GetComponent<PenguinPlaytestPolish>().BakeStaticUi();
   foreach(var actor in canvas.GetComponentsInChildren<PenguinLoadingMascot>(true))actor.Authored=true;
@@ -50,10 +50,11 @@ public static class BakeRecoveredUi
   // The loading background is a persistent Canvas sibling behind the HUD. Startup only changes its visibility/input layer.
   var loading=c.LoadingUI;loading.transform.SetParent(canvas.transform,false);loading.transform.SetAsFirstSibling();
   var loadingRect=(RectTransform)loading.transform;loadingRect.anchorMin=Vector2.zero;loadingRect.anchorMax=Vector2.one;loadingRect.offsetMin=loadingRect.offsetMax=Vector2.zero;
-  var overlay=loading.GetComponent<Canvas>();if(overlay==null)overlay=loading.AddComponent<Canvas>();overlay.overrideSorting=true;overlay.sortingOrder=0;
+  var overlay=loading.GetComponent<Canvas>();if(overlay==null)overlay=loading.AddComponent<Canvas>();overlay.overrideSorting=false;overlay.sortingOrder=0;
   if(loading.GetComponent<GraphicRaycaster>()==null)loading.AddComponent<GraphicRaycaster>();
   var group=loading.GetComponent<CanvasGroup>();if(group==null)group=loading.AddComponent<CanvasGroup>();group.blocksRaycasts=false;
   loading.SetActive(false);
+  var startupInput=canvas.GetComponent<CanvasGroup>()??canvas.gameObject.AddComponent<CanvasGroup>();var clientSo=new SerializedObject(c);clientSo.FindProperty("startupUiInput").objectReferenceValue=startupInput;clientSo.ApplyModifiedPropertiesWithoutUndo();
   // Never persist a transient material reference from the presentation adapters.
   var persisted=new Dictionary<Material,Material>();int materialIndex=0;
   Material Persist(Material mat)
@@ -75,7 +76,7 @@ public static class BakeRecoveredUi
    so.ApplyModifiedPropertiesWithoutUndo();EditorUtility.SetDirty(behaviour);
   }
   foreach(var text in canvas.GetComponentsInChildren<TMP_Text>(true))text.fontSharedMaterial=Persist(text.fontSharedMaterial);
-  foreach(var style in canvas.GetComponentsInChildren<RecoveryWeaponTextStyle>(true))style.BakeStyle();
+  foreach(var style in canvas.GetComponentsInChildren<WeaponTextStyle>(true))style.BakeStyle();
   full.StaticUiBaked=true;c.StaticUiBaked=true;aliases.StaticUiBaked=true;aliases.CaptureAliases();
   // Replaced prefab instance fields and added scripts remain explicitly saved overrides.
   foreach(var go in canvas.GetComponentsInChildren<Transform>(true))

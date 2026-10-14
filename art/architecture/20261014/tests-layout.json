@@ -1,0 +1,154 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 109.14,
+      "summary": {
+        "total": 18,
+        "passed": 17,
+        "failed": 1,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "OriginalStartupTests.ActualLegacyProfileStartsWithWalkingCatThenMovesAndShootsWithoutInputAndReloads",
+          "Status": "Failed",
+          "Duration": 10.408122,
+          "Message": "  Expected: greater than 0.5f\n  But was:  0.107182302f\n",
+          "StackTrace": "at OriginalStartupTests+<ActualLegacyProfileStartsWithWalkingCatThenMovesAndShootsWithoutInputAndReloads>d__8.MoveNext () [0x00551] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Recovery/Tests/PlayMode/OriginalStartupTests.cs:107\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "OriginalStartupTests.FailedInitializationCannotEnableAutosaveOrOverwriteMainAndBackup",
+          "Status": "Passed",
+          "Duration": 8.4854892,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalStartupTests.NativeBestArrayKeepsLegacyPrefixAndDoesNotAlterInput",
+          "Status": "Passed",
+          "Duration": 0.419134,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "OriginalStartupTests.UnsupportedRaidValuesRejectBeforeStateMutation",
+          "Status": "Passed",
+          "Duration": 0.3598862,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "RecoveredUiAuthoringTests.AuthoredCatalogueSpriteIsNotReassignedByBootstrap",
+          "Status": "Passed",
+          "Duration": 6.0542795,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "RecoveredUiAuthoringTests.AuthoredModalSortingAndBorderThicknessAreRespected",
+          "Status": "Passed",
+          "Duration": 5.9914348,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "RecoveredUiAuthoringTests.LoadingKeepsHudVisibleDuringStartup",
+          "Status": "Passed",
+          "Duration": 6.1503091,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "RecoveredUiAuthoringTests.LoadingTransitionsPreserveAuthoredParentAndRect",
+          "Status": "Passed",
+          "Duration": 6.4041397,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "RecoveredUiAuthoringTests.ManualArtworkHierarchyAndStyleSurviveStartup",
+          "Status": "Passed",
+          "Duration": 6.1244212,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "RecoveredUiAuthoringTests.ManualProgressAnchorsAreNotRebuilt",
+          "Status": "Passed",
+          "Duration": 6.3817963,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "RecoveredUiAuthoringTests.RenamedLocalizedCaptionRetainsStyleAndLanguageControlsWork",
+          "Status": "Passed",
+          "Duration": 6.5414923,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "RecoveredUiAuthoringTests.StaticPresentationExistsAndDoesNotDuplicateOnEnable",
+          "Status": "Passed",
+          "Duration": 6.6124003,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SceneArchitectureTests.CancelledDeferredLoadDoesNotCreateOrphan",
+          "Status": "Passed",
+          "Duration": 6.2696141,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SceneArchitectureTests.ClosingInventoryDuringLoadDoesNotOpenStaleModal",
+          "Status": "Passed",
+          "Duration": 6.5255366,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SceneArchitectureTests.ColdBootDefersWeaponPanelsAndLoadsPoolBeforeCombat",
+          "Status": "Passed",
+          "Duration": 6.3092596,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SceneArchitectureTests.FullPoolKeepsLiveProjectilesAndReusesDeadTrails",
+          "Status": "Passed",
+          "Duration": 6.3803247,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SceneArchitectureTests.RepeatedCollectionClicksReuseOnePopulatedCatalogue",
+          "Status": "Passed",
+          "Duration": 6.6011725,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SceneArchitectureTests.RepeatedInformationClicksCreateOneLocalizedReusablePanel",
+          "Status": "Passed",
+          "Duration": 6.7908295,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

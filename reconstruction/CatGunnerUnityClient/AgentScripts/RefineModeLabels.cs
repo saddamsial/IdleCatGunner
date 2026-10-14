@@ -1,0 +1,11 @@
+using System;using System.Linq;using UnityEngine;using UnityEngine.UI;using UnityEditor;using UnityEditor.SceneManagement;using TMPro;using CatGunner.Runtime;
+public static class RefineModeLabels {
+ static void Save(UnityEngine.Object o){EditorUtility.SetDirty(o);if(PrefabUtility.IsPartOfPrefabInstance(o))PrefabUtility.RecordPrefabInstancePropertyModifications(o);}
+ public static object Main(){if(Application.dataPath!="/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets"||Application.isPlaying)throw new Exception("Correct EditMode required");var c=UnityEngine.Object.FindAnyObjectByType<GameClient>(FindObjectsInactive.Include);var canvas=c.Slider.GetComponentInParent<Canvas>();int count=0;
+ foreach(var text in new TMP_Text[]{c.SpeedRun.Start_UI.Stage_txt,c.BossMode.Start_UI.Lv_txt,c.MonsterMode.monster_start_ui.Wave_txt}.Concat(c.MineMode.mineStart_ui.GetComponentsInChildren<TMP_Text>(true).Where(t=>t.text.Contains("钻石矿山")))){
+ if(text==null)continue;Undo.RecordObject(text,"Title over illustration");text.color=Color.white;var mat=new Material(text.fontSharedMaterial);mat.name="ModeTitle-"+count;mat.SetFloat("_FaceDilate",0);mat.SetFloat("_OutlineWidth",.18f);mat.SetColor("_OutlineColor",PenguinUiTheme.Navy);string path="Assets/Game/PenguinModeUI/"+mat.name+".mat";var old=AssetDatabase.LoadAssetAtPath<Material>(path);if(old==null){AssetDatabase.CreateAsset(mat,path);old=mat;}else{EditorUtility.CopySerialized(mat,old);UnityEngine.Object.DestroyImmediate(mat);}text.fontSharedMaterial=old;
+ var style=text.GetComponent<WeaponTextStyle>();if(style!=null&&style.Authored){var so=new SerializedObject(style);so.FindProperty("authoredMaterial").objectReferenceValue=old;so.ApplyModifiedPropertiesWithoutUndo();Save(style);}Save(old);Save(text);count++;
+ }
+ foreach(var map in canvas.GetComponentsInChildren<Adventure_Map_item>(true)){foreach(var name in new[]{"Name","EnterDay_txt","Enter_Btn"}){var t=UiAuthoring.Find(map.transform,name);if(t==null)continue;Undo.RecordObject(t,"Travel text above closed-day shade");t.SetAsLastSibling();Save(t);}}
+ AssetDatabase.SaveAssets();var scene=c.gameObject.scene;EditorSceneManager.MarkSceneDirty(scene);if(!EditorSceneManager.SaveScene(scene))throw new Exception("Save failed");return new{titles=count,saved=true};}
+}

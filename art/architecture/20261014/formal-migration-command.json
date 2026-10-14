@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "command": "command run_script",
+  "data": {
+    "command": "run_script",
+    "parameters": {
+      "entry": "ApplyFormalNames.Run",
+      "timeout_ms": "60000",
+      "file": "/Volumes/ZHITAI_1T/IdleCatGunner/art/architecture/20261014/ApplyFormalNames.cs"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 9405,
+      "executeMs": 6597,
+      "assemblyName": "PipelineRunScript_ApplyFormalNames_b2940dd176dc4165bcff07791c727ee6",
+      "success": false,
+      "error": "Runtime Error",
+      "errorDetails": "Exception: Cannot move asset.  is not a valid path.\n  at ApplyFormalNames.Run () [0x00260] in /Volumes/ZHITAI_1T/IdleCatGunner/art/architecture/20261014/ApplyFormalNames.cs:19 \n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\n  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <67e9686a86934ae8b0ef7cc81c6b4608>:0 "
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

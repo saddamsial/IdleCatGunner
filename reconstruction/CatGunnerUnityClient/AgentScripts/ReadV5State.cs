@@ -1,0 +1,5 @@
+using System;using System.Linq;using UnityEngine;using UnityEditor;using CatGunner.Runtime;
+public static class ReadV5State
+{
+ public static object Main(){var c=UnityEngine.Object.FindAnyObjectByType<GameClient>(FindObjectsInactive.Include);var e=typeof(EditorWindow).Assembly.GetType("UnityEditor.LogEntry");var t=typeof(EditorWindow).Assembly.GetType("UnityEditor.LogEntries");var n=(int)t.GetMethod("GetCount").Invoke(null,null);var a=new System.Collections.Generic.List<string>();t.GetMethod("StartGettingEntries").Invoke(null,null);for(int i=Math.Max(0,n-8);i<n;i++){var row=Activator.CreateInstance(e);t.GetMethod("GetEntryInternal").Invoke(null,new object[]{i,row});a.Add((string)e.GetField("message").GetValue(row));}t.GetMethod("EndGettingEntries").Invoke(null,null);return new{editor=EditorApplication.isPlaying,play=Application.isPlaying,ready=c!=null&&c.ReadyForPlay,polish=c!=null&&c.GetComponent<PenguinPlaytestPolish>().Ready,scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().name,frame=Time.frameCount,folder=c!=null?c.SaveFolderOverride:null,logs=a};}
+}

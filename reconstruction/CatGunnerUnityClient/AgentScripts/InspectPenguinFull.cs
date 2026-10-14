@@ -5,14 +5,14 @@ using System.Reflection;
 using UnityEngine;
 using UnityEditor;
 using UnityEngine.UI;
-using CatGunner.Recovery;
+using CatGunner.Runtime;
 
 public static class InspectPenguinFull
 {
     public static string Run()
     {
         if (Application.dataPath != "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets" || Application.isPlaying) throw new Exception("Correct EditMode required");
-        var c = UnityEngine.Object.FindAnyObjectByType<RecoveryForestClient>(FindObjectsInactive.Include);
+        var c = UnityEngine.Object.FindAnyObjectByType<GameClient>(FindObjectsInactive.Include);
         var all = c.gameObject.scene.GetRootGameObjects().SelectMany(g => g.GetComponentsInChildren<MonoBehaviour>(true)).Where(b => b != null).ToArray();
         string P(Transform t) { string p=t.name; while(t.parent!=null) {t=t.parent;p=t.name+"/"+p;}return p; }
         object S(Sprite s) => s == null ? null : new { s.name, asset = AssetDatabase.GetAssetPath(s), width=s.rect.width, height=s.rect.height, bounds=s.bounds.size.ToString(), texture=s.texture.name };

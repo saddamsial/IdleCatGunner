@@ -1,5 +1,12 @@
 # IdleCatGunner
 
+## 2026-10-14 场景、异步加载与正式代码命名
+
+Unity 正式入口：`reconstruction/CatGunnerUnityClient/Assets/Game/Scenes/GameClient.unity`。层级按 World、Systems、UI 管理；新增 4 个预制体，对象池启动时异步加载，武器说明/收藏页首次打开才加载。正式代码与程序集为 CatGunner.Runtime，资源迁移保留 GUID 和存档兼容；21 项不同相关回归通过。编辑态节点从 39,614 降为 30,771。
+
+本轮变更报告与迁移表在 `art/architecture/20261014/`。没有生成新 APK。下列历史记录中的旧场景名称已迁移至上述正式入口。
+
+
 ## 完整版游戏版本标记
 
 用户指定的完整版版本标签：`v0.77.0-full-game`，对应确认可玩的 r77（0.77.0/code77）。此名称标记本次完整工程与安装包快照；原版全部 UI、教程、特效及线上服务是否完全一致，仍以各验证报告中的边界为准。

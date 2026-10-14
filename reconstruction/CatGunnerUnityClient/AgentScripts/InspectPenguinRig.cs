@@ -1,10 +1,10 @@
-using System;using System.IO;using System.Linq;using UnityEngine;using UnityEditor;using CatGunner.Recovery;
+using System;using System.IO;using System.Linq;using UnityEngine;using UnityEditor;using CatGunner.Runtime;
 public static class InspectPenguinRig
 {
  public static string Run()
  {
   if(Application.dataPath!="/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets")throw new Exception("Wrong project");
-  var c=UnityEngine.Object.FindAnyObjectByType<RecoveryForestClient>(FindObjectsInactive.Include);var hero=c.Hero;
+  var c=UnityEngine.Object.FindAnyObjectByType<GameClient>(FindObjectsInactive.Include);var hero=c.Hero;
   string P(Transform t)=>t==null?null:(t.parent==null?t.name:P(t.parent)+"/"+t.name);
   var sources=hero.GetComponentsInChildren<SpriteRenderer>(true).Select(r=>new{path=P(r.transform),r.name,sprite=r.sprite?.name,bounds=r.sprite?.bounds.ToString(),sorting=r.sortingOrder,local=r.transform.localPosition.ToString(),scale=r.transform.localScale.ToString()}).ToArray();
   var particles=c.gameObject.scene.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<ParticleSystem>(true)).Where(p=>p.GetComponent<ParticleSystemRenderer>()?.sharedMaterial!=null).Select(p=>new{p.name,path=P(p.transform),shader=p.GetComponent<ParticleSystemRenderer>().sharedMaterial.shader.name,texture=p.GetComponent<ParticleSystemRenderer>().sharedMaterial.mainTexture?.name,renderMode=p.GetComponent<ParticleSystemRenderer>().renderMode.ToString()}).ToArray();

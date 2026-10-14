@@ -1,5 +1,5 @@
 using System;using System.IO;using System.Linq;using System.Collections;using System.Collections.Generic;
-using UnityEngine;using UnityEngine.UI;using UnityEngine.EventSystems;using TMPro;using CatGunner.Recovery;
+using UnityEngine;using UnityEngine.UI;using UnityEngine.EventSystems;using TMPro;using CatGunner.Runtime;
 public static class AuditUiReadability
 {
  static string Dir(string batch)=>Path.GetFullPath(Application.dataPath+"/../../../art/reskin/penguin-expedition/readability-v1/"+batch);
@@ -7,15 +7,15 @@ public static class AuditUiReadability
  public static string Capture(string batch)
  {
   if(Application.dataPath!="/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets"||!Application.isPlaying)throw new Exception("Correct Play required");
-  var c=RecoveryForestClient.Instance;if(c.SaveFolderOverride==null||!c.SaveFolderOverride.Contains("PenguinPreview"))throw new Exception("Isolated preview required");
+  var c=GameClient.Instance;if(c.SaveFolderOverride==null||!c.SaveFolderOverride.Contains("PenguinPreview"))throw new Exception("Isolated preview required");
   Directory.CreateDirectory(Dir(batch));c.StartCoroutine(Run(c,batch));return "Capturing all menus, modal templates and mission text continuity in isolated Play";
  }
  public static string KeyPages(string batch)
  {
-  var c=RecoveryForestClient.Instance;if(Application.dataPath!="/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets"||!Application.isPlaying||c.SaveFolderOverride==null||!c.SaveFolderOverride.Contains("PenguinPreview"))throw new Exception("Isolated correct Play required");
+  var c=GameClient.Instance;if(Application.dataPath!="/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets"||!Application.isPlaying||c.SaveFolderOverride==null||!c.SaveFolderOverride.Contains("PenguinPreview"))throw new Exception("Isolated correct Play required");
   Directory.CreateDirectory(Dir(batch));File.Delete(Path.Combine(Dir(batch),"complete.json"));c.StartCoroutine(RunKey(c,batch));return "Capturing representative pages at current target resolution";
  }
- static IEnumerator RunKey(RecoveryForestClient c,string batch)
+ static IEnumerator RunKey(GameClient c,string batch)
  {
   string dir=Dir(batch);while(!c.ReadyForPlay)yield return null;c.DailyLogin.AutoShow=false;c.DailyLogin.LastCheck_Date=c.DailyLogin.LocalToday().Date;
   foreach(var popup in c.Slider.GetComponentInParent<Canvas>().GetComponentsInChildren<PenguinPopupFeedback>(true))if(popup.gameObject.activeSelf)popup.gameObject.SetActive(false);
@@ -40,7 +40,7 @@ public static class AuditUiReadability
  static IEnumerator Shot(string dir,string name,float wait=.4f){yield return new WaitForSecondsRealtime(wait);yield return new WaitForEndOfFrame();var tex=ScreenCapture.CaptureScreenshotAsTexture();try{File.WriteAllBytes(Path.Combine(dir,name+".png"),tex.EncodeToPNG());}finally{UnityEngine.Object.Destroy(tex);}}
  static object GraphicRow(Graphic g)=>new{path=PathOf(g.transform),type=g.GetType().Name,color=ColorUtility.ToHtmlStringRGBA(g.color),sprite=g is Image im?(im.sprite!=null?im.sprite.name:null):g is SlicedFilledImage sf?(sf.sprite!=null?sf.sprite.name:null):null,text=g is TMP_Text txt?txt.text:null,material=g is TMP_Text t?(t.fontSharedMaterial!=null?t.fontSharedMaterial.name:null):null,outline=g is TMP_Text tm&&tm.fontSharedMaterial!=null?tm.fontSharedMaterial.GetFloat("_OutlineWidth"):0,active=g.isActiveAndEnabled};
  static IEnumerator Show(Canvas canvas,Transform page,string dir,string name){var states=new Dictionary<GameObject,bool>();for(var t=page;t!=canvas.transform;t=t.parent){states[t.gameObject]=t.gameObject.activeSelf;t.gameObject.SetActive(true);}yield return Shot(dir,name,.8f);foreach(var s in states)s.Key.SetActive(s.Value);}
- static IEnumerator Run(RecoveryForestClient c,string batch)
+ static IEnumerator Run(GameClient c,string batch)
  {
   string dir=Dir(batch);while(!c.ReadyForPlay)yield return null;Application.runInBackground=true;Time.timeScale=1;
   c.MissionUI.Panel_Close();c.DailyLogin.AutoShow=false;c.DailyLogin.Close();c.Tutorial.SetCleared();ForestRuntimeAcceptance.IsGaming=false;c.Offline.offlinePanelUI.gameObject.SetActive(false);c.Forest.Stage_Value_Max=400;c.ContentUnlock.Reload();

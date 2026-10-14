@@ -5,17 +5,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using UnityEditor.SceneManagement;
-using CatGunner.Recovery;
+using CatGunner.Runtime;
 
 public static class InstallPenguinUi
 {
-    const string Folder = "Assets/Recovery/PenguinUi/";
+    const string Folder = "Assets/Game/PenguinUi/";
     public static string Run()
     {
         if (Application.dataPath != "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets" || EditorApplication.isPlaying) throw new Exception("Correct EditMode required");
         AssetDatabase.Refresh();
-        var scene = EditorSceneManager.OpenScene("Assets/Recovery/Scenes/RecoveredClient.unity");
-        var c = UnityEngine.Object.FindAnyObjectByType<RecoveryForestClient>(FindObjectsInactive.Include);
+        var scene = EditorSceneManager.OpenScene("Assets/Game/Scenes/GameClient.unity");
+        var c = UnityEngine.Object.FindAnyObjectByType<GameClient>(FindObjectsInactive.Include);
         var theme = c.GetComponent<PenguinUiTheme>() ?? Undo.AddComponent<PenguinUiTheme>(c.gameObject);
         theme.Panel = Shape("IcePanel", 0); theme.Fill = Shape("IceFill", 1); theme.Outline = Shape("IceOutline", 2);
         theme.Circle = Shape("IceCircle", 3); theme.Gear = Shape("IceGear", 4); theme.Flipper = Shape("FlipperPointer", 5);
@@ -24,11 +24,11 @@ public static class InstallPenguinUi
         theme.SnowPattern = Pattern("SnowPattern", false); theme.IceStripe = Pattern("IceStripe", true);
         var canvas = c.Slider.GetComponentInParent<Canvas>();
         var originals = canvas.GetComponentsInChildren<UnityEngine.UI.Image>(true).Select(i => i.sprite).Where(s => s != null && (s.name.StartsWith("ui ") || s.name.StartsWith("u i ") || s.name.StartsWith("Panel_") || s.name.StartsWith("Relic_Panel"))).Distinct().ToArray();
-        theme.OriginalOutlineSprites = originals.Where(HasEmptyCenter).ToArray();
+        theme.OutlineSprites = originals.Where(HasEmptyCenter).ToArray();
         theme.Penguin = c.GetComponent<PenguinExpeditionTheme>().Penguin;
         theme.enabled = true; EditorUtility.SetDirty(theme); EditorSceneManager.MarkSceneDirty(scene);
         if (!EditorSceneManager.SaveScene(scene)) throw new Exception("Scene save failed");
-        AssetDatabase.SaveAssets(); RecoveryEditor.SetPortraitGameView();
+        AssetDatabase.SaveAssets(); GameProjectEditor.SetPortraitGameView();
         return "Installed unified UI theme across the original Canvas; approved character and animation assets untouched.";
     }
     static Sprite Picture(string name)

@@ -1,9 +1,9 @@
-using System;using System.IO;using System.Linq;using Newtonsoft.Json;using UnityEngine;using UnityEngine.UI;using TMPro;using CatGunner.Recovery;
+using System;using System.IO;using System.Linq;using Newtonsoft.Json;using UnityEngine;using UnityEngine.UI;using TMPro;using CatGunner.Runtime;
 public static class UiAuthoringSnapshot
 {
  public static object Main(string name="baseline")
  {
-  var c=UnityEngine.Object.FindAnyObjectByType<RecoveryForestClient>(FindObjectsInactive.Include);
+  var c=UnityEngine.Object.FindAnyObjectByType<GameClient>(FindObjectsInactive.Include);
   if(Application.isPlaying&&!c.ReadyForPlay)throw new Exception("Startup not ready");
   var canvas=c.Slider.GetComponentInParent<Canvas>();Canvas.ForceUpdateCanvases();
   string PathOf(Transform t){string p=t.name;while(t!=canvas.transform&&t.parent!=null){t=t.parent;p=t.name+"/"+p;}return p;}

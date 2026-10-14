@@ -1,10 +1,10 @@
 using System;using System.IO;using System.Linq;using System.Collections.Generic;using System.Reflection;
-using UnityEngine;using UnityEngine.UI;using UnityEditor;using UnityEditor.SceneManagement;using TMPro;using CatGunner.Recovery;
+using UnityEngine;using UnityEngine.UI;using UnityEditor;using UnityEditor.SceneManagement;using TMPro;using CatGunner.Runtime;
 using Newtonsoft.Json.Linq;
 
 public static class InstallPenguinFull
 {
- const string Folder="Assets/Recovery/PenguinFull/";
+ const string Folder="Assets/Game/PenguinFull/";
  static Dictionary<Sprite,Sprite> map;
  static PenguinFullReskin theme;
  static Dictionary<Texture2D,Texture2D> readable=new Dictionary<Texture2D,Texture2D>();
@@ -13,10 +13,10 @@ public static class InstallPenguinFull
  public static string Run()
  {
   if(Application.dataPath!="/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets"||Application.isPlaying)throw new Exception("Correct EditMode required");
-  AssetDatabase.Refresh();var scene=EditorSceneManager.OpenScene("Assets/Recovery/Scenes/RecoveredClient.unity");
-  var c=UnityEngine.Object.FindAnyObjectByType<RecoveryForestClient>(FindObjectsInactive.Include);theme=c.GetComponent<PenguinFullReskin>()??Undo.AddComponent<PenguinFullReskin>(c.gameObject);
+  AssetDatabase.Refresh();var scene=EditorSceneManager.OpenScene("Assets/Game/Scenes/GameClient.unity");
+  var c=UnityEngine.Object.FindAnyObjectByType<GameClient>(FindObjectsInactive.Include);theme=c.GetComponent<PenguinFullReskin>()??Undo.AddComponent<PenguinFullReskin>(c.gameObject);
   theme.Landscapes=Load("landscapes",4);theme.Skins=Load("skins",25);theme.Weapons=Load("weapons",65);theme.Fish=Load("fish",13);theme.Pets=Load("pets",13);theme.Bosses=Load("bosses",9);theme.RaidBosses=Load("raid-bosses",5);theme.Monsters=Load("monsters",20);theme.Gems=Load("gems",16);theme.Icons=Load("icons",16);theme.Utilities=Load("utilities",24);theme.Effects=Load("effects",4);theme.WeeklyShop=Picture("weekly-shop-00");theme.ApprovedPenguin=c.GetComponent<PenguinExpeditionTheme>().Penguin;
-  theme.FaceShader=AssetDatabase.LoadAssetAtPath<Shader>("Assets/Recovery/PenguinExpression.shader");theme.FloatingShader=AssetDatabase.LoadAssetAtPath<Shader>("Assets/Recovery/PenguinFloatingNumber.shader");
+  theme.FaceShader=AssetDatabase.LoadAssetAtPath<Shader>("Assets/Game/PenguinExpression.shader");theme.FloatingShader=AssetDatabase.LoadAssetAtPath<Shader>("Assets/Game/PenguinFloatingNumber.shader");
   var meta=JArray.Parse(File.ReadAllText(Path.GetFullPath(Application.dataPath+"/../../../art/reskin/penguin-expedition/full-reskin/assets.json"))).Where(j=>(string)j["family"]=="skins").OrderBy(j=>(int)j["index"]).ToArray();
   Vector4 V(JToken token)=>new Vector4((float)token[0],(float)token[1],(float)token[2],(float)token[3]);
   theme.EyeA=meta.Select(j=>V(j["eyes"][0])).ToArray();theme.EyeB=meta.Select(j=>V(j["eyes"][1])).ToArray();theme.Mouth=meta.Select(j=>V(j["mouth"])).ToArray();
@@ -34,13 +34,13 @@ public static class InstallPenguinFull
   // Catalogue state is installed on Start; serialized original arrays remain intact.
   theme.Sources=map.Keys.ToArray();theme.Replacements=theme.Sources.Select(s=>map[s]).ToArray();
   var glyphs=AssetDatabase.FindAssets("t:TMP_SpriteAsset").Select(g=>AssetDatabase.LoadAssetAtPath<TMP_SpriteAsset>(AssetDatabase.GUIDToAssetPath(g))).Where(a=>a!=null&&a.spriteCharacterTable.Any(ch=>Semantic(ch.name,c)!=null)&&!AssetDatabase.GetAssetPath(a).StartsWith(Folder)).ToArray();
-  theme.OriginalGlyphs=glyphs;theme.ThemedGlyphs=glyphs.Select((a,i)=>GlyphAsset(a,i,c)).ToArray();
+  theme.SourceGlyphs=glyphs;theme.ThemedGlyphs=glyphs.Select((a,i)=>GlyphAsset(a,i,c)).ToArray();
   theme.enabled=true;EditorUtility.SetDirty(theme);EditorSceneManager.MarkSceneDirty(scene);EditorSceneManager.SaveScene(scene);AssetDatabase.SaveAssets();
   var records=theme.Sources.Select((s,i)=>new{source=AssetDatabase.GetAssetPath(s),name=s.name,replacement=AssetDatabase.GetAssetPath(theme.Replacements[i]),originalBounds=s.bounds.size.ToString(),newBounds=theme.Replacements[i].bounds.size.ToString()});
   File.WriteAllText(Path.GetFullPath(Application.dataPath+"/../../../art/reskin/penguin-expedition/full-reskin/bindings.json"),Newtonsoft.Json.JsonConvert.SerializeObject(records,Newtonsoft.Json.Formatting.Indented));
   return "Installed 215 catalogue images; exact-reference bindings="+map.Count+", inline currency atlases="+glyphs.Length+". Original sprite arrays, IDs, hitboxes and input layout preserved.";
  }
- static Sprite Semantic(string n,RecoveryForestClient c)
+ static Sprite Semantic(string n,GameClient c)
  {
   if(n.StartsWith("Bush_"))return theme.Gems[10];
   if(n=="Forest_Grass")return theme.Gems[10];
@@ -110,7 +110,7 @@ public static class InstallPenguinFull
  }
  static Texture2D SaveTexture(string name,Texture2D tex){string path=Folder+name+"Texture.asset";var old=AssetDatabase.LoadAssetAtPath<Texture2D>(path);if(old==null){AssetDatabase.CreateAsset(tex,path);return tex;}EditorUtility.CopySerialized(tex,old);UnityEngine.Object.DestroyImmediate(tex);EditorUtility.SetDirty(old);return old;}
  static Sprite SaveSprite(string name,Sprite sprite){sprite.name=name;string path=Folder+name+".asset";var old=AssetDatabase.LoadAssetAtPath<Sprite>(path);if(old==null){AssetDatabase.CreateAsset(sprite,path);return sprite;}EditorUtility.CopySerialized(sprite,old);UnityEngine.Object.DestroyImmediate(sprite);EditorUtility.SetDirty(old);return old;}
- static TMP_SpriteAsset GlyphAsset(TMP_SpriteAsset source,int index,RecoveryForestClient c)
+ static TMP_SpriteAsset GlyphAsset(TMP_SpriteAsset source,int index,GameClient c)
  {
   var original=source.spriteSheet;var rt=RenderTexture.GetTemporary(original.width,original.height,0,RenderTextureFormat.ARGB32);var previous=RenderTexture.active;
   var tex=new Texture2D(original.width,original.height,TextureFormat.RGBA32,false){name="PolarGlyph"+index};

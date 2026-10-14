@@ -3,7 +3,7 @@ using System.IO;
 using System.Collections;
 using System.Linq;
 using UnityEngine;
-using CatGunner.Recovery;
+using CatGunner.Runtime;
 
 public static class PreviewPenguinAnimation
 {
@@ -11,9 +11,9 @@ public static class PreviewPenguinAnimation
     public static string Capture()
     {
         if(Application.dataPath!="/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets"||!Application.isPlaying)throw new Exception("Wrong project or not playing");
-        Directory.CreateDirectory(Dir);var c=RecoveryForestClient.Instance;c.StartCoroutine(Observe(c));return "Capturing natural combat plus explicitly controlled Idle/Walk/Shoot diagnostic loops.";
+        Directory.CreateDirectory(Dir);var c=GameClient.Instance;c.StartCoroutine(Observe(c));return "Capturing natural combat plus explicitly controlled Idle/Walk/Shoot diagnostic loops.";
     }
-    private static IEnumerator Observe(RecoveryForestClient c)
+    private static IEnumerator Observe(GameClient c)
     {
         while(!c.ReadyForPlay)yield return null;
         // Natural play first: original auto movement, aim, weapons and stats.

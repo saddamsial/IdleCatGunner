@@ -1,11 +1,11 @@
 using System;using System.IO;using System.Collections;using System.Collections.Generic;using System.Linq;
-using UnityEngine;using UnityEngine.UI;using CatGunner.Recovery;
+using UnityEngine;using UnityEngine.UI;using CatGunner.Runtime;
 public static class PreviewPenguinFull
 {
  static string Dir=>Path.GetFullPath(Application.dataPath+"/../../../art/reskin/penguin-expedition/full-reskin/captures");
- public static string Capture(){var c=RecoveryForestClient.Instance;if(!Application.isPlaying||!c.SaveFolderOverride.Contains("PenguinPreview"))throw new Exception("Isolated Play preview required");Directory.CreateDirectory(Dir);c.StartCoroutine(Run(c));return "Capturing actual team, all inventories, weekly store, 9 bosses and 5 raid bosses in isolated fixture.";}
+ public static string Capture(){var c=GameClient.Instance;if(!Application.isPlaying||!c.SaveFolderOverride.Contains("PenguinPreview"))throw new Exception("Isolated Play preview required");Directory.CreateDirectory(Dir);c.StartCoroutine(Run(c));return "Capturing actual team, all inventories, weekly store, 9 bosses and 5 raid bosses in isolated fixture.";}
  static IEnumerator Shot(string name,float wait=.35f){yield return new WaitForSeconds(wait);yield return new WaitForEndOfFrame();ScreenCapture.CaptureScreenshot(Path.Combine(Dir,name+".png"));yield return null;}
- static IEnumerator Run(RecoveryForestClient c)
+ static IEnumerator Run(GameClient c)
  {
   while(!c.ReadyForPlay)yield return null;c.DailyLogin.AutoShow=false;c.Tutorial.SetCleared();c.DailyLogin.Close();c.Forest.Stage_Value_Max=400;c.ContentUnlock.Reload();
   c.Inventory.AddRewardGun(5);c.Inventory.Equip(c.Inventory.FirstEmpty==0?0:Array.FindIndex(c.State.Owned_Gun_list,g=>g==5),1);

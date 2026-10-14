@@ -10,7 +10,7 @@ public static class InstallPenguinMusic
  public static string Run()
  {
   var scene=EditorSceneManager.GetActiveScene();
-  if(Application.dataPath!="/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets" || EditorApplication.isPlaying || scene.isDirty || scene.path!="Assets/Recovery/Scenes/RecoveredClient.unity")throw new Exception("Saved working scene in EditMode required");
+  if(Application.dataPath!="/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets" || EditorApplication.isPlaying || scene.isDirty || scene.path!="Assets/Game/Scenes/GameClient.unity")throw new Exception("Saved working scene in EditMode required");
   AssetDatabase.Refresh();
   string dir=Path.GetFullPath(Path.Combine(Application.dataPath,"../../../art/audio/penguin-music-v2"));
   var manifest=JObject.Parse(File.ReadAllText(Path.Combine(dir,"music-manifest.json")));
@@ -20,7 +20,7 @@ public static class InstallPenguinMusic
   for(int i=0;i<entries.arraySize;i++)
   {
    var row=entries.GetArrayElementAtIndex(i);var type=(SfxType)row.FindPropertyRelative("type").intValue;
-   string expected="Assets/Recovery/PenguinAudio/Ice_"+type+".wav";
+   string expected="Assets/Game/PenguinAudio/Ice_"+type+".wav";
    if(AssetDatabase.GetAssetPath(row.FindPropertyRelative("clip").objectReferenceValue)!=expected)throw new Exception("Unreplaced SFX: "+type);
   }
   var clips=new AudioClip[2];int index=0;

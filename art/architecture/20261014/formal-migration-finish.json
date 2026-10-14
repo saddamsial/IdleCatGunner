@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "command": "command run_script",
+  "data": {
+    "command": "run_script",
+    "parameters": {
+      "entry": "FinishFormalNames.Run",
+      "timeout_ms": "60000",
+      "file": "/Volumes/ZHITAI_1T/IdleCatGunner/art/architecture/20261014/FinishFormalNames.cs"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 183,
+      "executeMs": 6479,
+      "assemblyName": "PipelineRunScript_FinishFormalNames_ed27886899614cc2b9d04f3b288285e9",
+      "success": true,
+      "result": "Formal names complete"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

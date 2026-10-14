@@ -1,10 +1,10 @@
 using System;using System.IO;using System.Linq;using System.Collections.Generic;
 using UnityEngine;using UnityEditor;using UnityEditor.SceneManagement;using TMPro;
-using CatGunner.Recovery;using Newtonsoft.Json.Linq;
+using CatGunner.Runtime;using Newtonsoft.Json.Linq;
 
 public static class InstallPenguinFlatCatalogue
 {
- const string Folder="Assets/Recovery/PenguinFlatCatalogue/";
+ const string Folder="Assets/Game/PenguinFlatCatalogue/";
  static string Dir=>Path.GetFullPath(Application.dataPath+"/../../../art/reskin/penguin-expedition/flat-catalogue");
  static Dictionary<Sprite,Sprite> map;
  static readonly List<object> records=new List<object>();
@@ -48,10 +48,10 @@ public static class InstallPenguinFlatCatalogue
  {
   if(Application.dataPath!="/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets"||EditorApplication.isPlaying)throw new Exception("Correct EditMode required");
   var scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene();
-  if(scene.path!="Assets/Recovery/Scenes/RecoveredClient.unity"||scene.isDirty||EditorApplication.isCompiling)throw new Exception("Saved normal scene required; no scene will be reopened or discarded");
+  if(scene.path!="Assets/Game/Scenes/GameClient.unity"||scene.isDirty||EditorApplication.isCompiling)throw new Exception("Saved normal scene required; no scene will be reopened or discarded");
   AssetDatabase.Refresh();
-  var c=UnityEngine.Object.FindAnyObjectByType<RecoveryForestClient>(FindObjectsInactive.Include);var full=c.GetComponent<PenguinFullReskin>();var ui=c.GetComponent<PenguinUiTheme>();
-  Directory.CreateDirectory(Path.Combine(Dir,"backup"));string backup=Path.Combine(Dir,"backup/RecoveredClient.unity.before");if(!File.Exists(backup))File.Copy(scene.path,backup);
+  var c=UnityEngine.Object.FindAnyObjectByType<GameClient>(FindObjectsInactive.Include);var full=c.GetComponent<PenguinFullReskin>();var ui=c.GetComponent<PenguinUiTheme>();
+  Directory.CreateDirectory(Path.Combine(Dir,"backup"));string backup=Path.Combine(Dir,"backup/GameClient.unity.before");if(!File.Exists(backup))File.Copy(scene.path,backup);
   string baseline=Path.Combine(Dir,"backup/catalogue.json");if(!File.Exists(baseline))File.WriteAllText(baseline,EditorJsonUtility.ToJson(full,true));
   map=full.Sources.Select((s,i)=>new{s,target=full.Replacements[i]}).ToDictionary(p=>p.s,p=>p.target);records.Clear();
   var inventory=JObject.Parse(File.ReadAllText(Path.GetFullPath(Application.dataPath+"/../../../art/reskin/penguin-expedition/full-reskin/inventory.json")));
@@ -81,7 +81,7 @@ public static class InstallPenguinFlatCatalogue
   var props=Load("props",20);var expedition=c.GetComponent<PenguinExpeditionTheme>();var oldIce=expedition.Ice.ToArray();var nextIce=new Sprite[oldIce.Length];
   // User approved restoring the previous angular snow-capped ice. Keep it
   // separate from future flat-UI catalogue installs and environment drafts.
-  for(int i=0;i<oldIce.Length;i++){nextIce[i]=AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Recovery/PenguinExpedition/Ice"+i+".asset");if(nextIce[i]==null)throw new Exception("Missing approved previous ice");Retarget(oldIce[i],nextIce[i]);}expedition.Ice=nextIce;EditorUtility.SetDirty(expedition);
+  for(int i=0;i<oldIce.Length;i++){nextIce[i]=AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Game/PenguinExpedition/Ice"+i+".asset");if(nextIce[i]==null)throw new Exception("Missing approved previous ice");Retarget(oldIce[i],nextIce[i]);}expedition.Ice=nextIce;EditorUtility.SetDirty(expedition);
   foreach(var source in map.Keys.ToArray())
   {
    if(source.name.StartsWith("Bush_",StringComparison.Ordinal)||source.name=="Forest_Grass")Map(source,props[5]);
@@ -93,7 +93,7 @@ public static class InstallPenguinFlatCatalogue
   {
    var source=full.ThemedGlyphs[i];var sheet=(Texture2D)source.spriteSheet;
    var tex=new Texture2D(sheet.width,sheet.height,TextureFormat.RGBA32,false){filterMode=FilterMode.Bilinear};tex.SetPixels(sheet.GetPixels());
-   foreach(var ch in full.OriginalGlyphs[i].spriteCharacterTable)
+   foreach(var ch in full.SourceGlyphs[i].spriteCharacterTable)
    {
     var sprite=ch.name=="currency_dia_0"?ui.Coin:ch.name=="currency_dia_1"?gems[0]:ch.name=="currency_0"?gems[1]:ch.name=="Currency 3"?gems[14]:ch.name=="Currency_SlotGem"?full.Icons[6]:null;
     if(sprite==null)continue;var rect=ch.glyph.glyphRect;float scale=Mathf.Min((float)rect.width/sprite.texture.width,(float)rect.height/sprite.texture.height),w=sprite.texture.width*scale,h=sprite.texture.height*scale;var pix=new Color[rect.width*rect.height];
@@ -103,7 +103,7 @@ public static class InstallPenguinFlatCatalogue
    var mat=new Material(source.material){name="Flat catalogue glyph "+i};mat.mainTexture=tex;clone.material=mat;
    var asset=Save("FlatGlyph"+i,clone);asset.name=source.name;AssetDatabase.AddObjectToAsset(mat,asset);asset.UpdateLookupTables();EditorUtility.SetDirty(asset);AssetDatabase.SaveAssetIfDirty(asset);full.ThemedGlyphs[i]=asset;
   }
-  full.Sources=map.Keys.ToArray();full.Replacements=full.Sources.Select(s=>map[s]).ToArray();full.PreserveOriginalRingStyle=true;
+  full.Sources=map.Keys.ToArray();full.Replacements=full.Sources.Select(s=>map[s]).ToArray();full.PreserveClassicRingStyle=true;
   EditorUtility.SetDirty(full);EditorSceneManager.MarkSceneDirty(scene);EditorSceneManager.SaveScene(scene);
   File.WriteAllText(Path.Combine(Dir,"bindings.json"),Newtonsoft.Json.JsonConvert.SerializeObject(new{counts=new{weapons=65,fish=13,pets=13,bosses=9,raidBosses=5,monsters=20,gems=16,effects=4,props=20,landscapes=4},records,totalBindings=full.Sources.Length,preserved="Approved penguin body, bones, expressions, native ring animation, circular map and footprints"},Newtonsoft.Json.Formatting.Indented));
   return "Imported 169 flat cartoon catalogue sprites, installed catalogue arrays, ice, decorations, chests and 5 currency atlases; bindings="+full.Sources.Length+". Native gameplay IDs, bounds and pivots preserved.";

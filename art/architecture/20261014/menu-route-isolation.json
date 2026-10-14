@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "UnityEditor.SessionState.SetString(\"CatGunner.Recovery.TestHostFolder\",System.IO.Path.Combine(Application.temporaryCachePath,\"ArchitectureTestHost-20261014\"));return \"isolated menu regression\";"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": "isolated menu regression"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

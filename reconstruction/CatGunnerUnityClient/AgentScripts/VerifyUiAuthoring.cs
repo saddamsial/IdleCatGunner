@@ -1,9 +1,9 @@
-using System;using System.Linq;using UnityEngine;using UnityEngine.UI;using CatGunner.Recovery;
+using System;using System.Linq;using UnityEngine;using UnityEngine.UI;using CatGunner.Runtime;
 public static class VerifyUiAuthoring
 {
  public static object Main()
  {
-  var c=UnityEngine.Object.FindAnyObjectByType<RecoveryForestClient>(FindObjectsInactive.Include);
+  var c=UnityEngine.Object.FindAnyObjectByType<GameClient>(FindObjectsInactive.Include);
   var canvas=c.Slider.GetComponentInParent<Canvas>();
   int scrolls=canvas.GetComponentsInChildren<ScrollRect>(true).Count(s=>s.name=="OfferScrollView");
   if(scrolls!=2)throw new Exception("Static offer scroll containers must exist in EditMode: expected 2, actual "+scrolls);

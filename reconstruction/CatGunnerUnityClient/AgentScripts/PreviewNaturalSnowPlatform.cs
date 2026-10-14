@@ -8,24 +8,24 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEditor;
 using UnityEditor.SceneManagement;
-using CatGunner.Recovery;
+using CatGunner.Runtime;
 
 public static class PreviewNaturalSnowPlatform
 {
-    public static string Inspect()=>Newtonsoft.Json.JsonConvert.SerializeObject(new{playing=Application.isPlaying,paused=EditorApplication.isPaused,scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().path,Time.frameCount,Time.time,instance=RecoveryForestClient.Instance!=null,clients=UnityEngine.Object.FindObjectsByType<RecoveryForestClient>(FindObjectsInactive.Include).Select(c=>new{c.name,active=c.gameObject.activeInHierarchy,c.enabled,c.Persist,c.SaveFolderOverride,c.ReadyForPlay}).ToArray()});
+    public static string Inspect()=>Newtonsoft.Json.JsonConvert.SerializeObject(new{playing=Application.isPlaying,paused=EditorApplication.isPaused,scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene().path,Time.frameCount,Time.time,instance=GameClient.Instance!=null,clients=UnityEngine.Object.FindObjectsByType<GameClient>(FindObjectsInactive.Include).Select(c=>new{c.name,active=c.gameObject.activeInHierarchy,c.enabled,c.Persist,c.SaveFolderOverride,c.ReadyForPlay}).ToArray()});
     static string Dir=>Path.GetFullPath(Application.dataPath+"/../../../art/maps/natural-snow-platform-v3");
     public static string Prepare()
     {
         if(Application.isPlaying)throw new InvalidOperationException("Stop Play first.");
-        EditorSceneManager.OpenScene("Assets/Recovery/Scenes/RecoveredClient.unity");
-        var c=UnityEngine.Object.FindAnyObjectByType<RecoveryForestClient>(FindObjectsInactive.Include);
+        EditorSceneManager.OpenScene("Assets/Game/Scenes/GameClient.unity");
+        var c=UnityEngine.Object.FindAnyObjectByType<GameClient>(FindObjectsInactive.Include);
         SessionState.SetString("CatGunner.Recovery.TestHostFolder",Path.Combine(Application.temporaryCachePath,"NaturalSnowPreview-"+Guid.NewGuid().ToString("N")));
         c.Persist=false;EditorUtility.SetDirty(c);
         return "Isolated raised snow preview prepared; saved scene unchanged.";
     }
     public static string Capture()
     {
-        var c=RecoveryForestClient.Instance;
+        var c=GameClient.Instance;
         if(c==null)throw new InvalidOperationException("Client has not awakened; reload the isolated preview scene first.");
         if(!Application.isPlaying||c.Persist||c.SaveFolderOverride==null||!c.SaveFolderOverride.Contains("NaturalSnowPreview"))throw new InvalidOperationException("Isolated preview required.");
         Directory.CreateDirectory(Dir);c.StartCoroutine(Run(c));return "Recording actual bounded camera and joystick movement.";
@@ -36,12 +36,12 @@ public static class PreviewNaturalSnowPlatform
         if(!Application.isPlaying||!folder.Contains("NaturalSnowPreview"))throw new InvalidOperationException("Isolated Play preview required.");
         void Configure(UnityEngine.SceneManagement.Scene scene,UnityEngine.SceneManagement.LoadSceneMode mode)
         {
-            if(scene.name!="RecoveredClient")return;
+            if(scene.name!="GameClient")return;
             UnityEngine.SceneManagement.SceneManager.sceneLoaded-=Configure;
-            var owner=UnityEngine.Object.FindAnyObjectByType<RecoveryForestClient>();owner.Persist=false;owner.SaveFolderOverride=folder;
+            var owner=UnityEngine.Object.FindAnyObjectByType<GameClient>();owner.Persist=false;owner.SaveFolderOverride=folder;
         }
         UnityEngine.SceneManagement.SceneManager.sceneLoaded+=Configure;
-        UnityEngine.SceneManagement.SceneManager.LoadSceneAsync("RecoveredClient");return "Reloading isolated preview with native scene lifecycle.";
+        UnityEngine.SceneManagement.SceneManager.LoadSceneAsync("GameClient");return "Reloading isolated preview with native scene lifecycle.";
     }
     static void Render(Camera cam,string path)
     {
@@ -50,7 +50,7 @@ public static class PreviewNaturalSnowPlatform
         texture.ReadPixels(new Rect(0,0,texture.width,texture.height),0,0);texture.Apply();File.WriteAllBytes(path,texture.EncodeToPNG());
         RenderTexture.active=previous;UnityEngine.Object.Destroy(texture);
     }
-    static IEnumerator Run(RecoveryForestClient c)
+    static IEnumerator Run(GameClient c)
     {
         while(!c.ReadyForPlay)yield return null;
         c.DailyLogin.AutoShow=false;c.DailyLogin.Close();c.Tutorial.SetCleared();
@@ -94,7 +94,7 @@ public static class PreviewNaturalSnowPlatform
     public static string Restore()
     {
         if(Application.isPlaying)throw new InvalidOperationException("Stop Play first.");
-        EditorSceneManager.OpenScene("Assets/Recovery/Scenes/RecoveredClient.unity");SessionState.EraseString("CatGunner.Recovery.TestHostFolder");
+        EditorSceneManager.OpenScene("Assets/Game/Scenes/GameClient.unity");SessionState.EraseString("CatGunner.Recovery.TestHostFolder");
         return "Saved raised snow scene restored and temporary test-host override cleared.";
     }
 }

@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "command": "command run_script",
+  "data": {
+    "command": "run_script",
+    "parameters": {
+      "entry": "GameSceneAudit.Run",
+      "file": "/Volumes/ZHITAI_1T/IdleCatGunner/art/architecture/20261014/GameSceneAudit.cs"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 352,
+      "executeMs": 688,
+      "assemblyName": "PipelineRunScript_GameSceneAudit_7503af0b3bf54e2692fb49280366e06d",
+      "success": true,
+      "result": "{\n  \"scene\": \"Assets/Game/Scenes/GameClient.unity\",\n  \"playing\": false,\n  \"compiling\": false,\n  \"dirty\": false,\n  \"missingScripts\": 0,\n  \"prefabs\": [\n    {\n      \"path\": \"Assets/Game/Resources/Gameplay/ProjectilePoolContent.prefab\",\n      \"guid\": \"8e2f28b0b0daa42b0b30b679138d15e3\",\n      \"missing\": 0\n    },\n    {\n      \"path\": \"Assets/Game/Resources/UI/Draw_Info_UI.prefab\",\n      \"guid\": \"5f20fb7f70bf74ef69d823f1fcf53817\",\n      \"missing\": 0\n    },\n    {\n      \"path\": \"Assets/Game/Resources/UI/GunCollection_UI.prefab\",\n      \"guid\": \"a55b9f42f1400440e99a70fcfca243c9\",\n      \"missing\": 0\n    },\n    {\n      \"path\": \"Assets/Game/Prefabs/Gameplay/PlayerTeam.prefab\",\n      \"guid\": \"de18d6564e83448c69758f6965222874\",\n      \"missing\": 0\n    }\n  ],\n  \"invalidPersistentButtons\": [],\n  \"disabledLegacyCallbacks\": [\n    \"Collection_Btn/UI_Reload\",\n    \"Info_Btn/SetActive\",\n    \"FreeCash_Banner/OnClick\",\n    \"FreeCash_Banner/OnClick\",\n    \"FreeCash_Banner/OnClick\",\n    \"FreeCash_Banner/OnClick\",\n    \"FreeCash_Banner/OnClick\",\n    \"FreeCash_Banner/OnClick\",\n    \"FreeCash_Banner/OnClick\",\n    \"FreeCash_Banner/OnClick\",\n    \"FreeCash_Banner/OnClick\",\n    \"FreeCash_Banner/OnClick\",\n    \"FreeCash_Banner/OnClick\",\n    \"FreeCash_Banner/OnClick\"\n  ],\n  \"roots\": [\n    {\n      \"name\": \"World\",\n      \"nodes\": 16976\n    },\n    {\n      \"name\": \"Systems\",\n      \"nodes\": 17\n    },\n    {\n      \"name\": \"UI\",\n      \"nodes\": 13777\n    }\n  ],\n  \"events\": 1,\n  \"Persist\": true,\n  \"SaveFolderOverride\": null,\n  \"lazyPanels\": true,\n  \"informationLoaded\": false,\n  \"collectionLoaded\": false,\n  \"poolObjects\": [],\n  \"teamPrefab\": \"Assets/Game/Prefabs/Gameplay/PlayerTeam.prefab\",\n  \"host\": \"\"\n}"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

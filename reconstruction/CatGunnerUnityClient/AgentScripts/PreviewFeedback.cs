@@ -5,16 +5,16 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
-using CatGunner.Recovery;
+using CatGunner.Runtime;
 public static class PreviewFeedback
 {
  public static string Run(){
-  if(!Application.isPlaying || RecoveryForestClient.Instance==null)throw new Exception("Correct PlayMode required");
-  var c=RecoveryForestClient.Instance;
+  if(!Application.isPlaying || GameClient.Instance==null)throw new Exception("Correct PlayMode required");
+  var c=GameClient.Instance;
   if(string.IsNullOrEmpty(c.SaveFolderOverride))throw new Exception("Isolated preview profile required");
   c.StartCoroutine(Capture(c));return "Capturing an actual Editor press and popup animation in isolated preview profile";
  }
- static IEnumerator Capture(RecoveryForestClient c){
+ static IEnumerator Capture(GameClient c){
   while(!c.ReadyForPlay)yield return null;
   c.DailyLogin.AutoShow=false;c.DailyLogin.Close();c.Tutorial.SetCleared();ForestRuntimeAcceptance.IsGaming=false;Time.timeScale=0;
   var canvas=c.Slider.GetComponentInParent<Canvas>();var button=canvas.transform.Find("SafeArea/Main_UI/Btn_list").GetComponentsInChildren<Button>(true).Single(b=>b.name=="Setting_Btn");
