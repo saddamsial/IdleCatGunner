@@ -1,0 +1,90 @@
+{
+  "status": "completed",
+  "duration": 194.81,
+  "summary": {
+    "total": 11,
+    "passed": 9,
+    "failed": 2,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "RaidTests.EntryCancellationConsumesTicketWithoutRunRewardAndNativeBossReloadKeepsSkin",
+      "Status": "Passed",
+      "Duration": 13.977666,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "RaidTests.LocalClockCalendarRetainsFutureDatesAndOnlyRollsOwnRaidEntryFields",
+      "Status": "Passed",
+      "Duration": 0.0042304,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "RaidTests.NativeRuntimeHealthReplacesOldSerializedCacheAndRewardTiersAreExact",
+      "Status": "Passed",
+      "Duration": 0.0003593,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "RaidTests.OriginalLoadoutUsesItemIdentitySortsWeakDamageAndCannotRemoveLastGun",
+      "Status": "Passed",
+      "Duration": 6.3113774,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "RaidTests.ZeroInputOriginalGunThirtyNaturalSixtySecondRaidAwardsOnceAndReturnsForestLoadout",
+      "Status": "Passed",
+      "Duration": 70.0139839,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WeeklyRaidTests.MissionLegacyPrefixSeasonResetPaidFlagsAndBatchClaimAreIndependent",
+      "Status": "Passed",
+      "Duration": 6.8917955,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WeeklyRaidTests.NaturalRaidFeedsBothTaskTypesRealClaimAndColdReloadCannotDuplicate",
+      "Status": "Passed",
+      "Duration": 76.6198196,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WeeklyRaidTests.OversizedWeeklyArraysRejectedBeforeAnySaveAndSortUsesOriginalStatePriority",
+      "Status": "Passed",
+      "Duration": 0.4153061,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WeeklyRaidTests.SourceLoopsAnimateAndResetWithoutTouchingCurrencyOrInterceptingButtons",
+      "Status": "Passed",
+      "Duration": 7.2487337,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "WeeklyRaidTests.WeeklyRotationPrefixLimitsAndUnavailableStoreNeverGrant",
+      "Status": "Failed",
+      "Duration": 7.1881322,
+      "Message": "  Expected: (0, 0, 0)\n  But was:  (0, 300, 0)\n",
+      "StackTrace": "at WeeklyRaidTests+<WeeklyRotationPrefixLimitsAndUnavailableStoreNeverGrant>d__9.MoveNext () [0x003f2] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/WeeklyRaidTests.cs:35\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    },
+    {
+      "FullName": "WeeklyRaidTests.WeeklySourceEntryGateVipNavigationPreviewAndIsolatedFirstVisitReload",
+      "Status": "Failed",
+      "Duration": 5.9191179,
+      "Message": "  Expected: 4\n  But was:  10\n",
+      "StackTrace": "at WeeklyRaidTests+<WeeklySourceEntryGateVipNavigationPreviewAndIsolatedFirstVisitReload>d__8.MoveNext () [0x00082] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/WeeklyRaidTests.cs:25\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    }
+  ]
+}

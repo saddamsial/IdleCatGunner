@@ -1,0 +1,226 @@
+{
+  "buildResult": "Succeeded",
+  "buildErrors": 0,
+  "buildWarnings": 40,
+  "assets": 39539,
+  "sceneAssets": [
+    "Assets/Game/Scenes/GameClient.unity"
+  ],
+  "largestAssets": [
+    {
+      "assetPath": "Assets/Texture2D/sactx-0-4096x4096-ASTC 6x6-_UI-3277955d.png",
+      "type": "Texture2D",
+      "guid": "219f9b351e644df4881c7c566ee173e9",
+      "sizeBytes": 89478636
+    },
+    {
+      "assetPath": "Assets/Texture2D/sactx-0-4096x4096-ASTC 6x6-Cat-ad05b281.png",
+      "type": "Texture2D",
+      "guid": "e2e301806e0ea2544bd54836ad905db5",
+      "sizeBytes": 16777368
+    },
+    {
+      "assetPath": "Assets/Font/NotoSansSC-Bold.ttf",
+      "type": "Font",
+      "guid": "bbfee50f122433d49bb9a444b6711cd8",
+      "sizeBytes": 10549150
+    },
+    {
+      "assetPath": "Assets/Game/Resources/ProgressionCatalogue.json",
+      "type": "TextAsset",
+      "guid": "623306ffb167f4ec28a47ccaa778acc4",
+      "sizeBytes": 5876912
+    },
+    {
+      "assetPath": "Assets/Font/NotoSansJP-Bold.ttf",
+      "type": "Font",
+      "guid": "d8c26af1fd344ed4c8491703237eab33",
+      "sizeBytes": 5468318
+    },
+    {
+      "assetPath": "Assets/Font/MPLUSRounded1c-Black.ttf",
+      "type": "Font",
+      "guid": "acb10832e5bf4294f8e9511ee3bcf847",
+      "sizeBytes": 3626006
+    },
+    {
+      "assetPath": "Assets/Game/PenguinAudio/Penguin_CrystalExpedition.wav",
+      "type": "AudioClip",
+      "guid": "d9bc696799870404d80c1f661384dc08",
+      "sizeBytes": 3596192
+    },
+    {
+      "assetPath": "Assets/Game/PenguinAudio/Penguin_SnowfieldStroll.wav",
+      "type": "AudioClip",
+      "guid": "686f78af804e840e8ae6614f150a8897",
+      "sizeBytes": 2925664
+    },
+    {
+      "assetPath": "Built-in Texture2D: Splash Screen Unity Logo",
+      "type": "Texture2D",
+      "guid": "00000000000000000000000000000000",
+      "sizeBytes": 2796376
+    },
+    {
+      "assetPath": "Assets/Game/PenguinPolishV5/right-hand-v5.png",
+      "type": "Texture2D",
+      "guid": "cb8f6328633ba4e13b45802b10179e7b",
+      "sizeBytes": 2705664
+    },
+    {
+      "assetPath": "Assets/Game/PenguinExtras/Fit_76856bd3592b1de4c8871dbd659c7dfa_flat-ui-icons-07Texture.asset",
+      "type": "Texture2D",
+      "guid": "4fd2ba445ebed40538076c4d5de23c6c",
+      "sizeBytes": 1878076
+    },
+    {
+      "assetPath": "Assets/Game/PenguinExtras/Fit_07b1335acd00d474ba3eee28abacf1ba_flat-ui-icons-07Texture.asset",
+      "type": "Texture2D",
+      "guid": "8a9e4a2b180fe4dd189ac7bf8d8cbea1",
+      "sizeBytes": 1759324
+    },
+    {
+      "assetPath": "Assets/Font/Mitme.ttf",
+      "type": "Font",
+      "guid": "25d27d41e6aa9ad40868d8ccf99c699b",
+      "sizeBytes": 1520366
+    },
+    {
+      "assetPath": "Assets/Game/Resources/BalanceCatalogue.json",
+      "type": "TextAsset",
+      "guid": "c226fc6650afd4b1ba1aa43dd69c27a4",
+      "sizeBytes": 1490680
+    },
+    {
+      "assetPath": "Assets/Game/PenguinExtras/Fit_2de9287c536fcbd4d949c62d5bbb1c96_SnowGroundTexture.asset",
+      "type": "Texture2D",
+      "guid": "a0811a7b5edb04570a8fbf5be38b8623",
+      "sizeBytes": 1048744
+    },
+    {
+      "assetPath": "Assets/Game/PenguinExtras/Fit_99afd0923eb40d94481c3c0ebfd47f44_SnowGroundTexture.asset",
+      "type": "Texture2D",
+      "guid": "fc1739462d99444e5bec853c433408f6",
+      "sizeBytes": 1048744
+    },
+    {
+      "assetPath": "Assets/Game/PenguinExtras/Fit_9d7b7d7f137fbed4baced5a83e53bcd5_SnowGroundTexture.asset",
+      "type": "Texture2D",
+      "guid": "875365cb1579f49c5a81eb6f17d4ccec",
+      "sizeBytes": 1048744
+    },
+    {
+      "assetPath": "Assets/Game/PenguinFull/Fit_53af3967f33ba7244b11cc6fd09772de_SnowGroundTexture.asset",
+      "type": "Texture2D",
+      "guid": "20943216bc9e547b0934f6d09bb7e725",
+      "sizeBytes": 1048736
+    },
+    {
+      "assetPath": "Assets/Game/PenguinFull/Fit_93acb4ffff8fcc4458bea622282ff8a4_SnowGroundTexture.asset",
+      "type": "Texture2D",
+      "guid": "717cd2f783b4b4a9c951426b20afec9d",
+      "sizeBytes": 1048736
+    },
+    {
+      "assetPath": "Assets/Resources/fonts & materials/LiberationSans SDF Atlas_0.png",
+      "type": "Texture2D",
+      "guid": "06b9375af2beea24586460361d1873ed",
+      "sizeBytes": 1048716
+    },
+    {
+      "assetPath": "Assets/Game/PenguinModeUIV2/hunt-binoculars-default.png",
+      "type": "Texture2D",
+      "guid": "96ac8367ff2a445e397ecc8ac4d59445",
+      "sizeBytes": 1048712
+    },
+    {
+      "assetPath": "Assets/Game/PenguinModeUIV2/vip-crown-default.png",
+      "type": "Texture2D",
+      "guid": "bb4ec4a21f0194bb8bc4bda786368272",
+      "sizeBytes": 1048708
+    },
+    {
+      "assetPath": "Assets/Game/PenguinModeUIV2/pet-bait-default.png",
+      "type": "Texture2D",
+      "guid": "7cb2939ddff2e43e2aca2fee78bdc91a",
+      "sizeBytes": 1048704
+    },
+    {
+      "assetPath": "Assets/Game/Resources/DegreeFx/shadow-rings.png",
+      "type": "Texture2D",
+      "guid": "9c6f3a2dbf0bc4e6695aef0aa107e2b2",
+      "sizeBytes": 1048700
+    },
+    {
+      "assetPath": "Assets/Game/Resources/DegreeFx/halo.png",
+      "type": "Texture2D",
+      "guid": "c5034de47878a43888a184ccf6cea3c3",
+      "sizeBytes": 1048692
+    },
+    {
+      "assetPath": "Assets/Game/PenguinExtras/Fit_a8af66ef3790b764dad914de2f3b185e_flat-ui-mascots-05Texture.asset",
+      "type": "Texture2D",
+      "guid": "e35c01dff1a544d3ab139d99f233f487",
+      "sizeBytes": 1032416
+    },
+    {
+      "assetPath": "Assets/Game/PenguinFlatCatalogue/Fit_07736929b2083c442b8384ce0e17baad_flat-raid-bosses-01Texture.asset",
+      "type": "Texture2D",
+      "guid": "2671a59cc2ff341fc82d584061d592ab",
+      "sizeBytes": 1031168
+    },
+    {
+      "assetPath": "Assets/Game/PenguinFlatCatalogue/Fit_52618179528ef124ca0c4344cb23c5b7_flat-raid-bosses-04Texture.asset",
+      "type": "Texture2D",
+      "guid": "57f22aa64c04543dd9d38662f3dce77f",
+      "sizeBytes": 1031168
+    },
+    {
+      "assetPath": "Assets/Game/PenguinFlatCatalogue/Fit_ae965ce6c6e43a349a504c9c5e57f013_flat-raid-bosses-03Texture.asset",
+      "type": "Texture2D",
+      "guid": "1455cb90082d4429baf8d55d712ef662",
+      "sizeBytes": 1031168
+    },
+    {
+      "assetPath": "Assets/Game/PenguinFlatCatalogue/Fit_d13608e9a14e2dd409d8b30b519bfaa1_flat-raid-bosses-00Texture.asset",
+      "type": "Texture2D",
+      "guid": "6b26cada15f7744fd95f40472f062c64",
+      "sizeBytes": 1031168
+    }
+  ],
+  "engineMetadataInEditorNamedDirectories": [
+    {
+      "assetPath": "Packages/com.unity.burst/Runtime/Editor/BurstAssemblyDisable.cs",
+      "type": "MonoScript",
+      "guid": "24e5242d7f213ce49a52eefb5d544d24",
+      "sizeBytes": 108
+    },
+    {
+      "assetPath": "Packages/com.unity.burst/Runtime/Editor/BurstReflection.cs",
+      "type": "MonoScript",
+      "guid": "661ba2a1bdac339cb55c6a43b9eaa0ee",
+      "sizeBytes": 100
+    },
+    {
+      "assetPath": "Packages/com.unity.burst/Runtime/Editor/BurstCompileTarget.cs",
+      "type": "MonoScript",
+      "guid": "8e0e4e7742393f00808df3e4508a7327",
+      "sizeBytes": 108
+    },
+    {
+      "assetPath": "Packages/com.unity.burst/Runtime/Editor/BurstLoader.cs",
+      "type": "MonoScript",
+      "guid": "aeb3ace3d48330a3b182da7ace6b5f65",
+      "sizeBytes": 92
+    },
+    {
+      "assetPath": "Packages/com.unity.burst/Runtime/Editor/BurstEditorOptions.cs",
+      "type": "MonoScript",
+      "guid": "d81d96b8ea1936359196f069c6e225d8",
+      "sizeBytes": 108
+    }
+  ],
+  "excludedArchiveViolations": [],
+  "note": "Burst runtime package MonoScript metadata (516 bytes) is retained by Unity; no project Editor archive or test scenes packed.",
+  "sceneEvidence": "Parsed BuildSettings object directly from APK globalgamemanagers; only formal entry scene present."
+}

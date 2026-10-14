@@ -1,0 +1,230 @@
+{
+  "status": "completed",
+  "duration": 219.27,
+  "summary": {
+    "total": 31,
+    "passed": 31,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "PenguinFullReskinTests.AdventurePetsKeepTheLivePreviewCameraAndSelection",
+      "Status": "Passed",
+      "Duration": 7.5359203,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PenguinFullReskinTests.AllThreePenguinsAnimateSelectedSkinBlinkAndHonorPause",
+      "Status": "Passed",
+      "Duration": 10.8703136,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PenguinFullReskinTests.EveryBossVariantUsesNewBodyAndNativeDeathPaysOnce",
+      "Status": "Passed",
+      "Duration": 10.7949663,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PenguinFullReskinTests.ExtraBindingsPreserveHealthFractionAndRestoreRawTextures",
+      "Status": "Passed",
+      "Duration": 5.7052422,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PenguinFullReskinTests.FullCataloguePreservesInputHitboxesStatsAndCanRestore",
+      "Status": "Passed",
+      "Duration": 5.7802429,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PenguinFullReskinTests.NaturalShotsKeepSingleRewardAndHavePolarEffectTextures",
+      "Status": "Passed",
+      "Duration": 6.9540216,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PenguinSpriteSkinTests.CostumeChangesPreserveSkeletonAndSelectedTexture",
+      "Status": "Passed",
+      "Duration": 5.5485022,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PenguinSpriteSkinTests.VisiblePenguinsUsePersistedBindPosesAndRealSpriteSkin",
+      "Status": "Passed",
+      "Duration": 6.2538142,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PenguinThemeTests.NaturalCombatUsesPenguinAndIceWithoutFractureEffects",
+      "Status": "Passed",
+      "Duration": 7.7156556,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PenguinThemeTests.PenguinIdleAndSideToSideWaddleMoveAndHonorPause",
+      "Status": "Passed",
+      "Duration": 10.8992175,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PenguinThemeTests.SuccessfulShotRecoilTriggersOnceAndReturnsToRest",
+      "Status": "Passed",
+      "Duration": 7.0818995,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "PenguinThemeTests.TargetDeathPaysOnceAndThemeCanBeDisabled",
+      "Status": "Passed",
+      "Duration": 5.8292935,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SceneArchitectureTests.BoundMenuButtonsLoadPanels",
+      "Status": "Passed",
+      "Duration": 6.1304015,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SceneArchitectureTests.CancelledDeferredLoadDoesNotCreateOrphan",
+      "Status": "Passed",
+      "Duration": 5.9881094,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SceneArchitectureTests.ClosingInventoryDuringLoadDoesNotOpenStaleModal",
+      "Status": "Passed",
+      "Duration": 6.0309566,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SceneArchitectureTests.ColdBootDefersWeaponPanelsAndLoadsPoolBeforeCombat",
+      "Status": "Passed",
+      "Duration": 6.274864,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SceneArchitectureTests.FullPoolKeepsLiveProjectilesAndReusesDeadTrails",
+      "Status": "Passed",
+      "Duration": 5.8852613,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SceneArchitectureTests.RepeatedCollectionClicksReuseOnePopulatedCatalogue",
+      "Status": "Passed",
+      "Duration": 5.9362197,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "SceneArchitectureTests.RepeatedInformationClicksCreateOneLocalizedReusablePanel",
+      "Status": "Passed",
+      "Duration": 6.9943252,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "StartupTests.ActualLegacyProfileStartsWithWalkingCatThenMovesAndShootsWithoutInputAndReloads",
+      "Status": "Passed",
+      "Duration": 20.927146,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "StartupTests.FailedInitializationCannotEnableAutosaveOrOverwriteMainAndBackup",
+      "Status": "Passed",
+      "Duration": 8.8009328,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "StartupTests.NativeBestArrayKeepsLegacyPrefixAndDoesNotAlterInput",
+      "Status": "Passed",
+      "Duration": 0.3370499,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "StartupTests.UnsupportedRaidValuesRejectBeforeStateMutation",
+      "Status": "Passed",
+      "Duration": 0.2396308,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "UiAuthoringTests.AuthoredCatalogueSpriteIsNotReassignedByBootstrap",
+      "Status": "Passed",
+      "Duration": 6.6586901,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "UiAuthoringTests.AuthoredModalSortingAndBorderThicknessAreRespected",
+      "Status": "Passed",
+      "Duration": 6.8015253,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "UiAuthoringTests.LoadingKeepsHudVisibleDuringStartup",
+      "Status": "Passed",
+      "Duration": 6.6275485,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "UiAuthoringTests.LoadingTransitionsPreserveAuthoredParentAndRect",
+      "Status": "Passed",
+      "Duration": 6.9237408,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "UiAuthoringTests.ManualArtworkHierarchyAndStyleSurviveStartup",
+      "Status": "Passed",
+      "Duration": 6.7664211,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "UiAuthoringTests.ManualProgressAnchorsAreNotRebuilt",
+      "Status": "Passed",
+      "Duration": 6.4634465,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "UiAuthoringTests.RenamedLocalizedCaptionRetainsStyleAndLanguageControlsWork",
+      "Status": "Passed",
+      "Duration": 6.9307776,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "UiAuthoringTests.StaticPresentationExistsAndDoesNotDuplicateOnEnable",
+      "Status": "Passed",
+      "Duration": 6.8571905,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

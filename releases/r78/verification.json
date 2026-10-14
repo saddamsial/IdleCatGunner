@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-15",
+  "sourceRuntimeCommit": "9e6173ba20baba1788ab604e24bd0edd332fcec8",
+  "apk": "PenguinExpedition-0.78.0-release.apk",
+  "sha256": "6a0f84da33b4f1dd7e968194c71504888de9abc0e6a24baf149c21358538325e",
+  "mib": 115.96,
+  "version": "0.78.0",
+  "versionCode": 78,
+  "package": "com.ravanla.idlecatgunner.recovery",
+  "formalCertificateSHA256": "bc71bbac3671d2372ec61e6103e23e8b86c435e269999baf14d53097f4d37056",
+  "buildErrors": 0,
+  "buildWarnings": 40,
+  "testCount": 67,
+  "allSelectedTestsPassed": true,
+  "emulator": {
+    "abi": "arm64-v8a",
+    "api": 37,
+    "pageSize": 16384,
+    "width": 1080,
+    "height": 2400,
+    "readOnly": true
+  },
+  "upgrade": {
+    "method": "adb install -r, old r77 test signature to new formal release signer via rotation lineage",
+    "saveUnchangedBeforeFirstLaunch": true,
+    "wireKeys": 163,
+    "unchangedAfterGameplay": 158,
+    "naturalChangedFields": [
+      "Money",
+      "Money_Accum",
+      "Upgrade_Lv",
+      "LastSaveTime",
+      "Mission_TreeCount_Value"
+    ],
+    "coldRestartCriticalGroups": 19,
+    "physicalDeviceVerified": false
+  },
+  "androidSmoke": {
+    "main": "Automatic combat progressed Stage44 wave3 to wave4; penguin and ice visible",
+    "boss": "Natural victory; displayed reward900 diamonds",
+    "mine": "Natural timer end; displayed reward1132 diamonds",
+    "hunt": "Natural combat then exit; displayed reward120 pet bait",
+    "speedRun": "Natural victory; displayed reward120 diamonds",
+    "raid": "Natural timer end; score21, reward460 tickets",
+    "adventure": "Entrance, themed pets and map preview rendered; dispatch/claim logic covered by Editor test",
+    "freshProfile": "New test save initialized; gun-wielding penguin, ice columns and tutorial shown"
+  },
+  "scenes": [
+    "Assets/Game/Scenes/GameClient.unity"
+  ],
+  "archivedAssetViolations": 0,
+  "privateFilesPacked": 0,
+  "approvedArtFilesVerified": 5763,
+  "approvedArtChanges": 0,
+  "notes": [
+    "API28+ uses new RSA4096 release certificate; API26-27 retains legacy v2 signature so old saves remain upgradeable.",
+    "No physical-device compatibility, FPS, thermal or battery acceptance claimed.",
+    "Ads and cash purchases retain the existing explicitly local simulations.",
+    "Three stale test expectations corrected; only test sources changed after APK build; initial failing reports retained."
+  ]
+}

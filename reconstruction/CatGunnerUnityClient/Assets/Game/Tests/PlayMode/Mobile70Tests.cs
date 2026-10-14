@@ -20,7 +20,7 @@ public sealed class Mobile70Tests
   Action[] exit={client.SpeedRun.Game_Exit,client.MineMode.Game_Exit,client.BossMode.Game_Exit,client.MonsterMode.Game_Exit,client.RaidMode.Game_Exit};
   for(int mode=1;mode<=5;mode++)
   {
-   enter[mode-1]();Assert.That(client.LoadingUI.activeInHierarchy,Is.True,"mode entry loading "+mode);Assert.That(client.LoadingUI.GetComponent<Canvas>().overrideSorting,Is.False);Assert.That(client.LoadingUI.GetComponent<CanvasGroup>().blocksRaycasts,Is.False);Assert.That(client.LoadingUI.transform.Find("Background/Cat/Loading_Txt").GetComponent<TMP_Text>().text,Is.EqualTo(Language.TermText("고양이 이동중..")));yield return new WaitForSecondsRealtime(3.5f);Assert.That(client.Mode,Is.EqualTo(mode));
+   enter[mode-1]();Assert.That(client.LoadingUI.activeInHierarchy,Is.True,"mode entry loading "+mode);Assert.That(client.LoadingUI.GetComponent<Canvas>().overrideSorting,Is.False);Assert.That(client.LoadingUI.GetComponent<CanvasGroup>().blocksRaycasts,Is.False);Assert.That(client.LoadingUI.transform.Find("Background/Cat/Loading_Txt").GetComponent<TMP_Text>().text,Is.EqualTo(PenguinUiTheme.DisplayWording(Language.TermText("고양이 이동중.."))));yield return new WaitForSecondsRealtime(3.5f);Assert.That(client.Mode,Is.EqualTo(mode));
    for(int i=0;i<names.Length;i++)Assert.That(safe.Find(names[i]).gameObject.activeSelf,Is.EqualTo(i==mode),names[i]);
    Assert.That(safe.Find("Ingame/Upgrade_List").gameObject.activeSelf,Is.EqualTo(mode<=2));
    Assert.That(safe.Find("Main_UI/Btn_list/Left_Menu").gameObject.activeInHierarchy,Is.False);Assert.That(safe.Find("Main_UI/Btn_list/Right_Menu").gameObject.activeInHierarchy,Is.False);

@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "duration": 5.68,
+  "summary": {
+    "total": 1,
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "Mobile70Tests.FiveModeEntriesShowOnlyOriginalHudAndRestoreForestUpgrades",
+      "Status": "Failed",
+      "Duration": 5.6550472,
+      "Message": "  String lengths are both 7. Strings differ at index 0.\n  Expected: \"猫咪移动中..\"\n  But was:  \"企鹅移动中..\"\n  -----------^\n",
+      "StackTrace": "at Mobile70Tests+<FiveModeEntriesShowOnlyOriginalHudAndRestoreForestUpgrades>d__9.MoveNext () [0x0023c] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/Mobile70Tests.cs:23\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+    }
+  ]
+}

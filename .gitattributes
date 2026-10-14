@@ -50,3 +50,4 @@ art/reskin/penguin-expedition/theme-audit/backup/RecoveredClient.unity.before fi
 reconstruction/CatGunnerUnityClient/Assets/Game/**/*.unity filter=lfs diff=lfs merge=lfs -text
 reconstruction/CatGunnerUnityClient/Assets/Game/**/*.prefab filter=lfs diff=lfs merge=lfs -text
 art/architecture/20261014/*.tar.gz filter=lfs diff=lfs merge=lfs -text
+"releases/r78/PenguinExpedition-0.78.0-release.apk" filter=lfs diff=lfs merge=lfs -text
