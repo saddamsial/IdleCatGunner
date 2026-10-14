@@ -24,13 +24,13 @@ public sealed class ShortBuffTests
         background = Application.runInBackground; Application.runInBackground = true;
         folder = Path.Combine(Application.temporaryCachePath, "ShortBuff-" + Guid.NewGuid().ToString("N"));
         SceneManager.sceneLoaded += Independent;
-        yield return SceneManager.LoadSceneAsync("GameClient"); yield return ClientStartupWait.Ready();
+        yield return TestSceneLoader.LoadAsync("GameClient"); yield return ClientStartupWait.Ready();
         c = GameClient.Instance; ForestRuntimeAcceptance.IsGaming = false;
         c.DailyLogin.Close(); c.Tutorial.SetCleared();
     }
     [UnityTearDown] public IEnumerator Cleanup()
     {
-        yield return SceneManager.LoadSceneAsync("TargetPreview"); SceneManager.sceneLoaded -= Independent;
+        yield return TestSceneLoader.LoadAsync("TargetPreview"); SceneManager.sceneLoaded -= Independent;
         Time.timeScale = 1; Application.runInBackground = background;
         if (Directory.Exists(folder)) Directory.Delete(folder, true);
     }
@@ -108,7 +108,7 @@ public sealed class ShortBuffTests
     [UnityTest] public IEnumerator ReloadRetainsSeparateTimersWithoutWallClockDeductionOrRewardReplay()
     {
         Time.timeScale=0;M.LoadBuffTimes(91,72,43);c.SaveNow();int dia=c.State.Dia;
-        yield return SceneManager.LoadSceneAsync("TargetPreview");yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();c=GameClient.Instance;ForestRuntimeAcceptance.IsGaming=false;
+        yield return TestSceneLoader.LoadAsync("TargetPreview");yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();c=GameClient.Instance;ForestRuntimeAcceptance.IsGaming=false;
         Assert.That(new[]{M.GetBuffTime(Buff_Type.Money),M.GetBuffTime(Buff_Type.Power),M.GetBuffTime(Buff_Type.AtkSpeed)},Is.EqualTo(new[]{91f,72f,43f}));Assert.That(c.State.Dia,Is.EqualTo(dia));Assert.That(c.RewardedAds.CompletedWatches,Is.Zero);Assert.That(c.State.ProcessedTxnIds,Is.Empty);
     }
     [UnityTest] public IEnumerator BossAndMonsterPreviewsUseSeparatePowerAndSpeedBuffs()

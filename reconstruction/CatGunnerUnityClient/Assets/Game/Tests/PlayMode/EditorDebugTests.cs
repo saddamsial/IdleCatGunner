@@ -31,7 +31,7 @@ public sealed class EditorDebugTests
         Application.runInBackground = true;
         folder = Path.Combine(Application.temporaryCachePath, "EditorDebug-" + Guid.NewGuid().ToString("N"));
         SceneManager.sceneLoaded += Isolate;
-        yield return SceneManager.LoadSceneAsync("GameClient");
+        yield return TestSceneLoader.LoadAsync("GameClient");
         yield return ClientStartupWait.Ready();
         client = GameClient.Instance;
         client.DailyLogin.Close();
@@ -41,7 +41,7 @@ public sealed class EditorDebugTests
 
     [UnityTearDown] public IEnumerator Cleanup()
     {
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
         SceneManager.sceneLoaded -= Isolate;
         GameDebugTools.Enabled = previousEnabled;
         Application.runInBackground = previousBackground;
@@ -164,7 +164,7 @@ public sealed class EditorDebugTests
         Assert.That(GameDebugTools.GrantPet(client, 10, out _), Is.True);
         Assert.That(GameDebugTools.GrantFish(client, 13, out _), Is.True);
         client.SaveNow();
-        yield return SceneManager.LoadSceneAsync("GameClient");
+        yield return TestSceneLoader.LoadAsync("GameClient");
         yield return ClientStartupWait.Ready();
         client = GameClient.Instance;
         ForestRuntimeAcceptance.IsGaming = false;
@@ -223,7 +223,7 @@ public sealed class EditorDebugTests
         Assert.That(GameDebugTools.GrantResource(client, EditorDebugResource.Money, "1e30", out _), Is.True);
         Assert.That(GameDebugTools.GrantResource(client, EditorDebugResource.Ruby, "1e20", out _), Is.True);
         client.SaveNow();
-        yield return SceneManager.LoadSceneAsync("GameClient");
+        yield return TestSceneLoader.LoadAsync("GameClient");
         yield return ClientStartupWait.Ready();
         client = GameClient.Instance;
         ForestRuntimeAcceptance.IsGaming = false;
@@ -280,7 +280,7 @@ public sealed class EditorDebugTests
         Assert.That(SaveArchive.Encode(client.State), Is.EqualTo(before));
         client.State.Relics[4].Count = 100;
         client.SaveNow();
-        yield return SceneManager.LoadSceneAsync("GameClient");
+        yield return TestSceneLoader.LoadAsync("GameClient");
         yield return ClientStartupWait.Ready();
         client = GameClient.Instance;
         ForestRuntimeAcceptance.IsGaming = false;

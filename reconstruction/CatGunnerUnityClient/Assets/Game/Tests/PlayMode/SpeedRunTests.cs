@@ -25,7 +25,7 @@ public sealed class SpeedRunTests
         SceneManager.sceneLoaded+=Configure;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var mode=c.SpeedRun;
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var mode=c.SpeedRun;
             // Explicit isolated equipment fixture, never the user's save. The
             // package does not establish that starter Gun0 must beat this timed
             // mode. Use original Gun5 values; no damage/health/time alteration.
@@ -44,7 +44,7 @@ public sealed class SpeedRunTests
             mode.Game_Exit();yield return new WaitForSeconds(2);Assert.That(c.Mode,Is.Zero);Assert.That(c.Forest.Map_obj.activeSelf,Is.True);Assert.That(mode.Map_obj.activeSelf,Is.False);
         }
         finally {SceneManager.sceneLoaded-=Configure;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     [System.Serializable] private sealed class Observation {public int gun,remaining;public float seconds,cooldown;public bool won;public string damage,fixture;}
     [UnityTest] public IEnumerator TimedFailurePaysNothingAndExplicitExitStopsModeUpdates()
@@ -53,11 +53,11 @@ public sealed class SpeedRunTests
         SceneManager.sceneLoaded+=Configure;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;c.Hero.GetComponent<ForestCombatAcceptance>().enabled=false;var mode=c.SpeedRun;mode.Game_Enter();
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;c.Hero.GetComponent<ForestCombatAcceptance>().enabled=false;var mode=c.SpeedRun;mode.Game_Enter();
             yield return new WaitForSeconds(2);int dia=c.State.Dia;mode.GameTime_Now=0;yield return null;Assert.That(mode.GameFail_UI.activeSelf,Is.True);Assert.That(c.State.Dia,Is.EqualTo(dia));Assert.That(mode.Stage_Now,Is.Zero);
             mode.Game_Exit();yield return new WaitForSeconds(2);Assert.That(c.Mode,Is.Zero);Assert.That(c.State.Dia,Is.EqualTo(dia));Assert.That(mode.Playing,Is.False);
         }
         finally {SceneManager.sceneLoaded-=Configure;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
 }

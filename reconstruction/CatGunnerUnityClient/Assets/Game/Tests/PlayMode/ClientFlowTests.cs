@@ -30,7 +30,7 @@ public sealed class ClientFlowTests
             owner.SaveFolderOverride=folder;
         }
         SceneManager.sceneLoaded+=Configure;
-        try {yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;}
+        try {yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;}
         finally {SceneManager.sceneLoaded-=Configure;}
         client=GameClient.Instance;
         Assert.That(client,Is.Not.Null);
@@ -38,7 +38,7 @@ public sealed class ClientFlowTests
     }
     [UnityTearDown] public IEnumerator TearDown()
     {
-        yield return SceneManager.LoadSceneAsync("TargetPreview");yield return null;
+        yield return TestSceneLoader.LoadAsync("TargetPreview");yield return null;
         if(Directory.Exists(folder))Directory.Delete(folder,true);
         Time.timeScale=1;
     }
@@ -189,7 +189,7 @@ public sealed class ClientFlowTests
         var expected=client.State.Money.Value;
         Assert.That(File.Exists(Path.Combine(folder,"NoSaveFile.json")),Is.True);
         Assert.That(File.Exists(Path.Combine(folder,"NoSaveFile.json.bak")),Is.True);
-        yield return SceneManager.LoadSceneAsync("TargetPreview");yield return LoadClient();IsolateCombat();
+        yield return TestSceneLoader.LoadAsync("TargetPreview");yield return LoadClient();IsolateCombat();
         Assert.That(client.State.Money.Value.CompareTo(expected),Is.Zero);
         Assert.That(client.State.Upgrade_Lv[0],Is.EqualTo(1));
         Assert.That(client.Forest.Level_Now,Is.EqualTo(1));Assert.That(client.Forest.TreeCount_Max,Is.EqualTo(60));

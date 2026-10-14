@@ -43,7 +43,7 @@ public sealed class EquipmentTests
     [UnityTest]
     public IEnumerator PackageReloadOverridesPlaceholderAndReadsOriginalUpgradeCaches()
     {
-        yield return SceneManager.LoadSceneAsync("Forest");yield return null;
+        yield return TestSceneLoader.LoadAsync("Forest");yield return null;
         var cat=Cat.instance;var bridge=cat.GetComponent<ForestCombatAcceptance>();bridge.enabled=false;
         Assert.That(bridge.LoadPackageEquipment,Is.True);Assert.That(bridge.EnableSingleAttacks,Is.True);
         Assert.That(cat.GunNum,Is.Zero);Assert.That(cat._gunInfo.type,Is.EqualTo(GunType.SINGLE));
@@ -68,7 +68,7 @@ public sealed class EquipmentTests
     [UnityTest]
     public IEnumerator DefaultPackageEquipmentShootsAndKillsOriginalTreeWithoutInjectedPlayerStats()
     {
-        yield return SceneManager.LoadSceneAsync("Forest");yield return null;
+        yield return TestSceneLoader.LoadAsync("Forest");yield return null;
         var cat=Cat.instance;
         cat.GetComponent<ForestMovementAcceptance>().enabled=false;
         var tree=Object.FindObjectsByType<Tree>(FindObjectsInactive.Exclude).First(t=>t!=Tree_manager.instance.Boss_tree &&

@@ -15,8 +15,8 @@ public sealed class AutoUpgradeTests
 {
  string folder; bool background,disabledBefore; GameClient c; AutoUpgrade_UI ui;
  void Independent(Scene scene,LoadSceneMode mode){if(scene.name=="GameClient")scene.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<GameClient>(true)).Single().SaveFolderOverride=folder;}
- [UnitySetUp] public IEnumerator Setup(){folder=Path.Combine(Application.temporaryCachePath,"AutoUpgrade-"+Guid.NewGuid().ToString("N"));disabledBefore=Setting.is_AutoDisable;Setting.is_AutoDisable=false;background=Application.runInBackground;Application.runInBackground=true;Time.timeScale=1;SceneManager.sceneLoaded+=Independent;yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();ForestRuntimeAcceptance.IsGaming=false;c=GameClient.Instance;c.DailyLogin.Close();ui=c.AutoUpgrades.Panel;}
- [UnityTearDown] public IEnumerator Cleanup(){Time.timeScale=1;c?.RewardedAds.Cancel();yield return SceneManager.LoadSceneAsync("TargetPreview");Setting.is_AutoDisable=disabledBefore;SceneManager.sceneLoaded-=Independent;if(Directory.Exists(folder))Directory.Delete(folder,true);Application.runInBackground=background;}
+ [UnitySetUp] public IEnumerator Setup(){folder=Path.Combine(Application.temporaryCachePath,"AutoUpgrade-"+Guid.NewGuid().ToString("N"));disabledBefore=Setting.is_AutoDisable;Setting.is_AutoDisable=false;background=Application.runInBackground;Application.runInBackground=true;Time.timeScale=1;SceneManager.sceneLoaded+=Independent;yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();ForestRuntimeAcceptance.IsGaming=false;c=GameClient.Instance;c.DailyLogin.Close();ui=c.AutoUpgrades.Panel;}
+ [UnityTearDown] public IEnumerator Cleanup(){Time.timeScale=1;c?.RewardedAds.Cancel();yield return TestSceneLoader.LoadAsync("TargetPreview");Setting.is_AutoDisable=disabledBefore;SceneManager.sceneLoaded-=Independent;if(Directory.Exists(folder))Directory.Delete(folder,true);Application.runInBackground=background;}
  [UnityTest] public IEnumerator OriginalAutoUpgradeHudAndPopupArePresentForPlay()
  {
   var all=SceneManager.GetActiveScene().GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<Transform>(true)).ToArray();
@@ -83,7 +83,7 @@ public sealed class AutoUpgradeTests
  [UnityTest] public IEnumerator ColdSceneReloadPreservesBudgetWithoutConsumingOfflineSeconds()
  {
   yield return Open();c.AutoUpgrades.Now=()=>new DateTime(2026,10,11);ui.AutoUpgrade_AD_Click();yield return null;yield return null;Time.timeScale=0;c.State.AD_AutoUpgrade_RemainSec=123.75f;c.SaveNow();
-  yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();c=GameClient.Instance;ui=c.AutoUpgrades.Panel;ForestRuntimeAcceptance.IsGaming=false;c.DailyLogin.Close();c.AutoUpgrades.Now=()=>new DateTime(2026,10,11);
+  yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();c=GameClient.Instance;ui=c.AutoUpgrades.Panel;ForestRuntimeAcceptance.IsGaming=false;c.DailyLogin.Close();c.AutoUpgrades.Now=()=>new DateTime(2026,10,11);
   Assert.That(c.AutoUpgrades.Remaining,Is.EqualTo(123.75f));Assert.That(c.AutoUpgrades.Able,Is.False);Assert.That(c.AutoUpgrades.WatchedToday,Is.True);Assert.That(c.State.Is_AutoUpgrade_Pack,Is.False);Time.timeScale=1;
  }
  [UnityTest] public IEnumerator PaidStateSkipsAdAndKeepsTimedBudgetWithoutGrantingNewEntitlement()

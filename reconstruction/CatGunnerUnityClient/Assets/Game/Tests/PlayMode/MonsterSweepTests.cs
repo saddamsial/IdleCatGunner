@@ -24,13 +24,13 @@ public sealed class MonsterSweepTests
         background = Application.runInBackground; Application.runInBackground = true;
         folder = Path.Combine(Application.temporaryCachePath, "MonsterSweep-" + Guid.NewGuid().ToString("N"));
         SceneManager.sceneLoaded += Independent;
-        yield return SceneManager.LoadSceneAsync("GameClient"); yield return ClientStartupWait.Ready();
+        yield return TestSceneLoader.LoadAsync("GameClient"); yield return ClientStartupWait.Ready();
         c = GameClient.Instance; ForestRuntimeAcceptance.IsGaming = false;
         c.DailyLogin.Close(); c.Tutorial.SetCleared();
     }
     [UnityTearDown] public IEnumerator Cleanup()
     {
-        yield return SceneManager.LoadSceneAsync("TargetPreview"); SceneManager.sceneLoaded -= Independent;
+        yield return TestSceneLoader.LoadAsync("TargetPreview"); SceneManager.sceneLoaded -= Independent;
         Time.timeScale = 1; Application.runInBackground = background;
         if (Directory.Exists(folder)) Directory.Delete(folder, true);
     }
@@ -111,7 +111,7 @@ public sealed class MonsterSweepTests
         yield return Click(M.SweepBonus_Btn_obj.GetComponent<Button>());yield return null;
         Assert.That(c.State.PetCoin,Is.EqualTo(coins+60*count));Assert.That(c.RewardedAds.CompletedWatches,Is.EqualTo(1));Assert.That(M.SweepPending,Is.False);
         Assert.That((c.Mode,c.Forest.Stage_Now),Is.EqualTo((0,stage)));c.SaveNow();
-        yield return SceneManager.LoadSceneAsync("TargetPreview");yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();c=GameClient.Instance;ForestRuntimeAcceptance.IsGaming=false;
+        yield return TestSceneLoader.LoadAsync("TargetPreview");yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();c=GameClient.Instance;ForestRuntimeAcceptance.IsGaming=false;
         Assert.That((M.Wave_Now,M.Lv_Now,c.State.PetCoin),Is.EqualTo((wave,level,coins+60*count)));Assert.That(M.SweepPending||M.GameSweep_UI.activeSelf,Is.False);
     }
     [UnityTest] public IEnumerator RewardPackForcedRemovalAndFullRemovalUseNativeDoubles()

@@ -31,7 +31,7 @@ public sealed class MovementTests
     [UnityTest]
     public IEnumerator OriginalPointerMovesOriginalBodyAndWalkAnimationThenStops()
     {
-        yield return SceneManager.LoadSceneAsync("Forest");yield return null;
+        yield return TestSceneLoader.LoadAsync("Forest");yield return null;
         var cat=Cat.instance;
         cat.GetComponent<CatGunner.Runtime.ForestCombatAcceptance>().enabled=false;
         Assert.That(cat,Is.Not.Null);
@@ -86,7 +86,7 @@ public sealed class MovementTests
     [UnityTest]
     public IEnumerator NativeTargetFacingIdleThresholdAndWarpPreserveOriginalPoseContract()
     {
-        yield return SceneManager.LoadSceneAsync("Forest");yield return null;
+        yield return TestSceneLoader.LoadAsync("Forest");yield return null;
         var cat=Cat.instance;cat.GetComponent<CatGunner.Runtime.ForestCombatAcceptance>().enabled=false;cat.Warp(new Vector3(20,0,-15));
         var target=new GameObject("Isolated movement target acceptance");
         var collider=target.AddComponent<BoxCollider>();

@@ -45,7 +45,7 @@ public sealed class RaidTests
         SceneManager.sceneLoaded+=Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;ContentNavigationFixture.Unlock(c,Content_Type.Raid);yield return null;StopCombat(c);var m=c.RaidMode;
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;ContentNavigationFixture.Unlock(c,Content_Type.Raid);yield return null;StopCombat(c);var m=c.RaidMode;
             m.Now=()=>new DateTime(2024,1,1);c.State.Owned_Gun_list[0]=30;c.State.Owned_Gun_list[1]=30;c.State.Safe_Gun_list=new[]{30,-1};
             var before=(int[])c.State.Selected_items.Clone();m.Season_Check();Assert.That(m.Buff_GunType_Now(),Is.EqualTo(GunType.PIERCE));
             Assert.That(m.Sorted_Index_List().Take(3),Is.EqualTo(new[]{3,4,19}));
@@ -58,14 +58,14 @@ public sealed class RaidTests
             m.Panel_Close();Assert.That(m.StartPanel.activeSelf,Is.False);
         }
         finally{SceneManager.sceneLoaded-=Independent;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     [UnityTest] public IEnumerator ZeroInputOriginalGunThirtyNaturalSixtySecondRaidAwardsOnceAndReturnsForestLoadout()
     {
         SceneManager.sceneLoaded+=Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var m=c.RaidMode;
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var m=c.RaidMode;
             m.Now=()=>new DateTime(2024,1,1);m.Season_Check();c.State.Owned_Gun_list[0]=30;int gems=c.State.StarGem;
             var forest=(int[])c.State.Selected_items.Clone();var forestProgress=(c.Forest.Stage_Now,c.Forest.Level_Now);
             c.State.Upgrade_Lv[0]=100;c.State.Upgrade_Lv[1]=100;m.Panel_Open();m.Gun_UnSelect(1);yield return new WaitForSeconds(.4f);
@@ -82,14 +82,14 @@ public sealed class RaidTests
             StopCombat(c);m.Game_Exit();yield return new WaitForSeconds(2);Assert.That(c.Mode,Is.Zero);Assert.That(c.State.Selected_items,Is.EqualTo(forest));Assert.That((c.Forest.Stage_Now,c.Forest.Level_Now),Is.EqualTo(forestProgress));Assert.That(c.Hero._gunInfo.Name,Is.EqualTo(Gun_manager.instance.Gun_list[c.State.Selected_items[0]].Name));
         }
         finally{SceneManager.sceneLoaded-=Independent;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     [UnityTest] public IEnumerator EntryCancellationConsumesTicketWithoutRunRewardAndNativeBossReloadKeepsSkin()
     {
         SceneManager.sceneLoaded+=Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;StopCombat(c);var m=c.RaidMode;int gems=c.State.StarGem;
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;StopCombat(c);var m=c.RaidMode;int gems=c.State.StarGem;
             m.Game_Enter_Normal();m.Game_Enter_Normal();m.Game_Exit();yield return new WaitForSeconds(3);
             Assert.That(c.Mode,Is.Zero);Assert.That(m.Entering,Is.False);Assert.That(c.State.Raid_Free_Use_Count,Is.EqualTo(1));Assert.That(c.State.Raid_Season_TryCount,Is.Zero);Assert.That(c.State.StarGem,Is.EqualTo(gems));
             m.Game_Enter_Normal();yield return new WaitForSeconds(2.1f);Assert.That(m.Playing,Is.True);Assert.That(m._boss.enemy.Health_Max.Value.PlainInteger(),Is.EqualTo("10000000"));int skin=m._boss.skinNum;
@@ -101,7 +101,7 @@ public sealed class RaidTests
             m.Map_obj.SetActive(false);
         }
         finally{SceneManager.sceneLoaded-=Independent;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     [Serializable]private sealed class Observation{public int score,gems;public float seconds,moved;public string fixture;}
 }

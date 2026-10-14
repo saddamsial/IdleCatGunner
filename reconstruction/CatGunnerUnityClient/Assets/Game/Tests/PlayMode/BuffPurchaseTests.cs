@@ -24,13 +24,13 @@ public sealed class BuffPurchaseTests
         background = Application.runInBackground; Application.runInBackground = true;
         folder = Path.Combine(Application.temporaryCachePath, "BuffPurchase-" + Guid.NewGuid().ToString("N"));
         SceneManager.sceneLoaded += Independent;
-        yield return SceneManager.LoadSceneAsync("GameClient"); yield return ClientStartupWait.Ready();
+        yield return TestSceneLoader.LoadAsync("GameClient"); yield return ClientStartupWait.Ready();
         c = GameClient.Instance; ForestRuntimeAcceptance.IsGaming = false;
         c.DailyLogin.Close(); c.Tutorial.SetCleared();
     }
     [UnityTearDown] public IEnumerator Cleanup()
     {
-        yield return SceneManager.LoadSceneAsync("TargetPreview"); SceneManager.sceneLoaded -= Independent;
+        yield return TestSceneLoader.LoadAsync("TargetPreview"); SceneManager.sceneLoaded -= Independent;
         Time.timeScale = 1; Application.runInBackground = background;
         if (Directory.Exists(folder)) Directory.Delete(folder, true);
     }
@@ -71,7 +71,7 @@ public sealed class BuffPurchaseTests
         foreach(var panel in M.GetComponentsInChildren<Buff_Panel>(true)){Assert.That(panel.AD_Btn_obj.activeSelf,Is.False);Assert.That(panel.Fill.fillAmount,Is.EqualTo(1));Assert.That(panel.BuffTime_txt.text,Is.Empty);Assert.That(M.GetMult(panel.type),Is.EqualTo(4));}
         UnityEngine.Object.FindAnyObjectByType<Alert>(FindObjectsInactive.Include)?.gameObject.SetActive(false);yield return Capture("owned");
         Assert.That(c.State.ProcessedTxnIds,Is.Empty);Assert.That(c.State.PurchaseHistory,Is.Empty);Assert.That(c.State.PurchaseCount,Is.Zero);c.SaveNow();
-        yield return SceneManager.LoadSceneAsync("TargetPreview");yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();c=GameClient.Instance;ForestRuntimeAcceptance.IsGaming=false;c.DailyLogin.Close();c.Tutorial.SetCleared();yield return Open();
+        yield return TestSceneLoader.LoadAsync("TargetPreview");yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();c=GameClient.Instance;ForestRuntimeAcceptance.IsGaming=false;c.DailyLogin.Close();c.Tutorial.SetCleared();yield return Open();
         Assert.That(c.State.Is_Buff_Pack,Is.True);Assert.That(c.State.Dia,Is.EqualTo(dia+1000));Assert.That(Adapter.Button.interactable,Is.False);Assert.That(c.LocalStore.Model.CanBuy("buff_pack"),Is.False);
         Assert.That(new SaveArchive(folder).Load().SimulatedPurchases.Single(p=>p.productId=="buff_pack").count,Is.EqualTo(1));
     }

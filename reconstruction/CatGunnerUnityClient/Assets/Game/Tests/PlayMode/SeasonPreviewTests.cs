@@ -25,12 +25,12 @@ public sealed class SeasonPreviewTests
     {
         background=Application.runInBackground;Application.runInBackground=true;
         folder=Path.Combine(Application.temporaryCachePath,"SeasonPreview-"+Guid.NewGuid().ToString("N"));
-        SceneManager.sceneLoaded+=Configure;yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();
+        SceneManager.sceneLoaded+=Configure;yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();
         client=GameClient.Instance;client.DailyLogin.Close();client.Tutorial.SetCleared();ForestRuntimeAcceptance.IsGaming=false;
         M.NewSeason_Start();M.Panel_Open();yield return new WaitForSecondsRealtime(.4f);
     }
     [UnityTearDown] public IEnumerator Cleanup()
-    {Time.timeScale=1;yield return SceneManager.LoadSceneAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;Application.runInBackground=background;if(Directory.Exists(folder))Directory.Delete(folder,true);}
+    {Time.timeScale=1;yield return TestSceneLoader.LoadAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;Application.runInBackground=background;if(Directory.Exists(folder))Directory.Delete(folder,true);}
     IEnumerator Click(Button target,Button receiver=null)
     {
         // Source popup Animator changes scale/position during entry; measure
@@ -122,7 +122,7 @@ public sealed class SeasonPreviewTests
         M.Check_All_Reward_Get();yield return null;Assert.That(Forced.gameObject.activeInHierarchy,Is.True);AssertPreview(Forced);
         client.State.Mission_is_Vip=true;Forced.gameObject.SetActive(false);Forced.gameObject.SetActive(true);Assert.That(Forced.VIP_Purchase_popup_obj.activeSelf,Is.False);yield return Capture("vip-hidden");
         Forced.gameObject.SetActive(false);client.State.Mission_is_Vip=false;client.State.EpicReward_Get[23]=false;client.SaveNow();
-        yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();client=GameClient.Instance;client.DailyLogin.Close();client.Tutorial.SetCleared();ForestRuntimeAcceptance.IsGaming=false;M.Panel_Open();
+        yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();client=GameClient.Instance;client.DailyLogin.Close();client.Tutorial.SetCleared();ForestRuntimeAcceptance.IsGaming=false;M.Panel_Open();
         M.Check_All_Reward_Get();yield return null;Assert.That(Forced.gameObject.activeInHierarchy,Is.True);AssertPreview(Forced);
         Assert.That(Forced.Mission_Reward_Items.Single(x=>x._Lv==23).GetAble_obj.activeSelf,Is.True);Assert.That(Forced.Mission_Reward_Items.Single(x=>x._Lv==22).Get_obj.activeSelf,Is.True);
     }

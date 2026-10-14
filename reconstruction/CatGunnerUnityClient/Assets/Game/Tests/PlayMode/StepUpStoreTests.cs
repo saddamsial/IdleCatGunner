@@ -24,14 +24,14 @@ public sealed class StepUpStoreTests
         background = Application.runInBackground; Application.runInBackground = true; Time.timeScale = 1;
         folder = Path.Combine(Application.temporaryCachePath, "StepUp-" + Guid.NewGuid().ToString("N"));
         SceneManager.sceneLoaded += Independent;
-        yield return SceneManager.LoadSceneAsync("GameClient"); yield return ClientStartupWait.Ready();
+        yield return TestSceneLoader.LoadAsync("GameClient"); yield return ClientStartupWait.Ready();
         client = GameClient.Instance; ForestRuntimeAcceptance.IsGaming = false;
         client.DailyLogin.Close(); client.Tutorial.SetCleared();
     }
     [UnityTearDown] public IEnumerator Cleanup()
     {
         Time.timeScale = 1; client?.LocalStore.Cancel(); client?.RewardedAds.Cancel();
-        yield return SceneManager.LoadSceneAsync("TargetPreview"); SceneManager.sceneLoaded -= Independent;
+        yield return TestSceneLoader.LoadAsync("TargetPreview"); SceneManager.sceneLoaded -= Independent;
         if (Directory.Exists(folder)) Directory.Delete(folder, true); Application.runInBackground = background;
     }
     [UnityTest] public IEnumerator OriginalPopupHudAndFiveItemsExistAtStartup()
@@ -143,7 +143,7 @@ public sealed class StepUpStoreTests
         Assert.That(Offer.stepup_banner.gameObject.activeSelf, Is.False);
         var saved = new SaveArchive(folder).Load(); Assert.That(saved.SimulatedPurchases.Count(p => p.productId.StartsWith("catgunner_stepup_")), Is.EqualTo(5));
         string start = saved.StepUp_Start_Date;
-        yield return SceneManager.LoadSceneAsync("GameClient"); yield return ClientStartupWait.Ready();
+        yield return TestSceneLoader.LoadAsync("GameClient"); yield return ClientStartupWait.Ready();
         client = GameClient.Instance; ForestRuntimeAcceptance.IsGaming = false; client.DailyLogin.Close();
         Assert.That(Offer.Model.AllPurchased, Is.True); Assert.That(client.State.Dia, Is.EqualTo(saved.Dia));
         Assert.That(client.State.StepUp_Start_Date, Is.EqualTo(start)); Assert.That(Offer.stepup_hud.gameObject.activeSelf, Is.False);

@@ -33,14 +33,14 @@ public sealed class DailyCheckTests
     {
         disableStartup=false;background=Application.runInBackground;Application.runInBackground=true;Time.timeScale=1;today=Epoch;
         folder=Path.Combine(Application.temporaryCachePath,"DailyCheck-"+Guid.NewGuid().ToString("N"));SceneManager.sceneLoaded+=Configure;
-        yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();
+        yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();
         client=GameClient.Instance;daily=client.DailyLogin;ForestRuntimeAcceptance.IsGaming=false;
         module=EventSystem.current.GetComponent<StandaloneInputModule>();mouse=module.gameObject.AddComponent<ForestFeedbackMouseFixture>();module.inputOverride=mouse;
     }
     [UnityTearDown] public IEnumerator Cleanup()
     {
         if(module!=null)module.inputOverride=null;
-        yield return SceneManager.LoadSceneAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;
+        yield return TestSceneLoader.LoadAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;
         if(Directory.Exists(folder))Directory.Delete(folder,true);Application.runInBackground=background;Time.timeScale=1;
     }
     private IEnumerator Click(Button b)
@@ -84,7 +84,7 @@ public sealed class DailyCheckTests
         client.AwardDiamonds(1);
         yield return Click(Hud());yield return Entrance();Assert.That(popupWallet.Dia_txt.text,Is.EqualTo(client.State.Dia.ToString()));yield return Click(close);
         client.SaveNow();var saved=new SaveArchive(folder).Load();Assert.That(saved.CheckNum,Is.EqualTo(1));Assert.That(saved.TotalCheckNum,Is.EqualTo(1));
-        yield return SceneManager.LoadSceneAsync("TargetPreview");yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();
+        yield return TestSceneLoader.LoadAsync("TargetPreview");yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();
         client=GameClient.Instance;daily=client.DailyLogin;ForestRuntimeAcceptance.IsGaming=false;
         Assert.That(daily.CheckNum,Is.EqualTo(1));Assert.That(daily.TotalCheckNum,Is.EqualTo(1));Assert.That(daily.is_DateChange(),Is.False);
         daily.UI_reload();daily.DailyReward_Get(1);Assert.That(client.State.Dia,Is.EqualTo(saved.Dia));Assert.That(client.State._getDia,Is.EqualTo(saved._getDia));
@@ -111,7 +111,7 @@ public sealed class DailyCheckTests
         // Reload a genuinely uncleared independent profile, with production auto-show enabled.
         client.State.TutorialCleared=false;client.State.Upgrade_Lv[0]=0;client.SaveNow();
         var archive=new SaveArchive(folder);var s=archive.Load();s.TutorialCleared=false;archive.AllowSave();archive.Save(s);
-        yield return SceneManager.LoadSceneAsync("TargetPreview");yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready(false);
+        yield return TestSceneLoader.LoadAsync("TargetPreview");yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready(false);
         client=GameClient.Instance;daily=client.DailyLogin;ForestRuntimeAcceptance.IsGaming=false;daily.AutoShow=true;
         Assert.That(daily.DailyCheck_Panel_obj.activeSelf,Is.False);Assert.That(daily.ShownThisSession,Is.False);int before=client.State.Dia;
         client.Tutorial.SetCleared();yield return null;yield return null;
@@ -127,10 +127,10 @@ public sealed class DailyCheckTests
     }
     [UnityTest] public IEnumerator InvalidStoredProfileCannotOverwriteMainOrBackup()
     {
-        client.SaveNow();yield return SceneManager.LoadSceneAsync("TargetPreview");
+        client.SaveNow();yield return TestSceneLoader.LoadAsync("TargetPreview");
         var archive=new SaveArchive(folder);var bad=archive.Load();bad.CheckNum=8;archive.AllowSave();archive.Save(bad);archive.Save(bad);
         string main=File.ReadAllText(archive.MainPath),backup=File.ReadAllText(archive.BackupPath);disableStartup=true;
-        yield return SceneManager.LoadSceneAsync("GameClient");client=GameClient.Instance;
+        yield return TestSceneLoader.LoadAsync("GameClient");client=GameClient.Instance;
         Assert.Throws<InvalidOperationException>(()=>client.Initialize());client.SaveNow();yield return new WaitForSecondsRealtime(5.2f);
         Assert.That(client.ReadyForPlay,Is.False);Assert.That(File.ReadAllText(archive.MainPath),Is.EqualTo(main));Assert.That(File.ReadAllText(archive.BackupPath),Is.EqualTo(backup));
     }

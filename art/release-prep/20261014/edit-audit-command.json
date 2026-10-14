@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "command": "command run_script",
+  "data": {
+    "command": "run_script",
+    "parameters": {
+      "entry": "ReleaseVisualAudit.Edit",
+      "timeout_ms": "60000",
+      "file": "/Volumes/ZHITAI_1T/IdleCatGunner/art/release-prep/20261014/ReleaseVisualAudit.cs"
+    },
+    "result": {
+      "diagnostics": [
+        {
+          "severity": "warning",
+          "message": "'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+          "line": 48,
+          "column": 320,
+          "id": "CS0618",
+          "source": "File.WriteAllText(Dir+\"/preview-observation.json\",Newtonsoft.Json.JsonConvert.SerializeObject(new{source=\"Actual Unity Game view GPU captures\",Screen.width,Screen.height,ready=c.ReadyForPlay,save=c.SaveFolderOverride,avatars=UnityEngine.Object.FindObjectsByType<PenguinAvatarBinding>(FindObjectsInactive.Include,FindObjectsSortMode.None).Length,actors=UnityEngine.Object.FindObjectsByType<PenguinActorBinding>(FindObjectsInactive.Include,FindObjectsSortMode.None).Length,pool=Polling_manager.instance.IsReady,isolated=true},Newtonsoft.Json.Formatting.Indented));"
+        },
+        {
+          "severity": "warning",
+          "message": "'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+          "line": 48,
+          "column": 233,
+          "id": "CS0618",
+          "source": "File.WriteAllText(Dir+\"/preview-observation.json\",Newtonsoft.Json.JsonConvert.SerializeObject(new{source=\"Actual Unity Game view GPU captures\",Screen.width,Screen.height,ready=c.ReadyForPlay,save=c.SaveFolderOverride,avatars=UnityEngine.Object.FindObjectsByType<PenguinAvatarBinding>(FindObjectsInactive.Include,FindObjectsSortMode.None).Length,actors=UnityEngine.Object.FindObjectsByType<PenguinActorBinding>(FindObjectsInactive.Include,FindObjectsSortMode.None).Length,pool=Polling_manager.instance.IsReady,isolated=true},Newtonsoft.Json.Formatting.Indented));"
+        },
+        {
+          "severity": "warning",
+          "message": "'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+          "line": 48,
+          "column": 446,
+          "id": "CS0618",
+          "source": "File.WriteAllText(Dir+\"/preview-observation.json\",Newtonsoft.Json.JsonConvert.SerializeObject(new{source=\"Actual Unity Game view GPU captures\",Screen.width,Screen.height,ready=c.ReadyForPlay,save=c.SaveFolderOverride,avatars=UnityEngine.Object.FindObjectsByType<PenguinAvatarBinding>(FindObjectsInactive.Include,FindObjectsSortMode.None).Length,actors=UnityEngine.Object.FindObjectsByType<PenguinActorBinding>(FindObjectsInactive.Include,FindObjectsSortMode.None).Length,pool=Polling_manager.instance.IsReady,isolated=true},Newtonsoft.Json.Formatting.Indented));"
+        },
+        {
+          "severity": "warning",
+          "message": "'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+          "line": 48,
+          "column": 360,
+          "id": "CS0618",
+          "source": "File.WriteAllText(Dir+\"/preview-observation.json\",Newtonsoft.Json.JsonConvert.SerializeObject(new{source=\"Actual Unity Game view GPU captures\",Screen.width,Screen.height,ready=c.ReadyForPlay,save=c.SaveFolderOverride,avatars=UnityEngine.Object.FindObjectsByType<PenguinAvatarBinding>(FindObjectsInactive.Include,FindObjectsSortMode.None).Length,actors=UnityEngine.Object.FindObjectsByType<PenguinActorBinding>(FindObjectsInactive.Include,FindObjectsSortMode.None).Length,pool=Polling_manager.instance.IsReady,isolated=true},Newtonsoft.Json.Formatting.Indented));"
+        }
+      ],
+      "compileMs": 267,
+      "executeMs": 1581,
+      "assemblyName": "PipelineRunScript_ReleaseVisualAudit_14abc891b2d348e8ba3c3d6c3a087548",
+      "success": true,
+      "result": "Production scene and four prefabs audited; authored world rendered to edit-world.png"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

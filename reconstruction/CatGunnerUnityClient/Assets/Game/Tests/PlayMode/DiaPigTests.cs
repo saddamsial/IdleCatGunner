@@ -29,14 +29,14 @@ public sealed class DiaPigTests
     {
         background=Application.runInBackground;Application.runInBackground=true;Time.timeScale=1;
         folder=Path.Combine(Application.temporaryCachePath,"DiaPig-"+Guid.NewGuid().ToString("N"));SceneManager.sceneLoaded+=Configure;
-        yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();
+        yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();
         client=GameClient.Instance;ForestRuntimeAcceptance.IsGaming=false;
         module=EventSystem.current.GetComponent<StandaloneInputModule>();mouse=module.gameObject.AddComponent<ForestFeedbackMouseFixture>();module.inputOverride=mouse;
     }
     [UnityTearDown] public IEnumerator Cleanup()
     {
         if(module!=null)module.inputOverride=null;
-        yield return SceneManager.LoadSceneAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;
+        yield return TestSceneLoader.LoadAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;
         if(Directory.Exists(folder))Directory.Delete(folder,true);Application.runInBackground=background;Time.timeScale=1;
     }
     private IEnumerator Click(Button b)
@@ -76,7 +76,7 @@ public sealed class DiaPigTests
         var data=new DiaPigSave{Dia_Now=321,LastTickTime=Epoch.ToString("o")};client.State.diaPig=data;client.DiamondPig.Init(data);client.SaveNow();
         var before=new SaveArchive(folder).Load();int dia=before.Dia,ledger=before._getDia;
         Assert.That(before.diaPig.LastTickTime,Is.EqualTo(data.LastTickTime));
-        yield return SceneManager.LoadSceneAsync("TargetPreview");yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();
+        yield return TestSceneLoader.LoadAsync("TargetPreview");yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();
         client=GameClient.Instance;ForestRuntimeAcceptance.IsGaming=false;
         Assert.That(client.DiamondPig.Dia_Now,Is.EqualTo(321));Assert.That(client.DiamondPig.Fill.fillAmount,Is.EqualTo(321f/500));
         Assert.That(client.DiamondPig.IsUnlocked,Is.False);client.DiamondPig.Dia_Get();client.SaveNow();
@@ -128,7 +128,7 @@ public sealed class DiaPigTests
         var saved=new SaveArchive(folder).Load();Assert.That(saved.diaPig.Dia_Now,Is.Zero);Assert.That(saved.diaPig.LastTickTime,Is.EqualTo(seed.LastTickTime));
         Assert.That(saved.PurchaseHistory,Is.Empty);Assert.That(saved.ProcessedTxnIds,Is.Empty);Assert.That(saved.PurchaseCount,Is.Zero);
         ScreenCapture.CaptureScreenshot(Report("visual/diapig-entitlements-claimed-gpu.png"));yield return new WaitForSeconds(.2f);
-        yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();client=GameClient.Instance;ForestRuntimeAcceptance.IsGaming=false;
+        yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();client=GameClient.Instance;ForestRuntimeAcceptance.IsGaming=false;
         Assert.That(client.DiamondPig.TickAmount,Is.EqualTo(1));Assert.That(client.DiamondPig.Dia_Now,Is.Zero);Assert.That(client.State.Dia,Is.EqualTo(dia+123));
         Assert.That(client.LocalStore.Model.Recorded("remove_all_ads"),Is.True);
     }
@@ -144,7 +144,7 @@ public sealed class DiaPigTests
         client.SaveNow();var saved=new SaveArchive(folder).Load();Assert.That(saved.diaPig.Dia_Now,Is.EqualTo(1));
         PreparePigPage();yield return new WaitForSeconds(.5f);Assert.That(client.DiamondPig.diapig_ui.CoolTime_txt.text,Does.EndWith("s"));
         ScreenCapture.CaptureScreenshot(Report("visual/diapig-entitlements-realtime-minute-gpu.png"));yield return new WaitForSeconds(.2f);
-        yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();client=GameClient.Instance;ForestRuntimeAcceptance.IsGaming=false;
+        yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();client=GameClient.Instance;ForestRuntimeAcceptance.IsGaming=false;
         Assert.That(client.DiamondPig.Dia_Now,Is.EqualTo(1));Assert.That(client.State.Dia,Is.EqualTo(dia));
         Assert.That(client.DiamondPig.TickAmount,Is.EqualTo(1));Assert.That(client.DiamondPig.GetSaveData().LastTickTime,Is.EqualTo(saved.diaPig.LastTickTime));
     }

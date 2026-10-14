@@ -1,0 +1,1123 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var c=UnityEngine.Object.FindAnyObjectByType<CatGunner.Runtime.GameClient>();return new {dirty=c.gameObject.scene.isDirty,cats=c.Team.Cat_list.Select(t=>new{t.name,bind=t.GetComponent<CatGunner.Runtime.PenguinAvatarBinding>()!=null,renderers=t.GetComponentsInChildren<UnityEngine.SpriteRenderer>(true).Select(r=>new{r.name,r.enabled,sprite=r.sprite!=null?r.sprite.name:null})}),trees=c.Forest.Tree_sprites.Select(t=>t.name).Distinct(),glyphs=c.GetComponent<CatGunner.Runtime.PenguinFullReskin>().SourceGlyphs.Select(g=>UnityEditor.AssetDatabase.GetAssetPath(g.spriteSheet))};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "dirty": false,
+        "cats": [
+          {
+            "name": "Cat",
+            "bind": true,
+            "renderers": [
+              {
+                "name": "Cat_Bone",
+                "enabled": false,
+                "sprite": "actions-skins-00"
+              },
+              {
+                "name": "Sprite",
+                "enabled": false,
+                "sprite": null
+              },
+              {
+                "name": "hand",
+                "enabled": false,
+                "sprite": null
+              },
+              {
+                "name": "hand_outlilne",
+                "enabled": false,
+                "sprite": null
+              },
+              {
+                "name": "0",
+                "enabled": true,
+                "sprite": "Fit_d52d64a0658a93941a0bf79ac6554407_flat-weapons-00"
+              },
+              {
+                "name": "1",
+                "enabled": true,
+                "sprite": "Fit_75213e749edc68d4993e98343af43bc0_flat-weapons-01"
+              },
+              {
+                "name": "2",
+                "enabled": true,
+                "sprite": "Fit_4f2c96fdfdd9d1644bd5b16926623a90_flat-weapons-02"
+              },
+              {
+                "name": "3",
+                "enabled": true,
+                "sprite": "Fit_f649dae8b0f7d4142ab6aa17f1899d61_flat-weapons-03"
+              },
+              {
+                "name": "4",
+                "enabled": true,
+                "sprite": "Fit_ae7115d408ce6a94694b1c1f3847b0de_flat-weapons-04"
+              },
+              {
+                "name": "5",
+                "enabled": true,
+                "sprite": "Fit_1a4dd32edf764f34ea0079b48c45bf7d_flat-weapons-05"
+              },
+              {
+                "name": "6",
+                "enabled": true,
+                "sprite": "Fit_317fd3fea25e3da4b993d4c27cd67392_flat-weapons-06"
+              },
+              {
+                "name": "7",
+                "enabled": true,
+                "sprite": "Fit_558d543fdac91d94a97ab7c352bdae05_flat-weapons-07"
+              },
+              {
+                "name": "8",
+                "enabled": true,
+                "sprite": "Fit_64fd5e1fa3849964c9d69f520bbc2367_flat-weapons-08"
+              },
+              {
+                "name": "9",
+                "enabled": true,
+                "sprite": "Fit_8fa348a481f597b4a8373dddcfd6e528_flat-weapons-09"
+              },
+              {
+                "name": "10",
+                "enabled": true,
+                "sprite": "Fit_d5f5affbf9dd2ec408b8bff2da6d4473_flat-weapons-10"
+              },
+              {
+                "name": "11",
+                "enabled": true,
+                "sprite": "Fit_17110a68c1fb8504b95693c43c726631_flat-weapons-11"
+              },
+              {
+                "name": "12",
+                "enabled": true,
+                "sprite": "Fit_9fccca69c53a1074c8cae9dcd7980e7c_flat-weapons-12"
+              },
+              {
+                "name": "13",
+                "enabled": true,
+                "sprite": "Fit_260494d26cf0bfb47b8db022e4d92b2b_flat-weapons-13"
+              },
+              {
+                "name": "14",
+                "enabled": true,
+                "sprite": "Fit_e382234cae83e5348bcdc43886b9fff9_flat-weapons-14"
+              },
+              {
+                "name": "15",
+                "enabled": true,
+                "sprite": "Fit_e2c55b3dbdc057a48a5ac43d91a29eca_flat-weapons-15"
+              },
+              {
+                "name": "16",
+                "enabled": true,
+                "sprite": "Fit_421293e96ce39b547a4f7b22b31c57d6_flat-weapons-16"
+              },
+              {
+                "name": "17",
+                "enabled": true,
+                "sprite": "Fit_61073e44363425847b595b2b9b7470a4_flat-weapons-17"
+              },
+              {
+                "name": "18",
+                "enabled": true,
+                "sprite": "Fit_cbc2c99043a7b424d87ecbedc6b8350c_flat-weapons-18"
+              },
+              {
+                "name": "19",
+                "enabled": true,
+                "sprite": "Fit_9188aba3d164fde4b92e29b3099e3779_flat-weapons-19"
+              },
+              {
+                "name": "20",
+                "enabled": true,
+                "sprite": "Fit_97511bbaa9c48904aa8cc0b68c011fd1_flat-weapons-20"
+              },
+              {
+                "name": "21",
+                "enabled": true,
+                "sprite": "Fit_f1e32ca8db4f5e84d8c418b62d5af1e6_flat-weapons-21"
+              },
+              {
+                "name": "22",
+                "enabled": true,
+                "sprite": "Fit_deb649799d46b9e4fa7922590d06cbe2_flat-weapons-22"
+              },
+              {
+                "name": "23",
+                "enabled": true,
+                "sprite": "Fit_eea06ee2058b26847a2fbd9cf8d90cd4_flat-weapons-23"
+              },
+              {
+                "name": "24",
+                "enabled": true,
+                "sprite": "Fit_573303cd5aca0af4db05f2e270819a2e_flat-weapons-24"
+              },
+              {
+                "name": "25",
+                "enabled": true,
+                "sprite": "Fit_b4d81e20c5f788b408cbae8de348c552_flat-weapons-25"
+              },
+              {
+                "name": "26",
+                "enabled": true,
+                "sprite": "Fit_7224e663731ce074183f05e526e9c8b6_flat-weapons-26"
+              },
+              {
+                "name": "27",
+                "enabled": true,
+                "sprite": "Fit_56d8890f0bce78144a436be1f5346744_flat-weapons-27"
+              },
+              {
+                "name": "28",
+                "enabled": true,
+                "sprite": "Fit_2b4e71eec7f652148926569ec7205a04_flat-weapons-28"
+              },
+              {
+                "name": "29",
+                "enabled": true,
+                "sprite": "Fit_599c0af79e220f646bb55ee2f604980d_flat-weapons-29"
+              },
+              {
+                "name": "30",
+                "enabled": true,
+                "sprite": "Fit_256eb5242632aeb4f832755683df2a72_flat-weapons-30"
+              },
+              {
+                "name": "31",
+                "enabled": true,
+                "sprite": "Fit_58bb866801728804fa6fc34a874f4475_flat-weapons-31"
+              },
+              {
+                "name": "32",
+                "enabled": true,
+                "sprite": "Fit_32a69e332cce70d4197eccc2c07f0e2d_flat-weapons-32"
+              },
+              {
+                "name": "33",
+                "enabled": true,
+                "sprite": "Fit_bf2c7ed66e47a234ba8b13b42e9594e9_flat-weapons-33"
+              },
+              {
+                "name": "34",
+                "enabled": true,
+                "sprite": "Fit_261a2043ddc527641b42f7034059f592_flat-weapons-34"
+              },
+              {
+                "name": "35",
+                "enabled": true,
+                "sprite": "Fit_7d57971f2d9009a43ae975920d0e68b2_flat-weapons-35"
+              },
+              {
+                "name": "36",
+                "enabled": true,
+                "sprite": "Fit_b565b6812fabde44ab7d0ce2e485dce2_flat-weapons-36"
+              },
+              {
+                "name": "37",
+                "enabled": true,
+                "sprite": "Fit_0253b28a00cf11c468b4119a6fbd9790_flat-weapons-37"
+              },
+              {
+                "name": "38",
+                "enabled": true,
+                "sprite": "Fit_669bdad47c16b5941ac47f48310a83fc_flat-weapons-38"
+              },
+              {
+                "name": "39",
+                "enabled": true,
+                "sprite": "Fit_8d58974a20b7ac842b3da189a63be293_flat-weapons-39"
+              },
+              {
+                "name": "40",
+                "enabled": true,
+                "sprite": "Fit_60beb09587bf4e347aa0ae13ef8f8e01_flat-weapons-40"
+              },
+              {
+                "name": "41",
+                "enabled": true,
+                "sprite": "Fit_6b025adfcf22eaf4ca606d2f6a5fa52b_flat-weapons-41"
+              },
+              {
+                "name": "42",
+                "enabled": true,
+                "sprite": "Fit_3e0887213f1972d43bd8bcd9d8c19dbf_flat-weapons-42"
+              },
+              {
+                "name": "43",
+                "enabled": true,
+                "sprite": "Fit_75e9ad583cdff8f469dfef2c2b54c600_flat-weapons-43"
+              },
+              {
+                "name": "44",
+                "enabled": true,
+                "sprite": "Fit_667652908240bc54b9c9b9e4b9f821b9_flat-weapons-44"
+              },
+              {
+                "name": "45",
+                "enabled": true,
+                "sprite": "Fit_d782bee199be46549adfec3c50b1887a_flat-weapons-45"
+              },
+              {
+                "name": "46",
+                "enabled": true,
+                "sprite": "Fit_e88b9441cfe4add4c8b953765ef34fbf_flat-weapons-46"
+              },
+              {
+                "name": "47",
+                "enabled": true,
+                "sprite": "Fit_1435253b57846ae4293bbfb5c6be2546_flat-weapons-47"
+              },
+              {
+                "name": "48",
+                "enabled": true,
+                "sprite": "Fit_9b3041c235b46d847aa264f2b72efd08_flat-weapons-48"
+              },
+              {
+                "name": "49",
+                "enabled": true,
+                "sprite": "Fit_05d870e900543a4468f2ac7a383a52f9_flat-weapons-49"
+              },
+              {
+                "name": "50",
+                "enabled": true,
+                "sprite": "Fit_a79ef16e30fbd574fa643905967d807b_flat-weapons-50"
+              },
+              {
+                "name": "51",
+                "enabled": true,
+                "sprite": "Fit_07332a6a9dac3f14db7536123bc5db31_flat-weapons-51"
+              },
+              {
+                "name": "52",
+                "enabled": true,
+                "sprite": "Fit_ce781382f80f44e4bbe81f7c052126ef_flat-weapons-52"
+              },
+              {
+                "name": "53",
+                "enabled": true,
+                "sprite": "Fit_7e0184af19f5684429d33a1b62ef23d4_flat-weapons-53"
+              },
+              {
+                "name": "54",
+                "enabled": true,
+                "sprite": "Fit_a434ba27a40ce094b9e5e5480143cd43_flat-weapons-54"
+              },
+              {
+                "name": "55",
+                "enabled": true,
+                "sprite": "Fit_051624f055759b54b8db821902ee68cf_flat-weapons-55"
+              },
+              {
+                "name": "56",
+                "enabled": true,
+                "sprite": "Fit_6bdca42a6ddc8ec46ab19774b7dbc53a_flat-weapons-56"
+              },
+              {
+                "name": "57",
+                "enabled": true,
+                "sprite": "Fit_a1b39897072a75c4389af6b884b424fa_flat-weapons-57"
+              },
+              {
+                "name": "58",
+                "enabled": true,
+                "sprite": "Fit_cdaa0082a16b36d47b02bc7297fceb31_flat-weapons-58"
+              },
+              {
+                "name": "59",
+                "enabled": true,
+                "sprite": "Fit_294c04fc03ac7904fae927e197c87ab7_flat-weapons-59"
+              },
+              {
+                "name": "60",
+                "enabled": true,
+                "sprite": "Fit_1966bdbf5f274dd4f854d49d81bc78b4_flat-weapons-60"
+              },
+              {
+                "name": "61",
+                "enabled": true,
+                "sprite": "Fit_4643315b1eecb244db85222fc1395c35_flat-weapons-61"
+              },
+              {
+                "name": "62",
+                "enabled": true,
+                "sprite": "Fit_fa56b743e49ea564c94ad5f09a0a7bee_flat-weapons-62"
+              },
+              {
+                "name": "63",
+                "enabled": true,
+                "sprite": "Fit_330ee2932dc4cc1438313a9560b75ba1_flat-weapons-63"
+              },
+              {
+                "name": "64",
+                "enabled": true,
+                "sprite": "Fit_55a1c37d7bf571b439d15b761794c3ae_flat-weapons-64"
+              },
+              {
+                "name": "PenguinAvatar",
+                "enabled": true,
+                "sprite": "Penguin"
+              },
+              {
+                "name": "Shadow",
+                "enabled": true,
+                "sprite": "Fit_f86102348a8cb504d80a84221464173a_extras-shadow"
+              }
+            ]
+          },
+          {
+            "name": "Cat (1)",
+            "bind": true,
+            "renderers": [
+              {
+                "name": "Cat_Bone",
+                "enabled": false,
+                "sprite": "actions-skins-00"
+              },
+              {
+                "name": "Sprite",
+                "enabled": false,
+                "sprite": null
+              },
+              {
+                "name": "hand",
+                "enabled": false,
+                "sprite": null
+              },
+              {
+                "name": "hand_outlilne",
+                "enabled": false,
+                "sprite": null
+              },
+              {
+                "name": "0",
+                "enabled": true,
+                "sprite": "Fit_d52d64a0658a93941a0bf79ac6554407_flat-weapons-00"
+              },
+              {
+                "name": "1",
+                "enabled": true,
+                "sprite": "Fit_75213e749edc68d4993e98343af43bc0_flat-weapons-01"
+              },
+              {
+                "name": "2",
+                "enabled": true,
+                "sprite": "Fit_4f2c96fdfdd9d1644bd5b16926623a90_flat-weapons-02"
+              },
+              {
+                "name": "3",
+                "enabled": true,
+                "sprite": "Fit_f649dae8b0f7d4142ab6aa17f1899d61_flat-weapons-03"
+              },
+              {
+                "name": "4",
+                "enabled": true,
+                "sprite": "Fit_ae7115d408ce6a94694b1c1f3847b0de_flat-weapons-04"
+              },
+              {
+                "name": "5",
+                "enabled": true,
+                "sprite": "Fit_1a4dd32edf764f34ea0079b48c45bf7d_flat-weapons-05"
+              },
+              {
+                "name": "6",
+                "enabled": true,
+                "sprite": "Fit_317fd3fea25e3da4b993d4c27cd67392_flat-weapons-06"
+              },
+              {
+                "name": "7",
+                "enabled": true,
+                "sprite": "Fit_558d543fdac91d94a97ab7c352bdae05_flat-weapons-07"
+              },
+              {
+                "name": "8",
+                "enabled": true,
+                "sprite": "Fit_64fd5e1fa3849964c9d69f520bbc2367_flat-weapons-08"
+              },
+              {
+                "name": "9",
+                "enabled": true,
+                "sprite": "Fit_8fa348a481f597b4a8373dddcfd6e528_flat-weapons-09"
+              },
+              {
+                "name": "10",
+                "enabled": true,
+                "sprite": "Fit_d5f5affbf9dd2ec408b8bff2da6d4473_flat-weapons-10"
+              },
+              {
+                "name": "11",
+                "enabled": true,
+                "sprite": "Fit_17110a68c1fb8504b95693c43c726631_flat-weapons-11"
+              },
+              {
+                "name": "12",
+                "enabled": true,
+                "sprite": "Fit_9fccca69c53a1074c8cae9dcd7980e7c_flat-weapons-12"
+              },
+              {
+                "name": "13",
+                "enabled": true,
+                "sprite": "Fit_260494d26cf0bfb47b8db022e4d92b2b_flat-weapons-13"
+              },
+              {
+                "name": "14",
+                "enabled": true,
+                "sprite": "Fit_e382234cae83e5348bcdc43886b9fff9_flat-weapons-14"
+              },
+              {
+                "name": "15",
+                "enabled": true,
+                "sprite": "Fit_e2c55b3dbdc057a48a5ac43d91a29eca_flat-weapons-15"
+              },
+              {
+                "name": "16",
+                "enabled": true,
+                "sprite": "Fit_421293e96ce39b547a4f7b22b31c57d6_flat-weapons-16"
+              },
+              {
+                "name": "17",
+                "enabled": true,
+                "sprite": "Fit_61073e44363425847b595b2b9b7470a4_flat-weapons-17"
+              },
+              {
+                "name": "18",
+                "enabled": true,
+                "sprite": "Fit_cbc2c99043a7b424d87ecbedc6b8350c_flat-weapons-18"
+              },
+              {
+                "name": "19",
+                "enabled": true,
+                "sprite": "Fit_9188aba3d164fde4b92e29b3099e3779_flat-weapons-19"
+              },
+              {
+                "name": "20",
+                "enabled": true,
+                "sprite": "Fit_97511bbaa9c48904aa8cc0b68c011fd1_flat-weapons-20"
+              },
+              {
+                "name": "21",
+                "enabled": true,
+                "sprite": "Fit_f1e32ca8db4f5e84d8c418b62d5af1e6_flat-weapons-21"
+              },
+              {
+                "name": "22",
+                "enabled": true,
+                "sprite": "Fit_deb649799d46b9e4fa7922590d06cbe2_flat-weapons-22"
+              },
+              {
+                "name": "23",
+                "enabled": true,
+                "sprite": "Fit_eea06ee2058b26847a2fbd9cf8d90cd4_flat-weapons-23"
+              },
+              {
+                "name": "24",
+                "enabled": true,
+                "sprite": "Fit_573303cd5aca0af4db05f2e270819a2e_flat-weapons-24"
+              },
+              {
+                "name": "25",
+                "enabled": true,
+                "sprite": "Fit_b4d81e20c5f788b408cbae8de348c552_flat-weapons-25"
+              },
+              {
+                "name": "26",
+                "enabled": true,
+                "sprite": "Fit_7224e663731ce074183f05e526e9c8b6_flat-weapons-26"
+              },
+              {
+                "name": "27",
+                "enabled": true,
+                "sprite": "Fit_56d8890f0bce78144a436be1f5346744_flat-weapons-27"
+              },
+              {
+                "name": "28",
+                "enabled": true,
+                "sprite": "Fit_2b4e71eec7f652148926569ec7205a04_flat-weapons-28"
+              },
+              {
+                "name": "29",
+                "enabled": true,
+                "sprite": "Fit_599c0af79e220f646bb55ee2f604980d_flat-weapons-29"
+              },
+              {
+                "name": "30",
+                "enabled": true,
+                "sprite": "Fit_256eb5242632aeb4f832755683df2a72_flat-weapons-30"
+              },
+              {
+                "name": "31",
+                "enabled": true,
+                "sprite": "Fit_58bb866801728804fa6fc34a874f4475_flat-weapons-31"
+              },
+              {
+                "name": "32",
+                "enabled": true,
+                "sprite": "Fit_32a69e332cce70d4197eccc2c07f0e2d_flat-weapons-32"
+              },
+              {
+                "name": "33",
+                "enabled": true,
+                "sprite": "Fit_bf2c7ed66e47a234ba8b13b42e9594e9_flat-weapons-33"
+              },
+              {
+                "name": "34",
+                "enabled": true,
+                "sprite": "Fit_261a2043ddc527641b42f7034059f592_flat-weapons-34"
+              },
+              {
+                "name": "35",
+                "enabled": true,
+                "sprite": "Fit_7d57971f2d9009a43ae975920d0e68b2_flat-weapons-35"
+              },
+              {
+                "name": "36",
+                "enabled": true,
+                "sprite": "Fit_b565b6812fabde44ab7d0ce2e485dce2_flat-weapons-36"
+              },
+              {
+                "name": "37",
+                "enabled": true,
+                "sprite": "Fit_0253b28a00cf11c468b4119a6fbd9790_flat-weapons-37"
+              },
+              {
+                "name": "38",
+                "enabled": true,
+                "sprite": "Fit_669bdad47c16b5941ac47f48310a83fc_flat-weapons-38"
+              },
+              {
+                "name": "39",
+                "enabled": true,
+                "sprite": "Fit_8d58974a20b7ac842b3da189a63be293_flat-weapons-39"
+              },
+              {
+                "name": "40",
+                "enabled": true,
+                "sprite": "Fit_60beb09587bf4e347aa0ae13ef8f8e01_flat-weapons-40"
+              },
+              {
+                "name": "41",
+                "enabled": true,
+                "sprite": "Fit_6b025adfcf22eaf4ca606d2f6a5fa52b_flat-weapons-41"
+              },
+              {
+                "name": "42",
+                "enabled": true,
+                "sprite": "Fit_3e0887213f1972d43bd8bcd9d8c19dbf_flat-weapons-42"
+              },
+              {
+                "name": "43",
+                "enabled": true,
+                "sprite": "Fit_75e9ad583cdff8f469dfef2c2b54c600_flat-weapons-43"
+              },
+              {
+                "name": "44",
+                "enabled": true,
+                "sprite": "Fit_667652908240bc54b9c9b9e4b9f821b9_flat-weapons-44"
+              },
+              {
+                "name": "45",
+                "enabled": true,
+                "sprite": "Fit_d782bee199be46549adfec3c50b1887a_flat-weapons-45"
+              },
+              {
+                "name": "46",
+                "enabled": true,
+                "sprite": "Fit_e88b9441cfe4add4c8b953765ef34fbf_flat-weapons-46"
+              },
+              {
+                "name": "47",
+                "enabled": true,
+                "sprite": "Fit_1435253b57846ae4293bbfb5c6be2546_flat-weapons-47"
+              },
+              {
+                "name": "48",
+                "enabled": true,
+                "sprite": "Fit_9b3041c235b46d847aa264f2b72efd08_flat-weapons-48"
+              },
+              {
+                "name": "49",
+                "enabled": true,
+                "sprite": "Fit_05d870e900543a4468f2ac7a383a52f9_flat-weapons-49"
+              },
+              {
+                "name": "50",
+                "enabled": true,
+                "sprite": "Fit_a79ef16e30fbd574fa643905967d807b_flat-weapons-50"
+              },
+              {
+                "name": "51",
+                "enabled": true,
+                "sprite": "Fit_07332a6a9dac3f14db7536123bc5db31_flat-weapons-51"
+              },
+              {
+                "name": "52",
+                "enabled": true,
+                "sprite": "Fit_ce781382f80f44e4bbe81f7c052126ef_flat-weapons-52"
+              },
+              {
+                "name": "53",
+                "enabled": true,
+                "sprite": "Fit_7e0184af19f5684429d33a1b62ef23d4_flat-weapons-53"
+              },
+              {
+                "name": "54",
+                "enabled": true,
+                "sprite": "Fit_a434ba27a40ce094b9e5e5480143cd43_flat-weapons-54"
+              },
+              {
+                "name": "55",
+                "enabled": true,
+                "sprite": "Fit_051624f055759b54b8db821902ee68cf_flat-weapons-55"
+              },
+              {
+                "name": "56",
+                "enabled": true,
+                "sprite": "Fit_6bdca42a6ddc8ec46ab19774b7dbc53a_flat-weapons-56"
+              },
+              {
+                "name": "57",
+                "enabled": true,
+                "sprite": "Fit_a1b39897072a75c4389af6b884b424fa_flat-weapons-57"
+              },
+              {
+                "name": "58",
+                "enabled": true,
+                "sprite": "Fit_cdaa0082a16b36d47b02bc7297fceb31_flat-weapons-58"
+              },
+              {
+                "name": "59",
+                "enabled": true,
+                "sprite": "Fit_294c04fc03ac7904fae927e197c87ab7_flat-weapons-59"
+              },
+              {
+                "name": "60",
+                "enabled": true,
+                "sprite": "Fit_1966bdbf5f274dd4f854d49d81bc78b4_flat-weapons-60"
+              },
+              {
+                "name": "61",
+                "enabled": true,
+                "sprite": "Fit_4643315b1eecb244db85222fc1395c35_flat-weapons-61"
+              },
+              {
+                "name": "62",
+                "enabled": true,
+                "sprite": "Fit_fa56b743e49ea564c94ad5f09a0a7bee_flat-weapons-62"
+              },
+              {
+                "name": "63",
+                "enabled": true,
+                "sprite": "Fit_330ee2932dc4cc1438313a9560b75ba1_flat-weapons-63"
+              },
+              {
+                "name": "64",
+                "enabled": true,
+                "sprite": "Fit_55a1c37d7bf571b439d15b761794c3ae_flat-weapons-64"
+              },
+              {
+                "name": "PenguinAvatar",
+                "enabled": true,
+                "sprite": "Penguin"
+              },
+              {
+                "name": "Shadow",
+                "enabled": true,
+                "sprite": "Fit_f86102348a8cb504d80a84221464173a_extras-shadow"
+              }
+            ]
+          },
+          {
+            "name": "Cat (2)",
+            "bind": true,
+            "renderers": [
+              {
+                "name": "Cat_Bone",
+                "enabled": false,
+                "sprite": "actions-skins-00"
+              },
+              {
+                "name": "Sprite",
+                "enabled": false,
+                "sprite": null
+              },
+              {
+                "name": "hand",
+                "enabled": false,
+                "sprite": null
+              },
+              {
+                "name": "hand_outlilne",
+                "enabled": false,
+                "sprite": null
+              },
+              {
+                "name": "0",
+                "enabled": true,
+                "sprite": "Fit_d52d64a0658a93941a0bf79ac6554407_flat-weapons-00"
+              },
+              {
+                "name": "1",
+                "enabled": true,
+                "sprite": "Fit_75213e749edc68d4993e98343af43bc0_flat-weapons-01"
+              },
+              {
+                "name": "2",
+                "enabled": true,
+                "sprite": "Fit_4f2c96fdfdd9d1644bd5b16926623a90_flat-weapons-02"
+              },
+              {
+                "name": "3",
+                "enabled": true,
+                "sprite": "Fit_f649dae8b0f7d4142ab6aa17f1899d61_flat-weapons-03"
+              },
+              {
+                "name": "4",
+                "enabled": true,
+                "sprite": "Fit_ae7115d408ce6a94694b1c1f3847b0de_flat-weapons-04"
+              },
+              {
+                "name": "5",
+                "enabled": true,
+                "sprite": "Fit_1a4dd32edf764f34ea0079b48c45bf7d_flat-weapons-05"
+              },
+              {
+                "name": "6",
+                "enabled": true,
+                "sprite": "Fit_317fd3fea25e3da4b993d4c27cd67392_flat-weapons-06"
+              },
+              {
+                "name": "7",
+                "enabled": true,
+                "sprite": "Fit_558d543fdac91d94a97ab7c352bdae05_flat-weapons-07"
+              },
+              {
+                "name": "8",
+                "enabled": true,
+                "sprite": "Fit_64fd5e1fa3849964c9d69f520bbc2367_flat-weapons-08"
+              },
+              {
+                "name": "9",
+                "enabled": true,
+                "sprite": "Fit_8fa348a481f597b4a8373dddcfd6e528_flat-weapons-09"
+              },
+              {
+                "name": "10",
+                "enabled": true,
+                "sprite": "Fit_d5f5affbf9dd2ec408b8bff2da6d4473_flat-weapons-10"
+              },
+              {
+                "name": "11",
+                "enabled": true,
+                "sprite": "Fit_17110a68c1fb8504b95693c43c726631_flat-weapons-11"
+              },
+              {
+                "name": "12",
+                "enabled": true,
+                "sprite": "Fit_9fccca69c53a1074c8cae9dcd7980e7c_flat-weapons-12"
+              },
+              {
+                "name": "13",
+                "enabled": true,
+                "sprite": "Fit_260494d26cf0bfb47b8db022e4d92b2b_flat-weapons-13"
+              },
+              {
+                "name": "14",
+                "enabled": true,
+                "sprite": "Fit_e382234cae83e5348bcdc43886b9fff9_flat-weapons-14"
+              },
+              {
+                "name": "15",
+                "enabled": true,
+                "sprite": "Fit_e2c55b3dbdc057a48a5ac43d91a29eca_flat-weapons-15"
+              },
+              {
+                "name": "16",
+                "enabled": true,
+                "sprite": "Fit_421293e96ce39b547a4f7b22b31c57d6_flat-weapons-16"
+              },
+              {
+                "name": "17",
+                "enabled": true,
+                "sprite": "Fit_61073e44363425847b595b2b9b7470a4_flat-weapons-17"
+              },
+              {
+                "name": "18",
+                "enabled": true,
+                "sprite": "Fit_cbc2c99043a7b424d87ecbedc6b8350c_flat-weapons-18"
+              },
+              {
+                "name": "19",
+                "enabled": true,
+                "sprite": "Fit_9188aba3d164fde4b92e29b3099e3779_flat-weapons-19"
+              },
+              {
+                "name": "20",
+                "enabled": true,
+                "sprite": "Fit_97511bbaa9c48904aa8cc0b68c011fd1_flat-weapons-20"
+              },
+              {
+                "name": "21",
+                "enabled": true,
+                "sprite": "Fit_f1e32ca8db4f5e84d8c418b62d5af1e6_flat-weapons-21"
+              },
+              {
+                "name": "22",
+                "enabled": true,
+                "sprite": "Fit_deb649799d46b9e4fa7922590d06cbe2_flat-weapons-22"
+              },
+              {
+                "name": "23",
+                "enabled": true,
+                "sprite": "Fit_eea06ee2058b26847a2fbd9cf8d90cd4_flat-weapons-23"
+              },
+              {
+                "name": "24",
+                "enabled": true,
+                "sprite": "Fit_573303cd5aca0af4db05f2e270819a2e_flat-weapons-24"
+              },
+              {
+                "name": "25",
+                "enabled": true,
+                "sprite": "Fit_b4d81e20c5f788b408cbae8de348c552_flat-weapons-25"
+              },
+              {
+                "name": "26",
+                "enabled": true,
+                "sprite": "Fit_7224e663731ce074183f05e526e9c8b6_flat-weapons-26"
+              },
+              {
+                "name": "27",
+                "enabled": true,
+                "sprite": "Fit_56d8890f0bce78144a436be1f5346744_flat-weapons-27"
+              },
+              {
+                "name": "28",
+                "enabled": true,
+                "sprite": "Fit_2b4e71eec7f652148926569ec7205a04_flat-weapons-28"
+              },
+              {
+                "name": "29",
+                "enabled": true,
+                "sprite": "Fit_599c0af79e220f646bb55ee2f604980d_flat-weapons-29"
+              },
+              {
+                "name": "30",
+                "enabled": true,
+                "sprite": "Fit_256eb5242632aeb4f832755683df2a72_flat-weapons-30"
+              },
+              {
+                "name": "31",
+                "enabled": true,
+                "sprite": "Fit_58bb866801728804fa6fc34a874f4475_flat-weapons-31"
+              },
+              {
+                "name": "32",
+                "enabled": true,
+                "sprite": "Fit_32a69e332cce70d4197eccc2c07f0e2d_flat-weapons-32"
+              },
+              {
+                "name": "33",
+                "enabled": true,
+                "sprite": "Fit_bf2c7ed66e47a234ba8b13b42e9594e9_flat-weapons-33"
+              },
+              {
+                "name": "34",
+                "enabled": true,
+                "sprite": "Fit_261a2043ddc527641b42f7034059f592_flat-weapons-34"
+              },
+              {
+                "name": "35",
+                "enabled": true,
+                "sprite": "Fit_7d57971f2d9009a43ae975920d0e68b2_flat-weapons-35"
+              },
+              {
+                "name": "36",
+                "enabled": true,
+                "sprite": "Fit_b565b6812fabde44ab7d0ce2e485dce2_flat-weapons-36"
+              },
+              {
+                "name": "37",
+                "enabled": true,
+                "sprite": "Fit_0253b28a00cf11c468b4119a6fbd9790_flat-weapons-37"
+              },
+              {
+                "name": "38",
+                "enabled": true,
+                "sprite": "Fit_669bdad47c16b5941ac47f48310a83fc_flat-weapons-38"
+              },
+              {
+                "name": "39",
+                "enabled": true,
+                "sprite": "Fit_8d58974a20b7ac842b3da189a63be293_flat-weapons-39"
+              },
+              {
+                "name": "40",
+                "enabled": true,
+                "sprite": "Fit_60beb09587bf4e347aa0ae13ef8f8e01_flat-weapons-40"
+              },
+              {
+                "name": "41",
+                "enabled": true,
+                "sprite": "Fit_6b025adfcf22eaf4ca606d2f6a5fa52b_flat-weapons-41"
+              },
+              {
+                "name": "42",
+                "enabled": true,
+                "sprite": "Fit_3e0887213f1972d43bd8bcd9d8c19dbf_flat-weapons-42"
+              },
+              {
+                "name": "43",
+                "enabled": true,
+                "sprite": "Fit_75e9ad583cdff8f469dfef2c2b54c600_flat-weapons-43"
+              },
+              {
+                "name": "44",
+                "enabled": true,
+                "sprite": "Fit_667652908240bc54b9c9b9e4b9f821b9_flat-weapons-44"
+              },
+              {
+                "name": "45",
+                "enabled": true,
+                "sprite": "Fit_d782bee199be46549adfec3c50b1887a_flat-weapons-45"
+              },
+              {
+                "name": "46",
+                "enabled": true,
+                "sprite": "Fit_e88b9441cfe4add4c8b953765ef34fbf_flat-weapons-46"
+              },
+              {
+                "name": "47",
+                "enabled": true,
+                "sprite": "Fit_1435253b57846ae4293bbfb5c6be2546_flat-weapons-47"
+              },
+              {
+                "name": "48",
+                "enabled": true,
+                "sprite": "Fit_9b3041c235b46d847aa264f2b72efd08_flat-weapons-48"
+              },
+              {
+                "name": "49",
+                "enabled": true,
+                "sprite": "Fit_05d870e900543a4468f2ac7a383a52f9_flat-weapons-49"
+              },
+              {
+                "name": "50",
+                "enabled": true,
+                "sprite": "Fit_a79ef16e30fbd574fa643905967d807b_flat-weapons-50"
+              },
+              {
+                "name": "51",
+                "enabled": true,
+                "sprite": "Fit_07332a6a9dac3f14db7536123bc5db31_flat-weapons-51"
+              },
+              {
+                "name": "52",
+                "enabled": true,
+                "sprite": "Fit_ce781382f80f44e4bbe81f7c052126ef_flat-weapons-52"
+              },
+              {
+                "name": "53",
+                "enabled": true,
+                "sprite": "Fit_7e0184af19f5684429d33a1b62ef23d4_flat-weapons-53"
+              },
+              {
+                "name": "54",
+                "enabled": true,
+                "sprite": "Fit_a434ba27a40ce094b9e5e5480143cd43_flat-weapons-54"
+              },
+              {
+                "name": "55",
+                "enabled": true,
+                "sprite": "Fit_051624f055759b54b8db821902ee68cf_flat-weapons-55"
+              },
+              {
+                "name": "56",
+                "enabled": true,
+                "sprite": "Fit_6bdca42a6ddc8ec46ab19774b7dbc53a_flat-weapons-56"
+              },
+              {
+                "name": "57",
+                "enabled": true,
+                "sprite": "Fit_a1b39897072a75c4389af6b884b424fa_flat-weapons-57"
+              },
+              {
+                "name": "58",
+                "enabled": true,
+                "sprite": "Fit_cdaa0082a16b36d47b02bc7297fceb31_flat-weapons-58"
+              },
+              {
+                "name": "59",
+                "enabled": true,
+                "sprite": "Fit_294c04fc03ac7904fae927e197c87ab7_flat-weapons-59"
+              },
+              {
+                "name": "60",
+                "enabled": true,
+                "sprite": "Fit_1966bdbf5f274dd4f854d49d81bc78b4_flat-weapons-60"
+              },
+              {
+                "name": "61",
+                "enabled": true,
+                "sprite": "Fit_4643315b1eecb244db85222fc1395c35_flat-weapons-61"
+              },
+              {
+                "name": "62",
+                "enabled": true,
+                "sprite": "Fit_fa56b743e49ea564c94ad5f09a0a7bee_flat-weapons-62"
+              },
+              {
+                "name": "63",
+                "enabled": true,
+                "sprite": "Fit_330ee2932dc4cc1438313a9560b75ba1_flat-weapons-63"
+              },
+              {
+                "name": "64",
+                "enabled": true,
+                "sprite": "Fit_55a1c37d7bf571b439d15b761794c3ae_flat-weapons-64"
+              },
+              {
+                "name": "PenguinAvatar",
+                "enabled": true,
+                "sprite": "Penguin"
+              },
+              {
+                "name": "Shadow",
+                "enabled": true,
+                "sprite": "Fit_f86102348a8cb504d80a84221464173a_extras-shadow"
+              }
+            ]
+          }
+        ],
+        "trees": [
+          "Ice0",
+          "Ice1",
+          "Ice2",
+          "Ice3"
+        ],
+        "glyphs": [
+          "Assets/Game/PenguinFlatCatalogue/FlatGlyph0Texture.asset",
+          "Assets/Game/PenguinFlatCatalogue/FlatGlyph1Texture.asset",
+          "Assets/Game/PenguinFlatCatalogue/FlatGlyph2Texture.asset",
+          "Assets/Game/PenguinModeUIV2/PetBaitAtlas.asset",
+          "Assets/Game/PenguinFlatCatalogue/FlatGlyph4Texture.asset"
+        ]
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

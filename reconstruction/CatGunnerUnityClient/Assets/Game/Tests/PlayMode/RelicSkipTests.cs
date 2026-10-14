@@ -81,12 +81,12 @@ public sealed class RelicSkipFlowTests
     }
     private IEnumerator Load()
     {
-        yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;
+        yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;
         client=GameClient.Instance;
     }
     [UnityTearDown] public IEnumerator Teardown()
     {
-        yield return SceneManager.LoadSceneAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;
+        yield return TestSceneLoader.LoadAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;
         if(Directory.Exists(folder))Directory.Delete(folder,true);
         Time.timeScale=1;Application.runInBackground=background;
     }
@@ -128,7 +128,7 @@ public sealed class RelicSkipFlowTests
     {
         UnlockSkip();client.GameWin();client.SaveNow();var expected=client.State.Money.Value;int mission=client.State.Mission_StageClear_Value;
         var saved=new SaveArchive(folder).Load();Assert.That((saved.Stage_Now,saved.Level_Now,saved.Stage_Value_Max),Is.EqualTo((0,2,100)));
-        yield return SceneManager.LoadSceneAsync("TargetPreview");yield return Load();
+        yield return TestSceneLoader.LoadAsync("TargetPreview");yield return Load();
         Assert.That((client.Forest.Stage_Now,client.Forest.Level_Now,client.Forest.Stage_Value_Max),Is.EqualTo((0,2,100)));
         Assert.That(client.Forest.GameSkip_UI.activeSelf,Is.False);Assert.That(client.State.Mission_StageClear_Value,Is.EqualTo(mission));
         Assert.That(client.State.Money.Value.CompareTo(expected),Is.Zero);Assert.That(Relic_manager.Skip_Value,Is.EqualTo(102));

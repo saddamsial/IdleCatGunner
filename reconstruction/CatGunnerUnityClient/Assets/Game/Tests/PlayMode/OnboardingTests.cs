@@ -22,8 +22,8 @@ public sealed class OnboardingTests
         if(isolate)foreach(var cat in c.Team.Cat_list){var combat=cat.GetComponent<ForestCombatAcceptance>();if(combat!=null)combat.enabled=false;var movement=cat.GetComponent<ForestMovementAcceptance>();if(movement!=null)movement.enabled=false;}
     }
     [SetUp] public void Setup(){folder=Path.Combine(Path.GetTempPath(),"catgunner-onboarding-"+Guid.NewGuid().ToString("N"));Time.timeScale=1;SceneManager.sceneLoaded+=Independent;}
-    [UnityTearDown] public IEnumerator Cleanup(){SceneManager.sceneLoaded-=Independent;yield return SceneManager.LoadSceneAsync("TargetPreview");if(Directory.Exists(folder))Directory.Delete(folder,true);Time.timeScale=1;isolate=true;}
-    private IEnumerator Load(){yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready(false);}
+    [UnityTearDown] public IEnumerator Cleanup(){SceneManager.sceneLoaded-=Independent;yield return TestSceneLoader.LoadAsync("TargetPreview");if(Directory.Exists(folder))Directory.Delete(folder,true);Time.timeScale=1;isolate=true;}
+    private IEnumerator Load(){yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready(false);}
     private static void Click(Button b)
     {
         Canvas.ForceUpdateCanvases();var rect=(RectTransform)b.transform;var evt=new PointerEventData(EventSystem.current){position=RectTransformUtility.WorldToScreenPoint(null,rect.TransformPoint(rect.rect.center))};var hits=new List<RaycastResult>();EventSystem.current.RaycastAll(evt,hits);
@@ -80,7 +80,7 @@ public sealed class OnboardingTests
         foreach(bool cleared in new[]{true,false})
         {
             var state=new SaveData{TutorialCleared=cleared,Upgrade_Lv=new[]{cleared?0:1,0,0},Selected_items=(int[])equipment.Selected_items.Clone(),Gun_Collect=(bool[])equipment.Gun_Collect.Clone(),Star_Slot_Lv=new int[3],Dia=17};archive.AllowSave();archive.Save(state);
-            yield return Load();var c=GameClient.Instance;Assert.That(c.Tutorial.CurrentStep,Is.EqualTo(TutorialStep.Done));Assert.That(c.Tutorial.gameObject.activeSelf,Is.False);Assert.That(c.State.Dia,Is.EqualTo(17));Assert.That(c.State._getDia,Is.Zero);c.SaveNow();Assert.That(archive.Load().TutorialCleared,Is.True);yield return SceneManager.LoadSceneAsync("TargetPreview");
+            yield return Load();var c=GameClient.Instance;Assert.That(c.Tutorial.CurrentStep,Is.EqualTo(TutorialStep.Done));Assert.That(c.Tutorial.gameObject.activeSelf,Is.False);Assert.That(c.State.Dia,Is.EqualTo(17));Assert.That(c.State._getDia,Is.Zero);c.SaveNow();Assert.That(archive.Load().TutorialCleared,Is.True);yield return TestSceneLoader.LoadAsync("TargetPreview");
         }
     }
     [UnityTest] public IEnumerator RequestNoopAndSetClearedStopAllHandLoopsAndCaptureOnlyOnSave()

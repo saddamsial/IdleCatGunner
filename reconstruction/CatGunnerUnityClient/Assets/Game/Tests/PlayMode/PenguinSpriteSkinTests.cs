@@ -11,6 +11,7 @@ using UnityEngine.U2D;
 using UnityEngine.U2D.Animation;
 
 [Category("PenguinSkinningRegression")]
+[Category("AndroidReleasePreparation")]
 public sealed class PenguinSpriteSkinTests
 {
     private string folder;
@@ -25,7 +26,7 @@ public sealed class PenguinSpriteSkinTests
         Time.timeScale = 1;
         folder = Path.Combine(Application.temporaryCachePath, "PenguinSpriteSkin-" + Guid.NewGuid().ToString("N"));
         SceneManager.sceneLoaded += Isolate;
-        yield return SceneManager.LoadSceneAsync("GameClient");
+        yield return TestSceneLoader.LoadAsync("GameClient");
         yield return ClientStartupWait.Ready();
         client = GameClient.Instance;
         client.DailyLogin.AutoShow = false;
@@ -36,7 +37,7 @@ public sealed class PenguinSpriteSkinTests
     [UnityTearDown] public IEnumerator Cleanup()
     {
         Time.timeScale = 1;
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
         SceneManager.sceneLoaded -= Isolate;
         if (Directory.Exists(folder)) Directory.Delete(folder, true);
     }

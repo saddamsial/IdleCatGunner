@@ -29,6 +29,7 @@ internal static class ClientStartupWait
 }
 
 [Category("SceneArchitecture")]
+[Category("AndroidReleasePreparation")]
 public sealed class StartupTests
 {
     private string folder;
@@ -48,7 +49,7 @@ public sealed class StartupTests
     [UnityTearDown] public IEnumerator TearDown()
     {
         SceneManager.sceneLoaded-=Independent;
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
         if(Directory.Exists(folder))Directory.Delete(folder,true);
         Time.timeScale=1;
     }
@@ -77,7 +78,7 @@ public sealed class StartupTests
         string checkpoint=Path.GetFullPath(Path.Combine(Application.dataPath,"../../../reverse/com.Chodun.CatGunner/1.1.61-vc257/checkpoints/pre-startup-legacy-raid-fix/NoSaveFile.json"));
         Directory.CreateDirectory(folder);var archive=new SaveArchive(folder);File.Copy(checkpoint,archive.MainPath);
         var before=archive.Load();Assert.That(before.Raid_Best_Level_ByType.Length,Is.Zero);
-        yield return SceneManager.LoadSceneAsync("GameClient");
+        yield return TestSceneLoader.LoadAsync("GameClient");
         var c=GameClient.Instance;
         Assert.That(c.IsStarting,Is.True);Assert.That(c.ReadyForPlay,Is.False);
         Assert.That(c.LoadingUI.activeInHierarchy,Is.True);Assert.That(c.Forest.Map_obj.activeSelf,Is.False);
@@ -109,7 +110,7 @@ public sealed class StartupTests
         ScreenCapture.CaptureScreenshot(ReportPath("visual/playtest-fixes-startup-auto-combat-gpu.png"));
         c.SaveNow();string savedText=File.ReadAllText(archive.MainPath);var saved=archive.Load();
         File.WriteAllText(ReportPath("playtest-fixes-startup-legacy-profile-observation.json"),JsonUtility.ToJson(new Observation{moved=moved,treesBefore=count,treesAfter=c.Forest.TreeCount_Now,raidArrayLength=c.State.Raid_Best_Level_ByType.Length,stage=c.Forest.Stage_Now,wave=c.Forest.Level_Now,zeroInput=true},true));
-        yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();
+        yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();
         c=GameClient.Instance;
         Assert.That(c.State.Money.Value.CompareTo(saved.Money.Value),Is.Zero);Assert.That(c.State.Selected_items,Is.EqualTo(saved.Selected_items));
         Assert.That(c.State.Raid_Best_Level_ByType,Is.EqualTo(saved.Raid_Best_Level_ByType));
@@ -125,7 +126,7 @@ public sealed class StartupTests
         var legacy=SaveArchive.Decode(File.ReadAllText(Path.GetFullPath(Path.Combine(Application.dataPath,"../../../reverse/com.Chodun.CatGunner/1.1.61-vc257/checkpoints/pre-startup-legacy-raid-fix/NoSaveFile.json"))));
         legacy.Raid_Free_Use_Count=3;var archive=new SaveArchive(folder);archive.AllowSave();archive.Save(legacy);archive.Save(legacy);
         string main=File.ReadAllText(archive.MainPath),backup=File.ReadAllText(archive.BackupPath);disableStartup=true;
-        yield return SceneManager.LoadSceneAsync("GameClient");var c=GameClient.Instance;
+        yield return TestSceneLoader.LoadAsync("GameClient");var c=GameClient.Instance;
         Assert.Throws<InvalidOperationException>(()=>c.Initialize());c.SaveNow();
         yield return new WaitForSecondsRealtime(5.2f);
         Assert.That(c.ReadyForPlay,Is.False);Assert.That(c.RaidMode.Bound,Is.False);Assert.That(ForestRuntimeAcceptance.IsGaming,Is.False);

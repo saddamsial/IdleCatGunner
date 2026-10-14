@@ -53,7 +53,7 @@ public sealed class SkinTests
         SceneManager.sceneLoaded+=Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var m=c.Skins;var p=m.skin_info_ui;
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var m=c.Skins;var p=m.skin_info_ui;
             Assert.That(m.Skin_item_list.Length,Is.EqualTo(25));Assert.That(c.Team.Cat_list.All(cat=>cat.skin_spriteRenderer.sprite==m.Skin_Bone_sprites[0]),Is.True);
             Click(UnityEngine.Object.FindObjectsByType<Button>(FindObjectsInactive.Include).Single(b=>b.name=="Skin_Btn"));yield return new WaitForSeconds(.4f);
             Assert.That(m.Skin_List_UI.activeInHierarchy,Is.True);Click(m.Skin_item_list[1].GetComponent<Button>());yield return new WaitForSeconds(.4f);
@@ -72,7 +72,7 @@ public sealed class SkinTests
             ScreenCapture.CaptureScreenshot(Path.Combine(Reports,"visual/skin-world-test-gpu.png"));yield return new WaitForSeconds(.2f);
         }
         finally{SceneManager.sceneLoaded-=Independent;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     [UnityTest] public IEnumerator IndependentProfileReloadRebirthAndRaidPreserveOwnershipSelectionAndCumulativeBonus()
     {
@@ -81,8 +81,8 @@ public sealed class SkinTests
         SceneManager.sceneLoaded+=isolated;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;c.State.Dia=300;Assert.That(c.Skins.Purchase(1)&&c.Skins.Purchase(2)&&c.Skins.Select(2),Is.True);c.Skins.skin_info_ui.Close();c.Skins.Skin_List_UI.SetActive(false);c.SaveNow();
-            yield return SceneManager.LoadSceneAsync("TargetPreview");yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;c=GameClient.Instance;
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;c.State.Dia=300;Assert.That(c.Skins.Purchase(1)&&c.Skins.Purchase(2)&&c.Skins.Select(2),Is.True);c.Skins.skin_info_ui.Close();c.Skins.Skin_List_UI.SetActive(false);c.SaveNow();
+            yield return TestSceneLoader.LoadAsync("TargetPreview");yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;c=GameClient.Instance;
             Assert.That(c.SaveFolderOverride,Is.EqualTo(folder));Assert.That((c.Skins.Selected_num,c.State.Dia,c.State._useDia),Is.EqualTo((2,0,900)));Assert.That(c.State.Skin_Unlock.Count(x=>x),Is.EqualTo(3));Assert.That(c.Hero.Damage_str,Is.EqualTo("148"));
             c.Forest.Stage_Now=2;Assert.That(c.RebirthNow(),Is.True);Assert.That(c.Skins.Selected_num,Is.EqualTo(2));Assert.That(c.Hero.Damage_str,Is.EqualTo("148"));
             var raid=c.RaidMode;raid.Now=()=>new DateTime(2024,1,1);c.State.Owned_Gun_list[0]=30;raid.Panel_Open();raid.Gun_UnSelect(1);
@@ -92,7 +92,7 @@ public sealed class SkinTests
             Assert.That(c.Mode,Is.Zero);Assert.That(c.Hero.Damage_str,Is.EqualTo("148"));Assert.That(c.Skins.Selected_num,Is.EqualTo(2));c.Persist=false;
         }
         finally{SceneManager.sceneLoaded-=isolated;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");Directory.Delete(folder,true);
+        yield return TestSceneLoader.LoadAsync("TargetPreview");Directory.Delete(folder,true);
     }
     [Serializable] private sealed class Observation {public int hits,skinPurchased,skinSelected;public string damage,reward,wallet,fixture;public bool critical;public float cooldownBefore,cooldownAfter;}
     [UnityTest] public IEnumerator PurchasedSkinChangesNaturalProjectilesCooldownAndOriginalTreeWalletReward()
@@ -100,7 +100,7 @@ public sealed class SkinTests
         SceneManager.sceneLoaded+=Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;float before=c.Hero.AtkCool_Max;c.State.Dia=100;Assert.That(c.Skins.Purchase(1),Is.True);c.Skins.skin_info_ui.Close();c.Skins.Skin_List_UI.SetActive(false);
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;float before=c.Hero.AtkCool_Max;c.State.Dia=100;Assert.That(c.Skins.Purchase(1),Is.True);c.Skins.skin_info_ui.Close();c.Skins.Skin_List_UI.SetActive(false);
             Assert.That(c.Hero.Damage_str,Is.EqualTo("116"));Assert.That(c.Hero.AtkCool_Max,Is.EqualTo(before*100/110).Within(.0001f));
             var trees=c.Forest.Map_obj.GetComponentsInChildren<Tree>(false);var tree=trees.First(t=>t!=c.Forest.Boss_tree&&t.enemy.Health_Max.Value.CompareTo(new DecimalAmount(250))==0);
             foreach(var t in trees)if(t!=tree)t.gameObject.SetActive(false);tree.transform.position=c.Hero.transform.position+new Vector3(0,0,12);Physics.SyncTransforms();c.Hero.ClearNearObj();c.Hero.ClearAutoTarget();
@@ -115,6 +115,6 @@ public sealed class SkinTests
             finally{ForestDamageDispatch.DamageTextPending-=observed;}
         }
         finally{SceneManager.sceneLoaded-=Independent;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
 }

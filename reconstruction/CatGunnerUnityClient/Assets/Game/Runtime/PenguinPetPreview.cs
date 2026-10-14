@@ -6,7 +6,7 @@ namespace CatGunner.Runtime
     {
         private Pet_Dummy owner;private Sprite[] sprites;private Camera camera;private Renderer[] originals;private SpriteRenderer visual;private float age;
         public void Configure(Pet_Dummy dummy,Sprite[] catalogue,Camera previewCamera,Renderer[] hidden)
-        {owner=dummy;sprites=catalogue;camera=previewCamera;originals=hidden;visual=gameObject.AddComponent<SpriteRenderer>();visual.sortingOrder=8;}
+        {owner=dummy;sprites=catalogue;camera=previewCamera;originals=hidden;visual=gameObject.GetComponent<SpriteRenderer>()??gameObject.AddComponent<SpriteRenderer>();visual.sortingOrder=8;}
         private void LateUpdate()
         {
             if(owner==null||camera==null)return;foreach(var r in originals)if(r!=null)r.enabled=false;

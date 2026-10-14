@@ -25,7 +25,7 @@ public sealed class PenguinFeedbackTests
         background = Application.runInBackground; Application.runInBackground = true; Time.timeScale = 1;
         folder = Path.Combine(Application.temporaryCachePath, "PenguinFeedback-" + Guid.NewGuid().ToString("N"));
         SceneManager.sceneLoaded += Isolate;
-        yield return SceneManager.LoadSceneAsync("GameClient"); yield return ClientStartupWait.Ready(); yield return null;
+        yield return TestSceneLoader.LoadAsync("GameClient"); yield return ClientStartupWait.Ready(); yield return null;
         client = GameClient.Instance; canvas = client.Slider.GetComponentInParent<Canvas>();
         client.DailyLogin.Close(); client.Tutorial.SetCleared(); ForestRuntimeAcceptance.IsGaming = false;
         Setting.instance.PersistPreferences = false; Setting.instance.is_SFX_Mute = false;
@@ -34,7 +34,7 @@ public sealed class PenguinFeedbackTests
     {
         if (EventSystem.current != null) EventSystem.current.GetComponent<StandaloneInputModule>().inputOverride = null;
         Time.timeScale = 1;
-        yield return SceneManager.LoadSceneAsync("TargetPreview"); SceneManager.sceneLoaded -= Isolate;
+        yield return TestSceneLoader.LoadAsync("TargetPreview"); SceneManager.sceneLoaded -= Isolate;
         if (Directory.Exists(folder)) Directory.Delete(folder, true);
         if (hadSetting) PlayerPrefs.SetString(SettingKey, savedSetting); else PlayerPrefs.DeleteKey(SettingKey); PlayerPrefs.Save();
         Application.runInBackground = background;

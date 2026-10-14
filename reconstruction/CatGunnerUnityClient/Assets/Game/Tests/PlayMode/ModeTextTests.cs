@@ -25,11 +25,11 @@ public sealed class ModeTextTests
     {
         background=Application.runInBackground;Application.runInBackground=true;
         folder=Path.Combine(Application.temporaryCachePath,"ModeText-"+Guid.NewGuid().ToString("N"));SceneManager.sceneLoaded+=Configure;
-        yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();c=GameClient.Instance;
+        yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();c=GameClient.Instance;
         c.DailyLogin.Close();c.Tutorial.SetCleared();ForestRuntimeAcceptance.IsGaming=false;
     }
     [UnityTearDown] public IEnumerator Cleanup()
-    {Time.timeScale=1;yield return SceneManager.LoadSceneAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;Application.runInBackground=background;if(Directory.Exists(folder))Directory.Delete(folder,true);}
+    {Time.timeScale=1;yield return TestSceneLoader.LoadAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;Application.runInBackground=background;if(Directory.Exists(folder))Directory.Delete(folder,true);}
     void AssertLabels()
     {
         Assert.That(Data.Rows.Length,Is.EqualTo(71));Assert.That(Data.Rows.Select(r=>Data.Resolve(CanvasRoot,r)).Distinct().Count(),Is.EqualTo(71));
@@ -134,7 +134,7 @@ public sealed class ModeTextTests
         Assert.That(c.Hero.joystick.Direction,Is.EqualTo(Vector2.zero));AssertLabels();Visible(mode.GameWin_UI.transform);yield return Capture("speedrun-win",mode.GameWin_UI.transform);
         Assert.That(mode.Bonus_Btn_obj.GetComponentsInChildren<TMP_Text>().Any(t=>t.text=="领取"),Is.True);yield return Click(mode.Bonus_Btn_obj.GetComponent<Button>());
         yield return new WaitForSecondsRealtime(1.8f);Assert.That(c.Mode,Is.Zero);Assert.That(c.State.Dia,Is.EqualTo(dia+120));Assert.That(c.RewardedAds.CompletedWatches,Is.EqualTo(1));Assert.That(c.Forest.Stage_Now,Is.EqualTo(forest));
-        c.SaveNow();yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();c=GameClient.Instance;c.DailyLogin.Close();c.Tutorial.SetCleared();ForestRuntimeAcceptance.IsGaming=false;
+        c.SaveNow();yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();c=GameClient.Instance;c.DailyLogin.Close();c.Tutorial.SetCleared();ForestRuntimeAcceptance.IsGaming=false;
         AssertLabels();Assert.That(c.State.Dia,Is.EqualTo(dia+120));Assert.That(c.State.SpeedRun_Stage_Now,Is.EqualTo(1));Assert.That(c.SpeedRun.GameWin_UI.activeSelf,Is.False);
     }
 }

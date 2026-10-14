@@ -11,7 +11,7 @@ public sealed class BulletTests
     private static CurrencyAmount Amount(int n) => CurrencyAmount.FromValue(new DecimalAmount(n));
     private static IEnumerator Load()
     {
-        yield return SceneManager.LoadSceneAsync("Forest");yield return null;
+        yield return TestSceneLoader.LoadAsync("Forest");yield return null;
         Cat.instance.GetComponent<ForestCombatAcceptance>().enabled=false;
         Assert.That(Polling_manager.instance,Is.Not.Null);
     }

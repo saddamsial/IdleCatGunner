@@ -23,12 +23,12 @@ public sealed class MissionTextTests
     {
         background=Application.runInBackground;Application.runInBackground=true;
         folder=Path.Combine(Application.temporaryCachePath,"MissionText-"+Guid.NewGuid().ToString("N"));
-        SceneManager.sceneLoaded+=Configure;yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();
+        SceneManager.sceneLoaded+=Configure;yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();
         client=GameClient.Instance;client.DailyLogin.Close();client.Tutorial.SetCleared();ForestRuntimeAcceptance.IsGaming=false;
         client.MissionUI.NewSeason_Start();client.MissionUI.Panel_Open();yield return new WaitForSecondsRealtime(.4f);
     }
     [UnityTearDown] public IEnumerator Cleanup()
-    {Time.timeScale=1;yield return SceneManager.LoadSceneAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;Application.runInBackground=background;if(Directory.Exists(folder))Directory.Delete(folder,true);}
+    {Time.timeScale=1;yield return TestSceneLoader.LoadAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;Application.runInBackground=background;if(Directory.Exists(folder))Directory.Delete(folder,true);}
     [UnityTest] public IEnumerator NormalStartupShowsOriginalTaskNameAndTarget()
     {
         Assert.That(Application.systemLanguage,Is.EqualTo(SystemLanguage.ChineseSimplified),"This GPU baseline uses the current Chinese Editor locale");
@@ -97,7 +97,7 @@ public sealed class MissionTextTests
         row.Reward_Get();Assert.That(client.State.Mission_Reward_Exp,Is.EqualTo(info.ExpValue));Assert.That(client.State.Dia,Is.EqualTo(dia));
         yield return new WaitForSecondsRealtime(.4f);AssertChineseVisible(m.Mission_UI_Panel.transform);yield return Capture("claimed");
         m.Panel_Close();m.Panel_Open();yield return null;Assert.That(row.Name_txt.text,Is.EqualTo("破坏树木"));
-        yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();client=GameClient.Instance;
+        yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();client=GameClient.Instance;
         client.DailyLogin.Close();client.Tutorial.SetCleared();ForestRuntimeAcceptance.IsGaming=false;client.MissionUI.Panel_Open();yield return null;
         Assert.That(client.State.Mission_ExpGet[index],Is.True);Assert.That(client.State.Mission_Reward_Exp,Is.EqualTo(info.ExpValue));
         Assert.That(client.MissionUI.Mission_Item_UI_List[index].Explain_txt.text,Is.EqualTo("破坏"+info.MissionValue+"棵树！"));Assert.That(client.State.Dia,Is.EqualTo(dia));

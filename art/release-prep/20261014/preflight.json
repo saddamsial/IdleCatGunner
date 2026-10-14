@@ -1,0 +1,99 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene();var c=UnityEngine.Object.FindAnyObjectByType<CatGunner.Runtime.GameClient>();return new {path=Application.dataPath,playing=UnityEditor.EditorApplication.isPlaying,compiling=UnityEditor.EditorApplication.isCompiling,scene=scene.path,dirty=scene.isDirty,roots=scene.GetRootGameObjects().Select(r=>new{r.name,nodes=r.GetComponentsInChildren<Transform>(true).Length}),sourcePairs=c.GetComponent<CatGunner.Runtime.PenguinFullReskin>().Sources.Length,hero=UnityEditor.AssetDatabase.GetAssetPath(c.Hero.skin_spriteRenderer.sprite),trees=c.Forest.Tree_sprites.Select(UnityEditor.AssetDatabase.GetAssetPath),buildScenes=UnityEditor.EditorBuildSettings.scenes.Where(s=>s.enabled).Select(s=>s.path),resources=UnityEditor.AssetDatabase.GetAllAssetPaths().Count(p=>p.Contains(\"/Resources/\")),streaming=UnityEditor.AssetDatabase.GetAllAssetPaths().Where(p=>p.StartsWith(\"Assets/StreamingAssets/\")).ToArray()};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "path": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets",
+        "playing": false,
+        "compiling": false,
+        "scene": "Assets/Game/Scenes/GameClient.unity",
+        "dirty": false,
+        "roots": [
+          {
+            "name": "World",
+            "nodes": 16976
+          },
+          {
+            "name": "Systems",
+            "nodes": 17
+          },
+          {
+            "name": "UI",
+            "nodes": 13778
+          }
+        ],
+        "sourcePairs": 390,
+        "hero": "Assets/Sprite/23.asset",
+        "trees": [
+          "Assets/Sprite/0_9.asset",
+          "Assets/Sprite/1_10.asset",
+          "Assets/Sprite/2_5.asset",
+          "Assets/Sprite/3_5.asset",
+          "Assets/Sprite/4_0.asset",
+          "Assets/Sprite/5_9.asset",
+          "Assets/Sprite/6_1.asset",
+          "Assets/Sprite/7_8.asset",
+          "Assets/Sprite/8_5.asset",
+          "Assets/Sprite/9_1.asset",
+          "Assets/Sprite/10_5.asset",
+          "Assets/Sprite/11.asset",
+          "Assets/Sprite/12_1.asset",
+          "Assets/Sprite/13_1.asset",
+          "Assets/Sprite/14_0.asset",
+          "Assets/Sprite/15_1.asset",
+          "Assets/Sprite/16_2.asset",
+          "Assets/Sprite/17_0.asset",
+          "Assets/Sprite/18_0.asset",
+          "Assets/Sprite/19_2.asset",
+          "Assets/Sprite/20_2.asset",
+          "Assets/Sprite/21_0.asset",
+          "Assets/Sprite/22_2.asset",
+          "Assets/Sprite/23_2.asset",
+          "Assets/Sprite/24.asset",
+          "Assets/Sprite/25_0.asset",
+          "Assets/Sprite/26_0.asset",
+          "Assets/Sprite/27_0.asset",
+          "Assets/Sprite/28_0.asset",
+          "Assets/Sprite/29.asset",
+          "Assets/Sprite/30.asset",
+          "Assets/Sprite/31_0.asset",
+          "Assets/Sprite/32.asset",
+          "Assets/Sprite/33_0.asset",
+          "Assets/Sprite/34.asset",
+          "Assets/Sprite/35_0.asset",
+          "Assets/Sprite/36_0.asset",
+          "Assets/Sprite/37_0.asset",
+          "Assets/Sprite/38_0.asset",
+          "Assets/Sprite/39_0.asset"
+        ],
+        "buildScenes": [
+          "Assets/Game/Scenes/GameClient.unity",
+          "Assets/Game/Scenes/Bullets.unity",
+          "Assets/Game/Scenes/Forest.unity",
+          "Assets/Game/Scenes/ForestHUD.unity",
+          "Assets/Game/Scenes/ForestProgress.unity",
+          "Assets/Game/Scenes/Joystick.unity",
+          "Assets/Game/Scenes/Settings.unity",
+          "Assets/Game/Scenes/TargetPreview.unity"
+        ],
+        "resources": 288,
+        "streaming": []
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

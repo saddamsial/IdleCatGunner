@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "command": "command run_script",
+  "data": {
+    "command": "run_script",
+    "parameters": {
+      "entry": "BakeProductionVisuals.Run",
+      "timeout_ms": "60000",
+      "file": "/Volumes/ZHITAI_1T/IdleCatGunner/art/release-prep/20261014/BakeProductionVisuals.cs"
+    },
+    "result": {
+      "diagnostics": [
+        {
+          "severity": "warning",
+          "message": "'Object.GetInstanceID()' is obsolete: 'GetInstanceID is deprecated. Use GetEntityId instead. This will be removed in a future version.'",
+          "line": 96,
+          "column": 100,
+          "id": "CS0618",
+          "source": "var colliderBefore=roots.SelectMany(r=>r.GetComponentsInChildren<Collider>(true)).Select(c=>c.GetInstanceID()).OrderBy(i=>i).ToArray();"
+        },
+        {
+          "severity": "warning",
+          "message": "'Object.GetInstanceID()' is obsolete: 'GetInstanceID is deprecated. Use GetEntityId instead. This will be removed in a future version.'",
+          "line": 140,
+          "column": 99,
+          "id": "CS0618",
+          "source": "var colliderAfter=roots.SelectMany(r=>r.GetComponentsInChildren<Collider>(true)).Select(c=>c.GetInstanceID()).OrderBy(i=>i).ToArray();"
+        }
+      ],
+      "compileMs": 450,
+      "executeMs": 21341,
+      "assemblyName": "PipelineRunScript_BakeProductionVisuals_8a1eaf56329c4ec6821045a5bc307336",
+      "success": true,
+      "result": "{\n  \"references\": 6308,\n  \"avatars\": 4,\n  \"actors\": 24,\n  \"colliders\": 1989,\n  \"collidersUnchanged\": true,\n  \"prefabs\": [\n    \"Assets/Game/Prefabs/Gameplay/PlayerTeam.prefab\",\n    \"Assets/Game/Resources/Gameplay/ProjectilePoolContent.prefab\",\n    \"Assets/Game/Resources/UI/Draw_Info_UI.prefab\",\n    \"Assets/Game/Resources/UI/GunCollection_UI.prefab\"\n  ],\n  \"beforeDependencies\": 2395,\n  \"afterDependencies\": 1804,\n  \"skins\": 25,\n  \"weapons\": 65,\n  \"fish\": 13,\n  \"pets\": 13\n}"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

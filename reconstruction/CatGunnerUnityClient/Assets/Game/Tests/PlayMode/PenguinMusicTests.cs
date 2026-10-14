@@ -18,13 +18,13 @@ public sealed class PenguinMusicTests
     {
         Time.timeScale=1;background=Application.runInBackground;Application.runInBackground=true;
         folder=Path.Combine(Application.temporaryCachePath,"PenguinMusic-"+Guid.NewGuid().ToString("N"));
-        SceneManager.sceneLoaded+=Isolate;yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;
+        SceneManager.sceneLoaded+=Isolate;yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;
         client=GameClient.Instance;client.DailyLogin.AutoShow=false;client.DailyLogin.Close();client.Tutorial.SetCleared();ForestRuntimeAcceptance.IsGaming=false;
         Setting.instance.PersistPreferences=false;Setting.instance.is_BGM_Mute=false;Sound_manager.instance.ApplyBGMMute(false);
     }
     [UnityTearDown] public IEnumerator Cleanup()
     {
-        Time.timeScale=1;yield return SceneManager.LoadSceneAsync("TargetPreview");SceneManager.sceneLoaded-=Isolate;
+        Time.timeScale=1;yield return TestSceneLoader.LoadAsync("TargetPreview");SceneManager.sceneLoaded-=Isolate;
         if(Directory.Exists(folder))Directory.Delete(folder,true);Application.runInBackground=background;
     }
     [UnityTest] public IEnumerator NewCatalogueStartsOnlyNewMusicAndEachStreamingTrackLoopsWithoutRestartingSameSelection()

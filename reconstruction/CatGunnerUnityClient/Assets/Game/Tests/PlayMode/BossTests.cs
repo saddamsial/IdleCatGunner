@@ -17,7 +17,7 @@ public sealed class BossTests
         SceneManager.sceneLoaded+=Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;
             var c=GameClient.Instance;ContentNavigationFixture.Unlock(c,Content_Type.Boss);yield return null;var m=c.BossMode;
             c.State.Owned_Gun_list[0]=20;Assert.That(c.Inventory.Equip(0,0),Is.True);
             int stage=c.Forest.Stage_Now,wave=c.Forest.Level_Now,dia=c.State.Dia,earned=c.State._getDia;
@@ -39,14 +39,14 @@ public sealed class BossTests
             m.Loading_Then_Start();yield return new WaitForSeconds(4);Assert.That(c.Mode,Is.Zero);Assert.That((c.Forest.Stage_Now,c.Forest.Level_Now),Is.EqualTo((stage,wave)));Assert.That(c.Forest.Map_obj.activeSelf,Is.True);Assert.That(m.Map_obj.activeSelf,Is.False);Assert.That(m.Ingame_Upgrade_UI_obj.activeSelf,Is.True);
         }
         finally{SceneManager.sceneLoaded-=Independent;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     [UnityTest] public IEnumerator TimeoutBlocksLateDamageRewardsAndReturnsToForest()
     {
         SceneManager.sceneLoaded+=Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var m=c.BossMode;
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var m=c.BossMode;
             foreach(var cat in c.Team.Cat_list)cat.GetComponent<ForestCombatAcceptance>().enabled=false;
             m.Game_Enter();yield return new WaitForSeconds(2.2f);int dia=c.State.Dia;
             m.GameTime_Now=0;yield return null;yield return null;Assert.That(m.GameFail_UI.activeInHierarchy,Is.True);Assert.That(m.Playing,Is.False);
@@ -55,21 +55,21 @@ public sealed class BossTests
             yield return null;Assert.That(m._boss.rb.linearVelocity.sqrMagnitude,Is.LessThan(.01));m.Game_Exit();yield return new WaitForSeconds(2);Assert.That(c.Mode,Is.Zero);Assert.That(m.ModeHUD.activeSelf,Is.False);
         }
         finally{SceneManager.sceneLoaded-=Independent;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     [UnityTest] public IEnumerator OriginalNineSkinsHealthCacheAndUnsupportedStageGuard()
     {
         SceneManager.sceneLoaded+=Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var m=c.BossMode;
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var m=c.BossMode;
             Assert.That(m.Health_Balance.Length,Is.EqualTo(1000));Assert.That(m.Health_return(999).Value.ToString(),Is.EqualTo("45e698"));
             ForestRuntimeAcceptance.IsGaming=false;m.Map_obj.SetActive(true);
             for(int i=0;i<9;i++){m.Stage_Now=i;m.Boss_Spawn();Assert.That(m._boss.Skin_obj.Count(g=>g.activeSelf),Is.EqualTo(1));Assert.That(m._boss.Skin_obj[i].activeSelf,Is.True);Assert.That(m._boss._anim.runtimeAnimatorController,Is.Not.Null);Assert.That(m._boss.Head_spriteRenderer[i].sprite,Is.SameAs(m.Boss_Head_Idle_sprites[i]));Assert.That(m._boss.transform.localPosition,Is.EqualTo(new Vector3(-15,0,15)));}
             m.Map_obj.SetActive(false);m.Stage_Now=1000;Assert.Throws<NotSupportedException>(()=>m.Game_Enter());Assert.That(c.Mode,Is.Zero);Assert.That(c.State.Boss_Stage,Is.Zero);m.Stage_Now=0;c.Restart();
         }
         finally{SceneManager.sceneLoaded-=Independent;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     [Test] public void AvoidanceProjectionUsesSegmentEndpointsStrictRadiusAndZeroSentinel()
     {

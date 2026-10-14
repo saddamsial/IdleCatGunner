@@ -16,7 +16,7 @@ public sealed class PenetratingTests
     private static Tree[] Trees()=>Object.FindObjectsByType<Tree>(FindObjectsInactive.Exclude).Where(t=>t!=Tree_manager.instance.Boss_tree).Take(4).ToArray();
     private static IEnumerator Load(int gun=8)
     {
-        yield return SceneManager.LoadSceneAsync("Forest");yield return null;
+        yield return TestSceneLoader.LoadAsync("Forest");yield return null;
         var cat=Cat.instance;cat.GetComponent<ForestCombatAcceptance>().enabled=false;
         cat.GetComponent<ForestMovementAcceptance>().enabled=false;
         var data=EquipmentCatalogue.Load();data.Selected_items=new[]{gun,-1,-1};data.ApplyPackageForest(cat);

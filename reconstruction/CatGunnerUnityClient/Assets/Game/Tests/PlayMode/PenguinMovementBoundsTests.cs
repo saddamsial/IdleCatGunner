@@ -22,7 +22,7 @@ public sealed class PenguinMovementBoundsTests
     {
         Time.timeScale=1;
         SceneManager.sceneLoaded+=Independent;
-        yield return SceneManager.LoadSceneAsync("GameClient");
+        yield return TestSceneLoader.LoadAsync("GameClient");
         yield return ClientStartupWait.Ready();
         client=GameClient.Instance;
         StopMovement();
@@ -37,7 +37,7 @@ public sealed class PenguinMovementBoundsTests
     {
         Time.timeScale=1;
         SceneManager.sceneLoaded-=Independent;
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     void StopMovement()
     {

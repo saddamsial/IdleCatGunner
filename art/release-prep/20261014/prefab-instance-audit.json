@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var rows=new System.Collections.Generic.List<object>();foreach(var p in new[]{\"Assets/Game/Resources/UI/Draw_Info_UI.prefab\",\"Assets/Game/Resources/UI/GunCollection_UI.prefab\"}){var r=UnityEditor.PrefabUtility.LoadPrefabContents(p);try{rows.Add(new{p,root=UnityEditor.PrefabUtility.IsPartOfPrefabInstance(r),nested=r.GetComponentsInChildren<UnityEngine.Transform>(true).Where(t=>UnityEditor.PrefabUtility.IsAnyPrefabInstanceRoot(t.gameObject)).Select(t=>new{t.name,source=UnityEditor.PrefabUtility.GetPrefabAssetPathOfNearestInstanceRoot(t)})});}finally{UnityEditor.PrefabUtility.UnloadPrefabContents(r);}}return rows;"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": "System.Collections.Generic.List`1[System.Object]"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -24,13 +24,13 @@ public sealed class SpeedRunSweepTests
         background = Application.runInBackground; Application.runInBackground = true;
         folder = Path.Combine(Application.temporaryCachePath, "SpeedRunSweep-" + Guid.NewGuid().ToString("N"));
         SceneManager.sceneLoaded += Independent;
-        yield return SceneManager.LoadSceneAsync("GameClient"); yield return ClientStartupWait.Ready();
+        yield return TestSceneLoader.LoadAsync("GameClient"); yield return ClientStartupWait.Ready();
         c = GameClient.Instance; ForestRuntimeAcceptance.IsGaming = false;
         c.DailyLogin.Close(); c.Tutorial.SetCleared();
     }
     [UnityTearDown] public IEnumerator Cleanup()
     {
-        yield return SceneManager.LoadSceneAsync("TargetPreview"); SceneManager.sceneLoaded -= Independent;
+        yield return TestSceneLoader.LoadAsync("TargetPreview"); SceneManager.sceneLoaded -= Independent;
         Time.timeScale = 1; Application.runInBackground = background;
         if (Directory.Exists(folder)) Directory.Delete(folder, true);
     }
@@ -75,7 +75,7 @@ public sealed class SpeedRunSweepTests
         yield return Click(M.SweepBonus_Btn_obj.GetComponent<Button>());yield return null;
         Assert.That(c.State.Dia,Is.EqualTo(dia+120));Assert.That(c.RewardedAds.CompletedWatches,Is.EqualTo(1));
         Assert.That(M.SweepPending||M.GameSweep_UI.activeSelf,Is.False);Assert.That(c.Mode,Is.Zero);
-        c.SaveNow();yield return SceneManager.LoadSceneAsync("TargetPreview");yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();
+        c.SaveNow();yield return TestSceneLoader.LoadAsync("TargetPreview");yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();
         c=GameClient.Instance;Assert.That((M.Stage_Now,c.State.Dia),Is.EqualTo((1,dia+120)));
         Assert.That(M.SweepPending||M.GameSweep_UI.activeSelf,Is.False);Assert.That(c.LocalStore.Model.Recorded("catgunner_pluspack_2"),Is.True);
     }

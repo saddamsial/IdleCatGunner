@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "command": "command run_script",
+  "data": {
+    "command": "run_script",
+    "parameters": {
+      "entry": "CleanProductionResources.Run",
+      "timeout_ms": "60000",
+      "file": "/Volumes/ZHITAI_1T/IdleCatGunner/art/release-prep/20261014/CleanProductionResources.cs"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 3705,
+      "executeMs": 3448,
+      "assemblyName": "PipelineRunScript_CleanProductionResources_3fc280057a2d4be880d65868839dc908",
+      "success": true,
+      "result": "Resources: 44 → 42; archived 2; dependencies 1876"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

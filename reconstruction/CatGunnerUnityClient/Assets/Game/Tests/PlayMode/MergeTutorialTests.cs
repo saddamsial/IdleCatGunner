@@ -32,7 +32,7 @@ public sealed class MergeTutorialTests
         SceneManager.sceneLoaded+=Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();var c=GameClient.Instance;
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();var c=GameClient.Instance;
             var type=typeof(Gun_manager).Assembly.GetType("Gun_Merge_Tutorial");Assert.That(type,Is.Not.Null,"Original merge controller must be reconstructed");
             var cue=UnityEngine.Object.FindAnyObjectByType(type,FindObjectsInactive.Include) as Component;Assert.That(cue,Is.Not.Null);
             var arrow=type.GetField("tutorial_arrow").GetValue(cue) as Component;Assert.That(arrow,Is.Not.Null);
@@ -41,14 +41,14 @@ public sealed class MergeTutorialTests
             Assert.That(arrow.GetType().GetField("target1").GetValue(arrow),Is.SameAs(c.Guns.gunItemList.ActiveItems[1].transform));
         }
         finally{SceneManager.sceneLoaded-=Independent;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     [UnityTest] public IEnumerator NativeEligibilitySkipsPausedAdAndHigherGunsAndKeepsSaveUnchanged()
     {
         SceneManager.sceneLoaded+=Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();var c=GameClient.Instance;ClickGun();yield return new WaitForSeconds(.4f);Pair(c);var cue=c.Guns.merge_tutorial_ui;var arrow=cue.tutorial_arrow;
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();var c=GameClient.Instance;ClickGun();yield return new WaitForSeconds(.4f);Pair(c);var cue=c.Guns.merge_tutorial_ui;var arrow=cue.tutorial_arrow;
             foreach(int mode in new[]{0,1,2,3,4})
             {
                 Pair(c);if(mode==0)c.State.Owned_Gun_list[1]=5;if(mode==1)c.State.Owned_Gun_Pause[0]=true;if(mode==2)c.State.AD_Gun_SlotIndex=1;if(mode==3)c.State.Has_Merged=true;if(mode==4)c.State.Owned_Gun_list[1]=-1;
@@ -59,14 +59,14 @@ public sealed class MergeTutorialTests
             c.Guns.is_AutoMerge=true;cue.Reload();Assert.That(arrow.gameObject.activeSelf,Is.True,"Native cue itself does not add an auto-toggle gate");c.Guns.is_AutoMerge=false;
         }
         finally{SceneManager.sceneLoaded-=Independent;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     [UnityTest] public IEnumerator OriginalHandMovesScalesReopensAndInvalidTargetsStopMotion()
     {
         SceneManager.sceneLoaded+=Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();var c=GameClient.Instance;ClickGun();yield return new WaitForSeconds(.4f);Pair(c);var cue=c.Guns.merge_tutorial_ui;var arrow=cue.tutorial_arrow;var rect=(RectTransform)arrow.transform;
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();var c=GameClient.Instance;ClickGun();yield return new WaitForSeconds(.4f);Pair(c);var cue=c.Guns.merge_tutorial_ui;var arrow=cue.tutorial_arrow;var rect=(RectTransform)arrow.transform;
             Assert.That((arrow.moveDuration,arrow.pauseAtTarget,arrow.scaleSmall,arrow.scaleDuration),Is.EqualTo((1.2f,.15f,.8f,.15f)));Assert.That(arrow.offset,Is.EqualTo(Vector2.zero));Assert.That(arrow.GetComponentsInChildren<Graphic>(true).All(g=>!g.raycastTarget),Is.True);
             var first=arrow.target0;var second=arrow.target1;Vector2 start=rect.anchoredPosition;yield return new WaitForSeconds(.6f);Assert.That(Vector2.Distance(start,rect.anchoredPosition),Is.GreaterThan(10));Assert.That(rect.localScale.x,Is.EqualTo(.8f).Within(.01f));
             string report=Path.GetFullPath(Path.Combine(Application.dataPath,"../../../reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/visual/merge-tutorial-hand-test-gpu.png"));ScreenCapture.CaptureScreenshot(report);yield return new WaitForSeconds(.1f);
@@ -75,14 +75,14 @@ public sealed class MergeTutorialTests
             c.Guns.ReloadGunUI();yield return null;Assert.That(arrow.gameObject.activeSelf,Is.True);Assert.That(arrow.target1,Is.Not.Null);
         }
         finally{SceneManager.sceneLoaded-=Independent;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     [UnityTest] public IEnumerator ActualRaycastDragMergeStopsCueAndDoesNotChargeOrGrantCurrency()
     {
         SceneManager.sceneLoaded+=Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();var c=GameClient.Instance;ClickGun();yield return new WaitForSeconds(.4f);Pair(c);yield return new WaitForSeconds(.25f);var owner=c.Guns;var a=owner.gunItemList.ActiveItems[0];var b=owner.gunItemList.ActiveItems[1];int target=b.ListIndex;
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();var c=GameClient.Instance;ClickGun();yield return new WaitForSeconds(.4f);Pair(c);yield return new WaitForSeconds(.25f);var owner=c.Guns;var a=owner.gunItemList.ActiveItems[0];var b=owner.gunItemList.ActiveItems[1];int target=b.ListIndex;
             var point=new PointerEventData(EventSystem.current){position=RectTransformUtility.WorldToScreenPoint(null,a.transform.position)};var hits=new List<RaycastResult>();EventSystem.current.RaycastAll(point,hits);Assert.That(hits[0].gameObject.GetComponentInParent<Gun_Item>(),Is.SameAs(a),"Original hand cannot block a real inventory drag");
             int diamonds=c.State.Dia,coins=c.State.PetCoin;string money=c.State.Money.Value.PlainInteger();bool logged=c.State.Merge_Tutorial_Logged;
             ExecuteEvents.ExecuteHierarchy(hits[0].gameObject,point,ExecuteEvents.beginDragHandler);point.position=RectTransformUtility.WorldToScreenPoint(null,b.transform.position);ExecuteEvents.Execute(a.gameObject,point,ExecuteEvents.dragHandler);ExecuteEvents.Execute(a.gameObject,point,ExecuteEvents.endDragHandler);
@@ -90,7 +90,7 @@ public sealed class MergeTutorialTests
             owner.newGun_ui.gameObject.SetActive(false);owner.ReloadGunUI();Assert.That(owner.merge_tutorial_ui.tutorial_arrow.gameObject.activeSelf,Is.False);
         }
         finally{SceneManager.sceneLoaded-=Independent;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     [UnityTest] public IEnumerator IndependentColdReloadRetainsFirstMergeFlagAndNeverShowsCueAgain()
     {
@@ -99,10 +99,10 @@ public sealed class MergeTutorialTests
         SceneManager.sceneLoaded+=configure;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();var c=GameClient.Instance;Pair(c);Assert.That(c.Inventory.Merge(0,1),Is.True);c.SaveNow();
-            yield return SceneManager.LoadSceneAsync("TargetPreview");yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();c=GameClient.Instance;Assert.That(c.State.Has_Merged,Is.True);Assert.That(c.State.Merge_Tutorial_Logged,Is.False);ClickGun();yield return new WaitForSeconds(.4f);Assert.That(c.Guns.merge_tutorial_ui.tutorial_arrow.gameObject.activeSelf,Is.False);c.Persist=false;
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();var c=GameClient.Instance;Pair(c);Assert.That(c.Inventory.Merge(0,1),Is.True);c.SaveNow();
+            yield return TestSceneLoader.LoadAsync("TargetPreview");yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();c=GameClient.Instance;Assert.That(c.State.Has_Merged,Is.True);Assert.That(c.State.Merge_Tutorial_Logged,Is.False);ClickGun();yield return new WaitForSeconds(.4f);Assert.That(c.Guns.merge_tutorial_ui.tutorial_arrow.gameObject.activeSelf,Is.False);c.Persist=false;
         }
         finally{SceneManager.sceneLoaded-=configure;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
 }

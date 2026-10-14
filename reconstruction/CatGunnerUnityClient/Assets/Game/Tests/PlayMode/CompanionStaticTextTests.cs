@@ -25,13 +25,13 @@ public sealed class CompanionStaticTextTests
     {
         background=Application.runInBackground;Application.runInBackground=true;
         folder=Path.Combine(Application.temporaryCachePath,"CompanionText-"+Guid.NewGuid().ToString("N"));
-        SceneManager.sceneLoaded+=Configure;yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();
+        SceneManager.sceneLoaded+=Configure;yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();
         client=GameClient.Instance;client.DailyLogin.Close();client.Tutorial.SetCleared();ForestRuntimeAcceptance.IsGaming=false;
         canvas=client.Slider.GetComponentInParent<Canvas>().transform;
     }
     [UnityTearDown] public IEnumerator Cleanup()
     {
-        Time.timeScale=1;yield return SceneManager.LoadSceneAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;
+        Time.timeScale=1;yield return TestSceneLoader.LoadAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;
         Application.runInBackground=background;if(Directory.Exists(folder))Directory.Delete(folder,true);
     }
     TMP_Text Label(string path)=>canvas.Find(path).GetComponent<TMP_Text>();

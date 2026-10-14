@@ -20,13 +20,13 @@ public sealed class EnhancedRebirthTests
     {
         background=Application.runInBackground;Application.runInBackground=true;
         folder=Path.Combine(Application.temporaryCachePath,"EnhancedRebirth-"+Guid.NewGuid().ToString("N"));
-        SceneManager.sceneLoaded+=Independent;yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();
+        SceneManager.sceneLoaded+=Independent;yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();
         c=GameClient.Instance;ForestRuntimeAcceptance.IsGaming=false;c.DailyLogin.Close();c.Tutorial.SetCleared();
         now=new DateTime(2026,10,11,12,0,0);M.Model.Now=()=>now;c.LocalStore.Model.Now=()=>now;c.Rebirth.RewardPercent=100;
         c.State.Ruby=CurrencyAmount.FromValue(new DecimalAmount(10));Stage();
     }
     [UnityTearDown] public IEnumerator Cleanup()
-    {Time.timeScale=1;yield return SceneManager.LoadSceneAsync("TargetPreview");SceneManager.sceneLoaded-=Independent;Application.runInBackground=background;if(Directory.Exists(folder))Directory.Delete(folder,true);}
+    {Time.timeScale=1;yield return TestSceneLoader.LoadAsync("TargetPreview");SceneManager.sceneLoaded-=Independent;Application.runInBackground=background;if(Directory.Exists(folder))Directory.Delete(folder,true);}
     Rebirth_manager M=>c.RebirthUI;
     Rebirth_Panel_UI UI=>M.rebirth_panel_ui;
     Button Confirm(GameObject popup)=>popup.transform.Find("Panel/Rebirth_btn").GetComponent<Button>();
@@ -75,7 +75,7 @@ public sealed class EnhancedRebirthTests
         Assert.That(c.State.Mission_Rebirth_Value,Is.EqualTo(1));Assert.That(c.RewardedAds.CompletedWatches,Is.EqualTo(1));Assert.That(M.EnhancedRebirthPending,Is.False);
         Assert.That(new[]{UI.gameObject,UI.Rebirth_Popup_obj,UI.UpgradeRebirth_Popup_obj,UI.UpgradeRebirth_IAP_Popup_obj,M.rebirth_fx.gameObject}.All(g=>!g.activeSelf),Is.True);
         M.rebirth_fx.Rebirth();Assert.That(c.State.Rebirth_Count,Is.EqualTo(1));c.SaveNow();
-        yield return SceneManager.LoadSceneAsync("TargetPreview");yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();c=GameClient.Instance;ForestRuntimeAcceptance.IsGaming=false;c.DailyLogin.Close();c.Tutorial.SetCleared();M.Model.Now=()=>now;
+        yield return TestSceneLoader.LoadAsync("TargetPreview");yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();c=GameClient.Instance;ForestRuntimeAcceptance.IsGaming=false;c.DailyLogin.Close();c.Tutorial.SetCleared();M.Model.Now=()=>now;
         Assert.That(c.State.UpgradeRebirth_UseCount,Is.EqualTo(1));Assert.That(c.State.Ruby.Value.PlainInteger(),Is.EqualTo("9385"));Assert.That(c.State.Rebirth_Count,Is.EqualTo(1));Stage();yield return Open();
         Assert.That(UI.UpgradeRebirth_Disable_obj.activeSelf,Is.True);Assert.That(UI.UpgradeRebirth_Able_obj.activeSelf,Is.False);yield return Capture("used");
         Assert.That(new SaveArchive(folder).Load().UpgradeRebirth_UseCount,Is.EqualTo(1));

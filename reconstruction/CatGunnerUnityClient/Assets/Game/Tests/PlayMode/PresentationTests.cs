@@ -12,7 +12,7 @@ public sealed class PresentationTests
     [UnityTest]
     public IEnumerator OriginalSettingSpritesAndFontFacesRemainRenderableAfterReload()
     {
-        yield return SceneManager.LoadSceneAsync("Settings");
+        yield return TestSceneLoader.LoadAsync("Settings");
         yield return null;
         var images=Object.FindObjectsByType<Image>(FindObjectsInactive.Include).Where(i=>i.sprite!=null).ToArray();
         Assert.That(images.Length,Is.EqualTo(33));

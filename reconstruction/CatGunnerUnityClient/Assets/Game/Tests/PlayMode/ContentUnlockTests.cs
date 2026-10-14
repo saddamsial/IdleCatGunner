@@ -37,7 +37,7 @@ public sealed class ContentUnlockTests
         SceneManager.sceneLoaded+=Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();var c=GameClient.Instance;var m=c.ContentUnlock;Assert.That(m,Is.Not.Null,"Original gate component must be reconnected");
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();var c=GameClient.Instance;var m=c.ContentUnlock;Assert.That(m,Is.Not.Null,"Original gate component must be reconnected");
             string before=SaveArchive.Encode(c.State);
             foreach(int display in new[]{1,2,3,4,5,6,9,10,11,12,34,35,39,40,41})
             {
@@ -53,14 +53,14 @@ public sealed class ContentUnlockTests
             Assert.That(SaveArchive.Encode(c.State),Is.EqualTo(before),"Showing gates must not grant progress or currency");
         }
         finally{SceneManager.sceneLoaded-=Independent;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     [UnityTest] public IEnumerator ActualLockedRaycastShowsStageAlertThenThresholdOpensAndClosesAllEightPanels()
     {
         SceneManager.sceneLoaded+=Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();var c=GameClient.Instance;var m=c.ContentUnlock;Assert.That(m,Is.Not.Null);var panels=Panels(c);
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();var c=GameClient.Instance;var m=c.ContentUnlock;Assert.That(m,Is.Not.Null);var panels=Panels(c);
             foreach(var item in m.Content_list)
             {
                 foreach(var panel in panels)panel.SetActive(false);
@@ -76,20 +76,20 @@ public sealed class ContentUnlockTests
             ScreenCapture.CaptureScreenshot(Path.GetFullPath(Path.Combine(Application.dataPath,"../../../reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/visual/content-unlock-stage11-test-gpu.png")));yield return new WaitForSeconds(.1f);
         }
         finally{SceneManager.sceneLoaded-=Independent;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     [UnityTest] public IEnumerator NativeTutorialVisibilityHidesAllThenRestoresWithoutChangingTutorialSave()
     {
         SceneManager.sceneLoaded+=Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();var c=GameClient.Instance;var m=c.ContentUnlock;Assert.That(m,Is.Not.Null);c.Forest.Stage_Value_Max=110;m.Reload();string before=SaveArchive.Encode(c.State);
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();var c=GameClient.Instance;var m=c.ContentUnlock;Assert.That(m,Is.Not.Null);c.Forest.Stage_Value_Max=110;m.Reload();string before=SaveArchive.Encode(c.State);
             foreach(int step in new[]{0,1,2,3,4}){m.TutorialStep=()=>step;yield return null;Assert.That(m.Content_list.All(i=>!i.Btn_obj.activeSelf),Is.True);}
             m.TutorialStep=()=>5;yield return null;Assert.That(m.Content_list.Count(i=>i.Btn_obj.activeSelf),Is.EqualTo(7));
             m.TutorialStep=null;yield return null;Assert.That(m.Content_list.Count(i=>i.Btn_obj.activeSelf),Is.EqualTo(7));Assert.That(SaveArchive.Encode(c.State),Is.EqualTo(before));
         }
         finally{SceneManager.sceneLoaded-=Independent;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     [UnityTest] public IEnumerator IndependentColdReloadAndRebirthRetainHistoricalFrontierInsteadOfRelocking()
     {
@@ -98,10 +98,10 @@ public sealed class ContentUnlockTests
         SceneManager.sceneLoaded+=configure;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();var c=GameClient.Instance;c.Forest.Stage_Now=39;c.Forest.Level_Now=0;c.Forest.Stage_Value_Max=390;c.ContentUnlock.Reload();Assert.That(c.RebirthNow(),Is.True);Assert.That(c.Forest.Stage_Now,Is.Zero);Assert.That(Contents_Unlock_manager.Is_Unlocked(Content_Type.Raid),Is.True);c.SaveNow();
-            yield return SceneManager.LoadSceneAsync("TargetPreview");yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();c=GameClient.Instance;Assert.That(c.Forest.Stage_Value_Max,Is.EqualTo(390));Assert.That(c.State.Rebirth_Count,Is.EqualTo(1));Assert.That(Contents_Unlock_manager.Next_Unlock_Stage_return(),Is.EqualTo(-1));Assert.That(c.ContentUnlock.Content_list.All(i=>i.Btn_obj.activeSelf&&!i.Locked_obj.activeSelf),Is.True);c.Persist=false;
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();var c=GameClient.Instance;c.Forest.Stage_Now=39;c.Forest.Level_Now=0;c.Forest.Stage_Value_Max=390;c.ContentUnlock.Reload();Assert.That(c.RebirthNow(),Is.True);Assert.That(c.Forest.Stage_Now,Is.Zero);Assert.That(Contents_Unlock_manager.Is_Unlocked(Content_Type.Raid),Is.True);c.SaveNow();
+            yield return TestSceneLoader.LoadAsync("TargetPreview");yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();c=GameClient.Instance;Assert.That(c.Forest.Stage_Value_Max,Is.EqualTo(390));Assert.That(c.State.Rebirth_Count,Is.EqualTo(1));Assert.That(Contents_Unlock_manager.Next_Unlock_Stage_return(),Is.EqualTo(-1));Assert.That(c.ContentUnlock.Content_list.All(i=>i.Btn_obj.activeSelf&&!i.Locked_obj.activeSelf),Is.True);c.Persist=false;
         }
         finally{SceneManager.sceneLoaded-=configure;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
 }

@@ -1,0 +1,86 @@
+{
+  "scene": "Assets/Game/Scenes/GameClient.unity",
+  "isDirty": false,
+  "playing": false,
+  "compiling": false,
+  "Persist": true,
+  "SaveFolderOverride": null,
+  "testHost": "",
+  "missing": 0,
+  "prefabs": [
+    {
+      "path": "Assets/Game/Prefabs/Gameplay/PlayerTeam.prefab",
+      "missing": 0,
+      "guid": "de18d6564e83448c69758f6965222874"
+    },
+    {
+      "path": "Assets/Game/Resources/Gameplay/ProjectilePoolContent.prefab",
+      "missing": 0,
+      "guid": "8e2f28b0b0daa42b0b30b679138d15e3"
+    },
+    {
+      "path": "Assets/Game/Resources/UI/Draw_Info_UI.prefab",
+      "missing": 0,
+      "guid": "5f20fb7f70bf74ef69d823f1fcf53817"
+    },
+    {
+      "path": "Assets/Game/Resources/UI/GunCollection_UI.prefab",
+      "missing": 0,
+      "guid": "a55b9f42f1400440e99a70fcfca243c9"
+    }
+  ],
+  "roots": [
+    {
+      "name": "World",
+      "nodes": 17032
+    },
+    {
+      "name": "Systems",
+      "nodes": 17
+    },
+    {
+      "name": "UI",
+      "nodes": 13778
+    }
+  ],
+  "avatars": [
+    {
+      "name": "Cat (1)",
+      "sprite": "Penguin",
+      "visible": true,
+      "nativeHidden": true,
+      "bones": 7
+    },
+    {
+      "name": "Cat (2)",
+      "sprite": "Penguin",
+      "visible": true,
+      "nativeHidden": true,
+      "bones": 7
+    },
+    {
+      "name": "Cat",
+      "sprite": "Penguin",
+      "visible": true,
+      "nativeHidden": true,
+      "bones": 7
+    },
+    {
+      "name": "Cat (Helper)",
+      "sprite": "Penguin",
+      "visible": true,
+      "nativeHidden": true,
+      "bones": 7
+    }
+  ],
+  "ice": [
+    "Ice0",
+    "Ice1",
+    "Ice2",
+    "Ice3"
+  ],
+  "ground": "SnowGround",
+  "scenes": [
+    "Assets/Game/Scenes/GameClient.unity"
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "success": true,
+  "command": "command test_status",
+  "data": {
+    "command": "test_status",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 230.25,
+      "summary": {
+        "total": 31,
+        "passed": 30,
+        "failed": 1,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "PenguinFullReskinTests.AdventurePetsKeepTheLivePreviewCameraAndSelection",
+          "Status": "Passed",
+          "Duration": 8.9338582,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PenguinFullReskinTests.AllThreePenguinsAnimateSelectedSkinBlinkAndHonorPause",
+          "Status": "Passed",
+          "Duration": 10.967446,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PenguinFullReskinTests.EveryBossVariantUsesNewBodyAndNativeDeathPaysOnce",
+          "Status": "Passed",
+          "Duration": 11.2652559,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PenguinFullReskinTests.ExtraBindingsPreserveHealthFractionAndRestoreRawTextures",
+          "Status": "Passed",
+          "Duration": 6.204834,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PenguinFullReskinTests.FullCataloguePreservesInputHitboxesStatsAndCanRestore",
+          "Status": "Failed",
+          "Duration": 5.7099737,
+          "Message": "  Expected: String starting with \"Fit_\"\n  But was:  \"flat-weapons-00\"\n",
+          "StackTrace": "at PenguinFullReskinTests+<FullCataloguePreservesInputHitboxesStatsAndCanRestore>d__6.MoveNext () [0x00408] in /Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Assets/Game/Tests/PlayMode/PenguinFullReskinTests.cs:17\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in ./Library/PackageCache/com.unity.test-framework@996f223345ba/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:44\n"
+        },
+        {
+          "FullName": "PenguinFullReskinTests.NaturalShotsKeepSingleRewardAndHavePolarEffectTextures",
+          "Status": "Passed",
+          "Duration": 9.0057551,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PenguinSpriteSkinTests.CostumeChangesPreserveSkeletonAndSelectedTexture",
+          "Status": "Passed",
+          "Duration": 7.1270663,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PenguinSpriteSkinTests.VisiblePenguinsUsePersistedBindPosesAndRealSpriteSkin",
+          "Status": "Passed",
+          "Duration": 6.5023141,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PenguinThemeTests.NaturalCombatUsesPenguinAndIceWithoutFractureEffects",
+          "Status": "Passed",
+          "Duration": 9.4176329,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PenguinThemeTests.PenguinIdleAndSideToSideWaddleMoveAndHonorPause",
+          "Status": "Passed",
+          "Duration": 10.7503149,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PenguinThemeTests.SuccessfulShotRecoilTriggersOnceAndReturnsToRest",
+          "Status": "Passed",
+          "Duration": 7.5068384,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PenguinThemeTests.TargetDeathPaysOnceAndThemeCanBeDisabled",
+          "Status": "Passed",
+          "Duration": 6.2815529,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SceneArchitectureTests.BoundMenuButtonsLoadPanels",
+          "Status": "Passed",
+          "Duration": 6.344981,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SceneArchitectureTests.CancelledDeferredLoadDoesNotCreateOrphan",
+          "Status": "Passed",
+          "Duration": 6.9648952,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SceneArchitectureTests.ClosingInventoryDuringLoadDoesNotOpenStaleModal",
+          "Status": "Passed",
+          "Duration": 6.4922076,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SceneArchitectureTests.ColdBootDefersWeaponPanelsAndLoadsPoolBeforeCombat",
+          "Status": "Passed",
+          "Duration": 6.4214292,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SceneArchitectureTests.FullPoolKeepsLiveProjectilesAndReusesDeadTrails",
+          "Status": "Passed",
+          "Duration": 6.2021727,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SceneArchitectureTests.RepeatedCollectionClicksReuseOnePopulatedCatalogue",
+          "Status": "Passed",
+          "Duration": 6.81753,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "SceneArchitectureTests.RepeatedInformationClicksCreateOneLocalizedReusablePanel",
+          "Status": "Passed",
+          "Duration": 7.8028935,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "StartupTests.ActualLegacyProfileStartsWithWalkingCatThenMovesAndShootsWithoutInputAndReloads",
+          "Status": "Passed",
+          "Duration": 18.2377865,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "StartupTests.FailedInitializationCannotEnableAutosaveOrOverwriteMainAndBackup",
+          "Status": "Passed",
+          "Duration": 8.9744398,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "StartupTests.NativeBestArrayKeepsLegacyPrefixAndDoesNotAlterInput",
+          "Status": "Passed",
+          "Duration": 0.4548581,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "StartupTests.UnsupportedRaidValuesRejectBeforeStateMutation",
+          "Status": "Passed",
+          "Duration": 0.3916727,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "UiAuthoringTests.AuthoredCatalogueSpriteIsNotReassignedByBootstrap",
+          "Status": "Passed",
+          "Duration": 6.5020505,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "UiAuthoringTests.AuthoredModalSortingAndBorderThicknessAreRespected",
+          "Status": "Passed",
+          "Duration": 6.2949612,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "UiAuthoringTests.LoadingKeepsHudVisibleDuringStartup",
+          "Status": "Passed",
+          "Duration": 6.4578297,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "UiAuthoringTests.LoadingTransitionsPreserveAuthoredParentAndRect",
+          "Status": "Passed",
+          "Duration": 7.2646505,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "UiAuthoringTests.ManualArtworkHierarchyAndStyleSurviveStartup",
+          "Status": "Passed",
+          "Duration": 7.3803556,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "UiAuthoringTests.ManualProgressAnchorsAreNotRebuilt",
+          "Status": "Passed",
+          "Duration": 6.2416499,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "UiAuthoringTests.RenamedLocalizedCaptionRetainsStyleAndLanguageControlsWork",
+          "Status": "Passed",
+          "Duration": 6.6557914,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "UiAuthoringTests.StaticPresentationExistsAndDoesNotDuplicateOnEnable",
+          "Status": "Passed",
+          "Duration": 7.6866837,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

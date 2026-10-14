@@ -24,7 +24,7 @@ public sealed class CurrencyFeedbackTests
         background=Application.runInBackground;Application.runInBackground=true;Time.timeScale=1;
         folder=Path.Combine(Application.temporaryCachePath,"CurrencyFeedback-"+Guid.NewGuid().ToString("N"));
         SceneManager.sceneLoaded+=Configure;
-        yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();
+        yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();
         client=GameClient.Instance;presenter=Object.FindAnyObjectByType<DamageTextPresenter>();
         foreach(var cat in client.Team.Cat_list)cat.GetComponent<ForestCombatAcceptance>().enabled=false;
         foreach(var bullet in Object.FindObjectsByType<Bullet>())bullet.gameObject.SetActive(false);
@@ -32,7 +32,7 @@ public sealed class CurrencyFeedbackTests
     }
     [UnityTearDown] public IEnumerator Teardown()
     {
-        yield return SceneManager.LoadSceneAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;
+        yield return TestSceneLoader.LoadAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;
         if(Directory.Exists(folder))Directory.Delete(folder,true);
         Application.runInBackground=background;Time.timeScale=1;
     }
@@ -96,7 +96,7 @@ public sealed class CurrencyFeedbackTests
         client.SpeedRun.Game_Win();client.SaveNow();var saved=new SaveArchive(folder).Load();
         Assert.That(saved.Dia,Is.EqualTo(dia+reward));Assert.That(saved._getDia,Is.EqualTo(earned+reward*3));
         client.SpeedRun.Game_Exit();yield return new WaitForSeconds(2);
-        yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();
+        yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();
         Assert.That(GameClient.Instance.State.Dia,Is.EqualTo(saved.Dia));Assert.That(GameClient.Instance.State._getDia,Is.EqualTo(saved._getDia));
     }
     [UnityTest] public IEnumerator CurrencyDisablingDetachesWalletAndReenableRefreshesLatestValue()

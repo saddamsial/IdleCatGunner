@@ -12,6 +12,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.TestTools;
 
 [Category("SceneArchitecture")]
+[Category("AndroidReleasePreparation")]
 public sealed class SceneArchitectureTests
 {
     string folder;
@@ -28,7 +29,7 @@ public sealed class SceneArchitectureTests
     {
         folder=Path.Combine(Application.temporaryCachePath,"SceneArchitecture-"+Guid.NewGuid().ToString("N"));
         Time.timeScale=1;SceneManager.sceneLoaded+=Configure;
-        yield return SceneManager.LoadSceneAsync("GameClient");
+        yield return TestSceneLoader.LoadAsync("GameClient");
         yield return ClientStartupWait.Ready();
         presentation=client.GetComponent<ClientPresentation>();
         canvas=client.Slider.GetComponentInParent<Canvas>().transform;
@@ -39,7 +40,7 @@ public sealed class SceneArchitectureTests
     [UnityTearDown] public IEnumerator Cleanup()
     {
         SceneManager.sceneLoaded-=Configure;Time.timeScale=1;
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
         if(Directory.Exists(folder))Directory.Delete(folder,true);
     }
     void AssertAuthoredRect(GameObject root,string path)

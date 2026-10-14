@@ -1,5 +1,11 @@
 # IdleCatGunner
 
+## 2026-10-14 安卓打包前素材整理
+
+正式场景与四个预制体已固化企鹅、冰块及现有极地素材，保留角色骨骼、碰撞、全部玩法目录和已认可的原生攻击效果。安卓构建仅包含 `GameClient`；233 项未使用 Resources 移入 Editor 归档，保留 GUID，正式 Resources 为 42 项。构建前策略检查入口、资源清单及归档依赖，测试夹具通过 Editor API 加载。31 项 PlayMode 回归通过；本轮没有生成新 APK。
+
+报告、归档迁移表和实际编辑态画面：[安卓准备报告](art/release-prep/20261014/REPORT.md)。
+
 ## 2026-10-14 场景、异步加载与正式代码命名
 
 Unity 正式入口：`reconstruction/CatGunnerUnityClient/Assets/Game/Scenes/GameClient.unity`。层级按 World、Systems、UI 管理；新增 4 个预制体，对象池启动时异步加载，武器说明/收藏页首次打开才加载。正式代码与程序集为 CatGunner.Runtime，资源迁移保留 GUID 和存档兼容；21 项不同相关回归通过。编辑态节点从 39,614 降为 30,771。

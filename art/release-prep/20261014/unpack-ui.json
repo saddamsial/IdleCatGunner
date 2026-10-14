@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var paths=new[]{\"Assets/Game/Resources/UI/Draw_Info_UI.prefab\",\"Assets/Game/Resources/UI/GunCollection_UI.prefab\"};foreach(var p in paths){var r=UnityEditor.PrefabUtility.LoadPrefabContents(p);try{var nodes=r.GetComponentsInChildren<UnityEngine.Transform>(true).Where(t=>UnityEditor.PrefabUtility.IsAnyPrefabInstanceRoot(t.gameObject)).Select(t=>t.gameObject).ToArray();foreach(var node in nodes)if(UnityEditor.PrefabUtility.IsPartOfPrefabInstance(node))UnityEditor.PrefabUtility.UnpackPrefabInstance(node,UnityEditor.PrefabUnpackMode.Completely,UnityEditor.InteractionMode.AutomatedAction);UnityEditor.PrefabUtility.SaveAsPrefabAsset(r,p);}finally{UnityEditor.PrefabUtility.UnloadPrefabContents(r);}}return paths.Select(p=>new{p,deps=UnityEditor.AssetDatabase.GetDependencies(p,true).Where(d=>d==\"Assets/Game/Resources/WeaponCollection.prefab\"||d==\"Assets/Game/Resources/WeaponDrawInformation.prefab\")});"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": [
+        {
+          "p": "Assets/Game/Resources/UI/Draw_Info_UI.prefab",
+          "deps": []
+        },
+        {
+          "p": "Assets/Game/Resources/UI/GunCollection_UI.prefab",
+          "deps": []
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

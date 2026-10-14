@@ -47,12 +47,14 @@ namespace CatGunner.Runtime
         private Material material;
         public void Configure(Cat cat,Sprite sprite,Sprite source,SpriteRenderer target)
         {
+            if(Renderer==target && hero==cat && Skin!=null)return;
             anchor=target;hero=cat;faceBase=cat.Face_Pivot_trans.localEulerAngles.z;
             height=sprite.bounds.size.y;
             target.sprite=sprite;target.enabled=true;
             material=new Material(target.sharedMaterial){name="Penguin animation material"};
             material.mainTexture=sprite.texture;target.sharedMaterial=material;Renderer=target;
-            Skin=CreateSkeleton(target);bones=Skin.boneTransforms;
+            Skin=target.GetComponent<SpriteSkin>()??CreateSkeleton(target);bones=Skin.boneTransforms;
+            if(bones.Length!=7)throw new InvalidOperationException("Authored penguin skeleton must retain seven bones");
             bindPositions=bones.Select(b=>b.localPosition).ToArray();
             snapshot=new Mesh{name="Penguin SpriteSkin diagnostic snapshot"};
             snapshot.vertices=sprite.vertices.Select(p=>(Vector3)p).ToArray();

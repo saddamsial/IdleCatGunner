@@ -23,12 +23,12 @@ public sealed class BossBalanceTests
         background = Application.runInBackground; Application.runInBackground = true;
         folder = Path.Combine(Application.temporaryCachePath, "BossBalance-" + Guid.NewGuid().ToString("N"));
         SceneManager.sceneLoaded += Independent;
-        yield return SceneManager.LoadSceneAsync("GameClient"); yield return ClientStartupWait.Ready();
+        yield return TestSceneLoader.LoadAsync("GameClient"); yield return ClientStartupWait.Ready();
         c = GameClient.Instance; ForestRuntimeAcceptance.IsGaming = false;
     }
     [UnityTearDown] public IEnumerator Cleanup()
     {
-        yield return SceneManager.LoadSceneAsync("TargetPreview"); SceneManager.sceneLoaded -= Independent;
+        yield return TestSceneLoader.LoadAsync("TargetPreview"); SceneManager.sceneLoaded -= Independent;
         Time.timeScale = 1; Application.runInBackground = background;
         if (Directory.Exists(folder)) Directory.Delete(folder, true);
     }
@@ -77,8 +77,8 @@ public sealed class BossBalanceTests
     [UnityTest] public IEnumerator ColdReloadPreservesUpgradesAndReappliesBossModeBalance()
     {
         Equip(5); UpgradeForest(); c.SaveNow();
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
-        yield return SceneManager.LoadSceneAsync("GameClient"); yield return ClientStartupWait.Ready();
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("GameClient"); yield return ClientStartupWait.Ready();
         c = GameClient.Instance; ForestRuntimeAcceptance.IsGaming = false;
         Assert.That(c.State.Upgrade_Lv.Take(2), Is.EqualTo(new[] {100, 500}));
         Assert.That(c.Hero._gunInfo.Name, Is.EqualTo(EquipmentCatalogue.Load().Gun_list[5].Name));

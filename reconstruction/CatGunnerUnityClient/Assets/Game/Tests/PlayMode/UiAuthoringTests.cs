@@ -1,5 +1,6 @@
 using System;using System.IO;using System.Linq;using System.Collections;using NUnit.Framework;using UnityEngine;using UnityEngine.UI;using TMPro;using UnityEngine.SceneManagement;using UnityEngine.TestTools;using CatGunner.Runtime;
 [Category("SceneArchitecture")]
+[Category("AndroidReleasePreparation")]
 public sealed class UiAuthoringTests
 {
  string folder;GameClient client;Canvas canvas;Image manualIcon;TMP_Text manualCaption;Transform manualParent;int edgeCount;RectTransform manualProgressFill;Image manualCatalogueImage;Sprite customCatalogueSprite;
@@ -21,8 +22,8 @@ public sealed class UiAuthoringTests
   manualCatalogueImage=client.Skins.Skin_item_list[0].Cat_img;customCatalogueSprite=client.GetComponent<PenguinUiTheme>().Gear;manualCatalogueImage.sprite=customCatalogueSprite;
   manualProgressFill=client.Slider.Value_Fill.rectTransform;manualProgressFill.anchorMin=new Vector2(.1f,.15f);manualProgressFill.anchorMax=new Vector2(.9f,.85f);
  }
- [UnitySetUp]public IEnumerator Setup(){Application.runInBackground=true;Time.timeScale=1;folder=Path.Combine(Application.temporaryCachePath,"UiAuthoring-"+Guid.NewGuid().ToString("N"));SceneManager.sceneLoaded+=AuthorBeforeStart;yield return SceneManager.LoadSceneAsync("GameClient");if(TestContext.CurrentContext.Test.Name=="LoadingKeepsHudVisibleDuringStartup")yield return RecordStartupFrame();yield return ClientStartupWait.Ready();client.Tutorial.SetCleared();client.DailyLogin.AutoShow=false;client.DailyLogin.Close();client.Offline.offlinePanelUI.gameObject.SetActive(false);yield return null;}
- [UnityTearDown]public IEnumerator Cleanup(){SceneManager.sceneLoaded-=AuthorBeforeStart;Time.timeScale=1;yield return SceneManager.LoadSceneAsync("TargetPreview");if(Directory.Exists(folder))Directory.Delete(folder,true);}
+ [UnitySetUp]public IEnumerator Setup(){Application.runInBackground=true;Time.timeScale=1;folder=Path.Combine(Application.temporaryCachePath,"UiAuthoring-"+Guid.NewGuid().ToString("N"));SceneManager.sceneLoaded+=AuthorBeforeStart;yield return TestSceneLoader.LoadAsync("GameClient");if(TestContext.CurrentContext.Test.Name=="LoadingKeepsHudVisibleDuringStartup")yield return RecordStartupFrame();yield return ClientStartupWait.Ready();client.Tutorial.SetCleared();client.DailyLogin.AutoShow=false;client.DailyLogin.Close();client.Offline.offlinePanelUI.gameObject.SetActive(false);yield return null;}
+ [UnityTearDown]public IEnumerator Cleanup(){SceneManager.sceneLoaded-=AuthorBeforeStart;Time.timeScale=1;yield return TestSceneLoader.LoadAsync("TargetPreview");if(Directory.Exists(folder))Directory.Delete(folder,true);}
  [Serializable]sealed class StartupFrame{public bool starting,loadingVisible,startupObserved,startupHudVisible,startupInputLocked,overrideSorting;public int startupLoadingDepth,startupHudDepth;public bool[] upgradeVisibility;}
  IEnumerator RecordStartupFrame()
  {

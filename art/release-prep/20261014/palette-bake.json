@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "command": "command run_script",
+  "data": {
+    "command": "run_script",
+    "parameters": {
+      "entry": "FinalizeProductionPalette.Run",
+      "timeout_ms": "60000",
+      "file": "/Volumes/ZHITAI_1T/IdleCatGunner/art/release-prep/20261014/FinalizeProductionPalette.cs"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 55,
+      "executeMs": 8499,
+      "assemblyName": "PipelineRunScript_FinalizeProductionPalette_eeb3bd36b3734b759f0a8c980ec6e6b9",
+      "success": true,
+      "result": "Persisted approved renderer tints: 30; monster palette and glacier tops authored; health channels retained"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

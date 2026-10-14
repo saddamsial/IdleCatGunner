@@ -4,8 +4,8 @@ public sealed class PenguinActionTests
 {
  string folder;GameClient c;
  void Isolate(Scene s,LoadSceneMode m){if(s.name=="GameClient")s.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<GameClient>(true)).Single().SaveFolderOverride=folder;}
- [UnitySetUp]public IEnumerator Setup(){Time.timeScale=1;folder=Path.Combine(Application.temporaryCachePath,"PenguinAction-"+Guid.NewGuid().ToString("N"));SceneManager.sceneLoaded+=Isolate;yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();c=GameClient.Instance;c.DailyLogin.AutoShow=false;c.DailyLogin.Close();c.Tutorial.SetCleared();}
- [UnityTearDown]public IEnumerator Cleanup(){Time.timeScale=1;yield return SceneManager.LoadSceneAsync("TargetPreview");SceneManager.sceneLoaded-=Isolate;if(Directory.Exists(folder))Directory.Delete(folder,true);}
+ [UnitySetUp]public IEnumerator Setup(){Time.timeScale=1;folder=Path.Combine(Application.temporaryCachePath,"PenguinAction-"+Guid.NewGuid().ToString("N"));SceneManager.sceneLoaded+=Isolate;yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();c=GameClient.Instance;c.DailyLogin.AutoShow=false;c.DailyLogin.Close();c.Tutorial.SetCleared();}
+ [UnityTearDown]public IEnumerator Cleanup(){Time.timeScale=1;yield return TestSceneLoader.LoadAsync("TargetPreview");SceneManager.sceneLoaded-=Isolate;if(Directory.Exists(folder))Directory.Delete(folder,true);}
  [UnityTest]public IEnumerator ShortWingTracksEquipmentWithoutMovingNativeMuzzle()
  {
   ForestRuntimeAcceptance.IsGaming=false;foreach(var cat in c.Team.Cat_list){cat.enabled=false;var movement=cat.GetComponent<ForestMovementAcceptance>();if(movement!=null)movement.enabled=false;var combat=cat.GetComponent<ForestCombatAcceptance>();if(combat!=null)combat.enabled=false;}

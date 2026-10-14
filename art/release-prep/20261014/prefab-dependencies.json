@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var targets=new[]{\"Assets/Game/Resources/WeaponDrawInformation.prefab\",\"Assets/Game/Resources/WeaponCollection.prefab\"};var roots=new[]{\"Assets/Game/Scenes/GameClient.unity\",\"Assets/Game/Resources/UI/Draw_Info_UI.prefab\",\"Assets/Game/Resources/UI/GunCollection_UI.prefab\",\"Assets/Game/Resources/Gameplay/ProjectilePoolContent.prefab\"};return roots.Select(p=>new{path=p,oldPrefabs=UnityEditor.AssetDatabase.GetDependencies(p,true).Intersect(targets)});"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": [
+        {
+          "path": "Assets/Game/Scenes/GameClient.unity",
+          "oldPrefabs": []
+        },
+        {
+          "path": "Assets/Game/Resources/UI/Draw_Info_UI.prefab",
+          "oldPrefabs": [
+            "Assets/Game/Resources/WeaponDrawInformation.prefab"
+          ]
+        },
+        {
+          "path": "Assets/Game/Resources/UI/GunCollection_UI.prefab",
+          "oldPrefabs": [
+            "Assets/Game/Resources/WeaponCollection.prefab"
+          ]
+        },
+        {
+          "path": "Assets/Game/Resources/Gameplay/ProjectilePoolContent.prefab",
+          "oldPrefabs": []
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

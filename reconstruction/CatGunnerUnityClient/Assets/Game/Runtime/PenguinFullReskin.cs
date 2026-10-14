@@ -13,12 +13,13 @@ namespace CatGunner.Runtime
     [UnityEngine.Scripting.APIUpdating.MovedFrom(true, sourceNamespace: "CatGunner.Recovery", sourceAssembly: "CatGunner.Recovery", sourceClassName: "PenguinFullReskin")] public sealed class PenguinFullReskin : MonoBehaviour
     {
         public bool StaticUiBaked;
+        public bool WorldVisualsBaked;
         public Sprite[] Sources=Array.Empty<Sprite>(), Replacements=Array.Empty<Sprite>();
         public Sprite[] Skins,Weapons,Fish,Pets,Bosses,RaidBosses,Monsters,Gems,Icons,Utilities,Effects,Landscapes;
         public Vector4[] EyeA,EyeB,Mouth;
         public Sprite WeeklyShop,ApprovedPenguin;
         public Sprite[] PetDirections=Array.Empty<Sprite>();
-        public Shader FaceShader,FloatingShader,RingShader;
+        public Shader FaceShader,FloatingShader,RingShader,ParticleShader;
         [UnityEngine.Serialization.FormerlySerializedAs("PreserveOriginalRingStyle")]
         public bool PreserveClassicRingStyle=true;
         [UnityEngine.Serialization.FormerlySerializedAs("PreserveOriginalAttackEffects")]
@@ -63,10 +64,10 @@ namespace CatGunner.Runtime
             map.Clear();for(int i=0;i<Sources.Length;i++)if(Sources[i]!=null&&Replacements[i]!=null&&!(PreserveClassicRingStyle&&IsClassicGlow(Sources[i])))map[Sources[i]]=Replacements[i];
             textureMap.Clear();for(int i=0;i<SourceTextures.Length;i++)if(SourceTextures[i]!=null&&ThemedTextures[i]!=null)textureMap[SourceTextures[i]]=ThemedTextures[i];
             var roots=gameObject.scene.GetRootGameObjects();var behaviours=new List<MonoBehaviour>();
-            foreach(var root in roots)behaviours.AddRange(root.GetComponentsInChildren<MonoBehaviour>(true));
+            if(!WorldVisualsBaked)foreach(var root in roots)behaviours.AddRange(root.GetComponentsInChildren<MonoBehaviour>(true));
             foreach(var b in behaviours)
             {
-                if(b==null||(StaticUiBaked&&b.GetComponentInParent<Canvas>(true)!=null)||b is PenguinFullReskin||b is PenguinUiTheme||b is PenguinExpeditionTheme||b is Graphic)continue;
+                if(WorldVisualsBaked||b==null||(StaticUiBaked&&b.GetComponentInParent<Canvas>(true)!=null)||b is PenguinFullReskin||b is PenguinUiTheme||b is PenguinExpeditionTheme||b is Graphic)continue;
                 foreach(var field in b.GetType().GetFields(BindingFlags.Public|BindingFlags.Instance))
                 {
                     if(b is Skin_manager&&field.Name=="Skin_Bone_sprites")continue;
@@ -157,19 +158,26 @@ namespace CatGunner.Runtime
                 if(r.name=="Shadow")shadow=r;
                 if(r==cat.skin_spriteRenderer||r==cat.hand_spriteRenderer||r.name=="hand_outlilne"||r.sprite!=null&&r.sprite.name=="face")hidden.Add(r);
             }
-            var anchor=cat==client.Hero?GetComponent<PenguinExpeditionTheme>().Avatar:null;
-            bool hero=anchor!=null;
-            if(!hero)
+            var binding=cat.GetComponent<PenguinAvatarBinding>();
+            if(binding!=null){hidden.Clear();hidden.AddRange(binding.HiddenRenderers);shadow=binding.Shadow;binding.HideNativeRenderers();}
+            var anchor=binding!=null?binding.Visual:cat==client.Hero?GetComponent<PenguinExpeditionTheme>().Avatar:null;
+            bool hero=cat==client.Hero;
+            if(anchor==null)
             {
                 var go=new GameObject("Penguin teammate visual");go.transform.SetParent(cat.skin_spriteRenderer.transform,false);visuals.Add(go);
                 anchor=go.AddComponent<SpriteRenderer>();anchor.sprite=ApprovedPenguin;anchor.sharedMaterial=cat.skin_spriteRenderer.sharedMaterial;anchor.sortingLayerID=cat.skin_spriteRenderer.sortingLayerID;anchor.sortingOrder=cat.skin_spriteRenderer.sortingOrder;
                 go.AddComponent<PenguinTeammateAnchor>().Configure(cat,anchor,shadow,ApprovedPenguin);
                 go.AddComponent<PenguinBoneMotion>().Configure(cat,ApprovedPenguin,cat.skin_spriteRenderer.sprite,anchor);
             }
+            if(binding!=null&&cat!=client.Hero)
+            {
+                (anchor.GetComponent<PenguinTeammateAnchor>()??anchor.gameObject.AddComponent<PenguinTeammateAnchor>()).Configure(cat,anchor,shadow,ApprovedPenguin);
+                (anchor.GetComponent<PenguinBoneMotion>()??anchor.gameObject.AddComponent<PenguinBoneMotion>()).Configure(cat,ApprovedPenguin,cat.skin_spriteRenderer.sprite,anchor);
+            }
             foreach(var r in hidden){var original=r.enabled;restore.Add(()=>{if(r!=null)r.enabled=original;});r.enabled=false;}
-            var expression=anchor.gameObject.AddComponent<PenguinExpression>();expression.Configure(anchor.GetComponent<PenguinBoneMotion>(),FaceShader,team.Count*.83f);
+            var expression=anchor.GetComponent<PenguinExpression>()??anchor.gameObject.AddComponent<PenguinExpression>();expression.Configure(anchor.GetComponent<PenguinBoneMotion>(),FaceShader,team.Count*.83f);
             // Hero motion existed before this catalogue; destroy only its new face adapter.
-            if(hero)restore.Add(()=>{if(expression!=null)Destroy(expression);});
+            if(hero||binding!=null)restore.Add(()=>{if(expression!=null)Destroy(expression);});
             expressions.Add(expression);team.Add(new TeamAvatar{Cat=cat,Anchor=anchor,Shadow=shadow,Hidden=hidden.ToArray(),Expression=expression,Hero=hero});
         }
         private void CreateActor(Transform owner,Sprite[] sprites,Func<int> selection,Func<bool> dead,float heightRatio,Pet pet=null)
@@ -177,19 +185,24 @@ namespace CatGunner.Runtime
             var hidden=new List<Renderer>();SpriteRenderer shadow=null;
             foreach(var r in owner.GetComponentsInChildren<Renderer>(true))
             {
+                if(r.GetComponentInParent<PenguinCatalogActor>(true)!=null)continue;
                 if(r.name.ToLowerInvariant().Contains("shadow")){if(r is SpriteRenderer s)shadow=s;continue;}
                 if(r is ParticleSystemRenderer)continue;
                 var original=r.enabled;restore.Add(()=>{if(r!=null)r.enabled=original;});r.enabled=false;hidden.Add(r);
             }
-            var go=new GameObject("Polar catalogue actor");go.transform.SetParent(owner,false);visuals.Add(go);
-            var actor=go.AddComponent<PenguinCatalogActor>();actor.Configure(sprites,selection,dead,hidden.ToArray(),shadow,heightRatio,pet,client.Hero,PetDirections);
+            var binding=owner.GetComponent<PenguinActorBinding>();
+            var actor=binding!=null?binding.Actor:null;
+            if(actor==null){var go=new GameObject("Polar catalogue actor");go.transform.SetParent(owner,false);visuals.Add(go);actor=go.AddComponent<PenguinCatalogActor>();}
+            if(binding!=null){hidden.Clear();hidden.AddRange(binding.HiddenRenderers);shadow=binding.Shadow;}actor.Configure(sprites,selection,dead,hidden.ToArray(),shadow,heightRatio,pet,client.Hero,PetDirections);
         }
         private void CreatePreview(Pet_Dummy dummy)
         {
-            var renderers=dummy.GetComponentsInChildren<Renderer>(true);foreach(var r in renderers){bool old=r.enabled;restore.Add(()=>{if(r!=null)r.enabled=old;});r.enabled=false;}
-            var go=new GameObject("Polar expedition pet preview");go.transform.SetParent(dummy.transform,false);visuals.Add(go);
+            var binding=dummy.GetComponent<PenguinActorBinding>();
+            var renderers=binding!=null?binding.HiddenRenderers:dummy.GetComponentsInChildren<Renderer>(true);foreach(var r in renderers){bool old=r.enabled;restore.Add(()=>{if(r!=null)r.enabled=old;});r.enabled=false;}
+            var preview=binding!=null?binding.Preview:null;
+            if(preview==null){var go=new GameObject("Polar expedition pet preview");go.transform.SetParent(dummy.transform,false);visuals.Add(go);preview=go.AddComponent<PenguinPetPreview>();}
             var camera=client.Adventure.adventure_panel_ui.RenderTexture_Map_obj.GetComponentInChildren<Camera>(true);
-            go.AddComponent<PenguinPetPreview>().Configure(dummy,Pets,camera,renderers);
+            preview.Configure(dummy,Pets,camera,renderers);
         }
         private static int ActivePet(Pet p){for(int i=0;i<p.Skin_list.Length;i++)if(p.Skin_list[i].activeSelf)return i;return 0;}
         private void StyleParticle(ParticleSystem p)
@@ -220,7 +233,7 @@ namespace CatGunner.Runtime
                 mat=new Material(r.sharedMaterial){name="Polar attack effect"};mat.mainTexture=money?coin.texture:Effects[effect].texture;
                 // Replacement art is a single 2D sprite, not the original cone
                 // mesh/atlas. Remove incompatible mesh UVs and blend state.
-                var flatShader=Shader.Find("Game/ParticleCompatibility");if(flatShader!=null)mat.shader=flatShader;
+                var flatShader=ParticleShader!=null?ParticleShader:Shader.Find("Game/ParticleCompatibility");if(flatShader!=null)mat.shader=flatShader;
                 mat.mainTextureScale=Vector2.one;mat.mainTextureOffset=Vector2.zero;
                 if(mat.HasProperty("_SrcBlend"))mat.SetFloat("_SrcBlend",5);if(mat.HasProperty("_DstBlend"))mat.SetFloat("_DstBlend",10);
                 if(mat.HasProperty("_EnableExternalAlpha"))mat.SetFloat("_EnableExternalAlpha",0);
@@ -255,7 +268,7 @@ namespace CatGunner.Runtime
                 if(!particleMaterials.TryGetValue(key,out var material))
                 {
                     material=new Material(original){name="Penguin degree "+texture.name};
-                    var shader=Shader.Find("Game/ParticleCompatibility");if(shader!=null)material.shader=shader;
+                    var shader=ParticleShader!=null?ParticleShader:Shader.Find("Game/ParticleCompatibility");if(shader!=null)material.shader=shader;
                     // Recovered materials can retain opaque Standard defaults
                     // (One/Zero), which expose the transparent texture rectangle.
                     if(material.HasProperty("_SrcBlend"))material.SetFloat("_SrcBlend",5);
@@ -297,6 +310,7 @@ namespace CatGunner.Runtime
         private void Maintain()
         {
             if(!applied)return;
+            if(WorldVisualsBaked)return;
             foreach(var image in images)if(!StaticUiBaked&&image!=null&&image.isActiveAndEnabled&&image.sprite!=null&&map.TryGetValue(image.sprite,out var s)){image.sprite=s;image.color=new Color(1,1,1,image.color.a);image.preserveAspect=!IsBackdrop(image.sprite);}
             foreach(var r in renderers)if(r!=null&&r.sprite!=null&&map.TryGetValue(r.sprite,out var s)){bool keep=r.GetComponent<SpriteFill>()!=null||IsNeutralShape(r.sprite);r.sprite=s;if(!keep)r.color=new Color(1,1,1,r.color.a);}
             foreach(var raw in rawImages)if(!StaticUiBaked&&raw!=null&&raw.texture!=null&&!(raw.texture is RenderTexture)&&textureMap.TryGetValue(raw.texture,out var texture))raw.texture=texture;

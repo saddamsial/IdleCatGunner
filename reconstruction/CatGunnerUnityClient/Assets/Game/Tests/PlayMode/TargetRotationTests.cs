@@ -17,12 +17,12 @@ public sealed class TargetRotationTests
     [UnitySetUp] public IEnumerator Setup()
     {
         background=Application.runInBackground;Application.runInBackground=true;folder=Path.Combine(Application.temporaryCachePath,"TargetRotation-"+Guid.NewGuid().ToString("N"));
-        SceneManager.sceneLoaded+=Configure;yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();client=GameClient.Instance;
+        SceneManager.sceneLoaded+=Configure;yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();client=GameClient.Instance;
         client.DailyLogin.Close();client.Tutorial.SetCleared();ForestRuntimeAcceptance.IsGaming=false;client.Hero.GetComponent<ForestCombatAcceptance>().EnableTargeting=false;client.Hero.ClearNearObj();
         first=new GameObject("Target rotation fixture A");first.AddComponent<BoxCollider>();first.transform.position=client.Hero.transform.position+Vector3.forward*12;
         second=new GameObject("Target rotation fixture B");second.AddComponent<BoxCollider>();second.transform.position=first.transform.position+Vector3.right*5;
     }
-    [UnityTearDown] public IEnumerator Cleanup(){Time.timeScale=1;if(first!=null)UnityEngine.Object.Destroy(first);if(second!=null)UnityEngine.Object.Destroy(second);yield return SceneManager.LoadSceneAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;Application.runInBackground=background;if(Directory.Exists(folder))Directory.Delete(folder,true);}
+    [UnityTearDown] public IEnumerator Cleanup(){Time.timeScale=1;if(first!=null)UnityEngine.Object.Destroy(first);if(second!=null)UnityEngine.Object.Destroy(second);yield return TestSceneLoader.LoadAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;Application.runInBackground=background;if(Directory.Exists(folder))Directory.Delete(folder,true);}
     void Track(GameObject go){typeof(Cat).GetField("nearObj",BindingFlags.Instance|BindingFlags.NonPublic).SetValue(client.Hero,go!=null?go.GetComponent<Collider>():null);client.Hero.UpdateTargetIndicator();}
     IEnumerator Capture(string name){yield return new WaitForEndOfFrame();ScreenCapture.CaptureScreenshot(Report("visual/target-rotation-"+name+"-gpu.png"));yield return new WaitForSecondsRealtime(.2f);}
     [UnityTest] public IEnumerator TrackedMarkerRotatesPausesAndFollowsTargetSwitch()

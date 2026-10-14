@@ -26,7 +26,7 @@ public sealed class MissileTests
     }
     private static IEnumerator Load(int gun=24)
     {
-        Time.timeScale=1;yield return SceneManager.LoadSceneAsync("Forest");yield return null;
+        Time.timeScale=1;yield return TestSceneLoader.LoadAsync("Forest");yield return null;
         var cat=Cat.instance;cat.GetComponent<ForestCombatAcceptance>().enabled=false;cat.GetComponent<ForestMovementAcceptance>().enabled=false;
         var data=EquipmentCatalogue.Load();data.Selected_items=new[]{gun,-1,-1};Assert.That(data.ApplyPackageForest(cat),Is.True);
         ResetPool();

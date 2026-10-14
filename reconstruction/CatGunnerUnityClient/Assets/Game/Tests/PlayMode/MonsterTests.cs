@@ -29,7 +29,7 @@ public sealed class MonsterTests
         SceneManager.sceneLoaded+=Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;ContentNavigationFixture.Unlock(c,Content_Type.Monster);yield return null;var m=c.MonsterMode;
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;ContentNavigationFixture.Unlock(c,Content_Type.Monster);yield return null;var m=c.MonsterMode;
             c.State.Owned_Gun_list[0]=20;Assert.That(c.Inventory.Equip(0,0),Is.True);int coin=c.State.PetCoin,stage=c.Forest.Stage_Now,forestWave=c.Forest.Level_Now;
             c.State.Upgrade_Lv[0]=50;c.State.Upgrade_Lv[1]=50;c.ApplyBalance();var nativeGun=EquipmentCatalogue.Load().Gun_list[20];
             var nav=UnityEngine.Object.FindObjectsByType<Button>(FindObjectsInactive.Include).Single(b=>b.name=="Monster_Btn");Canvas.ForceUpdateCanvases();var rect=(RectTransform)nav.transform;
@@ -48,14 +48,14 @@ public sealed class MonsterTests
             m.Game_Exit();yield return new WaitForSeconds(2);Assert.That(c.Mode,Is.Zero);Assert.That(m.NonSpawned_Monster.Count,Is.EqualTo(240));Assert.That(m.Spawned_Monster.Count,Is.Zero);Assert.That(Camera.main.orthographicSize,Is.EqualTo(40));Assert.That((c.Forest.Stage_Now,c.Forest.Level_Now),Is.EqualTo((stage,forestWave)));
         }
         finally{SceneManager.sceneLoaded-=Independent;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     [UnityTest] public IEnumerator KnockbackSlimeDeathReplacementAndLastLifeFailureAreDistinct()
     {
         SceneManager.sceneLoaded+=Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var m=c.MonsterMode;StopCombat(c);m.HP_Max=2;m.Game_Enter();yield return new WaitForSeconds(2.1f);Assert.That(m.Playing,Is.True);m.StopAllGameCoroutines();
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var m=c.MonsterMode;StopCombat(c);m.HP_Max=2;m.Game_Enter();yield return new WaitForSeconds(2.1f);Assert.That(m.Playing,Is.True);m.StopAllGameCoroutines();
             Assert.That(m.HP_Disc.AngRadiansEnd,Is.EqualTo(360));var first=m.Spawned_Monster.First();var coll=first.GetComponentsInChildren<EnemyColl>().First().GetComponent<Collider>();
             var direction=(first.transform.position-MonsterRules.Center).normalized;
             Assert.That(Vector3.Dot(first.MoveVelocity,direction),Is.LessThan(0));
@@ -71,14 +71,14 @@ public sealed class MonsterTests
             Assert.That(m.WaveBaseHealth_return(2000).Value.CompareTo(m.WaveBaseHealth_Pure(2000).Value),Is.Zero);
         }
         finally{SceneManager.sceneLoaded-=Independent;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     [UnityTest] public IEnumerator NaturalOriginalSingleLifeBreachAndEntryCancellationCannotAwardOrRestart()
     {
         SceneManager.sceneLoaded+=Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var m=c.MonsterMode;StopCombat(c);int coin=c.State.PetCoin;
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var m=c.MonsterMode;StopCombat(c);int coin=c.State.PetCoin;
             m.Game_Enter();m.Game_Exit();yield return new WaitForSeconds(3.2f);Assert.That(c.Mode,Is.Zero);Assert.That(m.Entering,Is.False);Assert.That(m.GameExplain_obj.activeSelf,Is.False);Assert.That(c.State.PetCoin,Is.EqualTo(coin));
             m.Game_Enter();float began=Time.realtimeSinceStartup,deadline=began+50;
             while((m.Entering||m.Playing)&&Time.realtimeSinceStartup<deadline)yield return null;
@@ -87,14 +87,14 @@ public sealed class MonsterTests
             m.Game_Exit();yield return new WaitForSeconds(2);Assert.That(c.Mode,Is.Zero);Assert.That(m.Spawned_Monster.Count,Is.Zero);
         }
         finally{SceneManager.sceneLoaded-=Independent;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     [UnityTest] public IEnumerator FifthLevelBigEnemiesRollIntoNextWaveAndRestoreOriginalHud()
     {
         SceneManager.sceneLoaded+=Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var m=c.MonsterMode;StopCombat(c);m.Lv_Now=4;c.State.Lv_Now=4;int coin=c.State.PetCoin;
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var m=c.MonsterMode;StopCombat(c);m.Lv_Now=4;c.State.Lv_Now=4;int coin=c.State.PetCoin;
             m.Game_Enter();float deadline=Time.realtimeSinceStartup+35;int normal=0,big=0;
             while(m.PetCoin_Accum==0&&Time.realtimeSinceStartup<deadline)
             {
@@ -111,7 +111,7 @@ public sealed class MonsterTests
             Assert.That(m.Spawned_Monster.All(o=>o.enemy.Health_Max.Value.PlainInteger()=="1500"),Is.True);m.Game_GiveUp();m.Game_Exit();yield return new WaitForSeconds(2);Assert.That(c.Mode,Is.Zero);Assert.That(m.NonSpawned_Monster.Count,Is.EqualTo(240));
         }
         finally{SceneManager.sceneLoaded-=Independent;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     [Serializable]private sealed class Observation{public int kills,coin,hp,wave,level;public float seconds,moved;public string fixture;}
 }

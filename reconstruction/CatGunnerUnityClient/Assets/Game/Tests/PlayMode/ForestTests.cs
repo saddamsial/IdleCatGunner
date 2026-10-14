@@ -12,7 +12,7 @@ public sealed class ForestTests
     public IEnumerator OriginalScenePoolSpawnsFiveWavesAndAllTenMapSkins()
     {
         var randomState=Random.state;
-        yield return SceneManager.LoadSceneAsync("Forest");
+        yield return TestSceneLoader.LoadAsync("Forest");
         yield return null;
         Cat.instance.GetComponent<ForestCombatAcceptance>().enabled=false;
         try
@@ -70,7 +70,7 @@ public sealed class ForestTests
     [UnityTest]
     public IEnumerator TreeDamageHonorsGamingGateLethalHitAndDuplicateDeath()
     {
-        yield return SceneManager.LoadSceneAsync("Forest");
+        yield return TestSceneLoader.LoadAsync("Forest");
         yield return null;
         Cat.instance.GetComponent<ForestCombatAcceptance>().enabled=false;
         var manager=Tree_manager.instance;

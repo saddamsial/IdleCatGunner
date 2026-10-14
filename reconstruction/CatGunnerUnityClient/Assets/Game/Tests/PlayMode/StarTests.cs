@@ -58,7 +58,7 @@ public sealed class StarTests
         SceneManager.sceneLoaded+=Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var m=c.StarUpgrades;Assert.That(m,Is.Not.Null);var p=m.popup;
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var m=c.StarUpgrades;Assert.That(m,Is.Not.Null);var p=m.popup;
             c.Forest.Stage_Value_Max=389;c.Guns.ReloadGunUI();Assert.That(c.Guns.Gun_Slot_List[0].StarUpgrade_obj.activeSelf,Is.False);
             c.Forest.Stage_Value_Max=390;c.State.StarGem=200;m.RandomProvider=(min,max)=>99;c.Guns.ReloadGunUI();
             Click(UnityEngine.Object.FindObjectsByType<Button>(FindObjectsInactive.Include).Single(b=>b.name=="Gun_Btn"));yield return new WaitForSeconds(.4f);
@@ -77,7 +77,7 @@ public sealed class StarTests
             Click(p.GetComponentsInChildren<Button>(true).Single(b=>b.name=="Close_Btn"));Assert.That(p.gameObject.activeSelf,Is.False);
         }
         finally{SceneManager.sceneLoaded-=Independent;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     [UnityTest] public IEnumerator IndependentSaveResumeKeepsSlotIdentityAcrossSwapRebirthAndRaid()
     {
@@ -87,11 +87,11 @@ public sealed class StarTests
         SceneManager.sceneLoaded+=saved;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var m=c.StarUpgrades;
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var m=c.StarUpgrades;
             c.Forest.Stage_Value_Max=390;c.State.StarGem=200;m.RandomProvider=(min,max)=>99;
             Assert.That(m.Upgrade(0),Is.EqualTo(StarUpgrade_manager.UpgradeResult.Success));Assert.That(m.Upgrade(0),Is.EqualTo(StarUpgrade_manager.UpgradeResult.Fail));c.SaveNow();
             Assert.That(File.Exists(Path.Combine(folder,"NoSaveFile.json")),Is.True);
-            yield return SceneManager.LoadSceneAsync("TargetPreview");yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;c=GameClient.Instance;m=c.StarUpgrades;
+            yield return TestSceneLoader.LoadAsync("TargetPreview");yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;c=GameClient.Instance;m=c.StarUpgrades;
             Assert.That(c.SaveFolderOverride,Is.EqualTo(folder));Assert.That((c.State.StarGem,m.Lv_return(0),c.State.Star_Slot_FailCount[0]),Is.EqualTo((50,1,1)));Assert.That(c.Hero.Damage_str,Is.EqualTo("150"));
             Assert.That(c.Inventory.SwapSelected(0,1),Is.True);Assert.That(c.State.Star_Slot_Lv,Is.EqualTo(new[]{1,0,0}));Assert.That(c.Hero.SlotNum,Is.Zero);Assert.That(c.Hero.Damage_str,Is.EqualTo("150"),"Native compact Cat position, not the moved gun slot identity");
             m.Open_Popup(0,false);Assert.That(m.popup.Damage_Value_obj.activeSelf,Is.False);m.popup.Close();Assert.That(c.Inventory.SwapSelected(0,1),Is.True);
@@ -104,7 +104,7 @@ public sealed class StarTests
             c.Persist=false;
         }
         finally{SceneManager.sceneLoaded-=saved;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");Directory.Delete(folder,true);
+        yield return TestSceneLoader.LoadAsync("TargetPreview");Directory.Delete(folder,true);
     }
     [Serializable] private sealed class CombatObservation {public int hits;public string damage;public bool critical;public int starLevel;public string fixture;}
     [UnityTest] public IEnumerator UpgradedOriginalGunZeroKillsOriginalTreeWithTwoNaturalProjectiles()
@@ -112,7 +112,7 @@ public sealed class StarTests
         SceneManager.sceneLoaded+=Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;c.Forest.Stage_Value_Max=390;c.State.StarGem=50;
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;c.Forest.Stage_Value_Max=390;c.State.StarGem=50;
             Assert.That(c.StarUpgrades.Upgrade(0),Is.EqualTo(StarUpgrade_manager.UpgradeResult.Success));Assert.That(c.State.StarGem,Is.Zero);Assert.That(c.Hero.Damage_str,Is.EqualTo("150"));
             var trees=c.Forest.Map_obj.GetComponentsInChildren<Tree>(false);var tree=trees.First(t=>t!=c.Forest.Boss_tree&&t.enemy.Health_Max.Value.CompareTo(new DecimalAmount(250))==0);
             foreach(var other in trees)if(other!=tree)other.gameObject.SetActive(false);
@@ -130,6 +130,6 @@ public sealed class StarTests
             finally{ForestDamageDispatch.DamageTextPending-=listener;}
         }
         finally{SceneManager.sceneLoaded-=Independent;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
 }

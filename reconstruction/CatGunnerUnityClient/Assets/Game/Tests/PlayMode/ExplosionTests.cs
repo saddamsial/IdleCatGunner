@@ -26,7 +26,7 @@ public sealed class ExplosionTests
     }
     private static IEnumerator Load(int gun=14)
     {
-        yield return SceneManager.LoadSceneAsync("Forest");yield return null;
+        yield return TestSceneLoader.LoadAsync("Forest");yield return null;
         var cat=Cat.instance;cat.GetComponent<ForestCombatAcceptance>().enabled=false;cat.GetComponent<ForestMovementAcceptance>().enabled=false;
         var data=EquipmentCatalogue.Load();data.Selected_items=new[]{gun,-1,-1};data.ApplyPackageForest(cat);
         foreach(var go in Polling_manager.instance.Polling_List[0].Objects)

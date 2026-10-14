@@ -61,7 +61,7 @@ public sealed class SafeTests
  {
   SceneManager.sceneLoaded+=Independent;
   try{
-   yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var m=c.Safe;Assert.That(m,Is.Not.Null);
+   yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var m=c.Safe;Assert.That(m,Is.Not.Null);
    Click(UnityEngine.Object.FindObjectsByType<Button>(FindObjectsInactive.Include).Single(b=>b.name=="Gun_Btn"));yield return new WaitForSeconds(.35f);
    Click(m.safe_hud.GetComponent<Button>());Assert.That(m.safe_ui.gameObject.activeSelf,Is.False);Assert.That(m.safe_hud.Locked_obj.activeSelf,Is.True);
    c.Forest.Stage_Value_Max=390;c.State.Owned_Gun_list[7]=9;c.State.Owned_Gun_Pause[7]=true;c.Guns.ReloadGunUI();m.UI_Reload();
@@ -75,13 +75,13 @@ public sealed class SafeTests
    ScreenCapture.CaptureScreenshot(Path.Combine(Reports,"visual/safe-detail-test-gpu.png"));yield return new WaitForSeconds(.2f);Array.Fill(c.State.Owned_Gun_list,0);Click(info.TakeOut_Btn_obj.GetComponent<Button>());Assert.That(info.gameObject.activeSelf,Is.True);Assert.That(c.State.Safe_Gun_list[0],Is.EqualTo(9));
    c.State.Owned_Gun_list[5]=-1;Click(info.TakeOut_Btn_obj.GetComponent<Button>());Assert.That(info.gameObject.activeSelf,Is.False);Assert.That((c.State.Owned_Gun_list[5],c.State.Owned_Gun_Pause[5],c.State.Safe_Gun_list[0]),Is.EqualTo((9,true,-1)));m.safe_ui.Close();
   }finally{SceneManager.sceneLoaded-=Independent;}
-  yield return SceneManager.LoadSceneAsync("TargetPreview");
+  yield return TestSceneLoader.LoadAsync("TargetPreview");
  }
  [UnityTest] public IEnumerator PauseGateAdStaleDetailsAndEquippedProtectionUseNativeContexts()
  {
   SceneManager.sceneLoaded+=Independent;
   try{
-   yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;c.State.Owned_Gun_list[0]=0;c.State.Owned_Gun_list[1]=4;c.Guns.ReloadGunUI();var info=c.Guns.gun_info_ui;
+   yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;c.State.Owned_Gun_list[0]=0;c.State.Owned_Gun_list[1]=4;c.Guns.ReloadGunUI();var info=c.Guns.gun_info_ui;
    Click(UnityEngine.Object.FindObjectsByType<Button>(FindObjectsInactive.Include).Single(b=>b.name=="Gun_Btn"));yield return new WaitForSeconds(.35f);
    info.Show(0,1,0);yield return new WaitForSeconds(.35f);Assert.That(info.Pause_Btn_Locked_obj.activeSelf,Is.True);Click(info.Pause_Btn_Locked_obj.GetComponent<Button>());Assert.That(c.State.Owned_Gun_Pause[0],Is.False);c.Forest.Stage_Value_Max=390;info.Buttons_Reload();yield return null;Click(info.Pause_Btn_obj.GetComponent<Button>());Assert.That(c.Inventory.Merge(0,1),Is.False);yield return null;Click(info.Unpause_Btn_obj.GetComponent<Button>());Assert.That(c.State.Owned_Gun_Pause[0],Is.False);
    c.State.AD_Gun_SlotIndex=0;info.Show(0,1,0);Assert.That(info.Pause_Btn_obj.activeSelf,Is.False);info.onClick_Pause();Assert.That(c.State.Owned_Gun_Pause[0],Is.False);Assert.That(info.gameObject.activeSelf,Is.False);c.State.AD_Gun_SlotIndex=-1;
@@ -89,18 +89,18 @@ public sealed class SafeTests
    info.Show(c.State.Selected_items[0],2,0);info.onClick_Pause();Assert.That(c.State.Selected_Pause[0],Is.True);Assert.That(c.Team.Cat_list[0].gameObject.activeSelf,Is.True);info.onClick_Unpause();Assert.That(c.State.Selected_Pause[0],Is.False);
    c.State.Safe_Gun_list[0]=4;info.Show(4,3,0);c.State.Safe_Gun_list[0]=5;info.onClick_TakeOut();Assert.That(c.State.Safe_Gun_list[0],Is.EqualTo(5));Assert.That(info.gameObject.activeSelf,Is.False);
   }finally{SceneManager.sceneLoaded-=Independent;}
-  yield return SceneManager.LoadSceneAsync("TargetPreview");
+  yield return TestSceneLoader.LoadAsync("TargetPreview");
  }
  [UnityTest] public IEnumerator IndependentSaveReloadRebirthAndRaidRetainStoredGuns()
  {
   string folder=Path.Combine(Path.GetTempPath(),"catgunner-safe-"+Guid.NewGuid().ToString("N"));
   UnityEngine.Events.UnityAction<Scene,LoadSceneMode> configure=(s,mode)=>{Independent(s,mode);if(s.name=="GameClient"){var c=s.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<GameClient>(true)).Single();c.Persist=true;c.SaveFolderOverride=folder;}};SceneManager.sceneLoaded+=configure;
   try{
-   yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;c.Forest.Stage_Now=39;c.Forest.Stage_Value_Max=390;c.State.Owned_Gun_list[0]=30;c.State.Dia=50;Assert.That(c.Safe.Inventory.Purchase(6),Is.True);Assert.That(c.Safe.Put_From_Inventory(0),Is.Zero);c.SaveNow();
-   yield return SceneManager.LoadSceneAsync("TargetPreview");yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;c=GameClient.Instance;Assert.That((c.State.Safe_Purchased_Count,c.State.Dia,c.State.Safe_Gun_list[0]),Is.EqualTo((1,0,30)));Assert.That(c.Safe.Is_Unlocked,Is.True);
+   yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;c.Forest.Stage_Now=39;c.Forest.Stage_Value_Max=390;c.State.Owned_Gun_list[0]=30;c.State.Dia=50;Assert.That(c.Safe.Inventory.Purchase(6),Is.True);Assert.That(c.Safe.Put_From_Inventory(0),Is.Zero);c.SaveNow();
+   yield return TestSceneLoader.LoadAsync("TargetPreview");yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;c=GameClient.Instance;Assert.That((c.State.Safe_Purchased_Count,c.State.Dia,c.State.Safe_Gun_list[0]),Is.EqualTo((1,0,30)));Assert.That(c.Safe.Is_Unlocked,Is.True);
    Assert.That(c.RebirthNow(),Is.True);Assert.That(c.Safe.Is_Unlocked,Is.True);Assert.That(c.State.Safe_Gun_list[0],Is.EqualTo(30));Assert.That(c.RaidMode.GunNum_By_Index(19),Is.EqualTo(30));Assert.That(c.Safe.Take_Out(0),Is.Zero);Assert.That(c.State.Owned_Gun_Pause[0],Is.True);c.SaveNow();
-   yield return SceneManager.LoadSceneAsync("TargetPreview");yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;c=GameClient.Instance;Assert.That(c.State.Safe_Gun_list[0],Is.EqualTo(-1));Assert.That((c.State.Owned_Gun_list[0],c.State.Owned_Gun_Pause[0],c.State.Safe_Purchased_Count),Is.EqualTo((30,true,1)));c.Persist=false;
+   yield return TestSceneLoader.LoadAsync("TargetPreview");yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;c=GameClient.Instance;Assert.That(c.State.Safe_Gun_list[0],Is.EqualTo(-1));Assert.That((c.State.Owned_Gun_list[0],c.State.Owned_Gun_Pause[0],c.State.Safe_Purchased_Count),Is.EqualTo((30,true,1)));c.Persist=false;
   }finally{SceneManager.sceneLoaded-=configure;}
-  yield return SceneManager.LoadSceneAsync("TargetPreview");Directory.Delete(folder,true);
+  yield return TestSceneLoader.LoadAsync("TargetPreview");Directory.Delete(folder,true);
  }
 }

@@ -15,7 +15,7 @@ public sealed class SettingsTests
     [UnityTest]
     public IEnumerator OriginalAudioCatalogueMuteDuplicateLimitsAndBgmSwitching()
     {
-        yield return SceneManager.LoadSceneAsync("Settings");
+        yield return TestSceneLoader.LoadAsync("Settings");
         yield return null;
         var sound = Sound_manager.instance;
         Assert.That(sound, Is.Not.Null);
@@ -77,7 +77,7 @@ public sealed class SettingsTests
         string save = PlayerPrefs.GetString(SaveKey);
         try
         {
-            yield return SceneManager.LoadSceneAsync("Settings");
+            yield return TestSceneLoader.LoadAsync("Settings");
             yield return null;
             var settings = Object.FindAnyObjectByType<Setting>();
             Assert.That(settings, Is.Not.Null, "Original Setting component identity");
@@ -107,7 +107,7 @@ public sealed class SettingsTests
             Assert.That(Sound_manager.instance.bgmSource, Is.Not.Null, "Original serialized AudioSource");
             Assert.That(Sound_manager.instance.bgmSource.volume, Is.EqualTo(settings.is_BGM_Mute ? 0f : 1f));
             bool persistedBgm = settings.is_BGM_Mute;
-            yield return SceneManager.LoadSceneAsync("Settings");
+            yield return TestSceneLoader.LoadAsync("Settings");
             yield return null;
             Assert.That(Object.FindAnyObjectByType<Setting>().is_BGM_Mute, Is.EqualTo(persistedBgm), "Independent local adapter survives scene reload");
         }

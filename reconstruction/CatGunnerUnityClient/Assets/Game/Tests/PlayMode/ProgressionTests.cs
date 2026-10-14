@@ -17,7 +17,7 @@ public sealed class ProgressionTests
         SceneManager.sceneLoaded+=Configure;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;ContentNavigationFixture.Unlock(c,Content_Type.Pet);yield return null;c.Hero.GetComponent<ForestCombatAcceptance>().enabled=false;
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;ContentNavigationFixture.Unlock(c,Content_Type.Pet);yield return null;c.Hero.GetComponent<ForestCombatAcceptance>().enabled=false;
             var panels=new[]{c.PetUI.Pet_UI_obj,c.MissionUI.Mission_UI_Panel.gameObject,c.RebirthUI.rebirth_panel_ui.gameObject};
             var owners=new UnityEngine.Object[]{c.PetUI,c.MissionUI,c.RebirthUI};
             for(int i=0;i<owners.Length;i++)
@@ -30,7 +30,7 @@ public sealed class ProgressionTests
             }
         }
         finally {SceneManager.sceneLoaded-=Configure;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     private static SaveData Profile()=>new SaveData {Selected_items=new[]{0,-1,-1},Gun_Collect=new bool[65],Upgrade_Lv=new int[3],Star_Slot_Lv=new int[3]};
     [Test] public void PetDrawMergeEquipAndSavePreserveCostsSparseSlotsAndDuplicateBuffs()
@@ -95,7 +95,7 @@ public sealed class ProgressionTests
         SceneManager.sceneLoaded+=Configure;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;c.Hero.GetComponent<ForestCombatAcceptance>().enabled=false;
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;c.Hero.GetComponent<ForestCombatAcceptance>().enabled=false;
             Assert.That(c.PetUI.newPet_ui,Is.Not.Null);Assert.That(c.MissionUI.Mission_Item_UI_List.Length,Is.EqualTo(23));
             c.PetUI.Pet_UI_obj.SetActive(true);yield return null;c.State.PetCoin=200;c.PetUI.DrawPet_Normal();c.PetUI.newPet_ui.gameObject.SetActive(false);c.PetUI.DrawPet_Normal();c.PetUI.newPet_ui.gameObject.SetActive(false);
             Assert.That(c.State.PetCoin,Is.Zero);var a=c.PetUI.gunItemList.ActiveItems[0];var b=c.PetUI.gunItemList.ActiveItems[1];int target=b.ListIndex;Canvas.ForceUpdateCanvases();
@@ -120,6 +120,6 @@ public sealed class ProgressionTests
             c.PetUI.Pet_Slot_List[0].Unequip();Assert.That(c.PetFollowers.Pets[0].gameObject.activeSelf,Is.False);
         }
         finally {SceneManager.sceneLoaded-=Configure;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
 }

@@ -35,7 +35,7 @@ public sealed class EcoModeTests
         folder = Path.Combine(Application.temporaryCachePath, "EcoMode-" + Guid.NewGuid().ToString("N"));
         preferencesBefore = PlayerPrefs.GetString(PreferenceKey, string.Empty);
         SceneManager.sceneLoaded += Configure;
-        yield return SceneManager.LoadSceneAsync("GameClient"); yield return ClientStartupWait.Ready();
+        yield return TestSceneLoader.LoadAsync("GameClient"); yield return ClientStartupWait.Ready();
         client = GameClient.Instance; settings = Setting.instance;
         module = EventSystem.current.GetComponent<StandaloneInputModule>();
         mouse = module.gameObject.AddComponent<ForestFeedbackMouseFixture>(); module.inputOverride = mouse;
@@ -44,7 +44,7 @@ public sealed class EcoModeTests
     [UnityTearDown] public IEnumerator Teardown()
     {
         if (module != null) module.inputOverride = null;
-        yield return SceneManager.LoadSceneAsync("TargetPreview"); SceneManager.sceneLoaded -= Configure;
+        yield return TestSceneLoader.LoadAsync("TargetPreview"); SceneManager.sceneLoaded -= Configure;
         if (Directory.Exists(folder)) Directory.Delete(folder, true);
         Assert.That(PlayerPrefs.GetString(PreferenceKey, string.Empty), Is.EqualTo(preferencesBefore), "Fixtures must not write user audio preferences");
         Time.timeScale = 1; Application.runInBackground = background;
@@ -141,9 +141,9 @@ public sealed class EcoModeTests
     [UnityTest] public IEnumerator SceneUnloadClearsRuntimeModeAndColdReloadKeepsOrdinarySaveAndCamera()
     {
         client.SaveNow(); var saved = new SaveArchive(folder).Load(); var money = saved.Money.Value;
-        settings.EcoMode_Change(); yield return SceneManager.LoadSceneAsync("TargetPreview");
+        settings.EcoMode_Change(); yield return TestSceneLoader.LoadAsync("TargetPreview");
         Assert.That(Setting.instance, Is.Null); Assert.That(Setting.is_eco || Cat_manager.is_Shoot_Mute, Is.False);
-        yield return SceneManager.LoadSceneAsync("GameClient"); yield return ClientStartupWait.Ready();
+        yield return TestSceneLoader.LoadAsync("GameClient"); yield return ClientStartupWait.Ready();
         client = GameClient.Instance; settings = Setting.instance;
         Assert.That(Setting.is_eco, Is.False); Assert.That(settings.Camera_obj.activeInHierarchy, Is.True); Assert.That(settings.EcoPanel_obj.activeSelf, Is.False);
         Assert.That(client.State.Money.Value.CompareTo(money), Is.Zero);
@@ -155,7 +155,7 @@ public sealed class EcoModeTests
             if (mode != 1)
             {
                 module.inputOverride = null;
-                yield return SceneManager.LoadSceneAsync("GameClient"); yield return ClientStartupWait.Ready();
+                yield return TestSceneLoader.LoadAsync("GameClient"); yield return ClientStartupWait.Ready();
                 client = GameClient.Instance; settings = Setting.instance;
                 module = EventSystem.current.GetComponent<StandaloneInputModule>();
             }

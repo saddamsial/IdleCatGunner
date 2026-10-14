@@ -15,8 +15,8 @@ public sealed class MissionPresentationTests
 {
     string folder; GameClient client; bool background;
     void Configure(Scene s,LoadSceneMode mode){if(s.name=="GameClient")s.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<GameClient>(true)).Single().SaveFolderOverride=folder;}
-    [UnitySetUp] public IEnumerator Setup(){background=Application.runInBackground;Application.runInBackground=true;Time.timeScale=1;folder=Path.Combine(Application.temporaryCachePath,"MissionPresentation-"+Guid.NewGuid().ToString("N"));SceneManager.sceneLoaded+=Configure;yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();client=GameClient.Instance;ForestRuntimeAcceptance.IsGaming=false;client.MissionUI.NewSeason_Start();client.MissionUI.Panel_Open();yield return new WaitForSeconds(.4f);}
-    [UnityTearDown] public IEnumerator Cleanup(){Time.timeScale=1;yield return SceneManager.LoadSceneAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;if(Directory.Exists(folder))Directory.Delete(folder,true);Application.runInBackground=background;}
+    [UnitySetUp] public IEnumerator Setup(){background=Application.runInBackground;Application.runInBackground=true;Time.timeScale=1;folder=Path.Combine(Application.temporaryCachePath,"MissionPresentation-"+Guid.NewGuid().ToString("N"));SceneManager.sceneLoaded+=Configure;yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();client=GameClient.Instance;ForestRuntimeAcceptance.IsGaming=false;client.MissionUI.NewSeason_Start();client.MissionUI.Panel_Open();yield return new WaitForSeconds(.4f);}
+    [UnityTearDown] public IEnumerator Cleanup(){Time.timeScale=1;yield return TestSceneLoader.LoadAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;if(Directory.Exists(folder))Directory.Delete(folder,true);Application.runInBackground=background;}
     static IEnumerator Click(Button button)
     {
         Canvas.ForceUpdateCanvases();var module=EventSystem.current.GetComponent<StandaloneInputModule>();var mouse=module.gameObject.AddComponent<ForestFeedbackMouseFixture>();module.inputOverride=mouse;
@@ -44,7 +44,7 @@ public sealed class MissionPresentationTests
         while(fx.LiveCount>0&&Time.realtimeSinceStartup<until){sawBounce|=target._bounce.Bouncing;yield return null;}sawBounce|=target._bounce.Bouncing;
         Assert.That(sawBounce,Is.True);Assert.That(fx.Finished,Is.EqualTo(8));Assert.That(client.State.Dia,Is.EqualTo(dia+amount));yield return new WaitForSeconds(.3f);
         ScreenCapture.CaptureScreenshot(path.Replace("flight","settled"));yield return null;var saved=new SaveArchive(folder).Load();Assert.That(saved.NormalReward_Get[0],Is.True);Assert.That(saved.Dia,Is.EqualTo(dia+amount));
-        m.Panel_Close();yield return null;yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();client=GameClient.Instance;ForestRuntimeAcceptance.IsGaming=false;client.MissionUI.Panel_Open();yield return new WaitForSeconds(.3f);
+        m.Panel_Close();yield return null;yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();client=GameClient.Instance;ForestRuntimeAcceptance.IsGaming=false;client.MissionUI.Panel_Open();yield return new WaitForSeconds(.3f);
         client.MissionUI.Mission_Reward_Slot_List[0].Normal_Reward_item.Claim();Assert.That(Dia_Attraction.instance._diaFx.Emitted,Is.Zero);Assert.That(client.State.Dia,Is.EqualTo(dia+amount));
     }
     [UnityTest] public IEnumerator RejectedAndNonDiamondRewardsNeverEmitDiamonds()

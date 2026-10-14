@@ -10,7 +10,7 @@ public sealed class JoystickTests
     [UnityTest]
     public IEnumerator OriginalFloatingPointerEventsCloseDragDeadZoneSnapAndRelease()
     {
-        yield return SceneManager.LoadSceneAsync("Joystick");
+        yield return TestSceneLoader.LoadAsync("Joystick");
         yield return null;
         var joystick=Object.FindAnyObjectByType<FloatingJoystick>();
         var flags=System.Reflection.BindingFlags.NonPublic|System.Reflection.BindingFlags.Instance;

@@ -59,7 +59,7 @@ public sealed class InventoryTests
         SceneManager.sceneLoaded+=Configure;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;
             var client=GameClient.Instance;client.Hero.GetComponent<ForestCombatAcceptance>().enabled=false;
             var owner=client.Guns;Assert.That(client.Team.Cat_list.Count(c=>c.gameObject.activeSelf),Is.EqualTo(1));
             var open=UnityEngine.Object.FindObjectsByType<Button>(FindObjectsInactive.Include).Single(b=>b.name=="Gun_Btn");open.onClick.Invoke();yield return null;
@@ -91,6 +91,6 @@ public sealed class InventoryTests
             owner.Gun_Slot_List[1].Unequip();Assert.That(client.Team.Cat_list[1].gameObject.activeSelf,Is.False);
         }
         finally {SceneManager.sceneLoaded-=Configure;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
 }

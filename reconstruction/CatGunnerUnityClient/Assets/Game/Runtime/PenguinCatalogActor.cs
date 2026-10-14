@@ -13,7 +13,12 @@ namespace CatGunner.Runtime
         public void Configure(Sprite[] catalogue,Func<int> selected,Func<bool> destroyed,Renderer[] originals,SpriteRenderer feet,float ratio,Pet follower,Cat heroCat,Sprite[] directions=null)
         {
             sprites=catalogue;selection=selected;dead=destroyed;hidden=originals;shadow=feet;heightRatio=ratio;pet=follower;hero=heroCat;
-            visual=gameObject.AddComponent<SpriteRenderer>();visual.sharedMaterial=hero.skin_spriteRenderer.sharedMaterial;visual.sortingLayerID=hero.skin_spriteRenderer.sortingLayerID;visual.sortingOrder=3;if(pet!=null){visual.sortingLayerName="Default";visual.sortingOrder=0;petMotion=gameObject.AddComponent<PenguinPetMotion>();petMotion.Configure(visual,pet,directions);}
+            visual=gameObject.GetComponent<SpriteRenderer>()??gameObject.AddComponent<SpriteRenderer>();visual.sharedMaterial=hero.skin_spriteRenderer.sharedMaterial;visual.sortingLayerID=hero.skin_spriteRenderer.sortingLayerID;visual.sortingOrder=3;
+            if(pet!=null)
+            {
+                visual.sortingLayerName="Default";visual.sortingOrder=0;
+                if(petMotion==null){petMotion=gameObject.GetComponent<PenguinPetMotion>()??gameObject.AddComponent<PenguinPetMotion>();petMotion.Configure(visual,pet,directions);}
+            }
         }
         private void LateUpdate()
         {

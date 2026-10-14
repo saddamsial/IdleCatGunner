@@ -23,7 +23,7 @@ public sealed class CircularForestMapTests
         Time.timeScale=1;Application.runInBackground=true;
         folder=Path.Combine(Application.temporaryCachePath,"CircularForest-"+Guid.NewGuid().ToString("N"));
         SceneManager.sceneLoaded+=Isolate;
-        yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();
+        yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();
         client=GameClient.Instance;StopCombat();
     }
     void StopCombat()
@@ -37,7 +37,7 @@ public sealed class CircularForestMapTests
     }
     [UnityTearDown] public IEnumerator Cleanup()
     {
-        Time.timeScale=1;yield return SceneManager.LoadSceneAsync("TargetPreview");
+        Time.timeScale=1;yield return TestSceneLoader.LoadAsync("TargetPreview");
         SceneManager.sceneLoaded-=Isolate;if(Directory.Exists(folder))Directory.Delete(folder,true);
     }
     static float Distance(Vector3 a,Vector3 b)=>new Vector2(a.x-b.x,a.z-b.z).magnitude;

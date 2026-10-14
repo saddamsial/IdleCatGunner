@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var fonts=UnityEditor.AssetDatabase.FindAssets(\"t:TMP_FontAsset\").Select(UnityEditor.AssetDatabase.GUIDToAssetPath).ToArray();System.IO.File.WriteAllText(\"/Volumes/ZHITAI_1T/IdleCatGunner/art/release-prep/20261014/font-cache-paths.json\",Newtonsoft.Json.JsonConvert.SerializeObject(fonts));UnityEditor.SessionState.SetString(\"CatGunner.Recovery.TestHostFolder\",System.IO.Path.Combine(UnityEngine.Application.temporaryCachePath,\"ReleasePrepTestHost-20261014\"));return new {fonts=fonts.Length,dirty=UnityEngine.SceneManagement.SceneManager.GetActiveScene().isDirty};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "fonts": 19,
+        "dirty": false
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

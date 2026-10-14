@@ -23,7 +23,7 @@ public sealed class ShotgunTests
     }
     private static IEnumerator Load(int gun)
     {
-        yield return SceneManager.LoadSceneAsync("Forest");yield return null;
+        yield return TestSceneLoader.LoadAsync("Forest");yield return null;
         var cat=Cat.instance;cat.GetComponent<ForestCombatAcceptance>().enabled=false;
         cat.GetComponent<ForestMovementAcceptance>().enabled=false;
         // Independent equipped-slot fixture, using original stats and parameters.

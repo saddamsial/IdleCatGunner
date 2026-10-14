@@ -27,12 +27,12 @@ public sealed class HatchFishFeedbackTests
             Directory.CreateDirectory(folder);var clone=SaveArchive.Decode(File.ReadAllText(Report("../checkpoints/hatch-fish-feedback-before/NoSaveFile.json")));
             clone.LastSaveTime=DateTime.UtcNow.ToString("O");File.WriteAllText(Path.Combine(folder,"NoSaveFile.json"),SaveArchive.Encode(clone));
         }
-        SceneManager.sceneLoaded+=Configure;yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();
+        SceneManager.sceneLoaded+=Configure;yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();
         client=GameClient.Instance;client.DailyLogin.Close();client.Tutorial.SetCleared();ForestRuntimeAcceptance.IsGaming=false;
     }
     [UnityTearDown] public IEnumerator Cleanup()
     {
-        Time.timeScale=1;yield return SceneManager.LoadSceneAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;
+        Time.timeScale=1;yield return TestSceneLoader.LoadAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;
         Application.runInBackground=background;if(Directory.Exists(folder))Directory.Delete(folder,true);
     }
     string Report(string name)=>Path.GetFullPath(Path.Combine(Application.dataPath,"../../../reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/"+name));
@@ -73,7 +73,7 @@ public sealed class HatchFishFeedbackTests
         Assert.That(fish.All_Damage_txt.text,Is.EqualTo("+48%"));Assert.That(fish.All_CriPer_txt.text,Is.EqualTo("8%"));Assert.That(fish.All_CriVal_txt.text,Is.EqualTo("195%"));
         Assert.That(fish.fishTank.Count_txt.text,Is.EqualTo("2/20"));fish.new_fish_ui.Close();yield return Capture("fish-after");
         client.SaveNow();var saved=SaveArchive.Decode(File.ReadAllText(Path.Combine(folder,"NoSaveFile.json")));Assert.That(saved.FishInventory.OrderBy(g=>g),Is.EqualTo(new[]{1,2}));
-        yield return SceneManager.LoadSceneAsync("TargetPreview");yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();client=GameClient.Instance;
+        yield return TestSceneLoader.LoadAsync("TargetPreview");yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();client=GameClient.Instance;
         Assert.That(client.Fish.GetTotalDamage(),Is.EqualTo(48));Assert.That(client.State.FishInventory.OrderBy(g=>g),Is.EqualTo(new[]{1,2}));
         // No equal-grade pair: Auto must leave different grades unchanged.
         client.Fish.ReloadFishUI();client.Fish.Set_AutoMerge(true);yield return new WaitForSecondsRealtime(.8f);Assert.That(client.State.FishInventory.OrderBy(g=>g),Is.EqualTo(new[]{1,2}));

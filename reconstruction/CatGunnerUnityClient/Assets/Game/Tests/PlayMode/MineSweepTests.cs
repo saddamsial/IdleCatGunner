@@ -24,13 +24,13 @@ public sealed class MineSweepTests
         background = Application.runInBackground; Application.runInBackground = true;
         folder = Path.Combine(Application.temporaryCachePath, "MineSweep-" + Guid.NewGuid().ToString("N"));
         SceneManager.sceneLoaded += Independent;
-        yield return SceneManager.LoadSceneAsync("GameClient"); yield return ClientStartupWait.Ready();
+        yield return TestSceneLoader.LoadAsync("GameClient"); yield return ClientStartupWait.Ready();
         c = GameClient.Instance; ForestRuntimeAcceptance.IsGaming = false;
         c.DailyLogin.Close(); c.Tutorial.SetCleared();
     }
     [UnityTearDown] public IEnumerator Cleanup()
     {
-        yield return SceneManager.LoadSceneAsync("TargetPreview"); SceneManager.sceneLoaded -= Independent;
+        yield return TestSceneLoader.LoadAsync("TargetPreview"); SceneManager.sceneLoaded -= Independent;
         Time.timeScale = 1; Application.runInBackground = background;
         if (Directory.Exists(folder)) Directory.Delete(folder, true);
     }
@@ -86,7 +86,7 @@ public sealed class MineSweepTests
         yield return Click(M.SweepBonus_Btn_obj.GetComponent<Button>());yield return null;
         Assert.That(c.State.Dia,Is.EqualTo(dia+28));Assert.That(c.RewardedAds.CompletedWatches,Is.EqualTo(1));Assert.That(M.SweepPending||M.GameSweep_UI.activeSelf,Is.False);
         Assert.That((c.Forest.Stage_Now,c.Forest.Level_Now),Is.EqualTo((stage,wave)));
-        c.SaveNow();yield return SceneManager.LoadSceneAsync("TargetPreview");yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();
+        c.SaveNow();yield return TestSceneLoader.LoadAsync("TargetPreview");yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();
         c=GameClient.Instance;ForestRuntimeAcceptance.IsGaming=false;c.DailyLogin.Close();c.Tutorial.SetCleared();
         Assert.That((c.State.TicketUse_Count,c.State.Dia,M.Best_Reward),Is.EqualTo((1,dia+28,7)));Assert.That(M.SweepPending||M.GameSweep_UI.activeSelf,Is.False);
         M.StartPanel_Open();M.Game_Sweep();Assert.That((c.State.TicketUse_Count,c.State.Dia),Is.EqualTo((2,dia+35)));

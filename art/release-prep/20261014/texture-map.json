@@ -1,0 +1,71 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var f=UnityEngine.Object.FindAnyObjectByType<CatGunner.Runtime.PenguinFullReskin>();return new {glyphs=f.SourceGlyphs.Select((g,i)=>new{g.name,source=UnityEditor.AssetDatabase.GetAssetPath(g),target=UnityEditor.AssetDatabase.GetAssetPath(f.ThemedGlyphs[i]),oldTexture=UnityEditor.AssetDatabase.GetAssetPath(g.spriteSheet),newTexture=UnityEditor.AssetDatabase.GetAssetPath(f.ThemedGlyphs[i].spriteSheet)}),textures=f.SourceTextures.Select((t,i)=>new{source=UnityEditor.AssetDatabase.GetAssetPath(t),target=UnityEditor.AssetDatabase.GetAssetPath(f.ThemedTextures[i]),width=t.width,height=t.height,newWidth=f.ThemedTextures[i].width,newHeight=f.ThemedTextures[i].height})};"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "glyphs": [
+          {
+            "name": "_currency 1",
+            "source": "Assets/MonoBehaviour/_currency 1.asset",
+            "target": "Assets/Game/PenguinFlatCatalogue/FlatGlyph0.asset",
+            "oldTexture": "Assets/Texture2D/currency 1.png",
+            "newTexture": "Assets/Game/PenguinFlatCatalogue/FlatGlyph0Texture.asset"
+          },
+          {
+            "name": "_currency 2 (Ban)",
+            "source": "Assets/MonoBehaviour/_currency 2 (Ban).asset",
+            "target": "Assets/Game/PenguinFlatCatalogue/FlatGlyph1.asset",
+            "oldTexture": "Assets/Texture2D/currency 2 (Ban).png",
+            "newTexture": "Assets/Game/PenguinFlatCatalogue/FlatGlyph1Texture.asset"
+          },
+          {
+            "name": "_currency",
+            "source": "Assets/MonoBehaviour/_currency.asset",
+            "target": "Assets/Game/PenguinFlatCatalogue/FlatGlyph2.asset",
+            "oldTexture": "Assets/Texture2D/currency.png",
+            "newTexture": "Assets/Game/PenguinFlatCatalogue/FlatGlyph2Texture.asset"
+          },
+          {
+            "name": "Currency 3",
+            "source": "Assets/MonoBehaviour/Currency 3.asset",
+            "target": "Assets/Game/PenguinModeUIV2/PetBaitGlyph.asset",
+            "oldTexture": "Assets/Texture2D/Currency 3.png",
+            "newTexture": "Assets/Game/PenguinModeUIV2/PetBaitAtlas.asset"
+          },
+          {
+            "name": "Currency_SlotGem",
+            "source": "Assets/MonoBehaviour/Currency_SlotGem.asset",
+            "target": "Assets/Game/PenguinFlatCatalogue/FlatGlyph4.asset",
+            "oldTexture": "Assets/Texture2D/Currency_SlotGem.png",
+            "newTexture": "Assets/Game/PenguinFlatCatalogue/FlatGlyph4Texture.asset"
+          }
+        ],
+        "textures": [
+          {
+            "source": "Assets/Texture2D/rvxhrapxg9rmr0d0n72a50m7hm.png",
+            "target": "Assets/Game/PenguinUi/IceStripe.asset",
+            "width": 512,
+            "height": 512,
+            "newWidth": 64,
+            "newHeight": 64
+          }
+        ]
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

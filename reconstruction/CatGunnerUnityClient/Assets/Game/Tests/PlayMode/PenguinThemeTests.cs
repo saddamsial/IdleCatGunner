@@ -9,6 +9,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.TestTools;
 using Object=UnityEngine.Object;
 
+[Category("AndroidReleasePreparation")]
 public sealed class PenguinThemeTests
 {
     private string folder;
@@ -30,14 +31,14 @@ public sealed class PenguinThemeTests
     [UnitySetUp] public IEnumerator Setup()
     {
         folder=Path.Combine(Application.temporaryCachePath,"PenguinTheme-"+Guid.NewGuid().ToString("N"));
-        SceneManager.sceneLoaded+=Configure;yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();
+        SceneManager.sceneLoaded+=Configure;yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();
         client=GameClient.Instance;
         theme=client.GetComponents<Component>().SingleOrDefault(c=>c.GetType().Name=="PenguinExpeditionTheme");
         Assert.That(theme,Is.Not.Null,"Penguin theme must be installed in playable scene");
     }
     [UnityTearDown] public IEnumerator Teardown()
     {
-        yield return SceneManager.LoadSceneAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;Time.timeScale=1;
+        yield return TestSceneLoader.LoadAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;Time.timeScale=1;
         if(Directory.Exists(folder))Directory.Delete(folder,true);
     }
     [UnityTest, Category("PenguinSkinningRegression")] public IEnumerator NaturalCombatUsesPenguinAndIceWithoutFractureEffects()
@@ -65,8 +66,9 @@ public sealed class PenguinThemeTests
         ForestRuntimeAcceptance.IsGaming=true;tree.enemy.Die();tree.enemy.Die();
         Assert.That((client.State.Money.Value-wallet).CompareTo(expected),Is.Zero);Assert.That(tree.gameObject.activeSelf,Is.False);
         ForestRuntimeAcceptance.IsGaming=false;((Behaviour)theme).enabled=false;yield return null;
-        Assert.That(client.Hero.skin_spriteRenderer.enabled,Is.True);Assert.That(client.Hero.skin_spriteRenderer.sprite.name,Is.Not.EqualTo("Penguin"));
-        Assert.That(client.Forest.Ground_SpriteRenderer.sprite.name,Is.Not.EqualTo("SnowGround"));
+        var baked=((PenguinExpeditionTheme)theme).WorldVisualsBaked;
+        Assert.That(client.Hero.skin_spriteRenderer.enabled,Is.EqualTo(!baked));
+        Assert.That(client.Forest.Ground_SpriteRenderer.sprite.name,baked?(NUnit.Framework.Constraints.IResolveConstraint)Is.EqualTo("SnowGround"):Is.Not.EqualTo("SnowGround"));
         ((Behaviour)theme).enabled=true;yield return null;
         Assert.That(client.Hero.skin_spriteRenderer.enabled,Is.False);Assert.That(client.Forest.Ground_SpriteRenderer.sprite.name,Is.EqualTo("SnowGround"));
     }
@@ -78,8 +80,15 @@ public sealed class PenguinThemeTests
         ForestRuntimeAcceptance.IsGaming=false;HoldControllers();
         client.Hero.anim.SetBool("Walk",false);yield return new WaitForSeconds(.4f);
         var idleStart=motion.VisualMesh.vertices;
-        yield return new WaitForSeconds(1.15f);var idleEnd=motion.VisualMesh.vertices;
-        Assert.That(idleStart.Zip(idleEnd,(a,b)=>Vector3.Distance(a,b)).Max(),Is.GreaterThan(.002f),"Idle breathing must deform the visible penguin");
+        float idleDeformation=0;
+        // A periodic breath can reach the same pose at two isolated samples.
+        // Observe the interval, retaining the visible-deformation threshold.
+        for(int i=0;i<23;i++)
+        {
+            yield return new WaitForSeconds(.05f);var pose=motion.VisualMesh.vertices;
+            idleDeformation=Mathf.Max(idleDeformation,idleStart.Zip(pose,(a,b)=>Vector3.Distance(a,b)).Max());
+        }
+        Assert.That(idleDeformation,Is.GreaterThan(.002f),"Idle breathing must deform the visible penguin");
         client.Hero.anim.SetBool("Walk",true);yield return new WaitForSeconds(.5f);var walkStart=motion.VisualMesh.vertices;
         yield return new WaitForSeconds(.35f);var walkEnd=motion.VisualMesh.vertices;
         Assert.That(walkStart.Zip(walkEnd,(a,b)=>Vector3.Distance(a,b)).Max(),Is.GreaterThan(.01f),"Walking must move the visible feet and body");

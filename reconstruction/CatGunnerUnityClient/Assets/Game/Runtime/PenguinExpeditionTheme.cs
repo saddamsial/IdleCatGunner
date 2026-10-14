@@ -9,6 +9,8 @@ namespace CatGunner.Runtime
     [DefaultExecutionOrder(150)]
     [UnityEngine.Scripting.APIUpdating.MovedFrom(true, sourceNamespace: "CatGunner.Recovery", sourceAssembly: "CatGunner.Recovery", sourceClassName: "PenguinExpeditionTheme")] public sealed class PenguinExpeditionTheme : MonoBehaviour
     {
+        public bool WorldVisualsBaked;
+        [SerializeField] SpriteRenderer authoredAvatar;
         public Sprite Penguin;
         public Sprite[] Ice;
         public Sprite SnowGround, GlacierUp, GlacierDown;
@@ -52,9 +54,18 @@ namespace CatGunner.Runtime
             }
             // Share the original body/weapon SortingGroup so the pistol draws
             // in front of the new body, while its bone transforms remain intact.
-            var go=new GameObject("Penguin visual");go.transform.SetParent(body.transform,false);
-            Avatar=go.AddComponent<SpriteRenderer>();Avatar.sprite=Penguin;Avatar.sharedMaterial=body.sharedMaterial;Avatar.sortingLayerID=body.sortingLayerID;Avatar.sortingOrder=body.sortingOrder;
-            go.AddComponent<PenguinBoneMotion>().Configure(client.Hero,Penguin,originalHero,Avatar);
+            if(WorldVisualsBaked)
+            {
+                Avatar=authoredAvatar;
+                if(Avatar==null)throw new InvalidOperationException("Authored penguin avatar is missing");
+                client.Hero.GetComponent<PenguinAvatarBinding>().HideNativeRenderers();
+            }
+            else
+            {
+                var go=new GameObject("Penguin visual");go.transform.SetParent(body.transform,false);
+                Avatar=go.AddComponent<SpriteRenderer>();Avatar.sprite=Penguin;Avatar.sharedMaterial=body.sharedMaterial;Avatar.sortingLayerID=body.sortingLayerID;Avatar.sortingOrder=body.sortingOrder;
+            }
+            (Avatar.GetComponent<PenguinBoneMotion>()??Avatar.gameObject.AddComponent<PenguinBoneMotion>()).Configure(client.Hero,Penguin,originalHero,Avatar);
             foreach(var map in forest.Map_Grid_list)
             {
                 var under=Array.Find(map.GetComponentsInChildren<SpriteRenderer>(true),s=>s.name=="Under_sprite");
@@ -113,6 +124,7 @@ namespace CatGunner.Runtime
         private void OnDisable()
         {
             if(!initialized)return;
+            if(WorldVisualsBaked)return;
             if(Avatar!=null)Avatar.gameObject.SetActive(false);
             // Scene teardown may destroy sibling renderers before this component.
             if(client==null||client.Forest==null||client.Forest.Ground_SpriteRenderer==null||client.Hero==null||client.Hero.skin_spriteRenderer==null||client.Hero.hand_spriteRenderer==null)return;

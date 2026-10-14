@@ -58,7 +58,7 @@ public sealed class DetailHoldTests
         SceneManager.sceneLoaded += Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient"); yield return ClientStartupWait.Ready();
+            yield return TestSceneLoader.LoadAsync("GameClient"); yield return ClientStartupWait.Ready();
             var c = GameClient.Instance; var manager = c.PetUI; var p = manager.pet_info_ui;
             var owned = (int[])c.State.Owned_Pet_list.Clone(); var equipped = (int[])c.State.Pet_Selected_items.Clone(); var collected = (bool[])c.State.Pet_Collect.Clone();
             manager.Panel_Open(); manager.Pet_Info_UI_Reload(0); yield return null;
@@ -81,14 +81,14 @@ public sealed class DetailHoldTests
             ScreenCapture.CaptureScreenshot(Path.GetFullPath(Path.Combine(Application.dataPath, "../../../reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/visual/pet-detail-navigation-test-gpu.png"))); yield return new WaitForSeconds(.1f);
         }
         finally { SceneManager.sceneLoaded -= Independent; }
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     [UnityTest] public IEnumerator OriginalRebirthEventsRespectDelayRepeatPriceAndReleaseOrExitForAllThreeKinds()
     {
         SceneManager.sceneLoaded += Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient"); yield return ClientStartupWait.Ready();
+            yield return TestSceneLoader.LoadAsync("GameClient"); yield return ClientStartupWait.Ready();
             var c = GameClient.Instance; Fund(c); yield return new WaitForSeconds(.5f); var rows = c.RebirthUI.rebirth_panel_ui.Upgrade_item_list;
             for (int kind = 0; kind < 3; kind++)
             {
@@ -105,7 +105,7 @@ public sealed class DetailHoldTests
             ScreenCapture.CaptureScreenshot(Path.GetFullPath(Path.Combine(Application.dataPath, "../../../reverse/com.Chodun.CatGunner/1.1.61-vc257/reports/visual/rebirth-hold-upgrade-test-gpu.png"))); yield return new WaitForSeconds(.1f);
         }
         finally { SceneManager.sceneLoaded -= Independent; }
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     [UnityTest] public IEnumerator HoldStopsWhenUnaffordableMaxedOrPanelClosedAndRestartDoesNotDuplicate()
     {
@@ -114,7 +114,7 @@ public sealed class DetailHoldTests
         SceneManager.sceneLoaded += Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient"); yield return ClientStartupWait.Ready();
+            yield return TestSceneLoader.LoadAsync("GameClient"); yield return ClientStartupWait.Ready();
             var c = GameClient.Instance; var row = c.RebirthUI.rebirth_panel_ui.Upgrade_item_list[0];
             c.State.Ruby = CurrencyAmount.FromValue(c.Rebirth.Catalogue.RebirthPrice[0].Value); c.RebirthUI.Reload(); OpenUpgrades(c);
             yield return new WaitForSeconds(.5f);
@@ -128,7 +128,7 @@ public sealed class DetailHoldTests
             var funds = c.State.Ruby.Value; Down(row.Upgrade_btn); yield return new WaitForSeconds(.5f); Assert.That(c.State.Rebirth_Upgrade_Lv[0], Is.EqualTo(20000)); Assert.That(c.State.Ruby.Value.CompareTo(funds), Is.Zero);
         }
         finally { SceneManager.sceneLoaded -= Independent; }
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     [UnityTest] public IEnumerator OrdinaryHoldUpgradeSurvivesIndependentColdReloadWithoutTouchingUserProfile()
     {
@@ -137,15 +137,15 @@ public sealed class DetailHoldTests
         SceneManager.sceneLoaded += configure;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient"); yield return ClientStartupWait.Ready(); var c = GameClient.Instance; Fund(c);
+            yield return TestSceneLoader.LoadAsync("GameClient"); yield return ClientStartupWait.Ready(); var c = GameClient.Instance; Fund(c);
             yield return new WaitForSeconds(.5f);
             var row = c.RebirthUI.rebirth_panel_ui.Upgrade_item_list[2]; Down(row.Upgrade_btn); yield return new WaitForSeconds(.65f); End(row.Upgrade_btn, false);
             int level = c.State.Rebirth_Upgrade_Lv[2]; Assert.That(level, Is.GreaterThan(1)); var ruby = c.State.Ruby.Value; c.SaveNow();
-            yield return SceneManager.LoadSceneAsync("TargetPreview"); yield return SceneManager.LoadSceneAsync("GameClient"); yield return ClientStartupWait.Ready(); c = GameClient.Instance;
+            yield return TestSceneLoader.LoadAsync("TargetPreview"); yield return TestSceneLoader.LoadAsync("GameClient"); yield return ClientStartupWait.Ready(); c = GameClient.Instance;
             Assert.That(c.State.Rebirth_Upgrade_Lv[2], Is.EqualTo(level)); Assert.That(c.State.Ruby.Value.CompareTo(ruby), Is.Zero);
             c.RebirthUI.Panel_Open(); yield return new WaitForSeconds(.6f); Assert.That(c.State.Rebirth_Upgrade_Lv[2], Is.EqualTo(level)); c.Persist = false;
         }
         finally { SceneManager.sceneLoaded -= configure; }
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
 }

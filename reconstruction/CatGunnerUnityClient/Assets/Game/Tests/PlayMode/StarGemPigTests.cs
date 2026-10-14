@@ -14,8 +14,8 @@ public sealed class StarGemPigTests
 {
     string folder; GameClient client; bool background;
     void Configure(Scene s,LoadSceneMode mode){if(s.name=="GameClient")s.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<GameClient>(true)).Single().SaveFolderOverride=folder;}
-    [UnitySetUp] public IEnumerator Setup(){background=Application.runInBackground;Application.runInBackground=true;folder=Path.Combine(Application.temporaryCachePath,"StarGemPig-"+Guid.NewGuid().ToString("N"));SceneManager.sceneLoaded+=Configure;yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();client=GameClient.Instance;ForestRuntimeAcceptance.IsGaming=false;}
-    [UnityTearDown] public IEnumerator Cleanup(){yield return SceneManager.LoadSceneAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;Time.timeScale=1;if(Directory.Exists(folder))Directory.Delete(folder,true);Application.runInBackground=background;}
+    [UnitySetUp] public IEnumerator Setup(){background=Application.runInBackground;Application.runInBackground=true;folder=Path.Combine(Application.temporaryCachePath,"StarGemPig-"+Guid.NewGuid().ToString("N"));SceneManager.sceneLoaded+=Configure;yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();client=GameClient.Instance;ForestRuntimeAcceptance.IsGaming=false;}
+    [UnityTearDown] public IEnumerator Cleanup(){yield return TestSceneLoader.LoadAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;Time.timeScale=1;if(Directory.Exists(folder))Directory.Delete(folder,true);Application.runInBackground=background;}
     static string Report(string name)=>Path.GetFullPath(Path.Combine(Application.dataPath,"../../../reverse/com.Chodun.CatGunner/1.1.61-vc257/reports",name));
     void PreparePage(){client.DailyLogin.Close();client.Tutorial.SetCleared();ContentNavigationFixture.Unlock(client,Content_Type.Raid);UnityEngine.Object.FindAnyObjectByType<Alert>(FindObjectsInactive.Include)?.gameObject.SetActive(false);client.RaidMode.Panel_Open();}
     IEnumerator Click(Button b)
@@ -64,7 +64,7 @@ public sealed class StarGemPigTests
     [UnityTest] public IEnumerator ColdReloadRestoresUnclaimedAmountLevelAndPurchaseCount()
     {
         Fill();Assert.That(client.LocalStore.Request(Pig.Product_id_Now),Is.True);yield return null;yield return null;Pig.Add(125);client.SaveNow();int season=Pig.Season_Index;
-        yield return SceneManager.LoadSceneAsync("TargetPreview");yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();client=GameClient.Instance;
+        yield return TestSceneLoader.LoadAsync("TargetPreview");yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();client=GameClient.Instance;
         Assert.That((Pig.Lv,Pig.Gem,Pig.PurchaseCount,Pig.Season_Index),Is.EqualTo((1,125,1,season)));Assert.That(client.State.StarGem,Is.EqualTo(660));Assert.That(client.LocalStore.Model.Recorded("catgunner_stargem_pig_1"),Is.True);
         PreparePage();yield return null;Assert.That(Hud.Percent_txt.text,Is.EqualTo("18%"));
     }

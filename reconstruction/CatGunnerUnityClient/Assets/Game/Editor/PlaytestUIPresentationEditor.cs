@@ -20,7 +20,7 @@ public static class PlaytestUIPresentationEditor
             var info=all.Single(t=>t.name=="Draw_Info_UI").gameObject;
             var collection=all.Single(t=>t.name=="GunCollection_UI").gameObject;
             if(collection.GetComponent<Gun_Collection_UI>().Gun_Item_list.Length!=65)throw new InvalidOperationException("Original collection needs all65 weapons");
-            var paths=new[]{"Assets/Game/Resources/WeaponDrawInformation.prefab","Assets/Game/Resources/WeaponCollection.prefab"};
+            var paths=new[]{"Assets/Game/Resources/UI/Draw_Info_UI.prefab","Assets/Game/Resources/UI/GunCollection_UI.prefab"};
             var roots=new[]{info,collection};
             for(int i=0;i<roots.Length;i++)
             {

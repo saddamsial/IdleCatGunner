@@ -70,10 +70,10 @@ namespace CatGunner.Runtime
             var root=all.Single(t=>t.name=="Gun_UI  (SafeArea)");
             weaponRoot=root;
             var page=root.Find("GunList_UI");
-            DrawInformation=Instantiate(Resources.Load<GameObject>("WeaponDrawInformation"),root,false);
+            DrawInformation=Instantiate(Resources.Load<GameObject>("UI/Draw_Info_UI"),root,false);
             DrawInformation.name="Draw_Info_UI";DrawInformation.SetActive(false);
             RefreshWeaponStaticText(CatGunner.Runtime.Language.Current);
-            var collection=Instantiate(Resources.Load<GameObject>("WeaponCollection"),root,false);
+            var collection=Instantiate(Resources.Load<GameObject>("UI/GunCollection_UI"),root,false);
             collection.name="GunCollection_UI";Collection=collection.GetComponent<Gun_Collection_UI>();collection.SetActive(false);
             var buttons=page.GetComponentsInChildren<Button>(true);
             BindButton(buttons.Single(b=>b.name=="Info_Btn"),OpenInformation);
@@ -100,9 +100,9 @@ namespace CatGunner.Runtime
             Layout(right,TextAnchor.LowerRight,new[]{"DiaPig_obj","Auto_obj","Raid_Btn","Adventure_Btn","Monster_Btn","Boss_Btn","Mine_Btn","SpeedRun_Btn"});
             shopButton=left.Find("Shop_Btn").GetComponent<Button>();
             weaponRoot=canvas.GetComponentsInChildren<Transform>(true).Single(t=>t.name=="Gun_UI  (SafeArea)");
-            DrawInformation=UnityEditor.PrefabUtility.InstantiatePrefab(Resources.Load<GameObject>("WeaponDrawInformation"),weaponRoot) as GameObject;
+            DrawInformation=UnityEditor.PrefabUtility.InstantiatePrefab(Resources.Load<GameObject>("UI/Draw_Info_UI"),weaponRoot) as GameObject;
             DrawInformation.name="Draw_Info_UI";DrawInformation.SetActive(false);
-            var collection=UnityEditor.PrefabUtility.InstantiatePrefab(Resources.Load<GameObject>("WeaponCollection"),weaponRoot) as GameObject;
+            var collection=UnityEditor.PrefabUtility.InstantiatePrefab(Resources.Load<GameObject>("UI/GunCollection_UI"),weaponRoot) as GameObject;
             collection.name="GunCollection_UI";Collection=collection.GetComponent<Gun_Collection_UI>();collection.SetActive(false);
             var page=weaponRoot.Find("GunList_UI");var buttons=page.GetComponentsInChildren<Button>(true);
             informationButton=buttons.Single(b=>b.name=="Info_Btn");collectionButton=buttons.Single(b=>b.name=="Collection_Btn");
@@ -182,6 +182,7 @@ namespace CatGunner.Runtime
         }
         void RestoreSkins()
         {
+            if(client.GetComponent<PenguinFullReskin>()?.WorldVisualsBaked==true)return;
             var source=client.Hero.skin_spriteRenderer.GetComponent<SpriteSkin>();
             if(source==null)throw new InvalidOperationException("Original hero bone binding missing");
             foreach(var cat in client.Team.Cat_list.Concat(client.Team.Helper_Cat!=null?new[]{client.Team.Helper_Cat}:Array.Empty<Cat>()))

@@ -14,7 +14,7 @@ public sealed class CombatTests
     private static void Set(Cat cat,string name,object value)=>typeof(Cat).GetField(name,Private).SetValue(cat,value);
     private static IEnumerator Load()
     {
-        yield return SceneManager.LoadSceneAsync("Forest");yield return null;
+        yield return TestSceneLoader.LoadAsync("Forest");yield return null;
         Cat.instance.GetComponent<ForestCombatAcceptance>().enabled=false;
         Cat.instance.GetComponent<ForestMovementAcceptance>().enabled=false;
     }

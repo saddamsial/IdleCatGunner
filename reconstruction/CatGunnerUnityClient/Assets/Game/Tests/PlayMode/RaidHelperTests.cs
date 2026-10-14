@@ -14,8 +14,8 @@ public sealed class RaidHelperTests
 {
     string folder; GameClient client;
     void Configure(Scene s,LoadSceneMode mode){if(s.name=="GameClient")s.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<GameClient>(true)).Single().SaveFolderOverride=folder;}
-    [UnitySetUp] public IEnumerator Setup(){folder=Path.Combine(Application.temporaryCachePath,"RaidHelper-"+Guid.NewGuid().ToString("N"));SceneManager.sceneLoaded+=Configure;yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();client=GameClient.Instance;ForestRuntimeAcceptance.IsGaming=false;}
-    [UnityTearDown] public IEnumerator Cleanup(){yield return SceneManager.LoadSceneAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;Time.timeScale=1;if(Directory.Exists(folder))Directory.Delete(folder,true);}
+    [UnitySetUp] public IEnumerator Setup(){folder=Path.Combine(Application.temporaryCachePath,"RaidHelper-"+Guid.NewGuid().ToString("N"));SceneManager.sceneLoaded+=Configure;yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();client=GameClient.Instance;ForestRuntimeAcceptance.IsGaming=false;}
+    [UnityTearDown] public IEnumerator Cleanup(){yield return TestSceneLoader.LoadAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;Time.timeScale=1;if(Directory.Exists(folder))Directory.Delete(folder,true);}
     [UnityTest] public IEnumerator OriginalFourthCatIsPresentAndLockedOutsideRaid(){Assert.That(client.Team.Helper_Cat,Is.Not.Null,"original paid raid helper model is still missing");Assert.That(client.Team.Helper_Cat.is_AI,Is.True);Assert.That(client.Team.Helper_Cat.gameObject.activeSelf,Is.False);yield return null;}
     static string Report(string name)=>Path.GetFullPath(Path.Combine(Application.dataPath,"../../../reverse/com.Chodun.CatGunner/1.1.61-vc257/reports",name));
     IEnumerator Buy(){Assert.That(client.LocalStore.Request("catgunner_raid_helper"),Is.True);yield return null;yield return null;yield return null;Assert.That(client.RaidMode.Is_Helper_Active,Is.True);}
@@ -64,7 +64,7 @@ public sealed class RaidHelperTests
     [UnityTest] public IEnumerator PurchaseColdReloadRestoresEntitlementWithoutSpawningForestHelper()
     {
         yield return Buy();int season=client.State.Raid_Helper_Season_Index;client.SaveNow();Assert.That(new SaveArchive(folder).Load().Raid_Helper_Season_Index,Is.EqualTo(season));
-        yield return SceneManager.LoadSceneAsync("TargetPreview");yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();client=GameClient.Instance;
+        yield return TestSceneLoader.LoadAsync("TargetPreview");yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();client=GameClient.Instance;
         Assert.That(client.RaidMode.Helper_Season_Index,Is.EqualTo(season));Assert.That(client.RaidMode.Is_Helper_Active,Is.True);Assert.That(client.Team.Helper_Active,Is.False);client.RaidMode.Panel_Open();Assert.That(client.RaidMode.helperSlot.Locked_obj.activeSelf,Is.False);
     }
     [UnityTest] public IEnumerator NativeMinimumStarsWeakDamageAndCriticalReachOriginalFourthCat()

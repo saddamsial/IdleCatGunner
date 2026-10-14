@@ -69,7 +69,7 @@ public sealed class RelicTests
   SceneManager.sceneLoaded+=Independent;
   try
   {
-   yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;ContentNavigationFixture.Unlock(c,Content_Type.Adventure);yield return null;var m=c.Relics;Assert.That(m.Relic_Item_List.Length,Is.EqualTo(15));
+   yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;ContentNavigationFixture.Unlock(c,Content_Type.Adventure);yield return null;var m=c.Relics;Assert.That(m.Relic_Item_List.Length,Is.EqualTo(15));
    Click(UnityEngine.Object.FindObjectsByType<Button>(FindObjectsInactive.Include).Single(b=>b.name=="Adventure_Btn"));yield return new WaitForSeconds(.2f);Click(c.Adventure.LocalTabs.Btn_list[1].GetComponent<Button>());yield return new WaitForSeconds(.4f);
    Directory.CreateDirectory(Path.Combine(Reports,"visual"));ScreenCapture.CaptureScreenshot(Path.Combine(Reports,"visual/relic-menu-test-gpu.png"));yield return new WaitForSeconds(.2f);
    Assert.That(m.LocalRelicMenu.activeInHierarchy,Is.True);var down=m.relic_DownPanel;var draw=down.Draw_Relic_Btn_list.Single(b=>!b.is_Max);Click(draw.GetComponent<Button>());Assert.That(m.relic_draw_panel.gameObject.activeSelf,Is.False);Assert.That(c.State.Adventure_Currency_Core,Is.EqualTo(new int[4]));
@@ -83,14 +83,14 @@ public sealed class RelicTests
    Click(detail.GetComponentsInChildren<Button>(true).Single(b=>b.name=="Close_Btn"));Click(popup.Close_Btn.GetComponentInChildren<Button>(true));Click(m.LocalRelicMenu.GetComponentsInChildren<Button>(true).Single(b=>b.name=="Close_Btn"));Assert.That(m.LocalRelicMenu.activeSelf,Is.False);
   }
   finally{SceneManager.sceneLoaded-=Independent;}
-  yield return SceneManager.LoadSceneAsync("TargetPreview");
+  yield return TestSceneLoader.LoadAsync("TargetPreview");
  }
  [UnityTest] public IEnumerator MaxBatchDrawHasCeilingPagesNativeRevealDelaysAndRealArrowNavigation()
  {
   SceneManager.sceneLoaded+=Independent;
   try
   {
-   yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var m=c.Relics;m.Open();yield return new WaitForSeconds(.4f);
+   yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var m=c.Relics;m.Open();yield return new WaitForSeconds(.4f);
    var down=m.relic_DownPanel;Click(down.DrawMode_Btn_list[3].GetComponent<Button>());Assert.That(down.currentCoreType,Is.EqualTo(Core_Type.ALL));Assert.That(down.Draw_Percent_txt_list.All(t=>t.text=="33%"),Is.True);
    c.State.Adventure_Currency_Core[3]=263;down.UI_Reload();var draw=down.Draw_Relic_Btn_list.Single(b=>b.is_Max);Assert.That(draw.DrawCount,Is.EqualTo(13));Assert.That(draw.Price_txt.text,Is.EqualTo("260"));
    Click(draw.GetComponent<Button>());var popup=m.relic_draw_panel;Assert.That(popup.PageCount,Is.EqualTo(2));popup.OnClick_Right();Assert.That(popup.Page,Is.Zero);Assert.That(c.State.Adventure_Currency_Core[3],Is.EqualTo(3));
@@ -101,7 +101,7 @@ public sealed class RelicTests
    Click(popup.Close_Btn.GetComponentInChildren<Button>(true));m.Close();
   }
   finally{SceneManager.sceneLoaded-=Independent;}
-  yield return SceneManager.LoadSceneAsync("TargetPreview");
+  yield return TestSceneLoader.LoadAsync("TargetPreview");
  }
  [UnityTest] public IEnumerator IndependentSaveReloadRebirthAndRaidRetainRelicsCoresAndDecimalBonuses()
  {
@@ -110,23 +110,23 @@ public sealed class RelicTests
   SceneManager.sceneLoaded+=isolated;
   try
   {
-   yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;c.State.Adventure_Currency_Core[3]=43;
+   yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;c.State.Adventure_Currency_Core[3]=43;
    foreach(int i in new[]{0,3,5,10,13})c.State.Relics[i].is_Unlock=true;c.State.Relics[0].Count=2;c.Relics.Upgrade(0);c.Relics.Close();c.SaveNow();
-   yield return SceneManager.LoadSceneAsync("TargetPreview");yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;c=GameClient.Instance;
+   yield return TestSceneLoader.LoadAsync("TargetPreview");yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;c=GameClient.Instance;
    Assert.That(c.Hero.Damage_str,Is.EqualTo("110"));Assert.That(c.Hero.moveSpeed,Is.EqualTo(15.3f).Within(.001f));Assert.That(c.State.Adventure_Currency_Core[3],Is.EqualTo(43));Assert.That(c.State.Relics[0].Lv,Is.EqualTo(1));Assert.That(c.Rebirth.RewardPercent,Is.EqualTo(105));
    c.Forest.Stage_Now=2;Assert.That(c.RebirthNow(),Is.True);Assert.That(c.State.Ruby.Value.ToString(),Is.EqualTo("33203e-2"));Assert.That(c.Hero.Damage_str,Is.EqualTo("110"));Assert.That(c.State.Relics.Count(r=>r.is_Unlock),Is.EqualTo(5));
    var raid=c.RaidMode;raid.Now=()=>new DateTime(2024,1,1);c.State.Owned_Gun_list[0]=30;raid.Panel_Open();raid.Gun_UnSelect(1);raid.Game_Enter_Normal();yield return new WaitForSeconds(2.15f);
    var expected=raid.Raid_Damage_return(30).Value.Percent(new DecimalAmount(110)).DiscardFraction();Assert.That(c.Hero.Damage.Value.CompareTo(expected),Is.Zero);raid.Game_Exit();yield return new WaitForSeconds(1.85f);Assert.That(c.Hero.Damage_str,Is.EqualTo("110"));c.Persist=false;
   }
   finally{SceneManager.sceneLoaded-=isolated;}
-  yield return SceneManager.LoadSceneAsync("TargetPreview");Directory.Delete(folder,true);
+  yield return TestSceneLoader.LoadAsync("TargetPreview");Directory.Delete(folder,true);
  }
  [UnityTest] public IEnumerator UnlockedRelicsChangeNaturalProjectilesCriticalBalanceAndMoneyDrop()
  {
   SceneManager.sceneLoaded+=Independent;
   try
   {
-   yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;foreach(int i in new[]{0,5,10,13})c.State.Relics[i].is_Unlock=true;c.Relics.Value_Reload();c.Relics.Close();
+   yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;foreach(int i in new[]{0,5,10,13})c.State.Relics[i].is_Unlock=true;c.Relics.Value_Reload();c.Relics.Close();
    Assert.That(c.Hero.Damage_str,Is.EqualTo("105"));Assert.That(c.Hero.CriDmg_str,Is.EqualTo("137"));Assert.That(c.Hero.moveSpeed,Is.EqualTo(15.3f).Within(.001f));
    var trees=c.Forest.Map_obj.GetComponentsInChildren<Tree>(false);var tree=trees.First(t=>t!=c.Forest.Boss_tree&&t.enemy.Health_Max.Value.CompareTo(new DecimalAmount(250))==0);foreach(var t in trees)if(t!=tree)t.gameObject.SetActive(false);
    tree.transform.position=c.Hero.transform.position+new Vector3(0,0,12);Physics.SyncTransforms();c.Hero.ClearNearObj();c.Hero.ClearAutoTarget();var money=c.State.Money.Value;var reward=tree.enemy.Money.Value.Percent(new DecimalAmount(105));int hits=0;
@@ -136,6 +136,6 @@ public sealed class RelicTests
    finally{ForestDamageDispatch.DamageTextPending-=observed;}
   }
   finally{SceneManager.sceneLoaded-=Independent;}
-  yield return SceneManager.LoadSceneAsync("TargetPreview");
+  yield return TestSceneLoader.LoadAsync("TargetPreview");
  }
 }

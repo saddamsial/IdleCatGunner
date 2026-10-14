@@ -48,12 +48,12 @@ public sealed class ForestFeedbackTests
         background=Application.runInBackground;Application.runInBackground=true;Time.timeScale=1;
         folder=Path.Combine(Application.temporaryCachePath,"ForestFeedback-"+Guid.NewGuid().ToString("N"));
         SceneManager.sceneLoaded+=Configure;
-        yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();
+        yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();
         client=GameClient.Instance;
     }
     [UnityTearDown] public IEnumerator Teardown()
     {
-        yield return SceneManager.LoadSceneAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;
+        yield return TestSceneLoader.LoadAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;
         if(Directory.Exists(folder))Directory.Delete(folder,true);
         Application.runInBackground=background;Time.timeScale=1;
     }

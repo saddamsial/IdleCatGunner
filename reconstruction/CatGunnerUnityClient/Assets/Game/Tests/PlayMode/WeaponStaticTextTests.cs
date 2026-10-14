@@ -21,11 +21,11 @@ public sealed class WeaponStaticTextTests
     [UnitySetUp] public IEnumerator Setup()
     {
         background=Application.runInBackground;Application.runInBackground=true;folder=Path.Combine(Application.temporaryCachePath,"WeaponStaticText-"+Guid.NewGuid().ToString("N"));
-        SceneManager.sceneLoaded+=Configure;yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();client=GameClient.Instance;
+        SceneManager.sceneLoaded+=Configure;yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();client=GameClient.Instance;
         client.DailyLogin.Close();client.Tutorial.SetCleared();ForestRuntimeAcceptance.IsGaming=false;
         presentation=client.GetComponent<ClientPresentation>();inventory=client.Slider.GetComponentInParent<Canvas>().GetComponentsInChildren<Transform>(true).Single(t=>t.name=="Gun_UI  (SafeArea)");
     }
-    [UnityTearDown] public IEnumerator Cleanup(){Time.timeScale=1;yield return SceneManager.LoadSceneAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;Application.runInBackground=background;if(Directory.Exists(folder))Directory.Delete(folder,true);}
+    [UnityTearDown] public IEnumerator Cleanup(){Time.timeScale=1;yield return TestSceneLoader.LoadAsync("TargetPreview");SceneManager.sceneLoaded-=Configure;Application.runInBackground=background;if(Directory.Exists(folder))Directory.Delete(folder,true);}
     TMP_Text Label(string path)=>inventory.Find(path).GetComponent<TMP_Text>();
     IEnumerator Capture(string name){yield return new WaitForEndOfFrame();ScreenCapture.CaptureScreenshot(Report("visual/weapon-static-text-"+name+"-gpu.png"));yield return new WaitForSecondsRealtime(.2f);}
     IEnumerator Click(Button target)

@@ -40,7 +40,7 @@ public sealed class MineTests
         SceneManager.sceneLoaded+=Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;ContentNavigationFixture.Unlock(c,Content_Type.Mine);yield return null;var m=c.MineMode;
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;ContentNavigationFixture.Unlock(c,Content_Type.Mine);yield return null;var m=c.MineMode;
             c.State.Owned_Gun_list[0]=20;Assert.That(c.Inventory.Equip(0,0),Is.True);int forest=c.Forest.Stage_Now,wave=c.Forest.Level_Now,dia=c.State.Dia;
             int mission=c.State.Mission_PlayMine_Value;
             var nav=UnityEngine.Object.FindObjectsByType<Button>(FindObjectsInactive.Include).Single(b=>b.name=="Mine_Btn");Canvas.ForceUpdateCanvases();var rect=(RectTransform)nav.transform;
@@ -60,14 +60,14 @@ public sealed class MineTests
             m.Game_Exit();yield return new WaitForSeconds(2);Assert.That(c.Mode,Is.Zero);Assert.That((c.Forest.Stage_Now,c.Forest.Level_Now),Is.EqualTo((forest,wave)));Assert.That(m.Map_obj.activeSelf,Is.False);
         }
         finally{SceneManager.sceneLoaded-=Independent;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     [UnityTest] public IEnumerator UnitHitRoutingRareHealthFloorRewardDustAndLateHits()
     {
         SceneManager.sceneLoaded+=Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var m=c.MineMode;StopCombat(c);m.Game_Enter();
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var m=c.MineMode;StopCombat(c);m.Game_Enter();
             float deadline=Time.realtimeSinceStartup+20;while(m.Entering&&Time.realtimeSinceStartup<deadline)yield return null;Assert.That(m.Playing,Is.True);
             var normal=m.Ore_list.First(o=>o._diaValue==1);var rare=m.Ore_list.First(o=>o._diaValue==10);
             var coll=normal.GetComponentsInChildren<EnemyColl>().First().GetComponent<Collider>();
@@ -89,14 +89,14 @@ public sealed class MineTests
             m.Game_Exit();yield return new WaitForSeconds(2);Assert.That(m.ModeHUD.activeSelf,Is.False);Assert.That(m.Ingame_Upgrade_UI_obj.activeSelf,Is.True);
         }
         finally{SceneManager.sceneLoaded-=Independent;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     [UnityTest] public IEnumerator EntryCancellationAndExhaustedTicketsCannotRestartOrAward()
     {
         SceneManager.sceneLoaded+=Independent;
         try
         {
-            yield return SceneManager.LoadSceneAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var m=c.MineMode;StopCombat(c);
+            yield return TestSceneLoader.LoadAsync("GameClient");yield return ClientStartupWait.Ready();yield return null;var c=GameClient.Instance;var m=c.MineMode;StopCombat(c);
             int dia=c.State.Dia;m.Game_Enter();Assert.That(m.Entering,Is.True);m.Game_Exit();yield return new WaitForSeconds(2);
             Assert.That(c.Mode,Is.Zero);Assert.That(m.Entering,Is.False);Assert.That(c.State.TicketUse_Count,Is.EqualTo(1));Assert.That(c.State.Dia,Is.EqualTo(dia));
             m.Game_Enter();m.Game_Exit();yield return new WaitForSeconds(2);Assert.That(c.State.TicketUse_Count,Is.EqualTo(2));
@@ -104,7 +104,7 @@ public sealed class MineTests
             yield return new WaitForSeconds(2);Assert.That(m.Map_obj.activeSelf,Is.False);
         }
         finally{SceneManager.sceneLoaded-=Independent;}
-        yield return SceneManager.LoadSceneAsync("TargetPreview");
+        yield return TestSceneLoader.LoadAsync("TargetPreview");
     }
     [Serializable]private sealed class Observation{public int score,reward;public float seconds,remaining,moved;public string fixture;}
 }
