@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="7" result="Passed" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-14 04:21:12Z" end-time="2026-10-14 04:22:01Z" duration="49.8480329">
+  <test-suite type="TestSuite" id="13869" name="企鹅破冰探险" fullname="企鹅破冰探险" runstate="Runnable" testcasecount="8570" result="Passed" start-time="2026-10-14 04:21:12Z" end-time="2026-10-14 04:22:01Z" duration="49.848033" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1680" name="CatGunner.Recovery.PlayModeTests.dll" fullname="/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Library/ScriptAssemblies/CatGunner.Recovery.PlayModeTests.dll" runstate="Runnable" testcasecount="574" result="Passed" start-time="2026-10-14 04:21:12Z" end-time="2026-10-14 04:22:01Z" duration="49.823968" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="32946" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestFixture" id="1659" name="RecoveredUiAuthoringTests" fullname="RecoveredUiAuthoringTests" classname="RecoveredUiAuthoringTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-14 04:21:12Z" end-time="2026-10-14 04:22:01Z" duration="49.816439" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1664" name="AuthoredCatalogueSpriteIsNotReassignedByBootstrap" fullname="RecoveredUiAuthoringTests.AuthoredCatalogueSpriteIsNotReassignedByBootstrap" methodname="AuthoredCatalogueSpriteIsNotReassignedByBootstrap" classname="RecoveredUiAuthoringTests" runstate="Runnable" seed="1047734079" result="Passed" start-time="2026-10-14 04:21:12Z" end-time="2026-10-14 04:21:20Z" duration="8.326026" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1663" name="AuthoredModalSortingAndBorderThicknessAreRespected" fullname="RecoveredUiAuthoringTests.AuthoredModalSortingAndBorderThicknessAreRespected" methodname="AuthoredModalSortingAndBorderThicknessAreRespected" classname="RecoveredUiAuthoringTests" runstate="Runnable" seed="45967053" result="Passed" start-time="2026-10-14 04:21:20Z" end-time="2026-10-14 04:21:27Z" duration="6.942363" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1666" name="LoadingTransitionsPreserveAuthoredParentAndRect" fullname="RecoveredUiAuthoringTests.LoadingTransitionsPreserveAuthoredParentAndRect" methodname="LoadingTransitionsPreserveAuthoredParentAndRect" classname="RecoveredUiAuthoringTests" runstate="Runnable" seed="968978731" result="Passed" start-time="2026-10-14 04:21:27Z" end-time="2026-10-14 04:21:34Z" duration="6.787674" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1661" name="ManualArtworkHierarchyAndStyleSurviveStartup" fullname="RecoveredUiAuthoringTests.ManualArtworkHierarchyAndStyleSurviveStartup" methodname="ManualArtworkHierarchyAndStyleSurviveStartup" classname="RecoveredUiAuthoringTests" runstate="Runnable" seed="1006152831" result="Passed" start-time="2026-10-14 04:21:34Z" end-time="2026-10-14 04:21:41Z" duration="6.862194" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1665" name="ManualProgressAnchorsAreNotRebuilt" fullname="RecoveredUiAuthoringTests.ManualProgressAnchorsAreNotRebuilt" methodname="ManualProgressAnchorsAreNotRebuilt" classname="RecoveredUiAuthoringTests" runstate="Runnable" seed="225899892" result="Passed" start-time="2026-10-14 04:21:41Z" end-time="2026-10-14 04:21:47Z" duration="6.752086" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1662" name="RenamedLocalizedCaptionRetainsStyleAndLanguageControlsWork" fullname="RecoveredUiAuthoringTests.RenamedLocalizedCaptionRetainsStyleAndLanguageControlsWork" methodname="RenamedLocalizedCaptionRetainsStyleAndLanguageControlsWork" classname="RecoveredUiAuthoringTests" runstate="Runnable" seed="322006851" result="Passed" start-time="2026-10-14 04:21:47Z" end-time="2026-10-14 04:21:54Z" duration="6.931070" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1660" name="StaticPresentationExistsAndDoesNotDuplicateOnEnable" fullname="RecoveredUiAuthoringTests.StaticPresentationExistsAndDoesNotDuplicateOnEnable" methodname="StaticPresentationExistsAndDoesNotDuplicateOnEnable" classname="RecoveredUiAuthoringTests" runstate="Runnable" seed="1372332583" result="Passed" start-time="2026-10-14 04:21:54Z" end-time="2026-10-14 04:22:01Z" duration="7.197988" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: /Users/rongdahuikeji/Library/Application Support/Ravanla/企鹅破冰探险/TestResults.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

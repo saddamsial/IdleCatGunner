@@ -49,6 +49,7 @@ namespace CatGunner.Recovery
         public static void Set(TMPro.TMP_Text target,string value,SystemLanguage language)
         {
             if(target==null)return;
+            if(RecoveryUiAuthoring.For(target.transform)?.StaticUiBaked==true)value=PenguinUiTheme.DisplayWording(value);
             if(language==SystemLanguage.Chinese||language==SystemLanguage.ChineseSimplified||language==SystemLanguage.ChineseTraditional)
                 (target.GetComponent<RecoveryWeaponTextStyle>()??target.gameObject.AddComponent<RecoveryWeaponTextStyle>()).Apply();
             else target.GetComponent<RecoveryWeaponTextStyle>()?.Restore();

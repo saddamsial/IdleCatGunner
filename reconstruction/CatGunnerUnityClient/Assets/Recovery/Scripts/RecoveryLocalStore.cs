@@ -36,7 +36,7 @@ namespace CatGunner.Recovery
    // This original branch starts hidden until the commercial controller selects
    // an offer. Select its original art for the explicit local simulation.
    go.transform.parent.gameObject.SetActive(true);
-   Client.Buffs.Popup.transform.Find("InApp & FREECASH/FreeCash")?.gameObject.SetActive(false);
+   RecoveryUiAuthoring.Find(Client.Buffs.Popup.transform,"InApp & FREECASH/FreeCash")?.gameObject.SetActive(false);
    var adapter=go.GetComponent<RecoveryLocalPurchaseButton>();if(adapter==null)adapter=go.AddComponent<RecoveryLocalPurchaseButton>();
    adapter.ProductId="buff_pack";adapter.Button=button;adapter.RequireVisiblePage=true;
    button.onClick.RemoveListener(adapter.Purchase);

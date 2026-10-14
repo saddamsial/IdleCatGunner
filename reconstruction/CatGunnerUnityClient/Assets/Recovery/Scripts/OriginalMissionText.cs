@@ -48,16 +48,7 @@ namespace CatGunner.Recovery
         }
         public TMP_Text Resolve(Transform canvas,Row row)
         {
-            // Original season panels contain two siblings with the same name
-            // but different terms. Preserve their original relative order.
-            int slash=row.Path.LastIndexOf('/');var parent=canvas.Find(row.Path.Substring(0,slash));
-            if(parent==null)return null;string name=row.Path.Substring(slash+1);int ordinal=0;
-            for(int i=0;i<parent.childCount;i++)
-            {
-                var child=parent.GetChild(i);if(child.name!=name)continue;
-                if(ordinal++==row.SameNameOrdinal)return child.GetComponent<TMP_Text>();
-            }
-            return null;
+            return RecoveryUiAuthoring.Find(canvas,row.Path,row.SameNameOrdinal)?.GetComponent<TMP_Text>();
         }
     }
 }

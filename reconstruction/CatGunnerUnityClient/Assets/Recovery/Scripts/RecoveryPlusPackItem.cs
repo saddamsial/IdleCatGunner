@@ -9,6 +9,7 @@ namespace CatGunner.Recovery
  // Native active/nonpurchase panels and remaining time use the simulated ledger.
  public sealed class RecoveryPlusPackItem : MonoBehaviour
  {
+  public bool Authored;
   public int Type;public bool IsBanner;public GameObject ActivePanel,NonPurchasePanel;public TextMeshProUGUI RemainingText;
   RecoveryForestClient client;float nextTick;
   public bool Active=>client!=null&&client.PlusActive(Type);
@@ -24,6 +25,11 @@ namespace CatGunner.Recovery
   }
   public static void BindAll(RecoveryForestClient owner)
   {
+   if(Application.isPlaying&&owner.StaticUiBaked)
+   {
+    foreach(var item in owner.gameObject.scene.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<RecoveryPlusPackItem>(true))){item.client=owner;item.Reload();}
+    return;
+   }
    var asset=Resources.Load<TextAsset>("OriginalPlusItems");if(asset==null)throw new InvalidOperationException("Original PlusPack UI manifest missing");
    foreach(var row in JsonUtility.FromJson<Manifest>(asset.text).rows)
    {

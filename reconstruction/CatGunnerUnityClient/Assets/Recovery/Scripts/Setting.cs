@@ -54,7 +54,7 @@ public sealed class Setting : MonoBehaviour
         EcoMode_Btn_img.color = is_eco ? ExoMode_Color_Able : ExoMode_Color_Disable;
         Camera_obj.SetActive(!is_eco);
         EcoPanel_obj.SetActive(is_eco);
-        EcoCat_img.sprite = Skin_manager.instance.Skin_sprites[Skin_manager.instance.Selected_num];
+        if(EcoCat_img.GetComponent<CatGunner.Recovery.PenguinLoadingMascot>()?.Authored!=true)EcoCat_img.sprite = Skin_manager.instance.Skin_sprites[Skin_manager.instance.Selected_num];
     }
 
     public void EcoMode_Off() { if (is_eco) EcoMode_Change(); } // 0x2b21688.

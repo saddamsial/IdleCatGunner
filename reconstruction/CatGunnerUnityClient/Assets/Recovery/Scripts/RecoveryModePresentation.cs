@@ -11,17 +11,17 @@ namespace CatGunner.Recovery
         public int CurrentMode {get;private set;}
         public void Bind(RecoveryForestClient client)
         {
-            var safe=client.Slider.GetComponentInParent<Canvas>().transform.Find("SafeArea");
+            var safe=RecoveryUiAuthoring.Find(client.Slider.GetComponentInParent<Canvas>().transform,"SafeArea");
             string[] names={"Main_UI","SpeedRun_UI","Mine_UI","Boss_UI","Monster_UI","Raid_UI"};roots=new GameObject[names.Length];
-            for(int i=0;i<names.Length;i++)roots[i]=safe.Find(names[i]).gameObject;
-            upgrades=safe.Find("Ingame/Upgrade_List").gameObject;
+            for(int i=0;i<names.Length;i++)roots[i]=RecoveryUiAuthoring.Find(safe,names[i]).gameObject;
+            upgrades=RecoveryUiAuthoring.Find(safe,"Ingame/Upgrade_List").gameObject;
             foreach(var name in new[]{"SpeedRun_UI","Boss_UI","Raid_UI"})
             {
-                var root=safe.Find(name+"/Currency");if(root==null)continue;
+                var root=RecoveryUiAuthoring.Find(safe,name+"/Currency");if(root==null)continue;
                 var currency=root.GetComponent<Currency>()??root.gameObject.AddComponent<Currency>();
-                currency.Money_txt=root.Find("Money/Price_txt").GetComponent<TextMeshProUGUI>();currency.Dia_txt=root.Find("Dia/Price_txt").GetComponent<TextMeshProUGUI>();currency.Bind(client);
+                currency.Money_txt=RecoveryUiAuthoring.Find(root,"Money/Price_txt").GetComponent<TextMeshProUGUI>();currency.Dia_txt=RecoveryUiAuthoring.Find(root,"Dia/Price_txt").GetComponent<TextMeshProUGUI>();currency.Bind(client);
             }
-            var floor=client.MonsterMode.Map_obj.transform.Find("Groud (1)").GetComponent<SpriteRenderer>();
+            var floor=RecoveryUiAuthoring.Find(client.MonsterMode.Map_obj.transform,"Groud (1)").GetComponent<SpriteRenderer>();
             var material=Resources.Load<Material>("OriginalMonsterFloor");if(material==null)throw new InvalidOperationException("Original clipped monster floor adapter missing");floor.sharedMaterial=material;
             Select(0);
         }

@@ -12,6 +12,7 @@ namespace CatGunner.Recovery
     [DefaultExecutionOrder(180)]
     public sealed class PenguinFullReskin : MonoBehaviour
     {
+        public bool StaticUiBaked;
         public Sprite[] Sources=Array.Empty<Sprite>(), Replacements=Array.Empty<Sprite>();
         public Sprite[] Skins,Weapons,Fish,Pets,Bosses,RaidBosses,Monsters,Gems,Icons,Utilities,Effects,Landscapes;
         public Vector4[] EyeA,EyeB,Mouth;
@@ -54,7 +55,7 @@ namespace CatGunner.Recovery
             foreach(var root in roots)behaviours.AddRange(root.GetComponentsInChildren<MonoBehaviour>(true));
             foreach(var b in behaviours)
             {
-                if(b==null||b is PenguinFullReskin||b is PenguinUiTheme||b is PenguinExpeditionTheme||b is Graphic)continue;
+                if(b==null||(StaticUiBaked&&b.GetComponentInParent<Canvas>(true)!=null)||b is PenguinFullReskin||b is PenguinUiTheme||b is PenguinExpeditionTheme||b is Graphic)continue;
                 foreach(var field in b.GetType().GetFields(BindingFlags.Public|BindingFlags.Instance))
                 {
                     if(b is Skin_manager&&field.Name=="Skin_Bone_sprites")continue;
@@ -73,6 +74,7 @@ namespace CatGunner.Recovery
             var canvas=client.Slider.GetComponentInParent<Canvas>();images=canvas.GetComponentsInChildren<Image>(true);texts=canvas.GetComponentsInChildren<TMP_Text>(true);
             foreach(var image in images)
             {
+                if(StaticUiBaked)continue;
                 var old=image.sprite;var oldColor=image.color;var aspect=image.preserveAspect;
                 if(map.ContainsKey(old!=null?old:ApprovedPenguin)&&old!=null)
                 {restore.Add(()=>{if(image!=null){image.sprite=old;image.color=oldColor;image.preserveAspect=aspect;}});image.sprite=Replace(old);image.color=new Color(1,1,1,oldColor.a);image.preserveAspect=!IsBackdrop(image.sprite);ReplacedImageCount++;}
@@ -92,11 +94,13 @@ namespace CatGunner.Recovery
             rawImages=canvas.GetComponentsInChildren<RawImage>(true);
             foreach(var raw in rawImages)
             {
+                if(StaticUiBaked)continue;
                 if(raw.texture==null||raw.texture is RenderTexture||!textureMap.TryGetValue(raw.texture,out var next))continue;
                 var old=raw.texture;restore.Add(()=>{if(raw!=null)raw.texture=old;});raw.texture=next;
             }
             foreach(var text in texts)
             {
+                if(StaticUiBaked)continue;
                 var old=text.spriteAsset;int n=Array.IndexOf(OriginalGlyphs,old);if(n<0)continue;
                 restore.Add(()=>{if(text!=null)text.spriteAsset=old;});text.spriteAsset=ThemedGlyphs[n];
             }
@@ -238,9 +242,9 @@ namespace CatGunner.Recovery
         private void Maintain()
         {
             if(!applied)return;
-            foreach(var image in images)if(image!=null&&image.isActiveAndEnabled&&image.sprite!=null&&map.TryGetValue(image.sprite,out var s)){image.sprite=s;image.color=new Color(1,1,1,image.color.a);image.preserveAspect=!IsBackdrop(image.sprite);}
+            foreach(var image in images)if(!StaticUiBaked&&image!=null&&image.isActiveAndEnabled&&image.sprite!=null&&map.TryGetValue(image.sprite,out var s)){image.sprite=s;image.color=new Color(1,1,1,image.color.a);image.preserveAspect=!IsBackdrop(image.sprite);}
             foreach(var r in renderers)if(r!=null&&r.sprite!=null&&map.TryGetValue(r.sprite,out var s)){bool keep=r.GetComponent<SpriteFill>()!=null||IsNeutralShape(r.sprite);r.sprite=s;if(!keep)r.color=new Color(1,1,1,r.color.a);}
-            foreach(var raw in rawImages)if(raw!=null&&raw.texture!=null&&!(raw.texture is RenderTexture)&&textureMap.TryGetValue(raw.texture,out var texture))raw.texture=texture;
+            foreach(var raw in rawImages)if(!StaticUiBaked&&raw!=null&&raw.texture!=null&&!(raw.texture is RenderTexture)&&textureMap.TryGetValue(raw.texture,out var texture))raw.texture=texture;
         }
         private void LateUpdate()
         {

@@ -3,6 +3,7 @@ using UnityEngine;
 
 public sealed class BounceStart : MonoBehaviour
 {
+    public bool UseUnscaledTime;
     public float time,WantSize,_upSizeTime,Middle_value;
     private float First_Time,Second_Time;
     private bool is_reload;
@@ -17,11 +18,11 @@ public sealed class BounceStart : MonoBehaviour
         transform.localScale=Vector3.one*.001f;yield return null;
         while(time<=First_Time)
         {
-            time+=Time.deltaTime;transform.localScale=Vector3.one*Mathf.Lerp(0,WantSize,time/First_Time);yield return null;
+            time+=UseUnscaledTime?Time.unscaledDeltaTime:Time.deltaTime;transform.localScale=Vector3.one*Mathf.Lerp(0,WantSize,time/First_Time);yield return null;
         }
         while(time<=_upSizeTime)
         {
-            time+=Time.deltaTime;transform.localScale=Vector3.one*Mathf.Lerp(WantSize,1,(time-First_Time)/Second_Time);yield return null;
+            time+=UseUnscaledTime?Time.unscaledDeltaTime:Time.deltaTime;transform.localScale=Vector3.one*Mathf.Lerp(WantSize,1,(time-First_Time)/Second_Time);yield return null;
         }
         transform.localScale=Vector3.one;
     }

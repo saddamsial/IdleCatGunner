@@ -35,7 +35,7 @@ namespace CatGunner.Recovery
             if(locale<0)locale=0;
             foreach(var row in Rows)
             {
-                var target=canvas.Find(row.Path)?.GetComponent<TMP_Text>();
+                var target=RecoveryUiAuthoring.Find(canvas,row.Path)?.GetComponent<TMP_Text>();
                 if(target==null)throw new InvalidOperationException("Original companion label missing: "+row.Path);
                 OriginalWeaponText.Set(target,row.Values[locale],language);
             }

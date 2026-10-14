@@ -12,6 +12,7 @@ using UnityEngine.UI;
 [DefaultExecutionOrder(190)]
 public sealed class PenguinUiTheme : MonoBehaviour
 {
+    public bool StaticUiBaked;
     public Sprite Panel, Fill, Outline, Circle, Gear, Flipper;
     public Sprite Portrait, Coin, Shop, Penguin, Win, Fail, Rest;
     public Texture2D SnowPattern, IceStripe;
@@ -22,6 +23,7 @@ public sealed class PenguinUiTheme : MonoBehaviour
     private readonly Dictionary<Material, Material> textMaterials = new Dictionary<Material, Material>();
     private readonly Dictionary<TextMeshProUGUI, string[]> themedText = new Dictionary<TextMeshProUGUI, string[]>();
     private readonly HashSet<Transform> headerRoots = new HashSet<Transform>();
+    private readonly HashSet<Image> borderedPanels = new HashSet<Image>();
     private Transform canvasRoot;
     private Image[] images;
     private TextMeshProUGUI[] texts;
@@ -39,8 +41,8 @@ public sealed class PenguinUiTheme : MonoBehaviour
     public static Color HeaderBlue => new Color32(43, 109, 143, 255);
     public static Color Orange => new Color32(255, 178, 76, 255);
 
-    private void Start() => Apply();
-    private void OnEnable() { if (client != null && !applied) Apply(); }
+    private void Start() { if (!StaticUiBaked) Apply(); }
+    private void OnEnable() { if (!StaticUiBaked && client != null && !applied) Apply(); }
     private void Apply()
     {
         if (applied || Panel == null) return;
@@ -55,6 +57,8 @@ public sealed class PenguinUiTheme : MonoBehaviour
             {
                 // Skin_Colors also tint the gameplay hand; keep the approved character.
                 if (component is Skin_manager && field.Name == "Skin_Colors") continue;
+                // Grade identity is gameplay information: retain all native hues.
+                if (field.Name == "Degree_Colors") continue;
                 if (field.FieldType == typeof(Color))
                 {
                     var old = (Color)field.GetValue(component);
@@ -134,14 +138,37 @@ public sealed class PenguinUiTheme : MonoBehaviour
             next.disabledColor = new Color(.64f, .74f, .80f, old.disabledColor.a);
             restore.Add(() => { if (button != null) button.colors = old; }); button.colors = next;
         }
-        var loading = canvas.transform.Find("SafeArea/Main_UI/Loading_UI/Background/Cat/Cat_Pivot");
+        var loading = client.LoadingUI.transform.Find("Background");
         if (loading != null)
         {
             var go = new GameObject("Penguin loading mascot", typeof(RectTransform), typeof(Image));
             var rt = (RectTransform)go.transform; rt.SetParent(loading, false);
-            rt.sizeDelta = new Vector2(220, 260); rt.anchoredPosition = new Vector2(0, 75);
+            rt.sizeDelta = new Vector2(170, 205); rt.anchoredPosition = new Vector2(0, 150);
+            var nativeAnimation=loading.Find("Cat").GetComponent<Animator>();
+            if(nativeAnimation!=null)
+            {
+                bool wasEnabled=nativeAnimation.enabled;nativeAnimation.enabled=false;
+                restore.Add(()=>{if(nativeAnimation!=null)nativeAnimation.enabled=wasEnabled;});
+            }
+            go.AddComponent<PenguinLoadingMascot>().Configure(canvas.rootCanvas,
+                (RectTransform)loading,(RectTransform)loading.Find("Cat/Loading_Txt"),
+                (RectTransform)loading.Find("Cat/Image"),PenguinLoadingMascot.Motion.Walking,Penguin);
             var image = go.GetComponent<Image>(); image.sprite = Penguin; image.preserveAspect = true; image.raycastTarget = false;
             restore.Add(() => { if (go != null) Destroy(go); });
+        }
+        var setting=canvas.GetComponentInChildren<Setting>(true);
+        if(setting!=null&&setting.EcoCat_img!=null)
+        {
+            foreach(var tween in setting.EcoPanel_obj.GetComponentsInChildren<RecoveryEcoTween>(true))
+            {
+                bool wasEnabled=tween.enabled;tween.enabled=false;
+                restore.Add(()=>{if(tween!=null)tween.enabled=wasEnabled;});
+            }
+            var actor=setting.EcoCat_img.gameObject.AddComponent<PenguinLoadingMascot>();
+            var backdrop=(RectTransform)setting.EcoPanel_obj.transform.Find("Background");
+            actor.Configure(canvas.rootCanvas,backdrop,(RectTransform)backdrop.Find("Loading_Txt"),
+                (RectTransform)backdrop.Find("Shadow"),PenguinLoadingMascot.Motion.Battling,Penguin);
+            restore.Add(()=>{if(actor!=null){actor.enabled=false;Destroy(actor);}});
         }
         foreach (var upgrade in client.UpgradePanels)
         {
@@ -150,11 +177,19 @@ public sealed class PenguinUiTheme : MonoBehaviour
             bool buff = client.ReadyForPlay && client.BuffMultiplier(Upgrade_Ingame.ToBuffType(upgrade.type)) > 1;
             upgrade.Fill.color = upgrade.Fill_Colors[buff ? 1 : 0]; upgrade.Panel_img.color = upgrade.Panel_Colors[buff ? 1 : 0];
         }
-        foreach(var hand in new[]{client.Tutorial.CatHand_Upgrade,client.Tutorial.CatHand_GunOpen,client.Tutorial.CatHand_GunBuy})
+        foreach(var hand in new[]{client.Tutorial.CatHand_Upgrade,client.Tutorial.CatHand_Challenge,client.Tutorial.CatHand_GunOpen,client.Tutorial.CatHand_GunBuy})
         {
             if(hand==null)continue;var image=hand.GetComponentInChildren<Image>(true);if(image==null)continue;
-            var pointer=image.gameObject.AddComponent<PenguinGuidePointer>();pointer.Configure(image,Flipper,canvas);restore.Add(()=>{if(pointer!=null)Destroy(pointer);});
+            var pointer=image.gameObject.AddComponent<PenguinGuidePointer>();pointer.Configure(image,Flipper,canvas,(RectTransform)(hand==client.Tutorial.CatHand_Challenge?client.Tutorial.ChallengeButton.transform:hand==client.Tutorial.CatHand_GunOpen?client.Tutorial.GunButton.transform:hand==client.Tutorial.CatHand_GunBuy?client.Tutorial.GunBuyButton.transform:client.UpgradePanels[0].transform),hand==client.Tutorial.CatHand_Challenge);restore.Add(()=>{if(pointer!=null)Destroy(pointer);});
         }
+        foreach(var image in images) AddPanelBorder(image);
+        foreach(var upgrade in client.UpgradePanels)
+        {
+            if(upgrade==null||upgrade.Buff_Icon_obj==null)continue;
+            var icon=upgrade.Buff_Icon_obj.transform;int index=icon.GetSiblingIndex();
+            restore.Add(()=>{if(icon!=null)icon.SetSiblingIndex(index);});
+        }
+        RaiseBuffIcons();
         client.Slider.Hole_Color = new Color[] { new Color32(143, 194, 215, 255), Orange, Blue };
         var pass = canvas.transform.Find("SafeArea/Mission_maanger/Mission_UI/Reward/Pass_Purchase_Btn") as RectTransform;
         var scaler = canvas.GetComponent<CanvasScaler>();
@@ -172,6 +207,16 @@ public sealed class PenguinUiTheme : MonoBehaviour
         Canvas.willRenderCanvases += MaintainDynamicSprites;
     }
 
+#if UNITY_EDITOR
+    public void BakeStaticUi()
+    {
+        if (StaticUiBaked) throw new InvalidOperationException("UI already authored; rebaking would overwrite manual edits");
+        Apply();
+        Canvas.willRenderCanvases -= MaintainDynamicSprites;
+        restore.Clear(); materials.Clear(); themedText.Clear(); textMaterials.Clear();
+        StaticUiBaked = true; applied = false;
+    }
+#endif
     private static string PathOf(Transform t, Transform root)
     { string p = t.name; while (t.parent != null && t != root) { t = t.parent; p = t.name + "/" + p; } return p; }
     private static bool IsPanel(Sprite s)
@@ -179,6 +224,21 @@ public sealed class PenguinUiTheme : MonoBehaviour
         if (s == null) return false; string n = s.name;
         return n.StartsWith("ui ") || n.StartsWith("u i ") || n.StartsWith("Panel_") || n.StartsWith("Relic_Panel") ||
             n.StartsWith("Title_Ribbon") || n.StartsWith("StageFrame_") || n == "Frame_TableFrame01_Line" || n.Contains("flat-ui-panel") || n.Contains("flat-ui-fill") || n.Contains("flat-ui-outline");
+    }
+    private void AddPanelBorder(Image image)
+    {
+        if(image==null||image.sprite==null||image.color.a<.9f)return;
+        bool button=image.GetComponent<Button>()!=null;
+        if(image.sprite!=Panel&&!image.sprite.name.Contains("flat-ui-panel")&&!(button&&image.sprite==Fill))return;
+        if(image.rectTransform.rect.width<24||image.rectTransform.rect.height<24||image.name=="Event_obj")return;
+        if(!borderedPanels.Add(image))return;
+        if(image.transform.Find("Panel edge")!=null)return;
+        var go=new GameObject("Panel edge",typeof(RectTransform),typeof(CanvasRenderer),typeof(LayoutElement),typeof(PenguinPanelBorder));
+        go.layer=image.gameObject.layer;var rt=(RectTransform)go.transform;rt.SetParent(image.transform,false);
+        rt.anchorMin=Vector2.zero;rt.anchorMax=Vector2.one;rt.offsetMin=rt.offsetMax=Vector2.zero;
+        go.GetComponent<LayoutElement>().ignoreLayout=true;
+        go.GetComponent<PenguinPanelBorder>().Configure(button?3:1.75f,Navy);
+        restore.Add(()=>{if(go!=null){go.name="Retired panel edge";go.SetActive(false);Destroy(go);}});
     }
     private void StyleImage(Image image, string path)
     {
@@ -250,17 +310,28 @@ public sealed class PenguinUiTheme : MonoBehaviour
     }
     private void MaintainDynamicSprites()
     {
-        if (!applied) return;
+        if (StaticUiBaked || !applied) return;
         foreach (var image in images)
         {
             if (image == null || !image.isActiveAndEnabled || image.sprite == null) continue;
             if (replacements.TryGetValue(image.sprite, out var replacement)) { image.sprite = replacement; image.preserveAspect = true; }
             else if (IsPanel(image.sprite) && image.sprite != Panel && image.sprite != Fill && image.sprite != Outline) StyleImage(image, PathOf(image.transform, canvasRoot));
+            AddPanelBorder(image);
         }
+        RaiseBuffIcons();
+    }
+    private void RaiseBuffIcons()
+    {
+        foreach(var upgrade in client.UpgradePanels)
+            if(upgrade!=null&&upgrade.Buff_Icon_obj!=null)
+            {
+                var icon=upgrade.Buff_Icon_obj.transform;
+                if(icon.GetSiblingIndex()!=icon.parent.childCount-1)icon.SetAsLastSibling();
+            }
     }
     private void LateUpdate()
     {
-        if (!applied) return;
+        if (StaticUiBaked || !applied) return;
         // TMP rebuilds in the Canvas pre-render callback. Resolve locale/theme
         // changes before that callback so a rendered frame never sees a cleared mesh.
         foreach (var text in texts)
@@ -322,6 +393,15 @@ public sealed class PenguinUiTheme : MonoBehaviour
     private static bool SameRgb(Color a, Color b) => Mathf.Abs(a.r-b.r)<.002f && Mathf.Abs(a.g-b.g)<.002f && Mathf.Abs(a.b-b.b)<.002f;
     private static bool IsThemeAccent(Color c) => IsNearWhite(c) || SameRgb(c, Ice) || SameRgb(c, Blue) || SameRgb(c, Orange) ||
         SameRgb(c, new Color32(255,127,113,255)) || SameRgb(c, new Color32(137,154,219,255)) || SameRgb(c, new Color32(116,203,238,255));
+    public static string DisplayWording(string source)
+    {
+        if(string.IsNullOrEmpty(source))return source;
+        string value=source.Replace("树木","冰块").Replace("棵树","块冰块").Replace("樹木","冰塊").Replace("棵樹","塊冰塊")
+            .Replace("小猫","企鹅").Replace("猫咪","企鹅").Replace("小貓","企鵝").Replace("貓咪","企鵝")
+            .Replace("나무","얼음").Replace("고양이","펭귄").Replace("새로운 총 획득!","获得新武器！");
+        if(value!=source&&(source.Contains("树")||source.Contains("樹")))value=value.Replace("破坏","清除").Replace("破壞","清除");
+        return Regex.Replace(Regex.Replace(value,@"\btrees?\b","ice blocks",RegexOptions.IgnoreCase),@"\bcats?\b","penguins",RegexOptions.IgnoreCase);
+    }
     private void ThemeWording(TextMeshProUGUI text)
     {
         string source = text.text;
@@ -358,7 +438,7 @@ public sealed class PenguinUiTheme : MonoBehaviour
         foreach (var item in themedText) if (item.Key != null && item.Key.text == item.Value[1]) item.Key.text = item.Value[0];
         themedText.Clear();
         for (int i = restore.Count - 1; i >= 0; i--) restore[i]();
-        restore.Clear(); replacements.Clear(); textMaterials.Clear(); headerRoots.Clear();
+        restore.Clear(); replacements.Clear(); textMaterials.Clear(); headerRoots.Clear(); borderedPanels.Clear();
         foreach (var material in materials) if (material != null) Destroy(material);
         materials.Clear(); applied = false; StyledImageCount = StyledTextCount = 0;
     }

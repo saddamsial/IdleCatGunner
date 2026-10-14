@@ -2,26 +2,34 @@ using UnityEngine;
 using UnityEngine.UI;
 namespace CatGunner.Recovery
 {
-    // Original tutorial owns activation, target anchors and pulsing scale.
-    // Only a child visual flips above the target when the old hand would clip.
+    // The original tutorial owns activation and pulse. The fingertip is the
+    // visual pivot, pinned to the actual button even while its parent scales.
+    [DefaultExecutionOrder(330)]
     public sealed class PenguinGuidePointer:MonoBehaviour
     {
-        private Image source,visual;private bool oldEnabled;private Canvas canvas;private readonly Vector3[] corners=new Vector3[4];
+        [SerializeField] Image source,visual;bool oldEnabled;[SerializeField] Canvas canvas;public RectTransform Target;
+        public bool Authored;
+        public float AimAngle;
         public Image Visual=>visual;
-        public void Configure(Image original,Sprite sprite,Canvas owner)
+        [SerializeField] bool straightUp;
+        public bool PointStraightUp { get=>straightUp; set=>straightUp=value; }
+        public void Configure(Image original,Sprite sprite,Canvas owner,RectTransform target=null,bool pointStraightUp=false)
         {
-            source=original;oldEnabled=source.enabled;source.enabled=false;canvas=owner;
+            source=original;oldEnabled=source.enabled;source.enabled=false;canvas=owner;Target=target;straightUp=pointStraightUp;AimAngle=straightUp?0:45;
             var go=new GameObject("Penguin guide visual",typeof(RectTransform),typeof(Image));go.layer=source.gameObject.layer;
-            var rt=(RectTransform)go.transform;rt.SetParent(source.transform,false);rt.anchorMin=rt.anchorMax=rt.pivot=Vector2.one*.5f;rt.sizeDelta=source.rectTransform.rect.size;
-            visual=go.GetComponent<Image>();visual.sprite=sprite;visual.preserveAspect=true;visual.raycastTarget=false;visual.color=source.color;LateUpdate();
+            var rt=(RectTransform)go.transform;rt.SetParent(source.transform,false);rt.anchorMin=rt.anchorMax=Vector2.one*.5f;rt.pivot=sprite.pivot/sprite.rect.size;rt.sizeDelta=new Vector2(112,132);
+            visual=go.GetComponent<Image>();visual.sprite=sprite;visual.preserveAspect=false;visual.raycastTarget=false;visual.color=Color.white;LateUpdate();
         }
-        private void LateUpdate()
+        void LateUpdate()
         {
-            if(source==null||visual==null)return;source.enabled=false;source.rectTransform.GetWorldCorners(corners);
-            var camera=canvas.renderMode==RenderMode.ScreenSpaceOverlay?null:canvas.worldCamera;
-            float low=float.MaxValue;foreach(var corner in corners)low=Mathf.Min(low,RectTransformUtility.WorldToScreenPoint(camera,corner).y);
-            bool above=low<8;visual.rectTransform.localRotation=Quaternion.Euler(0,0,above?180:0);visual.rectTransform.anchoredPosition=above?new Vector2(0,source.rectTransform.rect.height):Vector2.zero;
+            if(source==null||visual==null)return;source.enabled=false;
+            // Keep the palm below the button; the right-edge challenge cue is upright.
+            // Upright challenge fingertip sits at the bottom edge, below its caption.
+            // Other cues keep their approved upper-quarter aim and diagonal pose.
+            var point=Target!=null?Target.TransformPoint(Target.rect.center+Vector2.up*Target.rect.height*(straightUp?-.45f:.25f)):source.rectTransform.position;
+            visual.rectTransform.rotation=canvas.transform.rotation*Quaternion.Euler(0,0,AimAngle);
+            visual.rectTransform.position=point;
         }
-        private void OnDestroy(){if(source!=null)source.enabled=oldEnabled;if(visual!=null)Destroy(visual.gameObject);}
+        void OnDestroy(){if(Authored)return;if(source!=null)source.enabled=oldEnabled;if(visual!=null)Destroy(visual.gameObject);}
     }
 }

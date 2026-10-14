@@ -13,6 +13,7 @@ public sealed class Tutorial_manager : MonoBehaviour
     public static Tutorial_manager instance;
     public GameObject[] DisableOnTutorial;
     public GameObject CatHand_Upgrade,CatHand_GunOpen,CatHand_GunBuy;
+    [field:SerializeField] public GameObject CatHand_Challenge {get;private set;}
     public TutorialArrow_UI ArrowGunEquip;
     public GameObject ChallengeButton,GunButton,GunBuyButton;
     public TutorialStep CurrentStep {get;private set;}
@@ -24,10 +25,27 @@ public sealed class Tutorial_manager : MonoBehaviour
     public void Bind(RecoveryForestClient owner)
     {
         if(bound)return;client=owner;bound=true;
+        // Local extra cue reuses the recovered hand/pulse without changing its
+        // serialized references or the native challenge-unlock predicate.
+        if(CatHand_Challenge==null&&CatHand_GunOpen!=null)
+        {
+            CatHand_Challenge=Instantiate(CatHand_GunOpen,CatHand_GunOpen.transform.parent,false);
+            CatHand_Challenge.name="ChallengeGuideHand";CatHand_Challenge.SetActive(false);
+        }
         // Original LoadData calls SetCleared before Tutorial_manager.Start.
         cleared|=owner.State.TutorialCleared;
         if(cleared||owner.State.Upgrade_Lv[0]>=1)CompleteTutorial();else BeginTutorial();
     }
+#if UNITY_EDITOR
+    public void BakeChallengeCue()
+    {
+        if(CatHand_Challenge!=null||CatHand_GunOpen==null)return;
+        CatHand_Challenge=Instantiate(CatHand_GunOpen,CatHand_GunOpen.transform.parent,false);
+        CatHand_Challenge.name="ChallengeGuideHand";CatHand_Challenge.SetActive(false);
+        var pointer=CatHand_Challenge.GetComponentInChildren<PenguinGuidePointer>(true);
+        if(pointer!=null){pointer.Target=(RectTransform)ChallengeButton.transform;pointer.AimAngle=0;pointer.PointStraightUp=true;}
+    }
+#endif
     public void SetCleared(){cleared=true;StopAllCoroutines();moneyCheck=null;CompleteTutorial();}
     public void RequestIfNeeded(){} // Original method is an empty return.
     public void BeginTutorial()
@@ -43,10 +61,11 @@ public sealed class Tutorial_manager : MonoBehaviour
         foreach(var go in DisableOnTutorial??Array.Empty<GameObject>())Active(go,true);
         Contents_Unlock_manager.instance?.Reload();gameObject.SetActive(false);
     }
-    private void HideHands(){Active(CatHand_Upgrade,false);Active(CatHand_GunOpen,false);Active(CatHand_GunBuy,false);if(ArrowGunEquip!=null)Active(ArrowGunEquip.gameObject,false);}
+    private void HideHands(){Active(CatHand_Upgrade,false);Active(CatHand_Challenge,false);Active(CatHand_GunOpen,false);Active(CatHand_GunBuy,false);if(ArrowGunEquip!=null)Active(ArrowGunEquip.gameObject,false);}
     private static void Active(GameObject go,bool value){if(go!=null)go.SetActive(value);}
     private void SetStep(TutorialStep step)
     {
+        Active(CatHand_Challenge,false);
         CurrentStep=step;
         switch(step)
         {
@@ -77,6 +96,8 @@ public sealed class Tutorial_manager : MonoBehaviour
         while(CurrentStep==TutorialStep.Challenge)
         {
             if(client.SpeedRun!=null&&client.SpeedRun.Stage_Now>0){SetStep(TutorialStep.GunOpen);yield break;}
+            Active(CatHand_Challenge,ChallengeButton!=null&&ChallengeButton.activeInHierarchy&&client.Mode==0&&
+                !client.IsStarting&&!client.IsTransitioning&&client.SpeedRun!=null&&!client.SpeedRun.Start_UI.gameObject.activeInHierarchy);
             yield return Poll;
         }
     }

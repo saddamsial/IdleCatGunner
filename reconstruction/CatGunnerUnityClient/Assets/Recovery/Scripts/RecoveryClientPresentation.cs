@@ -13,10 +13,14 @@ namespace CatGunner.Recovery
     public sealed class RecoveryClientPresentation : MonoBehaviour
     {
         RecoveryForestClient client;
-        public GameObject DrawInformation {get;private set;}
-        public Gun_Collection_UI Collection {get;private set;}
-        TextMeshProUGUI drawPrice;
-        Transform weaponRoot;
+        public bool StaticUiBaked;
+        [SerializeField] Button shopButton,informationButton,collectionButton;
+        [SerializeField] Currency weaponWallet;
+        [SerializeField] RectTransform safeArea;
+        [field:SerializeField] public GameObject DrawInformation {get;private set;}
+        [field:SerializeField] public Gun_Collection_UI Collection {get;private set;}
+        [SerializeField] TextMeshProUGUI drawPrice;
+        [SerializeField] Transform weaponRoot;
         public void Bind(RecoveryForestClient owner)
         {
             client=owner;
@@ -29,6 +33,16 @@ namespace CatGunner.Recovery
             OriginalSeasonPreview.Bind(canvas.transform);
             OriginalModeText.Load().Apply(canvas.transform,CatGunner.Recovery.RecoveryLanguage.Current);
             OriginalRemainingUIExt.Apply(canvas.transform,CatGunner.Recovery.RecoveryLanguage.Current);
+            if(StaticUiBaked)
+            {
+                BindButton(shopButton,owner.LocalStore.OpenShop);
+                BindButton(informationButton,OpenInformation);BindButton(collectionButton,Collection.UI_Reload);
+                weaponWallet.Bind(owner);RefreshWeaponStaticText(RecoveryLanguage.Current);
+                owner.MoneyChanged+=ReloadWallet;ReloadWallet();
+                (GetComponent<RecoveryMobileViewport>()??gameObject.AddComponent<RecoveryMobileViewport>()).Bind(safeArea);
+                if(GetComponent<RecoveryMobilePerformance>()==null)gameObject.AddComponent<RecoveryMobilePerformance>();
+                GetComponent<RecoveryLanguage>().Bind(canvas.transform,this);return;
+            }
             var all=canvas.GetComponentsInChildren<Transform>(true);
             Layout(all.Single(t=>t.name=="Left_Menu"),TextAnchor.LowerLeft,
                 new[]{"StepUp_obj","Buff_obj","Shop_Btn","Rebirth_Btn","Pet_Btn ","Fish_Btn","Skin_Btn","Gun_Btn"});
@@ -60,13 +74,41 @@ namespace CatGunner.Recovery
             if(GetComponent<RecoveryMobilePerformance>()==null)gameObject.AddComponent<RecoveryMobilePerformance>();
             (GetComponent<RecoveryLanguage>()??gameObject.AddComponent<RecoveryLanguage>()).Bind(canvas.transform,this);
         }
-        public void OpenInformation(){DrawInformation.SetActive(true);DrawInformation.transform.SetAsLastSibling();}
+#if UNITY_EDITOR
+        public void BakeStaticUi(RecoveryForestClient owner)
+        {
+            if(StaticUiBaked)throw new InvalidOperationException("Presentation already authored");
+            var canvas=owner.Slider.GetComponentInParent<Canvas>();
+            var left=canvas.transform.Find("SafeArea/Main_UI/Btn_list/Left_Menu");
+            var right=canvas.transform.Find("SafeArea/Main_UI/Btn_list/Right_Menu");
+            Layout(left,TextAnchor.LowerLeft,new[]{"StepUp_obj","Buff_obj","Shop_Btn","Rebirth_Btn","Pet_Btn ","Fish_Btn","Skin_Btn","Gun_Btn"});
+            Layout(right,TextAnchor.LowerRight,new[]{"DiaPig_obj","Auto_obj","Raid_Btn","Adventure_Btn","Monster_Btn","Boss_Btn","Mine_Btn","SpeedRun_Btn"});
+            shopButton=left.Find("Shop_Btn").GetComponent<Button>();
+            weaponRoot=canvas.GetComponentsInChildren<Transform>(true).Single(t=>t.name=="Gun_UI  (SafeArea)");
+            DrawInformation=UnityEditor.PrefabUtility.InstantiatePrefab(Resources.Load<GameObject>("OriginalWeaponDrawInformation"),weaponRoot) as GameObject;
+            DrawInformation.name="Draw_Info_UI";DrawInformation.SetActive(false);
+            var collection=UnityEditor.PrefabUtility.InstantiatePrefab(Resources.Load<GameObject>("OriginalWeaponCollection"),weaponRoot) as GameObject;
+            collection.name="GunCollection_UI";Collection=collection.GetComponent<Gun_Collection_UI>();collection.SetActive(false);
+            var page=weaponRoot.Find("GunList_UI");var buttons=page.GetComponentsInChildren<Button>(true);
+            informationButton=buttons.Single(b=>b.name=="Info_Btn");collectionButton=buttons.Single(b=>b.name=="Collection_Btn");
+            var currency=page.Find("Panel/Menu (Gun List)/Currency");weaponWallet=currency.GetComponent<Currency>()??currency.gameObject.AddComponent<Currency>();
+            weaponWallet.Money_txt=currency.Find("Money/Price_txt").GetComponent<TextMeshProUGUI>();weaponWallet.Dia_txt=currency.Find("Dia/Price_txt").GetComponent<TextMeshProUGUI>();currency.Find("Money").gameObject.SetActive(false);
+            drawPrice=buttons.Single(b=>b.name=="Draw_Btn").transform.Find("Price_txt").GetComponent<TextMeshProUGUI>();
+            safeArea=(RectTransform)canvas.transform.Find("SafeArea");
+            RefreshWeaponStaticText(RecoveryLanguage.Current);StaticUiBaked=true;
+        }
+#endif
+        public void OpenInformation(){DrawInformation.SetActive(true);if(!StaticUiBaked)DrawInformation.transform.SetAsLastSibling();}
         public void RefreshWeaponStaticText(SystemLanguage language)=>OriginalWeaponStaticText.Load().Apply(weaponRoot,DrawInformation.transform,language);
         void ReloadWallet(){if(drawPrice!=null)drawPrice.color=client.State.Dia>=100?Color.white:client.UpgradePanels[0].Color_Disable;}
         static void BindButton(Button button,UnityEngine.Events.UnityAction action)
         {
-            for(int i=0;i<button.onClick.GetPersistentEventCount();i++)button.onClick.SetPersistentListenerState(i,UnityEngine.Events.UnityEventCallState.Off);
-            button.interactable=true;button.onClick.AddListener(action);
+            if(RecoveryUiAuthoring.For(button.transform)?.StaticUiBaked!=true)
+            {
+                for(int i=0;i<button.onClick.GetPersistentEventCount();i++)button.onClick.SetPersistentListenerState(i,UnityEngine.Events.UnityEventCallState.Off);
+                button.interactable=true;
+            }
+            button.onClick.AddListener(action);
         }
         static void Layout(Transform parent,TextAnchor alignment,string[] order)
         {

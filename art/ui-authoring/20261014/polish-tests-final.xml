@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="13" result="Passed" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-14 04:23:05Z" end-time="2026-10-14 04:24:47Z" duration="102.4123912">
+  <test-suite type="TestSuite" id="13869" name="企鹅破冰探险" fullname="企鹅破冰探险" runstate="Runnable" testcasecount="8570" result="Passed" start-time="2026-10-14 04:23:05Z" end-time="2026-10-14 04:24:47Z" duration="102.412391" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1680" name="CatGunner.Recovery.PlayModeTests.dll" fullname="/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Library/ScriptAssemblies/CatGunner.Recovery.PlayModeTests.dll" runstate="Runnable" testcasecount="574" result="Passed" start-time="2026-10-14 04:23:05Z" end-time="2026-10-14 04:24:47Z" duration="102.379909" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="32946" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestFixture" id="1593" name="PenguinPlaytestPolishTests" fullname="PenguinPlaytestPolishTests" classname="PenguinPlaytestPolishTests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-10-14 04:23:05Z" end-time="2026-10-14 04:24:47Z" duration="102.372790" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1595" name="AutoMergeSwitchAnimatesInPausedUIWithoutGrantingEntitlement" fullname="PenguinPlaytestPolishTests.AutoMergeSwitchAnimatesInPausedUIWithoutGrantingEntitlement" methodname="AutoMergeSwitchAnimatesInPausedUIWithoutGrantingEntitlement" classname="PenguinPlaytestPolishTests" runstate="Runnable" seed="1718337166" result="Passed" start-time="2026-10-14 04:23:05Z" end-time="2026-10-14 04:23:14Z" duration="8.811129" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1603" name="BigStagesSelectOneFamilyAndRepeatOriginalTenStageCycle" fullname="PenguinPlaytestPolishTests.BigStagesSelectOneFamilyAndRepeatOriginalTenStageCycle" methodname="BigStagesSelectOneFamilyAndRepeatOriginalTenStageCycle" classname="PenguinPlaytestPolishTests" runstate="Runnable" seed="525047164" result="Passed" start-time="2026-10-14 04:23:14Z" end-time="2026-10-14 04:23:21Z" duration="7.356633" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1596" name="FishInformationOccludesFishAndReceivesInput" fullname="PenguinPlaytestPolishTests.FishInformationOccludesFishAndReceivesInput" methodname="FishInformationOccludesFishAndReceivesInput" classname="PenguinPlaytestPolishTests" runstate="Runnable" seed="848239644" result="Passed" start-time="2026-10-14 04:23:21Z" end-time="2026-10-14 04:23:28Z" duration="6.717515" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1602" name="FishMovesFacesAndFlexesItsTailWhileGameplayIsPaused" fullname="PenguinPlaytestPolishTests.FishMovesFacesAndFlexesItsTailWhileGameplayIsPaused" methodname="FishMovesFacesAndFlexesItsTailWhileGameplayIsPaused" classname="PenguinPlaytestPolishTests" runstate="Runnable" seed="2113743658" result="Passed" start-time="2026-10-14 04:23:28Z" end-time="2026-10-14 04:23:34Z" duration="6.883798" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1594" name="GradePanelsRetainOriginalDistinctColors" fullname="PenguinPlaytestPolishTests.GradePanelsRetainOriginalDistinctColors" methodname="GradePanelsRetainOriginalDistinctColors" classname="PenguinPlaytestPolishTests" runstate="Runnable" seed="1466809447" result="Passed" start-time="2026-10-14 04:23:34Z" end-time="2026-10-14 04:23:41Z" duration="6.851932" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1605" name="HuntDescriptionAndPetWalletUsePetCurrencyRatherThanVipStar" fullname="PenguinPlaytestPolishTests.HuntDescriptionAndPetWalletUsePetCurrencyRatherThanVipStar" methodname="HuntDescriptionAndPetWalletUsePetCurrencyRatherThanVipStar" classname="PenguinPlaytestPolishTests" runstate="Runnable" seed="816461809" result="Passed" start-time="2026-10-14 04:23:41Z" end-time="2026-10-14 04:23:48Z" duration="6.699507" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1599" name="LoadingMascotAndStepUpHeaderStayVisible" fullname="PenguinPlaytestPolishTests.LoadingMascotAndStepUpHeaderStayVisible" methodname="LoadingMascotAndStepUpHeaderStayVisible" classname="PenguinPlaytestPolishTests" runstate="Runnable" seed="278699994" result="Passed" start-time="2026-10-14 04:23:48Z" end-time="2026-10-14 04:23:55Z" duration="7.137474" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1600" name="NewStatusLabelsContainRenderableChineseGlyphs" fullname="PenguinPlaytestPolishTests.NewStatusLabelsContainRenderableChineseGlyphs" methodname="NewStatusLabelsContainRenderableChineseGlyphs" classname="PenguinPlaytestPolishTests" runstate="Runnable" seed="1243669211" result="Passed" start-time="2026-10-14 04:23:55Z" end-time="2026-10-14 04:24:02Z" duration="7.127978" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1601" name="PausedSettlementFinishesAnimationAndFreeCashRespondsWithoutReward" fullname="PenguinPlaytestPolishTests.PausedSettlementFinishesAnimationAndFreeCashRespondsWithoutReward" methodname="PausedSettlementFinishesAnimationAndFreeCashRespondsWithoutReward" classname="PenguinPlaytestPolishTests" runstate="Runnable" seed="725814904" result="Passed" start-time="2026-10-14 04:24:02Z" end-time="2026-10-14 04:24:18Z" duration="15.620855" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1604" name="PetActuallyChangesFrontSideRearAndStaysUnderAttackEffects" fullname="PenguinPlaytestPolishTests.PetActuallyChangesFrontSideRearAndStaysUnderAttackEffects" methodname="PetActuallyChangesFrontSideRearAndStaysUnderAttackEffects" classname="PenguinPlaytestPolishTests" runstate="Runnable" seed="1751151595" result="Passed" start-time="2026-10-14 04:24:18Z" end-time="2026-10-14 04:24:26Z" duration="8.037670" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1598" name="RequestedProgressBordersAndSettlementBackplatesAreCorrect" fullname="PenguinPlaytestPolishTests.RequestedProgressBordersAndSettlementBackplatesAreCorrect" methodname="RequestedProgressBordersAndSettlementBackplatesAreCorrect" classname="PenguinPlaytestPolishTests" runstate="Runnable" seed="2146247675" result="Passed" start-time="2026-10-14 04:24:26Z" end-time="2026-10-14 04:24:33Z" duration="6.881312" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1597" name="StepUpCardsScrollAndKeepHeaderOutsideViewport" fullname="PenguinPlaytestPolishTests.StepUpCardsScrollAndKeepHeaderOutsideViewport" methodname="StepUpCardsScrollAndKeepHeaderOutsideViewport" classname="PenguinPlaytestPolishTests" runstate="Runnable" seed="1193978978" result="Passed" start-time="2026-10-14 04:24:33Z" end-time="2026-10-14 04:24:40Z" duration="7.243291" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1606" name="VipRowsAndReclaimButtonsHaveVisibleNormalSurfaces" fullname="PenguinPlaytestPolishTests.VipRowsAndReclaimButtonsHaveVisibleNormalSurfaces" methodname="VipRowsAndReclaimButtonsHaveVisibleNormalSurfaces" classname="PenguinPlaytestPolishTests" runstate="Runnable" seed="729062229" result="Passed" start-time="2026-10-14 04:24:40Z" end-time="2026-10-14 04:24:47Z" duration="6.984677" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: /Users/rongdahuikeji/Library/Application Support/Ravanla/企鹅破冰探险/TestResults.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

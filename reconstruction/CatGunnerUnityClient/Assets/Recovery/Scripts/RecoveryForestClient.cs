@@ -16,6 +16,8 @@ namespace CatGunner.Recovery
         public Cat Hero;
         public GameSlider Slider;
         public GameObject WinUI,FailUI,LoadingUI;
+        public bool StaticUiBaked;
+        private bool authoredLoadingCaptured;private int authoredLoadingOrder;
         public Upgrade_Ingame[] UpgradePanels;
         public Currency Currency;
         public Gun_manager Guns;
@@ -94,7 +96,7 @@ namespace CatGunner.Recovery
             Instance=this;IsStarting=true;ForestRuntimeAcceptance.IsGaming=false;
             SetActive(Forest!=null?Forest.Map_obj:null,false);
             ShowLoading(true);
-            if(LoadingUI!=null)LoadingUI.transform.SetAsLastSibling();
+            if(!StaticUiBaked&&LoadingUI!=null)LoadingUI.transform.SetAsLastSibling();
             startupUpgradeVisibility=(UpgradePanels??Array.Empty<Upgrade_Ingame>()).Select(p=>p!=null&&p.gameObject.activeSelf).ToArray();
             foreach(var panel in UpgradePanels??Array.Empty<Upgrade_Ingame>())if(panel!=null)panel.gameObject.SetActive(false);
         }
@@ -363,12 +365,22 @@ namespace CatGunner.Recovery
         public void ShowLoading(bool show,bool coverMenus=true)
         {
             if(LoadingUI==null)return;
+            if(StaticUiBaked)
+            {
+                var overlay=LoadingUI.GetComponent<Canvas>();
+                if(!authoredLoadingCaptured){authoredLoadingOrder=overlay.sortingOrder;authoredLoadingCaptured=true;}
+                bool initializing=show&&coverMenus&&IsStarting;
+                overlay.overrideSorting=true;overlay.sortingOrder=initializing?10001:authoredLoadingOrder;
+                LoadingUI.GetComponent<CanvasGroup>().blocksRaycasts=initializing;
+                if(show)OriginalWeaponText.Set(RecoveryUiAuthoring.Find(LoadingUI.transform,"Background/Cat/Loading_Txt").GetComponent<TMPro.TMP_Text>(),RecoveryLanguage.TermText("고양이 이동중.."),RecoveryLanguage.Current);
+                LoadingUI.SetActive(show);return;
+            }
             if(loadingParent==null){loadingParent=LoadingUI.transform.parent;loadingSibling=LoadingUI.transform.GetSiblingIndex();}
             if(show)
             {
                 // Shared original loading screen must remain visible when Main_UI
                 // is hidden for a mode. Restore its authored parent after closing.
-                var loadingText=LoadingUI.transform.Find("Background/Cat/Loading_Txt").GetComponent<TMPro.TMP_Text>();
+                var loadingText=RecoveryUiAuthoring.Find(LoadingUI.transform,"Background/Cat/Loading_Txt").GetComponent<TMPro.TMP_Text>();
                 OriginalWeaponText.Set(loadingText,RecoveryLanguage.TermText("고양이 이동중.."),RecoveryLanguage.Current);
                 var canvas=Slider.GetComponentInParent<Canvas>().rootCanvas.transform;
                 bool initializing=coverMenus&&IsStarting;

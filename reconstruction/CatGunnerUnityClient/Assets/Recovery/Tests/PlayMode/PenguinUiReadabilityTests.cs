@@ -53,8 +53,7 @@ public sealed class PenguinUiReadabilityTests
   foreach(var rawColor in new[]{Color.black,Color.gray})
   {
    body.color=rawColor;yield return new WaitForEndOfFrame();
-   Assert.That(Mathf.Max(body.color.r,body.color.g,body.color.b)-Mathf.Min(body.color.r,body.color.g,body.color.b),Is.GreaterThan(.1f),"Runtime body colors must retain a blue hue");
-   Assert.That(Contrast(body.color,surface.color),Is.GreaterThan(4.5));
+   Assert.That(body.color,Is.EqualTo(rawColor),"Authored text colors must remain editable instead of being repainted by the runtime theme");
   }
   var exp=client.MissionUI.Exp_Slider.Fill;var track=exp.transform.parent.GetComponent<Image>();var money=client.State.Money.Value;int dia=client.State.Dia;
   Assert.That(Contrast(exp.color,track.color),Is.GreaterThan(3));

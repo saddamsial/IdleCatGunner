@@ -31,11 +31,7 @@ namespace CatGunner.Recovery
         }
         public TMP_Text Resolve(Transform canvas,Row row)
         {
-            int slash=row.Path.LastIndexOf('/');var parent=canvas.Find(row.Path.Substring(0,slash));
-            if(parent==null)return null;string name=row.Path.Substring(slash+1);int ordinal=0;
-            for(int i=0;i<parent.childCount;i++)
-            {var child=parent.GetChild(i);if(child.name==name&&ordinal++==row.SameNameOrdinal)return child.GetComponent<TMP_Text>();}
-            return null;
+            return RecoveryUiAuthoring.Find(canvas,row.Path,row.SameNameOrdinal)?.GetComponent<TMP_Text>();
         }
         public void Apply(Transform canvas,SystemLanguage language)
         {

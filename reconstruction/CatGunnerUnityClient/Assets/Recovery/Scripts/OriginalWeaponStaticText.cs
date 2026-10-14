@@ -35,7 +35,7 @@ namespace CatGunner.Recovery
             foreach(var row in Rows)
             {
                 var root=row.Scope=="Inventory"?inventory:row.Scope=="Information"?information:null;
-                var target=root!=null?root.Find(row.Path)?.GetComponent<TMP_Text>():null;
+                var target=root!=null?RecoveryUiAuthoring.Find(root,row.Path)?.GetComponent<TMP_Text>():null;
                 if(target==null)throw new InvalidOperationException("Original weapon label missing: "+row.Scope+"/"+row.Path);
                 OriginalWeaponText.Set(target,row.Values[locale],language);
             }

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="3" result="Passed" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-14 04:36:34Z" end-time="2026-10-14 04:37:03Z" duration="29.0691261">
+  <test-suite type="TestSuite" id="13869" name="企鹅破冰探险" fullname="企鹅破冰探险" runstate="Runnable" testcasecount="8570" result="Passed" start-time="2026-10-14 04:36:34Z" end-time="2026-10-14 04:37:03Z" duration="29.069126" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1680" name="CatGunner.Recovery.PlayModeTests.dll" fullname="/Volumes/ZHITAI_1T/IdleCatGunner/reconstruction/CatGunnerUnityClient/Library/ScriptAssemblies/CatGunner.Recovery.PlayModeTests.dll" runstate="Runnable" testcasecount="574" result="Passed" start-time="2026-10-14 04:36:34Z" end-time="2026-10-14 04:37:03Z" duration="29.053548" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="32946" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestFixture" id="1614" name="PenguinUiReadabilityTests" fullname="PenguinUiReadabilityTests" classname="PenguinUiReadabilityTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-14 04:36:34Z" end-time="2026-10-14 04:37:03Z" duration="29.048335" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1617" name="DailyResetAndLanguageRefreshKeepRowsAndClaimsCurrent" fullname="PenguinUiReadabilityTests.DailyResetAndLanguageRefreshKeepRowsAndClaimsCurrent" methodname="DailyResetAndLanguageRefreshKeepRowsAndClaimsCurrent" classname="PenguinUiReadabilityTests" runstate="Runnable" seed="702180207" result="Passed" start-time="2026-10-14 04:36:34Z" end-time="2026-10-14 04:36:44Z" duration="10.789971" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1616" name="ProgressHasContrastAndStillRendersZeroPartialAndFullValues" fullname="PenguinUiReadabilityTests.ProgressHasContrastAndStillRendersZeroPartialAndFullValues" methodname="ProgressHasContrastAndStillRendersZeroPartialAndFullValues" classname="PenguinUiReadabilityTests" runstate="Runnable" seed="1555744882" result="Passed" start-time="2026-10-14 04:36:44Z" end-time="2026-10-14 04:36:52Z" duration="7.468463" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1615" name="TimerTicksKeepThemedRowsRenderedWithoutRebuildingThem" fullname="PenguinUiReadabilityTests.TimerTicksKeepThemedRowsRenderedWithoutRebuildingThem" methodname="TimerTicksKeepThemedRowsRenderedWithoutRebuildingThem" classname="PenguinUiReadabilityTests" runstate="Runnable" seed="264331233" result="Passed" start-time="2026-10-14 04:36:52Z" end-time="2026-10-14 04:37:03Z" duration="10.780789" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: /Users/rongdahuikeji/Library/Application Support/Ravanla/企鹅破冰探险/TestResults.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

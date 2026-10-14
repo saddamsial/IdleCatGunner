@@ -16,6 +16,7 @@ public sealed class SlicedFilledImage : MaskableGraphic
     public Sprite sprite {get=>m_Sprite;set {m_Sprite=value;SetAllDirty();}}
     public FillDirection fillDirection {get=>m_FillDirection;set {m_FillDirection=value;SetVerticesDirty();}}
     public float fillAmount {get=>m_FillAmount;set {float v=Mathf.Clamp01(value);if(v==m_FillAmount)return;m_FillAmount=v;SetVerticesDirty();}}
+    public float pixelsPerUnitMultiplier {get=>m_PixelsPerUnitMultiplier;set {float v=Mathf.Max(.01f,value);if(v==m_PixelsPerUnitMultiplier)return;m_PixelsPerUnitMultiplier=v;SetVerticesDirty();}}
     public override Texture mainTexture => m_Sprite!=null?m_Sprite.texture:Texture2D.whiteTexture;
     protected override void OnPopulateMesh(VertexHelper vh)
     {

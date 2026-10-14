@@ -18,8 +18,8 @@ namespace CatGunner.Recovery
             if(data?.Rows?.Length!=2||data.Rows.Any(r=>r.ItemPaths?.Length!=3))throw new InvalidOperationException("Original season preview references incomplete");
             foreach(var row in data.Rows)
             {
-                var root=canvas.Find(row.Path);var purchase=canvas.Find(row.VipPath);
-                var items=row.ItemPaths.Select(path=>canvas.Find(path)?.GetComponent<Mission_Reward_Item>()).ToArray();
+                var root=RecoveryUiAuthoring.Find(canvas,row.Path);var purchase=RecoveryUiAuthoring.Find(canvas,row.VipPath);
+                var items=row.ItemPaths.Select(path=>RecoveryUiAuthoring.Find(canvas,path)?.GetComponent<Mission_Reward_Item>()).ToArray();
                 if(root==null||purchase==null||items.Any(x=>x==null))throw new InvalidOperationException("Original season preview objects missing");
                 var controller=root.GetComponent<NewSeason_UI>()??root.gameObject.AddComponent<NewSeason_UI>();
                 controller.Bind(purchase.gameObject,items);
